@@ -1,0 +1,69 @@
+import { Mall, Region, Category } from '@/types';
+import mallsData from '@/data/malls.json';
+import regionsData from '@/data/regions.json';
+import categoriesData from '@/data/categories.json';
+
+export function getMalls(): Mall[] {
+  return mallsData as Mall[];
+}
+
+export function getRegions(): Region[] {
+  return regionsData as Region[];
+}
+
+export function getCategories(): Category[] {
+  return categoriesData as Category[];
+}
+
+export function getMallsByRegion(regionId: string): Mall[] {
+  const malls = getMalls();
+  return malls.filter(mall => mall.region === regionId);
+}
+
+export function getFeaturedMalls(): Mall[] {
+  const malls = getMalls();
+  return malls.filter(mall => mall.featured);
+}
+
+export function getNewMalls(): Mall[] {
+  const malls = getMalls();
+  return malls.filter(mall => mall.isNew).slice(0, 6);
+}
+
+export function getMallsByTags(tags: string[]): Mall[] {
+  if (tags.length === 0) return getMalls();
+  
+  const malls = getMalls();
+  return malls.filter(mall => 
+    tags.some(tag => mall.tags.includes(tag))
+  );
+}
+
+export function getRegionById(regionId: string): Region | undefined {
+  const regions = getRegions();
+  return regions.find(region => region.id === regionId);
+}
+
+export function getCategoryById(categoryId: string): Category | undefined {
+  const categories = getCategories();
+  return categories.find(category => category.id === categoryId);
+}
+
+export function getMallById(mallId: string): Mall | undefined {
+  const malls = getMalls();
+  return malls.find(mall => mall.id === mallId);
+}
+
+// Helper function to update mall click count (for API route)
+export function updateMallClickCount(mallId: string): Mall | null {
+  // In a real application, this would update the database
+  // For now, we'll just return the mall with incremented count
+  const mall = getMallById(mallId);
+  if (mall) {
+    return {
+      ...mall,
+      clickCount: mall.clickCount + 1
+    };
+  }
+  return null;
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fruits",
+    "name_ko": "과일",
+    "name_en": "Fruits",
+    "color_theme": "#FF6B6B"
+  },
+  {
+    "id": "vegetables",
+    "name_ko": "채소",
+    "name_en": "Vegetables", 
+    "color_theme": "#4ECDC4"
+  },
+  {
+    "id": "seafood",
+    "name_ko": "수산물",
+    "name_en": "Seafood",
+    "color_theme": "#45B7D1"
+  },
+  {
+    "id": "processed",
+    "name_ko": "가공품",
+    "name_en": "Processed Foods",
+    "color_theme": "#F7DC6F"
+  },
+  {
+    "id": "grains",
+    "name_ko": "곡물",
+    "name_en": "Grains",
+    "color_theme": "#D4A574"
+  },
+  {
+    "id": "specialty",
+    "name_ko": "특산품",
+    "name_en": "Specialty Products",
+    "color_theme": "#BB8FCE"
+  }
+]

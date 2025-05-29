@@ -1,0 +1,82 @@
+[
+  {
+    "id": "seoul",
+    "name_ko": "서울특별시",
+    "name_en": "Seoul Metropolitan City",
+    "description_ko": "대한민국의 수도, 다양한 로컬 특산품",
+    "mall_count": 3,
+    "highlight_text": "도시농업과 전통시장의 만남"
+  },
+  {
+    "id": "busan",
+    "name_ko": "부산광역시",
+    "name_en": "Busan Metropolitan City", 
+    "description_ko": "신선한 해산물과 수산물의 중심지",
+    "mall_count": 2,
+    "highlight_text": "바다에서 식탁까지 직송"
+  },
+  {
+    "id": "daegu",
+    "name_ko": "대구광역시",
+    "name_en": "Daegu Metropolitan City",
+    "description_ko": "전통 농업과 현대적 유통의 조화",
+    "mall_count": 2,
+    "highlight_text": "신선한 농산물의 보고"
+  },
+  {
+    "id": "incheon",
+    "name_ko": "인천광역시",
+    "name_en": "Incheon Metropolitan City",
+    "description_ko": "서해안 해산물과 도시농업 특산품",
+    "mall_count": 1,
+    "highlight_text": "바다와 육지의 풍요로운 만남"
+  },
+  {
+    "id": "gwangju",
+    "name_ko": "광주광역시",
+    "name_en": "Gwangju Metropolitan City",
+    "description_ko": "호남지역 농산물의 중심 유통지",
+    "mall_count": 1,
+    "highlight_text": "예술과 농업이 어우러진 도시"
+  },
+  {
+    "id": "daejeon",
+    "name_ko": "대전광역시",
+    "name_en": "Daejeon Metropolitan City",
+    "description_ko": "중부권 농산물 유통의 거점",
+    "mall_count": 1,
+    "highlight_text": "과학기술과 전통농업의 결합"
+  },
+  {
+    "id": "ulsan",
+    "name_ko": "울산광역시",
+    "name_en": "Ulsan Metropolitan City",
+    "description_ko": "동해안 수산물과 산지 농산물",
+    "mall_count": 1,
+    "highlight_text": "공업도시의 친환경 농수산물"
+  },
+  {
+    "id": "gyeonggi",
+    "name_ko": "경기도",
+    "name_en": "Gyeonggi Province",
+    "description_ko": "수도권 최대 농산물 공급지",
+    "mall_count": 4,
+    "highlight_text": "한국 농업의 메카"
+  },
+  {
+    "id": "gangwon",
+    "name_ko": "강원도",
+    "name_en": "Gangwon Province",
+    "description_ko": "청정 고원지대의 특급 농산물",
+    "mall_count": 3,
+    "highlight_text": "한국의 알프스, 청정 자연의 맛"
+  },
+  {
+    "id": "chungbuk",
+    "name_ko": "충청북도",
+    "name_en": "Chungcheongbuk Province",
+    "description_ko": "내륙 산간지역의 우수 농산물",
+    "mall_count": 2,
+    "highlight_text": "산과 들이 키운 건강한 먹거리"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "seoul-001",
+    "name": "온서울마켓",
+    "url": "https://on.seoul.go.kr",
+    "region": "seoul",
+    "tags": ["농산물", "특산품", "로컬푸드"],
+    "featured": true,
+    "isNew": false,
+    "clickCount": 1245,
+    "lastVerified": "2024-01-15"
+  },
+  {
+    "id": "seoul-002", 
+    "name": "서울시농수산식품공사",
+    "url": "https://www.garak.co.kr",
+    "region": "seoul",
+    "tags": ["수산물", "농산물", "도매"],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 892,
+    "lastVerified": "2024-01-10"
+  },
+  {
+    "id": "seoul-003",
+    "name": "서울로컬푸드직매장",
+    "url": "https://localfood.seoul.go.kr",
+    "region": "seoul", 
+    "tags": ["로컬푸드", "친환경", "농산물"],
+    "featured": true,
+    "isNew": true,
+    "clickCount": 234,
+    "lastVerified": "2024-01-20"
+  },
+  {
+    "id": "busan-001",
+    "name": "부산광역시농수산물도매시장",
+    "url": "https://www.busanagro.co.kr",
+    "region": "busan",
+    "tags": ["수산물", "농산물", "도매"],
+    "featured": true,
+    "isNew": false,
+    "clickCount": 1567,
+    "lastVerified": "2024-01-12"
+  },
+  {
+    "id": "busan-002",
+    "name": "부산바다맛",
+    "url": "https://seafood.busan.go.kr",
+    "region": "busan",
+    "tags": ["수산물", "해산물", "직송"],
+    "featured": false,
+    "isNew": true,
+    "clickCount": 445,
+    "lastVerified": "2024-01-18"
+  },
+  {
+    "id": "gyeonggi-001",
+    "name": "경기미",
+    "url": "https://www.ggmai.co.kr",
+    "region": "gyeonggi",
+    "tags": ["곡물", "쌀", "농산물"],
+    "featured": true,
+    "isNew": false,
+    "clickCount": 2341,
+    "lastVerified": "2024-01-14"
+  },
+  {
+    "id": "gyeonggi-002",
+    "name": "경기도농수산물유통진흥원",
+    "url": "https://www.ggmrc.co.kr",
+    "region": "gyeonggi",
+    "tags": ["농산물", "유통", "도매"],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 1123,
+    "lastVerified": "2024-01-11"
+  },
+  {
+    "id": "gangwon-001",
+    "name": "강원도농특산물쇼핑몰",
+    "url": "https://www.gwsmall.co.kr",
+    "region": "gangwon",
+    "tags": ["특산품", "농산물", "고원지대"],
+    "featured": true,
+    "isNew": false,
+    "clickCount": 1789,
+    "lastVerified": "2024-01-13"
+  },
+  {
+    "id": "gangwon-002",
+    "name": "강원마켓",
+    "url": "https://market.gangwon.go.kr",
+    "region": "gangwon",
+    "tags": ["농산물", "청정", "산지직송"],
+    "featured": false,
+    "isNew": true,
+    "clickCount": 567,
+    "lastVerified": "2024-01-19"
+  },
+  {
+    "id": "daegu-001",
+    "name": "대구농산물도매시장",
+    "url": "https://www.daegu-agro.co.kr",
+    "region": "daegu",
+    "tags": ["농산물", "도매", "유통"],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 934,
+    "lastVerified": "2024-01-09"
+  }
+]
