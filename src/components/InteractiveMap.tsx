@@ -72,54 +72,68 @@ export default function InteractiveMap({ regions, malls }: InteractiveMapProps) 
                 strokeWidth="2"
               />
 
-              {/* Render all regions */}
-              {Object.entries(regionPaths).map(([regionId, path]) => {
-                const region = getRegionData(regionId);
-                const isSelected = selectedRegion === regionId;
-                const isHovered = hoveredRegion === regionId;
-                const mallCount = getMallsForRegion(regionId).length;
+              {/* Render all regions with proper z-index ordering */}
+              {(() => {
+                // Define rendering order - larger regions first, smaller regions last
+                const renderOrder = [
+                  'jeju', 'jeonnam', 'gyeongnam', 'gyeongbuk', 'jeonbuk', 
+                  'chungnam', 'chungbuk', 'gangwon', 'gyeonggi',
+                  'daejeon', 'sejong', 'gwangju', 'daegu', 'busan', 'ulsan',
+                  'seoul', 'incheon' // Seoul and Incheon rendered last to be on top
+                ];
+                
+                return renderOrder.map((regionId) => {
+                  const path = regionPaths[regionId as keyof typeof regionPaths];
+                  if (!path) return null;
+                  
+                  const region = getRegionData(regionId);
+                  const isSelected = selectedRegion === regionId;
+                  const isHovered = hoveredRegion === regionId;
+                  const mallCount = getMallsForRegion(regionId).length;
 
-                return (
-                  <g key={regionId}>
-                    <path
-                      d={path}
-                      fill={isSelected ? '#1e40af' : isHovered ? '#3b82f6' : '#60a5fa'}
-                      stroke="#ffffff"
-                      strokeWidth="2"
-                      className="cursor-pointer transition-all duration-200"
-                      onMouseEnter={() => setHoveredRegion(regionId)}
-                      onMouseLeave={() => setHoveredRegion(null)}
-                      onClick={() => handleRegionClick(regionId)}
-                      opacity={isSelected ? 1 : isHovered ? 0.9 : 0.8}
-                    />
-                    
-                    {/* Region label */}
-                    <text
-                      x={getRegionLabelPosition(regionId).x}
-                      y={getRegionLabelPosition(regionId).y}
-                      textAnchor="middle"
-                      className="pointer-events-none select-none"
-                      fill={isSelected || isHovered ? '#ffffff' : '#1f2937'}
-                      fontSize="12"
-                      fontWeight="600"
-                    >
-                      {region?.name_ko}
-                    </text>
-                    
-                    {/* Mall count badge */}
-                    <text
-                      x={getRegionLabelPosition(regionId).x}
-                      y={getRegionLabelPosition(regionId).y + 15}
-                      textAnchor="middle"
-                      className="pointer-events-none select-none"
-                      fill={isSelected || isHovered ? '#ffffff' : '#6b7280'}
-                      fontSize="10"
-                    >
-                      {mallCount}개
-                    </text>
-                  </g>
-                );
-              })}
+                  return (
+                    <g key={regionId}>
+                      <path
+                        d={path}
+                        fill={isSelected ? '#1e40af' : isHovered ? '#3b82f6' : '#60a5fa'}
+                        stroke="#ffffff"
+                        strokeWidth="2"
+                        className="cursor-pointer transition-all duration-200"
+                        onMouseEnter={() => setHoveredRegion(regionId)}
+                        onMouseLeave={() => setHoveredRegion(null)}
+                        onClick={() => handleRegionClick(regionId)}
+                        opacity={isSelected ? 1 : isHovered ? 0.9 : 0.8}
+                        style={{ zIndex: regionId === 'seoul' || regionId === 'incheon' ? 10 : 1 }}
+                      />
+                      
+                      {/* Region label */}
+                      <text
+                        x={getRegionLabelPosition(regionId).x}
+                        y={getRegionLabelPosition(regionId).y}
+                        textAnchor="middle"
+                        className="pointer-events-none select-none"
+                        fill={isSelected || isHovered ? '#ffffff' : '#1f2937'}
+                        fontSize="12"
+                        fontWeight="600"
+                      >
+                        {region?.name_ko}
+                      </text>
+                      
+                      {/* Mall count badge */}
+                      <text
+                        x={getRegionLabelPosition(regionId).x}
+                        y={getRegionLabelPosition(regionId).y + 15}
+                        textAnchor="middle"
+                        className="pointer-events-none select-none"
+                        fill={isSelected || isHovered ? '#ffffff' : '#6b7280'}
+                        fontSize="10"
+                      >
+                        {mallCount}개
+                      </text>
+                    </g>
+                  );
+                });
+              })()}
             </svg>
 
             {/* Hover tooltip */}
