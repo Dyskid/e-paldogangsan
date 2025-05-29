@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Region, Mall } from '@/types';
 import MallCard from './MallCard';
 
@@ -12,9 +12,32 @@ interface InteractiveMapProps {
 export default function InteractiveMap({ regions, malls }: InteractiveMapProps) {
   const [selectedRegion, setSelectedRegion] = useState<string | null>(null);
   const [hoveredRegion, setHoveredRegion] = useState<string | null>(null);
+  const [isMobile, setIsMobile] = useState(false);
+  const mallListRef = useRef<HTMLDivElement>(null);
+
+  // Detect mobile viewport
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 1024); // lg breakpoint
+    };
+
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   const handleRegionClick = (regionId: string) => {
     setSelectedRegion(regionId);
+    
+    // Auto-scroll on mobile after region selection
+    if (isMobile && mallListRef.current) {
+      setTimeout(() => {
+        mallListRef.current?.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
+        });
+      }, 100); // Small delay to ensure content is rendered
+    }
   };
 
   const getRegionData = (regionId: string) => {
@@ -160,7 +183,7 @@ export default function InteractiveMap({ regions, malls }: InteractiveMapProps) 
         </div>
 
         {/* Shopping Mall List - Right Side */}
-        <div className="lg:w-1/2">
+        <div className="lg:w-1/2" ref={mallListRef}>
           {selectedRegion ? (
             <div className="bg-white rounded-lg shadow-lg p-6 h-full overflow-auto max-h-[600px]">
               <div className="mb-6">
