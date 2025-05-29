@@ -1,0 +1,248 @@
+claude "Create a Next.js website for e-Paldogangsan Phase 1 MVP based on this specification:
+
+## Project Setup
+Create a Next.js 14 app with TypeScript, Tailwind CSS, and App Router. Install these dependencies:
+- fuse.js for search
+- lucide-react for icons
+- @vercel/analytics for tracking
+
+## Data Files (/data/)
+
+### malls.json - Create with all mall data:
+{
+  \"seoul\": [
+    {
+      \"id\": \"seoul-001\",
+      \"name\": \"온서울마켓\",
+      \"url\": \"https://on.seoul.go.kr\",
+      \"region\": \"seoul\",
+      \"tags\": [\"농산물\", \"특산품\"],
+      \"featured\": true,
+      \"isNew\": true,
+      \"clickCount\": 0,
+      \"lastVerified\": \"2024-01-15\"
+    }
+  ],
+  \"busan\": [
+    {
+      \"id\": \"busan-001\",
+      \"name\": \"부산브랜드몰\",
+      \"url\": \"https://busanbrand.kr\",
+      \"region\": \"busan\",
+      \"tags\": [\"수산물\", \"특산품\"],
+      \"featured\": false,
+      \"isNew\": false,
+      \"clickCount\": 0,
+      \"lastVerified\": \"2024-01-15\"
+    }
+  ],
+  \"daegu\": [
+    {\"id\": \"daegu-001\", \"name\": \"우리몰\", \"url\": \"https://wemall.kr\", \"region\": \"daegu\", \"tags\": [\"농산물\", \"특산품\"], \"featured\": false, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"},
+    {\"id\": \"daegu-002\", \"name\": \"참달성\", \"url\": \"https://chamds.com\", \"region\": \"daegu\", \"tags\": [\"농산물\"], \"featured\": false, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"}
+  ],
+  \"incheon\": [{\"id\": \"incheon-001\", \"name\": \"인천e몰\", \"url\": \"https://www.incheone-mall.kr\", \"region\": \"incheon\", \"tags\": [\"특산품\"], \"featured\": false, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"}],
+  \"gwangju\": [{\"id\": \"gwangju-001\", \"name\": \"광주김치몰\", \"url\": \"https://gwangjukimchi.kr\", \"region\": \"gwangju\", \"tags\": [\"김치\", \"특산품\"], \"featured\": true, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"}],
+  \"daejeon\": [{\"id\": \"daejeon-001\", \"name\": \"온통대전몰\", \"url\": \"https://www.ontongmall.kr\", \"region\": \"daejeon\", \"tags\": [\"농산물\"], \"featured\": false, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"}],
+  \"ulsan\": [{\"id\": \"ulsan-001\", \"name\": \"울산몰\", \"url\": \"https://www.ulsanmall.kr\", \"region\": \"ulsan\", \"tags\": [\"수산물\", \"특산품\"], \"featured\": false, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"}],
+  \"sejong\": [{\"id\": \"sejong-001\", \"name\": \"세종로컬푸드\", \"url\": \"https://www.sejonglocalfood.kr\", \"region\": \"sejong\", \"tags\": [\"로컬푸드\", \"농산물\"], \"featured\": false, \"isNew\": true, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"}],
+  \"gyeonggi\": [
+    {\"id\": \"gyeonggi-001\", \"name\": \"착착착\", \"url\": \"https://www.chack3.com\", \"region\": \"gyeonggi\", \"tags\": [\"농산물\"], \"featured\": true, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"},
+    {\"id\": \"gyeonggi-002\", \"name\": \"오산함께장터\", \"url\": \"http://osansemall.com\", \"region\": \"gyeonggi\", \"tags\": [\"농산물\"], \"featured\": false, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"},
+    {\"id\": \"gyeonggi-003\", \"name\": \"광명가치몰\", \"url\": \"https://gmsocial.or.kr/mall/\", \"region\": \"gyeonggi\", \"tags\": [\"특산품\"], \"featured\": false, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"},
+    {\"id\": \"gyeonggi-004\", \"name\": \"양주농부마켓\", \"url\": \"http://market.yangju.go.kr\", \"region\": \"gyeonggi\", \"tags\": [\"농산물\"], \"featured\": false, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"},
+    {\"id\": \"gyeonggi-005\", \"name\": \"마켓경기\", \"url\": \"https://smartstore.naver.com/marketgyeonggi\", \"region\": \"gyeonggi\", \"tags\": [\"농산물\", \"특산품\"], \"featured\": false, \"isNew\": true, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"}
+  ],
+  \"gangwon\": [
+    {\"id\": \"gangwon-001\", \"name\": \"강원더몰\", \"url\": \"https://gwdmall.kr\", \"region\": \"gangwon\", \"tags\": [\"농산물\", \"특산품\"], \"featured\": true, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"},
+    {\"id\": \"gangwon-002\", \"name\": \"원주몰\", \"url\": \"https://wonju-mall.co.kr\", \"region\": \"gangwon\", \"tags\": [\"농산물\"], \"featured\": false, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"},
+    {\"id\": \"gangwon-003\", \"name\": \"강릉몰\", \"url\": \"http://gangneung-mall.com\", \"region\": \"gangwon\", \"tags\": [\"수산물\", \"특산품\"], \"featured\": false, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"}
+  ],
+  \"chungbuk\": [
+    {\"id\": \"chungbuk-001\", \"name\": \"음성장터\", \"url\": \"https://www.esjang.go.kr\", \"region\": \"chungbuk\", \"tags\": [\"농산물\"], \"featured\": false, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"},
+    {\"id\": \"chungbuk-002\", \"name\": \"진천몰\", \"url\": \"https://jcmall.net\", \"region\": \"chungbuk\", \"tags\": [\"농산물\"], \"featured\": false, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"}
+  ],
+  \"chungnam\": [
+    {\"id\": \"chungnam-001\", \"name\": \"농사랑\", \"url\": \"http://nongsarang.co.kr\", \"region\": \"chungnam\", \"tags\": [\"농산물\"], \"featured\": true, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"},
+    {\"id\": \"chungnam-002\", \"name\": \"당진팜\", \"url\": \"https://dangjinfarm.com\", \"region\": \"chungnam\", \"tags\": [\"농산물\"], \"featured\": false, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"}
+  ],
+  \"jeonbuk\": [
+    {\"id\": \"jeonbuk-001\", \"name\": \"전북생생장터\", \"url\": \"https://freshjb.com\", \"region\": \"jeonbuk\", \"tags\": [\"농산물\", \"특산품\"], \"featured\": true, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"},
+    {\"id\": \"jeonbuk-002\", \"name\": \"단풍미인\", \"url\": \"https://www.danpoongmall.kr\", \"region\": \"jeonbuk\", \"tags\": [\"특산품\"], \"featured\": false, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"}
+  ],
+  \"jeonnam\": [
+    {\"id\": \"jeonnam-001\", \"name\": \"남도장터\", \"url\": \"https://jnmall.kr\", \"region\": \"jeonnam\", \"tags\": [\"농산물\", \"수산물\", \"특산품\"], \"featured\": true, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"},
+    {\"id\": \"jeonnam-002\", \"name\": \"해피굿팜\", \"url\": \"https://shop.goodfarm.net\", \"region\": \"jeonnam\", \"tags\": [\"농산물\"], \"featured\": false, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"}
+  ],
+  \"gyeongbuk\": [
+    {\"id\": \"gyeongbuk-001\", \"name\": \"사이소\", \"url\": \"https://www.cyso.co.kr\", \"region\": \"gyeongbuk\", \"tags\": [\"농산물\", \"특산품\"], \"featured\": true, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"},
+    {\"id\": \"gyeongbuk-002\", \"name\": \"포항마켓\", \"url\": \"https://pohangmarket.cyso.co.kr\", \"region\": \"gyeongbuk\", \"tags\": [\"수산물\"], \"featured\": false, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"}
+  ],
+  \"gyeongnam\": [
+    {\"id\": \"gyeongnam-001\", \"name\": \"e경남몰\", \"url\": \"https://egnmall.kr\", \"region\": \"gyeongnam\", \"tags\": [\"농산물\", \"특산품\"], \"featured\": true, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"},
+    {\"id\": \"gyeongnam-002\", \"name\": \"토요애\", \"url\": \"https://toyoae.com\", \"region\": \"gyeongnam\", \"tags\": [\"농산물\"], \"featured\": false, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"}
+  ],
+  \"jeju\": [
+    {\"id\": \"jeju-001\", \"name\": \"제주몰\", \"url\": \"https://www.jejumall.kr\", \"region\": \"jeju\", \"tags\": [\"농산물\", \"수산물\", \"특산품\"], \"featured\": true, \"isNew\": false, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"},
+    {\"id\": \"jeju-002\", \"name\": \"이제주몰\", \"url\": \"https://mall.ejeju.net\", \"region\": \"jeju\", \"tags\": [\"특산품\"], \"featured\": false, \"isNew\": true, \"clickCount\": 0, \"lastVerified\": \"2024-01-15\"}
+  ]
+}
+
+### regions.json:
+{
+  \"seoul\": {\"id\": \"seoul\", \"name_ko\": \"서울특별시\", \"name_en\": \"Seoul\", \"description_ko\": \"대한민국의 수도, 다양한 로컬 특산품\", \"mall_count\": 1},
+  \"busan\": {\"id\": \"busan\", \"name_ko\": \"부산광역시\", \"name_en\": \"Busan\", \"description_ko\": \"해양도시의 신선한 수산물\", \"mall_count\": 1},
+  \"daegu\": {\"id\": \"daegu\", \"name_ko\": \"대구광역시\", \"name_en\": \"Daegu\", \"description_ko\": \"품질 좋은 농산물의 중심지\", \"mall_count\": 2},
+  \"incheon\": {\"id\": \"incheon\", \"name_ko\": \"인천광역시\", \"name_en\": \"Incheon\", \"description_ko\": \"서해안의 풍부한 특산품\", \"mall_count\": 1},
+  \"gwangju\": {\"id\": \"gwangju\", \"name_ko\": \"광주광역시\", \"name_en\": \"Gwangju\", \"description_ko\": \"맛의 고장, 전통 김치\", \"mall_count\": 1},
+  \"daejeon\": {\"id\": \"daejeon\", \"name_ko\": \"대전광역시\", \"name_en\": \"Daejeon\", \"description_ko\": \"중부권 농산물 허브\", \"mall_count\": 1},
+  \"ulsan\": {\"id\": \"ulsan\", \"name_ko\": \"울산광역시\", \"name_en\": \"Ulsan\", \"description_ko\": \"동해의 신선한 수산물\", \"mall_count\": 1},
+  \"sejong\": {\"id\": \"sejong\", \"name_ko\": \"세종특별자치시\", \"name_en\": \"Sejong\", \"description_ko\": \"새로운 도시의 로컬푸드\", \"mall_count\": 1},
+  \"gyeonggi\": {\"id\": \"gyeonggi\", \"name_ko\": \"경기도\", \"name_en\": \"Gyeonggi\", \"description_ko\": \"수도권 최대 농산물 생산지\", \"mall_count\": 5},
+  \"gangwon\": {\"id\": \"gangwon\", \"name_ko\": \"강원도\", \"name_en\": \"Gangwon\", \"description_ko\": \"청정 자연의 건강한 먹거리\", \"mall_count\": 3},
+  \"chungbuk\": {\"id\": \"chungbuk\", \"name_ko\": \"충청북도\", \"name_en\": \"Chungbuk\", \"description_ko\": \"내륙의 풍부한 농산물\", \"mall_count\": 2},
+  \"chungnam\": {\"id\": \"chungnam\", \"name_ko\": \"충청남도\", \"name_en\": \"Chungnam\", \"description_ko\": \"서해안과 평야의 특산품\", \"mall_count\": 2},
+  \"jeonbuk\": {\"id\": \"jeonbuk\", \"name_ko\": \"전라북도\", \"name_en\": \"Jeonbuk\", \"description_ko\": \"풍요로운 평야의 농산물\", \"mall_count\": 2},
+  \"jeonnam\": {\"id\": \"jeonnam\", \"name_ko\": \"전라남도\", \"name_en\": \"Jeonnam\", \"description_ko\": \"남도의 맛과 멋\", \"mall_count\": 2},
+  \"gyeongbuk\": {\"id\": \"gyeongbuk\", \"name_ko\": \"경상북도\", \"name_en\": \"Gyeongbuk\", \"description_ko\": \"전통과 품질의 농산물\", \"mall_count\": 2},
+  \"gyeongnam\": {\"id\": \"gyeongnam\", \"name_ko\": \"경상남도\", \"name_en\": \"Gyeongnam\", \"description_ko\": \"남해안의 풍부한 자원\", \"mall_count\": 2},
+  \"jeju\": {\"id\": \"jeju\", \"name_ko\": \"제주특별자치도\", \"name_en\": \"Jeju\", \"description_ko\": \"청정 제주의 특별한 맛\", \"mall_count\": 2}
+}
+
+### categories.json:
+{
+  \"agricultural\": {\"id\": \"agricultural\", \"name_ko\": \"농산물\", \"name_en\": \"Agricultural\", \"color_theme\": \"#10B981\"},
+  \"seafood\": {\"id\": \"seafood\", \"name_ko\": \"수산물\", \"name_en\": \"Seafood\", \"color_theme\": \"#3B82F6\"},
+  \"processed\": {\"id\": \"processed\", \"name_ko\": \"가공품\", \"name_en\": \"Processed\", \"color_theme\": \"#F59E0B\"},
+  \"specialty\": {\"id\": \"specialty\", \"name_ko\": \"특산품\", \"name_en\": \"Specialty\", \"color_theme\": \"#8B5CF6\"}
+}
+
+## Pages
+
+### app/page.tsx (Homepage):
+- Hero with title 'e-팔도강산: 전국 로컬 쇼핑몰 한곳에서'
+- Subtitle: '지역별 농수산물과 특산품을 만나보세요'
+- InteractiveMap component (main focus)
+- FeaturedMalls carousel below map
+- QuickFilters component
+- SearchBar with placeholder '쇼핑몰 또는 상품 검색...'
+- RecentlyAdded section (malls with isNew: true)
+
+### app/search/page.tsx:
+- SearchBar at top with autofocus
+- Fuse.js search implementation
+- Filter sidebar: regions checkboxes, category tags
+- Results grid with MallCard components
+- Pagination (12 per page)
+- Sort dropdown: relevance, name, newest
+- Loading and empty states
+
+### app/region/[regionId]/page.tsx:
+- Dynamic route using regionId
+- Region header with name and description
+- Back to map button
+- Mall grid for that region
+- Quick filters for tags
+- Mobile: swipeable mall cards
+
+### app/about/page.tsx:
+Simple page with content about the portal's purpose
+
+### app/contact/page.tsx:
+Contact form with email, subject, message fields
+
+### app/terms/page.tsx & app/privacy/page.tsx:
+Basic legal pages
+
+## Components
+
+### components/InteractiveMap.tsx:
+- SVG map of South Korea
+- Each region as clickable path
+- Hover: lighten color, show tooltip with mall count
+- Click: navigate to /region/[regionId]
+- Show mall count badge on each region
+- Use Tailwind colors for regions
+- Mobile: pinch to zoom
+
+### components/MallCard.tsx:
+Props: mall data
+- Card with white background, shadow
+- Mall name (font-semibold)
+- Region name (text-sm text-gray-600)
+- Tags as small colored badges
+- 'NEW' badge if isNew (red)
+- '인기' badge if featured (blue)
+- '방문하기' button (opens URL in new tab)
+- onClick: track click via API
+
+### components/SearchBar.tsx:
+- Input with search icon (lucide-react)
+- Implement Fuse.js search on typing
+- Debounce 300ms
+- Show dropdown with top 5 suggestions
+- Enter or click navigates to /search?q=query
+
+### components/QuickFilters.tsx:
+- Horizontal scroll container
+- Category buttons: 농산물, 수산물, 가공품, 특산품
+- Active state with colored background
+- Click filters current view
+- 'Clear all' button when filters active
+
+### components/FeaturedMalls.tsx:
+- Horizontal carousel
+- Filter malls where featured: true
+- Auto-play every 5 seconds
+- Navigation dots below
+- Pause on hover
+- 3 cards on desktop, 1 on mobile
+
+### components/Header.tsx:
+- Logo 'e-팔도강산' on left
+- Navigation: 홈, 검색, 소개, 문의
+- Mobile: hamburger menu
+- Sticky on scroll
+
+### components/Footer.tsx:
+- Links: 소개, 이용약관, 개인정보처리방침, 문의
+- Copyright notice
+- Gray background
+
+## API Routes
+
+### app/api/track-click/route.ts:
+- POST endpoint
+- Body: { mallId: string }
+- Read malls.json
+- Increment clickCount for mall
+- Write back to file
+- Return success
+
+## Search Implementation
+Use Fuse.js with:
+- Keys: ['name', 'tags', 'region']
+- Threshold: 0.3
+- Include score
+- MinMatchCharLength: 2
+
+## Styling
+- Font: Noto Sans KR (Google Fonts)
+- Primary: blue-700 (#1E40AF)
+- Background: gray-50
+- Cards: white with shadow-sm
+- Hover effects on all interactive elements
+- Mobile-first responsive design
+
+## Performance
+- Static generation for all pages
+- Image optimization with next/image
+- Lazy load components below fold
+- Loading skeletons for search
+
+## TypeScript Types
+Create types for:
+- Mall, Region, Category interfaces
+- API response types
+- Component props
+
+Make it production-ready with proper error handling and loading states. Include all necessary imports and ensure the site works immediately after npm run dev."

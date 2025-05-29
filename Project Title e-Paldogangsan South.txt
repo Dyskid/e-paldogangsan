@@ -1,0 +1,493 @@
+Project Title: e-Paldogangsan: South Korean Local Government Mall Portal
+Core Objective
+Create a Next.js website that serves as a comprehensive, user-friendly, and centralized portal for discovering and accessing South Korean local government online shopping malls.
+Technology Stack
+Core Technologies
+
+Next.js (with App Router preferred for new projects)
+TypeScript
+Tailwind CSS
+Vercel (for deployment)
+
+Search Implementation (Phased Approach)
+
+Phase 1: Fuse.js (client-side search, no server needed)
+Phase 2: Algolia free tier or Meilisearch (for advanced search)
+Phase 3: Self-hosted Meilisearch with full features
+
+Development Phases
+Phase 1: MVP (Launch in 2-3 weeks)
+Focus on core functionality with simplified features:
+
+Interactive map with mall listings
+Basic search and filtering
+Responsive design
+Direct JSON data management (no admin panel)
+
+Phase 2: Enhanced Features (1-2 months)
+
+Admin panel with authentication
+User accounts and favorites
+Advanced search with Meilisearch/Algolia
+Featured malls and regional highlights
+Basic analytics and monitoring
+
+Phase 3: Advanced Integration (3+ months)
+
+Mall ratings and reviews
+Blog/news section
+Product feed integration (if available)
+Price comparison features
+Webhook and API integrations
+
+I. Structure & Pages
+Core Pages (Phase 1)
+
+Home Page (/)
+
+Interactive map of South Korea as primary element
+Featured malls carousel (manually curated 5-10 malls)
+Quick filter buttons: "농산물", "수산물", "가공품"
+Clear search call-to-action
+"Recently Added Malls" section
+Mall status indicators: "새로운" (new) or "인기" (popular)
+
+
+Search Page (/search)
+
+Prominent SearchBar component with autocomplete
+Search results with pagination
+Filter by region and product category
+Sort options: relevance, date added, alphabetical
+
+
+Region Detail Page (/region/[regionName])
+
+All malls for clicked region
+Regional highlights (1-2 sentence descriptions)
+Region-specific filtering
+Swipeable mall list on mobile
+
+
+Static Pages
+
+About Us (/about)
+Contact/Feedback (/contact)
+Terms of Service (/terms)
+Privacy Policy (/privacy)
+
+
+
+Enhanced Pages (Phase 2)
+
+Mall Detail Page (/mall/[mallId])
+
+Detailed mall information
+Verification badges: "정부 인증" or "공식 쇼핑몰"
+Direct "Visit Mall" button
+Contact information
+Main product categories
+Last updated date
+Active product count indicator (if available)
+
+
+Admin Dashboard (/admin)
+
+Protected with NextAuth.js authentication
+Overview statistics (malls per region, click analytics)
+Mall management (CRUD operations)
+Link checker for broken URLs
+Featured mall selection
+
+
+API Routes (/api/...)
+
+Search functionality
+Admin data management
+Click tracking and analytics
+Link status checking
+
+
+
+Future Pages (Phase 3)
+
+User Profile (/profile)
+
+Favorite malls management
+Submitted reviews
+Personalized recommendations
+
+
+Blog/News Section (/blog)
+
+Seasonal campaigns: "추석 선물", "김장철 특산품"
+Producer stories and highlights
+Portal usage guides
+
+
+
+II. Data Structures
+Simplified Mall Data Structure (Phase 1)
+javascript{
+  id: "seoul-001",
+  name: "온서울마켓",
+  url: "https://on.seoul.go.kr",
+  region: "seoul",
+  tags: ["농산물", "특산품"],
+  featured: true,
+  isNew: true,
+  clickCount: 0,
+  lastVerified: "2024-01-15"
+}
+Enhanced Mall Data Structure (Phase 2+)
+javascript{
+  id: "uuid-string",
+  name_ko: "온서울마켓",
+  name_en: "On Seoul Market",
+  url: "https://on.seoul.go.kr",
+  logo_url: "/logos/seoul-001.png",
+  description_ko: "서울시 공식 농특산물 쇼핑몰",
+  description_en: "Seoul's official agricultural products mall",
+  region_id: "seoul",
+  main_categories: ["fruits", "vegetables", "processed_foods"],
+  tags: ["농산물", "특산품", "로컬푸드", "직거래"],
+  contact_info: {
+    phone: "02-1234-5678",
+    email: "contact@on.seoul.go.kr"
+  },
+  status: {
+    is_active: true,
+    is_featured: true,
+    is_verified: true,
+    verification_badge: "정부 인증"
+  },
+  metrics: {
+    click_count: 1543,
+    favorite_count: 89,
+    rating_average: 4.5,
+    product_count: "1,000+"
+  },
+  dates: {
+    date_added: "2024-01-01T00:00:00Z",
+    last_updated: "2024-01-15T00:00:00Z",
+    last_verified: "2024-01-15T00:00:00Z"
+  }
+}
+Region Data Structure
+javascript{
+  id: "seoul",
+  name_ko: "서울특별시",
+  name_en: "Seoul Metropolitan City",
+  description_ko: "대한민국의 수도, 다양한 로컬 특산품",
+  mall_count: 15,
+  highlight_text: "도시농업과 전통시장의 만남",
+  map_coordinates: { /* SVG path data */ }
+}
+Category Structure
+javascript{
+  id: "fruits",
+  name_ko: "과일",
+  name_en: "Fruits",
+  icon_svg: "<svg>...</svg>",
+  color_theme: "#FF6B6B"
+}
+III. Key Components
+Phase 1 Components
+
+InteractiveMap
+
+SVG map with hover effects
+Click handlers for region navigation
+Mall count badges on each region
+Mobile gesture support
+
+
+MallCard
+
+Compact card with logo, name, region
+Status badges (new/popular/verified)
+Quick "Visit" button
+Click tracking
+
+
+SearchBar
+
+Real-time search with Fuse.js
+Search suggestions
+Category quick filters
+
+
+QuickFilters
+
+Tag-based filtering
+Popular categories buttons
+Clear all filters option
+
+
+
+Phase 2 Components
+
+AdminLayout
+
+Sidebar navigation
+Authentication wrapper
+Dashboard widgets
+
+
+MallForm
+
+Add/edit mall information
+Logo upload with preview
+URL validation
+Tag management
+
+
+Analytics Dashboard
+
+Click heatmap by region
+Popular malls chart
+Search term cloud
+Broken link alerts
+
+
+LinkChecker
+
+Automated URL verification
+Status indicators
+Bulk check functionality
+
+
+
+Phase 3 Components
+
+RatingSystem
+
+5-star rating component
+Review submission form
+Moderation queue
+
+
+ProductFeed
+
+Product grid display
+Price comparison view
+Direct product links
+
+
+
+IV. Technical Implementation
+Performance Optimizations
+javascript// Image optimization
+<Image 
+  src={mall.logo} 
+  loading="lazy"
+  placeholder="blur"
+  blurDataURL={generateBlurData(mall.logo)}
+  width={120}
+  height={120}
+/>
+
+// Static generation for regions
+export async function getStaticPaths() {
+  const regions = getAllRegions();
+  return {
+    paths: regions.map(r => ({ params: { regionName: r.id } })),
+    fallback: false
+  };
+}
+
+// Incremental Static Regeneration for mall data
+export async function getStaticProps() {
+  return {
+    props: { malls: await getMalls() },
+    revalidate: 3600 // Revalidate every hour
+  };
+}
+SEO Enhancements
+javascript// Dynamic meta tags
+export const metadata = {
+  title: `${region.name_ko} 로컬푸드 쇼핑몰 | e-팔도강산`,
+  description: `${region.name_ko} 지역의 신선한 농수산물과 특산품을 만나보세요. 정부인증 직거래 쇼핑몰.`,
+  keywords: ['로컬푸드', '직거래', '산지직송', region.name_ko],
+  openGraph: {
+    title: `${region.name_ko} 특산품 쇼핑몰`,
+    description: region.description_ko,
+    images: [`/og-images/${region.id}.png`]
+  }
+};
+
+// Structured data
+<script type="application/ld+json">
+{JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": mall.name_ko,
+  "url": mall.url,
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": region.name_ko
+  }
+})}
+</script>
+API Design
+typescript// Extensible API structure
+interface MallAPI {
+  // Phase 1
+  getMalls(): Promise<Mall[]>
+  getMallsByRegion(regionId: string): Promise<Mall[]>
+  searchMalls(query: string): Promise<Mall[]>
+  trackClick(mallId: string): Promise<void>
+  
+  // Phase 2
+  createMall(data: MallInput): Promise<Mall>
+  updateMall(id: string, data: MallInput): Promise<Mall>
+  deleteMall(id: string): Promise<void>
+  verifyMallUrl(id: string): Promise<LinkStatus>
+  
+  // Phase 3
+  getMallProducts(mallId: string): Promise<Product[]>
+  submitReview(mallId: string, review: Review): Promise<void>
+}
+Monitoring & Analytics
+javascript// Simple click tracking
+export async function trackMallClick(mallId: string) {
+  await fetch('/api/analytics/click', {
+    method: 'POST',
+    body: JSON.stringify({ mallId, timestamp: new Date() })
+  });
+}
+
+// Weekly link checker
+import { CronJob } from 'cron';
+new CronJob('0 0 * * 0', async () => {
+  const malls = await getMalls();
+  for (const mall of malls) {
+    const status = await checkUrl(mall.url);
+    if (!status.isActive) {
+      await notifyAdmin(mall, status);
+    }
+  }
+});
+V. Deployment & DevOps
+Environment Variables
+env# Phase 1
+NEXT_PUBLIC_SITE_URL=https://e-paldogangsan.kr
+
+# Phase 2
+NEXTAUTH_SECRET=your-secret-key
+NEXTAUTH_URL=https://e-paldogangsan.kr
+DATABASE_URL=postgresql://...
+ADMIN_EMAIL=admin@e-paldogangsan.kr
+
+# Phase 3
+MEILISEARCH_HOST=https://search.e-paldogangsan.kr
+MEILISEARCH_API_KEY=your-api-key
+CLOUDINARY_URL=cloudinary://...
+Deployment Strategy
+
+Development: Feature branches → Vercel preview deployments
+Staging: Main branch → staging.e-paldogangsan.kr
+Production: Tagged releases → e-paldogangsan.kr
+
+Monitoring Setup
+
+Vercel Analytics: Basic performance metrics
+Sentry: Error tracking and monitoring
+Custom Analytics: Mall popularity, search terms, regional activity
+
+VI. Content Strategy
+Launch Content
+
+Featured malls for each region (2-3 per region)
+Seasonal campaign banners
+Simple user guide ("사이트 이용 방법")
+
+Ongoing Content (Phase 2+)
+
+Monthly producer spotlights
+Seasonal product highlights ("봄나물 특집", "추석 선물세트")
+Regional food culture articles
+Success stories from local producers
+
+SEO Content Plan
+
+Regional landing pages with local keywords
+Category pages optimized for product searches
+FAQ section for common queries
+Glossary of local food terms
+
+VII. Testing Strategy
+Phase 1 Testing
+
+Cross-browser compatibility (especially older browsers)
+Mobile responsiveness on various devices
+Basic accessibility audit
+Regional user testing (5-10 users per region)
+
+Phase 2 Testing
+
+Load testing for traffic spikes
+Security testing for admin panel
+Automated E2E tests with Playwright
+A/B testing for featured mall placements
+
+Phase 3 Testing
+
+API stress testing
+Review moderation workflow testing
+Integration testing with external feeds
+Performance testing with full dataset
+
+VIII. Success Metrics
+Phase 1 KPIs
+
+Site launch within 3 weeks
+100+ mall listings active
+<3 second page load time
+90+ Lighthouse score
+
+Phase 2 KPIs
+
+10,000+ monthly visitors
+500+ registered users
+<1% broken link rate
+50+ admin-curated featured malls
+
+Phase 3 KPIs
+
+100,000+ monthly visitors
+5,000+ user reviews
+10+ integrated product feeds
+95% mall URL uptime
+
+IX. Risk Mitigation
+Technical Risks
+
+Broken mall links: Automated weekly checking
+Search performance: Start with client-side, scale as needed
+Data accuracy: Admin verification process
+
+Business Risks
+
+Low mall participation: Proactive outreach program
+User adoption: SEO and marketing strategy
+Maintenance burden: Automation and admin tools
+
+X. Future Roadmap
+6 Months
+
+Mobile app development
+Advanced personalization
+AI-powered product recommendations
+
+12 Months
+
+Nationwide marketing campaign
+Government API integration
+Multi-language support (English, Chinese)
+
+24 Months
+
+Blockchain verification for products
+AR/VR mall experiences
+International expansion (Korean products globally)

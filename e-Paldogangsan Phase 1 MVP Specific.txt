@@ -1,0 +1,188 @@
+e-Paldogangsan Phase 1 MVP Specification
+Overview
+Timeline: 2-3 weeks
+Goal: Launch a functional portal for discovering South Korean local government shopping malls with core features only.
+
+Technology Stack
+Framework: Next.js 14 with App Router
+Language: TypeScript
+Styling: Tailwind CSS
+Search: Fuse.js (client-side, no server needed)
+Deployment: Vercel
+Data Storage: JSON files (no database)
+Core Features
+Interactive map with mall listings
+Basic search and filtering
+Responsive design
+Direct JSON data management (no admin panel)
+Mall status indicators ("새로운" new / "인기" popular)
+Pages Structure
+1. Home Page (/)
+Hero Section: Interactive SVG map of South Korea
+Featured Malls Carousel: Manually curated 5-10 malls
+Quick Filters: Buttons for "농산물", "수산물", "가공품"
+Search Bar: Prominent search functionality
+Recently Added Malls: Section showing newest additions
+Mall Status Badges: Visual indicators for new/popular malls
+2. Search Page (/search)
+Search Bar: With autocomplete suggestions
+Results Grid: Mall cards with pagination
+Filters: By region and product category
+Sort Options: Relevance, date added, alphabetical
+No Results State: User-friendly empty state
+3. Region Detail Page (/region/[regionName])
+Region Header: Name and description (1-2 sentences)
+Mall List: All malls in selected region
+Region-specific Filtering: Tags relevant to region
+Mobile Optimization: Swipeable mall list
+Back Navigation: Return to map
+4. Static Pages
+/about: Brief portal description
+/contact: Contact form or email
+/terms: Basic terms of service
+/privacy: Privacy policy
+Data Structures
+Mall Data (Simplified)
+json
+{
+  "id": "seoul-001",
+  "name": "온서울마켓",
+  "url": "https://on.seoul.go.kr",
+  "region": "seoul",
+  "tags": ["농산물", "특산품"],
+  "featured": true,
+  "isNew": true,
+  "clickCount": 0,
+  "lastVerified": "2024-01-15"
+}
+Region Data
+json
+{
+  "id": "seoul",
+  "name_ko": "서울특별시",
+  "name_en": "Seoul Metropolitan City",
+  "description_ko": "대한민국의 수도, 다양한 로컬 특산품",
+  "mall_count": 15,
+  "highlight_text": "도시농업과 전통시장의 만남"
+}
+Category Data
+json
+{
+  "id": "fruits",
+  "name_ko": "과일",
+  "name_en": "Fruits",
+  "color_theme": "#FF6B6B"
+}
+Components
+1. InteractiveMap
+SVG map of South Korea
+Hover effects on regions
+Click navigation to region pages
+Mall count badges per region
+Mobile: pinch/zoom support
+2. MallCard
+Compact card design
+Mall name and region
+Status badges (new/popular)
+Quick "방문하기" button
+Click tracking functionality
+3. SearchBar
+Real-time Fuse.js search
+Search suggestions dropdown
+Category quick filters
+Search by: mall name, tags, region
+4. QuickFilters
+Horizontal scrollable tags
+Popular categories buttons
+Active filter states
+"Clear all" option
+5. FeaturedMalls
+Carousel component
+Auto-scroll (5 seconds)
+Manual navigation
+Responsive: 3 desktop, 1 mobile
+Technical Implementation
+Search Configuration (Fuse.js)
+javascript
+const fuseOptions = {
+  keys: ['name', 'tags', 'region'],
+  threshold: 0.3,
+  includeScore: true
+}
+Performance
+Static generation for all pages
+Image lazy loading
+JSON data loaded at build time
+Loading states for search
+SEO Basics
+Page titles and descriptions
+OpenGraph meta tags
+Semantic HTML structure
+Mobile Optimizations
+Touch targets: minimum 44px
+Swipeable components
+Collapsible filters
+Sticky search on scroll
+Styling Guidelines
+Primary Color: Blue (
+#1E40AF)
+Secondary: White (
+#FFFFFF)
+Font: Noto Sans KR
+Design: Clean government aesthetic
+Cards: Subtle shadows
+Animations: Smooth hover effects
+API Routes
+/api/track-click
+POST endpoint
+Increment mall clickCount
+Store in JSON file
+Prevent duplicate counts (localStorage)
+Success Metrics
+Site launch within 3 weeks
+100+ mall listings active
+<3 second page load time
+90+ Lighthouse score
+Mobile responsive
+All mall links verified
+File Structure
+/app
+  /page.tsx          (Homepage)
+  /search/page.tsx   (Search page)
+  /region/[regionName]/page.tsx
+  /about/page.tsx
+  /contact/page.tsx
+  /terms/page.tsx
+  /privacy/page.tsx
+  /api
+    /track-click/route.ts
+
+/components
+  /InteractiveMap.tsx
+  /MallCard.tsx
+  /SearchBar.tsx
+  /QuickFilters.tsx
+  /FeaturedMalls.tsx
+
+/data
+  /malls.json
+  /regions.json
+  /categories.json
+
+/public
+  /images
+  /icons
+Development Steps
+Week 1: Setup, map component, basic pages
+Week 2: Search implementation, mall cards, filtering
+Week 3: Polish, testing, deployment prep
+Deployment
+Push to GitHub
+Connect to Vercel
+Auto-deploy on push
+Domain: your-project.vercel.app (initially)
+Post-Launch
+Monitor click analytics
+Collect user feedback
+Prepare Phase 2 features list
+Weekly link verification
