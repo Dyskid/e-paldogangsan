@@ -180,7 +180,7 @@ export default function InteractiveMap({ regions, malls }: InteractiveMapProps) 
                     <MallCard
                       key={mall.id}
                       mall={mall}
-                      region={selectedRegionData}
+                      region={selectedRegionData || undefined}
                     />
                   ))}
                 </div>
