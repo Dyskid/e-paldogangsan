@@ -91,6 +91,7 @@ export default function ProductsPage() {
           <h1 className="text-3xl font-bold text-gray-900 mb-4">전체 상품</h1>
           <div className="max-w-2xl mx-auto">
             <SearchBar 
+              malls={[]}
               onSearch={handleSearch}
               placeholder="상품명, 쇼핑몰, 설명으로 검색..."
             />

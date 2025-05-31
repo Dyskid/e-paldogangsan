@@ -6,7 +6,7 @@ import Fuse from 'fuse.js';
 import { Mall } from '@/types';
 
 interface SearchBarProps {
-  malls: Mall[];
+  malls?: Mall[];
   placeholder?: string;
   className?: string;
   showSuggestions?: boolean;
@@ -21,7 +21,7 @@ const fuseOptions = {
 };
 
 export default function SearchBar({ 
-  malls, 
+  malls = [], 
   placeholder = "쇼핑몰 검색...", 
   className = "",
   showSuggestions = true,
@@ -35,10 +35,10 @@ export default function SearchBar({
   const inputRef = useRef<HTMLInputElement>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
-  const fuse = new Fuse(malls, fuseOptions);
+  const fuse = malls.length > 0 ? new Fuse(malls, fuseOptions) : null;
 
   useEffect(() => {
-    if (query.trim().length >= 2) {
+    if (query.trim().length >= 2 && fuse) {
       const results = fuse.search(query).map(result => result.item);
       setSuggestions(results.slice(0, 5));
       setShowDropdown(showSuggestions && results.length > 0);
@@ -52,7 +52,7 @@ export default function SearchBar({
 
   const handleSearch = (searchQuery: string = query) => {
     if (searchQuery.trim()) {
-      const results = fuse.search(searchQuery).map(result => result.item);
+      const results = fuse ? fuse.search(searchQuery).map(result => result.item) : [];
       
       if (onSearch) {
         onSearch(searchQuery, results);
