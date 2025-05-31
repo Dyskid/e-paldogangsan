@@ -25,3 +25,30 @@ export interface Category {
   name_en: string;
   color_theme: string;
 }
+
+export interface Product {
+  id: string;
+  name: string;
+  description?: string;
+  price: string;
+  originalPrice?: string;
+  imageUrl?: string;
+  productUrl: string;
+  mallId: string;
+  mallName: string;
+  category: string;
+  subcategory?: string;
+  tags: string[];
+  inStock: boolean;
+  lastUpdated: string;
+  createdAt: string;
+}
+
+export interface ProductSyncStatus {
+  mallId: string;
+  mallName: string;
+  lastSyncTime: string;
+  productCount: number;
+  status: 'success' | 'failed' | 'pending';
+  errorMessage?: string;
+}

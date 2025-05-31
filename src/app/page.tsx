@@ -80,8 +80,29 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Quick Filters and Recently Added Section */}
+      {/* Products Section */}
       <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">전국 특산품 한눈에</h2>
+            <p className="text-lg text-gray-600 mb-8">
+              각 지역 쇼핑몰의 모든 상품을 카테고리별로 모아보세요
+            </p>
+            <a
+              href="/products"
+              className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              전체 상품 보기
+              <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Quick Filters and Recently Added Section */}
+      <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
             <QuickFilters
