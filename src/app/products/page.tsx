@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { Product } from '@/types';
 import ProductCard from '@/components/ProductCard';
 import SearchBar from '@/components/SearchBar';
@@ -30,23 +30,7 @@ export default function ProductsPage() {
     fetchProducts();
   }, []);
 
-  useEffect(() => {
-    filterProducts();
-  }, [products, selectedCategory, searchQuery]);
-
-  const fetchProducts = async () => {
-    try {
-      const response = await fetch('/api/products');
-      const data = await response.json();
-      setProducts(data.products || []);
-    } catch (error) {
-      console.error('Failed to fetch products:', error);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const filterProducts = () => {
+  const filterProducts = useCallback(() => {
     let filtered = [...products];
 
     // Filter by category
@@ -65,7 +49,24 @@ export default function ProductsPage() {
     }
 
     setFilteredProducts(filtered);
+  }, [products, selectedCategory, searchQuery]);
+
+  useEffect(() => {
+    filterProducts();
+  }, [filterProducts]);
+
+  const fetchProducts = async () => {
+    try {
+      const response = await fetch('/api/products');
+      const data = await response.json();
+      setProducts(data.products || []);
+    } catch (error) {
+      console.error('Failed to fetch products:', error);
+    } finally {
+      setLoading(false);
+    }
   };
+
 
   const handleSearch = (query: string) => {
     setSearchQuery(query);

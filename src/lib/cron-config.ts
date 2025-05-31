@@ -6,18 +6,16 @@ DEPLOYMENT OPTIONS:
 
 1. Vercel Cron Jobs (Recommended for Vercel deployment):
    Add to vercel.json:
-   ```json
    {
      "crons": [{
        "path": "/api/sync-products",
        "schedule": "0 */6 * * *"
      }]
    }
-   ```
 
 2. GitHub Actions (Alternative):
    Create .github/workflows/sync-products.yml:
-   ```yaml
+   
    name: Sync Products
    on:
      schedule:
@@ -32,7 +30,6 @@ DEPLOYMENT OPTIONS:
            run: |
              curl -X POST https://your-domain.com/api/sync-products \
                -H "Authorization: Bearer ${{ secrets.SYNC_API_KEY }}"
-   ```
 
 3. External Cron Service (e.g., cron-job.org, EasyCron):
    - URL: https://your-domain.com/api/sync-products
@@ -42,7 +39,7 @@ DEPLOYMENT OPTIONS:
 
 4. Self-hosted (Node.js cron):
    Install node-cron and add to your server:
-   ```javascript
+   
    const cron = require('node-cron');
    
    cron.schedule('0 */6 * * *', async () => {
@@ -53,7 +50,6 @@ DEPLOYMENT OPTIONS:
        }
      });
    });
-   ```
 
 ENVIRONMENT VARIABLES NEEDED:
 - SYNC_API_KEY: A secure random string for API authentication
