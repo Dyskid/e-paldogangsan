@@ -1,38 +1,72 @@
 [
   {
-    "id": "fruits",
-    "name_ko": "과일",
-    "name_en": "Fruits",
-    "color_theme": "#FF6B6B"
-  },
-  {
-    "id": "vegetables",
-    "name_ko": "채소",
-    "name_en": "Vegetables", 
-    "color_theme": "#4ECDC4"
+    "id": "agricultural",
+    "name_ko": "농산물",
+    "name_en": "Agricultural Products",
+    "color_theme": "#4CAF50",
+    "subcategories": ["과일", "채소", "곡물", "버섯류", "산나물"]
   },
   {
     "id": "seafood",
     "name_ko": "수산물",
     "name_en": "Seafood",
-    "color_theme": "#45B7D1"
+    "color_theme": "#2196F3",
+    "subcategories": ["생선", "조개류", "해조류", "건어물", "젓갈류"]
+  },
+  {
+    "id": "livestock",
+    "name_ko": "축산물",
+    "name_en": "Livestock Products",
+    "color_theme": "#795548",
+    "subcategories": ["한우", "돼지고기", "닭고기", "계란", "유제품"]
   },
   {
     "id": "processed",
-    "name_ko": "가공품",
+    "name_ko": "가공식품",
     "name_en": "Processed Foods",
-    "color_theme": "#F7DC6F"
+    "color_theme": "#FF9800",
+    "subcategories": ["김치", "장류", "절임류", "건조식품", "즉석식품"]
   },
   {
-    "id": "grains",
-    "name_ko": "곡물",
-    "name_en": "Grains",
-    "color_theme": "#D4A574"
+    "id": "traditional",
+    "name_ko": "전통식품",
+    "name_en": "Traditional Foods",
+    "color_theme": "#9C27B0",
+    "subcategories": ["한과", "떡", "전통주", "차류", "발효식품"]
+  },
+  {
+    "id": "health",
+    "name_ko": "건강식품",
+    "name_en": "Health Foods",
+    "color_theme": "#4CAF50",
+    "subcategories": ["홍삼", "꿀", "건강즙", "한방재료", "영양제"]
   },
   {
     "id": "specialty",
-    "name_ko": "특산품",
-    "name_en": "Specialty Products",
-    "color_theme": "#BB8FCE"
+    "name_ko": "지역특산품",
+    "name_en": "Regional Specialties",
+    "color_theme": "#E91E63",
+    "subcategories": ["지역명품", "명인제품", "관광상품", "선물세트", "기념품"]
+  },
+  {
+    "id": "eco_friendly",
+    "name_ko": "친환경인증",
+    "name_en": "Eco-Certified",
+    "color_theme": "#8BC34A",
+    "subcategories": ["유기농", "무농약", "GAP인증", "친환경축산", "Non-GMO"]
+  },
+  {
+    "id": "seasonal",
+    "name_ko": "제철상품",
+    "name_en": "Seasonal Products",
+    "color_theme": "#FFC107",
+    "subcategories": ["봄나물", "여름과일", "가을곡물", "겨울채소", "명절선물"]
+  },
+  {
+    "id": "crafts",
+    "name_ko": "공예품",
+    "name_en": "Crafts & Goods",
+    "color_theme": "#607D8B",
+    "subcategories": ["도자기", "목공예", "섬유공예", "전통공예", "생활용품"]
   }
 ]
