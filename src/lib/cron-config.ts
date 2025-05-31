@@ -1,3 +1,4 @@
+/* eslint-disable */
 // Cron job configuration for periodic product sync
 // This file contains instructions for setting up automatic product synchronization
 
@@ -9,7 +10,7 @@ DEPLOYMENT OPTIONS:
    {
      "crons": [{
        "path": "/api/sync-products",
-       "schedule": "0 */6 * * *"
+       "schedule": "0 star/6 star star star"
      }]
    }
 

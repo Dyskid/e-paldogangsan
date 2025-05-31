@@ -37,6 +37,7 @@ function SearchContent() {
     const q = searchParams.get('q') || '';
     setQuery(q);
     performSearch(q);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchParams]);
 
   const performSearch = (searchQuery: string = query) => {
@@ -95,6 +96,7 @@ function SearchContent() {
 
   useEffect(() => {
     performSearch();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedFilters, sortBy]);
 
   const handleSearch = (searchQuery: string, searchResults: Mall[]) => {

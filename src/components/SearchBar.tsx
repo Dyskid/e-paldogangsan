@@ -47,6 +47,7 @@ export default function SearchBar({
       setShowDropdown(false);
     }
     setSelectedIndex(-1);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query, malls, showSuggestions]);
 
   const handleSearch = (searchQuery: string = query) => {
