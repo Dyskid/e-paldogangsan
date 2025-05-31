@@ -50,35 +50,12 @@ export default function HomePage() {
             </p>
             
             {/* Main Search Bar */}
-            <div className="max-w-2xl mx-auto mb-8">
+            <div className="max-w-2xl mx-auto">
               <SearchBar 
                 malls={malls}
                 placeholder="쇼핑몰이나 상품을 검색해보세요..."
                 className="shadow-lg"
               />
-            </div>
-            
-            {/* Quick Category Buttons */}
-            <div className="flex flex-wrap justify-center gap-4">
-              {['농산물', '수산물', '가공품'].map((category, index) => (
-                <button
-                  key={index}
-                  onClick={() => {
-                    const categoryMapping: { [key: string]: string } = {
-                      '농산물': 'vegetables',
-                      '수산물': 'seafood', 
-                      '가공품': 'processed'
-                    };
-                    const categoryId = categoryMapping[category];
-                    if (categoryId) {
-                      setSelectedFilters([categoryId]);
-                    }
-                  }}
-                  className="bg-white text-primary px-6 py-3 rounded-full font-medium border-2 border-primary hover:bg-primary hover:text-white transition-all duration-200 shadow-md hover:shadow-lg"
-                >
-                  {category}
-                </button>
-              ))}
             </div>
           </div>
         </div>
