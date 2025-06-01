@@ -45,7 +45,9 @@ export default function InteractiveMap({ regions, malls }: InteractiveMapProps) 
   };
 
   const getMallsForRegion = (regionId: string) => {
-    return malls.filter(mall => mall.region === regionId);
+    const region = regions.find(r => r.id === regionId);
+    if (!region) return [];
+    return malls.filter(mall => mall.region === region.name_ko);
   };
 
   const selectedRegionData = selectedRegion ? getRegionData(selectedRegion) : null;

@@ -49,7 +49,7 @@ export default function RegionPageClient({ region, malls, regions, categories }:
 
   const handleSearch = (query: string, results: Mall[]) => {
     // Filter results to only include malls from this region
-    const regionResults = results.filter(mall => mall.region === region.id);
+    const regionResults = results.filter(mall => mall.region === region.name_ko);
     // Handle the filtered search results as needed
   };
 
