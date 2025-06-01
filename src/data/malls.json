@@ -1,1036 +1,1399 @@
 [
   {
-    "id": "seoul-001",
+    "id": "mall_1_온서울마켓",
     "name": "온서울마켓",
     "url": "https://on.seoul.go.kr",
-    "region": "seoul",
-    "tags": ["농산물", "특산품", "로컬푸드"],
+    "region": "서울",
+    "tags": [
+      "마켓",
+      "서울"
+    ],
     "featured": true,
     "isNew": false,
-    "clickCount": 1245,
-    "lastVerified": "2024-01-15"
+    "clickCount": 986,
+    "lastVerified": "2025-06-01"
   },
   {
-    "id": "busan-001",
+    "id": "mall_2_부산브랜드몰",
     "name": "부산브랜드몰",
     "url": "https://busanbrand.kr",
-    "region": "busan",
-    "tags": ["브랜드", "특산품", "수산물"],
+    "region": "부산",
+    "tags": [
+      "종합몰",
+      "부산"
+    ],
     "featured": true,
     "isNew": false,
-    "clickCount": 987,
-    "lastVerified": "2024-01-14"
+    "clickCount": 296,
+    "lastVerified": "2025-06-01"
   },
   {
-    "id": "daegu-001",
+    "id": "mall_3_우리몰",
     "name": "우리몰",
     "url": "https://wemall.kr",
-    "region": "daegu",
-    "tags": ["농산물", "로컬푸드"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 654,
-    "lastVerified": "2024-01-12"
-  },
-  {
-    "id": "daegu-002",
-    "name": "참달성",
-    "url": "https://chamds.com",
-    "region": "daegu",
-    "tags": ["달성군", "농산물", "특산품"],
+    "region": "대구",
+    "tags": [
+      "종합몰",
+      "대구"
+    ],
     "featured": true,
     "isNew": false,
-    "clickCount": 456,
-    "lastVerified": "2024-01-11"
+    "clickCount": 602,
+    "lastVerified": "2025-06-01"
   },
   {
-    "id": "incheon-001",
+    "id": "mall_4_참달성_달성군_",
+    "name": "참달성 (달성군)",
+    "url": "https://chamds.com",
+    "region": "대구",
+    "tags": [
+      "대구"
+    ],
+    "featured": true,
+    "isNew": false,
+    "clickCount": 958,
+    "lastVerified": "2025-06-01",
+    "district": "달성군"
+  },
+  {
+    "id": "mall_5_인천e몰",
     "name": "인천e몰",
     "url": "https://www.incheone-mall.kr",
-    "region": "incheon",
-    "tags": ["농산물", "수산물", "해산물"],
-    "featured": true,
-    "isNew": false,
-    "clickCount": 789,
-    "lastVerified": "2024-01-13"
-  },
-  {
-    "id": "gwangju-001",
-    "name": "광주김치몰",
-    "url": "https://gwangjukimchi.kr",
-    "region": "gwangju",
-    "tags": ["김치", "발효식품", "전통식품"],
-    "featured": true,
-    "isNew": false,
-    "clickCount": 543,
-    "lastVerified": "2024-01-10"
-  },
-  {
-    "id": "daejeon-001",
-    "name": "온통대전몰",
-    "url": "https://www.ontongmall.kr",
-    "region": "daejeon",
-    "tags": ["농산물", "로컬푸드"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 432,
-    "lastVerified": "2024-01-09"
-  },
-  {
-    "id": "ulsan-001",
-    "name": "울산몰",
-    "url": "https://www.ulsanmall.kr",
-    "region": "ulsan",
-    "tags": ["수산물", "농산물", "동해안"],
-    "featured": true,
-    "isNew": false,
-    "clickCount": 365,
-    "lastVerified": "2024-01-08"
-  },
-  {
-    "id": "sejong-001",
-    "name": "세종로컬푸드",
-    "url": "https://www.sjlocal.or.kr",
-    "region": "sejong",
-    "tags": ["로컬푸드", "농산물", "친환경"],
+    "region": "인천",
+    "tags": [
+      "종합몰",
+      "인천"
+    ],
     "featured": true,
     "isNew": true,
-    "clickCount": 234,
-    "lastVerified": "2024-01-20"
+    "clickCount": 260,
+    "lastVerified": "2025-06-01"
   },
   {
-    "id": "gyeonggi-001",
-    "name": "착착착",
-    "url": "https://www.chack3.com",
-    "region": "gyeonggi",
-    "tags": ["농산물", "직거래", "로컬푸드"],
+    "id": "mall_6_광주김치몰",
+    "name": "광주김치몰",
+    "url": "https://www.k-kimchi.kr/index.php",
+    "region": "광주",
+    "tags": [
+      "종합몰",
+      "광주"
+    ],
     "featured": true,
     "isNew": false,
-    "clickCount": 1876,
-    "lastVerified": "2024-01-16"
+    "clickCount": 689,
+    "lastVerified": "2025-06-01"
   },
   {
-    "id": "gyeonggi-002",
+    "id": "mall_7_온통대전몰_대전사랑몰",
+    "name": "온통대전몰 대전사랑몰",
+    "url": "https://ontongdaejeon.ezwel.com/onnuri/main",
+    "region": "대전",
+    "tags": [
+      "종합몰",
+      "대전"
+    ],
+    "featured": true,
+    "isNew": false,
+    "clickCount": 14,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_8_울산몰",
+    "name": "울산몰",
+    "url": "https://www.ulsanmall.kr",
+    "region": "울산",
+    "tags": [
+      "종합몰",
+      "울산"
+    ],
+    "featured": true,
+    "isNew": true,
+    "clickCount": 668,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_9_세종로컬푸드",
+    "name": "세종로컬푸드",
+    "url": "https://www.sjlocal.or.kr/",
+    "region": "세종",
+    "tags": [
+      "로컬푸드",
+      "세종"
+    ],
+    "featured": true,
+    "isNew": true,
+    "clickCount": 909,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_10_착착착",
+    "name": "착착착",
+    "url": "https://www.chack3.com/",
+    "region": "경기",
+    "tags": [
+      "경기"
+    ],
+    "featured": true,
+    "isNew": false,
+    "clickCount": 519,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_11_오산함께장터",
     "name": "오산함께장터",
-    "url": "http://osansemall.com",
-    "region": "gyeonggi",
-    "tags": ["오산", "농산물", "장터"],
+    "url": "http://www.osansemall.com/",
+    "region": "경기",
+    "tags": [
+      "전통시장",
+      "경기"
+    ],
     "featured": false,
     "isNew": false,
-    "clickCount": 567,
-    "lastVerified": "2024-01-14"
+    "clickCount": 292,
+    "lastVerified": "2025-06-01"
   },
   {
-    "id": "gyeonggi-003",
+    "id": "mall_12_광명가치몰",
     "name": "광명가치몰",
     "url": "https://gmsocial.or.kr/mall/",
-    "region": "gyeonggi",
-    "tags": ["광명", "사회적경제", "농산물"],
+    "region": "경기",
+    "tags": [
+      "종합몰",
+      "경기"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 709,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_13_양주농부마켓",
+    "name": "양주농부마켓",
+    "url": "https://market.yangju.go.kr/",
+    "region": "경기",
+    "tags": [
+      "농산물",
+      "마켓",
+      "경기"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 375,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_14_마켓경기",
+    "name": "마켓경기",
+    "url": "https://smartstore.naver.com/marketgyeonggi",
+    "region": "경기",
+    "tags": [
+      "마켓",
+      "경기"
+    ],
+    "featured": false,
+    "isNew": true,
+    "clickCount": 75,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_15_강원더몰",
+    "name": "강원더몰",
+    "url": "https://gwdmall.kr/",
+    "region": "강원",
+    "tags": [
+      "종합몰",
+      "강원"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 305,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_16_원주몰",
+    "name": "원주몰",
+    "url": "https://wonju-mall.co.kr/",
+    "region": "강원",
+    "tags": [
+      "종합몰",
+      "강원"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 193,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_17_강릉몰",
+    "name": "강릉몰",
+    "url": "https://gangneung-mall.com/",
+    "region": "강원",
+    "tags": [
+      "종합몰",
+      "강원"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 588,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_18_고성몰",
+    "name": "고성몰",
+    "url": "https://gwgoseong-mall.com/",
+    "region": "강원",
+    "tags": [
+      "종합몰",
+      "강원"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 78,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_19_동해몰",
+    "name": "동해몰",
+    "url": "https://donghae-mall.com/",
+    "region": "강원",
+    "tags": [
+      "종합몰",
+      "강원"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 510,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_20_삼척몰",
+    "name": "삼척몰",
+    "url": "https://samcheok-mall.com/",
+    "region": "강원",
+    "tags": [
+      "종합몰",
+      "강원"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 907,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_21_양구몰",
+    "name": "양구몰",
+    "url": "https://yanggu-mall.com/",
+    "region": "강원",
+    "tags": [
+      "종합몰",
+      "강원"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 993,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_22_양양몰",
+    "name": "양양몰",
+    "url": "https://yangyang-mall.com/",
+    "region": "강원",
+    "tags": [
+      "종합몰",
+      "강원"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 250,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_23_영월몰",
+    "name": "영월몰",
+    "url": "https://yeongwol-mall.com/",
+    "region": "강원",
+    "tags": [
+      "종합몰",
+      "강원"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 569,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_24_인제몰",
+    "name": "인제몰",
+    "url": "https://inje-mall.com/",
+    "region": "강원",
+    "tags": [
+      "종합몰",
+      "강원"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 855,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_25_철원몰",
+    "name": "철원몰",
+    "url": "https://cheorwon-mall.com/",
+    "region": "강원",
+    "tags": [
+      "종합몰",
+      "강원"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 227,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_26_정선몰",
+    "name": "정선몰",
+    "url": "https://jeongseon-mall.com/",
+    "region": "강원",
+    "tags": [
+      "종합몰",
+      "강원"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 982,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_27_태백몰",
+    "name": "태백몰",
+    "url": "https://taebaek-mall.com/",
+    "region": "강원",
+    "tags": [
+      "종합몰",
+      "강원"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 740,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_28_횡성몰",
+    "name": "횡성몰",
+    "url": "https://hoengseong-mall.com/",
+    "region": "강원",
+    "tags": [
+      "종합몰",
+      "강원"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 545,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_29_춘천몰",
+    "name": "춘천몰",
+    "url": "https://gwch-mall.com/",
+    "region": "강원",
+    "tags": [
+      "종합몰",
+      "강원"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 400,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_30_홍천몰",
+    "name": "홍천몰",
+    "url": "https://hongcheon-mall.com/",
+    "region": "강원",
+    "tags": [
+      "종합몰",
+      "강원"
+    ],
+    "featured": false,
+    "isNew": true,
+    "clickCount": 413,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_31_평창몰",
+    "name": "평창몰",
+    "url": "https://gwpc-mall.com/",
+    "region": "강원",
+    "tags": [
+      "종합몰",
+      "강원"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 462,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_32_제천로컬푸드",
+    "name": "제천로컬푸드",
+    "url": "https://www.jclocal.co.kr/index.local",
+    "region": "충북",
+    "tags": [
+      "로컬푸드",
+      "충북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 356,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_33_음성장터",
+    "name": "음성장터",
+    "url": "https://www.esjang.go.kr/",
+    "region": "충북",
+    "tags": [
+      "전통시장",
+      "충북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 747,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_34_진천몰",
+    "name": "진천몰",
+    "url": "https://jcmall.net/",
+    "region": "충북",
+    "tags": [
+      "종합몰",
+      "충북"
+    ],
+    "featured": false,
+    "isNew": true,
+    "clickCount": 515,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_35_괴산장터",
+    "name": "괴산장터",
+    "url": "https://www.gsjangter.go.kr/",
+    "region": "충북",
+    "tags": [
+      "전통시장",
+      "충북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 521,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_36_농사랑",
+    "name": "농사랑",
+    "url": "https://nongsarang.co.kr/",
+    "region": "충남",
+    "tags": [
+      "농산물",
+      "충남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 510,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_37_당진팜",
+    "name": "당진팜",
+    "url": "https://dangjinfarm.com/",
+    "region": "충남",
+    "tags": [
+      "농장직송",
+      "충남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 243,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_38_e홍성장터",
+    "name": "e홍성장터",
+    "url": "https://ehongseong.com/",
+    "region": "충남",
+    "tags": [
+      "전통시장",
+      "충남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 962,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_39_서산뜨레",
+    "name": "서산뜨레",
+    "url": "https://seosanttre.com/index.html",
+    "region": "충남",
+    "tags": [
+      "충남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 140,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_40_부안_텃밭할매",
+    "name": "부안 텃밭할매",
+    "url": "https://www.xn--9z2bv5bx25anyd.kr/",
+    "region": "전북",
+    "tags": [
+      "전북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 420,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_41_단풍미인_정읍_",
+    "name": "단풍미인 (정읍)",
+    "url": "https://www.danpoongmall.kr/",
+    "region": "전북",
+    "tags": [
+      "전북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 257,
+    "lastVerified": "2025-06-01",
+    "district": "정읍"
+  },
+  {
+    "id": "mall_42_지평선몰_김제_",
+    "name": "지평선몰(김제)",
+    "url": "https://jpsmall.com/",
+    "region": "전북",
+    "tags": [
+      "종합몰",
+      "전북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 535,
+    "lastVerified": "2025-06-01",
+    "district": "김제"
+  },
+  {
+    "id": "mall_43_전북생생장터",
+    "name": "전북생생장터",
+    "url": "https://freshjb.com/",
+    "region": "전북",
+    "tags": [
+      "전통시장",
+      "전북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 517,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_44_익산몰",
+    "name": "익산몰",
+    "url": "https://iksanmall.com/",
+    "region": "전북",
+    "tags": [
+      "종합몰",
+      "전북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 838,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_45_진안고원몰",
+    "name": "진안고원몰",
+    "url": "https://jinangowonmall.com/",
+    "region": "전북",
+    "tags": [
+      "종합몰",
+      "전북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 181,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_46_장수몰",
+    "name": "장수몰",
+    "url": "https://www.장수몰.com/",
+    "region": "전북",
+    "tags": [
+      "종합몰",
+      "전북"
+    ],
+    "featured": false,
+    "isNew": true,
+    "clickCount": 548,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_47_고창마켓",
+    "name": "고창마켓",
+    "url": "https://noblegochang.com/",
+    "region": "전북",
+    "tags": [
+      "마켓",
+      "전북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 780,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_48_임실몰",
+    "name": "임실몰",
+    "url": "https://www.imsilin.kr/home",
+    "region": "전북",
+    "tags": [
+      "종합몰",
+      "전북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 798,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_49_순창로컬푸드쇼핑몰",
+    "name": "순창로컬푸드쇼핑몰",
+    "url": "https://smartstore.naver.com/schfarm",
+    "region": "전북",
+    "tags": [
+      "로컬푸드",
+      "종합몰",
+      "전북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 28,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_50_해가람",
+    "name": "해가람",
+    "url": "https://haegaram.com",
+    "region": "전북",
+    "tags": [
+      "전북"
+    ],
+    "featured": false,
+    "isNew": true,
+    "clickCount": 181,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_51_남도장터",
+    "name": "남도장터",
+    "url": "https://jnmall.kr/",
+    "region": "전남",
+    "tags": [
+      "전통시장",
+      "전남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 36,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_52_여수몰",
+    "name": "여수몰",
+    "url": "http://www.yeosumall.co.kr/",
+    "region": "전남",
+    "tags": [
+      "종합몰",
+      "전남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 900,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_53_해피굿팜",
+    "name": "해피굿팜",
+    "url": "https://smartstore.naver.com/hgoodfarm",
+    "region": "전남",
+    "tags": [
+      "농장직송",
+      "전남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 210,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_54_보성몰",
+    "name": "보성몰",
+    "url": "https://boseongmall.co.kr/",
+    "region": "전남",
+    "tags": [
+      "종합몰",
+      "전남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 44,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_55_나주몰",
+    "name": "나주몰",
+    "url": "https://najumall.kr/",
+    "region": "전남",
+    "tags": [
+      "종합몰",
+      "전남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 427,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_56_순천로컬푸드함께가게",
+    "name": "순천로컬푸드함께가게",
+    "url": "https://sclocal.kr/",
+    "region": "전남",
+    "tags": [
+      "로컬푸드",
+      "전남"
+    ],
+    "featured": false,
+    "isNew": true,
+    "clickCount": 625,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_57_신안1004몰",
+    "name": "신안1004몰",
+    "url": "https://shinan1004mall.kr/",
+    "region": "전남",
+    "tags": [
+      "종합몰",
+      "전남"
+    ],
+    "featured": false,
+    "isNew": true,
+    "clickCount": 757,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_58_장흥몰_산들해랑장흥몰_",
+    "name": "장흥몰 (산들해랑장흥몰)",
+    "url": "https://okjmall.com/",
+    "region": "전남",
+    "tags": [
+      "종합몰",
+      "전남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 217,
+    "lastVerified": "2025-06-01",
+    "district": "산들해랑장흥몰"
+  },
+  {
+    "id": "mall_59_기찬들영암몰",
+    "name": "기찬들영암몰",
+    "url": "https://yeongammall.co.kr/",
+    "region": "전남",
+    "tags": [
+      "종합몰",
+      "전남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 354,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_60_진도아리랑몰",
+    "name": "진도아리랑몰",
+    "url": "https://jindoarirangmall.com/",
+    "region": "전남",
+    "tags": [
+      "종합몰",
+      "전남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 857,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_61_완도군이숍",
+    "name": "완도군이숍",
+    "url": "https://wandofood.go.kr/",
+    "region": "전남",
+    "tags": [
+      "전남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 812,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_62_함평천지몰",
+    "name": "함평천지몰",
+    "url": "https://함평천지몰.kr/",
+    "region": "전남",
+    "tags": [
+      "종합몰",
+      "전남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 103,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_63_해남미소",
+    "name": "해남미소",
+    "url": "https://www.hnmiso.com/ACC_index.asp",
+    "region": "전남",
+    "tags": [
+      "전남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 864,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_64_담양장터",
+    "name": "담양장터",
+    "url": "https://damyangmk.kr/",
+    "region": "전남",
+    "tags": [
+      "전통시장",
+      "전남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 660,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_65_초록믿음_강진_",
+    "name": "초록믿음(강진)",
+    "url": "https://greengj.com/",
+    "region": "전남",
+    "tags": [
+      "전남"
+    ],
+    "featured": false,
+    "isNew": true,
+    "clickCount": 465,
+    "lastVerified": "2025-06-01",
+    "district": "강진"
+  },
+  {
+    "id": "mall_66_화순팜",
+    "name": "화순팜",
+    "url": "https://www.hwasunfarm.com/",
+    "region": "전남",
+    "tags": [
+      "농장직송",
+      "전남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 591,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_67_곡성몰_곡성군농특산물중개몰_",
+    "name": "곡성몰 (곡성군농특산물중개몰)",
+    "url": "https://gokseongmall.com/",
+    "region": "전남",
+    "tags": [
+      "농산물",
+      "특산품",
+      "종합몰",
+      "전남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 482,
+    "lastVerified": "2025-06-01",
+    "district": "곡성군농특산물중개몰"
+  },
+  {
+    "id": "mall_68_사이소_경북몰_",
+    "name": "사이소(경북몰)",
+    "url": "https://www.cyso.co.kr/",
+    "region": "경북",
+    "tags": [
+      "종합몰",
+      "경북"
+    ],
+    "featured": false,
+    "isNew": true,
+    "clickCount": 677,
+    "lastVerified": "2025-06-01",
+    "district": "경북몰"
+  },
+  {
+    "id": "mall_69_상주_명실상주몰",
+    "name": "상주 명실상주몰",
+    "url": "https://sjmall.cyso.co.kr/",
+    "region": "경북",
+    "tags": [
+      "종합몰",
+      "경북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 820,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_70_청도_청리브",
+    "name": "청도 청리브",
+    "url": "https://cdmall.cyso.co.kr",
+    "region": "경북",
+    "tags": [
+      "경북"
+    ],
+    "featured": false,
+    "isNew": true,
+    "clickCount": 396,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_71_영주장날",
+    "name": "영주장날",
+    "url": "https://yjmarket.cyso.co.kr/",
+    "region": "경북",
+    "tags": [
+      "경북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 525,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_72_안동장터",
+    "name": "안동장터",
+    "url": "https://andongjang.andong.go.kr/",
+    "region": "경북",
+    "tags": [
+      "전통시장",
+      "경북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 881,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_73_청송몰",
+    "name": "청송몰",
+    "url": "https://csmall.cyso.co.kr/",
+    "region": "경북",
+    "tags": [
+      "종합몰",
+      "경북"
+    ],
+    "featured": false,
+    "isNew": true,
+    "clickCount": 370,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_74_영양온심마켓",
+    "name": "영양온심마켓",
+    "url": "https://onsim.cyso.co.kr/",
+    "region": "경북",
+    "tags": [
+      "마켓",
+      "경북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 736,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_75_울릉도",
+    "name": "울릉도",
+    "url": "https://ulmall.cyso.co.kr",
+    "region": "경북",
+    "tags": [
+      "경북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 170,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_76_봉화장터",
+    "name": "봉화장터",
+    "url": "https://bmall.cyso.co.kr/",
+    "region": "경북",
+    "tags": [
+      "전통시장",
+      "경북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 470,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_77_고령몰",
+    "name": "고령몰",
+    "url": "https://grmall.cyso.co.kr/",
+    "region": "경북",
+    "tags": [
+      "종합몰",
+      "경북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 724,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_78_김천노다지장터",
+    "name": "김천노다지장터",
+    "url": "http://gcnodaji.com/",
+    "region": "경북",
+    "tags": [
+      "전통시장",
+      "경북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 323,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_79_예천장터",
+    "name": "예천장터",
+    "url": "https://ycjang.cyso.co.kr/",
+    "region": "경북",
+    "tags": [
+      "전통시장",
+      "경북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 726,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_80_문경_새제의아침",
+    "name": "문경 새제의아침",
+    "url": "https://mgmall.cyso.co.kr/",
+    "region": "경북",
+    "tags": [
+      "경북"
+    ],
+    "featured": false,
+    "isNew": true,
+    "clickCount": 710,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_81_칠곡몰",
+    "name": "칠곡몰",
+    "url": "https://cgmall.cyso.co.kr/",
+    "region": "경북",
+    "tags": [
+      "종합몰",
+      "경북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 607,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_82_의성장날",
+    "name": "의성장날",
+    "url": "https://esmall.cyso.co.kr/",
+    "region": "경북",
+    "tags": [
+      "경북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 515,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_83_울진몰",
+    "name": "울진몰",
+    "url": "https://ujmall.cyso.co.kr/",
+    "region": "경북",
+    "tags": [
+      "종합몰",
+      "경북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 774,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_84_영덕장터",
+    "name": "영덕장터",
+    "url": "https://ydmall.cyso.co.kr/",
+    "region": "경북",
+    "tags": [
+      "전통시장",
+      "경북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 370,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_85_경산몰",
+    "name": "경산몰",
+    "url": "https://gsmall.cyso.co.kr/",
+    "region": "경북",
+    "tags": [
+      "종합몰",
+      "경북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 716,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_86_경주몰",
+    "name": "경주몰",
+    "url": "https://gjmall.cyso.co.kr/",
+    "region": "경북",
+    "tags": [
+      "종합몰",
+      "경북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 681,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_87_구미팜",
+    "name": "구미팜",
+    "url": "https://gmmall.cyso.co.kr/",
+    "region": "경북",
+    "tags": [
+      "농장직송",
+      "경북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 244,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_88_별빛촌장터_영천_",
+    "name": "별빛촌장터(영천)",
+    "url": "https://01000.cyso.co.kr/",
+    "region": "경북",
+    "tags": [
+      "전통시장",
+      "경북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 594,
+    "lastVerified": "2025-06-01",
+    "district": "영천"
+  },
+  {
+    "id": "mall_89_포항마켓",
+    "name": "포항마켓",
+    "url": "https://pohangmarket.cyso.co.kr/",
+    "region": "경북",
+    "tags": [
+      "마켓",
+      "경북"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 589,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_90_e경남몰",
+    "name": "e경남몰",
+    "url": "https://egnmall.kr",
+    "region": "경남",
+    "tags": [
+      "종합몰",
+      "경남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 466,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_91_토요애_의령_",
+    "name": "토요애 (의령)",
+    "url": "https://toyoae.com/",
+    "region": "경남",
+    "tags": [
+      "경남"
+    ],
+    "featured": false,
+    "isNew": true,
+    "clickCount": 581,
+    "lastVerified": "2025-06-01",
+    "district": "의령"
+  },
+  {
+    "id": "mall_92_남해몰",
+    "name": "남해몰",
+    "url": "https://enamhae.co.kr/",
+    "region": "경남",
+    "tags": [
+      "종합몰",
+      "경남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 169,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_93_산엔청_산청_",
+    "name": "산엔청 (산청)",
+    "url": "https://sanencheong.com/",
+    "region": "경남",
+    "tags": [
+      "경남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 997,
+    "lastVerified": "2025-06-01",
+    "district": "산청"
+  },
+  {
+    "id": "mall_94_공룡나라_고성_",
+    "name": "공룡나라 (고성)",
+    "url": "https://www.edinomall.com/shop/smain/index.php",
+    "region": "경남",
+    "tags": [
+      "경남"
+    ],
+    "featured": false,
+    "isNew": true,
+    "clickCount": 381,
+    "lastVerified": "2025-06-01",
+    "district": "고성"
+  },
+  {
+    "id": "mall_95_함양몰",
+    "name": "함양몰",
+    "url": "https://2900.co.kr/",
+    "region": "경남",
+    "tags": [
+      "종합몰",
+      "경남"
+    ],
+    "featured": false,
+    "isNew": true,
+    "clickCount": 573,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_96_진주드림",
+    "name": "진주드림",
+    "url": "https://jinjudream.com/",
+    "region": "경남",
+    "tags": [
+      "경남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 578,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_97_함안몰",
+    "name": "함안몰",
+    "url": "https://hamanmall.com",
+    "region": "경남",
+    "tags": [
+      "종합몰",
+      "경남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 596,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_98_김해온몰",
+    "name": "김해온몰",
+    "url": "https://gimhaemall.kr",
+    "region": "경남",
+    "tags": [
+      "종합몰",
+      "경남"
+    ],
+    "featured": false,
+    "isNew": false,
+    "clickCount": 907,
+    "lastVerified": "2025-06-01"
+  },
+  {
+    "id": "mall_99_제주몰",
+    "name": "제주몰",
+    "url": "https://www.jejumall.kr",
+    "region": "제주",
+    "tags": [
+      "종합몰",
+      "제주"
+    ],
     "featured": false,
     "isNew": false,
     "clickCount": 445,
-    "lastVerified": "2024-01-12"
+    "lastVerified": "2025-06-01"
   },
   {
-    "id": "gyeonggi-004",
-    "name": "양주농부마켓",
-    "url": "http://market.yangju.go.kr",
-    "region": "gyeonggi",
-    "tags": ["양주", "농부", "직거래"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 334,
-    "lastVerified": "2024-01-11"
-  },
-  {
-    "id": "gyeonggi-005",
-    "name": "마켓경기",
-    "url": "https://smartstore.naver.com/marketgyeonggi",
-    "region": "gyeonggi",
-    "tags": ["경기도", "온라인마켓", "농산물"],
-    "featured": true,
-    "isNew": false,
-    "clickCount": 1234,
-    "lastVerified": "2024-01-15"
-  },
-  {
-    "id": "gangwon-001",
-    "name": "강원더몰",
-    "url": "https://gwdmall.kr",
-    "region": "gangwon",
-    "tags": ["강원도", "특산품", "청정"],
-    "featured": true,
-    "isNew": false,
-    "clickCount": 1567,
-    "lastVerified": "2024-01-17"
-  },
-  {
-    "id": "gangwon-002",
-    "name": "원주몰",
-    "url": "https://wonju-mall.co.kr",
-    "region": "gangwon",
-    "tags": ["원주", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 456,
-    "lastVerified": "2024-01-13"
-  },
-  {
-    "id": "gangwon-003",
-    "name": "강릉몰",
-    "url": "http://gangneung-mall.com",
-    "region": "gangwon",
-    "tags": ["강릉", "해산물", "커피"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 567,
-    "lastVerified": "2024-01-12"
-  },
-  {
-    "id": "gangwon-004",
-    "name": "동해몰",
-    "url": "http://donghae-mall.com",
-    "region": "gangwon",
-    "tags": ["동해", "수산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 345,
-    "lastVerified": "2024-01-11"
-  },
-  {
-    "id": "gangwon-005",
-    "name": "철원몰",
-    "url": "https://cheorwon-mall.com",
-    "region": "gangwon",
-    "tags": ["철원", "쌀", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 234,
-    "lastVerified": "2024-01-10"
-  },
-  {
-    "id": "gangwon-006",
-    "name": "삼척몰",
-    "url": "https://samcheok-mall.com",
-    "region": "gangwon",
-    "tags": ["삼척", "해산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 123,
-    "lastVerified": "2024-01-09"
-  },
-  {
-    "id": "gangwon-007",
-    "name": "정선몰",
-    "url": "https://www.jeongseon-mall.com",
-    "region": "gangwon",
-    "tags": ["정선", "산나물", "고원채소"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 345,
-    "lastVerified": "2024-01-08"
-  },
-  {
-    "id": "gangwon-008",
-    "name": "태백몰",
-    "url": "https://taebaek-mall.com",
-    "region": "gangwon",
-    "tags": ["태백", "고원농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 234,
-    "lastVerified": "2024-01-07"
-  },
-  {
-    "id": "gangwon-009",
-    "name": "횡성몰",
-    "url": "https://hoengseong-mall.com",
-    "region": "gangwon",
-    "tags": ["횡성", "한우", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 456,
-    "lastVerified": "2024-01-06"
-  },
-  {
-    "id": "gangwon-010",
-    "name": "춘천몰",
-    "url": "https://gwch-mall.com",
-    "region": "gangwon",
-    "tags": ["춘천", "닭갈비", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 567,
-    "lastVerified": "2024-01-05"
-  },
-  {
-    "id": "gangwon-011",
-    "name": "영월몰",
-    "url": "http://yeongwol-mall.com",
-    "region": "gangwon",
-    "tags": ["영월", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 234,
-    "lastVerified": "2024-01-04"
-  },
-  {
-    "id": "gangwon-012",
-    "name": "홍천몰",
-    "url": "http://www.hongcheon-mall.com",
-    "region": "gangwon",
-    "tags": ["홍천", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 345,
-    "lastVerified": "2024-01-03"
-  },
-  {
-    "id": "gangwon-013",
-    "name": "인제몰",
-    "url": "http://inje-mall.com",
-    "region": "gangwon",
-    "tags": ["인제", "산나물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 123,
-    "lastVerified": "2024-01-02"
-  },
-  {
-    "id": "gangwon-014",
-    "name": "평창몰",
-    "url": "https://gwpc-mall.com",
-    "region": "gangwon",
-    "tags": ["평창", "고원농산물", "올림픽"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 678,
-    "lastVerified": "2024-01-01"
-  },
-  {
-    "id": "gangwon-015",
-    "name": "양구몰",
-    "url": "http://www.yanggu-mall.com",
-    "region": "gangwon",
-    "tags": ["양구", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 234,
-    "lastVerified": "2023-12-31"
-  },
-  {
-    "id": "gangwon-016",
-    "name": "고성몰",
-    "url": "http://www.gwgoseong-mall.com",
-    "region": "gangwon",
-    "tags": ["고성", "해산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 345,
-    "lastVerified": "2023-12-30"
-  },
-  {
-    "id": "gangwon-017",
-    "name": "양양몰",
-    "url": "https://yangyang-mall.com",
-    "region": "gangwon",
-    "tags": ["양양", "해산물", "서핑"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 456,
-    "lastVerified": "2023-12-29"
-  },
-  {
-    "id": "chungbuk-001",
-    "name": "음성장터",
-    "url": "https://www.esjang.go.kr",
-    "region": "chungbuk",
-    "tags": ["음성", "농산물", "장터"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 567,
-    "lastVerified": "2024-01-16"
-  },
-  {
-    "id": "chungbuk-002",
-    "name": "진천몰",
-    "url": "https://jcmall.net",
-    "region": "chungbuk",
-    "tags": ["진천", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 345,
-    "lastVerified": "2024-01-15"
-  },
-  {
-    "id": "chungbuk-003",
-    "name": "괴산장터",
-    "url": "https://www.gsjangter.go.kr",
-    "region": "chungbuk",
-    "tags": ["괴산", "유기농", "친환경"],
-    "featured": true,
-    "isNew": false,
-    "clickCount": 789,
-    "lastVerified": "2024-01-14"
-  },
-  {
-    "id": "chungbuk-004",
-    "name": "제천로컬푸드",
-    "url": "https://www.jclocal.co.kr",
-    "region": "chungbuk",
-    "tags": ["제천", "로컬푸드", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 456,
-    "lastVerified": "2024-01-13"
-  },
-  {
-    "id": "chungnam-001",
-    "name": "농사랑",
-    "url": "http://nongsarang.co.kr",
-    "region": "chungnam",
-    "tags": ["충남", "농산물", "직거래"],
-    "featured": true,
-    "isNew": false,
-    "clickCount": 1234,
-    "lastVerified": "2024-01-17"
-  },
-  {
-    "id": "chungnam-002",
-    "name": "당진팜",
-    "url": "https://dangjinfarm.com",
-    "region": "chungnam",
-    "tags": ["당진", "농장", "직거래"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 567,
-    "lastVerified": "2024-01-16"
-  },
-  {
-    "id": "chungnam-003",
-    "name": "e홍성장터",
-    "url": "https://www.ehongseong.com",
-    "region": "chungnam",
-    "tags": ["홍성", "농산물", "장터"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 345,
-    "lastVerified": "2024-01-15"
-  },
-  {
-    "id": "chungnam-004",
-    "name": "서산뜨레",
-    "url": "https://www.seosanttre.com",
-    "region": "chungnam",
-    "tags": ["서산", "농산물", "뜨레"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 234,
-    "lastVerified": "2024-01-14"
-  },
-  {
-    "id": "jeonbuk-001",
-    "name": "전북생생장터",
-    "url": "https://freshjb.com",
-    "region": "jeonbuk",
-    "tags": ["전북", "신선", "농산물"],
-    "featured": true,
-    "isNew": false,
-    "clickCount": 1567,
-    "lastVerified": "2024-01-18"
-  },
-  {
-    "id": "jeonbuk-002",
-    "name": "단풍미인",
-    "url": "https://www.danpoongmall.kr",
-    "region": "jeonbuk",
-    "tags": ["정읍", "단풍", "특산품"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 456,
-    "lastVerified": "2024-01-17"
-  },
-  {
-    "id": "jeonbuk-003",
-    "name": "익산몰",
-    "url": "https://www.iksanmall.com",
-    "region": "jeonbuk",
-    "tags": ["익산", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 345,
-    "lastVerified": "2024-01-16"
-  },
-  {
-    "id": "jeonbuk-004",
-    "name": "진안고원몰",
-    "url": "https://진안고원몰.com",
-    "region": "jeonbuk",
-    "tags": ["진안", "고원", "청정"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 234,
-    "lastVerified": "2024-01-15"
-  },
-  {
-    "id": "jeonbuk-005",
-    "name": "장수몰",
-    "url": "https://www.장수몰.com",
-    "region": "jeonbuk",
-    "tags": ["장수", "고원농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 123,
-    "lastVerified": "2024-01-14"
-  },
-  {
-    "id": "jeonbuk-006",
-    "name": "고창마켓",
-    "url": "https://noblegochang.com",
-    "region": "jeonbuk",
-    "tags": ["고창", "복분자", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 567,
-    "lastVerified": "2024-01-13"
-  },
-  {
-    "id": "jeonbuk-007",
-    "name": "임실몰",
-    "url": "https://www.imsilin.kr",
-    "region": "jeonbuk",
-    "tags": ["임실", "치즈", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 678,
-    "lastVerified": "2024-01-12"
-  },
-  {
-    "id": "jeonbuk-008",
-    "name": "해가람",
-    "url": "https://haegaram.com",
-    "region": "jeonbuk",
-    "tags": ["새만금", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 345,
-    "lastVerified": "2024-01-11"
-  },
-  {
-    "id": "jeonnam-001",
-    "name": "남도장터",
-    "url": "https://jnmall.kr",
-    "region": "jeonnam",
-    "tags": ["전남", "남도", "특산품"],
-    "featured": true,
-    "isNew": false,
-    "clickCount": 2345,
-    "lastVerified": "2024-01-19"
-  },
-  {
-    "id": "jeonnam-002",
-    "name": "해피굿팜",
-    "url": "https://shop.goodfarm.net",
-    "region": "jeonnam",
-    "tags": ["농장", "직거래", "행복"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 567,
-    "lastVerified": "2024-01-18"
-  },
-  {
-    "id": "jeonnam-003",
-    "name": "여수몰",
-    "url": "http://www.yeosumall.co.kr",
-    "region": "jeonnam",
-    "tags": ["여수", "해산물", "수산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 789,
-    "lastVerified": "2024-01-17"
-  },
-  {
-    "id": "jeonnam-004",
-    "name": "곡성군농특산물중개몰",
-    "url": "https://gokseong.go.kr/gsmart",
-    "region": "jeonnam",
-    "tags": ["곡성", "농특산물", "중개"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 345,
-    "lastVerified": "2024-01-16"
-  },
-  {
-    "id": "jeonnam-005",
-    "name": "화순팜",
-    "url": "https://www.hwasunfarm.com",
-    "region": "jeonnam",
-    "tags": ["화순", "농장", "직거래"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 234,
-    "lastVerified": "2024-01-15"
-  },
-  {
-    "id": "jeonnam-006",
-    "name": "초록믿음",
-    "url": "https://greengj.com",
-    "region": "jeonnam",
-    "tags": ["강진", "친환경", "유기농"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 456,
-    "lastVerified": "2024-01-14"
-  },
-  {
-    "id": "jeonnam-007",
-    "name": "해남미소",
-    "url": "https://www.hnmiso.com",
-    "region": "jeonnam",
-    "tags": ["해남", "배추", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 567,
-    "lastVerified": "2024-01-13"
-  },
-  {
-    "id": "jeonnam-008",
-    "name": "함평천지몰",
-    "url": "https://함평천지몰.kr",
-    "region": "jeonnam",
-    "tags": ["함평", "나비", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 345,
-    "lastVerified": "2024-01-12"
-  },
-  {
-    "id": "jeonnam-009",
-    "name": "보성몰",
-    "url": "https://boseongmall.co.kr",
-    "region": "jeonnam",
-    "tags": ["보성", "녹차", "차"],
-    "featured": true,
-    "isNew": false,
-    "clickCount": 1234,
-    "lastVerified": "2024-01-11"
-  },
-  {
-    "id": "jeonnam-010",
-    "name": "완도군이숍",
-    "url": "https://wandofood.go.kr",
-    "region": "jeonnam",
-    "tags": ["완도", "전복", "해산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 678,
-    "lastVerified": "2024-01-10"
-  },
-  {
-    "id": "jeonnam-011",
-    "name": "진도아리랑몰",
-    "url": "https://jindoarirangmall.com",
-    "region": "jeonnam",
-    "tags": ["진도", "아리랑", "특산품"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 345,
-    "lastVerified": "2024-01-09"
-  },
-  {
-    "id": "jeonnam-012",
-    "name": "기찬들영암몰",
-    "url": "https://yeongammall.co.kr",
-    "region": "jeonnam",
-    "tags": ["영암", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 234,
-    "lastVerified": "2024-01-08"
-  },
-  {
-    "id": "jeonnam-013",
-    "name": "순천로컬푸드함께가게",
-    "url": "https://sclocal.kr",
-    "region": "jeonnam",
-    "tags": ["순천", "로컬푸드", "함께"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 456,
-    "lastVerified": "2024-01-07"
-  },
-  {
-    "id": "jeonnam-014",
-    "name": "나주몰",
-    "url": "https://najumall.kr",
-    "region": "jeonnam",
-    "tags": ["나주", "배", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 567,
-    "lastVerified": "2024-01-06"
-  },
-  {
-    "id": "jeonnam-015",
-    "name": "신안1004몰",
-    "url": "https://shinan1004mall.kr",
-    "region": "jeonnam",
-    "tags": ["신안", "천사", "섬"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 345,
-    "lastVerified": "2024-01-05"
-  },
-  {
-    "id": "jeonnam-016",
-    "name": "산들해랑장흥몰",
-    "url": "https://www.okjmall.com/main/index.php",
-    "region": "jeonnam",
-    "tags": ["장흥", "표고버섯", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 234,
-    "lastVerified": "2024-01-04"
-  },
-  {
-    "id": "jeonnam-017",
-    "name": "담양장터",
-    "url": "https://damyangmk.kr/",
-    "region": "jeonnam",
-    "tags": ["담양", "대나무", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 123,
-    "lastVerified": "2024-01-03"
-  },
-  {
-    "id": "gyeongbuk-001",
-    "name": "사이소",
-    "url": "https://www.cyso.co.kr",
-    "region": "gyeongbuk",
-    "tags": ["경북", "통합몰", "농산물"],
-    "featured": true,
-    "isNew": false,
-    "clickCount": 3456,
-    "lastVerified": "2024-01-20"
-  },
-  {
-    "id": "gyeongbuk-002",
-    "name": "포항마켓",
-    "url": "https://pohangmarket.cyso.co.kr",
-    "region": "gyeongbuk",
-    "tags": ["포항", "수산물", "철강"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 789,
-    "lastVerified": "2024-01-19"
-  },
-  {
-    "id": "gyeongbuk-003",
-    "name": "별빛촌장터",
-    "url": "https://01000.cyso.co.kr",
-    "region": "gyeongbuk",
-    "tags": ["영천", "별빛", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 456,
-    "lastVerified": "2024-01-18"
-  },
-  {
-    "id": "gyeongbuk-004",
-    "name": "구미팜",
-    "url": "https://gmmall.cyso.co.kr",
-    "region": "gyeongbuk",
-    "tags": ["구미", "농장", "직거래"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 567,
-    "lastVerified": "2024-01-17"
-  },
-  {
-    "id": "gyeongbuk-005",
-    "name": "경주몰",
-    "url": "https://gjmall.cyso.co.kr",
-    "region": "gyeongbuk",
-    "tags": ["경주", "전통", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 678,
-    "lastVerified": "2024-01-16"
-  },
-  {
-    "id": "gyeongbuk-006",
-    "name": "경산몰",
-    "url": "https://gsmall.cyso.co.kr",
-    "region": "gyeongbuk",
-    "tags": ["경산", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 345,
-    "lastVerified": "2024-01-15"
-  },
-  {
-    "id": "gyeongbuk-007",
-    "name": "상주몰",
-    "url": "https://sjmall.cyso.co.kr",
-    "region": "gyeongbuk",
-    "tags": ["상주", "곶감", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 234,
-    "lastVerified": "2024-01-14"
-  },
-  {
-    "id": "gyeongbuk-008",
-    "name": "영덕장터",
-    "url": "https://ydmall.cyso.co.kr",
-    "region": "gyeongbuk",
-    "tags": ["영덕", "대게", "수산물"],
-    "featured": true,
-    "isNew": false,
-    "clickCount": 1567,
-    "lastVerified": "2024-01-13"
-  },
-  {
-    "id": "gyeongbuk-009",
-    "name": "울진몰",
-    "url": "https://ujmall.cyso.co.kr",
-    "region": "gyeongbuk",
-    "tags": ["울진", "수산물", "동해안"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 456,
-    "lastVerified": "2024-01-12"
-  },
-  {
-    "id": "gyeongbuk-010",
-    "name": "의성장날",
-    "url": "https://esmall.cyso.co.kr",
-    "region": "gyeongbuk",
-    "tags": ["의성", "마늘", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 345,
-    "lastVerified": "2024-01-11"
-  },
-  {
-    "id": "gyeongbuk-011",
-    "name": "칠곡몰",
-    "url": "https://cgmall.cyso.co.kr",
-    "region": "gyeongbuk",
-    "tags": ["칠곡", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 234,
-    "lastVerified": "2024-01-10"
-  },
-  {
-    "id": "gyeongbuk-012",
-    "name": "예천장터",
-    "url": "https://ycjang.cyso.co.kr",
-    "region": "gyeongbuk",
-    "tags": ["예천", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 123,
-    "lastVerified": "2024-01-09"
-  },
-  {
-    "id": "gyeongbuk-013",
-    "name": "김천노다지장터",
-    "url": "http://gcnodaji.com",
-    "region": "gyeongbuk",
-    "tags": ["김천", "노다지", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 456,
-    "lastVerified": "2024-01-08"
-  },
-  {
-    "id": "gyeongbuk-014",
-    "name": "고령몰",
-    "url": "https://grmall.cyso.co.kr",
-    "region": "gyeongbuk",
-    "tags": ["고령", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 234,
-    "lastVerified": "2024-01-07"
-  },
-  {
-    "id": "gyeongbuk-015",
-    "name": "봉화장터",
-    "url": "https://bmall.cyso.co.kr",
-    "region": "gyeongbuk",
-    "tags": ["봉화", "산나물", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 345,
-    "lastVerified": "2024-01-06"
-  },
-  {
-    "id": "gyeongbuk-016",
-    "name": "영양온심마켓",
-    "url": "https://onsim.cyso.co.kr",
-    "region": "gyeongbuk",
-    "tags": ["영양", "온심", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 123,
-    "lastVerified": "2024-01-05"
-  },
-  {
-    "id": "gyeongbuk-017",
-    "name": "영주장날",
-    "url": "https://yjmarket.cyso.co.kr",
-    "region": "gyeongbuk",
-    "tags": ["영주", "사과", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 234,
-    "lastVerified": "2024-01-04"
-  },
-  {
-    "id": "gyeongbuk-018",
-    "name": "청송몰",
-    "url": "https://csmall.cyso.co.kr",
-    "region": "gyeongbuk",
-    "tags": ["청송", "사과", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 345,
-    "lastVerified": "2024-01-03"
-  },
-  {
-    "id": "gyeongbuk-019",
-    "name": "안동장터",
-    "url": "https://andongjang.cyso.co.kr",
-    "region": "gyeongbuk",
-    "tags": ["안동", "전통", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 456,
-    "lastVerified": "2024-01-02"
-  },
-  {
-    "id": "gyeongnam-001",
-    "name": "e경남몰",
-    "url": "https://egnmall.kr",
-    "region": "gyeongnam",
-    "tags": ["경남", "통합몰", "농산물"],
-    "featured": true,
-    "isNew": false,
-    "clickCount": 2345,
-    "lastVerified": "2024-01-21"
-  },
-  {
-    "id": "gyeongnam-002",
-    "name": "토요애",
-    "url": "https://toyoae.com",
-    "region": "gyeongnam",
-    "tags": ["의령", "토마토", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 567,
-    "lastVerified": "2024-01-20"
-  },
-  {
-    "id": "gyeongnam-003",
-    "name": "남해몰",
-    "url": "https://www.enamhae.co.kr",
-    "region": "gyeongnam",
-    "tags": ["남해", "마늘", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 456,
-    "lastVerified": "2024-01-19"
-  },
-  {
-    "id": "gyeongnam-004",
-    "name": "산엔청",
-    "url": "https://www.sanencheong.com",
-    "region": "gyeongnam",
-    "tags": ["산청", "한방", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 345,
-    "lastVerified": "2024-01-18"
-  },
-  {
-    "id": "gyeongnam-005",
-    "name": "공룡나라쇼핑몰",
-    "url": "https://www.edinomall.com",
-    "region": "gyeongnam",
-    "tags": ["고성", "공룡", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 234,
-    "lastVerified": "2024-01-17"
-  },
-  {
-    "id": "gyeongnam-006",
-    "name": "함양몰",
-    "url": "https://2900.co.kr",
-    "region": "gyeongnam",
-    "tags": ["함양", "산삼", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 123,
-    "lastVerified": "2024-01-16"
-  },
-  {
-    "id": "gyeongnam-007",
-    "name": "함안몰",
-    "url": "https://www.hamanmall.com",
-    "region": "gyeongnam",
-    "tags": ["함안", "연꽃", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 456,
-    "lastVerified": "2024-01-15"
-  },
-  {
-    "id": "gyeongnam-008",
-    "name": "진주드림",
-    "url": "https://www.jinjudream.com",
-    "region": "gyeongnam",
-    "tags": ["진주", "실크", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 345,
-    "lastVerified": "2024-01-14"
-  },
-  {
-    "id": "gyeongnam-009",
-    "name": "김해온몰",
-    "url": "https://gimhaemall.kr",
-    "region": "gyeongnam",
-    "tags": ["김해", "가야", "농산물"],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 234,
-    "lastVerified": "2024-01-13"
-  },
-  {
-    "id": "jeju-001",
-    "name": "제주몰",
-    "url": "https://www.jejumall.kr",
-    "region": "jeju",
-    "tags": ["제주", "감귤", "특산품"],
-    "featured": true,
-    "isNew": false,
-    "clickCount": 3456,
-    "lastVerified": "2024-01-22"
-  },
-  {
-    "id": "jeju-002",
+    "id": "mall_100_이제주몰",
     "name": "이제주몰",
-    "url": "https://mall.ejeju.net",
-    "region": "jeju",
-    "tags": ["제주", "온라인", "특산품"],
+    "url": "https://mall.ejeju.net/main/index.do",
+    "region": "제주",
+    "tags": [
+      "종합몰",
+      "제주"
+    ],
     "featured": false,
     "isNew": false,
-    "clickCount": 1234,
-    "lastVerified": "2024-01-21"
+    "clickCount": 870,
+    "lastVerified": "2025-06-01"
   }
 ]

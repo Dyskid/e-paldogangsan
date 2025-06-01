@@ -18,8 +18,12 @@ export async function POST(request: Request) {
 
     // For now, sync only malls with scraper configurations
     const mallsToSync = [
-      { id: 'on-seoul', name: '온서울마켓' },
-      { id: 'busanbrand', name: '부산브랜드몰' },
+      { id: 'mall_1_온서울마켓', name: '온서울마켓' },
+      { id: 'mall_2_부산브랜드몰', name: '부산브랜드몰' },
+      { id: 'mall_15_강원더몰', name: '강원더몰' },
+      { id: 'mall_51_남도장터', name: '남도장터' },
+      { id: 'mall_68_사이소_경북몰_', name: '사이소(경북몰)' },
+      { id: 'mall_99_제주몰', name: '제주몰' }
       // Add more as scrapers are configured
     ];
 

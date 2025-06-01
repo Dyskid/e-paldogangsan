@@ -1,138 +1,138 @@
 [
   {
     "id": "seoul",
-    "name_ko": "서울특별시",
-    "name_en": "Seoul Metropolitan City",
-    "description_ko": "대한민국의 수도, 다양한 로컬 특산품",
+    "name_ko": "서울",
+    "name_en": "seoul",
+    "description_ko": "서울특별시의 지역 특산품과 농산물을 만나보세요",
     "mall_count": 1,
-    "highlight_text": "도시농업과 전통시장의 만남"
+    "highlight_text": "서울 특산품"
   },
   {
     "id": "busan",
-    "name_ko": "부산광역시",
-    "name_en": "Busan Metropolitan City", 
-    "description_ko": "신선한 해산물과 수산물의 중심지",
+    "name_ko": "부산",
+    "name_en": "busan",
+    "description_ko": "부산광역시의 지역 특산품과 농산물을 만나보세요",
     "mall_count": 1,
-    "highlight_text": "바다에서 식탁까지 직송"
+    "highlight_text": "부산 특산품"
   },
   {
     "id": "daegu",
-    "name_ko": "대구광역시",
-    "name_en": "Daegu Metropolitan City",
-    "description_ko": "전통 농업과 현대적 유통의 조화",
+    "name_ko": "대구",
+    "name_en": "daegu",
+    "description_ko": "대구광역시의 지역 특산품과 농산물을 만나보세요",
     "mall_count": 2,
-    "highlight_text": "신선한 농산물의 보고"
+    "highlight_text": "대구 특산품"
   },
   {
     "id": "incheon",
-    "name_ko": "인천광역시",
-    "name_en": "Incheon Metropolitan City",
-    "description_ko": "서해안 해산물과 도시농업 특산품",
+    "name_ko": "인천",
+    "name_en": "incheon",
+    "description_ko": "인천광역시의 지역 특산품과 농산물을 만나보세요",
     "mall_count": 1,
-    "highlight_text": "바다와 육지의 풍요로운 만남"
+    "highlight_text": "인천 특산품"
   },
   {
     "id": "gwangju",
-    "name_ko": "광주광역시",
-    "name_en": "Gwangju Metropolitan City",
-    "description_ko": "호남지역 농산물의 중심 유통지",
+    "name_ko": "광주",
+    "name_en": "gwangju",
+    "description_ko": "광주광역시의 지역 특산품과 농산물을 만나보세요",
     "mall_count": 1,
-    "highlight_text": "예술과 농업이 어우러진 도시"
+    "highlight_text": "광주 특산품"
   },
   {
     "id": "daejeon",
-    "name_ko": "대전광역시",
-    "name_en": "Daejeon Metropolitan City",
-    "description_ko": "중부권 농산물 유통의 거점",
+    "name_ko": "대전",
+    "name_en": "daejeon",
+    "description_ko": "대전광역시의 지역 특산품과 농산물을 만나보세요",
     "mall_count": 1,
-    "highlight_text": "과학기술과 전통농업의 결합"
+    "highlight_text": "대전 특산품"
   },
   {
     "id": "ulsan",
-    "name_ko": "울산광역시",
-    "name_en": "Ulsan Metropolitan City",
-    "description_ko": "동해안 수산물과 산지 농산물",
+    "name_ko": "울산",
+    "name_en": "ulsan",
+    "description_ko": "울산광역시의 지역 특산품과 농산물을 만나보세요",
     "mall_count": 1,
-    "highlight_text": "공업도시의 친환경 농수산물"
-  },
-  {
-    "id": "gyeonggi",
-    "name_ko": "경기도",
-    "name_en": "Gyeonggi Province",
-    "description_ko": "수도권 최대 농산물 공급지",
-    "mall_count": 5,
-    "highlight_text": "한국 농업의 메카"
-  },
-  {
-    "id": "gangwon",
-    "name_ko": "강원도",
-    "name_en": "Gangwon Province",
-    "description_ko": "청정 고원지대의 특급 농산물",
-    "mall_count": 17,
-    "highlight_text": "한국의 알프스, 청정 자연의 맛"
-  },
-  {
-    "id": "chungbuk",
-    "name_ko": "충청북도",
-    "name_en": "Chungcheongbuk Province",
-    "description_ko": "내륙 산간지역의 우수 농산물",
-    "mall_count": 4,
-    "highlight_text": "산과 들이 키운 건강한 먹거리"
-  },
-  {
-    "id": "chungnam",
-    "name_ko": "충청남도",
-    "name_en": "Chungcheongnam Province",
-    "description_ko": "서해안 갯벌과 평야의 풍부한 농산물",
-    "mall_count": 4,
-    "highlight_text": "바다와 땅이 만나는 풍요로운 식탁"
-  },
-  {
-    "id": "jeonbuk",
-    "name_ko": "전라북도",
-    "name_en": "Jeollabuk Province",
-    "description_ko": "전통 농업의 중심지, 우수한 곡창지대",
-    "mall_count": 8,
-    "highlight_text": "한국 농업의 심장, 전통과 혁신의 조화"
-  },
-  {
-    "id": "jeonnam",
-    "name_ko": "전라남도",
-    "name_en": "Jeollanam Province",
-    "description_ko": "남해안의 청정 해산물과 농산물의 보고",
-    "mall_count": 17,
-    "highlight_text": "천혜의 자연이 키운 신선한 맛"
-  },
-  {
-    "id": "gyeongbuk",
-    "name_ko": "경상북도",
-    "name_en": "Gyeongsangbuk Province",
-    "description_ko": "동해안과 내륙의 다양한 특산품",
-    "mall_count": 19,
-    "highlight_text": "전통과 자연이 어우러진 맛의 고장"
-  },
-  {
-    "id": "gyeongnam",
-    "name_ko": "경상남도",
-    "name_en": "Gyeongsangnam Province",
-    "description_ko": "남해안의 온화한 기후와 풍부한 농수산물",
-    "mall_count": 9,
-    "highlight_text": "바다와 산이 선사하는 자연의 선물"
-  },
-  {
-    "id": "jeju",
-    "name_ko": "제주특별자치도",
-    "name_en": "Jeju Special Self-Governing Province",
-    "description_ko": "청정 화산섬의 독특한 특산품",
-    "mall_count": 2,
-    "highlight_text": "신비로운 섬이 키운 특별한 맛"
+    "highlight_text": "울산 특산품"
   },
   {
     "id": "sejong",
-    "name_ko": "세종특별자치시",
-    "name_en": "Sejong Special Self-Governing City",
-    "description_ko": "새로운 행정수도의 로컬푸드",
+    "name_ko": "세종",
+    "name_en": "sejong",
+    "description_ko": "세종특별자치시의 지역 특산품과 농산물을 만나보세요",
     "mall_count": 1,
-    "highlight_text": "미래 도시의 건강한 먹거리"
+    "highlight_text": "세종 특산품"
+  },
+  {
+    "id": "gyeonggi",
+    "name_ko": "경기",
+    "name_en": "gyeonggi",
+    "description_ko": "경기도의 지역 특산품과 농산물을 만나보세요",
+    "mall_count": 5,
+    "highlight_text": "경기 특산품"
+  },
+  {
+    "id": "gangwon",
+    "name_ko": "강원",
+    "name_en": "gangwon",
+    "description_ko": "강원도의 지역 특산품과 농산물을 만나보세요",
+    "mall_count": 17,
+    "highlight_text": "강원 특산품"
+  },
+  {
+    "id": "chungbuk",
+    "name_ko": "충북",
+    "name_en": "chungbuk",
+    "description_ko": "충청북도의 지역 특산품과 농산물을 만나보세요",
+    "mall_count": 4,
+    "highlight_text": "충북 특산품"
+  },
+  {
+    "id": "chungnam",
+    "name_ko": "충남",
+    "name_en": "chungnam",
+    "description_ko": "충청남도의 지역 특산품과 농산물을 만나보세요",
+    "mall_count": 4,
+    "highlight_text": "충남 특산품"
+  },
+  {
+    "id": "jeonbuk",
+    "name_ko": "전북",
+    "name_en": "jeonbuk",
+    "description_ko": "전라북도의 지역 특산품과 농산물을 만나보세요",
+    "mall_count": 11,
+    "highlight_text": "전북 특산품"
+  },
+  {
+    "id": "jeonnam",
+    "name_ko": "전남",
+    "name_en": "jeonnam",
+    "description_ko": "전라남도의 지역 특산품과 농산물을 만나보세요",
+    "mall_count": 17,
+    "highlight_text": "전남 특산품"
+  },
+  {
+    "id": "gyeongbuk",
+    "name_ko": "경북",
+    "name_en": "gyeongbuk",
+    "description_ko": "경상북도의 지역 특산품과 농산물을 만나보세요",
+    "mall_count": 22,
+    "highlight_text": "경북 특산품"
+  },
+  {
+    "id": "gyeongnam",
+    "name_ko": "경남",
+    "name_en": "gyeongnam",
+    "description_ko": "경상남도의 지역 특산품과 농산물을 만나보세요",
+    "mall_count": 9,
+    "highlight_text": "경남 특산품"
+  },
+  {
+    "id": "jeju",
+    "name_ko": "제주",
+    "name_en": "jeju",
+    "description_ko": "제주특별자치도의 지역 특산품과 농산물을 만나보세요",
+    "mall_count": 2,
+    "highlight_text": "제주 특산품"
   }
 ]
