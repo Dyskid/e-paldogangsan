@@ -38,9 +38,7 @@ export default function ProductCard({ product }: ProductCardProps) {
   return (
     <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
       <Link 
-        href={product.productUrl} 
-        target="_blank" 
-        rel="noopener noreferrer"
+        href={`/product/${product.id}`}
         className="block"
       >
         <div className="relative h-48 bg-gray-100">
@@ -98,7 +96,7 @@ export default function ProductCard({ product }: ProductCardProps) {
               </span>
             </div>
             <span className="text-xs text-blue-600 hover:text-blue-800">
-              구매하기 →
+              상세보기 →
             </span>
           </div>
         </div>

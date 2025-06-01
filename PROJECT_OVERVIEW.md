@@ -80,6 +80,10 @@ src/
   │   │   ├── page.tsx
   │   ├── privacy/
   │   │   ├── page.tsx
+  │   ├── product/
+  │   │   ├── [productId]/
+  │   │   │   ├── page.tsx
+  │   │   ├── \[productId\]/
   │   ├── products/
   │   │   ├── page.tsx
   │   ├── region/
@@ -441,11 +445,11 @@ Version: 1.0.0
 Last Updated: 2025-06-01
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: e8c7cb0 feat: implement comprehensive product classification and search system
+Last Commit: 4226a48 feat: add automated project overview management and git hooks
 
 ### Project Statistics
-- Total Files: 57
-- Total Directories: 22
+- Total Files: 58
+- Total Directories: 25
 - Shopping Malls: 100
 - Products: 451
 - Regions: 17
