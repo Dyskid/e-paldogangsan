@@ -3,7 +3,8 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Product } from '@/types';
 import ProductCard from '@/components/ProductCard';
-import SearchBar from '@/components/SearchBar';
+import ProductSearchBar from '@/components/ProductSearchBar';
+import { getAllCategories, getCategoryInfo } from '@/lib/product-classifier';
 
 export default function ProductsPage() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -14,16 +15,7 @@ export default function ProductsPage() {
 
   const categories = [
     { id: 'all', name: '전체' },
-    { id: 'agricultural', name: '농산물' },
-    { id: 'seafood', name: '수산물' },
-    { id: 'livestock', name: '축산물' },
-    { id: 'processed', name: '가공식품' },
-    { id: 'health', name: '건강식품' },
-    { id: 'traditional', name: '전통식품' },
-    { id: 'specialty', name: '지역특산품' },
-    { id: 'eco_friendly', name: '친환경인증' },
-    { id: 'crafts', name: '공예품' },
-    { id: 'other', name: '기타' }
+    ...getAllCategories()
   ];
 
   useEffect(() => {
@@ -68,8 +60,12 @@ export default function ProductsPage() {
   };
 
 
-  const handleSearch = (query: string) => {
+  const handleSearch = (query: string, results: Product[], category?: string) => {
     setSearchQuery(query);
+    if (category) {
+      setSelectedCategory(category);
+    }
+    setFilteredProducts(results);
   };
 
   if (loading) {
@@ -89,9 +85,9 @@ export default function ProductsPage() {
       <div className="bg-white shadow-sm">
         <div className="container mx-auto px-4 py-6">
           <h1 className="text-3xl font-bold text-gray-900 mb-4">전체 상품</h1>
-          <div className="max-w-2xl mx-auto">
-            <SearchBar 
-              malls={[]}
+          <div className="max-w-4xl mx-auto">
+            <ProductSearchBar 
+              products={products}
               onSearch={handleSearch}
               placeholder="상품명, 쇼핑몰, 설명으로 검색..."
             />

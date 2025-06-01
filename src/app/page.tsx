@@ -53,9 +53,19 @@ export default function HomePage() {
             <div className="max-w-2xl mx-auto">
               <SearchBar 
                 malls={malls}
-                placeholder="쇼핑몰이나 상품을 검색해보세요..."
+                placeholder="쇼핑몰 검색..."
                 className="shadow-lg"
               />
+            </div>
+            
+            {/* Product Search Link */}
+            <div className="mt-4">
+              <a 
+                href="/products"
+                className="text-primary hover:text-blue-700 font-medium"
+              >
+                상품을 검색하시나요? 전체 상품 검색하기 →
+              </a>
             </div>
           </div>
         </div>

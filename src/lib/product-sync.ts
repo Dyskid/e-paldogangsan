@@ -1,5 +1,6 @@
 import { Product, ProductSyncStatus } from '@/types';
 import { createScraper } from './scrapers/scraper-registry';
+import { classifyProduct } from './product-classifier';
 import fs from 'fs/promises';
 import path from 'path';
 
@@ -71,8 +72,23 @@ export class ProductSyncService {
         }
       }
 
-      // Add new products
+      // Add new products with automatic category classification
       newProducts.forEach(product => {
+        // Classify the product
+        const classification = classifyProduct(product.name, product.description);
+        
+        if (classification) {
+          // Update product with classified category
+          product.category = classification.mainCategory;
+          product.subcategory = classification.subcategory;
+          
+          // Add category tags if not already present
+          const categoryTag = classification.mainCategory;
+          if (!product.tags.includes(categoryTag)) {
+            product.tags.push(categoryTag);
+          }
+        }
+        
         this.products.set(product.id, product);
       });
 
