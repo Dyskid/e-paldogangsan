@@ -2,11 +2,11 @@ import type { Metadata, Viewport } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'e-팔도강산 | 대한민국 지역 특산품 쇼핑몰 포털',
+  title: '모두의팔도장터 | 대한민국 지역 특산품 쇼핑몰 포털',
   description: '전국 지방자치단체 운영 온라인 쇼핑몰을 한 곳에서 만나보세요. 신선한 농수산물과 지역 특산품을 산지직송으로 구매하세요.',
   keywords: ['지역특산품', '농수산물', '산지직송', '로컬푸드', '정부인증', '전국특산품'],
   openGraph: {
-    title: 'e-팔도강산 | 대한민국 지역 특산품 쇼핑몰 포털',
+    title: '모두의팔도장터 | 대한민국 지역 특산품 쇼핑몰 포털',
     description: '전국 지방자치단체 운영 온라인 쇼핑몰을 한 곳에서 만나보세요.',
     type: 'website',
     locale: 'ko_KR',
@@ -37,9 +37,9 @@ export default function RootLayout({
               <div className="flex items-center">
                 <a href="/" className="flex items-center space-x-2">
                   <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                    <span className="text-white font-bold text-sm">e팔</span>
+                    <span className="text-white font-bold text-sm">모팔</span>
                   </div>
-                  <span className="text-xl font-bold text-gray-800">팔도강산</span>
+                  <span className="text-xl font-bold text-gray-800">모두의팔도장터</span>
                 </a>
               </div>
               
@@ -76,9 +76,9 @@ export default function RootLayout({
               <div className="col-span-1 md:col-span-2">
                 <div className="flex items-center space-x-2 mb-4">
                   <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-                    <span className="text-primary font-bold text-sm">e팔</span>
+                    <span className="text-primary font-bold text-sm">모팔</span>
                   </div>
-                  <span className="text-xl font-bold">팔도강산</span>
+                  <span className="text-xl font-bold">모두의팔도장터</span>
                 </div>
                 <p className="text-gray-300 mb-4">
                   전국 지방자치단체가 운영하는 농수산물 및 특산품 온라인 쇼핑몰을 한 곳에서 만나보세요.
@@ -109,7 +109,7 @@ export default function RootLayout({
             </div>
             
             <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
-              <p>&copy; 2024 e-팔도강산. All rights reserved.</p>
+              <p>&copy; 2024 모두의팔도장터. All rights reserved.</p>
             </div>
           </div>
         </footer>

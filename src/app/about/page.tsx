@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '서비스 소개 | e-팔도강산',
-  description: 'e-팔도강산은 전국 지방자치단체가 운영하는 온라인 쇼핑몰을 한 곳에서 만날 수 있는 포털 서비스입니다.',
+  title: '서비스 소개 | 모두의팔도장터',
+  description: '모두의팔도장터는 전국 지방자치단체가 운영하는 온라인 쇼핑몰을 한 곳에서 만날 수 있는 포털 서비스입니다.',
 };
 
 export default function AboutPage() {
@@ -13,7 +13,7 @@ export default function AboutPage() {
           {/* Header */}
           <div className="text-center mb-12">
             <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-              e-팔도강산 소개
+              모두의팔도장터 소개
             </h1>
             <p className="text-lg text-gray-600">
               대한민국 지역 특산품 쇼핑몰을 한 곳에서
@@ -25,7 +25,7 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold text-gray-800 mb-6">우리의 사명</h2>
             <div className="bg-blue-50 rounded-lg p-6 border border-blue-200">
               <p className="text-gray-700 leading-relaxed">
-                e-팔도강산은 전국 지방자치단체가 운영하는 농수산물 및 특산품 온라인 쇼핑몰을 
+                모두의팔도장터는 전국 지방자치단체가 운영하는 농수산물 및 특산품 온라인 쇼핑몰을 
                 한 곳에서 쉽게 찾고 이용할 수 있도록 돕는 포털 서비스입니다. 
                 지역 생산자와 소비자를 직접 연결하여 신선하고 안전한 먹거리를 제공하고, 
                 지역 경제 활성화에 기여하는 것이 우리의 목표입니다.
@@ -146,7 +146,7 @@ export default function AboutPage() {
               더 자세한 정보가 필요하신가요?
             </h2>
             <p className="text-gray-600 mb-6">
-              e-팔도강산 서비스에 대해 궁금한 점이 있으시면 언제든 문의해주세요.
+              모두의팔도장터 서비스에 대해 궁금한 점이 있으시면 언제든 문의해주세요.
             </p>
             <a
               href="/contact"

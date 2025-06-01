@@ -5,10 +5,7 @@ import InteractiveMap from '@/components/InteractiveMap';
 import SearchBar from '@/components/SearchBar';
 import FeaturedMalls from '@/components/FeaturedMalls';
 import QuickFilters from '@/components/QuickFilters';
-import { MallGrid } from '@/components/MallCard';
-import MallCard from '@/components/MallCard';
-import { getMalls, getRegions, getCategories, getNewMalls } from '@/lib/data';
-import { Mall } from '@/types';
+import { getMalls, getRegions, getCategories } from '@/lib/data';
 
 export default function HomePage() {
   const [selectedFilters, setSelectedFilters] = useState<string[]>([]);
@@ -16,22 +13,6 @@ export default function HomePage() {
   const malls = getMalls();
   const regions = getRegions();
   const categories = getCategories();
-  const newMalls = getNewMalls();
-  
-  const filteredNewMalls = selectedFilters.length > 0
-    ? newMalls.filter(mall => 
-        mall.tags.some(tag => {
-          const matchingCategory = categories.find(cat => 
-            cat.name_ko === tag || selectedFilters.includes(cat.id)
-          );
-          return matchingCategory && selectedFilters.includes(matchingCategory.id);
-        })
-      )
-    : newMalls;
-
-  const getRegionForMall = (mall: Mall) => {
-    return regions.find(region => region.id === mall.region);
-  };
 
   return (
     <div className="min-h-screen">
@@ -40,7 +21,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6">
-              <span className="text-primary">e-팔도강산</span>
+              <span className="text-primary">모두의팔도장터</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
               전국 지방자치단체 운영 온라인 쇼핑몰을 한 곳에서 만나보세요
@@ -111,7 +92,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Quick Filters and Recently Added Section */}
+      {/* Quick Filters Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
@@ -121,55 +102,6 @@ export default function HomePage() {
               onFilterChange={setSelectedFilters}
             />
           </div>
-
-          <div className="mb-8">
-            <div className="flex justify-between items-center mb-6">
-              <h2 className="text-2xl font-bold text-gray-800">
-                새로 추가된 쇼핑몰
-              </h2>
-              <a 
-                href="/search"
-                className="text-primary hover:text-blue-700 font-medium transition-colors duration-200 flex items-center gap-1"
-              >
-                전체보기
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </a>
-            </div>
-
-            {filteredNewMalls.length > 0 ? (
-              <MallGrid>
-                {filteredNewMalls.map((mall) => (
-                  <MallCard
-                    key={mall.id}
-                    mall={mall}
-                    region={getRegionForMall(mall)}
-                  />
-                ))}
-              </MallGrid>
-            ) : (
-              <div className="text-center py-12">
-                <div className="text-gray-400 mb-4">
-                  <svg className="w-16 h-16 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                  </svg>
-                </div>
-                <h3 className="text-lg font-medium text-gray-600 mb-2">
-                  선택한 카테고리의 새로운 쇼핑몰이 없습니다
-                </h3>
-                <p className="text-gray-500 mb-4">
-                  다른 카테고리를 선택해보거나 전체 쇼핑몰을 확인해보세요
-                </p>
-                <button
-                  onClick={() => setSelectedFilters([])}
-                  className="text-primary hover:text-blue-700 font-medium transition-colors duration-200"
-                >
-                  필터 초기화
-                </button>
-              </div>
-            )}
-          </div>
         </div>
       </section>
 
@@ -177,7 +109,7 @@ export default function HomePage() {
       <section className="py-16 bg-primary text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">e-팔도강산과 함께하는 로컬푸드</h2>
+            <h2 className="text-3xl font-bold mb-4">모두의팔도장터와 함께하는 로컬푸드</h2>
             <p className="text-blue-100 text-lg">
               전국 지방자치단체와 함께 만들어가는 건강한 먹거리 생태계
             </p>
