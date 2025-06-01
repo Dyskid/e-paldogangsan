@@ -52,64 +52,85 @@
 ## 📁 Project Structure
 
 ```
-e-paldogangsan/
-├── src/
-│   ├── app/                      # Next.js App Router pages
-│   │   ├── api/                  # API endpoints
-│   │   │   ├── products/         # Product data API
-│   │   │   ├── sync-products/    # Product synchronization
-│   │   │   └── track-click/      # Click tracking
-│   │   ├── about/               # About page
-│   │   ├── contact/             # Contact page
-│   │   ├── privacy/             # Privacy policy
-│   │   ├── products/            # All products page
-│   │   ├── region/              # Region-specific pages
-│   │   │   └── [regionName]/    # Dynamic region routes
-│   │   ├── search/              # Search results page
-│   │   ├── terms/               # Terms of service
-│   │   ├── layout.tsx           # Root layout
-│   │   ├── page.tsx             # Homepage
-│   │   └── globals.css          # Global styles
-│   │
-│   ├── components/              # Reusable components
-│   │   ├── FeaturedMalls.tsx    # Featured malls carousel
-│   │   ├── InteractiveMap.tsx   # Korea SVG map
-│   │   ├── MallCard.tsx         # Mall display card
-│   │   ├── ProductCard.tsx      # Product display card
-│   │   ├── QuickFilters.tsx     # Category filters
-│   │   └── SearchBar.tsx        # Search with autocomplete
-│   │
-│   ├── data/                    # Static data files
-│   │   ├── categories.json      # Product categories
-│   │   ├── malls.json          # 100 shopping malls
-│   │   ├── products.json       # 451 products
-│   │   ├── regions.json        # 17 Korean regions
-│   │   └── tag-mapping.json    # Tag categorization
-│   │
-│   ├── lib/                     # Utility functions
-│   │   ├── data.ts             # Data access functions
-│   │   ├── product-sync.ts     # Product sync service
-│   │   ├── cron-config.ts      # Cron job configuration
-│   │   └── scrapers/           # Web scraping utilities
-│   │       ├── base-scraper.ts
-│   │       ├── generic-scraper.ts
-│   │       └── scraper-registry.ts
-│   │
-│   └── types/                   # TypeScript definitions
-│       └── index.ts            # Shared type definitions
-│
-├── backup/                      # Data backups
-│   ├── mergedmalls.txt         # Consolidated mall list
-│   └── products-sample.json    # Sample product data
-│
-├── public/                      # Static assets
-├── next.config.js              # Next.js configuration
-├── tailwind.config.js          # Tailwind CSS config
-├── tsconfig.json               # TypeScript config
-├── package.json                # Dependencies
-├── CLAUDE.md                   # AI assistant instructions
-├── CRON_SETUP.md              # Cron job documentation
-└── PROJECT_OVERVIEW.md         # This file
+backup/
+  ├── categories.txt
+  ├── claude command for phase1.txt
+  ├── e-Paldogangsan Phase 1 MVP Specific.txt
+  ├── mallslist.txt
+  ├── mergedmalls.txt
+  ├── Project Title e-Paldogangsan South.txt
+  ├── shoppingmalllist.txt
+scripts/
+  ├── classify-products.ts
+  ├── overview-helpers.ts
+  ├── README.md
+  ├── update-overview.ts
+src/
+  ├── app/
+  │   ├── about/
+  │   │   ├── page.tsx
+  │   ├── api/
+  │   │   ├── products/
+  │   │   │   ├── route.ts
+  │   │   ├── sync-products/
+  │   │   │   ├── route.ts
+  │   │   ├── track-click/
+  │   │   │   ├── route.ts
+  │   ├── contact/
+  │   │   ├── page.tsx
+  │   ├── privacy/
+  │   │   ├── page.tsx
+  │   ├── products/
+  │   │   ├── page.tsx
+  │   ├── region/
+  │   │   ├── [regionName]/
+  │   │   │   ├── page.tsx
+  │   │   │   ├── RegionPageClient.tsx
+  │   │   ├── \[regionName\]/
+  │   ├── search/
+  │   │   ├── page.tsx
+  │   ├── terms/
+  │   │   ├── page.tsx
+  │   ├── globals.css
+  │   ├── layout.tsx
+  │   ├── page.tsx
+  ├── components/
+  │   ├── FeaturedMalls.tsx
+  │   ├── InteractiveMap.tsx
+  │   ├── MallCard.tsx
+  │   ├── ProductCard.tsx
+  │   ├── ProductSearchBar.tsx
+  │   ├── QuickFilters.tsx
+  │   ├── SearchBar.tsx
+  ├── data/
+  │   ├── categories.json
+  │   ├── category-mapping.json
+  │   ├── malls.json
+  │   ├── products-sample.json
+  │   ├── products.json
+  │   ├── regions.json
+  │   ├── tag-mapping.json
+  ├── lib/
+  │   ├── scrapers/
+  │   │   ├── base-scraper.ts
+  │   │   ├── generic-scraper.ts
+  │   │   ├── scraper-registry.ts
+  │   ├── cron-config.ts
+  │   ├── data.ts
+  │   ├── product-classifier.ts
+  │   ├── product-sync.ts
+  ├── types/
+  │   ├── index.ts
+CLAUDE.md/
+CRON_SETUP.md/
+next-env.d.ts/
+next.config.js/
+package-lock.json/
+package.json/
+postcss.config.js/
+PROJECT_OVERVIEW.md/
+tailwind.config.js/
+tsconfig.json/
 ```
 
 ## 🗄 Data Architecture
@@ -414,3 +435,18 @@ npm run lint     # Run ESLint
 
 Last Updated: 2025-06-01
 Version: 1.0.0
+
+---
+
+Last Updated: 2025-06-01
+Version: 1.0.0
+Git Branch: pre-production
+Last Commit: e8c7cb0 feat: implement comprehensive product classification and search system
+
+### Project Statistics
+- Total Files: 57
+- Total Directories: 22
+- Shopping Malls: 100
+- Products: 451
+- Regions: 17
+- Categories: 10

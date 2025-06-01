@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Update PROJECT_OVERVIEW.md before commit
+echo "📊 Updating PROJECT_OVERVIEW.md..."
+npm run update-overview
+
+# Add the updated overview to the commit
+git add PROJECT_OVERVIEW.md
+
+echo "✅ Overview updated and staged"
