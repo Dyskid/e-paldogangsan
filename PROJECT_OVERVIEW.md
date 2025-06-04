@@ -56,10 +56,8 @@ backup/
   ├── categories.txt
   ├── claude command for phase1.txt
   ├── e-Paldogangsan Phase 1 MVP Specific.txt
-  ├── mallslist.txt
   ├── mergedmalls.txt
   ├── Project Title e-Paldogangsan South.txt
-  ├── shoppingmalllist.txt
 scripts/
   ├── classify-products.ts
   ├── overview-helpers.ts
@@ -442,13 +440,13 @@ Version: 1.0.0
 
 ---
 
-Last Updated: 2025-06-01
+Last Updated: 2025-06-04
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 7f03426 fix: update TypeScript target to ES2018 for regex flag support
+Last Commit: 371f595 feat: rebrand website to 모두의팔도장터 and remove recently added section
 
 ### Project Statistics
-- Total Files: 58
+- Total Files: 56
 - Total Directories: 25
 - Shopping Malls: 100
 - Products: 451

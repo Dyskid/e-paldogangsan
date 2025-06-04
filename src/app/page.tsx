@@ -1,18 +1,13 @@
 'use client';
 
-import { useState } from 'react';
 import InteractiveMap from '@/components/InteractiveMap';
 import SearchBar from '@/components/SearchBar';
 import FeaturedMalls from '@/components/FeaturedMalls';
-import QuickFilters from '@/components/QuickFilters';
-import { getMalls, getRegions, getCategories } from '@/lib/data';
+import { getMalls, getRegions } from '@/lib/data';
 
 export default function HomePage() {
-  const [selectedFilters, setSelectedFilters] = useState<string[]>([]);
-  
   const malls = getMalls();
   const regions = getRegions();
-  const categories = getCategories();
 
   return (
     <div className="min-h-screen">
@@ -92,18 +87,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Quick Filters Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mb-12">
-            <QuickFilters
-              categories={categories}
-              selectedFilters={selectedFilters}
-              onFilterChange={setSelectedFilters}
-            />
-          </div>
-        </div>
-      </section>
 
       {/* Statistics Section */}
       <section className="py-16 bg-primary text-white">
