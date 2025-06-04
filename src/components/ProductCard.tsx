@@ -2,13 +2,26 @@
 
 import { Product } from '@/types';
 import Image from 'next/image';
-import Link from 'next/link';
 
 interface ProductCardProps {
   product: Product;
 }
 
 export default function ProductCard({ product }: ProductCardProps) {
+  const handleClick = async () => {
+    try {
+      await fetch('/api/track-click', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ mallId: product.mallId }),
+      });
+    } catch (error) {
+      console.error('Failed to track click:', error);
+    }
+  };
+
   const categoryColors: Record<string, string> = {
     agricultural: 'bg-green-100 text-green-800',
     seafood: 'bg-blue-100 text-blue-800',
@@ -37,9 +50,12 @@ export default function ProductCard({ product }: ProductCardProps) {
 
   return (
     <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-      <Link 
-        href={`/product/${product.id}`}
+      <a 
+        href={product.productUrl}
+        target="_blank"
+        rel="noopener noreferrer"
         className="block"
+        onClick={handleClick}
       >
         <div className="relative h-48 bg-gray-100">
           {product.imageUrl ? (
@@ -95,12 +111,15 @@ export default function ProductCard({ product }: ProductCardProps) {
                 {product.price}원
               </span>
             </div>
-            <span className="text-xs text-blue-600 hover:text-blue-800">
-              상세보기 →
+            <span className="text-xs text-blue-600 hover:text-blue-800 flex items-center gap-1">
+              상세보기
+              <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
             </span>
           </div>
         </div>
-      </Link>
+      </a>
     </div>
   );
 }

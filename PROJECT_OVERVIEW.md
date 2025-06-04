@@ -443,7 +443,7 @@ Version: 1.0.0
 Last Updated: 2025-06-04
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 371f595 feat: rebrand website to 모두의팔도장터 and remove recently added section
+Last Commit: f9e935d feat: remove category filters section from homepage
 
 ### Project Statistics
 - Total Files: 56
