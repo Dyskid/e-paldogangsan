@@ -440,10 +440,10 @@ Version: 1.0.0
 
 ---
 
-Last Updated: 2025-06-04
+Last Updated: 2025-06-05
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: f9e935d feat: remove category filters section from homepage
+Last Commit: ac411f7 feat: redirect product clicks to external shopping mall URLs
 
 ### Project Statistics
 - Total Files: 56
