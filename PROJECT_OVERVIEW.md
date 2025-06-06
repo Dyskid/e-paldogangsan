@@ -59,7 +59,13 @@ backup/
   ├── mergedmalls.txt
   ├── Project Title e-Paldogangsan South.txt
 scripts/
+  ├── output/
+  │   ├── jeju-mall-analysis.json
+  │   ├── jeju-mall-products.json
+  │   ├── jeju-mall-urls.txt
+  ├── analyze-jeju-mall.ts
   ├── classify-products.ts
+  ├── extract-jeju-mall-urls.ts
   ├── overview-helpers.ts
   ├── README.md
   ├── update-overview.ts
@@ -125,6 +131,7 @@ src/
   │   ├── index.ts
 CLAUDE.md/
 CRON_SETUP.md/
+jeju-mall-product-urls.txt/
 next-env.d.ts/
 next.config.js/
 package-lock.json/
@@ -440,14 +447,14 @@ Version: 1.0.0
 
 ---
 
-Last Updated: 2025-06-05
+Last Updated: 2025-06-06
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: ac411f7 feat: redirect product clicks to external shopping mall URLs
+Last Commit: cf6a13f chore: remove backup files and fix product URL
 
 ### Project Statistics
-- Total Files: 56
-- Total Directories: 25
+- Total Files: 62
+- Total Directories: 26
 - Shopping Malls: 100
 - Products: 451
 - Regions: 17
