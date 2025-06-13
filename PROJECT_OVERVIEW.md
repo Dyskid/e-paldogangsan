@@ -57,11 +57,28 @@ backup/
   ├── claude command for phase1.txt
   ├── e-Paldogangsan Phase 1 MVP Specific.txt
   ├── mergedmalls.txt
+  ├── product_updating_tool
   ├── Project Title e-Paldogangsan South.txt
 scripts/
   ├── output/
+  │   ├── debug/
+  │   │   ├── ejeju-cat26-page1.html
+  │   │   ├── ejeju-cat27-page1.html
+  │   │   ├── ejeju-cat28-page1.html
+  │   │   ├── ejeju-cat29-page1.html
+  │   │   ├── ejeju-cat30-page1.html
+  │   │   ├── ejeju-cat31-page1.html
+  │   │   ├── ejeju-cat31008-page1.html
+  │   │   ├── ejeju-cat32-page1.html
   │   ├── all-malls-analysis.json
   │   ├── all-malls-products.json
+  │   ├── ejeju-mall-products-comprehensive.json
+  │   ├── ejeju-mall-products.json
+  │   ├── ejeju-mall-summary-comprehensive.json
+  │   ├── ejeju-mall-summary.json
+  │   ├── ejeju-registration-summary.json
+  │   ├── ejeju-test-page.html
+  │   ├── ejeju-verification-report.json
   │   ├── gimhaemall-page.html
   │   ├── gimhaemall-real-products.json
   │   ├── integration-summary.json
@@ -91,7 +108,9 @@ scripts/
   │   ├── jeju-real-titles.json
   │   ├── jeju-title-update-report.json
   ├── analyze-all-malls.ts
+  ├── analyze-ejeju-mall-structure.ts
   ├── analyze-gimhaemall-structure.ts
+  ├── analyze-jeju-mall-ajax.ts
   ├── analyze-jeju-mall-structure.ts
   ├── analyze-jeju-mall.ts
   ├── check-jeju-titles.ts
@@ -121,9 +140,14 @@ scripts/
   ├── overview-helpers.ts
   ├── README.md
   ├── register-all-mall-products.ts
+  ├── register-ejeju-products.ts
   ├── remove-failed-jeju-products.ts
   ├── remove-jejumall.ts
   ├── scrape-all-jeju-products.ts
+  ├── scrape-ejeju-mall-accurate.ts
+  ├── scrape-ejeju-mall-comprehensive.ts
+  ├── scrape-ejeju-mall-simple.ts
+  ├── scrape-ejeju-mall.ts
   ├── scrape-gimhaemall-comprehensive.ts
   ├── scrape-gimhaemall-real.ts
   ├── scrape-individual-jeju-titles.ts
@@ -136,10 +160,12 @@ scripts/
   ├── scrape-jeju-mall.ts
   ├── scrape-jeju-products-from-urls.ts
   ├── scrape-missing-jeju-titles.ts
+  ├── test-ejeju-fetch.ts
   ├── test-jeju-title-puppeteer.ts
   ├── test-jeju-title.ts
   ├── test-specific-url.ts
   ├── update-overview.ts
+  ├── verify-ejeju-products.ts
   ├── verify-jejumall-removal.ts
 src/
   ├── app/
@@ -255,7 +281,7 @@ Total: **99 shopping malls** across 17 regions
 }
 ```
 
-Total: **1444 products** with real data for featured malls
+Total: **1702 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -523,12 +549,12 @@ Version: 1.0.0
 Last Updated: 2025-06-13
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: bf627bc fix: resolve cheerio TypeScript type errors in scraper scripts
+Last Commit: a3adcf1 feat: register 1,350 products from 85 shopping malls across South Korea
 
 ### Project Statistics
-- Total Files: 135
-- Total Directories: 26
+- Total Files: 160
+- Total Directories: 27
 - Shopping Malls: 99
-- Products: 1444
+- Products: 1702
 - Regions: 17
 - Categories: 10
