@@ -39,7 +39,7 @@ interface Mall {
 class FinalVerification {
   verifyAllProducts(): void {
     console.log('🔍 FINAL VERIFICATION - All Products Authenticity Check\n');
-    console.log('='*60);
+    console.log('='.repeat(60));
     
     const productsPath = path.join(__dirname, '..', 'src', 'data', 'products.json');
     const mallsPath = path.join(__dirname, '..', 'src', 'data', 'malls.json');
@@ -95,9 +95,9 @@ class FinalVerification {
     }
     
     // Final summary
-    console.log('\n' + '='*60);
+    console.log('\n' + '='.repeat(60));
     console.log('🎯 FINAL AUTHENTICITY REPORT');
-    console.log('='*60);
+    console.log('='.repeat(60));
     console.log(`✅ Fully authentic products: ${totalAuthentic}/${products.length} (${Math.round(totalAuthentic/products.length*100)}%)`);
     console.log(`❌ Generic titles remaining: ${totalGeneric}`);
     console.log(`❌ URL issues remaining: ${totalUrlIssues}`);
