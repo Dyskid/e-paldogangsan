@@ -61,6 +61,8 @@ backup/
 scripts/
   ├── output/
   │   ├── integration-summary.json
+  │   ├── jeju-image-fallback-summary.json
+  │   ├── jeju-image-fix-summary.json
   │   ├── jeju-mall-all-products.json
   │   ├── jeju-mall-analysis.json
   │   ├── jeju-mall-api-response.json
@@ -87,6 +89,8 @@ scripts/
   ├── create-jeju-products-dataset.ts
   ├── enrich-jeju-products.ts
   ├── extract-jeju-mall-urls.ts
+  ├── fix-jeju-images-fallback.ts
+  ├── fix-jeju-images.ts
   ├── fix-jeju-prices.ts
   ├── integrate-final-jeju-products.ts
   ├── integrate-jeju-products.ts
@@ -484,10 +488,10 @@ Version: 1.0.0
 Last Updated: 2025-06-13
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 34faeb1 fix: resolve TypeScript errors in Puppeteer scraping scripts
+Last Commit: 38ec569 fix: correct Jeju mall product pricing and remove failed products
 
 ### Project Statistics
-- Total Files: 96
+- Total Files: 100
 - Total Directories: 26
 - Shopping Malls: 100
 - Products: 484
