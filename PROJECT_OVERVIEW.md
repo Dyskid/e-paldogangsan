@@ -61,6 +61,7 @@ backup/
 scripts/
   ├── output/
   │   ├── all-malls-analysis.json
+  │   ├── all-malls-products.json
   │   ├── gimhaemall-page.html
   │   ├── gimhaemall-real-products.json
   │   ├── integration-summary.json
@@ -119,6 +120,7 @@ scripts/
   ├── integrate-jeju-products.ts
   ├── overview-helpers.ts
   ├── README.md
+  ├── register-all-mall-products.ts
   ├── remove-failed-jeju-products.ts
   ├── remove-jejumall.ts
   ├── scrape-all-jeju-products.ts
@@ -253,7 +255,7 @@ Total: **99 shopping malls** across 17 regions
 }
 ```
 
-Total: **843 products** with real data for featured malls
+Total: **1444 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -521,12 +523,12 @@ Version: 1.0.0
 Last Updated: 2025-06-13
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: f883a22 feat: integrate 370 authentic products from gimhaemall.kr
+Last Commit: bf627bc fix: resolve cheerio TypeScript type errors in scraper scripts
 
 ### Project Statistics
-- Total Files: 133
+- Total Files: 135
 - Total Directories: 26
 - Shopping Malls: 99
-- Products: 843
+- Products: 1444
 - Regions: 17
 - Categories: 10
