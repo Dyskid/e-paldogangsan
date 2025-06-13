@@ -85,12 +85,14 @@ scripts/
   │   ├── jeju-products-removal-summary.json
   │   ├── jeju-real-images-summary.json
   │   ├── jeju-real-titles.json
+  │   ├── jeju-title-update-report.json
   ├── analyze-jeju-mall-structure.ts
   ├── analyze-jeju-mall.ts
   ├── check-jeju-titles.ts
   ├── check-price-status.js
   ├── classify-products.ts
   ├── clean-jeju-titles.ts
+  ├── comprehensive-jeju-title-update.ts
   ├── create-jeju-products-dataset.ts
   ├── enrich-jeju-products.ts
   ├── extract-jeju-mall-urls.ts
@@ -106,6 +108,7 @@ scripts/
   ├── README.md
   ├── remove-failed-jeju-products.ts
   ├── scrape-all-jeju-products.ts
+  ├── scrape-individual-jeju-titles.ts
   ├── scrape-jeju-listing-titles.ts
   ├── scrape-jeju-mall-accurate.ts
   ├── scrape-jeju-mall-ajax.ts
@@ -500,10 +503,10 @@ Version: 1.0.0
 Last Updated: 2025-06-13
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: b6cf2a2 feat: complete Jeju mall integration with real product images
+Last Commit: 8c2b179 feat: add Jeju mall product title scraping and cleaning tools
 
 ### Project Statistics
-- Total Files: 112
+- Total Files: 115
 - Total Directories: 26
 - Shopping Malls: 100
 - Products: 484
