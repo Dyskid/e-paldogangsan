@@ -91,17 +91,20 @@ scripts/
   ├── check-jeju-titles.ts
   ├── check-price-status.js
   ├── classify-products.ts
+  ├── clean-extracted-titles.ts
   ├── clean-jeju-titles.ts
   ├── comprehensive-jeju-title-update.ts
   ├── create-jeju-products-dataset.ts
   ├── enrich-jeju-products.ts
   ├── extract-jeju-mall-urls.ts
+  ├── extract-real-jeju-titles.ts
   ├── fetch-real-jeju-images-axios.ts
   ├── fetch-real-jeju-images.ts
   ├── fetch-real-jeju-titles.ts
   ├── fix-jeju-images-fallback.ts
   ├── fix-jeju-images.ts
   ├── fix-jeju-prices.ts
+  ├── fix-specific-jeju-titles.ts
   ├── integrate-final-jeju-products.ts
   ├── integrate-jeju-products.ts
   ├── overview-helpers.ts
@@ -120,6 +123,7 @@ scripts/
   ├── scrape-missing-jeju-titles.ts
   ├── test-jeju-title-puppeteer.ts
   ├── test-jeju-title.ts
+  ├── test-specific-url.ts
   ├── update-overview.ts
 src/
   ├── app/
@@ -503,10 +507,10 @@ Version: 1.0.0
 Last Updated: 2025-06-13
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 3e0cdfd feat: replace all generic Jeju product titles with authentic mall titles
+Last Commit: 7aa8723 fix: resolve TypeScript error with cheerio Element type
 
 ### Project Statistics
-- Total Files: 115
+- Total Files: 119
 - Total Directories: 26
 - Shopping Malls: 100
 - Products: 484
