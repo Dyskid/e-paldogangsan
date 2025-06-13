@@ -61,6 +61,8 @@ backup/
 scripts/
   ├── output/
   │   ├── all-malls-analysis.json
+  │   ├── gimhaemall-page.html
+  │   ├── gimhaemall-real-products.json
   │   ├── integration-summary.json
   │   ├── jeju-image-fallback-summary.json
   │   ├── jeju-image-fix-summary.json
@@ -88,6 +90,7 @@ scripts/
   │   ├── jeju-real-titles.json
   │   ├── jeju-title-update-report.json
   ├── analyze-all-malls.ts
+  ├── analyze-gimhaemall-structure.ts
   ├── analyze-jeju-mall-structure.ts
   ├── analyze-jeju-mall.ts
   ├── check-jeju-titles.ts
@@ -119,6 +122,8 @@ scripts/
   ├── remove-failed-jeju-products.ts
   ├── remove-jejumall.ts
   ├── scrape-all-jeju-products.ts
+  ├── scrape-gimhaemall-comprehensive.ts
+  ├── scrape-gimhaemall-real.ts
   ├── scrape-individual-jeju-titles.ts
   ├── scrape-jeju-listing-titles.ts
   ├── scrape-jeju-mall-accurate.ts
@@ -248,7 +253,7 @@ Total: **99 shopping malls** across 17 regions
 }
 ```
 
-Total: **479 products** with real data for featured malls
+Total: **843 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -516,12 +521,12 @@ Version: 1.0.0
 Last Updated: 2025-06-13
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 994a36b fix: resolve TypeScript string multiplication error in verification script
+Last Commit: a8f3871 feat: remove 제주몰 (jejumall.kr) and all associated products
 
 ### Project Statistics
-- Total Files: 128
+- Total Files: 133
 - Total Directories: 26
 - Shopping Malls: 99
-- Products: 479
+- Products: 843
 - Regions: 17
 - Categories: 10
