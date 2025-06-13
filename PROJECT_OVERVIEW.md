@@ -521,7 +521,7 @@ Version: 1.0.0
 Last Updated: 2025-06-13
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: a8f3871 feat: remove 제주몰 (jejumall.kr) and all associated products
+Last Commit: f883a22 feat: integrate 370 authentic products from gimhaemall.kr
 
 ### Project Statistics
 - Total Files: 133

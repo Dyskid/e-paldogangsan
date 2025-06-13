@@ -22,7 +22,7 @@ async function testJejuTitleWithPuppeteer() {
     });
     
     // Wait a bit more for any dynamic content
-    await page.waitForTimeout(3000);
+    await new Promise(resolve => setTimeout(resolve, 3000));
     
     console.log('📄 Page title:', await page.title());
     
@@ -62,20 +62,21 @@ async function testJejuTitleWithPuppeteer() {
     
     for (const keyword of productKeywords) {
       try {
-        const elements = await page.$x(`//*[contains(text(), '${keyword}')]`);
-        for (let i = 0; i < Math.min(elements.length, 5); i++) {
-          const text = await page.evaluate(el => el.textContent?.trim(), elements[i]);
-          if (text && text.length > 5 && text.length < 200) {
-            console.log(`Contains "${keyword}": "${text}"`);
-          }
-        }
+        const elements = await page.$$eval('*', (els, keyword) => 
+          els.filter(el => el.textContent?.includes(keyword))
+             .map(el => el.textContent?.trim() || '')
+             .filter(text => text.length > 5 && text.length < 200)
+             .slice(0, 5), keyword);
+        elements.forEach((text: string) => {
+          console.log(`Contains "${keyword}": "${text}"`);
+        });
       } catch (e) {
         // Skip if fails
       }
     }
     
   } catch (error) {
-    console.error('Error:', error.message);
+    console.error('Error:', error instanceof Error ? error.message : String(error));
   } finally {
     await browser.close();
   }

@@ -209,7 +209,7 @@ class GimhaeMallScraper {
     console.log('');
   }
 
-  private extractProductFromElement($: cheerio.CheerioAPI, elem: cheerio.Element): GimhaeProduct | null {
+  private extractProductFromElement($: cheerio.CheerioAPI, elem: any): GimhaeProduct | null {
     try {
       const $elem = $(elem);
       const href = $elem.attr('href');

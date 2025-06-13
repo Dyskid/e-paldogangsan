@@ -47,12 +47,12 @@ async function testJejuTitle() {
       const text = $(elem).text().trim();
       if (text.length > 10 && text.length < 100 && 
           (text.includes('오메기') || text.includes('블루탐') || text.includes('떡'))) {
-        console.log(`${elem.tagName}: "${text}"`);
+        console.log(`Element: "${text}"`);
       }
     });
     
   } catch (error) {
-    console.error('Error:', error.message);
+    console.error('Error:', error instanceof Error ? error.message : String(error));
   }
 }
 

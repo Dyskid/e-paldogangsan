@@ -105,7 +105,7 @@ class GimhaeMallRealScraper {
     }
   }
 
-  private extractProductFromGoodsLink($: cheerio.CheerioAPI, elem: cheerio.Element, category: string): GimhaeProduct | null {
+  private extractProductFromGoodsLink($: cheerio.CheerioAPI, elem: any, category: string): GimhaeProduct | null {
     try {
       const $elem = $(elem);
       const href = $elem.attr('href');
