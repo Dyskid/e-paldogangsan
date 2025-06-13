@@ -1,56 +1,50 @@
-{
-  "mallInfo": {
-    "name": "제주몰 (Jeju Mall)",
-    "baseUrl": "https://mall.ejeju.net",
-    "timestamp": "2025-01-06T15:35:00Z"
+[
+  {
+    "id": "jeju_30516",
+    "name": "이제주몰",
+    "price": "0원",
+    "imageUrl": "",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30516&cate=31043",
+    "category": "가공식품",
+    "seller": "제주몰",
+    "description": "",
+    "tags": [
+      "제주",
+      "제주도",
+      "jeju",
+      "가공식품"
+    ]
   },
-  "urlPatterns": {
-    "correct": {
-      "productDetail": "https://mall.ejeju.net/goods/detail.do?gno={productId}&cate={categoryId}",
-      "productList": "https://mall.ejeju.net/goods/main.do?cate={categoryId}",
-      "example": "https://mall.ejeju.net/goods/detail.do?gno=30321&cate=26"
-    },
-    "incorrect": {
-      "pattern": "https://mall.ejeju.net/main/index.do/product/{id}",
-      "note": "This pattern was found in products.json but is incorrect"
-    }
+  {
+    "id": "jeju_30353",
+    "name": "이제주몰",
+    "price": "0원",
+    "imageUrl": "",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30353&cate=1672",
+    "category": "축산품",
+    "seller": "제주몰",
+    "description": "",
+    "tags": [
+      "제주",
+      "제주도",
+      "jeju",
+      "축산품"
+    ]
   },
-  "categories": [
-    {"id": "1", "name": "제주 농산품", "url": "/goods/main.do?cate=1"},
-    {"id": "2", "name": "제주 수산품", "url": "/goods/main.do?cate=2"},
-    {"id": "1671", "name": "제주 축산품", "url": "/goods/main.do?cate=1671"},
-    {"id": "4", "name": "제주 가공식품", "url": "/goods/main.do?cate=4"},
-    {"id": "6", "name": "제주 화장품", "url": "/goods/main.do?cate=6"},
-    {"id": "31069", "name": "제주 공예품", "url": "/goods/main.do?cate=31069"},
-    {"id": "1854", "name": "제주 생활용품", "url": "/goods/main.do?cate=1854"}
-  ],
-  "discoveredProducts": [
-    {"gno": "10492", "cate": "31040", "url": "https://mall.ejeju.net/goods/detail.do?gno=10492&cate=31040"},
-    {"gno": "30516", "cate": "31043", "url": "https://mall.ejeju.net/goods/detail.do?gno=30516&cate=31043"},
-    {"gno": "30470", "cate": "45", "url": "https://mall.ejeju.net/goods/detail.do?gno=30470&cate=45"},
-    {"gno": "30321", "cate": "26", "url": "https://mall.ejeju.net/goods/detail.do?gno=30321&cate=26"},
-    {"gno": "11321", "cate": "31008", "url": "https://mall.ejeju.net/goods/detail.do?gno=11321&cate=31008"},
-    {"gno": "30293", "cate": "31004", "url": "https://mall.ejeju.net/goods/detail.do?gno=30293&cate=31004"},
-    {"gno": "30189", "cate": "31009", "url": "https://mall.ejeju.net/goods/detail.do?gno=30189&cate=31009"},
-    {"gno": "30075", "cate": "31004", "url": "https://mall.ejeju.net/goods/detail.do?gno=30075&cate=31004"},
-    {"gno": "11766", "cate": "31008", "url": "https://mall.ejeju.net/goods/detail.do?gno=11766&cate=31008"},
-    {"gno": "11289", "cate": "22", "url": "https://mall.ejeju.net/goods/detail.do?gno=11289&cate=22"},
-    {"gno": "30027", "cate": "31009", "url": "https://mall.ejeju.net/goods/detail.do?gno=30027&cate=31009"},
-    {"gno": "11502", "cate": "31004", "url": "https://mall.ejeju.net/goods/detail.do?gno=11502&cate=31004"},
-    {"gno": "30030", "cate": "31009", "url": "https://mall.ejeju.net/goods/detail.do?gno=30030&cate=31009"},
-    {"gno": "10498", "cate": "31004", "url": "https://mall.ejeju.net/goods/detail.do?gno=10498&cate=31004"},
-    {"gno": "11049", "cate": "31006", "url": "https://mall.ejeju.net/goods/detail.do?gno=11049&cate=31006"},
-    {"gno": "10455", "cate": "31004", "url": "https://mall.ejeju.net/goods/detail.do?gno=10455&cate=31004"},
-    {"gno": "9891", "cate": "31004", "url": "https://mall.ejeju.net/goods/detail.do?gno=9891&cate=31004"},
-    {"gno": "3986", "cate": "31008", "url": "https://mall.ejeju.net/goods/detail.do?gno=3986&cate=31008"},
-    {"gno": "3984", "cate": "31008", "url": "https://mall.ejeju.net/goods/detail.do?gno=3984&cate=31008"},
-    {"gno": "3983", "cate": "31008", "url": "https://mall.ejeju.net/goods/detail.do?gno=3983&cate=31008"}
-  ],
-  "findings": [
-    "The correct URL pattern for products is: /goods/detail.do?gno={productId}&cate={categoryId}",
-    "The pattern in products.json (/main/index.do/product/{id}) is incorrect",
-    "Product IDs (gno) are numeric values ranging from 3983 to 30516 in our sample",
-    "Category IDs (cate) vary widely and don't follow a simple pattern",
-    "Each product requires both gno and cate parameters to form a valid URL"
-  ]
-}
+  {
+    "id": "jeju_30184",
+    "name": "이제주몰",
+    "price": "0원",
+    "imageUrl": "",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30184&cate=31042",
+    "category": "가공식품",
+    "seller": "제주몰",
+    "description": "",
+    "tags": [
+      "제주",
+      "제주도",
+      "jeju",
+      "가공식품"
+    ]
+  }
+]

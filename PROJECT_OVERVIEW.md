@@ -60,14 +60,35 @@ backup/
   ├── Project Title e-Paldogangsan South.txt
 scripts/
   ├── output/
+  │   ├── integration-summary.json
+  │   ├── jeju-mall-all-products.json
   │   ├── jeju-mall-analysis.json
+  │   ├── jeju-mall-api-response.json
+  │   ├── jeju-mall-page.html
+  │   ├── jeju-mall-products-ajax.json
+  │   ├── jeju-mall-products-complete.json
+  │   ├── jeju-mall-products-sample.json
+  │   ├── jeju-mall-products-summary.json
   │   ├── jeju-mall-products.json
+  │   ├── jeju-mall-scrape-errors.txt
+  │   ├── jeju-mall-scrape-summary-full.json
+  │   ├── jeju-mall-scrape-summary.json
+  │   ├── jeju-mall-summary.json
   │   ├── jeju-mall-urls.txt
+  ├── analyze-jeju-mall-structure.ts
   ├── analyze-jeju-mall.ts
   ├── classify-products.ts
+  ├── create-jeju-products-dataset.ts
   ├── extract-jeju-mall-urls.ts
+  ├── integrate-jeju-products.ts
   ├── overview-helpers.ts
   ├── README.md
+  ├── scrape-all-jeju-products.ts
+  ├── scrape-jeju-mall-ajax.ts
+  ├── scrape-jeju-mall-final.ts
+  ├── scrape-jeju-mall-simple.ts
+  ├── scrape-jeju-mall.ts
+  ├── scrape-jeju-products-from-urls.ts
   ├── update-overview.ts
 src/
   ├── app/
@@ -182,7 +203,7 @@ Total: **100 shopping malls** across 17 regions
 }
 ```
 
-Total: **451 products** with real data for featured malls
+Total: **482 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -447,15 +468,15 @@ Version: 1.0.0
 
 ---
 
-Last Updated: 2025-06-06
+Last Updated: 2025-06-13
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: cf6a13f chore: remove backup files and fix product URL
+Last Commit: 00a0c1f feat: analyze Jeju mall product URL patterns and extract real product URLs
 
 ### Project Statistics
-- Total Files: 62
+- Total Files: 83
 - Total Directories: 26
 - Shopping Malls: 100
-- Products: 451
+- Products: 482
 - Regions: 17
 - Categories: 10
