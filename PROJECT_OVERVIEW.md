@@ -117,6 +117,7 @@ scripts/
   ├── overview-helpers.ts
   ├── README.md
   ├── remove-failed-jeju-products.ts
+  ├── remove-jejumall.ts
   ├── scrape-all-jeju-products.ts
   ├── scrape-individual-jeju-titles.ts
   ├── scrape-jeju-listing-titles.ts
@@ -132,6 +133,7 @@ scripts/
   ├── test-jeju-title.ts
   ├── test-specific-url.ts
   ├── update-overview.ts
+  ├── verify-jejumall-removal.ts
 src/
   ├── app/
   │   ├── about/
@@ -224,7 +226,7 @@ tsconfig.tsbuildinfo/
 }
 ```
 
-Total: **100 shopping malls** across 17 regions
+Total: **99 shopping malls** across 17 regions
 
 ### 2. Products Data (`products.json`)
 ```typescript
@@ -246,7 +248,7 @@ Total: **100 shopping malls** across 17 regions
 }
 ```
 
-Total: **484 products** with real data for featured malls
+Total: **479 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -514,12 +516,12 @@ Version: 1.0.0
 Last Updated: 2025-06-13
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 88eb2d1 feat: achieve 100% product authenticity across all 100 shopping malls
+Last Commit: 994a36b fix: resolve TypeScript string multiplication error in verification script
 
 ### Project Statistics
-- Total Files: 126
+- Total Files: 128
 - Total Directories: 26
-- Shopping Malls: 100
-- Products: 484
+- Shopping Malls: 99
+- Products: 479
 - Regions: 17
 - Categories: 10

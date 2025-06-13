@@ -1369,20 +1369,6 @@
     "lastVerified": "2025-06-01"
   },
   {
-    "id": "mall_99_제주몰",
-    "name": "제주몰",
-    "url": "https://www.jejumall.kr",
-    "region": "제주",
-    "tags": [
-      "종합몰",
-      "제주"
-    ],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 445,
-    "lastVerified": "2025-06-01"
-  },
-  {
     "id": "mall_100_이제주몰",
     "name": "이제주몰",
     "url": "https://mall.ejeju.net/main/index.do",
