@@ -549,7 +549,7 @@ Version: 1.0.0
 Last Updated: 2025-06-13
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: a3adcf1 feat: register 1,350 products from 85 shopping malls across South Korea
+Last Commit: 978bed6 feat: register 258 products from 이제주몰 (Jeju government shopping mall)
 
 ### Project Statistics
 - Total Files: 160

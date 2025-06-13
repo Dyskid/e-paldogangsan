@@ -107,7 +107,7 @@ async function registerEjejuProducts() {
     
     // Remove any existing 이제주몰 products to prevent duplicates
     const beforeCount = existingProducts.length;
-    existingProducts = existingProducts.filter(p => p.mallUrl !== 'https://mall.ejeju.net');
+    existingProducts = existingProducts.filter(p => p.mallName !== '이제주몰');
     const removedCount = beforeCount - existingProducts.length;
     if (removedCount > 0) {
       console.log(`Removed ${removedCount} existing 이제주몰 products`);
@@ -125,17 +125,18 @@ async function registerEjejuProducts() {
     const product: Product = {
       id: productId,
       name: ejejuProduct.title,
-      price: ejejuProduct.price,
-      originalPrice: ejejuProduct.originalPrice,
+      description: ejejuProduct.description,
+      price: ejejuProduct.price.toString(),
+      originalPrice: ejejuProduct.originalPrice?.toString(),
       imageUrl: ejejuProduct.imageUrl,
       productUrl: ejejuProduct.url,
-      category: category as Product['category'],
-      tags: extractTags(ejejuProduct),
-      brand: ejejuProduct.brand,
+      mallId: 'ejeju',
       mallName: ejejuProduct.mallName,
-      mallUrl: ejejuProduct.mallUrl,
-      isAvailable: ejejuProduct.isAvailable,
-      lastUpdated: ejejuProduct.scrapedAt
+      category: category,
+      tags: extractTags(ejejuProduct),
+      inStock: ejejuProduct.isAvailable,
+      lastUpdated: ejejuProduct.scrapedAt,
+      createdAt: ejejuProduct.scrapedAt
     };
     
     return product;
@@ -169,11 +170,11 @@ async function registerEjejuProducts() {
       acc[product.category] = (acc[product.category] || 0) + 1;
       return acc;
     }, {} as Record<string, number>),
-    brandsFound: [...new Set(newProducts.filter(p => p.brand).map(p => p.brand!))].length,
+    brandsFound: newProducts.filter(p => p.name.includes('[')).length,
     priceRange: {
-      min: Math.min(...newProducts.map(p => p.price)),
-      max: Math.max(...newProducts.map(p => p.price)),
-      average: Math.round(newProducts.reduce((sum, p) => sum + p.price, 0) / newProducts.length)
+      min: Math.min(...newProducts.map(p => parseInt(p.price))),
+      max: Math.max(...newProducts.map(p => parseInt(p.price))),
+      average: Math.round(newProducts.reduce((sum, p) => sum + parseInt(p.price), 0) / newProducts.length)
     }
   };
   
