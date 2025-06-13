@@ -104,8 +104,8 @@ async function fetchProductsFromAPI() {
     }
     
   } catch (error) {
-    console.error('Error fetching from API:', error.message);
-    if (error.response) {
+    console.error('Error fetching from API:', error instanceof Error ? error.message : error);
+    if (axios.isAxiosError(error) && error.response) {
       console.error('Response status:', error.response.status);
       console.error('Response data:', error.response.data);
     }

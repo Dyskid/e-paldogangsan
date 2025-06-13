@@ -32,7 +32,7 @@ async function scrapeJejuMallWithPuppeteer() {
   const allProducts: Product[] = [];
   
   const browser = await puppeteer.launch({
-    headless: 'new',
+    headless: true,
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
@@ -216,7 +216,7 @@ async function scrapeJejuMallWithPuppeteer() {
         console.log(`Found ${categoryProducts.length} products in category`);
         
       } catch (error) {
-        console.error(`Error navigating to category: ${error.message}`);
+        console.error(`Error navigating to category: ${error instanceof Error ? error.message : error}`);
       }
     }
     
@@ -302,7 +302,7 @@ async function createSampleProductData() {
     // Try Puppeteer first
     await scrapeJejuMallWithPuppeteer();
   } catch (error) {
-    console.error('Puppeteer failed:', error.message);
+    console.error('Puppeteer failed:', error instanceof Error ? error.message : error);
     console.log('\nFalling back to sample data creation...');
     await createSampleProductData();
   }

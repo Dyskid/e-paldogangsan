@@ -129,7 +129,7 @@ async function fetchProductDetails(url: string): Promise<Product | null> {
     
     return null;
   } catch (error) {
-    console.error(`Error fetching ${url}:`, error.message);
+    console.error(`Error fetching ${url}:`, error instanceof Error ? error.message : error);
     return null;
   }
 }

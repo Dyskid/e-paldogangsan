@@ -51,7 +51,7 @@ async function scrapeJejuMall() {
       categoryElements.forEach(el => {
         const href = el.getAttribute('href');
         const text = el.textContent?.trim();
-        if (href && text && href.includes('category') || href.includes('goods')) {
+        if (href && text && (href.includes('category') || href.includes('goods'))) {
           links.push({
             name: text,
             url: href.startsWith('http') ? href : `https://mall.ejeju.net${href}`

@@ -44,7 +44,7 @@ async function fetchPage(url: string): Promise<string | null> {
     });
     return response.data;
   } catch (error) {
-    console.error(`Error fetching ${url}:`, error.message);
+    console.error(`Error fetching ${url}:`, error instanceof Error ? error.message : error);
     return null;
   }
 }

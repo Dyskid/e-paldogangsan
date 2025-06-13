@@ -161,6 +161,7 @@ postcss.config.js/
 PROJECT_OVERVIEW.md/
 tailwind.config.js/
 tsconfig.json/
+tsconfig.tsbuildinfo/
 ```
 
 ## 🗄 Data Architecture
@@ -471,10 +472,10 @@ Version: 1.0.0
 Last Updated: 2025-06-13
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 00a0c1f feat: analyze Jeju mall product URL patterns and extract real product URLs
+Last Commit: 9470c1e fix: replace incorrect Jeju mall product URLs with real scraped products
 
 ### Project Statistics
-- Total Files: 83
+- Total Files: 84
 - Total Directories: 26
 - Shopping Malls: 100
 - Products: 482
