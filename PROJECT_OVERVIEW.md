@@ -63,6 +63,7 @@ scripts/
   │   ├── integration-summary.json
   │   ├── jeju-image-fallback-summary.json
   │   ├── jeju-image-fix-summary.json
+  │   ├── jeju-listing-titles.json
   │   ├── jeju-mall-all-products.json
   │   ├── jeju-mall-analysis.json
   │   ├── jeju-mall-api-response.json
@@ -83,15 +84,19 @@ scripts/
   │   ├── jeju-price-fix-summary.json
   │   ├── jeju-products-removal-summary.json
   │   ├── jeju-real-images-summary.json
+  │   ├── jeju-real-titles.json
   ├── analyze-jeju-mall-structure.ts
   ├── analyze-jeju-mall.ts
+  ├── check-jeju-titles.ts
   ├── check-price-status.js
   ├── classify-products.ts
+  ├── clean-jeju-titles.ts
   ├── create-jeju-products-dataset.ts
   ├── enrich-jeju-products.ts
   ├── extract-jeju-mall-urls.ts
   ├── fetch-real-jeju-images-axios.ts
   ├── fetch-real-jeju-images.ts
+  ├── fetch-real-jeju-titles.ts
   ├── fix-jeju-images-fallback.ts
   ├── fix-jeju-images.ts
   ├── fix-jeju-prices.ts
@@ -101,6 +106,7 @@ scripts/
   ├── README.md
   ├── remove-failed-jeju-products.ts
   ├── scrape-all-jeju-products.ts
+  ├── scrape-jeju-listing-titles.ts
   ├── scrape-jeju-mall-accurate.ts
   ├── scrape-jeju-mall-ajax.ts
   ├── scrape-jeju-mall-final.ts
@@ -108,6 +114,9 @@ scripts/
   ├── scrape-jeju-mall-simple.ts
   ├── scrape-jeju-mall.ts
   ├── scrape-jeju-products-from-urls.ts
+  ├── scrape-missing-jeju-titles.ts
+  ├── test-jeju-title-puppeteer.ts
+  ├── test-jeju-title.ts
   ├── update-overview.ts
 src/
   ├── app/
@@ -491,10 +500,10 @@ Version: 1.0.0
 Last Updated: 2025-06-13
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 17671aa fix: replace broken Jeju mall images with reliable placeholders
+Last Commit: b6cf2a2 feat: complete Jeju mall integration with real product images
 
 ### Project Statistics
-- Total Files: 103
+- Total Files: 112
 - Total Directories: 26
 - Shopping Malls: 100
 - Products: 484
