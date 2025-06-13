@@ -225,11 +225,12 @@ async function scrapeEjejuMallSimple() {
           }
 
         } catch (error) {
+          const errorMessage = error instanceof Error ? error.message : String(error);
           console.error(`Error scraping category ${category.name}, page ${currentPage}:`, error);
           errors.push({
             category: category.name,
             page: currentPage,
-            error: error.message
+            error: errorMessage
           });
           hasMorePages = false;
         }
@@ -240,8 +241,9 @@ async function scrapeEjejuMallSimple() {
     }
 
   } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : String(error);
     console.error('Fatal error:', error);
-    errors.push({ type: 'fatal', error: error.message });
+    errors.push({ type: 'fatal', error: errorMessage });
   }
 
   // Save results
