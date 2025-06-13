@@ -549,7 +549,7 @@ Version: 1.0.0
 Last Updated: 2025-06-13
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 978bed6 feat: register 258 products from 이제주몰 (Jeju government shopping mall)
+Last Commit: 22935c6 fix: resolve TypeScript errors in product registration script
 
 ### Project Statistics
 - Total Files: 160
