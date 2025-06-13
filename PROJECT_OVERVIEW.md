@@ -78,16 +78,21 @@ scripts/
   │   ├── jeju-mall-scrape-summary.json
   │   ├── jeju-mall-summary.json
   │   ├── jeju-mall-urls.txt
+  │   ├── jeju-price-fix-summary.json
+  │   ├── jeju-products-removal-summary.json
   ├── analyze-jeju-mall-structure.ts
   ├── analyze-jeju-mall.ts
+  ├── check-price-status.js
   ├── classify-products.ts
   ├── create-jeju-products-dataset.ts
   ├── enrich-jeju-products.ts
   ├── extract-jeju-mall-urls.ts
+  ├── fix-jeju-prices.ts
   ├── integrate-final-jeju-products.ts
   ├── integrate-jeju-products.ts
   ├── overview-helpers.ts
   ├── README.md
+  ├── remove-failed-jeju-products.ts
   ├── scrape-all-jeju-products.ts
   ├── scrape-jeju-mall-accurate.ts
   ├── scrape-jeju-mall-ajax.ts
@@ -211,7 +216,7 @@ Total: **100 shopping malls** across 17 regions
 }
 ```
 
-Total: **498 products** with real data for featured malls
+Total: **484 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -479,12 +484,12 @@ Version: 1.0.0
 Last Updated: 2025-06-13
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 6ccae37 feat: replace fake Jeju mall products with 50 real scraped products
+Last Commit: 34faeb1 fix: resolve TypeScript errors in Puppeteer scraping scripts
 
 ### Project Statistics
-- Total Files: 91
+- Total Files: 96
 - Total Directories: 26
 - Shopping Malls: 100
-- Products: 498
+- Products: 484
 - Regions: 17
 - Categories: 10
