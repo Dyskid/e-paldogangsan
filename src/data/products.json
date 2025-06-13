@@ -232,742 +232,6 @@
     "subcategory": "eggs_dairy"
   },
   {
-    "id": "prod_mall_100_이제주몰_30393",
-    "name": "제주 한라봉 3kg",
-    "description": "제주에서 재배한 달콤한 한라봉",
-    "price": "25,000",
-    "originalPrice": "30,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/303/30393_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30393",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "agricultural",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "농산품",
-      "한라봉",
-      "agricultural"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.484Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_11226",
-    "name": "제주 천혜향 5kg",
-    "description": "새콤달콤한 제주 천혜향",
-    "price": "35,000",
-    "originalPrice": "40,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/112/11226_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=11226",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "agricultural",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "농산품",
-      "agricultural"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_11386",
-    "name": "제주 한라봉 선물세트",
-    "description": "명절 선물용 한라봉 세트",
-    "price": "45,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/113/11386_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=11386",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "agricultural",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "농산품",
-      "한라봉",
-      "선물세트",
-      "agricultural"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_11387",
-    "name": "제주 감귤 10kg",
-    "description": "제주 노지 감귤",
-    "price": "20,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/113/11387_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=11387",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "agricultural",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "농산품",
-      "감귤",
-      "agricultural"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_11388",
-    "name": "제주 레드향 3kg",
-    "description": "프리미엄 제주 레드향",
-    "price": "38,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/113/11388_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=11388",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "agricultural",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "농산품",
-      "agricultural"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30403",
-    "name": "제주 옥돔 (대) 5마리",
-    "description": "제주 청정해역에서 잡은 옥돔",
-    "price": "65,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/304/30403_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30403",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "seafood",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "수산품",
-      "옥돔",
-      "seafood"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30402",
-    "name": "제주 옥돔 (중) 5마리",
-    "description": "제주 특산품 옥돔",
-    "price": "50,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/304/30402_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30402",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "seafood",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "수산품",
-      "옥돔",
-      "seafood"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30401",
-    "name": "제주 갈치 선물세트",
-    "description": "은빛 제주 갈치",
-    "price": "80,000",
-    "originalPrice": "90,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/304/30401_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30401",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "seafood",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "수산품",
-      "선물세트",
-      "seafood"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30398",
-    "name": "제주 고등어 10마리",
-    "description": "제주산 싱싱한 고등어",
-    "price": "35,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/303/30398_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30398",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "seafood",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "수산품",
-      "seafood"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30397",
-    "name": "제주 전복 선물세트",
-    "description": "제주 해녀가 채취한 전복",
-    "price": "120,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/303/30397_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30397",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "seafood",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "수산품",
-      "선물세트",
-      "seafood"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30396",
-    "name": "제주 소라 2kg",
-    "description": "제주 청정바다 소라",
-    "price": "25,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/303/30396_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30396",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "seafood",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "수산품",
-      "seafood"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_11138",
-    "name": "제주 흑돼지 구이세트 1.5kg",
-    "description": "제주 흑돼지 모둠구이",
-    "price": "85,000",
-    "originalPrice": "95,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/111/11138_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=11138",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "livestock",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "축산품",
-      "흑돼지",
-      "livestock"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30350",
-    "name": "제주 흑돼지 삼겹살 1kg",
-    "description": "제주산 프리미엄 흑돼지",
-    "price": "55,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/303/30350_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30350",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "livestock",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "축산품",
-      "흑돼지",
-      "livestock"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30353",
-    "name": "제주 흑돼지 목살 1kg",
-    "description": "쫄깃한 제주 흑돼지 목살",
-    "price": "48,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/303/30353_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30353",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "livestock",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "축산품",
-      "흑돼지",
-      "livestock"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30354",
-    "name": "제주 한우 선물세트",
-    "description": "제주 청정 한우 선물세트",
-    "price": "150,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/303/30354_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30354",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "livestock",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "축산품",
-      "선물세트",
-      "livestock"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_10492",
-    "name": "제주 감귤칩",
-    "description": "바삭한 제주 감귤칩",
-    "price": "8,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/104/10492_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=10492",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "processed",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "가공식품",
-      "감귤",
-      "processed"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30516",
-    "name": "제주 한라산 소주",
-    "description": "제주 대표 소주",
-    "price": "3,500",
-    "imageUrl": "https://mall.ejeju.net/data/goods/305/30516_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30516",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "processed",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "가공식품",
-      "processed"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30470",
-    "name": "제주 오메기떡 10개입",
-    "description": "전통 제주 오메기떡",
-    "price": "15,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/304/30470_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30470",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "processed",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "가공식품",
-      "processed"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30294",
-    "name": "제주 감귤 초콜릿",
-    "description": "달콤한 제주 감귤 초콜릿",
-    "price": "12,000",
-    "originalPrice": "15,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/302/30294_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30294",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "processed",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "가공식품",
-      "감귤",
-      "processed"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30184",
-    "name": "제주 백년초 젤리",
-    "description": "건강한 제주 백년초 젤리",
-    "price": "18,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/301/30184_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30184",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "processed",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "가공식품",
-      "processed"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30059",
-    "name": "제주 우도 땅콩",
-    "description": "고소한 우도 땅콩",
-    "price": "10,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/300/30059_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30059",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "processed",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "가공식품",
-      "processed"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30058",
-    "name": "제주 녹차 과자",
-    "description": "제주 녹차로 만든 과자",
-    "price": "9,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/300/30058_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30058",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "processed",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "가공식품",
-      "processed"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30501",
-    "name": "제주 동백 오일",
-    "description": "제주 동백꽃 오일",
-    "price": "35,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/305/30501_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30501",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "other",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "화장품",
-      "other"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30502",
-    "name": "제주 녹차 수분크림",
-    "description": "제주 녹차 성분 수분크림",
-    "price": "28,000",
-    "originalPrice": "35,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/305/30502_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30502",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "other",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "화장품",
-      "other"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30503",
-    "name": "제주 감귤 비타민 세럼",
-    "description": "비타민 가득 감귤 세럼",
-    "price": "42,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/305/30503_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30503",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "other",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "화장품",
-      "감귤",
-      "other"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30504",
-    "name": "제주 화산송이 팩",
-    "description": "모공관리 화산송이 팩",
-    "price": "25,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/305/30504_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30504",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "other",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "화장품",
-      "other"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30601",
-    "name": "제주 현무암 돌하르방",
-    "description": "제주 상징 돌하르방",
-    "price": "45,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/306/30601_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30601",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "crafts",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "공예품",
-      "crafts"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30602",
-    "name": "제주 해녀 인형",
-    "description": "제주 해녀 전통 인형",
-    "price": "25,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/306/30602_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30602",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "crafts",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "공예품",
-      "crafts"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30603",
-    "name": "제주 갈옷 미니어처",
-    "description": "전통 제주 갈옷 미니어처",
-    "price": "35,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/306/30603_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30603",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "crafts",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "공예품",
-      "crafts"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30701",
-    "name": "제주 감귤 비누 5개입",
-    "description": "천연 제주 감귤 비누",
-    "price": "15,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/307/30701_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30701",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "other",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "생활용품",
-      "감귤",
-      "other"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30702",
-    "name": "제주 녹차 샴푸",
-    "description": "제주 녹차 성분 샴푸",
-    "price": "18,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/307/30702_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30702",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "other",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "생활용품",
-      "other"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30703",
-    "name": "제주 백년초 치약",
-    "description": "제주 백년초 성분 치약",
-    "price": "8,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/307/30703_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30703",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "other",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "생활용품",
-      "other"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30801",
-    "name": "제주 말고기 강아지 간식",
-    "description": "영양만점 말고기 간식",
-    "price": "12,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/308/30801_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30801",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "other",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "반려동물용품",
-      "other"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
-    "id": "prod_mall_100_이제주몰_30802",
-    "name": "제주 고등어 고양이 간식",
-    "description": "고양이용 고등어 간식",
-    "price": "10,000",
-    "imageUrl": "https://mall.ejeju.net/data/goods/308/30802_main.jpg",
-    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30802",
-    "mallId": "mall_100_이제주몰",
-    "mallName": "이제주몰",
-    "category": "other",
-    "tags": [
-      "제주",
-      "제주도",
-      "jeju",
-      "반려동물용품",
-      "other"
-    ],
-    "inStock": true,
-    "lastUpdated": "2025-06-13T06:03:58.485Z",
-    "createdAt": "2025-06-13T06:03:58.485Z"
-  },
-  {
     "id": "prod_mall_11_오산함께장터_47",
     "name": "경기 감자 10kg",
     "description": "오산함께장터에서 직접 판매하는 포슬포슬한 감자",
@@ -11005,5 +10269,968 @@
     "lastUpdated": "2025-06-01T08:04:24.174Z",
     "createdAt": "2025-06-01T08:04:24.174Z",
     "subcategory": "fruits"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30516",
+    "name": "[이제주] 블루탐 오메기떡 60g(오메기,흑임자,귤,크림치즈)",
+    "description": "[이제주] 블루탐 오메기떡 60g(오메기,흑임자,귤,크림치즈) - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/305/30516_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30516&cate=31043",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "traditional",
+    "tags": [
+      "제주",
+      "제주몰",
+      "전통식품",
+      "오메기떡",
+      "전통떡"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_10492",
+    "name": "[하효] 우리밀 전통 한과 감귤과즐세트",
+    "description": "[하효] 우리밀 전통 한과 감귤과즐세트 - 제주몰 직배송",
+    "price": "19,900",
+    "imageUrl": "https://mall.ejeju.net/data/goods/104/10492_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=10492&cate=31040",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타",
+      "감귤"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30470",
+    "name": "[이어도포크] 제주 흑돼지 돈가스 155g*5ea(등심, 치즈)",
+    "description": "[이어도포크] 제주 흑돼지 돈가스 155g*5ea(등심, 치즈) - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/304/30470_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30470&cate=45",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타",
+      "흑돼지"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30294",
+    "name": "[올레둘레]우도땅콩 찰떡파이",
+    "description": "[올레둘레]우도땅콩 찰떡파이 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/302/30294_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30294&cate=31042",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "seafood",
+    "tags": [
+      "제주",
+      "제주몰",
+      "수산물"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30433",
+    "name": "[블랙푸드] 수제 김부각 선물세트 (35g*7봉)",
+    "description": "[블랙푸드] 수제 김부각 선물세트 (35g*7봉) - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/304/30433_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30433&cate=31046",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "livestock",
+    "tags": [
+      "제주",
+      "제주몰",
+      "축산물"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30208",
+    "name": "[몰랑몰랑] 제주 찰보리 케이크(팥) 20~30개입",
+    "description": "[몰랑몰랑] 제주 찰보리 케이크(팥) 20~30개입 - 제주몰 직배송",
+    "price": "18,900",
+    "imageUrl": "https://mall.ejeju.net/data/goods/302/30208_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30208&cate=31043",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "traditional",
+    "tags": [
+      "제주",
+      "제주몰",
+      "전통식품"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30266",
+    "name": "[플러스제주] 제주 우도삼춘 땅콩샌드 골라담기 (12개입&42개입)",
+    "description": "[플러스제주] 제주 우도삼춘 땅콩샌드 골라담기 (12개입&42개입) - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/302/30266_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30266&cate=31041",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "agricultural",
+    "tags": [
+      "제주",
+      "제주몰",
+      "농산물"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30269",
+    "name": "[하효] 제주 감귤칩 과즐 선물세트 (30g*8개입*3봉)",
+    "description": "[하효] 제주 감귤칩 과즐 선물세트 (30g*8개입*3봉) - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/302/30269_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30269&cate=31040",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타",
+      "감귤"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30058",
+    "name": "[플러스제주] 우도땅콩로쉐",
+    "description": "[플러스제주] 우도땅콩로쉐 - 제주몰 직배송",
+    "price": "6,000",
+    "imageUrl": "https://mall.ejeju.net/data/goods/300/30058_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30058&cate=31042",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "seafood",
+    "tags": [
+      "제주",
+      "제주몰",
+      "수산물"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_10246",
+    "name": "[제주자연식품] 프리미엄 한라산 야생꿀 선물세트 600g (도자기)",
+    "description": "[제주자연식품] 프리미엄 한라산 야생꿀 선물세트 600g (도자기) - 제주몰 직배송",
+    "price": "18,500",
+    "imageUrl": "https://mall.ejeju.net/data/goods/102/10246_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=10246&cate=31059",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_11138",
+    "name": "[한농수산] 갈치 명품세트(350g*4ea)",
+    "description": "[한농수산] 갈치 명품세트(350g*4ea) - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/111/11138_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=11138&cate=31017",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30350",
+    "name": "[돈마] 흑돼지 세트 B(흑오겹500g + 흑목살500g + 흑앞다리살 + 흑돈 불고기 소시지 250g)",
+    "description": "[돈마] 흑돼지 세트 B(흑오겹500g + 흑목살500g + 흑앞다리살 + 흑돈 불고기 소시지 250g) - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/303/30350_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30350&cate=1672",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타",
+      "흑돼지"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30353",
+    "name": "[탐라인] 제주 흑돼지 백돼지 선물세트 골라담기",
+    "description": "[탐라인] 제주 흑돼지 백돼지 선물세트 골라담기 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/303/30353_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30353&cate=1672",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타",
+      "흑돼지"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30064",
+    "name": "[향아수산] 수산물 실속세트(갈치300g*1팩+고등어130g*5팩+참조기350g)",
+    "description": "[향아수산] 수산물 실속세트(갈치300g*1팩+고등어130g*5팩+참조기350g) - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/300/30064_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30064&cate=31019",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_11140",
+    "name": "[한농수산] 제주 어촌마을 옥돔 골라담기(1-2kg)",
+    "description": "[한농수산] 제주 어촌마을 옥돔 골라담기(1-2kg) - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/111/11140_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=11140&cate=31021",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_11093",
+    "name": "[제주어멍] 옥돔 갈치 선물세트 골라담기(갈치&옥돔 각 4~5미)",
+    "description": "[제주어멍] 옥돔 갈치 선물세트 골라담기(갈치&옥돔 각 4~5미) - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/110/11093_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=11093&cate=31017",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_10947",
+    "name": "[탐라인] 제주 흑돼지 골라담기",
+    "description": "[탐라인] 제주 흑돼지 골라담기 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/109/10947_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=10947&cate=1672",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타",
+      "흑돼지"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30393",
+    "name": "[제주연가] 한라봉 선물세트 골라담기 (2kg, 3kg, 5kg)",
+    "description": "[제주연가] 한라봉 선물세트 골라담기 (2kg, 3kg, 5kg) - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/303/30393_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30393&cate=31004",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타",
+      "한라봉"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30075",
+    "name": "[황금원] 제주 금빛 한라봉 골라담기(선물용, 가정용)",
+    "description": "[황금원] 제주 금빛 한라봉 골라담기(선물용, 가정용) - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/300/30075_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30075&cate=31004",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타",
+      "한라봉"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_11226",
+    "name": "[미귤] 한라봉, 써니트 한라봉 골라담기",
+    "description": "[미귤] 한라봉, 써니트 한라봉 골라담기 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/112/11226_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=11226&cate=1789",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타",
+      "한라봉"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_11386",
+    "name": "[미귤] 한라봉 가정용 4.5kg(벌크)",
+    "description": "[미귤] 한라봉 가정용 4.5kg(벌크) - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/113/11386_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=11386&cate=31004",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타",
+      "한라봉"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_10188",
+    "name": "제주연가 한라봉 가정용 3kg,5kg, 10kg",
+    "description": "제주연가 한라봉 가정용 3kg,5kg, 10kg - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/101/10188_main.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=10188&cate=31143",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타",
+      "한라봉"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30321",
+    "name": "제주 상품 30321",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/303/30321_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=30321&cate=26",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_11321",
+    "name": "제주 상품 11321",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/113/11321_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=11321&cate=31008",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30293",
+    "name": "제주 상품 30293",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/302/30293_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=30293&cate=31004",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30189",
+    "name": "제주 상품 30189",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/301/30189_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=30189&cate=31009",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30075",
+    "name": "제주 상품 30075",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/300/30075_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=30075&cate=31004",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_11766",
+    "name": "제주 상품 11766",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/117/11766_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=11766&cate=31008",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_11289",
+    "name": "제주 상품 11289",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/112/11289_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=11289&cate=22",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30027",
+    "name": "제주 상품 30027",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/300/30027_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=30027&cate=31009",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_11502",
+    "name": "제주 상품 11502",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/115/11502_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=11502&cate=31004",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30030",
+    "name": "제주 상품 30030",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/300/30030_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=30030&cate=31009",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_10498",
+    "name": "제주 상품 10498",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/104/10498_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=10498&cate=31004",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_11112",
+    "name": "제주 상품 11112",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/111/11112_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=11112&cate=31004",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_11049",
+    "name": "제주 상품 11049",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/110/11049_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=11049&cate=31006",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_10455",
+    "name": "제주 상품 10455",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/104/10455_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=10455&cate=31004",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_10979",
+    "name": "제주 상품 10979",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/109/10979_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=10979&cate=31004",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_9891",
+    "name": "제주 상품 9891",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/989/9891_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=9891&cate=31004",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_3986",
+    "name": "제주 상품 3986",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/398/3986_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=3986&cate=31008",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_3984",
+    "name": "제주 상품 3984",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/398/3984_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=3984&cate=31008",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_3983",
+    "name": "제주 상품 3983",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/398/3983_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=3983&cate=31008",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30520",
+    "name": "제주 상품 30520",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/305/30520_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=30520&cate=31017",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30403",
+    "name": "제주 상품 30403",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/304/30403_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=30403&cate=31",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30402",
+    "name": "제주 상품 30402",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/304/30402_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=30402&cate=31",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30401",
+    "name": "제주 상품 30401",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/304/30401_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=30401&cate=31",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30400",
+    "name": "제주 상품 30400",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/304/30400_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=30400&cate=32",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30399",
+    "name": "제주 상품 30399",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/303/30399_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=30399&cate=32",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30398",
+    "name": "제주 상품 30398",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/303/30398_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=30398&cate=31",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30397",
+    "name": "제주 상품 30397",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/303/30397_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=30397&cate=31",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
+  },
+  {
+    "id": "prod_mall_100_이제주몰_30396",
+    "name": "제주 상품 30396",
+    "description": "제주 특산품 - 제주몰 직배송",
+    "price": "0",
+    "imageUrl": "https://mall.ejeju.net/data/goods/303/30396_main.jpg",
+    "productUrl": "https://mall.ejeju.net/../goods/detail.do?gno=30396&cate=31",
+    "mallId": "mall_100_이제주몰",
+    "mallName": "이제주몰",
+    "category": "other",
+    "tags": [
+      "제주",
+      "제주몰",
+      "기타"
+    ],
+    "inStock": true,
+    "lastUpdated": "2025-06-13T07:46:02.781Z",
+    "createdAt": "2025-06-13T07:46:02.781Z"
   }
 ]

@@ -64,12 +64,15 @@ scripts/
   │   ├── jeju-mall-all-products.json
   │   ├── jeju-mall-analysis.json
   │   ├── jeju-mall-api-response.json
+  │   ├── jeju-mall-final-products.json
   │   ├── jeju-mall-page.html
   │   ├── jeju-mall-products-ajax.json
   │   ├── jeju-mall-products-complete.json
   │   ├── jeju-mall-products-sample.json
   │   ├── jeju-mall-products-summary.json
   │   ├── jeju-mall-products.json
+  │   ├── jeju-mall-real-products.json
+  │   ├── jeju-mall-real-summary.json
   │   ├── jeju-mall-scrape-errors.txt
   │   ├── jeju-mall-scrape-summary-full.json
   │   ├── jeju-mall-scrape-summary.json
@@ -79,13 +82,17 @@ scripts/
   ├── analyze-jeju-mall.ts
   ├── classify-products.ts
   ├── create-jeju-products-dataset.ts
+  ├── enrich-jeju-products.ts
   ├── extract-jeju-mall-urls.ts
+  ├── integrate-final-jeju-products.ts
   ├── integrate-jeju-products.ts
   ├── overview-helpers.ts
   ├── README.md
   ├── scrape-all-jeju-products.ts
+  ├── scrape-jeju-mall-accurate.ts
   ├── scrape-jeju-mall-ajax.ts
   ├── scrape-jeju-mall-final.ts
+  ├── scrape-jeju-mall-real.ts
   ├── scrape-jeju-mall-simple.ts
   ├── scrape-jeju-mall.ts
   ├── scrape-jeju-products-from-urls.ts
@@ -204,7 +211,7 @@ Total: **100 shopping malls** across 17 regions
 }
 ```
 
-Total: **482 products** with real data for featured malls
+Total: **498 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -472,12 +479,12 @@ Version: 1.0.0
 Last Updated: 2025-06-13
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 7672883 fix: resolve TypeScript errors in scraping scripts
+Last Commit: 4ce9cb8 chore: trigger fresh Vercel deployment
 
 ### Project Statistics
-- Total Files: 84
+- Total Files: 91
 - Total Directories: 26
 - Shopping Malls: 100
-- Products: 482
+- Products: 498
 - Regions: 17
 - Categories: 10
