@@ -35,7 +35,7 @@ async function scrapeJejuMallAccurate() {
     });
 
     // Wait for page to load
-    await page.waitForTimeout(2000);
+    await new Promise(resolve => setTimeout(resolve, 2000));
 
     const allProducts: Product[] = [];
 
@@ -126,7 +126,7 @@ async function scrapeJejuMallAccurate() {
           timeout: 30000
         });
         
-        await page.waitForTimeout(1000);
+        await new Promise(resolve => setTimeout(resolve, 1000));
         
         // Extract products from category page
         const categoryProducts = await page.evaluate(() => {

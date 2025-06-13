@@ -143,7 +143,7 @@ async function scrapeJejuMall() {
       window.scrollTo(0, document.body.scrollHeight);
     });
     
-    await page.waitForTimeout(3000);
+    await new Promise(resolve => setTimeout(resolve, 3000));
     
     console.log(`Found ${apiEndpoints.length} potential API endpoints`);
     

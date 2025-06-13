@@ -144,7 +144,7 @@ async function scrapeJejuMallReal() {
       // Parse URL parameters
       const urlObj = new URL(url);
       const gno = urlObj.searchParams.get('gno');
-      const cate = urlObj.searchParams.get('cate');
+      const cate = urlObj.searchParams.get('cate') || undefined;
       
       if (!gno) continue;
 
