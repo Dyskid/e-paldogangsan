@@ -503,7 +503,7 @@ Version: 1.0.0
 Last Updated: 2025-06-13
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 8c2b179 feat: add Jeju mall product title scraping and cleaning tools
+Last Commit: 3e0cdfd feat: replace all generic Jeju product titles with authentic mall titles
 
 ### Project Statistics
 - Total Files: 115

@@ -177,7 +177,7 @@ class ComprehensiveJejuTitleUpdater {
     }
   }
 
-  private extractTitle($: cheerio.CheerioAPI, elem: cheerio.Element): string {
+  private extractTitle($: cheerio.CheerioAPI, elem: any): string {
     // Try multiple methods to extract title
     let title = '';
     
