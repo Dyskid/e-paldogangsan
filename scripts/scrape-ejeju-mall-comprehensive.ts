@@ -242,11 +242,12 @@ async function scrapeEjejuMallComprehensive() {
           }
 
         } catch (error) {
-          console.error(`  Error on page ${currentPage}:`, error.message);
+          const errorMessage = error instanceof Error ? error.message : String(error);
+          console.error(`  Error on page ${currentPage}:`, errorMessage);
           errors.push({
             category: category.name,
             page: currentPage,
-            error: error.message
+            error: errorMessage
           });
           hasMorePages = false;
         }
@@ -257,8 +258,9 @@ async function scrapeEjejuMallComprehensive() {
     }
 
   } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : String(error);
     console.error('Fatal error:', error);
-    errors.push({ type: 'fatal', error: error.message });
+    errors.push({ type: 'fatal', error: errorMessage });
   }
 
   // Convert unique products map to array
