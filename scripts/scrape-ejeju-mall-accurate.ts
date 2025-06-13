@@ -28,43 +28,14 @@ interface Category {
 
 const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
-async function scrapeEjejuMallComprehensive() {
-  console.log('Starting 이제주몰 comprehensive scraper...');
+async function scrapeEjejuMallAccurate() {
+  console.log('Starting 이제주몰 accurate scraper...');
   
   const allProducts: EjejuProduct[] = [];
   const errors: any[] = [];
 
-  // Comprehensive list of all categories found
+  // Updated categories based on actual site structure
   const categories: Category[] = [
-    // Main categories
-    { id: '1', name: '제주 농산품' },
-    { id: '2', name: '제주 수산품' },
-    { id: '1671', name: '제주 축산품' },
-    { id: '4', name: '제주 가공식품' },
-    { id: '6', name: '제주 화장품' },
-    { id: '31069', name: '제주 공예품' },
-    
-    // Additional categories found from product links
-    { id: '1625', name: '카테고리 1625' },
-    { id: '1672', name: '카테고리 1672' },
-    { id: '1789', name: '카테고리 1789' },
-    { id: '1854', name: '카테고리 1854' },
-    { id: '31004', name: '카테고리 31004' },
-    { id: '31017', name: '카테고리 31017' },
-    { id: '31019', name: '카테고리 31019' },
-    { id: '31021', name: '카테고리 31021' },
-    { id: '31040', name: '카테고리 31040' },
-    { id: '31041', name: '카테고리 31041' },
-    { id: '31042', name: '카테고리 31042' },
-    { id: '31043', name: '카테고리 31043' },
-    { id: '31046', name: '카테고리 31046' },
-    { id: '31059', name: '카테고리 31059' },
-    { id: '31115', name: '카테고리 31115' },
-    { id: '31143', name: '카테고리 31143' },
-    { id: '31154', name: '카테고리 31154' },
-    { id: '45', name: '카테고리 45' },
-    
-    // Previously tried categories
     { id: '26', name: '농산품' },
     { id: '27', name: '수산품' },
     { id: '28', name: '축산품' },
@@ -88,9 +59,6 @@ async function scrapeEjejuMallComprehensive() {
     timeout: 30000
   };
 
-  // Keep track of unique products by ID
-  const uniqueProducts = new Map<string, EjejuProduct>();
-
   try {
     for (const category of categories) {
       console.log(`\nScraping category: ${category.name} (ID: ${category.id})`);
@@ -99,10 +67,10 @@ async function scrapeEjejuMallComprehensive() {
       let hasMorePages = true;
       let categoryProductCount = 0;
 
-      while (hasMorePages && currentPage <= 10) { // Limit pages to prevent infinite loops
+      while (hasMorePages) {
         try {
           const categoryUrl = `https://mall.ejeju.net/goods/main.do?cate=${category.id}&page=${currentPage}`;
-          console.log(`  Loading page ${currentPage}`);
+          console.log(`Loading page ${currentPage}: ${categoryUrl}`);
           
           const response = await axios.get(categoryUrl, axiosConfig);
           const $ = cheerio.load(response.data);
@@ -130,7 +98,7 @@ async function scrapeEjejuMallComprehensive() {
               // Build absolute product URL
               const productUrl = href.startsWith('http') 
                 ? href 
-                : `https://mall.ejeju.net${href.startsWith('/') ? href : '/goods/' + href.replace('../', '')}`;
+                : `https://mall.ejeju.net${href.startsWith('/') ? href : '/goods/' + href}`;
 
               // Extract title from .pro_name
               const title = $elem.find('.pro_name').text().trim();
@@ -162,7 +130,7 @@ async function scrapeEjejuMallComprehensive() {
               }
 
               // Extract image URL
-              const imgElement = $elem.find('.thum img, .images img').first();
+              const imgElement = $elem.find('.thum img').first();
               let imageUrl = imgElement.attr('src') || '';
               
               // Make image URL absolute
@@ -180,17 +148,14 @@ async function scrapeEjejuMallComprehensive() {
               ];
               const isAvailable = !soldOutIndicators.some(indicator => indicator);
 
-              // Extract brand from title
+              // Extract brand from icons or title
               let brand: string | undefined;
               const titleMatch = title.match(/\[(.*?)\]/);
               if (titleMatch) {
                 brand = titleMatch[1];
               }
 
-              // Extract description from summary
-              const description = $elem.find('.pro_summary').text().trim();
-
-              const product: EjejuProduct = {
+              products.push({
                 id: productId,
                 url: productUrl,
                 title,
@@ -201,23 +166,18 @@ async function scrapeEjejuMallComprehensive() {
                 categoryId: categoryIdFromUrl,
                 isAvailable,
                 brand,
-                description,
                 mallName: '이제주몰',
                 mallUrl: 'https://mall.ejeju.net',
                 scrapedAt: new Date().toISOString()
-              };
-
-              products.push(product);
-              
-              // Add to unique products map
-              uniqueProducts.set(productId, product);
+              });
             } catch (err) {
               console.error('Error extracting product:', err);
             }
           });
 
           if (products.length > 0) {
-            console.log(`    Found ${products.length} products`);
+            console.log(`Found ${products.length} products on page ${currentPage}`);
+            allProducts.push(...products);
             categoryProductCount += products.length;
 
             // Check for pagination
@@ -229,42 +189,47 @@ async function scrapeEjejuMallComprehensive() {
             if (paginationExists && currentPageActive && lastPageLink && 
                 parseInt(currentPageActive) < parseInt(lastPageLink)) {
               currentPage++;
-              await delay(1000); // Rate limiting
-            } else if (products.length >= 12) {
-              // If no pagination but full page of products, try next page
-              currentPage++;
-              await delay(1000);
+              await delay(1500); // Rate limiting
             } else {
               hasMorePages = false;
             }
           } else {
+            console.log(`No products found on page ${currentPage}`);
+            
+            // Save HTML for debugging if no products found
+            if (currentPage === 1) {
+              const debugDir = path.join(__dirname, 'output', 'debug');
+              if (!fs.existsSync(debugDir)) {
+                fs.mkdirSync(debugDir, { recursive: true });
+              }
+              fs.writeFileSync(
+                path.join(debugDir, `ejeju-cat${category.id}-page${currentPage}.html`),
+                response.data
+              );
+            }
+            
             hasMorePages = false;
           }
 
         } catch (error) {
-          const errorMessage = error instanceof Error ? error.message : String(error);
-          console.error(`  Error on page ${currentPage}:`, errorMessage);
+          console.error(`Error scraping category ${category.name}, page ${currentPage}:`, error);
           errors.push({
             category: category.name,
             page: currentPage,
-            error: errorMessage
+            error: error.message
           });
           hasMorePages = false;
         }
       }
 
-      console.log(`  Total for category: ${categoryProductCount} products`);
+      console.log(`Completed category ${category.name}: ${categoryProductCount} products`);
       category.productCount = categoryProductCount;
     }
 
   } catch (error) {
-    const errorMessage = error instanceof Error ? error.message : String(error);
     console.error('Fatal error:', error);
-    errors.push({ type: 'fatal', error: errorMessage });
+    errors.push({ type: 'fatal', error: error.message });
   }
-
-  // Convert unique products map to array
-  const allUniqueProducts = Array.from(uniqueProducts.values());
 
   // Save results
   const outputDir = path.join(__dirname, 'output');
@@ -274,46 +239,42 @@ async function scrapeEjejuMallComprehensive() {
 
   // Save all products
   fs.writeFileSync(
-    path.join(outputDir, 'ejeju-mall-products-comprehensive.json'),
-    JSON.stringify(allUniqueProducts, null, 2)
+    path.join(outputDir, 'ejeju-mall-products.json'),
+    JSON.stringify(allProducts, null, 2)
   );
 
   // Save summary
   const summary = {
     mallName: '이제주몰',
     mallUrl: 'https://mall.ejeju.net',
-    totalProducts: allUniqueProducts.length,
-    totalProductsScraped: allProducts.length,
-    duplicatesRemoved: allProducts.length - allUniqueProducts.length,
+    totalProducts: allProducts.length,
     categories: categories.filter(c => c.productCount && c.productCount > 0),
     scrapedAt: new Date().toISOString(),
     errors: errors.length > 0 ? errors : undefined
   };
 
   fs.writeFileSync(
-    path.join(outputDir, 'ejeju-mall-summary-comprehensive.json'),
+    path.join(outputDir, 'ejeju-mall-summary.json'),
     JSON.stringify(summary, null, 2)
   );
 
   console.log('\n=== Scraping Complete ===');
-  console.log(`Total unique products: ${allUniqueProducts.length}`);
-  console.log(`Total products scraped (including duplicates): ${allProducts.length}`);
-  console.log(`Duplicates removed: ${allProducts.length - allUniqueProducts.length}`);
+  console.log(`Total products scraped: ${allProducts.length}`);
   console.log(`Errors encountered: ${errors.length}`);
   console.log('\nCategory breakdown:');
   categories.forEach(cat => {
-    if (cat.productCount && cat.productCount > 0) {
+    if (cat.productCount) {
       console.log(`  ${cat.name}: ${cat.productCount} products`);
     }
   });
 
-  return { products: allUniqueProducts, summary };
+  return { products: allProducts, summary };
 }
 
 // Run the scraper
 if (require.main === module) {
-  scrapeEjejuMallComprehensive().catch(console.error);
+  scrapeEjejuMallAccurate().catch(console.error);
 }
 
-export { scrapeEjejuMallComprehensive };
+export { scrapeEjejuMallAccurate };
 export type { EjejuProduct };
