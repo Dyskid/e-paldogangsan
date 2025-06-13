@@ -60,6 +60,7 @@ backup/
   ├── Project Title e-Paldogangsan South.txt
 scripts/
   ├── output/
+  │   ├── all-malls-analysis.json
   │   ├── integration-summary.json
   │   ├── jeju-image-fallback-summary.json
   │   ├── jeju-image-fix-summary.json
@@ -86,6 +87,7 @@ scripts/
   │   ├── jeju-real-images-summary.json
   │   ├── jeju-real-titles.json
   │   ├── jeju-title-update-report.json
+  ├── analyze-all-malls.ts
   ├── analyze-jeju-mall-structure.ts
   ├── analyze-jeju-mall.ts
   ├── check-jeju-titles.ts
@@ -101,10 +103,15 @@ scripts/
   ├── fetch-real-jeju-images-axios.ts
   ├── fetch-real-jeju-images.ts
   ├── fetch-real-jeju-titles.ts
+  ├── final-verification.ts
+  ├── find-remaining-issue.ts
+  ├── fix-final-generic-title.ts
   ├── fix-jeju-images-fallback.ts
   ├── fix-jeju-images.ts
   ├── fix-jeju-prices.ts
+  ├── fix-priority-malls.ts
   ├── fix-specific-jeju-titles.ts
+  ├── improve-scraped-titles.ts
   ├── integrate-final-jeju-products.ts
   ├── integrate-jeju-products.ts
   ├── overview-helpers.ts
@@ -507,10 +514,10 @@ Version: 1.0.0
 Last Updated: 2025-06-13
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 7aa8723 fix: resolve TypeScript error with cheerio Element type
+Last Commit: ed0eabe feat: extract authentic product titles from Jeju mall individual pages
 
 ### Project Statistics
-- Total Files: 119
+- Total Files: 126
 - Total Directories: 26
 - Shopping Malls: 100
 - Products: 484
