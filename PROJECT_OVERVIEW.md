@@ -82,6 +82,7 @@ scripts/
   │   ├── jeju-mall-urls.txt
   │   ├── jeju-price-fix-summary.json
   │   ├── jeju-products-removal-summary.json
+  │   ├── jeju-real-images-summary.json
   ├── analyze-jeju-mall-structure.ts
   ├── analyze-jeju-mall.ts
   ├── check-price-status.js
@@ -89,6 +90,8 @@ scripts/
   ├── create-jeju-products-dataset.ts
   ├── enrich-jeju-products.ts
   ├── extract-jeju-mall-urls.ts
+  ├── fetch-real-jeju-images-axios.ts
+  ├── fetch-real-jeju-images.ts
   ├── fix-jeju-images-fallback.ts
   ├── fix-jeju-images.ts
   ├── fix-jeju-prices.ts
@@ -488,10 +491,10 @@ Version: 1.0.0
 Last Updated: 2025-06-13
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 38ec569 fix: correct Jeju mall product pricing and remove failed products
+Last Commit: 17671aa fix: replace broken Jeju mall images with reliable placeholders
 
 ### Project Statistics
-- Total Files: 100
+- Total Files: 103
 - Total Directories: 26
 - Shopping Malls: 100
 - Products: 484
