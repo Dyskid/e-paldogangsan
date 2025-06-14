@@ -183,12 +183,12 @@ async function registerRetryProducts() {
   console.log('\n=== Registration Complete ===');
   console.log(`Successfully registered ${newProducts.length} products from ${processedMalls.length} malls`);
   console.log('\nMall breakdown:');
-  registrationSummary.mallBreakdown.forEach(({ mall, count }) => {
+  registrationSummary.mallBreakdown.forEach(({ mall, count }: { mall: string; count: number }) => {
     console.log(`  ${mall}: ${count} products`);
   });
   
   console.log('\nFailed malls (need manual intervention):');
-  registrationSummary.failedMalls.forEach(({ mall, error }) => {
+  registrationSummary.failedMalls.forEach(({ mall, error }: { mall: string; error: string }) => {
     console.log(`  ${mall}: ${error}`);
   });
   
