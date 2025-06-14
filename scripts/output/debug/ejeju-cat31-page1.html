@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<html lang="ko" xml:lang="ko">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<meta http-equiv="Imagetoolbar" content="no" />
+	<meta name="keywords" content="이제주몰,e제주몰" />
+	<meta name="description" content="제주특별자치도가 구축하고 제주경제통상진흥원이 운영하는 제주특산품 온라인 쇼핑몰" />
+	<meta name="classification" content="한라봉,천혜향,레드향,감귤,갈치,옥돔,고등어,선물,제주,제주도,오메기떡,귤향과즐,신효귤향과즐,호끌락칩스,제주흑돼지,감귤과즐,하효,제주여행,제주도,흑돼지,김부각,김부각선물세트,월동무,삼겹살,오겹살,목살,앞다리살,영양밥" />
+	<title>제주특별자치도 이제주몰</title>
+
+	<link rel="SHORTCUT ICON" href="https://mall.ejeju.net/data/base/favicon.ico?6ac0f59293d14acea2739cc62fd0aec8" />
+	<link rel="stylesheet" type="text/css" href="/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/typeB.css?v=202309272"/>
+	<link rel="stylesheet" type="text/css" href="/css/colorA.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/colorB.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/colorC.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/colorD.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css"/>
+
+	<style type="text/css">
+		body{
+			
+		} /* 배경색상 */
+		.x_price{}  /* 가격 스타일 */
+		.x_highlight{} /* 강조 스타일 */
+	</style>
+
+	<!-- jquery //-->
+	<script type="text/javascript" src="/jscript/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/jscript/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="/jscript_o/jquery/jquery.laybox.js"></script>
+    <script type="text/javascript" src="/jscript/jquery.easing.1.3.min.js"></script>
+    <script type="text/javascript" src="/jscript/common.js"></script>
+	<script type="text/javascript" src="/jscript_o/misc.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/i18n/jquery-ui-i18n.min.js"></script>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+	<!-- <script type="text/javascript" src="/jscript/ui_new.js"></script> -->
+	<!-- solution default -->
+	<!--<script type="text/javascript"  src="/jscript_o/common.js"></script> -->
+	<!--<script type="text/javascript" src="/jscript_o/embed.js"></script> -->
+	<script type="text/javascript"  src="/jscript_o/cookie.js"></script>
+	<!--//-->
+
+	<script type="text/javascript">
+	//<![CDATA[
+		var SECURE_URL = "https://mall.ejeju.net";
+		var CATEGORY_DEPTH = 5;
+	//]]>
+	</script>
+
+	<script type="text/javascript">
+		(function(c,l,a,r,i,t,y){
+			c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+			t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+			y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+		})(window, document, "clarity", "script", "qrgw5769xf");
+	</script>
+</head>
+
+<!-- <body oncontextmenu='return false' onselectstart='return false' ondragstart='return false'> -->
+<body id=""><!-- colorA ~ colorD -->
+
+<script type="text/javascript">
+//<![CDATA[
+function validTopSearch(f) {
+	if(typeof f == "undefined"){
+		f = document.topPcSearchFrm;
+	}
+	if (isEmpty(f.sword)) {
+		alert("검색어를 입력해 주세요.");
+		f.sword.focus();
+		return false;
+	}
+	f.submit();
+	return true;
+}
+
+function fn_validTopSearch(){
+	f = document.topPcSearchFrm;
+	if (isEmpty(f.sword)) {
+		alert("검색어를 입력해 주세요.");
+		f.sword.focus();
+		return false;
+	}
+	f.submit();
+}
+
+function validTopLink(url) {
+	location.href = url;
+	return false;
+}
+
+function fnMemberLogout(){
+	// local logout
+	location.href = "https://mall.ejeju.net/member/logout.do";
+}
+
+//바로구매
+function topperToDirectOrder(gno, cate) {
+	$.ajax({
+        type: "GET",
+        url: '../order/direct_buy_ifrm.do?gno='+gno+'&cate='+cate,
+        //data: { cate: $(this).attr('cate') },
+        error: function (request, status, error) {
+            alert(request.responseText)
+        },
+        success: function (data) {
+        	console.log($(obj),data);
+            showLayer($(obj),'.direct_order_info_prd');
+            $("#pop_"+$(obj).attr("id")).html(data);
+        }
+    });
+
+    // 	showLayer(this,'.pop_modal');
+	/*
+	$.laybox({
+		type: 'iframe',
+		source: '../order/direct_buy_ifrm.do?gno='+gno+'&cate='+cate,
+		borderSize: 0,
+		canvasPadding: 0,
+		canvasBgColor: null,
+		close: false
+	});
+	return false;
+	 */
+}
+function layerPopupClose(){
+	$.laybox.close();
+}
+//장바구니담기
+function topperToDirectCart(gno, cate, obj) {
+    console.log(obj);
+    $.ajax({
+        type: "GET",
+        url: '/order/direct_cart_ifrm.do?gno='+gno+'&cate='+cate,
+        // data: { cate: $(this).attr('cate') },
+        error: function (request, status, error) {
+            alert(request.responseText)
+        },
+        success: function (data) {
+            //console.log(data);
+        	if(data.indexOf("__jsmsg") == -1 ){
+	            showLayer($(obj),'.detail_info_prd');
+	            $("#pop_"+$(obj).attr("id")).html(data);
+        	}else{
+	            showLayer($(obj),'.detail_info_prd');
+	            extendHideLayer("pop_"+$(obj).attr("id"))
+	            $("#pop_"+$(obj).attr("id")).html(data);
+        	}
+        }
+    });
+
+	/*
+	$.laybox({
+		type: 'ajax',
+		id:'directCartPop',
+		source: '../order/direct_cart_ifrm.do?gno='+gno+'&cate='+cate,
+		borderSize: 0,
+		canvasPadding: 0,
+		canvasBgColor: null,
+		close: false
+	});
+	 */
+	/*if(ob != "undefined"){
+		if(mode == "ADD"){
+			//ob.setAttribute("onClick", "addWish('DEL',"+gnos+","+cates+",this); return false;");
+			ob.className = "pick active";
+
+		} else {
+			//ob.setAttribute("onClick", "addWish('ADD',"+gnos+","+cates+",this); return false;");
+			ob.className = "pick";
+		}
+	}*/
+}
+//]]>
+</script>
+
+<div class="skiptoContent">
+    <a href="#container_wrap">본문내용 바로가기</a>
+</div>
+
+<!-- header -->
+<div id="wrap_main" class="wrap">
+    <div class="right_fixed">
+        <a href="http://pf.kakao.com/_xmCMXj/chat" onclick="window.open(this.href, '_blanck', 'width=600, height=400'); return false" class=""><img src="../images/common/aside_btn01.png" alt="카카오톡상담"></a>
+        <a href="#" class="btn_top">TOP</a>
+    </div>
+	<!-- header -->
+	<div class="skiptoContent">
+    <a href="#container_wrap">본문내용 바로가기</a>
+</div>
+    <!-- header -->
+<div id="wrap_main" class="wrap">
+    <!-- header -->
+    <header id="wrap_header">
+        <div id="header">
+            <!-- logoa  -->
+            <h1 class="logo"><a href="/main/index.do">이제주몰</a></h1>
+            <!-- //logo -->
+
+            <!-- search_layer -->
+            <div class="top_Srch">
+                <a href="#topSrch">검색하기</a>
+                <div class="layer_Srch"> <!-- 검색어 입력 레이어 -->
+                    <form name="topSearchFrm" method="get" action="https://mall.ejeju.net/goods/search.do" onSubmit="validTopSearch(this); return;">
+<!--                         <input type="hidden" name="menu" id="menu" value="통합검색" > -->
+                        <span>
+                            <input id="search-box" type="text" name="sword" placeholder="검색어 입력"/>
+                            <a href="javascript:fn_validTopSearch();" class="search_btn">검색</a>
+                        </span>
+                    </form>
+                </div>
+            </div>
+            <!-- //search_layer -->
+            <div class="top_Cart">
+                <a href="https://mall.ejeju.net/order/cart.do">장바구니</a>
+                <span class="cart_cnt">0</span>
+            </div>
+
+            <div class="layerGnb">
+                <!-- <div class="bgLayer"></div> -->
+                <div class="wrapCnt">
+                    <h2 class="logo hidePc"><a href="index.do">이제주몰</a></h2>
+                    <!-- global -->
+                    <div id="wrap_top">
+                        <ul id="util">
+                            <li class="login"><a href="https://mall.ejeju.net/member/login.do" onClick="gotoLogin(); return false;">로그인</a></li>
+                                <li class="cart"><a href="https://mall.ejeju.net/order/cart.do">장바구니</a></li>
+                            <li class="mypage"><a href="https://mall.ejeju.net/mypage/index.do">마이페이지</a></li>
+                            <li class="call"><a href="https://mall.ejeju.net/board/list.do?board=notice">고객센터</a></li>
+                        </ul>
+                    </div>
+                    <!-- //global -->
+
+                    <!-- gnb -->
+                    <nav class="gnb" id="gnb">
+                        <!-- mobile GBN -->
+                        <ul class="hidePc">
+                            <li>
+<a href="/goods/main.do?cate=1">제주 농산품</a>
+</li>
+<li>
+<a href="/goods/main.do?cate=2">제주 수산품</a>
+</li>
+<li>
+<a href="/goods/main.do?cate=1671">제주 축산품</a>
+</li>
+<li>
+<a href="/goods/main.do?cate=4">제주 가공식품</a>
+</li>
+<li>
+<a href="/goods/main.do?cate=6">제주 화장품</a>
+</li>
+<li>
+<a href="/goods/main.do?cate=31069">제주 공예품</a>
+</li>
+<li>
+<a href="/goods/main.do?cate=1854">제주 생활용품</a>
+</li>
+<li>
+<a href="/goods/main.do?cate=1625">개인결제창</a>
+</li>
+<li>
+<a href="/goods/main.do?cate=31115">반려동물용품</a>
+</li>
+<li>
+<a href="/goods/main.do?cate=31154">제주-경기 상생관</a>
+</li>
+</ul>
+                        <!-- //mobile GBN -->
+
+                        <!-- PC GBN -->
+                        <ul class="gnb_main">
+                             <li class="top_menu">
+                                <ul><li><a href="https://mall.ejeju.net/goods/main.do?cate=1" target="">탐나는 농산품</a></li><li><a href="https://mall.ejeju.net/goods/main.do?cate=2" target="">탐나는 수산품</a></li><li><a href="https://mall.ejeju.net/goods/main.do?cate=1671" target="">탐나는 축산품</a></li><li><a href="https://mall.ejeju.net/goods/main.do?cate=4" target="">탐나는 가공식품</a></li></ul>
+                            </li>
+                            <li class="utill">
+                                <div>
+                                    <span class="gnb_all">
+		                                <a href="" ><i class="fa fa-bars"></i>전체 카테고리</a>
+		                                <ul class="gnb_sub on">
+		                                    <li>
+<a href="/goods/main.do?cate=1">제주 농산품</a>
+</li>
+<li>
+<a href="/goods/main.do?cate=2">제주 수산품</a>
+</li>
+<li>
+<a href="/goods/main.do?cate=1671">제주 축산품</a>
+</li>
+<li>
+<a href="/goods/main.do?cate=4">제주 가공식품</a>
+</li>
+<li>
+<a href="/goods/main.do?cate=6">제주 화장품</a>
+</li>
+<li>
+<a href="/goods/main.do?cate=31069">제주 공예품</a>
+</li>
+<li>
+<a href="/goods/main.do?cate=1854">제주 생활용품</a>
+</li>
+<li>
+<a href="/goods/main.do?cate=1625">개인결제창</a>
+</li>
+<li>
+<a href="/goods/main.do?cate=31115">반려동물용품</a>
+</li>
+<li>
+<a href="/goods/main.do?cate=31154">제주-경기 상생관</a>
+</li>
+</ul>
+                                    </span>
+                                    <span class="srch">
+                                        <a href="javascript:;">검색하기</a>
+                                    </span>
+                                    <span class="mypage">
+                                        <a href="https://mall.ejeju.net/mypage/index.do" >마이페이지</a>
+                                        <div class="mypage_menu">
+                                            <ul>
+                                                 <li><a href="https://mall.ejeju.net/member/login.do">로그인</a></li>
+					                                <!--                                                 <li><a href="">회원가입</a></li> -->
+                                                <li><a href="https://mall.ejeju.net/mypage/index.do">마이페이지</a></li>
+                                                <li><a href="https://mall.ejeju.net/order/cart.do">장바구니</a><span class="cart_cnt"></span></li>
+                                                <li><a href="https://mall.ejeju.net/board/list.do?board=notice">고객센터</a></li>
+                                            </ul>
+                                        </div>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <!-- //PC GBN -->
+                    </nav>
+                </div>
+            </div>
+
+            <div class="btnToggleMn hidePc"><a href="javascript:;">전체메뉴 열기</a></div>
+        </div>
+    </header>
+    <!-- //header -->
+
+<!-- //header -->
+
+<<script type="text/javascript">
+window.name ="nice_Parent_Window";
+
+function nice_certi_popup(goodsNo, goodsCateIdx, status){
+    //상세페이지에 들어가는 값 셋팅
+    sessionStorage.setItem("gno", goodsNo);
+    sessionStorage.setItem("cate", goodsCateIdx);
+    sessionStorage.setItem("status", status);
+    
+        window.open('', 'nicePopup', 'width=500, height=550, top=100, left=100, fullscreen=no, menubar=no, status=no, toolbar=no, titlebar=yes, location=no, scrollbar=no');
+        //document.nice_form.action = "https://nice.checkplus.co.kr/CheckPlusSafeModel/checkplus.cb";
+       	document.nice_form.action = "/niceCheckApi/checkplus_certi_adult_pop.jsp";
+       	document.nice_form.target = "nicePopup";
+        document.nice_form.submit();
+    
+}
+
+function go_detail($val){
+    var gno = sessionStorage.getItem("gno");
+    var cate = sessionStorage.getItem("cate");
+    var status = sessionStorage.getItem("status");
+    /* nice인증 팝업에서 reload 후 지금 함수를 실행 하면 reload 하는 도중에 함수가 실행되어 원하는 동작이 안됨   */
+    
+
+     if($val && status == "detail") {
+      window.location.href='../goods/detail.do?gno='+gno+'&cate='+cate;
+    }
+}
+</script>
+<form name="nice_form" method="post">
+    <input type="hidden" name="m" value="checkplusService">                     <!-- 필수 데이타로, 누락하시면 안됩니다. -->
+    <input type="hidden" name="EncodeData" value="AgAFQlYyNjRMj1622pNythuYT6CVWFmRzopNCwQX00GaIzuuM4MOp6FgXK+W0xX0jfGXfbTmWNaxFxvjmsW39U8ZevbmgvPIqIa7zFjST9Ee9XfReYHNDSN392oV/lZypbeaPNCn4FKqaGtZ12AG7b8aa+uM9h2fTV69d3TbLYyldbWfz8EBs6aPOcRaex81i0tUdNq+Vt0pRitOyszBER4Iyzp5gY+ajcuVs40JBi2V5C0wi1SHWfykSa6nxm6V/th4rwHOswZoiwXeH6V99+yblI6+POdLJbHx3TuRWzABBjhZqiHf8IHWPJfjMIMxFWHuREZ4V4cJrv0tenmjvwKw0XPZ7PwMpDhDdQMKVIf8clB2TgGSs+2rCa4uJA0Uwz/Jt4tyCciOsljobjspU/TI2uHRoaTCvHJfFnckeRxdnjgRF0zN59aeIizKJf7KkJPfV8j3OUMiA516wgTIamNCUU7vSFyWJNPlr7soiPNtWb5W5msPYQ==">     <!-- 위에서 업체정보를 암호화 한 데이타입니다. -->
+</form>
+<div id="wrap_container" class="sub">
+    <div class="wrap_content">
+        <script type="text/javascript">
+//<![CDATA[
+jQuery(document).ready(function () {
+	$('li.category p a').each(function() {
+		var $me = $(this);
+		var $parent = $me.parent().parent();
+
+		$(this).mouseover(function() {
+			$parent.siblings().children('ul').hide();
+
+			var $child = $parent.children('ul');
+			if ($child.length > 0) {
+				if ($child.css('display') == 'none') $child.show();
+				else $child.hide();
+			}
+			else {
+				$.ajax({
+					type: "POST",
+					url: "../common/ajax/categoryNavi_ajax.do",
+					data: { cate: $(this).attr('cate') },
+					error: function (request, status, error) {
+						alert(request.responseText)
+					},
+					success: function (data) {
+						$parent.children('ul').remove();
+						if (data) $('<ul />').html(data).appendTo($parent).show();
+					}
+				});
+			}
+		});
+
+		$parent.mouseleave(function() {
+			$parent.children('ul').hide();
+		});
+	});
+});
+//]]>
+</script>
+<div class="navi">
+            <ul>
+                <li class="category home">
+                    <a href="https://mall.ejeju.net/main/index.do"><i class="fa fa-home" aria-hidden="true"></i></a>
+                </li>
+                <li class="category">
+	                        <p><a cate="2">제주 수산품</a></p>
+	                    </li>
+				    <li class="category">
+	                        <p><a cate="31">옥돔</a></p>
+	                    </li>
+				    </ul>
+        </div>
+<div class="con_title">
+            <h3 class="pt5 mt5"></h3>
+        </div>
+
+        <nav class="list_category">
+			<ul>
+				</ul>
+		</nav>
+<!-- 컨텐츠 영역 -->
+        <div class="sub_layout">
+			<div class="goodsBanner">
+                    <div class="center">
+                        </div>
+                </div>
+			<!-- 상품 목록//-->
+            <script type="text/javascript">
+//<![CDATA[
+function checkCb(obj) {
+	var f = obj.form;
+
+	if (f.cbListAll) {
+		var $cb = $(f[obj.name]);
+		var total = 0, checked = 0;
+
+		$cb.each(function() {
+			var me = $(this);
+			if (!me.is(':disabled')) {
+				++total;
+				if (me.is(':checked')) ++checked;
+			}
+		});
+
+		f.cbListAll.checked = (total==checked ? true : false);
+	}
+}
+
+function changeView(obj){
+
+	var type = $(obj).attr("data");
+
+	if(type == "th-list"){
+		$("#viewType").attr("class","th-list");
+		$("#gridAt").attr("class","th");
+		$(obj).attr("class","list active");
+	}else {
+		$("#viewType").attr("class","th");
+		$(obj).attr("class","th active");
+		$("#listAt").attr("class","list");
+	}
+}
+//]]>
+</script>
+
+<form name="sFrm" method="get">
+    <input type="hidden" name="cate" value="31" />
+    <input type="hidden" name="pview" value="grid" />
+    <input type="hidden" name="psort" value="favorite" />
+    <!-- 검색
+    <div class="product_search">
+    <strong><span class="x_highlight">[]</span> 내 상품 검색</strong><input size="40" name="sword" value="" /><button type="submit"><img src="https://mall.ejeju.net/data/base/button/btn_search_sub.png" alt="검색" /></button>
+    </div>
+    -->
+    <div class="totalSrch_top">
+        <p class="total">총 <strong class="x_price">6개</strong>의 상품이 있습니다.</p>
+        <div class="align">
+            <ul>
+                <li  class="active"><a href="?cate=31&sword=&swhat=&pview=grid&psort=favorite" >인기상품순</li>
+                <li ><a href="?cate=31&sword=&swhat=&pview=grid&psort=new"      >등록순</a></li>
+                <li ><a href="?cate=31&sword=&swhat=&pview=grid&psort=high"     >높은가격순</a></li>
+                <li ><a href="?cate=31&sword=&swhat=&pview=grid&psort=low"      >낮은가격순</a></li>
+                <li ><a href="?cate=31&sword=&swhat=&pview=grid&psort=name"     >이름순</a></li>
+            </ul>
+            <p>
+                <a id="gridAt" data="th" href="javascript:;" onClick="changeView(this); return false;" class="th active"><i class="fa fa-th" aria-hidden="true"></i>바둑판식으로 보기</a>
+                <a id="listAt" data="th-list" href="javascript:;" onClick="changeView(this); return false;" class="list"><i class="fa fa-th-list" aria-hidden="true"></i>리스트로 보기</a>
+            </p>
+        </div>
+    </div>
+
+    <section class="">
+        <ul id="viewType" class="th">
+
+            <li>
+                            <!-- 성인인증이 불 필요한 상품 -->
+                            <a href="../goods/detail.do?gno=30403&cate=31" class="thum" target="_self">
+                                    <div class="images ">
+                                        <img src="https://mall.ejeju.net/webUpload/20240110/1704890253293" onerror="this.src='/data/base/imgs/goods/no.gif'">
+                                    </div>
+                                </a>
+                            <!-- 성인인증이 필요한 상품 -->
+                            <!-- 성인인증이 불 필요한 상품 -->
+                            <div class="info_icon">
+                                    <ul class="icon_deat">
+                                        <li class="ic_dt m_plus"><button type="button" onclick="location.href='../goods/detail.do?gno=30403&cate=31'">상세보기</button></li>
+                                        <li class="ic_dt m_blank"><button type="button" onclick="window.open('../goods/detail.do?gno=30403&cate=31')">새창열기</button></li>
+                                        <li class="ic_dt m_cart  active"><button type="button" id="cartPop" href=".detail_info_prd" onclick="topperToDirectCart(30403, 31,this); return false;">장바구니담기</button></li>
+                                        <li class="ic_dt m_wish "><button type="button" onclick="addWish('ADD',30403, 31, this); return false;">찜하기</button></li>
+                                    </ul>
+                                </div>
+                            <a href="../goods/detail.do?gno=30403&cate=31" class="cont">
+                            <span class='icons'><img src='https://mall.ejeju.net/data/base/icon/sale_0.png' alt="" /><img src='https://mall.ejeju.net/data/base/icon/best_0.png' alt="" /></span><span class="pro_name">[청룡수산] 홀피쉬 옥돔살뜰1호 /150g*7마리</span>
+                                <span class="pro_summary"></span>
+                            </a>
+
+                            <p class="price">
+                                            <b></b>
+                                                <del>59,000원</del>
+                                            ▶ <strong>50,900원</strong></p>
+                                        <p class="botton">
+                                <a id="cartPop" href=".detail_info_prd" class="btn st_small m_cart  active" onclick="topperToDirectCart(30403, 31,this); return false;""><i class="fa fa-cart-plus"></i>장바구니담기</a>
+                                <a class="btn bl_orange st_small  m_wish " href="" onclick="addWish('ADD',30403, 31, this); return false;"><i class="fa fa-heart"></i>찜하기</a>
+                            </p>
+                        </li>
+                    <li>
+                            <!-- 성인인증이 불 필요한 상품 -->
+                            <a href="../goods/detail.do?gno=30402&cate=31" class="thum" target="_self">
+                                    <div class="images ">
+                                        <img src="https://mall.ejeju.net/webUpload/20240110/1704890046371" onerror="this.src='/data/base/imgs/goods/no.gif'">
+                                    </div>
+                                </a>
+                            <!-- 성인인증이 필요한 상품 -->
+                            <!-- 성인인증이 불 필요한 상품 -->
+                            <div class="info_icon">
+                                    <ul class="icon_deat">
+                                        <li class="ic_dt m_plus"><button type="button" onclick="location.href='../goods/detail.do?gno=30402&cate=31'">상세보기</button></li>
+                                        <li class="ic_dt m_blank"><button type="button" onclick="window.open('../goods/detail.do?gno=30402&cate=31')">새창열기</button></li>
+                                        <li class="ic_dt m_cart  active"><button type="button" id="cartPop" href=".detail_info_prd" onclick="topperToDirectCart(30402, 31,this); return false;">장바구니담기</button></li>
+                                        <li class="ic_dt m_wish "><button type="button" onclick="addWish('ADD',30402, 31, this); return false;">찜하기</button></li>
+                                    </ul>
+                                </div>
+                            <a href="../goods/detail.do?gno=30402&cate=31" class="cont">
+                            <span class='icons'><img src='https://mall.ejeju.net/data/base/icon/sale_0.png' alt="" /><img src='https://mall.ejeju.net/data/base/icon/best_0.png' alt="" /></span><span class="pro_name">[청룡수산] 홀피쉬 옥돔알뜰2호 / 180g*9마리</span>
+                                <span class="pro_summary"></span>
+                            </a>
+
+                            <p class="price">
+                                            <b></b>
+                                                <del>99,000원</del>
+                                            ▶ <strong>86,000원</strong></p>
+                                        <p class="botton">
+                                <a id="cartPop" href=".detail_info_prd" class="btn st_small m_cart  active" onclick="topperToDirectCart(30402, 31,this); return false;""><i class="fa fa-cart-plus"></i>장바구니담기</a>
+                                <a class="btn bl_orange st_small  m_wish " href="" onclick="addWish('ADD',30402, 31, this); return false;"><i class="fa fa-heart"></i>찜하기</a>
+                            </p>
+                        </li>
+                    <li>
+                            <!-- 성인인증이 불 필요한 상품 -->
+                            <a href="../goods/detail.do?gno=30401&cate=31" class="thum" target="_self">
+                                    <div class="images ">
+                                        <img src="https://mall.ejeju.net/webUpload/20240110/1704889861384" onerror="this.src='/data/base/imgs/goods/no.gif'">
+                                    </div>
+                                </a>
+                            <!-- 성인인증이 필요한 상품 -->
+                            <!-- 성인인증이 불 필요한 상품 -->
+                            <div class="info_icon">
+                                    <ul class="icon_deat">
+                                        <li class="ic_dt m_plus"><button type="button" onclick="location.href='../goods/detail.do?gno=30401&cate=31'">상세보기</button></li>
+                                        <li class="ic_dt m_blank"><button type="button" onclick="window.open('../goods/detail.do?gno=30401&cate=31')">새창열기</button></li>
+                                        <li class="ic_dt m_cart  active"><button type="button" id="cartPop" href=".detail_info_prd" onclick="topperToDirectCart(30401, 31,this); return false;">장바구니담기</button></li>
+                                        <li class="ic_dt m_wish "><button type="button" onclick="addWish('ADD',30401, 31, this); return false;">찜하기</button></li>
+                                    </ul>
+                                </div>
+                            <a href="../goods/detail.do?gno=30401&cate=31" class="cont">
+                            <span class='icons'><img src='https://mall.ejeju.net/data/base/icon/sale_0.png' alt="" /><img src='https://mall.ejeju.net/data/base/icon/best_0.png' alt="" /></span><span class="pro_name">[청룡수산] 홀피쉬 옥돔특2호 / 280g*6마리</span>
+                                <span class="pro_summary"></span>
+                            </a>
+
+                            <p class="price">
+                                            <b></b>
+                                                <del>170,000원</del>
+                                            ▶ <strong>129,000원</strong></p>
+                                        <p class="botton">
+                                <a id="cartPop" href=".detail_info_prd" class="btn st_small m_cart  active" onclick="topperToDirectCart(30401, 31,this); return false;""><i class="fa fa-cart-plus"></i>장바구니담기</a>
+                                <a class="btn bl_orange st_small  m_wish " href="" onclick="addWish('ADD',30401, 31, this); return false;"><i class="fa fa-heart"></i>찜하기</a>
+                            </p>
+                        </li>
+                    <li>
+                            <!-- 성인인증이 불 필요한 상품 -->
+                            <a href="../goods/detail.do?gno=30398&cate=31" class="thum" target="_self">
+                                    <div class="images ">
+                                        <img src="https://mall.ejeju.net/webUpload/20240110/1704882780743" onerror="this.src='/data/base/imgs/goods/no.gif'">
+                                    </div>
+                                </a>
+                            <!-- 성인인증이 필요한 상품 -->
+                            <!-- 성인인증이 불 필요한 상품 -->
+                            <div class="info_icon">
+                                    <ul class="icon_deat">
+                                        <li class="ic_dt m_plus"><button type="button" onclick="location.href='../goods/detail.do?gno=30398&cate=31'">상세보기</button></li>
+                                        <li class="ic_dt m_blank"><button type="button" onclick="window.open('../goods/detail.do?gno=30398&cate=31')">새창열기</button></li>
+                                        <li class="ic_dt m_cart  active"><button type="button" id="cartPop" href=".detail_info_prd" onclick="topperToDirectCart(30398, 31,this); return false;">장바구니담기</button></li>
+                                        <li class="ic_dt m_wish "><button type="button" onclick="addWish('ADD',30398, 31, this); return false;">찜하기</button></li>
+                                    </ul>
+                                </div>
+                            <a href="../goods/detail.do?gno=30398&cate=31" class="cont">
+                            <span class='icons'><img src='https://mall.ejeju.net/data/base/icon/sale_0.png' alt="" /><img src='https://mall.ejeju.net/data/base/icon/best_0.png' alt="" /></span><span class="pro_name">[청룡수산] 홀피쉬 옥돔알뜰1호 / 180g*6마리</span>
+                                <span class="pro_summary"></span>
+                            </a>
+
+                            <p class="price">
+                                            <b></b>
+                                                <del>89,000원</del>
+                                            ▶ <strong>66,900원</strong></p>
+                                        <p class="botton">
+                                <a id="cartPop" href=".detail_info_prd" class="btn st_small m_cart  active" onclick="topperToDirectCart(30398, 31,this); return false;""><i class="fa fa-cart-plus"></i>장바구니담기</a>
+                                <a class="btn bl_orange st_small  m_wish " href="" onclick="addWish('ADD',30398, 31, this); return false;"><i class="fa fa-heart"></i>찜하기</a>
+                            </p>
+                        </li>
+                    <li>
+                            <!-- 성인인증이 불 필요한 상품 -->
+                            <a href="../goods/detail.do?gno=30397&cate=31" class="thum" target="_self">
+                                    <div class="images soldout">
+                                        <img src="https://mall.ejeju.net/webUpload/20240110/1704882631804" onerror="this.src='/data/base/imgs/goods/no.gif'">
+                                    </div>
+                                </a>
+                            <!-- 성인인증이 필요한 상품 -->
+                            <!-- 성인인증이 불 필요한 상품 -->
+                            <div class="info_icon">
+                                    <ul class="icon_deat">
+                                        <li class="ic_dt m_plus"><button type="button" onclick="location.href='../goods/detail.do?gno=30397&cate=31'">상세보기</button></li>
+                                        <li class="ic_dt m_blank"><button type="button" onclick="window.open('../goods/detail.do?gno=30397&cate=31')">새창열기</button></li>
+                                        <li class="ic_dt m_cart  active"><button type="button" id="cartPop" href=".detail_info_prd" onclick="topperToDirectCart(30397, 31,this); return false;">장바구니담기</button></li>
+                                        <li class="ic_dt m_wish "><button type="button" onclick="addWish('ADD',30397, 31, this); return false;">찜하기</button></li>
+                                    </ul>
+                                </div>
+                            <a href="../goods/detail.do?gno=30397&cate=31" class="cont">
+                            <span class='icons'><img src='https://mall.ejeju.net/data/base/icon/sale_0.png' alt="" /><img src='https://mall.ejeju.net/data/base/icon/best_0.png' alt="" /></span><span class="pro_name">[청룡수산] 홀피쉬 옥돔으뜸2호 / 230g*8마리 </span>
+                                <span class="pro_summary"></span>
+                            </a>
+
+                            <p class="price">
+                                            <b></b>
+                                                
+                                            ▶ <strong>127,000원</strong></p>
+                                        <p class="botton">
+                                <a id="cartPop" href=".detail_info_prd" class="btn st_small m_cart  active" onclick="topperToDirectCart(30397, 31,this); return false;""><i class="fa fa-cart-plus"></i>장바구니담기</a>
+                                <a class="btn bl_orange st_small  m_wish " href="" onclick="addWish('ADD',30397, 31, this); return false;"><i class="fa fa-heart"></i>찜하기</a>
+                            </p>
+                        </li>
+                    <li>
+                            <!-- 성인인증이 불 필요한 상품 -->
+                            <a href="../goods/detail.do?gno=30396&cate=31" class="thum" target="_self">
+                                    <div class="images ">
+                                        <img src="https://mall.ejeju.net/webUpload/20240110/1704882267089" onerror="this.src='/data/base/imgs/goods/no.gif'">
+                                    </div>
+                                </a>
+                            <!-- 성인인증이 필요한 상품 -->
+                            <!-- 성인인증이 불 필요한 상품 -->
+                            <div class="info_icon">
+                                    <ul class="icon_deat">
+                                        <li class="ic_dt m_plus"><button type="button" onclick="location.href='../goods/detail.do?gno=30396&cate=31'">상세보기</button></li>
+                                        <li class="ic_dt m_blank"><button type="button" onclick="window.open('../goods/detail.do?gno=30396&cate=31')">새창열기</button></li>
+                                        <li class="ic_dt m_cart  active"><button type="button" id="cartPop" href=".detail_info_prd" onclick="topperToDirectCart(30396, 31,this); return false;">장바구니담기</button></li>
+                                        <li class="ic_dt m_wish "><button type="button" onclick="addWish('ADD',30396, 31, this); return false;">찜하기</button></li>
+                                    </ul>
+                                </div>
+                            <a href="../goods/detail.do?gno=30396&cate=31" class="cont">
+                            <span class='icons'><img src='https://mall.ejeju.net/data/base/icon/sale_0.png' alt="" /><img src='https://mall.ejeju.net/data/base/icon/best_0.png' alt="" /></span><span class="pro_name">[청룡수산] 홀피쉬 옥돔특1호 / 280g*3마리</span>
+                                <span class="pro_summary"></span>
+                            </a>
+
+                            <p class="price">
+                                            <b></b>
+                                                <del>98,000원</del>
+                                            ▶ <strong>72,900원</strong></p>
+                                        <p class="botton">
+                                <a id="cartPop" href=".detail_info_prd" class="btn st_small m_cart  active" onclick="topperToDirectCart(30396, 31,this); return false;""><i class="fa fa-cart-plus"></i>장바구니담기</a>
+                                <a class="btn bl_orange st_small  m_wish " href="" onclick="addWish('ADD',30396, 31, this); return false;"><i class="fa fa-heart"></i>찜하기</a>
+                            </p>
+                        </li>
+                    </ul>
+    </section>
+    <div class="pagination">
+<strong>1</strong></div>
+</form></div>
+    </div>
+    <script type="text/javascript">
+</script>
+<!-- 상품선택 모달팝업 -->
+<div class="pop_modal detail_search">
+    <div class="pop_area">
+        <h4 class="title">상품선택</h4>
+        <div class="size_collection">
+            <div class="mt15">
+                <table class="bd_tbl02 moble" cellspacing="0">
+                    <colgroup>
+                        <col>
+                        <col style="width:25%">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th>상품/옵션 정보</th>
+                        <th>수량</th>
+                    </tr>
+                    </thead>
+                    <tbody id="popTbody">
+                    </tbody>
+                </table>
+                <p>※ 선택된 상품의 배송 정책에 따라 배송지별로 배송비가 부과됩니다.</p>
+            </div>
+
+            <div class="bd_btn_area center">
+                <a href="#" class="btn" onclick="hideLayer(this);return false">취소</a>
+                <a href="#" class="btn bg_gray_dark" onclick="fn_appendDeliveryEa(this);return false">확인</a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="pop_close">팝업 닫기</a>
+</div>
+
+<!-- 찜 모달팝업 -->
+            <div class="pop_modal favorite_add_info">
+                <div class="pop_alt_area">
+                    <h4 class="title">괌심상품에 담겼습니다.</h4>
+                    <div class="size_collection">
+                        <div class="txt_area02">
+                            관심상품으로 이동하시겠습니까?
+                        </div>
+                        <div class="bd_btn_area center">
+                            <a href="/mypage/wish.do" class="btn bg_gray_dark">확인</a>
+                            <a href="#" onclick="extendHideLayer('pop_favorite_add_info');return false;" class="btn bl_gray">창닫기</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="pop_close" onclick="extendHideLayer('pop_favorite_add_info');return false;">팝업 닫기</a>
+            </div>
+            <!-- // 찜 모달팝업 -->
+
+<!-- pop_modal  -->
+            <!-- 장바구니 모달팝업 -->
+            <div class="pop_modal detail_info_prd">
+                <div class="pop_alt_area">
+                    <h4 class="title">장바구니 수정</h4>
+                    <div class="size_collection">
+                        <div class="">
+                            <table class="bd_tbl01">
+                                <caption>상품</caption>
+                                <colgroup>
+                                    <col width="80"/>
+                                    <col width="*"/>
+                                    <col width="100"/>
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <td class="productimg">
+                                            <a href="" target="_blank">
+                                                <img src="https://mall.ejeju.net/data/base/goods/small/banner01_16.jpg" onerror="this.src='../images/common/noimg_.gif'" alt="">
+                                            </a>
+                                        </td>
+                                        <td class="product">
+                                            <a href="" target="_blank">
+                                                <strong>하우스 재배) 제주초당옥수수</strong>
+                                            </a>
+                                        </td>
+                                        <td><strong class="x_price">1,500원</strong></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="bd_tbl01">
+                                <caption>옵션 수정</caption>
+                                <colgroup>
+                                    <col width="120"/>
+                                    <col width="*"/>
+                                </colgroup>
+                                <tbody id="goodsCartInfo">
+                                    <tr>
+                                        <th scope="row">수량</th>
+                                        <td>
+                                            <div class="change_btn">
+                                                <span class="count">
+                                                    <span class="buy_quantity">
+                                                        <button type="button" class="down" title="감소" value="" ><i class="fa fa-minus"></i>감소</button>
+                                                        <input type="text" name="" class="text fc2" title="수량" value="1" >
+                                                        <button type="button" class="up" title="증가" value="" ><i class="fa fa-plus"></i>증가</button>
+                                                    </span>
+                                                </span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- 옵션 항목 -->
+                                    <!-- 일반/재고가격 옵션 -->
+                                    <tr style="display:none;">
+                                        <th scope="row">옵션</th>
+                                        <td>
+                                            <select name="">
+                                                <option value="">선택하세요</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="bd_btn_area center">
+                            <a href="" class="btn bg_gray_dark">확인</a>
+                            <a href="#" class="btn">창닫기</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="pop_close">팝업 닫기</a>
+            </div>
+            <!-- //장바구니 모달팝업 -->
+            <!-- 바로구매 모달팝업 -->
+            <div class="pop_modal direct_order_info_prd">
+                <div class="pop_alt_area">
+                    <h4 class="title">바로구매</h4>
+                    <div class="size_collection">
+                        <div class="">
+                            <table class="bd_tbl01">
+                                <caption>상품</caption>
+                                <colgroup>
+                                    <col width="80"/>
+                                    <col width="*"/>
+                                    <col width="100"/>
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <td class="productimg">
+                                            <a href="" target="_blank">
+                                                <img src="https://mall.ejeju.net/data/base/goods/small/banner01_16.jpg" onerror="this.src='../images/common/noimg_.gif'" alt="">
+                                            </a>
+                                        </td>
+                                        <td class="product">
+                                            <a href="" target="_blank">
+                                                <strong>하우스 재배) 제주초당옥수수</strong>
+                                            </a>
+                                        </td>
+                                        <td><strong class="x_price">1,500원</strong></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="bd_tbl01">
+                                <caption>옵션 수정</caption>
+                                <colgroup>
+                                    <col width="120"/>
+                                    <col width="*"/>
+                                </colgroup>
+                                <tbody id="goodsCartInfo">
+                                    <tr>
+                                        <th scope="row">수량</th>
+                                        <td>
+                                            <div class="change_btn">
+                                                <span class="count">
+                                                    <span class="buy_quantity">
+                                                        <button type="button" class="down" title="감소" value="" ><i class="fa fa-minus"></i>감소</button>
+                                                        <input type="text" name="" class="text fc2" title="수량" value="1" >
+                                                        <button type="button" class="up" title="증가" value="" ><i class="fa fa-plus"></i>증가</button>
+                                                    </span>
+                                                </span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- 옵션 항목 -->
+                                    <!-- 일반/재고가격 옵션 -->
+                                    <tr style="display:none;">
+                                        <th scope="row">옵션</th>
+                                        <td>
+                                            <select name="">
+                                                <option value="">선택하세요</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="bd_btn_area center">
+                            <a href="" class="btn bg_gray_dark">확인</a>
+                            <a href="#" class="btn">창닫기</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="pop_close">팝업 닫기</a>
+            </div>
+            <!-- //바로구매 모달팝업 -->
+            <!-- 환불계좌관리 모달팝업 -->
+            <div class="pop_modal detail_view_table">
+
+            <div class="pop_area">
+                    <h4>환불계좌관리</h4>
+                    <div class="size_collection">
+                        <div class="">
+                        <table class="order_hor">
+                            <caption>계좌정보</caption>
+                            <colgroup>
+                                <col width="120">
+                            </colgroup>
+                            <tbody>
+                                <tr class="form">
+                                    <th scope="row">계좌명</th>
+                                    <td>
+                                        <input type="text" size="40" maxlength="50" class="txt w60">
+                                        <input type="checkbox" id="is_default" name="" value="T" checked="">
+                                        <label for="is_default">기본 계좌로 설정</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">은행</th>
+                                    <td>
+                                        <div class="selec_area"><span class="select_btn">선택</span><select id="bankCode" name="bankCode"><option value="">선택</option><option value="02">산업은행</option></select></div></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">계좌번호</th>
+                                    <td>
+                                        <input type="text" id="account" name="account" value="" size="40" maxlength="100" class="txt">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">예금주</th>
+                                    <td>
+                                        <input type="text" size="40" maxlength="100" class="txt" readonly="readonly">
+                                        <p class="list_type01 mt5">예금주 명은 동일해야 하므로 입력 및 수정할 수 없습니다.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                        <div class="bd_btn_area center m_btn">
+                            <button type="submit" class="btn">등록</button>
+                            <button type="button" class="btn bl_gray">창닫기</button>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="pop_close">팝업 닫기</a>
+            </div>
+            <!-- //환불계좌관리 모달팝업 -->
+            <!-- 쿠폰적용 모달팝업 -->
+            <div class="pop_modal coupon_layer">
+                <div class="pop_area">
+                    <h4 class="title">쿠폰 조회 및 적용</h4>
+                    <div class="size_collection">
+                        <div class="scroll_box" >
+                            <div class="mt15">
+                                <table class="bd_tbl02 moble" cellspacing="0">
+                                    <colgroup>
+                                        <col width="*"/>
+                                        <col width="50"/>
+                                        <col width="80"/>
+                                        <col width="160"/>
+                                        <col width="120"/>
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">상품명</th>
+                                            <th scope="col">수량</th>
+                                            <th scope="col">상품금액</th>
+                                            <th scope="col">쿠폰선택</th>
+                                            <th scope="col">쿠폰적용</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><span class="h4_tit">하우스 재배) 제주초당옥수수</span></td>
+                                            <td><p class="tit">수량</p>2</td>
+                                            <td><p class="tit">상품금액</p><span class="x_price">53,800</span></td>
+                                            <td><p class="tit">쿠폰선택</p><select name="" disabled="disabled"><option value="">적용 쿠폰 없음</option></select></td>
+                                            <td style="text-align:right;"><p class="tit">쿠폰적용</p></td>
+                                        </tr>
+                                        <tr class="total_price">
+                                            <td colspan="5">
+                                                <div class="center">
+                                                    <span>총 할인금액</span><strong class="x_price">0원</strong> /
+                                                    <span>총 쿠폰적용금액</span><strong class="x_price">0원</strong>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="mt15">
+                            <h5>주문쿠폰</h5>
+                                <table class="bd_tbl02">
+                                    <colgroup>
+                                        <col width="*"/>
+                                        <col width="30%"/>
+                                        <col width="*"/>
+                                        <col  class="m_none"/>
+                                    </colgroup>
+                                    <thead>
+                                    <tr>
+                                        <th>&nbsp;</th>
+                                        <th>쿠폰</th>
+                                        <th>사용조건</th>
+                                        <th class="m_none">사용기한</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>
+                                            <span class="form_element">
+                                                <input type="checkbox" id="check" name="">
+                                                <label class="check_dis_s" for="check"></label>
+                                            </span>
+                                        </td>
+                                        <td class="td_left">
+                                            <label for="check">
+                                                <strong class="coupon_price">
+                                                    <b>2,440원</b>
+                                                    상품할인
+                                                </strong>
+                                            </label>
+                                        </td>
+                                        <td class="td_left">
+                                            <span class="text_info">- 최대 할인액 :  10,000 원 (중복 사용불가)</span>
+                                            <span class="text_info">- 구매금액이  30,000 원 이상 결제시 사용가능</span>
+                                        </td>
+                                        <td class="m_none"><span>2021-06-06</span></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="mt15">
+                            <h5 class="mt10">배송비쿠폰</h5>
+                                <table class="bd_tbl02">
+                                    <colgroup>
+                                        <col width="*"/>
+                                        <col width="*"/>
+                                        <col width="*"/>
+                                        <col width="*"/>
+                                    </colgroup>
+                                    <thead>
+                                    <tr>
+                                        <th>&nbsp;</th>
+                                        <th>쿠폰</th>
+                                        <th>사용조건</th>
+                                        <th>사용기한</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="4"><p class="no_data">쿠폰이 없습니다.</p></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <h5 class="mt10">쿠폰내역</h5>
+                            <ul class="list_type02 ">
+                                <li>고객님이 보유하신 쿠폰을 선택하시면 <span class="cl_blue">할인금액</span>이 계산되어 나타납니다.</li>
+                                <li>[<span class="cl_blue">쿠폰적용</span>] 버튼을 클릭하시면, 쿠폰결제 적용이 완료됩니다.</li>
+                                <li>중복된 쿠폰은 사용할 수 없습니다.</li>
+                            </ul>
+                            <h5>쿠폰사용시 유의사항</h5>
+                            <ul class="list_type02 ">
+                                <li>각 쿠폰은 사용 제한 금액 및 사용 기간이 있으니 사용전 확인해 주세요.</li>
+                                <li>쿠폰은 쿠폰당 한 상품에 한해서만 사용하실 수 있습니다.</li>
+                                <li>쿠폰 금액이 판매가를 초과할 경우,쿠폰이 적용 되지 않습니다.</li>
+                                <li>쿠폰의 사용기간내에 꼭 사용해주시기 바랍니다.</li>
+                                <li>주문이 완료된 이후에는 쿠폰을 사용할 수 없습니다.</li>
+                                <li>일부 품목 및 카테고리에서는 사용하실 수 없습니다.</li>
+                                <li>쿠폰 사용시, 적립금은 주문금액이 아닌 최종 결제 금액을 기준으로 적립해 드립니다.</li>
+                                <li>주문 후 취소, 반품, 환불의 경우 한번 사용하신 쿠폰은 다시 사용하실 수 없습니다.</li>
+                                <li>쿠폰리스트에는 다운 받은 쿠폰만 나타납니다.<br>&nbsp;&nbsp;&nbsp;(회원가입, 신규구입쿠폰, 특정회원에게 직접 서비스하는 쿠폰 제외)</li>
+                            </ul>
+
+                        </div>
+                        <div class="bd_btn_area center">
+                            <a href="#" class="btn">취소</a>
+                            <a href="" class="btn bg_gray_dark">쿠폰적용</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="pop_close">팝업 닫기</a>
+            </div>
+            <!-- //쿠폰적용 모달팝업 -->
+            <!-- 최근배송지 모달팝업 -->
+            <div class="pop_modal last_delivery_info_prd">
+                <div class="pop_alt_area">
+                    <h4 class="title">최근배송지</h4>
+                    <div class="size_collection">
+                        <div class="address_list">
+                            <ul>
+                                <li>
+                                    <input type="radio" >
+                                    <label>
+                                        최민영<br>
+                                        010-4444-2222 | 010-3333-3333<br>
+                                        대전 동구 신기로 100 </label>
+                                </li>
+                                <li>
+                                    <input type="radio" >
+                                    <label>
+                                        최민영<br>
+                                        010-4444-2222 | 010-3333-3333<br>
+                                        대전 동구 신기로 100 </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bd_btn_area center">
+                            <a href="" class="btn bg_gray_dark">확인</a>
+                            <a href="#" class="btn">창닫기</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="pop_close">팝업 닫기</a>
+            </div>
+            <!-- //최근배송지 모달팝업 -->
+            <!-- 주소록 모달팝업 -->
+            <div class="pop_modal delivery_list_view">
+                <div class="pop_alt_area">
+                    <h4 class="title">주소록</h4>
+                    <div class="size_collection">
+                        <div class="address_list">
+                            <ul>
+                                <li>
+                                    <input type="radio" >
+                                    <label >
+                                        최민영<br>
+                                        010-4444-2222 | 010-3333-3333<br>
+                                        대전 동구 신기로 100 </label>
+                                </li>
+                                <li>
+                                    <input type="radio"  name="address">
+                                    <label >
+                                        최민영<br>
+                                        010-4444-2222 | 010-3333-3333<br>
+                                        대전 동구 신기로 100 </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bd_btn_area center">
+                            <a href="" class="btn bg_gray_dark">확인</a>
+                            <a href="#" class="btn">창닫기</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="pop_close">팝업 닫기</a>
+            </div>
+            <!-- pop_modal  -->
+            <!-- 배송지관리 모달팝업 -->
+            <div class="pop_modal detail_view_table_delivery">
+                <div class="pop_area">
+                    <h4>배송지관리</h4>
+                    <div class="size_collection">
+                        <div class="">
+                        <table class="order_hor">
+                            <caption>배송지정보</caption>
+                            <colgroup>
+                                <col style="min-width:80px;">
+                            </colgroup>
+                            <tbody>
+                                <tr class="form">
+                                    <th scope="row">주소명</th>
+                                    <td>
+                                        <input type="text" size="30" maxlength="50" class="txt w40">
+                                        <input type="checkbox" id="is_default" name="isDefault" value="T" checked="">
+                                        <label for="is_default">기본 주소로 설정</label>
+                                    </td>
+                                </tr>
+                                <tr class="form">
+                                    <th scope="row">전화번호</th>
+                                    <td>
+                                        <div class="group_tel">
+                                            <input type="text" size="11" class="txt" name="ordTel1" value="" maxlength="3" style="color: rgb(163, 163, 163);">
+                                            <span>-</span>
+                                            <input type="text" size="11" class="txt" name="ordTel2" value="" maxlength="4">
+                                            <span>-</span>
+                                            <input type="text" size="11" class="txt" name="ordTel3" value="" maxlength="4">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="form">
+                                    <th scope="row">휴대폰번호</th>
+                                    <td>
+                                        <div class="group_tel">
+                                            <input type="text" size="11" class="txt" name="ordTel1" value="" maxlength="3" style="color: rgb(163, 163, 163);">
+                                            <span>-</span>
+                                            <input type="text" size="11" class="txt" name="ordTel2" value="" maxlength="4">
+                                            <span>-</span>
+                                            <input type="text" size="11" class="txt" name="ordTel3" value="" maxlength="4">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="form">
+                                    <th scope="row">주소</th>
+                                    <td>
+                                        <div class="group_arr">
+                                            <div class="zipcodeTxt">
+                                                <input type="text" class=" w60"  readonly="readonly">
+                                                <button type="button" class="btn st_small" onclick="">우편번호찾기</button>
+                                            </div>
+                                            <div class="addrTxt">
+                                                <input type="text" class="txt"  maxlength="100" readonly="readonly">
+                                                <input type="text" class="txt"  maxlength="100">
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                        <div class="bd_btn_area center m_btn">
+                            <button type="submit" class="btn">등록</button>
+                            <button type="button" class="btn bl_gray">창닫기</button>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="pop_close">팝업 닫기</a>
+            </div>
+            <!-- //배송지관리 모달팝업 -->
+
+<!-- pop_modal  -->
+            <!-- 적립금 모달팝업 -->
+            <div class="pop_modal detail_view">
+                <div class="pop_area">
+                    <h4>적립금 확정방법</h4>
+                    <div class="txt_area">
+                        <p class="how_to_point" >
+                        적립금은 주문상품을 받으신 후 <br>마이쇼핑에서 해당상품의 구매확정을 해주신 분께 적립됩니다. <br>배송완료메일에서도  구매확정을 할 수 있습니다.
+                        </p>
+                    </div>
+                </div>
+                <a href="#" class="pop_close">팝업 닫기</a>
+            </div>
+            <!-- //적립금 모달팝업 -->
+
+            <!-- 주문취소 교환 환불안내 모달팝업 -->
+            <div class="pop_modal refund_view" >
+                <div class="pop_area">
+                    <h4 class="title">주문취소 / 교환 &amp; 환불 안내</h4>
+                    <div class="size_collection">
+                        <div class="claim_info">
+                            <h5>주문취소</h5>
+                            <ul class="list_type01">
+                                <li>주문 상품 전체 취소는 <span class="x_highlight">"입금대기중/결제완료"</span> 단계에서만 가능합니다.</li>
+                                <li>부분취소의 경우 상품별 진행현황이 "입금대기중/결제완료" 단계에서만 가능하며 무통장 및 가상계좌 결제의 경우 주문일 기준으로 다음날까지(영업일기준) 결제가 완료되지 않을 경우 주문은 자동으로 취소됩니다.</li>
+                            </ul>
+                            <h5 class="mgt20">교환 / 환불</h5>
+                            <ul class="list_type01">
+                                <li>주문 상품이 배송완료 된 후 <span class="x_highlight">"마이페이지&gt;취소/반품/교환신청"</span>메뉴에서 반품/교환신청이 가능합니다.</li>
+                                <li>단순변심에 따른 반품/교환의 경우 왕복 배송비가 부과되며 배송료는 고객 부담입니다.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="pop_close">팝업 닫기</a>
+            </div>
+            <!-- //적립금 모달팝업 -->
+
+            <!-- 상품정보제공고시 모달팝업 -->
+            <div class="pop_modal detail_goods_notify_info_view_table">
+                <div class="pop_area">
+                    <h4>상품정보제공고시</h4>
+                    <div class="size_collection">
+                        <div class="">
+                        <table class="bd_tbl" cellspacing="0">
+                            <caption>상품정보고시입니다.</caption>
+                            <colgroup>
+                                <col width="20%"/>
+                                <col width=""/>
+                            </colgroup>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                    </div>
+                </div>
+                <a href="#" class="pop_close" onclick="('detail_goods_notify_info_view_table');return false;">팝업 닫기</a>
+            </div>
+            <!-- //상품정보제공고시 모달팝업 -->
+
+
+            <!-- 베스트포토 모달팝업 -->
+            <div class="pop_modal photo_review_layer">
+                <div class="pop_area">
+                    <h4 class="title">베스트 포토리뷰 보기</h4>
+                    <div class="txt_area">
+                        <dl>
+                            <dt>
+                                <div class="">
+                                    <img src="https://mall.ejeju.net/data/base/review/%EC%B4%88%EB%8B%B9%EC%98%A5%EC%88%98%EC%88%98.jpg" width="100%" height="100%" class="" style="width:600px;">
+                                </div>
+                                <button type="button" class="left_arrow">이전</button>
+                                <button type="button" class="right_arrow">다음</button>
+                            </dt>
+                            <dd>
+                                <p class=""><span class="fl">홍경*</span><span class="fr">2021-05-09</span></p>
+                                <p class="star_list star5">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </p>
+                                <p class="photo_reivew_text">떡볶이 가성비 최강 갑갑갑</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <a href="#" class="pop_close">팝업 닫기</a>
+            </div>
+
+            <div class="pop_modal_bg"></div>
+            <!-- //pop_modal  -->
+<!-- 팝업끝 -->
+</div>
+
+</div>
+
+<!-- S:footer -->
+<footer id="wrap_footer">
+        <div id="footer">
+            <ul>
+				<li>
+							<a href="https://mall.ejeju.net/etc/ejejuView.do" target="_self">
+								이제주소개</a>
+						</li>
+					<li>
+							<a href="https://mall.ejeju.net/etc/privacy.do" target="_self">
+								개인정보보호정책</a>
+						</li>
+					<li>
+							<a href="https://mall.ejeju.net/etc/licensing.do" target="_self">
+								이용약관</a>
+						</li>
+					<li>
+							<a href="https://mall.ejeju.net/index.do" target="_self">
+								이메일무단수집거부</a>
+						</li>
+					</ul>
+			<address>
+			    <p>재단법인&nbsp;제주특별자치도 경제통상진흥원&nbsp;/&nbsp;63217&nbsp;제주특별자치도 제주시 연삼로 473 (이도이동)&nbsp;1층</p>
+			    <p></p>
+				<p>대표자&nbsp;:&nbsp;오재윤&nbsp;개인정보관리책임자&nbsp;:&nbsp;&nbsp;사업자등록번호&nbsp;:&nbsp;616-82-10556&nbsp;<a href="" target="_blank" title="새창열림">사업자정보</a></p>
+				<p>통신판매업신고번호&nbsp;:&nbsp;2003-제주이도 2-31&nbsp;고객센터&nbsp;:&nbsp;080-851-3320</p>
+			    <p>이메일 주소 무단수집을 거부합니다.</p>
+			</address>
+			
+			<ul class="footer-banner"></ul></div>
+    </footer>
+    <!-- E:footer -->
+<script>
+
+	$(document).ready(function(){
+
+		$(document).bind("contextmenu", function(e) {
+
+			return false;
+
+		});
+
+	});
+
+	$(document)[0].oncontextmenu = function() { return false; }
+
+	$(document).mousedown(function(e) {
+
+		if( e.button == 2 ) {
+
+			return false;
+
+		} else {
+
+			return true;
+
+		}
+
+	});
+
+</script>
+
+<!-- 공통 적용 스크립트 , 모든 페이지에 노출되도록 설치. 단 전환페이지 설정값보다 항상 하단에 위치해야함 --> 
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"> </script> 
+<script type="text/javascript"> 
+	if (!wcs_add) var wcs_add={};
+	wcs_add["wa"] = "s_2bca61199cd3";
+	if (!_nasa) var _nasa={};
+	wcs.inflow();
+	wcs_do(_nasa);
+
+	function fn_wcs (type, typeValue) {
+        // Account ID 적용
+        if(!wcs_add) var wcs_add = {};
+        wcs_add["wa"] = "s_2bca61199cd3";
+
+		// 추가 정보로 넣을 객체 생성
+        var _nao={};
+        _nao["cnv"] = wcs.cnv(type, typeValue);
+        wcs_do(_nao);
+	}
+
+</script>
+
+<!-- Mobon Tracker v3.1 [공용] start -->
+<script type="text/javascript">
+<!--
+	function mobRf(){
+  		var rf = new EN();
+		rf.setSSL(true);
+  		rf.sendRf();
+	}
+-->
+</script>
+<script src="https://cdn.megadata.co.kr/js/enliple_min2.js" defer="defer" onload="mobRf()"></script>
+
+<!-- Mobon Tracker v3.1 [공용] end -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7Y5QM12KGY"></script>
+
+<!-- google analytics -->
+<script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-7Y5QM12KGY');
+</script>
+
+</body>
+</html>

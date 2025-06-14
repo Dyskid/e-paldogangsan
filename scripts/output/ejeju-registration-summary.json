@@ -1,0 +1,20 @@
+{
+  "registrationDate": "2025-06-13T15:28:46.133Z",
+  "mallName": "이제주몰",
+  "mallUrl": "https://mall.ejeju.net",
+  "totalProductsRegistered": 258,
+  "totalProductsInDatabase": 1702,
+  "categoriesBreakdown": {
+    "food": 70,
+    "health": 5,
+    "etc": 121,
+    "crafts": 10,
+    "beauty": 52
+  },
+  "brandsFound": 76,
+  "priceRange": {
+    "min": 0,
+    "max": 195000,
+    "average": 28164
+  }
+}

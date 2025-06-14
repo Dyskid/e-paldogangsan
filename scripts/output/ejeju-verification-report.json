@@ -1,0 +1,56 @@
+{
+  "verificationDate": "2025-06-13T15:58:59.589Z",
+  "totalProducts": 1702,
+  "ejejuProducts": 258,
+  "dataQuality": {
+    "missingImages": 0,
+    "missingPrices": 1,
+    "missingUrls": 0,
+    "invalidUrls": 0,
+    "invalidUrlFormat": 0
+  },
+  "categoryDistribution": {
+    "beauty": 52,
+    "etc": 121,
+    "food": 70,
+    "crafts": 10,
+    "health": 5
+  },
+  "priceAnalysis": {
+    "average": 28274,
+    "min": 2900,
+    "max": 195000
+  },
+  "sampleProducts": [
+    {
+      "id": "ejeju_9840",
+      "name": "[R2N스킨] 옴므 어드밴스 올인원 에센스(남성피부관리)",
+      "price": 45000,
+      "url": "https://mall.ejeju.net/goods/goods/detail.do?gno=9840&cate=31066"
+    },
+    {
+      "id": "ejeju_9839",
+      "name": "[R2N스킨] 제주 마유 슈퍼리치 크림(도지사 인증)",
+      "price": 65000,
+      "url": "https://mall.ejeju.net/goods/goods/detail.do?gno=9839&cate=31066"
+    },
+    {
+      "id": "ejeju_30503",
+      "name": "[경성미가] 입안에 행복 경기미 10kg",
+      "price": 32900,
+      "url": "https://mall.ejeju.net/goods/goods/detail.do?gno=30503&cate=31155"
+    },
+    {
+      "id": "ejeju_30456",
+      "name": "[경성미가] 新여주 자채쌀(진상) 10kg",
+      "price": 45900,
+      "url": "https://mall.ejeju.net/goods/goods/detail.do?gno=30456&cate=31155"
+    },
+    {
+      "id": "ejeju_30454",
+      "name": "[경성미가] 新여주 자채쌀(진상) 2kg",
+      "price": 13900,
+      "url": "https://mall.ejeju.net/goods/goods/detail.do?gno=30454&cate=31155"
+    }
+  ]
+}

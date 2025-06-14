@@ -1,0 +1,821 @@
+Shopping Mall Data Scraping Checklists
+서울특별시
+온서울마켓 (https://on.seoul.go.kr)
+ Analyze 온서울마켓 website structure and identify product listing pages
+ Create a scraper for 온서울마켓 to extract product data
+ Extract all product URLs from 온서울마켓
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+부산광역시
+부산브랜드몰 (https://busanbrand.kr)
+ Analyze 부산브랜드몰 website structure and identify product listing pages
+ Create a scraper for 부산브랜드몰 to extract product data
+ Extract all product URLs from 부산브랜드몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+대구광역시
+우리몰 (https://wemall.kr)
+ Analyze 우리몰 website structure and identify product listing pages
+ Create a scraper for 우리몰 to extract product data
+ Extract all product URLs from 우리몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+참달성 (https://chamds.com)
+ Analyze 참달성 website structure and identify product listing pages
+ Create a scraper for 참달성 to extract product data
+ Extract all product URLs from 참달성
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+인천광역시
+인천e몰 (https://www.incheone-mall.kr)
+ Analyze 인천e몰 website structure and identify product listing pages
+ Create a scraper for 인천e몰 to extract product data
+ Extract all product URLs from 인천e몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+광주광역시
+광주김치몰 (https://www.k-kimchi.kr/index.php)
+ Analyze 광주김치몰 website structure and identify product listing pages
+ Create a scraper for 광주김치몰 to extract product data
+ Extract all product URLs from 광주김치몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+대전광역시
+온통대전몰 대전사랑몰 (https://ontongdaejeon.ezwel.com/onnuri/main)
+ Analyze 온통대전몰 대전사랑몰 website structure and identify product listing pages
+ Create a scraper for 온통대전몰 대전사랑몰 to extract product data
+ Extract all product URLs from 온통대전몰 대전사랑몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+울산광역시
+울산몰 (https://www.ulsanmall.kr)
+ Analyze 울산몰 website structure and identify product listing pages
+ Create a scraper for 울산몰 to extract product data
+ Extract all product URLs from 울산몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+세종특별자치시
+세종로컬푸드 (https://www.sjlocal.or.kr/)
+ Analyze 세종로컬푸드 website structure and identify product listing pages
+ Create a scraper for 세종로컬푸드 to extract product data
+ Extract all product URLs from 세종로컬푸드
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+경기도
+착착착 (https://www.chack3.com/)
+ Analyze 착착착 website structure and identify product listing pages
+ Create a scraper for 착착착 to extract product data
+ Extract all product URLs from 착착착
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+오산함께장터 (http://www.osansemall.com/)
+ Analyze 오산함께장터 website structure and identify product listing pages
+ Create a scraper for 오산함께장터 to extract product data
+ Extract all product URLs from 오산함께장터
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+광명가치몰 (https://gmsocial.or.kr/mall/)
+ Analyze 광명가치몰 website structure and identify product listing pages
+ Create a scraper for 광명가치몰 to extract product data
+ Extract all product URLs from 광명가치몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+양주농부마켓 (https://market.yangju.go.kr/)
+ Analyze 양주농부마켓 website structure and identify product listing pages
+ Create a scraper for 양주농부마켓 to extract product data
+ Extract all product URLs from 양주농부마켓
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+마켓경기 (https://smartstore.naver.com/marketgyeonggi)
+ Analyze 마켓경기 website structure and identify product listing pages
+ Create a scraper for 마켓경기 to extract product data
+ Extract all product URLs from 마켓경기
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+강원도
+강원더몰 (https://gwdmall.kr/)
+ Analyze 강원더몰 website structure and identify product listing pages
+ Create a scraper for 강원더몰 to extract product data
+ Extract all product URLs from 강원더몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+원주몰 (https://wonju-mall.co.kr/)
+ Analyze 원주몰 website structure and identify product listing pages
+ Create a scraper for 원주몰 to extract product data
+ Extract all product URLs from 원주몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+강릉몰 (https://gangneung-mall.com/)
+ Analyze 강릉몰 website structure and identify product listing pages
+ Create a scraper for 강릉몰 to extract product data
+ Extract all product URLs from 강릉몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+고성몰 (https://gwgoseong-mall.com/)
+ Analyze 고성몰 website structure and identify product listing pages
+ Create a scraper for 고성몰 to extract product data
+ Extract all product URLs from 고성몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+동해몰 (https://donghae-mall.com/)
+ Analyze 동해몰 website structure and identify product listing pages
+ Create a scraper for 동해몰 to extract product data
+ Extract all product URLs from 동해몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+삼척몰 (https://samcheok-mall.com/)
+ Analyze 삼척몰 website structure and identify product listing pages
+ Create a scraper for 삼척몰 to extract product data
+ Extract all product URLs from 삼척몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+양구몰 (https://yanggu-mall.com/)
+ Analyze 양구몰 website structure and identify product listing pages
+ Create a scraper for 양구몰 to extract product data
+ Extract all product URLs from 양구몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+양양몰 (https://yangyang-mall.com/)
+ Analyze 양양몰 website structure and identify product listing pages
+ Create a scraper for 양양몰 to extract product data
+ Extract all product URLs from 양양몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+영월몰 (https://yeongwol-mall.com/)
+ Analyze 영월몰 website structure and identify product listing pages
+ Create a scraper for 영월몰 to extract product data
+ Extract all product URLs from 영월몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+인제몰 (https://inje-mall.com/)
+ Analyze 인제몰 website structure and identify product listing pages
+ Create a scraper for 인제몰 to extract product data
+ Extract all product URLs from 인제몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+철원몰 (https://cheorwon-mall.com/)
+ Analyze 철원몰 website structure and identify product listing pages
+ Create a scraper for 철원몰 to extract product data
+ Extract all product URLs from 철원몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+정선몰 (https://jeongseon-mall.com/)
+ Analyze 정선몰 website structure and identify product listing pages
+ Create a scraper for 정선몰 to extract product data
+ Extract all product URLs from 정선몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+태백몰 (https://taebaek-mall.com/)
+ Analyze 태백몰 website structure and identify product listing pages
+ Create a scraper for 태백몰 to extract product data
+ Extract all product URLs from 태백몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+횡성몰 (https://hoengseong-mall.com/)
+ Analyze 횡성몰 website structure and identify product listing pages
+ Create a scraper for 횡성몰 to extract product data
+ Extract all product URLs from 횡성몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+춘천몰 (https://gwch-mall.com/)
+ Analyze 춘천몰 website structure and identify product listing pages
+ Create a scraper for 춘천몰 to extract product data
+ Extract all product URLs from 춘천몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+홍천몰 (https://hongcheon-mall.com/)
+ Analyze 홍천몰 website structure and identify product listing pages
+ Create a scraper for 홍천몰 to extract product data
+ Extract all product URLs from 홍천몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+평창몰 (https://gwpc-mall.com/)
+ Analyze 평창몰 website structure and identify product listing pages
+ Create a scraper for 평창몰 to extract product data
+ Extract all product URLs from 평창몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+충청북도
+제천로컬푸드 (https://www.jclocal.co.kr/index.local)
+ Analyze 제천로컬푸드 website structure and identify product listing pages
+ Create a scraper for 제천로컬푸드 to extract product data
+ Extract all product URLs from 제천로컬푸드
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+음성장터 (https://www.esjang.go.kr/)
+ Analyze 음성장터 website structure and identify product listing pages
+ Create a scraper for 음성장터 to extract product data
+ Extract all product URLs from 음성장터
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+진천몰 (https://jcmall.net/)
+ Analyze 진천몰 website structure and identify product listing pages
+ Create a scraper for 진천몰 to extract product data
+ Extract all product URLs from 진천몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+괴산장터 (https://www.gsjangter.go.kr/)
+ Analyze 괴산장터 website structure and identify product listing pages
+ Create a scraper for 괴산장터 to extract product data
+ Extract all product URLs from 괴산장터
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+충청남도
+농사랑 (https://nongsarang.co.kr/)
+ Analyze 농사랑 website structure and identify product listing pages
+ Create a scraper for 농사랑 to extract product data
+ Extract all product URLs from 농사랑
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+당진팜 (https://dangjinfarm.com/)
+ Analyze 당진팜 website structure and identify product listing pages
+ Create a scraper for 당진팜 to extract product data
+ Extract all product URLs from 당진팜
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+e홍성장터 (https://ehongseong.com/)
+ Analyze e홍성장터 website structure and identify product listing pages
+ Create a scraper for e홍성장터 to extract product data
+ Extract all product URLs from e홍성장터
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+서산뜨레 (https://seosanttre.com/index.html)
+ Analyze 서산뜨레 website structure and identify product listing pages
+ Create a scraper for 서산뜨레 to extract product data
+ Extract all product URLs from 서산뜨레
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+전라북도
+부안 텃밭할매 (https://www.xn--9z2bv5bx25anyd.kr/)
+ Analyze 부안 텃밭할매 website structure and identify product listing pages
+ Create a scraper for 부안 텃밭할매 to extract product data
+ Extract all product URLs from 부안 텃밭할매
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+단풍미인 (https://www.danpoongmall.kr/)
+ Analyze 단풍미인 website structure and identify product listing pages
+ Create a scraper for 단풍미인 to extract product data
+ Extract all product URLs from 단풍미인
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+지평선몰 (https://www.jpsmall.com)
+ Analyze 지평선몰 website structure and identify product listing pages
+ Create a scraper for 지평선몰 to extract product data
+ Extract all product URLs from 지평선몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+전북생생장터 (https://freshjb.com/)
+ Analyze 전북생생장터 website structure and identify product listing pages
+ Create a scraper for 전북생생장터 to extract product data
+ Extract all product URLs from 전북생생장터
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+익산몰 (https://iksanmall.com/)
+ Analyze 익산몰 website structure and identify product listing pages
+ Create a scraper for 익산몰 to extract product data
+ Extract all product URLs from 익산몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+진안고원몰 (https://xn--299az5xoii3qb66f.com/)
+ Analyze 진안고원몰 website structure and identify product listing pages
+ Create a scraper for 진안고원몰 to extract product data
+ Extract all product URLs from 진안고원몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+장수몰 (https://www.장수몰.com/)
+ Analyze 장수몰 website structure and identify product listing pages
+ Create a scraper for 장수몰 to extract product data
+ Extract all product URLs from 장수몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+고창마켓 (https://noblegochang.com/)
+ Analyze 고창마켓 website structure and identify product listing pages
+ Create a scraper for 고창마켓 to extract product data
+ Extract all product URLs from 고창마켓
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+임실몰 (https://www.imsilin.kr/home)
+ Analyze 임실몰 website structure and identify product listing pages
+ Create a scraper for 임실몰 to extract product data
+ Extract all product URLs from 임실몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+순창로컬푸드쇼핑몰 (https://smartstore.naver.com/schfarm)
+ Analyze 순창로컬푸드쇼핑몰 website structure and identify product listing pages
+ Create a scraper for 순창로컬푸드쇼핑몰 to extract product data
+ Extract all product URLs from 순창로컬푸드쇼핑몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+해가람 (https://haegaram.com)
+ Analyze 해가람 website structure and identify product listing pages
+ Create a scraper for 해가람 to extract product data
+ Extract all product URLs from 해가람
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+전라남도
+남도장터 (https://jnmall.kr/)
+ Analyze 남도장터 website structure and identify product listing pages
+ Create a scraper for 남도장터 to extract product data
+ Extract all product URLs from 남도장터
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+여수몰 (http://www.yeosumall.co.kr/)
+ Analyze 여수몰 website structure and identify product listing pages
+ Create a scraper for 여수몰 to extract product data
+ Extract all product URLs from 여수몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+해피굿팜 (https://smartstore.naver.com/hgoodfarm)
+ Analyze 해피굿팜 website structure and identify product listing pages
+ Create a scraper for 해피굿팜 to extract product data
+ Extract all product URLs from 해피굿팜
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+보성몰 (https://boseongmall.co.kr/)
+ Analyze 보성몰 website structure and identify product listing pages
+ Create a scraper for 보성몰 to extract product data
+ Extract all product URLs from 보성몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+나주몰 (https://najumall.kr/)
+ Analyze 나주몰 website structure and identify product listing pages
+ Create a scraper for 나주몰 to extract product data
+ Extract all product URLs from 나주몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+순천로컬푸드함께가게 (https://sclocal.kr/)
+ Analyze 순천로컬푸드함께가게 website structure and identify product listing pages
+ Create a scraper for 순천로컬푸드함께가게 to extract product data
+ Extract all product URLs from 순천로컬푸드함께가게
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+신안1004몰 (https://shinan1004mall.kr/)
+ Analyze 신안1004몰 website structure and identify product listing pages
+ Create a scraper for 신안1004몰 to extract product data
+ Extract all product URLs from 신안1004몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+장흥몰 (https://okjmall.com/)
+ Analyze 장흥몰 website structure and identify product listing pages
+ Create a scraper for 장흥몰 to extract product data
+ Extract all product URLs from 장흥몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+기찬들영암몰 (https://yeongammall.co.kr/)
+ Analyze 기찬들영암몰 website structure and identify product listing pages
+ Create a scraper for 기찬들영암몰 to extract product data
+ Extract all product URLs from 기찬들영암몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+진도아리랑몰 (https://jindoarirangmall.com/)
+ Analyze 진도아리랑몰 website structure and identify product listing pages
+ Create a scraper for 진도아리랑몰 to extract product data
+ Extract all product URLs from 진도아리랑몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+완도군이숍 (https://wandofood.go.kr/)
+ Analyze 완도군이숍 website structure and identify product listing pages
+ Create a scraper for 완도군이숍 to extract product data
+ Extract all product URLs from 완도군이숍
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+함평천지몰 (https://함평천지몰.kr/)
+ Analyze 함평천지몰 website structure and identify product listing pages
+ Create a scraper for 함평천지몰 to extract product data
+ Extract all product URLs from 함평천지몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+해남미소 (https://www.hnmiso.com/kwa-home)
+ Analyze 해남미소 website structure and identify product listing pages
+ Create a scraper for 해남미소 to extract product data
+ Extract all product URLs from 해남미소
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+담양장터 (https://damyangmk.kr/)
+ Analyze 담양장터 website structure and identify product listing pages
+ Create a scraper for 담양장터 to extract product data
+ Extract all product URLs from 담양장터
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+초록믿음 (https://greengj.com/)
+ Analyze 초록믿음 website structure and identify product listing pages
+ Create a scraper for 초록믿음 to extract product data
+ Extract all product URLs from 초록믿음
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+화순팜 (https://www.hwasunfarm.com/)
+ Analyze 화순팜 website structure and identify product listing pages
+ Create a scraper for 화순팜 to extract product data
+ Extract all product URLs from 화순팜
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+곡성몰 (https://gokseongmall.com/)
+ Analyze 곡성몰 website structure and identify product listing pages
+ Create a scraper for 곡성몰 to extract product data
+ Extract all product URLs from 곡성몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+경상북도
+사이소 (https://www.cyso.co.kr/)
+ Analyze 사이소 website structure and identify product listing pages
+ Create a scraper for 사이소 to extract product data
+ Extract all product URLs from 사이소
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+상주 명실상주몰 (https://sjmall.cyso.co.kr/)
+ Analyze 상주 명실상주몰 website structure and identify product listing pages
+ Create a scraper for 상주 명실상주몰 to extract product data
+ Extract all product URLs from 상주 명실상주몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+청도 청리브 (https://cdmall.cyso.co.kr)
+ Analyze 청도 청리브 website structure and identify product listing pages
+ Create a scraper for 청도 청리브 to extract product data
+ Extract all product URLs from 청도 청리브
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+영주장날 (https://yjmarket.cyso.co.kr/)
+ Analyze 영주장날 website structure and identify product listing pages
+ Create a scraper for 영주장날 to extract product data
+ Extract all product URLs from 영주장날
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+안동장터 (https://andongjang.andong.go.kr/)
+ Analyze 안동장터 website structure and identify product listing pages
+ Create a scraper for 안동장터 to extract product data
+ Extract all product URLs from 안동장터
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+청송몰 (https://csmall.cyso.co.kr/)
+ Analyze 청송몰 website structure and identify product listing pages
+ Create a scraper for 청송몰 to extract product data
+ Extract all product URLs from 청송몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+영양온심마켓 (https://onsim.cyso.co.kr/)
+ Analyze 영양온심마켓 website structure and identify product listing pages
+ Create a scraper for 영양온심마켓 to extract product data
+ Extract all product URLs from 영양온심마켓
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+울릉도 (https://ulmall.cyso.co.kr)
+ Analyze 울릉도 website structure and identify product listing pages
+ Create a scraper for 울릉도 to extract product data
+ Extract all product URLs from 울릉도
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+봉화장터 (https://bmall.cyso.co.kr/)
+ Analyze 봉화장터 website structure and identify product listing pages
+ Create a scraper for 봉화장터 to extract product data
+ Extract all product URLs from 봉화장터
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+고령몰 (https://grmall.cyso.co.kr/)
+ Analyze 고령몰 website structure and identify product listing pages
+ Create a scraper for 고령몰 to extract product data
+ Extract all product URLs from 고령몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+김천노다지장터 (https://www.gcnodaji.com/)
+ Analyze 김천노다지장터 website structure and identify product listing pages
+ Create a scraper for 김천노다지장터 to extract product data
+ Extract all product URLs from 김천노다지장터
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+예천장터 (https://ycjang.cyso.co.kr/)
+ Analyze 예천장터 website structure and identify product listing pages
+ Create a scraper for 예천장터 to extract product data
+ Extract all product URLs from 예천장터
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+문경 새제의아침 (https://mgmall.cyso.co.kr/)
+ Analyze 문경 새제의아침 website structure and identify product listing pages
+ Create a scraper for 문경 새제의아침 to extract product data
+ Extract all product URLs from 문경 새제의아침
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+칠곡몰 (https://cgmall.cyso.co.kr/)
+ Analyze 칠곡몰 website structure and identify product listing pages
+ Create a scraper for 칠곡몰 to extract product data
+ Extract all product URLs from 칠곡몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+의성장날 (https://esmall.cyso.co.kr/)
+ Analyze 의성장날 website structure and identify product listing pages
+ Create a scraper for 의성장날 to extract product data
+ Extract all product URLs from 의성장날
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+울진몰 (https://ujmall.cyso.co.kr/)
+ Analyze 울진몰 website structure and identify product listing pages
+ Create a scraper for 울진몰 to extract product data
+ Extract all product URLs from 울진몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+영덕장터 (https://ydmall.cyso.co.kr/)
+ Analyze 영덕장터 website structure and identify product listing pages
+ Create a scraper for 영덕장터 to extract product data
+ Extract all product URLs from 영덕장터
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+경산몰 (https://gsmall.cyso.co.kr/)
+ Analyze 경산몰 website structure and identify product listing pages
+ Create a scraper for 경산몰 to extract product data
+ Extract all product URLs from 경산몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+경주몰 (https://gjmall.cyso.co.kr/)
+ Analyze 경주몰 website structure and identify product listing pages
+ Create a scraper for 경주몰 to extract product data
+ Extract all product URLs from 경주몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+구미팜 (https://gmmall.cyso.co.kr/)
+ Analyze 구미팜 website structure and identify product listing pages
+ Create a scraper for 구미팜 to extract product data
+ Extract all product URLs from 구미팜
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+별빛촌장터 (https://01000.cyso.co.kr/)
+ Analyze 별빛촌장터 website structure and identify product listing pages
+ Create a scraper for 별빛촌장터 to extract product data
+ Extract all product URLs from 별빛촌장터
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+포항마켓 (https://pohangmarket.cyso.co.kr/)
+ Analyze 포항마켓 website structure and identify product listing pages
+ Create a scraper for 포항마켓 to extract product data
+ Extract all product URLs from 포항마켓
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+경상남도
+e경남몰 (https://egnmall.kr)
+ Analyze e경남몰 website structure and identify product listing pages
+ Create a scraper for e경남몰 to extract product data
+ Extract all product URLs from e경남몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+토요애 (https://toyoae.com/)
+ Analyze 토요애 website structure and identify product listing pages
+ Create a scraper for 토요애 to extract product data
+ Extract all product URLs from 토요애
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+남해몰 (https://enamhae.co.kr/)
+ Analyze 남해몰 website structure and identify product listing pages
+ Create a scraper for 남해몰 to extract product data
+ Extract all product URLs from 남해몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+산엔청 (https://sanencheong.com/)
+ Analyze 산엔청 website structure and identify product listing pages
+ Create a scraper for 산엔청 to extract product data
+ Extract all product URLs from 산엔청
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+공룡나라 (https://www.edinomall.com/shop/smain/index.php)
+ Analyze 공룡나라 website structure and identify product listing pages
+ Create a scraper for 공룡나라 to extract product data
+ Extract all product URLs from 공룡나라
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+함양몰 (https://2900.co.kr/)
+ Analyze 함양몰 website structure and identify product listing pages
+ Create a scraper for 함양몰 to extract product data
+ Extract all product URLs from 함양몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+진주드림 (https://jinjudream.com/)
+ Analyze 진주드림 website structure and identify product listing pages
+ Create a scraper for 진주드림 to extract product data
+ Extract all product URLs from 진주드림
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+함안몰 (https://hamanmall.com)
+ Analyze 함안몰 website structure and identify product listing pages
+ Create a scraper for 함안몰 to extract product data
+ Extract all product URLs from 함안몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+김해온몰 (https://gimhaemall.kr)
+ Analyze 김해온몰 website structure and identify product listing pages
+ Create a scraper for 김해온몰 to extract product data
+ Extract all product URLs from 김해온몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+제주특별자치도
+제주몰 (https://www.jejumall.kr)
+ Analyze 제주몰 website structure and identify product listing pages
+ Create a scraper for 제주몰 to extract product data
+ Extract all product URLs from 제주몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+이제주몰 (https://mall.ejeju.net/main/index.do)
+ Analyze 이제주몰 website structure and identify product listing pages
+ Create a scraper for 이제주몰 to extract product data
+ Extract all product URLs from 이제주몰
+ Scrape product details including titles, images, and prices
+ Register all products in the website's product database
+ Process and clean the scraped data
+ Verify product registration and data accuracy
+Total Shopping Malls: 103
+Total Checklist Items: 721
+
