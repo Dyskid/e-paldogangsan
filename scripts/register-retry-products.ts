@@ -169,7 +169,7 @@ async function registerRetryProducts() {
       mall,
       count: newProducts.filter(p => p.mallName === mall).length
     })),
-    failedMalls: summary.results.filter(r => r.status === 'failed').map(r => ({
+    failedMalls: summary.results.filter((r: any) => r.status === 'failed').map((r: any) => ({
       mall: r.mall,
       error: r.error
     }))
