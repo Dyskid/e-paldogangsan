@@ -57,10 +57,17 @@ backup/
   ├── claude command for phase1.txt
   ├── e-Paldogangsan Phase 1 MVP Specific.txt
   ├── mergedmalls.txt
-  ├── product_updating_tool
+  ├── product_updating_todolist
   ├── Project Title e-Paldogangsan South.txt
 scripts/
   ├── output/
+  │   ├── batch-scrape/
+  │   │   ├── batch-registration-summary.json
+  │   │   ├── batch-scrape-summary.json
+  │   │   ├── dangjin-farm-products.json
+  │   │   ├── danpoong-mall-products.json
+  │   │   ├── hampyeong-cheonji-products.json
+  │   │   ├── hamyang-mall-products.json
   │   ├── debug/
   │   │   ├── ejeju-cat26-page1.html
   │   │   ├── ejeju-cat27-page1.html
@@ -70,6 +77,10 @@ scripts/
   │   │   ├── ejeju-cat31-page1.html
   │   │   ├── ejeju-cat31008-page1.html
   │   │   ├── ejeju-cat32-page1.html
+  │   ├── retry-scrape/
+  │   │   ├── jps-mall-products.json
+  │   │   ├── retry-registration-summary.json
+  │   │   ├── retry-scrape-summary.json
   │   ├── all-malls-analysis.json
   │   ├── all-malls-products.json
   │   ├── ejeju-mall-products-comprehensive.json
@@ -113,6 +124,7 @@ scripts/
   ├── analyze-jeju-mall-ajax.ts
   ├── analyze-jeju-mall-structure.ts
   ├── analyze-jeju-mall.ts
+  ├── batch-scrape-all-malls.ts
   ├── check-jeju-titles.ts
   ├── check-price-status.js
   ├── classify-products.ts
@@ -140,9 +152,12 @@ scripts/
   ├── overview-helpers.ts
   ├── README.md
   ├── register-all-mall-products.ts
+  ├── register-batch-products.ts
   ├── register-ejeju-products.ts
+  ├── register-retry-products.ts
   ├── remove-failed-jeju-products.ts
   ├── remove-jejumall.ts
+  ├── retry-failed-malls.ts
   ├── scrape-all-jeju-products.ts
   ├── scrape-ejeju-mall-accurate.ts
   ├── scrape-ejeju-mall-comprehensive.ts
@@ -281,7 +296,7 @@ Total: **99 shopping malls** across 17 regions
 }
 ```
 
-Total: **1702 products** with real data for featured malls
+Total: **1925 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -546,15 +561,15 @@ Version: 1.0.0
 
 ---
 
-Last Updated: 2025-06-13
+Last Updated: 2025-06-14
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 10cd7df fix: resolve TypeScript isolatedModules export errors
+Last Commit: ce10770 fix: resolve remaining TypeScript unknown error type issues
 
 ### Project Statistics
-- Total Files: 160
-- Total Directories: 27
+- Total Files: 173
+- Total Directories: 29
 - Shopping Malls: 99
-- Products: 1702
+- Products: 1925
 - Regions: 17
 - Categories: 10

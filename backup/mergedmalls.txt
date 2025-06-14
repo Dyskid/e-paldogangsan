@@ -1,11 +1,11 @@
 통합 온라인 쇼핑몰 주소록
 서울특별시
 
-온서울마켓: https://on.seoul.go.kr
+@온서울마켓: https://on.seoul.go.kr
 
 부산광역시
 
-부산브랜드몰: https://busanbrand.kr
+@부산브랜드몰: https://busanbrand.kr
 
 대구광역시
 
@@ -14,7 +14,7 @@
 
 인천광역시
 
-인천e몰: https://www.incheone-mall.kr
+@인천e몰: https://www.incheone-mall.kr
 
 광주광역시
 
@@ -26,7 +26,7 @@
 
 울산광역시
 
-울산몰: https://www.ulsanmall.kr
+@울산몰: https://www.ulsanmall.kr
 
 세종특별자치시
 
@@ -38,7 +38,7 @@
 오산함께장터: http://www.osansemall.com/
 광명가치몰: https://gmsocial.or.kr/mall/
 양주농부마켓: https://market.yangju.go.kr/
-마켓경기: https://smartstore.naver.com/marketgyeonggi
+@@마켓경기: https://smartstore.naver.com/marketgyeonggi
 
 강원도
 
@@ -62,7 +62,7 @@
 
 충청북도
 
-제천로컬푸드: https://www.jclocal.co.kr/index.local
+@제천로컬푸드: https://www.jclocal.co.kr/index.local
 음성장터: https://www.esjang.go.kr/
 진천몰: https://jcmall.net/
 괴산장터: https://www.gsjangter.go.kr/
@@ -78,21 +78,21 @@ e홍성장터: https://ehongseong.com/
 
 부안 텃밭할매: https://www.xn--9z2bv5bx25anyd.kr/
 단풍미인 (정읍): https://www.danpoongmall.kr/
-지평선몰(김제): https://jpsmall.com/
+@@지평선몰(김제): https://www.jpsmall.com/
 전북생생장터: https://freshjb.com/
 익산몰: https://iksanmall.com/
-진안고원몰: https://jinangowonmall.com/
+@@진안고원몰: https://xn--299az5xoii3qb66f.com/
 장수몰: https://www.장수몰.com/
 고창마켓: https://noblegochang.com/
-임실몰: https://www.imsilin.kr/home
-순창로컬푸드쇼핑몰: https://smartstore.naver.com/schfarm
+@@임실몰: https://www.imsilin.kr/home
+@@순창로컬푸드쇼핑몰: https://smartstore.naver.com/schfarm
 해가람: https://haegaram.com
 
 전라남도
 
 남도장터: https://jnmall.kr/
 여수몰: http://www.yeosumall.co.kr/
-해피굿팜: https://smartstore.naver.com/hgoodfarm
+@@해피굿팜: https://smartstore.naver.com/hgoodfarm
 보성몰: https://boseongmall.co.kr/
 나주몰: https://najumall.kr/
 순천로컬푸드함께가게: https://sclocal.kr/
@@ -102,7 +102,7 @@ e홍성장터: https://ehongseong.com/
 진도아리랑몰: https://jindoarirangmall.com/
 완도군이숍: https://wandofood.go.kr/
 함평천지몰: https://함평천지몰.kr/
-해남미소: https://www.hnmiso.com/ACC_index.asp
+@@해남미소: https://www.hnmiso.com/kwa-home
 담양장터: https://damyangmk.kr/
 초록믿음(강진): https://greengj.com/
 화순팜: https://www.hwasunfarm.com/
@@ -114,13 +114,13 @@ e홍성장터: https://ehongseong.com/
 상주 명실상주몰: https://sjmall.cyso.co.kr/
 청도 청리브: https://cdmall.cyso.co.kr
 영주장날: https://yjmarket.cyso.co.kr/
-안동장터: https://andongjang.andong.go.kr/
+@@안동장터: https://andongjang.andong.go.kr/
 청송몰: https://csmall.cyso.co.kr/
 영양온심마켓: https://onsim.cyso.co.kr/
 울릉도: https://ulmall.cyso.co.kr
 봉화장터: https://bmall.cyso.co.kr/
 고령몰: https://grmall.cyso.co.kr/
-김천노다지장터: http://gcnodaji.com/
+@@김천노다지장터: https://www.gcnodaji.com/
 예천장터: https://ycjang.cyso.co.kr/
 문경 새제의아침: https://mgmall.cyso.co.kr/
 칠곡몰: https://cgmall.cyso.co.kr/
@@ -146,5 +146,6 @@ e경남몰: https://egnmall.kr
 김해온몰: https://gimhaemall.kr
 
 제주특별자치도
+
 
 이제주몰: https://mall.ejeju.net/main/index.do
