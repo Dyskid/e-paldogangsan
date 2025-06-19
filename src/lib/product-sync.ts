@@ -67,7 +67,7 @@ export class ProductSyncService {
       
       // Remove old products from this mall
       for (const [id, product] of this.products.entries()) {
-        if (product.mallId === mallId) {
+        if (product.mall.mallId === mallId) {
           this.products.delete(id);
         }
       }
@@ -80,7 +80,7 @@ export class ProductSyncService {
         if (classification) {
           // Update product with classified category
           product.category = classification.mainCategory;
-          product.subcategory = classification.subcategory;
+          // product.subcategory = classification.subcategory; // Removed as not in current Product interface
           
           // Add category tags if not already present
           const categoryTag = classification.mainCategory;
@@ -141,7 +141,7 @@ export class ProductSyncService {
 
   getProductsByMall(mallId: string): Product[] {
     return Array.from(this.products.values())
-      .filter(product => product.mallId === mallId);
+      .filter(product => product.mall.mallId === mallId);
   }
 
   searchProducts(query: string): Product[] {

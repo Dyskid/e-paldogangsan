@@ -642,7 +642,7 @@ Version: 1.0.0
 Last Updated: 2025-06-19
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: a93c947 feat: add 우리몰 individual product verification
+Last Commit: b9bc2ce feat: clean product database by removing categories and low-quality entries
 
 ### Project Statistics
 - Total Files: 251

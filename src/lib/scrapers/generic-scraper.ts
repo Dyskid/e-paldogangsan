@@ -63,17 +63,21 @@ export class GenericHTMLScraper extends BaseScraper {
           const product: Product = {
             id: this.generateProductId(this.config.mallId, `${index}_${Date.now()}`),
             name,
-            description,
             price: this.normalizePrice(price),
-            imageUrl: imageUrl ? new URL(imageUrl, this.config.baseUrl).href : undefined,
-            productUrl,
-            mallId: this.config.mallId,
-            mallName: this.config.mallName,
+            image: imageUrl ? new URL(imageUrl, this.config.baseUrl).href : '',
             category: this.categorizeProduct(name),
+            region: this.config.region || '',
+            url: productUrl,
+            description: description || '',
             tags: [],
-            inStock: true,
-            lastUpdated: new Date().toISOString(),
-            createdAt: new Date().toISOString()
+            isFeatured: false,
+            isNew: true,
+            mall: {
+              mallId: this.config.mallId,
+              mallName: this.config.mallName,
+              mallUrl: this.config.baseUrl,
+              region: this.config.region || ''
+            }
           };
 
           products.push(product);

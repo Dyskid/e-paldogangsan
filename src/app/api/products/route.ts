@@ -31,7 +31,7 @@ export async function GET(request: Request) {
 
     // Filter by mall
     if (mallId) {
-      products = products.filter(p => p.mallId === mallId);
+      products = products.filter(p => p.mall.mallId === mallId);
     }
 
     // Search

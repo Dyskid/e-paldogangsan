@@ -4,6 +4,7 @@ export interface ScraperConfig {
   mallId: string;
   mallName: string;
   baseUrl: string;
+  region?: string;
   headers?: Record<string, string>;
 }
 
@@ -20,9 +21,10 @@ export abstract class BaseScraper {
     return `${mallId}_${productId}`;
   }
 
-  protected normalizePrice(price: string): string {
-    // Remove all non-numeric characters except commas
-    return price.replace(/[^\d,]/g, '');
+  protected normalizePrice(price: string): number {
+    // Remove all non-numeric characters except commas and convert to number
+    const cleanPrice = price.replace(/[^\d,]/g, '').replace(/,/g, '');
+    return parseInt(cleanPrice) || 0;
   }
 
   protected categorizeProduct(productName: string, tags: string[] = []): string {

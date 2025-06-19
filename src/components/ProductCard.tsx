@@ -15,7 +15,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ mallId: product.mallId }),
+        body: JSON.stringify({ mallId: product.mall.mallId }),
       });
     } catch (error) {
       console.error('Failed to track click:', error);
@@ -51,16 +51,16 @@ export default function ProductCard({ product }: ProductCardProps) {
   return (
     <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
       <a 
-        href={product.productUrl}
+        href={product.url}
         target="_blank"
         rel="noopener noreferrer"
         className="block"
         onClick={handleClick}
       >
         <div className="relative h-48 bg-gray-100">
-          {product.imageUrl ? (
+          {product.image ? (
             <Image
-              src={product.imageUrl}
+              src={product.image}
               alt={product.name}
               fill
               className="object-cover rounded-t-lg"
@@ -75,11 +75,7 @@ export default function ProductCard({ product }: ProductCardProps) {
               </svg>
             </div>
           )}
-          {product.inStock === false && (
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center rounded-t-lg">
-              <span className="text-white font-medium">품절</span>
-            </div>
-          )}
+          {/* Removed inStock check as it's not in current data structure */}
         </div>
 
         <div className="p-4">
@@ -88,10 +84,10 @@ export default function ProductCard({ product }: ProductCardProps) {
           </div>
 
           <div className="flex items-center gap-2 mb-3">
-            <span className={`text-xs px-2 py-1 rounded-full ${categoryColors[product.category]}`}>
-              {categoryNames[product.category]}
+            <span className="text-xs px-2 py-1 rounded-full bg-blue-100 text-blue-800">
+              {product.category}
             </span>
-            <span className="text-xs text-gray-500">{product.mallName}</span>
+            <span className="text-xs text-gray-500">{product.mall.mallName}</span>
           </div>
 
           {product.description && (
@@ -104,11 +100,11 @@ export default function ProductCard({ product }: ProductCardProps) {
             <div>
               {product.originalPrice && product.originalPrice !== product.price && (
                 <span className="text-sm text-gray-400 line-through mr-2">
-                  {product.originalPrice}원
+                  {product.originalPrice?.toLocaleString()}원
                 </span>
               )}
               <span className="text-lg font-bold text-gray-900">
-                {product.price}원
+                {product.price === 0 ? '가격문의' : `${product.price.toLocaleString()}원`}
               </span>
             </div>
             <span className="text-xs text-blue-600 hover:text-blue-800 flex items-center gap-1">

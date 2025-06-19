@@ -36,7 +36,7 @@ export default function ProductsPage() {
       filtered = filtered.filter(p => 
         p.name.toLowerCase().includes(query) ||
         p.description?.toLowerCase().includes(query) ||
-        p.mallName.toLowerCase().includes(query)
+        p.mall.mallName.toLowerCase().includes(query)
       );
     }
 

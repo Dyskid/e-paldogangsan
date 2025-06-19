@@ -15,7 +15,7 @@ interface ProductSearchBarProps {
 }
 
 const fuseOptions = {
-  keys: ['name', 'description', 'tags', 'mallName', 'category', 'subcategory'],
+  keys: ['name', 'description', 'tags', 'mall.mallName', 'category'],
   threshold: 0.3,
   includeScore: true,
   minMatchCharLength: 2,
@@ -130,7 +130,7 @@ export default function ProductSearchBar({
   const handleSuggestionClick = (product: Product) => {
     setQuery(product.name);
     setShowDropdown(false);
-    window.open(product.productUrl, '_blank');
+    window.open(product.url, '_blank');
   };
 
   const highlightMatch = (text: string, query: string) => {
@@ -230,9 +230,9 @@ export default function ProductSearchBar({
               }`}
             >
               <div className="flex justify-between items-start gap-4">
-                {product.imageUrl && (
+                {product.image && (
                   <img 
-                    src={product.imageUrl} 
+                    src={product.image} 
                     alt={product.name}
                     className="w-16 h-16 object-cover rounded-lg"
                   />
@@ -248,26 +248,27 @@ export default function ProductSearchBar({
                   )}
                   <div className="flex items-center gap-2 mt-1">
                     <span className="text-sm font-medium text-primary">
-                      {product.price}
+                      {product.price === 0 ? '가격문의' : `${product.price.toLocaleString()}원`}
                     </span>
                     {product.originalPrice && product.originalPrice !== product.price && (
                       <span className="text-sm text-gray-400 line-through">
-                        {product.originalPrice}
+                        {product.originalPrice?.toLocaleString()}원
                       </span>
                     )}
-                    <span className="text-xs text-gray-500">• {product.mallName}</span>
+                    <span className="text-xs text-gray-500">• {product.mall.mallName}</span>
                   </div>
                   <div className="flex gap-1 mt-1">
                     <span className="text-xs bg-blue-100 text-blue-600 px-2 py-1 rounded-md">
-                      {getCategoryName(product.category)}
+                      {product.category}
                     </span>
-                    {product.inStock ? (
+                    {product.isNew && (
                       <span className="text-xs bg-green-100 text-green-600 px-2 py-1 rounded-md">
-                        재고있음
+                        신상품
                       </span>
-                    ) : (
-                      <span className="text-xs bg-red-100 text-red-600 px-2 py-1 rounded-md">
-                        품절
+                    )}
+                    {product.isFeatured && (
+                      <span className="text-xs bg-yellow-100 text-yellow-600 px-2 py-1 rounded-md">
+                        추천
                       </span>
                     )}
                   </div>

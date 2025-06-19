@@ -29,19 +29,22 @@ export interface Category {
 export interface Product {
   id: string;
   name: string;
-  description?: string;
-  price: string;
-  originalPrice?: string;
-  imageUrl?: string;
-  productUrl: string;
-  mallId: string;
-  mallName: string;
+  price: number;
+  originalPrice?: number;
+  image: string;
   category: string;
-  subcategory?: string;
+  region: string;
+  url: string;
+  description: string;
   tags: string[];
-  inStock: boolean;
-  lastUpdated: string;
-  createdAt: string;
+  isFeatured: boolean;
+  isNew: boolean;
+  mall: {
+    mallId: string;
+    mallName: string;
+    mallUrl: string;
+    region: string;
+  };
 }
 
 export interface ProductSyncStatus {

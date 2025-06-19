@@ -20,7 +20,7 @@ export default function ProductDetailPage({ params }: { params: { productId: str
     notFound();
   }
 
-  const mall = getMallById(product.mallId);
+  const mall = getMallById(product.mall.mallId);
 
   if (!mall) {
     notFound();
@@ -57,9 +57,9 @@ export default function ProductDetailPage({ params }: { params: { productId: str
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8">
             {/* Product Image */}
             <div className="relative h-96 bg-gray-100 rounded-lg overflow-hidden">
-              {product.imageUrl ? (
+              {product.image ? (
                 <Image
-                  src={product.imageUrl}
+                  src={product.image}
                   alt={product.name}
                   fill
                   className="object-cover"
@@ -74,11 +74,7 @@ export default function ProductDetailPage({ params }: { params: { productId: str
                   </svg>
                 </div>
               )}
-              {product.inStock === false && (
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-                  <span className="text-white text-2xl font-bold">품절</span>
-                </div>
-              )}
+              {/* Removed inStock check as it's not in current data structure */}
             </div>
 
             {/* Product Info */}
@@ -87,13 +83,8 @@ export default function ProductDetailPage({ params }: { params: { productId: str
               
               <div className="flex items-center gap-3 mb-6">
                 <span className="inline-block px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
-                  {categoryNames[product.category]}
+                  {product.category}
                 </span>
-                {product.subcategory && (
-                  <span className="text-sm text-gray-500">
-                    {product.subcategory.replace(/_/g, ' ')}
-                  </span>
-                )}
               </div>
 
               {product.description && (
@@ -106,19 +97,19 @@ export default function ProductDetailPage({ params }: { params: { productId: str
                 <div className="flex items-baseline gap-2 mb-4">
                   {product.originalPrice && product.originalPrice !== product.price && (
                     <span className="text-2xl text-gray-400 line-through">
-                      {product.originalPrice}원
+                      {product.originalPrice?.toLocaleString()}원
                     </span>
                   )}
                   <span className="text-3xl font-bold text-gray-900">
-                    {product.price}원
+                    {product.price === 0 ? '가격문의' : `${product.price.toLocaleString()}원`}
                   </span>
                 </div>
 
                 <div className="bg-gray-50 rounded-lg p-4 mb-6">
                   <h3 className="font-medium text-gray-900 mb-2">판매처 정보</h3>
                   <div className="text-sm text-gray-600">
-                    <p className="mb-1">쇼핑몰: <span className="font-medium text-gray-900">{mall.name}</span></p>
-                    <p>지역: <span className="font-medium text-gray-900">{mall.region}</span></p>
+                    <p className="mb-1">쇼핑몰: <span className="font-medium text-gray-900">{product.mall.mallName}</span></p>
+                    <p>지역: <span className="font-medium text-gray-900">{product.region}</span></p>
                   </div>
                 </div>
 
@@ -127,12 +118,12 @@ export default function ProductDetailPage({ params }: { params: { productId: str
                     <svg className="inline-block w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
                     </svg>
-                    이 상품은 {mall.name}에서 직접 판매합니다. 구매하기 버튼을 클릭하면 해당 쇼핑몰로 이동합니다.
+                    이 상품은 {product.mall.mallName}에서 직접 판매합니다. 구매하기 버튼을 클릭하면 해당 쇼핑몰로 이동합니다.
                   </p>
                 </div>
 
                 <Link
-                  href={mall.url}
+                  href={product.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={async () => {
@@ -140,7 +131,7 @@ export default function ProductDetailPage({ params }: { params: { productId: str
                       await fetch('/api/track-click', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ mallId: mall.id })
+                        body: JSON.stringify({ mallId: product.mall.mallId })
                       });
                     } catch (error) {
                       console.error('Failed to track click:', error);
@@ -148,7 +139,7 @@ export default function ProductDetailPage({ params }: { params: { productId: str
                   }}
                   className="block w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-4 px-6 rounded-lg text-center transition-colors"
                 >
-                  {mall.name}에서 구매하기
+                  {product.mall.mallName}에서 구매하기
                 </Link>
               </div>
 
@@ -177,18 +168,23 @@ export default function ProductDetailPage({ params }: { params: { productId: str
           <h2 className="text-xl font-bold text-gray-900 mb-4">쇼핑몰 정보</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <h3 className="font-medium text-gray-900 mb-2">{mall.name}</h3>
-              <p className="text-sm text-gray-600 mb-1">지역: {mall.region}</p>
-              <p className="text-sm text-gray-600 mb-1">카테고리: {mall.tags.join(', ')}</p>
-              {mall.featured && (
+              <h3 className="font-medium text-gray-900 mb-2">{product.mall.mallName}</h3>
+              <p className="text-sm text-gray-600 mb-1">지역: {product.region}</p>
+              <p className="text-sm text-gray-600 mb-1">카테고리: {product.category}</p>
+              {product.isFeatured && (
                 <span className="inline-block mt-2 px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-xs font-medium">
-                  추천 쇼핑몰
+                  추천 상품
+                </span>
+              )}
+              {product.isNew && (
+                <span className="inline-block mt-2 ml-2 px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">
+                  신상품
                 </span>
               )}
             </div>
             <div className="text-right">
               <Link
-                href={mall.url}
+                href={product.mall.mallUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block text-blue-600 hover:text-blue-800 font-medium"
