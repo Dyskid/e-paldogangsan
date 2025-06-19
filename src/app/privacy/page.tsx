@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '개인정보처리방침 | e-팔도강산',
-  description: 'e-팔도강산 개인정보처리방침을 확인하세요.',
+  title: '개인정보처리방침 | 모두의팔도장터',
+  description: '모두의팔도장터 개인정보처리방침을 확인하세요.',
 };
 
 export default function PrivacyPage() {
@@ -23,7 +23,7 @@ export default function PrivacyPage() {
             <section className="mb-8">
               <h2 className="text-xl font-bold text-gray-800 mb-4">제1조 (개인정보의 처리목적)</h2>
               <p className="text-gray-700 leading-relaxed">
-                e-팔도강산(이하 "서비스")은 다음의 목적을 위하여 개인정보를 처리합니다. 
+                모두의팔도장터(이하 "서비스")는 다음의 목적을 위하여 개인정보를 처리합니다. 
                 처리하고 있는 개인정보는 다음의 목적 이외의 용도로는 이용되지 않으며, 
                 이용 목적이 변경되는 경우에는 개인정보보호법 제18조에 따라 별도의 동의를 받는 등 
                 필요한 조치를 이행할 예정입니다.
@@ -155,7 +155,7 @@ export default function PrivacyPage() {
                   정보주체의 불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.
                 </p>
                 <div className="space-y-2">
-                  <p className="text-gray-700"><span className="font-medium">책임자:</span> e-팔도강산 운영팀</p>
+                  <p className="text-gray-700"><span className="font-medium">책임자:</span> 모두의팔도장터 운영팀</p>
                   <p className="text-gray-700"><span className="font-medium">연락처:</span> contact@e-paldogangsan.kr</p>
                   <p className="text-gray-700 text-sm">
                     개인정보 처리와 관련하여 문의사항이나 불만처리, 피해구제가 필요하신 경우 위 연락처로 연락해주시기 바랍니다.

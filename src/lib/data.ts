@@ -17,7 +17,14 @@ export function getCategories(): Category[] {
 
 export function getMallsByRegion(regionId: string): Mall[] {
   const malls = getMalls();
-  return malls.filter(mall => mall.region === regionId);
+  const regions = getRegions();
+  
+  // Find the region by ID to get the Korean name
+  const region = regions.find(r => r.id === regionId);
+  if (!region) return [];
+  
+  // Filter malls by the Korean region name
+  return malls.filter(mall => mall.region === region.name_ko);
 }
 
 export function getFeaturedMalls(): Mall[] {

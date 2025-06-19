@@ -1,0 +1,135 @@
+{
+  "mallName": "이제주몰",
+  "mallUrl": "https://mall.ejeju.net",
+  "totalProducts": 258,
+  "totalProductsScraped": 0,
+  "duplicatesRemoved": -258,
+  "categories": [
+    {
+      "id": "1",
+      "name": "제주 농산품",
+      "productCount": 190
+    },
+    {
+      "id": "2",
+      "name": "제주 수산품",
+      "productCount": 324
+    },
+    {
+      "id": "1671",
+      "name": "제주 축산품",
+      "productCount": 26
+    },
+    {
+      "id": "4",
+      "name": "제주 가공식품",
+      "productCount": 109
+    },
+    {
+      "id": "6",
+      "name": "제주 화장품",
+      "productCount": 424
+    },
+    {
+      "id": "31069",
+      "name": "제주 공예품",
+      "productCount": 4
+    },
+    {
+      "id": "1672",
+      "name": "카테고리 1672",
+      "productCount": 170
+    },
+    {
+      "id": "1854",
+      "name": "카테고리 1854",
+      "productCount": 5
+    },
+    {
+      "id": "31004",
+      "name": "카테고리 31004",
+      "productCount": 8
+    },
+    {
+      "id": "31017",
+      "name": "카테고리 31017",
+      "productCount": 170
+    },
+    {
+      "id": "31019",
+      "name": "카테고리 31019",
+      "productCount": 7
+    },
+    {
+      "id": "31021",
+      "name": "카테고리 31021",
+      "productCount": 5
+    },
+    {
+      "id": "31040",
+      "name": "카테고리 31040",
+      "productCount": 7
+    },
+    {
+      "id": "31041",
+      "name": "카테고리 31041",
+      "productCount": 11
+    },
+    {
+      "id": "31042",
+      "name": "카테고리 31042",
+      "productCount": 150
+    },
+    {
+      "id": "31043",
+      "name": "카테고리 31043",
+      "productCount": 4
+    },
+    {
+      "id": "31046",
+      "name": "카테고리 31046",
+      "productCount": 4
+    },
+    {
+      "id": "31059",
+      "name": "카테고리 31059",
+      "productCount": 6
+    },
+    {
+      "id": "31115",
+      "name": "카테고리 31115",
+      "productCount": 140
+    },
+    {
+      "id": "31154",
+      "name": "카테고리 31154",
+      "productCount": 4
+    },
+    {
+      "id": "45",
+      "name": "카테고리 45",
+      "productCount": 8
+    },
+    {
+      "id": "26",
+      "name": "농산품",
+      "productCount": 1
+    },
+    {
+      "id": "31",
+      "name": "공예품/생활용품",
+      "productCount": 6
+    },
+    {
+      "id": "31008",
+      "name": "건강식품",
+      "productCount": 5
+    },
+    {
+      "id": "32",
+      "name": "기타",
+      "productCount": 4
+    }
+  ],
+  "scrapedAt": "2025-06-13T15:27:31.812Z"
+}

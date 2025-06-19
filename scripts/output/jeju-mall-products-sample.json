@@ -1,0 +1,152 @@
+[
+  {
+    "id": "jeju_sample_1",
+    "name": "제주 한라봉",
+    "price": "25000원",
+    "imageUrl": "https://mall.ejeju.net/images/product_1.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=1",
+    "category": "농산품",
+    "seller": "제주몰",
+    "tags": [
+      "제주",
+      "제주도",
+      "jeju",
+      "농산품"
+    ]
+  },
+  {
+    "id": "jeju_sample_2",
+    "name": "제주 천혜향",
+    "price": "30000원",
+    "imageUrl": "https://mall.ejeju.net/images/product_2.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=2",
+    "category": "농산품",
+    "seller": "제주몰",
+    "tags": [
+      "제주",
+      "제주도",
+      "jeju",
+      "농산품"
+    ]
+  },
+  {
+    "id": "jeju_sample_3",
+    "name": "제주 흑돼지 선물세트",
+    "price": "80000원",
+    "imageUrl": "https://mall.ejeju.net/images/product_3.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=3",
+    "category": "축산품",
+    "seller": "제주몰",
+    "tags": [
+      "제주",
+      "제주도",
+      "jeju",
+      "축산품"
+    ]
+  },
+  {
+    "id": "jeju_sample_4",
+    "name": "제주 갈치 선물세트",
+    "price": "50000원",
+    "imageUrl": "https://mall.ejeju.net/images/product_4.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=4",
+    "category": "수산품",
+    "seller": "제주몰",
+    "tags": [
+      "제주",
+      "제주도",
+      "jeju",
+      "수산품"
+    ]
+  },
+  {
+    "id": "jeju_sample_5",
+    "name": "제주 옥돔",
+    "price": "45000원",
+    "imageUrl": "https://mall.ejeju.net/images/product_5.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=5",
+    "category": "수산품",
+    "seller": "제주몰",
+    "tags": [
+      "제주",
+      "제주도",
+      "jeju",
+      "수산품"
+    ]
+  },
+  {
+    "id": "jeju_sample_6",
+    "name": "제주 감귤 초콜릿",
+    "price": "15000원",
+    "imageUrl": "https://mall.ejeju.net/images/product_6.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=6",
+    "category": "가공식품",
+    "seller": "제주몰",
+    "tags": [
+      "제주",
+      "제주도",
+      "jeju",
+      "가공식품"
+    ]
+  },
+  {
+    "id": "jeju_sample_7",
+    "name": "제주 오메기떡",
+    "price": "12000원",
+    "imageUrl": "https://mall.ejeju.net/images/product_7.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=7",
+    "category": "가공식품",
+    "seller": "제주몰",
+    "tags": [
+      "제주",
+      "제주도",
+      "jeju",
+      "가공식품"
+    ]
+  },
+  {
+    "id": "jeju_sample_8",
+    "name": "제주 동백 화장품 세트",
+    "price": "65000원",
+    "imageUrl": "https://mall.ejeju.net/images/product_8.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=8",
+    "category": "화장품",
+    "seller": "제주몰",
+    "tags": [
+      "제주",
+      "제주도",
+      "jeju",
+      "화장품"
+    ]
+  },
+  {
+    "id": "jeju_sample_9",
+    "name": "제주 현무암 공예품",
+    "price": "35000원",
+    "imageUrl": "https://mall.ejeju.net/images/product_9.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=9",
+    "category": "공예품",
+    "seller": "제주몰",
+    "tags": [
+      "제주",
+      "제주도",
+      "jeju",
+      "공예품"
+    ]
+  },
+  {
+    "id": "jeju_sample_10",
+    "name": "제주 감귤 비누",
+    "price": "8000원",
+    "imageUrl": "https://mall.ejeju.net/images/product_10.jpg",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=10",
+    "category": "생활용품",
+    "seller": "제주몰",
+    "tags": [
+      "제주",
+      "제주도",
+      "jeju",
+      "생활용품"
+    ]
+  }
+]

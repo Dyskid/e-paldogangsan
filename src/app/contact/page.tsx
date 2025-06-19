@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '문의하기 | e-팔도강산',
-  description: 'e-팔도강산 서비스에 대한 문의사항이 있으시면 언제든 연락해주세요.',
+  title: '문의하기 | 모두의팔도장터',
+  description: '모두의팔도장터 서비스에 대한 문의사항이 있으시면 언제든 연락해주세요.',
 };
 
 export default function ContactPage() {
@@ -14,7 +14,7 @@ export default function ContactPage() {
           <div className="bg-primary text-white text-center py-12">
             <h1 className="text-3xl md:text-4xl font-bold mb-4">문의하기</h1>
             <p className="text-lg text-blue-100">
-              e-팔도강산 서비스에 대해 궁금한 점이 있으시면 언제든 연락해주세요
+              모두의팔도장터 서비스에 대해 궁금한 점이 있으시면 언제든 연락해주세요
             </p>
           </div>
 
@@ -163,7 +163,7 @@ export default function ContactPage() {
               <div className="space-y-4">
                 <details className="bg-gray-50 rounded-lg p-4">
                   <summary className="font-medium text-gray-800 cursor-pointer">
-                    e-팔도강산은 어떤 서비스인가요?
+                    모두의팔도장터는 어떤 서비스인가요?
                   </summary>
                   <p className="mt-3 text-gray-600">
                     전국 지방자치단체가 운영하는 농수산물 및 특산품 온라인 쇼핑몰을 한 곳에서 찾을 수 있는 포털 서비스입니다.
@@ -184,7 +184,7 @@ export default function ContactPage() {
                     서비스 이용료가 있나요?
                   </summary>
                   <p className="mt-3 text-gray-600">
-                    e-팔도강산 포털 서비스는 완전 무료로 제공됩니다. 실제 상품 구매는 각 쇼핑몰에서 진행됩니다.
+                    모두의팔도장터 포털 서비스는 완전 무료로 제공됩니다. 실제 상품 구매는 각 쇼핑몰에서 진행됩니다.
                   </p>
                 </details>
 

@@ -1,0 +1,151 @@
+통합 온라인 쇼핑몰 주소록
+서울특별시
+
+@온서울마켓: https://on.seoul.go.kr
+
+부산광역시
+
+@부산브랜드몰: https://busanbrand.kr
+
+대구광역시
+
+우리몰: https://wemall.kr
+참달성 (달성군): https://chamds.com
+
+인천광역시
+
+@인천e몰: https://www.incheone-mall.kr
+
+광주광역시
+
+광주김치몰: https://www.k-kimchi.kr/index.php
+
+대전광역시
+
+온통대전몰 대전사랑몰: https://ontongdaejeon.ezwel.com/onnuri/main
+
+울산광역시
+
+@울산몰: https://www.ulsanmall.kr
+
+세종특별자치시
+
+세종로컬푸드: https://www.sjlocal.or.kr/
+
+경기도
+
+착착착: https://www.chack3.com/
+오산함께장터: http://www.osansemall.com/
+광명가치몰: https://gmsocial.or.kr/mall/
+양주농부마켓: https://market.yangju.go.kr/
+@@마켓경기: https://smartstore.naver.com/marketgyeonggi
+
+강원도
+
+강원더몰: https://gwdmall.kr/
+원주몰: https://wonju-mall.co.kr/
+강릉몰: https://gangneung-mall.com/
+고성몰: https://gwgoseong-mall.com/
+동해몰: https://donghae-mall.com/
+삼척몰: https://samcheok-mall.com/
+양구몰: https://yanggu-mall.com/
+양양몰: https://yangyang-mall.com/
+영월몰: https://yeongwol-mall.com/
+인제몰: https://inje-mall.com/
+철원몰: https://cheorwon-mall.com/
+정선몰: https://jeongseon-mall.com/
+태백몰: https://taebaek-mall.com/
+횡성몰: https://hoengseong-mall.com/
+춘천몰: https://gwch-mall.com/
+홍천몰: https://hongcheon-mall.com/
+평창몰: https://gwpc-mall.com/
+
+충청북도
+
+@제천로컬푸드: https://www.jclocal.co.kr/index.local
+음성장터: https://www.esjang.go.kr/
+진천몰: https://jcmall.net/
+괴산장터: https://www.gsjangter.go.kr/
+
+충청남도
+
+농사랑: https://nongsarang.co.kr/
+당진팜: https://dangjinfarm.com/
+e홍성장터: https://ehongseong.com/
+서산뜨레: https://seosanttre.com/index.html
+
+전라북도
+
+부안 텃밭할매: https://www.xn--9z2bv5bx25anyd.kr/
+단풍미인 (정읍): https://www.danpoongmall.kr/
+@@지평선몰(김제): https://www.jpsmall.com/
+전북생생장터: https://freshjb.com/
+익산몰: https://iksanmall.com/
+@@진안고원몰: https://xn--299az5xoii3qb66f.com/
+장수몰: https://www.장수몰.com/
+고창마켓: https://noblegochang.com/
+@@임실몰: https://www.imsilin.kr/home
+@@순창로컬푸드쇼핑몰: https://smartstore.naver.com/schfarm
+해가람: https://haegaram.com
+
+전라남도
+
+남도장터: https://jnmall.kr/
+여수몰: http://www.yeosumall.co.kr/
+@@해피굿팜: https://smartstore.naver.com/hgoodfarm
+보성몰: https://boseongmall.co.kr/
+나주몰: https://najumall.kr/
+순천로컬푸드함께가게: https://sclocal.kr/
+신안1004몰: https://shinan1004mall.kr/
+장흥몰 (산들해랑장흥몰): https://okjmall.com/
+기찬들영암몰: https://yeongammall.co.kr/
+진도아리랑몰: https://jindoarirangmall.com/
+완도군이숍: https://wandofood.go.kr/
+함평천지몰: https://함평천지몰.kr/
+@@해남미소: https://www.hnmiso.com/kwa-home
+담양장터: https://damyangmk.kr/
+초록믿음(강진): https://greengj.com/
+화순팜: https://www.hwasunfarm.com/
+곡성몰 (곡성군농특산물중개몰): https://gokseongmall.com/
+
+경상북도
+
+사이소(경북몰): https://www.cyso.co.kr/
+상주 명실상주몰: https://sjmall.cyso.co.kr/
+청도 청리브: https://cdmall.cyso.co.kr
+영주장날: https://yjmarket.cyso.co.kr/
+@@안동장터: https://andongjang.andong.go.kr/
+청송몰: https://csmall.cyso.co.kr/
+영양온심마켓: https://onsim.cyso.co.kr/
+울릉도: https://ulmall.cyso.co.kr
+봉화장터: https://bmall.cyso.co.kr/
+고령몰: https://grmall.cyso.co.kr/
+@@김천노다지장터: https://www.gcnodaji.com/
+예천장터: https://ycjang.cyso.co.kr/
+문경 새제의아침: https://mgmall.cyso.co.kr/
+칠곡몰: https://cgmall.cyso.co.kr/
+의성장날: https://esmall.cyso.co.kr/
+울진몰: https://ujmall.cyso.co.kr/
+영덕장터: https://ydmall.cyso.co.kr/
+경산몰: https://gsmall.cyso.co.kr/
+경주몰: https://gjmall.cyso.co.kr/
+구미팜: https://gmmall.cyso.co.kr/
+별빛촌장터(영천): https://01000.cyso.co.kr/
+포항마켓: https://pohangmarket.cyso.co.kr/
+
+경상남도
+
+e경남몰: https://egnmall.kr
+토요애 (의령): https://toyoae.com/
+남해몰: https://enamhae.co.kr/
+산엔청 (산청): https://sanencheong.com/
+공룡나라 (고성): https://www.edinomall.com/shop/smain/index.php
+함양몰: https://2900.co.kr/
+진주드림: https://jinjudream.com/
+함안몰: https://hamanmall.com
+김해온몰: https://gimhaemall.kr
+
+제주특별자치도
+
+
+이제주몰: https://mall.ejeju.net/main/index.do

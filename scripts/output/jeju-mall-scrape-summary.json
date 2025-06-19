@@ -1,0 +1,17 @@
+{
+  "totalUrls": 21,
+  "successfulScrapes": 3,
+  "failedScrapes": 18,
+  "categories": [
+    "가공식품",
+    "축산품"
+  ],
+  "sellers": [
+    "제주몰"
+  ],
+  "priceRange": {
+    "min": 0,
+    "max": 0
+  },
+  "scrapedAt": "2025-06-08T16:20:35.765Z"
+}

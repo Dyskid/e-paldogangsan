@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '이용약관 | e-팔도강산',
-  description: 'e-팔도강산 서비스 이용약관을 확인하세요.',
+  title: '이용약관 | 모두의팔도장터',
+  description: '모두의팔도장터 서비스 이용약관을 확인하세요.',
 };
 
 export default function TermsPage() {
@@ -23,7 +23,7 @@ export default function TermsPage() {
             <section className="mb-8">
               <h2 className="text-xl font-bold text-gray-800 mb-4">제1조 (목적)</h2>
               <p className="text-gray-700 leading-relaxed">
-                이 약관은 e-팔도강산(이하 "서비스")이 제공하는 인터넷 관련 서비스(이하 "서비스")를 
+                이 약관은 모두의팔도장터(이하 "서비스")가 제공하는 인터넷 관련 서비스(이하 "서비스")를 
                 이용함에 있어 서비스 제공자와 이용자의 권리, 의무 및 책임사항을 규정함을 목적으로 합니다.
               </p>
             </section>
@@ -33,7 +33,7 @@ export default function TermsPage() {
               <div className="space-y-4">
                 <div>
                   <p className="text-gray-700">
-                    <span className="font-medium">1. "서비스"</span>란 e-팔도강산이 제공하는 
+                    <span className="font-medium">1. "서비스"</span>란 모두의팔도장터가 제공하는 
                     지방자치단체 온라인 쇼핑몰 정보 제공 및 연결 서비스를 의미합니다.
                   </p>
                 </div>

@@ -1,0 +1,72 @@
+{
+  "timestamp": "2025-06-19T09:10:11.451Z",
+  "mall": {
+    "mallId": "wemall",
+    "mallName": "우리몰",
+    "mallUrl": "https://wemall.kr",
+    "region": "대구광역시"
+  },
+  "filtering": {
+    "totalScraped": 154,
+    "foodProductsOnly": 16,
+    "nonFoodRemoved": 138
+  },
+  "products": {
+    "added": 16,
+    "totalInDatabase": 2119
+  },
+  "categories": {
+    "foodCategories": [
+      "식품/농산품",
+      "쌀/농축산물",
+      "차/음료/과자/가공식품",
+      "건강식품/다이어트",
+      "농축수산물",
+      "가공식품"
+    ],
+    "distribution": {
+      "식품/농산품": 12,
+      "차/음료/과자/가공식품": 4
+    }
+  },
+  "priceAnalysis": {
+    "withPrices": 16,
+    "withoutPrices": 0,
+    "withDiscounts": 7,
+    "averagePrice": 23694
+  },
+  "sampleProducts": [
+    {
+      "id": "wemall-4300714",
+      "title": "[류한욱통호밀농장] 호밀비건 스콘12종 직접재배 백년가게 [경북 소상공인 희망마켓30%할인]",
+      "price": 2500,
+      "originalPrice": 3500,
+      "category": "식품/농산품"
+    },
+    {
+      "id": "wemall-001",
+      "title": "[뚝배기식품] 재래식 된장 2.7kg",
+      "price": 44000,
+      "category": "식품/농산품"
+    },
+    {
+      "id": "wemall-10670068",
+      "title": "울릉허브 오식이 궁채 나물 장아찌 150g 줄기상추 절임",
+      "price": 4500,
+      "originalPrice": 9800,
+      "category": "식품/농산품"
+    },
+    {
+      "id": "wemall-4257526",
+      "title": "[뚝배기식품] 우리고향장맛 3종 선물세트",
+      "price": 34000,
+      "category": "식품/농산품"
+    },
+    {
+      "id": "wemall-19426385",
+      "title": "[뚝배기식품] 고추장 1kg",
+      "price": 23000,
+      "category": "식품/농산품"
+    }
+  ]
+}

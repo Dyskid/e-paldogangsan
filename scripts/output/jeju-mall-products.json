@@ -1,0 +1,50 @@
+[
+  {
+    "id": "jeju_30516",
+    "name": "이제주몰",
+    "price": "0원",
+    "imageUrl": "",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30516&cate=31043",
+    "category": "가공식품",
+    "seller": "제주몰",
+    "description": "",
+    "tags": [
+      "제주",
+      "제주도",
+      "jeju",
+      "가공식품"
+    ]
+  },
+  {
+    "id": "jeju_30353",
+    "name": "이제주몰",
+    "price": "0원",
+    "imageUrl": "",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30353&cate=1672",
+    "category": "축산품",
+    "seller": "제주몰",
+    "description": "",
+    "tags": [
+      "제주",
+      "제주도",
+      "jeju",
+      "축산품"
+    ]
+  },
+  {
+    "id": "jeju_30184",
+    "name": "이제주몰",
+    "price": "0원",
+    "imageUrl": "",
+    "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30184&cate=31042",
+    "category": "가공식품",
+    "seller": "제주몰",
+    "description": "",
+    "tags": [
+      "제주",
+      "제주도",
+      "jeju",
+      "가공식품"
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Update overview after merge
+echo "📊 Updating PROJECT_OVERVIEW.md after merge..."
+npm run update-overview
+
+echo "✅ Overview updated after merge"

@@ -1,0 +1,17 @@
+{
+  "totalProducts": 0,
+  "byCategory": [],
+  "scrapedAt": "2025-06-13T06:05:37.456Z",
+  "errors": [
+    "Category 농산품: AxiosError: Request failed with status code 404",
+    "Category 수산품: AxiosError: Request failed with status code 404",
+    "Category 축산품: AxiosError: Request failed with status code 404",
+    "Category 가공식품: AxiosError: Request failed with status code 404",
+    "Category 건강식품: AxiosError: Request failed with status code 404",
+    "Category 전통식품: AxiosError: Request failed with status code 404",
+    "Category 공예품: AxiosError: Request failed with status code 404",
+    "Category 화장품: AxiosError: Request failed with status code 404",
+    "Category 생활용품: AxiosError: Request failed with status code 404",
+    "Category 반려동물용품: AxiosError: Request failed with status code 404"
+  ]
+}

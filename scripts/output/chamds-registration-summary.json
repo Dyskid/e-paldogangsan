@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-06-15T12:24:36.012Z",
+  "mall": {
+    "id": "chamds",
+    "name": "참달성",
+    "url": "https://chamds.com",
+    "region": "대구광역시"
+  },
+  "products": {
+    "scraped": 22,
+    "new": 22,
+    "existing": 0,
+    "total": 2101
+  },
+  "categories": [
+    "가공식품"
+  ],
+  "priceAnalysis": {
+    "withPrices": 22,
+    "withoutPrices": 0,
+    "averagePrice": 22795
+  },
+  "sampleProducts": [
+    {
+      "id": "chamds-109",
+      "title": "농부 이학조의 생강진액 2병...",
+      "price": 60000,
+      "category": "가공식품"
+    },
+    {
+      "id": "chamds-108",
+      "title": "농부 이학조의 생강진액 1병...",
+      "price": 30000,
+      "category": "가공식품"
+    },
+    {
+      "id": "chamds-90",
+      "title": "수국차(이슬차) 유기농녹차 25gx2...",
+      "price": 30000,
+      "category": "가공식품"
+    },
+    {
+      "id": "chamds-89",
+      "title": "어성초 가정용티백 / 30t...",
+      "price": 25000,
+      "category": "가공식품"
+    },
+    {
+      "id": "chamds-31",
+      "title": "자색돼지감자차 180g...",
+      "price": 11000,
+      "category": "가공식품"
+    }
+  ]
+}
