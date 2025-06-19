@@ -62,6 +62,9 @@ backup/
 scripts/
   ├── dist/
   │   ├── scripts/
+  │   │   ├── fix-chamds-images-fallback.js
+  │   │   ├── fix-chamds-images-real.js
+  │   │   ├── fix-chamds-images.js
   │   │   ├── register-chamds-food-products.js
   │   │   ├── register-wemall-food-products.js
   │   │   ├── scrape-wemall-food-final.js
@@ -103,6 +106,9 @@ scripts/
   │   ├── chamds-food-registration-summary.json
   │   ├── chamds-food-verification-final.json
   │   ├── chamds-homepage.html
+  │   ├── chamds-image-fallback-summary.json
+  │   ├── chamds-image-fix-summary.json
+  │   ├── chamds-image-real-fix-summary.json
   │   ├── chamds-products-_product_list.html.html
   │   ├── chamds-products.json
   │   ├── chamds-registration-summary.json
@@ -216,6 +222,9 @@ scripts/
   ├── filter-wemall-food-products.ts
   ├── final-verification.ts
   ├── find-remaining-issue.ts
+  ├── fix-chamds-images-fallback.ts
+  ├── fix-chamds-images-real.ts
+  ├── fix-chamds-images.ts
   ├── fix-final-generic-title.ts
   ├── fix-jeju-images-fallback.ts
   ├── fix-jeju-images.ts
@@ -670,10 +679,10 @@ Version: 1.0.0
 Last Updated: 2025-06-19
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 5ebd02e feat: comprehensive 우리몰 food product scraping and registration
+Last Commit: 9a824cf feat: register 참달성 food products with enhanced processing
 
 ### Project Statistics
-- Total Files: 275
+- Total Files: 284
 - Total Directories: 33
 - Shopping Malls: 99
 - Products: 109
