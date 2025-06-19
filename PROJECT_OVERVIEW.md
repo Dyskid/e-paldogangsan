@@ -83,6 +83,8 @@ scripts/
   │   │   ├── retry-scrape-summary.json
   │   ├── all-malls-analysis.json
   │   ├── all-malls-products.json
+  │   ├── category-cleanup-report.json
+  │   ├── category-products-analysis.json
   │   ├── chamds-analysis.json
   │   ├── chamds-homepage.html
   │   ├── chamds-products-_product_list.html.html
@@ -99,6 +101,7 @@ scripts/
   │   ├── ejeju-verification-report.json
   │   ├── gimhaemall-page.html
   │   ├── gimhaemall-real-products.json
+  │   ├── individual-products-verification-all-malls.json
   │   ├── integration-summary.json
   │   ├── jeju-image-fallback-summary.json
   │   ├── jeju-image-fix-summary.json
@@ -145,7 +148,9 @@ scripts/
   │   ├── ontongdaejeon-registration-summary.json
   │   ├── ontongdaejeon-scrape-summary.json
   │   ├── ontongdaejeon-verification-report.json
+  │   ├── products-backup-1750327814345.json
   │   ├── products-without-prices.txt
+  │   ├── unknown-mall-removal-summary.json
   │   ├── wemall-analysis.json
   │   ├── wemall-category-001.html
   │   ├── wemall-category-010.html
@@ -171,6 +176,7 @@ scripts/
   ├── check-jeju-titles.ts
   ├── check-price-status.js
   ├── classify-products.ts
+  ├── clean-category-products.ts
   ├── clean-extracted-titles.ts
   ├── clean-jeju-titles.ts
   ├── comprehensive-jeju-title-update.ts
@@ -194,6 +200,7 @@ scripts/
   ├── fix-jeju-prices.ts
   ├── fix-priority-malls.ts
   ├── fix-specific-jeju-titles.ts
+  ├── identify-category-products.ts
   ├── improve-scraped-titles.ts
   ├── integrate-final-jeju-products.ts
   ├── integrate-jeju-products.ts
@@ -209,6 +216,7 @@ scripts/
   ├── register-wemall-products.ts
   ├── remove-failed-jeju-products.ts
   ├── remove-jejumall.ts
+  ├── remove-unknown-mall-products.ts
   ├── retry-failed-malls.ts
   ├── scrape-all-jeju-products.ts
   ├── scrape-chamds-comprehensive.ts
@@ -244,6 +252,7 @@ scripts/
   ├── update-overview.ts
   ├── verify-chamds-registration.ts
   ├── verify-ejeju-products.ts
+  ├── verify-individual-products-all-malls.ts
   ├── verify-jejumall-removal.ts
   ├── verify-kkimchi-registration.ts
   ├── verify-ontongdaejeon-registration.ts
@@ -295,6 +304,7 @@ src/
   │   ├── categories.json
   │   ├── category-mapping.json
   │   ├── malls.json
+  │   ├── products-backup-1750328004702.json
   │   ├── products-sample.json
   │   ├── products.json
   │   ├── regions.json
@@ -364,7 +374,7 @@ Total: **99 shopping malls** across 17 regions
 }
 ```
 
-Total: **2119 products** with real data for featured malls
+Total: **53 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -632,12 +642,12 @@ Version: 1.0.0
 Last Updated: 2025-06-19
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 499969f docs: clean up backup files and add scraper command reference
+Last Commit: a93c947 feat: add 우리몰 individual product verification
 
 ### Project Statistics
-- Total Files: 241
+- Total Files: 251
 - Total Directories: 29
 - Shopping Malls: 99
-- Products: 2119
+- Products: 53
 - Regions: 17
 - Categories: 10
