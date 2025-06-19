@@ -57,8 +57,8 @@ backup/
   ├── claude command for phase1.txt
   ├── e-Paldogangsan Phase 1 MVP Specific.txt
   ├── mergedmalls.txt
-  ├── product_updating_todolist
   ├── Project Title e-Paldogangsan South.txt
+  ├── scrapercommand.txt
 scripts/
   ├── output/
   │   ├── batch-scrape/
@@ -630,7 +630,7 @@ Version: 1.0.0
 Last Updated: 2025-06-19
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 0d33953 feat: add 온통대전몰 대전사랑몰 (ontongdaejeon) integration
+Last Commit: f50a558 feat: filter 우리몰 products to food/agricultural only + 참달성 integration
 
 ### Project Statistics
 - Total Files: 239
