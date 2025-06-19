@@ -1,0 +1,14 @@
+{
+  "url": "https://chamds.com",
+  "title": "참달성",
+  "productSelectors": [],
+  "categoryLinks": [],
+  "totalProducts": 0,
+  "sampleProducts": [],
+  "structure": {
+    "hasProductGrid": false,
+    "hasCategories": false,
+    "paginationPresent": false,
+    "ajaxLoading": true
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "totalProducts": 119,
+  "dataQuality": {
+    "withTitles": 116,
+    "withPrices": 104,
+    "withImages": 116,
+    "withProductUrls": 119,
+    "withCategories": 119,
+    "withValidPrices": 104,
+    "withDiscounts": 99,
+    "withoutTitles": 3
+  },
+  "categories": {
+    "가공식품": 119
+  },
+  "priceRange": {
+    "min": 6300,
+    "max": 47880,
+    "average": 17201.240384615383
+  },
+  "sampleProducts": [
+    {
+      "id": "kkimchi-24",
+      "title": "[국내산]100% 묵은지 3kg",
+      "price": 16740,
+      "originalPrice": 18600,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasProductUrl": true,
+      "isFeatured": false
+    },
+    {
+      "id": "kkimchi-94",
+      "title": "묵은지",
+      "price": 20790,
+      "originalPrice": 23100,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasProductUrl": true,
+      "isFeatured": false
+    },
+    {
+      "id": "kkimchi-325",
+      "title": "운림가 50년전통 국내산 묵은지",
+      "price": 13775,
+      "originalPrice": 14500,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasProductUrl": true,
+      "isFeatured": false
+    },
+    {
+      "id": "kkimchi-317",
+      "title": "(제목 없음)",
+      "price": 0,
+      "category": "가공식품",
+      "hasImage": false,
+      "hasProductUrl": true,
+      "isFeatured": false
+    },
+    {
+      "id": "kkimchi-331",
+      "title": "(제목 없음)",
+      "price": 0,
+      "category": "가공식품",
+      "hasImage": false,
+      "hasProductUrl": true,
+      "isFeatured": false
+    },
+    {
+      "id": "kkimchi-272",
+      "title": "(제목 없음)",
+      "price": 0,
+      "category": "가공식품",
+      "hasImage": false,
+      "hasProductUrl": true,
+      "isFeatured": false
+    },
+    {
+      "id": "kkimchi-228",
+      "title": "배추김치 1.5kg",
+      "price": 15680,
+      "originalPrice": 22400,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasProductUrl": true,
+      "isFeatured": true
+    },
+    {
+      "id": "kkimchi-195",
+      "title": "포기김치 2kg / 3kg",
+      "price": 16030,
+      "originalPrice": 22900,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasProductUrl": true,
+      "isFeatured": true
+    },
+    {
+      "id": "kkimchi-182",
+      "title": "[국내산]100% 알싸한 갓김치1kg",
+      "price": 8890,
+      "originalPrice": 12700,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasProductUrl": true,
+      "isFeatured": true
+    },
+    {
+      "id": "kkimchi-61",
+      "title": "갓김치 1kg",
+      "price": 10500,
+      "originalPrice": 15000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasProductUrl": true,
+      "isFeatured": true
+    }
+  ],
+  "issues": [
+    "Product kkimchi-317 has missing title",
+    "Product kkimchi-317 has invalid price: 0",
+    "Product kkimchi-317 has invalid image URL",
+    "Product kkimchi-331 has missing title",
+    "Product kkimchi-331 has invalid price: 0",
+    "Product kkimchi-331 has invalid image URL",
+    "Product kkimchi-272 has missing title",
+    "Product kkimchi-272 has invalid price: 0",
+    "Product kkimchi-272 has invalid image URL",
+    "Product kkimchi-211 has invalid price: 0",
+    "Product kkimchi-212 has invalid price: 0",
+    "Product kkimchi-207 has invalid price: 0",
+    "Product kkimchi-215 has invalid price: 0",
+    "Product kkimchi-208 has invalid price: 0",
+    "Product kkimchi-214 has invalid price: 0",
+    "Product kkimchi-205 has invalid price: 0",
+    "Product kkimchi-229 has invalid price: 0",
+    "Product kkimchi-213 has invalid price: 0",
+    "Product kkimchi-209 has invalid price: 0",
+    "Product kkimchi-210 has invalid price: 0",
+    "Product kkimchi-206 has invalid price: 0"
+  ],
+  "featuredProducts": 36
+}

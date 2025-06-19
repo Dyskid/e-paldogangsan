@@ -1,0 +1,98 @@
+{
+  "totalProducts": 154,
+  "dataQuality": {
+    "withTitles": 154,
+    "withPrices": 131,
+    "withImages": 154,
+    "withExternalUrls": 154,
+    "withCategories": 154,
+    "withValidPrices": 131,
+    "featuredProducts": 44
+  },
+  "categories": {
+    "농축수산물": 12,
+    "생활용품": 73,
+    "가구/인테리어": 19,
+    "서비스": 24,
+    "사무용품": 20,
+    "가공식품": 4,
+    "기타": 2
+  },
+  "priceRange": {
+    "min": 10,
+    "max": 6860000,
+    "average": 116476.64122137404
+  },
+  "sampleProducts": [
+    {
+      "id": "wemall-4300714",
+      "title": "[류한욱통호밀농장] 호밀비건 스콘12종 직접재배 백년가게 [경북 소상공인 희망마켓30%할인]",
+      "price": 2500,
+      "category": "농축수산물",
+      "isFeatured": true,
+      "hasImage": true,
+      "hasExternalUrl": true
+    },
+    {
+      "id": "wemall-001",
+      "title": "[뚝배기식품] 재래식 된장 2.7kg",
+      "price": 44000,
+      "category": "농축수산물",
+      "isFeatured": true,
+      "hasImage": true,
+      "hasExternalUrl": true
+    },
+    {
+      "id": "wemall-10670068",
+      "title": "울릉허브 오식이 궁채 나물 장아찌 150g 줄기상추 절임",
+      "price": 4500,
+      "category": "농축수산물",
+      "isFeatured": true,
+      "hasImage": true,
+      "hasExternalUrl": true
+    },
+    {
+      "id": "wemall-4257526",
+      "title": "[뚝배기식품] 우리고향장맛 3종 선물세트",
+      "price": 34000,
+      "category": "농축수산물",
+      "isFeatured": true,
+      "hasImage": true,
+      "hasExternalUrl": true
+    },
+    {
+      "id": "wemall-19426385",
+      "title": "[뚝배기식품] 고추장 1kg",
+      "price": 23000,
+      "category": "농축수산물",
+      "isFeatured": true,
+      "hasImage": true,
+      "hasExternalUrl": true
+    }
+  ],
+  "issues": [
+    "Product wemall-14782028 has invalid price: 0",
+    "Product wemall-11157680 has invalid price: 0",
+    "Product wemall-6791248 has invalid price: 0",
+    "Product wemall-21060323 has invalid price: 0",
+    "Product wemall-wemall-039-5 has invalid price: 0",
+    "Product wemall-wemall-039-9 has invalid price: 0",
+    "Product wemall-wemall-040-0 has invalid price: 0",
+    "Product wemall-wemall-040-1 has invalid price: 0",
+    "Product wemall-wemall-040-2 has invalid price: 0",
+    "Product wemall-wemall-040-3 has invalid price: 0",
+    "Product wemall-wemall-040-4 has invalid price: 0",
+    "Product wemall-wemall-040-5 has invalid price: 0",
+    "Product wemall-wemall-040-6 has invalid price: 0",
+    "Product wemall-wemall-040-7 has invalid price: 0",
+    "Product wemall-wemall-040-8 has invalid price: 0",
+    "Product wemall-wemall-040-9 has invalid price: 0",
+    "Product wemall-wemall-040-10 has invalid price: 0",
+    "Product wemall-wemall-040-11 has invalid price: 0",
+    "Product wemall-wemall-005-3 has invalid price: 0",
+    "Product wemall-wemall-005-4 has invalid price: 0",
+    "Product wemall-wemall-005-5 has invalid price: 0",
+    "Product wemall-wemall-005-7 has invalid price: 0",
+    "Product wemall-wemall-006034-3 has invalid price: 0"
+  ]
+}

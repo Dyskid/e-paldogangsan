@@ -83,6 +83,13 @@ scripts/
   │   │   ├── retry-scrape-summary.json
   │   ├── all-malls-analysis.json
   │   ├── all-malls-products.json
+  │   ├── chamds-analysis.json
+  │   ├── chamds-homepage.html
+  │   ├── chamds-products-_product_list.html.html
+  │   ├── chamds-products.json
+  │   ├── chamds-registration-summary.json
+  │   ├── chamds-scrape-summary.json
+  │   ├── chamds-verification-report.json
   │   ├── ejeju-mall-products-comprehensive.json
   │   ├── ejeju-mall-products.json
   │   ├── ejeju-mall-summary-comprehensive.json
@@ -118,12 +125,37 @@ scripts/
   │   ├── jeju-real-images-summary.json
   │   ├── jeju-real-titles.json
   │   ├── jeju-title-update-report.json
+  │   ├── kkimchi-analysis.json
+  │   ├── kkimchi-category-_index.php_cate_004.html
+  │   ├── kkimchi-category-_index.php_cate_004001.html
+  │   ├── kkimchi-category-_index.php_cate_005.html
+  │   ├── kkimchi-category-_index.php_cate_005001.html
+  │   ├── kkimchi-category-_index.php_cate_005002.html
+  │   ├── kkimchi-category-_index.php_cate_005003.html
+  │   ├── kkimchi-category-_index.php_cate_006.html
+  │   ├── kkimchi-homepage.html
+  │   ├── kkimchi-products.json
+  │   ├── kkimchi-registration-summary.json
+  │   ├── kkimchi-scrape-summary.json
+  │   ├── kkimchi-verification-report.json
+  │   ├── products-without-prices.txt
+  │   ├── wemall-analysis.json
+  │   ├── wemall-category-001.html
+  │   ├── wemall-category-010.html
+  │   ├── wemall-homepage.html
+  │   ├── wemall-products.json
+  │   ├── wemall-registration-summary.json
+  │   ├── wemall-scrape-summary.json
+  │   ├── wemall-verification-report.json
   ├── analyze-all-malls.ts
+  ├── analyze-chamds-structure.ts
   ├── analyze-ejeju-mall-structure.ts
   ├── analyze-gimhaemall-structure.ts
   ├── analyze-jeju-mall-ajax.ts
   ├── analyze-jeju-mall-structure.ts
   ├── analyze-jeju-mall.ts
+  ├── analyze-kkimchi-structure.ts
+  ├── analyze-wemall-structure.ts
   ├── batch-scrape-all-malls.ts
   ├── check-jeju-titles.ts
   ├── check-price-status.js
@@ -133,6 +165,9 @@ scripts/
   ├── comprehensive-jeju-title-update.ts
   ├── create-jeju-products-dataset.ts
   ├── enrich-jeju-products.ts
+  ├── explore-chamds-categories.ts
+  ├── explore-kkimchi-categories.ts
+  ├── explore-kkimchi-shop.ts
   ├── extract-jeju-mall-urls.ts
   ├── extract-real-jeju-titles.ts
   ├── fetch-real-jeju-images-axios.ts
@@ -153,12 +188,16 @@ scripts/
   ├── README.md
   ├── register-all-mall-products.ts
   ├── register-batch-products.ts
+  ├── register-chamds-products.ts
   ├── register-ejeju-products.ts
+  ├── register-kkimchi-products.ts
   ├── register-retry-products.ts
+  ├── register-wemall-products.ts
   ├── remove-failed-jeju-products.ts
   ├── remove-jejumall.ts
   ├── retry-failed-malls.ts
   ├── scrape-all-jeju-products.ts
+  ├── scrape-chamds-comprehensive.ts
   ├── scrape-ejeju-mall-accurate.ts
   ├── scrape-ejeju-mall-comprehensive.ts
   ├── scrape-ejeju-mall-simple.ts
@@ -174,14 +213,23 @@ scripts/
   ├── scrape-jeju-mall-simple.ts
   ├── scrape-jeju-mall.ts
   ├── scrape-jeju-products-from-urls.ts
+  ├── scrape-kkimchi-comprehensive.ts
   ├── scrape-missing-jeju-titles.ts
+  ├── scrape-wemall-comprehensive.ts
+  ├── scrape-wemall-priority.ts
+  ├── test-chamds-product-pages.ts
   ├── test-ejeju-fetch.ts
   ├── test-jeju-title-puppeteer.ts
   ├── test-jeju-title.ts
   ├── test-specific-url.ts
+  ├── test-wemall-category.ts
+  ├── test-wemall-food-category.ts
   ├── update-overview.ts
+  ├── verify-chamds-registration.ts
   ├── verify-ejeju-products.ts
   ├── verify-jejumall-removal.ts
+  ├── verify-kkimchi-registration.ts
+  ├── verify-wemall-registration.ts
 src/
   ├── app/
   │   ├── about/
@@ -296,7 +344,7 @@ Total: **99 shopping malls** across 17 regions
 }
 ```
 
-Total: **1925 products** with real data for featured malls
+Total: **2220 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -561,15 +609,15 @@ Version: 1.0.0
 
 ---
 
-Last Updated: 2025-06-14
+Last Updated: 2025-06-19
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 9a30b43 fix: exclude scripts folder from TypeScript compilation for Vercel
+Last Commit: 7b6bf5e feat: add comprehensive mall scraping scripts and output data
 
 ### Project Statistics
-- Total Files: 173
+- Total Files: 221
 - Total Directories: 29
 - Shopping Malls: 99
-- Products: 1925
+- Products: 2220
 - Regions: 17
 - Categories: 10
