@@ -149,6 +149,8 @@ scripts/
   │   ├── wemall-analysis.json
   │   ├── wemall-category-001.html
   │   ├── wemall-category-010.html
+  │   ├── wemall-food-filter-summary.json
+  │   ├── wemall-food-verification-report.json
   │   ├── wemall-homepage.html
   │   ├── wemall-products.json
   │   ├── wemall-registration-summary.json
@@ -182,6 +184,7 @@ scripts/
   ├── fetch-real-jeju-images-axios.ts
   ├── fetch-real-jeju-images.ts
   ├── fetch-real-jeju-titles.ts
+  ├── filter-wemall-food-products.ts
   ├── final-verification.ts
   ├── find-remaining-issue.ts
   ├── fix-final-generic-title.ts
@@ -243,6 +246,7 @@ scripts/
   ├── verify-jejumall-removal.ts
   ├── verify-kkimchi-registration.ts
   ├── verify-ontongdaejeon-registration.ts
+  ├── verify-wemall-food-products.ts
   ├── verify-wemall-registration.ts
 src/
   ├── app/
@@ -358,7 +362,7 @@ Total: **99 shopping malls** across 17 regions
 }
 ```
 
-Total: **2257 products** with real data for featured malls
+Total: **2119 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -626,12 +630,12 @@ Version: 1.0.0
 Last Updated: 2025-06-19
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 2eb1aa6 feat: add 광주김치몰 (kkimchi) comprehensive integration
+Last Commit: 0d33953 feat: add 온통대전몰 대전사랑몰 (ontongdaejeon) integration
 
 ### Project Statistics
-- Total Files: 235
+- Total Files: 239
 - Total Directories: 29
 - Shopping Malls: 99
-- Products: 2257
+- Products: 2119
 - Regions: 17
 - Categories: 10
