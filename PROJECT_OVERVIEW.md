@@ -66,14 +66,17 @@ scripts/
   │   │   ├── fix-chamds-images-real.js
   │   │   ├── fix-chamds-images.js
   │   │   ├── register-chamds-food-products.js
+  │   │   ├── register-kkimchi-food-products.js
   │   │   ├── register-wemall-food-products.js
   │   │   ├── scrape-wemall-food-final.js
   │   │   ├── verify-chamds-food-registration.js
+  │   │   ├── verify-kkimchi-food-registration.js
   │   │   ├── verify-wemall-food-registration.js
   │   ├── src/
   │   │   ├── types/
   │   │   │   ├── index.js
   │   ├── scrape-chamds-comprehensive.js
+  │   ├── scrape-kkimchi-comprehensive.js
   │   ├── scrape-wemall-food-comprehensive.js
   │   ├── scrape-wemall-food-final.js
   │   ├── test-wemall-food-category.js
@@ -158,6 +161,8 @@ scripts/
   │   ├── kkimchi-category-_index.php_cate_005002.html
   │   ├── kkimchi-category-_index.php_cate_005003.html
   │   ├── kkimchi-category-_index.php_cate_006.html
+  │   ├── kkimchi-food-registration-summary.json
+  │   ├── kkimchi-food-verification-final.json
   │   ├── kkimchi-homepage.html
   │   ├── kkimchi-products.json
   │   ├── kkimchi-registration-summary.json
@@ -242,6 +247,7 @@ scripts/
   ├── register-chamds-food-products.ts
   ├── register-chamds-products.ts
   ├── register-ejeju-products.ts
+  ├── register-kkimchi-food-products.ts
   ├── register-kkimchi-products.ts
   ├── register-ontongdaejeon-products.ts
   ├── register-retry-products.ts
@@ -290,6 +296,7 @@ scripts/
   ├── verify-ejeju-products.ts
   ├── verify-individual-products-all-malls.ts
   ├── verify-jejumall-removal.ts
+  ├── verify-kkimchi-food-registration.ts
   ├── verify-kkimchi-registration.ts
   ├── verify-ontongdaejeon-registration.ts
   ├── verify-wemall-food-products.ts
@@ -411,7 +418,7 @@ Total: **99 shopping malls** across 17 regions
 }
 ```
 
-Total: **109 products** with real data for featured malls
+Total: **213 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -679,12 +686,12 @@ Version: 1.0.0
 Last Updated: 2025-06-19
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 9a824cf feat: register 참달성 food products with enhanced processing
+Last Commit: 7a0905b fix: resolve 참달성 product image URL format issues
 
 ### Project Statistics
-- Total Files: 284
+- Total Files: 291
 - Total Directories: 33
 - Shopping Malls: 99
-- Products: 109
+- Products: 213
 - Regions: 17
 - Categories: 10

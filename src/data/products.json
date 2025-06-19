@@ -432,6 +432,2705 @@
     }
   },
   {
+    "id": "kkimchi-12",
+    "name": "총각김치",
+    "price": 27450,
+    "originalPrice": 30500,
+    "image": "https://www.k-kimchi.kr/user/default/data/2023/04/m-_16824825370.4641480016824825370.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004012&type=view&num=12#module",
+    "description": "총각김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-13",
+    "name": "열무김치",
+    "price": 26010,
+    "originalPrice": 28900,
+    "image": "https://www.k-kimchi.kr/user/default/data/2023/04/m-_16814499640.5302230016814499640.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004011&type=view&num=13#module",
+    "description": "열무김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-14",
+    "name": "깍두기",
+    "price": 22410,
+    "originalPrice": 24900,
+    "image": "https://www.k-kimchi.kr/user/default/data/2023/04/m-_16814498930.0553490016814498930.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004001&type=view&num=14#module",
+    "description": "깍두기",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-150",
+    "name": "[국내산]100% 열무자박이김치 2kg",
+    "price": 14400,
+    "originalPrice": 16000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/06/m-_17175701630.7814450017175701630.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004011&type=view&num=150#module",
+    "description": "[국내산]100% 열무자박이김치 2kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-153",
+    "name": "[국내산]100% 부추김치 1kg",
+    "price": 9180,
+    "originalPrice": 10200,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/06/m-_17175731900.5021010017175731900.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004007&type=view&num=153#module",
+    "description": "[국내산]100% 부추김치 1kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-162",
+    "name": "깍두기",
+    "price": 19530,
+    "originalPrice": 27900,
+    "image": "https://www.k-kimchi.kr/user/default/data/2023/04/m-copy_17193656950.546478001719365695.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005003&type=view&num=162#module",
+    "description": "깍두기",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-163",
+    "name": "열무김치",
+    "price": 22330,
+    "originalPrice": 31900,
+    "image": "https://www.k-kimchi.kr/user/default/data/2023/04/m-copy_17193660200.987567001719366020.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005003&type=view&num=163#module",
+    "description": "열무김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-166",
+    "name": "총각김치",
+    "price": 22890,
+    "originalPrice": 32700,
+    "image": "https://www.k-kimchi.kr/user/default/data/2023/04/m-copy_17193663580.713075001719366358.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005003&type=view&num=166#module",
+    "description": "총각김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-167",
+    "name": "배추김치",
+    "price": 27720,
+    "originalPrice": 39600,
+    "image": "https://www.k-kimchi.kr/user/default/data/2023/04/m-copy_17193664640.529090001719366464.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005001&type=view&num=167#module",
+    "description": "배추김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-175",
+    "name": "[국내산]100% 한입 석박지 1kg",
+    "price": 6860,
+    "originalPrice": 9800,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/06/m-copy_17193797820.838762001719379782.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005003&type=view&num=175#module",
+    "description": "[국내산]100% 한입 석박지 1kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-176",
+    "name": "[국내산]100% 아삭깍두기 1kg",
+    "price": 6580,
+    "originalPrice": 9400,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-copy_17193798620.794210001719379862.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005003&type=view&num=176#module",
+    "description": "[국내산]100% 아삭깍두기 1kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-182",
+    "name": "[국내산]100% 알싸한 갓김치1kg",
+    "price": 8890,
+    "originalPrice": 12700,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/06/m-copy_17193801090.390273001719380109.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005003&type=view&num=182#module",
+    "description": "[국내산]100% 알싸한 갓김치1kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-185",
+    "name": "[진선 소담채] 갓김치",
+    "price": 19620,
+    "originalPrice": 21800,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/12/m-_17333628790.2407370017333628791.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004003&type=view&num=185#module",
+    "description": "[진선 소담채] 갓김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-187",
+    "name": "[진선 소담채] 총각김치",
+    "price": 17460,
+    "originalPrice": 19400,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/06/m-_17194646420.3746000017194646420.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004012&type=view&num=187#module",
+    "description": "[진선 소담채] 총각김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-19",
+    "name": "누룩발효알타리(총각)김치 1kg",
+    "price": 8000,
+    "originalPrice": 10000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038479260.6102960016038479260.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004012&type=view&num=19#module",
+    "description": "누룩발효알타리(총각)김치 1kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-195",
+    "name": "포기김치 2kg / 3kg",
+    "price": 16030,
+    "originalPrice": 22900,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/12/m-copy_17193888530.217104001719388853.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005001&type=view&num=195#module",
+    "description": "포기김치 2kg / 3kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-20",
+    "name": "누룩발효파김치",
+    "price": 22500,
+    "originalPrice": 25000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038480020.3592440016038480020.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004013&type=view&num=20#module",
+    "description": "누룩발효파김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-21",
+    "name": "열무김치",
+    "price": 12150,
+    "originalPrice": 13500,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038480790.5202630016038480790.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004011&type=view&num=21#module",
+    "description": "열무김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-219",
+    "name": "열무김치",
+    "price": 13104,
+    "originalPrice": 18720,
+    "image": "https://www.k-kimchi.kr/user/default/data/2021/07/m-copy_17194665640.120515001719466564.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005003&type=view&num=219#module",
+    "description": "열무김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-22",
+    "name": "단호박 백김치",
+    "price": 7200,
+    "originalPrice": 8000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038481560.1526210016038481560.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004005&type=view&num=22#module",
+    "description": "단호박 백김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-223",
+    "name": "파김치",
+    "price": 16380,
+    "originalPrice": 23400,
+    "image": "https://www.k-kimchi.kr/user/default/data/2021/07/m-copy_17194667150.772720001719466715.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005003&type=view&num=223#module",
+    "description": "파김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-224",
+    "name": "총각김치",
+    "price": 13692,
+    "originalPrice": 19560,
+    "image": "https://www.k-kimchi.kr/user/default/data/2021/07/m-copy_17194667440.557272001719466744.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005003&type=view&num=224#module",
+    "description": "총각김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-225",
+    "name": "갓김치",
+    "price": 13692,
+    "originalPrice": 19560,
+    "image": "https://www.k-kimchi.kr/user/default/data/2021/07/m-copy_17194667810.390520001719466781.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005003&type=view&num=225#module",
+    "description": "갓김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-228",
+    "name": "배추김치 1.5kg",
+    "price": 15680,
+    "originalPrice": 22400,
+    "image": "https://www.k-kimchi.kr/user/default/data/2021/07/m-copy_17194669130.757258001719466913.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005001&type=view&num=228#module",
+    "description": "배추김치 1.5kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-231",
+    "name": "배추김치",
+    "price": 16800,
+    "originalPrice": 24000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2023/04/m-copy_17194794390.420107001719479439.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005001&type=view&num=231#module",
+    "description": "배추김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-232",
+    "name": "맛김치",
+    "price": 27300,
+    "originalPrice": 39000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-copy_17194794450.319474001719479445.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005003&type=view&num=232#module",
+    "description": "맛김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-237",
+    "name": "누룩발효 배추김치",
+    "price": 9100,
+    "originalPrice": 13000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2021/06/m-copy_17195536230.771187001719553623.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005001&type=view&num=237#module",
+    "description": "누룩발효 배추김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-238",
+    "name": "열무김치",
+    "price": 6300,
+    "originalPrice": 9000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-copy_17195537010.902304001719553701.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005003&type=view&num=238#module",
+    "description": "열무김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-24",
+    "name": "[국내산]100% 묵은지 3kg",
+    "price": 16740,
+    "originalPrice": 18600,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/06/m-_17175679050.0048780017175679050.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=003&type=view&num=24#module",
+    "description": "[국내산]100% 묵은지 3kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "포기김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-240",
+    "name": "단호박 백김치",
+    "price": 11900,
+    "originalPrice": 17000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-copy_17195537130.318302001719553713.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005003&type=view&num=240#module",
+    "description": "단호박 백김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-242",
+    "name": "프락토올리고당 배추김치",
+    "price": 9100,
+    "originalPrice": 13000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2021/06/m-copy_17195551280.435336001719555128.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005001&type=view&num=242#module",
+    "description": "프락토올리고당 배추김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-243",
+    "name": "운림가 50년전통 오이소박이",
+    "price": 15675,
+    "originalPrice": 16500,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/06/m-_17195557100.2250940017195557100.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004010&type=view&num=243#module",
+    "description": "운림가 50년전통 오이소박이",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-244",
+    "name": "운림가 50년전통 열무물김치",
+    "price": 13775,
+    "originalPrice": 14500,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/06/m-_17195565990.6143980017195565990.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004011&type=view&num=244#module",
+    "description": "운림가 50년전통 열무물김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-245",
+    "name": "운림가 50년전통 열무김치",
+    "price": 12825,
+    "originalPrice": 13500,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/06/m-_17195576210.1620420017195576210.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004011&type=view&num=245#module",
+    "description": "운림가 50년전통 열무김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-249",
+    "name": "깍두기",
+    "price": 23030,
+    "originalPrice": 32900,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-copy_17196633090.676030001719663309.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005003&type=view&num=249#module",
+    "description": "깍두기",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-250",
+    "name": "아삭하고 시원한 전라도 열무김치",
+    "price": 9730,
+    "originalPrice": 13900,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-copy_17196635060.095808001719663506.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005003&type=view&num=250#module",
+    "description": "아삭하고 시원한 전라도 열무김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-251",
+    "name": "포기김치 3kg",
+    "price": 21630,
+    "originalPrice": 30900,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-copy_17196638000.427519001719663800.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005001&type=view&num=251#module",
+    "description": "포기김치 3kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-253",
+    "name": "운림가 50년전통 총각김치",
+    "price": 12255,
+    "originalPrice": 12900,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/06/m-_17197525380.5350690017197525380.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004012&type=view&num=253#module",
+    "description": "운림가 50년전통 총각김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-254",
+    "name": "운림가 50년전통 갓김치",
+    "price": 13775,
+    "originalPrice": 14500,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/06/m-_17197531300.3638910017197531300.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004003&type=view&num=254#module",
+    "description": "운림가 50년전통 갓김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-257",
+    "name": "운림가 50년전통 열무얼갈이김치",
+    "price": 12825,
+    "originalPrice": 13500,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/06/m-_17197543210.3591150017197543210.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004011&type=view&num=257#module",
+    "description": "운림가 50년전통 열무얼갈이김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-258",
+    "name": "운림가 50년전통 알배추겉절이",
+    "price": 13050,
+    "originalPrice": 14500,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/06/m-_17197547010.1597890017197547010.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004&type=view&num=258#module",
+    "description": "운림가 50년전통 알배추겉절이",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-26",
+    "name": "[국내산]100%총각알타리김치 1kg",
+    "price": 8550,
+    "originalPrice": 9500,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/06/m-_17175684630.8343340017175684630.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004012&type=view&num=26#module",
+    "description": "[국내산]100%총각알타리김치 1kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-264",
+    "name": "[국내산]100% 칼칼한열무물김치2kg",
+    "price": 10800,
+    "originalPrice": 12000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/06/m-copy_17199876550.917439001719987655.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004011&type=view&num=264#module",
+    "description": "[국내산]100% 칼칼한열무물김치2kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-266",
+    "name": "국내산 프리미엄 수제 갓김치 2kg",
+    "price": 28000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/07/m-_17201454470.2536740017201454470.jpeg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004003&type=view&num=266#module",
+    "description": "국내산 프리미엄 수제 갓김치 2kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-267",
+    "name": "국내산 프리미엄 전라도식 총각김치 2kg",
+    "price": 24000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/07/m-_17201455140.1237610017201455140.jpeg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004012&type=view&num=267#module",
+    "description": "국내산 프리미엄 전라도식 총각김치 2kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-27",
+    "name": "[국내산]100% 여린열무김치 1kg",
+    "price": 8640,
+    "originalPrice": 9600,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/06/m-_17175687100.2893390017175687100.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004011&type=view&num=27#module",
+    "description": "[국내산]100% 여린열무김치 1kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-28",
+    "name": "[국내산]100% 칼칼한열무물김치2kg",
+    "price": 8400,
+    "originalPrice": 12000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/06/m-_17175691140.0276260017175691140.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005003&type=view&num=28#module",
+    "description": "[국내산]100% 칼칼한열무물김치2kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-29",
+    "name": "[국내산]100% 알싸한 갓김치1kg",
+    "price": 9900,
+    "originalPrice": 11000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/06/m-_17175693090.6158510017175693090.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004003&type=view&num=29#module",
+    "description": "[국내산]100% 알싸한 갓김치1kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-30",
+    "name": "[국내산]100% 아삭깍두기 1kg",
+    "price": 8460,
+    "originalPrice": 9400,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038519880.8138070016038519880.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004001&type=view&num=30#module",
+    "description": "[국내산]100% 아삭깍두기 1kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-31",
+    "name": "[국내산]100% 한입 석박지 1kg",
+    "price": 8820,
+    "originalPrice": 9800,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/06/m-_17175698230.8729550017175698230.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004008&type=view&num=31#module",
+    "description": "[국내산]100% 한입 석박지 1kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-319",
+    "name": "누룩발효알타리(총각)김치 용기",
+    "price": 7000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2025/03/m-_17423667220.0887960017423667220.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004012&type=view&num=319#module",
+    "description": "누룩발효알타리(총각)김치 용기",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-32",
+    "name": "[국내산]100% 파김치 1kg",
+    "price": 15570,
+    "originalPrice": 17300,
+    "image": "https://www.k-kimchi.kr/user/default/data/2024/06/m-_17175673060.1079210017175673060.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004013&type=view&num=32#module",
+    "description": "[국내산]100% 파김치 1kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-321",
+    "name": "단호박 백김치 용기",
+    "price": 6800,
+    "image": "https://www.k-kimchi.kr/user/default/data/2025/03/m-_17423667310.6805280017423667310.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004005&type=view&num=321#module",
+    "description": "단호박 백김치 용기",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-322",
+    "name": "누룩발효갓김치 용기",
+    "price": 8500,
+    "image": "https://www.k-kimchi.kr/user/default/data/2025/03/m-_17423667440.2464780017423667440.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004003&type=view&num=322#module",
+    "description": "누룩발효갓김치 용기",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-325",
+    "name": "운림가 50년전통 국내산 묵은지",
+    "price": 13775,
+    "originalPrice": 14500,
+    "image": "https://www.k-kimchi.kr/user/default/data/2025/04/m-_17434919510.5230110017434919510.png",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=003&type=view&num=325#module",
+    "description": "운림가 50년전통 국내산 묵은지",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "포기김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-326",
+    "name": "운림가 50년전통 전라도 국산 파김치",
+    "price": 19475,
+    "originalPrice": 20500,
+    "image": "https://www.k-kimchi.kr/user/default/data/2025/04/m-_17434925370.9595620017434925370.png",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004013&type=view&num=326#module",
+    "description": "운림가 50년전통 전라도 국산 파김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-332",
+    "name": "갓김치 1kg",
+    "price": 13500,
+    "originalPrice": 15000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-copy_17447789320.920222001744778932.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004003&type=view&num=332#module",
+    "description": "갓김치 1kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-333",
+    "name": "아삭하고 시원한 전라도 열무김치",
+    "price": 12510,
+    "originalPrice": 13900,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-copy_17448665900.352753001744866590.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004011&type=view&num=333#module",
+    "description": "아삭하고 시원한 전라도 열무김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-37",
+    "name": "갓김치 1kg",
+    "price": 14670,
+    "originalPrice": 16300,
+    "image": "https://www.k-kimchi.kr/user/default/data/2021/07/m-_16257070060.1646520016257070060.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004003&type=view&num=37#module",
+    "description": "갓김치 1kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-38",
+    "name": "총각김치",
+    "price": 14670,
+    "originalPrice": 16300,
+    "image": "https://www.k-kimchi.kr/user/default/data/2021/07/m-_16257060220.3769370016257060220.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004012&type=view&num=38#module",
+    "description": "총각김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-39",
+    "name": "파김치",
+    "price": 17550,
+    "originalPrice": 19500,
+    "image": "https://www.k-kimchi.kr/user/default/data/2021/07/m-_16257059700.8479820016257059700.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004013&type=view&num=39#module",
+    "description": "파김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-40",
+    "name": "보쌈김치",
+    "price": 22815,
+    "originalPrice": 25350,
+    "image": "https://www.k-kimchi.kr/user/default/data/2021/07/m-_16257059210.0533340016257059210.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004006&type=view&num=40#module",
+    "description": "보쌈김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-41",
+    "name": "깍두기",
+    "price": 12330,
+    "originalPrice": 13700,
+    "image": "https://www.k-kimchi.kr/user/default/data/2021/07/m-_16257058520.7732030016257058520.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004001&type=view&num=41#module",
+    "description": "깍두기",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-42",
+    "name": "백김치 2kg",
+    "price": 20106,
+    "originalPrice": 22340,
+    "image": "https://www.k-kimchi.kr/user/default/data/2021/07/m-_16257055090.6094840016257055090.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004005&type=view&num=42#module",
+    "description": "백김치 2kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-43",
+    "name": "열무김치",
+    "price": 14040,
+    "originalPrice": 15600,
+    "image": "https://www.k-kimchi.kr/user/default/data/2021/07/m-_16257033380.3569900016257033380.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004011&type=view&num=43#module",
+    "description": "열무김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-45",
+    "name": "맛김치",
+    "price": 35100,
+    "originalPrice": 39000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038614330.5827500016038614330.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004004&type=view&num=45#module",
+    "description": "맛김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-46",
+    "name": "파프리카백김치",
+    "price": 31320,
+    "originalPrice": 34800,
+    "image": "https://www.k-kimchi.kr/user/default/data/2023/11/m-_17001098290.2690940017001098290.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004005&type=view&num=46#module",
+    "description": "파프리카백김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-47",
+    "name": "총각김치",
+    "price": 37710,
+    "originalPrice": 41900,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038615260.6894450016038615260.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004012&type=view&num=47#module",
+    "description": "총각김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-48",
+    "name": "깍두기",
+    "price": 34200,
+    "originalPrice": 38000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038615780.2713990016038615780.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004001&type=view&num=48#module",
+    "description": "깍두기",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-49",
+    "name": "갓김치",
+    "price": 47880,
+    "originalPrice": 53200,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038616580.6607820016038616580.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004003&type=view&num=49#module",
+    "description": "갓김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-50",
+    "name": "열무김치",
+    "price": 38610,
+    "originalPrice": 42900,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038617950.6550660016038617950.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004011&type=view&num=50#module",
+    "description": "열무김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-51",
+    "name": "파김치",
+    "price": 18900,
+    "originalPrice": 21000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038618370.5145950016038618370.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004013&type=view&num=51#module",
+    "description": "파김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-55",
+    "name": "총각김치 1kg",
+    "price": 11970,
+    "originalPrice": 13300,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038649580.3658270016038649580.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004012&type=view&num=55#module",
+    "description": "총각김치 1kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-56",
+    "name": "백김치 2kg",
+    "price": 16020,
+    "originalPrice": 17800,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038650390.0657480016038650390.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004005&type=view&num=56#module",
+    "description": "백김치 2kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-57",
+    "name": "깍두기 1kg",
+    "price": 8370,
+    "originalPrice": 9300,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038650990.2823040016038650990.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004001&type=view&num=57#module",
+    "description": "깍두기 1kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-58",
+    "name": "석박지 1kg",
+    "price": 7200,
+    "originalPrice": 8000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038651820.7009530016038651820.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004008&type=view&num=58#module",
+    "description": "석박지 1kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-59",
+    "name": "맛김치",
+    "price": 17280,
+    "originalPrice": 19200,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038652590.1583360016038652590.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004004&type=view&num=59#module",
+    "description": "맛김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-60",
+    "name": "열무김치 2kg,3kg",
+    "price": 15200,
+    "originalPrice": 19000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038653430.8430130016038653430.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004011&type=view&num=60#module",
+    "description": "열무김치 2kg,3kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-61",
+    "name": "갓김치 1kg",
+    "price": 10500,
+    "originalPrice": 15000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038654220.5401420016038654220.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=005003&type=view&num=61#module",
+    "description": "갓김치 1kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "30%할인전"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-63",
+    "name": "파김치 1kg,2kg,3kg",
+    "price": 15030,
+    "originalPrice": 16700,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038655990.4436940016038655990.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004013&type=view&num=63#module",
+    "description": "파김치 1kg,2kg,3kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-67",
+    "name": "갓김치",
+    "price": 20700,
+    "originalPrice": 23000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2023/04/m-_16814510580.0633390016814510580.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004003&type=view&num=67#module",
+    "description": "갓김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-68",
+    "name": "총각김치",
+    "price": 17100,
+    "originalPrice": 19000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2023/04/m-_16814508820.9187440016814508820.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004012&type=view&num=68#module",
+    "description": "총각김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-69",
+    "name": "보쌈무김치",
+    "price": 15300,
+    "originalPrice": 17000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038679090.7024850016038679090.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004006&type=view&num=69#module",
+    "description": "보쌈무김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-71",
+    "name": "백김치",
+    "price": 17100,
+    "originalPrice": 19000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2023/04/m-_16814510170.2401480016814510170.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004005&type=view&num=71#module",
+    "description": "백김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-73",
+    "name": "깍두기",
+    "price": 15300,
+    "originalPrice": 17000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038681400.2656900016038681400.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004001&type=view&num=73#module",
+    "description": "깍두기",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-76",
+    "name": "총각김치 1kg 2kg 3kg 5kg",
+    "price": 10320,
+    "originalPrice": 12900,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038700260.6596930016038700260.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004012&type=view&num=76#module",
+    "description": "총각김치 1kg 2kg 3kg 5kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-78",
+    "name": "깍두기",
+    "price": 31500,
+    "originalPrice": 35000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038701980.0078770016038701980.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004001&type=view&num=78#module",
+    "description": "깍두기",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-79",
+    "name": "알싸한 돌산 갓김치 1kg 2kg 3kg 5kg",
+    "price": 10320,
+    "originalPrice": 12900,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038702670.3471180016038702670.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004003&type=view&num=79#module",
+    "description": "알싸한 돌산 갓김치 1kg 2kg 3kg 5kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-80",
+    "name": "알싸한 전라도 파김치 1kg 2kg 3kg 5kg",
+    "price": 15210,
+    "originalPrice": 16900,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038703120.6701720016038703120.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004013&type=view&num=80#module",
+    "description": "알싸한 전라도 파김치 1kg 2kg 3kg 5kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-85",
+    "name": "총각김치",
+    "price": 21240,
+    "originalPrice": 23600,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038735130.5471790016038735130.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004012&type=view&num=85#module",
+    "description": "총각김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-86",
+    "name": "열무김치 2kg",
+    "price": 20790,
+    "originalPrice": 23100,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038737660.1981460016038737660.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004011&type=view&num=86#module",
+    "description": "열무김치 2kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-87",
+    "name": "돌산갓김치",
+    "price": 22770,
+    "originalPrice": 25300,
+    "image": "https://www.k-kimchi.kr/user/default/data/2023/04/m-_16814508140.6739890016814508140.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004003&type=view&num=87#module",
+    "description": "돌산갓김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-88",
+    "name": "파김치",
+    "price": 43920,
+    "originalPrice": 48800,
+    "image": "https://www.k-kimchi.kr/user/default/data/2023/04/m-_16814503650.4995350016814503650.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004013&type=view&num=88#module",
+    "description": "파김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-89",
+    "name": "깻잎김치 1kg",
+    "price": 20790,
+    "originalPrice": 23100,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038743530.3760680016038743530.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004002&type=view&num=89#module",
+    "description": "깻잎김치 1kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-90",
+    "name": "백김치",
+    "price": 25200,
+    "originalPrice": 28000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038744270.6644380016038744270.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004005&type=view&num=90#module",
+    "description": "백김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-91",
+    "name": "깍두기",
+    "price": 16830,
+    "originalPrice": 18700,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038745090.0089600016038745090.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004001&type=view&num=91#module",
+    "description": "깍두기",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-92",
+    "name": "열무물김치 2kg",
+    "price": 20790,
+    "originalPrice": 23100,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038745840.7063650016038745840.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004011&type=view&num=92#module",
+    "description": "열무물김치 2kg",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-93",
+    "name": "오이소박이",
+    "price": 24750,
+    "originalPrice": 27500,
+    "image": "https://www.k-kimchi.kr/user/default/data/2023/04/m-_16814503130.7115400016814503130.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004010&type=view&num=93#module",
+    "description": "오이소박이",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-94",
+    "name": "묵은지",
+    "price": 20790,
+    "originalPrice": 23100,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038747250.0625680016038747250.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=003&type=view&num=94#module",
+    "description": "묵은지",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "포기김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-95",
+    "name": "부추김치",
+    "price": 22770,
+    "originalPrice": 25300,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038748300.5053590016038748300.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004007&type=view&num=95#module",
+    "description": "부추김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-96",
+    "name": "깻잎김치",
+    "price": 18810,
+    "originalPrice": 20900,
+    "image": "https://www.k-kimchi.kr/user/default/data/2023/11/m-_17001096950.2823140017001096950.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004002&type=view&num=96#module",
+    "description": "깻잎김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-97",
+    "name": "석박지",
+    "price": 15120,
+    "originalPrice": 16800,
+    "image": "https://www.k-kimchi.kr/user/default/data/2023/11/m-_17001100570.3547260017001100570.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004008&type=view&num=97#module",
+    "description": "석박지",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-98",
+    "name": "보쌈김치",
+    "price": 21600,
+    "originalPrice": 24000,
+    "image": "https://www.k-kimchi.kr/user/default/data/2020/12/m-_16074120730.5336370016074120730.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004006&type=view&num=98#module",
+    "description": "보쌈김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
+    "id": "kkimchi-99",
+    "name": "부추김치",
+    "price": 10170,
+    "originalPrice": 11300,
+    "image": "https://www.k-kimchi.kr/user/default/data/2023/11/m-_17001098670.8553070017001098670.jpg",
+    "category": "가공식품",
+    "region": "광주광역시",
+    "url": "https://www.k-kimchi.kr/index.php?cate=004007&type=view&num=99#module",
+    "description": "부추김치",
+    "tags": [
+      "김치",
+      "발효식품",
+      "전통식품",
+      "광주김치",
+      "별미김치"
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "mall": {
+      "mallId": "kkimchi",
+      "mallName": "광주김치몰",
+      "mallUrl": "https://www.k-kimchi.kr",
+      "region": "광주광역시"
+    }
+  },
+  {
     "id": "ontongdaejeon-100116484",
     "name": "[장어총각] 대물 풍천장어 1kg (손질 후 650g내외/2~3인분)소스2종",
     "price": 0,
