@@ -138,6 +138,13 @@ scripts/
   │   ├── kkimchi-registration-summary.json
   │   ├── kkimchi-scrape-summary.json
   │   ├── kkimchi-verification-report.json
+  │   ├── ontongdaejeon-analysis.json
+  │   ├── ontongdaejeon-homepage.html
+  │   ├── ontongdaejeon-product-ids.json
+  │   ├── ontongdaejeon-products.json
+  │   ├── ontongdaejeon-registration-summary.json
+  │   ├── ontongdaejeon-scrape-summary.json
+  │   ├── ontongdaejeon-verification-report.json
   │   ├── products-without-prices.txt
   │   ├── wemall-analysis.json
   │   ├── wemall-category-001.html
@@ -155,6 +162,7 @@ scripts/
   ├── analyze-jeju-mall-structure.ts
   ├── analyze-jeju-mall.ts
   ├── analyze-kkimchi-structure.ts
+  ├── analyze-ontongdaejeon-structure.ts
   ├── analyze-wemall-structure.ts
   ├── batch-scrape-all-malls.ts
   ├── check-jeju-titles.ts
@@ -168,6 +176,7 @@ scripts/
   ├── explore-chamds-categories.ts
   ├── explore-kkimchi-categories.ts
   ├── explore-kkimchi-shop.ts
+  ├── explore-ontongdaejeon-categories.ts
   ├── extract-jeju-mall-urls.ts
   ├── extract-real-jeju-titles.ts
   ├── fetch-real-jeju-images-axios.ts
@@ -191,6 +200,7 @@ scripts/
   ├── register-chamds-products.ts
   ├── register-ejeju-products.ts
   ├── register-kkimchi-products.ts
+  ├── register-ontongdaejeon-products.ts
   ├── register-retry-products.ts
   ├── register-wemall-products.ts
   ├── remove-failed-jeju-products.ts
@@ -215,6 +225,9 @@ scripts/
   ├── scrape-jeju-products-from-urls.ts
   ├── scrape-kkimchi-comprehensive.ts
   ├── scrape-missing-jeju-titles.ts
+  ├── scrape-ontongdaejeon-comprehensive.ts
+  ├── scrape-ontongdaejeon-detailed.ts
+  ├── scrape-ontongdaejeon-fixed.ts
   ├── scrape-wemall-comprehensive.ts
   ├── scrape-wemall-priority.ts
   ├── test-chamds-product-pages.ts
@@ -229,6 +242,7 @@ scripts/
   ├── verify-ejeju-products.ts
   ├── verify-jejumall-removal.ts
   ├── verify-kkimchi-registration.ts
+  ├── verify-ontongdaejeon-registration.ts
   ├── verify-wemall-registration.ts
 src/
   ├── app/
@@ -344,7 +358,7 @@ Total: **99 shopping malls** across 17 regions
 }
 ```
 
-Total: **2220 products** with real data for featured malls
+Total: **2257 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -612,12 +626,12 @@ Version: 1.0.0
 Last Updated: 2025-06-19
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: 7b6bf5e feat: add comprehensive mall scraping scripts and output data
+Last Commit: 2eb1aa6 feat: add 광주김치몰 (kkimchi) comprehensive integration
 
 ### Project Statistics
-- Total Files: 221
+- Total Files: 235
 - Total Directories: 29
 - Shopping Malls: 99
-- Products: 2220
+- Products: 2257
 - Regions: 17
 - Categories: 10
