@@ -1,7 +1,6 @@
 'use client';
 
 import InteractiveMap from '@/components/InteractiveMap';
-import SearchBar from '@/components/SearchBar';
 import FeaturedMalls from '@/components/FeaturedMalls';
 import { getMalls, getRegions } from '@/lib/data';
 
@@ -21,41 +20,15 @@ export default function HomePage() {
             <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
               전국 지방자치단체 운영 온라인 쇼핑몰을 한 곳에서 만나보세요
             </p>
-            <p className="text-lg text-gray-500 mb-12">
+            <p className="text-lg text-gray-500">
               신선한 농수산물과 지역 특산품을 산지직송으로 구매하세요
             </p>
-            
-            {/* Main Search Bar */}
-            <div className="max-w-2xl mx-auto">
-              <SearchBar 
-                malls={malls}
-                placeholder="쇼핑몰 검색..."
-                className="shadow-lg"
-              />
-            </div>
-            
-            {/* Product Search Link */}
-            <div className="mt-4">
-              <a 
-                href="/products"
-                className="text-primary hover:text-blue-700 font-medium"
-              >
-                상품을 검색하시나요? 전체 상품 검색하기 →
-              </a>
-            </div>
           </div>
         </div>
       </section>
 
-      {/* Interactive Map Section */}
+      {/* Featured Malls Section - Moved above map */}
       <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <InteractiveMap regions={regions} malls={malls} />
-        </div>
-      </section>
-
-      {/* Featured Malls Section */}
-      <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FeaturedMalls 
             malls={malls}
@@ -63,6 +36,13 @@ export default function HomePage() {
             autoScroll={true}
             autoScrollInterval={5000}
           />
+        </div>
+      </section>
+
+      {/* Interactive Map Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <InteractiveMap regions={regions} malls={malls} />
         </div>
       </section>
 
