@@ -8,6 +8,7 @@ export interface Mall {
   isNew: boolean;
   clickCount: number;
   lastVerified: string;
+  logo?: string;
 }
 
 export interface Region {

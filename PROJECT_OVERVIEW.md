@@ -686,8 +686,8 @@ Version: 1.0.0
 
 Last Updated: 2025-06-19
 Version: 1.0.0
-Git Branch: main
-Last Commit: eb2ce7b Merge branch 'pre-production'
+Git Branch: edit-landing
+Last Commit: 470d7b2 chore: update PROJECT_OVERVIEW.md after merge from pre-production
 
 ### Project Statistics
 - Total Files: 292

@@ -11,7 +11,8 @@
     "featured": true,
     "isNew": false,
     "clickCount": 986,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "https://on.seoul.go.kr/images/common/logo.png"
   },
   {
     "id": "mall_2_부산브랜드몰",
@@ -25,7 +26,8 @@
     "featured": true,
     "isNew": false,
     "clickCount": 296,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "https://busanbrand.kr/images/logo.png"
   },
   {
     "id": "mall_3_우리몰",
@@ -39,7 +41,8 @@
     "featured": true,
     "isNew": false,
     "clickCount": 602,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "https://wemall.kr/images/logo.png"
   },
   {
     "id": "mall_4_참달성_달성군_",

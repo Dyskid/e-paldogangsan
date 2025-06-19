@@ -48,13 +48,27 @@ export default function MallCard({ mall, region, onVisit }: MallCardProps) {
     <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-200 border border-gray-200 overflow-hidden group">
       <div className="p-4">
         <div className="flex justify-between items-start mb-3">
-          <div className="flex-1">
-            <h3 className="font-bold text-lg text-gray-800 group-hover:text-primary transition-colors duration-200 line-clamp-1">
-              {mall.name}
-            </h3>
-            <p className="text-sm text-gray-600 mt-1">
-              {region?.name_ko || mall.region}
-            </p>
+          <div className="flex items-start gap-3 flex-1">
+            {mall.logo && (
+              <div className="w-12 h-12 flex-shrink-0">
+                <img 
+                  src={mall.logo} 
+                  alt={`${mall.name} 로고`}
+                  className="w-full h-full object-contain rounded-md bg-gray-50 p-1"
+                  onError={(e) => {
+                    e.currentTarget.style.display = 'none';
+                  }}
+                />
+              </div>
+            )}
+            <div className="flex-1">
+              <h3 className="font-bold text-lg text-gray-800 group-hover:text-primary transition-colors duration-200 line-clamp-1">
+                {mall.name}
+              </h3>
+              <p className="text-sm text-gray-600 mt-1">
+                {region?.name_ko || mall.region}
+              </p>
+            </div>
           </div>
           
           <div className="flex flex-col gap-1 items-end">

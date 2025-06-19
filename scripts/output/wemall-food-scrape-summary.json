@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-06-19T11:01:34.307Z",
+  "totalProducts": 0,
+  "categoriesScraped": [
+    "식품/농산품",
+    "쌀/농축산물",
+    "차/음료/과자/가공식품",
+    "건강식품/다이어트"
+  ],
+  "productsByCategory": {},
+  "productsWithPrices": 0,
+  "productsWithImages": 0,
+  "productsWithDiscounts": 0,
+  "errors": [],
+  "sampleProducts": []
+}
