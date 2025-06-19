@@ -60,6 +60,17 @@ backup/
   ├── Project Title e-Paldogangsan South.txt
   ├── scrapercommand.txt
 scripts/
+  ├── dist/
+  │   ├── scripts/
+  │   │   ├── register-wemall-food-products.js
+  │   │   ├── scrape-wemall-food-final.js
+  │   │   ├── verify-wemall-food-registration.js
+  │   ├── src/
+  │   │   ├── types/
+  │   │   │   ├── index.js
+  │   ├── scrape-wemall-food-comprehensive.js
+  │   ├── scrape-wemall-food-final.js
+  │   ├── test-wemall-food-category.js
   ├── output/
   │   ├── batch-scrape/
   │   │   ├── batch-registration-summary.json
@@ -155,6 +166,12 @@ scripts/
   │   ├── wemall-category-001.html
   │   ├── wemall-category-010.html
   │   ├── wemall-food-filter-summary.json
+  │   ├── wemall-food-products-comprehensive.json
+  │   ├── wemall-food-products-final.json
+  │   ├── wemall-food-registration-summary.json
+  │   ├── wemall-food-scrape-final-summary.json
+  │   ├── wemall-food-scrape-summary.json
+  │   ├── wemall-food-verification-final.json
   │   ├── wemall-food-verification-report.json
   │   ├── wemall-homepage.html
   │   ├── wemall-individual-products-verification.json
@@ -213,6 +230,7 @@ scripts/
   ├── register-kkimchi-products.ts
   ├── register-ontongdaejeon-products.ts
   ├── register-retry-products.ts
+  ├── register-wemall-food-products.ts
   ├── register-wemall-products.ts
   ├── remove-failed-jeju-products.ts
   ├── remove-jejumall.ts
@@ -241,6 +259,8 @@ scripts/
   ├── scrape-ontongdaejeon-detailed.ts
   ├── scrape-ontongdaejeon-fixed.ts
   ├── scrape-wemall-comprehensive.ts
+  ├── scrape-wemall-food-comprehensive.ts
+  ├── scrape-wemall-food-final.ts
   ├── scrape-wemall-priority.ts
   ├── test-chamds-product-pages.ts
   ├── test-ejeju-fetch.ts
@@ -257,6 +277,7 @@ scripts/
   ├── verify-kkimchi-registration.ts
   ├── verify-ontongdaejeon-registration.ts
   ├── verify-wemall-food-products.ts
+  ├── verify-wemall-food-registration.ts
   ├── verify-wemall-individual-products.ts
   ├── verify-wemall-registration.ts
 src/
@@ -374,7 +395,7 @@ Total: **99 shopping malls** across 17 regions
 }
 ```
 
-Total: **53 products** with real data for featured malls
+Total: **91 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -642,12 +663,12 @@ Version: 1.0.0
 Last Updated: 2025-06-19
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: b9bc2ce feat: clean product database by removing categories and low-quality entries
+Last Commit: a7ff9e9 fix: update Product interface and components to match cleaned data structure
 
 ### Project Statistics
-- Total Files: 251
-- Total Directories: 29
+- Total Files: 268
+- Total Directories: 33
 - Shopping Malls: 99
-- Products: 53
+- Products: 91
 - Regions: 17
 - Categories: 10
