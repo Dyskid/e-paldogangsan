@@ -352,6 +352,7 @@ src/
   │   ├── products-sample.json
   │   ├── products.json
   │   ├── regions.json
+  │   ├── tag-analysis.json
   │   ├── tag-mapping.json
   ├── lib/
   │   ├── scrapers/
@@ -685,11 +686,11 @@ Version: 1.0.0
 
 Last Updated: 2025-06-19
 Version: 1.0.0
-Git Branch: pre-production
-Last Commit: 7a0905b fix: resolve 참달성 product image URL format issues
+Git Branch: main
+Last Commit: eb2ce7b Merge branch 'pre-production'
 
 ### Project Statistics
-- Total Files: 291
+- Total Files: 292
 - Total Directories: 33
 - Shopping Malls: 99
 - Products: 213
