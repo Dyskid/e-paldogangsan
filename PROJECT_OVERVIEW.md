@@ -152,6 +152,7 @@ scripts/
   │   ├── wemall-food-filter-summary.json
   │   ├── wemall-food-verification-report.json
   │   ├── wemall-homepage.html
+  │   ├── wemall-individual-products-verification.json
   │   ├── wemall-products.json
   │   ├── wemall-registration-summary.json
   │   ├── wemall-scrape-summary.json
@@ -247,6 +248,7 @@ scripts/
   ├── verify-kkimchi-registration.ts
   ├── verify-ontongdaejeon-registration.ts
   ├── verify-wemall-food-products.ts
+  ├── verify-wemall-individual-products.ts
   ├── verify-wemall-registration.ts
 src/
   ├── app/
@@ -630,10 +632,10 @@ Version: 1.0.0
 Last Updated: 2025-06-19
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: f50a558 feat: filter 우리몰 products to food/agricultural only + 참달성 integration
+Last Commit: 499969f docs: clean up backup files and add scraper command reference
 
 ### Project Statistics
-- Total Files: 239
+- Total Files: 241
 - Total Directories: 29
 - Shopping Malls: 99
 - Products: 2119
