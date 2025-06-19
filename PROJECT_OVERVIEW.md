@@ -59,6 +59,105 @@ backup/
   ├── mergedmalls.txt
   ├── Project Title e-Paldogangsan South.txt
   ├── scrapercommand.txt
+public/
+  ├── logos/
+  │   ├── mall_10_착착착.png
+  │   ├── mall_100_이제주몰.png
+  │   ├── mall_11_오산함께장터.png
+  │   ├── mall_12_광명가치몰.png
+  │   ├── mall_13_양주농부마켓.png
+  │   ├── mall_14_마켓경기.png
+  │   ├── mall_15_강원더몰.png
+  │   ├── mall_16_원주몰.png
+  │   ├── mall_17_강릉몰.png
+  │   ├── mall_18_고성몰.png
+  │   ├── mall_19_동해몰.png
+  │   ├── mall_20_삼척몰.png
+  │   ├── mall_21_양구몰.png
+  │   ├── mall_22_양양몰.png
+  │   ├── mall_23_영월몰.png
+  │   ├── mall_24_인제몰.png
+  │   ├── mall_25_철원몰.png
+  │   ├── mall_26_정선몰.png
+  │   ├── mall_27_태백몰.png
+  │   ├── mall_28_횡성몰.png
+  │   ├── mall_29_춘천몰.png
+  │   ├── mall_3_우리몰.png
+  │   ├── mall_30_홍천몰.png
+  │   ├── mall_31_평창몰.png
+  │   ├── mall_32_제천로컬푸드.png
+  │   ├── mall_33_음성장터.png
+  │   ├── mall_34_진천몰.png
+  │   ├── mall_35_괴산장터.png
+  │   ├── mall_36_농사랑.png
+  │   ├── mall_37_당진팜.png
+  │   ├── mall_38_e홍성장터.png
+  │   ├── mall_39_서산뜨레.png
+  │   ├── mall_4_참달성_달성군_.png
+  │   ├── mall_40_부안_텃밭할매.png
+  │   ├── mall_41_단풍미인_정읍_.png
+  │   ├── mall_42_지평선몰_김제_.png
+  │   ├── mall_43_전북생생장터.png
+  │   ├── mall_44_익산몰.png
+  │   ├── mall_45_진안고원몰.png
+  │   ├── mall_46_장수몰.png
+  │   ├── mall_47_고창마켓.png
+  │   ├── mall_48_임실몰.png
+  │   ├── mall_49_순창로컬푸드쇼핑몰.png
+  │   ├── mall_5_인천e몰.png
+  │   ├── mall_50_해가람.png
+  │   ├── mall_51_남도장터.png
+  │   ├── mall_52_여수몰.png
+  │   ├── mall_53_해피굿팜.png
+  │   ├── mall_54_보성몰.png
+  │   ├── mall_55_나주몰.png
+  │   ├── mall_56_순천로컬푸드함께가게.png
+  │   ├── mall_57_신안1004몰.png
+  │   ├── mall_58_장흥몰_산들해랑장흥몰_.png
+  │   ├── mall_59_기찬들영암몰.png
+  │   ├── mall_6_광주김치몰.png
+  │   ├── mall_60_진도아리랑몰.png
+  │   ├── mall_61_완도군이숍.png
+  │   ├── mall_62_함평천지몰.png
+  │   ├── mall_63_해남미소.png
+  │   ├── mall_64_담양장터.png
+  │   ├── mall_65_초록믿음_강진_.png
+  │   ├── mall_66_화순팜.png
+  │   ├── mall_67_곡성몰_곡성군농특산물중개몰_.png
+  │   ├── mall_68_사이소_경북몰_.png
+  │   ├── mall_69_상주_명실상주몰.png
+  │   ├── mall_7_온통대전몰_대전사랑몰.png
+  │   ├── mall_70_청도_청리브.png
+  │   ├── mall_71_영주장날.png
+  │   ├── mall_72_안동장터.png
+  │   ├── mall_73_청송몰.png
+  │   ├── mall_74_영양온심마켓.png
+  │   ├── mall_75_울릉도.png
+  │   ├── mall_76_봉화장터.png
+  │   ├── mall_77_고령몰.png
+  │   ├── mall_78_김천노다지장터.png
+  │   ├── mall_79_예천장터.png
+  │   ├── mall_8_울산몰.png
+  │   ├── mall_80_문경_새제의아침.png
+  │   ├── mall_81_칠곡몰.png
+  │   ├── mall_82_의성장날.png
+  │   ├── mall_83_울진몰.png
+  │   ├── mall_84_영덕장터.png
+  │   ├── mall_85_경산몰.png
+  │   ├── mall_86_경주몰.png
+  │   ├── mall_87_구미팜.png
+  │   ├── mall_88_별빛촌장터_영천_.png
+  │   ├── mall_89_포항마켓.png
+  │   ├── mall_9_세종로컬푸드.png
+  │   ├── mall_90_e경남몰.png
+  │   ├── mall_91_토요애_의령_.png
+  │   ├── mall_92_남해몰.png
+  │   ├── mall_93_산엔청_산청_.png
+  │   ├── mall_94_공룡나라_고성_.png
+  │   ├── mall_95_함양몰.png
+  │   ├── mall_96_진주드림.png
+  │   ├── mall_97_함안몰.png
+  │   ├── mall_98_김해온몰.png
 scripts/
   ├── dist/
   │   ├── scripts/
@@ -168,6 +267,7 @@ scripts/
   │   ├── kkimchi-registration-summary.json
   │   ├── kkimchi-scrape-summary.json
   │   ├── kkimchi-verification-report.json
+  │   ├── logo-download-summary.json
   │   ├── ontongdaejeon-analysis.json
   │   ├── ontongdaejeon-homepage.html
   │   ├── ontongdaejeon-product-ids.json
@@ -214,6 +314,8 @@ scripts/
   ├── clean-jeju-titles.ts
   ├── comprehensive-jeju-title-update.ts
   ├── create-jeju-products-dataset.ts
+  ├── download-mall-logos.ts
+  ├── download-missing-logos.ts
   ├── enrich-jeju-products.ts
   ├── explore-chamds-categories.ts
   ├── explore-kkimchi-categories.ts
@@ -687,11 +789,11 @@ Version: 1.0.0
 Last Updated: 2025-06-19
 Version: 1.0.0
 Git Branch: edit-landing
-Last Commit: 470d7b2 chore: update PROJECT_OVERVIEW.md after merge from pre-production
+Last Commit: f7417cb feat: add logo support to shopping mall display
 
 ### Project Statistics
-- Total Files: 292
-- Total Directories: 33
+- Total Files: 392
+- Total Directories: 35
 - Shopping Malls: 99
 - Products: 213
 - Regions: 17

@@ -42,7 +42,7 @@
     "isNew": false,
     "clickCount": 602,
     "lastVerified": "2025-06-01",
-    "logo": "https://wemall.kr/images/logo.png"
+    "logo": "/logos/mall_3_우리몰.png"
   },
   {
     "id": "mall_4_참달성_달성군_",
@@ -56,7 +56,8 @@
     "isNew": false,
     "clickCount": 958,
     "lastVerified": "2025-06-01",
-    "district": "달성군"
+    "district": "달성군",
+    "logo": "/logos/mall_4_참달성_달성군_.png"
   },
   {
     "id": "mall_5_인천e몰",
@@ -70,7 +71,8 @@
     "featured": true,
     "isNew": true,
     "clickCount": 260,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_5_인천e몰.png"
   },
   {
     "id": "mall_6_광주김치몰",
@@ -84,7 +86,8 @@
     "featured": true,
     "isNew": false,
     "clickCount": 689,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_6_광주김치몰.png"
   },
   {
     "id": "mall_7_온통대전몰_대전사랑몰",
@@ -98,7 +101,8 @@
     "featured": true,
     "isNew": false,
     "clickCount": 14,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_7_온통대전몰_대전사랑몰.png"
   },
   {
     "id": "mall_8_울산몰",
@@ -112,7 +116,8 @@
     "featured": true,
     "isNew": true,
     "clickCount": 668,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_8_울산몰.png"
   },
   {
     "id": "mall_9_세종로컬푸드",
@@ -126,7 +131,8 @@
     "featured": true,
     "isNew": true,
     "clickCount": 909,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_9_세종로컬푸드.png"
   },
   {
     "id": "mall_10_착착착",
@@ -139,7 +145,8 @@
     "featured": true,
     "isNew": false,
     "clickCount": 519,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_10_착착착.png"
   },
   {
     "id": "mall_11_오산함께장터",
@@ -153,7 +160,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 292,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_11_오산함께장터.png"
   },
   {
     "id": "mall_12_광명가치몰",
@@ -167,7 +175,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 709,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_12_광명가치몰.png"
   },
   {
     "id": "mall_13_양주농부마켓",
@@ -182,7 +191,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 375,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_13_양주농부마켓.png"
   },
   {
     "id": "mall_14_마켓경기",
@@ -196,7 +206,8 @@
     "featured": false,
     "isNew": true,
     "clickCount": 75,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_14_마켓경기.png"
   },
   {
     "id": "mall_15_강원더몰",
@@ -210,7 +221,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 305,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_15_강원더몰.png"
   },
   {
     "id": "mall_16_원주몰",
@@ -224,7 +236,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 193,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_16_원주몰.png"
   },
   {
     "id": "mall_17_강릉몰",
@@ -238,7 +251,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 588,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_17_강릉몰.png"
   },
   {
     "id": "mall_18_고성몰",
@@ -252,7 +266,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 78,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_18_고성몰.png"
   },
   {
     "id": "mall_19_동해몰",
@@ -266,7 +281,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 510,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_19_동해몰.png"
   },
   {
     "id": "mall_20_삼척몰",
@@ -280,7 +296,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 907,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_20_삼척몰.png"
   },
   {
     "id": "mall_21_양구몰",
@@ -294,7 +311,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 993,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_21_양구몰.png"
   },
   {
     "id": "mall_22_양양몰",
@@ -308,7 +326,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 250,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_22_양양몰.png"
   },
   {
     "id": "mall_23_영월몰",
@@ -322,7 +341,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 569,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_23_영월몰.png"
   },
   {
     "id": "mall_24_인제몰",
@@ -336,7 +356,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 855,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_24_인제몰.png"
   },
   {
     "id": "mall_25_철원몰",
@@ -350,7 +371,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 227,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_25_철원몰.png"
   },
   {
     "id": "mall_26_정선몰",
@@ -364,7 +386,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 982,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_26_정선몰.png"
   },
   {
     "id": "mall_27_태백몰",
@@ -378,7 +401,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 740,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_27_태백몰.png"
   },
   {
     "id": "mall_28_횡성몰",
@@ -392,7 +416,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 545,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_28_횡성몰.png"
   },
   {
     "id": "mall_29_춘천몰",
@@ -406,7 +431,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 400,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_29_춘천몰.png"
   },
   {
     "id": "mall_30_홍천몰",
@@ -420,7 +446,8 @@
     "featured": false,
     "isNew": true,
     "clickCount": 413,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_30_홍천몰.png"
   },
   {
     "id": "mall_31_평창몰",
@@ -434,7 +461,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 462,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_31_평창몰.png"
   },
   {
     "id": "mall_32_제천로컬푸드",
@@ -448,7 +476,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 356,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_32_제천로컬푸드.png"
   },
   {
     "id": "mall_33_음성장터",
@@ -462,7 +491,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 747,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_33_음성장터.png"
   },
   {
     "id": "mall_34_진천몰",
@@ -476,7 +506,8 @@
     "featured": false,
     "isNew": true,
     "clickCount": 515,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_34_진천몰.png"
   },
   {
     "id": "mall_35_괴산장터",
@@ -490,7 +521,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 521,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_35_괴산장터.png"
   },
   {
     "id": "mall_36_농사랑",
@@ -504,7 +536,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 510,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_36_농사랑.png"
   },
   {
     "id": "mall_37_당진팜",
@@ -518,7 +551,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 243,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_37_당진팜.png"
   },
   {
     "id": "mall_38_e홍성장터",
@@ -532,7 +566,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 962,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_38_e홍성장터.png"
   },
   {
     "id": "mall_39_서산뜨레",
@@ -545,7 +580,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 140,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_39_서산뜨레.png"
   },
   {
     "id": "mall_40_부안_텃밭할매",
@@ -558,7 +594,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 420,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_40_부안_텃밭할매.png"
   },
   {
     "id": "mall_41_단풍미인_정읍_",
@@ -572,7 +609,8 @@
     "isNew": false,
     "clickCount": 257,
     "lastVerified": "2025-06-01",
-    "district": "정읍"
+    "district": "정읍",
+    "logo": "/logos/mall_41_단풍미인_정읍_.png"
   },
   {
     "id": "mall_42_지평선몰_김제_",
@@ -587,7 +625,8 @@
     "isNew": false,
     "clickCount": 535,
     "lastVerified": "2025-06-01",
-    "district": "김제"
+    "district": "김제",
+    "logo": "/logos/mall_42_지평선몰_김제_.png"
   },
   {
     "id": "mall_43_전북생생장터",
@@ -601,7 +640,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 517,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_43_전북생생장터.png"
   },
   {
     "id": "mall_44_익산몰",
@@ -615,7 +655,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 838,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_44_익산몰.png"
   },
   {
     "id": "mall_45_진안고원몰",
@@ -629,7 +670,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 181,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_45_진안고원몰.png"
   },
   {
     "id": "mall_46_장수몰",
@@ -643,7 +685,8 @@
     "featured": false,
     "isNew": true,
     "clickCount": 548,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_46_장수몰.png"
   },
   {
     "id": "mall_47_고창마켓",
@@ -657,7 +700,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 780,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_47_고창마켓.png"
   },
   {
     "id": "mall_48_임실몰",
@@ -671,7 +715,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 798,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_48_임실몰.png"
   },
   {
     "id": "mall_49_순창로컬푸드쇼핑몰",
@@ -686,7 +731,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 28,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_49_순창로컬푸드쇼핑몰.png"
   },
   {
     "id": "mall_50_해가람",
@@ -699,7 +745,8 @@
     "featured": false,
     "isNew": true,
     "clickCount": 181,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_50_해가람.png"
   },
   {
     "id": "mall_51_남도장터",
@@ -713,7 +760,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 36,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_51_남도장터.png"
   },
   {
     "id": "mall_52_여수몰",
@@ -727,7 +775,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 900,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_52_여수몰.png"
   },
   {
     "id": "mall_53_해피굿팜",
@@ -741,7 +790,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 210,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_53_해피굿팜.png"
   },
   {
     "id": "mall_54_보성몰",
@@ -755,7 +805,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 44,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_54_보성몰.png"
   },
   {
     "id": "mall_55_나주몰",
@@ -769,7 +820,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 427,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_55_나주몰.png"
   },
   {
     "id": "mall_56_순천로컬푸드함께가게",
@@ -783,7 +835,8 @@
     "featured": false,
     "isNew": true,
     "clickCount": 625,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_56_순천로컬푸드함께가게.png"
   },
   {
     "id": "mall_57_신안1004몰",
@@ -797,7 +850,8 @@
     "featured": false,
     "isNew": true,
     "clickCount": 757,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_57_신안1004몰.png"
   },
   {
     "id": "mall_58_장흥몰_산들해랑장흥몰_",
@@ -812,7 +866,8 @@
     "isNew": false,
     "clickCount": 217,
     "lastVerified": "2025-06-01",
-    "district": "산들해랑장흥몰"
+    "district": "산들해랑장흥몰",
+    "logo": "/logos/mall_58_장흥몰_산들해랑장흥몰_.png"
   },
   {
     "id": "mall_59_기찬들영암몰",
@@ -826,7 +881,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 354,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_59_기찬들영암몰.png"
   },
   {
     "id": "mall_60_진도아리랑몰",
@@ -840,7 +896,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 857,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_60_진도아리랑몰.png"
   },
   {
     "id": "mall_61_완도군이숍",
@@ -853,7 +910,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 812,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_61_완도군이숍.png"
   },
   {
     "id": "mall_62_함평천지몰",
@@ -867,7 +925,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 103,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_62_함평천지몰.png"
   },
   {
     "id": "mall_63_해남미소",
@@ -880,7 +939,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 864,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_63_해남미소.png"
   },
   {
     "id": "mall_64_담양장터",
@@ -894,7 +954,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 660,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_64_담양장터.png"
   },
   {
     "id": "mall_65_초록믿음_강진_",
@@ -908,7 +969,8 @@
     "isNew": true,
     "clickCount": 465,
     "lastVerified": "2025-06-01",
-    "district": "강진"
+    "district": "강진",
+    "logo": "/logos/mall_65_초록믿음_강진_.png"
   },
   {
     "id": "mall_66_화순팜",
@@ -922,7 +984,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 591,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_66_화순팜.png"
   },
   {
     "id": "mall_67_곡성몰_곡성군농특산물중개몰_",
@@ -939,7 +1002,8 @@
     "isNew": false,
     "clickCount": 482,
     "lastVerified": "2025-06-01",
-    "district": "곡성군농특산물중개몰"
+    "district": "곡성군농특산물중개몰",
+    "logo": "/logos/mall_67_곡성몰_곡성군농특산물중개몰_.png"
   },
   {
     "id": "mall_68_사이소_경북몰_",
@@ -954,7 +1018,8 @@
     "isNew": true,
     "clickCount": 677,
     "lastVerified": "2025-06-01",
-    "district": "경북몰"
+    "district": "경북몰",
+    "logo": "/logos/mall_68_사이소_경북몰_.png"
   },
   {
     "id": "mall_69_상주_명실상주몰",
@@ -968,7 +1033,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 820,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_69_상주_명실상주몰.png"
   },
   {
     "id": "mall_70_청도_청리브",
@@ -981,7 +1047,8 @@
     "featured": false,
     "isNew": true,
     "clickCount": 396,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_70_청도_청리브.png"
   },
   {
     "id": "mall_71_영주장날",
@@ -994,7 +1061,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 525,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_71_영주장날.png"
   },
   {
     "id": "mall_72_안동장터",
@@ -1008,7 +1076,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 881,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_72_안동장터.png"
   },
   {
     "id": "mall_73_청송몰",
@@ -1022,7 +1091,8 @@
     "featured": false,
     "isNew": true,
     "clickCount": 370,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_73_청송몰.png"
   },
   {
     "id": "mall_74_영양온심마켓",
@@ -1036,7 +1106,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 736,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_74_영양온심마켓.png"
   },
   {
     "id": "mall_75_울릉도",
@@ -1049,7 +1120,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 170,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_75_울릉도.png"
   },
   {
     "id": "mall_76_봉화장터",
@@ -1063,7 +1135,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 470,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_76_봉화장터.png"
   },
   {
     "id": "mall_77_고령몰",
@@ -1077,7 +1150,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 724,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_77_고령몰.png"
   },
   {
     "id": "mall_78_김천노다지장터",
@@ -1091,7 +1165,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 323,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_78_김천노다지장터.png"
   },
   {
     "id": "mall_79_예천장터",
@@ -1105,7 +1180,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 726,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_79_예천장터.png"
   },
   {
     "id": "mall_80_문경_새제의아침",
@@ -1118,7 +1194,8 @@
     "featured": false,
     "isNew": true,
     "clickCount": 710,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_80_문경_새제의아침.png"
   },
   {
     "id": "mall_81_칠곡몰",
@@ -1132,7 +1209,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 607,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_81_칠곡몰.png"
   },
   {
     "id": "mall_82_의성장날",
@@ -1145,7 +1223,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 515,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_82_의성장날.png"
   },
   {
     "id": "mall_83_울진몰",
@@ -1159,7 +1238,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 774,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_83_울진몰.png"
   },
   {
     "id": "mall_84_영덕장터",
@@ -1173,7 +1253,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 370,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_84_영덕장터.png"
   },
   {
     "id": "mall_85_경산몰",
@@ -1187,7 +1268,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 716,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_85_경산몰.png"
   },
   {
     "id": "mall_86_경주몰",
@@ -1201,7 +1283,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 681,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_86_경주몰.png"
   },
   {
     "id": "mall_87_구미팜",
@@ -1215,7 +1298,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 244,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_87_구미팜.png"
   },
   {
     "id": "mall_88_별빛촌장터_영천_",
@@ -1230,7 +1314,8 @@
     "isNew": false,
     "clickCount": 594,
     "lastVerified": "2025-06-01",
-    "district": "영천"
+    "district": "영천",
+    "logo": "/logos/mall_88_별빛촌장터_영천_.png"
   },
   {
     "id": "mall_89_포항마켓",
@@ -1244,7 +1329,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 589,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_89_포항마켓.png"
   },
   {
     "id": "mall_90_e경남몰",
@@ -1258,7 +1344,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 466,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_90_e경남몰.png"
   },
   {
     "id": "mall_91_토요애_의령_",
@@ -1272,7 +1359,8 @@
     "isNew": true,
     "clickCount": 581,
     "lastVerified": "2025-06-01",
-    "district": "의령"
+    "district": "의령",
+    "logo": "/logos/mall_91_토요애_의령_.png"
   },
   {
     "id": "mall_92_남해몰",
@@ -1286,7 +1374,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 169,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_92_남해몰.png"
   },
   {
     "id": "mall_93_산엔청_산청_",
@@ -1300,7 +1389,8 @@
     "isNew": false,
     "clickCount": 997,
     "lastVerified": "2025-06-01",
-    "district": "산청"
+    "district": "산청",
+    "logo": "/logos/mall_93_산엔청_산청_.png"
   },
   {
     "id": "mall_94_공룡나라_고성_",
@@ -1314,7 +1404,8 @@
     "isNew": true,
     "clickCount": 381,
     "lastVerified": "2025-06-01",
-    "district": "고성"
+    "district": "고성",
+    "logo": "/logos/mall_94_공룡나라_고성_.png"
   },
   {
     "id": "mall_95_함양몰",
@@ -1328,7 +1419,8 @@
     "featured": false,
     "isNew": true,
     "clickCount": 573,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_95_함양몰.png"
   },
   {
     "id": "mall_96_진주드림",
@@ -1341,7 +1433,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 578,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_96_진주드림.png"
   },
   {
     "id": "mall_97_함안몰",
@@ -1355,7 +1448,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 596,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_97_함안몰.png"
   },
   {
     "id": "mall_98_김해온몰",
@@ -1369,7 +1463,8 @@
     "featured": false,
     "isNew": false,
     "clickCount": 907,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_98_김해온몰.png"
   },
   {
     "id": "mall_100_이제주몰",
@@ -1383,6 +1478,7 @@
     "featured": false,
     "isNew": false,
     "clickCount": 870,
-    "lastVerified": "2025-06-01"
+    "lastVerified": "2025-06-01",
+    "logo": "/logos/mall_100_이제주몰.png"
   }
 ]
