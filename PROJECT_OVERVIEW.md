@@ -62,12 +62,15 @@ backup/
 scripts/
   ├── dist/
   │   ├── scripts/
+  │   │   ├── register-chamds-food-products.js
   │   │   ├── register-wemall-food-products.js
   │   │   ├── scrape-wemall-food-final.js
+  │   │   ├── verify-chamds-food-registration.js
   │   │   ├── verify-wemall-food-registration.js
   │   ├── src/
   │   │   ├── types/
   │   │   │   ├── index.js
+  │   ├── scrape-chamds-comprehensive.js
   │   ├── scrape-wemall-food-comprehensive.js
   │   ├── scrape-wemall-food-final.js
   │   ├── test-wemall-food-category.js
@@ -97,6 +100,8 @@ scripts/
   │   ├── category-cleanup-report.json
   │   ├── category-products-analysis.json
   │   ├── chamds-analysis.json
+  │   ├── chamds-food-registration-summary.json
+  │   ├── chamds-food-verification-final.json
   │   ├── chamds-homepage.html
   │   ├── chamds-products-_product_list.html.html
   │   ├── chamds-products.json
@@ -225,6 +230,7 @@ scripts/
   ├── README.md
   ├── register-all-mall-products.ts
   ├── register-batch-products.ts
+  ├── register-chamds-food-products.ts
   ├── register-chamds-products.ts
   ├── register-ejeju-products.ts
   ├── register-kkimchi-products.ts
@@ -270,6 +276,7 @@ scripts/
   ├── test-wemall-category.ts
   ├── test-wemall-food-category.ts
   ├── update-overview.ts
+  ├── verify-chamds-food-registration.ts
   ├── verify-chamds-registration.ts
   ├── verify-ejeju-products.ts
   ├── verify-individual-products-all-malls.ts
@@ -395,7 +402,7 @@ Total: **99 shopping malls** across 17 regions
 }
 ```
 
-Total: **91 products** with real data for featured malls
+Total: **109 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -663,12 +670,12 @@ Version: 1.0.0
 Last Updated: 2025-06-19
 Version: 1.0.0
 Git Branch: pre-production
-Last Commit: a7ff9e9 fix: update Product interface and components to match cleaned data structure
+Last Commit: 5ebd02e feat: comprehensive 우리몰 food product scraping and registration
 
 ### Project Statistics
-- Total Files: 268
+- Total Files: 275
 - Total Directories: 33
 - Shopping Malls: 99
-- Products: 91
+- Products: 109
 - Regions: 17
 - Categories: 10
