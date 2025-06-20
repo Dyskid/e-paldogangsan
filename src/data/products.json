@@ -3131,456 +3131,6 @@
     }
   },
   {
-    "id": "ontongdaejeon-100116484",
-    "name": "[장어총각] 대물 풍천장어 1kg (손질 후 650g내외/2~3인분)소스2종",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2021/6/30/11/1625021636935_d05df855ad2e4f32a4c26fceb854b9eb.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100116484",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100161994",
-    "name": "의성에서 보내드리는 꿀당도 사과(소/중/중대) 2.5kg",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2021/8/23/11/1629686620391_7ea03c55a111464e938a163240c87a3f.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100161994",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100163448",
-    "name": "[산지직송] 무안 유기농 꿀고구마 (상특)3kg,5kg,10kg",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2020/10/16/11/1602815761483_09a174adbdc847bfb302b9e84e31c195.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100163448",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100163527",
-    "name": "사시사철 맛좋은 우리땅 햇 감자(대) 3kg/5kg/10kg",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2021/3/16/15/1615875041782_3d2c7cb7ed024b5b88d2d87779c5c9ec.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100163527",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100191661",
-    "name": "[도토리견과] 4오리지널15봉+6프리미엄15봉",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2022/2/23/09/1645576278234_8626ba01ef52413d9a05e0b3fca9faf4.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100191661",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "자활기업",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100193706",
-    "name": "[프로비] 프로비 프로폴리스 꿀 선물세트",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2022/3/4/15/1646374554447_f8ce0127c50648ea81d4a096dc7c63ff.png/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100193706",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100205686",
-    "name": "KG 볶음아몬드 1kg 구운아몬드",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2022/4/20/10/1650416915043_8a1563d44b2647629f790391005935d3.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100205686",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100245660",
-    "name": "꿀맛가득 스테비아 애플토마토 골라담기",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2022/10/12/14/1665552762961_516c3f90a97c428ebf8187bf99c90652.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100245660",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100264804",
-    "name": "[신현공예] 바둑무늬 엔드그레인 원목도마 (캄포,월넛,편백) (무료배송)",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2022/12/30/15/1672380084891_aad77d6326b7451ca214d4c5ad5b3f4d.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100264804",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100280131",
-    "name": "[고맛나루농협] 알맛다 공주쌀 5kg 10kg 20kg 상등급 24년산 햅쌀",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2023/2/8/14/1675835169729_2610e5a4f7474243824b0542c4be6bd9.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100280131",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100280148",
-    "name": "고집쟁이고씨네 된장 500g/1kg/2kg",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2020/9/9/17/1599639424042_eb4b40cc4e194261b715ac9d6aa9b66e.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100280148",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100280161",
-    "name": "[신현공예] 티크도마 나무도마 원목도마 플레이팅 우드 (무료배송)",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2023/3/24/13/1679630627989_22d737b0804d451085653868bc0a7f48.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100280161",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100280162",
-    "name": "[신현공예] 편백나무 조리기구세트 (무료배송)",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2020/9/9/19/1599647066986_dc6e7aca56bb432b8cf4d756724e90ae.JPG/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100280162",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100280163",
-    "name": "[신현공예] 편백나무 수저세트 (숟가락/젓가락)",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2020/9/9/19/1599645604981_9183a0ad895545189eed941673d95ab8.png/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100280163",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100289749",
-    "name": "[햇당근] 신선한 햇당근_흙당근 [2kg-3kg]",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2023/5/26/08/1685056534374_a5af815ad25c4117ac34af11e5d74690.JPG/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100289749",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100293112",
-    "name": "[신현공예] 월넛나무 조리도구 세트(호두나무) (무료배송)",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2020/9/11/14/1599802290085_aee0cb2fc7bb4df7a1df9737cd9fb843.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100293112",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100298524",
-    "name": "[신현공예] 캄포나무 원목 사각도마 (무료배송)",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2021/11/10/11/1636512860431_434da32ec26f4250ba04c374a7c63135.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100298524",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
     "id": "ontongdaejeon-100300440",
     "name": "[간편조리] 얼큰짜글이 밀키트 (2~3인)",
     "price": 0,
@@ -3633,60 +3183,6 @@
     }
   },
   {
-    "id": "ontongdaejeon-100316997",
-    "name": "강경 새우젓 추젓 1kg/2kg/3kg/4kg",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2023/11/9/08/1699484743259_4da417ab547c4949b7ba9c82faedd73b.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100316997",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100327122",
-    "name": "[바맘] 순하고 진한 배도라지즙 1box (110ml x 30포)",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/6/4/09/1717461888007_4d48415deecd4c5cad87b415669c799f.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100327122",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
     "id": "ontongdaejeon-100328968",
     "name": "[신현공예] 월넛 원목 사각 황동발 중형 도마",
     "price": 0,
@@ -3720,111 +3216,6 @@
     "category": "가공식품",
     "region": "대전광역시",
     "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100331586",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100332356",
-    "name": "[하나유통] 대감님쌀 10kg (2024년 햅쌀)",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/2/15/10/1707962368080_16a2e6ef3faa4eb6a4129847d3a1a06b.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100332356",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100338610",
-    "name": "[신현공예] 월넛 곡선형 조리도구  나무 우드 원목 주방도구",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/3/29/21/1711713680507_18d1f3ec63b44cf6a55d4a74274b576e.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100338610",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100344826",
-    "name": "[복순네고깃간] 국내산 한돈 생갈비로 만든 수제 인삼 양념 돼지갈비 1kg~",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/4/17/16/1713337351713_a96ea71047924dbb8cac7d2a8c0049ef.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100344826",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100407584",
-    "name": "그대로크래커 3종 (50g x 5 / 50g x 10)",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/4/10/1743730914254_f482753563c24880a755c7e4e2eb43d7.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100407584",
     "description": "",
     "tags": [
       "대전특산품",
@@ -3898,114 +3289,6 @@
     }
   },
   {
-    "id": "ontongdaejeon-100412698",
-    "name": "[개별포장] 천일 사누끼 우동면 + 액상소스 + 후레이크 세트 구성",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/7/17/16/1721199777106_654ea1a5df394bdda216972fd58c03d6.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100412698",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100412731",
-    "name": "1등급 한우 등심 250g+250g 구이용",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/16/13/1744776502854_f1c1c8879e4e44a2be08b6eef8ee933f.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100412731",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100412741",
-    "name": "올해 수확한 속깊은 꿀맛 하우스 햇 수미감자(대) 3kg",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/16/13/1744778801807_4472dd01be0c4a4182499617c64f87e2.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100412741",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100413016",
-    "name": "[파트라] 라보(LAVO) 사무용 의자 LV11MPAKSD 패브릭좌판(요추지지대 포함)",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/17/14/1744866830734_227be9acb75f424cbebf1c50c9b0d91b.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100413016",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
     "id": "ontongdaejeon-100413169",
     "name": "국산 루나리스 GPS 수신 LED 디지털 전자벽시계(중)",
     "price": 0,
@@ -4013,87 +3296,6 @@
     "category": "가공식품",
     "region": "대전광역시",
     "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100413169",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100413590",
-    "name": "[다온낙곱새] 다온낙곱새 밀키트 1500g 4인 /[다온낙곱새] 알탕 해물탕 밀키트 1800g 4인 택1",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/1/24/18/1706087188905_83d79402fa9d41f6a57848a076431a5c.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100413590",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100413602",
-    "name": "[금별축산] 1++ 명품 숙성한우 선물세트 모음전",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/22/13/1745295269109_ae50d1e383b7420b99d1e519537e8201.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100413602",
-    "description": "",
-    "tags": [
-      "대전특산품",
-      "지역상품",
-      "로컬푸드",
-      "대전사랑몰",
-      "온통대전",
-      "로컬상품관",
-      "무료배송"
-    ],
-    "isFeatured": false,
-    "isNew": true,
-    "mall": {
-      "mallId": "ontongdaejeon",
-      "mallName": "온통대전몰 대전사랑몰",
-      "mallUrl": "https://ontongdaejeon.ezwel.com",
-      "region": "대전광역시"
-    }
-  },
-  {
-    "id": "ontongdaejeon-100416837",
-    "name": "울 엄마가 좋아하는 옛날 옥수수빵 140g*10개",
-    "price": 0,
-    "image": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/5/17/13/1747457256878_df52f1db457e45bbaac9489d88c43e3b.jpg/gio/resize/260x260!/quality/80/",
-    "category": "가공식품",
-    "region": "대전광역시",
-    "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100416837",
     "description": "",
     "tags": [
       "대전특산품",
@@ -5428,5 +4630,683 @@
       "mallUrl": "https://wemall.kr",
       "region": "대구광역시"
     }
+  },
+  {
+    "id": "ontongdaejeon-100412698",
+    "title": "[개별포장] 천일 사누끼 우동면 + 액상소스 + 후레이크 세트 구성",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/7/17/16/1721199777106_654ea1a5df394bdda216972fd58c03d6.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100412698",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100280131",
+    "title": "[고맛나루농협] 알맛다 공주쌀 5kg 10kg 20kg 상등급 24년산 햅쌀",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2023/2/8/14/1675835169729_2610e5a4f7474243824b0542c4be6bd9.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100280131",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100413602",
+    "title": "[금별축산] 1++ 명품 숙성한우 선물세트 모음전",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/22/13/1745295269109_ae50d1e383b7420b99d1e519537e8201.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100413602",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100413590",
+    "title": "[다온낙곱새] 다온낙곱새 밀키트 1500g 4인 /[다온낙곱새] 알탕 해물탕 밀키트 1800g 4인 택1",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/1/24/18/1706087188905_83d79402fa9d41f6a57848a076431a5c.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100413590",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100191661",
+    "title": "[도토리견과] 4오리지널15봉+6프리미엄15봉",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2022/2/23/09/1645576278234_8626ba01ef52413d9a05e0b3fca9faf4.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100191661",
+    "category": "자활기업",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "자활기업",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100327122",
+    "title": "[바맘] 순하고 진한 배도라지즙 1box (110ml x 30포)",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/6/4/09/1717461888007_4d48415deecd4c5cad87b415669c799f.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100327122",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100344826",
+    "title": "[복순네고깃간] 국내산 한돈 생갈비로 만든 수제 인삼 양념 돼지갈비 1kg~",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/4/17/16/1713337351713_a96ea71047924dbb8cac7d2a8c0049ef.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100344826",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100163448",
+    "title": "[산지직송] 무안 유기농 꿀고구마 (상특)3kg,5kg,10kg",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2020/10/16/11/1602815761483_09a174adbdc847bfb302b9e84e31c195.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100163448",
+    "category": "무료배송",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100264804",
+    "title": "[신현공예] 바둑무늬 엔드그레인 원목도마 (캄포,월넛,편백) (무료배송)",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2022/12/30/15/1672380084891_aad77d6326b7451ca214d4c5ad5b3f4d.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100264804",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100338610",
+    "title": "[신현공예] 월넛 곡선형 조리도구  나무 우드 원목 주방도구",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/3/29/21/1711713680507_18d1f3ec63b44cf6a55d4a74274b576e.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100338610",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100293112",
+    "title": "[신현공예] 월넛나무 조리도구 세트(호두나무) (무료배송)",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2020/9/11/14/1599802290085_aee0cb2fc7bb4df7a1df9737cd9fb843.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100293112",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100298524",
+    "title": "[신현공예] 캄포나무 원목 사각도마 (무료배송)",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2021/11/10/11/1636512860431_434da32ec26f4250ba04c374a7c63135.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100298524",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100280161",
+    "title": "[신현공예] 티크도마 나무도마 원목도마 플레이팅 우드 (무료배송)",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2023/3/24/13/1679630627989_22d737b0804d451085653868bc0a7f48.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100280161",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100280163",
+    "title": "[신현공예] 편백나무 수저세트 (숟가락/젓가락)",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2020/9/9/19/1599645604981_9183a0ad895545189eed941673d95ab8.png/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100280163",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100280162",
+    "title": "[신현공예] 편백나무 조리기구세트 (무료배송)",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2020/9/9/19/1599647066986_dc6e7aca56bb432b8cf4d756724e90ae.JPG/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100280162",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100116484",
+    "title": "[장어총각] 대물 풍천장어 1kg (손질 후 650g내외/2~3인분)소스2종",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2021/6/30/11/1625021636935_d05df855ad2e4f32a4c26fceb854b9eb.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100116484",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100413016",
+    "title": "[파트라] 라보(LAVO) 사무용 의자 LV11MPAKSD 패브릭좌판(요추지지대 포함)",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/17/14/1744866830734_227be9acb75f424cbebf1c50c9b0d91b.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100413016",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100193706",
+    "title": "[프로비] 프로비 프로폴리스 꿀 선물세트",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2022/3/4/15/1646374554447_f8ce0127c50648ea81d4a096dc7c63ff.png/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100193706",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100332356",
+    "title": "[하나유통] 대감님쌀 10kg (2024년 햅쌀)",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/2/15/10/1707962368080_16a2e6ef3faa4eb6a4129847d3a1a06b.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100332356",
+    "category": "무료배송",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100289749",
+    "title": "[햇당근] 신선한 햇당근_흙당근 [2kg-3kg]",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2023/5/26/08/1685056534374_a5af815ad25c4117ac34af11e5d74690.JPG/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100289749",
+    "category": "무료배송",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100412731",
+    "title": "1등급 한우 등심 250g+250g 구이용",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/16/13/1744776502854_f1c1c8879e4e44a2be08b6eef8ee933f.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100412731",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100205686",
+    "title": "KG 볶음아몬드 1kg 구운아몬드",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2022/4/20/10/1650416915043_8a1563d44b2647629f790391005935d3.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100205686",
+    "category": "무료배송",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100316997",
+    "title": "강경 새우젓 추젓 1kg/2kg/3kg/4kg",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2023/11/9/08/1699484743259_4da417ab547c4949b7ba9c82faedd73b.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100316997",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100280148",
+    "title": "고집쟁이고씨네 된장 500g/1kg/2kg",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2020/9/9/17/1599639424042_eb4b40cc4e194261b715ac9d6aa9b66e.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100280148",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100407584",
+    "title": "그대로크래커 3종 (50g x 5 / 50g x 10)",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/4/10/1743730914254_f482753563c24880a755c7e4e2eb43d7.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100407584",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100245660",
+    "title": "꿀맛가득 스테비아 애플토마토 골라담기",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2022/10/12/14/1665552762961_516c3f90a97c428ebf8187bf99c90652.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100245660",
+    "category": "무료배송",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100163527",
+    "title": "사시사철 맛좋은 우리땅 햇 감자(대) 3kg/5kg/10kg",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2021/3/16/15/1615875041782_3d2c7cb7ed024b5b88d2d87779c5c9ec.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100163527",
+    "category": "무료배송",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100412741",
+    "title": "올해 수확한 속깊은 꿀맛 하우스 햇 수미감자(대) 3kg",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/16/13/1744778801807_4472dd01be0c4a4182499617c64f87e2.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100412741",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100416837",
+    "title": "울 엄마가 좋아하는 옛날 옥수수빵 140g*10개",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/5/17/13/1747457256878_df52f1db457e45bbaac9489d88c43e3b.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100416837",
+    "category": "로컬상품관",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "로컬상품관",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
+  },
+  {
+    "id": "ontongdaejeon-100161994",
+    "title": "의성에서 보내드리는 꿀당도 사과(소/중/중대) 2.5kg",
+    "description": "",
+    "price": "",
+    "imageUrl": "https://img.ezwelfare.net/welfare_market/upload/goods/images/2021/8/23/11/1629686620391_7ea03c55a111464e938a163240c87a3f.jpg/gio/resize/260x260!/quality/80/",
+    "productUrl": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100161994",
+    "category": "무료배송",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전몰 대전사랑몰",
+    "region": "대전광역시",
+    "tags": [
+      "대전특산품",
+      "지역상품",
+      "로컬푸드",
+      "대전사랑몰",
+      "온통대전",
+      "무료배송",
+      "식품"
+    ],
+    "isFood": true
   }
 ]
