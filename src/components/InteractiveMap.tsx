@@ -83,11 +83,11 @@ export default function InteractiveMap({ regions, malls }: InteractiveMapProps) 
       
       <div className="flex flex-col lg:flex-row gap-6">
         {/* Map Container - Left Side */}
-        <div className="lg:w-1/2 bg-white rounded-lg shadow-lg p-4">
+        <div className="lg:w-1/3 bg-white rounded-lg shadow-lg p-4">
           <div className="relative">
             <svg
               viewBox="0 0 600 700"
-              className="w-full h-auto"
+              className="w-full h-auto max-h-96"
               xmlns="http://www.w3.org/2000/svg"
             >
               {/* Background - Korean Peninsula outline */}
@@ -186,7 +186,7 @@ export default function InteractiveMap({ regions, malls }: InteractiveMapProps) 
         </div>
 
         {/* Shopping Mall List - Right Side */}
-        <div className="lg:w-1/2" ref={mallListRef}>
+        <div className="lg:w-2/3" ref={mallListRef}>
           {selectedRegion ? (
             <div className="bg-white rounded-lg shadow-lg p-6 h-full overflow-auto max-h-[600px]">
               <div className="mb-6">
