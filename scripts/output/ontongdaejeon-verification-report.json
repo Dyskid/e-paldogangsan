@@ -1,136 +1,69 @@
 {
-  "totalProducts": 37,
-  "dataQuality": {
-    "withTitles": 37,
+  "timestamp": "2025-06-20T11:25:03.626Z",
+  "mall": "ontongdaejeon",
+  "mallName": "온통대전몰 대전사랑몰",
+  "statistics": {
+    "totalInDatabase": 213,
+    "mallProducts": 30,
+    "foodProducts": 30,
     "withPrices": 0,
-    "withImages": 37,
-    "withUrls": 37,
-    "withCategories": 37,
-    "withValidPrices": 0,
-    "withDiscounts": 0,
-    "withoutTitles": 0
+    "withImages": 30,
+    "withDescriptions": 0
   },
-  "categories": {
-    "가공식품": 37
-  },
-  "priceRange": {
-    "min": 0,
-    "max": 0,
-    "average": 0
+  "categories": [
+    {
+      "name": "로컬상품관",
+      "count": 22
+    },
+    {
+      "name": "자활기업",
+      "count": 1
+    },
+    {
+      "name": "무료배송",
+      "count": 7
+    }
+  ],
+  "issues": {
+    "missingPrices": 30,
+    "missingImages": 0,
+    "missingDescriptions": 30
   },
   "sampleProducts": [
     {
-      "id": "ontongdaejeon-100116484",
-      "title": "[장어총각] 대물 풍천장어 1kg (손질 후 650g내외/2~3인분)소스2종",
-      "price": 0,
-      "category": "가공식품",
+      "id": "ontongdaejeon-100412698",
+      "title": "[개별포장] 천일 사누끼 우동면 + 액상소스 + 후레이크 세트 구성",
+      "price": "가격정보없음",
       "hasImage": true,
-      "hasUrl": true,
-      "isFeatured": false
-    },
-    {
-      "id": "ontongdaejeon-100161994",
-      "title": "의성에서 보내드리는 꿀당도 사과(소/중/중대) 2.5kg",
-      "price": 0,
-      "category": "가공식품",
-      "hasImage": true,
-      "hasUrl": true,
-      "isFeatured": false
-    },
-    {
-      "id": "ontongdaejeon-100163448",
-      "title": "[산지직송] 무안 유기농 꿀고구마 (상특)3kg,5kg,10kg",
-      "price": 0,
-      "category": "가공식품",
-      "hasImage": true,
-      "hasUrl": true,
-      "isFeatured": false
-    },
-    {
-      "id": "ontongdaejeon-100163527",
-      "title": "사시사철 맛좋은 우리땅 햇 감자(대) 3kg/5kg/10kg",
-      "price": 0,
-      "category": "가공식품",
-      "hasImage": true,
-      "hasUrl": true,
-      "isFeatured": false
-    },
-    {
-      "id": "ontongdaejeon-100191661",
-      "title": "[도토리견과] 4오리지널15봉+6프리미엄15봉",
-      "price": 0,
-      "category": "가공식품",
-      "hasImage": true,
-      "hasUrl": true,
-      "isFeatured": false
-    },
-    {
-      "id": "ontongdaejeon-100193706",
-      "title": "[프로비] 프로비 프로폴리스 꿀 선물세트",
-      "price": 0,
-      "category": "가공식품",
-      "hasImage": true,
-      "hasUrl": true,
-      "isFeatured": false
-    },
-    {
-      "id": "ontongdaejeon-100205686",
-      "title": "KG 볶음아몬드 1kg 구운아몬드",
-      "price": 0,
-      "category": "가공식품",
-      "hasImage": true,
-      "hasUrl": true,
-      "isFeatured": false
-    },
-    {
-      "id": "ontongdaejeon-100245660",
-      "title": "꿀맛가득 스테비아 애플토마토 골라담기",
-      "price": 0,
-      "category": "가공식품",
-      "hasImage": true,
-      "hasUrl": true,
-      "isFeatured": false
-    },
-    {
-      "id": "ontongdaejeon-100264804",
-      "title": "[신현공예] 바둑무늬 엔드그레인 원목도마 (캄포,월넛,편백) (무료배송)",
-      "price": 0,
-      "category": "가공식품",
-      "hasImage": true,
-      "hasUrl": true,
-      "isFeatured": false
+      "category": "로컬상품관"
     },
     {
       "id": "ontongdaejeon-100280131",
       "title": "[고맛나루농협] 알맛다 공주쌀 5kg 10kg 20kg 상등급 24년산 햅쌀",
-      "price": 0,
-      "category": "가공식품",
+      "price": "가격정보없음",
       "hasImage": true,
-      "hasUrl": true,
-      "isFeatured": false
+      "category": "로컬상품관"
+    },
+    {
+      "id": "ontongdaejeon-100413602",
+      "title": "[금별축산] 1++ 명품 숙성한우 선물세트 모음전",
+      "price": "가격정보없음",
+      "hasImage": true,
+      "category": "로컬상품관"
+    },
+    {
+      "id": "ontongdaejeon-100413590",
+      "title": "[다온낙곱새] 다온낙곱새 밀키트 1500g 4인 /[다온낙곱새] 알탕 해물탕 밀키트 1800g 4인 택1",
+      "price": "가격정보없음",
+      "hasImage": true,
+      "category": "로컬상품관"
+    },
+    {
+      "id": "ontongdaejeon-100191661",
+      "title": "[도토리견과] 4오리지널15봉+6프리미엄15봉",
+      "price": "가격정보없음",
+      "hasImage": true,
+      "category": "자활기업"
     }
-  ],
-  "issues": [
-    "Product ontongdaejeon-100116484 has invalid price: 0",
-    "Product ontongdaejeon-100161994 has invalid price: 0",
-    "Product ontongdaejeon-100163448 has invalid price: 0",
-    "Product ontongdaejeon-100163527 has invalid price: 0",
-    "Product ontongdaejeon-100191661 has invalid price: 0",
-    "Product ontongdaejeon-100193706 has invalid price: 0",
-    "Product ontongdaejeon-100205686 has invalid price: 0",
-    "Product ontongdaejeon-100245660 has invalid price: 0",
-    "Product ontongdaejeon-100264804 has invalid price: 0",
-    "Product ontongdaejeon-100280131 has invalid price: 0",
-    "Product ontongdaejeon-100280148 has invalid price: 0",
-    "Product ontongdaejeon-100280161 has invalid price: 0",
-    "Product ontongdaejeon-100280162 has invalid price: 0",
-    "Product ontongdaejeon-100280163 has invalid price: 0",
-    "Product ontongdaejeon-100289749 has invalid price: 0",
-    "Product ontongdaejeon-100293112 has invalid price: 0",
-    "Product ontongdaejeon-100298524 has invalid price: 0",
-    "Product ontongdaejeon-100300440 has invalid price: 0",
-    "Product ontongdaejeon-100313095 has invalid price: 0",
-    "Product ontongdaejeon-100316997 has invalid price: 0"
-  ],
-  "featuredProducts": 0
+  ]
 }

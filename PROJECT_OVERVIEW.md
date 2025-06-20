@@ -90,15 +90,21 @@ scripts/
   │   ├── all-malls-products.json
   │   ├── category-cleanup-report.json
   │   ├── category-products-analysis.json
+  │   ├── chamdalseong-analysis-final.json
+  │   ├── chamds-analysis-final.json
   │   ├── chamds-analysis.json
+  │   ├── chamds-detailed-analysis.json
   │   ├── chamds-food-registration-summary.json
   │   ├── chamds-food-verification-final.json
   │   ├── chamds-homepage.html
   │   ├── chamds-image-real-fix-summary.json
+  │   ├── chamds-main-analysis.html
+  │   ├── chamds-page-_product_list_html.html
   │   ├── chamds-products-_product_list.html.html
   │   ├── chamds-products.json
   │   ├── chamds-registration-summary.json
   │   ├── chamds-scrape-summary.json
+  │   ├── chamds-structure-analysis.json
   │   ├── chamds-verification-report.json
   │   ├── ejeju-mall-products-comprehensive.json
   │   ├── ejeju-mall-products.json
@@ -152,27 +158,36 @@ scripts/
   │   ├── kkimchi-scrape-summary.json
   │   ├── kkimchi-verification-report.json
   │   ├── ontongdaejeon-analysis.json
+  │   ├── ontongdaejeon-cleaning-verification-report.json
+  │   ├── ontongdaejeon-detail-100416837.html
   │   ├── ontongdaejeon-enhanced-all-products.json
   │   ├── ontongdaejeon-enhanced-food-products.json
   │   ├── ontongdaejeon-enhanced-summary.json
+  │   ├── ontongdaejeon-final-summary.json
   │   ├── ontongdaejeon-food-products-with-prices.json
   │   ├── ontongdaejeon-food-products.json
   │   ├── ontongdaejeon-food-registration-summary.json
   │   ├── ontongdaejeon-food-scrape-summary.json
   │   ├── ontongdaejeon-homepage.html
+  │   ├── ontongdaejeon-main-analysis.html
+  │   ├── ontongdaejeon-price-structure-analysis.json
   │   ├── ontongdaejeon-price-test-results.json
   │   ├── ontongdaejeon-price-test-summary.json
   │   ├── ontongdaejeon-product-ids.json
+  │   ├── ontongdaejeon-products-with-prices.json
   │   ├── ontongdaejeon-products.json
   │   ├── ontongdaejeon-registration-summary.json
   │   ├── ontongdaejeon-scrape-summary.json
   │   ├── ontongdaejeon-verification-report.json
+  │   ├── ontongdaejeon-with-prices-registration-summary.json
+  │   ├── ontongdaejeon-with-prices-summary.json
   │   ├── products-backup-1750327814345.json
   │   ├── products-without-prices.txt
   │   ├── unknown-mall-removal-summary.json
   │   ├── wemall-analysis.json
   │   ├── wemall-category-001.html
   │   ├── wemall-category-010.html
+  │   ├── wemall-final-summary.json
   │   ├── wemall-food-filter-summary.json
   │   ├── wemall-food-products-final.json
   │   ├── wemall-food-registration-summary.json
@@ -185,6 +200,9 @@ scripts/
   │   ├── wemall-scrape-summary.json
   │   ├── wemall-verification-report.json
   ├── analyze-all-malls.ts
+  ├── analyze-chamdalseong-smartstore.ts
+  ├── analyze-chamds-detailed.ts
+  ├── analyze-chamds-homepage.ts
   ├── analyze-chamds-structure.ts
   ├── analyze-ejeju-mall-structure.ts
   ├── analyze-gimhaemall-structure.ts
@@ -192,12 +210,15 @@ scripts/
   ├── analyze-jeju-mall-structure.ts
   ├── analyze-jeju-mall.ts
   ├── analyze-kkimchi-structure.ts
+  ├── analyze-ontongdaejeon-price-structure.ts
   ├── analyze-ontongdaejeon-structure.ts
+  ├── analyze-smartstore-with-retry.ts
   ├── analyze-wemall-structure.ts
   ├── batch-scrape-all-malls.ts
   ├── check-jeju-titles.ts
   ├── check-price-status.js
   ├── classify-products.ts
+  ├── clean-and-verify-ontongdaejeon-products.ts
   ├── clean-category-products.ts
   ├── clean-extracted-titles.ts
   ├── clean-jeju-titles.ts
@@ -217,6 +238,7 @@ scripts/
   ├── fetch-real-jeju-titles.ts
   ├── filter-wemall-food-products.ts
   ├── final-verification.ts
+  ├── find-chamds-categories.ts
   ├── find-remaining-issue.ts
   ├── fix-chamds-images-real.ts
   ├── fix-final-generic-title.ts
@@ -229,6 +251,7 @@ scripts/
   ├── improve-scraped-titles.ts
   ├── integrate-final-jeju-products.ts
   ├── integrate-jeju-products.ts
+  ├── ontongdaejeon-final-summary.ts
   ├── overview-helpers.ts
   ├── README.md
   ├── register-all-mall-products.ts
@@ -239,6 +262,7 @@ scripts/
   ├── register-kkimchi-food-products.ts
   ├── register-kkimchi-products.ts
   ├── register-ontongdaejeon-food-products.ts
+  ├── register-ontongdaejeon-products-with-prices.ts
   ├── register-ontongdaejeon-products.ts
   ├── register-retry-products.ts
   ├── register-wemall-food-products.ts
@@ -271,6 +295,7 @@ scripts/
   ├── scrape-ontongdaejeon-enhanced.ts
   ├── scrape-ontongdaejeon-fixed.ts
   ├── scrape-ontongdaejeon-food-products.ts
+  ├── scrape-ontongdaejeon-with-prices.ts
   ├── scrape-wemall-comprehensive.ts
   ├── scrape-wemall-food-final.ts
   ├── scrape-wemall-priority.ts
@@ -410,7 +435,7 @@ Total: **99 shopping malls** across 17 regions
 }
 ```
 
-Total: **213 products** with real data for featured malls
+Total: **351 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -678,12 +703,12 @@ Version: 1.0.0
 Last Updated: 2025-06-20
 Version: 1.0.0
 Git Branch: product-enrolling
-Last Commit: 514a8c2 feat: register 광주김치몰 food products with enhanced discount price parsing
+Last Commit: 10f03a8 feat: implement comprehensive Ontong Daejeon mall food product scraping and registration
 
 ### Project Statistics
-- Total Files: 287
+- Total Files: 312
 - Total Directories: 29
 - Shopping Malls: 99
-- Products: 213
+- Products: 351
 - Regions: 17
 - Categories: 10

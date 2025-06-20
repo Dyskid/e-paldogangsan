@@ -10,7 +10,7 @@
 대구광역시
 
 우리몰: https://wemall.kr
-참달성 (달성군): https://chamds.com
+!참달성 (달성군): https://smartstore.naver.com/chamdalseong
 
 인천광역시
 
@@ -20,9 +20,13 @@
 
 광주김치몰: https://www.k-kimchi.kr/index.php
 
+
 대전광역시
 
 온통대전몰 대전사랑몰: https://ontongdaejeon.ezwel.com/onnuri/main
+
+
+$$여까함
 
 울산광역시
 
@@ -31,6 +35,7 @@
 세종특별자치시
 
 세종로컬푸드: https://www.sjlocal.or.kr/
+
 
 경기도
 
