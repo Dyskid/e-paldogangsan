@@ -215,7 +215,7 @@ export default function InteractiveMap({ regions, malls }: InteractiveMapProps) 
               </div>
 
               {selectedMalls.length > 0 ? (
-                <div className="space-y-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                   {selectedMalls.map((mall) => (
                     <MallCard
                       key={mall.id}

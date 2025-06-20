@@ -785,7 +785,7 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-20
 Version: 1.0.0
 Git Branch: main
-Last Commit: 001fd6c docs: update PROJECT_OVERVIEW.md after merge
+Last Commit: 87e1e7d feat: merge edit-landing branch with UI improvements
 
 ### Project Statistics
 - Total Files: 393
