@@ -307,6 +307,7 @@ scripts/
   ├── analyze-wemall-structure.ts
   ├── batch-scrape-all-malls.ts
   ├── check-jeju-titles.ts
+  ├── check-mall-grouping.js
   ├── check-price-status.js
   ├── classify-products.ts
   ├── clean-category-products.ts
@@ -439,6 +440,7 @@ src/
   │   ├── layout.tsx
   │   ├── page.tsx
   ├── components/
+  │   ├── AllMallsDisplay.tsx
   │   ├── FeaturedMalls.tsx
   │   ├── InteractiveMap.tsx
   │   ├── MallCard.tsx
@@ -786,13 +788,13 @@ Version: 1.0.0
 
 ---
 
-Last Updated: 2025-06-19
+Last Updated: 2025-06-20
 Version: 1.0.0
 Git Branch: edit-landing
-Last Commit: e326af1 fix: remove redundant hero section text
+Last Commit: fc7d8e7 style: reduce hero section size and padding
 
 ### Project Statistics
-- Total Files: 392
+- Total Files: 394
 - Total Directories: 35
 - Shopping Malls: 99
 - Products: 213
