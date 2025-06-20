@@ -62,7 +62,7 @@ export default function MallCard({ mall, region, onVisit }: MallCardProps) {
               </div>
             )}
             <div className="flex-1">
-              <h3 className="font-bold text-lg text-gray-800 group-hover:text-primary transition-colors duration-200 line-clamp-1">
+              <h3 className="font-bold text-lg text-gray-800 group-hover:text-primary transition-colors duration-200">
                 {mall.name}
               </h3>
               <p className="text-sm text-gray-600 mt-1">
