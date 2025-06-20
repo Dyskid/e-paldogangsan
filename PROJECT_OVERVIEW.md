@@ -260,6 +260,7 @@ scripts/
   │   ├── kkimchi-category-_index.php_cate_005002.html
   │   ├── kkimchi-category-_index.php_cate_005003.html
   │   ├── kkimchi-category-_index.php_cate_006.html
+  │   ├── kkimchi-comprehensive-report.json
   │   ├── kkimchi-food-registration-summary.json
   │   ├── kkimchi-food-verification-final.json
   │   ├── kkimchi-homepage.html
@@ -785,10 +786,10 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-20
 Version: 1.0.0
 Git Branch: main
-Last Commit: 296827c fix: show 3 malls per row when region is selected on map
+Last Commit: e898252 fix: remove map instruction text and enlarge map to fill container
 
 ### Project Statistics
-- Total Files: 393
+- Total Files: 394
 - Total Directories: 35
 - Shopping Malls: 99
 - Products: 213
