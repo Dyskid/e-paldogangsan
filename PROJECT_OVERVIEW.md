@@ -307,7 +307,6 @@ scripts/
   ├── analyze-wemall-structure.ts
   ├── batch-scrape-all-malls.ts
   ├── check-jeju-titles.ts
-  ├── check-mall-grouping.js
   ├── check-price-status.js
   ├── classify-products.ts
   ├── clean-category-products.ts
@@ -791,10 +790,10 @@ Version: 1.0.0
 Last Updated: 2025-06-20
 Version: 1.0.0
 Git Branch: edit-landing
-Last Commit: fc7d8e7 style: reduce hero section size and padding
+Last Commit: 11bfffa feat: display all malls by default on map interface
 
 ### Project Statistics
-- Total Files: 394
+- Total Files: 393
 - Total Directories: 35
 - Shopping Malls: 99
 - Products: 213
