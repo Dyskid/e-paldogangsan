@@ -83,11 +83,11 @@ export default function InteractiveMap({ regions, malls }: InteractiveMapProps) 
       
       <div className="flex flex-col lg:flex-row gap-6">
         {/* Map Container - Left Side */}
-        <div className="lg:w-1/3 bg-white rounded-lg shadow-lg p-4">
+        <div className="lg:w-1/3 bg-white rounded-lg shadow-lg p-2">
           <div className="relative">
             <svg
               viewBox="0 0 600 700"
-              className="w-full h-auto"
+              className="w-full h-auto min-h-96"
               xmlns="http://www.w3.org/2000/svg"
             >
               {/* Background - Korean Peninsula outline */}
@@ -178,11 +178,6 @@ export default function InteractiveMap({ regions, malls }: InteractiveMapProps) 
             )}
           </div>
 
-          <div className="mt-4 text-center">
-            <p className="text-sm text-gray-600">
-              지역을 클릭하여 해당 지역의 쇼핑몰을 확인하세요
-            </p>
-          </div>
         </div>
 
         {/* Shopping Mall List - Right Side */}

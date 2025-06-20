@@ -785,7 +785,7 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-20
 Version: 1.0.0
 Git Branch: main
-Last Commit: 87e1e7d feat: merge edit-landing branch with UI improvements
+Last Commit: 296827c fix: show 3 malls per row when region is selected on map
 
 ### Project Statistics
 - Total Files: 393
