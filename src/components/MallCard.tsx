@@ -46,11 +46,11 @@ export default function MallCard({ mall, region, onVisit }: MallCardProps) {
 
   return (
     <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-200 border border-gray-200 overflow-hidden group">
-      <div className="p-4">
-        <div className="flex justify-between items-start mb-3">
-          <div className="flex items-start gap-3 flex-1">
+      <div className="p-3">
+        <div className="flex justify-between items-start mb-2">
+          <div className="flex items-start gap-2 flex-1 min-w-0">
             {mall.logo && (
-              <div className="w-12 h-12 flex-shrink-0">
+              <div className="w-8 h-8 flex-shrink-0">
                 <img 
                   src={mall.logo} 
                   alt={`${mall.name} 로고`}
@@ -61,11 +61,11 @@ export default function MallCard({ mall, region, onVisit }: MallCardProps) {
                 />
               </div>
             )}
-            <div className="flex-1">
-              <h3 className="font-bold text-lg text-gray-800 group-hover:text-primary transition-colors duration-200 line-clamp-1">
+            <div className="flex-1 min-w-0">
+              <h3 className="font-bold text-sm text-gray-800 group-hover:text-primary transition-colors duration-200 leading-tight hyphens-auto" style={{wordBreak: 'keep-all', overflowWrap: 'break-word'}}>
                 {mall.name}
               </h3>
-              <p className="text-sm text-gray-600 mt-1">
+              <p className="text-xs text-gray-600 mt-1">
                 {region?.name_ko || mall.region}
               </p>
             </div>
@@ -85,17 +85,17 @@ export default function MallCard({ mall, region, onVisit }: MallCardProps) {
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-1 mb-3">
+        <div className="flex flex-wrap gap-1 mb-2">
           {mall.tags.slice(0, 3).map((tag, index) => (
             <span
               key={index}
-              className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded-md"
+              className="bg-gray-100 text-gray-700 text-xs px-1.5 py-0.5 rounded-md"
             >
               #{tag}
             </span>
           ))}
           {mall.tags.length > 3 && (
-            <span className="text-gray-500 text-xs px-2 py-1">
+            <span className="text-gray-500 text-xs px-1.5 py-0.5">
               +{mall.tags.length - 3}
             </span>
           )}
@@ -109,19 +109,12 @@ export default function MallCard({ mall, region, onVisit }: MallCardProps) {
               </svg>
               {formatClickCount(mall.clickCount)} 방문
             </span>
-            <span>•</span>
-            <span>
-              {new Date(mall.lastVerified).toLocaleDateString('ko-KR', {
-                month: 'short',
-                day: 'numeric'
-              })} 확인
-            </span>
           </div>
 
           <button
             onClick={handleVisit}
             disabled={isLoading}
-            className="bg-primary text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
+            className="bg-primary text-white px-3 py-1.5 rounded-md text-xs font-medium hover:bg-blue-700 transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-1.5 whitespace-nowrap flex-shrink-0"
           >
             {isLoading ? (
               <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>

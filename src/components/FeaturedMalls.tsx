@@ -75,8 +75,11 @@ export default function FeaturedMalls({
 
   return (
     <div className={`relative ${className}`}>
-      <div className="flex justify-between items-center mb-6">
-        <h2 className="text-2xl font-bold text-gray-800">추천 쇼핑몰</h2>
+      <div className="flex justify-between items-center mb-8">
+        <div>
+          <h2 className="text-3xl font-bold text-gray-800 mb-2">추천 쇼핑몰</h2>
+          <p className="text-lg text-gray-600">각 지역의 대표 온라인 쇼핑몰을 만나보세요</p>
+        </div>
         
         {totalSlides > 1 && (
           <div className="flex items-center gap-2">

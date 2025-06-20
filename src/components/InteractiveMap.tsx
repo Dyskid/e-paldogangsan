@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { Region, Mall } from '@/types';
 import MallCard from './MallCard';
+import AllMallsDisplay from './AllMallsDisplay';
 
 interface InteractiveMapProps {
   regions: Region[];
@@ -82,7 +83,7 @@ export default function InteractiveMap({ regions, malls }: InteractiveMapProps) 
       
       <div className="flex flex-col lg:flex-row gap-6">
         {/* Map Container - Left Side */}
-        <div className="lg:w-1/2 bg-white rounded-lg shadow-lg p-4">
+        <div className="lg:w-1/3 bg-white rounded-lg shadow-lg p-4">
           <div className="relative">
             <svg
               viewBox="0 0 600 700"
@@ -185,7 +186,7 @@ export default function InteractiveMap({ regions, malls }: InteractiveMapProps) 
         </div>
 
         {/* Shopping Mall List - Right Side */}
-        <div className="lg:w-1/2" ref={mallListRef}>
+        <div className="lg:w-2/3" ref={mallListRef}>
           {selectedRegion ? (
             <div className="bg-white rounded-lg shadow-lg p-6 h-full overflow-auto max-h-[600px]">
               <div className="mb-6">
@@ -240,22 +241,7 @@ export default function InteractiveMap({ regions, malls }: InteractiveMapProps) 
               )}
             </div>
           ) : (
-            <div className="bg-gray-50 rounded-lg p-12 h-full flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-gray-400 mb-4">
-                  <svg className="w-20 h-20 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-medium text-gray-600 mb-2">
-                  지역을 선택해주세요
-                </h3>
-                <p className="text-gray-500">
-                  왼쪽 지도에서 원하는 지역을 클릭하면<br />
-                  해당 지역의 쇼핑몰 목록을 확인할 수 있습니다
-                </p>
-              </div>
-            </div>
+            <AllMallsDisplay malls={malls} regions={regions} />
           )}
         </div>
       </div>

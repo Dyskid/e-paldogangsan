@@ -439,6 +439,7 @@ src/
   │   ├── layout.tsx
   │   ├── page.tsx
   ├── components/
+  │   ├── AllMallsDisplay.tsx
   │   ├── FeaturedMalls.tsx
   │   ├── InteractiveMap.tsx
   │   ├── MallCard.tsx
@@ -781,18 +782,13 @@ npm run lint     # Run ESLint
 
 ---
 
-Last Updated: 2025-06-01
-Version: 1.0.0
-
----
-
-Last Updated: 2025-06-19
+Last Updated: 2025-06-20
 Version: 1.0.0
 Git Branch: main
-Last Commit: fc61f9d feat: download and integrate local logos for all shopping malls
+Last Commit: 001fd6c docs: update PROJECT_OVERVIEW.md after merge
 
 ### Project Statistics
-- Total Files: 392
+- Total Files: 393
 - Total Directories: 35
 - Shopping Malls: 99
 - Products: 213
