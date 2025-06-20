@@ -69,7 +69,7 @@ export default function AllMallsDisplay({ malls, regions }: AllMallsDisplayProps
           )}
           <p className="text-xs text-gray-500 mt-1">쇼핑몰 {regionMalls.length}개</p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-4">
           {regionMalls.map((mall) => (
             <MallCard key={mall.id} mall={mall} region={regionData} />
           ))}
