@@ -1,0 +1,86 @@
+{
+  "mallName": "광명가치몰",
+  "mallUrl": "https://gmsocial.or.kr/mall/",
+  "scrapedAt": "2025-06-21T11:14:37.972Z",
+  "totalProducts": 38,
+  "categoriesScraped": [
+    "식품",
+    "생활/리빙",
+    "패션/뷰티",
+    "디지털/가전",
+    "가구/인테리어"
+  ],
+  "productsByCategory": {
+    "식품": 12,
+    "생활/리빙": 16,
+    "패션/뷰티": 2,
+    "디지털/가전": 7,
+    "가구/인테리어": 1
+  },
+  "priceRange": {
+    "min": 2000,
+    "max": 8445000280000
+  },
+  "sampleProducts": [
+    {
+      "title": "주식회사 삼호푸드\n\t\t\t\t\t\t\t\t삼삼이 노르웨이 저염 손질 간 고등어 특대 5미 집에서 간편하게 바로굽는 간고등어 캠핑추천",
+      "price": "13%\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t24,500원\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t28,000원",
+      "category": "식품",
+      "url": "https://gmsocial.or.kr/mall//mall/goods/view.php?product_id=105"
+    },
+    {
+      "title": "주식회사 삼호푸드\n\t\t\t\t\t\t\t\t삼삼이 노르웨이 저염 손질 간 고등어 대 집에서 간편하게 바로굽는 간고등어 업소용",
+      "price": "5%\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t12,000원\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t12,600원",
+      "category": "식품",
+      "url": "https://gmsocial.or.kr/mall//mall/goods/view.php?product_id=104"
+    },
+    {
+      "title": "주식회사 삼호푸드\n\t\t\t\t\t\t\t\t삼삼이 노르웨이 고등어 간편한 낱개포장 손질없이 간 자반 고등어 순살 2kg내외 10~13팩",
+      "price": "21%\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t30,000원\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t38,000원",
+      "category": "식품",
+      "url": "https://gmsocial.or.kr/mall//mall/goods/view.php?product_id=103"
+    },
+    {
+      "title": "이웃컴퍼니\n\t\t\t\t\t\t\t\t이웃컴퍼니 유기농 백설탕 500g",
+      "price": "4,500원",
+      "category": "식품",
+      "url": "https://gmsocial.or.kr/mall//mall/goods/view.php?product_id=78"
+    },
+    {
+      "title": "이웃컴퍼니\n\t\t\t\t\t\t\t\t이웃컴퍼니 정성담긴 수제 건강 생강고 생강진액 생강차",
+      "price": "35,000원",
+      "category": "식품",
+      "url": "https://gmsocial.or.kr/mall//mall/goods/view.php?product_id=77"
+    },
+    {
+      "title": "이웃컴퍼니\n\t\t\t\t\t\t\t\t이웃컴퍼니 프리미엄 수제 바닐라빈 시럽 320ml 홈카페 라떼",
+      "price": "18,500원",
+      "category": "식품",
+      "url": "https://gmsocial.or.kr/mall//mall/goods/view.php?product_id=76"
+    },
+    {
+      "title": "행원 맛드림\n\t\t\t\t\t\t\t\t수제 돈불고기 소불고기 다과세트 단체 도시락 배달",
+      "price": "8,000원",
+      "category": "식품",
+      "url": "https://gmsocial.or.kr/mall//mall/goods/view.php?product_id=70"
+    },
+    {
+      "title": "협동조합 담다\n\t\t\t\t\t\t\t\t담다 쌀,통밀 비건쿠키 견과류, 마시멜로우, 크렌베리 3가지 맛 호두파이 1종",
+      "price": "8,000원",
+      "category": "식품",
+      "url": "https://gmsocial.or.kr/mall//mall/goods/view.php?product_id=66"
+    },
+    {
+      "title": "이웃컴퍼니\n\t\t\t\t\t\t\t\t이웃컴퍼니 진하고 풍미있는 공정무역 멸동 드립백 우리밀쿠키 세트",
+      "price": "8,000원",
+      "category": "식품",
+      "url": "https://gmsocial.or.kr/mall//mall/goods/view.php?product_id=59"
+    },
+    {
+      "title": "협동조합 담다\n\t\t\t\t\t\t\t\t담다 고소한 웰빙음식 연잎밥 영양밥 찹쌀 대추 잣 적강낭콩 곡식 200g",
+      "price": "5,000원",
+      "category": "식품",
+      "url": "https://gmsocial.or.kr/mall//mall/goods/view.php?product_id=53"
+    }
+  ]
+}

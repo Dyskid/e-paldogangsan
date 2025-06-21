@@ -1,0 +1,18 @@
+{
+  "mallName": "착3몰",
+  "totalProducts": 160,
+  "productsWithPrice": 160,
+  "productsWithImage": 0,
+  "categories": [
+    "김치",
+    "반찬",
+    "장아찌",
+    "선물세트"
+  ],
+  "priceRange": {
+    "min": 3000,
+    "max": 2800000,
+    "average": 53883
+  },
+  "scrapedAt": "2025-06-21T09:43:31.193Z"
+}

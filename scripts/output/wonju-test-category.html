@@ -1,0 +1,1671 @@
+<!-- ================= #HTML_HEADER :: START. 파일위치 : _modules/common/html_header.html ================= -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ #HTML_HEADER @@
+- 파일위치 : [스킨폴더]/_modules/common/html_header.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko"  xmlns:fb="http://ogp.me/ns/fb#"  xmlns:og="http://ogp.me/ns#">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/fb/website#">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="utf-8">
+
+<script nonce="DBDj4qhIyTrZKlNVpEGXjc1U+s8bvdz6Vz1hOQYVqTk=">window.Firstmall = window.Firstmall || {};
+window.Firstmall.Config = {"Environment":{"MobileMode":true,"SetMode":null,"Language":"KR","isAdmin":false,"isSellerAdmin":false,"isUser":false,"Currency":{"Basic":{"Id":"KRW","Symbol":"&#x20a9;","Position":"after"},"Skin":{"Id":"KRW","Symbol":"&#x20a9;","Position":"after"}},"serviceLimit":{"H_FR":false,"H_AD":true,"H_NFR":true},"OperationType":"light","Protocol":"https","CacheBreaker":"86c7eed94707dab7fe913c4dc7d9950e453a86fa"},"Security":{"PreventDrag":false,"PreventContextMenu":false,"MemberLogoutLimit":"60"},"Search":{"AutoComplete":true,"Suggest":true}};
+(function(){ var aliases = {"gl_operation_type":window.Firstmall.Config.Environment.OperationType,"gl_mobile_mode":window.Firstmall.Config.Environment.MobileMode,"gl_set_mode":window.Firstmall.Config.Environment.SetMode,"gl_language":window.Firstmall.Config.Environment.Language,"gl_basic_currency":window.Firstmall.Config.Environment.Currency.Basic.Id,"gl_skin_currency":window.Firstmall.Config.Environment.Currency.Skin.Id,"gl_basic_currency_symbol":window.Firstmall.Config.Environment.Currency.Basic.Symbol,"gl_basic_currency_symbol_position":window.Firstmall.Config.Environment.Currency.Basic.Position,"gl_protocol":window.Firstmall.Config.Environment.Protocol+"://","gl_broadcast":window.Firstmall.Config.Environment.Broadcast}; for(var attr in aliases) { window[attr] = aliases[attr]; }})();</script>
+<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />  -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>원주몰</title>
+
+    <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "16d1ab0748fa68";
+if(window.wcs) {
+  wcs_do();
+}
+</script>
+    
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C43MDNBCJJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C43MDNBCJJ');
+</script>
+
+    
+    
+
+	<!-- SEO 설정이 있을경우 -->
+	<meta name="Robots" content="index,follow" />
+<meta name="title" content="원주몰" />
+<meta name="author" content="원주몰" />
+<meta name="description" content="강원도 건강도시 원주 생산품 쇼핑몰 입니다." />
+<meta name="keywords" content="강원도, 원주시, 치악산, 농산물, 웰빙, 평창, 축산물, 우리농산물, 건강도시" />
+
+<meta property="og:url" content="https://wonju-mall.co.kr/goods/search?osearchtext=다래&page=1&searchMode=search&per=40&sorting=ranking&filter_display=lattice" />
+<meta property="og:site_name" content="원주몰" />
+<meta property="og:title" content="원주몰" />
+	<meta property="og:description" content="강원도 건강도시 원주 생산품 쇼핑몰 입니다." />
+
+<meta property="og:type" content="website" />
+
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="/data/font/font.css" />
+
+<!-- 구글 웹폰트 -->
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700&amp;subset=korean" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_wonju2023_1_1_1_1/css/jqueryui/black-tie/jquery-ui-1.8.16.custom.css" />
+<link rel="stylesheet" type="text/css" href="/app/javascript/plugin/slick/slick.css"><!-- 반응형 슬라이드 -->
+<link rel="stylesheet" type="text/css" href="/data/design/goods_info_style.css"><!-- 상품디스플레이 CSS -->
+<link rel="stylesheet" type="text/css" href="/data/design/goods_info_user.css"><!-- ++++++++++++ 상품디스플레이 사용자/제작자 CSS ++++++++++++ -->
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_wonju2023_1_1_1_1/css/lib.css" />
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_wonju2023_1_1_1_1/css/common.css?v=20250621212537" />
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_wonju2023_1_1_1_1/css/board.css" />
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_wonju2023_1_1_1_1/css/buttons.css" />
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_wonju2023_1_1_1_1/css/mobile_pagination.css" />
+<link rel="stylesheet" type="text/css" href="/link/css?k=quickdesign&v=20250621212537" /><!-- Quick Design CSS -->
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_wonju2023_1_1_1_1/css/broadcast.css" /> 
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_wonju2023_1_1_1_1/css/user.css" /><!-- ++++++++++++ 스킨 사용자/제작자 CSS ++++++++++++ -->
+<link rel="stylesheet" href="/app/javascript/plugin/touchSlider/swiper.css" />
+<!-- /CSS -->
+<link rel="stylesheet" type="text/css" href="/app/javascript/plugin/jquery_swipe/jquery_swipe.css" />
+
+<!--//스킨 수정용-->
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_wonju2023_1_1_1_1/css/gcs_custom.css" />
+
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_wonju2023_1_1_1_1/css/user.css" />
+
+<!-- 파비콘 -->
+    <link rel="shortcut icon" href="https://wonju-mall.co.kr//home/gwmart-sub2/data/icon/favicon/favicon1386117" />
+
+<!-- 자바스크립트 -->
+<script src="/app/javascript/jquery/jquery.min.js"></script>
+<script src="/app/javascript/jquery/jquery-ui.min.js"></script>
+<script src="/app/javascript/plugin/jquery.poshytip.min.js"></script>
+<script src="/app/javascript/plugin/jquery.activity-indicator-1.0.0.min.js"></script>
+<script src="/app/javascript/plugin/jquery.cookie.js"></script>
+<script src="/app/javascript/plugin/jquery.slides.min.js"></script>
+<script src="/app/javascript/plugin/jquery.placeholder.js"></script>
+<script src="/app/javascript/plugin/validate/jquery.validate.js"></script>
+<script src="/app/javascript/plugin/ezmark/js/jquery.ezmark.min.js"></script>
+<script src="/app/javascript/plugin/custom-select-box.js"></script>
+<script src="/app/javascript/plugin/custom-mobile-pagination.js"></script>
+<script src="/app/javascript/plugin/slick/slick.min.js"></script>
+<script src="/app/javascript/plugin/jquery_swipe/jquery.event.swipe.js"></script>
+<script src="/app/javascript/plugin/touchSlider/swiper.js"></script>
+
+
+<script>
+var REQURL = '/goods/search?osearchtext=%EB%8B%A4%EB%9E%98&page=1&searchMode=search&per=40&sorting=ranking&filter_display=lattice';
+var WINDOWWIDTH = window.innerWidth;
+</script>
+
+
+<style type="text/css">
+
+/* 레이아웃설정 폰트 적용 */
+#layout_body body,
+#layout_body table,
+#layout_body div,
+#layout_body input,
+#layout_body textarea,
+#layout_body select,
+#layout_body span
+{
+}
+
+/* 레이아웃설정 스크롤바색상 적용 */
+</style>
+
+<!--[ 네이버 공통유입 스크립트 ]-->
+<script type="text/javascript" src="https://wcs.naver.net/wcslog.js"></script><script type="text/javascript">
+	if(!wcs_add) var wcs_add = {};
+	wcs_add["wa"] = "s_462a8495e4d0";
+		wcs.checkoutWhitelist = ["www.wonju-mall.co.kr","www.wonju-mall.com","www.wonju-mall.kr","원주몰.kr","원주몰.com","원주쇼핑몰.com"]; // 체크아웃 White list가 있을 경우
+			wcs.inflow('wonju-mall.co.kr');
+			$(window).load(function() {
+		wcs_do(); // 로그 수집 함수 (페이지 로딩후 실행됩니다)
+	});
+</script>
+
+
+<!-- /자바스크립트 -->
+<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', '377679256', 'auto');
+			ga_require_ec = false;
+			ga('send', 'pageview');
+			</script><script src="/app/javascript/js/dev-tools.js?v=86c7eed94707dab7fe91"></script><script src="/app/javascript/js/goods-display_mobile.js?v=86c7eed94707dab7fe91"></script><script src="/app/javascript/js/design.js?v=86c7eed94707dab7fe91"></script><script src="/app/javascript/js/common.js?v=86c7eed94707dab7fe91"></script><script src="/app/javascript/js/common-mobile.js?v=86c7eed94707dab7fe91"></script><script src="/app/javascript/js/front-layout.js?v=86c7eed94707dab7fe91"></script><script src="/app/javascript/js/base64.js?v=86c7eed94707dab7fe91"></script><script src="/app/javascript/js/skin-responsive.js?v=86c7eed94707dab7fe91"></script><script src="/data/js/language/L10n_KR.js?v=86c7eed94707dab7fe91"></script><script src="/data/skin/responsive_wonju2023_1_1_1_1/common/jquery.event.drag-1.5.min.js?v=86c7eed94707dab7fe91"></script><script src="/data/skin/responsive_wonju2023_1_1_1_1/common/jquery.touchSlider.js?v=86c7eed94707dab7fe91"></script><script src="/data/skin/responsive_wonju2023_1_1_1_1/common/responsive.js?v=86c7eed94707dab7fe91"></script><script src="/data/skin/responsive_wonju2023_1_1_1_1/common/script.js?v=86c7eed94707dab7fe91"></script><script src="/data/skin/responsive_wonju2023_1_1_1_1/common/search_ver2.js?v=86c7eed94707dab7fe91"></script><script src="/data/skin/responsive_wonju2023_1_1_1_1/common/user.js?v=86c7eed94707dab7fe91"></script><script src="/app/javascript/plugin/jquery.bxslider.js?v=86c7eed94707dab7fe91"></script>
+</head>
+
+<body>
+
+
+<!-- ######################## 21.6.21 gcs jdh #10691 쥐돌이 s -->
+<!-- ######################## 21.6.21 gcs jdh #10691 쥐돌이 e -->
+<!-- ================= #HTML_HEADER :: END. 파일위치 : _modules/common/html_header.html ================= -->
+
+<!--[ 디자인모드 호출 스크립트]-->
+
+<!--[ 모바일쇼핑몰 디자인모드시 화면 구성 ]-->
+
+<style>
+#layout_body {
+background-color:#ffffff;}
+#layer_pay {position:absolute;top:0px;width:100%;height:100%;background-color:#ffffff;text-align:center;z-index:999999;}
+#payprocessing {text-align:center;position:absolute;width:100%;top:150px;z-index:99999999px;}
+</style>
+
+<div id="wrap">
+	<!-- ================= 어사이드 :: START. 파일위치 : _modules/common/layout_side.html (비동기 로드) ================= -->
+	<div id="layout_side" class="layout_side"></div>
+	<!-- ================= 어사이드 :: END. 파일위치 : _modules/common/layout_side.html (비동기 로드) ================= -->
+	<a href="javascript:;" id="side_close" class="side_close">어사이드 닫기</a>
+
+	<div id="layout_wrap" class="layout_wrap">
+		<!-- ================= #LAYOUT_HEADER :: START. 파일위치 : layout_header/standard.html (default) ================= -->
+<div class='designPopupBand hide' popupStyle='band' designElement='popup' templatePath='goods/search.html' popupSeq='29' style='background-color:#ffeef7;'><div class='designPopupBody'><a href='/goods/brand?code=00040001' target='_self'><img src='/data/popup/popup_16841345540969.jpeg' /></a></div><div class='designPopupClose'><img src='/data/icon/common/etc/btn_tbanner_close.png' alt='banner close' /></div></div><div class='designPopupBandBtn absolute center hand hide' style='top:0px; left:50%; width:200px; margin-left:-100px;z-index:12'><img src='/data/icon/common/etc/band_btn_open.gif' /></div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ #LAYOUT_HEADER @@
+- 파일위치 : [스킨폴더]/layout_header/standard.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+<!-- //띠배너 -->
+
+<div id="layout_header" class="layout_header">
+    <div class="util_wrap">
+        <div class="resp_wrap">
+			<!-- language -->
+			<div class="language hide">
+				<a class="select_list" id="select_main" href="http://wonju-mall.co.kr">
+					<span class='language_country_img language_country_img_KR'></span>
+					Korea
+					<span class="sel_arrow"></span>
+				</a>
+				<ul class="optionSub" style="position:relative;display:none;">
+				</ul>
+			</div>
+
+        
+        
+            <ul class="util_wrap_menu2">
+                <li><a href="/member/login" designElement="text" textIndex="5"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfaGVhZGVyL3N0YW5kYXJkLmh0bWw=" >로그인</a></li>
+                <li>
+                    <a href="/member/agreement" designElement="text" textIndex="6"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfaGVhZGVyL3N0YW5kYXJkLmh0bWw="  class="join">회원가입</a>
+                </li>
+            
+                <li><a href="/service/cs" designElement="text" textIndex="7"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfaGVhZGVyL3N0YW5kYXJkLmh0bWw=" >고객센터</a></li>
+                <li><a href="/mypage" designElement="text" textIndex="8"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfaGVhZGVyL3N0YW5kYXJkLmh0bWw=" >마이페이지</a></li>
+
+            </ul>
+        
+             <ul class="util_wrap_menu">
+                <li class="respCartArea"><a href="/order/cart"><img src="/data/skin/responsive_wonju2023_1_1_1_1/images/design_resp/cart.png" alt="장바구니"><span designElement="text" textIndex="9"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfaGVhZGVyL3N0YW5kYXJkLmh0bWw=" >장바구니</span> </a></li>
+                <li><a href="/mypage/order_catalog" designElement="text" textIndex="10"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfaGVhZGVyL3N0YW5kYXJkLmh0bWw="  target="_self"><img src="/data/skin/responsive_wonju2023_1_1_1_1/images/design_resp/taekbea.png" alt="배송조회">배송조회</a></li>
+            </ul>
+        
+		</div>
+    </div>
+	<!-- //상단 유틸메뉴 -->
+
+    <div class="resp_wrap">
+		<div class="logo_wrap">
+			<!-- logo -->
+			<div class="logo_area">
+				<a href="/main/index" target='_self'><img src="/data/skin/responsive_wonju2023_1_1_1_1/images/wonju/logo.jpg" title="원주몰" alt="원주몰"></a>
+			</div>
+
+			<!-- 햄버거 버튼 -->
+			<div class="resp_top_hamburger">
+				<a href="#category"><b>aside menu</b></a>
+                
+			</div>
+
+			<!--<a href="/mypage/index" class="resp_top_mypge">마이페이지</a>-->
+
+
+
+			<!-- +++++++++++++++++++++++++ 검색 리뉴얼 +++++++++++++++++++++++++++++ -->
+            
+			<div id="searchModule" class="resp_top_search">
+                <a href="javascript:void(0)" id="btnSearchV2" class="btn_search_open">검색</a>
+				<div id="searchVer2" class="search_ver2">
+                    <a href="javascript:void(0)" class="close searchModuleClose icon">닫기</a>
+                    
+					<div class="search_new">
+						<!-- ------- 검색 입력 ------- -->
+						<form name="topSearchForm" id="topSearchForm" action="/goods/search">
+						<div class="input_area">
+							<div class="cont">
+								<label class="search_box"><input type="text" name="search_text" id="searchVer2InputBox" class="search_ver2_input_box" placeholder="Search" autocomplete="off" /></label>
+								<button type="submit" class="search"></button>
+								<button type="button" class="close searchModuleClose"></button>
+							</div>
+						</div>
+						</form>
+						<!-- ------- 페이지별 기본 검색 ------- -->
+						<!-- ------- //검색 입력 ------- -->
+
+						<div class="contetns_area" style="display:none;">
+							<!-- ------- 최근 검색어, 최근본 상품 ------- -->
+							<div id="recentArea" class="recent_area">
+								<ul class="tab_btns">
+									<li class="on"><a href="#recent-searched-list">최근 검색어</a></li>
+									<li><a href="#recent-item-list">최근본 상품</a></li>
+								</ul>
+								<!-- 최근 검색어 -->
+								<div id="recent-searched-list" class="tab_contents">
+									<ul id="recentSearchedList" class="searching_list">
+										<li class="recent_search_item">
+											<a class="searched_item" href="javascript:void(0)">참깨</a>
+											<a class="searching_item_close" href="javascript:void(0)" data-value="36786" onclick="searchRecentRemove(this)" title="삭제">삭제</a>
+										</li>
+										<li class="recent_search_item">
+											<a class="searched_item" href="javascript:void(0)">참개</a>
+											<a class="searching_item_close" href="javascript:void(0)" data-value="36785" onclick="searchRecentRemove(this)" title="삭제">삭제</a>
+										</li>
+										<li class="recent_search_item popular_search_item">
+											<a class="searched_item" href="javascript:void(0)">선물세트</a>
+										</li>
+										<li class="recent_search_item popular_search_item">
+											<a class="searched_item" href="javascript:void(0)">커피</a>
+										</li>
+										<li class="recent_search_item popular_search_item">
+											<a class="searched_item" href="javascript:void(0)">네오플램</a>
+										</li>
+										<li class="recent_search_item popular_search_item">
+											<a class="searched_item" href="javascript:void(0)">들기름</a>
+										</li>
+										<li class="recent_search_item popular_search_item">
+											<a class="searched_item" href="javascript:void(0)">만두</a>
+										</li>
+										<li class="no_data">최근검색어가 없습니다.</li>
+									</ul>
+									<div id="recentSearchedGuide" class="no_data" style="display:none;">최근 검색어 저장 기능이 꺼져있습니다.</div>
+									<ul class="tab_foot_menu">
+										<li class="menu_item">
+											<a href="javascript:void(0)" data-value="all" onclick="searchRecentRemove(this)">전체삭제</a>
+											<a class="btnRecentAuto off" href="javascript:void(0)">자동저장 끄기</a>
+											<a class="btnRecentAuto on" href="javascript:void(0)" style="display:none;">자동저장 <span class="importcolor">켜기</span></a>
+										</li>
+										<li class="search_close searchModuleClose"><a href="javascript:void(0)">닫기</a></li>
+									</ul>
+								</div>
+								<!-- //최근 검색어 -->
+
+								<!-- 최근본 상품 -->
+								<div id="recent-item-list" class="tab_contents" style="display:none;">
+									<ul class="recent_item_list">
+										<li class="no_data" style="display:none;">최근본 상품이 없습니다.</li>
+									</ul>
+									<ul class="tab_foot_menu">
+										<li class="swiper_guide">
+											<span class="to_left">&lt;</span>
+											<span class="to_right">&gt;</span>
+										</li>
+										<li class="search_close searchModuleClose"><a href="javascript:void(0)">닫기</a></li>
+									</ul>
+								</div>
+								<!-- //최근본 상품 -->
+							</div>
+							<!-- ------- //최근 검색어, 최근본 상품 ------- -->
+
+							<!-- ------- 검색어 자동완성 ------- -->
+							<div id="autoCompleteArea" class="autocomplete_area" style="display:none;">
+								<!-- 검색어 자동완성 - 검색어 -->
+								<div class="autocomplete_searching">
+									<ul id="autoCompleteList" class="searching_list">
+									</ul>
+									<div id="autoCompleteGuide" class="no_data" style="display:none;">자동완성 기능이 꺼져있습니다</div>
+									<ul class="tab_foot_menu">
+										<li class="menu_item">
+											<a class="btnAutoComplete off" href="javascript:void(0)">자동완성 끄기</a>
+											<a class="btnAutoComplete on" href="javascript:void(0)" style="display:none;">자동완성 <span class="importcolor">켜기</span></a>
+										</li>
+										<li class="search_close searchModuleClose"><a href="javascript:void(0)">닫기</a></li>
+									</ul>
+								</div>
+								<!-- //검색어 자동완성 - 검색어 -->
+
+								<!-- 검색어 자동완성 - 배너( 추천상품 ) -->
+								<div id="autoCompleteBanner" class="autocomplete_banner">
+									<h5 class="title">추천 상품</h5>
+									<ul id="autocompleteBannerList" class="banner_list">
+									</ul>
+								</div>
+								<!-- //검색어 자동완성 - 배너( 추천상품 ) -->
+							</div>
+							<!-- ------- //검색어 자동완성 ------- -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- +++++++++++++++++++++++++ //검색 리뉴얼 +++++++++++++++++++++++++++++ -->
+		</div>
+		<!-- //로고 영역 -->
+
+		<!-- +++++++++++ 카테고리 메뉴( 카테고리 메뉴를 미노출 하실 분은 style="display:none;" 처리 하세요. ex) id="cateSwiper" class="nav_wrap" style="display:none;" ) +++++++++++ -->
+		<div id="cateSwiper" class="nav_wrap">
+			<div class="nav_category_area">
+				<div class="designCategoryNavigation">
+					<ul class="respCategoryList">
+						<li class="nav_category_all ">
+							<!-- 전체 카테고리 버튼 class 네임 : 'categoryAllBtn', 전체 브랜드 : 'brandAllBtn', 전체 지역 : 'locationAllBtn' -->
+							<!-- 전체 카테고리 로딩 파일위치 : [스킨폴더]/_modules/category/all_navigation.html -->
+							<a href="javascript:void(0);" class="categoryAllBtn" designElement="text" textIndex="11"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfaGVhZGVyL3N0YW5kYXJkLmh0bWw="  target="_self"><img src="/data/skin/responsive_wonju2023_1_1_1_1/images/design_resp/icon_menu.png" class="icon" alt="">전체상품
+                            
+                            
+                            
+                            </a>
+                            
+                           
+                            
+                            
+                            
+							<div class="categoryAllSub">
+                                <ul>
+									<!-- 카테고리 네비게이션. 파일위치 : [스킨폴더]/_modules/category/category_gnb.html -->
+									<!-- 참고) 브랜드: showBrandLightNavigation(), 지역: showLocationLightNavigation() -->
+									<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ 카테고리 네비게이션 @@
+- 파일위치 : [스킨폴더]/_modules/category/category_gnb.html
+- 현재 3뎁스까지 노출 가능
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink designElement" designelement="category" href="/goods/catalog?code=0001"><em>쌀/잡곡</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00010007">백미</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00010002">현미/찹쌀/흑미</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00010003">혼합곡/잡곡류</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00010006">곡류선물세트</a>
+					</li>
+				</ul>
+				<div class="categorySubBanner">
+					<p><br></p><p style="text-align: center;"><img src="/data/editor/9acb58aa4f3ece8983b9c8e01327920d0204371.jpg" class="txc-image" style="clear:none;float:none;" /></p><p><br></p>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink designElement" designelement="category" href="/goods/catalog?code=0003"><em>채소/임산물</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00030001">감자/고구마/옥수수</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00030003">건나물/건채소</a>
+					</li>
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=000300050001">더덕</a></li>
+							<li><a href="/goods/catalog?code=000300050002">산마늘</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00030005">버섯/더덕/임산물</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00030006">아스파라거스/고추/샐러리</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00030007">절임배추/기타채소</a>
+					</li>
+				</ul>
+				<div class="categorySubBanner">
+					<p><br></p><p style="text-align: center;"><img src="/data/editor/df894c01864bf24d5aa7adf25a8569521100123.jpg" class="txc-image" style="clear:none;float:none;" /></p><p><br></p>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink designElement" designelement="category" href="/goods/catalog?code=0002"><em>과일/견과/건과</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00020001">사과/배</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00020004">토종다래/기타과일</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00020002">블루베리/복분자/오디</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00020005">견과류</a>
+					</li>
+				</ul>
+				<div class="categorySubBanner">
+					<p><br></p><p style="text-align: center;"><img src="/data/editor/cee3fb2cd5d27605afe5beca4bf698aa0206281.jpg" class="txc-image" style="clear:none;float:none;" /></p><p><br></p>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink designElement" designelement="category" href="/goods/catalog?code=0021"><em>수산/건어물</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00210001">김/다시마/해조류</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00210002">젓갈</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00210003">건어물</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00210004">기타 수산물</a>
+					</li>
+				</ul>
+				<div class="categorySubBanner">
+					<p style="text-align: center;"><img src="/data/editor/d4326374711a88578e79e4bcc2cad4e11100423.jpg" class="txc-image" style="clear:none;float:none;" /></p>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink designElement" designelement="category" href="/goods/catalog?code=0017"><em>정육/계란류</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00170001">소고기</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00170002">돼지고기</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00170004">계란/알류/가공란</a>
+					</li>
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=001700060001">돈가스</a></li>
+							<li><a href="/goods/catalog?code=001700060002">육포</a></li>
+							<li><a href="/goods/catalog?code=001700060003">쇠고기양념육</a></li>
+							<li><a href="/goods/catalog?code=001700060004">순대</a></li>
+							<li><a href="/goods/catalog?code=001700060005">햄/소세지</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00170006">축산가공식품</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00170005">축산선물세트</a>
+					</li>
+				</ul>
+				<div class="categorySubBanner">
+					null<p><br></p><p style="text-align: center;"><img src="/data/editor/155e6ae34c736f5cc7e79ec3eb64c05e1101023.jpg" class="txc-image" style="clear:none;float:none;" /></p><p><br></p>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink designElement" designelement="category" href="/goods/catalog?code=0005"><em>건강식품</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00050002">홍삼/인삼/수삼/산삼</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00050003">건강즙</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00050005">꿀/로얄젤리</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00050006">건강분말/건강환</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00050007">비타민/유산균</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00050008">옻진액</a>
+					</li>
+				</ul>
+				<div class="categorySubBanner">
+					null<p><br></p><p style="text-align: center;"><img src="/data/editor/b4770336a1149a1610eb4682f4739d451101173.jpg" class="txc-image" style="clear:none;float:none;" /></p><p><br></p>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink designElement" designelement="category" href="/goods/catalog?code=0006"><em>차/음료/유제품</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00060003">커피/음료/차류</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00060006">우유/치즈/요거트</a>
+					</li>
+				</ul>
+				<div class="categorySubBanner">
+					null<p><br></p><p style="text-align: center;"><img src="/data/editor/28ee9592851890191701df5cc1053a331101303.jpg" class="txc-image" style="clear:none;float:none;" /></p><p><br></p>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink designElement" designelement="category" href="/goods/catalog?code=0022"><em>과자/간식/빵</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00220001">떡</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00220006">빵</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00220002">과자/엿/잼류</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00220003">찐빵/만두/감자떡</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00220004">한과</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00220005">누룽지</a>
+					</li>
+				</ul>
+				<div class="categorySubBanner">
+					null<p><br></p><p style="text-align: center;"><img src="/data/editor/f64b8ec70a90e6e87894323d2bd237b61101453.jpg" class="txc-image" style="clear:none;float:none;" /></p><p><br></p>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink designElement" designelement="category" href="/goods/catalog?code=0008"><em>장류/양념류/기름</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=000800080001">된장</a></li>
+							<li><a href="/goods/catalog?code=000800080002">간장</a></li>
+							<li><a href="/goods/catalog?code=000800080003">고추장</a></li>
+							<li><a href="/goods/catalog?code=000800080004">청국장</a></li>
+							<li><a href="/goods/catalog?code=000800080006">막장</a></li>
+							<li><a href="/goods/catalog?code=000800080005">장류선물세트</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00080008">장류</a>
+					</li>
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=000800070001">액젓/식초</a></li>
+							<li><a href="/goods/catalog?code=000800070002">고춧가루</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00080007">양념류</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00080010">조청류</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00080011">기름류</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00080012">조미료</a>
+					</li>
+				</ul>
+				<div class="categorySubBanner">
+					<p><br></p><p style="text-align: center;"><img src="/data/editor/1734a31ffcbeb09c606558bdf4f32f9a1102033.jpg" class="txc-image" style="clear:none;float:none;" /></p><p><br></p>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink designElement" designelement="category" href="/goods/catalog?code=0007"><em>간편식/면/반찬류</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00070002">면류</a>
+					</li>
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=000700030001">튀김류</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00070003">냉장/냉동/간편요리</a>
+					</li>
+				</ul>
+				<div class="categorySubBanner">
+					<p><br></p><p style="text-align: center;"><img src="/data/editor/be07038d9658c1268f1df20b58426ab61102173.jpg" class="txc-image" style="clear:none;float:none;" /></p><p><br></p>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink designElement" designelement="category" href="/goods/catalog?code=0012"><em>생활용품/화장품/취미</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00120001">인테리어/목재/데코</a>
+					</li>
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=001200030001">샴푸</a></li>
+							<li><a href="/goods/catalog?code=001200030002">바디케어</a></li>
+							<li><a href="/goods/catalog?code=001200030003">클렌징비누</a></li>
+							<li><a href="/goods/catalog?code=001200030004">크림</a></li>
+							<li><a href="/goods/catalog?code=001200030005">에센스</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00120003">화장품/미용</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00120004">생리대</a>
+					</li>
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=001200050001">눈건강용품</a></li>
+							<li><a href="/goods/catalog?code=001200050002"> 코클리너</a></li>
+							<li><a href="/goods/catalog?code=001200050003">구강세정기</a></li>
+							<li><a href="/goods/catalog?code=001200050004">먼지차단마스크</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00120005">건강관리용품</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00120006">세제/세정제</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00120007">주방용품</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00120008">미용기기/안마용품</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00120009">구강위생용품</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00120011">원예용품</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00120012">공예용품/원주한지·옻공예</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00120013">문구류/서적</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00120014">차량용품</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00120015">반려동물용품/간식</a>
+					</li>
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=001200160001">전기요/방석</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00120016">생활가전</a>
+					</li>
+				</ul>
+				<div class="categorySubBanner">
+					null<p><br></p><p style="text-align: center;"><img src="/data/editor/e5caddc1b73cb0c59b9d4896c7deed731102323.jpg" class="txc-image" style="clear:none;float:none;" /></p><p><br></p>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink designElement" designelement="category" href="/goods/catalog?code=0018"><em>전통주</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00180001">소주</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00180002">약주</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</li>
+
+								</ul>
+							</div>
+						</li>
+                        <!-- //카테고리 네비게이션 -->
+                        
+                        
+                        
+						<li class="custom_nav_link"><a href="https://gwsub2.firstmall.kr/service/company" class="categoryDepthLink" designElement="text" textIndex="12"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfaGVhZGVyL3N0YW5kYXJkLmh0bWw="  target="_self"><em>원주몰 소개</em></a></li>
+                        <li class="custom_nav_link"><a href="/page/index?tpl=service%2Fcompany_guide.html" class="categoryDepthLink" designElement="text" textIndex="13"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfaGVhZGVyL3N0YW5kYXJkLmh0bWw="  target="_self"><em>입점안내</em></a></li>
+                        <li class="custom_nav_link"><a href="/goods/best" class="categoryDepthLink" designElement="text" textIndex="14"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfaGVhZGVyL3N0YW5kYXJkLmh0bWw="  target="_self"><em>베스트상품</em></a></li>
+						<li class="custom_nav_link"><a href="/goods/brand?code=0004" class="categoryDepthLink" designElement="text" textIndex="15"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfaGVhZGVyL3N0YW5kYXJkLmh0bWw="  target="_self"><em>기획전</em></a></li>
+                        <li></li>
+                        <li>
+                            <!-- 장바구니( 1023px 이하에서 노출됨 ) -->
+			                <a href="/order/cart" class="resp_top_cart"><h3>장바구니</h3></a> 
+            
+                        </li>
+
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- +++++++++++ //카테고리 메뉴 +++++++++++ -->
+	</div>
+
+
+	<!-- 카테고리 전체 네비게이션 팝업 START -->
+	<div id="categoryAll_wrap" class="categoryAll_wrap" style="display:none;">
+		<div class="categoryAllContainer"><!-- 로딩 파일위치 : [스킨폴더]/_modules/category/all_navigation.html --></div>
+	</div>
+	<!-- 카테고리 전체 네비게이션 팝업 END -->
+
+	<!-- 브랜드 전체 네비게이션 팝업 START -->
+	<div id="brandAll_wrap" class="brandAll_wrap" style="display:none;">
+		<div class="brandAllContainer"><!-- 로딩 파일위치 : [스킨폴더]/_modules/brand/all_navigation.html --></div>
+	</div>
+	<!-- 브랜드 전체 네비게이션 팝업 END -->
+
+	<!-- 지역 전체 네비게이션 팝업 START -->
+	<div id="locationAll_wrap" class="locationAll_wrap" style="display:none;">
+		<div class="locationAllContainer"><!-- 로딩 파일위치 : [스킨폴더]/_modules/location/all_navigation.html --></div>
+	</div>
+	<!-- 지역 전체 네비게이션 팝업 END -->
+
+    <!-- ------- 우측 사이드바 인클루드. 파일위치 :ㄴㄴ [스킨폴더]/_modules/common/scroll_right.html ------- -->
+<!-- //#14371 시군몰 추가용으로 소스제거 -->
+
+<div id="rightQuickMenuWrap" class="rightQuickMenuWrap2" style="right:-220px;">
+    <div class="outside_menu">
+		<ul class="menu1">
+			<li><a title="HOME" href="/"><img src="/data/skin/responsive_wonju2023_1_1_1_1/images/design_resp/right_quick_menu1.png" alt="홈" /></a></li>
+			<li><a href="/mypage/wish" title="찜한 상품" href="/mypage/wish"><img src="/data/skin/responsive_wonju2023_1_1_1_1/images/design_resp/right_quick_menu3.png" alt="찜한 상품" /></a></li>
+			<li id="recentViewBtn"><a  title="최근 본 상품" href="/goods/recently"><img src="/data/skin/responsive_wonju2023_1_1_1_1/images/design_resp/right_quick_menu4.png" alt="최근 본 상품" /></a></li>
+		</ul>
+        <!-- //열고 & 닫기 -->
+		<ul class="menu2">
+			<li><a href="javascript:void(0);" onclick="$('html,body').animate({scrollTop:0},'slow');" title="to Top"><img src="/data/skin/responsive_wonju2023_1_1_1_1/images/design_resp/btn_quick_top.png" alt="TOP" /></a></li>
+			<li><a href="javascript:void(0);" onclick="$('html,body').animate({scrollTop:$(document).height()},'slow');" title="to Bottom"><img src="/data/skin/responsive_wonju2023_1_1_1_1/images/design_resp/btn_quick_btm.png" alt="BOTTOM" /></a></li>
+		</ul>
+        <!-- //to top & to bottom -->
+	</div>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$set_right_recent = 1;	 /* 최근 본상품 설정 */
+		$set_right_recomm = 5;   /* 추천상품 설정 */
+		$set_right_cart = 5;		 /* 장바구니 설정 */
+		$set_right_wish = 5;		/* 위시리스트 설정 */
+
+
+	});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<!-- 상단영역 : 끝 -->
+
+<script type="text/javascript" src="/data/skin/responsive_wonju2023_1_1_1_1/common/search_ver2_ready.js"></script><!-- 반응형 관련 프론트 js : 검색, 자동검색어 최근본상품 -->
+<script type="text/javascript">
+	/* 카테고리 메뉴 */
+    $(function(){
+        $(".nav_category_all").on("mouseenter", function(){
+            $(".categoryAllSub").show();
+        });
+        $(".nav_category_all").on("mouseleave", function(){
+            $(".categoryAllSub").hide();
+        });
+    });
+
+    /* 스크롤시 상단 메뉴바 고정시키기 */
+	$(function() {
+		$("#layout_header .nav_wrap").each(function(){
+			var obj = $(this);
+			if($(".designPopupBand").css('display')=="block"){
+                var top_loc = obj.offset().top + 80;
+			}else{
+                var top_loc = obj.offset().top;
+            }
+            $(document).scroll(function(){
+                if(top_loc < $(document).scrollTop()){
+                    obj.addClass("flyingMode");
+                    $("#boardlayout").addClass("flyingMode");
+                }else{
+                    obj.removeClass('flyingMode');
+                    $("#boardlayout").removeClass("flyingMode");
+                }
+            });
+		});
+	});
+
+    var resp_loc_top;
+    function flyingTitleBar() {
+        //var resp_loc_top = $("#layout_header .logo_wrap").offset().top;
+        var obj = $("#layout_header .logo_wrap");
+        var obj_H = $("#layout_header .logo_wrap").outerHeight();
+        $(document).scroll(function(){
+            //alert( resp_loc_top );
+            if ( ( $('.designPopupBand').is(':hidden') || $('.designPopupBand').length < 1 )  && window.innerWidth < 480 ) {
+                if ( $("#layout_header .util_wrap").is(':hidden') ) {
+                    resp_loc_top = 0;
+                } else {
+                    resp_loc_top = $("#layout_header .util_wrap").outerHeight(); // 띠배너 클로즈시 보정
+                }
+            }
+            if(resp_loc_top < $(document).scrollTop() && window.innerWidth < 480 ){
+                    obj.addClass("flying");
+                    if ( !$('#gonBox').length ) {
+                        $('#layout_header .logo_wrap').before('<div id="gonBox"></div>');
+                        $('#gonBox').css( 'height', obj_H + 'px' );
+                    }
+            } else {
+                obj.removeClass('flying');
+                if ( $('#gonBox').length ) {
+                    $('#gonBox').remove();
+                }
+            }
+        });
+    }
+
+    $(function(){
+        // 텍스트 수정기능을 통해 소스에 박혀있는 카테고리 삭제시 --> 항목 삭제
+        $('#cateSwiper .custom_nav_link').each(function(e) {
+            if ( $(this).find('a').text() == '' ) {
+                $(this).remove();
+            }
+        });
+
+        /* 카테고리 활성화 */
+        var url2, cateIndex;
+        $('#layout_header .designCategoryNavigation .respCategoryList>li').each(function() {
+            url2 = $(this).find('a').attr('href');
+            if ( REQURL == url2 ) {
+                cateIndex = $(this).index();
+            } else if ( REQURL != url2 && ( REQURL.substr( 0, REQURL.length-4 ) == url2 || REQURL.substr( 0, REQURL.length-8 ) == url2) ) {
+                // 1depth 카테고리 일치하는 요소가 없는 경우 2뎁스에서 검색
+                cateIndex = $(this).index();
+            }
+        });
+        $('#layout_header .designCategoryNavigation .respCategoryList>li').eq(cateIndex).addClass('on');
+        /* //카테고리 활성화 */
+
+        /* 카테고리 swiper 동작( 1024 미만인 경우 동작, 1024 이상인 경우 : 마우스 오버시 서브메뉴 노출 ) */
+        var slideshowSwiper = undefined;
+        if ( window.innerWidth < 1024 && $('#cateSwiper .designCategoryNavigation').length > 0 ) {
+            $('#cateSwiper .designCategoryNavigation ul.respCategoryList>li').addClass('swiper-slide');
+            slideshowSwiper = new Swiper('#cateSwiper .designCategoryNavigation', {
+                wrapperClass: 'respCategoryList',
+                slidesPerView: 'auto'
+            });
+            slideshowSwiper.slideTo( (cateIndex-1), 800, false );
+        } else {
+            $('#cateSwiper .designCategoryNavigation ul.respCategoryList>li').removeClass('swiper-slide');
+            $('#layout_header .respCategoryList .categoryDepth1').hover(
+                function() { $(this).find('.categorySub').show(); },
+                function() { $(this).find('.categorySub').hide(); }
+            );
+        }
+        $( window ).resize(function() {
+            if ( window.innerWidth != WINDOWWIDTH ) {
+                if ( window.innerWidth < 1024 && $('#cateSwiper .designCategoryNavigation').length > 0 && slideshowSwiper == undefined ) {
+                    $('#cateSwiper .designCategoryNavigation ul.respCategoryList>li').addClass('swiper-slide');
+                    $('#layout_header .respCategoryList .categoryDepth1').off('hover');
+                    slideshowSwiper = new Swiper('#cateSwiper .designCategoryNavigation', {
+                        wrapperClass: 'respCategoryList',
+                        slidesPerView: 'auto'
+                    });
+                    slideshowSwiper.slideTo( (cateIndex-1), 800, false );
+                } else if ( window.innerWidth > 1023 && slideshowSwiper != undefined ) {
+                    slideshowSwiper.slideTo( 0, 800, false );
+                    $('#cateSwiper .designCategoryNavigation ul.respCategoryList>li').removeClass('swiper-slide');
+                    slideshowSwiper.destroy();
+                    slideshowSwiper = undefined;
+                    $('#layout_header .respCategoryList .categoryDepth1').hover(
+                        function() { $(this).find('.categorySub').show(); },
+                        function() { $(this).find('.categorySub').hide(); }
+                    );
+                }
+            }
+        });
+        /* //카테고리 swiper 동작( 1024 미만인 경우 동작, 1024 이상인 경우 : 마우스 오버시 서브메뉴 노출 ) */
+
+        //================= 카테고리 전체 네비게이션 START ====================
+        $('.categoryAllBtn').click(function() {
+            $('#categoryAll_wrap .categoryAllContainer').load('/common/category_all_navigation', function() {
+                $('#categoryAll_wrap').show();
+                $('body').css( 'overflow', 'hidden' );
+            });
+        });
+        $('#categoryAll_wrap').on('click', '.categoryAllClose', function() {
+            $('#categoryAll_wrap').hide();
+            $('body').css( 'overflow', 'auto' );
+        });
+        //================= 카테고리 전체 네비게이션 END  ====================
+
+        //================= 브랜드 전체 네비게이션 START ====================
+        $('.brandAllBtn').click(function() {
+            $('#brandAll_wrap .brandAllContainer').load('/common/brand_all_navigation', function() {
+                $('#brandAll_wrap').show();
+                $('body').css( 'overflow', 'hidden' );
+            });
+        });
+        $('#brandAll_wrap').on('click', '.brandAllClose', function() {
+            $('#brandAll_wrap').hide();
+            $('body').css( 'overflow', 'auto' );
+        });
+        //================= 브랜드 전체 네비게이션 END  ====================
+
+        //================= 지역 전체 네비게이션 START ====================
+        $('.locationAllBtn').click(function() {
+            $('#locationAll_wrap .locationAllContainer').load('/common/location_all_navigation', function() {
+                $('#locationAll_wrap').show();
+                $('body').css( 'overflow', 'hidden' );
+            });
+        });
+        $('#locationAll_wrap').on('click', '.locationAllClose', function() {
+            $('#locationAll_wrap').hide();
+            $('body').css( 'overflow', 'auto' );
+        });
+        //================= 지역 전체 네비게이션 END  ====================
+
+        // GNB 검색 관련
+        $('#respTopSearch .search_open_btn').click(function() {
+            $('#respTopSearch .search_form').addClass('animating');
+            $('#respTopSearch .search_text').focus();
+        });
+        $('#respTopSearch .search_close_btn').click(function() {
+            $('#respTopSearch .search_form').removeClass('animating');
+        });
+            
+
+
+        // 타이틀바 띄우기
+        flyingTitleBar();
+        $( window ).on('resize', function() {
+            if ( window.innerWidth != WINDOWWIDTH ) {
+                flyingTitleBar();
+            }
+        });
+
+        /* 카테고리 네비게이션 서브레이어 포지션 변화 */
+        var category1DepthNum = $('.respCategoryList .categoryDepth1').length;
+        var rightCategoryStandard = Math.floor( category1DepthNum / 2 );
+        $('.respCategoryList .categoryDepth1').each(function(e) {
+            if ( e > rightCategoryStandard ) {
+                //$('.respCategoryList .categoryDepth1').eq(e).addClass('right_area');
+            }
+        });
+        /* 카테고리 네비게이션 서브레이어 포지션 변화 */
+
+        $('.designPopupBand .designPopupClose').on('click', function() {
+            // 띠배너 닫기 클릭시
+        });
+    });
+</script>
+		<!-- ================= #LAYOUT_HEADER :: END. 파일위치 : layout_header/standard.html (default) ================= -->
+
+		<div id="layout_body" class="layout_body">
+		<!-- ================= 파트 페이지들 :: START. ================= -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ "검색결과" 리스트 페이지 @@
+- 파일위치 : [스킨폴더]/goods/search.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ######################## 21.07.28 gcs jdh #11327 통합검색 s -->
+<script type="text/javascript" src="/custom/gwmart_v1/app/javascript/js/skin-responsive.js?dummy=20250621212537" charset="utf8"></script>
+<style type="text/css" media="screen">
+	.masterGoodsDiv {border-top:1px dotted #e0e0e0; padding-top:40px; text-align:center; font-size:15px;margin-top:20px;}
+	.masterGoodsDiv .masterSearchBtn {cursor:pointer;}
+</style>
+<!-- ######################## 21.07.28 gcs jdh #11327 통합검색 e -->
+
+<div id="search_result_page">
+	<div class="title_container">
+		<h2 class="searched">'<span class="searched_text">다래</span>' <span designElement="text" textIndex="1"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9nb29kcy9zZWFyY2guaHRtbA==" >검색결과</span></h2>
+	</div>
+
+	<!-- ------- 검색필터, 상품정렬( 파일위치 : [스킨폴더]/goods/_search_form_light.html ) ------- -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ 검색필터, 추천상품, 상품정렬 @@
+- 파일위치 : [스킨폴더]/goods/_search_form_light.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+<form name="goodsSearchForm" id="goodsSearchForm" method="get">
+<input type="hidden" name="osearchtext" value="다래" />
+<input type="hidden" name="ship_grp_seq" value="" />
+<input type="hidden" name="event" value="" />
+<input type="hidden" name="gift" value="" />
+<input type="hidden" name="page" value="1" />
+<input type="hidden" name="searchMode" value="search" />
+<div id="filterResultCount">15</div>
+<div class="search_filter_wrap" data-ezmark="undo">
+	<!-- 필터 -->
+	<ul id="searchFilter" class="search_filter">
+		<li class="filter_section filter_category_section">
+			<div class="filter_menu_area on">
+				<a class="menuThebogi" href="#">카테고리</a>
+			</div>
+			<div class="filter_detail_area">
+				<div class="message">
+					카테고리가 없습니다.
+				</div>
+				<div class="category_all_nav">
+					<a href="javascript:void(0)" class="mobile_pre_cate" data-searchname="pre" onclick="setFilterCategory(this, false);">상위 카테고리</a>
+					<a href="javascript:void(0)" class="pc_all_cate" data-searchname="all" onclick="setFilterCategory(this, false);"><span class="name">전체</span></a>
+					<span class="count_category">(7개 카테고리)</span>
+				</div>
+				<ul class="filter_detail_item li_align">
+					<li>
+						<a href="javascript:void(0)" data-searchname="category_0005" data-value="c0005" onclick="setFilterCategory(this, false);">
+							<span class="name">건강식품</span>
+							<span class="desc">1</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)" data-searchname="category_0006" data-value="c0006" onclick="setFilterCategory(this, false);">
+							<span class="name">차/음료/유제품</span>
+							<span class="desc">4</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)" data-searchname="category_0007" data-value="c0007" onclick="setFilterCategory(this, false);">
+							<span class="name">간편식/면/반찬류</span>
+							<span class="desc">1</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)" data-searchname="category_0008" data-value="c0008" onclick="setFilterCategory(this, false);">
+							<span class="name">장류/양념류/기름</span>
+							<span class="desc">4</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)" data-searchname="category_0012" data-value="c0012" onclick="setFilterCategory(this, false);">
+							<span class="name">생활용품/화장품/취미</span>
+							<span class="desc">4</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)" data-searchname="category_0017" data-value="c0017" onclick="setFilterCategory(this, false);">
+							<span class="name">정육/계란류</span>
+							<span class="desc">2</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)" data-searchname="category_0022" data-value="c0022" onclick="setFilterCategory(this, false);">
+							<span class="name">과자/간식/빵</span>
+							<span class="desc">1</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</li>
+		<li class="filter_section filter_brand_section">
+			<div class="filter_menu_area">
+				<a class="menuThebogi" href="#">브랜드</a>
+			</div>
+			<div class="filter_detail_area">
+				<div class="message">
+					브랜드가 없습니다.
+				</div>
+				<div class="filter_section_sorting">
+					<label class="active"><input type="radio" name="sorting-brand" value="cntindex" checked />상품수</label>
+					<label><input type="radio" name="sorting-brand" value="nameindex" />가나다</label>
+				</div>
+				<ul class="filter_detail_item li_align brandList">
+					<li>
+						<label data-searchname="brand_0004" data-cntindex="0" data-value="b0004">
+							<input type="checkbox" onclick="setFilterBrand(this, false);" />
+							
+								원주몰 기획전
+						</label>
+					</li>
+				</ul>
+			</div>
+		</li>
+		<li class="filter_section filter_seller_section">
+			<div class="filter_menu_area">
+				<a class="menuThebogi" href="#">판매자</a>
+			</div>			
+			<div class="filter_detail_area">
+				<div class="message">
+					판매자가 없습니다.
+				</div>
+				<div class="filter_section_sorting">
+					<label class="active"><input type="radio" name="sorting-seller" value="cntindex" checked />상품수</label>
+					<label><input type="radio" name="sorting-seller" value="nameindex" />가나다</label>
+				</div>
+				<ul class="filter_detail_item li_align sellerList">
+					<li>
+						<label data-searchname="seller_161" data-cntindex="0" data-value="161">
+							<input type="radio" onclick="setFilterProvider(this, false);" />원주버섯영농조합법인
+						</label>
+					</li>
+					<li>
+						<label data-searchname="seller_319" data-cntindex="1" data-value="319">
+							<input type="radio" onclick="setFilterProvider(this, false);" />치악다래농장
+						</label>
+					</li>
+					<li>
+						<label data-searchname="seller_761" data-cntindex="2" data-value="761">
+							<input type="radio" onclick="setFilterProvider(this, false);" />(주)상호맘
+						</label>
+					</li>
+					<li>
+						<label data-searchname="seller_810" data-cntindex="3" data-value="810">
+							<input type="radio" onclick="setFilterProvider(this, false);" />디제이에프씨(주)
+						</label>
+					</li>
+					<li>
+						<label data-searchname="seller_1112" data-cntindex="4" data-value="1112">
+							<input type="radio" onclick="setFilterProvider(this, false);" />농업회사법인 산들바람 주식회사
+						</label>
+					</li>
+				</ul>
+			</div>
+		</li>
+		
+		<li class="filter_section filter_detail_section">
+			<div class="filter_menu_area">
+				<a class="menuThebogi" href="#">상세</a>
+			</div>
+			<div class="filter_detail_area">
+				<ul class="filter_detail_item">
+					<li class="shipping_area">
+						<span class="detail_stitle mo_hide">배송</span>
+						<label data-searchname="delivery_free" class="btn_sfilter" data-value="free">
+							<input type="checkbox" onclick="setFilterDelivery(this, false);" />무료배송
+						</label>
+					</li>
+					<li class="reresearch_area">
+						<label><span class="detail_stitle">재검색</span> <input class="input_sfilter" type="text" data-searchname="re_search" value="" /></label>
+						<button type="button" class="btn_sfilter" id="reSearchApply">적용</button>
+					</li>
+					<li class="price_area">
+						<label><span class="detail_stitle">가격</span> <input class="input_sfilter" type="text" data-searchname="min_price" placeholder="0" value="" /></label> ~
+						<label><input class="input_sfilter" type="text"  data-searchname="max_price" placeholder="56,500,000" value="" /></label>
+						<button type="button" class="btn_sfilter" id="priceApply">적용</button>
+					</li>
+				</ul>
+			</div>
+		</li>
+	</ul>
+
+	<!-- 필터된 항목 -->
+	<div id="searchFilterSelected" class="search_filter_selected">
+		<ul class="selected_item_area">
+		</ul>
+		<div class="selected_etc_area">
+			<a class="btn_all_cancel" href="#" title="전체해제" onclick="resetParams();"></a>
+		</div>
+	</div>
+
+	<!--[ 추천상품 출력(추천상품 디스플레이 편집 : 관리자 > 상품리스트 페이지 > 설정 > 페이지 추천상품 ) ]-->
+	<!-- 상품디스플레이 파일들 폴더 위치 : /data/design/ ( ※ /data 폴더는 /skin 폴더 상위 폴더입니다. ) -->
+	
+
+	<!-- 검색된 상품 정렬 -->
+	<ul id="filteredItemSorting" class="filtered_item_sorting">
+		<li class="item_total">
+			<a href="javascript:void(0)" id="btnFilterOpen" class="total"><span class="num">15</span>개</a>
+		</li>
+		<li class="item_display">
+			<label class="display display_lattice active"><input type="radio" name="filter_display" value="lattice" onclick="filterDisplay()" checked />격자 반응형</label>
+			<label class="display display_list"><input type="radio" name="filter_display" value="list" onclick="filterDisplay()" />리스트 반응형</label>
+		</li>
+		<li class="item_viewnum">
+			<select name="per">
+				<option value="20">&nbsp;20개씩 보기&nbsp;</option>
+				<option value="40" selected>&nbsp;40개씩 보기&nbsp;</option>
+				<option value="100">&nbsp;100개씩 보기&nbsp;</option>
+				<option value="200">&nbsp;200개씩 보기&nbsp;</option>
+			</select>
+		</li>
+		<li class="item_order">
+			<p id="mobileSortingSelected"></p>
+			<ul class="list">
+				<li>
+					<label class="active"><input type="radio" name="sorting" value="ranking" checked />랭킹순</label>
+				</li>
+				<li>
+					<label><input type="radio" name="sorting" value="regist" />신규등록순</label>
+				</li>
+				<li>
+					<label><input type="radio" name="sorting" value="low_price" />낮은가격순</label>
+				</li>
+				<li>
+					<label><input type="radio" name="sorting" value="high_price" />높은가격순</label>
+				</li>
+				<li>
+					<label><input type="radio" name="sorting" value="review" />상품평많은순</label>
+				</li>
+				<li>
+					<label><input type="radio" name="sorting" value="sale" />판매량순</label>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+</form>
+<script type="text/javascript">
+var brand_best_icon = "https://interface.firstmall.kr/firstmall_plus/sample_img/responsive_ver1_default_gl/brand/brand_main_20190215214621.gif";
+$(document).ready(function() {
+	filterDisplay();
+	
+	/**/
+	// 상품 색상 코드값 디자인 white --> border
+	if ( $('.displaY_color_option').length > 0 ) {
+		$('.displaY_color_option .areA').filter(function() {
+			return ( $(this).css('background-color') == 'rgb(255, 255, 255)' );
+		}).addClass('border');
+	}
+	var aParams = {'category':'','brand':'','location':'','delivery':'','color':'','provider':'','re_search':'','min_price'	:'','max_price':''};
+	/**/
+	/**/
+	/**/
+	/**/
+	/**/
+	/**/
+	/**/
+	/**/
+	/**/
+	/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+	/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+	/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+	/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+	/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+	/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+	/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+	/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+	/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+	/**/	
+	set_classification('', '');	
+	displaySearchFilter();
+	
+	goodsSearch('auto');
+});
+</script>
+
+	<!-- ------- //검색필터, 상품정렬 ------- -->
+
+	<!-- ------- 상품 영역( data-displaytype : "lattice", "list" ), 파일위치 : [스킨폴더]/goods/search_list_template.html ------- -->
+	<div id="searchedItemDisplay" class="searched_item_display" data-displaytype="lattice"></div>
+	<!-- ------- //상품 영역 ------- -->
+
+	<!-- ######################## 21.07.28 gcs jdh #11327 통합검색 s -->
+ 
+	<div id="masterGoodsDiv" class="hide">
+		<div class="masterGoodsDiv">
+			통합 검색결과 <span id="masterSearchCnt">0</span>건이 있습니다. 결과를 보시겠습니까? 
+			<button type="button" class="btn_resp" id="masterSearchBtn">결과보기</button>
+		</div>
+		<iframe id="masterGoodsIfm" frameborder="0" src="/main/blank" scrolling="no" style="width:100%;min-height:500px;overflow:hidden;" class="hide"></iframe>
+	</div>
+	<!-- ######################## 21.07.28 gcs jdh #11327 통합검색 e -->
+</div>
+
+<div id="wish_alert">
+	<div class="wa_on"></div>
+	<div class="wa_off"></div>
+	<div class="wa_msg"></div>
+</div>
+
+<script type="text/javascript">
+	/*######################## 21.07.28 gcs jdh : #11327 통합검색 s */
+	var masterN = false;
+		var masterN = true;
+ 
+	/*######################## 21.07.28 gcs jdh : #11327 통합검색 e */
+$(function() {
+	// 검색 페이지 -> 디폴트 검색박스 open
+	$('.search_ver2').addClass('on');
+
+	// 컬러 필터 - 255, 255, 255 --> border
+	colorFilter_white( '#searchFilterSelected .color_type' );
+
+	/*######################## 21.07.28 gcs jdh : #11327 통합검색 s */
+	if(masterN){
+		$("#masterSearchBtn").click(function(){
+			$('#searchedItemDisplay').hide();
+			$('.masterGoodsDiv').hide();
+
+			var getParams	= searchParams();
+			//$('#masterGoodsIfm').attr("src","/goods/master_search?osearchtext=%EB%8B%A4%EB%9E%98&page=1&searchMode=search&per=40&sorting=ranking&filter_display=lattice").show();
+			$('#masterGoodsIfm').attr("src","/goods/master_search?"+getParams).show();
+
+			// 2022.02.10 gcs ksm : sub1 의 검색결과 갯수를 강제로 삽입함.
+			$("a.total span.num").html( $("#masterSearchCnt").text() );
+		});
+		$('#masterGoodsIfm').load(function() {
+			$('#masterGoodsIfm').height(document.getElementById('masterGoodsIfm').contentWindow.document.body.scrollHeight);
+		});
+	}
+	/*######################## 21.07.28 gcs jdh : #11327 통합검색 e */
+});
+</script>
+		<!-- ================= 파트 페이지들 :: END. ================= -->
+		</div>
+
+		<!-- ================= #LAYOUT_FOOTER :: START. 파일위치 : layout_footer/standard.html (default) ================= -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ #LAYOUT_FOOTER @@
+- 파일위치 : [스킨폴더]/layout_footer/standard.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+<div id="layout_footer" class="layout_footer">
+	<div class="resp_wrap">
+		<ul class="footer_contents">
+            <li class="footer_7b">
+				<h3 class="title_f"><a href="/service/cs" designElement="text" textIndex="1"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >CUSTOMER CENTER</a></h3>
+				<ul class="menu_7b1">
+					<li class="company_phone">
+						<a href="tel:033-749-3320"><h2>033-749-3320</h2></a>
+					</li>
+					<li class="open_close"><span designElement="text" textIndex="2"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >월   -    금 : 오전 10:00 - 오후 5:00</span></li>
+					<li class="open_close"><span designElement="text" textIndex="3"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >점심시간 : 오후 12:00 ~ 오후 1:00 </span></li>
+                    <li class="open_close"><span designElement="text" textIndex="4"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >(토요일, 일요일, 공휴일 휴무)</span></li>
+                    <li class="open_close mt10"><a href="board/?id=mbqna"><img src="/data/skin/responsive_wonju2023_1_1_1_1/images/design_resp/qna_btn.jpg"></a>
+                    </li>
+				</ul>
+			</li>
+			<li class="footer_a1">
+                <h3 class="title_f"><a href="/service/cs" designElement="text" textIndex="5"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >Banking Info</a></h3>
+				<ul class="menu_7a1">
+                    <li class="company_bank">
+                        <h2><span designElement="text" textIndex="6"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" ></span></h2>
+						<p class="bank_info"></p>
+					</li>
+				</ul>
+			</li>
+
+			<li class="footer_7c">
+				<h3 class="title_f Pb5"><span designElement="text" textIndex="7"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >Community</span></h3>
+				<ul class="menu_7c1">
+					<li class="gongji">
+						<a href="/board/?id=notice" designElement="text" textIndex="8"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >Notice</a>
+					</li>
+					<li class="order_search">
+						<a href="/board/?id=goods_qna" designElement="text" textIndex="9"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw="  target="_self" >상품문의 </a>
+					</li>
+					<li class="faq">
+						<a href="/board/?id=goods_review" designElement="text" textIndex="10"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >Review</a>
+					</li>
+				</ul>
+			</li>
+            
+			<li class="footer_7c">
+				<h3 class="title_f Pb5"><span designElement="text" textIndex="11"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >Follow Us</span></h3>
+				<ul class="menu_7c1">
+					<li class="gongji">
+						<a href="https://www.instagram.com/wonjumall/" designElement="text" textIndex="12"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw="  target="_blank">Instagram</a>
+					</li>
+					<li class="order_search">
+						<a href="https://www.facebook.com/wonjumall" designElement="text" textIndex="13"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw="  target="_blank" >Facebook</a>
+					</li>
+				</ul>
+			</li>
+            
+		</ul>
+     
+       <div class="fmenu">
+       <ul class="w1">
+                <li><a href="/board/?id=notice" designElement="text" textIndex="14"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >홈</a></li>
+                <li><a href="/service/company" designElement="text" textIndex="15"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw="  target="_self" >원주몰소개</a></li>
+                <li><a href="/service/agreement" designElement="text" textIndex="16"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >이용약관</a></li>
+                <li class="bold"><a href="/service/privacy" designElement="text" textIndex="17"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >개인정보처리방침</a> </li>
+           <li><a href="/service/guide" designElement="text" textIndex="18"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >이용안내</a></li>
+                <li><a href="www.provin.gangwon.kr" designElement="text" textIndex="19"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw="  target="_self"></a></li>
+        </ul>
+            
+        <ul class="w2">
+					<li class="company"><span designElement="text" textIndex="20"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >상호명 :</span> <span class="pcolor">재단법인 강원특별자치도경제진흥원</span></li>
+					<li class="ceo"><span designElement="text" textIndex="21"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >대표자 :</span> <span class="pcolor">권오광</span></li>
+					<li class="address"><span designElement="text" textIndex="22"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >주소 :</span> <span class="pcolor">강원특별자치도 원주시 호저로 47  강원특별자치도경제진흥원</span></li>
+					<li class="phone"><span designElement="text" textIndex="23"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >전화번호 :</span> <a href="tel:033-749-3320" class="link_f">033-749-3320</a></li>
+                    <li class="business_license"><span designElement="text" textIndex="24"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >사업자등록번호 :</span> 221-82-07135 &nbsp; &nbsp; <span class="link_f"><a href="javascript:;" onclick="window.open('http://www.ftc.go.kr/bizCommPop.do?wrkr_no=221-82-07135','communicationViewPopup','width=750,height=700,scrollbars=yes')">사업자정보확인</a></span></li>
+					<!--<li class="fax"><span designElement="text">팩스 :</span> <span class="pcolor">033-749-3343</span></li>-->
+					
+					<li class="member_info_manager"><span designElement="text" textIndex="25"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >개인정보보호책임자 :</span> <span class="pcolor">이학수 (<a class="pcolor" href="mailto:help@wonju-mall.co.kr">help@wonju-mall.co.kr</a>)</span></li>
+            		<li class="mailselling_license"><span designElement="text" textIndex="26"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >통신판매업신고번호 :</span> <span class="pcolor">2007-강원원주-00151</span></li>
+        </ul>
+        <p class="copyright" designElement="text" textIndex="27"  textTemplatePath="cmVzcG9uc2l2ZV93b25qdTIwMjNfMV8xXzFfMS9sYXlvdXRfZm9vdGVyL3N0YW5kYXJkLmh0bWw=" >COPYRIGHT (c) <span class="pcolor">재단법인 강원특별자치도경제진흥원</span> ALL RIGHTS RESERVED.</p>
+        </div>
+        
+        
+		<div class="escro"><script type="text/javascript">function f_escrowKicc(){window.open("http://www.easypay.co.kr/escrow/escrow_memb_auth.jsp?memb_id=GA123456", "kicc_escrow", "top=0,left=0,width=800,height=450,scrollbars,menubar=no,resizable,status,location=yes,toolbar=yes");}</script></div>
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<!-- 하단영역 : 끝 -->
+
+<!-- 플로팅 - BACK/TOP(대쉬보드) -->
+<div id="floating_over">
+	<a href="javascript:history.back();" class="ico_floating_back" title="뒤로 가기"></a>
+	<a href="javascript:history.forward();" class="ico_floating_foward" title="앞으로 가기"></a>
+	<a href="javascript:void(0);" onclick="$('html,body').animate({scrollTop:0},'slow');" class="ico_floating_top" title="위로 가기">TOP</a>
+
+	<!-- 최근 본 상품(LAYER) -->
+</div>
+<!-- //플로팅 - BACK/TOP(대쉬보드) -->
+
+<script type="text/javascript">
+	$(function() {
+		/* 반응형 슬라이드 배너 관련( 절대 삭제 금지 ) */
+			$('.slider_before_loading').removeClass('slider_before_loading');
+
+		// 상품 색상 코드값 디자인( new 상품정보 )
+		if ( $('.displaY_color_option').length > 0 ) {
+			$('.displaY_color_option .areA').filter(function() {
+				return ( $(this).css('background-color') == 'rgb(255, 255, 255)' );
+			}).addClass('border');
+		}
+
+		$( window ).on('resize', function() {
+			if ( window.innerWidth != WINDOWWIDTH ) {
+				setTimeout(function(){ WINDOWWIDTH = window.innerWidth; }, 10);
+			}
+		});
+	});
+
+
+</script>
+		<!-- ================= #LAYOUT_FOOTER :: END. 파일위치 : layout_footer/standard.html (default) ================= -->
+
+		<iframe name="actionFrame" id="actionFrame" src="" frameborder="0" width="100%" height="0"></iframe>
+		<div id="openDialogLayer" style="display: none">
+			<div align="center" id="openDialogLayerMsg"></div>
+		</div>
+		<div id="ajaxLoadingLayer" style="display: none"></div>
+	</div>	
+</div>
+<div id="mobileZipcodeLayer" style="display: none"></div>
+<!-- 결제창을 레이어 형태로 구현-->
+<div id="layer_pay" class="hide"></div>
+<div id="payprocessing" class="pay_layer hide">
+	<div style="margin:auto;"><img src="/data/skin/responsive_wonju2023_1_1_1_1/images/design/img_paying.gif" /></div>
+	<div style="margin:auto;padding-top:20px;"><img src="/data/skin/responsive_wonju2023_1_1_1_1/images/design/progress_bar.gif" /></div>
+</div>
+<div id="layout_side_background" class="layout_side_background"></div>
+
+<!-- ================= #HTML_FOOTER :: START. 파일위치 : _modules/common/html_footer.html ================= -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ #HTML_FOOTER @@
+- 파일위치 : [스킨폴더]/_modules/common/html_footer.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div id="popupChangePassword" class="resp_layer_pop hide">
+	<h4 class="title">비밀번호 변경</h4>
+	<form id='passUpdateForm' method='post' action='/login_process/popup_change_pass' target='actionFrame'>
+	<input type='hidden' name='password_mode' value='update'>
+		<div class="y_scroll_auto2">
+			<div class="layer_pop_contents v5">
+				<h5 class="stitle">회원님의 소중한 개인정보 보호를 위해 비밀번호를 주기적으로 변경하시는 것이 좋습니다.</h5>
+				<p class="desc Pb8">※ 비밀번호는 영문 대문자, 영문 소문자, 숫자, 특수문자 중 2가지 이상을 조합한 8~20자</p>
+				<div class="resp_table_row input_form th_size3">
+					<ul class="tr">
+						<li class="th Pl5 Pr5">현재 비밀번호</li>
+						<li class="td">
+							<input type='password' name='old_password' value='' class='passwordField eng_only Wmax' />
+						</li>
+					</ul>
+					<ul class="tr">
+						<li class="th Pl5 Pr5">신규 비밀번호</li>
+						<li class="td">
+							<input type='password' name='new_password' value='' class='passwordField eng_only Wmax class_check_password_validation' />
+						</li>
+					</ul>
+					<ul class="tr">
+						<li class="th Pl5 Pr5">신규 비밀번호 <span class="Dib">확인</span></li>
+						<li class="td">
+							<input type='password' name='re_new_password' value='' class='passwordField eng_only Wmax' />
+						</li>
+					</ul>
+				</div>
+				<div class="C Pt20 Fs15">
+					<label><input type='checkbox' name='update_rate' value='Y' onclick='update_rate_checked();'> 개월 이후에 비밀번호를 변경하겠습니다.</label>
+				</div>
+			</div>
+		</div>
+		<div class="layer_bottom_btn_area2 v2">
+			<ul class="basic_btn_area2">
+				<li><button type="submit" class="btn_resp size_c color2">변경 완료</button></li>
+				<li><button type="button" class="btn_resp size_c color5" onclick="hideCenterLayer()">취소</button></li>
+			</ul>
+		</div>
+		<a href="javascript:void(0)" class="btn_pop_close" onclick="hideCenterLayer()"></a>
+	</form>
+</div>
+</body>
+</html>
+<!-- ================= #HTML_FOOTER :: END. 파일위치 : _modules/common/html_footer.html ================= --><script>var gl_searchFilterUse = '1';</script>
+			<script type='text/javascript'>
+			$.ajax({
+				type: 'post',
+				url: '../stats_process/insert_search_stats',
+				data: 'search_text=다래',
+				dataType : 'json',
+				success: function(obj){}
+			});
+			</script>
+			

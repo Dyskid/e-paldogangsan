@@ -26,7 +26,6 @@
 온통대전몰 대전사랑몰: https://ontongdaejeon.ezwel.com/onnuri/main
 
 
-$$여까함
 
 울산광역시
 
@@ -34,7 +33,7 @@ $$여까함
 
 세종특별자치시
 
-세종로컬푸드: https://www.sjlocal.or.kr/
+@세종로컬푸드: https://www.sjlocal.or.kr/
 
 
 경기도
@@ -42,17 +41,22 @@ $$여까함
 착착착: https://www.chack3.com/
 오산함께장터: http://www.osansemall.com/
 광명가치몰: https://gmsocial.or.kr/mall/
+
+
+
 양주농부마켓: https://market.yangju.go.kr/
 @@마켓경기: https://smartstore.naver.com/marketgyeonggi
 
 강원도
 
+
+
 강원더몰: https://gwdmall.kr/
-원주몰: https://wonju-mall.co.kr/
+원주몰: https://wonju-mall.co.kr/ 
 강릉몰: https://gangneung-mall.com/
-고성몰: https://gwgoseong-mall.com/
+고성몰: https://gwgoseong-mall.com/ 
 동해몰: https://donghae-mall.com/
-삼척몰: https://samcheok-mall.com/
+삼척몰: https://samcheok-mall.com/ @여까함
 양구몰: https://yanggu-mall.com/
 양양몰: https://yangyang-mall.com/
 영월몰: https://yeongwol-mall.com/

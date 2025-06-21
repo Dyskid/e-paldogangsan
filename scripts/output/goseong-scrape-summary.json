@@ -1,0 +1,38 @@
+{
+  "timestamp": "2025-06-21T13:30:50.766Z",
+  "mallName": "고성몰",
+  "mallUrl": "https://gwgoseong-mall.com",
+  "totalProductUrls": 27,
+  "processedProducts": 27,
+  "successfullyScraped": 27,
+  "errors": 0,
+  "savedProducts": 27,
+  "errorDetails": [],
+  "sampleProducts": [
+    {
+      "title": "디어진저 프리미엄 수제 생강청 기업용 대용량 선물세트(16g×80stick 1280g Gift Set)",
+      "price": "12%\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t72,000₩\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t64,000₩",
+      "id": "100949"
+    },
+    {
+      "title": "[통일덕장] 황태선물세트A (왕특대)",
+      "price": "10%\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t55,000₩\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t50,000₩",
+      "id": "103968"
+    },
+    {
+      "title": "보나테라 다크 초코 살라미 1 SET",
+      "price": "13%\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t24,000₩\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t21,000₩",
+      "id": "44202"
+    },
+    {
+      "title": "설악만 가마솥 민물장어탕 500g 5+1팩",
+      "price": "28%\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t72,000₩\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t52,000₩",
+      "id": "104054"
+    },
+    {
+      "title": "자연산 돌미역200g+황태채200g 세트",
+      "price": "41,000₩",
+      "id": "107646"
+    }
+  ]
+}
