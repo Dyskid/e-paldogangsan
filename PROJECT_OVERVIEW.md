@@ -181,6 +181,7 @@ scripts/
   │   ├── ontongdaejeon-verification-report.json
   │   ├── ontongdaejeon-with-prices-registration-summary.json
   │   ├── ontongdaejeon-with-prices-summary.json
+  │   ├── problematic-mall-products.json
   │   ├── products-backup-1750327814345.json
   │   ├── products-without-prices.txt
   │   ├── unknown-mall-removal-summary.json
@@ -216,6 +217,8 @@ scripts/
   ├── analyze-wemall-structure.ts
   ├── batch-scrape-all-malls.ts
   ├── check-jeju-titles.ts
+  ├── check-mall-details.js
+  ├── check-mall-structure.js
   ├── check-price-status.js
   ├── classify-products.ts
   ├── clean-and-verify-ontongdaejeon-products.ts
@@ -251,6 +254,7 @@ scripts/
   ├── improve-scraped-titles.ts
   ├── integrate-final-jeju-products.ts
   ├── integrate-jeju-products.ts
+  ├── list-problematic-products.js
   ├── ontongdaejeon-final-summary.ts
   ├── overview-helpers.ts
   ├── README.md
@@ -700,13 +704,13 @@ Version: 1.0.0
 
 ---
 
-Last Updated: 2025-06-20
+Last Updated: 2025-06-21
 Version: 1.0.0
 Git Branch: product-enrolling
-Last Commit: 10f03a8 feat: implement comprehensive Ontong Daejeon mall food product scraping and registration
+Last Commit: 1882e47 feat: complete Wemall product scraping and comprehensive mall analysis system
 
 ### Project Statistics
-- Total Files: 312
+- Total Files: 316
 - Total Directories: 29
 - Shopping Malls: 99
 - Products: 351
