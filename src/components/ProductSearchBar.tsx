@@ -255,7 +255,7 @@ export default function ProductSearchBar({
                         {product.originalPrice?.toLocaleString()}원
                       </span>
                     )}
-                    <span className="text-xs text-gray-500">• {product.mall.mallName}</span>
+                    <span className="text-xs text-gray-500">• {product.mall?.mallName || '쇼핑몰'}</span>
                   </div>
                   <div className="flex gap-1 mt-1">
                     <span className="text-xs bg-blue-100 text-blue-600 px-2 py-1 rounded-md">

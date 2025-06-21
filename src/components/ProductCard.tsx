@@ -15,7 +15,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ mallId: product.mall.mallId }),
+        body: JSON.stringify({ mallId: product.mall?.mallId }),
       });
     } catch (error) {
       console.error('Failed to track click:', error);
@@ -87,7 +87,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             <span className="text-xs px-2 py-1 rounded-full bg-blue-100 text-blue-800">
               {product.category}
             </span>
-            <span className="text-xs text-gray-500">{product.mall.mallName}</span>
+            <span className="text-xs text-gray-500">{product.mall?.mallName || '쇼핑몰'}</span>
           </div>
 
           {product.description && (

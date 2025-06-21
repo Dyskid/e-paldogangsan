@@ -993,7 +993,7 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-21
 Version: 1.0.0
 Git Branch: main
-Last Commit: 2b4536f feat: complete K-Kimchi shopping mall product registration
+Last Commit: c732b54 resolve merge conflict in PROJECT_OVERVIEW.md
 
 ### Project Statistics
 - Total Files: 601
