@@ -1,209 +1,253 @@
 import axios from 'axios';
 import * as cheerio from 'cheerio';
 import { writeFileSync } from 'fs';
+import * as https from 'https';
 
-interface AnalysisResult {
-  url: string;
-  title: string;
-  productSelectors: string[];
-  categoryLinks: string[];
-  totalProducts: number;
-  sampleProducts: any[];
-  structure: {
-    hasProductGrid: boolean;
-    hasCategories: boolean;
-    paginationPresent: boolean;
-    ajaxLoading: boolean;
-  };
-}
+const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
-async function analyzeChamdsStructure(): Promise<void> {
-  const baseUrl = 'https://chamds.com';
+async function analyzeChamdsStructure() {
+  console.log('🔍 Analyzing Chamds mall structure for product and price extraction...');
   
+  const baseUrl = 'https://chamds.com';
+  const httpsAgent = new https.Agent({ rejectUnauthorized: false });
+  
+  const analysis = {
+    timestamp: new Date().toISOString(),
+    baseUrl,
+    pages: [],
+    productStructure: {},
+    pricePatterns: [],
+    findings: []
+  };
+
   try {
-    console.log('🔍 Analyzing 참달성 (chamds.com) website structure...');
-    
-    // Fetch main page
-    const response = await axios.get(baseUrl, {
+    // 1. Analyze main page
+    console.log('📋 Analyzing main page...');
+    const mainResponse = await axios.get(baseUrl, {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-        'Accept-Language': 'ko-KR,ko;q=0.9,en;q=0.8',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Connection': 'keep-alive',
-        'Upgrade-Insecure-Requests': '1'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'ko-KR,ko;q=0.9,en;q=0.8'
       },
+      httpsAgent,
       timeout: 30000
     });
 
-    console.log(`✅ Successfully fetched homepage (${response.status})`);
-    
-    const $ = cheerio.load(response.data);
-    
-    // Save HTML for analysis
-    writeFileSync('./scripts/output/chamds-homepage.html', response.data);
-    console.log('💾 Saved homepage HTML for analysis');
+    const $ = cheerio.load(mainResponse.data);
 
-    const analysis: AnalysisResult = {
-      url: baseUrl,
-      title: $('title').text().trim(),
-      productSelectors: [],
-      categoryLinks: [],
-      totalProducts: 0,
-      sampleProducts: [],
-      structure: {
-        hasProductGrid: false,
-        hasCategories: false,
-        paginationPresent: false,
-        ajaxLoading: false
-      }
-    };
-
-    console.log(`📋 Page title: ${analysis.title}`);
+    // Save HTML for inspection
+    writeFileSync('./scripts/output/chamds-main-analysis.html', mainResponse.data);
 
     // Look for product containers
-    const productContainerSelectors = [
-      '.product-item', '.item', '.goods-item', '.product', '.prd-item',
-      '.product-list li', '.goods_list li', '.item-list li',
-      '.product-wrap', '.goods-wrap', '.item-wrap',
-      '.pro-item', '.good-item', '.prod-item',
-      '[class*="product"]', '[class*="goods"]', '[class*="item"]',
-      '.product_item', '.goodsDisplayItemWrap', '.goods_item',
-      '.prdItem', '.itemDisplayWrap', '.productItem'
-    ];
+    const productContainers = $('.item, .product, .goods, [class*="product"], [class*="item"]');
+    console.log(`Found ${productContainers.length} potential product containers on main page`);
 
-    for (const selector of productContainerSelectors) {
-      const elements = $(selector);
-      if (elements.length > 0) {
-        console.log(`🎯 Found ${elements.length} elements with selector: ${selector}`);
-        analysis.productSelectors.push(selector);
-        analysis.structure.hasProductGrid = true;
+    // Analyze product structure
+    const productStructure = {
+      containers: productContainers.length,
+      selectors: [],
+      priceElements: [],
+      linkPatterns: [],
+      imagePatterns: []
+    };
+
+    productContainers.each((i, elem) => {
+      if (i < 10) { // Analyze first 10 products
+        const $elem = $(elem);
         
-        // Extract sample product data
-        elements.slice(0, 3).each((i, elem) => {
-          const $elem = $(elem);
-          const productData = {
-            selector: selector,
-            html: $elem.html()?.substring(0, 300) + '...',
-            text: $elem.text().trim().substring(0, 100),
-            links: $elem.find('a').map((_, a) => $(a).attr('href')).get(),
-            images: $elem.find('img').map((_, img) => $(img).attr('src')).get()
-          };
-          analysis.sampleProducts.push(productData);
+        // Look for product links
+        const links = $elem.find('a[href*="product"], a[href*="goods"], a[href*="item"]');
+        links.each((j, link) => {
+          const href = $(link).attr('href');
+          if (href) {
+            productStructure.linkPatterns.push(href);
+          }
+        });
+
+        // Look for price elements
+        const priceElements = $elem.find('.price, .cost, [class*="price"], span:contains("원"), strong:contains("원"), em:contains("원")');
+        priceElements.each((j, priceElem) => {
+          const text = $(priceElem).text().trim();
+          const className = $(priceElem).attr('class') || '';
+          if (text.includes('원') && /\d/.test(text)) {
+            productStructure.priceElements.push({
+              selector: priceElem.tagName + (className ? '.' + className.split(' ')[0] : ''),
+              text: text,
+              html: $(priceElem).html()
+            });
+          }
+        });
+
+        // Look for images
+        const images = $elem.find('img');
+        images.each((j, img) => {
+          const src = $(img).attr('src');
+          const alt = $(img).attr('alt');
+          if (src) {
+            productStructure.imagePatterns.push({
+              src: src,
+              alt: alt || ''
+            });
+          }
+        });
+      }
+    });
+
+    analysis.productStructure = productStructure;
+
+    // 2. Look for category/product listing pages
+    console.log('📂 Looking for product category pages...');
+    const categoryLinks = $('a[href*="category"], a[href*="product"], a[href*="goods"], .menu a, .nav a, [class*="menu"] a');
+    const potentialPages = [];
+
+    categoryLinks.each((i, link) => {
+      const href = $(link).attr('href');
+      const text = $(link).text().trim();
+      if (href && text && !href.includes('javascript:') && !href.includes('#')) {
+        const fullUrl = href.startsWith('http') ? href : baseUrl + href;
+        potentialPages.push({
+          type: 'category',
+          url: fullUrl,
+          title: text
+        });
+      }
+    });
+
+    // Remove duplicates and add to analysis
+    const uniquePages = potentialPages.filter((page, index, self) =>
+      index === self.findIndex(p => p.url === page.url)
+    );
+    analysis.pages = uniquePages.slice(0, 20); // Limit to first 20 pages
+
+    console.log(`Found ${analysis.pages.length} potential product pages`);
+
+    // 3. Try to access a product listing page
+    if (analysis.pages.length > 0) {
+      console.log('📦 Analyzing product listing page...');
+      
+      // Try the first potential category page
+      const testPage = analysis.pages[0];
+      
+      try {
+        const listResponse = await axios.get(testPage.url, {
+          headers: {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'ko-KR,ko;q=0.9,en;q=0.8',
+            'Referer': baseUrl
+          },
+          httpsAgent,
+          timeout: 20000
+        });
+
+        const $list = cheerio.load(listResponse.data);
+        
+        // Save this page for inspection
+        writeFileSync('./scripts/output/chamds-category-page.html', listResponse.data);
+
+        // Look for products on this page
+        const listProducts = $list('.item, .product, .goods, [class*="product"], [class*="item"]');
+        console.log(`Found ${listProducts.length} products on category page: ${testPage.title}`);
+
+        // Analyze price patterns on listing page
+        listProducts.each((i, elem) => {
+          if (i < 5) { // Analyze first 5 products
+            const $elem = $list(elem);
+            const priceElements = $elem.find('*').filter((j, el) => {
+              const text = $list(el).text();
+              return text.includes('원') && /\d{1,3}(?:,\d{3})*원/.test(text);
+            });
+
+            priceElements.each((j, priceElem) => {
+              const $priceElem = $list(priceElem);
+              const text = $priceElem.text().trim();
+              const className = $priceElem.attr('class') || '';
+              const tagName = priceElem.tagName;
+              
+              analysis.pricePatterns.push({
+                page: 'category',
+                tagName,
+                className,
+                text: text.substring(0, 100),
+                selector: `${tagName}${className ? '.' + className.split(' ')[0] : ''}`
+              });
+            });
+          }
+        });
+
+      } catch (listError) {
+        console.log(`⚠️ Could not access category page: ${listError.message}`);
+        analysis.findings.push({
+          type: 'error',
+          message: `Category page access failed: ${listError.message}`
         });
       }
     }
 
-    // Look for category links
-    const categorySelectors = [
-      '.category a', '.menu a', '.nav a', '.gnb a',
-      '[href*="category"]', '[href*="goods"]', '[href*="product"]',
-      '.lnb a', '.depth1 a', '.depth2 a', '.cate a',
-      '.categoryWrap a', '.cateMenu a'
-    ];
-
-    for (const selector of categorySelectors) {
-      $(selector).each((i, elem) => {
-        const href = $(elem).attr('href');
-        const text = $(elem).text().trim();
-        if (href && text && href.includes('/')) {
-          const fullUrl = href.startsWith('http') ? href : `${baseUrl}${href}`;
-          analysis.categoryLinks.push(`${text}: ${fullUrl}`);
-        }
-      });
-    }
-
-    analysis.structure.hasCategories = analysis.categoryLinks.length > 0;
-
-    // Check for pagination
-    const paginationSelectors = ['.pagination', '.paging', '.page', '[class*="page"]', '.paginate'];
-    for (const selector of paginationSelectors) {
-      if ($(selector).length > 0) {
-        analysis.structure.paginationPresent = true;
-        console.log(`📄 Found pagination: ${selector}`);
-        break;
-      }
-    }
-
-    // Check for AJAX loading indicators
-    const ajaxSelectors = [
-      '[data-ajax]', '.ajax-load', '.load-more', 
-      'script:contains("ajax")', 'script:contains("xhr")'
-    ];
-    for (const selector of ajaxSelectors) {
-      if ($(selector).length > 0) {
-        analysis.structure.ajaxLoading = true;
-        console.log(`⚡ Detected AJAX loading: ${selector}`);
-        break;
-      }
-    }
-
-    // Look for specific Korean e-commerce patterns
-    const koreanSelectors = [
-      '.상품목록', '.상품리스트', '.제품목록', '.아이템리스트',
-      '[class*="상품"]', '[class*="제품"]', '[class*="굿즈"]',
-      '.goods_list', '.item_list', '.product_list'
-    ];
-
-    for (const selector of koreanSelectors) {
-      const elements = $(selector);
-      if (elements.length > 0) {
-        console.log(`🇰🇷 Found Korean selector: ${selector} (${elements.length} elements)`);
-        analysis.productSelectors.push(selector);
-      }
-    }
-
-    // Look for common e-commerce platform patterns (Cafe24, Makeshop, etc.)
-    const ecommercePatterns = [
-      '.xans-product', '.EC-productWrap', '.displayItemWrap',
-      '.thumbnail', '.listItem', '.item-container'
-    ];
-
-    for (const selector of ecommercePatterns) {
-      const elements = $(selector);
-      if (elements.length > 0) {
-        console.log(`🛒 Found e-commerce pattern: ${selector} (${elements.length} elements)`);
-        analysis.productSelectors.push(selector);
-      }
-    }
-
-    // Save analysis results
-    writeFileSync('./scripts/output/chamds-analysis.json', JSON.stringify(analysis, null, 2));
+    // 4. Check for common Korean shopping mall patterns
+    console.log('🔄 Checking for common shopping mall patterns...');
     
-    console.log('\n📊 Analysis Summary:');
-    console.log(`📰 Title: ${analysis.title}`);
-    console.log(`🎯 Product selectors found: ${analysis.productSelectors.length}`);
-    console.log(`📂 Category links found: ${analysis.categoryLinks.length}`);
-    console.log(`🏗️ Has product grid: ${analysis.structure.hasProductGrid}`);
-    console.log(`📋 Has categories: ${analysis.structure.hasCategories}`);
-    console.log(`📄 Has pagination: ${analysis.structure.paginationPresent}`);
-    console.log(`⚡ Uses AJAX: ${analysis.structure.ajaxLoading}`);
+    // Look for common selectors
+    const commonSelectors = [
+      '/product_list.php',
+      '/goods.php', 
+      '/shop/goods.php',
+      '/product/',
+      '/goods/',
+      '/category/',
+      '/list/',
+      '/shop/'
+    ];
 
-    if (analysis.categoryLinks.length > 0) {
-      console.log('\n📂 Category Links (first 10):');
-      analysis.categoryLinks.slice(0, 10).forEach(link => console.log(`  - ${link}`));
-    }
-
-    if (analysis.productSelectors.length > 0) {
-      console.log('\n🎯 Product Selectors:');
-      analysis.productSelectors.forEach(selector => console.log(`  - ${selector}`));
+    for (const selector of commonSelectors) {
+      try {
+        const testUrl = baseUrl + selector;
+        const testResponse = await axios.head(testUrl, {
+          headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' },
+          httpsAgent,
+          timeout: 10000
+        });
+        
+        if (testResponse.status === 200) {
+          analysis.findings.push({
+            type: 'accessible_endpoint',
+            url: testUrl,
+            status: testResponse.status
+          });
+        }
+      } catch (e) {
+        // Endpoint not accessible, which is normal
+      }
     }
 
   } catch (error) {
-    console.error('❌ Error analyzing chamds structure:', error);
-    
-    // Save error for debugging
-    const errorInfo = {
-      url: baseUrl,
-      error: error instanceof Error ? error.message : String(error),
-      timestamp: new Date().toISOString()
-    };
-    
-    writeFileSync('./scripts/output/chamds-analysis-error.json', JSON.stringify(errorInfo, null, 2));
+    console.error(`❌ Error analyzing structure: ${error.message}`);
+    analysis.findings.push({
+      type: 'error',
+      message: error.message
+    });
   }
+
+  // Save analysis results
+  writeFileSync('./scripts/output/chamds-structure-analysis.json', JSON.stringify(analysis, null, 2));
+
+  console.log('\n📊 Structure Analysis Summary:');
+  console.log(`🏪 Product containers found: ${analysis.productStructure.containers || 0}`);
+  console.log(`💰 Price patterns identified: ${analysis.pricePatterns.length}`);
+  console.log(`📂 Product pages found: ${analysis.pages.length}`);
+  console.log(`🔍 Findings recorded: ${analysis.findings.length}`);
+
+  if (analysis.pricePatterns.length > 0) {
+    console.log('\n💰 Sample price patterns:');
+    analysis.pricePatterns.slice(0, 5).forEach((pattern, i) => {
+      console.log(`  ${i + 1}. ${pattern.selector}: ${pattern.text}`);
+    });
+  }
+
+  return analysis;
 }
 
-// Run analysis
-analyzeChamdsStructure().then(() => {
-  console.log('✅ Analysis complete!');
-}).catch(console.error);
+// Run the analysis
+analyzeChamdsStructure()
+  .then(() => console.log('\n✅ Chamds structure analysis completed!'))
+  .catch(console.error);

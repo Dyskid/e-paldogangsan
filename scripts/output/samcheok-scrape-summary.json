@@ -1,0 +1,38 @@
+{
+  "timestamp": "2025-06-21T14:13:13.249Z",
+  "mallName": "삼척몰",
+  "mallUrl": "https://samcheok-mall.com",
+  "totalProductUrls": 28,
+  "processedProducts": 28,
+  "successfullyScraped": 28,
+  "errors": 0,
+  "savedProducts": 28,
+  "errorDetails": [],
+  "sampleProducts": [
+    {
+      "title": "왕기약과(왕기1호)",
+      "price": "17%\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t18,000₩\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t15,000₩",
+      "id": "101284"
+    },
+    {
+      "title": "[근덕농협] 동해안 자연산 돌미역 400g",
+      "price": "21%\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t50,000₩\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t39,500₩",
+      "id": "104365"
+    },
+    {
+      "title": "삼척 일미어담 간장게장1000g",
+      "price": "11%\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t34,900₩\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t31,400₩",
+      "id": "102511"
+    },
+    {
+      "title": "오미미술원 오미벌꿀",
+      "price": "8%\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t35,000₩\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t32,500₩",
+      "id": "101160"
+    },
+    {
+      "title": "금비꽃차 목련 도라지청 300g, 300g*2 세트",
+      "price": "28,000₩",
+      "id": "101100"
+    }
+  ]
+}

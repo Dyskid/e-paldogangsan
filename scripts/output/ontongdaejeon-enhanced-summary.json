@@ -1,0 +1,13 @@
+{
+  "totalProducts": 0,
+  "foodProducts": 0,
+  "uniqueProducts": 37,
+  "errors": 0,
+  "timestamp": "2025-06-20T11:14:30.058Z",
+  "categories": [],
+  "priceInfo": {
+    "totalWithPrices": 0,
+    "foodWithPrices": 0,
+    "withDiscounts": 0
+  }
+}

@@ -6,25 +6,46 @@ import { getMallById } from '@/lib/data';
 import productsData from '@/data/products.json';
 
 export async function generateStaticParams() {
-  const products = productsData as Product[];
+  const products = productsData as any[];
   return products.map((product) => ({
     productId: product.id,
   }));
 }
 
 export default function ProductDetailPage({ params }: { params: { productId: string } }) {
-  const products = productsData as Product[];
-  const product = products.find(p => p.id === params.productId);
+  const products = productsData as any[];
+  const rawProduct = products.find(p => p.id === params.productId);
 
-  if (!product) {
+  if (!rawProduct) {
     notFound();
   }
 
-  const mall = getMallById(product.mall.mallId);
+  // Normalize product structure for different data formats
+  const product = {
+    id: rawProduct.id,
+    name: rawProduct.name || rawProduct.title || '',
+    price: typeof rawProduct.price === 'string' ? 0 : (rawProduct.price || 0),
+    originalPrice: rawProduct.originalPrice,
+    image: rawProduct.image || rawProduct.imageUrl || '',
+    category: rawProduct.category || '',
+    region: rawProduct.region || '',
+    url: rawProduct.url || rawProduct.productUrl || '',
+    description: rawProduct.description || '',
+    tags: rawProduct.tags || [],
+    isFeatured: rawProduct.isFeatured || false,
+    isNew: rawProduct.isNew || false,
+  };
 
-  if (!mall) {
+  // Handle both mall structure formats for backward compatibility
+  const mallId = rawProduct.mall?.mallId || rawProduct.mallId;
+  const mallName = rawProduct.mall?.mallName || rawProduct.mallName;
+  const mallUrl = rawProduct.mall?.mallUrl || rawProduct.mallUrl;
+  
+  if (!mallId) {
     notFound();
   }
+  
+  const mall = getMallById(mallId);
 
   const categoryNames: Record<string, string> = {
     agricultural: '농산물',
@@ -108,7 +129,7 @@ export default function ProductDetailPage({ params }: { params: { productId: str
                 <div className="bg-gray-50 rounded-lg p-4 mb-6">
                   <h3 className="font-medium text-gray-900 mb-2">판매처 정보</h3>
                   <div className="text-sm text-gray-600">
-                    <p className="mb-1">쇼핑몰: <span className="font-medium text-gray-900">{product.mall.mallName}</span></p>
+                    <p className="mb-1">쇼핑몰: <span className="font-medium text-gray-900">{mallName}</span></p>
                     <p>지역: <span className="font-medium text-gray-900">{product.region}</span></p>
                   </div>
                 </div>
@@ -118,7 +139,7 @@ export default function ProductDetailPage({ params }: { params: { productId: str
                     <svg className="inline-block w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
                     </svg>
-                    이 상품은 {product.mall.mallName}에서 직접 판매합니다. 구매하기 버튼을 클릭하면 해당 쇼핑몰로 이동합니다.
+                    이 상품은 {mallName}에서 직접 판매합니다. 구매하기 버튼을 클릭하면 해당 쇼핑몰로 이동합니다.
                   </p>
                 </div>
 
@@ -126,20 +147,9 @@ export default function ProductDetailPage({ params }: { params: { productId: str
                   href={product.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  onClick={async () => {
-                    try {
-                      await fetch('/api/track-click', {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ mallId: product.mall.mallId })
-                      });
-                    } catch (error) {
-                      console.error('Failed to track click:', error);
-                    }
-                  }}
                   className="block w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-4 px-6 rounded-lg text-center transition-colors"
                 >
-                  {product.mall.mallName}에서 구매하기
+                  {mallName}에서 구매하기
                 </Link>
               </div>
 
@@ -148,7 +158,7 @@ export default function ProductDetailPage({ params }: { params: { productId: str
                 <div className="border-t pt-6">
                   <h3 className="text-sm font-medium text-gray-900 mb-3">관련 태그</h3>
                   <div className="flex flex-wrap gap-2">
-                    {product.tags.map((tag, index) => (
+                    {product.tags.map((tag: string, index: number) => (
                       <span
                         key={index}
                         className="inline-block px-3 py-1 bg-gray-100 text-gray-600 rounded-full text-xs"
@@ -168,7 +178,7 @@ export default function ProductDetailPage({ params }: { params: { productId: str
           <h2 className="text-xl font-bold text-gray-900 mb-4">쇼핑몰 정보</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <h3 className="font-medium text-gray-900 mb-2">{product.mall.mallName}</h3>
+              <h3 className="font-medium text-gray-900 mb-2">{mallName}</h3>
               <p className="text-sm text-gray-600 mb-1">지역: {product.region}</p>
               <p className="text-sm text-gray-600 mb-1">카테고리: {product.category}</p>
               {product.isFeatured && (
@@ -184,7 +194,7 @@ export default function ProductDetailPage({ params }: { params: { productId: str
             </div>
             <div className="text-right">
               <Link
-                href={product.mall.mallUrl}
+                href={mallUrl || '#'}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block text-blue-600 hover:text-blue-800 font-medium"

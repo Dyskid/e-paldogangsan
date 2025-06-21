@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-06-20T15:20:11.823Z",
+  "baseUrl": "https://chamds.com",
+  "pages": [],
+  "productStructure": {
+    "containers": 0,
+    "selectors": [],
+    "priceElements": [],
+    "linkPatterns": [],
+    "imagePatterns": []
+  },
+  "pricePatterns": [],
+  "findings": []
+}
