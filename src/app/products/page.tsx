@@ -33,11 +33,14 @@ export default function ProductsPage() {
     // Filter by search query
     if (searchQuery) {
       const query = searchQuery.toLowerCase();
-      filtered = filtered.filter(p => 
-        p.name.toLowerCase().includes(query) ||
-        (p.description && p.description.toLowerCase().includes(query)) ||
-        (p.mall && p.mall.mallName && p.mall.mallName.toLowerCase().includes(query))
-      );
+      filtered = filtered.filter(p => {
+        const mallName = p.mall?.mallName || (p as any).mallName || '';
+        return (
+          p.name.toLowerCase().includes(query) ||
+          (p.description && p.description.toLowerCase().includes(query)) ||
+          mallName.toLowerCase().includes(query)
+        );
+      });
     }
 
     setFilteredProducts(filtered);

@@ -10,13 +10,16 @@ interface ProductCardProps {
 export default function ProductCard({ product }: ProductCardProps) {
   const handleClick = async () => {
     try {
-      await fetch('/api/track-click', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ mallId: product.mall?.mallId }),
-      });
+      const mallId = product.mall?.mallId || (product as any).mallId;
+      if (mallId) {
+        await fetch('/api/track-click', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ mallId }),
+        });
+      }
     } catch (error) {
       console.error('Failed to track click:', error);
     }
@@ -51,17 +54,17 @@ export default function ProductCard({ product }: ProductCardProps) {
   return (
     <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
       <a 
-        href={product.url}
+        href={product.url || (product as any).productUrl}
         target="_blank"
         rel="noopener noreferrer"
         className="block"
         onClick={handleClick}
       >
         <div className="relative h-48 bg-gray-100">
-          {product.image ? (
+          {(product.image || (product as any).imageUrl) ? (
             <Image
-              src={product.image}
-              alt={product.name}
+              src={product.image || (product as any).imageUrl}
+              alt={product.name || (product as any).title}
               fill
               className="object-cover rounded-t-lg"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -80,14 +83,14 @@ export default function ProductCard({ product }: ProductCardProps) {
 
         <div className="p-4">
           <div className="flex items-start justify-between mb-2">
-            <h3 className="text-lg font-medium line-clamp-2 flex-1">{product.name}</h3>
+            <h3 className="text-lg font-medium line-clamp-2 flex-1">{product.name || (product as any).title}</h3>
           </div>
 
           <div className="flex items-center gap-2 mb-3">
             <span className="text-xs px-2 py-1 rounded-full bg-blue-100 text-blue-800">
               {product.category}
             </span>
-            <span className="text-xs text-gray-500">{product.mall?.mallName || '쇼핑몰'}</span>
+            <span className="text-xs text-gray-500">{product.mall?.mallName || (product as any).mallName || '쇼핑몰'}</span>
           </div>
 
           {product.description && (
@@ -104,7 +107,13 @@ export default function ProductCard({ product }: ProductCardProps) {
                 </span>
               )}
               <span className="text-lg font-bold text-gray-900">
-                {product.price === 0 ? '가격문의' : `${product.price.toLocaleString()}원`}
+                {(() => {
+                  const price = product.price || (product as any).price;
+                  if (typeof price === 'string') {
+                    return price;
+                  }
+                  return price === 0 ? '가격문의' : `${price.toLocaleString()}원`;
+                })()}
               </span>
             </div>
             <span className="text-xs text-blue-600 hover:text-blue-800 flex items-center gap-1">

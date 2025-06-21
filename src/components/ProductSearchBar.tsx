@@ -15,7 +15,7 @@ interface ProductSearchBarProps {
 }
 
 const fuseOptions = {
-  keys: ['name', 'description', 'tags', 'mall.mallName', 'category'],
+  keys: ['name', 'title', 'description', 'tags', 'mall.mallName', 'mallName', 'category'],
   threshold: 0.3,
   includeScore: true,
   minMatchCharLength: 2,
@@ -128,9 +128,12 @@ export default function ProductSearchBar({
   };
 
   const handleSuggestionClick = (product: Product) => {
-    setQuery(product.name);
+    setQuery(product.name || (product as any).title);
     setShowDropdown(false);
-    window.open(product.url, '_blank');
+    const url = product.url || (product as any).productUrl;
+    if (url) {
+      window.open(url, '_blank');
+    }
   };
 
   const highlightMatch = (text: string, query: string) => {
@@ -230,16 +233,16 @@ export default function ProductSearchBar({
               }`}
             >
               <div className="flex justify-between items-start gap-4">
-                {product.image && (
+                {(product.image || (product as any).imageUrl) && (
                   <img 
-                    src={product.image} 
-                    alt={product.name}
+                    src={product.image || (product as any).imageUrl} 
+                    alt={product.name || (product as any).title}
                     className="w-16 h-16 object-cover rounded-lg"
                   />
                 )}
                 <div className="flex-1">
                   <h4 className="font-medium text-gray-800">
-                    {highlightMatch(product.name, query)}
+                    {highlightMatch(product.name || (product as any).title, query)}
                   </h4>
                   {product.description && (
                     <p className="text-sm text-gray-600 line-clamp-1">
@@ -248,14 +251,20 @@ export default function ProductSearchBar({
                   )}
                   <div className="flex items-center gap-2 mt-1">
                     <span className="text-sm font-medium text-primary">
-                      {product.price === 0 ? '가격문의' : `${product.price.toLocaleString()}원`}
+                      {(() => {
+                        const price = product.price || (product as any).price;
+                        if (typeof price === 'string') {
+                          return price;
+                        }
+                        return price === 0 ? '가격문의' : `${price.toLocaleString()}원`;
+                      })()}
                     </span>
                     {product.originalPrice && product.originalPrice !== product.price && (
                       <span className="text-sm text-gray-400 line-through">
                         {product.originalPrice?.toLocaleString()}원
                       </span>
                     )}
-                    <span className="text-xs text-gray-500">• {product.mall?.mallName || '쇼핑몰'}</span>
+                    <span className="text-xs text-gray-500">• {product.mall?.mallName || (product as any).mallName || '쇼핑몰'}</span>
                   </div>
                   <div className="flex gap-1 mt-1">
                     <span className="text-xs bg-blue-100 text-blue-600 px-2 py-1 rounded-md">
