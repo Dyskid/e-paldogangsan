@@ -434,6 +434,7 @@ scripts/
   ├── scrape-jeju-mall.ts
   ├── scrape-jeju-products-from-urls.ts
   ├── scrape-kkimchi-comprehensive.ts
+  ├── scrape-mall-template.ts
   ├── scrape-missing-jeju-titles.ts
   ├── scrape-ontongdaejeon-comprehensive.ts
   ├── scrape-ontongdaejeon-detailed.ts
@@ -507,11 +508,15 @@ src/
   │   ├── api/
   │   │   ├── products/
   │   │   │   ├── route.ts
+  │   │   ├── scrape-mall/
+  │   │   │   ├── route.ts
   │   │   ├── sync-products/
   │   │   │   ├── route.ts
   │   │   ├── track-click/
   │   │   │   ├── route.ts
   │   ├── contact/
+  │   │   ├── page.tsx
+  │   ├── malls/
   │   │   ├── page.tsx
   │   ├── privacy/
   │   │   ├── page.tsx
@@ -883,11 +888,11 @@ Version: 1.0.0
 Last Updated: 2025-06-22
 Version: 1.0.0
 Git Branch: product-enrolling
-Last Commit: 7fb12a6 feat: add comprehensive Korean local mall scrapers for multiple regions
+Last Commit: 0a68965 feat: add comprehensive Yanggu Mall scraper with 19 products
 
 ### Project Statistics
-- Total Files: 492
-- Total Directories: 29
+- Total Files: 495
+- Total Directories: 31
 - Shopping Malls: 99
 - Products: 834
 - Regions: 17

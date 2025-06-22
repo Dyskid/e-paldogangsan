@@ -35,12 +35,18 @@ export default function HomePage() {
             </div>
             
             {/* Product Search Link */}
-            <div className="mt-4">
+            <div className="mt-4 space-y-2">
               <a 
                 href="/products"
-                className="text-primary hover:text-blue-700 font-medium"
+                className="text-primary hover:text-blue-700 font-medium block"
               >
                 상품을 검색하시나요? 전체 상품 검색하기 →
+              </a>
+              <a 
+                href="/malls"
+                className="text-primary hover:text-blue-700 font-medium block"
+              >
+                전체 쇼핑몰 목록 보기 →
               </a>
             </div>
           </div>
