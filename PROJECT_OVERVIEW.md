@@ -1015,8 +1015,8 @@ npm run lint     # Run ESLint
 
 Last Updated: 2025-06-22
 Version: 1.0.0
-Git Branch: product-enrolling
-Last Commit: 2937825 feat: rename malls route to scrapermalls for better clarity
+Git Branch: main
+Last Commit: 394e016 docs: update scraper command template with new route
 
 ### Project Statistics
 - Total Files: 622
