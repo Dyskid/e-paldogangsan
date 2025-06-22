@@ -20,6 +20,25 @@ export default function HomePage() {
             <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
               전국 지방자치단체 운영 온라인 쇼핑몰을 한 곳에서 만나보세요
             </p>
+            <p className="text-lg text-gray-500 mb-12">
+              신선한 농수산물과 지역 특산품을 산지직송으로 구매하세요
+            </p>
+            
+            {/* Product Search Link */}
+            <div className="mt-4 space-y-2">
+              <a 
+                href="/products"
+                className="text-primary hover:text-blue-700 font-medium block"
+              >
+                상품을 검색하시나요? 전체 상품 검색하기 →
+              </a>
+              <a 
+                href="/malls"
+                className="text-primary hover:text-blue-700 font-medium block"
+              >
+                전체 쇼핑몰 목록 보기 →
+              </a>
+            </div>
           </div>
         </div>
       </section>
