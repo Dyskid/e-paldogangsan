@@ -647,8 +647,6 @@ src/
   │   │   │   ├── route.ts
   │   ├── contact/
   │   │   ├── page.tsx
-  │   ├── malls/
-  │   │   ├── page.tsx
   │   ├── privacy/
   │   │   ├── page.tsx
   │   ├── product/
@@ -662,6 +660,8 @@ src/
   │   │   │   ├── page.tsx
   │   │   │   ├── RegionPageClient.tsx
   │   │   ├── \[regionName\]/
+  │   ├── scrapermalls/
+  │   │   ├── page.tsx
   │   ├── search/
   │   │   ├── page.tsx
   │   ├── terms/
@@ -1015,8 +1015,8 @@ npm run lint     # Run ESLint
 
 Last Updated: 2025-06-22
 Version: 1.0.0
-Git Branch: main
-Last Commit: b4d7d49 Merge branch 'product-enrolling' into main
+Git Branch: product-enrolling
+Last Commit: 0bea131 feat: update homepage link text to clarify scraper functionality
 
 ### Project Statistics
 - Total Files: 622

@@ -33,7 +33,7 @@ export default function HomePage() {
                 상품을 검색하시나요? 전체 상품 검색하기 →
               </a>
               <a 
-                href="/malls"
+                href="/scrapermalls"
                 className="text-primary hover:text-blue-700 font-medium block"
               >
                 쇼핑몰별 스크래퍼 실행 →
