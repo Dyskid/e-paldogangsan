@@ -36,7 +36,7 @@ export default function HomePage() {
                 href="/malls"
                 className="text-primary hover:text-blue-700 font-medium block"
               >
-                전체 쇼핑몰 목록 보기 →
+                쇼핑몰별 스크래퍼 실행 →
               </a>
             </div>
           </div>
