@@ -286,6 +286,15 @@ scripts/
   │   ├── wonju-test-category.html
   │   ├── wonju-test-product.html
   │   ├── wonju-verification-report.json
+  │   ├── yanggu-analysis.json
+  │   ├── yanggu-category-sample.html
+  │   ├── yanggu-homepage.html
+  │   ├── yanggu-product-sample.html
+  │   ├── yanggu-product-urls.txt
+  │   ├── yanggu-products.json
+  │   ├── yanggu-registration-summary.json
+  │   ├── yanggu-scrape-summary.json
+  │   ├── yanggu-verification-report.json
   │   ├── yangju-analysis.json
   │   ├── yangju-careful-products.json
   │   ├── yangju-careful-summary.json
@@ -323,6 +332,7 @@ scripts/
   ├── analyze-smartstore-with-retry.ts
   ├── analyze-wemall-structure.ts
   ├── analyze-wonju-structure.ts
+  ├── analyze-yanggu-structure.ts
   ├── analyze-yangju-structure.ts
   ├── batch-scrape-all-malls.ts
   ├── check-jeju-titles.ts
@@ -391,6 +401,7 @@ scripts/
   ├── register-wemall-food-products.ts
   ├── register-wemall-products.ts
   ├── register-wonju-products.ts
+  ├── register-yanggu-products.ts
   ├── register-yangju-products.ts
   ├── remove-failed-jeju-products.ts
   ├── remove-jejumall.ts
@@ -440,6 +451,10 @@ scripts/
   ├── scrape-wemall-priority.ts
   ├── scrape-wonju-comprehensive.ts
   ├── scrape-wonju-working.ts
+  ├── scrape-yanggu-comprehensive.ts
+  ├── scrape-yanggu-final.ts
+  ├── scrape-yanggu-fixed.ts
+  ├── scrape-yanggu-homepage.ts
   ├── scrape-yangju-careful.ts
   ├── scrape-yangju-comprehensive.ts
   ├── test-chamds-product-pages.ts
@@ -456,6 +471,8 @@ scripts/
   ├── test-wemall-category.ts
   ├── test-wemall-food-category.ts
   ├── test-wonju-product.ts
+  ├── test-yanggu-category.ts
+  ├── test-yanggu-product.ts
   ├── test-yangju-page.ts
   ├── update-overview.ts
   ├── verify-chack3-registration.ts
@@ -481,6 +498,7 @@ scripts/
   ├── verify-wemall-individual-products.ts
   ├── verify-wemall-registration.ts
   ├── verify-wonju-registration.ts
+  ├── verify-yanggu-registration.ts
   ├── verify-yangju-registration.ts
 src/
   ├── app/
@@ -597,7 +615,7 @@ Total: **99 shopping malls** across 17 regions
 }
 ```
 
-Total: **815 products** with real data for featured malls
+Total: **834 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -862,15 +880,15 @@ Version: 1.0.0
 
 ---
 
-Last Updated: 2025-06-21
+Last Updated: 2025-06-22
 Version: 1.0.0
 Git Branch: product-enrolling
-Last Commit: 321bb3a fix: resolve product page build errors by normalizing inconsistent product data structures
+Last Commit: 7fb12a6 feat: add comprehensive Korean local mall scrapers for multiple regions
 
 ### Project Statistics
-- Total Files: 474
+- Total Files: 492
 - Total Directories: 29
 - Shopping Malls: 99
-- Products: 815
+- Products: 834
 - Regions: 17
 - Categories: 10
