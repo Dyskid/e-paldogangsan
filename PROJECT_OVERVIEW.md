@@ -1737,7 +1737,7 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-25
 Version: 1.0.0
 Git Branch: product-enrolling
-Last Commit: d87a116 feat: add 47 Korean regional shopping malls with comprehensive scrapers
+Last Commit: 349c07d feat: optimize for Vercel preview deployment
 
 ### Project Statistics
 - Total Files: 1343
