@@ -929,6 +929,7 @@ scripts/
   ├── check-jeju-titles.ts
   ├── check-mall-details.js
   ├── check-mall-structure.js
+  ├── check-missing-mall-names.ts
   ├── check-price-status.js
   ├── classify-products.ts
   ├── clean-and-verify-ontongdaejeon-products.ts
@@ -962,6 +963,7 @@ scripts/
   ├── final-verification.ts
   ├── find-chamds-categories.ts
   ├── find-remaining-issue.ts
+  ├── fix-all-product-mall-names.ts
   ├── fix-chamds-images-fallback.ts
   ├── fix-chamds-images-real.ts
   ├── fix-chamds-images.ts
@@ -970,6 +972,7 @@ scripts/
   ├── fix-jeju-images.ts
   ├── fix-jeju-prices.ts
   ├── fix-priority-malls.ts
+  ├── fix-product-mall-names.ts
   ├── fix-specific-jeju-titles.ts
   ├── identify-category-products.ts
   ├── improve-scraped-titles.ts
@@ -1736,11 +1739,11 @@ npm run lint     # Run ESLint
 
 Last Updated: 2025-06-25
 Version: 1.0.0
-Git Branch: product-enrolling
-Last Commit: 72d010d feat: reposition scraper button and shorten text
+Git Branch: enrolling
+Last Commit: 5f94d1e docs: update project overview after merge from main
 
 ### Project Statistics
-- Total Files: 1343
+- Total Files: 1346
 - Total Directories: 37
 - Shopping Malls: 99
 - Products: 4211
