@@ -926,6 +926,7 @@ scripts/
   ├── analyze-yeosumall-structure.ts
   ├── analyze-yjmarket-structure.ts
   ├── batch-scrape-all-malls.ts
+  ├── check-gmsocial-name-fields.ts
   ├── check-gmsocial-product-names.ts
   ├── check-jeju-titles.ts
   ├── check-mall-details.js
@@ -970,6 +971,7 @@ scripts/
   ├── fix-chamds-images-real.ts
   ├── fix-chamds-images.ts
   ├── fix-final-generic-title.ts
+  ├── fix-gmsocial-names-comprehensive.ts
   ├── fix-gmsocial-product-names.ts
   ├── fix-jeju-images-fallback.ts
   ├── fix-jeju-images.ts
@@ -981,6 +983,7 @@ scripts/
   ├── improve-scraped-titles.ts
   ├── integrate-final-jeju-products.ts
   ├── integrate-jeju-products.ts
+  ├── list-gmsocial-products.ts
   ├── list-problematic-products.js
   ├── ontongdaejeon-final-summary.ts
   ├── overview-helpers.ts
@@ -1245,6 +1248,7 @@ scripts/
   ├── test-yangyang-product.ts
   ├── test-yeongwol-product.ts
   ├── test-yeosumall-access.ts
+  ├── trigger-rebuild.ts
   ├── update-overview.ts
   ├── verify-bmall-registration.ts
   ├── verify-boseong-registration.ts
@@ -1743,10 +1747,10 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-25
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: 605f676 fix: update all product sources to display actual mall names
+Last Commit: 0f5a17e fix: add missing product names for 광명가치몰 and all malls
 
 ### Project Statistics
-- Total Files: 1349
+- Total Files: 1353
 - Total Directories: 37
 - Shopping Malls: 99
 - Products: 4211
