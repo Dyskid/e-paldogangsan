@@ -926,6 +926,7 @@ scripts/
   ├── analyze-yeosumall-structure.ts
   ├── analyze-yjmarket-structure.ts
   ├── batch-scrape-all-malls.ts
+  ├── check-gmsocial-product-names.ts
   ├── check-jeju-titles.ts
   ├── check-mall-details.js
   ├── check-mall-structure.js
@@ -963,11 +964,13 @@ scripts/
   ├── final-verification.ts
   ├── find-chamds-categories.ts
   ├── find-remaining-issue.ts
+  ├── fix-all-missing-product-names.ts
   ├── fix-all-product-mall-names.ts
   ├── fix-chamds-images-fallback.ts
   ├── fix-chamds-images-real.ts
   ├── fix-chamds-images.ts
   ├── fix-final-generic-title.ts
+  ├── fix-gmsocial-product-names.ts
   ├── fix-jeju-images-fallback.ts
   ├── fix-jeju-images.ts
   ├── fix-jeju-prices.ts
@@ -1740,10 +1743,10 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-25
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: 5f94d1e docs: update project overview after merge from main
+Last Commit: 605f676 fix: update all product sources to display actual mall names
 
 ### Project Statistics
-- Total Files: 1346
+- Total Files: 1349
 - Total Directories: 37
 - Shopping Malls: 99
 - Products: 4211
