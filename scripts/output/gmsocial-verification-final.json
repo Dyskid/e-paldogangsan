@@ -1,0 +1,18 @@
+{
+  "verificationDate": "2025-06-25T15:23:10.485Z",
+  "totalMainProducts": 4211,
+  "existingGmsocialProducts": 38,
+  "newlyRegisteredProducts": 12,
+  "newProductsToAdd": 0,
+  "duplicateProducts": 12,
+  "productIdRange": {
+    "min": 49,
+    "max": 121
+  },
+  "dataQuality": {
+    "withPrices": 12,
+    "withNames": 12,
+    "withTitles": 12
+  },
+  "recommendation": "All registered products already exist in the database."
+}

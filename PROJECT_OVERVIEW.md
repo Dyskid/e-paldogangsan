@@ -392,12 +392,20 @@ scripts/
   │   ├── gmsocial-all-products.json
   │   ├── gmsocial-analysis.json
   │   ├── gmsocial-category-scrape-summary.json
+  │   ├── gmsocial-complete-summary.json
+  │   ├── gmsocial-direct-scraped.json
+  │   ├── gmsocial-direct-summary.json
   │   ├── gmsocial-extracted-products.json
   │   ├── gmsocial-food-category.html
   │   ├── gmsocial-homepage.html
   │   ├── gmsocial-product-sample.html
+  │   ├── gmsocial-products-complete.json
+  │   ├── gmsocial-registered-products.json
+  │   ├── gmsocial-registration-summary-final.json
   │   ├── gmsocial-registration-summary.json
+  │   ├── gmsocial-scraped-products.json
   │   ├── gmsocial-test-food-category.html
+  │   ├── gmsocial-verification-final.json
   │   ├── gmsocial-verification-report.json
   │   ├── gochang-categories-analysis.json
   │   ├── gochang-homepage.html
@@ -865,6 +873,7 @@ scripts/
   ├── analyze-freshjb-structure.ts
   ├── analyze-gangneung-structure.ts
   ├── analyze-gimhaemall-structure.ts
+  ├── analyze-gmsocial-live.ts
   ├── analyze-gmsocial-structure.ts
   ├── analyze-gochang-structure.ts
   ├── analyze-goesan-structure.ts
@@ -1107,6 +1116,10 @@ scripts/
   ├── scrape-gimhaemall-real.ts
   ├── scrape-gmsocial-categories.ts
   ├── scrape-gmsocial-comprehensive.ts
+  ├── scrape-gmsocial-direct.ts
+  ├── scrape-gmsocial-focused.ts
+  ├── scrape-gmsocial-optimized.ts
+  ├── scrape-gmsocial-quick.ts
   ├── scrape-gmsocial-robust.ts
   ├── scrape-gochang-comprehensive.ts
   ├── scrape-gochang-quick.ts
@@ -1213,6 +1226,7 @@ scripts/
   ├── test-freshjb-products.ts
   ├── test-gangneung-product.ts
   ├── test-gmsocial-access.ts
+  ├── test-gmsocial.ts
   ├── test-goesan-product.ts
   ├── test-goseong-product.ts
   ├── test-gwdmall-page.ts
@@ -1747,10 +1761,10 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-25
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: 0f5a17e fix: add missing product names for 광명가치몰 and all malls
+Last Commit: f487907 verify: confirm all 광명가치몰 products have proper name fields
 
 ### Project Statistics
-- Total Files: 1353
+- Total Files: 1367
 - Total Directories: 37
 - Shopping Malls: 99
 - Products: 4211
