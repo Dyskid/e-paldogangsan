@@ -44,6 +44,9 @@ export default function RootLayout({
               </div>
               
               <div className="hidden md:flex items-center space-x-8">
+                <a href="/scrapermalls" className="text-gray-600 hover:text-primary transition-colors duration-200">
+                  스크래퍼
+                </a>
                 <a href="/search" className="text-gray-600 hover:text-primary transition-colors duration-200">
                   쇼핑몰 검색
                 </a>

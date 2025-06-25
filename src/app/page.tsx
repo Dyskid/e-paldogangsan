@@ -36,7 +36,7 @@ export default function HomePage() {
                 href="/scrapermalls"
                 className="text-primary hover:text-blue-700 font-medium block"
               >
-                쇼핑몰별 스크래퍼 실행 →
+                스크래퍼 →
               </a>
             </div>
           </div>

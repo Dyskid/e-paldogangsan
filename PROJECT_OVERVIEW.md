@@ -1736,8 +1736,8 @@ npm run lint     # Run ESLint
 
 Last Updated: 2025-06-25
 Version: 1.0.0
-Git Branch: product-enrolling
-Last Commit: eb38910 fix: correct vercel.json configuration for deployment
+Git Branch: main
+Last Commit: 48927aa resolve: merge conflict in PROJECT_OVERVIEW.md from main
 
 ### Project Statistics
 - Total Files: 1343
