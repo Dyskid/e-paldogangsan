@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-06-22T09:35:59.414Z",
+  "mall": {
+    "name": "이천시장",
+    "url": "https://www.esjang.go.kr",
+    "region": "경기도"
+  },
+  "scraping": {
+    "totalUrlsFound": 27,
+    "successfulScrapes": 20,
+    "failedScrapes": 7,
+    "successRate": "74.1"
+  },
+  "products": {
+    "withPrices": 20,
+    "withImages": 20,
+    "withDiscounts": 0,
+    "averagePrice": "69255",
+    "priceRange": {
+      "min": "8900",
+      "max": "379000"
+    }
+  },
+  "sampleProducts": [
+    {
+      "name": "[백야홍삼] 5년근 음성 수삼 (중삼계/대삼계/특대) 750g",
+      "price": "32900원",
+      "hasDiscount": false
+    },
+    {
+      "name": "[삼보한과] 수제 전통 한과 오복세트 700g",
+      "price": "45900원",
+      "hasDiscount": false
+    },
+    {
+      "name": "[찰진남매] 국내산 혼합7곡 (500gx2봉)",
+      "price": "8900원",
+      "hasDiscount": false
+    },
+    {
+      "name": "[찰진남매] 국내산 혼합9곡 (500gx2봉)",
+      "price": "9500원",
+      "hasDiscount": false
+    },
+    {
+      "name": "[선돌농원] DIY 다육화분",
+      "price": "18500원",
+      "hasDiscount": false
+    }
+  ],
+  "failedUrls": [
+    "https://www.esjang.go.kr/products/view/G2000000180",
+    "https://www.esjang.go.kr/products/view/G2000000391",
+    "https://www.esjang.go.kr/products/view/G2000000392",
+    "https://www.esjang.go.kr/products/view/G2000000393",
+    "https://www.esjang.go.kr/products/view/G2000000394",
+    "https://www.esjang.go.kr/products/view/G2000000395",
+    "https://www.esjang.go.kr/products/view/G2000000396"
+  ]
+}

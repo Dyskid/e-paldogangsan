@@ -740,28 +740,33 @@
     "url": "https://haegaram.com",
     "region": "전북",
     "tags": [
-      "전북"
+      "전북",
+      "수산물",
+      "해산물"
     ],
     "featured": false,
     "isNew": true,
     "clickCount": 181,
-    "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_50_해가람.png"
+    "lastVerified": "2025-06-23",
+    "logo": "/logos/mall_50_해가람.png",
+    "scraperId": "haegaram"
   },
   {
     "id": "mall_51_남도장터",
     "name": "남도장터",
-    "url": "https://jnmall.kr/",
+    "url": "https://www.jnmall.kr/",
     "region": "전남",
     "tags": [
-      "전통시장",
-      "전남"
+      "전남",
+      "지역특산",
+      "로컬푸드"
     ],
     "featured": false,
     "isNew": false,
     "clickCount": 36,
-    "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_51_남도장터.png"
+    "lastVerified": "2025-06-23",
+    "logo": "/logos/mall_51_남도장터.png",
+    "scraperId": "jnmall"
   },
   {
     "id": "mall_52_여수몰",
@@ -776,7 +781,8 @@
     "isNew": false,
     "clickCount": 900,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_52_여수몰.png"
+    "logo": "/logos/mall_52_여수몰.png",
+    "scraperId": "yeosumall"
   },
   {
     "id": "mall_53_해피굿팜",
@@ -806,7 +812,8 @@
     "isNew": false,
     "clickCount": 44,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_54_보성몰.png"
+    "logo": "/logos/mall_54_보성몰.png",
+    "scraperId": "boseongmall"
   },
   {
     "id": "mall_55_나주몰",
@@ -821,7 +828,8 @@
     "isNew": false,
     "clickCount": 427,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_55_나주몰.png"
+    "logo": "/logos/mall_55_나주몰.png",
+    "scraperId": "najumall"
   },
   {
     "id": "mall_56_순천로컬푸드함께가게",
@@ -836,7 +844,8 @@
     "isNew": true,
     "clickCount": 625,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_56_순천로컬푸드함께가게.png"
+    "logo": "/logos/mall_56_순천로컬푸드함께가게.png",
+    "scraperId": "sclocal"
   },
   {
     "id": "mall_57_신안1004몰",
@@ -851,7 +860,8 @@
     "isNew": true,
     "clickCount": 757,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_57_신안1004몰.png"
+    "logo": "/logos/mall_57_신안1004몰.png",
+    "scraperId": "shinan1004"
   },
   {
     "id": "mall_58_장흥몰_산들해랑장흥몰_",
@@ -867,7 +877,8 @@
     "clickCount": 217,
     "lastVerified": "2025-06-01",
     "district": "산들해랑장흥몰",
-    "logo": "/logos/mall_58_장흥몰_산들해랑장흥몰_.png"
+    "logo": "/logos/mall_58_장흥몰_산들해랑장흥몰_.png",
+    "scraperId": "okjmall"
   },
   {
     "id": "mall_59_기찬들영암몰",
@@ -882,7 +893,8 @@
     "isNew": false,
     "clickCount": 354,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_59_기찬들영암몰.png"
+    "logo": "/logos/mall_59_기찬들영암몰.png",
+    "scraperId": "yeongammall"
   },
   {
     "id": "mall_60_진도아리랑몰",
@@ -897,7 +909,8 @@
     "isNew": false,
     "clickCount": 857,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_60_진도아리랑몰.png"
+    "logo": "/logos/mall_60_진도아리랑몰.png",
+    "scraperId": "jindoarirangmall"
   },
   {
     "id": "mall_61_완도군이숍",
@@ -911,7 +924,8 @@
     "isNew": false,
     "clickCount": 812,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_61_완도군이숍.png"
+    "logo": "/logos/mall_61_완도군이숍.png",
+    "scraperId": "wandofood"
   },
   {
     "id": "mall_62_함평천지몰",
@@ -926,7 +940,8 @@
     "isNew": false,
     "clickCount": 103,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_62_함평천지몰.png"
+    "logo": "/logos/mall_62_함평천지몰.png",
+    "scraperId": "hampyeongm"
   },
   {
     "id": "mall_63_해남미소",
@@ -955,7 +970,8 @@
     "isNew": false,
     "clickCount": 660,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_64_담양장터.png"
+    "logo": "/logos/mall_64_담양장터.png",
+    "scraperId": "damyangmk"
   },
   {
     "id": "mall_65_초록믿음_강진_",
@@ -970,7 +986,8 @@
     "clickCount": 465,
     "lastVerified": "2025-06-01",
     "district": "강진",
-    "logo": "/logos/mall_65_초록믿음_강진_.png"
+    "logo": "/logos/mall_65_초록믿음_강진_.png",
+    "scraperId": "greengj"
   },
   {
     "id": "mall_66_화순팜",
@@ -985,7 +1002,8 @@
     "isNew": false,
     "clickCount": 591,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_66_화순팜.png"
+    "logo": "/logos/mall_66_화순팜.png",
+    "scraperId": "hwasunfarm"
   },
   {
     "id": "mall_67_곡성몰_곡성군농특산물중개몰_",
@@ -1003,7 +1021,8 @@
     "clickCount": 482,
     "lastVerified": "2025-06-01",
     "district": "곡성군농특산물중개몰",
-    "logo": "/logos/mall_67_곡성몰_곡성군농특산물중개몰_.png"
+    "logo": "/logos/mall_67_곡성몰_곡성군농특산물중개몰_.png",
+    "scraperId": "gokseongmall"
   },
   {
     "id": "mall_68_사이소_경북몰_",
@@ -1019,7 +1038,8 @@
     "clickCount": 677,
     "lastVerified": "2025-06-01",
     "district": "경북몰",
-    "logo": "/logos/mall_68_사이소_경북몰_.png"
+    "logo": "/logos/mall_68_사이소_경북몰_.png",
+    "scraperId": "cyso"
   },
   {
     "id": "mall_69_상주_명실상주몰",
@@ -1034,7 +1054,8 @@
     "isNew": false,
     "clickCount": 820,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_69_상주_명실상주몰.png"
+    "logo": "/logos/mall_69_상주_명실상주몰.png",
+    "scraperId": "sjmall"
   },
   {
     "id": "mall_70_청도_청리브",
@@ -1048,7 +1069,8 @@
     "isNew": true,
     "clickCount": 396,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_70_청도_청리브.png"
+    "logo": "/logos/mall_70_청도_청리브.png",
+    "scraperId": "cdmall"
   },
   {
     "id": "mall_71_영주장날",
@@ -1062,7 +1084,8 @@
     "isNew": false,
     "clickCount": 525,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_71_영주장날.png"
+    "logo": "/logos/mall_71_영주장날.png",
+    "scraperId": "yjmarket"
   },
   {
     "id": "mall_72_안동장터",
@@ -1092,7 +1115,8 @@
     "isNew": true,
     "clickCount": 370,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_73_청송몰.png"
+    "logo": "/logos/mall_73_청송몰.png",
+    "scraperId": "csmall"
   },
   {
     "id": "mall_74_영양온심마켓",
@@ -1107,7 +1131,8 @@
     "isNew": false,
     "clickCount": 736,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_74_영양온심마켓.png"
+    "logo": "/logos/mall_74_영양온심마켓.png",
+    "scraperId": "onsim"
   },
   {
     "id": "mall_75_울릉도",
@@ -1121,7 +1146,8 @@
     "isNew": false,
     "clickCount": 170,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_75_울릉도.png"
+    "logo": "/logos/mall_75_울릉도.png",
+    "scraperId": "ulmall"
   },
   {
     "id": "mall_76_봉화장터",
@@ -1136,7 +1162,8 @@
     "isNew": false,
     "clickCount": 470,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_76_봉화장터.png"
+    "logo": "/logos/mall_76_봉화장터.png",
+    "scraperId": "bmall"
   },
   {
     "id": "mall_77_고령몰",

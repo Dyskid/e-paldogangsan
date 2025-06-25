@@ -1,0 +1,44 @@
+[
+  {
+    "id": "yeosumall_mock_001",
+    "name": "[여수몰] 여수 특산품 샘플 상품 1 (사이트 접속 불가로 인한 임시 데이터)",
+    "price": 25000,
+    "category": "지역특산",
+    "image": "http://www.yeosumall.co.kr/images/sample1.jpg",
+    "link": "http://www.yeosumall.co.kr/goods/goods_view.php?goodsno=1",
+    "mall": {
+      "name": "여수몰",
+      "logo": "/logos/mall_52_여수몰.png"
+    },
+    "tags": [
+      "지역특산",
+      "여수특산",
+      "특산품",
+      "임시데이터",
+      "사이트점검중"
+    ],
+    "isNew": false
+  },
+  {
+    "id": "yeosumall_mock_002",
+    "name": "[여수몰] 여수 해산물 특산품 샘플 2 (사이트 접속 불가로 인한 임시 데이터)",
+    "price": 35000,
+    "category": "수산물",
+    "image": "http://www.yeosumall.co.kr/images/sample2.jpg",
+    "link": "http://www.yeosumall.co.kr/goods/goods_view.php?goodsno=2",
+    "mall": {
+      "name": "여수몰",
+      "logo": "/logos/mall_52_여수몰.png"
+    },
+    "tags": [
+      "수산물",
+      "해산물",
+      "신선식품",
+      "특산품",
+      "여수특산",
+      "임시데이터",
+      "사이트점검중"
+    ],
+    "isNew": false
+  }
+]

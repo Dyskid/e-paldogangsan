@@ -1,0 +1,39 @@
+{
+  "mallName": "예천장터",
+  "mallId": "ycjang",
+  "totalInDatabase": 50,
+  "validProducts": 50,
+  "invalidPrices": 0,
+  "missingImages": 0,
+  "shortNames": 0,
+  "uniqueUrls": 50,
+  "categories": [],
+  "sampleProducts": [
+    {
+      "name": "[구룡영농조합법인] 2024년 햅쌀 예천 구룡쌀(영호진미) 20kg 백미 햇쌀",
+      "price": "55,000원",
+      "url": "https://ycjang.cyso.co.kr/shop/item.php?it_id=1560840030"
+    },
+    {
+      "name": "[풍국미곡처리장(주)] 2024년도산 햅쌀 당일도정 일품햅쌀 예천 우렁이쌀(일품) 20kg 백미",
+      "price": "56,500원",
+      "url": "https://ycjang.cyso.co.kr/shop/item.php?it_id=1610687193"
+    },
+    {
+      "name": "[코숭이농원] 친환경 잡곡 선물세트 3P 실속형, 고급형",
+      "price": "11,000원",
+      "url": "https://ycjang.cyso.co.kr/shop/item.php?it_id=1637213227"
+    }
+  ],
+  "verificationDate": "2025-06-24T12:48:15.113Z",
+  "registrationSummary": {
+    "mallId": "ycjang",
+    "mallName": "예천장터",
+    "timestamp": "2025-06-24T12:44:54.350Z",
+    "totalProductsBefore": 4100,
+    "productsAdded": 50,
+    "totalProductsAfter": 4150,
+    "productsRemoved": 0,
+    "backupFile": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/src/data/products-backup-1750769094310.json"
+  }
+}

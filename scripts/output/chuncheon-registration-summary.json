@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-06-22T07:22:53.548Z",
+  "mall": {
+    "mallId": "chuncheon-mall",
+    "mallName": "춘천몰",
+    "mallUrl": "https://gwch-mall.com",
+    "region": "강원도"
+  },
+  "products": {
+    "scraped": 32,
+    "new": 32,
+    "updated": 0,
+    "total": 1143
+  },
+  "categories": [
+    "가공식품",
+    "간편식",
+    "공예품",
+    "김치/반찬",
+    "농산물",
+    "베이커리/간식",
+    "생활용품",
+    "육류"
+  ],
+  "categoryBreakdown": {
+    "가공식품": 1,
+    "베이커리/간식": 3,
+    "농산물": 3,
+    "육류": 14,
+    "김치/반찬": 2,
+    "간편식": 1,
+    "공예품": 2,
+    "생활용품": 6
+  },
+  "priceAnalysis": {
+    "withPrices": 32,
+    "withoutPrices": 0,
+    "withDiscounts": 22,
+    "averagePrice": 24491,
+    "priceRange": {
+      "min": 4000,
+      "max": 110000
+    }
+  },
+  "sampleProducts": [
+    {
+      "id": "chuncheon_101418",
+      "name": "[댐양소] 국산콩 수제두부 300gX3개",
+      "price": 11400,
+      "originalPrice": 15000,
+      "category": "가공식품",
+      "tags": [
+        "춘천특산품",
+        "강원도특산",
+        "두부",
+        "콩제품",
+        "건강식품",
+        "국산",
+        "수제품"
+      ]
+    },
+    {
+      "id": "chuncheon_28181",
+      "name": "100% 통밀빵 _ 장발장 [NO충전물 플레인빵]1kg_2팩 (천연발효빵,운동건강빵,식단조절빵,무설탕빵,비건빵)",
+      "price": 32100,
+      "originalPrice": 34600,
+      "category": "베이커리/간식",
+      "tags": [
+        "춘천특산품",
+        "강원도특산",
+        "베이커리",
+        "빵",
+        "디저트"
+      ]
+    },
+    {
+      "id": "chuncheon_44105",
+      "name": "제이오븐 반반파이 (잣파이+호두파이)",
+      "price": 28900,
+      "originalPrice": 45000,
+      "category": "베이커리/간식",
+      "tags": [
+        "춘천특산품",
+        "강원도특산",
+        "베이커리",
+        "빵",
+        "디저트",
+        "잣",
+        "견과류",
+        "건강식품"
+      ]
+    },
+    {
+      "id": "chuncheon_4490",
+      "name": "솔방울잣 백잣 140g2캔,국산",
+      "price": 46000,
+      "category": "농산물",
+      "tags": [
+        "춘천특산품",
+        "강원도특산",
+        "잣",
+        "견과류",
+        "건강식품",
+        "국산"
+      ]
+    },
+    {
+      "id": "chuncheon_100693",
+      "name": "봄내 양념 닭목살 500g2팩",
+      "price": 23500,
+      "originalPrice": 34000,
+      "category": "육류",
+      "tags": [
+        "춘천특산품",
+        "강원도특산",
+        "닭고기",
+        "육류"
+      ]
+    }
+  ]
+}

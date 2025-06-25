@@ -1,0 +1,35 @@
+{
+  "timestamp": 1750755847687,
+  "mall": "청도몰",
+  "mallId": "cdmall",
+  "totalScraped": 50,
+  "validProducts": 50,
+  "registered": 50,
+  "previousTotal": 3874,
+  "newTotal": 3924,
+  "backup": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/src/data/products-backup-1750755847687.json",
+  "categoryCounts": {
+    "과일류": 15,
+    "가공식품": 35
+  },
+  "sampleRegistered": [
+    {
+      "id": "cdmall-1597310035",
+      "title": "[생생초] 사과초모식초  생초 사과 대용량 1,000ml(조절마개 푸어러 포함)",
+      "price": "10,990원",
+      "category": "과일류"
+    },
+    {
+      "id": "cdmall-1581056635",
+      "title": "[조상기벌꿀] 아카시아꿀 2.4kg / 아카시아벌꿀",
+      "price": "60,000원",
+      "category": "과일류"
+    },
+    {
+      "id": "cdmall-1638422833",
+      "title": "영양산채밥 50g",
+      "price": "4,800원",
+      "category": "과일류"
+    }
+  ]
+}

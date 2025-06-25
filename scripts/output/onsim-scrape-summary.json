@@ -1,0 +1,81 @@
+{
+  "mallId": "onsim",
+  "mallName": "영양온심마켓",
+  "baseUrl": "https://onsim.cyso.co.kr",
+  "timestamp": "2025-06-24T11:00:33.068Z",
+  "totalProducts": 48,
+  "productsWithPrices": 48,
+  "productsWithImages": 48,
+  "categories": {
+    "경북": 4,
+    "해담는집": 1,
+    "감천이네동천농장": 1,
+    "[2024년산]": 1,
+    "금빛고춧가루": 1,
+    "영양": 1,
+    "[해담는집]": 2,
+    "[남영양농협]2024년산": 1,
+    "2024년": 1,
+    "[해담는집]영양": 3,
+    "동천농장_영양": 2,
+    "[산골과수원]": 2,
+    "[미주네농장]착한송이1kg(1box)": 1,
+    "[신사리마을]착한송이": 1,
+    "착한송이": 5,
+    "(영양군": 1,
+    "[신사리마을]": 8,
+    "[송이골]": 5,
+    "[하늘아래첫동네]볶아서": 1,
+    "[송이골]볶은": 1,
+    "[영양산마을]": 3,
+    "[영양복지재단": 1,
+    "빛깔찬": 1
+  },
+  "sampleProducts": [
+    {
+      "id": "1598612110",
+      "name": "경북 영양 유기농 고추 600g(1근) 매운맛",
+      "price": "38,900원",
+      "image": "https://onsim.cyso.co.kr/data/item/1598612110/thumb-7KCE66m0_600x600.jpg",
+      "mallId": "onsim",
+      "mallName": "영양온심마켓",
+      "url": "https://onsim.cyso.co.kr/shop/item.php?it_id=1598612110"
+    },
+    {
+      "id": "1629339708",
+      "name": "해담는집 유기농건고추 600g/보통맛, 매운맛,순한맛, 아주매운맛",
+      "price": "38,900원",
+      "image": "https://onsim.cyso.co.kr/data/item/1629339708/thumb-KakaoTalk_20190423_110820161_600x600.jpg",
+      "mallId": "onsim",
+      "mallName": "영양온심마켓",
+      "url": "https://onsim.cyso.co.kr/shop/item.php?it_id=1629339708"
+    },
+    {
+      "id": "1598612133",
+      "name": "경북 영양 유기농 고추 600g(1근) 보통맛",
+      "price": "38,900원",
+      "image": "https://onsim.cyso.co.kr/data/item/1598612133/thumb-7KCE66m0_600x600.jpg",
+      "mallId": "onsim",
+      "mallName": "영양온심마켓",
+      "url": "https://onsim.cyso.co.kr/shop/item.php?it_id=1598612133"
+    },
+    {
+      "id": "1663894104",
+      "name": "감천이네동천농장 햇청양고추 1근",
+      "price": "17,000원",
+      "image": "https://onsim.cyso.co.kr/data/item/1663894104/thumb-20230823_101121_600x600.jpg",
+      "mallId": "onsim",
+      "mallName": "영양온심마켓",
+      "url": "https://onsim.cyso.co.kr/shop/item.php?it_id=1663894104"
+    },
+    {
+      "id": "1598612386",
+      "name": "경북 영양 유기농 고추 600g(1근) 순한맛",
+      "price": "38,900원",
+      "image": "https://onsim.cyso.co.kr/data/item/1598612386/thumb-7KCE66m0_600x600.jpg",
+      "mallId": "onsim",
+      "mallName": "영양온심마켓",
+      "url": "https://onsim.cyso.co.kr/shop/item.php?it_id=1598612386"
+    }
+  ]
+}

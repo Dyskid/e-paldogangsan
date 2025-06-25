@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-06-22T14:46:08.777Z",
+  "mall": "전북생생장터",
+  "totalFreshjbProducts": 3,
+  "totalDatabaseProducts": 1793,
+  "dataQualityChecks": {
+    "productsWithPrices": 3,
+    "productsWithImages": 3,
+    "productsWithDescriptions": 3,
+    "productsWithCategories": 3,
+    "duplicateUrls": 0,
+    "invalidProducts": 0
+  },
+  "categoryAnalysis": {
+    "농산물": {
+      "productCount": 2,
+      "avgPrice": 67000,
+      "priceRange": {
+        "min": 45000,
+        "max": 89000
+      },
+      "sampleProducts": [
+        "[전북생생장터] 정읍 찹쌀 10kg (2024년 햅쌀)",
+        "[전북생생장터] 김제 지평선 쌀 20kg"
+      ]
+    },
+    "전통식품": {
+      "productCount": 1,
+      "avgPrice": 25000,
+      "priceRange": {
+        "min": 25000,
+        "max": 25000
+      },
+      "sampleProducts": [
+        "[전북생생장터] 순창 전통 고추장 1kg"
+      ]
+    }
+  },
+  "issuesFound": [],
+  "recommendations": [
+    "Consider implementing headless browser scraping (Puppeteer/Playwright) for comprehensive product extraction",
+    "Contact site administrator for API access or data feed",
+    "Monitor for site updates that might expose static content endpoints",
+    "Consider using browser automation tools for dynamic content extraction"
+  ],
+  "platformNote": "freshjb.com is a React SPA with NHN Commerce backend. Current products are samples for framework compatibility. Actual scraping requires JavaScript execution capabilities."
+}

@@ -1,0 +1,587 @@
+{
+  "platform": "Cafe24",
+  "detectedPatterns": [
+    "Cafe24 platform detected",
+    "prdList structure found"
+  ],
+  "productSelectors": [
+    ".xans-product-listmain .xans-record-",
+    ".prdList .item, .prdList li",
+    ".xans-record- (175 items)"
+  ],
+  "categoryLinks": [
+    {
+      "text": "전체상품목록 바로가기",
+      "href": "#category"
+    },
+    {
+      "text": "농산물",
+      "href": "/product/list.html?cate_no=24"
+    },
+    {
+      "text": "수산물",
+      "href": "/product/list.html?cate_no=25"
+    },
+    {
+      "text": "축산물",
+      "href": "/product/list.html?cate_no=103"
+    },
+    {
+      "text": "전통주",
+      "href": "/product/list.html?cate_no=119"
+    },
+    {
+      "text": "세트상품",
+      "href": "/product/list.html?cate_no=48"
+    },
+    {
+      "text": "친환경농산물",
+      "href": "/product/list.html?cate_no=116"
+    },
+    {
+      "text": "고객문의",
+      "href": "/board/consult/list.html"
+    },
+    {
+      "text": "농산물",
+      "href": "/category/농산물/24/"
+    },
+    {
+      "text": "수산물",
+      "href": "/category/수산물/25/"
+    },
+    {
+      "text": "축산물",
+      "href": "/category/축산물/103/"
+    },
+    {
+      "text": "전통주",
+      "href": "/category/전통주/119/"
+    },
+    {
+      "text": "세트상품",
+      "href": "/category/세트상품/48/"
+    },
+    {
+      "text": "기타가공",
+      "href": "/category/기타가공/135/"
+    },
+    {
+      "text": "친환경농산물",
+      "href": "/category/친환경농산물/116/"
+    },
+    {
+      "text": "농산물",
+      "href": "/category/농산물/24/"
+    },
+    {
+      "text": "수산물",
+      "href": "/category/수산물/25/"
+    },
+    {
+      "text": "축산물",
+      "href": "/category/축산물/103/"
+    },
+    {
+      "text": "전통주",
+      "href": "/category/전통주/119/"
+    },
+    {
+      "text": "세트상품",
+      "href": "/category/세트상품/48/"
+    },
+    {
+      "text": "기타가공",
+      "href": "/category/기타가공/135/"
+    },
+    {
+      "text": "친환경농산물",
+      "href": "/category/친환경농산물/116/"
+    },
+    {
+      "text": "상품명 : 진도멸치, 새우, 진도조각다시마 어촌향기 선물세트 2호",
+      "href": "/product/진도멸치-새우-진도조각다시마-어촌향기-선물세트-2호/26/category/1/display/2/"
+    },
+    {
+      "text": "상품명 : 유황 먹고 자란 진도 미니밤호박",
+      "href": "/product/유황-먹고-자란-진도-미니밤호박/679/category/1/display/20/"
+    },
+    {
+      "text": "상품명 : 우성수산 민어 반건조",
+      "href": "/product/우성수산-민어-반건조/657/category/1/display/20/"
+    },
+    {
+      "text": "상품명 : 진도울금식혜 500ml",
+      "href": "/product/진도울금식혜-500ml/655/category/1/display/20/"
+    },
+    {
+      "text": "상품명 : 우성수산  숭어회 밀키트 600g",
+      "href": "/product/우성수산-숭어회-밀키트-600g/650/category/1/display/20/"
+    },
+    {
+      "text": "상품명 : '돌아온 백구' 향기 돌백 인형",
+      "href": "/product/돌아온-백구-향기-돌백-인형/646/category/1/display/20/"
+    },
+    {
+      "text": "상품명 : 거룡골 형제농장 울금환 500g",
+      "href": "/product/거룡골-형제농장-울금환-500g/636/category/1/display/20/"
+    },
+    {
+      "text": "상품명 : 진도농부  한여름 볶음참깨 100g",
+      "href": "/product/진도농부-한여름-볶음참깨-100g/617/category/1/display/20/"
+    },
+    {
+      "text": "상품명 : 진도청해 곱창김 선물셋트1호",
+      "href": "/product/진도청해-곱창김-선물셋트1호/517/category/1/display/20/"
+    },
+    {
+      "text": "상품명 : 유황 먹고 자란 진도 미니밤호박",
+      "href": "/product/유황-먹고-자란-진도-미니밤호박/679/category/1/display/21/"
+    },
+    {
+      "text": "상품명 : 자연을 그대로 담은 구기자 꿀차500g",
+      "href": "/product/자연을-그대로-담은-구기자-꿀차500g/674/category/1/display/21/"
+    },
+    {
+      "text": "상품명 : 진도 밀푀유나베",
+      "href": "/product/진도-밀푀유나베/673/category/1/display/21/"
+    },
+    {
+      "text": "상품명 : 장각 참미역 500g",
+      "href": "/product/장각-참미역-500g/668/category/1/display/21/"
+    },
+    {
+      "text": "상품명 : 진도사랑 호림이네 실곱창김",
+      "href": "/product/진도사랑-호림이네-실곱창김/666/category/1/display/21/"
+    },
+    {
+      "text": "상품명 : 풍미롭고 고소한 헛개꿀차500g, 헛개꿀차 스틱",
+      "href": "/product/풍미롭고-고소한-헛개꿀차500g-헛개꿀차-스틱/678/category/1/display/29/"
+    },
+    {
+      "text": "상품명 : 진도 밀푀유나베",
+      "href": "/product/진도-밀푀유나베/673/category/1/display/29/"
+    },
+    {
+      "text": "상품명 : 행복담은 우리밥상 백미(햅쌀)20kg",
+      "href": "/product/행복담은-우리밥상-백미햅쌀20kg/664/category/1/display/29/"
+    },
+    {
+      "text": "상품명 : 커큐민 & 유자스틱 젤리 600g",
+      "href": "/product/커큐민-유자스틱-젤리-600g/656/category/1/display/29/"
+    },
+    {
+      "text": "상품명 : 커큐민 유자퓨레(단품) 300g [20g X 15포]",
+      "href": "/product/커큐민-유자퓨레단품-300g-20g-x-15포/654/category/1/display/29/"
+    },
+    {
+      "text": "상품명 : '돌아온 백구' 향기 돌백 인형",
+      "href": "/product/돌아온-백구-향기-돌백-인형/646/category/1/display/29/"
+    },
+    {
+      "text": "상품명 : 무항생제한우선물세트 1호(등심모듬 600g)",
+      "href": "/product/무항생제한우선물세트-1호등심모듬-600g/542/category/1/display/29/"
+    },
+    {
+      "text": "상품명 : 울금홍게 맛간장 900ml 선물용",
+      "href": "/product/울금홍게-맛간장-900ml-선물용/537/category/1/display/29/"
+    },
+    {
+      "text": "상품명 : 대대로진도홍주 40도 375ml",
+      "href": "/product/대대로진도홍주-40도-375ml/564/category/1/display/29/"
+    },
+    {
+      "text": "상품명 : 진도바다 곱창조미김 5봉",
+      "href": "/product/진도바다-곱창조미김-5봉/593/category/1/display/29/"
+    },
+    {
+      "text": "상품명 : 기적수산 진도 전복죽 1팩",
+      "href": "/product/기적수산-진도-전복죽-1팩/581/category/1/display/29/"
+    },
+    {
+      "text": "상품명 : 진도 톳&진도 다시마 토시오 콘플레이크 20g x 40포",
+      "href": "/product/진도-톳진도-다시마-토시오-콘플레이크-20g-x-40포/165/category/1/display/29/"
+    },
+    {
+      "text": "상품명 : 진도 쑥차 하루에세끼콘플레이크 쑥차20g×42포",
+      "href": "/product/진도-쑥차-하루에세끼콘플레이크-쑥차20g×42포/424/category/1/display/29/"
+    },
+    {
+      "text": "상품명 : 진도어란 정란",
+      "href": "/product/진도어란-정란/329/category/1/display/29/"
+    },
+    {
+      "text": "상품명 : 진도 전복장 토시오 전복장 1kg",
+      "href": "/product/진도-전복장-토시오-전복장-1kg/162/category/1/display/29/"
+    },
+    {
+      "text": "상품명 : 기적수산 진도  새우장 300g",
+      "href": "/product/기적수산-진도-새우장-300g/583/category/1/display/29/"
+    },
+    {
+      "text": "정성과 감동이 가득 담긴 선물\n                    진도아리랑 선물세트",
+      "href": "/skin-skin4/product/list.html?cate_no=48"
+    },
+    {
+      "text": "상품명 : 풍미롭고 고소한 헛개꿀차500g, 헛개꿀차 스틱",
+      "href": "/product/풍미롭고-고소한-헛개꿀차500g-헛개꿀차-스틱/678/category/1/display/31/"
+    },
+    {
+      "text": "상품명 : 울금홍게맛액젓 900ml(선물용)",
+      "href": "/product/울금홍게맛액젓-900ml선물용/652/category/1/display/31/"
+    },
+    {
+      "text": "상품명 : 흙을 살리는 농부 로스팅 구기자차 100g",
+      "href": "/product/흙을-살리는-농부-로스팅-구기자차-100g/631/category/1/display/31/"
+    },
+    {
+      "text": "상품명 : 진도농부  참기름200ml",
+      "href": "/product/진도농부-참기름200ml/616/category/1/display/31/"
+    },
+    {
+      "text": "상품명 : 하루에 세끼 하루잡곡10포",
+      "href": "/product/하루에-세끼-하루잡곡10포/589/category/1/display/31/"
+    },
+    {
+      "text": "상품명 : 효진농원 백향과패션후르츠청",
+      "href": "/product/효진농원-백향과패션후르츠청/572/category/1/display/31/"
+    },
+    {
+      "text": "상품명 : [성원영농]유기농 찰현미 (누릉지향)  1kg",
+      "href": "/product/성원영농유기농-찰현미-누릉지향-1kg/174/category/1/display/31/"
+    },
+    {
+      "text": "상품명 : 유기농  강황 백미 쌀 라이스 영양 밥 진도 울금쌀 1kg",
+      "href": "/product/유기농-강황-백미-쌀-라이스-영양-밥-진도-울금쌀-1kg/260/category/1/display/31/"
+    },
+    {
+      "text": "상품명 : 진도 보배진미쌀 새청무 20kg",
+      "href": "/product/진도-보배진미쌀-새청무-20kg/371/category/1/display/31/"
+    },
+    {
+      "text": "상품명 : 진도 보배진미쌀 새청무 10kg",
+      "href": "/product/진도-보배진미쌀-새청무-10kg/372/category/1/display/31/"
+    },
+    {
+      "text": "상품명 : [향교농장]진도 건조 건구기자 600g",
+      "href": "/product/향교농장진도-건조-건구기자-600g/218/category/1/display/31/"
+    },
+    {
+      "text": "상품명 : 진도 발효 울금젤리  진도울금 200g",
+      "href": "/product/진도-발효-울금젤리-진도울금-200g/198/category/1/display/31/"
+    },
+    {
+      "text": "상품명 : 해풍청송 진도울금홍게 맛간장 선물세트 2호 900ml x 2개",
+      "href": "/product/해풍청송-진도울금홍게-맛간장-선물세트-2호-900ml-x-2개/361/category/1/display/31/"
+    },
+    {
+      "text": "상품명 : 진도 구기자 가루 구기자 분말 120g x 2개",
+      "href": "/product/진도-구기자-가루-구기자-분말-120g-x-2개/311/category/1/display/31/"
+    },
+    {
+      "text": "상품명 : [성원영농]오래뜰 찰진주 1kg (2024햇곡)",
+      "href": "/product/성원영농오래뜰-찰진주-1kg-2024햇곡/147/category/1/display/31/"
+    },
+    {
+      "text": "상품명 : 국산 유기농 찹쌀 1kg",
+      "href": "/product/국산-유기농-찹쌀-1kg/333/category/1/display/31/"
+    },
+    {
+      "text": "상품명 : [성원영농]오래뜰 찰흑미 1kg  ( 2024햇곡)",
+      "href": "/product/성원영농오래뜰-찰흑미-1kg-2024햇곡/171/category/1/display/31/"
+    },
+    {
+      "text": "상품명 : 진도울금간장 500ml",
+      "href": "/product/진도울금간장-500ml/504/category/1/display/31/"
+    },
+    {
+      "text": "상품명 : 해풍청송 진도 울금홍게 맛간장 선물세트 3호 1800ml x 2개",
+      "href": "/product/해풍청송-진도-울금홍게-맛간장-선물세트-3호-1800ml-x-2개/362/category/1/display/31/"
+    },
+    {
+      "text": "상품명 : 해풍청송 진도 울금 약과 진도 약과 30g x 9개입",
+      "href": "/product/해풍청송-진도-울금-약과-진도-약과-30g-x-9개입/203/category/1/display/31/"
+    },
+    {
+      "text": "상품명 : 진도 활전복 12-13미 1kg",
+      "href": "/product/진도-활전복-12-13미-1kg/626/category/1/display/32/"
+    },
+    {
+      "text": "상품명 : 알전복장 청경전복450g",
+      "href": "/product/알전복장-청경전복450g/608/category/1/display/32/"
+    },
+    {
+      "text": "상품명 : 어촌향기 진도 곱창김",
+      "href": "/product/어촌향기-진도-곱창김/607/category/1/display/32/"
+    },
+    {
+      "text": "상품명 : 진도바다 곱창조미김 5봉",
+      "href": "/product/진도바다-곱창조미김-5봉/593/category/1/display/32/"
+    },
+    {
+      "text": "상품명 : 하루세끼 코인 진도육수(순한맛) 15알 30알",
+      "href": "/product/하루세끼-코인-진도육수순한맛-15알-30알/591/category/1/display/32/"
+    },
+    {
+      "text": "상품명 : 진도다시마 1kg",
+      "href": "/product/진도다시마-1kg/470/category/1/display/32/"
+    },
+    {
+      "text": "상품명 : 싱싱한 전복8- 9미",
+      "href": "/product/싱싱한-전복8-9미/587/category/1/display/32/"
+    },
+    {
+      "text": "상품명 : 진도어부 전복장1kg",
+      "href": "/product/진도어부-전복장1kg/573/category/1/display/32/"
+    },
+    {
+      "text": "상품명 : 해초명가 구운곱창김(햇김) 블랙라벨50매 x 2개",
+      "href": "/product/해초명가-구운곱창김햇김-블랙라벨50매-x-2개/350/category/1/display/32/"
+    },
+    {
+      "text": "상품명 : 해초명가 진도 구운 곱창김 50매 x 2EA",
+      "href": "/product/해초명가-진도-구운-곱창김-50매-x-2ea/343/category/1/display/32/"
+    },
+    {
+      "text": "상품명 : 해초명가  진도곱창김100매 선물세트1호",
+      "href": "/product/해초명가-진도곱창김100매-선물세트1호/87/category/1/display/32/"
+    },
+    {
+      "text": "상품명 : 해초명가 진도곱창김 50매  x 2EA",
+      "href": "/product/해초명가-진도곱창김-50매-x-2ea/344/category/1/display/32/"
+    },
+    {
+      "text": "상품명 : 청해 진도 곱창김 100장",
+      "href": "/product/청해-진도-곱창김-100장/251/category/1/display/32/"
+    },
+    {
+      "text": "상품명 : 진도명가 (햇)돌자반 250g",
+      "href": "/product/진도명가-햇돌자반-250g/78/category/1/display/32/"
+    },
+    {
+      "text": "상품명 : 해초명가 진도미역  선물세트6호 140g x 5장",
+      "href": "/product/해초명가-진도미역-선물세트6호-140g-x-5장/72/category/1/display/32/"
+    },
+    {
+      "text": "상품명 : 마른멸치 해초명가 대멸치 500g x 2봉",
+      "href": "/product/마른멸치-해초명가-대멸치-500g-x-2봉/354/category/1/display/32/"
+    },
+    {
+      "text": "상품명 : 진도지리멸치 마른멸치 250g x 3봉",
+      "href": "/product/진도지리멸치-마른멸치-250g-x-3봉/357/category/1/display/32/"
+    },
+    {
+      "text": "상품명 : 해초명가 명품 진도다시마 500g",
+      "href": "/product/해초명가-명품-진도다시마-500g/351/category/1/display/32/"
+    },
+    {
+      "text": "상품명 : 진도 미역귀 마른미역귀 200g",
+      "href": "/product/진도-미역귀-마른미역귀-200g/248/category/1/display/32/"
+    },
+    {
+      "text": "상품명 : 국산벌꿀500g, 꿀스틱3박스세트",
+      "href": "/product/국산벌꿀500g-꿀스틱3박스세트/677/category/1/display/38/"
+    },
+    {
+      "text": "상품명 : 진도 밀푀유나베",
+      "href": "/product/진도-밀푀유나베/673/category/1/display/38/"
+    },
+    {
+      "text": "상품명 : 행복담은 우리밥상 백미(햅쌀)20kg",
+      "href": "/product/행복담은-우리밥상-백미햅쌀20kg/664/category/1/display/38/"
+    },
+    {
+      "text": "상품명 : '돌아온 백구' 향기 돌백 인형",
+      "href": "/product/돌아온-백구-향기-돌백-인형/646/category/1/display/38/"
+    },
+    {
+      "text": "상품명 : 진도바다 곱창조미김 5봉",
+      "href": "/product/진도바다-곱창조미김-5봉/593/category/1/display/38/"
+    },
+    {
+      "text": "광고/제휴 문의",
+      "href": "/front/php/b/board_list.php?board_no=1002&is_pcver=T"
+    }
+  ],
+  "productLinks": [
+    "/product/list.html?cate_no=24",
+    "/product/list.html?cate_no=25",
+    "/product/list.html?cate_no=103",
+    "/product/list.html?cate_no=119",
+    "/product/list.html?cate_no=48",
+    "/product/list.html?cate_no=116",
+    "/product/진도-울금-분말-세트-울금-분말-100gx6개울금-홍게-맛간장-200ml-이벤트/464/category/1/display/2/",
+    "/product/진도-울금-분말-세트-울금-분말-100gx6개울금-홍게-맛간장-200ml-이벤트/464/category/1/display/2/",
+    "/product/진도멸치-새우-진도조각다시마-어촌향기-선물세트-2호/26/category/1/display/2/",
+    "/product/진도멸치-새우-진도조각다시마-어촌향기-선물세트-2호/26/category/1/display/2/",
+    "/product/해풍청송-진도울금홍게-맛간장-선물세트-1호-500ml-x-2개-울금소금-200g/360/category/1/display/2/",
+    "/product/해풍청송-진도울금홍게-맛간장-선물세트-1호-500ml-x-2개-울금소금-200g/360/category/1/display/2/",
+    "/product/유황-먹고-자란-진도-미니밤호박/679/category/1/display/20/",
+    "/product/유황-먹고-자란-진도-미니밤호박/679/category/1/display/20/",
+    "/product/우성수산-민어-반건조/657/category/1/display/20/",
+    "/product/우성수산-민어-반건조/657/category/1/display/20/",
+    "/product/진도울금식혜-500ml/655/category/1/display/20/",
+    "/product/진도울금식혜-500ml/655/category/1/display/20/",
+    "/product/우성수산-숭어회-밀키트-600g/650/category/1/display/20/",
+    "/product/우성수산-숭어회-밀키트-600g/650/category/1/display/20/",
+    "/product/돌아온-백구-향기-돌백-인형/646/category/1/display/20/",
+    "/product/돌아온-백구-향기-돌백-인형/646/category/1/display/20/",
+    "/product/거룡골-형제농장-울금환-500g/636/category/1/display/20/",
+    "/product/거룡골-형제농장-울금환-500g/636/category/1/display/20/",
+    "/product/진도농부-한여름-볶음참깨-100g/617/category/1/display/20/",
+    "/product/진도농부-한여름-볶음참깨-100g/617/category/1/display/20/",
+    "/product/진도청해-곱창김-선물셋트1호/517/category/1/display/20/",
+    "/product/진도청해-곱창김-선물셋트1호/517/category/1/display/20/",
+    "/product/유황-먹고-자란-진도-미니밤호박/679/category/1/display/21/",
+    "/product/유황-먹고-자란-진도-미니밤호박/679/category/1/display/21/",
+    "/product/자연을-그대로-담은-구기자-꿀차500g/674/category/1/display/21/",
+    "/product/자연을-그대로-담은-구기자-꿀차500g/674/category/1/display/21/",
+    "/product/진도-밀푀유나베/673/category/1/display/21/",
+    "/product/진도-밀푀유나베/673/category/1/display/21/",
+    "/product/장각-참미역-500g/668/category/1/display/21/",
+    "/product/장각-참미역-500g/668/category/1/display/21/",
+    "/product/진도사랑-호림이네-실곱창김/666/category/1/display/21/",
+    "/product/진도사랑-호림이네-실곱창김/666/category/1/display/21/",
+    "https://jindoarirangmall.cafe24.com/product/%EC%8B%A0%EC%84%A0%ED%95%B4-%EC%A7%84%EB%8F%84-%EA%B1%B4%EA%B5%AC%EA%B8%B0%EC%9E%90-150g-gap%EC%9D%B8%EC%A6%9D/120/category/24/display/1/",
+    "https://jindoarirangmall.com/product/%EC%A7%84%EB%8F%84%EC%9A%B8%EA%B8%88-%EB%88%84%EB%A3%BD%EC%A7%80-100g-x-10%EA%B0%9C/126/category/24/display/1/",
+    "/product/풍미롭고-고소한-헛개꿀차500g-헛개꿀차-스틱/678/category/1/display/29/",
+    "/product/풍미롭고-고소한-헛개꿀차500g-헛개꿀차-스틱/678/category/1/display/29/",
+    "/product/진도-밀푀유나베/673/category/1/display/29/",
+    "/product/진도-밀푀유나베/673/category/1/display/29/",
+    "/product/행복담은-우리밥상-백미햅쌀20kg/664/category/1/display/29/",
+    "/product/행복담은-우리밥상-백미햅쌀20kg/664/category/1/display/29/",
+    "/product/커큐민-유자스틱-젤리-600g/656/category/1/display/29/",
+    "/product/커큐민-유자스틱-젤리-600g/656/category/1/display/29/",
+    "/product/커큐민-유자퓨레단품-300g-20g-x-15포/654/category/1/display/29/",
+    "/product/커큐민-유자퓨레단품-300g-20g-x-15포/654/category/1/display/29/",
+    "/product/돌아온-백구-향기-돌백-인형/646/category/1/display/29/",
+    "/product/돌아온-백구-향기-돌백-인형/646/category/1/display/29/",
+    "/product/무항생제한우선물세트-1호등심모듬-600g/542/category/1/display/29/",
+    "/product/무항생제한우선물세트-1호등심모듬-600g/542/category/1/display/29/",
+    "/product/울금홍게-맛간장-900ml-선물용/537/category/1/display/29/",
+    "/product/울금홍게-맛간장-900ml-선물용/537/category/1/display/29/",
+    "/product/대대로진도홍주-40도-375ml/564/category/1/display/29/",
+    "/product/대대로진도홍주-40도-375ml/564/category/1/display/29/",
+    "/product/진도바다-곱창조미김-5봉/593/category/1/display/29/",
+    "/product/진도바다-곱창조미김-5봉/593/category/1/display/29/",
+    "/product/기적수산-진도-전복죽-1팩/581/category/1/display/29/",
+    "/product/기적수산-진도-전복죽-1팩/581/category/1/display/29/",
+    "/product/진도-톳진도-다시마-토시오-콘플레이크-20g-x-40포/165/category/1/display/29/",
+    "/product/진도-톳진도-다시마-토시오-콘플레이크-20g-x-40포/165/category/1/display/29/",
+    "/product/진도-쑥차-하루에세끼콘플레이크-쑥차20g×42포/424/category/1/display/29/",
+    "/product/진도-쑥차-하루에세끼콘플레이크-쑥차20g×42포/424/category/1/display/29/",
+    "/product/진도어란-정란/329/category/1/display/29/",
+    "/product/진도어란-정란/329/category/1/display/29/",
+    "/product/진도-전복장-토시오-전복장-1kg/162/category/1/display/29/",
+    "/product/진도-전복장-토시오-전복장-1kg/162/category/1/display/29/",
+    "/product/기적수산-진도-새우장-300g/583/category/1/display/29/",
+    "/product/기적수산-진도-새우장-300g/583/category/1/display/29/",
+    "/skin-skin4/product/list.html?cate_no=48",
+    "/skin-skin4/product/list.html?cate_no=119",
+    "/skin-skin4/product/list.html?cate_no=116",
+    "/product/풍미롭고-고소한-헛개꿀차500g-헛개꿀차-스틱/678/category/1/display/31/",
+    "/product/풍미롭고-고소한-헛개꿀차500g-헛개꿀차-스틱/678/category/1/display/31/",
+    "/product/울금홍게맛액젓-900ml선물용/652/category/1/display/31/",
+    "/product/울금홍게맛액젓-900ml선물용/652/category/1/display/31/",
+    "/product/흙을-살리는-농부-로스팅-구기자차-100g/631/category/1/display/31/",
+    "/product/흙을-살리는-농부-로스팅-구기자차-100g/631/category/1/display/31/",
+    "/product/진도농부-참기름200ml/616/category/1/display/31/",
+    "/product/진도농부-참기름200ml/616/category/1/display/31/",
+    "/product/하루에-세끼-하루잡곡10포/589/category/1/display/31/",
+    "/product/하루에-세끼-하루잡곡10포/589/category/1/display/31/",
+    "/product/효진농원-백향과패션후르츠청/572/category/1/display/31/",
+    "/product/효진농원-백향과패션후르츠청/572/category/1/display/31/",
+    "/product/성원영농유기농-찰현미-누릉지향-1kg/174/category/1/display/31/",
+    "/product/성원영농유기농-찰현미-누릉지향-1kg/174/category/1/display/31/",
+    "/product/유기농-강황-백미-쌀-라이스-영양-밥-진도-울금쌀-1kg/260/category/1/display/31/",
+    "/product/유기농-강황-백미-쌀-라이스-영양-밥-진도-울금쌀-1kg/260/category/1/display/31/",
+    "/product/진도-보배진미쌀-새청무-20kg/371/category/1/display/31/",
+    "/product/진도-보배진미쌀-새청무-20kg/371/category/1/display/31/",
+    "/product/진도-보배진미쌀-새청무-10kg/372/category/1/display/31/",
+    "/product/진도-보배진미쌀-새청무-10kg/372/category/1/display/31/",
+    "/product/향교농장진도-건조-건구기자-600g/218/category/1/display/31/",
+    "/product/향교농장진도-건조-건구기자-600g/218/category/1/display/31/",
+    "/product/진도-발효-울금젤리-진도울금-200g/198/category/1/display/31/",
+    "/product/진도-발효-울금젤리-진도울금-200g/198/category/1/display/31/",
+    "/product/해풍청송-진도울금홍게-맛간장-선물세트-2호-900ml-x-2개/361/category/1/display/31/",
+    "/product/해풍청송-진도울금홍게-맛간장-선물세트-2호-900ml-x-2개/361/category/1/display/31/",
+    "/product/진도-구기자-가루-구기자-분말-120g-x-2개/311/category/1/display/31/",
+    "/product/진도-구기자-가루-구기자-분말-120g-x-2개/311/category/1/display/31/",
+    "/product/성원영농오래뜰-찰진주-1kg-2024햇곡/147/category/1/display/31/",
+    "/product/성원영농오래뜰-찰진주-1kg-2024햇곡/147/category/1/display/31/",
+    "/product/국산-유기농-찹쌀-1kg/333/category/1/display/31/",
+    "/product/국산-유기농-찹쌀-1kg/333/category/1/display/31/",
+    "/product/성원영농오래뜰-찰흑미-1kg-2024햇곡/171/category/1/display/31/",
+    "/product/성원영농오래뜰-찰흑미-1kg-2024햇곡/171/category/1/display/31/",
+    "/product/진도울금간장-500ml/504/category/1/display/31/",
+    "/product/진도울금간장-500ml/504/category/1/display/31/",
+    "/product/해풍청송-진도-울금홍게-맛간장-선물세트-3호-1800ml-x-2개/362/category/1/display/31/",
+    "/product/해풍청송-진도-울금홍게-맛간장-선물세트-3호-1800ml-x-2개/362/category/1/display/31/",
+    "/product/해풍청송-진도-울금-약과-진도-약과-30g-x-9개입/203/category/1/display/31/",
+    "/product/해풍청송-진도-울금-약과-진도-약과-30g-x-9개입/203/category/1/display/31/",
+    "/product/진도-활전복-12-13미-1kg/626/category/1/display/32/",
+    "/product/진도-활전복-12-13미-1kg/626/category/1/display/32/",
+    "/product/신선특허-내일도착-기삼전복-57미-1kg-손질칼-선물포장-진도전복-수산물/611/category/1/display/32/",
+    "/product/신선특허-내일도착-기삼전복-57미-1kg-손질칼-선물포장-진도전복-수산물/611/category/1/display/32/",
+    "/product/알전복장-청경전복450g/608/category/1/display/32/",
+    "/product/알전복장-청경전복450g/608/category/1/display/32/",
+    "/product/어촌향기-진도-곱창김/607/category/1/display/32/",
+    "/product/어촌향기-진도-곱창김/607/category/1/display/32/",
+    "/product/진도바다-곱창조미김-5봉/593/category/1/display/32/",
+    "/product/진도바다-곱창조미김-5봉/593/category/1/display/32/",
+    "/product/하루세끼-코인-진도육수순한맛-15알-30알/591/category/1/display/32/",
+    "/product/하루세끼-코인-진도육수순한맛-15알-30알/591/category/1/display/32/",
+    "/product/진도다시마-1kg/470/category/1/display/32/",
+    "/product/진도다시마-1kg/470/category/1/display/32/",
+    "/product/싱싱한-전복8-9미/587/category/1/display/32/",
+    "/product/싱싱한-전복8-9미/587/category/1/display/32/",
+    "/product/진도어부-전복장1kg/573/category/1/display/32/",
+    "/product/진도어부-전복장1kg/573/category/1/display/32/",
+    "/product/해초명가-구운곱창김햇김-블랙라벨50매-x-2개/350/category/1/display/32/",
+    "/product/해초명가-구운곱창김햇김-블랙라벨50매-x-2개/350/category/1/display/32/",
+    "/product/해초명가-진도-구운-곱창김-50매-x-2ea/343/category/1/display/32/",
+    "/product/해초명가-진도-구운-곱창김-50매-x-2ea/343/category/1/display/32/",
+    "/product/해초명가-진도곱창김100매-선물세트1호/87/category/1/display/32/",
+    "/product/해초명가-진도곱창김100매-선물세트1호/87/category/1/display/32/",
+    "/product/해초명가-진도곱창김-50매-x-2ea/344/category/1/display/32/",
+    "/product/해초명가-진도곱창김-50매-x-2ea/344/category/1/display/32/",
+    "/product/청해-진도-곱창김-100장/251/category/1/display/32/",
+    "/product/청해-진도-곱창김-100장/251/category/1/display/32/",
+    "/product/진도명가-햇돌자반-250g/78/category/1/display/32/",
+    "/product/진도명가-햇돌자반-250g/78/category/1/display/32/",
+    "/product/해초명가-진도미역-선물세트6호-140g-x-5장/72/category/1/display/32/",
+    "/product/해초명가-진도미역-선물세트6호-140g-x-5장/72/category/1/display/32/",
+    "/product/마른멸치-해초명가-대멸치-500g-x-2봉/354/category/1/display/32/",
+    "/product/마른멸치-해초명가-대멸치-500g-x-2봉/354/category/1/display/32/",
+    "/product/진도지리멸치-마른멸치-250g-x-3봉/357/category/1/display/32/",
+    "/product/진도지리멸치-마른멸치-250g-x-3봉/357/category/1/display/32/",
+    "/product/해초명가-명품-진도다시마-500g/351/category/1/display/32/",
+    "/product/해초명가-명품-진도다시마-500g/351/category/1/display/32/",
+    "/product/진도-미역귀-마른미역귀-200g/248/category/1/display/32/",
+    "/product/진도-미역귀-마른미역귀-200g/248/category/1/display/32/",
+    "/product/국산벌꿀500g-꿀스틱3박스세트/677/category/1/display/38/",
+    "/product/국산벌꿀500g-꿀스틱3박스세트/677/category/1/display/38/",
+    "/product/진도-밀푀유나베/673/category/1/display/38/",
+    "/product/진도-밀푀유나베/673/category/1/display/38/",
+    "/product/행복담은-우리밥상-백미햅쌀20kg/664/category/1/display/38/",
+    "/product/행복담은-우리밥상-백미햅쌀20kg/664/category/1/display/38/",
+    "/product/돌아온-백구-향기-돌백-인형/646/category/1/display/38/",
+    "/product/돌아온-백구-향기-돌백-인형/646/category/1/display/38/",
+    "/product/진도바다-곱창조미김-5봉/593/category/1/display/38/",
+    "/product/진도바다-곱창조미김-5봉/593/category/1/display/38/",
+    "/product/recent_view_product.html",
+    "/product/detail.html##param##",
+    "/product/detail.html##param##",
+    "/product/list.html?cate_no=119",
+    "https://jindoarirangmall.com/product/list.html?cate_no=119",
+    "/board/product/list.html?board_no=9"
+  ],
+  "notes": [
+    "Page title: 진도아리랑몰",
+    "Description: 진도의 신선함을 담은, 진도아리랑몰에서만 만날 수 있는 특별한 경험을 선사합니다. 농수산물부터 전통주까지, 진도의 맛과 멋을 집으로 배송해드립니다.",
+    "Total links found: 232",
+    "Images found: 363",
+    "Main content areas: 27",
+    "Item elements: 78"
+  ]
+}

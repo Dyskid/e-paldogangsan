@@ -1,0 +1,101 @@
+{
+  "timestamp": "2025-06-23T16:04:20.116Z",
+  "mall": "진도아리랑몰",
+  "totalProducts": 126,
+  "validProducts": 126,
+  "invalidProducts": 0,
+  "issues": [],
+  "categoryDistribution": {
+    "수산물": 42,
+    "울금": 12,
+    "채소": 1,
+    "진도특산품": 20,
+    "가공식품": 3,
+    "구기자": 6,
+    "꿀": 2,
+    "곡물": 12,
+    "한우": 9,
+    "전통주": 10,
+    "선물세트": 9
+  },
+  "priceRanges": {
+    "Under 10,000": 15,
+    "10,000-50,000": 87,
+    "Over 50,000": 24
+  },
+  "sampleProducts": [
+    {
+      "title": "[해강물산] 진도 어촌향기 선물세트 2호 (멸치, 새우, 조각다시마) - 진도아리랑몰",
+      "price": 30000,
+      "category": "수산물",
+      "url": "https://jindoarirangmall.com/product/진도멸치-새우-진도조각다시마-어촌향기-선물세트-2호/26/category/1/display/2/"
+    },
+    {
+      "title": "진도울금홍게 맛간장 선물세트를 활용한 건강한 요리, 최고 품질의 해풍청송 진도울금과 홍게로 만든 특별한 간장 - 진도아리랑몰",
+      "price": 20000,
+      "category": "울금",
+      "url": "https://jindoarirangmall.com/product/해풍청송-진도울금홍게-맛간장-선물세트-1호-500ml-x-2개-울금소금-200g/360/category/1/display/2/"
+    },
+    {
+      "title": "유황 먹고 자란 진도 미니밤호박 - 진도아리랑몰",
+      "price": 29000,
+      "category": "채소",
+      "url": "https://jindoarirangmall.com/product/유황-먹고-자란-진도-미니밤호박/679/category/1/display/20/"
+    },
+    {
+      "title": "우성수산 민어 반건조 - 진도아리랑몰",
+      "price": 18000,
+      "category": "수산물",
+      "url": "https://jindoarirangmall.com/product/우성수산-민어-반건조/657/category/1/display/20/"
+    },
+    {
+      "title": "진도울금식혜 500ml - 진도아리랑몰",
+      "price": 4000,
+      "category": "울금",
+      "url": "https://jindoarirangmall.com/product/진도울금식혜-500ml/655/category/1/display/20/"
+    }
+  ],
+  "registrationSummary": {
+    "timestamp": "2025-06-23T16:03:30.851Z",
+    "mall": "진도아리랑몰",
+    "scraped": 185,
+    "valid": 177,
+    "new": 126,
+    "duplicates": 51,
+    "errors": 0,
+    "totalProducts": 2662,
+    "sampleProducts": [
+      {
+        "title": "[해강물산] 진도 어촌향기 선물세트 2호 (멸치, 새우, 조각다시마) - 진도아리랑몰",
+        "price": 30000,
+        "category": "수산물"
+      },
+      {
+        "title": "진도울금홍게 맛간장 선물세트를 활용한 건강한 요리, 최고 품질의 해풍청송 진도울금과 홍게로 만든 특별한 간장 - 진도아리랑몰",
+        "price": 20000,
+        "category": "울금"
+      },
+      {
+        "title": "유황 먹고 자란 진도 미니밤호박 - 진도아리랑몰",
+        "price": 29000,
+        "category": "채소"
+      },
+      {
+        "title": "우성수산 민어 반건조 - 진도아리랑몰",
+        "price": 18000,
+        "category": "수산물"
+      },
+      {
+        "title": "진도울금식혜 500ml - 진도아리랑몰",
+        "price": 4000,
+        "category": "울금"
+      }
+    ]
+  },
+  "notes": [
+    "진도는 울금, 구기자, 전복, 곱창김으로 유명한 지역",
+    "Cafe24 플랫폼 사용",
+    "진도홍주는 진도의 대표 전통주",
+    "무항생제 한우와 해조류 특산품이 주요 상품"
+  ]
+}

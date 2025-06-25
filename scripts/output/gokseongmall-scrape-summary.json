@@ -1,0 +1,81 @@
+{
+  "timestamp": 1750748778701,
+  "totalProducts": 50,
+  "totalErrors": 0,
+  "categoryCounts": [
+    {
+      "category": "농산물",
+      "count": 10
+    },
+    {
+      "category": "축수산물",
+      "count": 10
+    },
+    {
+      "category": "가공식품",
+      "count": 10
+    },
+    {
+      "category": "생활",
+      "count": 10
+    },
+    {
+      "category": "베스트상품",
+      "count": 10
+    }
+  ],
+  "productsWithPrices": 50,
+  "productsWithImages": 0,
+  "sampleProducts": [
+    {
+      "id": "gokseongmall-681",
+      "title": "청년농부의 진심을 담은 곡성 로와멜론 (4수 8kg) : 청년농부의 진심을 담은 곡성 로와멜론 (4수 8kg) : 곡성몰",
+      "price": "34,100원",
+      "image": "",
+      "url": "https://gokseongmall.com/kwa-ABS_goods_v-681-1003004",
+      "category": "농산물",
+      "mall": "곡성몰",
+      "mallId": "gokseongmall"
+    },
+    {
+      "id": "gokseongmall-258",
+      "title": "[2024년] 자연이그린미 유기농 찹쌀 8kg (4kg*2) : [2024년] 자연이그린미 유기농 찹쌀 8kg (4kg*2) : 곡성몰",
+      "price": "46,800원",
+      "image": "",
+      "url": "https://gokseongmall.com/kwa-ABS_goods_v-258-1003001",
+      "category": "농산물",
+      "mall": "곡성몰",
+      "mallId": "gokseongmall"
+    },
+    {
+      "id": "gokseongmall-345",
+      "title": "[2024년] 유기농 오리와 우렁이쌀 (칠분도미) 20kg : [2024년] 유기농 오리와 우렁이쌀 (칠분도미) 20kg : 곡성몰",
+      "price": "63,500원",
+      "image": "",
+      "url": "https://gokseongmall.com/kwa-ABS_goods_v-345-1003001",
+      "category": "농산물",
+      "mall": "곡성몰",
+      "mallId": "gokseongmall"
+    },
+    {
+      "id": "gokseongmall-265",
+      "title": "[2024년] 자연이그린미 유기농 찰흑미 10kg/20kg : [2024년] 자연이그린미 유기농 찰흑미 10kg/20kg : 곡성몰",
+      "price": "70,500원",
+      "image": "",
+      "url": "https://gokseongmall.com/kwa-ABS_goods_v-265-1003010",
+      "category": "농산물",
+      "mall": "곡성몰",
+      "mallId": "gokseongmall"
+    },
+    {
+      "id": "gokseongmall-343",
+      "title": "[2024년] 유기농 오리와 우렁이쌀 (현미) 20kg : [2024년] 유기농 오리와 우렁이쌀 (현미) 20kg : 곡성몰",
+      "price": "63,500원",
+      "image": "",
+      "url": "https://gokseongmall.com/kwa-ABS_goods_v-343-1003010",
+      "category": "농산물",
+      "mall": "곡성몰",
+      "mallId": "gokseongmall"
+    }
+  ]
+}

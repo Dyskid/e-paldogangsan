@@ -1,0 +1,48 @@
+{
+  "timestamp": "2025-06-22T12:49:27.634Z",
+  "mall": "당진팜",
+  "baseUrl": "https://dangjinfarm.com",
+  "totalUrlsTested": 40,
+  "successfullyScraped": 39,
+  "errors": 1,
+  "validProducts": 39,
+  "categories": [
+    "쌀/잡곡",
+    "농특산품",
+    "기타",
+    "과일/채소",
+    "가공식품"
+  ],
+  "priceRange": {
+    "min": 3000,
+    "max": 70000,
+    "average": 24006
+  },
+  "sampleProducts": [
+    {
+      "title": "★탁구요정 신유빈의 선택! 당진 농협 신유빈 해나루쌀 삼광미 특등급 10kg",
+      "price": "35,800원",
+      "category": "쌀/잡곡"
+    },
+    {
+      "title": "★탁구요정 신유빈의 선택! 당진 신유빈 해나루쌀 삼광미 특등급 10kg",
+      "price": "35,800원",
+      "category": "쌀/잡곡"
+    },
+    {
+      "title": "2024년 햅쌀 10kg 당진 해나루쌀, 삼광미 특등급(송악읍)",
+      "price": "35,000원",
+      "category": "쌀/잡곡"
+    },
+    {
+      "title": "2024년 농협 햅쌀 20kg 특등급 삼광미 당진 해나루쌀(우강면)",
+      "price": "62,500원",
+      "category": "쌀/잡곡"
+    },
+    {
+      "title": "이강신의 허니드림 벌꿀 2.4kg(아카시아/야생화/밤꿀)",
+      "price": "70,000원",
+      "category": "농특산품"
+    }
+  ]
+}

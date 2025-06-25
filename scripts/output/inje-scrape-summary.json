@@ -1,0 +1,28 @@
+{
+  "totalUrls": 37,
+  "successfulScrapes": 37,
+  "failedScrapes": 0,
+  "productsWithPrices": 37,
+  "categories": [
+    "농특산물"
+  ],
+  "scrapingErrors": [],
+  "timestamp": "2025-06-22T05:06:52.744Z",
+  "sampleProducts": [
+    {
+      "name": "[1+1] 합성첨가물 무첨가 인제향기 프리미엄 오미자에이드 100ml [총20개]",
+      "price": "36000원",
+      "url": "https://inje-mall.com/goods/view?no=108522"
+    },
+    {
+      "name": "합성첨가물 무첨가 인제향기 프리미엄 오미자에이드 선물세트 100ml 20개",
+      "price": "36000원",
+      "url": "https://inje-mall.com/goods/view?no=108520"
+    },
+    {
+      "name": "[물 한방울 넣지않은 100% 오미자진액] 전통방식 365숙성 자연숙성 인제향기 오미자청 선물세트 500g x 2병",
+      "price": "36000원",
+      "url": "https://inje-mall.com/goods/view?no=108524"
+    }
+  ]
+}

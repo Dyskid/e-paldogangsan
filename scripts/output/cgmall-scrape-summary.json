@@ -1,0 +1,45 @@
+{
+  "mallName": "칠곡몰",
+  "mallId": "cgmall",
+  "baseUrl": "https://cgmall.cyso.co.kr",
+  "totalProductsScraped": 30,
+  "totalErrors": 6,
+  "scrapeDate": "2025-06-24T16:49:13.748Z",
+  "productSample": [
+    {
+      "id": "1673412483",
+      "name": "[칠곡양돈]직접키운 무항생제 돈삼겹살 캠핑용 500g",
+      "price": "19,000원",
+      "image": "https://cgmall.cyso.co.kr/data/item/1673412483/thumb-7IK86rK57J206647KeA50066y07ZWt_600x600.jpg",
+      "mallId": "cgmall",
+      "mallName": "칠곡몰",
+      "url": "https://cgmall.cyso.co.kr/shop/item.php?it_id=1673412483"
+    },
+    {
+      "id": "1570781625",
+      "name": "[칠곡양봉영농조합] 아카시아 벌꿀 600g(식탁용 튜브형 꿀병)(1+등급검사꿀)",
+      "price": "20,000원",
+      "image": "https://cgmall.cyso.co.kr/data/item/1570781625/thumb-1.7JWE7Lm07Iuc7JWE6rA600g_600x600.jpg",
+      "mallId": "cgmall",
+      "mallName": "칠곡몰",
+      "url": "https://cgmall.cyso.co.kr/shop/item.php?it_id=1570781625"
+    },
+    {
+      "id": "1590725099",
+      "name": "국산 냉압착생들기름 당일착유 180ml [ 농부플러스 ]",
+      "price": "21,900원",
+      "image": "https://cgmall.cyso.co.kr/data/item/1590725099/thumb-1801_600x600.jpg",
+      "mallId": "cgmall",
+      "mallName": "칠곡몰",
+      "url": "https://cgmall.cyso.co.kr/shop/item.php?it_id=1590725099"
+    }
+  ],
+  "errors": [
+    "https://cgmall.cyso.co.kr/javascript:sharetalk('칠곡몰', 'https://cgmall.cyso.co.kr/shop/item.php?it_id=1738726326', '[고기좀아는언니] 참나무 로 훈연한 매콤한  양념곱창(1팩400g) 총2팩 | 칠곡몰', 'https://manager.cyso.co.kr/data/item/1738726326/temp_1714101109722.326761350.jpg');: AxiosError: Request failed with status code 404",
+    "https://cgmall.cyso.co.kr/shop/item.php?it_id=1730165491: Missing image",
+    "https://cgmall.cyso.co.kr/javascript:sharetalk('칠곡몰', 'https://cgmall.cyso.co.kr/shop/item.php?it_id=1730165491', '[칠곡양봉영농조합법인]꿀이네 아카시아꿀 허니스틱 12g*20개입 | 칠곡몰', 'https://manager.cyso.co.kr/data/item/');: AxiosError: Request failed with status code 404",
+    "https://cgmall.cyso.co.kr/javascript:sharetalk('칠곡몰', 'https://cgmall.cyso.co.kr/shop/item.php?it_id=1682405862', '[농부플러스] 국산 토종꿀 잡화꿀 야생화꿀 숙성꿀 칠곡진꿀 1kg | 칠곡몰', 'https://manager.cyso.co.kr/data/item/1682405862/1127J6h7ZmU6rA1000g7J2867CY.jpg');: AxiosError: Request failed with status code 404",
+    "https://cgmall.cyso.co.kr/javascript:sharetalk('칠곡몰', 'https://cgmall.cyso.co.kr/shop/item.php?it_id=1630570361', '국산 저온압착 들기름 사과식초 300ml 2병 선물세트 [ 농부플러스 ] | 칠곡몰', 'https://manager.cyso.co.kr/data/item/1630570361/5_166eb7IKs7Iud.jpg');: AxiosError: Request failed with status code 404",
+    "https://cgmall.cyso.co.kr/javascript:sharetalk('칠곡몰', 'https://cgmall.cyso.co.kr/shop/item.php?it_id=1630564072', '다시마 만능간장 만능고추간장 300ml 2병 선물세트 [ 농부플러스 ] | 칠곡몰', 'https://manager.cyso.co.kr/data/item/1630564072/3_164uk6rCE6rOg6rCE7ISg66y87IS47Yq4.jpg');: AxiosError: Request failed with status code 404"
+  ]
+}

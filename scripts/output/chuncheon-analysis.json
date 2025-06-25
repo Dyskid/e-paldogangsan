@@ -1,0 +1,28 @@
+{
+  "url": "https://gwch-mall.com/",
+  "timestamp": "2025-06-22T07:15:39.208Z",
+  "pageTitle": "춘천몰",
+  "productLinksFound": 85,
+  "sampleProductLinks": [
+    "https://gwch-mall.com/goods/catalog?code=0023",
+    "https://gwch-mall.com/goods/catalog?code=0007",
+    "https://gwch-mall.com/goods/catalog?code=00070002",
+    "https://gwch-mall.com/goods/catalog?code=0019",
+    "https://gwch-mall.com/goods/catalog?code=00190004",
+    "https://gwch-mall.com/goods/catalog?code=00190001",
+    "https://gwch-mall.com/goods/catalog?code=00190002",
+    "https://gwch-mall.com/goods/catalog?code=00190005",
+    "https://gwch-mall.com/goods/catalog?code=0018",
+    "https://gwch-mall.com/goods/catalog?code=00180001"
+  ],
+  "navigationLinks": [
+    "aside menu: #category",
+    "최근 검색어: #recent-searched-list",
+    "최근본 상품: #recent-item-list"
+  ],
+  "recommendations": {
+    "primaryStrategy": "direct_product_links",
+    "productLinkPatterns": "Found product links",
+    "nextSteps": "Proceed with scraping individual product pages"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "totalProductsInDb": 875,
+  "yangyangProductsFound": 41,
+  "sampleProducts": [
+    {
+      "id": "yangyang_1750566201633_0",
+      "name": "무항생제 양양 장어촌 민물장어 자포니카종 1kg",
+      "price": 37,
+      "image": "https://gwchild623.firstmall.kr/data/goods/1/2023/12/32177_temp_17024515741749large.jpg",
+      "link": "https://www.yangyang-mall.com/goods/view?no=32177",
+      "mall": "양양몰",
+      "mallId": "mall_22",
+      "category": "농산물",
+      "description": "무항생제 양양 장어촌 민물장어 자포니카종 1kg - 양양 장어촌 민물장어",
+      "inStock": true,
+      "lastUpdated": "2025-06-22T04:23:21.633Z",
+      "createdAt": "2025-06-22T04:23:21.633Z"
+    },
+    {
+      "id": "yangyang_1750566202825_1",
+      "name": "설악산초록농장 건흑목이버섯 선물세트(400g)",
+      "price": 25,
+      "image": "https://gwchild109.firstmall.kr/data/goods/1/2022/03/100004_temp_16487305970068large.jpg",
+      "link": "https://www.yangyang-mall.com/goods/view?no=100195",
+      "mall": "양양몰",
+      "mallId": "mall_22",
+      "category": "농산물",
+      "description": "설악산초록농장 건흑목이버섯 선물세트(400g) - 설악산초록농장(유병익)",
+      "inStock": true,
+      "lastUpdated": "2025-06-22T04:23:22.825Z",
+      "createdAt": "2025-06-22T04:23:22.825Z"
+    },
+    {
+      "id": "yangyang_1750566204072_2",
+      "name": "설악산허니팜 꿀단지선물세트(아카시아꿀1kg+밤꿀1kg)",
+      "price": 79800,
+      "image": "https://gwchild4.firstmall.kr/data/goods/201701/26110357large.jpg",
+      "link": "https://www.yangyang-mall.com/goods/view?no=20156",
+      "mall": "양양몰",
+      "mallId": "mall_22",
+      "category": "농산물",
+      "description": "설악산허니팜 꿀단지선물세트(아카시아꿀1kg+밤꿀1kg) - 설악산허니팜/강원 양양군 서면 안터길 11-6",
+      "inStock": true,
+      "lastUpdated": "2025-06-22T04:23:24.072Z",
+      "createdAt": "2025-06-22T04:23:24.072Z"
+    },
+    {
+      "id": "yangyang_1750566206936_3",
+      "name": "<예약주문> 연꽃농원 친환경 무농약 세척 개복숭아 5kg,10kg",
+      "price": 14,
+      "image": "https://gwchild1004.firstmall.kr/data/goods/1/2023/06/3_temp_16861182437667large.jpg",
+      "link": "https://yangyang-mall.com/goods/view?no=103541",
+      "mall": "양양몰",
+      "mallId": "mall_22",
+      "category": "농산물",
+      "description": "<예약주문> 연꽃농원 친환경 무농약 세척 개복숭아 5kg,10kg - 강원도 양양군",
+      "inStock": true,
+      "lastUpdated": "2025-06-22T04:23:26.936Z",
+      "createdAt": "2025-06-22T04:23:26.936Z"
+    },
+    {
+      "id": "yangyang_1750566208024_4",
+      "name": "2025년 양양 햇감자 수미 10kg, 20kg",
+      "price": 8,
+      "image": "https://gwchild239.firstmall.kr/data/goods/1/2023/06/100045_temp_16875127802271large.jpg",
+      "link": "https://yangyang-mall.com/goods/view?no=103627",
+      "mall": "양양몰",
+      "mallId": "mall_22",
+      "category": "농산물",
+      "description": "2025년 양양 햇감자 수미 10kg, 20kg - 양양군 수미 감자",
+      "inStock": true,
+      "lastUpdated": "2025-06-22T04:23:28.024Z",
+      "createdAt": "2025-06-22T04:23:28.024Z"
+    },
+    {
+      "id": "yangyang_1750566209207_5",
+      "name": "[첫밀]추억의옥수수빵",
+      "price": 6500,
+      "image": "https://gwchild1077.firstmall.kr/data/goods/1/2024/09/1_temp_17252886136739large.png",
+      "link": "https://yangyang-mall.com/goods/view?no=107231",
+      "mall": "양양몰",
+      "mallId": "mall_22",
+      "category": "농산물",
+      "description": "[첫밀]추억의옥수수빵 - 2023-강원양양-0011",
+      "inStock": true,
+      "lastUpdated": "2025-06-22T04:23:29.207Z",
+      "createdAt": "2025-06-22T04:23:29.207Z"
+    },
+    {
+      "id": "yangyang_1750566210372_6",
+      "name": "[토담골]양양 해풍담은 생표고 500g (중품)",
+      "price": 7000,
+      "image": "https://gwchild424.firstmall.kr/data/goods/1/2024/05/37247_2024052513384004.jpg",
+      "link": "https://yangyang-mall.com/goods/view?no=106606",
+      "mall": "양양몰",
+      "mallId": "mall_22",
+      "category": "농산물",
+      "description": "[토담골]양양 해풍담은 생표고 500g (중품) - 국산(강원도 양양군)",
+      "inStock": true,
+      "lastUpdated": "2025-06-22T04:23:30.372Z",
+      "createdAt": "2025-06-22T04:23:30.372Z"
+    },
+    {
+      "id": "yangyang_1750566211546_7",
+      "name": "송천 쑥버무리 7kg",
+      "price": 91000,
+      "image": "https://gwchild632.firstmall.kr/data/goods/1/2023/12/43915_temp_17019976891477large.jpg",
+      "link": "https://yangyang-mall.com/goods/view?no=106142",
+      "mall": "양양몰",
+      "mallId": "mall_22",
+      "category": "농산물",
+      "description": "송천 쑥버무리 7kg - 양양 송천떡마을영농조합법인",
+      "inStock": true,
+      "lastUpdated": "2025-06-22T04:23:31.546Z",
+      "createdAt": "2025-06-22T04:23:31.546Z"
+    },
+    {
+      "id": "yangyang_1750566212674_8",
+      "name": "부자 젓갈 2종  (오징어, 명란)",
+      "price": 6,
+      "image": "https://gwchild75.firstmall.kr/data/goods/1/2020/07/37092_tmp_016507f2605e571d297283cdad48841f9138large.jpg",
+      "link": "https://yangyang-mall.com/goods/view?no=37092",
+      "mall": "양양몰",
+      "mallId": "mall_22",
+      "category": "농산물",
+      "description": "부자 젓갈 2종  (오징어, 명란) - 2004-강원양양-0003 호",
+      "inStock": true,
+      "lastUpdated": "2025-06-22T04:23:32.674Z",
+      "createdAt": "2025-06-22T04:23:32.674Z"
+    },
+    {
+      "id": "yangyang_1750566213900_9",
+      "name": "가마솥백미약수누룽지300g ,650g 현미5분도약수누룽지300g,650g, 수제 전통 방식 게르마늄 온천수 가마솥 약수누룽지",
+      "price": 10000,
+      "image": "https://gwchild1018.firstmall.kr/data/goods/1/2023/06/100000_temp_16881073948716large.jpg",
+      "link": "https://yangyang-mall.com/goods/view?no=103803",
+      "mall": "양양몰",
+      "mallId": "mall_22",
+      "category": "농산물",
+      "description": "가마솥백미약수누룽지300g ,650g 현미5분도약수누룽지300g,650g, 수제 전통 방식 게르마늄 온천수 가마솥 약수누룽지 - 약수누룽지 강원특별자치도 양양군 양양읍 한고개길 141",
+      "inStock": true,
+      "lastUpdated": "2025-06-22T04:23:33.900Z",
+      "createdAt": "2025-06-22T04:23:33.900Z"
+    }
+  ],
+  "categories": [
+    "농산물"
+  ],
+  "priceStatistics": {
+    "min": 6,
+    "max": 91000,
+    "average": 17333,
+    "median": 7000
+  },
+  "dataQualityChecks": {
+    "productsWithImages": 41,
+    "productsWithValidPrices": 41,
+    "productsWithDescriptions": 41,
+    "productsInStock": 41
+  },
+  "issues": [
+    "1 potential duplicate product names found"
+  ],
+  "verifiedAt": "2025-06-22T04:26:11.098Z",
+  "status": "WARNING"
+}

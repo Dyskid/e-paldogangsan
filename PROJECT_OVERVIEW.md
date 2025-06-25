@@ -207,8 +207,45 @@ scripts/
   │   │   ├── retry-scrape-summary.json
   │   ├── all-malls-analysis.json
   │   ├── all-malls-products.json
+  │   ├── bmall-analysis.json
+  │   ├── bmall-homepage.html
+  │   ├── bmall-products.json
+  │   ├── bmall-registration-summary.json
+  │   ├── bmall-scrape-summary.json
+  │   ├── bmall-verification-report.json
+  │   ├── boseong-homepage.html
+  │   ├── boseong-product-list.html
+  │   ├── boseong-product-sample.html
+  │   ├── boseong-product-test-results.json
+  │   ├── boseong-products.json
+  │   ├── boseong-registration-summary.json
+  │   ├── boseong-scrape-summary.json
+  │   ├── boseong-structure-analysis.json
+  │   ├── boseong-verification-report.json
+  │   ├── buan-category-sample.html
+  │   ├── buan-homepage.html
+  │   ├── buan-product-sample.html
+  │   ├── buan-products.json
+  │   ├── buan-registration-summary.json
+  │   ├── buan-scrape-summary.json
+  │   ├── buan-structure-analysis.json
+  │   ├── buan-verification-report.json
   │   ├── category-cleanup-report.json
   │   ├── category-products-analysis.json
+  │   ├── cdmall-analysis.json
+  │   ├── cdmall-homepage.html
+  │   ├── cdmall-product-sample.html
+  │   ├── cdmall-products.json
+  │   ├── cdmall-registration-summary.json
+  │   ├── cdmall-scrape-summary.json
+  │   ├── cdmall-test-product.html
+  │   ├── cdmall-verification-report.json
+  │   ├── cgmall-analysis.json
+  │   ├── cgmall-homepage.html
+  │   ├── cgmall-products.json
+  │   ├── cgmall-registration-summary.json
+  │   ├── cgmall-scrape-summary.json
+  │   ├── cgmall-verification-report.json
   │   ├── chack3-homepage.html
   │   ├── chack3-mall-suggestion.json
   │   ├── chack3-products.json
@@ -234,6 +271,52 @@ scripts/
   │   ├── chamds-scrape-summary.json
   │   ├── chamds-structure-analysis.json
   │   ├── chamds-verification-report.json
+  │   ├── cheorwon-analysis.json
+  │   ├── cheorwon-homepage.html
+  │   ├── cheorwon-products.json
+  │   ├── cheorwon-registration-summary.json
+  │   ├── cheorwon-scrape-summary.json
+  │   ├── cheorwon-verification-report.json
+  │   ├── chuncheon-analysis.json
+  │   ├── chuncheon-homepage.html
+  │   ├── chuncheon-products.json
+  │   ├── chuncheon-registration-summary.json
+  │   ├── chuncheon-scrape-summary.json
+  │   ├── chuncheon-verification-report.json
+  │   ├── csmall-analysis.json
+  │   ├── csmall-homepage.html
+  │   ├── csmall-product-sample.html
+  │   ├── csmall-products.json
+  │   ├── csmall-registration-summary.json
+  │   ├── csmall-scrape-summary.json
+  │   ├── csmall-verification-report.json
+  │   ├── cyso-homepage.html
+  │   ├── cyso-products.json
+  │   ├── cyso-registration-summary.json
+  │   ├── cyso-scrape-summary.json
+  │   ├── cyso-structure-analysis.json
+  │   ├── cyso-verification-report.json
+  │   ├── damyang-category-sample.html
+  │   ├── damyang-homepage.html
+  │   ├── damyang-products.json
+  │   ├── damyang-registration-summary.json
+  │   ├── damyang-scrape-summary.json
+  │   ├── damyang-structure-analysis.json
+  │   ├── damyang-verification-report.json
+  │   ├── dangjinfarm-analysis.json
+  │   ├── dangjinfarm-homepage.html
+  │   ├── dangjinfarm-product-sample.html
+  │   ├── dangjinfarm-products.json
+  │   ├── dangjinfarm-registration-summary.json
+  │   ├── dangjinfarm-scrape-summary.json
+  │   ├── dangjinfarm-verification-report.json
+  │   ├── danpoong-category-sample.html
+  │   ├── danpoong-homepage.html
+  │   ├── danpoong-products.json
+  │   ├── danpoong-registration-summary.json
+  │   ├── danpoong-scrape-summary.json
+  │   ├── danpoong-structure-analysis.json
+  │   ├── danpoong-verification-report.json
   │   ├── donghae-analysis.json
   │   ├── donghae-homepage.html
   │   ├── donghae-product-1.html
@@ -242,6 +325,13 @@ scripts/
   │   ├── donghae-registration-summary.json
   │   ├── donghae-scrape-summary.json
   │   ├── donghae-verification-report.json
+  │   ├── ehongseong-analysis.json
+  │   ├── ehongseong-homepage.html
+  │   ├── ehongseong-product-sample.html
+  │   ├── ehongseong-products.json
+  │   ├── ehongseong-registration-summary.json
+  │   ├── ehongseong-scrape-summary.json
+  │   ├── ehongseong-verification-report.json
   │   ├── ejeju-mall-products-comprehensive.json
   │   ├── ejeju-mall-products.json
   │   ├── ejeju-mall-summary-comprehensive.json
@@ -249,6 +339,46 @@ scripts/
   │   ├── ejeju-registration-summary.json
   │   ├── ejeju-test-page.html
   │   ├── ejeju-verification-report.json
+  │   ├── esjang-category.html
+  │   ├── esjang-homepage.html
+  │   ├── esjang-product-ids.txt
+  │   ├── esjang-product-sample.html
+  │   ├── esjang-product-test-results.json
+  │   ├── esjang-products.json
+  │   ├── esjang-registration-summary.json
+  │   ├── esjang-scrape-summary.json
+  │   ├── esjang-test.html
+  │   ├── esjang-verification-report.json
+  │   ├── freshjb-api--api-categories.json
+  │   ├── freshjb-api--api-category-list.json
+  │   ├── freshjb-api--api-goods.json
+  │   ├── freshjb-api--api-items.json
+  │   ├── freshjb-api--api-product-list.json
+  │   ├── freshjb-api--api-products.json
+  │   ├── freshjb-api--category-list.json
+  │   ├── freshjb-api--exec-front-Category-ApiCategoryList.json
+  │   ├── freshjb-api--exec-front-Product-ApiProductList.json
+  │   ├── freshjb-api--product-list.json
+  │   ├── freshjb-api--shop-categories.json
+  │   ├── freshjb-api--shop-products.json
+  │   ├── freshjb-homepage.html
+  │   ├── freshjb-page--categories.html
+  │   ├── freshjb-page--category.html
+  │   ├── freshjb-page--goods-list.html
+  │   ├── freshjb-page--goods.html
+  │   ├── freshjb-page--list.html
+  │   ├── freshjb-page--product-list.html
+  │   ├── freshjb-page--product.html
+  │   ├── freshjb-page--products.html
+  │   ├── freshjb-page--shop-list.html
+  │   ├── freshjb-page--shop.html
+  │   ├── freshjb-products.json
+  │   ├── freshjb-registration-summary.json
+  │   ├── freshjb-robots.txt
+  │   ├── freshjb-scrape-summary.json
+  │   ├── freshjb-sitemap.xml
+  │   ├── freshjb-structure-analysis.json
+  │   ├── freshjb-verification-report.json
   │   ├── gangneung-analysis.json
   │   ├── gangneung-homepage.html
   │   ├── gangneung-product-1.html
@@ -269,6 +399,28 @@ scripts/
   │   ├── gmsocial-registration-summary.json
   │   ├── gmsocial-test-food-category.html
   │   ├── gmsocial-verification-report.json
+  │   ├── gochang-categories-analysis.json
+  │   ├── gochang-homepage.html
+  │   ├── gochang-product-sample.html
+  │   ├── gochang-products.json
+  │   ├── gochang-registration-summary.json
+  │   ├── gochang-scrape-errors.txt
+  │   ├── gochang-scrape-summary.json
+  │   ├── gochang-structure-analysis.json
+  │   ├── gochang-verification-report.json
+  │   ├── goesan-analysis.json
+  │   ├── goesan-homepage.html
+  │   ├── goesan-product-sample.html
+  │   ├── goesan-products.json
+  │   ├── goesan-registration-summary.json
+  │   ├── goesan-scrape-summary.json
+  │   ├── goesan-verification-report.json
+  │   ├── gokseongmall-homepage.html
+  │   ├── gokseongmall-products.json
+  │   ├── gokseongmall-registration-summary.json
+  │   ├── gokseongmall-scrape-summary.json
+  │   ├── gokseongmall-structure-analysis.json
+  │   ├── gokseongmall-verification-report.json
   │   ├── goseong-analysis.json
   │   ├── goseong-homepage.html
   │   ├── goseong-product-1.html
@@ -277,6 +429,12 @@ scripts/
   │   ├── goseong-registration-summary.json
   │   ├── goseong-scrape-summary.json
   │   ├── goseong-verification-report.json
+  │   ├── greengj-homepage.html
+  │   ├── greengj-products.json
+  │   ├── greengj-registration-summary.json
+  │   ├── greengj-scrape-summary.json
+  │   ├── greengj-structure-analysis.json
+  │   ├── greengj-verification-report.json
   │   ├── gwdmall-analysis.json
   │   ├── gwdmall-homepage-content.html
   │   ├── gwdmall-homepage.html
@@ -288,8 +446,89 @@ scripts/
   │   ├── gwdmall-verification-report.json
   │   ├── gwdmall-working-products.json
   │   ├── gwdmall-working-summary.json
+  │   ├── gwpc-analysis.json
+  │   ├── gwpc-homepage.html
+  │   ├── gwpc-product-sample.html
+  │   ├── gwpc-product-test-results.json
+  │   ├── gwpc-products.json
+  │   ├── gwpc-registration-summary.json
+  │   ├── gwpc-scrape-summary.json
+  │   ├── gwpc-verification-report.json
+  │   ├── haegaram-category-sample.html
+  │   ├── haegaram-homepage.html
+  │   ├── haegaram-product-sample.html
+  │   ├── haegaram-products.json
+  │   ├── haegaram-registration-summary.json
+  │   ├── haegaram-scrape-summary.json
+  │   ├── haegaram-scrape.log
+  │   ├── haegaram-structure-analysis.json
+  │   ├── haegaram-test-product.html
+  │   ├── haegaram-verification-report.json
+  │   ├── hampyeong-category-sample.html
+  │   ├── hampyeong-homepage.html
+  │   ├── hampyeong-products.json
+  │   ├── hampyeong-registration-summary.json
+  │   ├── hampyeong-scrape-summary.json
+  │   ├── hampyeong-structure-analysis.json
+  │   ├── hampyeong-verification-report.json
+  │   ├── hoengseong-analysis.json
+  │   ├── hoengseong-homepage.html
+  │   ├── hoengseong-products.json
+  │   ├── hoengseong-registration-summary.json
+  │   ├── hoengseong-scrape-summary.json
+  │   ├── hoengseong-verification-report.json
+  │   ├── hongcheon-analysis.json
+  │   ├── hongcheon-homepage.html
+  │   ├── hongcheon-product-sample.html
+  │   ├── hongcheon-product-test-results.json
+  │   ├── hongcheon-products.json
+  │   ├── hongcheon-registration-summary.json
+  │   ├── hongcheon-scrape-summary.json
+  │   ├── hongcheon-verification-report.json
+  │   ├── hwasunfarm-homepage.html
+  │   ├── hwasunfarm-products.json
+  │   ├── hwasunfarm-registration-summary.json
+  │   ├── hwasunfarm-scrape-summary.json
+  │   ├── hwasunfarm-structure-analysis.json
+  │   ├── hwasunfarm-verification-report.json
+  │   ├── iksan-category-sample.html
+  │   ├── iksan-category-test-results.json
+  │   ├── iksan-homepage.html
+  │   ├── iksan-products.json
+  │   ├── iksan-registration-summary.json
+  │   ├── iksan-scrape-summary.json
+  │   ├── iksan-structure-analysis.json
+  │   ├── iksan-verification-report.json
   │   ├── individual-products-verification-all-malls.json
+  │   ├── inje--goods-catalog.html
+  │   ├── inje--goods.html
+  │   ├── inje-analysis.json
+  │   ├── inje-homepage.html
+  │   ├── inje-product-sample.html
+  │   ├── inje-product-test.html
+  │   ├── inje-products.json
+  │   ├── inje-registration-summary.json
+  │   ├── inje-scrape-summary.json
+  │   ├── inje-verification-report.json
   │   ├── integration-summary.json
+  │   ├── jangsu-category-exploration.json
+  │   ├── jangsu-category-sample.html
+  │   ├── jangsu-category-test-results.json
+  │   ├── jangsu-homepage.html
+  │   ├── jangsu-product-sample.html
+  │   ├── jangsu-product-test.json
+  │   ├── jangsu-products.json
+  │   ├── jangsu-registration-summary.json
+  │   ├── jangsu-scrape-summary.json
+  │   ├── jangsu-structure-analysis.json
+  │   ├── jangsu-verification-report.json
+  │   ├── jcmall-analysis.json
+  │   ├── jcmall-homepage.html
+  │   ├── jcmall-product-sample.html
+  │   ├── jcmall-products.json
+  │   ├── jcmall-registration-summary.json
+  │   ├── jcmall-scrape-summary.json
+  │   ├── jcmall-verification-report.json
   │   ├── jeju-image-fallback-summary.json
   │   ├── jeju-image-fix-summary.json
   │   ├── jeju-listing-titles.json
@@ -315,6 +554,27 @@ scripts/
   │   ├── jeju-real-images-summary.json
   │   ├── jeju-real-titles.json
   │   ├── jeju-title-update-report.json
+  │   ├── jeongseon-analysis.json
+  │   ├── jeongseon-homepage.html
+  │   ├── jeongseon-products.json
+  │   ├── jeongseon-registration-summary.json
+  │   ├── jeongseon-scrape-summary.json
+  │   ├── jeongseon-verification-report.json
+  │   ├── jindoarirang-homepage.html
+  │   ├── jindoarirang-products.json
+  │   ├── jindoarirang-registration-summary.json
+  │   ├── jindoarirang-scrape-summary.json
+  │   ├── jindoarirang-structure-analysis.json
+  │   ├── jindoarirang-verification-report.json
+  │   ├── jnmall-category-sample.html
+  │   ├── jnmall-homepage.html
+  │   ├── jnmall-html-products.json
+  │   ├── jnmall-products.json
+  │   ├── jnmall-recommend-page.html
+  │   ├── jnmall-registration-summary.json
+  │   ├── jnmall-scrape-summary.json
+  │   ├── jnmall-structure-analysis.json
+  │   ├── jnmall-verification-report.json
   │   ├── kkimchi-analysis.json
   │   ├── kkimchi-category-_index.php_cate_004.html
   │   ├── kkimchi-category-_index.php_cate_004001.html
@@ -332,6 +592,49 @@ scripts/
   │   ├── kkimchi-scrape-summary.json
   │   ├── kkimchi-verification-report.json
   │   ├── logo-download-summary.json
+  │   ├── mgmall-analysis.json
+  │   ├── mgmall-homepage.html
+  │   ├── mgmall-products.json
+  │   ├── mgmall-registration-summary.json
+  │   ├── mgmall-scrape-summary.json
+  │   ├── mgmall-verification-report.json
+  │   ├── najumall-homepage.html
+  │   ├── najumall-product-list.html
+  │   ├── najumall-product-sample.html
+  │   ├── najumall-product-test-results.json
+  │   ├── najumall-products.json
+  │   ├── najumall-registration-summary.json
+  │   ├── najumall-scrape-summary.json
+  │   ├── najumall-structure-analysis.json
+  │   ├── najumall-verification-report.json
+  │   ├── nongsarang-analysis.json
+  │   ├── nongsarang-detailed-analysis.json
+  │   ├── nongsarang-homepage-decoded.html
+  │   ├── nongsarang-homepage.html
+  │   ├── nongsarang-product-sample.html
+  │   ├── nongsarang-products.json
+  │   ├── nongsarang-registration-summary.json
+  │   ├── nongsarang-scrape-summary.json
+  │   ├── nongsarang-shop-exploration.json
+  │   ├── nongsarang-shop-page.html
+  │   ├── nongsarang-verification-report.json
+  │   ├── okjmall-element-_item.html
+  │   ├── okjmall-homepage-sample.html
+  │   ├── okjmall-homepage.html
+  │   ├── okjmall-products.json
+  │   ├── okjmall-registration-summary.json
+  │   ├── okjmall-scrape-summary.json
+  │   ├── okjmall-structure-analysis.json
+  │   ├── okjmall-test-page.html
+  │   ├── okjmall-verification-report.json
+  │   ├── onsim-analysis.json
+  │   ├── onsim-homepage.html
+  │   ├── onsim-product-sample.html
+  │   ├── onsim-product-test.html
+  │   ├── onsim-products.json
+  │   ├── onsim-registration-summary.json
+  │   ├── onsim-scrape-summary.json
+  │   ├── onsim-verification-report.json
   │   ├── ontongdaejeon-analysis.json
   │   ├── ontongdaejeon-cleaning-verification-report.json
   │   ├── ontongdaejeon-detail-100416837.html
@@ -369,6 +672,9 @@ scripts/
   │   ├── products-backup-1750327814345.json
   │   ├── products-backup-1750500297722.json
   │   ├── products-backup-1750501203131.json
+  │   ├── products-backup-1750566302957.json
+  │   ├── products-backup-1750566316946.json
+  │   ├── products-backup-1750568100208.json
   │   ├── products-without-prices.txt
   │   ├── samcheok-analysis.json
   │   ├── samcheok-homepage.html
@@ -378,6 +684,30 @@ scripts/
   │   ├── samcheok-registration-summary.json
   │   ├── samcheok-scrape-summary.json
   │   ├── samcheok-verification-report.json
+  │   ├── sclocal-category-page.html
+  │   ├── sclocal-category-test-results.json
+  │   ├── sclocal-homepage.html
+  │   ├── sclocal-products.json
+  │   ├── sclocal-registration-summary.json
+  │   ├── sclocal-scrape-summary.json
+  │   ├── sclocal-structure-analysis.json
+  │   ├── sclocal-verification-report.json
+  │   ├── seosanttre-homepage.html
+  │   ├── seosanttre-product-sample.html
+  │   ├── seosanttre-products.json
+  │   ├── seosanttre-registration-summary.json
+  │   ├── seosanttre-scrape-summary.json
+  │   ├── seosanttre-structure-analysis.json
+  │   ├── seosanttre-verification-report.json
+  │   ├── shinan1004-category-sample.html
+  │   ├── shinan1004-element-_xans_product_listmain__xans_record_.html
+  │   ├── shinan1004-homepage-sample.html
+  │   ├── shinan1004-homepage.html
+  │   ├── shinan1004-products.json
+  │   ├── shinan1004-registration-summary.json
+  │   ├── shinan1004-scrape-summary.json
+  │   ├── shinan1004-structure-analysis.json
+  │   ├── shinan1004-verification-report.json
   │   ├── sjlocal-analysis-report.md
   │   ├── sjlocal-homepage.html
   │   ├── sjlocal-product-analysis.json
@@ -385,7 +715,31 @@ scripts/
   │   ├── sjlocal-products.json
   │   ├── sjlocal-scrape-summary.json
   │   ├── sjlocal-simple-analysis.json
+  │   ├── sjmall-homepage.html
+  │   ├── sjmall-products.json
+  │   ├── sjmall-registration-summary.json
+  │   ├── sjmall-scrape-summary.json
+  │   ├── sjmall-structure-analysis.json
+  │   ├── sjmall-verification-report.json
+  │   ├── taebaek-analysis.json
+  │   ├── taebaek-homepage.html
+  │   ├── taebaek-products.json
+  │   ├── taebaek-registration-summary.json
+  │   ├── taebaek-scrape-summary.json
+  │   ├── taebaek-verification-report.json
+  │   ├── ulmall-analysis.json
+  │   ├── ulmall-homepage.html
+  │   ├── ulmall-products.json
+  │   ├── ulmall-registration-summary.json
+  │   ├── ulmall-scrape-summary.json
+  │   ├── ulmall-verification-report.json
   │   ├── unknown-mall-removal-summary.json
+  │   ├── wandofood-homepage.html
+  │   ├── wandofood-products.json
+  │   ├── wandofood-registration-summary.json
+  │   ├── wandofood-scrape-summary.json
+  │   ├── wandofood-structure-analysis.json
+  │   ├── wandofood-verification-report.json
   │   ├── wemall-analysis.json
   │   ├── wemall-category-001.html
   │   ├── wemall-category-010.html
@@ -430,36 +784,147 @@ scripts/
   │   ├── yangju-registration-summary.json
   │   ├── yangju-scrape-summary.json
   │   ├── yangju-verification-report.json
+  │   ├── yangyang-analysis.json
+  │   ├── yangyang-comprehensive-analysis.json
+  │   ├── yangyang-final-product-urls.txt
+  │   ├── yangyang-final-products.json
+  │   ├── yangyang-final-scrape-summary.json
+  │   ├── yangyang-homepage.html
+  │   ├── yangyang-product-sample.html
+  │   ├── yangyang-product-urls.txt
+  │   ├── yangyang-products.json
+  │   ├── yangyang-registration-error.json
+  │   ├── yangyang-registration-summary.json
+  │   ├── yangyang-scrape-summary.json
+  │   ├── yangyang-test-product.html
+  │   ├── yangyang-verification-report.json
+  │   ├── ycjang-analysis.json
+  │   ├── ycjang-homepage.html
+  │   ├── ycjang-products.json
+  │   ├── ycjang-registration-summary.json
+  │   ├── ycjang-scrape-summary.json
+  │   ├── ycjang-verification-report.json
+  │   ├── yeongam-homepage.html
+  │   ├── yeongam-products.json
+  │   ├── yeongam-registration-summary.json
+  │   ├── yeongam-scrape-summary.json
+  │   ├── yeongam-structure-analysis.json
+  │   ├── yeongam-verification-report.json
+  │   ├── yeongwol--goods-catalog.html
+  │   ├── yeongwol--goods.html
+  │   ├── yeongwol-analysis.json
+  │   ├── yeongwol-category-sample.html
+  │   ├── yeongwol-homepage.html
+  │   ├── yeongwol-product-sample.html
+  │   ├── yeongwol-product-test.html
+  │   ├── yeongwol-product-urls.txt
+  │   ├── yeongwol-products.json
+  │   ├── yeongwol-registration-summary.json
+  │   ├── yeongwol-scrape-summary.json
+  │   ├── yeongwol-verification-report.json
+  │   ├── yeosumall-accessible-homepage.html
+  │   ├── yeosumall-homepage.html
+  │   ├── yeosumall-mock-products.json
+  │   ├── yeosumall-mock-registration-summary.json
+  │   ├── yeosumall-products-ready-for-registration.json
+  │   ├── yeosumall-products.json
+  │   ├── yeosumall-registration-summary.json
+  │   ├── yeosumall-scrape-summary.json
+  │   ├── yeosumall-structure-analysis.json
+  │   ├── yeosumall-unavailable-report.json
+  │   ├── yeosumall-verification-report.json
+  │   ├── yjmarket-analysis.json
+  │   ├── yjmarket-homepage.html
+  │   ├── yjmarket-product-sample.html
+  │   ├── yjmarket-products.json
+  │   ├── yjmarket-registration-summary.json
+  │   ├── yjmarket-scrape-summary.json
+  │   ├── yjmarket-verification-report.json
   ├── analyze-all-malls.ts
+  ├── analyze-bmall-structure.ts
+  ├── analyze-boseong-structure.ts
+  ├── analyze-buan-structure.ts
+  ├── analyze-cdmall-structure.ts
+  ├── analyze-cgmall-structure.ts
   ├── analyze-chack3-structure.ts
   ├── analyze-chamdalseong-smartstore.ts
   ├── analyze-chamds-detailed.ts
   ├── analyze-chamds-homepage.ts
   ├── analyze-chamds-structure.ts
+  ├── analyze-cheorwon-structure.ts
+  ├── analyze-chuncheon-structure.ts
+  ├── analyze-csmall-structure.ts
+  ├── analyze-cyso-structure.ts
+  ├── analyze-damyang-structure.ts
+  ├── analyze-dangjinfarm-structure.ts
+  ├── analyze-danpoong-structure.ts
   ├── analyze-donghae-structure.ts
+  ├── analyze-ehongseong-structure.ts
   ├── analyze-ejeju-mall-structure.ts
+  ├── analyze-esjang-structure.ts
+  ├── analyze-freshjb-structure.ts
   ├── analyze-gangneung-structure.ts
   ├── analyze-gimhaemall-structure.ts
   ├── analyze-gmsocial-structure.ts
+  ├── analyze-gochang-structure.ts
+  ├── analyze-goesan-structure.ts
+  ├── analyze-gokseongmall-structure.ts
   ├── analyze-goseong-structure.ts
+  ├── analyze-greengj-structure.ts
   ├── analyze-gwdmall-structure.ts
+  ├── analyze-gwpc-structure.ts
+  ├── analyze-haegaram-structure.ts
+  ├── analyze-hampyeong-structure.ts
+  ├── analyze-hoengseong-structure.ts
+  ├── analyze-hongcheon-structure.ts
+  ├── analyze-hwasunfarm-structure.ts
+  ├── analyze-iksan-structure.ts
+  ├── analyze-inje-structure.ts
+  ├── analyze-jangsu-structure.ts
+  ├── analyze-jcmall-structure.ts
   ├── analyze-jeju-mall-ajax.ts
   ├── analyze-jeju-mall-structure.ts
   ├── analyze-jeju-mall.ts
+  ├── analyze-jeongseon-structure.ts
+  ├── analyze-jindoarirang-structure.ts
+  ├── analyze-jnmall-spa.ts
+  ├── analyze-jnmall-structure.ts
   ├── analyze-kkimchi-structure.ts
+  ├── analyze-mgmall-structure.ts
+  ├── analyze-najumall-structure.ts
+  ├── analyze-nongsarang-detailed.ts
+  ├── analyze-nongsarang-structure.ts
+  ├── analyze-okjmall-structure.ts
+  ├── analyze-onsim-structure.ts
   ├── analyze-ontongdaejeon-price-structure.ts
   ├── analyze-ontongdaejeon-structure.ts
   ├── analyze-osansemall-main-page.ts
   ├── analyze-osansemall-structure.ts
   ├── analyze-samcheok-structure.ts
+  ├── analyze-sclocal-structure.ts
+  ├── analyze-seosanttre-structure.ts
+  ├── analyze-shinan1004-structure.ts
   ├── analyze-sjlocal-products.ts
   ├── analyze-sjlocal-simple.ts
   ├── analyze-sjlocal-structure.ts
+  ├── analyze-sjmall-structure.ts
   ├── analyze-smartstore-with-retry.ts
+  ├── analyze-taebaek-structure.ts
+  ├── analyze-ulmall-structure.ts
+  ├── analyze-wandofood-structure.ts
   ├── analyze-wemall-structure.ts
   ├── analyze-wonju-structure.ts
   ├── analyze-yanggu-structure.ts
   ├── analyze-yangju-structure.ts
+  ├── analyze-yangyang-comprehensive.ts
+  ├── analyze-yangyang-simple.ts
+  ├── analyze-yangyang-structure.ts
+  ├── analyze-ycjang-structure.ts
+  ├── analyze-yeongam-structure.ts
+  ├── analyze-yeongwol-structure.ts
+  ├── analyze-yeosumall-alternatives.ts
+  ├── analyze-yeosumall-structure.ts
+  ├── analyze-yjmarket-structure.ts
   ├── batch-scrape-all-malls.ts
   ├── check-jeju-titles.ts
   ├── check-mall-details.js
@@ -472,15 +937,21 @@ scripts/
   ├── clean-jeju-titles.ts
   ├── comprehensive-jeju-title-update.ts
   ├── create-jeju-products-dataset.ts
+  ├── create-yeosumall-mock-scraper.ts
   ├── debug-osansemall-category.ts
+  ├── discover-freshjb-api.ts
   ├── download-mall-logos.ts
   ├── download-missing-logos.ts
   ├── enrich-jeju-products.ts
   ├── explore-chamds-categories.ts
+  ├── explore-gochang-categories.ts
+  ├── explore-jangsu-categories.ts
   ├── explore-kkimchi-categories.ts
   ├── explore-kkimchi-shop.ts
+  ├── explore-nongsarang-shop.ts
   ├── explore-ontongdaejeon-categories.ts
   ├── extract-jeju-mall-urls.ts
+  ├── extract-jnmall-products.ts
   ├── extract-ontongdaejeon-prices-axios.ts
   ├── extract-ontongdaejeon-prices.ts
   ├── extract-real-jeju-titles.ts
@@ -510,51 +981,150 @@ scripts/
   ├── README.md
   ├── register-all-mall-products.ts
   ├── register-batch-products.ts
+  ├── register-bmall-products.ts
+  ├── register-boseong-products.ts
+  ├── register-buan-products.ts
+  ├── register-cdmall-products.ts
+  ├── register-cgmall-products.ts
   ├── register-chack3-products.ts
   ├── register-chamds-food-products.ts
   ├── register-chamds-products.ts
+  ├── register-cheorwon-products.ts
+  ├── register-chuncheon-products.ts
+  ├── register-csmall-products.ts
+  ├── register-cyso-products.ts
+  ├── register-damyang-products.ts
+  ├── register-dangjinfarm-products.ts
+  ├── register-danpoong-products.ts
   ├── register-donghae-products.ts
+  ├── register-ehongseong-products.ts
   ├── register-ejeju-products.ts
+  ├── register-esjang-products.ts
+  ├── register-freshjb-products.ts
   ├── register-gangneung-products.ts
   ├── register-gmsocial-clean.ts
   ├── register-gmsocial-products.ts
+  ├── register-gochang-products.ts
+  ├── register-goesan-products.ts
+  ├── register-gokseongmall-products.ts
   ├── register-goseong-products.ts
+  ├── register-greengj-products.ts
   ├── register-gwdmall-products.ts
+  ├── register-gwpc-products.ts
+  ├── register-haegaram-products.ts
+  ├── register-hampyeong-products.ts
+  ├── register-hoengseong-products.ts
+  ├── register-hongcheon-products.ts
+  ├── register-hwasunfarm-products.ts
+  ├── register-iksan-products.ts
+  ├── register-inje-products.ts
+  ├── register-jangsu-products.ts
+  ├── register-jcmall-products.ts
+  ├── register-jeongseon-products.ts
+  ├── register-jindoarirang-products.ts
+  ├── register-jnmall-products.ts
   ├── register-kkimchi-food-products.ts
   ├── register-kkimchi-products.ts
+  ├── register-mgmall-products.ts
+  ├── register-najumall-products.ts
+  ├── register-nongsarang-products.ts
+  ├── register-okjmall-products.ts
+  ├── register-onsim-products.ts
   ├── register-ontongdaejeon-food-products.ts
   ├── register-ontongdaejeon-products-with-prices.ts
   ├── register-ontongdaejeon-products.ts
   ├── register-osansemall-products.ts
   ├── register-retry-products.ts
   ├── register-samcheok-products.ts
+  ├── register-sclocal-products.ts
+  ├── register-seosanttre-products.ts
+  ├── register-shinan1004-products.ts
+  ├── register-sjmall-products.ts
+  ├── register-taebaek-products.ts
+  ├── register-ulmall-products.ts
+  ├── register-wandofood-products.ts
   ├── register-wemall-food-products.ts
   ├── register-wemall-products.ts
   ├── register-wonju-products.ts
   ├── register-yanggu-products.ts
   ├── register-yangju-products.ts
+  ├── register-yangyang-products.ts
+  ├── register-ycjang-products.ts
+  ├── register-yeongam-products.ts
+  ├── register-yeongwol-products.ts
+  ├── register-yeosumall-mock-products.ts
+  ├── register-yeosumall-products.ts
+  ├── register-yjmarket-products.ts
   ├── remove-failed-jeju-products.ts
   ├── remove-jejumall.ts
   ├── remove-unknown-mall-products.ts
   ├── retry-failed-malls.ts
   ├── scrape-all-jeju-products.ts
+  ├── scrape-and-register-haegaram.ts
+  ├── scrape-bmall-comprehensive.ts
+  ├── scrape-boseong-comprehensive.ts
+  ├── scrape-boseong-fixed.ts
+  ├── scrape-buan-comprehensive.ts
+  ├── scrape-buan-quick.ts
+  ├── scrape-cdmall-comprehensive.ts
+  ├── scrape-cdmall-fixed.ts
+  ├── scrape-cdmall-quick.ts
+  ├── scrape-cgmall-comprehensive.ts
   ├── scrape-chack3-products.ts
   ├── scrape-chamds-comprehensive.ts
+  ├── scrape-cheorwon-comprehensive.ts
+  ├── scrape-chuncheon-comprehensive.ts
+  ├── scrape-csmall-comprehensive.ts
+  ├── scrape-cyso-comprehensive.ts
+  ├── scrape-cyso-quick.ts
+  ├── scrape-damyang-comprehensive.ts
+  ├── scrape-dangjinfarm-comprehensive.ts
+  ├── scrape-dangjinfarm-final.ts
+  ├── scrape-dangjinfarm-fixed.ts
+  ├── scrape-danpoong-comprehensive.ts
+  ├── scrape-danpoong-quick.ts
   ├── scrape-donghae-comprehensive.ts
+  ├── scrape-ehongseong-comprehensive.ts
+  ├── scrape-ehongseong-quick.ts
   ├── scrape-ejeju-mall-accurate.ts
   ├── scrape-ejeju-mall-comprehensive.ts
   ├── scrape-ejeju-mall-simple.ts
   ├── scrape-ejeju-mall.ts
+  ├── scrape-esjang-comprehensive.ts
+  ├── scrape-esjang-simple.ts
+  ├── scrape-freshjb-comprehensive.ts
   ├── scrape-gangneung-comprehensive.ts
   ├── scrape-gimhaemall-comprehensive.ts
   ├── scrape-gimhaemall-real.ts
   ├── scrape-gmsocial-categories.ts
   ├── scrape-gmsocial-comprehensive.ts
   ├── scrape-gmsocial-robust.ts
+  ├── scrape-gochang-comprehensive.ts
+  ├── scrape-gochang-quick.ts
+  ├── scrape-goesan-comprehensive.ts
+  ├── scrape-goesan-quick.ts
+  ├── scrape-gokseongmall-comprehensive.ts
+  ├── scrape-gokseongmall-quick.ts
   ├── scrape-goseong-comprehensive.ts
+  ├── scrape-greengj-comprehensive.ts
   ├── scrape-gwdmall-comprehensive.ts
   ├── scrape-gwdmall-working.ts
+  ├── scrape-gwpc-comprehensive.ts
+  ├── scrape-haegaram-comprehensive.ts
+  ├── scrape-hampyeong-comprehensive.ts
+  ├── scrape-hoengseong-comprehensive.ts
+  ├── scrape-hongcheon-comprehensive.ts
+  ├── scrape-hwasunfarm-comprehensive.ts
+  ├── scrape-hwasunfarm-quick.ts
+  ├── scrape-iksan-comprehensive.ts
+  ├── scrape-iksan-quick.ts
   ├── scrape-individual-jeju-titles.ts
+  ├── scrape-inje-comprehensive.ts
+  ├── scrape-jangsu-comprehensive.ts
+  ├── scrape-jangsu-quick.ts
+  ├── scrape-jcmall-comprehensive.ts
+  ├── scrape-jcmall-enhanced.ts
+  ├── scrape-jcmall-final.ts
   ├── scrape-jeju-listing-titles.ts
   ├── scrape-jeju-mall-accurate.ts
   ├── scrape-jeju-mall-ajax.ts
@@ -563,9 +1133,19 @@ scripts/
   ├── scrape-jeju-mall-simple.ts
   ├── scrape-jeju-mall.ts
   ├── scrape-jeju-products-from-urls.ts
+  ├── scrape-jeongseon-comprehensive.ts
+  ├── scrape-jindoarirang-comprehensive.ts
+  ├── scrape-jnmall-comprehensive.ts
   ├── scrape-kkimchi-comprehensive.ts
   ├── scrape-mall-template.ts
+  ├── scrape-mgmall-comprehensive.ts
   ├── scrape-missing-jeju-titles.ts
+  ├── scrape-najumall-comprehensive.ts
+  ├── scrape-nongsarang-comprehensive.ts
+  ├── scrape-nongsarang-fixed.ts
+  ├── scrape-okjmall-comprehensive.ts
+  ├── scrape-okjmall-fixed.ts
+  ├── scrape-onsim-comprehensive.ts
   ├── scrape-ontongdaejeon-comprehensive.ts
   ├── scrape-ontongdaejeon-detailed.ts
   ├── scrape-ontongdaejeon-enhanced.ts
@@ -576,7 +1156,16 @@ scripts/
   ├── scrape-osansemall-products.ts
   ├── scrape-osansemall-real.ts
   ├── scrape-samcheok-comprehensive.ts
+  ├── scrape-sclocal-comprehensive.ts
+  ├── scrape-seosanttre-comprehensive.ts
+  ├── scrape-seosanttre-quick.ts
+  ├── scrape-shinan1004-comprehensive.ts
+  ├── scrape-shinan1004-fixed.ts
   ├── scrape-sjlocal-products.ts
+  ├── scrape-sjmall-comprehensive.ts
+  ├── scrape-taebaek-comprehensive.ts
+  ├── scrape-ulmall-comprehensive.ts
+  ├── scrape-wandofood-comprehensive.ts
   ├── scrape-wemall-comprehensive.ts
   ├── scrape-wemall-food-comprehensive.ts
   ├── scrape-wemall-food-final.ts
@@ -589,42 +1178,130 @@ scripts/
   ├── scrape-yanggu-homepage.ts
   ├── scrape-yangju-careful.ts
   ├── scrape-yangju-comprehensive.ts
+  ├── scrape-yangyang-comprehensive.ts
+  ├── scrape-yangyang-final.ts
+  ├── scrape-ycjang-comprehensive.ts
+  ├── scrape-yeongam-comprehensive.ts
+  ├── scrape-yeongwol-comprehensive.ts
+  ├── scrape-yeosumall-comprehensive.ts
+  ├── scrape-yeosumall-template.ts
+  ├── scrape-yjmarket-comprehensive.ts
+  ├── test-boseong-product.ts
+  ├── test-buan-category.ts
+  ├── test-buan-product.ts
+  ├── test-cdmall-product.ts
   ├── test-chamds-product-pages.ts
+  ├── test-cheorwon-product.ts
+  ├── test-chuncheon-product.ts
+  ├── test-damyang-category.ts
+  ├── test-dangjinfarm-product.ts
+  ├── test-danpoong-category.ts
   ├── test-donghae-product.ts
+  ├── test-ehongseong-product.ts
   ├── test-ejeju-fetch.ts
+  ├── test-esjang-product.ts
+  ├── test-freshjb-ajax.ts
+  ├── test-freshjb-products.ts
   ├── test-gangneung-product.ts
   ├── test-gmsocial-access.ts
+  ├── test-goesan-product.ts
   ├── test-goseong-product.ts
   ├── test-gwdmall-page.ts
+  ├── test-gwpc-product.ts
+  ├── test-haegaram-product.ts
+  ├── test-hampyeong-category.ts
+  ├── test-hoengseong-product.ts
+  ├── test-hongcheon-product.ts
+  ├── test-iksan-category.ts
+  ├── test-inje-product.ts
+  ├── test-jangsu-category.ts
+  ├── test-jcmall-product.ts
   ├── test-jeju-title-puppeteer.ts
   ├── test-jeju-title.ts
+  ├── test-jeongseon-product.ts
+  ├── test-jnmall-structure.ts
+  ├── test-najumall-product.ts
+  ├── test-nongsarang-product.ts
+  ├── test-okjmall-product.ts
+  ├── test-onsim-product.ts
   ├── test-samcheok-product.ts
+  ├── test-sclocal-category.ts
+  ├── test-seosanttre-product.ts
+  ├── test-shinan1004-product.ts
   ├── test-specific-url.ts
+  ├── test-taebaek-product.ts
   ├── test-wemall-category.ts
   ├── test-wemall-food-category.ts
   ├── test-wonju-product.ts
   ├── test-yanggu-category.ts
   ├── test-yanggu-product.ts
   ├── test-yangju-page.ts
+  ├── test-yangyang-product.ts
+  ├── test-yeongwol-product.ts
+  ├── test-yeosumall-access.ts
   ├── update-overview.ts
+  ├── verify-bmall-registration.ts
+  ├── verify-boseong-registration.ts
+  ├── verify-buan-registration.ts
+  ├── verify-cdmall-registration.ts
+  ├── verify-cgmall-registration.ts
   ├── verify-chack3-registration.ts
   ├── verify-chamds-food-registration.ts
   ├── verify-chamds-registration.ts
+  ├── verify-cheorwon-registration.ts
+  ├── verify-chuncheon-registration.ts
+  ├── verify-csmall-registration.ts
+  ├── verify-cyso-registration.ts
+  ├── verify-damyang-registration.ts
+  ├── verify-dangjinfarm-registration.ts
+  ├── verify-danpoong-registration.ts
   ├── verify-donghae-registration.ts
+  ├── verify-ehongseong-registration.ts
   ├── verify-ejeju-products.ts
+  ├── verify-esjang-registration.ts
+  ├── verify-freshjb-registration.ts
   ├── verify-gangneung-registration.ts
   ├── verify-gmsocial-clean.ts
   ├── verify-gmsocial-registration.ts
+  ├── verify-gochang-registration.ts
+  ├── verify-goesan-registration.ts
+  ├── verify-gokseongmall-registration.ts
   ├── verify-goseong-registration.ts
+  ├── verify-greengj-registration.ts
   ├── verify-gwdmall-registration.ts
+  ├── verify-gwpc-registration.ts
+  ├── verify-haegaram-registration.ts
+  ├── verify-hampyeong-registration.ts
+  ├── verify-hoengseong-registration.ts
+  ├── verify-hongcheon-registration.ts
+  ├── verify-hwasunfarm-registration.ts
+  ├── verify-iksan-registration.ts
   ├── verify-individual-products-all-malls.ts
+  ├── verify-inje-registration.ts
+  ├── verify-jangsu-registration.ts
+  ├── verify-jcmall-registration.ts
   ├── verify-jejumall-removal.ts
+  ├── verify-jeongseon-registration.ts
+  ├── verify-jindoarirang-registration.ts
+  ├── verify-jnmall-registration.ts
   ├── verify-kkimchi-food-registration.ts
   ├── verify-kkimchi-registration.ts
+  ├── verify-mgmall-registration.ts
+  ├── verify-najumall-registration.ts
+  ├── verify-nongsarang-registration.ts
+  ├── verify-okjmall-registration.ts
+  ├── verify-onsim-registration.ts
   ├── verify-ontongdaejeon-food-registration.ts
   ├── verify-ontongdaejeon-registration.ts
   ├── verify-osansemall-registration.ts
   ├── verify-samcheok-registration.ts
+  ├── verify-sclocal-registration.ts
+  ├── verify-seosanttre-registration.ts
+  ├── verify-shinan1004-registration.ts
+  ├── verify-sjmall-registration.ts
+  ├── verify-taebaek-registration.ts
+  ├── verify-ulmall-registration.ts
+  ├── verify-wandofood-registration.ts
   ├── verify-wemall-food-products.ts
   ├── verify-wemall-food-registration.ts
   ├── verify-wemall-individual-products.ts
@@ -632,6 +1309,13 @@ scripts/
   ├── verify-wonju-registration.ts
   ├── verify-yanggu-registration.ts
   ├── verify-yangju-registration.ts
+  ├── verify-yangyang-registration.ts
+  ├── verify-ycjang-registration.ts
+  ├── verify-yeongam-registration.ts
+  ├── verify-yeongwol-registration.ts
+  ├── verify-yeosumall-registration.ts
+  ├── verify-yeosumall-status.ts
+  ├── verify-yjmarket-registration.ts
 src/
   ├── app/
   │   ├── about/
@@ -683,6 +1367,41 @@ src/
   │   ├── category-mapping.json
   │   ├── malls.json
   │   ├── products-backup-1750328004702.json
+  │   ├── products-backup-1750568863072.json
+  │   ├── products-backup-1750570197131.json
+  │   ├── products-backup-1750572300975.json
+  │   ├── products-backup-1750574795060.json
+  │   ├── products-backup-1750575412352.json
+  │   ├── products-backup-1750588183121.json
+  │   ├── products-backup-1750592898092.json
+  │   ├── products-backup-1750592931358.json
+  │   ├── products-backup-1750594992322.json
+  │   ├── products-backup-1750596621903.json
+  │   ├── products-backup-1750661161158.json
+  │   ├── products-backup-1750671690959.json
+  │   ├── products-backup-1750678187895.json
+  │   ├── products-backup-1750681078365.json
+  │   ├── products-backup-1750683931765.json
+  │   ├── products-backup-1750685816271.json
+  │   ├── products-backup-1750688260481.json
+  │   ├── products-backup-1750688848924.json
+  │   ├── products-backup-1750689870280.json
+  │   ├── products-backup-1750694610785.json
+  │   ├── products-backup-1750734292049.json
+  │   ├── products-backup-1750747721811.json
+  │   ├── products-backup-1750748824102.json
+  │   ├── products-backup-1750749802755.json
+  │   ├── products-backup-1750753552495.json
+  │   ├── products-backup-1750755847687.json
+  │   ├── products-backup-1750757661925.json
+  │   ├── products-backup-1750760294270.json
+  │   ├── products-backup-1750762878316.json
+  │   ├── products-backup-1750762893303.json
+  │   ├── products-backup-1750764569119.json
+  │   ├── products-backup-1750766787460.json
+  │   ├── products-backup-1750769094310.json
+  │   ├── products-backup-1750769635860.json
+  │   ├── products-backup-1750783806494.json
   │   ├── products-sample.json
   │   ├── products.json
   │   ├── regions.json
@@ -753,7 +1472,7 @@ Total: **99 shopping malls** across 17 regions
 }
 ```
 
-Total: **834 products** with real data for featured malls
+Total: **4211 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -1013,15 +1732,15 @@ npm run lint     # Run ESLint
 
 ---
 
-Last Updated: 2025-06-22
+Last Updated: 2025-06-25
 Version: 1.0.0
 Git Branch: product-enrolling
-Last Commit: 2937825 feat: rename malls route to scrapermalls for better clarity
+Last Commit: 394e016 docs: update scraper command template with new route
 
 ### Project Statistics
-- Total Files: 622
+- Total Files: 1341
 - Total Directories: 37
 - Shopping Malls: 99
-- Products: 834
+- Products: 4211
 - Regions: 17
 - Categories: 10

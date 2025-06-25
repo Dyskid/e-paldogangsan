@@ -1,0 +1,72 @@
+{
+  "url": "https://yeongwol-mall.com/",
+  "title": "영월몰",
+  "categories": [
+    {
+      "name": "aside menu",
+      "url": "https://yeongwol-mall.com#category"
+    },
+    {
+      "name": "최근 검색어",
+      "url": "https://yeongwol-mall.com#recent-searched-list"
+    },
+    {
+      "name": "최근본 상품",
+      "url": "https://yeongwol-mall.com#recent-item-list"
+    },
+    {
+      "name": "축산물",
+      "url": "https://yeongwol-mall.com/goods/catalog?code=0030"
+    },
+    {
+      "name": "과일/견과",
+      "url": "https://yeongwol-mall.com/goods/catalog?code=0017"
+    },
+    {
+      "name": "과일류",
+      "url": "https://yeongwol-mall.com/goods/catalog?code=00170009"
+    },
+    {
+      "name": "견과류",
+      "url": "https://yeongwol-mall.com/goods/catalog?code=00170008"
+    },
+    {
+      "name": "즙/분말/잼류",
+      "url": "https://yeongwol-mall.com/goods/catalog?code=00170005"
+    },
+    {
+      "name": "채소/나물",
+      "url": "https://yeongwol-mall.com/goods/catalog?code=0021"
+    },
+    {
+      "name": "절임배추",
+      "url": "https://yeongwol-mall.com/goods/catalog?code=00210001"
+    },
+    {
+      "name": "감자",
+      "url": "https://yeongwol-mall.com/goods/catalog?code=00210002"
+    },
+    {
+      "name": "옥수수",
+      "url": "https://yeongwol-mall.com/goods/catalog?code=00210004"
+    },
+    {
+      "name": "토마토",
+      "url": "https://yeongwol-mall.com/goods/catalog?code=00210005"
+    },
+    {
+      "name": "건나물/냉동나물",
+      "url": "https://yeongwol-mall.com/goods/catalog?code=00210003"
+    },
+    {
+      "name": "장/소금/기름/양념",
+      "url": "https://yeongwol-mall.com/goods/catalog?code=0005"
+    }
+  ],
+  "sampleProducts": [],
+  "productSelectors": {},
+  "notes": [
+    "Used general link analysis for product/category detection"
+  ],
+  "status": "completed"
+}

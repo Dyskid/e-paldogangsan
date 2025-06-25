@@ -1,0 +1,112 @@
+{
+  "timestamp": "2025-06-22T14:19:28.633Z",
+  "mall": "단풍미인",
+  "totalProducts": 108,
+  "successCount": 108,
+  "errorCount": 0,
+  "errors": [],
+  "sampleProducts": [
+    {
+      "id": "2023%eb%85%84-%eb%88%84%eb%a3%bd%ec%a7%80%ed%96%a5-%ec%b0%b9%ec%8c%80%ed%98%84%eb%af%b8-%ec%84%a4%ed%96%a5%ec%b0%b0-%ec%b0%b0%ed%98%84%eb%af%b8-%ed%96%a5%eb%af%b8%ec%b0%b9%ec%8c%80-%ec%b0%b0",
+      "title": "[2024년 누룽지향 찹쌀현미] 설향찰 찰현미 향미찹쌀 찰진찹쌀현미1kg,3kg",
+      "image": "https://www.danpoongmall.kr/wp-content/themes/danp/images/prod_loading.gif",
+      "price": "13900",
+      "description": "[2024년 누룽지향 찹쌀현미] 설향찰 찰현미 향미찹쌀 찰진찹쌀현미1kg,3kg",
+      "category": "쌀/잡곡",
+      "mall": "단풍미인",
+      "url": "https://www.danpoongmall.kr/product/2023%eb%85%84-%eb%88%84%eb%a3%bd%ec%a7%80%ed%96%a5-%ec%b0%b9%ec%8c%80%ed%98%84%eb%af%b8-%ec%84%a4%ed%96%a5%ec%b0%b0-%ec%b0%b0%ed%98%84%eb%af%b8-%ed%96%a5%eb%af%b8%ec%b0%b9%ec%8c%80-%ec%b0%b0/",
+      "region": "전라북도 정읍시",
+      "tags": [
+        "정읍시",
+        "전라북도",
+        "단풍미인",
+        "농산물",
+        "쌀",
+        "잡곡",
+        "곡물"
+      ]
+    },
+    {
+      "id": "2023%eb%85%84-%eb%88%84%eb%a3%bd%ec%a7%80%ed%96%a5%ec%8c%80-%ec%8b%ad%eb%a6%ac%ed%96%a5-%ed%96%a5%eb%af%b8-%eb%88%84%eb%a3%bd%ec%a7%80%ec%8c%80-%eb%b0%b1%eb%af%b8-7%eb%b6%84%eb%8f%84%eb%af%b8",
+      "title": "[2024년 누룽지향쌀] 십리향 향미 누룽지쌀 백미 / 7분도미(쌀눈쌀) / 현미",
+      "image": "https://www.danpoongmall.kr/wp-content/themes/danp/images/prod_loading.gif",
+      "price": "10000",
+      "description": "[2024년 누룽지향쌀] 십리향 향미 누룽지쌀 백미 / 7분도미(쌀눈쌀) / 현미",
+      "category": "쌀/잡곡",
+      "mall": "단풍미인",
+      "url": "https://www.danpoongmall.kr/product/2023%eb%85%84-%eb%88%84%eb%a3%bd%ec%a7%80%ed%96%a5%ec%8c%80-%ec%8b%ad%eb%a6%ac%ed%96%a5-%ed%96%a5%eb%af%b8-%eb%88%84%eb%a3%bd%ec%a7%80%ec%8c%80-%eb%b0%b1%eb%af%b8-7%eb%b6%84%eb%8f%84%eb%af%b8/",
+      "region": "전라북도 정읍시",
+      "tags": [
+        "정읍시",
+        "전라북도",
+        "단풍미인",
+        "농산물",
+        "쌀",
+        "잡곡",
+        "곡물"
+      ]
+    },
+    {
+      "id": "7%ec%a2%85%ed%98%bc%ed%95%a9%ea%b3%a1-%eb%a7%9b%ec%9e%88%eb%8a%94%ec%8c%80-%ea%b8%b0%eb%8a%a5%ec%84%b1-7%ea%b0%80%ec%a7%80%ea%b3%a1%ec%8b%9d%ec%9d%b4-%eb%a7%9b%ec%9e%88%ea%b2%8c-%ec%96%b4%ec%9a%b0",
+      "title": "[7종혼합곡] 맛있는쌀 기능성 7가지곡식이 맛있게 어우러진 혼합곡식 잡곡1kg/3kg",
+      "image": "https://www.danpoongmall.kr/wp-content/themes/danp/images/prod_loading.gif",
+      "price": "15900",
+      "description": "[7종혼합곡] 맛있는쌀 기능성 7가지곡식이 맛있게 어우러진 혼합곡식 잡곡1kg/3kg",
+      "category": "쌀/잡곡",
+      "mall": "단풍미인",
+      "url": "https://www.danpoongmall.kr/product/7%ec%a2%85%ed%98%bc%ed%95%a9%ea%b3%a1-%eb%a7%9b%ec%9e%88%eb%8a%94%ec%8c%80-%ea%b8%b0%eb%8a%a5%ec%84%b1-7%ea%b0%80%ec%a7%80%ea%b3%a1%ec%8b%9d%ec%9d%b4-%eb%a7%9b%ec%9e%88%ea%b2%8c-%ec%96%b4%ec%9a%b0/",
+      "region": "전라북도 정읍시",
+      "tags": [
+        "정읍시",
+        "전라북도",
+        "단풍미인",
+        "농산물",
+        "쌀",
+        "잡곡",
+        "곡물"
+      ]
+    },
+    {
+      "id": "%ea%b7%80%eb%a6%ac%eb%b3%b6%ec%9d%8c-%ec%8b%9c%eb%a6%ac%ec%96%bc%eb%8c%80%ec%9a%a9-%ec%a3%bc%ec%a0%84%eb%b6%80%eb%a6%ac%ea%b0%84%ec%8b%9d-%ec%9d%8c%ec%9a%a9%ec%b0%a8%eb%8c%80%ec%9a%a9-%eb%b3%b6",
+      "title": "[귀리볶음] 시리얼대용 주전부리간식 음용차대용 볶은차 귀리차 50g×10봉지 1세트",
+      "image": "https://www.danpoongmall.kr/wp-content/themes/danp/images/prod_loading.gif",
+      "price": "50000",
+      "originalPrice": "50000",
+      "description": "[귀리볶음] 시리얼대용 주전부리간식 음용차대용 볶은차 귀리차 50g×10봉지 1세트",
+      "category": "쌀/잡곡",
+      "mall": "단풍미인",
+      "url": "https://www.danpoongmall.kr/product/%ea%b7%80%eb%a6%ac%eb%b3%b6%ec%9d%8c-%ec%8b%9c%eb%a6%ac%ec%96%bc%eb%8c%80%ec%9a%a9-%ec%a3%bc%ec%a0%84%eb%b6%80%eb%a6%ac%ea%b0%84%ec%8b%9d-%ec%9d%8c%ec%9a%a9%ec%b0%a8%eb%8c%80%ec%9a%a9-%eb%b3%b6/",
+      "region": "전라북도 정읍시",
+      "tags": [
+        "정읍시",
+        "전라북도",
+        "단풍미인",
+        "농산물",
+        "쌀",
+        "잡곡",
+        "곡물"
+      ]
+    },
+    {
+      "id": "%ea%b7%80%eb%a6%ac%ed%98%bc%ed%95%a9%ea%b3%a19%ec%a2%85%eb%a7%9b%ec%9e%88%eb%8a%94%ec%8c%80-9%ea%b0%80%ec%a7%80-%ea%b3%a1%ec%8b%9d%ec%9d%84-%ec%84%9e%ec%96%b4-%eb%86%93%ec%9d%80-%ed%98%bc%ed%95%a9",
+      "title": "[귀리혼합곡(9종)]맛있는쌀 9가지 곡식을 섞어 놓은 혼합곡식 잡곡1kg",
+      "image": "https://www.danpoongmall.kr/wp-content/themes/danp/images/prod_loading.gif",
+      "price": "25000",
+      "originalPrice": "25000",
+      "description": "[귀리혼합곡(9종)]맛있는쌀 9가지 곡식을 섞어 놓은 혼합곡식 잡곡1kg",
+      "category": "쌀/잡곡",
+      "mall": "단풍미인",
+      "url": "https://www.danpoongmall.kr/product/%ea%b7%80%eb%a6%ac%ed%98%bc%ed%95%a9%ea%b3%a19%ec%a2%85%eb%a7%9b%ec%9e%88%eb%8a%94%ec%8c%80-9%ea%b0%80%ec%a7%80-%ea%b3%a1%ec%8b%9d%ec%9d%84-%ec%84%9e%ec%96%b4-%eb%86%93%ec%9d%80-%ed%98%bc%ed%95%a9/",
+      "region": "전라북도 정읍시",
+      "tags": [
+        "정읍시",
+        "전라북도",
+        "단풍미인",
+        "농산물",
+        "쌀",
+        "잡곡",
+        "곡물"
+      ]
+    }
+  ]
+}

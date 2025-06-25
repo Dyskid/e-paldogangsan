@@ -1,0 +1,10 @@
+{
+  "mallId": "cgmall",
+  "mallName": "칠곡몰",
+  "timestamp": "2025-06-24T16:50:06.534Z",
+  "totalProductsBefore": 4181,
+  "productsAdded": 30,
+  "totalProductsAfter": 4211,
+  "productsRemoved": 0,
+  "backupFile": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/src/data/products-backup-1750783806494.json"
+}

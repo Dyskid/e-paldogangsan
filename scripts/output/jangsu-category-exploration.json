@@ -1,0 +1,83 @@
+[
+  {
+    "category": "사과",
+    "url": "https://www.장수몰.com/board/shop/list.php?ca_id=101010",
+    "productLinks": 0,
+    "hasProductKeywords": true,
+    "productImages": 0,
+    "title": "사과 상품목록 | 장수몰",
+    "sampleLinks": []
+  },
+  {
+    "category": "한우",
+    "url": "https://www.장수몰.com/board/shop/list.php?ca_id=102010",
+    "productLinks": 64,
+    "hasProductKeywords": true,
+    "productImages": 32,
+    "title": "한우 상품목록 | 장수몰",
+    "sampleLinks": [
+      "./item.php?it_id=1704679409",
+      "./item.php?it_id=1704679409",
+      "./item.php?it_id=1705303003",
+      "./item.php?it_id=1705303003",
+      "./item.php?it_id=1705299193"
+    ]
+  },
+  {
+    "category": "농산물",
+    "url": "https://www.장수몰.com/board/shop/list.php?ca_id=103010",
+    "productLinks": 2,
+    "hasProductKeywords": true,
+    "productImages": 1,
+    "title": "쌀/잡곡 상품목록 | 장수몰",
+    "sampleLinks": [
+      "./item.php?it_id=1440148468",
+      "./item.php?it_id=1440148468"
+    ]
+  },
+  {
+    "category": "과일",
+    "url": "https://www.장수몰.com/board/shop/list.php?ca_id=103020",
+    "productLinks": 30,
+    "hasProductKeywords": true,
+    "productImages": 15,
+    "title": "과일 상품목록 | 장수몰",
+    "sampleLinks": [
+      "./item.php?it_id=1560916798",
+      "./item.php?it_id=1560916798",
+      "./item.php?it_id=1732146967",
+      "./item.php?it_id=1732146967",
+      "./item.php?it_id=1749106686"
+    ]
+  },
+  {
+    "category": "채소/나물",
+    "url": "https://www.장수몰.com/board/shop/list.php?ca_id=103030",
+    "productLinks": 22,
+    "hasProductKeywords": true,
+    "productImages": 11,
+    "title": "채소/나물 상품목록 | 장수몰",
+    "sampleLinks": [
+      "./item.php?it_id=114",
+      "./item.php?it_id=114",
+      "./item.php?it_id=100",
+      "./item.php?it_id=100",
+      "./item.php?it_id=1709599357"
+    ]
+  },
+  {
+    "category": "전체상품",
+    "url": "https://www.장수몰.com/board/shop/list.php",
+    "productLinks": 120,
+    "hasProductKeywords": true,
+    "productImages": 60,
+    "title": "전체상품 상품목록 | 장수몰",
+    "sampleLinks": [
+      "./item.php?it_id=114",
+      "./item.php?it_id=114",
+      "./item.php?it_id=84",
+      "./item.php?it_id=84",
+      "./item.php?it_id=39"
+    ]
+  }
+]

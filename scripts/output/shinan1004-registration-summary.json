@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-06-23T14:17:40.506Z",
+  "mall": "신안1004몰",
+  "scraped": 50,
+  "new": 47,
+  "duplicates": 0,
+  "errors": 3,
+  "totalProducts": 2453,
+  "priceFixesApplied": 47,
+  "sampleProducts": [
+    {
+      "title": "(영진그린식품)신안 천일염 미담천일염 10kg",
+      "price": 310000,
+      "category": "소금"
+    },
+    {
+      "title": "(영진그린식품) 3년 숙성 갯벌 신안 천일염 10kg",
+      "price": 400000,
+      "category": "소금"
+    },
+    {
+      "title": "(홍도식품) 오늘 구운 재래곱창김(조미)30g x 10봉 / 1박스",
+      "price": 52000,
+      "category": "수산물"
+    },
+    {
+      "title": "(바른씨푸드) 신안 급냉 왕새우(1kg)",
+      "price": 21000,
+      "category": "신안특산품"
+    },
+    {
+      "title": "(섬마을수산) 신안 왕새우 (1kg)",
+      "price": 11000,
+      "category": "신안특산품"
+    }
+  ]
+}

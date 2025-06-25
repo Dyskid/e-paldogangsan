@@ -49,13 +49,13 @@ const scraperMapping: Record<string, string | null> = {
   mall_21: 'scrape-yanggu-comprehensive',
   
   // Remaining 강원도 malls - Not implemented
-  mall_22: null, // 양양몰
-  mall_23: null, // 영월몰
-  mall_24: null, // 인제몰
-  mall_25: null, // 철원몰
-  mall_26: null, // 정선몰
-  mall_27: null, // 태백몰
-  mall_28: null, // 횡성몰
+  mall_22: 'scrape-yangyang-final', // 양양몰 - Implemented
+  mall_23: 'scrape-yeongwol-comprehensive', // 영월몰 - Implemented
+  mall_24: 'scrape-inje-comprehensive', // 인제몰 - Implemented
+  mall_25: 'scrape-cheorwon-comprehensive', // 철원몰 - Implemented
+  mall_26: 'scrape-jeongseon-comprehensive', // 정선몰 - Implemented
+  mall_27: 'scrape-taebaek-comprehensive', // 태백몰 - Implemented
+  mall_28: 'scrape-hoengseong-comprehensive', // 횡성몰 - Implemented
   mall_29: null, // 춘천몰
   mall_30: null, // 홍천몰
   mall_31: null, // 평창몰

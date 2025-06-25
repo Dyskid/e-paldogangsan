@@ -1,0 +1,265 @@
+{
+  "timestamp": "2025-06-22T12:40:20.275Z",
+  "baseUrl": "https://dangjinfarm.com",
+  "structure": {
+    "title": "당진팜",
+    "navigationLinks": [
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=50",
+        "text": "해나루상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=44",
+        "text": "가공상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=46",
+        "text": "쌀/잡곡"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=48",
+        "text": "과일/채소"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=49",
+        "text": "농가별 상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=52",
+        "text": "베스트"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/price_list.html?cate_no=59",
+        "text": "금액별 상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=43",
+        "text": "축산/수산"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=45",
+        "text": "반찬/장류/간식"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=47",
+        "text": "건강식품/기타"
+      },
+      {
+        "href": "https://dangjinfarm.com/board/product/list.html?board_no=4",
+        "text": "상품후기"
+      },
+      {
+        "href": "https://dangjinfarm.com/board/gallery/list.html?board_no=8",
+        "text": "이벤트"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=42",
+        "text": "전체상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=50",
+        "text": "해나루상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=51",
+        "text": "신상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/board/gallery/list.html?board_no=8",
+        "text": "이벤트"
+      },
+      {
+        "href": "https://dangjinfarm.com/partner.html",
+        "text": "농가별 미니샵"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/price_list.html?cate_no=59",
+        "text": "금액별 상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/board/gallery/list.html?board_no=2",
+        "text": "뉴스/이벤트"
+      },
+      {
+        "href": "https://dangjinfarm.com/member/join.html",
+        "text": "회원가입"
+      }
+    ],
+    "productLinks": [
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=50",
+        "text": "해나루상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=44",
+        "text": "가공상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=46",
+        "text": "쌀/잡곡"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=48",
+        "text": "과일/채소"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=49",
+        "text": "농가별 상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=52",
+        "text": "베스트"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/price_list.html?cate_no=59",
+        "text": "금액별 상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=43",
+        "text": "축산/수산"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=45",
+        "text": "반찬/장류/간식"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=47",
+        "text": "건강식품/기타"
+      },
+      {
+        "href": "https://dangjinfarm.com/board/product/list.html?board_no=4",
+        "text": "상품후기"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=42",
+        "text": "전체상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=50",
+        "text": "해나루상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=51",
+        "text": "신상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/price_list.html?cate_no=59",
+        "text": "금액별 상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=50",
+        "text": "해나루상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=44",
+        "text": "가공식품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=46",
+        "text": "쌀/잡곡"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=48",
+        "text": "과일/채소"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=43",
+        "text": "축산/수산"
+      }
+    ],
+    "listingLinks": [
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=50",
+        "text": "해나루상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=44",
+        "text": "가공상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=46",
+        "text": "쌀/잡곡"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=48",
+        "text": "과일/채소"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=49",
+        "text": "농가별 상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=52",
+        "text": "베스트"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/price_list.html?cate_no=59",
+        "text": "금액별 상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=43",
+        "text": "축산/수산"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=45",
+        "text": "반찬/장류/간식"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=47",
+        "text": "건강식품/기타"
+      },
+      {
+        "href": "https://dangjinfarm.com/board/product/list.html?board_no=4",
+        "text": "상품후기"
+      },
+      {
+        "href": "https://dangjinfarm.com/board/gallery/list.html?board_no=8",
+        "text": "이벤트"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=42",
+        "text": "전체상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=50",
+        "text": "해나루상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=51",
+        "text": "신상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/board/gallery/list.html?board_no=8",
+        "text": "이벤트"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/price_list.html?cate_no=59",
+        "text": "금액별 상품"
+      },
+      {
+        "href": "https://dangjinfarm.com/board/gallery/list.html?board_no=2",
+        "text": "뉴스/이벤트"
+      },
+      {
+        "href": "https://dangjinfarm.com/myshop/order/list.html",
+        "text": "주문조회"
+      },
+      {
+        "href": "https://dangjinfarm.com/product/list.html?cate_no=50",
+        "text": "해나루상품"
+      }
+    ],
+    "validShopUrls": [],
+    "totalLinks": 169
+  },
+  "technicalInfo": {
+    "hasJavaScript": true,
+    "hasAjax": true,
+    "framework": "Traditional",
+    "charset": "text/html; charset=utf-8"
+  },
+  "recommendations": [
+    "Found 145 potential product links on homepage",
+    "Found 23 navigation links to explore"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "totalUrls": 37,
+  "successfulScrapes": 37,
+  "failedScrapes": 0,
+  "productsWithPrices": 37,
+  "categories": [
+    "농특산물"
+  ],
+  "scrapingErrors": [],
+  "timestamp": "2025-06-22T06:04:03.997Z",
+  "sampleProducts": [
+    {
+      "name": "정선사위 백년가게 강옥연 수제 유자오란다380g 부드럽고 촉촉한과자",
+      "price": "11730원",
+      "url": "https://jeongseon-mall.com/goods/view?no=37485"
+    },
+    {
+      "name": "강원 정선 명이나물김 서림농원 전장김 봉지김",
+      "price": "3000원",
+      "url": "https://jeongseon-mall.com/goods/view?no=100069"
+    },
+    {
+      "name": "약콩된장 300g + 약콩고추장 300g",
+      "price": "26000원",
+      "url": "https://jeongseon-mall.com/goods/view?no=26479"
+    }
+  ]
+}

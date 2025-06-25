@@ -1,0 +1,93 @@
+{
+  "verificationDate": "2025-06-23T11:30:31.993Z",
+  "mall": "보성몰",
+  "region": "전남",
+  "totalProducts": 19,
+  "validProducts": 19,
+  "invalidProducts": 0,
+  "issues": [],
+  "categories": {
+    "채소": 8,
+    "가공식품": 3,
+    "곡물": 4,
+    "농산물": 4
+  },
+  "priceRange": {
+    "min": 6000,
+    "max": 51000
+  },
+  "sampleProducts": [
+    {
+      "title": "[회천햇살농장] 보성햇감자 10kg /20kg",
+      "price": "10,000원",
+      "category": "채소",
+      "url": "https://boseongmall.co.kr/product/%ED%9A%8C%EC%B2%9C%ED%96%87%EC%82%B4%EB%86%8D%EC%9E%A5-%EB%B3%B4%EC%84%B1%ED%96%87%EA%B0%90%EC%9E%90-10kg-20kg/2612/category/1/display/13/",
+      "valid": true
+    },
+    {
+      "title": "[일급수 버섯농장] 무농약 참송이버섯 500g",
+      "price": "9,900원",
+      "category": "채소",
+      "url": "https://boseongmall.co.kr/product/%EC%9D%BC%EA%B8%89%EC%88%98-%EB%B2%84%EC%84%AF%EB%86%8D%EC%9E%A5-%EB%AC%B4%EB%86%8D%EC%95%BD-%EC%B0%B8%EC%86%A1%EC%9D%B4%EB%B2%84%EC%84%AF-500g/2438/category/1/display/13/",
+      "valid": true
+    },
+    {
+      "title": "[보성농장] 수미감자 5kg (특, 대, 중)",
+      "price": "8,000원",
+      "category": "채소",
+      "url": "https://boseongmall.co.kr/product/%EB%B3%B4%EC%84%B1%EB%86%8D%EC%9E%A5-%EC%88%98%EB%AF%B8%EA%B0%90%EC%9E%90-5kg-%ED%8A%B9-%EB%8C%80-%EC%A4%91/2312/category/1/display/13/",
+      "valid": true
+    },
+    {
+      "title": "[고향농장] 보성회천 수미감자 10kg (특,대,중)",
+      "price": "13,000원",
+      "category": "채소",
+      "url": "https://boseongmall.co.kr/product/%EA%B3%A0%ED%96%A5%EB%86%8D%EC%9E%A5-%EB%B3%B4%EC%84%B1%ED%9A%8C%EC%B2%9C-%EC%88%98%EB%AF%B8%EA%B0%90%EC%9E%90-10kg-%ED%8A%B9%EB%8C%80%EC%A4%91/1575/category/1/display/13/",
+      "valid": true
+    },
+    {
+      "title": "[고향농장] 보성회천 수미감자 5kg(특, 대, 중)",
+      "price": "7,000원",
+      "category": "채소",
+      "url": "https://boseongmall.co.kr/product/%EA%B3%A0%ED%96%A5%EB%86%8D%EC%9E%A5-%EB%B3%B4%EC%84%B1%ED%9A%8C%EC%B2%9C-%EC%88%98%EB%AF%B8%EA%B0%90%EC%9E%90-5kg%ED%8A%B9-%EB%8C%80-%EC%A4%91/1122/category/1/display/13/",
+      "valid": true
+    },
+    {
+      "title": "[보림제다] 차다와 유기농 잎차/티백(세작,중작,발효차,홍차)",
+      "price": "12,000원",
+      "category": "가공식품",
+      "url": "https://boseongmall.co.kr/product/%EB%B3%B4%EB%A6%BC%EC%A0%9C%EB%8B%A4-%EC%B0%A8%EB%8B%A4%EC%99%80-%EC%9C%A0%EA%B8%B0%EB%86%8D-%EC%9E%8E%EC%B0%A8%ED%8B%B0%EB%B0%B1%EC%84%B8%EC%9E%91%EC%A4%91%EC%9E%91%EB%B0%9C%ED%9A%A8%EC%B0%A8%ED%99%8D%EC%B0%A8/2607/category/1/display/13/",
+      "valid": true
+    },
+    {
+      "title": "[보성농장] 수미감자 10kg (특, 대, 중)",
+      "price": "15,000원",
+      "category": "채소",
+      "url": "https://boseongmall.co.kr/product/%EB%B3%B4%EC%84%B1%EB%86%8D%EC%9E%A5-%EC%88%98%EB%AF%B8%EA%B0%90%EC%9E%90-10kg-%ED%8A%B9-%EB%8C%80-%EC%A4%91/2311/category/1/display/14/",
+      "valid": true
+    },
+    {
+      "title": "[보성농협 녹차잡곡사업소] 보성 수 녹차캔 1box (175ml x 30개입)",
+      "price": "9,000원",
+      "category": "곡물",
+      "url": "https://boseongmall.co.kr/product/%EB%B3%B4%EC%84%B1%EB%86%8D%ED%98%91-%EB%85%B9%EC%B0%A8%EC%9E%A1%EA%B3%A1%EC%82%AC%EC%97%85%EC%86%8C-%EB%B3%B4%EC%84%B1-%EC%88%98-%EB%85%B9%EC%B0%A8%EC%BA%94-1box-175ml-x-30%EA%B0%9C%EC%9E%85/2353/category/1/display/14/",
+      "valid": true
+    },
+    {
+      "title": "[보성쌀조합] 2024년 녹차의향기10kg",
+      "price": "31,000원",
+      "category": "곡물",
+      "url": "https://boseongmall.co.kr/product/%EB%B3%B4%EC%84%B1%EC%8C%80%EC%A1%B0%ED%95%A9-2024%EB%85%84-%EB%85%B9%EC%B0%A8%EC%9D%98%ED%96%A5%EA%B8%B010kg/1641/category/1/display/14/",
+      "valid": true
+    },
+    {
+      "title": "[한마음 토마토 연구회] 게르마늄 흑토마토 2kg",
+      "price": "6,000원",
+      "category": "농산물",
+      "url": "https://boseongmall.co.kr/product/%ED%95%9C%EB%A7%88%EC%9D%8C-%ED%86%A0%EB%A7%88%ED%86%A0-%EC%97%B0%EA%B5%AC%ED%9A%8C-%EA%B2%8C%EB%A5%B4%EB%A7%88%EB%8A%84-%ED%9D%91%ED%86%A0%EB%A7%88%ED%86%A0-2kg/2276/category/1/display/14/",
+      "valid": true
+    }
+  ],
+  "successRate": "100.00",
+  "averagePrice": 28500
+}

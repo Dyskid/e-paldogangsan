@@ -1,0 +1,40 @@
+{
+  "url": "https://inje-mall.com/",
+  "title": "인제몰",
+  "categories": [
+    {
+      "name": "033-749-3320",
+      "url": "https://inje-mall.comtel:033-749-3320"
+    },
+    {
+      "name": "NOTICE",
+      "url": "https://inje-mall.com/board/?id=notice"
+    },
+    {
+      "name": "Q&A",
+      "url": "https://inje-mall.com/board/?id=goods_qna"
+    },
+    {
+      "name": "REVIEW",
+      "url": "https://inje-mall.com/board/?id=goods_review"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/injemol/"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/injemall/"
+    },
+    {
+      "name": "Blog",
+      "url": "https://blog.naver.com/gwdfood"
+    }
+  ],
+  "sampleProducts": [],
+  "productSelectors": {},
+  "notes": [
+    "Found navigation links using selector: .menu a"
+  ],
+  "status": "completed"
+}

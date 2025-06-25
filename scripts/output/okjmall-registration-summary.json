@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-06-23T14:27:28.949Z",
+  "mall": "장흥몰",
+  "scraped": 35,
+  "new": 34,
+  "duplicates": 0,
+  "errors": 1,
+  "totalProducts": 2487,
+  "sampleProducts": [
+    {
+      "title": "[남도드림] 탐마루 암소한우 업진살 300g",
+      "price": 39000,
+      "category": "한우"
+    },
+    {
+      "title": "[남도드림] HACCP 장흥축협 한돈육포 40g",
+      "price": 3400,
+      "category": "장흥특산품"
+    },
+    {
+      "title": "정남진장흥농협 아르미 쌀 10kg",
+      "price": 36400,
+      "category": "곡물"
+    },
+    {
+      "title": "[남도드림] 향긋한 참송이버섯 (파지, 가정용, 중상품, 특품)",
+      "price": 16000,
+      "category": "버섯"
+    },
+    {
+      "title": "[남도드림] 참나무 배지 생표고버섯 1kg",
+      "price": 17500,
+      "category": "버섯"
+    }
+  ]
+}

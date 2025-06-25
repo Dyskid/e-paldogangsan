@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-06-22T12:22:24.440Z",
+  "mall": "농사랑",
+  "baseUrl": "https://nongsarang.co.kr",
+  "totalUrlsTested": 50,
+  "successfullyScraped": 47,
+  "errors": 3,
+  "validProducts": 47,
+  "categories": [
+    "과일류",
+    "채소류",
+    "가공식품",
+    "기타",
+    "축산물",
+    "양념/장류"
+  ],
+  "priceRange": {
+    "min": 3200,
+    "max": 99800,
+    "average": 25191
+  },
+  "sampleProducts": [
+    {
+      "title": "(농업회사법인(유)다우한우)한우 암소 1등급 부채살 300g (냉장)",
+      "price": "30,500원",
+      "category": "과일류"
+    },
+    {
+      "title": "(한아름딸기협동조합)저탄소인증 한아름 대추방울토마토 3kg",
+      "price": "21,000원",
+      "category": "채소류"
+    },
+    {
+      "title": "[사자산영농조합법인]고당도 하우스 맛있는 꿀수박 4kg-9kg",
+      "price": "17,800원",
+      "category": "채소류"
+    },
+    {
+      "title": "[향지촌]인삼홍삼와송 발효식초 세트180ml*3",
+      "price": "99,800원",
+      "category": "가공식품"
+    },
+    {
+      "title": "(천안시농협조합공동사업법인)  백다다기 오이 4kg(20개)",
+      "price": "14,800원",
+      "category": "채소류"
+    }
+  ]
+}

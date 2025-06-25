@@ -1,0 +1,39 @@
+{
+  "timestamp": 1750753552495,
+  "mall": "상주몰",
+  "mallId": "sjmall",
+  "totalScraped": 50,
+  "validProducts": 50,
+  "registered": 50,
+  "previousTotal": 3824,
+  "newTotal": 3874,
+  "backup": "./src/data/products-backup-1750753552495.json",
+  "categoryCounts": {
+    "축산물": 5,
+    "채소": 2,
+    "상주특산물": 20,
+    "농산물": 7,
+    "곶감": 14,
+    "쌀/곡류": 2
+  },
+  "sampleRegistered": [
+    {
+      "id": "sjmall-1640912199",
+      "title": "한우 | 명실상주몰",
+      "price": "7,000원",
+      "category": "축산물"
+    },
+    {
+      "id": "sjmall-1640912429",
+      "title": "한우 | 명실상주몰",
+      "price": "11,000원",
+      "category": "축산물"
+    },
+    {
+      "id": "sjmall-1570786531",
+      "title": "고구마/감자 | 명실상주몰",
+      "price": "9,900원",
+      "category": "채소"
+    }
+  ]
+}

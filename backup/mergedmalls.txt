@@ -56,10 +56,10 @@
 강릉몰: https://gangneung-mall.com/
 고성몰: https://gwgoseong-mall.com/ 
 동해몰: https://donghae-mall.com/
-삼척몰: https://samcheok-mall.com/ @여까함
+삼척몰: https://samcheok-mall.com/ 
 양구몰: https://yanggu-mall.com/
 양양몰: https://yangyang-mall.com/
-영월몰: https://yeongwol-mall.com/
+영월몰: https://yeongwol-mall.com/  
 인제몰: https://inje-mall.com/
 철원몰: https://cheorwon-mall.com/
 정선몰: https://jeongseon-mall.com/
@@ -68,6 +68,7 @@
 춘천몰: https://gwch-mall.com/
 홍천몰: https://hongcheon-mall.com/
 평창몰: https://gwpc-mall.com/
+
 
 충청북도
 
@@ -102,9 +103,9 @@ e홍성장터: https://ehongseong.com/
 남도장터: https://jnmall.kr/
 여수몰: http://www.yeosumall.co.kr/
 @@해피굿팜: https://smartstore.naver.com/hgoodfarm
-보성몰: https://boseongmall.co.kr/
+보성몰: https://boseongmall.co.kr
 나주몰: https://najumall.kr/
-순천로컬푸드함께가게: https://sclocal.kr/
+순천로컬푸드함께가게: https://sclocal.kr// 
 신안1004몰: https://shinan1004mall.kr/
 장흥몰 (산들해랑장흥몰): https://okjmall.com/
 기찬들영암몰: https://yeongammall.co.kr/
@@ -128,11 +129,10 @@ e홍성장터: https://ehongseong.com/
 영양온심마켓: https://onsim.cyso.co.kr/
 울릉도: https://ulmall.cyso.co.kr
 봉화장터: https://bmall.cyso.co.kr/
-고령몰: https://grmall.cyso.co.kr/
 @@김천노다지장터: https://www.gcnodaji.com/
 예천장터: https://ycjang.cyso.co.kr/
 문경 새제의아침: https://mgmall.cyso.co.kr/
-칠곡몰: https://cgmall.cyso.co.kr/
+칠곡몰: https://cgmall.cyso.co.kr/@여까함
 의성장날: https://esmall.cyso.co.kr/
 울진몰: https://ujmall.cyso.co.kr/
 영덕장터: https://ydmall.cyso.co.kr/

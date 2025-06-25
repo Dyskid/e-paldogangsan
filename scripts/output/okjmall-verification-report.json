@@ -1,0 +1,93 @@
+{
+  "timestamp": "2025-06-23T14:28:14.880Z",
+  "mall": "장흥몰",
+  "totalProducts": 34,
+  "validProducts": 34,
+  "invalidProducts": 0,
+  "issues": [],
+  "categoryDistribution": {
+    "한우": 7,
+    "장흥특산품": 17,
+    "곡물": 2,
+    "버섯": 4,
+    "농산물": 4
+  },
+  "priceRanges": {
+    "Under 10,000": 1,
+    "10,000-50,000": 9,
+    "Over 50,000": 24
+  },
+  "sampleProducts": [
+    {
+      "title": "[남도드림] 탐마루 암소한우 업진살 300g",
+      "price": 39000,
+      "category": "한우",
+      "url": "https://okjmall.com/../goods/goods_view.php?goodsNo=1000000547&mtn=%5E%7C%5E%5E%7C%5E"
+    },
+    {
+      "title": "[남도드림] HACCP 장흥축협 한돈육포 40g",
+      "price": 3400,
+      "category": "장흥특산품",
+      "url": "https://okjmall.com/../goods/goods_view.php?goodsNo=1000002079&mtn=%5E%7C%5E%5E%7C%5E"
+    },
+    {
+      "title": "정남진장흥농협 아르미 쌀 10kg",
+      "price": 36400,
+      "category": "곡물",
+      "url": "https://okjmall.com/../goods/goods_view.php?goodsNo=1000002076&mtn=%5E%7C%5E%5E%7C%5E"
+    },
+    {
+      "title": "[남도드림] 향긋한 참송이버섯 (파지, 가정용, 중상품, 특품)",
+      "price": 16000,
+      "category": "버섯",
+      "url": "https://okjmall.com/../goods/goods_view.php?goodsNo=1000002078&mtn=%5E%7C%5E%5E%7C%5E"
+    },
+    {
+      "title": "[남도드림] 참나무 배지 생표고버섯 1kg",
+      "price": 17500,
+      "category": "버섯",
+      "url": "https://okjmall.com/../goods/goods_view.php?goodsNo=1000002046&mtn=%5E%7C%5E%5E%7C%5E"
+    }
+  ],
+  "registrationSummary": {
+    "timestamp": "2025-06-23T14:27:28.949Z",
+    "mall": "장흥몰",
+    "scraped": 35,
+    "new": 34,
+    "duplicates": 0,
+    "errors": 1,
+    "totalProducts": 2487,
+    "sampleProducts": [
+      {
+        "title": "[남도드림] 탐마루 암소한우 업진살 300g",
+        "price": 39000,
+        "category": "한우"
+      },
+      {
+        "title": "[남도드림] HACCP 장흥축협 한돈육포 40g",
+        "price": 3400,
+        "category": "장흥특산품"
+      },
+      {
+        "title": "정남진장흥농협 아르미 쌀 10kg",
+        "price": 36400,
+        "category": "곡물"
+      },
+      {
+        "title": "[남도드림] 향긋한 참송이버섯 (파지, 가정용, 중상품, 특품)",
+        "price": 16000,
+        "category": "버섯"
+      },
+      {
+        "title": "[남도드림] 참나무 배지 생표고버섯 1kg",
+        "price": 17500,
+        "category": "버섯"
+      }
+    ]
+  },
+  "notes": [
+    "장흥은 한우, 표고버섯, 홍차로 유명한 지역",
+    "Godo Mall 플랫폼 사용",
+    "정남진 장흥몰로 운영"
+  ]
+}

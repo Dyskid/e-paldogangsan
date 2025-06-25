@@ -1,0 +1,40 @@
+{
+  "timestamp": 1750757661925,
+  "mall": "영주장날",
+  "mallId": "yjmarket",
+  "totalScraped": 50,
+  "validProducts": 50,
+  "registered": 50,
+  "previousTotal": 3924,
+  "newTotal": 3974,
+  "backup": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/src/data/products-backup-1750757661925.json",
+  "categoryCounts": {
+    "영주특산물": 13,
+    "쌀/잡곡": 3,
+    "축산물": 13,
+    "채소류": 2,
+    "과일류": 14,
+    "꿀/홍삼": 4,
+    "김치/장류": 1
+  },
+  "sampleRegistered": [
+    {
+      "id": "yjmarket-1705221706",
+      "title": "♠간편식 할인♠ [소백왕감자탕]  뼈해장국 1인분900g",
+      "price": "10,000원",
+      "category": "영주특산물"
+    },
+    {
+      "id": "yjmarket-1611277195",
+      "title": "[영주농협.안전포장.당일도정.단일품종]24년 귀품윤기 영주일품쌀 20kg",
+      "price": "56,500원",
+      "category": "쌀/잡곡"
+    },
+    {
+      "id": "yjmarket-1584201031",
+      "title": "♠간편식 할인♠ 영주 선비곰탕 400g",
+      "price": "2,500원",
+      "category": "영주특산물"
+    }
+  ]
+}

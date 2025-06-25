@@ -1,0 +1,98 @@
+{
+  "timestamp": "2025-06-23T14:45:24.440Z",
+  "mall": "영암몰",
+  "totalProducts": 49,
+  "validProducts": 49,
+  "invalidProducts": 0,
+  "issues": [],
+  "categoryDistribution": {
+    "곡물": 10,
+    "음료": 1,
+    "수산물": 4,
+    "채소": 6,
+    "가공식품": 1,
+    "영암특산품": 15,
+    "한우": 8,
+    "전통주": 3,
+    "과일": 1
+  },
+  "priceRanges": {
+    "Under 10,000": 5,
+    "10,000-50,000": 29,
+    "Over 50,000": 15
+  },
+  "sampleProducts": [
+    {
+      "title": "(대우미곡) 2024년 햅쌀 삼대쌀 새청무쌀 10kg 단일품종 상등급 - 영암몰",
+      "price": 32400,
+      "category": "곡물",
+      "url": "https://yeongammall.co.kr/product/대우미곡-2024년-햅쌀-삼대쌀-새청무쌀-10kg-단일품종-상등급/311/category/1/display/2/"
+    },
+    {
+      "title": "(왕인배) 동인농장 맑은 도라지 배즙 120ml (100포) 한정수량 64박스 - 영암몰",
+      "price": 64300,
+      "category": "음료",
+      "url": "https://yeongammall.co.kr/product/왕인배-동인농장-맑은-도라지-배즙-120ml-100포-한정수량-64박스/114/category/1/display/2/"
+    },
+    {
+      "title": "(민물장어양식수협) 자포니카 민물장어 1kg(2-4미)(손질장어) - 영암몰",
+      "price": 42400,
+      "category": "수산물",
+      "url": "https://yeongammall.co.kr/product/민물장어양식수협-자포니카-민물장어-1kg2-4미손질장어/249/category/1/display/2/"
+    },
+    {
+      "title": "(신북농협) 미니밤호박 보우짱 하우스 2kg/3kg - 영암몰",
+      "price": 16900,
+      "category": "채소",
+      "url": "https://yeongammall.co.kr/product/신북농협-미니밤호박-보우짱-하우스-2kg3kg/479/category/1/display/2/"
+    },
+    {
+      "title": "(영암어란) 영암어란 (65g~590g 중량선택) - 영암몰",
+      "price": 105000,
+      "category": "수산물",
+      "url": "https://yeongammall.co.kr/product/영암어란-영암어란-65g590g-중량선택/485/category/1/display/2/"
+    }
+  ],
+  "registrationSummary": {
+    "timestamp": "2025-06-23T14:44:30.331Z",
+    "mall": "영암몰",
+    "scraped": 61,
+    "valid": 61,
+    "new": 49,
+    "duplicates": 12,
+    "errors": 0,
+    "totalProducts": 2536,
+    "sampleProducts": [
+      {
+        "title": "(대우미곡) 2024년 햅쌀 삼대쌀 새청무쌀 10kg 단일품종 상등급 - 영암몰",
+        "price": 32400,
+        "category": "곡물"
+      },
+      {
+        "title": "(왕인배) 동인농장 맑은 도라지 배즙 120ml (100포) 한정수량 64박스 - 영암몰",
+        "price": 64300,
+        "category": "음료"
+      },
+      {
+        "title": "(민물장어양식수협) 자포니카 민물장어 1kg(2-4미)(손질장어) - 영암몰",
+        "price": 42400,
+        "category": "수산물"
+      },
+      {
+        "title": "(신북농협) 미니밤호박 보우짱 하우스 2kg/3kg - 영암몰",
+        "price": 16900,
+        "category": "채소"
+      },
+      {
+        "title": "(영암어란) 영암어란 (65g~590g 중량선택) - 영암몰",
+        "price": 105000,
+        "category": "수산물"
+      }
+    ]
+  },
+  "notes": [
+    "영암은 한우, 멜론, 장어로 유명한 지역",
+    "Cafe24 플랫폼 사용",
+    "기찬랜드는 영암의 대표 한우 브랜드"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "mallName": "칠곡몰",
+  "mallId": "csmall",
+  "totalProducts": 40,
+  "categoryBreakdown": {
+    "과일류": 20,
+    "청송특산물": 14,
+    "꿀": 2,
+    "즙류/식초": 4
+  },
+  "scrapedAt": "2025-06-24T10:17:27.367Z",
+  "sampleProducts": [
+    {
+      "id": "csmall-1700816156",
+      "title": "[소무골농원] 청송 부사 사과 5KG - 중과 (15~17과 내외)",
+      "price": "61,000원",
+      "image": "https://csmall.cyso.co.kr/data/item/1700816156/thumb-67aA7IKs_600x600.jpg",
+      "url": "https://csmall.cyso.co.kr/shop/item.php?it_id=1700816156",
+      "category": "과일류",
+      "mall": "칠곡몰",
+      "mallId": "csmall"
+    },
+    {
+      "id": "csmall-1700179143",
+      "title": "[태송농원] 청송사과 부사 5Kg 10kg",
+      "price": "59,000원",
+      "image": "https://csmall.cyso.co.kr/data/item/1700179143/thumb-image6_600x600.png",
+      "url": "https://csmall.cyso.co.kr/shop/item.php?it_id=1700179143",
+      "category": "과일류",
+      "mall": "칠곡몰",
+      "mallId": "csmall"
+    },
+    {
+      "id": "csmall-1676379545",
+      "title": "[유아랑농원] 아삭달콤 부사사과 5Kg 10kg",
+      "price": "49,000원",
+      "image": "https://csmall.cyso.co.kr/data/item/1676379545/thumb-IMG_9602_600x600.jpg",
+      "url": "https://csmall.cyso.co.kr/shop/item.php?it_id=1676379545",
+      "category": "과일류",
+      "mall": "칠곡몰",
+      "mallId": "csmall"
+    },
+    {
+      "id": "csmall-1698123847",
+      "title": "청송 명품 사과즙 120ml * 50포 (아침에사과마을)",
+      "price": "28,000원",
+      "image": "https://csmall.cyso.co.kr/data/item/1698123847/thumb-2A7J7248_600x600.jpg",
+      "url": "https://csmall.cyso.co.kr/shop/item.php?it_id=1698123847",
+      "category": "과일류",
+      "mall": "칠곡몰",
+      "mallId": "csmall"
+    },
+    {
+      "id": "csmall-1570802352",
+      "title": "[웰건] 밥상왕맛보고 의성마늘후레이크",
+      "price": "9,000원",
+      "image": "https://csmall.cyso.co.kr/data/item/33/21/thumb-36267_500_1_600x600.jpg",
+      "url": "https://csmall.cyso.co.kr/shop/item.php?it_id=1570802352",
+      "category": "청송특산물",
+      "mall": "칠곡몰",
+      "mallId": "csmall"
+    }
+  ]
+}

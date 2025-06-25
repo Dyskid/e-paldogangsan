@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="no" />
+<title>곡성몰</title>
+<meta name="description" content="전라남도 곡성군의 농·특산물과 안전한 가공품을 만나보실수 있는 곡성몰입니다." />
+<meta name="keywords" content="전라남도 곡성군의 농·특산물과 안전한 가공품을 만나보실수 있는 곡성몰입니다." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://gokseongmall.com/index.html" />
+<meta property="og:title" content="곡성몰" />
+<meta property="og:description" content="전라남도 곡성군의 농·특산물과 안전한 가공품을 만나보실수 있는 곡성몰입니다." />
+<meta property="og:image" content="//gokseongmall.com/design/ko/upload_file/TCSYSTEM_site_info/d754ba0d188f388c9ed62bd75a9ce769_71667_1.png" />
+<link rel="canonical" href="//gokseongmall.com" />
+<link rel="shortcut icon" href="template/DESIGN_shop06/program/images/favicon_dev.png">
+<link href="/include/jquery/css/sitecook/jquery-ui.css" rel="stylesheet" type="text/css">
+<link href="/template/DESIGN_gnb/program/gnb.css" rel="stylesheet" type="text/css">
+<link href="/template/DESIGN_content/program/rcc-p.css?v=1740382365" rel="stylesheet" type="text/css">
+<link href="/template/DESIGN_content/program/theme/01/layout.css" rel="stylesheet" type="text/css">
+<link href="/template/DESIGN_content/program/theme/01/design.css" rel="stylesheet" type="text/css">
+<link href="/template/DESIGN_button/program/images/button.css" rel="stylesheet" type="text/css">
+<link href="/template/PLUGIN_shop_core/program/css/shop.css" rel="stylesheet" type="text/css">
+<link href="/template/DESIGN_shop06/program/images/gokseongmall.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="/include/jquery/jquery.js"></script>
+<script type="text/javascript" src="/include/jquery/jquery-ui.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_localization/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_shop_core/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_dup_chk_record/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_zero_pay/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_com_bos_np/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_auth_adult/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_com_bos_shop_multi_deliv/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_com_bos_shop_routine/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_popbill_katalk/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_com_bos_shop_gift/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_com_bos_ns/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_com_rlcm_chak/ko/trans_client.js"></script>
+<script type="text/javascript" src="/include/jquery/jquery-abuilder.js"></script>
+<script type="text/javascript" src="/include/js/javascript.js"></script>
+<script type="text/javascript" src="/template/BUILDER_core9/program/gnb.js"></script>
+<!--<script type="text/javascript" src="/images/js/jquery-3.5.1.min.js"></script>-->
+<script type="text/javascript" src="/images/js/common.js"></script>
+<script type="text/javascript" src="/include/jquery/plugin/scrollmagic/ScrollMagic.min.js"></script>
+<script type="text/javascript" src="/include/jquery/plugin/scrollmagic/debug.addIndicators.min.js"></script>
+
+
+
+<link href="template/DESIGN_gnb/program/theme/gokseongmall/style.css" rel="stylesheet" type="text/css" />
+<link href="/template/PLUGIN_shop_core/program/css/shopcategory_style.css" rel="stylesheet" type="text/css"><style>
+.goodsListGnmallBest .ABS-sell-price { color:#000; font-size:24px; font-weight:normal; }
+.-fdGoodsModify {z-index:2;}
+
+#show-layer-right.ABA-wrap-box{width:auto !important;}
+.AB-nrewhumb a img {border:none}
+.price-color a strong{color:#555555!important;}
+body.PC{min-width:1200px !important;}
+.AB-pa {position:absolute;}
+.AB-pa.abline-div-padding {position:static;}
+
+.fix_scrollIcon {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	bottom: 20px;
+	right: 200px;
+	animation: scroll-mouse .8s infinite normal ease-in-out;
+	-webkit-animation: scroll-mouse .8s infinite normal ease-in-out;
+}
+
+@keyframes scroll-mouse {
+	0% {
+transform: translateY(0);
+	}
+
+	50% {
+transform: translateY(10px);
+	}
+
+	100% {
+transform: translateY(0);
+	}
+}
+
+.fix_scrollIcon .scrollIcon_circle,
+.fix_scrollIcon .scrollIcon_mouse {
+	position: absolute;
+	left: 0;
+	top: 0
+}
+
+.fix_scrollIcon .scrollIcon_circle p,
+.fix_scrollIcon .scrollIcon_mouse p {
+	font-size: 0
+}
+
+.fix_scrollIcon .scrollIcon_circle {
+	width: 44px;
+	height: 44px;
+	border: 3px solid transparent;
+	border-top-color: #fff;
+	border-radius: 100%;
+	animation: scroll-circle .8s infinite normal ease-in-out;
+	-webkit-animation: scroll-circle .8s infinite normal ease-in-out
+}
+
+@keyframes scroll-circle {
+	0% {
+transform: rotate(0deg)
+	}
+
+	100% {
+transform: rotate(360deg)
+	}
+}
+
+.fix_scrollIcon .scrollIcon_mouse {
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto auto;
+	width: 55%;
+	height: 55%;
+	background: url(images/scroll_down_mouse.png) center center no-repeat;
+	background-size: 60%;
+}
+
+
+.AB-wide-gnb-sub{height:180px;}
+.AB-wide-gnb-sub .ABA-gnb-sub-1{height:160px !important;}
+html, body, h1, h2, h3, h4, h5, h6, th, td, input, select, textarea {line-height:1.3;font-size: 16px;color:rgb(0,0,0);}
+body, h1, h2, h3, h4, th, td a, input {color:#1c1c1c; font-family:'Noto Sans KR','sans-serif'; font-size:12px; color:#333; font-weight:100; }
+body.PC{min-width:1400px !important;}
+/*fixed gnb*/
+.fixedgnb{background:#fff; position:fixed !important; left:0; top:0; width:100%; z-index:10;}
+.fixedgnb.abline-div-padding,.abline-div-padding .fixedgnb {position:static !important;}
+
+.tyGoodsList .-fdThumb:hover .-fdThumbOver {opacity:1; transition: all 0.2s;}
+.tyGoodsList .-fdThumbOver {top:0; right:0; bottom:0; left:0; background:rgba(255,255,2550,0.7); z-index:1; opacity:0; transition: all 0.2s; text-align:center;}
+.tyGoodsList .-fdThumbOver a img {margin:0 5px;}
+.tyGoodsList .-fdThumbOver .-inner {height:40px; top:0; bottom:0; left:0; right:0; margin:auto auto; z-index:2;}
+.tyGoodsList .-fdThumbOver .-inner.abline-div-padding {margin-top:0;}
+.tyGoodsList .-fdThumb{overflow:hidden;}
+.tyGoodsList .-fdThumb:hover .-bdThumbZoom img.AB-img-full-w {transform: scale(1.1,1.1); transition: all 0.2s;}
+.tyGoodsList .-btnGoodsView {top:0; right:0; bottom:0; left:0; z-index:1; font-size:0; text-indent:-9999px; display:block;}
+
+.-bdThumbZoom:hover a{text-decoration:none;}
+
+.utilWrapNobar .toggle-div>a{margin-right:0;}
+
+#buyTop.fixeddiv { border-bottom:1px solid #aaa }
+#AB-goods-view-top span.-open { background-color:#777; border-color:#777; }
+.bdGoodsInfoR .-btnWrap ul li a span.btn-pattern-B08,
+.fixeddiv .-cover .-btnWrap ul li a span.btn-pattern-B08 { background-color:#58adcd; border-color:#58adcd; }
+
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 100;
+src: url('/webfont/NotoSansKR-Light.otf');
+}
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 300;
+src: url('/webfont/NotoSansKR-Regular.otf');
+}
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+src: url('/webfont/NotoSansKR-Medium.otf');
+}
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 600;
+src: url('/webfont/NotoSansKR-Bold.otf');
+}
+
+#ABA-read-top h3  { font-size: 24px; color:#333; text-align:center; font-weight:300; background-color:#fff; display:inline-block; padding:10px 30px;  margin: 0 auto;  }
+.yeo_goods_title { font-size: 55px; color:#333; text-align:center; font-weight:300; background-color:#fff; display:inline-block; padding:0 30px; margin: 0 auto;  }
+.yeo_titleline { background-color: #ebebeb;width: 100%;height: 1px; top:45px; left:0; z-index:-1; }
+.ABA-subcontent .yeo_titleline { top:25px;}
+
+.header_shop_menu li {display:inline-block; text-align:center;}
+.header_shop_submenu1 {margin: 0;}
+.header_shop_submenu1 a:focus {outline:none;}
+
+.AB-first a {color: #3C9B47 !important;}
+.AB-first a:hover {color: #89b92a !important;}
+
+
+
+.headerNobar a { color:#bdbdbd; font-size:14px; line-height:14px;  margin:0; }
+.headerNobar span { margin: 0 20px; }
+
+
+.AB-pa .abline-div-padding, .AB-pf .abline-div-padding, .AB-pa.abline-div-padding, .AB-pf.abline-div-padding, .abline-div-padding .AB-pa, .abline-div-padding .AB-pf { position:static !important;}
+
+
+#ABA-head-top .schHeaderShop {border-bottom: none;}
+#ABA-head-top .schHeaderShop .innerWrap .schValue {padding: 2px 75px 2px 20px;background-color: #ffffff;border: 3px solid #89b92a;border-radius:30px;width: 100%;height: 38px;box-sizing: border-box; position:relative;}
+#ABA-head-top .schHeaderShop input[type="text"], #ABA-head-top .schHeaderShop select {line-height:32px; border-radius:0px; border:none; height: 34px; outline:0; width:100%;}
+#ABA-head-top .bos-conv-banner-click {position:absolute; right:27px; top:50%; transform:translate(0, -50%);}
+
+
+.toggle-div-gnmallsitemap { display:none; }
+.leftMenuWrap:hover .toggle-div-gnmallsitemap { display:block;}
+
+
+.pageQuick{box-sizing:border-box; position:fixed; right:100px;}
+.abline-div-padding.pageQuick{position:static;}
+.pageQuick div > a { display:block; text-align:center; border-bottom:1px solid #ddd; }
+.pageQuick div > a:last-child { border-bottom:none; }
+
+
+.pageRecentView.quickShop {font-size: 11px;text-align: center;margin-left: -1px;}
+
+
+	#index18297visualrolling_roll_wrap {position:relative;}
+	#index18297visualrolling_roll_visual li {position:absolute;display:none;}
+	#index18297visualrolling_roll_visual li#index18297visualrolling_roll_img_0 {display:block;}
+	#index18297visualrolling_roll_btn {bottom:10px;right:17px;position:absolute;z-index:10;}
+	#index18297visualrolling_roll_btn li {float:left;position:relative;}
+	#index18297visualrolling_roll_btn .index18297visualrolling_btn_out {margin-left:2px;cursor:pointer;vertical-align:top}
+	#index18297visualrolling_roll_btn .index18297visualrolling_btn_over {display:none;position:absolute;top:0;left:0;margin-left:2px;cursor:pointer;}
+	#index18297visualrolling_roll_btn #index18297visualrolling_btn_over_0 {display:block;}
+	
+
+#wide-visual{margin-left:-330px;}
+#index18297visualrolling_roll_btn {
+    right: 380px;
+    bottom: 30px !important;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+}
+
+#index18297visualrolling_roll_btn li:last-child {
+    border-right: 0;
+}
+
+#index18297visualrolling_roll_btn li {
+    float: left;
+    position: relative;
+    width: 15px;
+    height: 15px;
+    box-sizing: border-box;
+    position: relative;
+    margin-right: 5px;
+}
+
+#index18297visualrolling_roll_btn li img {
+    width:100% !important;
+    height:auto !important;
+}
+
+
+.abline-div-padding#wide-visual{margin:0;}
+#index18297visualrolling_roll_btn .index18297visualrolling_btn_out{margin-left:0;}
+#index18297visualrolling_roll_btn .index18297visualrolling_btn_over{margin-left:0;}
+
+
+
+
+
+.cart_btn .-fdBtnCart .AB_btn_dialog_goods img {width: 63px; height: 63px;}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.cart_btn .-fdBtnCart .AB_btn_dialog_goods img {width: 63px; height: 63px;}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.cart_btn .-fdBtnCart .AB_btn_dialog_goods img {width: 63px; height: 63px;}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.-fdThumb.yeojuOver {border-radius:25px !important;border:1px solid #cfcfcf;}
+
+
+.yeojuOver .-overimage {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.yeojuOver:hover .-overimage {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+
+.btn_hover:hover {color: #89b92a;}
+
+
+.rollingBtn{position:absolute; top:19px; left:-100px;}
+.rollingBtn.abline-div-padding {left:150px;}
+.-btnTableScroll img{vertical-align:top; box-sizing:border-box; cursor:pointer;border:none; padding:0; }
+[class*="utilWrap0"] a:after, [class*="utilWrap0"] span:after {margin:0 18px;}
+.footer_info  { color:#8b8b8b; font-weight:300; }
+
+
+.footerNobar a { color:#555; font-size:14px; line-height:80px; letter-spacing:-0.5px; font-weight:300; }
+.footerNobar span { margin:0 20px; color:#555; }
+.footerNobar a { margin:0 }
+
+
+.footer_menu a { display:block; font-size: 12px; color:#a8a8a8; line-height:20px; font-weight:300; }
+</style><!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1805221473229601');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?
+id=1805221473229601&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- NAVER 공통 SCRIPT -->
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+if (!wcs_add) var wcs_add={};
+wcs_add["wa"] = "s_1258058c49ed";
+if(window.wcs) {
+        wcs.inflow("gokseongmall.com");
+}
+wcs_do();
+</script></head>
+<body class="PC"><div class="ABA-wrap-box AB-cr" id="ABA-head-top"><div class="ABA-container-box">
+
+
+
+
+
+
+
+<!-- Meta Pixel Code -->
+
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=346332431874355&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<!-- nPay remove Start -->
+
+<!-- nPay remove Start -->
+
+<!-- 비회원 비밀번호 010을 제외한 8자리 자동 설정 Start -->
+
+<!-- 비회원 비밀번호 010을 제외한 8자리 자동 설정 End --><div class="ABA-wrap-box AB-cr" style="padding: 7px 0 5px;"><div class="ABA-layout-align"><div class="ABA-container-box-630"><div class="ABA-content-box headerNobar">
+
+</div></div><div class="ABA-container-box-630"><div class="ABA-content-box AB-cr headerNobar " style="font-size: 12px; letter-spacing: -1px; text-align: right;"><div class="toggle-div AB-pa" style="z-index:50;text-align: center;background-color: #ffffff;width: 85px;height: 80px;top: 27px;right: -20px;"><a href="kwa-372340" style="color: #333333;line-height: 2.2;background-color: #ffffff;border-top: 1px solid #dddddd;border-right: 1px solid #dddddd;border-bottom: 1px dashed #dddddd;border-left: 1px solid #dddddd;display: block;">공지사항</a><a href="kwa-personal_consult" style="color: #333333;line-height: 2.2;background-color: #ffffff;border-right: 1px solid #dddddd;border-bottom: 1px dashed #dddddd;border-left: 1px solid #dddddd;display: block;">1:1문의</a><a href="kwa-3154857" style="color: #333333;line-height: 2.2;background-color: #ffffff;border-right: 1px solid #dddddd;border-bottom: 1px dashed #dddddd;border-left: 1px solid #dddddd;display: block;">자주하는질문</a><a href="kwa-372358" style="color: #333333;line-height: 2.2;background-color: #ffffff;border-right: 1px solid #dddddd;border-bottom: 1px dashed #dddddd;border-left: 1px solid #dddddd;display: block;">입점안내</a></div><a href="kwa-login?prev_url=..%2Findex.html">로그인<span>|</span></a><a href="kwa-agreement">회원가입<span>|</span></a><a href="#;" id='AB-show-hide-btn' toggle-hour='0' toggle-class='toggle-div' default-view='hide' a-show='blind,up,300' a-hide='blind,up,300'>고객센터</a>
+</div></div></div></div><div class="ABA-wrap-box AB-cr" style="padding: 45px 0 45px;"><div class="ABA-layout-align" style="display:flex; justify-content:center; align-items:center;"><div class="ABA-container-box-215" style="margin-right: 195px;"><div class="ABA-content-box"><h1><a href="/index.html"><img src="images/main_logo.png" width="230" height="117" alt="곡성몰" /></a></h1></div></div><div class="ABA-container-box-410" style="margin-top: 3px;margin-right: 110px;box-sizing: border-box;"><div class="ABA-content-box" style="margin-top: 15px;margin-bottom: 0;"><form id='TCBOARD_ABS_goods_LIST_indexIheaderDoTtphp18819' name='TCBOARD_ABS_goods_LIST_indexIheaderDoTtphp18819' method='post' action='kwa-ABS_goods_l' enctype='multipart/form-data' vi='' submit-func='return TCBOARD_ABS_goods_LIST_indexIheaderDoTtphp18819_submit(this, "");'>
+		<input type="hidden" name="board" value="ABS_goods" />
+		<input type="hidden" name="flag" value="gokseongmall.com" />
+		<input type="hidden" name="http_referer" value="" />
+		<input type="hidden" name="after_db_script" value="" />
+		<input type="hidden" name="after_db_msg" value="" />
+	<input type='hidden' name='Q_STRING' value='' /><input type='hidden' name='P_SELF' value='insiter.php' /><input type='hidden' name='VG_live_code' value='91542734b5d7c19c60b1ca23808da8eb' /><input type='hidden' name='page_dfg' value='' /><input type='hidden' name='except_box_disabled' value='search_item' /><div class="schHeaderShop"><fieldset class='search'><legend>검색 폼</legend><div class="innerWrap"><div class="schValue"><input type="text" name="search_value" value="" class="AB-text"  placeholder="검색어를 입력해주세요." /><input type="image" src="images/search_icon.png"class="bos-conv-banner-click" data-banner-name="search" exec-func="return TCBOARD_ABS_goods_LIST_indexIheaderDoTtphp18819_submit(this, '')" width="28" height="28" alt="검색" /></div></div><input type="hidden" name="sch_method" value="and" /></fieldset></div></form>
+</div></div><div class="ABA-container-box-300" style="padding-top: 20px;"><div class="ABA-content-box AB-cr" style="text-align: right!important;margin-bottom: 0;"><ul class="header_shop_menu AB-fr" style="padding-right:7px;"><li class="header_shop_submenu1"><div><a href="kwa-shop_mypage"><img src="images/top_icon1.png" width="80" height="80" alt="마이쇼핑" title="마이쇼핑" data-rlv="Y" /></a></div></li><li class="header_shop_submenu1"><div class="AB-pr"><a href="kwa-ABS_sbag_l"><img src="images/top_icon2.png" width="80" height="80" alt="장바구니" title="장바구니" data-rlv="Y" /></a></div></li><li class="header_shop_submenu1"><div><a href="kwa-sell_list"><img src="images/top_icon3.png" width="80" height="80" alt="주문조회" title="주문조회" data-rlv="Y" /></a></div></li></ul></div></div></div></div><div class="ABA-wrap-box AB-cr GNB-color-03" id="ABA-gnb"><div class="ABA-layout-align"><div class="ABA-container-box-200" style="margin-right: 30px;"><div class="ABA-content-box leftMenuWrap" style="margin-bottom: 0;"><div class="toggle-div-gnmallsitemap AB-pr"><div class="AB-pa -innerBg" style="top: 60px;right: 0;left: -1px;z-index:1;">
+<ul class='category-wrap'>
+	<li id="1010"><a href="kwa-ABS_goods_l-1010" class='category-sub-1010'>♡ 멜론왔썸 ♡</a></li>
+	<li id="1002"><a href="kwa-ABS_goods_l-1002" class='category-sub-1002'>베스트</a></li>
+	<li id="1004"><a href="kwa-ABS_goods_l-1004" class='category-sub-1004'>베스트상품</a></li>
+	<li id="1003"><a href="kwa-ABS_goods_l-1003" class='category-sub-1003'>농산물</a>
+		<ul class='category-wrap'>
+			<li id="1003001"><a href="kwa-ABS_goods_l-1003001" class='category-sub-1003001'>쌀</a></li>
+			<li id="1003010"><a href="kwa-ABS_goods_l-1003010" class='category-sub-1003010'>잡곡/견과류</a></li>
+			<li id="1003004"><a href="kwa-ABS_goods_l-1003004" class='category-sub-1003004'>과일/채소</a></li>
+			<li id="1003002"><a href="kwa-ABS_goods_l-1003002" class='category-sub-1003002'>버섯/나물</a></li>
+			<li id="1003009"><a href="kwa-ABS_goods_l-1003009" class='category-sub-1003009'>기타</a></li>
+		</ul>
+	</li>
+	<li id="1006"><a href="kwa-ABS_goods_l-1006" class='category-sub-1006'>축수산물</a>
+		<ul class='category-wrap'>
+			<li id="1006001"><a href="kwa-ABS_goods_l-1006001" class='category-sub-1006001'>축산물</a></li>
+			<li id="1006002"><a href="kwa-ABS_goods_l-1006002" class='category-sub-1006002'>수산물</a></li>
+			<li id="1006003"><a href="kwa-ABS_goods_l-1006003" class='category-sub-1006003'>기타</a></li>
+		</ul>
+	</li>
+	<li id="1007"><a href="kwa-ABS_goods_l-1007" class='category-sub-1007'>가공식품</a>
+		<ul class='category-wrap'>
+			<li id="1007007"><a href="kwa-ABS_goods_l-1007007" class='category-sub-1007007'>김치/장아찌</a></li>
+			<li id="1007004"><a href="kwa-ABS_goods_l-1007004" class='category-sub-1007004'>베이커리/한과/떡</a></li>
+			<li id="1007003"><a href="kwa-ABS_goods_l-1007003" class='category-sub-1007003'>커피/차/주스</a></li>
+			<li id="1007011"><a href="kwa-ABS_goods_l-1007011" class='category-sub-1007011'>유제품</a></li>
+			<li id="1007010"><a href="kwa-ABS_goods_l-1007010" class='category-sub-1007010'>꿀/화분/조청</a></li>
+			<li id="1007006"><a href="kwa-ABS_goods_l-1007006" class='category-sub-1007006'>장류/소금/식초</a></li>
+			<li id="1007009"><a href="kwa-ABS_goods_l-1007009" class='category-sub-1007009'>주류</a></li>
+			<li id="1007012"><a href="kwa-ABS_goods_l-1007012" class='category-sub-1007012'>건강즙/농축액</a></li>
+			<li id="1007001"><a href="kwa-ABS_goods_l-1007001" class='category-sub-1007001'>밀키트/간편식</a></li>
+			<li id="1007002"><a href="kwa-ABS_goods_l-1007002" class='category-sub-1007002'>건강식품/분말</a></li>
+		</ul>
+	</li>
+	<li id="1009"><a href="kwa-ABS_goods_l-1009" class='category-sub-1009'>생활</a>
+		<ul class='category-wrap'>
+			<li id="1009001"><a href="kwa-ABS_goods_l-1009001" class='category-sub-1009001'>화장품</a></li>
+			<li id="1009003"><a href="kwa-ABS_goods_l-1009003" class='category-sub-1009003'>식물</a></li>
+			<li id="1009005"><a href="kwa-ABS_goods_l-1009005" class='category-sub-1009005'>공예품</a></li>
+			<li id="1009002"><a href="kwa-ABS_goods_l-1009002" class='category-sub-1009002'>서비스 상품</a></li>
+		</ul>
+	</li>
+	<li id="1012"><a href="kwa-ABS_goods_l-1012" class='category-sub-1012'>관광</a>
+		<ul class='category-wrap'>
+			<li id="1012001"><a href="kwa-ABS_goods_l-1012001" class='category-sub-1012001'>뚝방 마켓</a></li>
+			<li id="1012002"><a href="kwa-ABS_goods_l-1012002" class='category-sub-1012002'>곡성섬진강기차마을</a></li>
+		</ul>
+	</li>
+	<li id="1008"><a href="kwa-ABS_goods_l-1008" class='category-sub-1008'>여행</a>
+		<ul class='category-wrap'>
+			<li id="1008001"><a href="kwa-ABS_goods_l-1008001" class='category-sub-1008001'>체험</a></li>
+			<li id="1008002"><a href="kwa-ABS_goods_l-1008002" class='category-sub-1008002'>숙박</a></li>
+			<li id="1008004"><a href="kwa-ABS_goods_l-1008004" class='category-sub-1008004'>기타</a></li>
+		</ul>
+	</li>
+	<li id="1005"><a href="kwa-ABS_goods_l-1005" class='category-sub-1005'>TEST(관리자노출)</a></li>
+	<li id="1001"><a href="kwa-ABS_goods_l-1001" class='category-sub-1001'>경품 구매용</a></li>
+</ul>
+</div></div><a href="#;" class="-leftBtn" style="display:inline-block; vertical-align:top; width:100%; box-sizing:border-box; top:0; bottom:0;" id='AB-show-hide-btn-gnmallsitemap' toggle-hour='0' toggle-class='toggle-div-gnmallsitemap' default-view='hide' a-show='blind,up,300' a-hide='blind,up,300'>전체 카테고리</a></div></div><div class="ABA-container-box-1030"><div class="ABA-content-box" style="margin-bottom: 0;"><div class="ABA-gnb-wrap GNB-s GNB-v" style="width:100%;" effect-1="slide,up,300,100" effect-2="fade,up,300,100" effect-lnb="blind,up,300,100" effect-mobile="Y" sub-w-fit="2" sub-l-fit="0" wide-parent="wrap"><div class="ABA-bggnb-left"></div><div class="ABA-bggnb-center"><div style="position:relative"><ul class="ABA-gnb"><li id="AB-gnb-sc-1010" class="AB-first"><a href="kwa-ABS_goods_l-1010" style="width:12.5%;display:inline-block;padding:0" class="GNB-a">♡ 멜론왔썸 ♡</a><div id="AB-gnb-sub-sc-1010" class="ABA-gnb-sub-1 AB-hidden AB-none"><ul class="ABA-gnb-sub-1-ul"></ul></div></li><li id="AB-gnb-sc-1003"><a href="kwa-ABS_goods_l-1003" style="width:12.5%;display:inline-block;padding:0" class="GNB-a">농산물</a><div id="AB-gnb-sub-sc-1003" class="ABA-gnb-sub-1 AB-hidden"><ul class="ABA-gnb-sub-1-ul"><li id="AB-gnb-sub-sc-1003-1" class="AB-first"><a href="kwa-ABS_goods_l-1003001">쌀</a></li><li id="AB-gnb-sub-sc-1003-2"><a href="kwa-ABS_goods_l-1003010">잡곡/견과류</a></li><li id="AB-gnb-sub-sc-1003-3"><a href="kwa-ABS_goods_l-1003004">과일/채소</a></li><li id="AB-gnb-sub-sc-1003-4"><a href="kwa-ABS_goods_l-1003002">버섯/나물</a></li><li id="AB-gnb-sub-sc-1003-5" class="AB-last"><a href="kwa-ABS_goods_l-1003009">기타</a></li></ul></div></li><li id="AB-gnb-sc-1006"><a href="kwa-ABS_goods_l-1006" style="width:12.5%;display:inline-block;padding:0" class="GNB-a">축수산물</a><div id="AB-gnb-sub-sc-1006" class="ABA-gnb-sub-1 AB-hidden"><ul class="ABA-gnb-sub-1-ul"><li id="AB-gnb-sub-sc-1006-1" class="AB-first"><a href="kwa-ABS_goods_l-1006001">축산물</a></li><li id="AB-gnb-sub-sc-1006-2" class="AB-last"><a href="kwa-ABS_goods_l-1006002">수산물</a></li></ul></div></li><li id="AB-gnb-sc-1007"><a href="kwa-ABS_goods_l-1007" style="width:12.5%;display:inline-block;padding:0" class="GNB-a">가공식품</a><div id="AB-gnb-sub-sc-1007" class="ABA-gnb-sub-1 AB-hidden"><ul class="ABA-gnb-sub-1-ul"><li id="AB-gnb-sub-sc-1007-1" class="AB-first"><a href="kwa-ABS_goods_l-1007007">김치/장아찌</a></li><li id="AB-gnb-sub-sc-1007-2"><a href="kwa-ABS_goods_l-1007004">베이커리/한과/떡</a></li><li id="AB-gnb-sub-sc-1007-3"><a href="kwa-ABS_goods_l-1007003">커피/차/주스</a></li><li id="AB-gnb-sub-sc-1007-4"><a href="kwa-ABS_goods_l-1007011">유제품</a></li><li id="AB-gnb-sub-sc-1007-5"><a href="kwa-ABS_goods_l-1007010">꿀/화분/조청</a></li><li id="AB-gnb-sub-sc-1007-6"><a href="kwa-ABS_goods_l-1007006">장류/소금/식초</a></li><li id="AB-gnb-sub-sc-1007-7"><a href="kwa-ABS_goods_l-1007009">주류</a></li><li id="AB-gnb-sub-sc-1007-8"><a href="kwa-ABS_goods_l-1007012">건강즙/농축액</a></li><li id="AB-gnb-sub-sc-1007-9"><a href="kwa-ABS_goods_l-1007001">밀키트/간편식</a></li><li id="AB-gnb-sub-sc-1007-10" class="AB-last"><a href="kwa-ABS_goods_l-1007002">건강식품/분말</a></li></ul></div></li><li id="AB-gnb-sc-1009"><a href="kwa-ABS_goods_l-1009" style="width:12.5%;display:inline-block;padding:0" class="GNB-a">생활</a><div id="AB-gnb-sub-sc-1009" class="ABA-gnb-sub-1 AB-hidden"><ul class="ABA-gnb-sub-1-ul"><li id="AB-gnb-sub-sc-1009-1" class="AB-first"><a href="kwa-ABS_goods_l-1009001">화장품</a></li><li id="AB-gnb-sub-sc-1009-2"><a href="kwa-ABS_goods_l-1009003">식물</a></li><li id="AB-gnb-sub-sc-1009-3"><a href="kwa-ABS_goods_l-1009005">공예품</a></li><li id="AB-gnb-sub-sc-1009-4" class="AB-last"><a href="kwa-ABS_goods_l-1009002">서비스 상품</a></li></ul></div></li><li id="AB-gnb-sc-1012"><a href="kwa-ABS_goods_l-1012" style="width:12.5%;display:inline-block;padding:0" class="GNB-a">관광</a><div id="AB-gnb-sub-sc-1012" class="ABA-gnb-sub-1 AB-hidden"><ul class="ABA-gnb-sub-1-ul"><li id="AB-gnb-sub-sc-1012-1" class="AB-first"><a href="kwa-ABS_goods_l-1012001">뚝방 마켓</a></li><li id="AB-gnb-sub-sc-1012-2" class="AB-last"><a href="kwa-ABS_goods_l-1012002">곡성섬진강기차마을</a></li></ul></div></li><li id="AB-gnb-4570636"><a href="kwa-4570621" style="width:12.5%;display:inline-block;padding:0" class="GNB-a">여행</a><div id="AB-gnb-sub-4570636" class="ABA-gnb-sub-1 AB-hidden"><ul class="ABA-gnb-sub-1-ul"><li id="AB-gnb-sub-4570636-1" class="AB-first"><a href="kwa-4570621">숙박</a></li><li id="AB-gnb-sub-4570636-2"><a href="kwa-4570649">체험</a></li><li id="AB-gnb-sub-4570636-3" class="AB-last"><a href="kwa-4571857">농촌체험휴양마을</a></li></ul></div></li><li id="AB-gnb-105294" class="AB-last"><a href="kwa-3365003" style="width:12.5%;display:inline-block;padding:0" class="GNB-a">이벤트</a><div id="AB-gnb-sub-105294" class="ABA-gnb-sub-1 AB-hidden AB-none"><ul class="ABA-gnb-sub-1-ul"></ul></div></li></ul></div></div><div class="ABA-bggnb-right"></div></div></div></div></div></div></div></div><div class="ABA-wrap-box AB-cr"><div class="ABA-container-box" style="margin-bottom: 0px;"><div class="ABA-content-box" style="margin-bottom: 0px;"><div class="pageQuick" id="quick1" style="width: 120px;top: 180px;z-index:80;"><div class="pageRecentView quickShop" style="font-size: 11px;text-align: center;margin-bottom: 25px;margin-left: -1px;"><div class="bdList bdShop" style="margin-top: 10px;padding: 19px 13px 22px 11px;background: #fff;border: 1px solid #e9e9e9;border-radius: 25px;"><div style="font-size: 13px;font-weight: normal;text-align: center;padding-bottom: 12px;border-bottom: 1px solid #e9e9e9;">최근본상품</div></div></div><div style="font-size: 11px;text-align: center;margin-bottom: 20px;margin-left: -4px;"><div class="btn-tpl btn-round-03 main_quick" style="border-radius: 25px;width: 120px;padding: 3px 0;border: 1px solid #e8e8e8;background-color: #fff;"><div style="font-size: 13px;font-weight: normal;text-align: center;padding-top: 10px;width: 120px;">장바구니</div><a href="kwa-ABS_sbag_l"><img src="images/gokseong_jangba01.png" width="60" height="60" alt="장바구니" style="margin: 3px 0px 10px 10px;" /></a></div></div><div style="font-size: 11px;text-align: center;margin-bottom: 10px;margin-left: -4px;"><div class="btn-tpl btn-round-03" style="padding: 3px 0;background-color: #fff;border: 1px solid #e8e8e8;border-radius: 15px;width: 120px;"><a href="kwa-personal_consult" style="padding: 10px 0px;"><span  style="font-size: 14px;font-weight: normal;">1:1문의</span></a></div></div><div style="font-size: 11px;text-align: center;margin-bottom: 25px;margin-left: -4px;"><div class="btn-tpl btn-round-03" style="border-radius: 15px;width: 120px;padding: 3px 0;border: 1px solid #e8e8e8;background-color: #fff;"><a href="#top"><span  style="font-size: 13px;font-weight: normal;">▲<br>TOP</span></a></div></div></div></div></div></div><div class="ABA-wrap-box AB-cr" id="ABA-column-wrap" style="margin-bottom: 10px;background-color: #e8e5e0;overflow: hidden;"><div class="ABA-layout-align"><div class="ABA-container-box-1260"><div class="ABA-content-box" id="wide-visual" style="margin-bottom:0;">
+	<div id='index18297visualrolling_roll_wrap' style='width:1920px;height:420px'>
+		<ul id='index18297visualrolling_roll_visual'>
+	<li id='index18297visualrolling_roll_img_0'><a href='https://gokseongmall.com/kwa-ABS_goods_l-1010' target='_self'><img src='./design/ko/upload_file/visual_rolling/fb1f524c2fefec596feb83dec79a3289_4734_1.png' width='1920' height='420' alt='멜론 - PC' /></a></li><li id='index18297visualrolling_roll_img_1'><a href='https://gokseongmall.com/kwa-3365004-74?process_num=74&serial_parent=74' target='_self'><img src='./design/ko/upload_file/visual_rolling/b66b6b29e34412e257938ae2fdf91ea2_84884_1.jpg' width='1920' height='420' alt='리뷰 - PC' /></a></li><li id='index18297visualrolling_roll_img_2'><a href='https://gokseongmall.com/kwa-3365004-62' target='_self'><img src='./design/ko/upload_file/visual_rolling/bea1f911842b872ea944f16019528588_89976_1.jpg' width='1920' height='420' alt='카카오톡 - PC' /></a></li><li id='index18297visualrolling_roll_img_3'><a href='https://gokseongmall.com/kwa-3365004-69?process_num=69' target='_self'><img src='./design/ko/upload_file/visual_rolling/9f7d8d7aeb1bd9f99baddf1e7bfaf1d9_19245_1.jpg' width='1920' height='420' alt='수요특가 - PC' /></a></li><li id='index18297visualrolling_roll_img_4'><a href='https://gokseongmall.com/kwa-3365004-59' target='_self'><img src='./design/ko/upload_file/visual_rolling/c62f5f090cf51b3f751bd700be037dc0_86824_1.jpg' width='1920' height='420' alt='25년 무료배송 - PC' /></a></li><li id='index18297visualrolling_roll_img_5'><a href='https://gokseongmall.com/kwa-ABS_goods_v-710-1012002' target='_self'><img src='./design/ko/upload_file/visual_rolling/9e9e9e674fa4bad377d059dc8bd1675e_93389_1.jpg' width='1920' height='420' alt='기차마을 입장권 pc' /></a></li><li id='index18297visualrolling_roll_img_6'><a href='https://gokseongmall.com/kwa-3365004-58' target='_self'><img src='./design/ko/upload_file/visual_rolling/8f2455176651ecc27cbb75a1f63340b0_70982_1.jpg' width='1920' height='420' alt='적립금. PC' /></a></li><li id='index18297visualrolling_roll_img_7'><a href='https://gokseongmall.com/kwa-372341-10?process_num=10' target='_blank'><img src='./design/ko/upload_file/visual_rolling/f80a06da26985bfc99a4b805ef8fda07_63707_1.png' width='1920' height='420' alt='제로페이 - PC' /></a></li>
+		</ul>	
+		<ul id='index18297visualrolling_roll_btn'>
+	
+			<li id='index18297visualrolling_0'>
+				
+				<img src='./design/ko/upload_file/visual_rolling/31641181372cdbb8c24b748361564dea_22477_2.jpg' class='index18297visualrolling_btn_out' id='index18297visualrolling_btn_out_0' alt='' />
+				<img src='./design/ko/upload_file/visual_rolling/addccbdf0fc1d4c9a66ad4088991d5f0_54769_3.jpg' class='index18297visualrolling_btn_over' id='index18297visualrolling_btn_over_0' alt='' />
+			
+			</li>
+		
+			<li id='index18297visualrolling_1'>
+				
+				<img src='./design/ko/upload_file/visual_rolling/6acb391b5963beb47132eaf9a40bec32_87422_2.jpg' class='index18297visualrolling_btn_out' id='index18297visualrolling_btn_out_1' alt='' />
+				<img src='./design/ko/upload_file/visual_rolling/e382bad2524303841291bcb2b1f6de29_46909_3.jpg' class='index18297visualrolling_btn_over' id='index18297visualrolling_btn_over_1' alt='' />
+			
+			</li>
+		
+			<li id='index18297visualrolling_2'>
+				
+				<img src='./design/ko/upload_file/visual_rolling/ee05ece9e03e1bbd42eba4f700ff8656_25789_2.jpg' class='index18297visualrolling_btn_out' id='index18297visualrolling_btn_out_2' alt='' />
+				<img src='./design/ko/upload_file/visual_rolling/306b9312a3961d47a111bcceb9a6999b_38998_3.jpg' class='index18297visualrolling_btn_over' id='index18297visualrolling_btn_over_2' alt='' />
+			
+			</li>
+		
+			<li id='index18297visualrolling_3'>
+				
+				<img src='./design/ko/upload_file/visual_rolling/da7d2f2a4d65ae7eae78f82f2cc701a1_66012_2.jpg' class='index18297visualrolling_btn_out' id='index18297visualrolling_btn_out_3' alt='' />
+				<img src='./design/ko/upload_file/visual_rolling/8f67c609a83f60579f5a1cab1d263615_73626_3.jpg' class='index18297visualrolling_btn_over' id='index18297visualrolling_btn_over_3' alt='' />
+			
+			</li>
+		
+			<li id='index18297visualrolling_4'>
+				
+				<img src='./design/ko/upload_file/visual_rolling/fe272a8c79bfa78b55630fefe9adf957_97666_2.jpg' class='index18297visualrolling_btn_out' id='index18297visualrolling_btn_out_4' alt='' />
+				<img src='./design/ko/upload_file/visual_rolling/5e43e4554bae17cde8e73de428b69ccc_7576_3.jpg' class='index18297visualrolling_btn_over' id='index18297visualrolling_btn_over_4' alt='' />
+			
+			</li>
+		
+			<li id='index18297visualrolling_5'>
+				
+				<img src='./design/ko/upload_file/visual_rolling/285feec516911f600c9e970ba63243e5_5898_2.jpg' class='index18297visualrolling_btn_out' id='index18297visualrolling_btn_out_5' alt='' />
+				<img src='./design/ko/upload_file/visual_rolling/de48491324c75c69d30f462e31d8a14d_58411_3.jpg' class='index18297visualrolling_btn_over' id='index18297visualrolling_btn_over_5' alt='' />
+			
+			</li>
+		
+			<li id='index18297visualrolling_6'>
+				
+				<img src='./design/ko/upload_file/visual_rolling/fdf001309bd0ed8b433b7323923669fc_61365_2.jpg' class='index18297visualrolling_btn_out' id='index18297visualrolling_btn_out_6' alt='' />
+				<img src='./design/ko/upload_file/visual_rolling/7f1127b7fd8a9a317e5676aeb7568193_8847_3.jpg' class='index18297visualrolling_btn_over' id='index18297visualrolling_btn_over_6' alt='' />
+			
+			</li>
+		
+			<li id='index18297visualrolling_7'>
+				
+				<img src='./design/ko/upload_file/visual_rolling/816995504b2d4c415404aaf6b9cbe794_76889_2.jpg' class='index18297visualrolling_btn_out' id='index18297visualrolling_btn_out_7' alt='' />
+				<img src='./design/ko/upload_file/visual_rolling/8eac63aa3ae087ad92f8ed464b6644b8_34082_3.jpg' class='index18297visualrolling_btn_over' id='index18297visualrolling_btn_over_7' alt='' />
+			
+			</li>
+		
+		</ul>	
+	</div>
+		
+	
+	</div></div></div></div><div class="ABA-wrap-box AB-cr"><div class="ABA-layout-align"><div class="ABA-container-box-1200" style="margin: 50px auto;"><div class="ABA-content-box mainTplWrap"><table width="100%" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><th width="33%"><a href="/kwa-ABS_goods_l-1011"><img src='./thumb/91d1fc396ecf73eb067bb4877b43918d/410_100_10f96d9758c36e4f033ae6c136db.png' width='410' height='100' style="margin-right: 15px;"></a></th></tr></table></td><td><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><th width="33%"><a href="/kwa-ABS_goods_l-1012002"><img src='./thumb/91d1fc396ecf73eb067bb4877b43918d/410_100_0d985345d1c89567e9ab167d9295.png' width='410' height='100' style="margin-right: 15px;"></a></th></tr></table></td><td><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><th width="33%"><a href="/kwa-ABS_goods_l-1012001"><img src='./thumb/91d1fc396ecf73eb067bb4877b43918d/410_100_e065e203553b0cacd8656f98f2ed.png' width='410' height='100' style="margin-right: 15px;"></a></th></tr></table></td></tr></table></div></div></div></div><div class="ABA-wrap-box AB-cr" style="padding-bottom: 50px;"><div class="ABA-layout-align"><div class="ABA-container-box-1260 AB-pr"><div class="ABA-content-box AB-pr" style="text-align: center;margin: 50px 0;"><div class="yeo_goods_title"><div style="text-align: center;" align="center"><b>재구매율 높은 상품</b></div></div><div style="margin-bottom:14px;"><div class="AB-pa yeo_titleline"></div></div></div><div class="ABA-content-box"><div style="margin-top:0;"><div class="goodsListYjmall goodsDirectBuy" style="margin-top: 40px;"><table class="AB-tbl"><tr><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-409-TCBOARD_ABS_goods_LIST_index18274 -calc-grp calc AB-pr" id="GoodsWrap-409-TCBOARD_ABS_goods_LIST_index18274" grp-idx="409-TCBOARD_ABS_goods_LIST_index18274" grp-name="[2024년산 햅쌀] 구수한 누룽지향 특허받은 유기농 쌀 백세미 4kg (골든퀸2호)" grp-tax="A" qty-min="1" qty-max="4" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-409-1003001"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_e7b6cfb75a74d2992b95f6e44080.jpg' width='800' height='800'  alt="[2024년산 햅쌀] 구수한 누룽지향 특허받은 유기농 쌀 백세미 4kg (골든퀸2호)"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"409","goods_category_serial":"1003001"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">석곡농업협동조합</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-409-1003001"><span style="font-size: 17px;font-weight: bold !important;">[2024년산 햅쌀] 구수한 누룽지향 특허받은 유기농 쌀 백세미 4kg (골든퀸2호)</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_409-TCBOARD_ABS_goods_LIST_index18274" class='ABS-sell-price'>25,000<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-409-1003001?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse"><a href="kwa-ABS_goods_vf_after-409-1003001?goods_serial=409" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">후기</a> <a href="kwa-ABS_goods_vf_after-409-1003001?goods_serial=409" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">7</a>&nbsp;</div></div></td></tr></table></td><td width="24"></td><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-492-TCBOARD_ABS_goods_LIST_index18274 -calc-grp calc AB-pr" id="GoodsWrap-492-TCBOARD_ABS_goods_LIST_index18274" grp-idx="492-TCBOARD_ABS_goods_LIST_index18274" grp-name="[봉정떡방] 갓 뽑아낸 가래떡 4kg" grp-tax="C" qty-min="1" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-492-1007004"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_fbb8e25ae623a853d7f9f8a4489a.jpg' width='800' height='800'  alt="[봉정떡방] 갓 뽑아낸 가래떡 4kg"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"492","goods_category_serial":"1007004"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">봉정떡방</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-492-1007004"><span style="font-size: 17px;font-weight: bold !important;">[봉정떡방] 갓 뽑아낸 가래떡 4kg</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_492-TCBOARD_ABS_goods_LIST_index18274" class='ABS-sell-price'>27,800<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-492-1007004?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse"><a href="kwa-ABS_goods_vf_after-492-1007004?goods_serial=492" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">후기</a> <a href="kwa-ABS_goods_vf_after-492-1007004?goods_serial=492" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">20</a>&nbsp;</div></div></td></tr></table></td><td width="24"></td><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-656-TCBOARD_ABS_goods_LIST_index18274 -calc-grp calc AB-pr" id="GoodsWrap-656-TCBOARD_ABS_goods_LIST_index18274" grp-idx="656-TCBOARD_ABS_goods_LIST_index18274" grp-name="구워모짜 고구마" grp-tax="C" qty-min="1" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-656-1007004"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_af24268fee6af91be1f1f7579f35.jpg' width='800' height='800'  alt="구워모짜 고구마"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"656","goods_category_serial":"1007004"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">푸드파파 에프앤비</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-656-1007004"><span style="font-size: 17px;font-weight: bold !important;">구워모짜 고구마</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_656-TCBOARD_ABS_goods_LIST_index18274" class='ABS-sell-price'>4,200<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-656-1007004?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse">&nbsp;</div></div></td></tr></table></td><td width="24"></td><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-629-TCBOARD_ABS_goods_LIST_index18274 -calc-grp calc AB-pr" id="GoodsWrap-629-TCBOARD_ABS_goods_LIST_index18274" grp-idx="629-TCBOARD_ABS_goods_LIST_index18274" grp-name="(냉동) 흑찰옥수수 10팩 (30개~40개)" grp-tax="A" qty-min="1" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-629-1003004"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_32f1e963dccd5bccc4bf1d4f261d.png' width='800' height='800'  alt="(냉동) 흑찰옥수수 10팩 (30개~40개)"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"629","goods_category_serial":"1003004"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">통명산 솟대마을 영농법인</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-629-1003004"><span style="font-size: 17px;font-weight: bold !important;">(냉동) 흑찰옥수수 10팩 (30개~40개)</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_629-TCBOARD_ABS_goods_LIST_index18274" class='ABS-sell-price'>30,000<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"><span class='ABS-org-price' style='text-decoration:line-through'>50,000<span class="money-unit">원</span></span>&nbsp;<span style="color:#3e9b46; font-size: 16px; font-weight:bold; letter-spacing:-1px;">40%</span></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-629-1003004?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse"><a href="kwa-ABS_goods_vf_after-629-1003004?goods_serial=629" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">후기</a> <a href="kwa-ABS_goods_vf_after-629-1003004?goods_serial=629" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">2</a>&nbsp;</div></div></td></tr></table></td></tr><tr height="35"></tr><tr><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-224-TCBOARD_ABS_goods_LIST_index18274 -calc-grp calc AB-pr" id="GoodsWrap-224-TCBOARD_ABS_goods_LIST_index18274" grp-idx="224-TCBOARD_ABS_goods_LIST_index18274" grp-name="자매가 짜지않은 곡성 김부각 선물세트 (5개입)" grp-tax="C" qty-min="1" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-224-1007004"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_9a42866a444030f90befe0b4f39a.jpg' width='800' height='800'  alt="자매가 짜지않은 곡성 김부각 선물세트 (5개입)"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"224","goods_category_serial":"1007004"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">자매가</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-224-1007004"><span style="font-size: 17px;font-weight: bold !important;">자매가 짜지않은 곡성 김부각 선물세트 (5개입)</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_224-TCBOARD_ABS_goods_LIST_index18274" class='ABS-sell-price'>28,000<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-224-1007004?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse"><a href="kwa-ABS_goods_vf_after-224-1007004?goods_serial=224" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">후기</a> <a href="kwa-ABS_goods_vf_after-224-1007004?goods_serial=224" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">23</a>&nbsp;</div></div></td></tr></table></td><td width="24"></td><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-392-TCBOARD_ABS_goods_LIST_index18274 -calc-grp calc AB-pr" id="GoodsWrap-392-TCBOARD_ABS_goods_LIST_index18274" grp-idx="392-TCBOARD_ABS_goods_LIST_index18274" grp-name="곡성 국내산 유럽상추 (3~6종 랜덤구성) 1kg" grp-tax="A" qty-min="1" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-392-1003004"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_6c0be9ef6ff00c0205deac029496.jpg' width='800' height='800'  alt="곡성 국내산 유럽상추 (3~6종 랜덤구성) 1kg"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"392","goods_category_serial":"1003004"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">지티팜</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-392-1003004"><span style="font-size: 17px;font-weight: bold !important;">곡성 국내산 유럽상추 (3~6종 랜덤구성) 1kg</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_392-TCBOARD_ABS_goods_LIST_index18274" class='ABS-sell-price'>7,500<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-392-1003004?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse"><a href="kwa-ABS_goods_vf_after-392-1003004?goods_serial=392" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">후기</a> <a href="kwa-ABS_goods_vf_after-392-1003004?goods_serial=392" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">99</a>&nbsp;</div></div></td></tr></table></td><td width="24"></td><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-162-TCBOARD_ABS_goods_LIST_index18274 -calc-grp calc AB-pr" id="GoodsWrap-162-TCBOARD_ABS_goods_LIST_index18274" grp-idx="162-TCBOARD_ABS_goods_LIST_index18274" grp-name="Cafe다얼 당일로스팅 원두 1kg" grp-tax="C" qty-min="1" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-162-1007003"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_544755a383b8746d2d6323c3de9c.jpg' width='800' height='800'  alt="Cafe다얼 당일로스팅 원두 1kg"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"162","goods_category_serial":"1007003"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">다얼협동조합</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-162-1007003"><span style="font-size: 17px;font-weight: bold !important;">Cafe다얼 당일로스팅 원두 1kg</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_162-TCBOARD_ABS_goods_LIST_index18274" class='ABS-sell-price'>25,900<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-162-1007003?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse"><a href="kwa-ABS_goods_vf_after-162-1007003?goods_serial=162" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">후기</a> <a href="kwa-ABS_goods_vf_after-162-1007003?goods_serial=162" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">3</a>&nbsp;</div></div></td></tr></table></td><td width="24"></td><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-358-TCBOARD_ABS_goods_LIST_index18274 -calc-grp calc AB-pr" id="GoodsWrap-358-TCBOARD_ABS_goods_LIST_index18274" grp-idx="358-TCBOARD_ABS_goods_LIST_index18274" grp-name="[디트레인베이커리] 토란 소금빵 (소금/치즈/먹물)" grp-tax="C" qty-min="4" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-358-1007004"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_805d92a62a56d810212279ac4e6c.png' width='800' height='800'  alt="[디트레인베이커리] 토란 소금빵 (소금/치즈/먹물)"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"358","goods_category_serial":"1007004"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">디트레인베이커리</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-358-1007004"><span style="font-size: 17px;font-weight: bold !important;">[디트레인베이커리] 토란 소금빵 (소금/치즈/먹물)</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_358-TCBOARD_ABS_goods_LIST_index18274" class='ABS-sell-price'>2,800<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-358-1007004?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse"><a href="kwa-ABS_goods_vf_after-358-1007004?goods_serial=358" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">후기</a> <a href="kwa-ABS_goods_vf_after-358-1007004?goods_serial=358" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">41</a>&nbsp;</div></div></td></tr></table></td></tr></table></div></div></div><div style="text-align: center;margin-top: 30px;"><a href="kwa-ABS_goods_group_list?group_code=GST"><span  class="gsmall_all_btn_text">상품 전체보기</span></a></div></div></div></div><div class="ABA-wrap-box AB-cr" style="padding-bottom: 50px;"><div class="ABA-layout-align"><div class="ABA-container-box-1260 AB-pr"><div class="ABA-content-box AB-pr" style="text-align: center;margin: 50px 0;"><div class="yeo_goods_title"><div style="text-align: center;" align="center"><b>인기상품</b></div></div><div style="margin-bottom:14px;"><div class="AB-pa yeo_titleline"></div></div></div><div class="ABA-content-box"><div style="margin-top:0;"><div class="goodsListYjmall goodsDirectBuy" style="margin-top: 40px;"><table class="AB-tbl"><tr><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-392-TCBOARD_ABS_goods_LIST_index18313 -calc-grp calc AB-pr" id="GoodsWrap-392-TCBOARD_ABS_goods_LIST_index18313" grp-idx="392-TCBOARD_ABS_goods_LIST_index18313" grp-name="곡성 국내산 유럽상추 (3~6종 랜덤구성) 1kg" grp-tax="A" qty-min="1" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-392-1003004"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_6c0be9ef6ff00c0205deac029496.jpg' width='800' height='800'  alt="곡성 국내산 유럽상추 (3~6종 랜덤구성) 1kg"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"392","goods_category_serial":"1003004"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">지티팜</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-392-1003004"><span style="font-size: 17px;font-weight: bold !important;">곡성 국내산 유럽상추 (3~6종 랜덤구성) 1kg</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_392-TCBOARD_ABS_goods_LIST_index18313" class='ABS-sell-price'>7,500<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-392-1003004?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse"><a href="kwa-ABS_goods_vf_after-392-1003004?goods_serial=392" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">후기</a> <a href="kwa-ABS_goods_vf_after-392-1003004?goods_serial=392" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">99</a>&nbsp;</div></div></td></tr></table></td><td width="24"></td><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-99-TCBOARD_ABS_goods_LIST_index18313 -calc-grp calc AB-pr" id="GoodsWrap-99-TCBOARD_ABS_goods_LIST_index18313" grp-idx="99-TCBOARD_ABS_goods_LIST_index18313" grp-name="곡성 옥과농원 무농약 참송이버섯 500g" grp-tax="A" qty-min="1" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-99-1003002"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_90a84329b885f9ec37a3ac625dba.jpg' width='800' height='800'  alt="곡성 옥과농원 무농약 참송이버섯 500g"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"99","goods_category_serial":"1003002"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">옥과농원</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-99-1003002"><span style="font-size: 17px;font-weight: bold !important;">곡성 옥과농원 무농약 참송이버섯 500g</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_99-TCBOARD_ABS_goods_LIST_index18313" class='ABS-sell-price'>14,900<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-99-1003002?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse"><a href="kwa-ABS_goods_vf_after-99-1003002?goods_serial=99" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">후기</a> <a href="kwa-ABS_goods_vf_after-99-1003002?goods_serial=99" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">23</a>&nbsp;</div></div></td></tr></table></td><td width="24"></td><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-49-TCBOARD_ABS_goods_LIST_index18313 -calc-grp calc AB-pr" id="GoodsWrap-49-TCBOARD_ABS_goods_LIST_index18313" grp-idx="49-TCBOARD_ABS_goods_LIST_index18313" grp-name="가랑드 수제토란파이만주 24구" grp-tax="C" qty-min="1" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-49-1007004"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_2f3d1b3cad3f03b039fd34e53519.jpg' width='800' height='800'  alt="가랑드 수제토란파이만주 24구"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"49","goods_category_serial":"1007004"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">수상한영농조합법인</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-49-1007004"><span style="font-size: 17px;font-weight: bold !important;">가랑드 수제토란파이만주 24구</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_49-TCBOARD_ABS_goods_LIST_index18313" class='ABS-sell-price'>37,700<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-49-1007004?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse"><a href="kwa-ABS_goods_vf_after-49-1007004?goods_serial=49" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">후기</a> <a href="kwa-ABS_goods_vf_after-49-1007004?goods_serial=49" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">5</a>&nbsp;</div></div></td></tr></table></td><td width="24"></td><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-772-TCBOARD_ABS_goods_LIST_index18313 -calc-grp calc AB-pr" id="GoodsWrap-772-TCBOARD_ABS_goods_LIST_index18313" grp-idx="772-TCBOARD_ABS_goods_LIST_index18313" grp-name="바우정육점 떡갈비 480g" grp-tax="C" qty-min="1" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-772-1006001"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_ea6e2c33f0481c7d6a7890dd43da.png' width='800' height='800'  alt="바우정육점 떡갈비 480g"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"772","goods_category_serial":"1006001"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">바우정육점</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-772-1006001"><span style="font-size: 17px;font-weight: bold !important;">바우정육점 떡갈비 480g</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_772-TCBOARD_ABS_goods_LIST_index18313" class='ABS-sell-price'>15,500<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-772-1006001?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse"><a href="kwa-ABS_goods_vf_after-772-1006001?goods_serial=772" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">후기</a> <a href="kwa-ABS_goods_vf_after-772-1006001?goods_serial=772" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">8</a>&nbsp;</div></div></td></tr></table></td></tr><tr height="35"></tr><tr><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-224-TCBOARD_ABS_goods_LIST_index18313 -calc-grp calc AB-pr" id="GoodsWrap-224-TCBOARD_ABS_goods_LIST_index18313" grp-idx="224-TCBOARD_ABS_goods_LIST_index18313" grp-name="자매가 짜지않은 곡성 김부각 선물세트 (5개입)" grp-tax="C" qty-min="1" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-224-1007004"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_9a42866a444030f90befe0b4f39a.jpg' width='800' height='800'  alt="자매가 짜지않은 곡성 김부각 선물세트 (5개입)"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"224","goods_category_serial":"1007004"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">자매가</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-224-1007004"><span style="font-size: 17px;font-weight: bold !important;">자매가 짜지않은 곡성 김부각 선물세트 (5개입)</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_224-TCBOARD_ABS_goods_LIST_index18313" class='ABS-sell-price'>28,000<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-224-1007004?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse"><a href="kwa-ABS_goods_vf_after-224-1007004?goods_serial=224" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">후기</a> <a href="kwa-ABS_goods_vf_after-224-1007004?goods_serial=224" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">23</a>&nbsp;</div></div></td></tr></table></td><td width="24"></td><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-341-TCBOARD_ABS_goods_LIST_index18313 -calc-grp calc AB-pr" id="GoodsWrap-341-TCBOARD_ABS_goods_LIST_index18313" grp-idx="341-TCBOARD_ABS_goods_LIST_index18313" grp-name="[새벽장어 곡성] 신선함을 그대로 국내산 자포니카 민물장어 1kg" grp-tax="A" qty-min="1" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-341-1006002"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_3b81879e595ea2c4e70b66b2d282.jpg' width='800' height='800'  alt="[새벽장어 곡성] 신선함을 그대로 국내산 자포니카 민물장어 1kg"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"341","goods_category_serial":"1006002"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">주식회사 새벽(곡성)</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-341-1006002"><span style="font-size: 17px;font-weight: bold !important;">[새벽장어 곡성] 신선함을 그대로 국내산 자포니카 민물장어 1kg</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_341-TCBOARD_ABS_goods_LIST_index18313" class='ABS-sell-price'>38,000<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-341-1006002?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse"><a href="kwa-ABS_goods_vf_after-341-1006002?goods_serial=341" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">후기</a> <a href="kwa-ABS_goods_vf_after-341-1006002?goods_serial=341" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">56</a>&nbsp;</div></div></td></tr></table></td><td width="24"></td><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-645-TCBOARD_ABS_goods_LIST_index18313 -calc-grp calc AB-pr" id="GoodsWrap-645-TCBOARD_ABS_goods_LIST_index18313" grp-idx="645-TCBOARD_ABS_goods_LIST_index18313" grp-name="참송이버섯 선물세트-고급형 (생 참송이 大 700g+건참송이칩 30g*4팩)" grp-tax="A" qty-min="1" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-645-1003002"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_2d2816f554fd6d8a67fbcc3005a8.jpg' width='800' height='800'  alt="참송이버섯 선물세트-고급형 (생 참송이 大 700g+건참송이칩 30g*4팩)"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"645","goods_category_serial":"1003002"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">옥과농원</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-645-1003002"><span style="font-size: 17px;font-weight: bold !important;">참송이버섯 선물세트-고급형 (생 참송이 大 700g+건참송이칩 30g*4팩)</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_645-TCBOARD_ABS_goods_LIST_index18313" class='ABS-sell-price'>134,600<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-645-1003002?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse">&nbsp;</div></div></td></tr></table></td><td width="24"></td><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-450-TCBOARD_ABS_goods_LIST_index18313 -calc-grp calc AB-pr" id="GoodsWrap-450-TCBOARD_ABS_goods_LIST_index18313" grp-idx="450-TCBOARD_ABS_goods_LIST_index18313" grp-name="갈아만든 생과채즙 국내산 ABC주스, 양배추브로콜리즙, 생칡즙 110ml (30봉/50봉)" grp-tax="C" qty-min="1" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-450-1007003"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_1a623594080193a50ba27a2c5c10.jpg' width='800' height='800'  alt="갈아만든 생과채즙 국내산 ABC주스, 양배추브로콜리즙, 생칡즙 110ml (30봉/50봉)"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"450","goods_category_serial":"1007003"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">진향건강원</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-450-1007003"><span style="font-size: 17px;font-weight: bold !important;">갈아만든 생과채즙 국내산 ABC주스, 양배추브로콜리즙, 생칡즙 110ml (30봉/50..</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_450-TCBOARD_ABS_goods_LIST_index18313" class='ABS-sell-price'>32,900<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-450-1007003?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse"><a href="kwa-ABS_goods_vf_after-450-1007003?goods_serial=450" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">후기</a> <a href="kwa-ABS_goods_vf_after-450-1007003?goods_serial=450" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">27</a>&nbsp;</div></div></td></tr></table></td></tr></table></div></div></div><div style="text-align: center;margin-top: 30px;"><a href="kwa-ABS_goods_group_list?group_code=GSI"><span  class="gsmall_all_btn_text">상품 전체보기</span></a></div></div></div></div><div class="ABA-wrap-box AB-cr" style="text-align: center;overflow: hidden;"><a href="kwa-4570645"><img src="images/240813_green_umbrella.png" width="1920" height="400" /></a></div><div class="ABA-wrap-box AB-cr" style="padding-bottom: 50px;"><div class="ABA-layout-align"><div class="ABA-container-box-1260 AB-pr"><div class="ABA-content-box AB-pr" style="text-align: center;margin: 50px 0;"><div class="yeo_goods_title"><div style="text-align: center;" align="center"><b>신규상품</b></div></div><div style="margin-bottom:14px;"><div class="AB-pa yeo_titleline"></div></div></div><div class="ABA-content-box"><div style="margin-top:0;"><div class="goodsListYjmall goodsDirectBuy" style="margin-top: 40px;"><table class="AB-tbl"><tr><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-796-TCBOARD_ABS_goods_LIST_index18283 -calc-grp calc AB-pr" id="GoodsWrap-796-TCBOARD_ABS_goods_LIST_index18283" grp-idx="796-TCBOARD_ABS_goods_LIST_index18283" grp-name="곡성 죽곡반송 토란 무농약 생토란 3kg/5kg" grp-tax="C" qty-min="1" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-796-1003004"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_f7d2be4d33186d5588c90f190497.png' width='800' height='800'  alt="곡성 죽곡반송 토란 무농약 생토란 3kg/5kg"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"796","goods_category_serial":"1003004"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">곡성토란영농조합법인</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-796-1003004"><span style="font-size: 17px;font-weight: bold !important;">곡성 죽곡반송 토란 무농약 생토란 3kg/5kg</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_796-TCBOARD_ABS_goods_LIST_index18283" class='ABS-sell-price'>21,300<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-796-1003004?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse">&nbsp;</div></div></td></tr></table></td><td width="24"></td><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-807-TCBOARD_ABS_goods_LIST_index18283 -calc-grp calc AB-pr" id="GoodsWrap-807-TCBOARD_ABS_goods_LIST_index18283" grp-idx="807-TCBOARD_ABS_goods_LIST_index18283" grp-name="[푸드파파] 머핀 보리떡" grp-tax="C" qty-min="1" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-807-1007004"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_08b3b87e557f2f0169dc49e67b84.jpg' width='800' height='800'  alt="[푸드파파] 머핀 보리떡"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"807","goods_category_serial":"1007004"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">푸드파파 에프앤비</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-807-1007004"><span style="font-size: 17px;font-weight: bold !important;">[푸드파파] 머핀 보리떡</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_807-TCBOARD_ABS_goods_LIST_index18283" class='ABS-sell-price'>12,000<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-807-1007004?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse">&nbsp;</div></div></td></tr></table></td><td width="24"></td><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-813-TCBOARD_ABS_goods_LIST_index18283 -calc-grp calc AB-pr" id="GoodsWrap-813-TCBOARD_ABS_goods_LIST_index18283" grp-idx="813-TCBOARD_ABS_goods_LIST_index18283" grp-name="명품 심청골 추어탕" grp-tax="C" qty-min="1" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-813-1007001"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_12fdd5ba696132ef2dea7e9a3dd5.jpg' width='800' height='800'  alt="명품 심청골 추어탕"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"813","goods_category_serial":"1007001"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">마루푸드영농조합법인</div><div class="-fdGoodsName"  style="height:55px"><a href="kwa-ABS_goods_v-813-1007001" class="AB-inline"><span style="color:#999; text-decoration:line-through; font-size: 17px; font-weight: bold !important;">명품 심청골 추어탕</span><span style="color: #ff6f6f; font-weight: 500;"> [품절]</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_813-TCBOARD_ABS_goods_LIST_index18283" class='ABS-sell-price'>6,000<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-813-1007001?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse">&nbsp;</div></div></td></tr></table></td><td width="24"></td><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-823-TCBOARD_ABS_goods_LIST_index18283 -calc-grp calc AB-pr" id="GoodsWrap-823-TCBOARD_ABS_goods_LIST_index18283" grp-idx="823-TCBOARD_ABS_goods_LIST_index18283" grp-name="미실란 유기농 현미채소볼 70g" grp-tax="C" qty-min="3" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-823-1007004"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_8d2cba07cd95c8388e7e66a26ca9.jpg' width='800' height='800'  alt="미실란 유기농 현미채소볼 70g"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"823","goods_category_serial":"1007004"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">농업회사법인(주)미실란</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-823-1007004"><span style="font-size: 17px;font-weight: bold !important;">미실란 유기농 현미채소볼 70g</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_823-TCBOARD_ABS_goods_LIST_index18283" class='ABS-sell-price'>5,500<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-823-1007004?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse">&nbsp;</div></div></td></tr></table></td></tr><tr height="35"></tr><tr><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-622-TCBOARD_ABS_goods_LIST_index18283 -calc-grp calc AB-pr" id="GoodsWrap-622-TCBOARD_ABS_goods_LIST_index18283" grp-idx="622-TCBOARD_ABS_goods_LIST_index18283" grp-name="[7월2일 예약발송] 25년 노지 햇 생 흑찰옥수수 10개" grp-tax="A" qty-min="1" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-622-1003004"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_9002b40f46675475ef7c7395c574.jpg' width='800' height='800'  alt="[7월2일 예약발송] 25년 노지 햇 생 흑찰옥수수 10개"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"622","goods_category_serial":"1003004"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">삼기품영농조합법인</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-622-1003004"><span style="font-size: 17px;font-weight: bold !important;">[7월2일 예약발송] 25년 노지 햇 생 흑찰옥수수 10개</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_622-TCBOARD_ABS_goods_LIST_index18283" class='ABS-sell-price'>14,900<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-622-1003004?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse"><a href="kwa-ABS_goods_vf_after-622-1003004?goods_serial=622" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">후기</a> <a href="kwa-ABS_goods_vf_after-622-1003004?goods_serial=622" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">14</a>&nbsp;</div></div></td></tr></table></td><td width="24"></td><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-801-TCBOARD_ABS_goods_LIST_index18283 -calc-grp calc AB-pr" id="GoodsWrap-801-TCBOARD_ABS_goods_LIST_index18283" grp-idx="801-TCBOARD_ABS_goods_LIST_index18283" grp-name="곡성 쌀쿠키박스(토란 3봉&콩고물 3봉&라이제쿠키 4봉)" grp-tax="C" qty-min="1" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-801-1007004"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_c84a3a433a2252a6de08afed6e51.jpg' width='800' height='800'  alt="곡성 쌀쿠키박스(토란 3봉&콩고물 3봉&라이제쿠키 4봉)"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"801","goods_category_serial":"1007004"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">자매가</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-801-1007004"><span style="font-size: 17px;font-weight: bold !important;">곡성 쌀쿠키박스(토란 3봉&콩고물 3봉&라이제쿠키 4봉)</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_801-TCBOARD_ABS_goods_LIST_index18283" class='ABS-sell-price'>15,000<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-801-1007004?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse"><a href="kwa-ABS_goods_vf_after-801-1007004?goods_serial=801" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">후기</a> <a href="kwa-ABS_goods_vf_after-801-1007004?goods_serial=801" class="AB_btn_dialog_afteruse" rel="600,600,상품후기">7</a>&nbsp;</div></div></td></tr></table></td><td width="24"></td><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-809-TCBOARD_ABS_goods_LIST_index18283 -calc-grp calc AB-pr" id="GoodsWrap-809-TCBOARD_ABS_goods_LIST_index18283" grp-idx="809-TCBOARD_ABS_goods_LIST_index18283" grp-name="캠핑용 토란 쌀소면 국수 밀키트 2인분 (멸치,해물) 일회용냄비 포함" grp-tax="C" qty-min="1" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-809-1007001"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_92eb4d569fd96246b67d7ed2e825.png' width='800' height='800'  alt="캠핑용 토란 쌀소면 국수 밀키트 2인분 (멸치,해물) 일회용냄비 포함"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"809","goods_category_serial":"1007001"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">심플리잇</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-809-1007001"><span style="font-size: 17px;font-weight: bold !important;">캠핑용 토란 쌀소면 국수 밀키트 2인분 (멸치,해물) 일회용냄비 포함</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_809-TCBOARD_ABS_goods_LIST_index18283" class='ABS-sell-price'>9,900<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-809-1007001?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse">&nbsp;</div></div></td></tr></table></td><td width="24"></td><td class="-tblGoodsList"><table><tr><td width="300"><div class="GoodsWrap-822-TCBOARD_ABS_goods_LIST_index18283 -calc-grp calc AB-pr" id="GoodsWrap-822-TCBOARD_ABS_goods_LIST_index18283" grp-idx="822-TCBOARD_ABS_goods_LIST_index18283" grp-name="미실란 유기농 현미볼 50g" grp-tax="C" qty-min="3" qty-max="0" dsbl="dsbl"><div class="-fdThumb yeojuOver" style="margin-bottom: 20px;"><div><div><div><a href="kwa-ABS_goods_v-822-1007004"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/800_800_7443dd88f83a343eef599103d00f.jpg' width='800' height='800'  alt="미실란 유기농 현미볼 50g"class="AB-img-full-w -overimage"></a></div></div></div><div class="-fdGoodsModify"></div><div class="AB-pa" style="bottom:10px; left:10px;"><a href="./template/PLUGIN_shop_core/program/kbag_update.php" ajax="Y" data-ajax-option='{"load_confirm":"\uad00\uc2ec\uc0c1\ud488\uc5d0 \ub2f4\uc558\uc2b5\ub2c8\ub2e4. \uad00\uc2ec\uc0c1\ud488\uc73c\ub85c \uc774\ub3d9\ud560\uae4c\uc694?","load_type":"H","ajax_area":"AB_contents","mode":"P","post":{"proc_mode":"add","goods_serial":"822","goods_category_serial":"1007004"},"keep_script":"Y"}'><img src="images/210521_heart_03.png" width="16" height="15" alt="WISH" /></a></div></div><div style="font-weight: 500; text-align: left;height: 22px;">농업회사법인(주)미실란</div><div class="-fdGoodsName" style="height:55px"><a href="kwa-ABS_goods_v-822-1007004"><span style="font-size: 17px;font-weight: bold !important;">미실란 유기농 현미볼 50g</span></a></div><div class="-fdGoodsPrice AB-pr"><div style="display:inline-block; margin-top:40px"><strong><span id="price_total_822-TCBOARD_ABS_goods_LIST_index18283" class='ABS-sell-price'>4,000<span class="money-unit">원</span></span></strong></div><div class="AB-pa" style="display:inline-block;left: 0;bottom: 30px;"></div><div class="cart_btn AB-pa" style="right: 5px;bottom: 0px;"><div class="-fdBtnCart goodshop_bx"><a href="kwa-ABS_goods_v-822-1007004?view_type=normal&OTSKIN=layout_bl.php" class="AB_btn_dialog_goods" rel="1200,700,상품 상세보기,,true,N,Y,false,Y,Y,Y,true" style="width: 63px;height: 63px;"><img src="images/product_bat_jangba.png" border="0" alt="" /></a></div></div></div><div class="-fdViewIcons AB-pa"><img src='./design/ko/upload_file/ABS_group/bb28e9374317be7094326b49bf78d6e3_41080_1.png' align='absmiddle' class='shop-icon front' alt='아이사랑 기부(나눔기업)'></div><div class="-afterUse">&nbsp;</div></div></td></tr></table></td></tr></table></div></div></div><div style="text-align: center;margin-top: 30px;"><a href="kwa-ABS_goods_group_list?group_code=GSJ"><span  class="gsmall_all_btn_text">상품 전체보기</span></a></div></div></div></div><div class="ABA-wrap-box AB-cr" style="padding-bottom: 50px;"><div class="ABA-layout-align"><div class="ABA-container-box-1260"><div class="ABA-content-box AB-pr" style="text-align: center;margin: 50px 0;"><div class="yeo_goods_title"><b>후기</b> 게시판</div><div style="margin-bottom:14px;"><div class="AB-pa yeo_titleline"></div></div></div><form id='TCBOARD_afteruse_LIST_index18322' name='TCBOARD_afteruse_LIST_index18322' method='post' action='kwa-home' enctype='multipart/form-data' vi='' submit-func='return TCBOARD_afteruse_LIST_index18322_submit(this, "");'>
+		<input type="hidden" name="board" value="afteruse" />
+		<input type="hidden" name="flag" value="gokseongmall.com" />
+		<input type="hidden" name="http_referer" value="" />
+		<input type="hidden" name="after_db_script" value="" />
+		<input type="hidden" name="after_db_msg" value="" />
+	<input type='hidden' name='Q_STRING' value='' /><input type='hidden' name='P_SELF' value='insiter.php' /><input type='hidden' name='VG_live_code' value='30beefd74c0d49603a2fa8ba2e914c2b' /><input type='hidden' name='page_dfg' value='' /><div class="ABA-content-box bdList"><div><div class="articleList" id="goods-review-wrap"><div><table class="-tblList"><caption>구매후기</caption><thead><tr class="onlyPC"><th width="50" height="36"><a href="/kwa-home?SI_F_serial_num=asc">번호</a></th><th width="50" height="36"><a href="/kwa-home?SI_F_serial_num=asc">상품</a></th><th>상품평</th><th width="40">평점</th><th width="90">작성자</th><th width="70">작성일</th><th width="40">조회</th></tr></thead><tbody><tr><td width="30" height="34" style="line-height: 34px;"><a href="kwa-ABS_goods_v-397-1003004">5</a></td><td width="50" height="34" class="onlyPC"><div class="AB-fl board_field" style="margin-top: 2px;padding-right: 15px;width: 54px;"><a href="kwa-ABS_goods_v-397-1003004" target="_blank"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/120_120_1f7ce19a32c558eb3a1d9934918a.jpg' width='120' height='120'  alt="곡성농협 명품 곡성멜론 8kg 4수"class="AB-img-full-w purchaseReview_img"></a></div></td><td height="34" class="-alignLeft -fdSubject"><div><span style="color: #999;">곡성농협 명품 곡성멜론 8kg 4수</span></div><div><a href='#;' onclick="window.open('kwa-afteruse_v-2000?OTSKIN=layout_bl.php','name', 'top=10,left=10,width=810,height=600,resizable=1,status=0,scrollbars=1,menubar=0').focus()"><span class='AB-LF-common'>매년마다 기다려지는 멜론  <img src="./cooker/theme/20170301/images/new.gif" border="0" alt="새글" /></span></a></div></td><td width="40" class="onlyPC"><img src="/template/DESIGN_shop06/program/images/star10.png" alt="상품후기 평점" class="AB-review-icon" style="vertical-align: middle;padding-top:0px;"/></td><td width="90" class="onlyPC"><p id="ABP-btn-fdmenu-board-afteruse-2000" class="btnFmenuStateY"><a href="#;">박○○</a></p></td><td width="70" class="onlyPC">25-06-24</td><td width="40" class="onlyPC"><span style="text-align: center;">10</span></td></tr><tr><td width="30" height="34" style="line-height: 34px;"><a href="kwa-ABS_goods_v-55-1003004">4</a></td><td width="50" height="34" class="onlyPC"><div class="AB-fl board_field" style="margin-top: 2px;padding-right: 15px;width: 54px;"><a href="kwa-ABS_goods_v-55-1003004" target="_blank"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/120_120_85ee8f32a8933e5dbcb7b757c484.jpg' width='120' height='120'  alt="곡성 멜론(기차타고멜론마을) 8kg (3~4수)"class="AB-img-full-w purchaseReview_img"></a></div></td><td height="34" class="-alignLeft -fdSubject"><div><span style="color: #999;">곡성 멜론(기차타고멜론마을) 8kg (3~4수)</span></div><div><a href='#;' onclick="window.open('kwa-afteruse_v-1999?OTSKIN=layout_bl.php','name', 'top=10,left=10,width=810,height=600,resizable=1,status=0,scrollbars=1,menubar=0').focus()"><span class='AB-LF-common'>멜론 너무나 달콤 합니다. <img src="./cooker/theme/20170301/images/new.gif" border="0" alt="새글" /></span></a></div></td><td width="40" class="onlyPC"><img src="/template/DESIGN_shop06/program/images/star10.png" alt="상품후기 평점" class="AB-review-icon" style="vertical-align: middle;padding-top:0px;"/></td><td width="90" class="onlyPC"><p id="ABP-btn-fdmenu-board-afteruse-1999" class="btnFmenuStateY"><a href="#;">네○○</a></p></td><td width="70" class="onlyPC">25-06-24</td><td width="40" class="onlyPC"><span style="text-align: center;">59</span></td></tr><tr><td width="30" height="34" style="line-height: 34px;"><a href="kwa-ABS_goods_v-392-1003004">3</a></td><td width="50" height="34" class="onlyPC"><div class="AB-fl board_field" style="margin-top: 2px;padding-right: 15px;width: 54px;"><a href="kwa-ABS_goods_v-392-1003004" target="_blank"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/120_120_6c0be9ef6ff00c0205deac029496.jpg' width='120' height='120'  alt="곡성 국내산 유럽상추 (3~6종 랜덤구성) 1kg"class="AB-img-full-w purchaseReview_img"></a></div></td><td height="34" class="-alignLeft -fdSubject"><div><span style="color: #999;">곡성 국내산 유럽상추 (3~6종 랜덤구성) 1kg</span></div><div><a href='#;' onclick="window.open('kwa-afteruse_v-1998?OTSKIN=layout_bl.php','name', 'top=10,left=10,width=810,height=600,resizable=1,status=0,scrollbars=1,menubar=0').focus()"><span class='AB-LF-common'>아침에 먹는 상추 <img src="./cooker/theme/20170301/images/new.gif" border="0" alt="새글" /></span></a></div></td><td width="40" class="onlyPC"><img src="/template/DESIGN_shop06/program/images/star10.png" alt="상품후기 평점" class="AB-review-icon" style="vertical-align: middle;padding-top:0px;"/></td><td width="90" class="onlyPC"><p id="ABP-btn-fdmenu-board-afteruse-1998" class="btnFmenuStateY"><a href="#;">조○○</a></p></td><td width="70" class="onlyPC">25-06-24</td><td width="40" class="onlyPC"><span style="text-align: center;">65</span></td></tr><tr><td width="30" height="34" style="line-height: 34px;"><a href="kwa-ABS_goods_v-397-1003004">2</a></td><td width="50" height="34" class="onlyPC"><div class="AB-fl board_field" style="margin-top: 2px;padding-right: 15px;width: 54px;"><a href="kwa-ABS_goods_v-397-1003004" target="_blank"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/120_120_1f7ce19a32c558eb3a1d9934918a.jpg' width='120' height='120'  alt="곡성농협 명품 곡성멜론 8kg 4수"class="AB-img-full-w purchaseReview_img"></a></div></td><td height="34" class="-alignLeft -fdSubject"><div><span style="color: #999;">곡성농협 명품 곡성멜론 8kg 4수</span></div><div><a href='#;' onclick="window.open('kwa-afteruse_v-1997?OTSKIN=layout_bl.php','name', 'top=10,left=10,width=810,height=600,resizable=1,status=0,scrollbars=1,menubar=0').focus()"><span class='AB-LF-common'>완전 추천해요  <img src="./cooker/theme/20170301/images/new.gif" border="0" alt="새글" /></span></a></div></td><td width="40" class="onlyPC"><img src="/template/DESIGN_shop06/program/images/star10.png" alt="상품후기 평점" class="AB-review-icon" style="vertical-align: middle;padding-top:0px;"/></td><td width="90" class="onlyPC"><p id="ABP-btn-fdmenu-board-afteruse-1997" class="btnFmenuStateY"><a href="#;">허○○</a></p></td><td width="70" class="onlyPC">25-06-23</td><td width="40" class="onlyPC"><span style="text-align: center;">185</span></td></tr><tr><td width="30" height="34" style="line-height: 34px;"><a href="kwa-ABS_goods_v-397-1003004">1</a></td><td width="50" height="34" class="onlyPC"><div class="AB-fl board_field" style="margin-top: 2px;padding-right: 15px;width: 54px;"><a href="kwa-ABS_goods_v-397-1003004" target="_blank"><img src='./thumb/d593060f9bf1cef1b7c8c1e58464c59a/120_120_1f7ce19a32c558eb3a1d9934918a.jpg' width='120' height='120'  alt="곡성농협 명품 곡성멜론 8kg 4수"class="AB-img-full-w purchaseReview_img"></a></div></td><td height="34" class="-alignLeft -fdSubject"><div><span style="color: #999;">곡성농협 명품 곡성멜론 8kg 4수</span></div><div><a href='#;' onclick="window.open('kwa-afteruse_v-1996?OTSKIN=layout_bl.php','name', 'top=10,left=10,width=810,height=600,resizable=1,status=0,scrollbars=1,menubar=0').focus()"><span class='AB-LF-common'>여기멜론 잘하네요  <img src="./cooker/theme/20170301/images/new.gif" border="0" alt="새글" /></span></a></div></td><td width="40" class="onlyPC"><img src="/template/DESIGN_shop06/program/images/star10.png" alt="상품후기 평점" class="AB-review-icon" style="vertical-align: middle;padding-top:0px;"/></td><td width="90" class="onlyPC"><p id="ABP-btn-fdmenu-board-afteruse-1996" class="btnFmenuStateY"><a href="#;">이○○</a></p></td><td width="70" class="onlyPC">25-06-23</td><td width="40" class="onlyPC"><span style="text-align: center;">206</span></td></tr></tbody></table></div></div></div></div></form>
+<div class="ABA-content-box" style="text-align: center;margin-top: 20px;"><a href="kwa-com_bos_afteruse"><span  class="btn_hover btn-tpl btn-round-02 btn-pattern-B00" style="padding: 10px 80px;border-radius: 15px;border: 1px solid #d7d7d7; font-size: 17px;">후기 더보기</span></a></div></div></div></div><div class="t_brand_ban ABA-content-box"></div><div class="ABA-wrap-box AB-cr" id="ABA-footer"><div class="ABA-container-box"><div class="ABA-wrap-box AB-cr" style="padding: 10px 0px;background-color: #fff;border-top: 1px solid #dddddd;"><div class="ABA-layout-align"><div class="ABA-container-box-250"><div class="ABA-content-box" style="margin-bottom: 0px;"><img src=images/곡성군청.png height="78" alt="footer_logo_gokseonggun" /></div></div><div class="ABA-container-box-900"><div class="ABA-content-box AB-fns-13" style="font-size: 14px;font-weight: 300;color: #555555;line-height: 1.6;margin-top: 10px;"><p style="line-height: 1;"><br>주소: (57536) 전라남도 곡성군 곡성읍 군청로 50&nbsp; 개인정보관리 책임자: 우희정(061-360-8305)<br><span style="font-size: 8pt;">﻿</span><br><span style="color: rgb(51, 51, 51);">※ 곡성군청 위탁으로 (주)리얼커머스에서 관리하는 쇼핑몰입니다.</span></p></div></div></div></div><div class="ABA-wrap-box AB-cr" style="background-color: #fff;border-top: 1px solid #dddddd;"><div class="ABA-layout-align"><div class="ABA-container-box-210"><div class="ABA-content-box" style="padding: 10px 0 5px 30px;"><img src=images/footer_logo01.png width="155" height="77" alt="footer_logo" /></div></div><div class="ABA-container-box-995"><div class="ABA-content-box footerNobar" style="margin-top: 5px;margin-left: 18px;"><a href="kwa-3154860">곡성몰소개<span>|</span></a><a href="kwa-no_email">이메일수집거부<span>|</span></a><a href="kwa-private_info">개인정보처리방침<span>|</span></a><a href="kwa-policy">이용약관<span>|</span></a><a href="kwa-3154857">자주하는질문<span>|</span></a><a href="/kwa-home?pc=m">모바일버전</a></div></div></div></div><div class="ABA-wrap-box AB-cr" style="padding-top: 40px;padding-bottom: 15px;border-top: 1px solid #e5e5e5;border-bottom: 1px solid #e5e5e5;"><div class="ABA-layout-align"><div class="ABA-container-box-400" style="border-right: 1px solid #dddddd;"><div class="ABA-content-box" style="margin-bottom: 0;padding-right: 40px;height: 160px;"><div style="font-size: 9px;;color: #000; font-weight:700; padding-bottom: 5px;"><div>CUSTOMER CENTER<br></div><div  style="margin: 10px 0;border: 1px solid #000;width: 9px;"></div></div><div style=" font-size: 18px;color: #000;margin-bottom: 10px; font-weight:600; ">070-8832-3984</div><div style="font-size: 12px;color: #a8a8a8;line-height:20px; font-weight:300;">상담사도 누군가의 소중한 가족입니다<br><span style="color:#333;">평일</span> 오전 10:00~ 오후 6:00 / <span style="color:#333;">점심시간</span> 오후 12:00~ 오후 1:00<br>토 / 일 / <span style="color:#333;">공휴일 휴무</span></div></div></div><div class="ABA-container-box-200" style="padding: 0 25px;border-right: 1px solid #dddddd;box-sizing: border-box;"><div class="ABA-content-box mainTplWrap" style="height: 160px;"><div style="font-size: 9px;;color: #000; font-weight:700; padding-bottom: 5px;"><div>SHOPPING MENU</div><div  style="margin: 10px 0;border: 1px solid #000;width: 9px;"></div></div><div class="footer_menu"><a href="kwa-shop_mypage">마이페이지</a><a href="kwa-ABS_kbag_l">관심상품</a><a href="kwa-ABS_sbag_l">장바구니</a><a href="kwa-sell_list">주문조회</a></div></div></div><div class="ABA-container-box-300" style="padding: 0 25px;height: 190px;box-sizing: border-box;"><div class="ABA-content-box mainTplWrap" style="margin-bottom: 10px;"><div style="font-size: 9px;;color: #000; font-weight:700; padding-bottom: 5px;"><div>RETURN / EXCHANGE</div><div  style="margin: 10px 0;border: 1px solid #000;width: 9px;"></div></div><div style="font-size: 12px;color: #a8a8a8;line-height:20px; font-weight:300;">교환 및 반품시 고객센터를 통해 부탁드리며,<br>고객센터를 통하지 않을 시 교환/반품이 어렵습니다.</div><div><a href="kwa-personal_consult"><span  style="font-size:16px; color:#333;">1:1문의 및 교환반품 문의</span></a></div></div></div><div class="ABA-container-box-350"><div class="ABA-content-box"><a href="kwa-372358"><img src="images/footer_minibanner2.png" width="350" /></a></div></div></div></div><div class="ABA-wrap-box AB-cr" style="padding-top: 40px;"><div class="ABA-layout-align"><div class="ABA-container-box-900"><div class="ABA-content-box footer_info" style="font-size: 12px;color: #919191;line-height: 20px;margin-bottom: 20px; ;">곡성몰 | 개인정보 관리 책임자 박진우 | 개인정보관리담당자 박진우 | 이메일 gokseong_mall@naver.com<br>컨설팅/MD/CS/디자인/운영업체 (주)리얼커머스 | 상호명 곡성몰 | 대표 송채은,박진우 | 사업자등록번호 282-81-00300 <span style="font-size: 9pt;"><a href="https://www.ftc.go.kr/www/bizCommList.do?key=232" target="_blank" style="">[사업자정보확인]</a></span><br>통신판매업신고 2022-대전서구-1219 | 주소 대전광역시 서구 대덕대로 195번길 64(둔산동 1090) &nbsp;|&nbsp;대표전화번호 070-8832-3984 | 팩스번호 042-716-7023</div><div class="ABA-content-box footer_info" style="font-size: 12px;line-height: 20px; margin-bottom:20px; ">당사의 모든 제작물의 저작권은 입점한 개발 업체에 있으며, 무단복제나 도용은<br>저작권법(97조5항)에 의해 금지되어 있습니다. 이를 위반시 법적인 처벌을 받을 수 있습니다.<br><br><br>copyright ⓒ 2024 by gokseongmall. all rights reserved</div></div><div class="ABA-container-box-360" style="text-align: right;"><div class="ABA-content-box AB-cr" style=";"></div></div></div></div></div></div>
+				<div class="draggable ABA-web-editor" id='div_notice_152' style='z-index:999;position:absolute;left:350px;top:305px;width:350px;height:350px;'>
+		
+		
+			
+			<div class="popup_contents"><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><p><a href="https://gokseongmall.com/kwa-3365004-62" target="_self"><img width="350" height="350" alt="" src="/thumb/6666cd76f96956469e7be39d750cc7d9/350_350_602623289e7b35851245ee05403d.jpg"></a></p></div></div></div></div></div></div></div><p><a href="https://gokseongmall.com/kwa-3365004-51" target="_self"></a></p></div></div></div><p><a href="https://gokseongmall.com/kwa-3365004-50" target="_blank"></a></p></div></div>
+			<div class="popup_disable_check"><div style="background:#333; padding:10px;"><input type=checkbox name='chepopup_152' value='Y' onclick='div_close_152();close_div_152()' id='popup_id_152'><label for='popup_id_152' style='color:#fff;'>다시 열지 않음</label><a href='#;' onclick='close_div_152()' style='position:absolute; bottom:12px; right:10px;'><span style='color:#fff;'>닫기</span></a></div></div>
+		
+	</div>
+			
+				<div class="draggable ABA-web-editor" id='div_notice_196' style='z-index:999;position:absolute;left:1px;top:305px;width:350px;height:350px;'>
+		
+		
+			
+			<div class="popup_contents"><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><p><a href="https://gokseongmall.com/kwa-ABS_goods_l-1010" target="_self"><img width="350" height="350" alt="" src="/thumb/6666cd76f96956469e7be39d750cc7d9/350_350_fd9df1ee1ee2ea41e4b40dd4f59f.png"></a></p></div></div></div></div></div></div><p><a href="https://gokseongmall.com/kwa-3365004-51" target="_self"></a></p></div></div></div><p><a href="https://gokseongmall.com/kwa-3365004-50" target="_blank"></a></p></div></div>
+			<div class="popup_disable_check"><div style="background:#333; padding:10px;"><input type=checkbox name='chepopup_196' value='Y' onclick='div_close_196();close_div_196()' id='popup_id_196'><label for='popup_id_196' style='color:#fff;'>다시 열지 않음</label><a href='#;' onclick='close_div_196()' style='position:absolute; bottom:12px; right:10px;'><span style='color:#fff;'>닫기</span></a></div></div>
+		
+	</div>
+			
+				<div class="draggable ABA-web-editor" id='div_notice_198' style='z-index:999;position:absolute;left:1px;top:690px;width:350px;height:350px;'>
+		
+		
+			
+			<div class="popup_contents"><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><div align="" style=""><p><img width="350" height="350" alt="" src="/thumb/6666cd76f96956469e7be39d750cc7d9/350_350_810308c300d97584135b90d370d0.png"></p></div><p><a href="https://gokseongmall.com/kwa-ABS_goods_l-1010" target="_self"></a></p></div></div></div></div></div></div><p><a href="https://gokseongmall.com/kwa-3365004-51" target="_self"></a></p></div></div></div><p><a href="https://gokseongmall.com/kwa-3365004-50" target="_blank"></a></p></div></div>
+			<div class="popup_disable_check"><div style="background:#333; padding:10px;"><input type=checkbox name='chepopup_198' value='Y' onclick='div_close_198();close_div_198()' id='popup_id_198'><label for='popup_id_198' style='color:#fff;'>다시 열지 않음</label><a href='#;' onclick='close_div_198()' style='position:absolute; bottom:12px; right:10px;'><span style='color:#fff;'>닫기</span></a></div></div>
+		
+	</div>
+			<div id='global_dialog' style='display:none;clear:both;'></div>
+		<script type="text/javascript">
+			<!--
+				
+				var page_file = '';
+				var server_request_uri = '/index.html';
+				var server_query_string = '';
+		
+				var system_level = 'P';
+	
+
+	var _VM_ = 'p';
+	var _tsss_ = 'sg98b1eb';
+	var user_level = '99';
+	var global_dialog_size = '800,600';
+	var price_sosu = '0';
+	var price_unit = '원';
+	var cybmn_unit = '원';
+	var pretty_url = 'kwa-';
+	var admin_theme = '20170301';
+	var mobile_device = 'N';
+	var price_unit_loc = 'R';
+	var price_chg_1won = 'F';
+	var _afo_ = {'cmt_reply':[], 'cmt_reply_btn':[], 'cmt_proc_num':'', 'cmt_reply_depth':''};		// 새로고침 후에도 ajax 로딩 영역을 유지하기 위한 변수
+	var post_to_get_qs = '';var alert_type = 'alert';
+	var submit_is_ing = 'N';
+$(function() {
+const abatl = localStorage.getItem('ABATL');	// 저장된 로그인정보 있는지 체크
+//alert('abatl : ' + abatl);
+if (abatl !== null) {
+	//alert('./template/PLUGIN_login_auto/program/login.ajax.php?_tsss_=sg98b1eb');
+	var xhr = new XMLHttpRequest();
+	xhr.open('POST', './template/PLUGIN_login_auto/program/login.ajax.php?_tsss_=sg98b1eb', true);
+	xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+	xhr.onreadystatechange = function (e) {
+		if (xhr.readyState !== XMLHttpRequest.DONE) return;
+		if (xhr.status === 200) {
+			const data = xhr.responseText;//console.log(data);
+			if (data.indexOf('ABATLOK') >= 0) {	// 로그인 성공시 새로고침 여부 파악 후 실행
+				var result = jQuery.parseJSON(data); localStorage.setItem('ABATL', result.ectstr);
+				if ('' != '') alert_core('');
+				if ('Y' === 'Y') document.location.reload();
+			} else {										// 로그인 실패시 저장된 값 제거
+				localStorage.removeItem('ABATL');
+				if ('' != '') alert_core('(result)');
+			}
+		} else {
+			if ('' != '') alert_core('(connect)');
+		}
+	};
+	xhr.send('abatl=' + encodeURIComponent(abatl));	// 자동로그인 요청
+	// 딜레이를 주 목적으로 하는 alert(모바일 브라우저에서 자동로그인 성공 후 reload() 전에 아래쪽 루틴에서 리다이렉션이 되는 경우를 방지하기 위함)
+	if ('' != '') alert_core('');
+}});
+$(function() { $('.AB-show-hide-btn').ab_toggle_1(); });
+$(window).load( function() {
+var ctop = 150;
+$(this).scroll(function() {
+if($(this).scrollTop() > ctop){
+$("#ABA-gnb").addClass("fixedgnb");
+}else{
+$("#ABA-gnb").removeClass("fixedgnb");
+}
+});
+});
+
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '346332431874355');
+fbq('track', 'PageView');
+
+nPayRemove = function() {
+if(jQuery('[name="goods_serial"]').val() == '710') {
+jQuery('#NaverPay').html('<span style="color:red; font-size:20px">네이버 nPay 사용 불가 상품</span>');
+}
+}
+jQuery(function(){
+nPayRemove();
+setTimeout("nPayRemove();", 100);
+setTimeout("nPayRemove();", 1000);
+setTimeout("nPayRemove();", 2000);
+setTimeout("nPayRemove();", 3000);
+setTimeout("nPayRemove();", 5000);
+setTimeout("nPayRemove();", 7000);
+setTimeout("nPayRemove();", 9000);
+})
+
+noUser = function() {
+if((jQuery('[name="Q_STRING"]').val()+'').indexOf('order') != -1 && jQuery('#passwd').length > 0 && jQuery('#passwd_re').length == 0) {
+jQuery('#passwd').attr('readonly', true);
+jQuery('#passwd').val(jQuery('#sell_buyer_mobile_2').val() + jQuery('#sell_buyer_mobile_3').val());
+}
+}
+
+jQuery(function() {
+jQuery('#sell_buyer_mobile_2, #sell_buyer_mobile_3').keyup(function() { noUser(); });
+setTimeout('noUser();', 3000);
+});
+$(function() { $('#AB-show-hide-btn').ab_toggle_1(); });
+		
+			function div_close_152() {
+				var obj_popup = document.getElementById('popup_id_152');
+				if (obj_popup.tagName === 'A') {
+					set_cookie('popup_152', 'Y' , 24);
+				} else {
+					if (obj_popup.checked === true) set_cookie('popup_152', 'Y' , 24);
+					else set_cookie('popup_152', '' , 24);
+				}
+			}
+			function close_div_152() {
+				var obj_popup = document.getElementById('div_notice_152');
+				obj_popup.style.display = 'none'; $('.ui-widget-overlay').remove(); $('html').css({'overflow':'scroll'}); // 오버레이 제거, 스크롤 제한 해제 
+			}
+			
+			$(function() {
+				var obj_popup_152 = $('#div_notice_152');
+				$('#btn_popup_open_152').on('click', function(e) {		// 레이어팝업을 다시 띄우는 버튼 처리
+					obj_popup_152.center().css('display','');
+				});
+				
+				
+				
+			});
+		
+		
+		
+			function div_close_196() {
+				var obj_popup = document.getElementById('popup_id_196');
+				if (obj_popup.tagName === 'A') {
+					set_cookie('popup_196', 'Y' , 24);
+				} else {
+					if (obj_popup.checked === true) set_cookie('popup_196', 'Y' , 24);
+					else set_cookie('popup_196', '' , 24);
+				}
+			}
+			function close_div_196() {
+				var obj_popup = document.getElementById('div_notice_196');
+				obj_popup.style.display = 'none'; $('.ui-widget-overlay').remove(); $('html').css({'overflow':'scroll'}); // 오버레이 제거, 스크롤 제한 해제 
+			}
+			
+			$(function() {
+				var obj_popup_196 = $('#div_notice_196');
+				$('#btn_popup_open_196').on('click', function(e) {		// 레이어팝업을 다시 띄우는 버튼 처리
+					obj_popup_196.center().css('display','');
+				});
+				
+				
+				
+			});
+		
+		
+		
+			function div_close_198() {
+				var obj_popup = document.getElementById('popup_id_198');
+				if (obj_popup.tagName === 'A') {
+					set_cookie('popup_198', 'Y' , 24);
+				} else {
+					if (obj_popup.checked === true) set_cookie('popup_198', 'Y' , 24);
+					else set_cookie('popup_198', '' , 24);
+				}
+			}
+			function close_div_198() {
+				var obj_popup = document.getElementById('div_notice_198');
+				obj_popup.style.display = 'none'; $('.ui-widget-overlay').remove(); $('html').css({'overflow':'scroll'}); // 오버레이 제거, 스크롤 제한 해제 
+			}
+			
+			$(function() {
+				var obj_popup_198 = $('#div_notice_198');
+				$('#btn_popup_open_198').on('click', function(e) {		// 레이어팝업을 다시 띄우는 버튼 처리
+					obj_popup_198.center().css('display','');
+				});
+				
+				
+				
+			});
+		
+		
+
+						function SYSTEM_vote_article(obj, form, board, serial_num, target, q_str, r_url, chg_values, after_script, after_msg, frm_attr, alert_msg) {
+							if (after_msg === 'X') after_msg = '';
+							if (alert_msg == '') alert_msg = '계속 진행 하시려면 \'확인\'을 그렇지 않으면 \'취소\'를 클릭하세요';
+							if (alert_msg !== 'X') {
+								alert_core(alert_msg, {'type':'alert'}, function() {
+									submit_direct_ajax(obj, '', './board/article_vote.php?_tsss_=sg98b1eb', board, serial_num, target, chg_values, q_str, after_script, after_msg, frm_attr, 'gokseongmall.com', 'insiter.php', r_url, 'N', 'home.php');
+								}, function() {
+									return false;
+								});
+							} else {
+								submit_direct_ajax(obj, '', './board/article_vote.php?_tsss_=sg98b1eb', board, serial_num, target, chg_values, q_str, after_script, after_msg, frm_attr, 'gokseongmall.com', 'insiter.php', r_url, 'N', 'home.php');
+							}
+						}
+					$(function() {	
+		var index18297visualrolling_vUl = $('#index18297visualrolling_roll_visual'), index18297visualrolling_vLi = $('li', index18297visualrolling_vUl), index18297visualrolling_bUl = $('#index18297visualrolling_roll_btn'), index18297visualrolling_bLi = $('li', index18297visualrolling_bUl), index18297visualrolling_pause = false, index18297visualrolling_wrap = $('#index18297visualrolling_roll_wrap'), index18297visualrolling_num = 0, index18297visualrolling_fade_time = 1000;
+		
+		index18297visualrolling_bLi.hover(function(){								// 버튼에 마우스 오버시
+			index18297visualrolling_pause = false;
+			var T_exp_id = $(this).attr('id').split('_');
+			index18297visualrolling_auto_roll(T_exp_id[T_exp_id.length-1]);	// 이미지 변경
+			$(this).children('img:eq(1)').fadeIn(0);											// 버튼 fadeIn
+			index18297visualrolling_pause = true;
+		}, function(){
+			//$(this).children('img:eq(1)').fadeOut(0);										// 버튼 fadeOut
+		});
+		function index18297visualrolling_stop_roll() {
+		}
+		
+		index18297visualrolling_wrap.hover(function(){								// 이미지에 마우스 오버시
+			index18297visualrolling_pause = true;
+		}, function(){
+			index18297visualrolling_pause = false;
+		});
+		
+		function index18297visualrolling_auto_roll(goNum) {			
+			if (goNum >= 0) {																			// 버튼에 올린경우, 바꿀 이미지 번호 지정, fade in/out 효과 제거
+				index18297visualrolling_vLi.fadeOut(0);
+				$('.index18297visualrolling_btn_over').fadeOut(0);
+				index18297visualrolling_num = goNum;
+				$('#index18297visualrolling_roll_img_' + goNum).fadeIn(0);
+				$('#index18297visualrolling_btn_over_' + goNum).fadeIn(0);
+			} else {																						// 자동으로 호출되는 경우, 바뀔 이미지 순차적용, fade in/out 효과 줌
+				index18297visualrolling_vLi.fadeOut(index18297visualrolling_fade_time);
+				$('.index18297visualrolling_btn_over').fadeOut(index18297visualrolling_fade_time);
+				//console.log(goNum);
+				//index18297visualrolling_num++;
+				if (goNum === undefined || goNum === -1) index18297visualrolling_num++; else index18297visualrolling_num--;
+				if (index18297visualrolling_num == 8) index18297visualrolling_num = 0;
+				else if (index18297visualrolling_num == -1) index18297visualrolling_num = 8 - 1;
+				//console.log(index18297visualrolling_num);
+				$('#index18297visualrolling_roll_img_' + index18297visualrolling_num).fadeIn(index18297visualrolling_fade_time);
+				$('#index18297visualrolling_btn_over_' + index18297visualrolling_num).fadeIn(index18297visualrolling_fade_time);
+			};
+		}
+		
+		setInterval(function(){
+			if (!index18297visualrolling_pause)index18297visualrolling_auto_roll()
+		},4000);
+		
+
+		/*// 모바일인 경우 100% 설정
+		if (typeof(agentID) !== 'undefined') {
+			//var index18297visualrolling_page_url = $('.ui-page-active').attr('data-url');
+			index18297visualrolling_wrap.attr('style', '');
+			var vLi_img = index18297visualrolling_vLi.find('img');
+			var vLi_img_width = vLi_img.eq(0).width();
+			var vLi_img_height = vLi_img.eq(0).height();
+			var T_width_100p = index18297visualrolling_wrap.width();
+			var T_height_100p = index18297visualrolling_wrap.width() * vLi_img_height / vLi_img_width;
+			vLi_img.removeAttr('width');
+			vLi_img.removeAttr('height');
+			vLi_img.css('width', '100%');
+			index18297visualrolling_wrap.width(T_width_100p);
+			index18297visualrolling_wrap.height(T_height_100p);
+			$(window).on('resize', index18297visualrolling_sizeChangeHandler);
+			$(window).on('pagechange', index18297visualrolling_sizeChangeHandler);
+			function index18297visualrolling_sizeChangeHandler(event) {
+				//if ($('.ui-page-active').attr('data-url') == index18297visualrolling_page_url) {
+					index18297visualrolling_wrap.attr('style', '');
+					var T_width_100p = index18297visualrolling_wrap.width();
+					var T_height_100p = index18297visualrolling_wrap.width() * vLi_img_height / vLi_img_width;
+					index18297visualrolling_wrap.width(T_width_100p);
+					index18297visualrolling_wrap.height(T_height_100p);
+				//}
+			}
+		}*/
+	});
+		function TCBOARD_ABS_goods_LIST_indexIheaderDoTtphp18819_submit(obj, button_type) {
+			errfld = '';
+			var obj_this = $(obj);
+			var form_jq = obj_this.parents('form');
+			var form = form_jq[0];
+			
+	
+			if (errfld != '' && form.getAttribute('pass-invalid-alert') !== 'Y') {
+				var essen_msg = "필수입력사항을 누락없이 형식에 맞게 작성해주세요.\n'컬러가 변경된 입력상자' 가 필수 입력항목 입니다.";
+				var data_essen_msg = form_jq.attr('data-essen-msg'); if (data_essen_msg !== undefined) essen_msg = data_essen_msg;
+				alert_core(essen_msg); $('#loading_img').css('display', 'none');
+				errfld = ''; return false;
+			}
+			
+			$('*', form_jq).prop('required', false); $(':input[value!=""]', form_jq).removeClass('AB-empty-value');
+			$('.AB-empty-value', form_jq).prop('required', true);	// 유효성 검사할 대상을 지정 (필수 입력상자 중 꼭 입력되어야 할 것들, ;etc_1+etc_2; 형태 반영)
+			
+			if (form.checkValidity()) {		// html5 폼 검사 통과 확인 (통과 안되는 상황은 브라우저가 처리)
+				if (submit_is_ing === 'N') {	// form change 되면 N으로 초기화 되도록 해서 safari 도 해결, 문제가 되면 뒤로가기 했을때 새로고침 되도록 하는 스크립트를 적당한 곳(폼이 있는 페이지등)에 넣기 (jquery_abuilder.js 맨 위쪽에 주석처리 해 둠)
+					
+if (form.method === 'get') disabled_except_obj(form, 'SCH_', ['design_file', 'search_item', 'search_value', 'search_operator', 'category_1', 'category_2', 'category_3', 'category_4', 'category_5', 'category_6', 'sch_method', 'article_num', 'mini_uid', 'submit_OK','tpa','tpa_indexIheaderDoTtphp18819','search_item','except_box_disabled']);
+					
+					$('.-rm-cma', form_jq).each(function(i) { $(this).val($(this).val().replace(/[^0-9\.\-]/g, '')) });
+					$('*[name$="[]_multi"]', form_jq).prop('disabled', true); //console.log($('*', form_jq));
+					if (form.target == '') submit_is_ing = 'Y';
+					
+			if (button_type === 'text') form.submit();
+			else return true;
+	
+				} else {
+					alert_core("진행중입니다. 잠시만 기다려주세요");
+					return false;
+				}
+			} else {
+				alert_core("필수입력사항을 누락없이 형식에 맞게 작성해주세요.\n'컬러가 변경된 입력상자' 가 필수 입력항목 입니다.");
+			}
+		}
+	
+
+		function TCBOARD_afteruse_LIST_index18322_submit(obj, button_type) {
+			errfld = '';
+			var obj_this = $(obj);
+			var form_jq = obj_this.parents('form');
+			var form = form_jq[0];
+			
+	
+			if (errfld != '' && form.getAttribute('pass-invalid-alert') !== 'Y') {
+				var essen_msg = "필수입력사항을 누락없이 형식에 맞게 작성해주세요.\n'컬러가 변경된 입력상자' 가 필수 입력항목 입니다.";
+				var data_essen_msg = form_jq.attr('data-essen-msg'); if (data_essen_msg !== undefined) essen_msg = data_essen_msg;
+				alert_core(essen_msg); $('#loading_img').css('display', 'none');
+				errfld = ''; return false;
+			}
+			
+			$('*', form_jq).prop('required', false); $(':input[value!=""]', form_jq).removeClass('AB-empty-value');
+			$('.AB-empty-value', form_jq).prop('required', true);	// 유효성 검사할 대상을 지정 (필수 입력상자 중 꼭 입력되어야 할 것들, ;etc_1+etc_2; 형태 반영)
+			
+			if (form.checkValidity()) {		// html5 폼 검사 통과 확인 (통과 안되는 상황은 브라우저가 처리)
+				if (submit_is_ing === 'N') {	// form change 되면 N으로 초기화 되도록 해서 safari 도 해결, 문제가 되면 뒤로가기 했을때 새로고침 되도록 하는 스크립트를 적당한 곳(폼이 있는 페이지등)에 넣기 (jquery_abuilder.js 맨 위쪽에 주석처리 해 둠)
+					
+if (form.method === 'get') disabled_except_obj(form, 'SCH_', ['design_file', 'search_item', 'search_value', 'search_operator', 'category_1', 'category_2', 'category_3', 'category_4', 'category_5', 'category_6', 'sch_method', 'article_num', 'mini_uid', 'submit_OK','tpa','tpa_index18322']);
+					
+					$('.-rm-cma', form_jq).each(function(i) { $(this).val($(this).val().replace(/[^0-9\.\-]/g, '')) });
+					$('*[name$="[]_multi"]', form_jq).prop('disabled', true); //console.log($('*', form_jq));
+					if (form.target == '') submit_is_ing = 'Y';
+					
+			if (button_type === 'text') form.submit();
+			else return true;
+	
+				} else {
+					alert_core("진행중입니다. 잠시만 기다려주세요");
+					return false;
+				}
+			} else {
+				alert_core("필수입력사항을 누락없이 형식에 맞게 작성해주세요.\n'컬러가 변경된 입력상자' 가 필수 입력항목 입니다.");
+			}
+		}
+	
+			
+			//-->
+		</script>
+	<script type="text/javascript"> 
+wcs_do();
+</script></body>
+</html><!-- 대기 또는 예약된 문자/푸시알림 전송(매 1분마다 체크) -->

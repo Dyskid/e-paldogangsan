@@ -1,0 +1,29 @@
+{
+  "url": "https://sclocal.kr/?pn=product.list&cuid=436",
+  "productsFound": true,
+  "productCount": 3,
+  "products": [
+    {
+      "name": "[도사동김태현] 유기농 애호박 1개",
+      "price": "2,000원",
+      "image": "https://sclocal.kr/upfiles/product/2558772059.png",
+      "link": "/?pn=product.view&cuid=436&pcode=D2580-C5072-U2637",
+      "selector": ".item_list .item_box"
+    },
+    {
+      "name": "[도사동김태현] 유기농 완숙 토마토 1kg 5kg 당일수확",
+      "price": "7,000원",
+      "image": "https://sclocal.kr/upfiles/product/2558772059.png",
+      "link": "/?pn=product.view&cuid=436&pcode=Z7686-K9436-D7316",
+      "selector": ".item_list .item_box"
+    },
+    {
+      "name": "[별량안영이] 당일손질 죽순 삶은죽순 분죽 500g 1kg 햇죽순",
+      "price": "5,000원",
+      "image": "https://sclocal.kr/upfiles/product/2558772059.png",
+      "link": "/?pn=product.view&cuid=436&pcode=G6838-P0101-S7087",
+      "selector": ".item_list .item_box"
+    }
+  ],
+  "pageTitle": "농산물 - 순천로컬푸드 함께가게"
+}

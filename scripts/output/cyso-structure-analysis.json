@@ -1,0 +1,1862 @@
+{
+  "platform": "Unknown",
+  "detectedPatterns": [],
+  "productSelectors": [
+    ".item: 6 elements",
+    "[class*=\"product\"]: 10 elements",
+    "[class*=\"item\"]: 102 elements"
+  ],
+  "categoryLinks": [
+    {
+      "text": "로그인",
+      "href": "https://www.cyso.co.kr/bbs/login.php?url=%2F"
+    },
+    {
+      "text": "장바구니",
+      "href": "https://www.cyso.co.kr/shop/cart.php"
+    },
+    {
+      "text": "마이페이지",
+      "href": "https://www.cyso.co.kr/shop/mypage.php"
+    },
+    {
+      "text": "개인결제",
+      "href": "https://www.cyso.co.kr/shop/personalpay.php"
+    },
+    {
+      "text": "쌀/잡곡",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=10"
+    },
+    {
+      "text": "쌀",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=1010"
+    },
+    {
+      "text": "기타잡곡",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=1020"
+    },
+    {
+      "text": "혼합곡",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=1030"
+    },
+    {
+      "text": "콩/팥",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=1040"
+    },
+    {
+      "text": "보리",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=1050"
+    },
+    {
+      "text": "과일류",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=20"
+    },
+    {
+      "text": "과일",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=2010"
+    },
+    {
+      "text": "과채류",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=2020"
+    },
+    {
+      "text": "견과류",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=2030"
+    },
+    {
+      "text": "기타과일",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=2040"
+    },
+    {
+      "text": "채소류",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=30"
+    },
+    {
+      "text": "채소",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=3010"
+    },
+    {
+      "text": "버섯",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=3020"
+    },
+    {
+      "text": "건나물/건채소",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=3030"
+    },
+    {
+      "text": "기타채소",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=3040"
+    },
+    {
+      "text": "축산물",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=40"
+    },
+    {
+      "text": "한우",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=4010"
+    },
+    {
+      "text": "돈육",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=4020"
+    },
+    {
+      "text": "계란",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=4030"
+    },
+    {
+      "text": "닭고기",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=4040"
+    },
+    {
+      "text": "기타축산물",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=4050"
+    },
+    {
+      "text": "수산물",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=50"
+    },
+    {
+      "text": "수산물",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=5010"
+    },
+    {
+      "text": "전복/홍합/골뱅이",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=5020"
+    },
+    {
+      "text": "건어물",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=5030"
+    },
+    {
+      "text": "액젓/젓갈",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=5040"
+    },
+    {
+      "text": "기타수산물",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=5050"
+    },
+    {
+      "text": "꿀/홍삼",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=60"
+    },
+    {
+      "text": "꿀",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=6010"
+    },
+    {
+      "text": "홍삼/인삼",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=6020"
+    },
+    {
+      "text": "분말/환/기타",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=6030"
+    },
+    {
+      "text": "가공식품",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=70"
+    },
+    {
+      "text": "과일즙/야채즙",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=7010"
+    },
+    {
+      "text": "원액/청/음료",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=7020"
+    },
+    {
+      "text": "과일말랭이/칩",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=7030"
+    },
+    {
+      "text": "면류",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=7040"
+    },
+    {
+      "text": "잼류",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=7050"
+    },
+    {
+      "text": "죽류/즉석요리(HMR)",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=7060"
+    },
+    {
+      "text": "가루식품류",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=7070"
+    },
+    {
+      "text": "발효식초/감식초",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=7080"
+    },
+    {
+      "text": "낫또/요구르트",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=7090"
+    },
+    {
+      "text": "차류",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=70a0"
+    },
+    {
+      "text": "기타식품",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=70b0"
+    },
+    {
+      "text": "펫푸드",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=70c0"
+    },
+    {
+      "text": "김치/장류/참기름",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=80"
+    },
+    {
+      "text": "김치",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=8010"
+    },
+    {
+      "text": "장류",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=8020"
+    },
+    {
+      "text": "양념류",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=8030"
+    },
+    {
+      "text": "참기름/들기름",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=8040"
+    },
+    {
+      "text": "간장류",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=8050"
+    },
+    {
+      "text": "한과/떡/빵류",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=90"
+    },
+    {
+      "text": "한과",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=9010"
+    },
+    {
+      "text": "떡",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=9020"
+    },
+    {
+      "text": "전통과자/엿",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=9030"
+    },
+    {
+      "text": "빵류",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=9040"
+    },
+    {
+      "text": "전통주류/와인",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=a0"
+    },
+    {
+      "text": "전통주",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=a010"
+    },
+    {
+      "text": "와인",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=a020"
+    },
+    {
+      "text": "막걸리",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=a030"
+    },
+    {
+      "text": "전통소주",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=a040"
+    },
+    {
+      "text": "친환경인증",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=c0"
+    },
+    {
+      "text": "식용곤충제품",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=g0"
+    },
+    {
+      "text": "신상품",
+      "href": "https://www.cyso.co.kr/shop/listtype.php?type=1"
+    },
+    {
+      "text": "베스트",
+      "href": "https://www.cyso.co.kr/shop/listtype.php?type=2"
+    },
+    {
+      "text": "가격별추천",
+      "href": "https://www.cyso.co.kr/shop/recommend_price.php"
+    },
+    {
+      "text": "테마관",
+      "href": "https://www.cyso.co.kr/shop/plan_theme.php"
+    },
+    {
+      "text": "경북시군몰",
+      "href": "https://www.cyso.co.kr/shop/local_map.php"
+    },
+    {
+      "text": "이벤트",
+      "href": "https://www.cyso.co.kr/shop/eventlist2.php"
+    },
+    {
+      "text": "고객센터",
+      "href": "https://www.cyso.co.kr/bbs/board.php?bo_table=notice"
+    },
+    {
+      "text": "공지사항",
+      "href": "https://www.cyso.co.kr/bbs/board.php?bo_table=notice"
+    },
+    {
+      "text": "1:1문의",
+      "href": "https://www.cyso.co.kr/bbs/qalist.php"
+    },
+    {
+      "text": "FAQ",
+      "href": "https://www.cyso.co.kr/bbs/faq.php"
+    },
+    {
+      "text": "꿀팁",
+      "href": "https://www.cyso.co.kr/bbs/board.php?bo_table=kooltip"
+    },
+    {
+      "text": "홍보영상",
+      "href": "https://www.cyso.co.kr/bbs/board.php?bo_table=videos"
+    },
+    {
+      "text": "안동",
+      "href": "https://www.cyso.co.kr/shop/search.php?q=%EC%95%88%EB%8F%99&qname=1"
+    },
+    {
+      "text": "등심",
+      "href": "https://www.cyso.co.kr/shop/search.php?q=%EB%93%B1%EC%8B%AC&qname=1"
+    },
+    {
+      "text": "배",
+      "href": "https://www.cyso.co.kr/shop/search.php?q=%EB%B0%B0&qname=1"
+    },
+    {
+      "text": "쌀",
+      "href": "https://www.cyso.co.kr/shop/search.php?q=%EC%8C%80&qname=1"
+    },
+    {
+      "text": "사과",
+      "href": "https://www.cyso.co.kr/shop/search.php?q=%EC%82%AC%EA%B3%BC&qname=1"
+    },
+    {
+      "text": "버섯",
+      "href": "https://www.cyso.co.kr/shop/search.php?q=%EB%B2%84%EC%84%AF&qname=1"
+    },
+    {
+      "text": "한우",
+      "href": "https://www.cyso.co.kr/shop/search.php?q=%ED%95%9C%EC%9A%B0&qname=1"
+    },
+    {
+      "text": "참외",
+      "href": "https://www.cyso.co.kr/shop/search.php?q=%EC%B0%B8%EC%99%B8&qname=1"
+    },
+    {
+      "text": "선물",
+      "href": "https://www.cyso.co.kr/shop/search.php?q=%EC%84%A0%EB%AC%BC&qname=1"
+    },
+    {
+      "text": "떡",
+      "href": "https://www.cyso.co.kr/shop/search.php?q=%EB%96%A1&qname=1"
+    },
+    {
+      "text": "안동",
+      "href": "https://www.cyso.co.kr/shop/search.php?q=%EC%95%88%EB%8F%99&qdetail=1&qmkname=1&qsearch=1"
+    },
+    {
+      "text": "등심",
+      "href": "https://www.cyso.co.kr/shop/search.php?q=%EB%93%B1%EC%8B%AC&qdetail=1&qmkname=1&qsearch=1"
+    },
+    {
+      "text": "배",
+      "href": "https://www.cyso.co.kr/shop/search.php?q=%EB%B0%B0&qdetail=1&qmkname=1&qsearch=1"
+    },
+    {
+      "text": "쌀",
+      "href": "https://www.cyso.co.kr/shop/search.php?q=%EC%8C%80&qdetail=1&qmkname=1&qsearch=1"
+    },
+    {
+      "text": "사과",
+      "href": "https://www.cyso.co.kr/shop/search.php?q=%EC%82%AC%EA%B3%BC&qdetail=1&qmkname=1&qsearch=1"
+    },
+    {
+      "text": "버섯",
+      "href": "https://www.cyso.co.kr/shop/search.php?q=%EB%B2%84%EC%84%AF&qdetail=1&qmkname=1&qsearch=1"
+    },
+    {
+      "text": "한우",
+      "href": "https://www.cyso.co.kr/shop/search.php?q=%ED%95%9C%EC%9A%B0&qdetail=1&qmkname=1&qsearch=1"
+    },
+    {
+      "text": "참외",
+      "href": "https://www.cyso.co.kr/shop/search.php?q=%EC%B0%B8%EC%99%B8&qdetail=1&qmkname=1&qsearch=1"
+    },
+    {
+      "text": "선물",
+      "href": "https://www.cyso.co.kr/shop/search.php?q=%EC%84%A0%EB%AC%BC&qdetail=1&qmkname=1&qsearch=1"
+    },
+    {
+      "text": "떡",
+      "href": "https://www.cyso.co.kr/shop/search.php?q=%EB%96%A1&qdetail=1&qmkname=1&qsearch=1"
+    },
+    {
+      "text": "[안동농업협동조합]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=nh707022"
+    },
+    {
+      "text": "4.9(130)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1575014344#sit_use"
+    },
+    {
+      "text": "[2024년산] 밥이 다르다! 안동농협 백진주쌀 10kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1575014344"
+    },
+    {
+      "text": "[주식회사 농뜨락농업회사법인]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=natural8823"
+    },
+    {
+      "text": "4.7(40)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1701154082#sit_use"
+    },
+    {
+      "text": "[농뜨락] 의성숯불 닭갈비 순한간장맛 500g",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1701154082"
+    },
+    {
+      "text": "[농부가간다]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=wpdnjs12"
+    },
+    {
+      "text": "4.8(12)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1746878496#sit_use"
+    },
+    {
+      "text": "[농부가 간다] 달달방토, 대추방울토마토 3kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1746878496"
+    },
+    {
+      "text": "[(주)안동간고등어푸드엔드베스...",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=byk0260"
+    },
+    {
+      "text": "4.5(17)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1713335676#sit_use"
+    },
+    {
+      "text": "[안동간고등어F&B]안동 손질 간고등어 140g 15팩",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1713335676"
+    },
+    {
+      "text": "[칠곡양돈영농조합법인]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=oggol7227"
+    },
+    {
+      "text": "5(65)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1740480654#sit_use"
+    },
+    {
+      "text": "[칠곡양돈]무항생 한우 1+ 모듬구이(치마/부채/업진/등심) 600g/450g",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1740480654"
+    },
+    {
+      "text": "[농수사]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_87370833"
+    },
+    {
+      "text": "4.9(11)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1731581823#sit_use"
+    },
+    {
+      "text": "[농수사] 구룡포 해풍 마른오징어 A급 10미(750g)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1731581823"
+    },
+    {
+      "text": "[농업회사법인 주식회사 여물게...",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=ymk2020"
+    },
+    {
+      "text": "4.9(967)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1633524025#sit_use"
+    },
+    {
+      "text": "문경 오미자 닭갈비 500g*4개",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1633524025"
+    },
+    {
+      "text": "[영주농협파머스마켓]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=nhfm12"
+    },
+    {
+      "text": "4.8(136)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1611277195#sit_use"
+    },
+    {
+      "text": "[영주농협.안전포장.당일도정.단일품종]24년 귀품윤기 영주일품쌀 20kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1611277195"
+    },
+    {
+      "text": "[[나무가 행복한 농원]]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=ysberry"
+    },
+    {
+      "text": "4.8(47)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1715233333#sit_use"
+    },
+    {
+      "text": "[나무가 행복한 농원] GAP인증 블루베리 1kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1715233333"
+    },
+    {
+      "text": "[농장 루비밸리]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=zmrzmrskdu"
+    },
+    {
+      "text": "4.7(77)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1734656363#sit_use"
+    },
+    {
+      "text": "[농장 루비밸리] 농가직송 GAP인증 5kg 완숙 토마토 (24과~32과)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1734656363"
+    },
+    {
+      "text": "[알찬연근팜(farm)]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_8c0d086f"
+    },
+    {
+      "text": "[알찬연근팜] 프리미엄 천도복숭아 신비복숭아",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1750255885"
+    },
+    {
+      "text": "[포항축산농협]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=phch2931"
+    },
+    {
+      "text": "4.9(34)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=569631#sit_use"
+    },
+    {
+      "text": "[포항축산농협] 한돈 삼겹살 500g",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=569631"
+    },
+    {
+      "text": "[우리한우법인영주지점]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=wrihanwoo"
+    },
+    {
+      "text": "5(6)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1731893864#sit_use"
+    },
+    {
+      "text": "[우리한우365] 사골곰탕 500ml(한우100%), 사태고기 40g 설렁탕 곰…",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1731893864"
+    },
+    {
+      "text": "[영주축산업협동조합]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=kakao_98280929"
+    },
+    {
+      "text": "5(6)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1648599375#sit_use"
+    },
+    {
+      "text": "[영주축협] 돈 삼겹살 600g (미박)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1648599375"
+    },
+    {
+      "text": "[의성복숭아나라]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=dlqmsghkwjd"
+    },
+    {
+      "text": "[의성복숭아 나라] 망고맛이 나는 \"그린황도\" 꿀복숭아 2 kg 8과~12과 내…",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1749534203"
+    },
+    {
+      "text": "[고령RPC(다사농협)]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=mondrag"
+    },
+    {
+      "text": "4.8(27)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1698831147#sit_use"
+    },
+    {
+      "text": "[고령RPC]4년 연속 경북쌀우수브랜드 선정!! 고령옥미20kg, 삼광쌀20kg…",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1698831147"
+    },
+    {
+      "text": "가공식품",
+      "href": "#cate7"
+    },
+    {
+      "text": "김치/장류/참기름",
+      "href": "#cate8"
+    },
+    {
+      "text": "[쌀아지매]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=momo3735"
+    },
+    {
+      "text": "5(7)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570788755#sit_use"
+    },
+    {
+      "text": "2024년 국산 약콩 1kg 검정콩 검은콩 서목태 쥐눈이콩",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570788755"
+    },
+    {
+      "text": "[쌀아지매]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=momo3735"
+    },
+    {
+      "text": "4.8(9)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570788754#sit_use"
+    },
+    {
+      "text": "2024년 율무 1kg 율무밥 국산율무 율무쌀",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570788754"
+    },
+    {
+      "text": "[코숭이농원]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=ybr5972"
+    },
+    {
+      "text": "4.4(7)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1705623348#sit_use"
+    },
+    {
+      "text": "[코숭이농원] 2024년산 서리태 1kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1705623348"
+    },
+    {
+      "text": "[소화농장]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=sop0987"
+    },
+    {
+      "text": "5(14)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570789496#sit_use"
+    },
+    {
+      "text": "2024년 현미 5kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570789496"
+    },
+    {
+      "text": "[경주시농협쌀조합법인]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=gjmall89"
+    },
+    {
+      "text": "4.8(130)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1616726526#sit_use"
+    },
+    {
+      "text": "[경주시농협쌀조합법인]2024년산 햅쌀 이사금 경주쌀 20kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1616726526"
+    },
+    {
+      "text": "[권영박]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=ricedr1010"
+    },
+    {
+      "text": "4.3(13)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1587021752#sit_use"
+    },
+    {
+      "text": "★행복마을★ [예천또바기마을] 2024년산 현미(영호진미) 2kg/10kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1587021752"
+    },
+    {
+      "text": "[쌀아지매]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=momo3735"
+    },
+    {
+      "text": "4.7(11)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570801342#sit_use"
+    },
+    {
+      "text": "쌀아지매 2024년 국산  깐녹두 녹두전 죽 기피녹두 거피녹두 1kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570801342"
+    },
+    {
+      "text": "[쌀아지매]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=momo3735"
+    },
+    {
+      "text": "4.8(33)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570782633#sit_use"
+    },
+    {
+      "text": "2024년 쌀아지매 현미찹쌀 찰현미10kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570782633"
+    },
+    {
+      "text": "상품 더보기+",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=10"
+    },
+    {
+      "text": "[성주초전송두선참외]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=melon"
+    },
+    {
+      "text": "4.3(70)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570785759#sit_use"
+    },
+    {
+      "text": "[성주초전송두선참외] 3k(8~15과)특가",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570785759"
+    },
+    {
+      "text": "[성주라이프]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=grace080901"
+    },
+    {
+      "text": "4.7(19)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1645937014#sit_use"
+    },
+    {
+      "text": "성주꿀참외 프리미엄 당조참외 품격있는 선물세트 5kg, 10kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1645937014"
+    },
+    {
+      "text": "[배용식농가]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=baiyongsig"
+    },
+    {
+      "text": "4.3(8)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570786008#sit_use"
+    },
+    {
+      "text": "[배용식농가] [구릿뜰농원] 건시 7호 1.5kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570786008"
+    },
+    {
+      "text": "[파머story농장]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=mungchi18"
+    },
+    {
+      "text": "4.5(106)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570788350#sit_use"
+    },
+    {
+      "text": "[파머story] 선물용 영주풍기사과 5kg 17~19과 부직포 가방 포장",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570788350"
+    },
+    {
+      "text": "[대구경북능금농협]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=kapple486"
+    },
+    {
+      "text": "4.6(17)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1676953378#sit_use"
+    },
+    {
+      "text": "[대경사과원예농협]성주 꿀 참외 2.5kg(7~10과) 로얄과 산지직송",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1676953378"
+    },
+    {
+      "text": "[영주마실푸드엔헬스(주)]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=yjms7416"
+    },
+    {
+      "text": "4(9)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570799868#sit_use"
+    },
+    {
+      "text": "영주 부사사과 3KG 선물용 9과",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570799868"
+    },
+    {
+      "text": "[수야네]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=todaeg"
+    },
+    {
+      "text": "4.5(17)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570797133#sit_use"
+    },
+    {
+      "text": "[수야네농장] 기다림이 즐거운 토댁 참외 실속형 2.5kg(6-12개),",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570797133"
+    },
+    {
+      "text": "[성주참외원예농협]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=melon4700"
+    },
+    {
+      "text": "4.7(46)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1596093265#sit_use"
+    },
+    {
+      "text": "[참외풍경] 성주참외 10kg(25과-45과) 성주참외원예농협",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1596093265"
+    },
+    {
+      "text": "상품 더보기+",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=20"
+    },
+    {
+      "text": "[한톨]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=HANTOL0804"
+    },
+    {
+      "text": "4.8(121)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=512028#sit_use"
+    },
+    {
+      "text": "2025 진짜배기 토종 의성한지마늘 장아찌마늘 저장마늘 종자마늘 1kg 3kg(…",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=512028"
+    },
+    {
+      "text": "[예천보호작업장]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=yclove9948"
+    },
+    {
+      "text": "4.7(32)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=10679622689#sit_use"
+    },
+    {
+      "text": "[예천보호작업장] 2024년 HACCP 국산 햇고춧가루(보통맛) 500g/1kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=10679622689"
+    },
+    {
+      "text": "[예천산채]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=lsb3869"
+    },
+    {
+      "text": "4.6(34)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=10681208064#sit_use"
+    },
+    {
+      "text": "[예천산채] 말린 무청시래기(건시래기) 1kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=10681208064"
+    },
+    {
+      "text": "[송향버섯농장]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=songyi2647"
+    },
+    {
+      "text": "4.8(12)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1668923414#sit_use"
+    },
+    {
+      "text": "[송향버섯농장] 송향버섯 업소용(알뜰형)1kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1668923414"
+    },
+    {
+      "text": "[해도지영농조합법인]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=haedoji001"
+    },
+    {
+      "text": "4.7(561)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570791719#sit_use"
+    },
+    {
+      "text": "고향 당근 쥬스용",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570791719"
+    },
+    {
+      "text": "[현중농원]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=khj392700"
+    },
+    {
+      "text": "4.3(83)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570760161#sit_use"
+    },
+    {
+      "text": "[현중농원] 예천 첫사랑 꿀고구마 10kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570760161"
+    },
+    {
+      "text": "[형제농원]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=solim7749"
+    },
+    {
+      "text": "4.4(8)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=512945#sit_use"
+    },
+    {
+      "text": "2025년산 의성토종 햇마늘 한접(100개/특,대,중,소)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=512945"
+    },
+    {
+      "text": "[예천산채]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=lsb3869"
+    },
+    {
+      "text": "4.6(13)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=10677345248#sit_use"
+    },
+    {
+      "text": "[예천산채] 말린 고춧잎 100g",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=10677345248"
+    },
+    {
+      "text": "상품 더보기+",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=30"
+    },
+    {
+      "text": "[리안농업회사법인주식회사]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=lovelunajh"
+    },
+    {
+      "text": "4.9(17)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1732520494#sit_use"
+    },
+    {
+      "text": "[리안] 매운 불닭발 300gx4팩 (총1.2kg)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1732520494"
+    },
+    {
+      "text": "[주식회사문경약돌돼지]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=yakdolpig"
+    },
+    {
+      "text": "5(7)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1614048390#sit_use"
+    },
+    {
+      "text": "문경약돌돼지 삼겹(냉동)500g + 목살(냉동)500g",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1614048390"
+    },
+    {
+      "text": "[제이식품]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_8c8808e4"
+    },
+    {
+      "text": "4.9(15)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1708046146#sit_use"
+    },
+    {
+      "text": "[제이식품] 명품구운계란 30구",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1708046146"
+    },
+    {
+      "text": "[주식회사문경약돌돼지]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=yakdolpig"
+    },
+    {
+      "text": "5(7)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1615427917#sit_use"
+    },
+    {
+      "text": "문경약돌돼지 뒷다리 500g(불고기,제육볶음용)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1615427917"
+    },
+    {
+      "text": "[지보참우마을영농조합]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=sn7329"
+    },
+    {
+      "text": "4.9(7)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=10670773828#sit_use"
+    },
+    {
+      "text": "[지보참우마을]예천한우 특수모듬600g[1등급]",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=10670773828"
+    },
+    {
+      "text": "[포항축산농협]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=phch2931"
+    },
+    {
+      "text": "4.9(34)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=569631#sit_use"
+    },
+    {
+      "text": "[포항축산농협] 한돈 삼겹살 500g",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=569631"
+    },
+    {
+      "text": "[상주축산농협 명실상감한우]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=nh176688"
+    },
+    {
+      "text": "5(9)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1640924372#sit_use"
+    },
+    {
+      "text": "[상주축협] 명실상감한우 채끝살 300g(1+등급)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1640924372"
+    },
+    {
+      "text": "[고기좀아는언니 ]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_8c290814"
+    },
+    {
+      "text": "4.8(8)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1654822907#sit_use"
+    },
+    {
+      "text": "고기좀아는언니 [버거패티강추!!] 프리미엄 도톰한 한우 수제 떡갈비1팩(130g…",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1654822907"
+    },
+    {
+      "text": "상품 더보기+",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=40"
+    },
+    {
+      "text": "[대게김]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=daegegim1"
+    },
+    {
+      "text": "4.9(13)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1583735545#sit_use"
+    },
+    {
+      "text": "[대게김] 대게김 4g(도시락김) 48봉",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1583735545"
+    },
+    {
+      "text": "[햇살바다]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=seanews"
+    },
+    {
+      "text": "5(7)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=708228#sit_use"
+    },
+    {
+      "text": "[햇살바다] 낙지젓 300g",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=708228"
+    },
+    {
+      "text": "[(주)풍요로운바다]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=kky4554"
+    },
+    {
+      "text": "4.3(8)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1716190222#sit_use"
+    },
+    {
+      "text": "[풍요로운바다] 당일조업 신선한 후포리 박달홍게 붉은대게 특품(A등급) 8-11…",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1716190222"
+    },
+    {
+      "text": "[늘감]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_908e08cb"
+    },
+    {
+      "text": "4.8(10)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1625125717#sit_use"
+    },
+    {
+      "text": "붉은대게를 과자처럼 바삭바삭 해각포 100g",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1625125717"
+    },
+    {
+      "text": "[울진 이정푸드]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=ejungseafood"
+    },
+    {
+      "text": "4.8(9)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1705987917#sit_use"
+    },
+    {
+      "text": "[이정푸드] (大)마른(건조) 물가자미(선물용/ 제수용)선물세트/ 700g",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1705987917"
+    },
+    {
+      "text": "[최가네구룡포과메기]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=vvvkf"
+    },
+    {
+      "text": "4.6(37)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570784356#sit_use"
+    },
+    {
+      "text": "포항 구룡포과메기 탈피(손질)10미",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570784356"
+    },
+    {
+      "text": "[웰빙미래]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=limms0507"
+    },
+    {
+      "text": "4.6(7)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570792043#sit_use"
+    },
+    {
+      "text": "[웰빙미래] 반건조 알가자미,알가자미,가자미,1kg,대략 4~7마리 포항가자미 …",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570792043"
+    },
+    {
+      "text": "[(주)안동간고등어푸드엔드베스...",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=byk0260"
+    },
+    {
+      "text": "4.6(33)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1724638062#sit_use"
+    },
+    {
+      "text": "[안동간고등어F&B]안동간고등어선물세트 170g × 25팩",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1724638062"
+    },
+    {
+      "text": "상품 더보기+",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=50"
+    },
+    {
+      "text": "[이광용]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_925b08e8"
+    },
+    {
+      "text": "4.9(9)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1698243001#sit_use"
+    },
+    {
+      "text": "★행복마을★ [상주고랭지마을] 이광용 아카시아꿀 2.4kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1698243001"
+    },
+    {
+      "text": "[영농조합법인 전통명가발우]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=omhum100"
+    },
+    {
+      "text": "4.4(1,029)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1708585062#sit_use"
+    },
+    {
+      "text": "[영농조합법인 전통명가발우]봉화산사 홍도라지 조청 550g 인간극장방영",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1708585062"
+    },
+    {
+      "text": "[칠곡양봉영농조합법인]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=sky7399"
+    },
+    {
+      "text": "4.3(12)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570783930#sit_use"
+    },
+    {
+      "text": "[칠곡양봉영농조합법인] 꿀이네 선물1호(아카시아벌꿀600g+야생화꿀600g)(1…",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570783930"
+    },
+    {
+      "text": "[이재우]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=little0413"
+    },
+    {
+      "text": "4.4(10)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1657690792#sit_use"
+    },
+    {
+      "text": "★행복마을★ [함창 담꽃새마을]아카시아꿀 2.4kg(2025년~)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1657690792"
+    },
+    {
+      "text": "[풍기인삼농협]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=insam1908"
+    },
+    {
+      "text": "5(7)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1670373696#sit_use"
+    },
+    {
+      "text": "[풍기인삼농협] 6년근 에너지허브 진세노 캡슐 420mg x 90캡슐",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1670373696"
+    },
+    {
+      "text": "[이순남홍삼]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=7479lk"
+    },
+    {
+      "text": "4.9(9)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1659359171#sit_use"
+    },
+    {
+      "text": "[이순남홍삼] 못난이인삼 5년근 1채 750g (17~19뿌리, 종이상자 포장)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1659359171"
+    },
+    {
+      "text": "[금당꿀 양봉]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=pws8090"
+    },
+    {
+      "text": "5(10)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=10679315846#sit_use"
+    },
+    {
+      "text": "[금당꿀] 야생 감로꿀 2.4kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=10679315846"
+    },
+    {
+      "text": "[달달허니]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=daldal0606"
+    },
+    {
+      "text": "4.9(7)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1732015664#sit_use"
+    },
+    {
+      "text": "[달달허니] 감로꿀 2.4kg 1병",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1732015664"
+    },
+    {
+      "text": "상품 더보기+",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=60"
+    },
+    {
+      "text": "[파인두메산골영농조합법인]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=leekyosuk"
+    },
+    {
+      "text": "4.4(44)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1604463905#sit_use"
+    },
+    {
+      "text": "[파인두메산골] 황토가마에서 갓 구운  참숯 훈제란 (30구/60구)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1604463905"
+    },
+    {
+      "text": "[더담음]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_858b07ea"
+    },
+    {
+      "text": "4.8(12)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1706603384#sit_use"
+    },
+    {
+      "text": "[더담음] 경산대추육포 50개입 개별 소포장 육포선물세트, 좋은날 좋은사람에게 …",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1706603384"
+    },
+    {
+      "text": "[늘해찬]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=kakao_895d08a7"
+    },
+    {
+      "text": "4.7(7)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1683017459#sit_use"
+    },
+    {
+      "text": "[늘해찬] 국산 볶은 민들레차 티백 삼각티백 대용량 100티백",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1683017459"
+    },
+    {
+      "text": "[상주로컬푸드 유통사업단]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=doejrwjd"
+    },
+    {
+      "text": "5(7)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1641861489#sit_use"
+    },
+    {
+      "text": "(상주로컬푸드)명품켐벨 포도즙 110ml40봉/ NFC주스 / 무설탕 무색소 무…",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1641861489"
+    },
+    {
+      "text": "[농업회사법인 주식회사 태동현...",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=reherb00"
+    },
+    {
+      "text": "5(7)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1700712346#sit_use"
+    },
+    {
+      "text": "[농업회사법인 태동현] NFC착즙 ABC쥬스 100ml",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1700712346"
+    },
+    {
+      "text": "[횡재먹거리 한우]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=luckymoo7"
+    },
+    {
+      "text": "5(11)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1714037672#sit_use"
+    },
+    {
+      "text": "[횡재먹거리한우]국물이 자작한 횡재먹거리 한우불고기 350g 1인분 x 4팩 불…",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1714037672"
+    },
+    {
+      "text": "[태평원 주식회사]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=leecheew2"
+    },
+    {
+      "text": "4.7(7)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1594977835#sit_use"
+    },
+    {
+      "text": "[하회당]정통-안동찜닭-1.2kg (반마리2인분)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1594977835"
+    },
+    {
+      "text": "[희망찬농부]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=chamcdy"
+    },
+    {
+      "text": "5(9)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1718087411#sit_use"
+    },
+    {
+      "text": "[희망찬농부] 1번지쌀과자 3종 3세트(보리/비트/현미 각3봉) 총9봉",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1718087411"
+    },
+    {
+      "text": "상품 더보기+",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=70"
+    },
+    {
+      "text": "[읍내방앗간]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_835807e2"
+    },
+    {
+      "text": "4.9(40)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1700872592#sit_use"
+    },
+    {
+      "text": "[읍내방앗간] 국내산 \"생\" 들기름300ml",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1700872592"
+    },
+    {
+      "text": "[읍내방앗간]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_835807e2"
+    },
+    {
+      "text": "4.6(7)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1699957705#sit_use"
+    },
+    {
+      "text": "[읍내방앗간] 국내산 \"생\" 들기름150ml",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1699957705"
+    },
+    {
+      "text": "[(주)팜드리]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=farmdri"
+    },
+    {
+      "text": "4.7(7)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1595257047#sit_use"
+    },
+    {
+      "text": "팜드리 오일 참기름 250ml",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1595257047"
+    },
+    {
+      "text": "[봉화발효식품]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=jj1385kr"
+    },
+    {
+      "text": "4.8(9)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570783523#sit_use"
+    },
+    {
+      "text": "[봉화발효식품] [김종례된장]재래식 된장 1kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570783523"
+    },
+    {
+      "text": "[대가야우륵식품]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=gaya55"
+    },
+    {
+      "text": "4.7(11)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570784633#sit_use"
+    },
+    {
+      "text": "[대가야우륵식품] [가야금] 생청국장 1kg, 500g, 200g",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570784633"
+    },
+    {
+      "text": "[황새마을식품영농조합법인]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_90d508d1"
+    },
+    {
+      "text": "5(7)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1713013655#sit_use"
+    },
+    {
+      "text": "[황새마을식품] 국산 맛있는 수제 매운 찹쌀 보리쌀고추장 1kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1713013655"
+    },
+    {
+      "text": "[가리점친환경영농조합법인]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=kakao_8bee086d"
+    },
+    {
+      "text": "4.4(16)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1651661945#sit_use"
+    },
+    {
+      "text": "★행복마을★ [가리점마을]전통된장1kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1651661945"
+    },
+    {
+      "text": "[두레원식품]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=dooraewon"
+    },
+    {
+      "text": "4.9(14)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1606396480#sit_use"
+    },
+    {
+      "text": "두레원무염청국장 1kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1606396480"
+    },
+    {
+      "text": "상품 더보기+",
+      "href": "https://www.cyso.co.kr/shop/list.php?ca_id=80"
+    },
+    {
+      "text": "[풍기고려삼 농업회사법인 주식...",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=sblhs0"
+    },
+    {
+      "text": "[청고담] 홍삼 배도라지 진액스틱15g 30포",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1746524398"
+    },
+    {
+      "text": "[좋은예감영농조합법인]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=coolkm82"
+    },
+    {
+      "text": "[좋은예감] 청도명가 곶감 감말랭이 300g 4팩",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1747800218"
+    },
+    {
+      "text": "[다보농장]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_92d3089c"
+    },
+    {
+      "text": "[다보농장]건가지꼭지 100g",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1747264732"
+    },
+    {
+      "text": "[문경쑥돈]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=mg0690"
+    },
+    {
+      "text": "[문경쑥돈] 한돈 꽃삼겹살 구이용+핑크솔트",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1746683160"
+    },
+    {
+      "text": "[안동초롱초롱호두]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=akjs7326"
+    },
+    {
+      "text": "[안동초롱초롱호두], 피호두 특상품, 1kg, 옵션 상품, 중품, 깐호두",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1748391568"
+    },
+    {
+      "text": "[진솔농원 농업회사법인(주)]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_905e094c"
+    },
+    {
+      "text": "[진솔농원]고당도 꿀사과(부사) 프리미엄2호 3kg, 10~12과",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1746847347"
+    },
+    {
+      "text": "# 신규등록 상품추천",
+      "href": "#how1"
+    },
+    {
+      "text": "# 무료배송 상품추천",
+      "href": "#how2"
+    },
+    {
+      "text": "# 제철상품 추천",
+      "href": "#how3"
+    },
+    {
+      "text": "[(주)승혜축산]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=shmeat1"
+    },
+    {
+      "text": "[승혜축산] 한돈 특수모듬 生 600g 구이용 와사비증정 항정가브리갈매기",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1750223762"
+    },
+    {
+      "text": "[이동삼 안동간고등어 공식쇼핑...",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=godunga"
+    },
+    {
+      "text": "[이동삼안동간고등어] 순살 고등어 120g 5팩",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1750042151"
+    },
+    {
+      "text": "[농협경제지주(주)경북본부]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=nacf1284"
+    },
+    {
+      "text": "[경산농협] 1년 중 2주만 만날 수 있는, 신비 복숭아 2kg (16~20과)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1750309827"
+    },
+    {
+      "text": "[죽도시장 쇼핑몰]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=pohang91"
+    },
+    {
+      "text": "[포항 죽도시장] 가리비 1kg 조개 (5~8미)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1570793953"
+    },
+    {
+      "text": "[진솔농원 농업회사법인(주)]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_905e094c"
+    },
+    {
+      "text": "[진솔농원]고당도 꿀사과(부사) 프리미엄2호 3kg, 10~12과",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1746847347"
+    },
+    {
+      "text": "[구미시농협쌀조합공동사업법인]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=nh741026"
+    },
+    {
+      "text": "[구미시농협쌀조합공동사업법인]일 선 정 품(일품) 20KG",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1675208135"
+    },
+    {
+      "text": "[현중농원]",
+      "href": "https://www.cyso.co.kr/shop/item_list.php?type=market&val=khj392700"
+    },
+    {
+      "text": "4.1(13)",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1604279261#sit_use"
+    },
+    {
+      "text": "[현중농원] 예천 첫사랑 꿀고구마 5kg",
+      "href": "https://www.cyso.co.kr/shop/item.php?it_id=1604279261"
+    },
+    {
+      "text": "문의사항\n\t 상품/주문/배송/이용문의사항이 있어요!",
+      "href": "https://www.cyso.co.kr/bbs/qalist.php"
+    },
+    {
+      "text": "더보기 +",
+      "href": "https://www.cyso.co.kr/bbs/board.php?bo_table=notice"
+    },
+    {
+      "text": "6월 배송 및 휴무 안내",
+      "href": "https://a112.nskorea.com/bbs/board.php?bo_table=notice&wr_id=365&sst=wr_hit&sod=desc&sop=and&page=8"
+    },
+    {
+      "text": "시스템 장비점검 안내",
+      "href": "https://a112.nskorea.com/bbs/board.php?bo_table=notice&wr_id=364&sst=wr_hit&sod=desc&sop=and&page=8"
+    },
+    {
+      "text": "5월 배송 및 휴무 안내",
+      "href": "https://a112.nskorea.com/bbs/board.php?bo_table=notice&wr_id=363&sst=wr_hit&sod=desc&sop=and&page=8"
+    },
+    {
+      "text": "삼일절(3/1) 배송안내",
+      "href": "https://a112.nskorea.com/bbs/board.php?bo_table=notice&wr_id=362&sst=wr_hit&sod=desc&sop=and&page=8"
+    },
+    {
+      "text": "시스템 장비점검 안내",
+      "href": "https://a112.nskorea.com/bbs/board.php?bo_table=notice&wr_id=361&sst=wr_hit&sod=desc&sop=and&page=8"
+    },
+    {
+      "text": "2025년 설날 배송안내",
+      "href": "https://a112.nskorea.com/bbs/board.php?bo_table=notice&wr_id=359&sst=wr_hit&sod=desc&sop=and&page=8"
+    },
+    {
+      "text": "더보기 +",
+      "href": "https://www.cyso.co.kr/bbs/board.php?bo_table=videos"
+    },
+    {
+      "text": "사이소소개",
+      "href": "https://www.cyso.co.kr/bbs/content.php?co_id=cyso_info"
+    },
+    {
+      "text": "이용약관",
+      "href": "https://www.cyso.co.kr/bbs/content.php?co_id=provision"
+    },
+    {
+      "text": "개인정보처리방침",
+      "href": "https://www.cyso.co.kr/bbs/content.php?co_id=privacy"
+    },
+    {
+      "text": "운영안내",
+      "href": "https://www.cyso.co.kr/bbs/content.php?co_id=cyso_manage"
+    }
+  ],
+  "productLinks": [
+    "https://www.cyso.co.kr/bbs/login.php?url=%2F",
+    "https://www.cyso.co.kr/bbs/board.php?bo_table=notice",
+    "https://www.cyso.co.kr/bbs/qalist.php",
+    "https://www.cyso.co.kr/bbs/faq.php",
+    "https://www.cyso.co.kr/bbs/board.php?bo_table=kooltip",
+    "https://www.cyso.co.kr/bbs/board.php?bo_table=videos",
+    "https://www.cyso.co.kr/shop/search.php?q=%EC%95%88%EB%8F%99&qdetail=1&qmkname=1&qsearch=1",
+    "https://www.cyso.co.kr/shop/search.php?q=%EB%93%B1%EC%8B%AC&qdetail=1&qmkname=1&qsearch=1",
+    "https://www.cyso.co.kr/shop/search.php?q=%EB%B0%B0&qdetail=1&qmkname=1&qsearch=1",
+    "https://www.cyso.co.kr/shop/search.php?q=%EC%8C%80&qdetail=1&qmkname=1&qsearch=1",
+    "https://www.cyso.co.kr/shop/search.php?q=%EC%82%AC%EA%B3%BC&qdetail=1&qmkname=1&qsearch=1",
+    "https://www.cyso.co.kr/shop/search.php?q=%EB%B2%84%EC%84%AF&qdetail=1&qmkname=1&qsearch=1",
+    "https://www.cyso.co.kr/shop/search.php?q=%ED%95%9C%EC%9A%B0&qdetail=1&qmkname=1&qsearch=1",
+    "https://www.cyso.co.kr/shop/search.php?q=%EC%B0%B8%EC%99%B8&qdetail=1&qmkname=1&qsearch=1",
+    "https://www.cyso.co.kr/shop/search.php?q=%EC%84%A0%EB%AC%BC&qdetail=1&qmkname=1&qsearch=1",
+    "https://www.cyso.co.kr/shop/search.php?q=%EB%96%A1&qdetail=1&qmkname=1&qsearch=1",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=nh707022",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1575014344#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1575014344",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=natural8823",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1701154082#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1701154082",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=wpdnjs12",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1746878496#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1746878496",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=byk0260",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1713335676#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1713335676",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=oggol7227",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1740480654#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1740480654",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_87370833",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1731581823#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1731581823",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=ymk2020",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1633524025#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1633524025",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=nhfm12",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1611277195#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1611277195",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=ysberry",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1715233333#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1715233333",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=zmrzmrskdu",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1734656363#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1734656363",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_8c0d086f",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1750255885",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=phch2931",
+    "https://www.cyso.co.kr/shop/item.php?it_id=569631#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=569631",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=wrihanwoo",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1731893864#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1731893864",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=kakao_98280929",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1648599375#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1648599375",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=dlqmsghkwjd",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1749534203",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=mondrag",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1698831147#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1698831147",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=momo3735",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570788755#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570788755",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570788754#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570788754",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=ybr5972",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1705623348#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1705623348",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=sop0987",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570789496#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570789496",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=gjmall89",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1616726526#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1616726526",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=ricedr1010",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1587021752#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1587021752",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570801342#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570801342",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570782633#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570782633",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=melon",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570785759#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570785759",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=grace080901",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1645937014#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1645937014",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=baiyongsig",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570786008#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570786008",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=mungchi18",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570788350#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570788350",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=kapple486",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1676953378#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1676953378",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=yjms7416",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570799868#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570799868",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=todaeg",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570797133#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570797133",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=melon4700",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1596093265#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1596093265",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=HANTOL0804",
+    "https://www.cyso.co.kr/shop/item.php?it_id=512028#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=512028",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=yclove9948",
+    "https://www.cyso.co.kr/shop/item.php?it_id=10679622689#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=10679622689",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=lsb3869",
+    "https://www.cyso.co.kr/shop/item.php?it_id=10681208064#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=10681208064",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=songyi2647",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1668923414#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1668923414",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=haedoji001",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570791719#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570791719",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=khj392700",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570760161#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570760161",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=solim7749",
+    "https://www.cyso.co.kr/shop/item.php?it_id=512945#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=512945",
+    "https://www.cyso.co.kr/shop/item.php?it_id=10677345248#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=10677345248",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=lovelunajh",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1732520494#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1732520494",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=yakdolpig",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1614048390#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1614048390",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_8c8808e4",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1708046146#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1708046146",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1615427917#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1615427917",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=sn7329",
+    "https://www.cyso.co.kr/shop/item.php?it_id=10670773828#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=10670773828",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=nh176688",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1640924372#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1640924372",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_8c290814",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1654822907#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1654822907",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=daegegim1",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1583735545#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1583735545",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=seanews",
+    "https://www.cyso.co.kr/shop/item.php?it_id=708228#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=708228",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=kky4554",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1716190222#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1716190222",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_908e08cb",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1625125717#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1625125717",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=ejungseafood",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1705987917#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1705987917",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=vvvkf",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570784356#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570784356",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=limms0507",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570792043#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570792043",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1724638062#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1724638062",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_925b08e8",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1698243001#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1698243001",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=omhum100",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1708585062#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1708585062",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=sky7399",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570783930#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570783930",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=little0413",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1657690792#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1657690792",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=insam1908",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1670373696#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1670373696",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=7479lk",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1659359171#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1659359171",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=pws8090",
+    "https://www.cyso.co.kr/shop/item.php?it_id=10679315846#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=10679315846",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=daldal0606",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1732015664#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1732015664",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=leekyosuk",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1604463905#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1604463905",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_858b07ea",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1706603384#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1706603384",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=kakao_895d08a7",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1683017459#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1683017459",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=doejrwjd",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1641861489#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1641861489",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=reherb00",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1700712346#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1700712346",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=luckymoo7",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1714037672#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1714037672",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=leecheew2",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1594977835#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1594977835",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=chamcdy",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1718087411#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1718087411",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_835807e2",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1700872592#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1700872592",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1699957705#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1699957705",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=farmdri",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1595257047#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1595257047",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=jj1385kr",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570783523#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570783523",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=gaya55",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570784633#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570784633",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_90d508d1",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1713013655#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1713013655",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=kakao_8bee086d",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1651661945#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1651661945",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=dooraewon",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1606396480#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1606396480",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=sblhs0",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1746524398",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=coolkm82",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1747800218",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_92d3089c",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1747264732",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=mg0690",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1746683160",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=akjs7326",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1748391568",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=naver_905e094c",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1746847347",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=shmeat1",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1750223762",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=godunga",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1750042151",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=nacf1284",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1750309827",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=pohang91",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1570793953",
+    "https://www.cyso.co.kr/shop/item_list.php?type=market&val=nh741026",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1675208135",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1604279261#sit_use",
+    "https://www.cyso.co.kr/shop/item.php?it_id=1604279261",
+    "https://a112.nskorea.com/bbs/board.php?bo_table=notice&wr_id=365&sst=wr_hit&sod=desc&sop=and&page=8",
+    "https://a112.nskorea.com/bbs/board.php?bo_table=notice&wr_id=364&sst=wr_hit&sod=desc&sop=and&page=8",
+    "https://a112.nskorea.com/bbs/board.php?bo_table=notice&wr_id=363&sst=wr_hit&sod=desc&sop=and&page=8",
+    "https://a112.nskorea.com/bbs/board.php?bo_table=notice&wr_id=362&sst=wr_hit&sod=desc&sop=and&page=8",
+    "https://a112.nskorea.com/bbs/board.php?bo_table=notice&wr_id=361&sst=wr_hit&sod=desc&sop=and&page=8",
+    "https://a112.nskorea.com/bbs/board.php?bo_table=notice&wr_id=359&sst=wr_hit&sod=desc&sop=and&page=8",
+    "https://www.cyso.co.kr/bbs/content.php?co_id=cyso_info",
+    "https://www.cyso.co.kr/bbs/content.php?co_id=provision",
+    "https://www.cyso.co.kr/bbs/content.php?co_id=privacy",
+    "https://www.cyso.co.kr/bbs/content.php?co_id=cyso_manage"
+  ],
+  "notes": [
+    "Page title: 사이소",
+    "Description: 경상북도 농특산물 쇼핑몰. 농민과 고객이 함께 할 수 있는 쇼핑문화를 만들어 갑니다.",
+    "Total links found: 544",
+    "Images found: 213",
+    "[class*=\"price\"]: 93 elements",
+    "Main content areas: 0",
+    "Item elements: 6",
+    "Shop elements: 2",
+    "Card elements: 0"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "timestamp": "2025-06-22T15:06:06.175Z",
+  "mall": "익산몰",
+  "totalNewProducts": 59,
+  "registeredProducts": 59,
+  "skippedProducts": 0,
+  "duplicateProducts": 0,
+  "categoryBreakdown": {
+    "쌀": 6,
+    "잡곡류": 8,
+    "과일류": 20,
+    "채소/나물류": 15,
+    "버섯류": 10
+  },
+  "priceRanges": {
+    "under_10k": 9,
+    "10k_50k": 47,
+    "50k_100k": 3,
+    "over_100k": 0
+  },
+  "sampleRegistered": [
+    {
+      "id": "1000001605",
+      "title": "2024년 삼기농협 친환경 무농약 신동진 탑마루 쌀 4kg",
+      "image": "http://moddism.godohosting.com//goods/23/10/40/1000001605/1000001605_detail_010.jpg",
+      "price": "16500",
+      "description": "2024년 삼기농협 친환경 무농약 신동진 탑마루 쌀 4kg",
+      "category": "쌀",
+      "mall": "익산몰",
+      "url": "https://iksanmall.com/goods/goods_view.php?goodsNo=1000001605",
+      "region": "전라북도 익산시",
+      "tags": [
+        "익산시",
+        "전라북도",
+        "익산몰",
+        "농산물",
+        "쌀",
+        "곡물",
+        "곡류"
+      ]
+    },
+    {
+      "id": "1000000681",
+      "title": "2024년 삼기농협 친환경 무농약 신동진 탑마루 쌀 20kg",
+      "image": "http://moddism.godohosting.com//goods/1000000681_detail_092.jpg",
+      "price": "79500",
+      "description": "2024년 삼기농협 친환경 무농약 신동진 탑마루 쌀 20kg",
+      "category": "쌀",
+      "mall": "익산몰",
+      "url": "https://iksanmall.com/goods/goods_view.php?goodsNo=1000000681",
+      "region": "전라북도 익산시",
+      "tags": [
+        "익산시",
+        "전라북도",
+        "익산몰",
+        "농산물",
+        "쌀",
+        "곡물",
+        "곡류"
+      ]
+    },
+    {
+      "id": "1000000680",
+      "title": "2024년 삼기농협 친환경 무농약 신동진 탑마루 쌀 10kg",
+      "image": "http://moddism.godohosting.com//goods/1000000680_detail_081.jpg",
+      "price": "42900",
+      "description": "2024년 삼기농협 친환경 무농약 신동진 탑마루 쌀 10kg",
+      "category": "쌀",
+      "mall": "익산몰",
+      "url": "https://iksanmall.com/goods/goods_view.php?goodsNo=1000000680",
+      "region": "전라북도 익산시",
+      "tags": [
+        "익산시",
+        "전라북도",
+        "익산몰",
+        "농산물",
+        "쌀",
+        "곡물",
+        "곡류"
+      ]
+    },
+    {
+      "id": "1000000451",
+      "title": "[삼기농협] 2024년 햅쌀 신동진 서동곶간쌀 10kg",
+      "image": "http://moddism.godohosting.com//goods/1000000451_detail_064.jpg",
+      "price": "32900",
+      "description": "[삼기농협] 2024년 햅쌀 신동진 서동곶간쌀 10kg",
+      "category": "쌀",
+      "mall": "익산몰",
+      "url": "https://iksanmall.com/goods/goods_view.php?goodsNo=1000000451",
+      "region": "전라북도 익산시",
+      "tags": [
+        "익산시",
+        "전라북도",
+        "익산몰",
+        "농산물",
+        "쌀",
+        "곡물",
+        "곡류"
+      ]
+    },
+    {
+      "id": "1000000344",
+      "title": "2024년 삼기농협 친환경 유기농 신동진 탑마루 쌀 10kg",
+      "image": "http://moddism.godohosting.com//goods/1000000344_detail_053.jpg",
+      "price": "45600",
+      "description": "2024년 삼기농협 친환경 유기농 신동진 탑마루 쌀 10kg",
+      "category": "쌀",
+      "mall": "익산몰",
+      "url": "https://iksanmall.com/goods/goods_view.php?goodsNo=1000000344",
+      "region": "전라북도 익산시",
+      "tags": [
+        "익산시",
+        "전라북도",
+        "익산몰",
+        "농산물",
+        "쌀",
+        "곡물",
+        "곡류"
+      ]
+    }
+  ]
+}
