@@ -2,6 +2,9 @@ import { NextResponse } from 'next/server';
 import { ProductSyncService } from '@/lib/product-sync';
 import { headers } from 'next/headers';
 
+// Force dynamic rendering for this route
+export const dynamic = 'force-dynamic';
+
 // This should be called by a cron job or scheduled task
 export async function POST(request: Request) {
   try {

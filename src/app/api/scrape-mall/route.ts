@@ -3,6 +3,9 @@ import { exec } from 'child_process';
 import { promisify } from 'util';
 import path from 'path';
 
+// Force dynamic rendering for this route
+export const dynamic = 'force-dynamic';
+
 const execAsync = promisify(exec);
 
 // Mapping of mall IDs to their scraper script names

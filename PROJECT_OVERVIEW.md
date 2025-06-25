@@ -1427,9 +1427,11 @@ package-lock.json/
 package.json/
 postcss.config.js/
 PROJECT_OVERVIEW.md/
+README.md/
 tailwind.config.js/
 tsconfig.json/
 tsconfig.tsbuildinfo/
+vercel.json/
 ```
 
 ## 🗄 Data Architecture
@@ -1735,10 +1737,10 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-25
 Version: 1.0.0
 Git Branch: product-enrolling
-Last Commit: 394e016 docs: update scraper command template with new route
+Last Commit: d87a116 feat: add 47 Korean regional shopping malls with comprehensive scrapers
 
 ### Project Statistics
-- Total Files: 1341
+- Total Files: 1343
 - Total Directories: 37
 - Shopping Malls: 99
 - Products: 4211

@@ -3,6 +3,9 @@ import { Product } from '@/types';
 import fs from 'fs/promises';
 import path from 'path';
 
+// Force dynamic rendering for this route
+export const dynamic = 'force-dynamic';
+
 const PRODUCTS_FILE = path.join(process.cwd(), 'src/data/products.json');
 
 async function getProducts(): Promise<Product[]> {
