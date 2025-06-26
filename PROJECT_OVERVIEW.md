@@ -1457,8 +1457,11 @@ src/
   ├── types/
   │   ├── index.ts
 analyze-product-names.js/
+check-actual-mall-ids.js/
 CLAUDE.md/
 CRON_SETUP.md/
+debug-problematic-products.js/
+debug-specific-malls.js/
 jeju-mall-product-urls.txt/
 next-env.d.ts/
 next.config.js/
@@ -1776,10 +1779,10 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-26
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: 9dcbaa4 refactor: consolidate ontongdaejeon mall scripts and update product data
+Last Commit: c188398 refactor: remove title field from all products, keep only name field
 
 ### Project Statistics
-- Total Files: 1382
+- Total Files: 1385
 - Total Directories: 37
 - Shopping Malls: 99
 - Products: 4211

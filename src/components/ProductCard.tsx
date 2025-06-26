@@ -8,15 +8,20 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ product }: ProductCardProps) {
-  // Debug logging for gmsocial products
-  if (product.id && product.id.startsWith('gmsocial_')) {
-    console.log('🔍 GMSocial Product Debug:', {
+  // Debug logging for problematic malls
+  const problematicMallIds = ['gwdmall', 'gmsocial', 'ontongdaejeon', 'wemall', 'yangju'];
+  const productMallId = product.mallId || (product as any).mallId;
+  
+  if (problematicMallIds.includes(productMallId) || !product.name) {
+    console.log(`🔍 Product Debug [${product.mallName}]:`, {
       id: product.id,
+      mallId: productMallId,
       name: product.name,
+      nameExists: !!product.name,
       nameType: typeof product.name,
       nameLength: product.name?.length,
-      price: product.price,
-      priceType: typeof product.price
+      nameEmpty: product.name === '' || product.name === null || product.name === undefined,
+      productKeys: Object.keys(product)
     });
   }
   const handleClick = async () => {
@@ -94,7 +99,15 @@ export default function ProductCard({ product }: ProductCardProps) {
 
         <div className="p-4">
           <div className="flex items-start justify-between mb-2">
-            <h3 className="text-lg font-medium line-clamp-2 flex-1">{product.name || '상품명 없음'}</h3>
+            <h3 className="text-lg font-medium flex-1 min-h-[2em]" style={{display: 'block', visibility: 'visible'}}>
+              {product.name || '상품명 없음'}
+              {/* Debug info */}
+              {!product.name && (
+                <span className="text-xs text-red-500 block">
+                  Debug: name={JSON.stringify(product.name)}, mallId={productMallId}
+                </span>
+              )}
+            </h3>
           </div>
 
           <div className="flex items-center gap-2 mb-3">
