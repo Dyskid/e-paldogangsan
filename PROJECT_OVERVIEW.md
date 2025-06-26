@@ -405,6 +405,7 @@ scripts/
   │   ├── gmsocial-registration-summary.json
   │   ├── gmsocial-scraped-products.json
   │   ├── gmsocial-test-food-category.html
+  │   ├── gmsocial-url-fix-summary.json
   │   ├── gmsocial-verification-final.json
   │   ├── gmsocial-verification-report.json
   │   ├── gochang-categories-analysis.json
@@ -683,6 +684,7 @@ scripts/
   │   ├── products-backup-1750566302957.json
   │   ├── products-backup-1750566316946.json
   │   ├── products-backup-1750568100208.json
+  │   ├── products-backup-1750900403527.json
   │   ├── products-without-prices.txt
   │   ├── samcheok-analysis.json
   │   ├── samcheok-homepage.html
@@ -982,6 +984,8 @@ scripts/
   ├── fix-final-generic-title.ts
   ├── fix-gmsocial-names-comprehensive.ts
   ├── fix-gmsocial-product-names.ts
+  ├── fix-gmsocial-scraper-urls.ts
+  ├── fix-gmsocial-urls.ts
   ├── fix-jeju-images-fallback.ts
   ├── fix-jeju-images.ts
   ├── fix-jeju-prices.ts
@@ -1758,13 +1762,13 @@ npm run lint     # Run ESLint
 
 ---
 
-Last Updated: 2025-06-25
+Last Updated: 2025-06-26
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: f487907 verify: confirm all 광명가치몰 products have proper name fields
+Last Commit: e384e41 feat: enhance 광명가치몰 scraping and product registration
 
 ### Project Statistics
-- Total Files: 1367
+- Total Files: 1371
 - Total Directories: 37
 - Shopping Malls: 99
 - Products: 4211

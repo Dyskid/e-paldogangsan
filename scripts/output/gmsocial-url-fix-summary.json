@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-06-26T01:13:23.570Z",
+  "totalProducts": 4211,
+  "gmsocialProductsFixed": 38,
+  "oldDomain": "https://gmsocial.or.kr",
+  "newDomain": "http://gmsocial.mangotree.co.kr",
+  "urlPattern": {
+    "old": "https://gmsocial.or.kr/mall/mall/goods/view.php?product_id=X",
+    "new": "http://gmsocial.mangotree.co.kr/mall/goods/view.php?product_id=X"
+  }
+}

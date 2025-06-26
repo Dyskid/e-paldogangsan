@@ -39,7 +39,7 @@ interface RegisteredProduct {
 }
 
 class GmsocialProductRegistrar {
-  private baseUrl = 'https://gmsocial.or.kr/mall/';
+  private baseUrl = 'http://gmsocial.mangotree.co.kr/mall/';
   
   async run() {
     console.log('📋 Starting 광명가치몰 product registration...');
@@ -117,7 +117,7 @@ class GmsocialProductRegistrar {
       imageUrl: extracted.imageUrl || '',
       productUrl: extracted.productUrl.startsWith('http') 
         ? extracted.productUrl 
-        : `https://gmsocial.or.kr${extracted.productUrl}`,
+        : `http://gmsocial.mangotree.co.kr${extracted.productUrl}`,
       category: category,
       vendor: extracted.companyName || '',
       description: extracted.name,

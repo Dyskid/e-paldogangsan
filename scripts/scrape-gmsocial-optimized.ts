@@ -26,7 +26,7 @@ interface GmsocialProduct {
 }
 
 class GmsocialOptimizedScraper {
-  private baseUrl = 'https://gmsocial.or.kr/mall/';
+  private baseUrl = 'http://gmsocial.mangotree.co.kr/mall/';
   private products: GmsocialProduct[] = [];
   private processedIds = new Set<string>();
 
@@ -212,11 +212,11 @@ class GmsocialOptimizedScraper {
       const src = $(selector).first().attr('src');
       if (src) {
         if (src.startsWith('/')) {
-          return 'https://gmsocial.or.kr' + src;
+          return 'http://gmsocial.mangotree.co.kr' + src;
         } else if (src.startsWith('http')) {
           return src;
         } else {
-          return 'https://gmsocial.or.kr/mall/' + src;
+          return 'http://gmsocial.mangotree.co.kr/mall/' + src;
         }
       }
     }

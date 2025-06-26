@@ -28,7 +28,7 @@ interface CategoryInfo {
 }
 
 class GmsocialScraper {
-  private baseUrl = 'https://gmsocial.or.kr/mall/';
+  private baseUrl = 'http://gmsocial.mangotree.co.kr/mall/';
   private products: GmsocialProduct[] = [];
   private processedProductIds = new Set<string>();
 
@@ -159,11 +159,11 @@ class GmsocialScraper {
       if (productUrl && productUrl.includes('product_id=')) {
         // Convert relative URLs to absolute
         if (productUrl.startsWith('/')) {
-          productUrl = 'https://gmsocial.or.kr' + productUrl;
+          productUrl = 'http://gmsocial.mangotree.co.kr' + productUrl;
         } else if (productUrl.startsWith('goods/')) {
-          productUrl = 'https://gmsocial.or.kr/mall/' + productUrl;
+          productUrl = 'http://gmsocial.mangotree.co.kr/mall/' + productUrl;
         } else if (!productUrl.startsWith('http')) {
-          productUrl = 'https://gmsocial.or.kr/mall/goods/' + productUrl;
+          productUrl = 'http://gmsocial.mangotree.co.kr/mall/goods/' + productUrl;
         }
         
         productUrls.add(productUrl);
@@ -321,11 +321,11 @@ class GmsocialScraper {
         if (src) {
           // Convert relative URLs to absolute
           if (src.startsWith('/')) {
-            return 'https://gmsocial.or.kr' + src;
+            return 'http://gmsocial.mangotree.co.kr' + src;
           } else if (src.startsWith('http')) {
             return src;
           } else {
-            return 'https://gmsocial.or.kr/mall/' + src;
+            return 'http://gmsocial.mangotree.co.kr/mall/' + src;
           }
         }
       }
