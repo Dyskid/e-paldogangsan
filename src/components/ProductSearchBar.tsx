@@ -15,7 +15,7 @@ interface ProductSearchBarProps {
 }
 
 const fuseOptions = {
-  keys: ['name', 'title', 'description', 'tags', 'mall.mallName', 'mallName', 'category'],
+  keys: ['name', 'description', 'tags', 'mall.mallName', 'mallName', 'category'],
   threshold: 0.3,
   includeScore: true,
   minMatchCharLength: 2,
@@ -128,7 +128,7 @@ export default function ProductSearchBar({
   };
 
   const handleSuggestionClick = (product: Product) => {
-    setQuery(product.name || (product as any).title);
+    setQuery(product.name);
     setShowDropdown(false);
     const url = product.url || (product as any).productUrl;
     if (url) {
@@ -242,7 +242,7 @@ export default function ProductSearchBar({
                 )}
                 <div className="flex-1">
                   <h4 className="font-medium text-gray-800">
-                    {highlightMatch(product.name || (product as any).title, query)}
+                    {highlightMatch(product.name, query)}
                   </h4>
                   {product.description && (
                     <p className="text-sm text-gray-600 line-clamp-1">

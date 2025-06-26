@@ -23,7 +23,7 @@ export default function ProductDetailPage({ params }: { params: { productId: str
   // Normalize product structure for different data formats
   const product = {
     id: rawProduct.id,
-    name: rawProduct.name || rawProduct.title || '',
+    name: rawProduct.name || '',
     price: typeof rawProduct.price === 'string' ? 0 : (rawProduct.price || 0),
     originalPrice: rawProduct.originalPrice,
     image: rawProduct.image || rawProduct.imageUrl || '',

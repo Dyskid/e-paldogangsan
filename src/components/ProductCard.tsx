@@ -64,7 +64,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           {(product.image || (product as any).imageUrl) ? (
             <Image
               src={product.image || (product as any).imageUrl}
-              alt={product.name || (product as any).title}
+              alt={product.name}
               fill
               className="object-cover rounded-t-lg"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -83,7 +83,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 
         <div className="p-4">
           <div className="flex items-start justify-between mb-2">
-            <h3 className="text-lg font-medium line-clamp-2 flex-1">{product.name || (product as any).title}</h3>
+            <h3 className="text-lg font-medium line-clamp-2 flex-1">{product.name}</h3>
           </div>
 
           <div className="flex items-center gap-2 mb-3">
