@@ -85,6 +85,9 @@ export class ProductSyncService {
           
           // Add category tags if not already present
           const categoryTag = classification.mainCategory;
+          if (!product.tags) {
+            product.tags = [];
+          }
           if (!product.tags.includes(categoryTag)) {
             product.tags.push(categoryTag);
           }
@@ -154,7 +157,7 @@ export class ProductSyncService {
       .filter(product => 
         product.name.toLowerCase().includes(lowerQuery) ||
         product.description?.toLowerCase().includes(lowerQuery) ||
-        product.tags.some(tag => tag.toLowerCase().includes(lowerQuery))
+        (product.tags && product.tags.some(tag => tag.toLowerCase().includes(lowerQuery)))
       );
   }
 }
