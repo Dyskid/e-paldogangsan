@@ -21,7 +21,7 @@ interface GmsocialProduct {
 }
 
 class GmsocialRobustScraper {
-  private baseUrl = 'https://gmsocial.or.kr/mall/';
+  private baseUrl = 'http://gmsocial.mangotree.co.kr/mall/';
   private products: GmsocialProduct[] = [];
   private processedProductIds = new Set<string>();
   private maxRetries = 3;
@@ -35,7 +35,7 @@ class GmsocialRobustScraper {
       const foodCategory = {
         code: "0006",
         name: "식품",
-        url: "https://gmsocial.or.kr/mall/goods/list.php?category_code=0006"
+        url: "http://gmsocial.mangotree.co.kr/mall/goods/list.php?category_code=0006"
       };
       
       console.log(`\n📂 Processing food category: ${foodCategory.name}`);
@@ -43,11 +43,11 @@ class GmsocialRobustScraper {
       
       // Then try other main categories
       const otherCategories = [
-        { code: "0001", name: "생활/리빙", url: "https://gmsocial.or.kr/mall/goods/list.php?category_code=0001" },
-        { code: "0002", name: "패션/뷰티", url: "https://gmsocial.or.kr/mall/goods/list.php?category_code=0002" },
-        { code: "0003", name: "디지털/가전", url: "https://gmsocial.or.kr/mall/goods/list.php?category_code=0003" },
-        { code: "0004", name: "가구/인테리어", url: "https://gmsocial.or.kr/mall/goods/list.php?category_code=0004" },
-        { code: "0005", name: "스포츠/레저", url: "https://gmsocial.or.kr/mall/goods/list.php?category_code=0005" }
+        { code: "0001", name: "생활/리빙", url: "http://gmsocial.mangotree.co.kr/mall/goods/list.php?category_code=0001" },
+        { code: "0002", name: "패션/뷰티", url: "http://gmsocial.mangotree.co.kr/mall/goods/list.php?category_code=0002" },
+        { code: "0003", name: "디지털/가전", url: "http://gmsocial.mangotree.co.kr/mall/goods/list.php?category_code=0003" },
+        { code: "0004", name: "가구/인테리어", url: "http://gmsocial.mangotree.co.kr/mall/goods/list.php?category_code=0004" },
+        { code: "0005", name: "스포츠/레저", url: "http://gmsocial.mangotree.co.kr/mall/goods/list.php?category_code=0005" }
       ];
       
       for (const category of otherCategories) {
@@ -152,11 +152,11 @@ class GmsocialRobustScraper {
           if (href && href.includes('product_id=')) {
             let fullUrl = href;
             if (href.startsWith('/')) {
-              fullUrl = 'https://gmsocial.or.kr' + href;
+              fullUrl = 'http://gmsocial.mangotree.co.kr' + href;
             } else if (href.startsWith('goods/')) {
-              fullUrl = 'https://gmsocial.or.kr/mall/' + href;
+              fullUrl = 'http://gmsocial.mangotree.co.kr/mall/' + href;
             } else if (!href.startsWith('http')) {
-              fullUrl = 'https://gmsocial.or.kr/mall/goods/' + href;
+              fullUrl = 'http://gmsocial.mangotree.co.kr/mall/goods/' + href;
             }
             productUrls.add(fullUrl);
           }
@@ -281,7 +281,7 @@ class GmsocialRobustScraper {
       const src = $(selector).first().attr('src');
       if (src && src.includes('.jpg') || src.includes('.png') || src.includes('.gif')) {
         if (src.startsWith('/')) {
-          return 'https://gmsocial.or.kr' + src;
+          return 'http://gmsocial.mangotree.co.kr' + src;
         } else if (src.startsWith('http')) {
           return src;
         }

@@ -20,7 +20,7 @@ interface GmsocialProduct {
 }
 
 class GmsocialCategoryScraper {
-  private baseUrl = 'https://gmsocial.or.kr/mall/';
+  private baseUrl = 'http://gmsocial.mangotree.co.kr/mall/';
   private products: GmsocialProduct[] = [];
   private processedProductIds = new Set<string>();
 
@@ -308,7 +308,7 @@ class GmsocialCategoryScraper {
       if (src.startsWith('http')) {
         return src;
       } else if (src.startsWith('/')) {
-        return 'https://gmsocial.or.kr' + src;
+        return 'http://gmsocial.mangotree.co.kr' + src;
       } else {
         return `${this.baseUrl}${src}`;
       }
