@@ -8,23 +8,6 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ product }: ProductCardProps) {
-  // Debug logging for ALL products temporarily
-  const productMallId = product.mallId || product.mall?.mallId;
-  const productMallName = product.mallName || product.mall?.mallName;
-  
-  // Enhanced debugging for ALL products
-  console.log(`🔍 [${productMallName}] Product:`, {
-    id: product.id,
-    mallId: productMallId,
-    name: product.name,
-    nameExists: !!product.name,
-    nameType: typeof product.name,
-    nameLength: product.name?.length,
-    hasTitle: !!(product as any).title,
-    title: (product as any).title,
-    productKeysCount: Object.keys(product).length,
-    firstFewKeys: Object.keys(product).slice(0, 5)
-  });
   const handleClick = async () => {
     try {
       const mallId = product.mallId || product.mall?.mallId;
@@ -69,7 +52,7 @@ export default function ProductCard({ product }: ProductCardProps) {
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+    <div className="bg-white rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden group">
       <a 
         href={product.url || product.productUrl}
         target="_blank"
@@ -77,76 +60,68 @@ export default function ProductCard({ product }: ProductCardProps) {
         className="block"
         onClick={handleClick}
       >
-        <div className="relative h-48 bg-gray-100">
+        <div className="relative h-56 bg-gradient-to-br from-gray-50 to-gray-100 overflow-hidden">
           {(product.image || product.imageUrl) ? (
             <Image
               src={product.image || product.imageUrl || ''}
               alt={product.name || 'Product image'}
               fill
-              className="object-cover rounded-t-lg"
+              className="object-cover group-hover:scale-105 transition-transform duration-300"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           ) : (
-            <div className="flex items-center justify-center h-full text-gray-400">
-              <svg className="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} 
+            <div className="flex items-center justify-center h-full text-gray-300">
+              <svg className="w-20 h-20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} 
                   d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" 
                 />
               </svg>
             </div>
           )}
-          {/* Removed inStock check as it's not in current data structure */}
+          {product.featured && (
+            <div className="absolute top-3 left-3">
+              <span className="bg-red-500 text-white text-xs px-2 py-1 rounded-full font-medium">
+                추천
+              </span>
+            </div>
+          )}
+          {product.isNew && (
+            <div className="absolute top-3 right-3">
+              <span className="bg-green-500 text-white text-xs px-2 py-1 rounded-full font-medium">
+                NEW
+              </span>
+            </div>
+          )}
         </div>
 
-        <div className="p-4">
-          <div className="flex items-start justify-between mb-2">
-            <div style={{
-              fontSize: '18px',
-              fontWeight: 'bold',
-              color: '#000000',
-              backgroundColor: '#ffffff',
-              padding: '8px',
-              border: '2px solid #ff0000',
-              minHeight: '50px',
-              display: 'block',
-              visibility: 'visible',
-              position: 'relative',
-              zIndex: 1000
-            }}>
-              PRODUCT NAME: {product.name || 'NO NAME FOUND'}
-              <br />
-              <small style={{ color: '#666' }}>
-                ID: {product.id} | Mall: {product.mallName}
-              </small>
-              {!product.name && (
-                <div style={{ color: 'red', fontSize: '12px' }}>
-                  ERROR: No name field found! Keys: {Object.keys(product).join(', ')}
-                </div>
-              )}
-            </div>
-          </div>
+        <div className="p-5">
+          <h3 className="text-lg font-semibold text-gray-900 line-clamp-2 mb-3 min-h-[3.5rem] leading-relaxed group-hover:text-blue-600 transition-colors">
+            {product.name || '상품명 없음'}
+          </h3>
 
-          <div className="flex items-center gap-2 mb-3">
-            <span className="text-xs px-2 py-1 rounded-full bg-blue-100 text-blue-800">
+          <div className="flex items-center gap-2 mb-4">
+            <span className="text-xs px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 text-white font-medium">
               {product.category}
             </span>
-            <span className="text-xs text-gray-500">{product.mallName || product.mall?.mallName || '쇼핑몰'}</span>
+            <span className="text-xs text-gray-500 bg-gray-50 px-2 py-1 rounded-md">
+              {product.mallName || product.mall?.mallName || '쇼핑몰'}
+            </span>
           </div>
 
           {product.description && (
-            <p className="text-sm text-gray-600 line-clamp-2 mb-3">
+            <p className="text-sm text-gray-600 line-clamp-2 mb-4 leading-relaxed">
               {product.description}
             </p>
           )}
 
-          <div className="flex items-end justify-between">
-            <div>
+          <div className="flex items-end justify-between pt-2 border-t border-gray-50">
+            <div className="flex flex-col">
               {product.originalPrice && product.originalPrice !== product.price && (
-                <span className="text-sm text-gray-400 line-through mr-2">
+                <span className="text-sm text-gray-400 line-through mb-1">
                   {product.originalPrice?.toLocaleString()}원
                 </span>
               )}
-              <span className="text-lg font-bold text-gray-900">
+              <span className="text-xl font-bold text-gray-900">
                 {(() => {
                   const price = product.price;
                   if (typeof price === 'string') {
@@ -156,12 +131,12 @@ export default function ProductCard({ product }: ProductCardProps) {
                 })()}
               </span>
             </div>
-            <span className="text-xs text-blue-600 hover:text-blue-800 flex items-center gap-1">
+            <div className="flex items-center text-sm text-blue-600 hover:text-blue-800 font-medium group-hover:translate-x-1 transition-transform">
               상세보기
-              <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
               </svg>
-            </span>
+            </div>
           </div>
         </div>
       </a>
