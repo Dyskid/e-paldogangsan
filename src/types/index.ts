@@ -32,15 +32,23 @@ export interface Product {
   name: string;
   price: number | string;
   originalPrice?: number | string;
-  image: string;
+  image?: string;
+  imageUrl?: string;
   category: string;
   region: string;
-  url: string;
-  description: string;
-  tags: string[];
-  isFeatured: boolean;
-  isNew: boolean;
-  mall: {
+  url?: string;
+  productUrl?: string;
+  description?: string;
+  tags?: string[];
+  isFeatured?: boolean;
+  isNew?: boolean;
+  featured?: boolean;
+  // Current data structure (flat)
+  mallId?: string;
+  mallName?: string;
+  mallUrl?: string;
+  // Future structure (nested) - for compatibility
+  mall?: {
     mallId: string;
     mallName: string;
     mallUrl: string;

@@ -10,10 +10,11 @@ interface ProductCardProps {
 export default function ProductCard({ product }: ProductCardProps) {
   // Debug logging for problematic malls
   const problematicMallIds = ['gwdmall', 'gmsocial', 'ontongdaejeon', 'wemall', 'yangju'];
-  const productMallId = product.mall?.mallId || (product as any).mallId;
+  const productMallId = product.mallId || product.mall?.mallId;
+  const productMallName = product.mallName || product.mall?.mallName;
   
   if (problematicMallIds.includes(productMallId) || !product.name) {
-    console.log(`🔍 Product Debug [${product.mall?.mallName || (product as any).mallName}]:`, {
+    console.log(`🔍 Product Debug [${productMallName}]:`, {
       id: product.id,
       mallId: productMallId,
       name: product.name,
@@ -26,7 +27,7 @@ export default function ProductCard({ product }: ProductCardProps) {
   }
   const handleClick = async () => {
     try {
-      const mallId = product.mall?.mallId || (product as any).mallId;
+      const mallId = product.mallId || product.mall?.mallId;
       if (mallId) {
         await fetch('/api/track-click', {
           method: 'POST',
@@ -70,16 +71,16 @@ export default function ProductCard({ product }: ProductCardProps) {
   return (
     <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
       <a 
-        href={product.url || (product as any).productUrl}
+        href={product.url || product.productUrl}
         target="_blank"
         rel="noopener noreferrer"
         className="block"
         onClick={handleClick}
       >
         <div className="relative h-48 bg-gray-100">
-          {(product.image || (product as any).imageUrl) ? (
+          {(product.image || product.imageUrl) ? (
             <Image
-              src={product.image || (product as any).imageUrl}
+              src={product.image || product.imageUrl}
               alt={product.name}
               fill
               className="object-cover rounded-t-lg"
@@ -106,7 +107,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             <span className="text-xs px-2 py-1 rounded-full bg-blue-100 text-blue-800">
               {product.category}
             </span>
-            <span className="text-xs text-gray-500">{product.mall?.mallName || (product as any).mallName || '쇼핑몰'}</span>
+            <span className="text-xs text-gray-500">{product.mallName || product.mall?.mallName || '쇼핑몰'}</span>
           </div>
 
           {product.description && (
@@ -124,7 +125,7 @@ export default function ProductCard({ product }: ProductCardProps) {
               )}
               <span className="text-lg font-bold text-gray-900">
                 {(() => {
-                  const price = product.price || (product as any).price;
+                  const price = product.price;
                   if (typeof price === 'string') {
                     return price;
                   }
