@@ -942,6 +942,7 @@ scripts/
   ├── check-gmsocial-product-names.ts
   ├── check-gwdmall-names.ts
   ├── check-jeju-titles.ts
+  ├── check-live-products.ts
   ├── check-mall-details.js
   ├── check-mall-structure.js
   ├── check-missing-mall-names.ts
@@ -1216,6 +1217,7 @@ scripts/
   ├── scrape-yeosumall-comprehensive.ts
   ├── scrape-yeosumall-template.ts
   ├── scrape-yjmarket-comprehensive.ts
+  ├── test-api-products.ts
   ├── test-boseong-product.ts
   ├── test-buan-category.ts
   ├── test-buan-product.ts
@@ -1270,6 +1272,7 @@ scripts/
   ├── test-yangyang-product.ts
   ├── test-yeongwol-product.ts
   ├── test-yeosumall-access.ts
+  ├── trigger-rebuild.json
   ├── trigger-rebuild.ts
   ├── update-overview.ts
   ├── verify-bmall-registration.ts
@@ -1769,10 +1772,10 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-26
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: b1ba547 fix: correct 광명가치몰 URLs to use proper domain
+Last Commit: 766f185 verify: add product name verification scripts for mall monitoring
 
 ### Project Statistics
-- Total Files: 1375
+- Total Files: 1378
 - Total Directories: 37
 - Shopping Malls: 99
 - Products: 4211
