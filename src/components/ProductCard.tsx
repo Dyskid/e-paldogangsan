@@ -10,10 +10,10 @@ interface ProductCardProps {
 export default function ProductCard({ product }: ProductCardProps) {
   // Debug logging for problematic malls
   const problematicMallIds = ['gwdmall', 'gmsocial', 'ontongdaejeon', 'wemall', 'yangju'];
-  const productMallId = product.mallId || (product as any).mallId;
+  const productMallId = product.mall?.mallId || (product as any).mallId;
   
   if (problematicMallIds.includes(productMallId) || !product.name) {
-    console.log(`🔍 Product Debug [${product.mallName}]:`, {
+    console.log(`🔍 Product Debug [${product.mall?.mallName || (product as any).mallName}]:`, {
       id: product.id,
       mallId: productMallId,
       name: product.name,
