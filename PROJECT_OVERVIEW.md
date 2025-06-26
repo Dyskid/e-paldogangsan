@@ -1258,7 +1258,6 @@ scripts/
   ├── test-nongsarang-product.ts
   ├── test-okjmall-product.ts
   ├── test-onsim-product.ts
-  ├── test-products-api.js
   ├── test-samcheok-product.ts
   ├── test-sclocal-category.ts
   ├── test-seosanttre-product.ts
@@ -1774,10 +1773,10 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-26
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: 9ac4f3b trigger: force deployment sync for product name display issue
+Last Commit: 97c0d6c fix: force deployment refresh for 광명가치몰 product names
 
 ### Project Statistics
-- Total Files: 1380
+- Total Files: 1379
 - Total Directories: 37
 - Shopping Malls: 99
 - Products: 4211
