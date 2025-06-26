@@ -80,8 +80,8 @@ export default function ProductCard({ product }: ProductCardProps) {
         <div className="relative h-48 bg-gray-100">
           {(product.image || product.imageUrl) ? (
             <Image
-              src={product.image || product.imageUrl}
-              alt={product.name}
+              src={product.image || product.imageUrl || ''}
+              alt={product.name || 'Product image'}
               fill
               className="object-cover rounded-t-lg"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
