@@ -8,23 +8,23 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ product }: ProductCardProps) {
-  // Debug logging for problematic malls
-  const problematicMallIds = ['gwdmall', 'gmsocial', 'ontongdaejeon', 'wemall', 'yangju'];
+  // Debug logging for ALL products temporarily
   const productMallId = product.mallId || product.mall?.mallId;
   const productMallName = product.mallName || product.mall?.mallName;
   
-  if (problematicMallIds.includes(productMallId) || !product.name) {
-    console.log(`🔍 Product Debug [${productMallName}]:`, {
-      id: product.id,
-      mallId: productMallId,
-      name: product.name,
-      nameExists: !!product.name,
-      nameType: typeof product.name,
-      nameLength: product.name?.length,
-      nameEmpty: product.name === '' || product.name === null || product.name === undefined,
-      productKeys: Object.keys(product)
-    });
-  }
+  // Enhanced debugging for ALL products
+  console.log(`🔍 [${productMallName}] Product:`, {
+    id: product.id,
+    mallId: productMallId,
+    name: product.name,
+    nameExists: !!product.name,
+    nameType: typeof product.name,
+    nameLength: product.name?.length,
+    hasTitle: !!(product as any).title,
+    title: (product as any).title,
+    productKeysCount: Object.keys(product).length,
+    firstFewKeys: Object.keys(product).slice(0, 5)
+  });
   const handleClick = async () => {
     try {
       const mallId = product.mallId || product.mall?.mallId;
@@ -100,7 +100,30 @@ export default function ProductCard({ product }: ProductCardProps) {
 
         <div className="p-4">
           <div className="flex items-start justify-between mb-2">
-            <h3 className="text-lg font-medium line-clamp-2 flex-1">{product.name || '상품명 없음'}</h3>
+            <div style={{
+              fontSize: '18px',
+              fontWeight: 'bold',
+              color: '#000000',
+              backgroundColor: '#ffffff',
+              padding: '8px',
+              border: '2px solid #ff0000',
+              minHeight: '50px',
+              display: 'block',
+              visibility: 'visible',
+              position: 'relative',
+              zIndex: 1000
+            }}>
+              PRODUCT NAME: {product.name || 'NO NAME FOUND'}
+              <br />
+              <small style={{ color: '#666' }}>
+                ID: {product.id} | Mall: {product.mallName}
+              </small>
+              {!product.name && (
+                <div style={{ color: 'red', fontSize: '12px' }}>
+                  ERROR: No name field found! Keys: {Object.keys(product).join(', ')}
+                </div>
+              )}
+            </div>
           </div>
 
           <div className="flex items-center gap-2 mb-3">
