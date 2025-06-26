@@ -100,8 +100,8 @@ export default function ProductCard({ product }: ProductCardProps) {
             <h3 
               className="text-lg font-semibold text-gray-900 leading-relaxed group-hover:text-blue-600 transition-colors"
               style={{
-                display: 'block !important',
-                visibility: 'visible !important',
+                display: 'block',
+                visibility: 'visible',
                 wordBreak: 'break-word',
                 overflow: 'hidden',
                 maxHeight: '3.5rem',
