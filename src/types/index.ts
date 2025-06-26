@@ -30,8 +30,8 @@ export interface Category {
 export interface Product {
   id: string;
   name: string;
-  price: number;
-  originalPrice?: number;
+  price: number | string;
+  originalPrice?: number | string;
   image: string;
   category: string;
   region: string;

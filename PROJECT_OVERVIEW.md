@@ -1773,7 +1773,7 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-26
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: 1292eeb fix: force deployment sync for 광명가치몰 product name display
+Last Commit: b463912 refactor: standardize product name field usage
 
 ### Project Statistics
 - Total Files: 1379
