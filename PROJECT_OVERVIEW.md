@@ -1779,7 +1779,7 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-26
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: c188398 refactor: remove title field from all products, keep only name field
+Last Commit: 1053f49 fix: resolve product name display issues in ProductCard component
 
 ### Project Statistics
 - Total Files: 1385

@@ -99,15 +99,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 
         <div className="p-4">
           <div className="flex items-start justify-between mb-2">
-            <h3 className="text-lg font-medium flex-1 min-h-[2em]" style={{display: 'block', visibility: 'visible'}}>
-              {product.name || '상품명 없음'}
-              {/* Debug info */}
-              {!product.name && (
-                <span className="text-xs text-red-500 block">
-                  Debug: name={JSON.stringify(product.name)}, mallId={productMallId}
-                </span>
-              )}
-            </h3>
+            <h3 className="text-lg font-medium line-clamp-2 flex-1">{product.name || '상품명 없음'}</h3>
           </div>
 
           <div className="flex items-center gap-2 mb-3">
