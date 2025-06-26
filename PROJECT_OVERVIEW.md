@@ -938,7 +938,9 @@ scripts/
   ├── analyze-yjmarket-structure.ts
   ├── batch-scrape-all-malls.ts
   ├── check-gmsocial-name-fields.ts
+  ├── check-gmsocial-names.ts
   ├── check-gmsocial-product-names.ts
+  ├── check-gwdmall-names.ts
   ├── check-jeju-titles.ts
   ├── check-mall-details.js
   ├── check-mall-structure.js
@@ -996,6 +998,8 @@ scripts/
   ├── improve-scraped-titles.ts
   ├── integrate-final-jeju-products.ts
   ├── integrate-jeju-products.ts
+  ├── list-all-gmsocial-products.ts
+  ├── list-all-gwdmall-products.ts
   ├── list-gmsocial-products.ts
   ├── list-problematic-products.js
   ├── ontongdaejeon-final-summary.ts
@@ -1765,10 +1769,10 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-26
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: e384e41 feat: enhance 광명가치몰 scraping and product registration
+Last Commit: b1ba547 fix: correct 광명가치몰 URLs to use proper domain
 
 ### Project Statistics
-- Total Files: 1371
+- Total Files: 1375
 - Total Directories: 37
 - Shopping Malls: 99
 - Products: 4211
