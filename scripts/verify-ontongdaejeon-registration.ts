@@ -2,17 +2,17 @@ import { readFileSync, writeFileSync } from 'fs';
 import { Product } from '../src/types';
 
 function verifyOntongDaejeonRegistration() {
-  console.log('🔍 Verifying 온통대전몰 product registration...\n');
+  console.log('🔍 Verifying 대전사랑몰 product registration...\n');
   
   // Read products from database
   const productsData = readFileSync('./src/data/products.json', 'utf-8');
   const products: Product[] = JSON.parse(productsData);
   
-  // Filter 온통대전몰 products
+  // Filter 대전사랑몰 products
   const ontongdaejeonProducts = products.filter(p => p.id.startsWith('ontongdaejeon-'));
   
   console.log(`📊 Total products in database: ${products.length}`);
-  console.log(`📦 온통대전몰 products: ${ontongdaejeonProducts.length}`);
+  console.log(`📦 대전사랑몰 products: ${ontongdaejeonProducts.length}`);
   
   // Analyze data quality
   const dataQuality = {

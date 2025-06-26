@@ -23,7 +23,7 @@ async function exploreOntongDaejeonCategories(): Promise<void> {
     '/onnuri/mall/categoryList', // Category listing
   ];
 
-  console.log('🔍 Exploring 온통대전몰 categories...\n');
+  console.log('🔍 Exploring 대전사랑몰 categories...\n');
 
   for (const categoryPath of categoryUrls) {
     try {

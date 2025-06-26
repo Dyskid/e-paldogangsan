@@ -90,8 +90,8 @@
     "logo": "/logos/mall_6_광주김치몰.png"
   },
   {
-    "id": "mall_7_온통대전몰_대전사랑몰",
-    "name": "온통대전몰 대전사랑몰",
+    "id": "mall_7_대전사랑몰",
+    "name": "대전사랑몰",
     "url": "https://ontongdaejeon.ezwel.com/onnuri/main",
     "region": "대전",
     "tags": [
@@ -102,7 +102,7 @@
     "isNew": false,
     "clickCount": 14,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_7_온통대전몰_대전사랑몰.png"
+    "logo": "/logos/mall_7_대전사랑몰.png"
   },
   {
     "id": "mall_8_울산몰",

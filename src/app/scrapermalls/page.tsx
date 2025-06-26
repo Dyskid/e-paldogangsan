@@ -29,7 +29,7 @@ const malls: Mall[] = [
   { id: 'mall_6', name: '광주김치몰', url: 'https://www.k-kimchi.kr', region: '광주광역시', hasProducts: true },
   
   // 대전광역시
-  { id: 'mall_7', name: '온통대전몰', url: 'https://ontongdaejeon.ezwel.com/onnuri/main', region: '대전광역시', hasProducts: true },
+  { id: 'mall_7', name: '대전사랑몰', url: 'https://ontongdaejeon.ezwel.com/onnuri/main', region: '대전광역시', hasProducts: true },
   
   // 울산광역시
   { id: 'mall_8', name: '울산몰', url: 'https://www.ulsanmall.kr', region: '울산광역시' },

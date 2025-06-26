@@ -50,7 +50,7 @@ const mallList: MallInfo[] = [
   { id: 'k-kimchi', name: '광주김치몰', url: 'https://www.k-kimchi.kr/index.php', region: '광주광역시', status: 'pending' },
   
   // 대전광역시
-  { id: 'ontong-daejeon', name: '온통대전몰', url: 'https://ontongdaejeon.ezwel.com/onnuri/main', region: '대전광역시', status: 'pending' },
+  { id: 'ontong-daejeon', name: '대전사랑몰', url: 'https://ontongdaejeon.ezwel.com/onnuri/main', region: '대전광역시', status: 'pending' },
   
   // 울산광역시
   { id: 'ulsan-mall', name: '울산몰', url: 'https://www.ulsanmall.kr', region: '울산광역시', status: 'pending' },

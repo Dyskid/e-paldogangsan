@@ -22,7 +22,7 @@ async function scrapeOntongDaejeonComprehensive(): Promise<void> {
   const baseUrl = 'https://ontongdaejeon.ezwel.com';
   const mallInfo = {
     id: 'ontongdaejeon',
-    name: '온통대전몰 대전사랑몰',
+    name: '대전사랑몰',
     region: '대전광역시',
     tags: ['대전특산품', '지역상품', '로컬푸드', '대전사랑몰', '온통대전']
   };
@@ -36,7 +36,7 @@ async function scrapeOntongDaejeonComprehensive(): Promise<void> {
     rejectUnauthorized: false
   });
 
-  console.log('🔍 Starting comprehensive scraping of 온통대전몰...');
+  console.log('🔍 Starting comprehensive scraping of 대전사랑몰...');
 
   // First, get all products from the main page
   try {
@@ -219,5 +219,5 @@ async function scrapeOntongDaejeonComprehensive(): Promise<void> {
 
 // Run the comprehensive scraper
 scrapeOntongDaejeonComprehensive().then(() => {
-  console.log('✅ 온통대전몰 comprehensive scraping completed!');
+  console.log('✅ 대전사랑몰 comprehensive scraping completed!');
 }).catch(console.error);

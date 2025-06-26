@@ -16,7 +16,7 @@ interface ScrapedProduct {
   tags: string[];
 }
 
-// Category mapping for 온통대전몰
+// Category mapping for 대전사랑몰
 const categoryMapping: { [key: string]: string } = {
   '로컬상품관': '가공식품',
   '무료배송': '가공식품',
@@ -36,7 +36,7 @@ function parsePrice(priceStr: string): number {
 }
 
 function registerOntongDaejeonProducts() {
-  console.log('📦 Starting 온통대전몰 product registration...');
+  console.log('📦 Starting 대전사랑몰 product registration...');
   
   // Read existing products
   const existingProductsData = readFileSync('./src/data/products.json', 'utf-8');
@@ -60,7 +60,7 @@ function registerOntongDaejeonProducts() {
   
   const mallInfo = {
     mallId: 'ontongdaejeon',
-    mallName: '온통대전몰 대전사랑몰',
+    mallName: '대전사랑몰',
     mallUrl: 'https://ontongdaejeon.ezwel.com',
     region: '대전광역시'
   };
@@ -75,7 +75,7 @@ function registerOntongDaejeonProducts() {
     
     const product: Product = {
       id: scraped.id,
-      name: scraped.title || `온통대전몰 상품 ${scraped.id}`,
+      name: scraped.title || `대전사랑몰 상품 ${scraped.id}`,
       price: price,
       originalPrice: originalPrice,
       image: scraped.imageUrl,

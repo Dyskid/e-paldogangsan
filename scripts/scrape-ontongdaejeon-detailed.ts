@@ -23,7 +23,7 @@ async function scrapeWithPuppeteer(): Promise<void> {
   const baseUrl = 'https://ontongdaejeon.ezwel.com';
   const mallInfo = {
     id: 'ontongdaejeon',
-    name: '온통대전몰 대전사랑몰',
+    name: '대전사랑몰',
     region: '대전광역시',
     tags: ['대전특산품', '지역상품', '로컬푸드', '대전사랑몰', '온통대전']
   };

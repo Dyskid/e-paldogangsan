@@ -16,7 +16,7 @@ function generateFinalSummary() {
     timestamp: new Date().toISOString(),
     mall: {
       id: 'ontongdaejeon',
-      name: '온통대전몰 대전사랑몰',
+      name: '대전사랑몰',
       url: 'https://ontongdaejeon.ezwel.com/onnuri/main',
       region: '대전광역시'
     },

@@ -126,7 +126,7 @@ public/
   │   ├── mall_67_곡성몰_곡성군농특산물중개몰_.png
   │   ├── mall_68_사이소_경북몰_.png
   │   ├── mall_69_상주_명실상주몰.png
-  │   ├── mall_7_온통대전몰_대전사랑몰.png
+  │   ├── mall_7_대전사랑몰.png
   │   ├── mall_70_청도_청리브.png
   │   ├── mall_71_영주장날.png
   │   ├── mall_72_안동장터.png
@@ -1455,6 +1455,7 @@ src/
   │   ├── product-sync.ts
   ├── types/
   │   ├── index.ts
+analyze-product-names.js/
 CLAUDE.md/
 CRON_SETUP.md/
 jeju-mall-product-urls.txt/
@@ -1774,10 +1775,10 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-26
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: c5b9710 fix: update Product interface to handle mixed price types
+Last Commit: 4cb82e6 debug: add comprehensive fixes for gmsocial product name display issue
 
 ### Project Statistics
-- Total Files: 1380
+- Total Files: 1381
 - Total Directories: 37
 - Shopping Malls: 99
 - Products: 4211

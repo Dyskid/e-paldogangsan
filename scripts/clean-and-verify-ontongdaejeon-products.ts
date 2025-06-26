@@ -231,7 +231,7 @@ function cleanAndVerifyOntongDaejeonProducts() {
   const report = {
     timestamp: new Date().toISOString(),
     mall: 'ontongdaejeon',
-    mallName: '온통대전몰 대전사랑몰',
+    mallName: '대전사랑몰',
     summary: {
       totalProducts: stats.total,
       cleanedProducts: cleaned,

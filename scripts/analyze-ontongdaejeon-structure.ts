@@ -28,7 +28,7 @@ async function analyzeOntongDaejeonStructure(): Promise<void> {
   });
   
   try {
-    console.log('🔍 Analyzing 온통대전몰 대전사랑몰 (ontongdaejeon.ezwel.com) website structure...');
+    console.log('🔍 Analyzing 대전사랑몰 (ontongdaejeon.ezwel.com) website structure...');
     
     // Fetch main page
     const response = await axios.get(mainUrl, {
@@ -207,7 +207,7 @@ async function analyzeOntongDaejeonStructure(): Promise<void> {
     }
 
   } catch (error) {
-    console.error('❌ Error analyzing 온통대전몰 structure:', error);
+    console.error('❌ Error analyzing 대전사랑몰 structure:', error);
     
     // Save error for debugging
     const errorInfo = {

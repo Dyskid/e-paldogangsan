@@ -45,7 +45,7 @@ const additionalMappings: Record<string, string> = {
   'wemall': '우리몰',
   'kkimchi': '광주김치몰',
   'chamds': '참달성',
-  'ontongdaejeon': '온통대전몰',
+  'ontongdaejeon': '대전사랑몰',
   'freshjb': '전북생생장터',
   'danpoong': '단풍미인',
   'jnmall': '남도장터',
