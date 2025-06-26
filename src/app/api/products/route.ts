@@ -11,7 +11,9 @@ const PRODUCTS_FILE = path.join(process.cwd(), 'src/data/products.json');
 async function getProducts(): Promise<Product[]> {
   try {
     const data = await fs.readFile(PRODUCTS_FILE, 'utf-8');
-    return JSON.parse(data);
+    const allProducts = JSON.parse(data);
+    // Filter out commented products (those with _commented: true)
+    return allProducts.filter((product: any) => !product._commented);
   } catch (error) {
     return [];
   }

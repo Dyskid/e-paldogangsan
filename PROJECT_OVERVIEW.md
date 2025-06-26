@@ -953,6 +953,7 @@ scripts/
   ├── clean-category-products.ts
   ├── clean-extracted-titles.ts
   ├── clean-jeju-titles.ts
+  ├── cleanup-nonexistent-malls.ts
   ├── comprehensive-jeju-title-update.ts
   ├── convert-title-to-name-only.ts
   ├── create-jeju-products-dataset.ts
@@ -1495,7 +1496,7 @@ vercel.json/
 }
 ```
 
-Total: **99 shopping malls** across 17 regions
+Total: **93 shopping malls** across 17 regions
 
 ### 2. Products Data (`products.json`)
 ```typescript
@@ -1779,13 +1780,13 @@ npm run lint     # Run ESLint
 
 Last Updated: 2025-06-26
 Version: 1.0.0
-Git Branch: enrolling
-Last Commit: 8a7ff3a fix: ensure product names are always visible with failsafe CSS
+Git Branch: pruning
+Last Commit: b7326e0 fix: remove \!important from inline styles to resolve TypeScript error
 
 ### Project Statistics
-- Total Files: 1386
+- Total Files: 1387
 - Total Directories: 37
-- Shopping Malls: 99
+- Shopping Malls: 93
 - Products: 4211
 - Regions: 17
 - Categories: 10

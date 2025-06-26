@@ -1,35 +1,5 @@
 [
   {
-    "id": "mall_1_온서울마켓",
-    "name": "온서울마켓",
-    "url": "https://on.seoul.go.kr",
-    "region": "서울",
-    "tags": [
-      "마켓",
-      "서울"
-    ],
-    "featured": true,
-    "isNew": false,
-    "clickCount": 986,
-    "lastVerified": "2025-06-01",
-    "logo": "https://on.seoul.go.kr/images/common/logo.png"
-  },
-  {
-    "id": "mall_2_부산브랜드몰",
-    "name": "부산브랜드몰",
-    "url": "https://busanbrand.kr",
-    "region": "부산",
-    "tags": [
-      "종합몰",
-      "부산"
-    ],
-    "featured": true,
-    "isNew": false,
-    "clickCount": 296,
-    "lastVerified": "2025-06-01",
-    "logo": "https://busanbrand.kr/images/logo.png"
-  },
-  {
     "id": "mall_3_우리몰",
     "name": "우리몰",
     "url": "https://wemall.kr",
@@ -60,21 +30,6 @@
     "logo": "/logos/mall_4_참달성_달성군_.png"
   },
   {
-    "id": "mall_5_인천e몰",
-    "name": "인천e몰",
-    "url": "https://www.incheone-mall.kr",
-    "region": "인천",
-    "tags": [
-      "종합몰",
-      "인천"
-    ],
-    "featured": true,
-    "isNew": true,
-    "clickCount": 260,
-    "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_5_인천e몰.png"
-  },
-  {
     "id": "mall_6_광주김치몰",
     "name": "광주김치몰",
     "url": "https://www.k-kimchi.kr/index.php",
@@ -103,36 +58,6 @@
     "clickCount": 14,
     "lastVerified": "2025-06-01",
     "logo": "/logos/mall_7_대전사랑몰.png"
-  },
-  {
-    "id": "mall_8_울산몰",
-    "name": "울산몰",
-    "url": "https://www.ulsanmall.kr",
-    "region": "울산",
-    "tags": [
-      "종합몰",
-      "울산"
-    ],
-    "featured": true,
-    "isNew": true,
-    "clickCount": 668,
-    "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_8_울산몰.png"
-  },
-  {
-    "id": "mall_9_세종로컬푸드",
-    "name": "세종로컬푸드",
-    "url": "https://www.sjlocal.or.kr/",
-    "region": "세종",
-    "tags": [
-      "로컬푸드",
-      "세종"
-    ],
-    "featured": true,
-    "isNew": true,
-    "clickCount": 909,
-    "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_9_세종로컬푸드.png"
   },
   {
     "id": "mall_10_착착착",
@@ -204,10 +129,12 @@
       "경기"
     ],
     "featured": false,
-    "isNew": true,
+    "isNew": false,
     "clickCount": 75,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_14_마켓경기.png"
+    "logo": "/logos/mall_14_마켓경기.png",
+    "_commented": true,
+    "_reason": "Compatibility issues - temporarily disabled"
   },
   {
     "id": "mall_15_강원더몰",
@@ -465,21 +392,6 @@
     "logo": "/logos/mall_31_평창몰.png"
   },
   {
-    "id": "mall_32_제천로컬푸드",
-    "name": "제천로컬푸드",
-    "url": "https://www.jclocal.co.kr/index.local",
-    "region": "충북",
-    "tags": [
-      "로컬푸드",
-      "충북"
-    ],
-    "featured": false,
-    "isNew": false,
-    "clickCount": 356,
-    "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_32_제천로컬푸드.png"
-  },
-  {
     "id": "mall_33_음성장터",
     "name": "음성장터",
     "url": "https://www.esjang.go.kr/",
@@ -626,7 +538,9 @@
     "clickCount": 535,
     "lastVerified": "2025-06-01",
     "district": "김제",
-    "logo": "/logos/mall_42_지평선몰_김제_.png"
+    "logo": "/logos/mall_42_지평선몰_김제_.png",
+    "_commented": true,
+    "_reason": "Compatibility issues - temporarily disabled"
   },
   {
     "id": "mall_43_전북생생장터",
@@ -671,7 +585,9 @@
     "isNew": false,
     "clickCount": 181,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_45_진안고원몰.png"
+    "logo": "/logos/mall_45_진안고원몰.png",
+    "_commented": true,
+    "_reason": "Compatibility issues - temporarily disabled"
   },
   {
     "id": "mall_46_장수몰",
@@ -716,7 +632,9 @@
     "isNew": false,
     "clickCount": 798,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_48_임실몰.png"
+    "logo": "/logos/mall_48_임실몰.png",
+    "_commented": true,
+    "_reason": "Compatibility issues - temporarily disabled"
   },
   {
     "id": "mall_49_순창로컬푸드쇼핑몰",
@@ -732,7 +650,9 @@
     "isNew": false,
     "clickCount": 28,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_49_순창로컬푸드쇼핑몰.png"
+    "logo": "/logos/mall_49_순창로컬푸드쇼핑몰.png",
+    "_commented": true,
+    "_reason": "Compatibility issues - temporarily disabled"
   },
   {
     "id": "mall_50_해가람",
@@ -797,7 +717,9 @@
     "isNew": false,
     "clickCount": 210,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_53_해피굿팜.png"
+    "logo": "/logos/mall_53_해피굿팜.png",
+    "_commented": true,
+    "_reason": "Compatibility issues - temporarily disabled"
   },
   {
     "id": "mall_54_보성몰",
@@ -955,7 +877,9 @@
     "isNew": false,
     "clickCount": 864,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_63_해남미소.png"
+    "logo": "/logos/mall_63_해남미소.png",
+    "_commented": true,
+    "_reason": "Compatibility issues - temporarily disabled"
   },
   {
     "id": "mall_64_담양장터",
@@ -1100,7 +1024,9 @@
     "isNew": false,
     "clickCount": 881,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_72_안동장터.png"
+    "logo": "/logos/mall_72_안동장터.png",
+    "_commented": true,
+    "_reason": "Compatibility issues - temporarily disabled"
   },
   {
     "id": "mall_73_청송몰",
@@ -1193,7 +1119,9 @@
     "isNew": false,
     "clickCount": 323,
     "lastVerified": "2025-06-01",
-    "logo": "/logos/mall_78_김천노다지장터.png"
+    "logo": "/logos/mall_78_김천노다지장터.png",
+    "_commented": true,
+    "_reason": "Compatibility issues - temporarily disabled"
   },
   {
     "id": "mall_79_예천장터",

@@ -4,7 +4,8 @@ import regionsData from '@/data/regions.json';
 import categoriesData from '@/data/categories.json';
 
 export function getMalls(): Mall[] {
-  return mallsData as Mall[];
+  // Filter out commented malls (those with _commented: true)
+  return (mallsData as Mall[]).filter(mall => !(mall as any)._commented);
 }
 
 export function getRegions(): Region[] {
