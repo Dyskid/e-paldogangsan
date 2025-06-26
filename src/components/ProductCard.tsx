@@ -95,9 +95,33 @@ export default function ProductCard({ product }: ProductCardProps) {
         </div>
 
         <div className="p-5">
-          <h3 className="text-lg font-semibold text-gray-900 line-clamp-2 mb-3 min-h-[3.5rem] leading-relaxed group-hover:text-blue-600 transition-colors">
-            {product.name || '상품명 없음'}
-          </h3>
+          {/* Product Name - Multiple Approaches for Maximum Compatibility */}
+          <div className="mb-3 min-h-[3.5rem]">
+            <h3 
+              className="text-lg font-semibold text-gray-900 leading-relaxed group-hover:text-blue-600 transition-colors"
+              style={{
+                display: 'block !important',
+                visibility: 'visible !important',
+                wordBreak: 'break-word',
+                overflow: 'hidden',
+                maxHeight: '3.5rem',
+                lineHeight: '1.75rem',
+                color: '#111827',
+                fontSize: '18px',
+                fontWeight: '600'
+              }}
+              title={product.name || '상품명 없음'}
+            >
+              {product.name || '상품명 없음'}
+            </h3>
+            
+            {/* Failsafe backup display */}
+            <noscript>
+              <div style={{ fontSize: '18px', fontWeight: 'bold', color: '#000' }}>
+                {product.name || '상품명 없음'}
+              </div>
+            </noscript>
+          </div>
 
           <div className="flex items-center gap-2 mb-4">
             <span className="text-xs px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 text-white font-medium">
