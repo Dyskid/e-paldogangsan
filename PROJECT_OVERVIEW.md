@@ -911,6 +911,7 @@ scripts/
   ├── analyze-ontongdaejeon-structure.ts
   ├── analyze-osansemall-main-page.ts
   ├── analyze-osansemall-structure.ts
+  ├── analyze-product-structures.ts
   ├── analyze-samcheok-structure.ts
   ├── analyze-sclocal-structure.ts
   ├── analyze-seosanttre-structure.ts
@@ -1772,10 +1773,10 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-26
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: ef4a877 fix: complete URL corrections for remaining 광명가치몰 scrapers
+Last Commit: f139444 feat: add comprehensive 광명가치몰 scraper toolkit
 
 ### Project Statistics
-- Total Files: 1378
+- Total Files: 1379
 - Total Directories: 37
 - Shopping Malls: 99
 - Products: 4211
