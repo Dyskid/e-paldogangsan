@@ -67,7 +67,8 @@ export class ProductSyncService {
       
       // Remove old products from this mall
       for (const [id, product] of this.products.entries()) {
-        if (product.mall.mallId === mallId) {
+        const productMallId = product.mall?.mallId || product.mallId;
+        if (productMallId === mallId) {
           this.products.delete(id);
         }
       }
@@ -141,7 +142,10 @@ export class ProductSyncService {
 
   getProductsByMall(mallId: string): Product[] {
     return Array.from(this.products.values())
-      .filter(product => product.mall.mallId === mallId);
+      .filter(product => {
+        const productMallId = product.mall?.mallId || product.mallId;
+        return productMallId === mallId;
+      });
   }
 
   searchProducts(query: string): Product[] {
