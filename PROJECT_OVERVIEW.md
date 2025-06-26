@@ -954,6 +954,7 @@ scripts/
   ├── clean-extracted-titles.ts
   ├── clean-jeju-titles.ts
   ├── comprehensive-jeju-title-update.ts
+  ├── convert-title-to-name-only.ts
   ├── create-jeju-products-dataset.ts
   ├── create-yeosumall-mock-scraper.ts
   ├── debug-gmsocial-products.ts
@@ -1775,10 +1776,10 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-26
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: 4cb82e6 debug: add comprehensive fixes for gmsocial product name display issue
+Last Commit: 9dcbaa4 refactor: consolidate ontongdaejeon mall scripts and update product data
 
 ### Project Statistics
-- Total Files: 1381
+- Total Files: 1382
 - Total Directories: 37
 - Shopping Malls: 99
 - Products: 4211
