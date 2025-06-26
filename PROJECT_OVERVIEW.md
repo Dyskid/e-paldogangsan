@@ -1772,7 +1772,7 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-26
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: 9f7f164 fix: trigger deployment for 광명가치몰 product names display
+Last Commit: ef4a877 fix: complete URL corrections for remaining 광명가치몰 scrapers
 
 ### Project Statistics
 - Total Files: 1378
