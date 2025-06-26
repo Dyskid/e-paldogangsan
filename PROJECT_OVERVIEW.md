@@ -956,6 +956,7 @@ scripts/
   ├── comprehensive-jeju-title-update.ts
   ├── create-jeju-products-dataset.ts
   ├── create-yeosumall-mock-scraper.ts
+  ├── debug-gmsocial-products.ts
   ├── debug-osansemall-category.ts
   ├── discover-freshjb-api.ts
   ├── download-mall-logos.ts
@@ -1773,10 +1774,10 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-26
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: b463912 refactor: standardize product name field usage
+Last Commit: c5b9710 fix: update Product interface to handle mixed price types
 
 ### Project Statistics
-- Total Files: 1379
+- Total Files: 1380
 - Total Directories: 37
 - Shopping Malls: 99
 - Products: 4211

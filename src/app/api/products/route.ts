@@ -44,9 +44,9 @@ export async function GET(request: Request) {
     if (search) {
       const query = search.toLowerCase();
       products = products.filter(p => 
-        p.name.toLowerCase().includes(query) ||
-        p.description?.toLowerCase().includes(query) ||
-        p.tags.some(tag => tag.toLowerCase().includes(query))
+        (p.name && p.name.toLowerCase().includes(query)) ||
+        (p.description && p.description.toLowerCase().includes(query)) ||
+        (p.tags && p.tags.some(tag => tag.toLowerCase().includes(query)))
       );
     }
 

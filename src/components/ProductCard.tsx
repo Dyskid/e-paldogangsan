@@ -8,6 +8,17 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ product }: ProductCardProps) {
+  // Debug logging for gmsocial products
+  if (product.id && product.id.startsWith('gmsocial_')) {
+    console.log('🔍 GMSocial Product Debug:', {
+      id: product.id,
+      name: product.name,
+      nameType: typeof product.name,
+      nameLength: product.name?.length,
+      price: product.price,
+      priceType: typeof product.price
+    });
+  }
   const handleClick = async () => {
     try {
       const mallId = product.mall?.mallId || (product as any).mallId;
@@ -83,7 +94,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 
         <div className="p-4">
           <div className="flex items-start justify-between mb-2">
-            <h3 className="text-lg font-medium line-clamp-2 flex-1">{product.name}</h3>
+            <h3 className="text-lg font-medium line-clamp-2 flex-1">{product.name || '상품명 없음'}</h3>
           </div>
 
           <div className="flex items-center gap-2 mb-3">
