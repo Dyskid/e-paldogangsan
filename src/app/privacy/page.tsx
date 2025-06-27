@@ -350,7 +350,7 @@ export default function PrivacyPage() {
                 <div className="bg-gray-50 rounded-lg p-4">
                   <h3 className="font-medium text-gray-800 mb-2">나. 쿠키의 설치•운영 및 거부</h3>
                   <ul className="text-gray-700 space-y-1 text-sm">
-                    <li>• 웹브라우저 상단의 도구 > 인터넷 옵션 > 개인정보 메뉴의 옵션 설정을 통해 쿠키 저장을 거부할 수 있습니다.</li>
+                    <li>• 웹브라우저 상단의 도구 &gt; 인터넷 옵션 &gt; 개인정보 메뉴의 옵션 설정을 통해 쿠키 저장을 거부할 수 있습니다.</li>
                     <li>• 쿠키 저장을 거부할 경우 맞춤형 서비스 이용에 어려움이 발생할 수 있습니다.</li>
                   </ul>
                 </div>

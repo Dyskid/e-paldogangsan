@@ -1781,7 +1781,7 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-27
 Version: 1.0.0
 Git Branch: pruning
-Last Commit: bfdcf04 feat: update privacy policy to comply with Korean Personal Information Protection Act
+Last Commit: 940d5f6 style: move privacy violation reporting info to footer with smaller text
 
 ### Project Statistics
 - Total Files: 1387
