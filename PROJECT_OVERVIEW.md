@@ -1781,7 +1781,7 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-27
 Version: 1.0.0
 Git Branch: pruning
-Last Commit: a984476 update: change contact email to personal address
+Last Commit: bfdcf04 feat: update privacy policy to comply with Korean Personal Information Protection Act
 
 ### Project Statistics
 - Total Files: 1387

@@ -512,6 +512,16 @@ export default function PrivacyPage() {
                 </p>
               </div>
             </div>
+
+            <div className="text-center text-xs text-gray-400 mt-16 border-t pt-6">
+              <p className="mb-2">개인정보 침해신고 및 상담기관</p>
+              <div className="space-y-1">
+                <p>개인정보침해신고센터 privacy.go.kr (국번없이 182)</p>
+                <p>개인정보분쟁조정위원회 www.kopico.go.kr (1833-6972)</p>
+                <p>대검찰청 사이버범죄수사단 www.spo.go.kr (국번없이 1301)</p>
+                <p>경찰청 사이버테러대응센터 www.netan.go.kr (국번없이 182)</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
