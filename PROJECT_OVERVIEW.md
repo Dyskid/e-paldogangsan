@@ -1781,7 +1781,7 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-27
 Version: 1.0.0
 Git Branch: pruning
-Last Commit: 752a382 remove: delete region count from about page stats
+Last Commit: 2be3f3b update: correct shopping mall and category counts in about page
 
 ### Project Statistics
 - Total Files: 1387
