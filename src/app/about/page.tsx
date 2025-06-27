@@ -120,14 +120,10 @@ export default function AboutPage() {
           {/* Stats */}
           <section className="mb-12">
             <h2 className="text-2xl font-bold text-gray-800 mb-6">서비스 현황</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="text-center bg-blue-50 rounded-lg p-4">
                 <div className="text-2xl font-bold text-primary mb-1">10+</div>
                 <div className="text-sm text-gray-600">등록 쇼핑몰</div>
-              </div>
-              <div className="text-center bg-green-50 rounded-lg p-4">
-                <div className="text-2xl font-bold text-green-600 mb-1">10</div>
-                <div className="text-sm text-gray-600">참여 지역</div>
               </div>
               <div className="text-center bg-yellow-50 rounded-lg p-4">
                 <div className="text-2xl font-bold text-yellow-600 mb-1">6</div>
