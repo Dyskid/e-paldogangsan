@@ -4,7 +4,6 @@ import { useState, useEffect, useCallback } from 'react';
 import { Product } from '@/types';
 import ProductCard from '@/components/ProductCard';
 import ProductSearchBar from '@/components/ProductSearchBar';
-import { getAllCategories, getCategoryInfo } from '@/lib/product-classifier';
 
 export default function ProductsPage() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -12,11 +11,9 @@ export default function ProductsPage() {
   const [loading, setLoading] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
-
-  const categories = [
-    { id: 'all', name: '전체' },
-    ...getAllCategories()
-  ];
+  const [categories, setCategories] = useState<{id: string, name: string}[]>([
+    { id: 'all', name: '전체' }
+  ]);
 
   useEffect(() => {
     fetchProducts();
@@ -54,7 +51,27 @@ export default function ProductsPage() {
     try {
       const response = await fetch('/api/products');
       const data = await response.json();
-      setProducts(data.products || []);
+      const productsData = data.products || [];
+      setProducts(productsData);
+      
+      // Extract unique categories from products
+      const uniqueCategories = new Set<string>();
+      productsData.forEach((product: Product) => {
+        if (product.category) {
+          uniqueCategories.add(product.category);
+        }
+      });
+      
+      // Convert to array and sort
+      const categoryList = Array.from(uniqueCategories).sort().map(cat => ({
+        id: cat,
+        name: cat
+      }));
+      
+      setCategories([
+        { id: 'all', name: '전체' },
+        ...categoryList
+      ]);
     } catch (error) {
       console.error('Failed to fetch products:', error);
     } finally {
@@ -120,13 +137,15 @@ export default function ProductsPage() {
       </div>
 
       {/* Results Summary */}
-      <div className="max-w-7xl mx-auto px-4 py-6">
-        <p className="text-gray-600">
-          {filteredProducts.length}개의 상품을 찾았습니다
-          {selectedCategory !== 'all' && ` (${categories.find(c => c.id === selectedCategory)?.name})`}
-          {searchQuery && ` - "${searchQuery}" 검색 결과`}
-        </p>
-      </div>
+      {filteredProducts.length > 0 && (
+        <div className="max-w-7xl mx-auto px-4 py-6">
+          <p className="text-gray-600">
+            {filteredProducts.length}개의 상품을 찾았습니다
+            {selectedCategory !== 'all' && ` (${categories.find(c => c.id === selectedCategory)?.name})`}
+            {searchQuery && ` - "${searchQuery}" 검색 결과`}
+          </p>
+        </div>
+      )}
 
       {/* Products Grid */}
       <div className="max-w-7xl mx-auto px-4 pb-12">

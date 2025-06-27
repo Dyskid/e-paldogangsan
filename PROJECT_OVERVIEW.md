@@ -1804,7 +1804,7 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-27
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: 02ffa57 feat: implement comprehensive 부안 텃밭할매 scraper and product registration
+Last Commit: 44cb568 feat: remove visit count feature and fix product grid layout
 
 ### Project Statistics
 - Total Files: 1406
