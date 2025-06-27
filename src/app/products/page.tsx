@@ -137,15 +137,13 @@ export default function ProductsPage() {
       </div>
 
       {/* Results Summary */}
-      {filteredProducts.length > 0 && (
-        <div className="max-w-7xl mx-auto px-4 py-6">
-          <p className="text-gray-600">
-            {filteredProducts.length}개의 상품을 찾았습니다
-            {selectedCategory !== 'all' && ` (${categories.find(c => c.id === selectedCategory)?.name})`}
-            {searchQuery && ` - "${searchQuery}" 검색 결과`}
-          </p>
-        </div>
-      )}
+      <div className="max-w-7xl mx-auto px-4 py-6">
+        <p className="text-gray-600">
+          {filteredProducts.length}개의 상품을 찾았습니다
+          {selectedCategory !== 'all' && ` (${categories.find(c => c.id === selectedCategory)?.name})`}
+          {searchQuery && ` - "${searchQuery}" 검색 결과`}
+        </p>
+      </div>
 
       {/* Products Grid */}
       <div className="max-w-7xl mx-auto px-4 pb-12">
