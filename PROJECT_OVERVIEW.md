@@ -1781,7 +1781,7 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-27
 Version: 1.0.0
 Git Branch: pruning
-Last Commit: 7f4aae0 fix: escape HTML special characters in privacy policy
+Last Commit: 752a382 remove: delete region count from about page stats
 
 ### Project Statistics
 - Total Files: 1387
