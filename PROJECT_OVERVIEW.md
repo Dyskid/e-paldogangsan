@@ -1788,7 +1788,7 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-27
 Version: 1.0.0
 Git Branch: pruning
-Last Commit: 60211da fix: remove invalid export from Next.js API route
+Last Commit: fb3e103 security: remove public scraper access and enhance admin protection
 
 ### Project Statistics
 - Total Files: 1390

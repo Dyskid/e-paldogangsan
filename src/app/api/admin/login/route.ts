@@ -4,8 +4,8 @@ import crypto from 'crypto';
 // Force dynamic rendering for this route
 export const dynamic = 'force-dynamic';
 
-// Admin password (in production, this should be in environment variables)
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'admin123!@#';
+// Admin password from environment variables (required)
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
 
 // Simple session storage (in production, use Redis or database)
 const activeSessions = new Set<string>();
@@ -19,6 +19,15 @@ export async function POST(request: NextRequest) {
       return NextResponse.json(
         { error: '비밀번호를 입력해주세요.' },
         { status: 400 }
+      );
+    }
+
+    // Check if admin password is configured
+    if (!ADMIN_PASSWORD) {
+      console.error('ADMIN_PASSWORD environment variable is not configured');
+      return NextResponse.json(
+        { error: '서버 설정 오류입니다. 관리자에게 문의하세요.' },
+        { status: 500 }
       );
     }
 
