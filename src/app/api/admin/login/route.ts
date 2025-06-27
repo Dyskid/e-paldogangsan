@@ -74,5 +74,5 @@ export async function GET(request: NextRequest) {
   return NextResponse.json({ success: true });
 }
 
-// Export active sessions for middleware
-export { activeSessions };
+// Active sessions are managed internally
+// For external access, use the GET endpoint to verify sessions
