@@ -86,9 +86,6 @@ export default function RootLayout({
                 <p className="text-gray-300 mb-4">
                   전국 지방자치단체가 운영하는 농수산물 및 특산품 온라인 쇼핑몰을 한 곳에서 만나보세요.
                 </p>
-                <p className="text-sm text-gray-400">
-                  신선한 산지직송 상품으로 건강한 식탁을 만들어보세요.
-                </p>
               </div>
               
               <div>
@@ -104,15 +101,14 @@ export default function RootLayout({
               <div>
                 <h3 className="text-lg font-semibold mb-4">고객지원</h3>
                 <ul className="space-y-2 text-sm text-gray-300">
-                  <li>운영시간: 평일 09:00 - 18:00</li>
-                  <li>점심시간: 12:00 - 13:00</li>
+                  <li>운영시간: 평일 10:00 - 16:00</li>
                   <li>주말 및 공휴일 휴무</li>
                 </ul>
               </div>
             </div>
             
             <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
-              <p>&copy; 2024 모두의팔도장터. All rights reserved.</p>
+              <p>&copy; 2025 모두의팔도장터. All rights reserved.</p>
             </div>
           </div>
         </footer>

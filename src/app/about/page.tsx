@@ -39,8 +39,8 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-gray-50 rounded-lg p-6">
                 <div className="text-primary mb-4">
-                  <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                  <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-gray-800 mb-3">정부 인증 쇼핑몰</h3>
@@ -51,8 +51,8 @@ export default function AboutPage() {
 
               <div className="bg-gray-50 rounded-lg p-6">
                 <div className="text-primary mb-4">
-                  <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-gray-800 mb-3">통합 검색</h3>
@@ -63,8 +63,8 @@ export default function AboutPage() {
 
               <div className="bg-gray-50 rounded-lg p-6">
                 <div className="text-primary mb-4">
-                  <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012-2v-1a2 2 0 012-2h1.945M12 7.5h1.5m0 0V9m0-1.5h1.5m-1.5 0V6"/>
+                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-gray-800 mb-3">지역별 탐색</h3>
@@ -75,8 +75,8 @@ export default function AboutPage() {
 
               <div className="bg-gray-50 rounded-lg p-6">
                 <div className="text-primary mb-4">
-                  <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-gray-800 mb-3">안전한 거래</h3>
