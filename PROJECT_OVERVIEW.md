@@ -938,6 +938,7 @@ scripts/
   ├── analyze-yeosumall-structure.ts
   ├── analyze-yjmarket-structure.ts
   ├── batch-scrape-all-malls.ts
+  ├── buan-test-products-1751018797462.json
   ├── check-gmsocial-name-fields.ts
   ├── check-gmsocial-names.ts
   ├── check-gmsocial-product-names.ts
@@ -957,6 +958,7 @@ scripts/
   ├── comprehensive-jeju-title-update.ts
   ├── convert-title-to-name-only.ts
   ├── create-jeju-products-dataset.ts
+  ├── create-test-buan-products.js
   ├── create-yeosumall-mock-scraper.ts
   ├── debug-gmsocial-products.ts
   ├── debug-osansemall-category.ts
@@ -1001,6 +1003,7 @@ scripts/
   ├── fix-specific-jeju-titles.ts
   ├── identify-category-products.ts
   ├── improve-scraped-titles.ts
+  ├── improved-buan-scraper.js
   ├── integrate-final-jeju-products.ts
   ├── integrate-jeju-products.ts
   ├── list-all-gmsocial-products.ts
@@ -1086,6 +1089,7 @@ scripts/
   ├── register-yeosumall-mock-products.ts
   ├── register-yeosumall-products.ts
   ├── register-yjmarket-products.ts
+  ├── remove-buan-products.js
   ├── remove-failed-jeju-products.ts
   ├── remove-jejumall.ts
   ├── remove-unknown-mall-products.ts
@@ -1097,6 +1101,8 @@ scripts/
   ├── scrape-boseong-fixed.ts
   ├── scrape-buan-comprehensive.ts
   ├── scrape-buan-quick.ts
+  ├── scrape-buan-tteotbat-halme-api.js
+  ├── scrape-buan-tteotbat-halme.js
   ├── scrape-cdmall-comprehensive.ts
   ├── scrape-cdmall-fixed.ts
   ├── scrape-cdmall-quick.ts
@@ -1221,6 +1227,7 @@ scripts/
   ├── scrape-yeosumall-comprehensive.ts
   ├── scrape-yeosumall-template.ts
   ├── scrape-yjmarket-comprehensive.ts
+  ├── simple-buan-scraper.js
   ├── test-api-products.ts
   ├── test-boseong-product.ts
   ├── test-buan-category.ts
@@ -1412,6 +1419,7 @@ src/
   │   ├── categories.json
   │   ├── category-mapping.json
   │   ├── malls.json
+  │   ├── products_backup.json
   │   ├── products-backup-1750328004702.json
   │   ├── products-backup-1750568863072.json
   │   ├── products-backup-1750570197131.json
@@ -1525,7 +1533,7 @@ Total: **93 shopping malls** across 17 regions
 }
 ```
 
-Total: **4211 products** with real data for featured malls
+Total: **4164 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -1787,13 +1795,13 @@ npm run lint     # Run ESLint
 
 Last Updated: 2025-06-27
 Version: 1.0.0
-Git Branch: main
-Last Commit: 23b1e02 security: remove hardcoded admin password and enforce environment variable
+Git Branch: enrolling
+Last Commit: 0cc310e docs: update PROJECT_OVERVIEW.md with main branch status after pruning merge
 
 ### Project Statistics
-- Total Files: 1390
+- Total Files: 1398
 - Total Directories: 41
 - Shopping Malls: 93
-- Products: 4211
+- Products: 4164
 - Regions: 17
 - Categories: 10
