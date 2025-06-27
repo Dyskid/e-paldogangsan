@@ -38,7 +38,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <h3 className="font-semibold text-gray-800 mb-2">운영시간</h3>
-                <p className="text-gray-600">평일 09:00 - 18:00</p>
+                <p className="text-gray-600">평일 10:00 - 16:00</p>
               </div>
 
               <div className="text-center">
