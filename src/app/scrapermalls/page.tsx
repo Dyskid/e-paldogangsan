@@ -1,6 +1,7 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
 interface Mall {
@@ -149,6 +150,58 @@ const malls: Mall[] = [
 export default function MallsPage() {
   const [loading, setLoading] = useState<string | null>(null);
   const [message, setMessage] = useState<string | null>(null);
+  const [authenticated, setAuthenticated] = useState(false);
+  const [authLoading, setAuthLoading] = useState(true);
+  const router = useRouter();
+
+  useEffect(() => {
+    const checkAuth = async () => {
+      const sessionToken = localStorage.getItem('adminSession');
+      
+      if (!sessionToken) {
+        router.push('/admin');
+        return;
+      }
+
+      try {
+        const response = await fetch('/api/admin/login', {
+          headers: {
+            'Authorization': `Bearer ${sessionToken}`
+          }
+        });
+
+        if (response.ok) {
+          setAuthenticated(true);
+        } else {
+          localStorage.removeItem('adminSession');
+          router.push('/admin');
+        }
+      } catch (error) {
+        console.error('Auth check failed:', error);
+        localStorage.removeItem('adminSession');
+        router.push('/admin');
+      } finally {
+        setAuthLoading(false);
+      }
+    };
+
+    checkAuth();
+  }, [router]);
+
+  if (authLoading) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
+          <p className="text-gray-600">인증 확인 중...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (!authenticated) {
+    return null; // Will redirect to login
+  }
 
   const handleScrapeMall = async (mall: Mall) => {
     setLoading(mall.id);
@@ -186,7 +239,26 @@ export default function MallsPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <h1 className="text-3xl font-bold text-gray-900 mb-8">전체 쇼핑몰 목록</h1>
+        <div className="flex justify-between items-center mb-8">
+          <h1 className="text-3xl font-bold text-gray-900">전체 쇼핑몰 목록 (관리자 전용)</h1>
+          <div className="flex space-x-4">
+            <Link 
+              href="/admin/dashboard"
+              className="bg-primary text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
+            >
+              관리자 대시보드
+            </Link>
+            <button
+              onClick={() => {
+                localStorage.removeItem('adminSession');
+                router.push('/admin');
+              }}
+              className="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 transition-colors"
+            >
+              로그아웃
+            </button>
+          </div>
+        </div>
         
         <Link 
           href="/"

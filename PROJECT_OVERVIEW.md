@@ -1359,7 +1359,14 @@ src/
   ├── app/
   │   ├── about/
   │   │   ├── page.tsx
+  │   ├── admin/
+  │   │   ├── dashboard/
+  │   │   │   ├── page.tsx
+  │   │   ├── page.tsx
   │   ├── api/
+  │   │   ├── admin/
+  │   │   │   ├── login/
+  │   │   │   │   ├── route.ts
   │   │   ├── products/
   │   │   │   ├── route.ts
   │   │   ├── scrape-mall/
@@ -1781,11 +1788,11 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-27
 Version: 1.0.0
 Git Branch: pruning
-Last Commit: 2be3f3b update: correct shopping mall and category counts in about page
+Last Commit: 7f3dd3c update: sync mergedmalls.txt with data cleanup
 
 ### Project Statistics
-- Total Files: 1387
-- Total Directories: 37
+- Total Files: 1390
+- Total Directories: 41
 - Shopping Malls: 93
 - Products: 4211
 - Regions: 17

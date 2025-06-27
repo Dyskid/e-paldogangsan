@@ -22,7 +22,7 @@ export default function AboutPage() {
 
           {/* Mission */}
           <section className="mb-12">
-            <h2 className="text-2xl font-bold text-gray-800 mb-6">우리의 사명</h2>
+            <h2 className="text-2xl font-bold text-gray-800 mb-6">사명</h2>
             <div className="bg-blue-50 rounded-lg p-6 border border-blue-200">
               <p className="text-gray-700 leading-relaxed">
                 모두의팔도장터는 전국 지방자치단체가 운영하는 농수산물 및 특산품 온라인 쇼핑몰을 
