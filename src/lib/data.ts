@@ -62,16 +62,3 @@ export function getMallById(mallId: string): Mall | undefined {
   return malls.find(mall => mall.id === mallId);
 }
 
-// Helper function to update mall click count (for API route)
-export function updateMallClickCount(mallId: string): Mall | null {
-  // In a real application, this would update the database
-  // For now, we'll just return the mall with incremented count
-  const mall = getMallById(mallId);
-  if (mall) {
-    return {
-      ...mall,
-      clickCount: mall.clickCount + 1
-    };
-  }
-  return null;
-}

@@ -1,5 +1,6 @@
 Perform the following actions on the shopping mall:
 
+remove all products from the mall(overwrite)
 Analyze the shopping mall structure and identify product listing pages
 Create a scraper for the shopping mall to extract product data
 Extract all product URLs from the shopping mall

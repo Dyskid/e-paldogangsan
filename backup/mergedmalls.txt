@@ -12,7 +12,7 @@
 
 대구광역시
 
-우리몰: https://wemall.kr
+$우리몰: https://wemall.kr
 @@참달성 (달성군): https://smartstore.naver.com/chamdalseong
 
 인천광역시
@@ -25,7 +25,7 @@
 
 대전광역시
 
-대전사랑몰: https://ontongdaejeon.ezwel.com/onnuri/main
+$대전사랑몰: https://ontongdaejeon.ezwel.com/onnuri/main
 
 
 
@@ -40,11 +40,11 @@
 
 착착착: https://www.chack3.com/
 오산함께장터: http://www.osansemall.com/
-광명가치몰: https://gmsocial.or.kr/mall/
+$광명가치몰: https://gmsocial.or.kr/mall/
 
 
 
-양주농부마켓: https://market.yangju.go.kr/
+$양주농부마켓: https://market.yangju.go.kr/
 # @@마켓경기: https://smartstore.naver.com/marketgyeonggi
  (temporarily disabled due to compatibility issues)
 
@@ -52,12 +52,12 @@
 
 
 
-강원더몰: https://gwdmall.kr/
-원주몰: https://wonju-mall.co.kr/ 
-강릉몰: https://gangneung-mall.com/
-고성몰: https://gwgoseong-mall.com/ 
-동해몰: https://donghae-mall.com/
-삼척몰: https://samcheok-mall.com/ 
+$강원더몰: https://gwdmall.kr/
+$원주몰: https://wonju-mall.co.kr/ 
+$강릉몰: https://gangneung-mall.com/
+$고성몰: https://gwgoseong-mall.com/ 
+$동해몰: https://donghae-mall.com/
+$삼척몰: https://samcheok-mall.com/ 
 양구몰: https://yanggu-mall.com/
 양양몰: https://yangyang-mall.com/
 영월몰: https://yeongwol-mall.com/  
@@ -74,15 +74,15 @@
 충청북도
 
 음성장터: https://www.esjang.go.kr/
-진천몰: https://jcmall.net/
-괴산장터: https://www.gsjangter.go.kr/
+$진천몰: https://jcmall.net/
+$괴산장터: https://www.gsjangter.go.kr/
 
 충청남도
 
-농사랑: https://nongsarang.co.kr/
-당진팜: https://dangjinfarm.com/
-e홍성장터: https://ehongseong.com/
-서산뜨레: https://seosanttre.com/index.html
+$농사랑: https://nongsarang.co.kr/
+$당진팜: https://dangjinfarm.com/
+$e홍성장터: https://ehongseong.com/
+$서산뜨레: https://seosanttre.com/index.html
 
 전라북도
 

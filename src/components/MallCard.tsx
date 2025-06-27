@@ -19,30 +19,11 @@ export default function MallCard({ mall, region, onVisit }: MallCardProps) {
       await onVisit(mall.id);
     }
     
-    // Track click
-    try {
-      await fetch('/api/track-click', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ mallId: mall.id }),
-      });
-    } catch (error) {
-      console.error('Failed to track click:', error);
-    }
-    
     // Open mall URL
     window.open(mall.url, '_blank', 'noopener,noreferrer');
     setIsLoading(false);
   };
 
-  const formatClickCount = (count: number) => {
-    if (count >= 1000) {
-      return `${(count / 1000).toFixed(1)}k`;
-    }
-    return count.toString();
-  };
 
   return (
     <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-200 border border-gray-200 overflow-hidden group">
@@ -101,16 +82,7 @@ export default function MallCard({ mall, region, onVisit }: MallCardProps) {
           )}
         </div>
 
-        <div className="flex justify-between items-center">
-          <div className="flex items-center gap-2 text-xs text-gray-500">
-            <span className="flex items-center gap-1">
-              <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M10 12l-3-3h6l-3 3z"/>
-              </svg>
-              {formatClickCount(mall.clickCount)} 방문
-            </span>
-          </div>
-
+        <div className="flex justify-end items-center">
           <button
             onClick={handleVisit}
             disabled={isLoading}

@@ -37,13 +37,15 @@ export default function RegionPageClient({ region, malls, regions, categories }:
       case 'alphabetical':
         return a.name.localeCompare(b.name, 'ko');
       case 'popularity':
-        return b.clickCount - a.clickCount;
+        if (a.featured && !b.featured) return -1;
+        if (!a.featured && b.featured) return 1;
+        return a.name.localeCompare(b.name, 'ko');
       case 'newest':
         return new Date(b.lastVerified).getTime() - new Date(a.lastVerified).getTime();
       default: // featured
         if (a.featured && !b.featured) return -1;
         if (!a.featured && b.featured) return 1;
-        return b.clickCount - a.clickCount;
+        return a.name.localeCompare(b.name, 'ko');
     }
   });
 

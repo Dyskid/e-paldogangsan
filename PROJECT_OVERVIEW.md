@@ -960,6 +960,10 @@ scripts/
   ├── create-jeju-products-dataset.ts
   ├── create-test-buan-products.js
   ├── create-yeosumall-mock-scraper.ts
+  ├── danpoong-scraped-backup-1751020379631.json
+  ├── danpoong-scraped-backup-1751020526212.json
+  ├── danpoong-scraped-backup-1751020669285.json
+  ├── danpoong-scraped-backup-1751020817925.json
   ├── debug-gmsocial-products.ts
   ├── debug-osansemall-category.ts
   ├── discover-freshjb-api.ts
@@ -1002,6 +1006,7 @@ scripts/
   ├── fix-product-mall-names.ts
   ├── fix-specific-jeju-titles.ts
   ├── identify-category-products.ts
+  ├── improve-danpoong-categories.js
   ├── improve-scraped-titles.ts
   ├── improved-buan-scraper.js
   ├── integrate-final-jeju-products.ts
@@ -1029,6 +1034,7 @@ scripts/
   ├── register-cyso-products.ts
   ├── register-damyang-products.ts
   ├── register-dangjinfarm-products.ts
+  ├── register-danpoong-products.js
   ├── register-danpoong-products.ts
   ├── register-donghae-products.ts
   ├── register-ehongseong-products.ts
@@ -1090,6 +1096,7 @@ scripts/
   ├── register-yeosumall-products.ts
   ├── register-yjmarket-products.ts
   ├── remove-buan-products.js
+  ├── remove-danpoong-products.js
   ├── remove-failed-jeju-products.ts
   ├── remove-jejumall.ts
   ├── remove-unknown-mall-products.ts
@@ -1119,6 +1126,8 @@ scripts/
   ├── scrape-dangjinfarm-final.ts
   ├── scrape-dangjinfarm-fixed.ts
   ├── scrape-danpoong-comprehensive.ts
+  ├── scrape-danpoong-mall-api.js
+  ├── scrape-danpoong-mall.js
   ├── scrape-danpoong-quick.ts
   ├── scrape-donghae-comprehensive.ts
   ├── scrape-ehongseong-comprehensive.ts
@@ -1381,7 +1390,6 @@ src/
   │   │   ├── sync-products/
   │   │   │   ├── route.ts
   │   │   ├── track-click/
-  │   │   │   ├── route.ts
   │   ├── contact/
   │   │   ├── page.tsx
   │   ├── privacy/
@@ -1533,7 +1541,7 @@ Total: **93 shopping malls** across 17 regions
 }
 ```
 
-Total: **4164 products** with real data for featured malls
+Total: **4247 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -1796,12 +1804,12 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-27
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: 0cc310e docs: update PROJECT_OVERVIEW.md with main branch status after pruning merge
+Last Commit: 02ffa57 feat: implement comprehensive 부안 텃밭할매 scraper and product registration
 
 ### Project Statistics
-- Total Files: 1398
+- Total Files: 1406
 - Total Directories: 41
 - Shopping Malls: 93
-- Products: 4164
+- Products: 4247
 - Regions: 17
 - Categories: 10

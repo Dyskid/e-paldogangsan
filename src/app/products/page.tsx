@@ -86,7 +86,7 @@ export default function ProductsPage() {
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <div className="bg-white shadow-sm">
-        <div className="container mx-auto px-4 py-6">
+        <div className="max-w-7xl mx-auto px-4 py-6">
           <h1 className="text-3xl font-bold text-gray-900 mb-4">전체 상품</h1>
           <div className="max-w-4xl mx-auto">
             <ProductSearchBar 
@@ -100,7 +100,7 @@ export default function ProductsPage() {
 
       {/* Category Filter */}
       <div className="bg-white border-b">
-        <div className="container mx-auto px-4 py-4">
+        <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex flex-wrap gap-2">
             {categories.map(category => (
               <button
@@ -120,7 +120,7 @@ export default function ProductsPage() {
       </div>
 
       {/* Results Summary */}
-      <div className="container mx-auto px-4 py-6">
+      <div className="max-w-7xl mx-auto px-4 py-6">
         <p className="text-gray-600">
           {filteredProducts.length}개의 상품을 찾았습니다
           {selectedCategory !== 'all' && ` (${categories.find(c => c.id === selectedCategory)?.name})`}
@@ -129,7 +129,7 @@ export default function ProductsPage() {
       </div>
 
       {/* Products Grid */}
-      <div className="container mx-auto px-4 pb-12">
+      <div className="max-w-7xl mx-auto px-4 pb-12">
         {filteredProducts.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {filteredProducts.map(product => (

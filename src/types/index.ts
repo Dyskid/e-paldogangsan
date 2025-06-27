@@ -6,7 +6,6 @@ export interface Mall {
   tags: string[];
   featured: boolean;
   isNew: boolean;
-  clickCount: number;
   lastVerified: string;
   logo?: string;
 }

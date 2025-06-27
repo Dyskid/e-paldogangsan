@@ -8,22 +8,6 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ product }: ProductCardProps) {
-  const handleClick = async () => {
-    try {
-      const mallId = product.mallId || product.mall?.mallId;
-      if (mallId) {
-        await fetch('/api/track-click', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ mallId }),
-        });
-      }
-    } catch (error) {
-      console.error('Failed to track click:', error);
-    }
-  };
 
   const categoryColors: Record<string, string> = {
     agricultural: 'bg-green-100 text-green-800',
@@ -58,7 +42,6 @@ export default function ProductCard({ product }: ProductCardProps) {
         target="_blank"
         rel="noopener noreferrer"
         className="block"
-        onClick={handleClick}
       >
         <div className="relative h-56 bg-gradient-to-br from-gray-50 to-gray-100 overflow-hidden">
           {(product.image || product.imageUrl) ? (
@@ -124,8 +107,8 @@ export default function ProductCard({ product }: ProductCardProps) {
           </div>
 
           <div className="flex items-center gap-2 mb-4">
-            <span className="text-xs px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 text-white font-medium">
-              {product.category}
+            <span className={`text-xs px-3 py-1 rounded-full font-medium ${categoryColors[product.category] || 'bg-gray-100 text-gray-600'}`}>
+              {categoryNames[product.category] || product.category}
             </span>
             <span className="text-xs text-gray-500 bg-gray-50 px-2 py-1 rounded-md">
               {product.mallName || product.mall?.mallName || '쇼핑몰'}

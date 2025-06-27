@@ -74,16 +74,20 @@ function SearchContent() {
         );
         break;
       case 'popularity':
-        searchResults.sort((a, b) => b.clickCount - a.clickCount);
+        searchResults.sort((a, b) => {
+          if (a.featured && !b.featured) return -1;
+          if (!a.featured && b.featured) return 1;
+          return a.name.localeCompare(b.name, 'ko');
+        });
         break;
       default: // relevance
         // Already sorted by Fuse.js relevance if there's a query
         if (!searchQuery.trim()) {
-          // If no query, sort by featured first, then by popularity
+          // If no query, sort by featured first, then alphabetically
           searchResults.sort((a, b) => {
             if (a.featured && !b.featured) return -1;
             if (!a.featured && b.featured) return 1;
-            return b.clickCount - a.clickCount;
+            return a.name.localeCompare(b.name, 'ko');
           });
         }
         break;
