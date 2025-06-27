@@ -22,18 +22,12 @@ export default function HomePage() {
             </p>
             
             {/* Product Search Link */}
-            <div className="mt-4 space-y-2">
+            <div className="mt-4">
               <a 
                 href="/products"
                 className="text-primary hover:text-blue-700 font-medium block"
               >
                 상품을 검색하시나요? 전체 상품 검색하기 →
-              </a>
-              <a 
-                href="/scrapermalls"
-                className="text-primary hover:text-blue-700 font-medium block"
-              >
-                스크래퍼 →
               </a>
             </div>
           </div>
