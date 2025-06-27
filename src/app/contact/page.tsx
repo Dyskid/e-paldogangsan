@@ -28,7 +28,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <h3 className="font-semibold text-gray-800 mb-2">이메일</h3>
-                <p className="text-gray-600">contact@e-paldogangsan.kr</p>
+                <p className="text-gray-600">rkdsim90@gmail.com</p>
               </div>
 
               <div className="text-center">

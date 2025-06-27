@@ -297,7 +297,7 @@ export default function TermsPage() {
                 통해 연락해주세요.
               </p>
               <p className="text-gray-600 text-sm mt-2">
-                이메일: support@e-paldogangsan.kr
+                이메일: rkdsim90@gmail.com
               </p>
             </div>
           </div>
