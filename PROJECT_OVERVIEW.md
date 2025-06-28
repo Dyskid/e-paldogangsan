@@ -939,6 +939,7 @@ scripts/
   ├── analyze-yjmarket-structure.ts
   ├── batch-scrape-all-malls.ts
   ├── buan-test-products-1751018797462.json
+  ├── check-category-issues.py
   ├── check-gmsocial-name-fields.ts
   ├── check-gmsocial-names.ts
   ├── check-gmsocial-product-names.ts
@@ -1003,6 +1004,7 @@ scripts/
   ├── fix-jeju-images-fallback.ts
   ├── fix-jeju-images.ts
   ├── fix-jeju-prices.ts
+  ├── fix-missing-categories.py
   ├── fix-priority-malls.ts
   ├── fix-product-mall-names.ts
   ├── fix-specific-jeju-titles.ts
@@ -1810,10 +1812,10 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-28
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: f29b942 feat: implement hierarchical category structure and consolidate categories
+Last Commit: 5973386 fix: category filtering now properly filters products by selected category
 
 ### Project Statistics
-- Total Files: 1412
+- Total Files: 1414
 - Total Directories: 41
 - Shopping Malls: 93
 - Products: 4247

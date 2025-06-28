@@ -23,7 +23,7 @@ export default function ProductsPage() {
 
     // Filter by category
     if (selectedCategory !== 'all') {
-      filtered = filtered.filter(p => p.category === selectedCategory);
+      filtered = filtered.filter(p => p.category && p.category === selectedCategory);
     }
 
     // Filter by search query
