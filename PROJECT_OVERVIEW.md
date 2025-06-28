@@ -1006,6 +1006,7 @@ scripts/
   ├── fix-priority-malls.ts
   ├── fix-product-mall-names.ts
   ├── fix-specific-jeju-titles.ts
+  ├── hierarchical-categories.py
   ├── identify-category-products.ts
   ├── improve-danpoong-categories.js
   ├── improve-scraped-titles.ts
@@ -1021,6 +1022,8 @@ scripts/
   ├── overview-helpers.ts
   ├── README.md
   ├── reclassify-jeonche-products.py
+  ├── reclassify-misc-products.py
+  ├── reclassify-popular-products.py
   ├── register-all-mall-products.ts
   ├── register-batch-products.ts
   ├── register-bmall-products.ts
@@ -1807,10 +1810,10 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-28
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: 1d06e16 refactor: consolidate multiple categories and improve organization
+Last Commit: d665600 refactor: eliminate agricultural subcategories and reclassify products
 
 ### Project Statistics
-- Total Files: 1409
+- Total Files: 1412
 - Total Directories: 41
 - Shopping Malls: 93
 - Products: 4247

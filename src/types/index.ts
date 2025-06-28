@@ -34,6 +34,11 @@ export interface Product {
   image?: string;
   imageUrl?: string;
   category: string;
+  // Hierarchical categories
+  categoryMajor?: string;
+  categoryMid?: string;
+  categoryMinor?: string;
+  categoryOriginal?: string;
   region: string;
   url?: string;
   productUrl?: string;
