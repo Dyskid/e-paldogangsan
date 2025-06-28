@@ -1804,7 +1804,7 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-28
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: 63018ad refactor: remove special categories and reclassify products
+Last Commit: bfe01e6 refactor: remove all specialty product categories and reclassify products
 
 ### Project Statistics
 - Total Files: 1406
