@@ -989,6 +989,7 @@ scripts/
   ├── final-verification.ts
   ├── find-chamds-categories.ts
   ├── find-remaining-issue.ts
+  ├── fix-agricultural-categories.py
   ├── fix-all-missing-product-names.ts
   ├── fix-all-product-mall-names.ts
   ├── fix-chamds-images-fallback.ts
@@ -1806,10 +1807,10 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-28
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: 718b81a refactor: remove all specialty material and regional specialty categories
+Last Commit: 1d06e16 refactor: consolidate multiple categories and improve organization
 
 ### Project Statistics
-- Total Files: 1408
+- Total Files: 1409
 - Total Directories: 41
 - Shopping Malls: 93
 - Products: 4247
