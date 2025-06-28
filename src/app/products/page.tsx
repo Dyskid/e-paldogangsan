@@ -62,8 +62,12 @@ export default function ProductsPage() {
         }
       });
       
-      // Convert to array and sort
-      const categoryList = Array.from(uniqueCategories).sort().map(cat => ({
+      // Convert to array and sort, with 기타 at the end
+      const categoriesArray = Array.from(uniqueCategories);
+      const otherCategories = categoriesArray.filter(cat => cat !== '기타').sort();
+      const finalCategories = categoriesArray.includes('기타') ? [...otherCategories, '기타'] : otherCategories;
+      
+      const categoryList = finalCategories.map(cat => ({
         id: cat,
         name: cat
       }));

@@ -1015,9 +1015,11 @@ scripts/
   ├── list-all-gwdmall-products.ts
   ├── list-gmsocial-products.ts
   ├── list-problematic-products.js
+  ├── move-rice-products.py
   ├── ontongdaejeon-final-summary.ts
   ├── overview-helpers.ts
   ├── README.md
+  ├── reclassify-jeonche-products.py
   ├── register-all-mall-products.ts
   ├── register-batch-products.ts
   ├── register-bmall-products.ts
@@ -1804,10 +1806,10 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-28
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: bfe01e6 refactor: remove all specialty product categories and reclassify products
+Last Commit: 718b81a refactor: remove all specialty material and regional specialty categories
 
 ### Project Statistics
-- Total Files: 1406
+- Total Files: 1408
 - Total Directories: 41
 - Shopping Malls: 93
 - Products: 4247
