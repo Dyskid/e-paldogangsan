@@ -1812,7 +1812,7 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-29
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: 6587ff6 test: add empty 빈깡통 category for testing purposes
+Last Commit: 98635aa debug: add console logging for category filtering troubleshooting
 
 ### Project Statistics
 - Total Files: 1414

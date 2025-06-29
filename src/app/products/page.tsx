@@ -24,7 +24,11 @@ export default function ProductsPage() {
     // Filter by category
     if (selectedCategory !== 'all') {
       console.log(`Filtering by category: ${selectedCategory}`);
-      filtered = filtered.filter(p => p.category && p.category === selectedCategory);
+      console.log(`Total products before filter: ${filtered.length}`);
+      filtered = filtered.filter(p => {
+        console.log(`Product: ${p.name}, Category: ${p.category}, Match: ${p.category === selectedCategory}`);
+        return p.category && p.category === selectedCategory;
+      });
       console.log(`Products after category filter: ${filtered.length}`);
     }
 
