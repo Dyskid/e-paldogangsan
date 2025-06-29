@@ -73,7 +73,8 @@ export default function ProductsPage() {
       
       setCategories([
         { id: 'all', name: '전체' },
-        ...categoryList
+        ...categoryList,
+        { id: '빈깡통', name: '빈깡통' }
       ]);
     } catch (error) {
       console.error('Failed to fetch products:', error);
