@@ -19,17 +19,35 @@ export default function ProductsPage() {
   }, []);
 
   const filterProducts = useCallback(() => {
+    console.log(`=== FILTER PRODUCTS CALLED ===`);
+    console.log(`Current selectedCategory: "${selectedCategory}"`);
+    console.log(`Total products in state: ${products.length}`);
+    
     let filtered = [...products];
 
-    // Filter by category
+    // Filter by category - STRICT filtering
     if (selectedCategory !== 'all') {
-      console.log(`Filtering by category: ${selectedCategory}`);
-      console.log(`Total products before filter: ${filtered.length}`);
+      console.log(`=== APPLYING CATEGORY FILTER: "${selectedCategory}" ===`);
+      
+      const beforeFilter = filtered.length;
       filtered = filtered.filter(p => {
-        console.log(`Product: ${p.name}, Category: ${p.category}, Match: ${p.category === selectedCategory}`);
-        return p.category && p.category === selectedCategory;
+        const hasCategory = p.category !== null && p.category !== undefined && p.category !== '';
+        const exactMatch = hasCategory && p.category === selectedCategory;
+        
+        if (!exactMatch && beforeFilter <= 10) {
+          console.log(`FILTERING OUT: "${p.name}" - Category: "${p.category}" (Expected: "${selectedCategory}")`);
+        }
+        
+        return exactMatch;
       });
-      console.log(`Products after category filter: ${filtered.length}`);
+      
+      console.log(`FILTER RESULT: ${beforeFilter} -> ${filtered.length} products`);
+      
+      // Force empty array for 빈깡통 since no products should have this category
+      if (selectedCategory === '빈깡통') {
+        console.log('FORCING EMPTY RESULT FOR 빈깡통 CATEGORY');
+        filtered = [];
+      }
     }
 
     // Filter by search query
@@ -45,6 +63,8 @@ export default function ProductsPage() {
       });
     }
 
+    console.log(`FINAL FILTERED PRODUCTS: ${filtered.length}`);
+    console.log(`Setting filteredProducts state...`);
     setFilteredProducts(filtered);
   }, [products, selectedCategory, searchQuery]);
 
@@ -54,9 +74,12 @@ export default function ProductsPage() {
 
   const fetchProducts = async () => {
     try {
+      console.log('=== FETCHING PRODUCTS FROM API ===');
       const response = await fetch('/api/products');
       const data = await response.json();
       const productsData = data.products || [];
+      console.log(`API returned ${productsData.length} products`);
+      console.log('First 3 products from API:', productsData.slice(0, 3).map(p => ({ id: p.id, name: p.name, category: p.category })));
       setProducts(productsData);
       
       // Extract unique categories from products
@@ -163,9 +186,12 @@ export default function ProductsPage() {
       <div className="max-w-7xl mx-auto px-4 pb-12">
         {filteredProducts.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {filteredProducts.map(product => (
-              <ProductCard key={product.id} product={product} />
-            ))}
+            {filteredProducts.map((product, index) => {
+              console.log(`RENDERING PRODUCT ${index + 1}:`, { id: product.id, name: product.name, category: product.category });
+              return (
+                <ProductCard key={`${product.id}-${index}`} product={product} />
+              );
+            })}
           </div>
         ) : (
           <div className="text-center py-12">

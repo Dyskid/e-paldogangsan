@@ -1474,6 +1474,7 @@ src/
   │   ├── products-backup-1750783806494.json
   │   ├── products-sample.json
   │   ├── products.json
+  │   ├── products.json.backup
   │   ├── regions.json
   │   ├── tag-analysis.json
   │   ├── tag-mapping.json
@@ -1549,7 +1550,7 @@ Total: **93 shopping malls** across 17 regions
 }
 ```
 
-Total: **4247 products** with real data for featured malls
+Total: **4012 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -1812,12 +1813,12 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-29
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: 98635aa debug: add console logging for category filtering troubleshooting
+Last Commit: 1207f80 debug: enhance category filtering debug logs with detailed product matching
 
 ### Project Statistics
-- Total Files: 1414
+- Total Files: 1415
 - Total Directories: 41
 - Shopping Malls: 93
-- Products: 4247
+- Products: 4012
 - Regions: 17
 - Categories: 10
