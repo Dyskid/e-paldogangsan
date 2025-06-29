@@ -1813,7 +1813,7 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-29
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: 1207f80 debug: enhance category filtering debug logs with detailed product matching
+Last Commit: 3766a09 fix: resolve category filtering issues with duplicate products and strict filtering
 
 ### Project Statistics
 - Total Files: 1415

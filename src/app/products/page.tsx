@@ -79,7 +79,7 @@ export default function ProductsPage() {
       const data = await response.json();
       const productsData = data.products || [];
       console.log(`API returned ${productsData.length} products`);
-      console.log('First 3 products from API:', productsData.slice(0, 3).map(p => ({ id: p.id, name: p.name, category: p.category })));
+      console.log('First 3 products from API:', productsData.slice(0, 3).map((p: Product) => ({ id: p.id, name: p.name, category: p.category })));
       setProducts(productsData);
       
       // Extract unique categories from products
