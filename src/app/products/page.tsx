@@ -23,7 +23,9 @@ export default function ProductsPage() {
 
     // Filter by category
     if (selectedCategory !== 'all') {
+      console.log(`Filtering by category: ${selectedCategory}`);
       filtered = filtered.filter(p => p.category && p.category === selectedCategory);
+      console.log(`Products after category filter: ${filtered.length}`);
     }
 
     // Filter by search query
@@ -127,7 +129,10 @@ export default function ProductsPage() {
             {categories.map(category => (
               <button
                 key={category.id}
-                onClick={() => setSelectedCategory(category.id)}
+                onClick={() => {
+                  console.log(`Category clicked: ${category.id}`);
+                  setSelectedCategory(category.id);
+                }}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                   selectedCategory === category.id
                     ? 'bg-blue-600 text-white'

@@ -1812,7 +1812,7 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-29
 Version: 1.0.0
 Git Branch: enrolling
-Last Commit: 7fcb254 fix: resolve products appearing in all categories - missing category fields
+Last Commit: 6587ff6 test: add empty 빈깡통 category for testing purposes
 
 ### Project Statistics
 - Total Files: 1414
