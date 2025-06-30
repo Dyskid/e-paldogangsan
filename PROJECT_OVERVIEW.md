@@ -686,6 +686,7 @@ scripts/
   │   ├── products-backup-1750568100208.json
   │   ├── products-backup-1750900403527.json
   │   ├── products-without-prices.txt
+  │   ├── registration-summary.json
   │   ├── samcheok-analysis.json
   │   ├── samcheok-homepage.html
   │   ├── samcheok-product-1.html
@@ -737,6 +738,7 @@ scripts/
   │   ├── taebaek-registration-summary.json
   │   ├── taebaek-scrape-summary.json
   │   ├── taebaek-verification-report.json
+  │   ├── three-malls-products.json
   │   ├── ulmall-analysis.json
   │   ├── ulmall-homepage.html
   │   ├── ulmall-products.json
@@ -1089,6 +1091,7 @@ scripts/
   ├── register-shinan1004-products.ts
   ├── register-sjmall-products.ts
   ├── register-taebaek-products.ts
+  ├── register-three-malls-products.ts
   ├── register-ulmall-products.ts
   ├── register-wandofood-products.ts
   ├── register-wemall-food-products.ts
@@ -1222,6 +1225,7 @@ scripts/
   ├── scrape-sjlocal-products.ts
   ├── scrape-sjmall-comprehensive.ts
   ├── scrape-taebaek-comprehensive.ts
+  ├── scrape-three-malls-comprehensive.ts
   ├── scrape-ulmall-comprehensive.ts
   ├── scrape-wandofood-comprehensive.ts
   ├── scrape-wemall-comprehensive.ts
@@ -1397,7 +1401,6 @@ src/
   │   │   │   ├── route.ts
   │   │   ├── sync-products/
   │   │   │   ├── route.ts
-  │   │   ├── track-click/
   │   ├── contact/
   │   │   ├── page.tsx
   │   ├── privacy/
@@ -1472,6 +1475,7 @@ src/
   │   ├── products-backup-1750769094310.json
   │   ├── products-backup-1750769635860.json
   │   ├── products-backup-1750783806494.json
+  │   ├── products-backup-before-three-malls.json
   │   ├── products-sample.json
   │   ├── products.json
   │   ├── products.json.backup
@@ -1550,7 +1554,7 @@ Total: **93 shopping malls** across 17 regions
 }
 ```
 
-Total: **4012 products** with real data for featured malls
+Total: **4145 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -1810,15 +1814,15 @@ npm run lint     # Run ESLint
 
 ---
 
-Last Updated: 2025-06-29
+Last Updated: 2025-06-30
 Version: 1.0.0
-Git Branch: enrolling
-Last Commit: 355196f fix: add TypeScript type annotation to resolve build error
+Git Branch: product-enrolling
+Last Commit: d880cba refactor: merge 한우 category into 한우/육류 for consistency
 
 ### Project Statistics
-- Total Files: 1415
-- Total Directories: 41
+- Total Files: 1420
+- Total Directories: 40
 - Shopping Malls: 93
-- Products: 4012
+- Products: 4145
 - Regions: 17
 - Categories: 10
