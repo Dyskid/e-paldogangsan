@@ -770,6 +770,7 @@ scripts/
   │   ├── wemall-registration-summary.json
   │   ├── wemall-scrape-summary.json
   │   ├── wemall-verification-report.json
+  │   ├── wemall-wonju-removal-summary.json
   │   ├── wonju-analysis.json
   │   ├── wonju-homepage.html
   │   ├── wonju-products.json
@@ -1111,6 +1112,7 @@ scripts/
   ├── remove-failed-jeju-products.ts
   ├── remove-jejumall.ts
   ├── remove-unknown-mall-products.ts
+  ├── remove-wemall-wonju-products.ts
   ├── retry-failed-malls.ts
   ├── scrape-all-jeju-products.ts
   ├── scrape-and-register-haegaram.ts
@@ -1476,6 +1478,7 @@ src/
   │   ├── products-backup-1750769635860.json
   │   ├── products-backup-1750783806494.json
   │   ├── products-backup-before-three-malls.json
+  │   ├── products-backup-before-wemall-wonju-removal.json
   │   ├── products-sample.json
   │   ├── products.json
   │   ├── products.json.backup
@@ -1554,7 +1557,7 @@ Total: **93 shopping malls** across 17 regions
 }
 ```
 
-Total: **4145 products** with real data for featured malls
+Total: **3948 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -1817,12 +1820,12 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-30
 Version: 1.0.0
 Git Branch: product-enrolling
-Last Commit: a736f96 feat: add comprehensive scraping for three malls with 236 new products
+Last Commit: 255591f update: mark three malls as scraped in backup mall list
 
 ### Project Statistics
-- Total Files: 1420
+- Total Files: 1423
 - Total Directories: 40
 - Shopping Malls: 93
-- Products: 4145
+- Products: 3948
 - Regions: 17
 - Categories: 10
