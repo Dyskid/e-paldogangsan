@@ -53,6 +53,7 @@
 
 ```
 assets/
+  ├── automator.txt
   ├── categories.txt
   ├── claude command for phase1.txt
   ├── e-Paldogangsan Phase 1 MVP Specific.txt
@@ -1821,10 +1822,10 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-30
 Version: 1.0.0
 Git Branch: automate-enrolling
-Last Commit: e347549 fix: remove remaining 51 우리몰 products with nested data structure
+Last Commit: f5f5176 refactor: reorganize backup files into assets directory
 
 ### Project Statistics
-- Total Files: 1426
+- Total Files: 1427
 - Total Directories: 38
 - Shopping Malls: 93
 - Products: 3897
