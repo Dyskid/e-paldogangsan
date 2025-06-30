@@ -90,12 +90,12 @@ $서산뜨레: https://seosanttre.com/index.html
 단풍미인 (정읍): https://www.danpoongmall.kr/
 # @@지평선몰(김제): https://www.jpsmall.com/
  (temporarily disabled due to compatibility issues)
-전북생생장터: https://freshjb.com/
+$전북생생장터: https://freshjb.com/
 익산몰: https://iksanmall.com/
 # @@진안고원몰: https://xn--299az5xoii3qb66f.com/
  (temporarily disabled due to compatibility issues)
-장수몰: https://www.장수몰.com/
-고창마켓: https://noblegochang.com/
+$장수몰: https://www.장수몰.com/
+$고창마켓: https://noblegochang.com/
 # @@임실몰: https://www.imsilin.kr/home
  (temporarily disabled due to compatibility issues)
 # @@순창로컬푸드쇼핑몰: https://smartstore.naver.com/schfarm
