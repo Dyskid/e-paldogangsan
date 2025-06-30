@@ -1,0 +1,34 @@
+{
+  "totalProcessed": 20,
+  "successfulUpdates": 9,
+  "failedUpdates": 11,
+  "remainingBadPrices": 3,
+  "updatedAt": "2025-06-13T09:14:19.901Z",
+  "sampleUpdatedProducts": [
+    {
+      "name": "[이제주] 블루탐 오메기떡 60g(오메기,흑임자,귤,크림치즈)",
+      "price": "53,800",
+      "url": "https://mall.ejeju.net/goods/detail.do?gno=30516&cate=31043"
+    },
+    {
+      "name": "[하효] 우리밀 전통 한과 감귤과즐세트",
+      "price": "19,900",
+      "url": "https://mall.ejeju.net/goods/detail.do?gno=10492&cate=31040"
+    },
+    {
+      "name": "[올레둘레]우도땅콩 찰떡파이",
+      "price": "53,800",
+      "url": "https://mall.ejeju.net/goods/detail.do?gno=30294&cate=31042"
+    },
+    {
+      "name": "[블랙푸드] 수제 김부각 선물세트 (35g*7봉)",
+      "price": "53,800",
+      "url": "https://mall.ejeju.net/goods/detail.do?gno=30433&cate=31046"
+    },
+    {
+      "name": "[몰랑몰랑] 제주 찰보리 케이크(팥) 20~30개입",
+      "price": "18,900",
+      "url": "https://mall.ejeju.net/goods/detail.do?gno=30208&cate=31043"
+    }
+  ]
+}

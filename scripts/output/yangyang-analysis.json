@@ -1,0 +1,24 @@
+{
+  "url": "https://yangyang-mall.com/",
+  "title": "양양몰",
+  "categories": [
+    {
+      "name": "aside menu",
+      "url": "https://yangyang-mall.com#category"
+    },
+    {
+      "name": "최근본 상품",
+      "url": "https://yangyang-mall.com#recent-item-list"
+    },
+    {
+      "name": "상품준비중",
+      "url": "https://yangyang-mall.com/goods/view?no=44712"
+    }
+  ],
+  "productSelectors": {},
+  "notes": [
+    "Used general link analysis for product/category detection",
+    "Found pagination elements"
+  ],
+  "status": "completed"
+}

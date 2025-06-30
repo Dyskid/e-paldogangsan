@@ -1,0 +1,29 @@
+{
+  "mallName": "양주농부마켓",
+  "mallUrl": "https://market.yangju.go.kr/",
+  "categoryStructure": [],
+  "productUrlPattern": "",
+  "categoryUrlPattern": "",
+  "paginationPattern": "?page={pageNumber}",
+  "totalCategories": 0,
+  "sampleProducts": [],
+  "technicalNotes": [
+    "Site uses AJAX for content loading",
+    "Site may use infinite scroll for pagination",
+    "Character encoding: UTF-8"
+  ],
+  "scrapingStrategy": {
+    "method": "Category-based traversal with pagination",
+    "steps": [
+      "1. Start from homepage to get category list",
+      "2. For each category, fetch the listing page",
+      "3. Extract product URLs from listing pages",
+      "4. Handle pagination if multiple pages exist",
+      "5. For each product URL, fetch product details",
+      "6. Extract title, price, image, and other details",
+      "7. Clean and normalize the data",
+      "8. Save products with valid prices"
+    ],
+    "estimatedProductCount": "Unknown - requires category exploration"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "totalUpdated": 36,
+  "updatedAt": "2025-06-13T10:08:30.954Z",
+  "imageMapping": {
+    "traditional": "Korean traditional food",
+    "agricultural": "Fruits and vegetables",
+    "seafood": "Fresh seafood",
+    "processed": "Processed foods",
+    "health": "Health products",
+    "livestock": "Meat products",
+    "crafts": "Traditional crafts",
+    "other": "General products"
+  },
+  "sampleUpdatedProducts": [
+    {
+      "name": "[이제주] 블루탐 오메기떡 60g(오메기,흑임자,귤,크림치즈)",
+      "category": "traditional",
+      "imageUrl": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300&h=300&fit=crop",
+      "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30516&cate=31043"
+    },
+    {
+      "name": "[하효] 우리밀 전통 한과 감귤과즐세트",
+      "category": "other",
+      "imageUrl": "https://images.unsplash.com/photo-1557800636-894a64c1696f?w=300&h=300&fit=crop",
+      "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=10492&cate=31040"
+    },
+    {
+      "name": "[올레둘레]우도땅콩 찰떡파이",
+      "category": "seafood",
+      "imageUrl": "https://images.unsplash.com/photo-1581947175668-3b8bf9c0fd19?w=300&h=300&fit=crop",
+      "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30294&cate=31042"
+    },
+    {
+      "name": "[블랙푸드] 수제 김부각 선물세트 (35g*7봉)",
+      "category": "livestock",
+      "imageUrl": "https://images.unsplash.com/photo-1588347818483-f55e6b5e7f8e?w=300&h=300&fit=crop",
+      "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30433&cate=31046"
+    },
+    {
+      "name": "[몰랑몰랑] 제주 찰보리 케이크(팥) 20~30개입",
+      "category": "traditional",
+      "imageUrl": "https://images.unsplash.com/photo-1584622781584-8e0d0c9a7365?w=300&h=300&fit=crop",
+      "productUrl": "https://mall.ejeju.net/goods/detail.do?gno=30208&cate=31043"
+    }
+  ]
+}

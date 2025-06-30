@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-06-23T10:01:03.578Z",
+  "mall": "여수몰",
+  "status": "Mock products created - site unavailable",
+  "totalMockProducts": 2,
+  "reason": "Site showing server capacity exceeded error",
+  "categoryBreakdown": {
+    "지역특산": 1,
+    "수산물": 1
+  },
+  "priceRange": {
+    "min": 25000,
+    "max": 35000,
+    "average": 30000
+  },
+  "nextSteps": [
+    "Monitor site availability",
+    "Replace mock data with real scraped products when site is accessible",
+    "Register actual products to main database"
+  ]
+}

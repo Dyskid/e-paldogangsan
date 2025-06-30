@@ -1,0 +1,102 @@
+{
+  "timestamp": "2025-06-22T07:41:25.865Z",
+  "testUrl": "https://hongcheon-mall.com/goods/view?no=27952",
+  "pageTitle": "홍천몰 상세페이지",
+  "metaDescription": "강원도 홍천군 특산품 쇼핑몰 입니다.",
+  "selectorTests": {
+    "productNames": {
+      "[class*=\"name\"]": [
+        "사대부 동치미 5kg(국.내.산 100% 농산물로 만든 김치 HACCP 인증)",
+        "사대부 포기김치 3kg 外 골라담기 국내산 100% 원재료(한국소비자만족브랜드 대상)",
+        "사대부 포기김치 7kg 국내산 100% 원재료(한국소비자만족브랜드 대상)",
+        "사대부 포기김치 10kg 국내산 100% 원재료(한국소비자만족브랜드 대상)",
+        "사대부 동치미 3kg(국.내.산 100% 농산물로 만든 김치 HACCP 인증)",
+        "사대부 포기김치 5kg 국내산 100% 원재료(한국소비자만족브랜드 대상)",
+        "사대부 총각김치 5kg(국.내.산 100% 농산물로 만든 김치 HACCP 인증)",
+        "사대부 깍두기 5kg(국.내.산 100% 농산물로 만든 김치 HACCP 인증)",
+        "사대부 포기김치 3kg 국내산 100% 원재료(한국소비자만족브랜드 대상)"
+      ],
+      ".name": [
+        "사대부 동치미 5kg(국.내.산 100% 농산물로 만든 김치 HACCP 인증)"
+      ],
+      ".title": [
+        "추천 상품",
+        "배송비 안내",
+        "상품 정보 제공 고시",
+        "판매자 정보",
+        "재입고 알림",
+        "고객센터",
+        "은행정보",
+        "홍천몰 모바일",
+        "바로가기",
+        "비밀번호 변경"
+      ],
+      "h1": [
+        ""
+      ],
+      "h2": [],
+      "h3": [
+        "사대부 동치미 5kg(국.내.산 100% 농산물로 만든 김치 HACCP 인증)",
+        "판매자 인기상품"
+      ],
+      ".product-name": [],
+      ".goods-name": []
+    },
+    "prices": {
+      "[class*=\"price\"]": [
+        "41%\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t29,900₩\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t17,900₩",
+        "29,900₩",
+        "17,900₩",
+        "₩",
+        "-+\n\t\t\t\t\t\t\t\t17900.00\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t총 상품금액\n\t\t\t\t\t\t\t17,900 ₩",
+        "총 상품금액\n\t\t\t\t\t\t\t17,900 ₩",
+        "15,900₩",
+        "29,900₩",
+        "32,900₩",
+        "49,900₩",
+        "40,900₩",
+        "79,900₩",
+        "12,900₩",
+        "20,900₩",
+        "23,900₩",
+        "59,900₩",
+        "29,900₩",
+        "38,900₩",
+        "18,900₩",
+        "29,900₩",
+        "15,900₩",
+        "29,900₩"
+      ],
+      ".price": [],
+      ".cost": [],
+      ".amount": [],
+      "[class*=\"won\"]": [
+        "₩"
+      ]
+    },
+    "images": {
+      "img[src*=\"goods\"]": [
+        "https://gwchild327.firstmall.kr/data/goods/1/2024/08/27952_temp_17246360682015large.jpg",
+        "https://gwchild327.firstmall.kr/data/goods/1/2024/11/39969_temp_17308765330669list1.jpg",
+        "https://gwchild327.firstmall.kr/data/goods/1/2024/11/27956_temp_17308774504024list1.jpg",
+        "https://gwchild327.firstmall.kr/data/goods/1/2024/11/27598_temp_17308773354451list1.jpg",
+        "https://gwchild327.firstmall.kr/data/goods/1/2024/08/27914_temp_17246359352141list1.jpg",
+        "https://gwchild327.firstmall.kr/data/goods/1/2024/11/27955_temp_17308771737049list1.jpg",
+        "https://gwchild327.firstmall.kr/data/goods/1/2024/08/27960_temp_17246367989418list1.jpg",
+        "https://gwchild327.firstmall.kr/data/goods/1/2024/08/27964_temp_17246373657505list1.jpg",
+        "https://gwchild327.firstmall.kr/data/goods/1/2024/11/39988_temp_17308760654440list1.jpg"
+      ],
+      "img[src*=\"product\"]": [],
+      "img[alt*=\"상품\"]": [
+        "/data/skin/responsive_hongcheon_mall_gl/images/design_resp/q_icon_off04.jpg"
+      ],
+      ".product-img img": [],
+      ".goods-img img": []
+    }
+  },
+  "recommendations": {
+    "nameSelector": ".title",
+    "priceSelector": "[class*=\"price\"]",
+    "imageSelector": "img[src*=\"goods\"]"
+  }
+}

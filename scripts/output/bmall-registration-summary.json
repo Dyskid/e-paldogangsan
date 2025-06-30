@@ -1,0 +1,10 @@
+{
+  "mallId": "bmall",
+  "mallName": "봉화장터",
+  "timestamp": "2025-06-24T12:06:27.498Z",
+  "totalProductsBefore": 4075,
+  "productsAdded": 25,
+  "totalProductsAfter": 4100,
+  "productsRemoved": 0,
+  "backupFile": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/src/data/products-backup-1750766787460.json"
+}

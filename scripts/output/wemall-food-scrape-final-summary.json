@@ -1,0 +1,107 @@
+{
+  "timestamp": "2025-06-19T11:03:40.329Z",
+  "totalProducts": 54,
+  "categoriesScraped": [
+    "식품/농산품",
+    "쌀/농축산물",
+    "차/음료/과자/가공식품",
+    "건강식품/다이어트"
+  ],
+  "productsByCategory": {
+    "차/음료/과자/가공식품": 31,
+    "쌀/농축산물": 13,
+    "건강식품/다이어트": 10
+  },
+  "productsWithPrices": 54,
+  "productsWithImages": 54,
+  "productsWithDiscounts": 20,
+  "productsWithExternalUrls": 54,
+  "errors": [],
+  "sampleProducts": [
+    {
+      "id": "wemall-4300714",
+      "title": "[류한욱통호밀농장] 호밀비건 스콘12종 직접재배 백년가게 [경북 소상공인 희망마켓30%할인]",
+      "price": "3500",
+      "originalPrice": "2500",
+      "category": "차/음료/과자/가공식품",
+      "hasImage": true,
+      "hasExternalUrl": true
+    },
+    {
+      "id": "wemall-001",
+      "title": "[뚝배기식품] 재래식 된장 2.7kg",
+      "price": "44000",
+      "category": "쌀/농축산물",
+      "hasImage": true,
+      "hasExternalUrl": true
+    },
+    {
+      "id": "wemall-10670068",
+      "title": "울릉허브 오식이 궁채 나물 장아찌 150g 줄기상추 절임",
+      "price": "9800",
+      "originalPrice": "4500",
+      "category": "차/음료/과자/가공식품",
+      "hasImage": true,
+      "hasExternalUrl": true
+    },
+    {
+      "id": "wemall-18271827",
+      "title": "하눅 영천작약꽃빵세트(6개입)",
+      "price": "15000",
+      "originalPrice": "18000",
+      "category": "차/음료/과자/가공식품",
+      "hasImage": true,
+      "hasExternalUrl": true
+    },
+    {
+      "id": "wemall-4257526",
+      "title": "[뚝배기식품] 우리고향장맛 3종 선물세트",
+      "price": "34000",
+      "category": "차/음료/과자/가공식품",
+      "hasImage": true,
+      "hasExternalUrl": true
+    },
+    {
+      "id": "wemall-19426385",
+      "title": "[뚝배기식품] 고추장 1kg",
+      "price": "23000",
+      "category": "차/음료/과자/가공식품",
+      "hasImage": true,
+      "hasExternalUrl": true
+    },
+    {
+      "id": "wemall-14922008",
+      "title": "한달용 홍생식 (30포) 프리미엄 생식 내몸의 면연력과 피를 맑게 아침식사대용으로 회복",
+      "price": "72000",
+      "originalPrice": "68000",
+      "category": "건강식품/다이어트",
+      "hasImage": true,
+      "hasExternalUrl": true
+    },
+    {
+      "id": "wemall-17691588",
+      "title": "[이삭누룽] 국내산 100% 현미 이삭 누룽지 황미 오분도 누룽지(10개)",
+      "price": "60000",
+      "category": "차/음료/과자/가공식품",
+      "hasImage": true,
+      "hasExternalUrl": true
+    },
+    {
+      "id": "wemall-16371370",
+      "title": "[뚝배기식품] 재래식 간장 1.8L",
+      "price": "18500",
+      "category": "차/음료/과자/가공식품",
+      "hasImage": true,
+      "hasExternalUrl": true
+    },
+    {
+      "id": "wemall-4261535",
+      "title": "울릉허브 오식이 국산 명이김치 500g 명이나물 김치",
+      "price": "16000",
+      "originalPrice": "15000",
+      "category": "차/음료/과자/가공식품",
+      "hasImage": true,
+      "hasExternalUrl": true
+    }
+  ]
+}

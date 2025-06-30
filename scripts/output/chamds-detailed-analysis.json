@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-06-20T15:21:23.311Z",
+  "baseUrl": "https://chamds.com",
+  "platform": "Cafe24",
+  "pages": [],
+  "productPages": [
+    {
+      "url": "https://chamds.com/product/list.html",
+      "pattern": "/product/list.html",
+      "foundProducts": 7,
+      "foundPrices": 0,
+      "sampleProducts": [
+        {
+          "selector": "[class*=\"product\"]",
+          "title": "",
+          "price": "",
+          "image": "http://img.echosting.cafe24.com/skin/base_ko_KR/product/btn_compare.gif",
+          "link": ""
+        },
+        {
+          "selector": "[class*=\"product\"]",
+          "title": "",
+          "price": "",
+          "image": "http://img.echosting.cafe24.com/skin/base_ko_KR/product/btn_compare.gif",
+          "link": ""
+        }
+      ]
+    }
+  ],
+  "findings": []
+}

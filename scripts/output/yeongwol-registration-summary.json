@@ -1,0 +1,72 @@
+{
+  "totalScrapedProducts": 44,
+  "validProducts": 44,
+  "duplicatesFound": 0,
+  "newProductsAdded": 44,
+  "errors": 0,
+  "registrationSummary": {
+    "mallId": "mall_23",
+    "mallName": "영월몰",
+    "categories": [
+      "축산물"
+    ],
+    "priceRange": {
+      "min": 5,
+      "max": 90000,
+      "average": 11071
+    }
+  },
+  "registeredAt": "2025-06-22T04:55:00.226Z",
+  "sampleProducts": [
+    {
+      "name": "냉동 곤드레 16kg 4kg*4개",
+      "price": 75000,
+      "category": "축산물"
+    },
+    {
+      "name": "[영월농협] 보리차 500g",
+      "price": 5000,
+      "category": "축산물"
+    },
+    {
+      "name": "찰옥수수 뻥튀기 /강원도 찰강냉이 튀밥",
+      "price": 11500,
+      "category": "축산물"
+    },
+    {
+      "name": "메좁쌀 500g",
+      "price": 8500,
+      "category": "축산물"
+    },
+    {
+      "name": "2024햅쌀 해들목 동강맑은쌀20kg",
+      "price": 10,
+      "category": "축산물"
+    },
+    {
+      "name": "풀무리농장 유기농오이 50개",
+      "price": 20,
+      "category": "축산물"
+    },
+    {
+      "name": "[영월농협] 옥수수차 500g",
+      "price": 6000,
+      "category": "축산물"
+    },
+    {
+      "name": "2024햅쌀 해들목 동강맑은쌀10kg",
+      "price": 10,
+      "category": "축산물"
+    },
+    {
+      "name": "냉동 곤드레 8kg 4kg*2개",
+      "price": 6,
+      "category": "축산물"
+    },
+    {
+      "name": "영월 동강깐더덕(중품) 1kg",
+      "price": 11,
+      "category": "축산물"
+    }
+  ]
+}

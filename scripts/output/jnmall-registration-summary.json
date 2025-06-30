@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-06-23T09:41:30.981Z",
+  "mall": "남도장터",
+  "totalScraped": 60,
+  "totalRegistered": 60,
+  "existingProductsRemoved": 0,
+  "categoryBreakdown": {
+    "기타": 8,
+    "신상품": 22,
+    "지역특산": 30
+  },
+  "priceRange": {
+    "min": 1500,
+    "max": 130000,
+    "average": 29488
+  }
+}

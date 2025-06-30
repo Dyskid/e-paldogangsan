@@ -1,0 +1,62 @@
+{
+  "totalProducts": 22,
+  "dataQuality": {
+    "withTitles": 22,
+    "withPrices": 22,
+    "withImages": 22,
+    "withProductUrls": 22,
+    "withCategories": 22,
+    "withValidPrices": 22
+  },
+  "categories": {
+    "가공식품": 22
+  },
+  "priceRange": {
+    "min": 4500,
+    "max": 60000,
+    "average": 22795.454545454544
+  },
+  "sampleProducts": [
+    {
+      "id": "chamds-109",
+      "title": "농부 이학조의 생강진액 2병",
+      "price": 60000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasProductUrl": true
+    },
+    {
+      "id": "chamds-108",
+      "title": "농부 이학조의 생강진액 1병",
+      "price": 30000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasProductUrl": true
+    },
+    {
+      "id": "chamds-90",
+      "title": "수국차(이슬차) 유기농녹차 25gx2",
+      "price": 30000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasProductUrl": true
+    },
+    {
+      "id": "chamds-89",
+      "title": "어성초 가정용티백 / 30t",
+      "price": 25000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasProductUrl": true
+    },
+    {
+      "id": "chamds-31",
+      "title": "자색돼지감자차 180g",
+      "price": 11000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasProductUrl": true
+    }
+  ],
+  "issues": []
+}

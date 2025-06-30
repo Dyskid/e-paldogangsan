@@ -1,0 +1,27 @@
+{
+  "mallName": "문경몰",
+  "baseUrl": "https://mgmall.cyso.co.kr",
+  "platform": "CYSO (Same as 사이소/상주몰/청도몰/영주장날/청송몰/영양온심마켓/울릉도몰/봉화장터/예천장터)",
+  "productUrlPattern": "shop/item.php?it_id=",
+  "categoriesFound": [
+    "전체메뉴 (#)",
+    "베스트상품 (/shop/listtype.php?type=best)",
+    "추천상품 (/shop/listtype.php?type=12)",
+    "신상품 (/shop/listtype.php?type=13)",
+    "기획전 (/shop/eventlist.php)",
+    "입점업체소개 (/shop/marketList.php)",
+    "문경새재의 아침 소개 (/bbs/content.php?co_id=mg_info01)",
+    "쇼핑몰 개요 (/bbs/content.php?co_id=mg_info02)",
+    "입점안내 (/bbs/content.php?co_id=mg_info03)",
+    "운영방법 (/bbs/content.php?co_id=mg_info04)",
+    "약속 (/bbs/content.php?co_id=mg_info05)",
+    "고객센터 (/bbs/board.php?bo_table=mg_notice)",
+    "공지사항 (/bbs/board.php?bo_table=mg_notice)",
+    "FAQ (/bbs/faq.php)",
+    "상품문의 (/shop/itemqalist.php)"
+  ],
+  "productsOnHomepage": 221,
+  "sampleProductUrl": "https://mgmall.cyso.co.kr/shop/item.php?it_id=1633524025",
+  "hasSearch": false,
+  "analysisDate": "2025-06-24T12:51:24.258Z"
+}

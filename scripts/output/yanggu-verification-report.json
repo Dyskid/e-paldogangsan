@@ -1,0 +1,25 @@
+{
+  "totalProducts": 834,
+  "yangguProducts": 19,
+  "dataQuality": {
+    "hasValidTitle": 19,
+    "hasValidPrice": 19,
+    "hasValidImage": 19,
+    "hasValidUrl": 19,
+    "hasValidCategory": 19,
+    "hasValidMall": 19
+  },
+  "categoryBreakdown": {
+    "축산물": 3,
+    "가공식품": 5,
+    "농산물": 9,
+    "수산물": 1,
+    "지역특산품": 1
+  },
+  "priceRange": {
+    "min": 2900,
+    "max": 59000,
+    "average": 21484
+  },
+  "issues": []
+}

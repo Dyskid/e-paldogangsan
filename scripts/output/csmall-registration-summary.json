@@ -1,0 +1,37 @@
+{
+  "timestamp": 1750760294270,
+  "mall": "칠곡몰",
+  "mallId": "csmall",
+  "totalScraped": 40,
+  "validProducts": 40,
+  "registered": 40,
+  "previousTotal": 3974,
+  "newTotal": 4014,
+  "backup": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/src/data/products-backup-1750760294270.json",
+  "categoryCounts": {
+    "과일류": 20,
+    "청송특산물": 14,
+    "꿀": 2,
+    "즙류/식초": 4
+  },
+  "sampleRegistered": [
+    {
+      "id": "csmall-1700816156",
+      "title": "[소무골농원] 청송 부사 사과 5KG - 중과 (15~17과 내외)",
+      "price": "61,000원",
+      "category": "과일류"
+    },
+    {
+      "id": "csmall-1700179143",
+      "title": "[태송농원] 청송사과 부사 5Kg 10kg",
+      "price": "59,000원",
+      "category": "과일류"
+    },
+    {
+      "id": "csmall-1676379545",
+      "title": "[유아랑농원] 아삭달콤 부사사과 5Kg 10kg",
+      "price": "49,000원",
+      "category": "과일류"
+    }
+  ]
+}

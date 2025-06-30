@@ -1,0 +1,34 @@
+{
+  "registrationDate": "2025-06-14T06:01:17.639Z",
+  "mallsProcessed": [
+    "당진팜",
+    "단풍미인",
+    "함평천지몰",
+    "함양몰"
+  ],
+  "totalProductsRegistered": 299,
+  "totalProductsInDatabase": 1919,
+  "categoriesBreakdown": {
+    "food": 13,
+    "etc": 283,
+    "health": 3
+  },
+  "mallBreakdown": [
+    {
+      "mall": "당진팜",
+      "count": 57
+    },
+    {
+      "mall": "단풍미인",
+      "count": 19
+    },
+    {
+      "mall": "함평천지몰",
+      "count": 18
+    },
+    {
+      "mall": "함양몰",
+      "count": 205
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "timestamp": "2025-06-30T01:56:37.166Z",
+  "originalProductCount": 4145,
+  "productsRemoved": {
+    "wemall": 138,
+    "wonju": 59,
+    "total": 197
+  },
+  "finalProductCount": 3948,
+  "backupCreated": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/src/data/products-backup-before-wemall-wonju-removal.json",
+  "removedProducts": {
+    "wemall": [
+      {
+        "id": "wemall-10240164",
+        "name": "슈퍼그린퐁 12kg 대용량 주방세제 업소용 사우나용 말통 명진산업",
+        "mallName": "우리몰"
+      },
+      {
+        "id": "wemall-10322275",
+        "name": "[애슐리데코]베개커버, 캔디쿠션, 무지쿠션, 바디필로우",
+        "mallName": "우리몰"
+      },
+      {
+        "id": "wemall-10815423",
+        "name": "한방옥돌비누 120g x 80개 세수비누 업소용 대용량 벌크제품 1박스",
+        "mallName": "우리몰"
+      },
+      {
+        "id": "wemall-10864397",
+        "name": "[낭랑몰] 위생마스크 비말차단마스크 메디컴 안전 마스크 소프-스킨 이어루프 마스크 Safe Mask Sof-Skin Earloop Mask 1박스(50개입x10) 500개",
+        "mallName": "우리몰"
+      },
+      {
+        "id": "wemall-11157680",
+        "name": "[가이아]이동식 차수판(물막이)",
+        "mallName": "우리몰"
+      }
+    ],
+    "wonju": [
+      {
+        "id": "wonju-100045",
+        "name": "보약 건대추 무게1kg 크기 초리(소자)",
+        "mallName": "원주몰"
+      },
+      {
+        "id": "wonju-101023",
+        "name": "[미라클5.5 ]한달커피 5종 드립백커피 선물세트(20개입)",
+        "mallName": "원주몰"
+      },
+      {
+        "id": "wonju-101314",
+        "name": "강원곳간 김치 고기 손만두 냉동 만두 1.2kg",
+        "mallName": "원주몰"
+      },
+      {
+        "id": "wonju-103207",
+        "name": "[원주맛집 민병선식당] 묵은지닭볶음탕국내산 밀키트 1~2인",
+        "mallName": "원주몰"
+      },
+      {
+        "id": "wonju-103250",
+        "name": "[건강을그리다]2024년 국내산 저당 호라산밀(1kg)",
+        "mallName": "원주몰"
+      }
+    ]
+  },
+  "notes": "Successfully removed all products from 우리몰 and 원주몰 as requested"
+}

@@ -1,0 +1,144 @@
+{
+  "timestamp": "2025-06-19T12:23:30.951Z",
+  "mall": {
+    "id": "chamds",
+    "name": "참달성",
+    "region": "경상북도"
+  },
+  "totalProducts": 109,
+  "chamdsProducts": 18,
+  "dataQuality": {
+    "withTitles": 18,
+    "withPrices": 18,
+    "withImages": 18,
+    "withUrls": 18,
+    "withCategories": 18,
+    "withValidPrices": 18,
+    "withDescriptions": 17,
+    "onlyFoodProducts": 18
+  },
+  "categoryDistribution": {
+    "가공식품": 18
+  },
+  "priceAnalysis": {
+    "minPrice": 4500,
+    "maxPrice": 60000,
+    "avgPrice": 23861,
+    "priceRanges": {
+      "under10k": 2,
+      "10k-30k": 10,
+      "30k-50k": 3,
+      "over50k": 3
+    }
+  },
+  "individualProductCheck": {
+    "withSpecificQuantities": 13,
+    "withBrandNames": 8,
+    "withDetailedDescriptions": 4,
+    "potentialCategories": [],
+    "isAllIndividualProducts": true
+  },
+  "sampleProducts": [
+    {
+      "id": "chamds-108",
+      "name": "농부 이학조의 생강진액 1병",
+      "price": 30000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true,
+      "hasQuantity": true,
+      "hasBrand": false
+    },
+    {
+      "id": "chamds-109",
+      "name": "농부 이학조의 생강진액 2병",
+      "price": 60000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true,
+      "hasQuantity": true,
+      "hasBrand": false
+    },
+    {
+      "id": "chamds-118",
+      "name": "행원정 등겨장 500g",
+      "price": 12000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true,
+      "hasQuantity": true,
+      "hasBrand": true
+    },
+    {
+      "id": "chamds-119",
+      "name": "행원정 들기름 240ml 선물세트 냉압착 들깨기름",
+      "price": 40000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true,
+      "hasQuantity": true,
+      "hasBrand": true
+    },
+    {
+      "id": "chamds-120",
+      "name": "행원정 정월된장 500g / 1kg",
+      "price": 12000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true,
+      "hasQuantity": true,
+      "hasBrand": true
+    },
+    {
+      "id": "chamds-121",
+      "name": "행원정 청국장 분말가루",
+      "price": 22000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true,
+      "hasQuantity": false,
+      "hasBrand": true
+    },
+    {
+      "id": "chamds-122",
+      "name": "행원정 청국장 분말스틱",
+      "price": 8000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true,
+      "hasQuantity": false,
+      "hasBrand": true
+    },
+    {
+      "id": "chamds-15",
+      "name": "미드미누룽지 1박스(280g x 16개)",
+      "price": 55000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true,
+      "hasQuantity": true,
+      "hasBrand": true
+    },
+    {
+      "id": "chamds-16",
+      "name": "미드미누룽지 800g /참달성",
+      "price": 10000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true,
+      "hasQuantity": true,
+      "hasBrand": true
+    },
+    {
+      "id": "chamds-19",
+      "name": "여주티백차",
+      "price": 10000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true,
+      "hasQuantity": false,
+      "hasBrand": false
+    }
+  ],
+  "issues": []
+}

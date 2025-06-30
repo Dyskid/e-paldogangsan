@@ -1,0 +1,554 @@
+{
+  "totalScrapedProducts": 20,
+  "newProductsAdded": 20,
+  "duplicatesSkipped": 0,
+  "errors": 0,
+  "registeredProducts": [
+    {
+      "id": "esjang_G2000000068",
+      "name": "[백야홍삼] 5년근 음성 수삼 (중삼계/대삼계/특대) 750g",
+      "price": 32900,
+      "image": "https://www.esjang.go.kr/upload/item/G2000000068/20211019180239L.jpg",
+      "category": "인삼/홍삼",
+      "region": "경기도 이천시",
+      "url": "https://www.esjang.go.kr/products/view/G2000000068",
+      "description": "[백야홍삼] 5년근 음성 수삼 (중삼계/대삼계/특대) 750g - 이천시장 특산품",
+      "tags": [
+        "이천특산품",
+        "경기도특산",
+        "이천시장",
+        "인삼",
+        "홍삼",
+        "건강식품",
+        "음성특산",
+        "음성",
+        "충청북도"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "mall": {
+        "mallId": "esjang-mall",
+        "mallName": "이천시장",
+        "mallUrl": "https://www.esjang.go.kr",
+        "region": "경기도 이천시"
+      }
+    },
+    {
+      "id": "esjang_G2000000138",
+      "name": "[삼보한과] 수제 전통 한과 오복세트 700g",
+      "price": 45900,
+      "image": "https://www.esjang.go.kr/upload/item/G2000000138/20210127090252L(1).jpg",
+      "category": "전통과자",
+      "region": "경기도 이천시",
+      "url": "https://www.esjang.go.kr/products/view/G2000000138",
+      "description": "[삼보한과] 수제 전통 한과 오복세트 700g - 이천시장 특산품",
+      "tags": [
+        "이천특산품",
+        "경기도특산",
+        "이천시장",
+        "한과",
+        "전통과자",
+        "수제한과",
+        "전통식품"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "mall": {
+        "mallId": "esjang-mall",
+        "mallName": "이천시장",
+        "mallUrl": "https://www.esjang.go.kr",
+        "region": "경기도 이천시"
+      }
+    },
+    {
+      "id": "esjang_G2000000151",
+      "name": "[찰진남매] 국내산 혼합7곡 (500gx2봉)",
+      "price": 8900,
+      "image": "https://www.esjang.go.kr/upload/item/G2000000151/20210209094532L.jpg",
+      "category": "잡곡류",
+      "region": "경기도 이천시",
+      "url": "https://www.esjang.go.kr/products/view/G2000000151",
+      "description": "[찰진남매] 국내산 혼합7곡 (500gx2봉) - 이천시장 특산품",
+      "tags": [
+        "이천특산품",
+        "경기도특산",
+        "이천시장",
+        "잡곡",
+        "혼합곡",
+        "농산물",
+        "건강식품",
+        "고급상품"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "mall": {
+        "mallId": "esjang-mall",
+        "mallName": "이천시장",
+        "mallUrl": "https://www.esjang.go.kr",
+        "region": "경기도 이천시"
+      }
+    },
+    {
+      "id": "esjang_G2000000152",
+      "name": "[찰진남매] 국내산 혼합9곡 (500gx2봉)",
+      "price": 9500,
+      "image": "https://www.esjang.go.kr/upload/item/G2000000152/20210209094728L.jpg",
+      "category": "잡곡류",
+      "region": "경기도 이천시",
+      "url": "https://www.esjang.go.kr/products/view/G2000000152",
+      "description": "[찰진남매] 국내산 혼합9곡 (500gx2봉) - 이천시장 특산품",
+      "tags": [
+        "이천특산품",
+        "경기도특산",
+        "이천시장",
+        "잡곡",
+        "혼합곡",
+        "농산물",
+        "건강식품",
+        "고급상품"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "mall": {
+        "mallId": "esjang-mall",
+        "mallName": "이천시장",
+        "mallUrl": "https://www.esjang.go.kr",
+        "region": "경기도 이천시"
+      }
+    },
+    {
+      "id": "esjang_G2000000154",
+      "name": "[선돌농원] DIY 다육화분",
+      "price": 18500,
+      "image": "https://www.esjang.go.kr/upload/item/G2000000154/20210209175751L(1).jpg",
+      "category": "원예/화훼",
+      "region": "경기도 이천시",
+      "url": "https://www.esjang.go.kr/products/view/G2000000154",
+      "description": "[선돌농원] DIY 다육화분 - 이천시장 특산품",
+      "tags": [
+        "이천특산품",
+        "경기도특산",
+        "이천시장",
+        "다육식물",
+        "화분",
+        "DIY",
+        "원예"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "mall": {
+        "mallId": "esjang-mall",
+        "mallName": "이천시장",
+        "mallUrl": "https://www.esjang.go.kr",
+        "region": "경기도 이천시"
+      }
+    },
+    {
+      "id": "esjang_G2000000167",
+      "name": "[한그루] 국내산 유기농 표고버섯(가정용) 1kg",
+      "price": 11900,
+      "image": "https://www.esjang.go.kr/upload/item/G2000000167/20230403115134L.jpg",
+      "category": "버섯류",
+      "region": "경기도 이천시",
+      "url": "https://www.esjang.go.kr/products/view/G2000000167",
+      "description": "[한그루] 국내산 유기농 표고버섯(가정용) 1kg - 이천시장 특산품",
+      "tags": [
+        "이천특산품",
+        "경기도특산",
+        "이천시장",
+        "표고버섯",
+        "버섯",
+        "유기농",
+        "농산물"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "mall": {
+        "mallId": "esjang-mall",
+        "mallName": "이천시장",
+        "mallUrl": "https://www.esjang.go.kr",
+        "region": "경기도 이천시"
+      }
+    },
+    {
+      "id": "esjang_G2000000373",
+      "name": "[음성장터] 음성군 명품작물 쇼핑몰",
+      "price": 197000,
+      "image": "https://www.esjang.go.kr/upload/item/G2000000373/20250317135807L.jpg",
+      "category": "음성특산품",
+      "region": "경기도 이천시",
+      "url": "https://www.esjang.go.kr/products/view/G2000000373",
+      "description": "[음성장터] 음성군 명품작물 쇼핑몰 - 이천시장 특산품",
+      "tags": [
+        "이천특산품",
+        "경기도특산",
+        "이천시장",
+        "음성",
+        "음성특산",
+        "충청북도"
+      ],
+      "isFeatured": true,
+      "isNew": true,
+      "mall": {
+        "mallId": "esjang-mall",
+        "mallName": "이천시장",
+        "mallUrl": "https://www.esjang.go.kr",
+        "region": "경기도 이천시"
+      }
+    },
+    {
+      "id": "esjang_G2000000374",
+      "name": "[음성장터] 음성군 명품작물 쇼핑몰",
+      "price": 285000,
+      "image": "https://www.esjang.go.kr/upload/item/G2000000374/20250317135918L.jpg",
+      "category": "음성특산품",
+      "region": "경기도 이천시",
+      "url": "https://www.esjang.go.kr/products/view/G2000000374",
+      "description": "[음성장터] 음성군 명품작물 쇼핑몰 - 이천시장 특산품",
+      "tags": [
+        "이천특산품",
+        "경기도특산",
+        "이천시장",
+        "음성",
+        "음성특산",
+        "충청북도"
+      ],
+      "isFeatured": true,
+      "isNew": true,
+      "mall": {
+        "mallId": "esjang-mall",
+        "mallName": "이천시장",
+        "mallUrl": "https://www.esjang.go.kr",
+        "region": "경기도 이천시"
+      }
+    },
+    {
+      "id": "esjang_G2000000375",
+      "name": "[음성장터] 음성군 명품작물 쇼핑몰",
+      "price": 379000,
+      "image": "https://www.esjang.go.kr/upload/item/G2000000375/20250317140032L.jpg",
+      "category": "음성특산품",
+      "region": "경기도 이천시",
+      "url": "https://www.esjang.go.kr/products/view/G2000000375",
+      "description": "[음성장터] 음성군 명품작물 쇼핑몰 - 이천시장 특산품",
+      "tags": [
+        "이천특산품",
+        "경기도특산",
+        "이천시장",
+        "음성",
+        "음성특산",
+        "충청북도"
+      ],
+      "isFeatured": true,
+      "isNew": true,
+      "mall": {
+        "mallId": "esjang-mall",
+        "mallName": "이천시장",
+        "mallUrl": "https://www.esjang.go.kr",
+        "region": "경기도 이천시"
+      }
+    },
+    {
+      "id": "esjang_G2000000376",
+      "name": "[음성장터] 음성군 명품작물 쇼핑몰",
+      "price": 14900,
+      "image": "https://www.esjang.go.kr/upload/item/G2000000376/20250317170520L(1).jpg",
+      "category": "음성특산품",
+      "region": "경기도 이천시",
+      "url": "https://www.esjang.go.kr/products/view/G2000000376",
+      "description": "[음성장터] 음성군 명품작물 쇼핑몰 - 이천시장 특산품",
+      "tags": [
+        "이천특산품",
+        "경기도특산",
+        "이천시장",
+        "음성",
+        "음성특산",
+        "충청북도"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "mall": {
+        "mallId": "esjang-mall",
+        "mallName": "이천시장",
+        "mallUrl": "https://www.esjang.go.kr",
+        "region": "경기도 이천시"
+      }
+    },
+    {
+      "id": "esjang_G2000000378",
+      "name": "[음성장터] 음성군 명품작물 쇼핑몰",
+      "price": 12900,
+      "image": "https://www.esjang.go.kr/upload/item/G2000000378/20250319180047L.jpg",
+      "category": "음성특산품",
+      "region": "경기도 이천시",
+      "url": "https://www.esjang.go.kr/products/view/G2000000378",
+      "description": "[음성장터] 음성군 명품작물 쇼핑몰 - 이천시장 특산품",
+      "tags": [
+        "이천특산품",
+        "경기도특산",
+        "이천시장",
+        "음성",
+        "음성특산",
+        "충청북도"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "mall": {
+        "mallId": "esjang-mall",
+        "mallName": "이천시장",
+        "mallUrl": "https://www.esjang.go.kr",
+        "region": "경기도 이천시"
+      }
+    },
+    {
+      "id": "esjang_G2000000379",
+      "name": "[음성장터] 음성군 명품작물 쇼핑몰",
+      "price": 13900,
+      "image": "https://www.esjang.go.kr/upload/item/G2000000379/20250320090401L.jpg",
+      "category": "음성특산품",
+      "region": "경기도 이천시",
+      "url": "https://www.esjang.go.kr/products/view/G2000000379",
+      "description": "[음성장터] 음성군 명품작물 쇼핑몰 - 이천시장 특산품",
+      "tags": [
+        "이천특산품",
+        "경기도특산",
+        "이천시장",
+        "음성",
+        "음성특산",
+        "충청북도"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "mall": {
+        "mallId": "esjang-mall",
+        "mallName": "이천시장",
+        "mallUrl": "https://www.esjang.go.kr",
+        "region": "경기도 이천시"
+      }
+    },
+    {
+      "id": "esjang_G2000000380",
+      "name": "[음성장터] 음성군 명품작물 쇼핑몰",
+      "price": 14500,
+      "image": "https://www.esjang.go.kr/upload/item/G2000000380/20250320090621L.jpg",
+      "category": "음성특산품",
+      "region": "경기도 이천시",
+      "url": "https://www.esjang.go.kr/products/view/G2000000380",
+      "description": "[음성장터] 음성군 명품작물 쇼핑몰 - 이천시장 특산품",
+      "tags": [
+        "이천특산품",
+        "경기도특산",
+        "이천시장",
+        "음성",
+        "음성특산",
+        "충청북도"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "mall": {
+        "mallId": "esjang-mall",
+        "mallName": "이천시장",
+        "mallUrl": "https://www.esjang.go.kr",
+        "region": "경기도 이천시"
+      }
+    },
+    {
+      "id": "esjang_G2000000381",
+      "name": "[음성장터] 음성군 명품작물 쇼핑몰",
+      "price": 17800,
+      "image": "https://www.esjang.go.kr/upload/item/G2000000381/20250320091246L.jpg",
+      "category": "음성특산품",
+      "region": "경기도 이천시",
+      "url": "https://www.esjang.go.kr/products/view/G2000000381",
+      "description": "[음성장터] 음성군 명품작물 쇼핑몰 - 이천시장 특산품",
+      "tags": [
+        "이천특산품",
+        "경기도특산",
+        "이천시장",
+        "음성",
+        "음성특산",
+        "충청북도"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "mall": {
+        "mallId": "esjang-mall",
+        "mallName": "이천시장",
+        "mallUrl": "https://www.esjang.go.kr",
+        "region": "경기도 이천시"
+      }
+    },
+    {
+      "id": "esjang_G2000000382",
+      "name": "[음성장터] 음성군 명품작물 쇼핑몰",
+      "price": 11000,
+      "image": "https://www.esjang.go.kr/upload/item/G2000000382/20250327093050L.jpg",
+      "category": "음성특산품",
+      "region": "경기도 이천시",
+      "url": "https://www.esjang.go.kr/products/view/G2000000382",
+      "description": "[음성장터] 음성군 명품작물 쇼핑몰 - 이천시장 특산품",
+      "tags": [
+        "이천특산품",
+        "경기도특산",
+        "이천시장",
+        "음성",
+        "음성특산",
+        "충청북도"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "mall": {
+        "mallId": "esjang-mall",
+        "mallName": "이천시장",
+        "mallUrl": "https://www.esjang.go.kr",
+        "region": "경기도 이천시"
+      }
+    },
+    {
+      "id": "esjang_G2000000385",
+      "name": "[음성장터] 음성군 명품작물 쇼핑몰",
+      "price": 23500,
+      "image": "https://www.esjang.go.kr/upload/item/G2000000385/20250428132029L.jpg",
+      "category": "음성특산품",
+      "region": "경기도 이천시",
+      "url": "https://www.esjang.go.kr/products/view/G2000000385",
+      "description": "[음성장터] 음성군 명품작물 쇼핑몰 - 이천시장 특산품",
+      "tags": [
+        "이천특산품",
+        "경기도특산",
+        "이천시장",
+        "음성",
+        "음성특산",
+        "충청북도"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "mall": {
+        "mallId": "esjang-mall",
+        "mallName": "이천시장",
+        "mallUrl": "https://www.esjang.go.kr",
+        "region": "경기도 이천시"
+      }
+    },
+    {
+      "id": "esjang_G2000000387",
+      "name": "[음성장터] 음성군 명품작물 쇼핑몰",
+      "price": 89000,
+      "image": "https://www.esjang.go.kr/upload/item/G2000000387/20250512164541L.jpg",
+      "category": "음성특산품",
+      "region": "경기도 이천시",
+      "url": "https://www.esjang.go.kr/products/view/G2000000387",
+      "description": "[음성장터] 음성군 명품작물 쇼핑몰 - 이천시장 특산품",
+      "tags": [
+        "이천특산품",
+        "경기도특산",
+        "이천시장",
+        "음성",
+        "음성특산",
+        "충청북도"
+      ],
+      "isFeatured": true,
+      "isNew": true,
+      "mall": {
+        "mallId": "esjang-mall",
+        "mallName": "이천시장",
+        "mallUrl": "https://www.esjang.go.kr",
+        "region": "경기도 이천시"
+      }
+    },
+    {
+      "id": "esjang_G2000000388",
+      "name": "[음성장터] 음성군 명품작물 쇼핑몰",
+      "price": 139000,
+      "image": "https://www.esjang.go.kr/upload/item/G2000000388/20250512164859L(2).jpg",
+      "category": "음성특산품",
+      "region": "경기도 이천시",
+      "url": "https://www.esjang.go.kr/products/view/G2000000388",
+      "description": "[음성장터] 음성군 명품작물 쇼핑몰 - 이천시장 특산품",
+      "tags": [
+        "이천특산품",
+        "경기도특산",
+        "이천시장",
+        "음성",
+        "음성특산",
+        "충청북도"
+      ],
+      "isFeatured": true,
+      "isNew": true,
+      "mall": {
+        "mallId": "esjang-mall",
+        "mallName": "이천시장",
+        "mallUrl": "https://www.esjang.go.kr",
+        "region": "경기도 이천시"
+      }
+    },
+    {
+      "id": "esjang_G2000000398",
+      "name": "[음성장터] 음성군 명품작물 쇼핑몰",
+      "price": 30000,
+      "image": "https://www.esjang.go.kr/upload/item/G2000000398/20250620173805L.jpg",
+      "category": "음성특산품",
+      "region": "경기도 이천시",
+      "url": "https://www.esjang.go.kr/products/view/G2000000398",
+      "description": "[음성장터] 음성군 명품작물 쇼핑몰 - 이천시장 특산품",
+      "tags": [
+        "이천특산품",
+        "경기도특산",
+        "이천시장",
+        "음성",
+        "음성특산",
+        "충청북도"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "mall": {
+        "mallId": "esjang-mall",
+        "mallName": "이천시장",
+        "mallUrl": "https://www.esjang.go.kr",
+        "region": "경기도 이천시"
+      }
+    },
+    {
+      "id": "esjang_G2000000399",
+      "name": "[음성장터] 음성군 명품작물 쇼핑몰",
+      "price": 30000,
+      "image": "https://www.esjang.go.kr/upload/item/G2000000399/20250620174055L.jpg",
+      "category": "음성특산품",
+      "region": "경기도 이천시",
+      "url": "https://www.esjang.go.kr/products/view/G2000000399",
+      "description": "[음성장터] 음성군 명품작물 쇼핑몰 - 이천시장 특산품",
+      "tags": [
+        "이천특산품",
+        "경기도특산",
+        "이천시장",
+        "음성",
+        "음성특산",
+        "충청북도"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "mall": {
+        "mallId": "esjang-mall",
+        "mallName": "이천시장",
+        "mallUrl": "https://www.esjang.go.kr",
+        "region": "경기도 이천시"
+      }
+    }
+  ],
+  "duplicateIds": [],
+  "categories": {
+    "인삼/홍삼": 1,
+    "전통과자": 1,
+    "잡곡류": 2,
+    "원예/화훼": 1,
+    "버섯류": 1,
+    "음성특산품": 14
+  },
+  "priceAnalysis": {
+    "withPrices": 20,
+    "withoutPrices": 0,
+    "averagePrice": 69255,
+    "minPrice": 8900,
+    "maxPrice": 379000
+  }
+}

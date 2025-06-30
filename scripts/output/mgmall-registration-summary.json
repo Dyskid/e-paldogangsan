@@ -1,0 +1,10 @@
+{
+  "mallId": "mgmall",
+  "mallName": "문경몰",
+  "timestamp": "2025-06-24T12:53:55.906Z",
+  "totalProductsBefore": 4150,
+  "productsAdded": 31,
+  "totalProductsAfter": 4181,
+  "productsRemoved": 0,
+  "backupFile": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/src/data/products-backup-1750769635860.json"
+}

@@ -1,0 +1,46 @@
+{
+  "totalScraped": 323,
+  "validProducts": 323,
+  "duplicatesSkipped": 0,
+  "totalProductsInDb": 2374,
+  "registrationDate": "2025-06-23T12:17:58.405Z",
+  "mall": "순천로컬푸드 함께가게",
+  "region": "전남",
+  "categories": [
+    "농산물",
+    "축산물",
+    "가공식품"
+  ],
+  "sampleRegistered": [
+    {
+      "title": "[도사동김태현] 유기농 애호박 1개",
+      "price": "2,000원",
+      "category": "농산물",
+      "id": "sclocal-D2580-C5072-U2637"
+    },
+    {
+      "title": "[도사동김태현] 유기농 완숙 토마토 1kg 5kg 당일수확",
+      "price": "7,000원",
+      "category": "농산물",
+      "id": "sclocal-Z7686-K9436-D7316"
+    },
+    {
+      "title": "[별량안영이] 당일손질 죽순 삶은죽순 분죽 500g 1kg 햇죽순",
+      "price": "5,000원",
+      "category": "농산물",
+      "id": "sclocal-G6838-P0101-S7087"
+    },
+    {
+      "title": "[도사동김태현] 유기농 대추방울토마토 1kg / 5kg",
+      "price": "8,000원",
+      "category": "농산물",
+      "id": "sclocal-T3548-I0349-R1187"
+    },
+    {
+      "title": "[순천농가] 백오이 백다다기오이 오이지용 피클용 오이 최상품 3개",
+      "price": "3,000원",
+      "category": "농산물",
+      "id": "sclocal-C8822-S0590-S0754"
+    }
+  ]
+}

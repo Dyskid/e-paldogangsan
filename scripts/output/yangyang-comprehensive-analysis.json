@@ -1,0 +1,11 @@
+{
+  "url": "https://yangyang-mall.com/",
+  "title": "양양몰",
+  "categories": [],
+  "sampleProducts": [],
+  "productSelectors": {},
+  "notes": [
+    "Found search functionality at: /goods/search"
+  ],
+  "status": "completed"
+}

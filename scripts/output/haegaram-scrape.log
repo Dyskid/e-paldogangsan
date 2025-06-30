@@ -1,0 +1,284 @@
+Starting Haegaram scraper...
+
+
+==================================================
+Scraping category: 생선/어패
+==================================================
+
+Fetching 생선/어패 page 1: https://haegaram.com/product/list.html?cate_no=23&page=1
+Found 144 products on page 1
+
+Total unique products found in 생선/어패: 36
+  Fetching product: https://haegaram.com/product/부안수협뽕잎간고등어10미/38/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 37100
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/군산시수협-토막-먹갈치-2미/37/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 25400
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/아리울수산-사랑海-가자미-3팩/14/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 23300
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/전이수산-순창-메주-먹인-초벌장어-2kg-36미/112/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 102300
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/군산시수협-반건조-국산-박대-1호-5호-세트1박스-5미/49/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 32900
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/고창군수협-풍천장어-초벌구이-1kg-23미-손질-후-약-600g/33/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 51900
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/줄포하늘수산-손질-오징어-골라담기-1kg/133/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 21200
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/고창군수협-풍천장어-손질구이-1kg-23미-손질-후-약-700g/30/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 49800
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/군산시수협-토막-먹갈치-특대-선물세트/79/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 44500
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/전이수산-순창-메주-먹인-초벌장어-1kg-23미/135/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 51200
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/전이수산-순창-메주-먹인-손질장어-2kg-35미/116/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 91200
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/아리울수산-사랑海-황금박대-4호/41/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 27100
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/아리울수산-사랑海-오징어-2팩/25/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 23300
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/전이수산-순창-메주-먹인-손질장어-1kg-2미/136/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 45600
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/군산시수협-국산-반건조오징어-5미-600g내외/165/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 32900
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/줄포하늘수산-손질-오징어-세트-솔방울-오징어-세트/134/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 58300
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/밥강도-손질-국내산-중하새우-150g300g/177/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 7000
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/밥강도-손질-갑오징어-200g-500g/181/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 7000
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/전이수산-순창-메주-먹인-초벌장어-3kg-59미/113/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 153500
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/군산시수협-명품-9팩-세트박대3미조기3미병어3미/96/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 94300
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/밥강도-군산-명물-손질-박대-150g-450g/180/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 7000
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/전이수산-순창-메주-먹인-손질장어-3kg-57미/117/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 136700
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/밥강도-키조개-관자-중-사이즈-200g/241/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 13900
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/밥강도-국내산-참조기-100g-500g/183/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 6000
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/밥강도-손질-찜용-홍어-350g-600g/186/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 16900
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/밥강도-손질-병어-1마리-150g-350g/184/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 7000
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/군산시수협-명품-3종-선물세트박대5미조기5미병어5미/95/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 143100
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/밥강도-자연산-손질-바다-장어-300g-550g/185/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 17900
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/군산시수협-국산-멸치15kg-4종류지리가이리고바주바/265/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 21300
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/밥강도-손질-문어-700g16kg/439/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 35500
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/군산시수협-국산-반건조-참조기-6마리-10마리/263/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 78000
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/군산시수협-자연산-키조개관자-600g/264/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 46500
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/군산시수협-토막먹갈치-대-900g-이상/268/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 91100
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/군산시수협-토막대갈치-대-2마리-500g-500g/267/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 62400
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/군산시수협-손질대구-400g-650g이상/266/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 13400
+Progress: 0/36 products scraped
+  Fetching product: https://haegaram.com/product/밥강도-참소라/254/category/23/display/1/
+  ⚠️ Missing required data - Title: "", Price: 14400
+Progress: 0/36 products scraped
+
+Completed 생선/어패: 0 products with valid prices
+
+==================================================
+Scraping category: 건어물
+==================================================
+
+Fetching 건어물 page 1: https://haegaram.com/product/list.html?cate_no=56&page=1
+Found 44 products on page 1
+
+Total unique products found in 건어물: 11
+  Fetching product: https://haegaram.com/product/유바다향-특지리멸치볶음용잔멸치-700g-15kg/359/category/56/display/1/
+  ⚠️ Missing required data - Title: "", Price: 23500
+Progress: 0/11 products scraped
+  Fetching product: https://haegaram.com/product/유바다향-특다시멸치육수용-15kg/358/category/56/display/1/
+  ⚠️ Missing required data - Title: "", Price: 32000
+Progress: 0/11 products scraped
+  Fetching product: https://haegaram.com/product/유바다향-밥지리아기용분쇄멸치잔멸치-700g/357/category/56/display/1/
+  ⚠️ Missing required data - Title: "", Price: 22500
+Progress: 0/11 products scraped
+  Fetching product: https://haegaram.com/product/유바다향-다시멸치육수용디포리섞임-500g-15kg/356/category/56/display/1/
+  ⚠️ Missing required data - Title: "", Price: 15600
+Progress: 0/11 products scraped
+  Fetching product: https://haegaram.com/product/유바다향-고바고주바-멸치고추장볶음안주용-15kg/355/category/56/display/1/
+  ⚠️ Missing required data - Title: "", Price: 29900
+Progress: 0/11 products scraped
+  Fetching product: https://haegaram.com/product/유바다향-가이리-멸치볶음용-700g-15kg/354/category/56/display/1/
+  ⚠️ Missing required data - Title: "", Price: 23900
+Progress: 0/11 products scraped
+  Fetching product: https://haegaram.com/product/군산시수협-건어물-선물세트-4호중소/101/category/56/display/1/
+  ⚠️ Missing required data - Title: "", Price: 35000
+Progress: 0/11 products scraped
+  Fetching product: https://haegaram.com/product/군산시수협-건어물-선물세트-3호중소다/100/category/56/display/1/
+  ⚠️ Missing required data - Title: "", Price: 44500
+Progress: 0/11 products scraped
+  Fetching product: https://haegaram.com/product/군산시수협-건어물-선물세트-2호중소자/99/category/56/display/1/
+  ⚠️ Missing required data - Title: "", Price: 51900
+Progress: 0/11 products scraped
+  Fetching product: https://haegaram.com/product/군산시수협-건어물-선물세트-1호꽃중소/98/category/56/display/1/
+  ⚠️ Missing required data - Title: "", Price: 62500
+Progress: 0/11 products scraped
+  Fetching product: https://haegaram.com/product/군산시수협-군산어가-꽃새우1팩/35/category/56/display/1/
+  ⚠️ Missing required data - Title: "", Price: 9500
+Progress: 0/11 products scraped
+
+Completed 건어물: 0 products with valid prices
+
+==================================================
+Scraping category: 해조류
+==================================================
+
+Fetching 해조류 page 1: https://haegaram.com/product/list.html?cate_no=64&page=1
+Found 52 products on page 1
+
+Total unique products found in 해조류: 13
+  Fetching product: https://haegaram.com/product/제이앤에스-테스트-상품-10/203/category/64/display/1/
+  ⚠️ Missing required data - Title: "", Price: 1000
+Progress: 0/13 products scraped
+  Fetching product: https://haegaram.com/product/하이오백-지리산-금-부각-조각-김부각-70gx-4팩/132/category/64/display/1/
+  ⚠️ Missing required data - Title: "", Price: 23500
+Progress: 0/13 products scraped
+  Fetching product: https://haegaram.com/product/하이오백-지리산-금-부각-전통-김부각-40g-x-8팩/131/category/64/display/1/
+  ⚠️ Missing required data - Title: "", Price: 26700
+Progress: 0/13 products scraped
+  Fetching product: https://haegaram.com/product/유바다향-고소한-조미김-미니도시락김240봉/87/category/64/display/1/
+  ⚠️ Missing required data - Title: "", Price: 36500
+Progress: 0/13 products scraped
+  Fetching product: https://haegaram.com/product/유바다향-고군산-파래전장김-1호-2호-3호/85/category/64/display/1/
+  ⚠️ Missing required data - Title: "", Price: 11900
+Progress: 0/13 products scraped
+  Fetching product: https://haegaram.com/product/유바다향-함초소금을-뿌린-함초김/84/category/64/display/1/
+  ⚠️ Missing required data - Title: "", Price: 14800
+Progress: 0/13 products scraped
+  Fetching product: https://haegaram.com/product/바다의향기-부안-김-선물세트/71/category/64/display/1/
+  ⚠️ Missing required data - Title: "", Price: 26700
+Progress: 0/13 products scraped
+  Fetching product: https://haegaram.com/product/바다의향기-부안-김-전장-세트/70/category/64/display/1/
+  ⚠️ Missing required data - Title: "", Price: 19200
+Progress: 0/13 products scraped
+  Fetching product: https://haegaram.com/product/바다의향기-부안-김자반-세트/63/category/64/display/1/
+  ⚠️ Missing required data - Title: "", Price: 17100
+Progress: 0/13 products scraped
+  Fetching product: https://haegaram.com/product/바다향-재래김으로-구운-도시락김/52/category/64/display/1/
+  ⚠️ Missing required data - Title: "", Price: 11600
+Progress: 0/13 products scraped
+  Fetching product: https://haegaram.com/product/유바다향-조미하지-않은-구운-곱창김/51/category/64/display/1/
+  ⚠️ Missing required data - Title: "", Price: 14800
+Progress: 0/13 products scraped
+  Fetching product: https://haegaram.com/product/바다향-향긋한-파래김-10봉20봉/50/category/64/display/1/
+  ⚠️ Missing required data - Title: "", Price: 14800
+Progress: 0/13 products scraped
+  Fetching product: https://haegaram.com/product/바다의향기-부안김-프리미엄-선물세트/43/category/64/display/1/
+  ⚠️ Missing required data - Title: "", Price: 37300
+Progress: 0/13 products scraped
+
+Completed 해조류: 0 products with valid prices
+
+==================================================
+Scraping category: 젓갈/액젓
+==================================================
+
+Fetching 젓갈/액젓 page 1: https://haegaram.com/product/list.html?cate_no=57&page=1
+Found 56 products on page 1
+
+Total unique products found in 젓갈/액젓: 14
+  Fetching product: https://haegaram.com/product/청정바다젓갈-3년-숙성-곰소젓갈-까나리액젓-18l4l/54/category/57/display/1/
+  ⚠️ Missing required data - Title: "", Price: 11100
+Progress: 0/14 products scraped
+  Fetching product: https://haegaram.com/product/곰소천년의젓갈-밥-도둑-곰소-젓갈-골라-담기오징어젓어리굴젓새우젓/107/category/57/display/1/
+  ⚠️ Missing required data - Title: "", Price: 13600
+Progress: 0/14 products scraped
+  Fetching product: https://haegaram.com/product/곰소천년의젓갈-갈치속젓고기용-쌈장500g/106/category/57/display/1/
+  ⚠️ Missing required data - Title: "", Price: 13600
+Progress: 0/14 products scraped
+  Fetching product: https://haegaram.com/product/더젓갈-정성으로-만든-볼케이노-젓갈갈치속젓오징어젓어리굴젓멍게젓/289/category/57/display/1/
+  ⚠️ Missing required data - Title: "", Price: 7500
+Progress: 0/14 products scraped
+  Fetching product: https://haegaram.com/product/식도락푸드-꽃게액젓-꽃게액-천연조미료-파김치-액젓-500ml/194/category/57/display/1/
+  ⚠️ Missing required data - Title: "", Price: 10100
+Progress: 0/14 products scraped
+  Fetching product: https://haegaram.com/product/더젓갈-정성으로-만든-새우진젓250ml-500ml/155/category/57/display/1/
+  ⚠️ Missing required data - Title: "", Price: 10300
+Progress: 0/14 products scraped
+  Fetching product: https://haegaram.com/product/더젓갈-정성으로-만든-새우액젓250ml-500ml/154/category/57/display/1/
+  ⚠️ Missing required data - Title: "", Price: 11900
+Progress: 0/14 products scraped
+  Fetching product: https://haegaram.com/product/더젓갈-정성으로-만든-오징어젓230g-400g/149/category/57/display/1/
+  ⚠️ Missing required data - Title: "", Price: 11200
+Progress: 0/14 products scraped
+  Fetching product: https://haegaram.com/product/더젓갈-정성으로-만든-어리굴젓200g-350g/148/category/57/display/1/
+  ⚠️ Missing required data - Title: "", Price: 10200
+Progress: 0/14 products scraped
+  Fetching product: https://haegaram.com/product/더젓갈-정성으로-만든-멍게젓-200g-350g/141/category/57/display/1/
+  ⚠️ Missing required data - Title: "", Price: 14000
+Progress: 0/14 products scraped
+  Fetching product: https://haegaram.com/product/더젓갈-정성으로-만든-갈치속젓-230g-400g/138/category/57/display/1/
+  ⚠️ Missing required data - Title: "", Price: 6900
+Progress: 0/14 products scraped
+  Fetching product: https://haegaram.com/product/청정바다젓갈-2년-숙성-곰소젓갈-새우젓추젓-1kg2kg/56/category/57/display/1/
+  ⚠️ Missing required data - Title: "", Price: 15900
+Progress: 0/14 products scraped
+  Fetching product: https://haegaram.com/product/청정바다젓갈-3년-숙성-곰소젓갈-멸치액젓-18l4l/55/category/57/display/1/
+  ⚠️ Missing required data - Title: "", Price: 10600
+Progress: 0/14 products scraped
+  Fetching product: https://haegaram.com/product/청정바다젓갈-3년-숙성-곰소젓갈-갈치액젓-18l4l/53/category/57/display/1/
+  ⚠️ Missing required data - Title: "", Price: 14800
+Progress: 0/14 products scraped
+
+Completed 젓갈/액젓: 0 products with valid prices
+
+==================================================
+SCRAPING COMPLETE!
+==================================================
+Total products scraped: 0
+
+Category breakdown:
+  - 생선/어패: 0 products
+  - 건어물: 0 products
+  - 해조류: 0 products
+  - 젓갈/액젓: 0 products
+
+Price range: ∞원 - -∞원
+Average price: NaN원
+Products with images: 0
+Products with discount: 0

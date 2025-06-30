@@ -1,0 +1,991 @@
+{
+  "platform": "Cafe24",
+  "detectedPatterns": [
+    "Cafe24 platform detected",
+    "prdList structure found"
+  ],
+  "productSelectors": [
+    ".xans-product-listmain .xans-record-",
+    ".prdList .item, .prdList li",
+    ".xans-record- (522 items)",
+    "li[id^=\"anchorBoxId\"] (116 items)"
+  ],
+  "categoryLinks": [
+    {
+      "text": "전체상품목록 바로가기",
+      "href": "#category"
+    },
+    {
+      "text": "초록믿음강진소개",
+      "href": "/shopinfo/company.html"
+    },
+    {
+      "text": "주문조회",
+      "href": "/myshop/order/list.html"
+    },
+    {
+      "text": "최근본상품",
+      "href": "/product/recent_view_product.html"
+    },
+    {
+      "text": "전체상품",
+      "href": "/category/%EC%A0%84%EC%B2%B4%EC%83%81%ED%92%88/24/"
+    },
+    {
+      "text": "발효식품",
+      "href": "/category/%EB%B0%9C%ED%9A%A8%EC%8B%9D%ED%92%88/25/"
+    },
+    {
+      "text": "곡류",
+      "href": "/category/%EA%B3%A1%EB%A5%98/41/"
+    },
+    {
+      "text": "건강식품",
+      "href": "/category/%EA%B1%B4%EA%B0%95%EC%8B%9D%ED%92%88/31/"
+    },
+    {
+      "text": "버섯류",
+      "href": "/category/%EB%B2%84%EC%84%AF%EB%A5%98/39/"
+    },
+    {
+      "text": "가공식품",
+      "href": "/category/%EA%B0%80%EA%B3%B5%EC%8B%9D%ED%92%88/28/"
+    },
+    {
+      "text": "수산물",
+      "href": "/category/%EC%88%98%EC%82%B0%EB%AC%BC/26/"
+    },
+    {
+      "text": "농/축산물",
+      "href": "/category/%EB%86%8D%EC%B6%95%EC%82%B0%EB%AC%BC/27/"
+    },
+    {
+      "text": "강진쌀",
+      "href": "/category/%EA%B0%95%EC%A7%84%EC%8C%80/29/"
+    },
+    {
+      "text": "쌀귀리",
+      "href": "/category/%EC%8C%80%EA%B7%80%EB%A6%AC/30/"
+    },
+    {
+      "text": "관광기념품",
+      "href": "/category/%EA%B4%80%EA%B4%91%EA%B8%B0%EB%85%90%ED%92%88/32/"
+    },
+    {
+      "text": "생활용품",
+      "href": "/category/%EC%83%9D%ED%99%9C%EC%9A%A9%ED%92%88/50/"
+    },
+    {
+      "text": "체험상품",
+      "href": "/category/%EC%B2%B4%ED%97%98%EC%83%81%ED%92%88/78/"
+    },
+    {
+      "text": "관광기념품",
+      "href": "/category/%EA%B4%80%EA%B4%91%EA%B8%B0%EB%85%90%ED%92%88/32/"
+    },
+    {
+      "text": "주문조회",
+      "href": "/myshop/order/list.html"
+    },
+    {
+      "text": "최근본상품",
+      "href": "/product/recent_view_product.html"
+    },
+    {
+      "text": "전체상품",
+      "href": "/category/전체상품/24/"
+    },
+    {
+      "text": "발효식품",
+      "href": "/category/발효식품/25/"
+    },
+    {
+      "text": "곡류",
+      "href": "/category/곡류/41/"
+    },
+    {
+      "text": "건강식품",
+      "href": "/category/건강식품/31/"
+    },
+    {
+      "text": "버섯류",
+      "href": "/category/버섯류/39/"
+    },
+    {
+      "text": "가공식품",
+      "href": "/category/가공식품/28/"
+    },
+    {
+      "text": "수산물",
+      "href": "/category/수산물/26/"
+    },
+    {
+      "text": "농/축산물",
+      "href": "/category/농축산물/27/"
+    },
+    {
+      "text": "강진쌀",
+      "href": "/category/강진쌀/29/"
+    },
+    {
+      "text": "강진귀리",
+      "href": "/category/강진귀리/30/"
+    },
+    {
+      "text": "관광기념품",
+      "href": "/category/관광기념품/32/"
+    },
+    {
+      "text": "생활용품",
+      "href": "/category/생활용품/50/"
+    },
+    {
+      "text": "체험상품",
+      "href": "/category/체험상품/78/"
+    },
+    {
+      "text": "한우기획전",
+      "href": "/category/한우기획전/90/"
+    },
+    {
+      "text": "전체상품",
+      "href": "/category/%EC%A0%84%EC%B2%B4%EC%83%81%ED%92%88/24/"
+    },
+    {
+      "text": "발효식품",
+      "href": "/category/%EB%B0%9C%ED%9A%A8%EC%8B%9D%ED%92%88/25/"
+    },
+    {
+      "text": "곡류",
+      "href": "/category/%EA%B3%A1%EB%A5%98/41/"
+    },
+    {
+      "text": "건강식품",
+      "href": "/category/%EA%B1%B4%EA%B0%95%EC%8B%9D%ED%92%88/31/"
+    },
+    {
+      "text": "버섯류",
+      "href": "/category/%EB%B2%84%EC%84%AF%EB%A5%98/39/"
+    },
+    {
+      "text": "가공식품",
+      "href": "/category/%EA%B0%80%EA%B3%B5%EC%8B%9D%ED%92%88/28/"
+    },
+    {
+      "text": "수산물",
+      "href": "/category/%EC%88%98%EC%82%B0%EB%AC%BC/26/"
+    },
+    {
+      "text": "농/축산물",
+      "href": "/category/%EB%86%8D%EC%B6%95%EC%82%B0%EB%AC%BC/27/"
+    },
+    {
+      "text": "강진쌀",
+      "href": "/category/%EA%B0%95%EC%A7%84%EC%8C%80/29/"
+    },
+    {
+      "text": "쌀귀리",
+      "href": "/category/%EC%8C%80%EA%B7%80%EB%A6%AC/30/"
+    },
+    {
+      "text": "관광기념품",
+      "href": "/category/%EA%B4%80%EA%B4%91%EA%B8%B0%EB%85%90%ED%92%88/32/"
+    },
+    {
+      "text": "생활용품",
+      "href": "/category/%EC%83%9D%ED%99%9C%EC%9A%A9%ED%92%88/50/"
+    },
+    {
+      "text": "체험상품",
+      "href": "/category/%EC%B2%B4%ED%97%98%EC%83%81%ED%92%88/78/"
+    },
+    {
+      "text": "관광기념품",
+      "href": "/category/%EA%B4%80%EA%B4%91%EA%B8%B0%EB%85%90%ED%92%88/32/"
+    },
+    {
+      "text": "전체상품",
+      "href": "/category/전체상품/24/"
+    },
+    {
+      "text": "발효식품",
+      "href": "/category/발효식품/25/"
+    },
+    {
+      "text": "곡류",
+      "href": "/category/곡류/41/"
+    },
+    {
+      "text": "건강식품",
+      "href": "/category/건강식품/31/"
+    },
+    {
+      "text": "버섯류",
+      "href": "/category/버섯류/39/"
+    },
+    {
+      "text": "가공식품",
+      "href": "/category/가공식품/28/"
+    },
+    {
+      "text": "수산물",
+      "href": "/category/수산물/26/"
+    },
+    {
+      "text": "농/축산물",
+      "href": "/category/농축산물/27/"
+    },
+    {
+      "text": "강진쌀",
+      "href": "/category/강진쌀/29/"
+    },
+    {
+      "text": "강진귀리",
+      "href": "/category/강진귀리/30/"
+    },
+    {
+      "text": "관광기념품",
+      "href": "/category/관광기념품/32/"
+    },
+    {
+      "text": "생활용품",
+      "href": "/category/생활용품/50/"
+    },
+    {
+      "text": "체험상품",
+      "href": "/category/체험상품/78/"
+    },
+    {
+      "text": "한우기획전",
+      "href": "/category/한우기획전/90/"
+    },
+    {
+      "text": "상품명 : [강진농협] 강진 건강 쌀귀리 골드 2kg 2개 세트",
+      "href": "/product/강진농협-강진-건강-쌀귀리-골드-2kg-2개-세트/758/category/1/display/2/"
+    },
+    {
+      "text": "상품명 : [대한축산] 무항생제 생삼겹살 1000g",
+      "href": "/product/대한축산-무항생제-생삼겹살-1000g/587/category/1/display/2/"
+    },
+    {
+      "text": "상품명 : [강진군농협쌀] 탐진강 찰진쌀 새청무(24년도 햅쌀)",
+      "href": "/product/강진군농협쌀-탐진강-찰진쌀-새청무24년도-햅쌀/208/category/1/display/2/"
+    },
+    {
+      "text": "상품명 : [수인관] 연탄 돼지불고기 밀키트 230g",
+      "href": "/product/수인관-연탄-돼지불고기-밀키트-230g/55/category/1/display/2/"
+    },
+    {
+      "text": "상품명 : [천지해] 김자반",
+      "href": "/product/천지해-김자반/77/category/1/display/3/"
+    },
+    {
+      "text": "상품명 : [덕룡산아랫동네] 웰빙잔치 쌀귀리 1kg 5개입",
+      "href": "/product/덕룡산아랫동네-웰빙잔치-쌀귀리-1kg-5개입/141/category/1/display/3/"
+    },
+    {
+      "text": "상품명 : [강진농협] 강진 건강 쌀귀리 골드 2kg 2개 세트",
+      "href": "/product/강진농협-강진-건강-쌀귀리-골드-2kg-2개-세트/758/category/1/display/3/"
+    },
+    {
+      "text": "상품명 : [다강한정식] 남도 시원한 맛 열무김치 1kg",
+      "href": "/product/다강한정식-남도-시원한-맛-열무김치-1kg/717/category/1/display/3/"
+    },
+    {
+      "text": "상품명 : [다강한정식] 남도 시원한 맛 열무김치 1kg",
+      "href": "/product/다강한정식-남도-시원한-맛-열무김치-1kg/717/category/1/display/4/"
+    },
+    {
+      "text": "상품명 : [다강한정식] 남도 감칠맛 생김치 1kg",
+      "href": "/product/다강한정식-남도-감칠맛-생김치-1kg/715/category/1/display/4/"
+    },
+    {
+      "text": "상품명 : [황금들] 묵은지 1kg",
+      "href": "/product/황금들-묵은지-1kg/13/category/1/display/4/"
+    },
+    {
+      "text": "상품명 : [참숯골] 묵은지 1kg",
+      "href": "/product/참숯골-묵은지-1kg/15/category/1/display/4/"
+    },
+    {
+      "text": "상품명 : [강진최고식품] 묵은지 1kg",
+      "href": "/product/강진최고식품-묵은지-1kg/24/category/1/display/4/"
+    },
+    {
+      "text": "상품명 : [탐진발효] 2년 묵은지 1kg",
+      "href": "/product/탐진발효-2년-묵은지-1kg/21/category/1/display/4/"
+    },
+    {
+      "text": "상품명 : [엄마손김치] 1년 묵은지 1kg",
+      "href": "/product/엄마손김치-1년-묵은지-1kg/22/category/1/display/4/"
+    },
+    {
+      "text": "상품명 : [오가네] 묵은지 1kg",
+      "href": "/product/오가네-묵은지-1kg/16/category/1/display/4/"
+    },
+    {
+      "text": "상품명 : [수인농원] 묵은지 1kg",
+      "href": "/product/수인농원-묵은지-1kg/17/category/1/display/4/"
+    },
+    {
+      "text": "상품명 : [다산명가] 묵은지 1kg",
+      "href": "/product/다산명가-묵은지-1kg/20/category/1/display/4/"
+    },
+    {
+      "text": "상품명 : [마리네] 묵은지 3kg",
+      "href": "/product/마리네-묵은지-3kg/25/category/1/display/4/"
+    },
+    {
+      "text": "상품명 : [모란김치] 묵은지 1kg",
+      "href": "/product/모란김치-묵은지-1kg/26/category/1/display/4/"
+    },
+    {
+      "text": "상품명 : [송가네] 묵은지 1kg",
+      "href": "/product/송가네-묵은지-1kg/14/category/1/display/4/"
+    },
+    {
+      "text": "상품명 : [청자골토하] 묵은지 1kg",
+      "href": "/product/청자골토하-묵은지-1kg/12/category/1/display/4/"
+    },
+    {
+      "text": "상품명 : [다산명가] 숙성 포기김치1kg",
+      "href": "/product/다산명가-숙성-포기김치1kg/19/category/1/display/4/"
+    },
+    {
+      "text": "상품명 : [언니네손맛] 묵은지 1kg",
+      "href": "/product/언니네손맛-묵은지-1kg/23/category/1/display/4/"
+    },
+    {
+      "text": "상품명 : [개미진] 묵은지 1kg",
+      "href": "/product/개미진-묵은지-1kg/18/category/1/display/4/"
+    },
+    {
+      "text": "상품명 : [덕룡산아랫동네] 웰빙잔치 참조아 찹쌀(24년 햅쌀)",
+      "href": "/product/덕룡산아랫동네-웰빙잔치-참조아-찹쌀24년-햅쌀/95/category/1/display/6/"
+    },
+    {
+      "text": "상품명 : [산다움] 쌀귀리빵",
+      "href": "/product/산다움-쌀귀리빵/81/category/1/display/6/"
+    },
+    {
+      "text": "상품명 : [떡떡쿵덕쿵] 쌀귀리떡 2종 모둠세트(가래떡, 약밥)",
+      "href": "/product/떡떡쿵덕쿵-쌀귀리떡-2종-모둠세트가래떡-약밥/57/category/1/display/6/"
+    },
+    {
+      "text": "상품명 : [덕룡산아랫동네] 웰빙잔치 참조아 찹쌀현미(24년 햅쌀)",
+      "href": "/product/덕룡산아랫동네-웰빙잔치-참조아-찹쌀현미24년-햅쌀/90/category/1/display/6/"
+    },
+    {
+      "text": "상품명 : [신평] 올바른농부이야기 일반미",
+      "href": "/product/신평-올바른농부이야기-일반미/211/category/1/display/6/"
+    },
+    {
+      "text": "상품명 : [칠량] 열혈농사꾼 백미(24년 햅쌀)",
+      "href": "/product/칠량-열혈농사꾼-백미24년-햅쌀/210/category/1/display/6/"
+    },
+    {
+      "text": "상품명 : [영동농장]  음악 듣고 자란 쌀(유기농)",
+      "href": "/product/영동농장-음악-듣고-자란-쌀유기농/196/category/1/display/6/"
+    },
+    {
+      "text": "상품명 : [칠량] 열혈농사꾼 찹쌀(24년 햅찹쌀)",
+      "href": "/product/칠량-열혈농사꾼-찹쌀24년-햅찹쌀/646/category/1/display/6/"
+    },
+    {
+      "text": "상품명 : [바다햇쌀] 백미",
+      "href": "/product/바다햇쌀-백미/213/category/1/display/6/"
+    },
+    {
+      "text": "상품명 : [호렙농원]식어도 맛있는 찰진 한눈에반한쌀",
+      "href": "/product/호렙농원식어도-맛있는-찰진-한눈에반한쌀/623/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [월출산케이리농원] 월출산샤인머스켓",
+      "href": "/product/월출산케이리농원-월출산샤인머스켓/621/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [호렙농원] 시간을 아껴주는 말린 양파",
+      "href": "/product/호렙농원-시간을-아껴주는-말린-양파/620/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [궁전한우촌] 한우 차돌박이 500g",
+      "href": "/product/궁전한우촌-한우-차돌박이-500g/550/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [혜준수산] 하모회 & 샤브용 손질 하모",
+      "href": "/product/혜준수산-하모회-샤브용-손질-하모/530/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [강진푸드팜] 오색찰옥수수(10개)",
+      "href": "/product/강진푸드팜-오색찰옥수수10개/508/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [청림농원] 표고버섯 자연맛과 향이담긴 버섯 혼합세트",
+      "href": "/product/청림농원-표고버섯-자연맛과-향이담긴-버섯-혼합세트/429/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [정안수산] 갯벌 참전복 2kg",
+      "href": "/product/정안수산-갯벌-참전복-2kg/348/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [혜준수산] 활세발낙지 5마리 (40cm 내외)",
+      "href": "/product/혜준수산-활세발낙지-5마리-40cm-내외/346/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [혜준수산] 강진 산지직송 보리 숭어회 500g",
+      "href": "/product/혜준수산-강진-산지직송-보리-숭어회-500g/345/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [혜준수산] 도다리 쑥국 세트(손질도다리 2~3미 총800g+쑥 50g)",
+      "href": "/product/혜준수산-도다리-쑥국-세트손질도다리-23미-총800g쑥-50g/344/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [반석대군농장] 건은이버섯 44~50g",
+      "href": "/product/반석대군농장-건은이버섯-4450g/343/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [반석대군농장] 국내산 최상급 상황버섯 30g",
+      "href": "/product/반석대군농장-국내산-최상급-상황버섯-30g/342/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [반석대군농장] 녹각영지버섯 70g",
+      "href": "/product/반석대군농장-녹각영지버섯-70g/341/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [반석대군농장] 건노루궁뎅이버섯 50g",
+      "href": "/product/반석대군농장-건노루궁뎅이버섯-50g/340/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [반석대군농장] 건표고버섯 100g  (슬라이스 / 통표고)",
+      "href": "/product/반석대군농장-건표고버섯-100g-슬라이스-통표고/339/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [정안수산] 갯벌 참전복 1kg",
+      "href": "/product/정안수산-갯벌-참전복-1kg/35/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [황금물산] 빼어난 가닥미역 320g 2봉",
+      "href": "/product/황금물산-빼어난-가닥미역-320g-2봉/38/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [황금물산] 먼바다 참미역 세트",
+      "href": "/product/황금물산-먼바다-참미역-세트/39/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [황금물산] 빼어난 다시마 세트",
+      "href": "/product/황금물산-빼어난-다시마-세트/40/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [황금물산] 뿌리 다시마 250g 3봉",
+      "href": "/product/황금물산-뿌리-다시마-250g-3봉/41/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [궁전한우촌] 한우 1등급/2등급 정육 골라담기",
+      "href": "/product/궁전한우촌-한우-1등급2등급-정육-골라담기/45/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [도암만] 햇찰 냉동매생이 10개입",
+      "href": "/product/도암만-햇찰-냉동매생이-10개입/32/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [은영수산] 전복 1kg",
+      "href": "/product/은영수산-전복-1kg/34/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : [강진비색청자요] 모란당초문접시(사이즈 및 구성 선택)",
+      "href": "/product/강진비색청자요-모란당초문접시사이즈-및-구성-선택/553/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : [비취에물들다] 국보 고려청자 모란꽃 찬기세트 반찬그릇 개인접시 나눔접시",
+      "href": "/product/비취에물들다-국보-고려청자-모란꽃-찬기세트-반찬그릇-개인접시-나눔접시/290/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : [비취에물들다] 니트가방 에코백",
+      "href": "/product/비취에물들다-니트가방-에코백/293/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : [비취에물들다] 국보 고려청자 청자찻잔 청자커피잔 상감청자",
+      "href": "/product/비취에물들다-국보-고려청자-청자찻잔-청자커피잔-상감청자/292/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : [비취에물들다] 국보 고려청자 모란꽃 반상기 식기세트 국밥그릇",
+      "href": "/product/비취에물들다-국보-고려청자-모란꽃-반상기-식기세트-국밥그릇/289/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 전통 민화를 담은 자석책갈피 4개 세트",
+      "href": "/product/전통-민화를-담은-자석책갈피-4개-세트/231/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장품 민화 군호도 작호도 액자 2종",
+      "href": "/product/박물관-명품-소장품-민화-군호도-작호도-액자-2종/330/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : [율아트] 박물관 명품 소장품 민화 군호도 액자 4종",
+      "href": "/product/율아트-박물관-명품-소장품-민화-군호도-액자-4종/333/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : [동흔요] 청자 다완형 식기",
+      "href": "/product/동흔요-청자-다완형-식기/203/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : [무진요] 청자 한글컵 2인 세트",
+      "href": "/product/무진요-청자-한글컵-2인-세트/198/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : [무진요] 한글 접시 세트",
+      "href": "/product/무진요-한글-접시-세트/200/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 꼼꼼한 짜임새 전통 민화 니트가방 6종",
+      "href": "/product/꼼꼼한-짜임새-전통-민화-니트가방-6종/233/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : [무진요] 청자 해바라기 접시 세트",
+      "href": "/product/무진요-청자-해바라기-접시-세트/199/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 실용적인 전통 민화 핸드폰가방 2종",
+      "href": "/product/실용적인-전통-민화-핸드폰가방-2종/255/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 전통 민화 패브릭 방수 마우스장패드 5종",
+      "href": "/product/전통-민화-패브릭-방수-마우스장패드-5종/251/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 전통 민화를 담은 고급 민화돈봉투 6종",
+      "href": "/product/전통-민화를-담은-고급-민화돈봉투-6종/240/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 수납력 좋은 민화 태블릿 서류가방 2종",
+      "href": "/product/수납력-좋은-민화-태블릿-서류가방-2종/232/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장품 민화 작호도 산중백호도 액자",
+      "href": "/product/박물관-명품-소장품-민화-작호도-산중백호도-액자/272/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 대형 민화 일러스트 패브릭포스터 돈 들어오는 그림",
+      "href": "/product/대형-민화-일러스트-패브릭포스터-돈-들어오는-그림/245/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 감각적인 전통 민화쿠션 6종",
+      "href": "/product/감각적인-전통-민화쿠션-6종/243/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장품 민화 책가도 액자 12종",
+      "href": "/product/박물관-명품-소장품-민화-책가도-액자-12종/275/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장품 민화 어변성룡도 액자",
+      "href": "/product/박물관-명품-소장품-민화-어변성룡도-액자/267/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 전통 민화의 기원을 담은 프래그런스태그 실내방향제 6종",
+      "href": "/product/전통-민화의-기원을-담은-프래그런스태그-실내방향제-6종/249/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 다양한 구성의 전통 민화 다이어리 2종",
+      "href": "/product/다양한-구성의-전통-민화-다이어리-2종/247/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 아름다운 전통 민화를 품은 접이식 실크부채 4종",
+      "href": "/product/아름다운-전통-민화를-품은-접이식-실크부채-4종/246/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 영롱하게 빛나는 민화 크리스탈 문진 6종",
+      "href": "/product/영롱하게-빛나는-민화-크리스탈-문진-6종/244/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 무결로 보온보냉 민화텀블러 2종",
+      "href": "/product/무결로-보온보냉-민화텀블러-2종/237/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : [율아트] 박물관 명품 소장품 민화 책가도1 액자",
+      "href": "/product/율아트-박물관-명품-소장품-민화-책가도1-액자/276/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장품 민화 책가도 액자 8종",
+      "href": "/product/박물관-명품-소장품-민화-책가도-액자-8종/274/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장품 민화 작호도2 액자",
+      "href": "/product/박물관-명품-소장품-민화-작호도2-액자/273/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장품 민화 일월오봉도 액자",
+      "href": "/product/박물관-명품-소장품-민화-일월오봉도-액자/271/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장품 민화 운룡도 액자",
+      "href": "/product/박물관-명품-소장품-민화-운룡도-액자/270/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장품 민화 연화도 액자",
+      "href": "/product/박물관-명품-소장품-민화-연화도-액자/269/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장품 민화 어해도 액자",
+      "href": "/product/박물관-명품-소장품-민화-어해도-액자/268/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장품 민화 쌍토도 액자",
+      "href": "/product/박물관-명품-소장품-민화-쌍토도-액자/266/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장품 민화 수거모질도 액자 3종",
+      "href": "/product/박물관-명품-소장품-민화-수거모질도-액자-3종/265/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장 민화 분홍화조도 액자 7종",
+      "href": "/product/박물관-명품-소장-민화-분홍화조도-액자-7종/264/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장품 민화 봄을 담은 화조도 액자 6종",
+      "href": "/product/박물관-명품-소장품-민화-봄을-담은-화조도-액자-6종/263/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장품 민화 디자인 모란도 액자 2종",
+      "href": "/product/박물관-명품-소장품-민화-디자인-모란도-액자-2종/262/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장품 민화 기명화조도 액자 4종",
+      "href": "/product/박물관-명품-소장품-민화-기명화조도-액자-4종/261/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장품 민화 기명소과도 액자 4종",
+      "href": "/product/박물관-명품-소장품-민화-기명소과도-액자-4종/260/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장품 민화 괴석모란도 액자 4종",
+      "href": "/product/박물관-명품-소장품-민화-괴석모란도-액자-4종/259/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장품 민화 괴석모란도 액자 2종",
+      "href": "/product/박물관-명품-소장품-민화-괴석모란도-액자-2종/258/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장품 민화 감성화조도 액자 3종",
+      "href": "/product/박물관-명품-소장품-민화-감성화조도-액자-3종/257/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 박물관 명품 소장품 민화 감성 모란도 액자",
+      "href": "/product/박물관-명품-소장품-민화-감성-모란도-액자/256/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 편안한 그립감 전통 민화 에폭시 스마트톡 59종",
+      "href": "/product/편안한-그립감-전통-민화-에폭시-스마트톡-59종/253/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 민화 기원이 담긴 민화선물세트 2종",
+      "href": "/product/민화-기원이-담긴-민화선물세트-2종/252/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 전통 민화를 담은 고급 실크스카프 트윌리 7종",
+      "href": "/product/전통-민화를-담은-고급-실크스카프-트윌리-7종/248/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 선물하기 좋은 민화 명함케이스 카드홀더 2종",
+      "href": "/product/선물하기-좋은-민화-명함케이스-카드홀더-2종/241/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 전통 볼마커 2종",
+      "href": "/product/전통-볼마커-2종/236/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 민화 기원이 담긴 전통민화자석 43종",
+      "href": "/product/민화-기원이-담긴-전통민화자석-43종/235/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : 소원을 이뤄주는 민화 순금카드 3종",
+      "href": "/product/소원을-이뤄주는-민화-순금카드-3종/234/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : [비취에물들다] 국보 고려청자 모란꽃 뚜껑머그 개인컵 뚜껑컵",
+      "href": "/product/비취에물들다-국보-고려청자-모란꽃-뚜껑머그-개인컵-뚜껑컵/286/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : [비취에물들다] 국보 고려청자 모란꽃 접시세트 파스타접시 오목접시 샐러드볼",
+      "href": "/product/비취에물들다-국보-고려청자-모란꽃-접시세트-파스타접시-오목접시-샐러드볼/291/category/1/display/7/"
+    },
+    {
+      "text": "상품명 : [천지해] 김자반",
+      "href": "/product/천지해-김자반/77/category/1/display/3/"
+    },
+    {
+      "text": "상품명 : [덕룡산아랫동네] 웰빙잔치 쌀귀리 1kg 5개입",
+      "href": "/product/덕룡산아랫동네-웰빙잔치-쌀귀리-1kg-5개입/141/category/1/display/3/"
+    },
+    {
+      "text": "상품명 : [강진농협] 강진 건강 쌀귀리 골드 2kg 2개 세트",
+      "href": "/product/강진농협-강진-건강-쌀귀리-골드-2kg-2개-세트/758/category/1/display/3/"
+    },
+    {
+      "text": "상품명 : [다강한정식] 남도 시원한 맛 열무김치 1kg",
+      "href": "/product/다강한정식-남도-시원한-맛-열무김치-1kg/717/category/1/display/3/"
+    },
+    {
+      "text": "초록믿음강진소개",
+      "href": "/shopinfo/company.html"
+    },
+    {
+      "text": "이용안내",
+      "href": "/shopinfo/guide.html"
+    },
+    {
+      "text": "#묵은지",
+      "href": "/product/search.html?keyword=묵은지"
+    },
+    {
+      "text": "#쌀",
+      "href": "/product/search.html?keyword=쌀"
+    }
+  ],
+  "productLinks": [
+    "/product/recent_view_product.html",
+    "/product/recent_view_product.html",
+    "/product/강진농협-강진-건강-쌀귀리-골드-2kg-2개-세트/758/category/1/display/2/",
+    "/product/강진농협-강진-건강-쌀귀리-골드-2kg-2개-세트/758/category/1/display/2/",
+    "/product/대한축산-무항생제-생삼겹살-1000g/587/category/1/display/2/",
+    "/product/대한축산-무항생제-생삼겹살-1000g/587/category/1/display/2/",
+    "/product/강진군농협쌀-탐진강-찰진쌀-새청무24년도-햅쌀/208/category/1/display/2/",
+    "/product/강진군농협쌀-탐진강-찰진쌀-새청무24년도-햅쌀/208/category/1/display/2/",
+    "/product/수인관-연탄-돼지불고기-밀키트-230g/55/category/1/display/2/",
+    "/product/수인관-연탄-돼지불고기-밀키트-230g/55/category/1/display/2/",
+    "/product/천지해-김자반/77/category/1/display/3/",
+    "/product/천지해-김자반/77/category/1/display/3/",
+    "/product/덕룡산아랫동네-웰빙잔치-쌀귀리-1kg-5개입/141/category/1/display/3/",
+    "/product/덕룡산아랫동네-웰빙잔치-쌀귀리-1kg-5개입/141/category/1/display/3/",
+    "/product/강진농협-강진-건강-쌀귀리-골드-2kg-2개-세트/758/category/1/display/3/",
+    "/product/강진농협-강진-건강-쌀귀리-골드-2kg-2개-세트/758/category/1/display/3/",
+    "/product/다강한정식-남도-시원한-맛-열무김치-1kg/717/category/1/display/3/",
+    "/product/다강한정식-남도-시원한-맛-열무김치-1kg/717/category/1/display/3/",
+    "/product/다강한정식-남도-시원한-맛-열무김치-1kg/717/category/1/display/4/",
+    "/product/다강한정식-남도-시원한-맛-열무김치-1kg/717/category/1/display/4/",
+    "/product/다강한정식-남도-감칠맛-생김치-1kg/715/category/1/display/4/",
+    "/product/다강한정식-남도-감칠맛-생김치-1kg/715/category/1/display/4/",
+    "/product/황금들-묵은지-1kg/13/category/1/display/4/",
+    "/product/황금들-묵은지-1kg/13/category/1/display/4/",
+    "/product/참숯골-묵은지-1kg/15/category/1/display/4/",
+    "/product/참숯골-묵은지-1kg/15/category/1/display/4/",
+    "/product/강진최고식품-묵은지-1kg/24/category/1/display/4/",
+    "/product/강진최고식품-묵은지-1kg/24/category/1/display/4/",
+    "/product/탐진발효-2년-묵은지-1kg/21/category/1/display/4/",
+    "/product/탐진발효-2년-묵은지-1kg/21/category/1/display/4/",
+    "/product/엄마손김치-1년-묵은지-1kg/22/category/1/display/4/",
+    "/product/엄마손김치-1년-묵은지-1kg/22/category/1/display/4/",
+    "/product/오가네-묵은지-1kg/16/category/1/display/4/",
+    "/product/오가네-묵은지-1kg/16/category/1/display/4/",
+    "/product/수인농원-묵은지-1kg/17/category/1/display/4/",
+    "/product/수인농원-묵은지-1kg/17/category/1/display/4/",
+    "/product/다산명가-묵은지-1kg/20/category/1/display/4/",
+    "/product/다산명가-묵은지-1kg/20/category/1/display/4/",
+    "/product/마리네-묵은지-3kg/25/category/1/display/4/",
+    "/product/마리네-묵은지-3kg/25/category/1/display/4/",
+    "/product/모란김치-묵은지-1kg/26/category/1/display/4/",
+    "/product/모란김치-묵은지-1kg/26/category/1/display/4/",
+    "/product/송가네-묵은지-1kg/14/category/1/display/4/",
+    "/product/송가네-묵은지-1kg/14/category/1/display/4/",
+    "/product/청자골토하-묵은지-1kg/12/category/1/display/4/",
+    "/product/청자골토하-묵은지-1kg/12/category/1/display/4/",
+    "/product/다산명가-숙성-포기김치1kg/19/category/1/display/4/",
+    "/product/다산명가-숙성-포기김치1kg/19/category/1/display/4/",
+    "/product/언니네손맛-묵은지-1kg/23/category/1/display/4/",
+    "/product/언니네손맛-묵은지-1kg/23/category/1/display/4/",
+    "/product/개미진-묵은지-1kg/18/category/1/display/4/",
+    "/product/개미진-묵은지-1kg/18/category/1/display/4/",
+    "/product/덕룡산아랫동네-웰빙잔치-참조아-찹쌀24년-햅쌀/95/category/1/display/6/",
+    "/product/덕룡산아랫동네-웰빙잔치-참조아-찹쌀24년-햅쌀/95/category/1/display/6/",
+    "/product/산다움-쌀귀리빵/81/category/1/display/6/",
+    "/product/산다움-쌀귀리빵/81/category/1/display/6/",
+    "/product/떡떡쿵덕쿵-쌀귀리떡-2종-모둠세트가래떡-약밥/57/category/1/display/6/",
+    "/product/떡떡쿵덕쿵-쌀귀리떡-2종-모둠세트가래떡-약밥/57/category/1/display/6/",
+    "/product/덕룡산아랫동네-웰빙잔치-참조아-찹쌀현미24년-햅쌀/90/category/1/display/6/",
+    "/product/덕룡산아랫동네-웰빙잔치-참조아-찹쌀현미24년-햅쌀/90/category/1/display/6/",
+    "/product/신평-올바른농부이야기-일반미/211/category/1/display/6/",
+    "/product/신평-올바른농부이야기-일반미/211/category/1/display/6/",
+    "/product/칠량-열혈농사꾼-백미24년-햅쌀/210/category/1/display/6/",
+    "/product/칠량-열혈농사꾼-백미24년-햅쌀/210/category/1/display/6/",
+    "/product/영동농장-음악-듣고-자란-쌀유기농/196/category/1/display/6/",
+    "/product/영동농장-음악-듣고-자란-쌀유기농/196/category/1/display/6/",
+    "/product/칠량-열혈농사꾼-찹쌀24년-햅찹쌀/646/category/1/display/6/",
+    "/product/칠량-열혈농사꾼-찹쌀24년-햅찹쌀/646/category/1/display/6/",
+    "/product/바다햇쌀-백미/213/category/1/display/6/",
+    "/product/바다햇쌀-백미/213/category/1/display/6/",
+    "/product/호렙농원식어도-맛있는-찰진-한눈에반한쌀/623/category/1/display/5/",
+    "/product/호렙농원식어도-맛있는-찰진-한눈에반한쌀/623/category/1/display/5/",
+    "/product/월출산케이리농원-월출산샤인머스켓/621/category/1/display/5/",
+    "/product/월출산케이리농원-월출산샤인머스켓/621/category/1/display/5/",
+    "/product/호렙농원-시간을-아껴주는-말린-양파/620/category/1/display/5/",
+    "/product/호렙농원-시간을-아껴주는-말린-양파/620/category/1/display/5/",
+    "/product/궁전한우촌-한우-차돌박이-500g/550/category/1/display/5/",
+    "/product/궁전한우촌-한우-차돌박이-500g/550/category/1/display/5/",
+    "/product/혜준수산-하모회-샤브용-손질-하모/530/category/1/display/5/",
+    "/product/혜준수산-하모회-샤브용-손질-하모/530/category/1/display/5/",
+    "/product/강진푸드팜-오색찰옥수수10개/508/category/1/display/5/",
+    "/product/강진푸드팜-오색찰옥수수10개/508/category/1/display/5/",
+    "/product/청림농원-표고버섯-자연맛과-향이담긴-버섯-혼합세트/429/category/1/display/5/",
+    "/product/청림농원-표고버섯-자연맛과-향이담긴-버섯-혼합세트/429/category/1/display/5/",
+    "/product/정안수산-갯벌-참전복-2kg/348/category/1/display/5/",
+    "/product/정안수산-갯벌-참전복-2kg/348/category/1/display/5/",
+    "/product/혜준수산-활세발낙지-5마리-40cm-내외/346/category/1/display/5/",
+    "/product/혜준수산-활세발낙지-5마리-40cm-내외/346/category/1/display/5/",
+    "/product/혜준수산-강진-산지직송-보리-숭어회-500g/345/category/1/display/5/",
+    "/product/혜준수산-강진-산지직송-보리-숭어회-500g/345/category/1/display/5/",
+    "/product/혜준수산-도다리-쑥국-세트손질도다리-23미-총800g쑥-50g/344/category/1/display/5/",
+    "/product/혜준수산-도다리-쑥국-세트손질도다리-23미-총800g쑥-50g/344/category/1/display/5/",
+    "/product/반석대군농장-건은이버섯-4450g/343/category/1/display/5/",
+    "/product/반석대군농장-건은이버섯-4450g/343/category/1/display/5/",
+    "/product/반석대군농장-국내산-최상급-상황버섯-30g/342/category/1/display/5/",
+    "/product/반석대군농장-국내산-최상급-상황버섯-30g/342/category/1/display/5/",
+    "/product/반석대군농장-녹각영지버섯-70g/341/category/1/display/5/",
+    "/product/반석대군농장-녹각영지버섯-70g/341/category/1/display/5/",
+    "/product/반석대군농장-건노루궁뎅이버섯-50g/340/category/1/display/5/",
+    "/product/반석대군농장-건노루궁뎅이버섯-50g/340/category/1/display/5/",
+    "/product/반석대군농장-건표고버섯-100g-슬라이스-통표고/339/category/1/display/5/",
+    "/product/반석대군농장-건표고버섯-100g-슬라이스-통표고/339/category/1/display/5/",
+    "/product/정안수산-갯벌-참전복-1kg/35/category/1/display/5/",
+    "/product/정안수산-갯벌-참전복-1kg/35/category/1/display/5/",
+    "/product/황금물산-빼어난-가닥미역-320g-2봉/38/category/1/display/5/",
+    "/product/황금물산-빼어난-가닥미역-320g-2봉/38/category/1/display/5/",
+    "/product/황금물산-먼바다-참미역-세트/39/category/1/display/5/",
+    "/product/황금물산-먼바다-참미역-세트/39/category/1/display/5/",
+    "/product/황금물산-빼어난-다시마-세트/40/category/1/display/5/",
+    "/product/황금물산-빼어난-다시마-세트/40/category/1/display/5/",
+    "/product/황금물산-뿌리-다시마-250g-3봉/41/category/1/display/5/",
+    "/product/황금물산-뿌리-다시마-250g-3봉/41/category/1/display/5/",
+    "/product/궁전한우촌-한우-1등급2등급-정육-골라담기/45/category/1/display/5/",
+    "/product/궁전한우촌-한우-1등급2등급-정육-골라담기/45/category/1/display/5/",
+    "/product/도암만-햇찰-냉동매생이-10개입/32/category/1/display/5/",
+    "/product/도암만-햇찰-냉동매생이-10개입/32/category/1/display/5/",
+    "/product/은영수산-전복-1kg/34/category/1/display/5/",
+    "/product/은영수산-전복-1kg/34/category/1/display/5/",
+    "/product/강진비색청자요-모란당초문접시사이즈-및-구성-선택/553/category/1/display/7/",
+    "/product/강진비색청자요-모란당초문접시사이즈-및-구성-선택/553/category/1/display/7/",
+    "/product/비취에물들다-국보-고려청자-모란꽃-찬기세트-반찬그릇-개인접시-나눔접시/290/category/1/display/7/",
+    "/product/비취에물들다-국보-고려청자-모란꽃-찬기세트-반찬그릇-개인접시-나눔접시/290/category/1/display/7/",
+    "/product/비취에물들다-니트가방-에코백/293/category/1/display/7/",
+    "/product/비취에물들다-니트가방-에코백/293/category/1/display/7/",
+    "/product/비취에물들다-국보-고려청자-청자찻잔-청자커피잔-상감청자/292/category/1/display/7/",
+    "/product/비취에물들다-국보-고려청자-청자찻잔-청자커피잔-상감청자/292/category/1/display/7/",
+    "/product/비취에물들다-국보-고려청자-모란꽃-반상기-식기세트-국밥그릇/289/category/1/display/7/",
+    "/product/비취에물들다-국보-고려청자-모란꽃-반상기-식기세트-국밥그릇/289/category/1/display/7/",
+    "/product/전통-민화를-담은-자석책갈피-4개-세트/231/category/1/display/7/",
+    "/product/전통-민화를-담은-자석책갈피-4개-세트/231/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-군호도-작호도-액자-2종/330/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-군호도-작호도-액자-2종/330/category/1/display/7/",
+    "/product/율아트-박물관-명품-소장품-민화-군호도-액자-4종/333/category/1/display/7/",
+    "/product/율아트-박물관-명품-소장품-민화-군호도-액자-4종/333/category/1/display/7/",
+    "/product/동흔요-청자-다완형-식기/203/category/1/display/7/",
+    "/product/동흔요-청자-다완형-식기/203/category/1/display/7/",
+    "/product/무진요-청자-한글컵-2인-세트/198/category/1/display/7/",
+    "/product/무진요-청자-한글컵-2인-세트/198/category/1/display/7/",
+    "/product/무진요-한글-접시-세트/200/category/1/display/7/",
+    "/product/무진요-한글-접시-세트/200/category/1/display/7/",
+    "/product/꼼꼼한-짜임새-전통-민화-니트가방-6종/233/category/1/display/7/",
+    "/product/꼼꼼한-짜임새-전통-민화-니트가방-6종/233/category/1/display/7/",
+    "/product/무진요-청자-해바라기-접시-세트/199/category/1/display/7/",
+    "/product/무진요-청자-해바라기-접시-세트/199/category/1/display/7/",
+    "/product/실용적인-전통-민화-핸드폰가방-2종/255/category/1/display/7/",
+    "/product/실용적인-전통-민화-핸드폰가방-2종/255/category/1/display/7/",
+    "/product/전통-민화-패브릭-방수-마우스장패드-5종/251/category/1/display/7/",
+    "/product/전통-민화-패브릭-방수-마우스장패드-5종/251/category/1/display/7/",
+    "/product/전통-민화를-담은-고급-민화돈봉투-6종/240/category/1/display/7/",
+    "/product/전통-민화를-담은-고급-민화돈봉투-6종/240/category/1/display/7/",
+    "/product/수납력-좋은-민화-태블릿-서류가방-2종/232/category/1/display/7/",
+    "/product/수납력-좋은-민화-태블릿-서류가방-2종/232/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-작호도-산중백호도-액자/272/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-작호도-산중백호도-액자/272/category/1/display/7/",
+    "/product/대형-민화-일러스트-패브릭포스터-돈-들어오는-그림/245/category/1/display/7/",
+    "/product/대형-민화-일러스트-패브릭포스터-돈-들어오는-그림/245/category/1/display/7/",
+    "/product/감각적인-전통-민화쿠션-6종/243/category/1/display/7/",
+    "/product/감각적인-전통-민화쿠션-6종/243/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-책가도-액자-12종/275/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-책가도-액자-12종/275/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-어변성룡도-액자/267/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-어변성룡도-액자/267/category/1/display/7/",
+    "/product/전통-민화의-기원을-담은-프래그런스태그-실내방향제-6종/249/category/1/display/7/",
+    "/product/전통-민화의-기원을-담은-프래그런스태그-실내방향제-6종/249/category/1/display/7/",
+    "/product/다양한-구성의-전통-민화-다이어리-2종/247/category/1/display/7/",
+    "/product/다양한-구성의-전통-민화-다이어리-2종/247/category/1/display/7/",
+    "/product/아름다운-전통-민화를-품은-접이식-실크부채-4종/246/category/1/display/7/",
+    "/product/아름다운-전통-민화를-품은-접이식-실크부채-4종/246/category/1/display/7/",
+    "/product/영롱하게-빛나는-민화-크리스탈-문진-6종/244/category/1/display/7/",
+    "/product/영롱하게-빛나는-민화-크리스탈-문진-6종/244/category/1/display/7/",
+    "/product/무결로-보온보냉-민화텀블러-2종/237/category/1/display/7/",
+    "/product/무결로-보온보냉-민화텀블러-2종/237/category/1/display/7/",
+    "/product/율아트-박물관-명품-소장품-민화-책가도1-액자/276/category/1/display/7/",
+    "/product/율아트-박물관-명품-소장품-민화-책가도1-액자/276/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-책가도-액자-8종/274/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-책가도-액자-8종/274/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-작호도2-액자/273/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-작호도2-액자/273/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-일월오봉도-액자/271/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-일월오봉도-액자/271/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-운룡도-액자/270/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-운룡도-액자/270/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-연화도-액자/269/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-연화도-액자/269/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-어해도-액자/268/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-어해도-액자/268/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-쌍토도-액자/266/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-쌍토도-액자/266/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-수거모질도-액자-3종/265/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-수거모질도-액자-3종/265/category/1/display/7/",
+    "/product/박물관-명품-소장-민화-분홍화조도-액자-7종/264/category/1/display/7/",
+    "/product/박물관-명품-소장-민화-분홍화조도-액자-7종/264/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-봄을-담은-화조도-액자-6종/263/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-봄을-담은-화조도-액자-6종/263/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-디자인-모란도-액자-2종/262/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-디자인-모란도-액자-2종/262/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-기명화조도-액자-4종/261/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-기명화조도-액자-4종/261/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-기명소과도-액자-4종/260/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-기명소과도-액자-4종/260/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-괴석모란도-액자-4종/259/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-괴석모란도-액자-4종/259/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-괴석모란도-액자-2종/258/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-괴석모란도-액자-2종/258/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-감성화조도-액자-3종/257/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-감성화조도-액자-3종/257/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-감성-모란도-액자/256/category/1/display/7/",
+    "/product/박물관-명품-소장품-민화-감성-모란도-액자/256/category/1/display/7/",
+    "/product/편안한-그립감-전통-민화-에폭시-스마트톡-59종/253/category/1/display/7/",
+    "/product/편안한-그립감-전통-민화-에폭시-스마트톡-59종/253/category/1/display/7/",
+    "/product/민화-기원이-담긴-민화선물세트-2종/252/category/1/display/7/",
+    "/product/민화-기원이-담긴-민화선물세트-2종/252/category/1/display/7/",
+    "/product/전통-민화를-담은-고급-실크스카프-트윌리-7종/248/category/1/display/7/",
+    "/product/전통-민화를-담은-고급-실크스카프-트윌리-7종/248/category/1/display/7/",
+    "/product/선물하기-좋은-민화-명함케이스-카드홀더-2종/241/category/1/display/7/",
+    "/product/선물하기-좋은-민화-명함케이스-카드홀더-2종/241/category/1/display/7/",
+    "/product/전통-볼마커-2종/236/category/1/display/7/",
+    "/product/전통-볼마커-2종/236/category/1/display/7/",
+    "/product/민화-기원이-담긴-전통민화자석-43종/235/category/1/display/7/",
+    "/product/민화-기원이-담긴-전통민화자석-43종/235/category/1/display/7/",
+    "/product/소원을-이뤄주는-민화-순금카드-3종/234/category/1/display/7/",
+    "/product/소원을-이뤄주는-민화-순금카드-3종/234/category/1/display/7/",
+    "/product/비취에물들다-국보-고려청자-모란꽃-뚜껑머그-개인컵-뚜껑컵/286/category/1/display/7/",
+    "/product/비취에물들다-국보-고려청자-모란꽃-뚜껑머그-개인컵-뚜껑컵/286/category/1/display/7/",
+    "/product/비취에물들다-국보-고려청자-모란꽃-접시세트-파스타접시-오목접시-샐러드볼/291/category/1/display/7/",
+    "/product/비취에물들다-국보-고려청자-모란꽃-접시세트-파스타접시-오목접시-샐러드볼/291/category/1/display/7/",
+    "/product/천지해-김자반/77/category/1/display/3/",
+    "/product/천지해-김자반/77/category/1/display/3/",
+    "/product/덕룡산아랫동네-웰빙잔치-쌀귀리-1kg-5개입/141/category/1/display/3/",
+    "/product/덕룡산아랫동네-웰빙잔치-쌀귀리-1kg-5개입/141/category/1/display/3/",
+    "/product/강진농협-강진-건강-쌀귀리-골드-2kg-2개-세트/758/category/1/display/3/",
+    "/product/강진농협-강진-건강-쌀귀리-골드-2kg-2개-세트/758/category/1/display/3/",
+    "/product/다강한정식-남도-시원한-맛-열무김치-1kg/717/category/1/display/3/",
+    "/product/다강한정식-남도-시원한-맛-열무김치-1kg/717/category/1/display/3/",
+    "/product/recent_view_product.html",
+    "/product/search.html?keyword=묵은지",
+    "/product/search.html?keyword=쌀"
+  ],
+  "notes": [
+    "Page title: 초록믿음강진",
+    "Description: 초록믿음강진 쇼핑몰 | 강진군의 농수산물 직거래 장터",
+    "Total links found: 387",
+    "Images found: 339",
+    "Main content areas: 50",
+    "Item elements: 234",
+    "Shop elements: 8"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "timestamp": "2025-06-22T15:07:20.197Z",
+  "mall": "익산몰",
+  "totalIksanProducts": 59,
+  "totalDatabaseProducts": 1852,
+  "dataQualityChecks": {
+    "productsWithPrices": 59,
+    "productsWithImages": 59,
+    "productsWithDescriptions": 59,
+    "productsWithCategories": 59,
+    "duplicateUrls": 0,
+    "invalidProducts": 0
+  },
+  "categoryAnalysis": {
+    "쌀": {
+      "productCount": 6,
+      "avgPrice": 46150,
+      "priceRange": {
+        "min": 16500,
+        "max": 79500
+      },
+      "sampleProducts": [
+        "2024년 삼기농협 친환경 무농약 신동진 탑마루 쌀 4kg",
+        "2024년 삼기농협 친환경 무농약 신동진 탑마루 쌀 20kg",
+        "2024년 삼기농협 친환경 무농약 신동진 탑마루 쌀 10kg"
+      ]
+    },
+    "잡곡류": {
+      "productCount": 8,
+      "avgPrice": 19750,
+      "priceRange": {
+        "min": 8000,
+        "max": 75000
+      },
+      "sampleProducts": [
+        "수경농장 2024년 건강한 통깨 생들깨 1kg",
+        "서씨네농장 24년 햇 메주콩 백태 1kg",
+        "옥이네 텃밭농장 땅콩_서리태_팥_메주콩_들깨 각 2kg"
+      ]
+    },
+    "과일류": {
+      "productCount": 20,
+      "avgPrice": 22200,
+      "priceRange": {
+        "min": 11000,
+        "max": 40000
+      },
+      "sampleProducts": [
+        "시온농장 햇 블루베리 1kg(특대/18mm이상)",
+        "하늘농원 자연이 주고 정성으로 기른 햇 블루베리 1kg",
+        "정수농장 기능성 멜론 칸탈로프 멜론 5kg(7-8수)"
+      ]
+    },
+    "채소/나물류": {
+      "productCount": 15,
+      "avgPrice": 12453,
+      "priceRange": {
+        "min": 5000,
+        "max": 30000
+      },
+      "sampleProducts": [
+        "[신선한 청상추] 정성가득 정직하게 신선한 가족愛농장 1kg/2kg",
+        "[아침에 딴] 가족愛농장 신선 상추 4kg 꽃상추 청상추 대용량 산지직송",
+        "수은마을 보관성 좋고 단단한 여산 양파_5kg/10kg(대사이즈)"
+      ]
+    },
+    "버섯류": {
+      "productCount": 10,
+      "avgPrice": 21900,
+      "priceRange": {
+        "min": 9500,
+        "max": 40000
+      },
+      "sampleProducts": [
+        "[방자표고] 유기농 원목표고버섯 선물세트(건표고3)",
+        "[방자표고] 유기농 원목표고버섯 선물세트(분말2,건표고2)",
+        "[방자표고] 유기농 원목표고버섯 선물세트(분말2,건표고1)"
+      ]
+    }
+  },
+  "issuesFound": [],
+  "recommendations": []
+}

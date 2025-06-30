@@ -1,0 +1,97 @@
+{
+  "totalProducts": 138,
+  "dataQuality": {
+    "withTitles": 138,
+    "withPrices": 115,
+    "withImages": 138,
+    "withExternalUrls": 138,
+    "withCategories": 138,
+    "withValidPrices": 115,
+    "featuredProducts": 34
+  },
+  "categories": {
+    "생활용품": 73,
+    "가구/인테리어": 19,
+    "서비스": 24,
+    "사무용품": 20,
+    "가공식품": 1,
+    "기타": 1
+  },
+  "priceRange": {
+    "min": 10,
+    "max": 6860000,
+    "average": 129631.65217391304
+  },
+  "sampleProducts": [
+    {
+      "id": "wemall-2884547",
+      "title": "[장애인정보화복지몰]나의 몸을 생각하는 능동적인 즐거움 물결솔 깔창 [도트세로물결형]",
+      "price": 35000,
+      "category": "생활용품",
+      "isFeatured": true,
+      "hasImage": true,
+      "hasExternalUrl": true
+    },
+    {
+      "id": "wemall-21327678",
+      "title": "[장애인정보화복지몰]나의 몸을 생각하는 능동적인 즐거움 물결솔 깔창 [벌집가로물결형]",
+      "price": 35000,
+      "category": "생활용품",
+      "isFeatured": true,
+      "hasImage": true,
+      "hasExternalUrl": true
+    },
+    {
+      "id": "wemall-2161803",
+      "title": "[장애인정보화복지몰]나의 몸을 생각하는 능동적인 즐거움 물결솔 깔창 [도트가로물결형]",
+      "price": 35000,
+      "category": "생활용품",
+      "isFeatured": false,
+      "hasImage": true,
+      "hasExternalUrl": true
+    },
+    {
+      "id": "wemall-11405671",
+      "title": "[낭랑몰] 미끄럼방지 신발커버 메디컴 세이프 베이직 슈즈 커버 SafeBasics Shoe Cover / N...",
+      "price": 25000,
+      "category": "생활용품",
+      "isFeatured": false,
+      "hasImage": true,
+      "hasExternalUrl": true
+    },
+    {
+      "id": "wemall-8725849",
+      "title": "[애슐리데코]지퍼형 베개솜 2개 세트 40x60 50x70",
+      "price": 12500,
+      "category": "생활용품",
+      "isFeatured": true,
+      "hasImage": true,
+      "hasExternalUrl": true
+    }
+  ],
+  "issues": [
+    "Product wemall-14782028 has invalid price: 0",
+    "Product wemall-11157680 has invalid price: 0",
+    "Product wemall-6791248 has invalid price: 0",
+    "Product wemall-21060323 has invalid price: 0",
+    "Product wemall-wemall-039-5 has invalid price: 0",
+    "Product wemall-wemall-039-9 has invalid price: 0",
+    "Product wemall-wemall-040-0 has invalid price: 0",
+    "Product wemall-wemall-040-1 has invalid price: 0",
+    "Product wemall-wemall-040-2 has invalid price: 0",
+    "Product wemall-wemall-040-3 has invalid price: 0",
+    "Product wemall-wemall-040-4 has invalid price: 0",
+    "Product wemall-wemall-040-5 has invalid price: 0",
+    "Product wemall-wemall-040-6 has invalid price: 0",
+    "Product wemall-wemall-040-7 has invalid price: 0",
+    "Product wemall-wemall-040-8 has invalid price: 0",
+    "Product wemall-wemall-040-9 has invalid price: 0",
+    "Product wemall-wemall-040-10 has invalid price: 0",
+    "Product wemall-wemall-040-11 has invalid price: 0",
+    "Product wemall-wemall-005-3 has invalid price: 0",
+    "Product wemall-wemall-005-4 has invalid price: 0",
+    "Product wemall-wemall-005-5 has invalid price: 0",
+    "Product wemall-wemall-005-7 has invalid price: 0",
+    "Product wemall-wemall-006034-3 has invalid price: 0"
+  ]
+}

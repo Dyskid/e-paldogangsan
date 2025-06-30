@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-06-20T11:53:24.198Z",
+  "totalProcessed": 5,
+  "successfulExtractions": 0,
+  "errors": 0,
+  "productsWithPrices": 0,
+  "results": [
+    {
+      "title": "울 엄마가 좋아하는 옛날 옥수수빵 140g*10개",
+      "price": "가격정보없음",
+      "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100416837"
+    },
+    {
+      "title": "[고맛나루농협] 알맛다 공주쌀 5kg 10kg 20kg 상등급 24년산 햅쌀",
+      "price": "가격정보없음",
+      "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100280131"
+    },
+    {
+      "title": "고집쟁이고씨네 된장 500g/1kg/2kg",
+      "price": "가격정보없음",
+      "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100280148"
+    },
+    {
+      "title": "강경 새우젓 추젓 1kg/2kg/3kg/4kg",
+      "price": "가격정보없음",
+      "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100316997"
+    },
+    {
+      "title": "[바맘] 순하고 진한 배도라지즙 1box (110ml x 30포)",
+      "price": "가격정보없음",
+      "url": "https://ontongdaejeon.ezwel.com/onnuri/mall/goodsDetail?goodsCd=100327122"
+    }
+  ]
+}

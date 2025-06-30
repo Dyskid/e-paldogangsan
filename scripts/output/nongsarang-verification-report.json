@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-06-22T12:24:08.519Z",
+  "mall": "농사랑",
+  "verification": {
+    "totalProducts": 47,
+    "validProducts": 47,
+    "invalidProducts": 0,
+    "issues": [],
+    "categoryBreakdown": {
+      "과일류": 10,
+      "채소류": 11,
+      "가공식품": 8,
+      "기타": 3,
+      "축산물": 11,
+      "양념/장류": 4
+    },
+    "priceRange": {
+      "min": 3200,
+      "max": 99800,
+      "average": 25191
+    },
+    "validImages": 47,
+    "validUrls": 47,
+    "mallConsistency": 47
+  },
+  "dataQuality": {
+    "overallValid": 47,
+    "dataCompleteness": 100,
+    "imageUrlValidity": 100,
+    "productUrlValidity": 100,
+    "mallConsistency": 100
+  },
+  "sampleProducts": [
+    {
+      "id": "nongsarang_1364542",
+      "title": "(농업회사법인(유)다우한우)한우 암소 1등급 부채살 300g (냉장)",
+      "price": "30,500원",
+      "category": "과일류",
+      "mall": "농사랑"
+    },
+    {
+      "id": "nongsarang_1364574",
+      "title": "(한아름딸기협동조합)저탄소인증 한아름 대추방울토마토 3kg",
+      "price": "21,000원",
+      "category": "채소류",
+      "mall": "농사랑"
+    },
+    {
+      "id": "nongsarang_1364572",
+      "title": "[사자산영농조합법인]고당도 하우스 맛있는 꿀수박 4kg-9kg",
+      "price": "17,800원",
+      "category": "채소류",
+      "mall": "농사랑"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "mallName": "양주농부마켓",
+  "mallUrl": "https://market.yangju.go.kr",
+  "scrapedAt": "2025-06-21T11:28:10.010Z",
+  "totalProducts": 22,
+  "categories": [
+    "홈페이지 추천상품"
+  ],
+  "productsByCategory": {
+    "홈페이지 추천상품": 22
+  },
+  "priceRange": {
+    "min": 10000,
+    "max": 70000
+  },
+  "sampleProducts": [
+    {
+      "id": "12280199",
+      "title": "[맹골사랑] 6월 제철 농산물꾸러미",
+      "price": "20,000원",
+      "category": "홈페이지 추천상품"
+    },
+    {
+      "id": "12279813",
+      "title": "[무지개뜨는농장] 유기농 솔부추(500g, 1kg)",
+      "price": "15,000원",
+      "category": "홈페이지 추천상품"
+    },
+    {
+      "id": "12276999",
+      "title": "[김윤식 천년초] 천년초티백차(1.5gx20개입)",
+      "price": "10,000원",
+      "category": "홈페이지 추천상품"
+    },
+    {
+      "id": "12274411",
+      "title": "양주골쌀 4kg(2024년산)",
+      "price": "19,500원",
+      "category": "홈페이지 추천상품"
+    },
+    {
+      "id": "11858372",
+      "title": "[자연과숲]신고 배 7.5kg",
+      "price": "45,000원",
+      "category": "홈페이지 추천상품"
+    }
+  ]
+}

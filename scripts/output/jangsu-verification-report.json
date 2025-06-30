@@ -1,0 +1,85 @@
+{
+  "totalProducts": 1884,
+  "jangsuProducts": 32,
+  "categoriesFound": {
+    "농산물": 22,
+    "가공식품": 1,
+    "육류": 9
+  },
+  "tagsFound": {
+    "감자": 2,
+    "햇감자": 2,
+    "채소": 2,
+    "과일": 10,
+    "신선식품": 10,
+    "김치": 1,
+    "젓갈": 1,
+    "발효식품": 1,
+    "오미자": 7,
+    "건강식품": 7,
+    "전통차": 7,
+    "한우": 9,
+    "소고기": 9,
+    "정육": 9,
+    "쌀": 3,
+    "곡물": 3
+  },
+  "dataQualityIssues": [],
+  "sampleProducts": [
+    {
+      "title": "♣[신규입점] 해맑은 텃밭 햇감자 7kg (2025년산) - 무선별(박스무게 제외 실중량) /순차배송",
+      "price": "20000",
+      "category": "농산물",
+      "tags": [
+        "감자",
+        "햇감자",
+        "채소"
+      ],
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1750210211"
+    },
+    {
+      "title": "★[예약판매] 유기농 햇감자 5kg / 10kg",
+      "price": "17000",
+      "category": "농산물",
+      "tags": [
+        "감자",
+        "햇감자",
+        "채소"
+      ],
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1750040110"
+    },
+    {
+      "title": "자유방목 난각번호 1번 NONGMO 유정란20구 \"6시내고향 출연농가\"",
+      "price": "20000",
+      "category": "농산물",
+      "tags": [
+        "과일",
+        "신선식품"
+      ],
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1710895383"
+    },
+    {
+      "title": "우성 영양 김치3종",
+      "price": "33000",
+      "category": "가공식품",
+      "tags": [
+        "김치",
+        "젓갈",
+        "발효식품"
+      ],
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1438047908"
+    },
+    {
+      "title": "♣ 어울림 오미자 청 750ml *1병",
+      "price": "23000",
+      "category": "농산물",
+      "tags": [
+        "오미자",
+        "건강식품",
+        "전통차"
+      ],
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1472547434"
+    }
+  ],
+  "qualityScore": 100
+}

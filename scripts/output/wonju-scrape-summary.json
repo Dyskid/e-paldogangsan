@@ -1,0 +1,53 @@
+{
+  "mallName": "원주몰",
+  "mallUrl": "https://wonju-mall.co.kr",
+  "scrapedAt": "2025-06-21T12:29:49.190Z",
+  "totalProducts": 60,
+  "categoriesScraped": [
+    "원주특산품"
+  ],
+  "productsByCategory": {
+    "원주특산품": 60
+  },
+  "priceRange": {
+    "min": 1500,
+    "max": 220000
+  },
+  "sampleProducts": [
+    {
+      "id": "108341",
+      "title": "추천 상품",
+      "price": "6,000원",
+      "category": "원주특산품",
+      "url": "https://wonju-mall.co.kr/goods/view?no=108341"
+    },
+    {
+      "id": "108340",
+      "title": "추천 상품",
+      "price": "6,000원",
+      "category": "원주특산품",
+      "url": "https://wonju-mall.co.kr/goods/view?no=108340"
+    },
+    {
+      "id": "108362",
+      "title": "추천 상품",
+      "price": "35,000원",
+      "category": "원주특산품",
+      "url": "https://wonju-mall.co.kr/goods/view?no=108362"
+    },
+    {
+      "id": "108361",
+      "title": "추천 상품",
+      "price": "65,000원",
+      "category": "원주특산품",
+      "url": "https://wonju-mall.co.kr/goods/view?no=108361"
+    },
+    {
+      "id": "108398",
+      "title": "추천 상품",
+      "price": "2,500원",
+      "category": "원주특산품",
+      "url": "https://wonju-mall.co.kr/goods/view?no=108398"
+    }
+  ]
+}

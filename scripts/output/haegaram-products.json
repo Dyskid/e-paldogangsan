@@ -1,0 +1,668 @@
+[
+  {
+    "id": "haegaram_38",
+    "title": "[부안수협]뽕잎간고등어(10미)",
+    "price": 37100,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202201/ada857d824b187ee180d37a036d83801.jpg",
+    "productUrl": "https://haegaram.com/product/부안수협뽕잎간고등어10미/38/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_37",
+    "title": "[군산시수협] 토막 먹갈치 2미",
+    "price": 25400,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202112/78bc4021df2f0fbd4da4b17f5d098b6c.jpg",
+    "productUrl": "https://haegaram.com/product/군산시수협-토막-먹갈치-2미/37/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_14",
+    "title": "[아리울수산] 사랑海 가자미 3팩",
+    "price": 23300,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202201/e13936db92f343ce40254e31cefd6f1e.jpg",
+    "productUrl": "https://haegaram.com/product/아리울수산-사랑海-가자미-3팩/14/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_112",
+    "title": "[전이수산] 순창 메주 먹인 초벌장어 2kg (3~6미)",
+    "price": 102300,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202307/a7ad58dbb769c2266ee5a958c842709e.jpg",
+    "productUrl": "https://haegaram.com/product/전이수산-순창-메주-먹인-초벌장어-2kg-36미/112/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_49",
+    "title": "[군산시수협] 반건조 국산 박대 1호 ~ 5호 세트(1박스 / 5미)",
+    "price": 32900,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202207/cfea9279e6976f27c936c1e881b92e4f.jpg",
+    "productUrl": "https://haegaram.com/product/군산시수협-반건조-국산-박대-1호-5호-세트1박스-5미/49/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_33",
+    "title": "[고창군수협] 풍천장어 초벌구이 1kg (2~3미) [손질 후 약 600g]",
+    "price": 51900,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202112/e8373187e5c0f017d078ce75e77716ef.jpg",
+    "productUrl": "https://haegaram.com/product/고창군수협-풍천장어-초벌구이-1kg-23미-손질-후-약-600g/33/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_133",
+    "title": "[줄포하늘수산] 손질 오징어 골라담기 (1kg)",
+    "price": 21200,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202311/4c6c7a9b78a3bf5c36fe77a7a5fa6f32.jpg",
+    "productUrl": "https://haegaram.com/product/줄포하늘수산-손질-오징어-골라담기-1kg/133/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_30",
+    "title": "[고창군수협] 풍천장어 손질구이 1kg (2~3미) [손질 후 약 700g]",
+    "price": 49800,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202112/b9b092f19adb9cbef0aa0d7d581822ec.jpg",
+    "productUrl": "https://haegaram.com/product/고창군수협-풍천장어-손질구이-1kg-23미-손질-후-약-700g/30/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_79",
+    "title": "[군산시수협] 토막 먹갈치 특대 선물세트",
+    "price": 44500,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202208/1d3161d8ef615e3c6ddb6e82f384b7da.jpg",
+    "productUrl": "https://haegaram.com/product/군산시수협-토막-먹갈치-특대-선물세트/79/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_135",
+    "title": "[전이수산] 순창 메주 먹인 초벌장어 1kg (2~3미)",
+    "price": 51200,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202308/71fc4f6013e759d12ed3d4510a9dc4d9.jpg",
+    "productUrl": "https://haegaram.com/product/전이수산-순창-메주-먹인-초벌장어-1kg-23미/135/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_116",
+    "title": "[전이수산] 순창 메주 먹인 손질장어 2kg (3~5미)",
+    "price": 91200,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202307/de917d0f04e3d21f57f2e025f76bee19.jpg",
+    "productUrl": "https://haegaram.com/product/전이수산-순창-메주-먹인-손질장어-2kg-35미/116/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_41",
+    "title": "[아리울수산] 사랑海 황금박대 4호",
+    "price": 27100,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202201/89e6f71711101dedd1af5c7df32307ae.jpg",
+    "productUrl": "https://haegaram.com/product/아리울수산-사랑海-황금박대-4호/41/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_25",
+    "title": "[아리울수산] 사랑海 오징어 2팩",
+    "price": 23300,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202201/5a502c060cd5dbfc057a6d342862757a.jpg",
+    "productUrl": "https://haegaram.com/product/아리울수산-사랑海-오징어-2팩/25/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_136",
+    "title": "[전이수산] 순창 메주 먹인 손질장어 1kg (2미)",
+    "price": 45600,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202307/de917d0f04e3d21f57f2e025f76bee19.jpg",
+    "productUrl": "https://haegaram.com/product/전이수산-순창-메주-먹인-손질장어-1kg-2미/136/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_165",
+    "title": "[군산시수협] 국산 반건조오징어 5미 (600g내외)",
+    "price": 32900,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202310/35a52c4bd7d9c08a4ba7d0e93caaf597.jpg",
+    "productUrl": "https://haegaram.com/product/군산시수협-국산-반건조오징어-5미-600g내외/165/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_134",
+    "title": "[줄포하늘수산] 손질 오징어 세트  / 솔방울 오징어 세트",
+    "price": 58300,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202401/2c0c34784d804994dfd862e827277325.jpg",
+    "productUrl": "https://haegaram.com/product/줄포하늘수산-손질-오징어-세트-솔방울-오징어-세트/134/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_177",
+    "title": "[밥강도] 손질 국내산 중하새우 (150g~300g)",
+    "price": 7000,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202311/d9e6f2380a0cce46b59b280c45cde3c0.jpg",
+    "productUrl": "https://haegaram.com/product/밥강도-손질-국내산-중하새우-150g300g/177/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_181",
+    "title": "[밥강도]  손질 갑오징어 (200g ~ 500g)",
+    "price": 7000,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202311/da6706949171c753c7f911045d3712ad.jpg",
+    "productUrl": "https://haegaram.com/product/밥강도-손질-갑오징어-200g-500g/181/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_113",
+    "title": "[전이수산] 순창 메주 먹인 초벌장어 3kg (5~9미)",
+    "price": 153500,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202307/a524fef5b8378765f2d112f2d97c4fa5.jpg",
+    "productUrl": "https://haegaram.com/product/전이수산-순창-메주-먹인-초벌장어-3kg-59미/113/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_96",
+    "title": "[군산시수협] 명품 [9팩] 세트(박대3미+조기3미+병어3미)",
+    "price": 94300,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202306/c695d3e994a8ddafeba0b8c4298f6098.jpg",
+    "productUrl": "https://haegaram.com/product/군산시수협-명품-9팩-세트박대3미조기3미병어3미/96/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_180",
+    "title": "[밥강도] 군산 명물 손질 박대 (150g ~ 450g)",
+    "price": 7000,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202311/7d704e93106c81548bdba475f627dee1.jpg",
+    "productUrl": "https://haegaram.com/product/밥강도-군산-명물-손질-박대-150g-450g/180/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_117",
+    "title": "[전이수산] 순창 메주 먹인 손질장어 3kg (5~7미)",
+    "price": 136700,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202307/c2d3fba6b66cc5ee0ead0de22b79f90f.jpg",
+    "productUrl": "https://haegaram.com/product/전이수산-순창-메주-먹인-손질장어-3kg-57미/117/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_241",
+    "title": "[밥강도] 키조개 관자 중 사이즈 200g",
+    "price": 13900,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202311/388798c990e94831ed377ff99f1c3897.jpg",
+    "productUrl": "https://haegaram.com/product/밥강도-키조개-관자-중-사이즈-200g/241/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_183",
+    "title": "[밥강도] 국내산 참조기 (100g ~ 500g)",
+    "price": 6000,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202311/3f1127a4b926ac6de8bd89f61cf982c6.jpg",
+    "productUrl": "https://haegaram.com/product/밥강도-국내산-참조기-100g-500g/183/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_186",
+    "title": "[밥강도] 손질 찜용 홍어 (350g ~ 600g)",
+    "price": 16900,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202311/b972e677d5b6914bfdeb240f4a374e30.jpg",
+    "productUrl": "https://haegaram.com/product/밥강도-손질-찜용-홍어-350g-600g/186/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_184",
+    "title": "[밥강도]  손질 병어 1마리 (150g ~ 350g)",
+    "price": 7000,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202311/b31917a3328a9ca3ef9bd3536d190700.jpg",
+    "productUrl": "https://haegaram.com/product/밥강도-손질-병어-1마리-150g-350g/184/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_95",
+    "title": "[군산시수협] 명품 3종 선물세트(박대5미+조기5미+병어5미)",
+    "price": 143100,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202306/e36bca15f452566f32f535040cbdd564.jpg",
+    "productUrl": "https://haegaram.com/product/군산시수협-명품-3종-선물세트박대5미조기5미병어5미/95/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_185",
+    "title": "[밥강도] 자연산 손질 바다 장어 (300g ~ 550g)",
+    "price": 17900,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202311/22572a654dee8d04403591fe71840f86.jpg",
+    "productUrl": "https://haegaram.com/product/밥강도-자연산-손질-바다-장어-300g-550g/185/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_265",
+    "title": "[군산시수협] 국산 멸치1.5kg 4종류(지리,가이리.고바,주바))",
+    "price": 21300,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202407/b3b3f48f77aad375ecf0bd8937aaabdb.png",
+    "productUrl": "https://haegaram.com/product/군산시수협-국산-멸치15kg-4종류지리가이리고바주바/265/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_439",
+    "title": "[밥강도] 손질 문어 (700g~1.6kg)",
+    "price": 35500,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202412/04314a66d29f4b5c76a0d94ed9d77980.jpg",
+    "productUrl": "https://haegaram.com/product/밥강도-손질-문어-700g16kg/439/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_263",
+    "title": "[군산시수협] 국산 반건조 참조기 (6마리, 10마리)",
+    "price": 78000,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202407/adcc1acad0cbbb419e4fe339902ec7bb.png",
+    "productUrl": "https://haegaram.com/product/군산시수협-국산-반건조-참조기-6마리-10마리/263/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_264",
+    "title": "[군산시수협] 자연산 키조개관자 600g",
+    "price": 46500,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202407/96cdf3884524e95c1d132e1577478269.jpg",
+    "productUrl": "https://haegaram.com/product/군산시수협-자연산-키조개관자-600g/264/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_268",
+    "title": "[군산시수협] 토막먹갈치 대 900g 이상",
+    "price": 91100,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202407/9a2ca75baa61809f7c888afc3b675719.png",
+    "productUrl": "https://haegaram.com/product/군산시수협-토막먹갈치-대-900g-이상/268/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_267",
+    "title": "[군산시수협] 토막대갈치 대 (2마리 500g +500g)",
+    "price": 62400,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202407/9eb261446a1432d9eb66e2cb01167f21.jpg",
+    "productUrl": "https://haegaram.com/product/군산시수협-토막대갈치-대-2마리-500g-500g/267/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_266",
+    "title": "[군산시수협] 손질대구 400g, 650g이상",
+    "price": 13400,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202407/63c2c8a3a820ab155a00cd88aa984c6c.jpg",
+    "productUrl": "https://haegaram.com/product/군산시수협-손질대구-400g-650g이상/266/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_254",
+    "title": "[밥강도] 참소라",
+    "price": 14400,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202406/fe9f5e39ff57041a7cc57d52d5e4a0a4.jpg",
+    "productUrl": "https://haegaram.com/product/밥강도-참소라/254/category/23/display/1/",
+    "category": "생선/어패",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_359",
+    "title": "[(유)바다향] 특지리멸치(볶음용,잔멸치) 700g, 1.5kg",
+    "price": 23500,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202409/d33bf4eb86d1231f269c401dd6700aad.png",
+    "productUrl": "https://haegaram.com/product/유바다향-특지리멸치볶음용잔멸치-700g-15kg/359/category/56/display/1/",
+    "category": "건어물",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_358",
+    "title": "[(유)바다향] 특다시멸치(육수용) 1.5kg",
+    "price": 32000,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202409/a25c5c533e9531c01b136a96109a8ede.png",
+    "productUrl": "https://haegaram.com/product/유바다향-특다시멸치육수용-15kg/358/category/56/display/1/",
+    "category": "건어물",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_357",
+    "title": "[(유)바다향] 밥지리(아기용,분쇄멸치,잔멸치) 700g",
+    "price": 22500,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202409/d2f3ccd4cb55b8b2c0a3c8ac3aa6c688.png",
+    "productUrl": "https://haegaram.com/product/유바다향-밥지리아기용분쇄멸치잔멸치-700g/357/category/56/display/1/",
+    "category": "건어물",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_356",
+    "title": "[(유)바다향] 다시멸치(육수용/디포리섞임) 500g, 1.5kg",
+    "price": 15600,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202409/525c449920a20499212f6c2c9c06348f.png",
+    "productUrl": "https://haegaram.com/product/유바다향-다시멸치육수용디포리섞임-500g-15kg/356/category/56/display/1/",
+    "category": "건어물",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_355",
+    "title": "[(유)바다향] 고바/고주바 멸치(고추장볶음,안주용) 1.5kg",
+    "price": 29900,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202409/6fcf1492071df735325929fe7301d776.png",
+    "productUrl": "https://haegaram.com/product/유바다향-고바고주바-멸치고추장볶음안주용-15kg/355/category/56/display/1/",
+    "category": "건어물",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_354",
+    "title": "[(유)바다향] 가이리 멸치(볶음용) 700g / 1.5kg",
+    "price": 23900,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202409/8a54a093302e4ed1e8e4f2bd9fe8c55e.png",
+    "productUrl": "https://haegaram.com/product/유바다향-가이리-멸치볶음용-700g-15kg/354/category/56/display/1/",
+    "category": "건어물",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_101",
+    "title": "[군산시수협] 건어물 선물세트 4호(중/소)",
+    "price": 35000,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202306/0ce1ddc8852e358f4527a8ad530a1b16.jpg",
+    "productUrl": "https://haegaram.com/product/군산시수협-건어물-선물세트-4호중소/101/category/56/display/1/",
+    "category": "건어물",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_100",
+    "title": "[군산시수협] 건어물 선물세트 3호(중/소/다)",
+    "price": 44500,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202306/6bba23fc248fa562d29143a307f27796.jpg",
+    "productUrl": "https://haegaram.com/product/군산시수협-건어물-선물세트-3호중소다/100/category/56/display/1/",
+    "category": "건어물",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_99",
+    "title": "[군산시수협] 건어물 선물세트 2호(중/소/자)",
+    "price": 51900,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202306/b9b931d1a59df177174d813db760666b.jpg",
+    "productUrl": "https://haegaram.com/product/군산시수협-건어물-선물세트-2호중소자/99/category/56/display/1/",
+    "category": "건어물",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_98",
+    "title": "[군산시수협] 건어물 선물세트 1호(꽃/중/소)",
+    "price": 62500,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202306/5661f604877e6b8898b099eb6c66b013.jpg",
+    "productUrl": "https://haegaram.com/product/군산시수협-건어물-선물세트-1호꽃중소/98/category/56/display/1/",
+    "category": "건어물",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_35",
+    "title": "[군산시수협] 군산어가 꽃새우_1팩",
+    "price": 9500,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202201/f081bac15304b57dbed153e771a2e647.jpg",
+    "productUrl": "https://haegaram.com/product/군산시수협-군산어가-꽃새우1팩/35/category/56/display/1/",
+    "category": "건어물",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_203",
+    "title": "[제이앤에스] 테스트 상품 10",
+    "price": 1000,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202404/55d75a7e87ae346da2b862a3de9bac28.jpg",
+    "productUrl": "https://haegaram.com/product/제이앤에스-테스트-상품-10/203/category/64/display/1/",
+    "category": "해조류",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_132",
+    "title": "[하이오백] 지리산 금 부각 - 조각 김부각 (70gx 4팩)",
+    "price": 23500,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202308/89512c3c2d5c0733d565d73c51b8ff11.jpg",
+    "productUrl": "https://haegaram.com/product/하이오백-지리산-금-부각-조각-김부각-70gx-4팩/132/category/64/display/1/",
+    "category": "해조류",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_131",
+    "title": "[하이오백] 지리산 금 부각 -전통 김부각 (40g x 8팩)",
+    "price": 26700,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202308/30e704a4ed66b4cf9954f791039efe42.jpg",
+    "productUrl": "https://haegaram.com/product/하이오백-지리산-금-부각-전통-김부각-40g-x-8팩/131/category/64/display/1/",
+    "category": "해조류",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_87",
+    "title": "[(유)바다향] 고소한 조미김 미니도시락김(240봉)",
+    "price": 36500,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202305/5c6dbee090196db0c82a6f162939ded2.jpg",
+    "productUrl": "https://haegaram.com/product/유바다향-고소한-조미김-미니도시락김240봉/87/category/64/display/1/",
+    "category": "해조류",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_85",
+    "title": "[(유)바다향] 고군산 파래전장김 1호 / 2호 / 3호",
+    "price": 11900,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202305/dfb98630de6991336e8871a2407eee67.jpg",
+    "productUrl": "https://haegaram.com/product/유바다향-고군산-파래전장김-1호-2호-3호/85/category/64/display/1/",
+    "category": "해조류",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_84",
+    "title": "[(유)바다향] 함초소금을 뿌린 함초김",
+    "price": 14800,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202305/30782c4deeb5ef14801ec6e02f158d44.jpg",
+    "productUrl": "https://haegaram.com/product/유바다향-함초소금을-뿌린-함초김/84/category/64/display/1/",
+    "category": "해조류",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_71",
+    "title": "[바다의향기] 부안 김 선물세트",
+    "price": 26700,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202405/bd2bbf22be594dcf8f6d994c5b2f4d67.jpg",
+    "productUrl": "https://haegaram.com/product/바다의향기-부안-김-선물세트/71/category/64/display/1/",
+    "category": "해조류",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_70",
+    "title": "[바다의향기] 부안 김 전장 세트",
+    "price": 19200,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202405/9777062f9234810d8e1b9394530af69d.jpg",
+    "productUrl": "https://haegaram.com/product/바다의향기-부안-김-전장-세트/70/category/64/display/1/",
+    "category": "해조류",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_63",
+    "title": "[바다의향기] 부안 김자반 세트",
+    "price": 17100,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202405/d33d5ce84c868950d285da82360e6a83.jpg",
+    "productUrl": "https://haegaram.com/product/바다의향기-부안-김자반-세트/63/category/64/display/1/",
+    "category": "해조류",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_52",
+    "title": "[바다향] 재래김으로 구운 도시락김",
+    "price": 11600,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202201/978edb7d408717be4bdccbbcb08b2f4d.jpg",
+    "productUrl": "https://haegaram.com/product/바다향-재래김으로-구운-도시락김/52/category/64/display/1/",
+    "category": "해조류",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_51",
+    "title": "[(유)바다향] 조미하지 않은 \"구운\" 곱창김",
+    "price": 14800,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202201/5936a44d06978fd2dc17312c7b0b9d14.jpg",
+    "productUrl": "https://haegaram.com/product/유바다향-조미하지-않은-구운-곱창김/51/category/64/display/1/",
+    "category": "해조류",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_50",
+    "title": "[바다향] 향긋한 파래김 10봉/20봉",
+    "price": 14800,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202112/db3aeb17264b4182b90f13c46b9a02c1.jpg",
+    "productUrl": "https://haegaram.com/product/바다향-향긋한-파래김-10봉20봉/50/category/64/display/1/",
+    "category": "해조류",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_43",
+    "title": "[바다의향기] 부안김 프리미엄 선물세트",
+    "price": 37300,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202201/10051ad12d190314069dd8b445597d12.jpg",
+    "productUrl": "https://haegaram.com/product/바다의향기-부안김-프리미엄-선물세트/43/category/64/display/1/",
+    "category": "해조류",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_54",
+    "title": "[청정바다젓갈] 3년 숙성 곰소젓갈 까나리액젓 1.8L/4L",
+    "price": 11100,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202201/221c52fafb549c95fdfae4c2fe944372.jpg",
+    "productUrl": "https://haegaram.com/product/청정바다젓갈-3년-숙성-곰소젓갈-까나리액젓-18l4l/54/category/57/display/1/",
+    "category": "젓갈/액젓",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_107",
+    "title": "[곰소천년의젓갈] 밥 도둑 곰소 젓갈 골라 담기(오징어젓/어리굴젓/새우젓)",
+    "price": 13600,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202306/cf5a48efc7ebe8502b5280649cfcaee9.jpg",
+    "productUrl": "https://haegaram.com/product/곰소천년의젓갈-밥-도둑-곰소-젓갈-골라-담기오징어젓어리굴젓새우젓/107/category/57/display/1/",
+    "category": "젓갈/액젓",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_106",
+    "title": "[곰소천년의젓갈] 갈치속젓(고기용 쌈장)500g",
+    "price": 13600,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202306/a495d06d6630ad4cbd39ec7b56fef7d2.jpg",
+    "productUrl": "https://haegaram.com/product/곰소천년의젓갈-갈치속젓고기용-쌈장500g/106/category/57/display/1/",
+    "category": "젓갈/액젓",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_289",
+    "title": "[더젓갈] 정성으로 만든 볼케이노 젓갈(갈치속젓/오징어젓/어리굴젓/멍게젓)",
+    "price": 7500,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202308/945bb79a98c48defa3bbc5a87fe11222.jpg",
+    "productUrl": "https://haegaram.com/product/더젓갈-정성으로-만든-볼케이노-젓갈갈치속젓오징어젓어리굴젓멍게젓/289/category/57/display/1/",
+    "category": "젓갈/액젓",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_194",
+    "title": "[식도락푸드] 꽃게액젓 꽃게액 천연조미료 파김치 액젓 500ml",
+    "price": 10100,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202312/c3aa6ed2e11145dd3f4cc120bb3ff9a9.jpg",
+    "productUrl": "https://haegaram.com/product/식도락푸드-꽃게액젓-꽃게액-천연조미료-파김치-액젓-500ml/194/category/57/display/1/",
+    "category": "젓갈/액젓",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_155",
+    "title": "[더젓갈] 정성으로 만든 새우진젓(250ml / 500ml)",
+    "price": 10300,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202308/1081f4ce5e707562ee198ca729c3dcfe.jpg",
+    "productUrl": "https://haegaram.com/product/더젓갈-정성으로-만든-새우진젓250ml-500ml/155/category/57/display/1/",
+    "category": "젓갈/액젓",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_154",
+    "title": "[더젓갈] 정성으로 만든 새우액젓(250ml / 500ml)",
+    "price": 11900,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202308/09c36903f59f531e27670f7f6f63338d.jpg",
+    "productUrl": "https://haegaram.com/product/더젓갈-정성으로-만든-새우액젓250ml-500ml/154/category/57/display/1/",
+    "category": "젓갈/액젓",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_149",
+    "title": "[더젓갈] 정성으로 만든 오징어젓(230g / 400g)",
+    "price": 11200,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202308/945bb79a98c48defa3bbc5a87fe11222.jpg",
+    "productUrl": "https://haegaram.com/product/더젓갈-정성으로-만든-오징어젓230g-400g/149/category/57/display/1/",
+    "category": "젓갈/액젓",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_148",
+    "title": "[더젓갈] 정성으로 만든 어리굴젓(200g / 350g)",
+    "price": 10200,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202308/23f4cc5880dda7195948470549bdd126.jpg",
+    "productUrl": "https://haegaram.com/product/더젓갈-정성으로-만든-어리굴젓200g-350g/148/category/57/display/1/",
+    "category": "젓갈/액젓",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_141",
+    "title": "[더젓갈] 정성으로 만든 멍게젓 (200g / 350g)",
+    "price": 14000,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202308/8f2bdc795c5f9ae8c77031041ee38af0.jpg",
+    "productUrl": "https://haegaram.com/product/더젓갈-정성으로-만든-멍게젓-200g-350g/141/category/57/display/1/",
+    "category": "젓갈/액젓",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_138",
+    "title": "[더젓갈] 정성으로 만든 갈치속젓 (230g / 400g)",
+    "price": 6900,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202308/e4efb2ba3aba3ccf9c12392a287a3bec.jpg",
+    "productUrl": "https://haegaram.com/product/더젓갈-정성으로-만든-갈치속젓-230g-400g/138/category/57/display/1/",
+    "category": "젓갈/액젓",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_56",
+    "title": "[청정바다젓갈] 2년 숙성 곰소젓갈 새우젓(추젓) 1Kg/2Kg",
+    "price": 15900,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202112/cf211454d66e9b5a7253c24a2af74401.jpg",
+    "productUrl": "https://haegaram.com/product/청정바다젓갈-2년-숙성-곰소젓갈-새우젓추젓-1kg2kg/56/category/57/display/1/",
+    "category": "젓갈/액젓",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_55",
+    "title": "[청정바다젓갈] 3년 숙성 곰소젓갈 멸치액젓 1.8L/4L",
+    "price": 10600,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202201/01f691474b6a654f2b27284022fe205c.jpg",
+    "productUrl": "https://haegaram.com/product/청정바다젓갈-3년-숙성-곰소젓갈-멸치액젓-18l4l/55/category/57/display/1/",
+    "category": "젓갈/액젓",
+    "mall": "해가람"
+  },
+  {
+    "id": "haegaram_53",
+    "title": "[청정바다젓갈] 3년 숙성 곰소젓갈 갈치액젓 1.8L/4L",
+    "price": 14800,
+    "imageUrl": "https://haegaram.com//haegaram.com/web/product/big/202305/c077bcb49f5c658d3510b79f53e49857.jpg",
+    "productUrl": "https://haegaram.com/product/청정바다젓갈-3년-숙성-곰소젓갈-갈치액젓-18l4l/53/category/57/display/1/",
+    "category": "젓갈/액젓",
+    "mall": "해가람"
+  }
+]

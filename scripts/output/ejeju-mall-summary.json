@@ -1,0 +1,28 @@
+{
+  "mallName": "이제주몰",
+  "mallUrl": "https://mall.ejeju.net",
+  "totalProducts": 16,
+  "categories": [
+    {
+      "id": "26",
+      "name": "농산품",
+      "productCount": 1
+    },
+    {
+      "id": "31",
+      "name": "공예품/생활용품",
+      "productCount": 6
+    },
+    {
+      "id": "31008",
+      "name": "건강식품",
+      "productCount": 5
+    },
+    {
+      "id": "32",
+      "name": "기타",
+      "productCount": 4
+    }
+  ],
+  "scrapedAt": "2025-06-13T15:15:53.463Z"
+}

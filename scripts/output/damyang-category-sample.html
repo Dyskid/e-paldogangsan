@@ -1,0 +1,2148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="//www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head><script>(function(i, s, o, g, r) {
+    var a = s.createElement(o);
+    var m = s.getElementsByTagName(o)[0];
+    a.async = true;
+    a.src = g;
+    a.onload = function() {
+        if (i[r].init) {
+            i[r].init('https://js-error-tracer-api.cafe24.com', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkYW15YW5nMTAwMC5jYWZlMjQuY29tIiwiYXVkIjoianMtZXJyb3ItdHJhY2VyLWFwaS5jYWZlMjQuY29tIiwibWFsbF9pZCI6ImRhbXlhbmcxMDAwIiwic2hvcF9ubyI6MSwicGF0aF9yb2xlIjoiUFJPRFVDVF9MSVNUIiwibGFuZ3VhZ2VfY29kZSI6ImtvX0tSIiwiY291bnRyeV9jb2RlIjoiS1IiLCJpc195dHMiOmZhbHNlLCJpc19jb250YWluZXIiOmZhbHNlLCJ3b3Jrc3BhY2UiOiJwcm9kdWN0aW9uIn0.Bab60eUEwcshe1Zl2kgWgD27LqG30p4VCpwk9e3V8RQ', {"errors":{"path":"\/api\/v1\/store","collectWindowErrors":true,"preventDuplicateReports":true,"storageKeyPrefix":"EC_JET.PRODUCT_LIST","samplingEnabled":true,"samplingRate":0.5},"vitals":{"path":"\/api\/v1\/vitals","samplingEnabled":true,"samplingRate":0.3},"resources":{"path":"\/api\/v1\/resources","samplingEnabled":true,"samplingRate":0.5,"durationThreshold":3000}});
+        }
+    };
+    m.parentNode.insertBefore(a, m);
+}(window, document, 'script', '//optimizer.poxo.com/jet/jet.js', 'EC_JET'));</script>
+<script type="text/javascript">window.CAFE24 = window.CAFE24 || {};CAFE24.ROUTE = {"is_mobile":false,"is_need_route":false,"language_code":"ZZ","path":{"origin":"\/product\/list.html","result":"\/product\/list.html","prefix":""},"shop_no":0,"skin_code":"default","support_language_list":{"ar":"ar_EG","ar-EG":"ar_EG","de":"de_DE","de-DE":"de_DE","en":"en_US","en-IN":"en_IN","en-PH":"en_PH","en-US":"en_US","es":"es_ES","es-ES":"es_ES","hi":"hi_IN","hi-IN":"hi_IN","id":"id_ID","id-ID":"id_ID","it":"it_IT","it-IT":"it_IT","ja":"ja_JP","ja-JP":"ja_JP","ko":"ko_KR","ko-KR":"ko_KR","ms":"ms_MY","ms-MY":"ms_MY","pt":"pt_PT","pt-PT":"pt_PT","ru":"ru_RU","ru-RU":"ru_RU","th":"th_TH","th-TH":"th_TH","tr":"tr_TR","tr-TR":"tr_TR","vi":"vi_VN","vi-VN":"vi_VN","zh":"zh_CN","zh-CN":"zh_CN","zh-HK":"zh_HK","zh-MO":"zh_MO","zh-SG":"zh_SG","zh-TW":"zh_TW"}};</script><script type="text/javascript">if (typeof EC_ROUTE === "undefined") {
+    /**
+     * 프론트용 라우트 플러그인
+     * @type {{bInit: boolean, init: EC_ROUTE.init}}
+     * CAFE24.ROUTE 참조
+     */
+    var EC_ROUTE = {
+        EC_DOMAIN_PATH_INFO: 'EC_DOMAIN_PATH_INFO',
+        bInit: false,
+        aFromList: [],
+        aToList: [],
+        aCleanFilter: null,
+        init: function () {
+            if (this.bInit || typeof CAFE24.ROUTE === 'undefined') {
+                return;
+            }
+            this.bInit = true;
+            this.aCleanFilter = [
+                /^shop[1-9][0-9]*$/,
+                /^(m|p)$/,
+                new RegExp('^(' + Object.keys(CAFE24.ROUTE.support_language_list).join('|')  + ')$'),
+                /^skin-(base|skin[1-9][0-9]*|mobile[0-9]*)$/,
+            ];
+        },
+        isNeedRoute: function ()
+        {
+            return CAFE24.ROUTE.is_need_route;
+        },
+        /**
+         *
+         * @param iShopNo
+         * @param bMobile
+         * @param sFrontLanguage
+         * @param sSkinCode
+         * @returns {*|string}
+         */
+        getUrlDomain: function (iShopNo, bMobile, sFrontLanguage, sSkinCode)
+        {
+            var oRouteConfig = {};
+            if (typeof iShopNo == 'undefined') {
+                oRouteConfig.shop_no = CAFE24.SDE_SHOP_NUM;
+            } else {
+                oRouteConfig.shop_no = iShopNo;
+            }
+            if (typeof bMobile == 'undefined') {
+                oRouteConfig.is_mobile = false;
+            } else {
+                oRouteConfig.is_mobile = bMobile;
+            }
+            if (typeof sFrontLanguage == 'undefined') {
+                oRouteConfig.language_code = '';
+            }else {
+                oRouteConfig.language_code = sFrontLanguage; // 내부에서 로직으로 동작할땐 언어_지역 형태의 로케일 형태를 따른다.
+            }
+            if (typeof sSkinCode == 'undefined') {
+                oRouteConfig.skin_code = '';
+            }else {
+                oRouteConfig.skin_code = sSkinCode;
+            }
+
+            var sDomain = '';
+            if (oRouteConfig.shop_no != CAFE24.SDE_SHOP_NUM) {
+                // 접근된 다른 멀티샵 도메인 정보는 primary domain 를 조회해야함으로 ajax 를 통해 정보를 얻는다.
+                sDomain = this._getUrlDomainMultishop(oRouteConfig);
+            } else {
+                // 샵이 동일할 경우에는 접근된 domain 에 path 정보만 정리하여 반환함.
+                sDomain = this._getUrlDomain(oRouteConfig);
+            }
+            return sDomain;
+        },
+        _getUrlDomainMultishop: function (oRouteConfig)
+        {
+            var sDomain = '';
+            EC$.ajax({
+                type: 'GET',
+                url: '/exec/front/Shop/Domain',
+                data: {
+                    '_shop_no' : oRouteConfig.shop_no,
+                    'is_mobile' : oRouteConfig.is_mobile,
+                    'language_code' : oRouteConfig.language_code,
+                    'skin_code' : oRouteConfig.skin_code,
+                },
+                async: false,
+                dataType: 'json',
+                cache: true,
+                success: function(oResult) {
+                    switch (oResult.code) {
+                        case '0000' :
+                            sDomain = oResult.data;
+                            break;
+                        default :
+                            break;
+                    }
+                    return false;
+                }
+            });
+            return sDomain;
+        },
+        _getUrlDomain: function (oRouteConfig)
+        {
+            oRouteConfig.domain = this._getCreateHost(oRouteConfig);
+            return location.protocol + '//' + oRouteConfig.domain + this._getCreateUri(oRouteConfig);
+        },
+        _getCreateHost : function (oRouteConfig)
+        {
+            var sHost = location.host;
+            var aHost = sHost.split('.');
+            if (this.isBaseDomain(sHost)) {
+                if (aHost.length > 3) {
+                    aHost[0] = '';
+                }
+            } else if (oRouteConfig.is_mobile) {
+                if (this.isMobileDomain()) {
+                    oRouteConfig.is_mobile = false;
+                }
+            }
+            return aHost.filter(Boolean).join('.');
+        },
+        _getCreateUri: function (oRouteInfo)
+        {
+            var aUrl = [];
+            if (this.isBaseDomain() && oRouteInfo.shop_no > 1) {
+                aUrl.push('shop' + oRouteInfo.shop_no);
+            }
+            if (oRouteInfo.is_mobile) {
+                aUrl.push('m');
+            }
+            if (oRouteInfo.language_code != 'ZZ' && oRouteInfo.language_code != '') {
+                var iIndex = Object.values(CAFE24.ROUTE.support_language_list).indexOf(oRouteInfo.language_code);
+                if (iIndex !== -1) {
+                    aUrl.push(Object.keys(CAFE24.ROUTE.support_language_list)[iIndex]);
+                }
+            }
+            if (this.isBaseDomain() && oRouteInfo.skin_code != 'default' && oRouteInfo.skin_code != '') {
+                aUrl.push('skin-' + oRouteInfo.skin_code);
+            }
+            var sUrl= '/';
+            if (aUrl.length > 0) {
+                sUrl= '/' + aUrl.join('/');
+                sUrl = this.rtrim(sUrl, '/');
+            }
+            return sUrl;
+        },
+        /**
+         * en, en-US => en_US
+         */
+        convertValidLanguageCode: function (sUrlLanguageCode)
+        {
+            if (typeof CAFE24.ROUTE.support_language_list[sUrlLanguageCode] != 'undefined') {
+                return CAFE24.ROUTE.support_language_list[sUrlLanguageCode];
+            }
+            return false;
+        },
+        isMobileDomain: function (sHost)
+        {
+            if (typeof sHost == 'undefined') {
+                sHost = location.host;
+            }
+            var aMatched = sHost.match(/^(m|mobile|skin\-mobile|skin\-mobile[0-9]+[\-]{2}shop[0-9]+|skin\-mobile[0-9]+|mobile[\-]{2}shop[0-9]+)\./i);
+            return aMatched != null;
+        },
+        isBaseDomain: function (sHost)
+        {
+            if (typeof sHost == 'undefined') {
+                sHost = location.host;
+            }
+            return sHost.indexOf(CAFE24.GLOBAL_INFO.getRootDomain()) !== -1;
+        },
+        removePrefixUrl: function (sUrl)
+        {
+            if (this.isNeedRoute()) {
+                sUrl = sUrl.replace(this.getPrefixUrl('/'), '/'); // 자동으로  prefix 붙은 영역을 제거해준다.
+            }
+            return sUrl;
+        },
+        getPrefixUrl: function (sUrl)
+        {
+            if (this.isNeedRoute() === false) {
+                return sUrl;
+            }
+            if (sUrl.indexOf('/') !== 0) {
+                return sUrl;
+            }
+            if (sUrl.match(/^\/{2,}/) !== null) {
+                return sUrl;
+            }
+
+            var iCachedPosition = this.aFromList.indexOf(sUrl);
+            if (iCachedPosition > -1) {
+                return this.aToList[iCachedPosition];
+            }
+
+            var bTailSlash = (sCleanUrl !== '/' && sUrl.substr(-1) === '/');
+            var sCleanUrl = this.getCleanUrl(sUrl);
+            var aPrefixPart = CAFE24.ROUTE.path.prefix.split('/');
+            var aUrlPart = sCleanUrl.split('/');
+            var bMatched = true;
+            var sReturnUrl = sCleanUrl;
+            if (aUrlPart.length < aPrefixPart.length) {
+                bMatched = false;
+            } else {
+                for (var i = 0; i < aPrefixPart.length ; i++) {
+                    if (aPrefixPart[i] != aUrlPart[i]) {
+                        bMatched = false;
+                        break;
+                    }
+                }
+            }
+            if (bMatched === false) {
+                if (sCleanUrl == '/') {
+                    sReturnUrl = CAFE24.ROUTE.path.prefix;
+                } else {
+                    sReturnUrl = CAFE24.ROUTE.path.prefix +  sCleanUrl;
+                }
+                sReturnUrl = bTailSlash ? sReturnUrl : this.rtrim(sReturnUrl, '/')
+                this.aFromList.push(sUrl);
+                this.aToList.push(sReturnUrl);
+            }
+            return sReturnUrl;
+        },
+        /**
+         * document.location.pathname 이 필요할 경우 사용한다.
+         * @returns {*}
+         */
+        getPathName: function()
+        {
+            if (typeof CAFE24.ROUTE.path.result == 'undefined') {
+                return document.location.pathname;
+            }
+            return CAFE24.ROUTE.path.result;
+        },
+        rtrim: function (str, chr)
+        {
+            var rgxtrim = (!chr) ? new RegExp('\\s+$') : new RegExp(chr+'+$');
+            return str.replace(rgxtrim, '');
+        },
+        getShopNo: function ()
+        {
+            return CAFE24.ROUTE.shop_no;
+        },
+        getSkinCode: function ()
+        {
+            return CAFE24.ROUTE.skin_code;
+        },
+        getLanguageCode: function ()
+        {
+            return CAFE24.ROUTE.language_code;
+        },
+        getMobile: function ()
+        {
+            return CAFE24.ROUTE.is_mobile;
+        },
+        getIsMobile: function ()
+        {
+            return CAFE24.ROUTE.is_mobile || CAFE24.ROUTE.skin_code.match(/^mobile[0-9]*$/);
+        },
+        getCleanUrl: function (sUrl)
+        {
+            if (sUrl === '/') {
+                return sUrl;
+            }
+
+            var aUrl = sUrl.split('/');
+            aUrl.shift();
+
+            if (aUrl.length < 1) {
+                return sUrl;
+            }
+
+            // 현재 4 depth 까지 미리보기 기능이 구현되어있음
+            var iPos = 0;
+            var bFind = false;
+            for (var i = 0; i < aUrl.length ; i++) {
+                bFind = false;
+                for (var iSub = iPos, iSubCount = this.aCleanFilter.length; iSub < iSubCount ; iSub++) {
+                    if (aUrl[i].match(this.aCleanFilter[iSub]) !== null) {
+                        bFind = true;
+                        iPos = iSub + 1;
+                        aUrl.splice(i, 1);
+                        i--; // aUrl 을 삭제해 주었으니 검색 조건을 -1 제거하여 초기화 한다. 다음 for i++ 로 증감 조회됨.
+                        break;
+                    }
+                }
+                if (bFind === false) {
+                    break;
+                }
+            }
+            return '/' + aUrl.join('/');
+        },
+        getIsEasyUrl : function ()
+        {
+            return !window.location.pathname.match(/^[\w\/\-\.]+(php|html|htm)$/i);
+        }
+    };
+    EC_ROUTE.init();
+}
+</script>
+<meta name="path_role" content="PRODUCT_LIST" />
+<meta name="author" content="담양농특산물전문판매몰 담양장터" />
+<meta name="description" content="가공식품" />
+<meta name="keywords" content="가공식품, 담양장터, 가공식품" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><!-- PG크로스브라우징필수내용 --><meta http-equiv="Cache-Control" content="no-cache"/><meta http-equiv="Expires" content="0"/><meta http-equiv="Pragma" content="no-cache"/><!-- ▼▼▼▼ 원하는 폰트를 구글폰트에서 검색하신 후, 폰트 링크를 해당 위치에 삽입해주시기 바랍니다. ▼▼▼ --><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"/><link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&amp;display=swap&amp;subset=korean" rel="stylesheet"/><link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&amp;display=swap&amp;subset=latin-ext" rel="stylesheet"/><link href="https://fonts.googleapis.com/css?family=Overpass:100,200,300,400,600,700,800,900&amp;display=swap" rel="stylesheet"/><!--js(/js/module/layout/category.js)--><!-- 해당 CSS는 쇼핑몰 전체 페이지에 영향을 줍니다. 삭제와 수정에 주의해주세요. --><!-- 굿디몰 추가 css :: 홈페이지 수정에 사용되는 대부분의 css는 해당 파일에서 수정하실 수 있습니다. --><!-- 스마트디자인에서는 JQuery 1.4.4 버전이 내장되어있습니다. 추가로 호출하면 충돌이 생길 수 있습니다. --><title>담양장터</title>
+
+<meta name="path_role" content="MAIN">
+
+<meta name="author" content="담양장터">
+
+<meta name="description" content="담양장터">
+
+<meta name="keywords" content="담양장터,담양,담양몰,지자체쇼핑몰"></head><meta name="facebook-domain-verification" content="5pq5jv3agxftbd04j4z849e2jzhsp2" />
+<link rel="canonical" href="https://damyangmk.kr/category/가공식품/28/" />
+<link rel="alternate" href="https://m.damyangmk.kr/category/가공식품/28/" />
+<meta property="og:url" content="https://damyangmk.kr/category/가공식품/28/" />
+<meta property="og:title" content="가공식품 - 가공식품" />
+<meta property="og:description" content="가공식품" />
+<meta property="og:site_name" content="담양장터" />
+<meta property="og:type" content="product.group" />
+<link rel="shortcut icon" href="/web/upload/favicon-19528bb69f939563ee48590ad70a9adc.ico" />
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">var CAFE24API = { instance : [], MALL_ID : 'damyang1000', SHOP_NO : 1, init : function (appInfo) { if (typeof appInfo == 'object') { if (appInfo.hasOwnProperty('client_id')) { var appKey = appInfo.client_id; } } else { var appKey = appInfo; } if (appKey) { if (!this.instance[appKey]) { CAFE24API.clientId = appKey; if (appInfo.hasOwnProperty('version')) { CAFE24API.version = appInfo.version; } else { if (CAFE24API.hasOwnProperty('version')) { delete CAFE24API.version; } } var copyObject = CAFE24API.constructor(); for (var attr in CAFE24API) { if (CAFE24API.hasOwnProperty(attr)) { copyObject[attr] = CAFE24API[attr]; } } this.instance[appKey] = copyObject; } return this.instance[appKey]; } }, initializeXhr : function () { try { return new XMLHttpRequest(); } catch (error) { return new window.ActiveXObject('Microsoft.XMLHTTP'); } }, fullPath: function (url) { return 'https://damyang1000.cafe24api.com' + url; }, getLoginProvider: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, {'login': CAPP_ASYNC_METHODS.AppCommon.getLoginProvider()}); }, getCustomerProvider: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, {'login': CAPP_ASYNC_METHODS.AppCommon.getCustomerProvider()}); }, getMemberID: function (callback) { if (!CAPP_ASYNC_METHODS.IS_LOGIN) { callback(null); } else { callback(CAPP_ASYNC_METHODS.AppCommon.getMemberID()); } }, getEncryptedMemberId: function (client_id, callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, CAPP_ASYNC_METHODS.AppCommon.getEncryptedMemberId(client_id)); }, getMemberInfo: function (callback) { callback({'id': CAPP_ASYNC_METHODS.AppCommon.getMemberInfo()}); }, getCustomerIDInfo: function (callback) { if (!CAFE24API.__scopeErr(callback, 'application')) { return; } callback(null, {'id': CAPP_ASYNC_METHODS.AppCommon.getCustomerIDInfo()}); }, getCustomerInfo: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, {'customer': CAPP_ASYNC_METHODS.AppCommon.getCustomerInfo()}); }, getMileageInfo: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, {'mileage': CAPP_ASYNC_METHODS.AppCommon.getMileageInfo()}); }, getPointInfo: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, {'point': CAPP_ASYNC_METHODS.AppCommon.getPointInfo()}); }, getDepositInfo: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, {'deposit': CAPP_ASYNC_METHODS.AppCommon.getDepositInfo()}); }, getCreditInfo: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, {'credit': CAPP_ASYNC_METHODS.AppCommon.getCreditInfo()}); }, getCartList: function (callback) { if (!CAFE24API.__scopeErr(callback, 'personal')) { return; } CAPP_ASYNC_METHODS.AppCommon.getCartList().then(function(data){ callback(null, {'carts': data}); }); }, getCartInfo: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'personal')) { return; } callback(null, {'cart': CAPP_ASYNC_METHODS.AppCommon.getCartInfo()}); }, getCartItemList: function (callback) { if (!CAFE24API.__scopeErr(callback, 'order')) { return; } callback(null, {'items': CAPP_ASYNC_METHODS.AppCommon.getCartItemList()}); }, getCartCount: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'personal')) { return; } callback(null, CAPP_ASYNC_METHODS.AppCommon.getCartCount()); }, getCouponCount: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'promotion')) { return; } callback(null, CAPP_ASYNC_METHODS.AppCommon.getCouponCount()); }, getWishCount: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'personal')) { return; } callback(null, CAPP_ASYNC_METHODS.AppCommon.getWishCount()); }, getShopInfo: function (callback) { if (!CAFE24API.__scopeErr(callback, 'store')) { return; } callback(null, {'shop': CAPP_ASYNC_METHODS.AppCommon.getShopInfo()}); }, addCurrentProductToCart: function (mall_id, time, app_key, member_id, hmac, callback) { if (!CAFE24API.__scopeErr(callback, 'order')) { return; } CAPP_ASYNC_METHODS.AppCommon.addCurrentProductToCart(mall_id, time, app_key, member_id, hmac).then(function(data){ callback(null, {'cart': data}); }).catch(function (data) { if (data) { callback(new Error('422'), {'error': {code: data.code, message: data.message}}); } else { callback(new Error('422'), {'error': {code: 422, message: 'This sdk is not available on the current page'}}); } }); }, precreateOrder: function (mall_id, time, app_key, member_id, hmac, callback) { if (!CAFE24API.__scopeErr(callback, 'order')) { return; } CAPP_ASYNC_METHODS.AppCommon.precreateOrder(mall_id, time, app_key, member_id, hmac).then(function(data){ callback(null, {'order': data}); }).catch(function (data) { if (data) { callback(new Error('422'), {'error': {code: data.code, message: data.message}}); } else { callback(new Error('422'), {'error': {code: 422, message: 'This sdk is not available on the current page'}}); } }); }, getOrderItemList: function (start_date, end_date, order_status, page, count, order_id, callback) { if (!CAFE24API.__scopeErr(callback, 'order')) { return; } CAPP_ASYNC_METHODS.AppCommon.getOrderItemList(start_date, end_date, order_status, page, count, order_id).then(function(data){ callback(null, {'items': data}); }).catch(function (data) { if (data) { callback(new Error('422'), {'error': {code: data.code, message: data.message}}); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }); }, getOrderDetailInfo: function (shop_no, order_id, callback) { if (!CAFE24API.__scopeErr(callback, 'order')) { return; } CAPP_ASYNC_METHODS.AppCommon.getOrderDetailInfo(shop_no, order_id).then(function(data){ callback(null, {'orders': data}); }).catch(function (data) { if (data) { callback(new Error('422'), {'error': {code: data.code, message: data.message}}); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }); }, getClaimableItemList: function (order_id, customer_service_type, callback) { if (!CAFE24API.__scopeErr(callback, 'order')) { return; } CAPP_ASYNC_METHODS.AppCommon.getClaimableItemList(order_id, customer_service_type).then(function(data){ callback(null, {'items': data}); }).catch(function (data) { if (data) { callback(new Error('422'), {'error': {code: data.code, message: data.message}}); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }); }, emptyCart: function (basket_shipping_type, callback) { if (!CAFE24API.__scopeErr(callback, 'personal')) { return; } CAPP_ASYNC_METHODS.AppCommon.emptyCart(basket_shipping_type).then(function (data) { callback(null, {'result': data}); }).catch(function (data) { if (data) { callback(new Error('422'), {'error': {code: data.code, message: data.message}}); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }) ; }, deleteCartItems: function (basket_shipping_type, product_list, callback) { if (!CAFE24API.__scopeErr(callback, 'personal')) { return; } CAPP_ASYNC_METHODS.AppCommon.deleteCartItems(basket_shipping_type, product_list).then(function (data) { callback(null, {'result': data}); }).catch(function (data) { if (data) { callback(new Error('422'), {'error': {code: data.code, message: data.message}}); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }) ; }, addCart: function (basket_type, prepaid_shipping_fee, product_list, callback) { if (!CAFE24API.__scopeErr(callback, 'personal')) { return; } CAPP_ASYNC_METHODS.AppCommon.addCart(basket_type, prepaid_shipping_fee, product_list).then(function (data) { callback(null, data); }).catch(function (data) { if (data) { callback(new Error('422'), {'error': {code: data.code, message: data.message}}); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }) }, addBundleProductsCart: function (basket_type, prepaid_shipping_fee, product_list, callback) { if (!CAFE24API.__scopeErr(callback, 'personal')) { return; } CAPP_ASYNC_METHODS.AppCommon.addBundleProductsCart(basket_type, prepaid_shipping_fee, product_list).then(function (data) { callback(null, data); }).catch(function (data) { if (data) { callback(new Error('422'), {'error': {code: data.code, message: data.message}}); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }) }, get : function(url, callback) { return CAFE24API.complete('GET', url, this, null, callback); }, post : function(url, params, callback) { return CAFE24API.complete('POST', url, this, params, callback); }, put : function(url, params, callback) { return CAFE24API.complete('PUT', url, this, params, callback); }, delete : function(url, callback) { return CAFE24API.complete('DELETE', url, this, null, callback); }, complete : function(method, url, obj, params, callback) { var xhr = CAFE24API.sendXhr(method, url, obj, params, callback); xhr.onreadystatechange = function () { if (xhr.readyState === XMLHttpRequest.DONE) { if (xhr.status >= 200 && xhr.status <= 208) { callback(null, JSON.parse(xhr.responseText)); } else { callback(new Error(xhr.status), JSON.parse(xhr.responseText)); } } }; }, sendXhr : function (method, url, obj, params, callback) { if (method !== 'POST') { var url = obj.fullPath(url); } var xhr = obj.initializeXhr(); var queryVars = {}; if (obj.clientId) queryVars['cafe24_app_key'] = obj.clientId; if (obj.version) queryVars['cafe24_api_version'] = obj.version; if (params === null) { var seperator = url.indexOf('?') == -1 ? '?' : '&'; var queryString = []; for (var key in queryVars) { queryString.push(key + '=' + queryVars[key]); } if (queryString.length > 0) { url = url + seperator + queryString.join('&'); } } xhr.open(method, url, true); if (typeof params == 'object' && params !== null) { xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded; charset=utf-8'); for (var key in queryVars) { params[key] = queryVars[key]; } params = 'formData=' + JSON.stringify(params); } xhr.send(params || null); return xhr; }, __sessionErr: function (callback) { callback(new Error(403), {'error': {code: 403, message: 'Failed to get session. Only available when log in.'}}); }, __scopeErr: function (callback, scope) { if (typeof CAFE24.APPSCRIPT_SDK_DATA != "undefined" && jQuery.inArray(scope, CAFE24.APPSCRIPT_SDK_DATA ) > -1 ) { return true; } callback(new Error(403), {'error': {code: 403, message: 'You do not have the necessary authority(scope) to use the SDK.'}}); }, __chkValidSessionScope: function (callback, scope) { if (!CAPP_ASYNC_METHODS.IS_LOGIN) { CAFE24API.__sessionErr(callback); return false; } if (!CAFE24API.__scopeErr(callback, scope)) { return false; } return true; } }; </script>
+<script type="text/javascript">
+window.CAFE24 = window.CAFE24 || {};
+CAFE24.MANIFEST_CACHE_REVISION = '2506181414';
+CAFE24.getDeprecatedNamespace = function(sDeprecatedNamespace, sSupersededNamespace) {
+var sNamespace = sSupersededNamespace 
+? sSupersededNamespace 
+: sDeprecatedNamespace.replace(/^EC_/, '');
+return CAFE24[sNamespace];
+}
+CAFE24.FRONT_LANGUAGE_CODE = "ko_KR";
+CAFE24.MOBILE = false;
+CAFE24.MOBILE_DEVICE = false;
+CAFE24.MOBILE_USE = true;
+var EC_MOBILE = CAFE24.MOBILE;
+var EC_MOBILE_DEVICE = CAFE24.MOBILE_DEVICE;
+var EC_MOBILE_USE = CAFE24.MOBILE_USE;
+CAFE24.SKIN_CODE = "skin1";
+CAFE24.FRONT_EXTERNAL_SCRIPT_VARIABLE_DATA = {"common_member_id_crypt":""};
+var EC_FRONT_EXTERNAL_SCRIPT_VARIABLE_DATA = CAFE24.getDeprecatedNamespace('EC_FRONT_EXTERNAL_SCRIPT_VARIABLE_DATA');
+CAFE24.SDE_SHOP_NUM = 1;CAFE24.SHOP = {getLanguage : function() { return "ko_KR"; },getCurrency : function() { return "KRW"; },getFlagCode : function() { return "KR"; },getTimezone: function() { return "Asia/Seoul" },getDateFormat: function() { return "Y-m-d" },isMultiShop : function() { return false; },isDefaultShop : function() { return true; },isDefaultLanguageShop : function(sLanguageCode) { return SHOP.isDefaultShop() && SHOP.isLanguageShop(sLanguageCode); },isKR : function() { return true; },isUS : function() { return false; },isJP : function() { return false; },isCN : function() { return false; },isTW : function() { return false; },isES : function() { return false; },isPT : function() { return false; },isVN : function() { return false; },isPH : function() { return false; },getCountryAndLangMap : function() { return {
+"KR": "ko_KR",
+"US": "en_US",
+"JP": "ja_JP",
+"CN": "zh_CN",
+"TW": "zh_TW",
+"VN": "vi_VN",
+"PH": "en_PH"
+}},isLanguageShop : function(sLanguageCode) { return sLanguageCode === "ko_KR"; },getDefaultShopNo : function() { return 1; },getProductVer : function() { return 2; },isSDE : function() { return true; },isMode : function() {return true; },getModeName : function() {return true; },isMobileAdmin : function() {return false; },isNewProMode : function() {return false; },isExperienceMall : function() { return false; },isDcollection : function() {return false; },isYoutubeShops : function() {return false; },getYtShopsShopNo : function() {return 0; },isG2G : function() {return false; },getAdminID : function() {return ''},getMallID : function() {return 'damyang1000'},getCurrencyFormat : function(sPriceTxt, bIsNumberFormat) { 
+sPriceTxt = String(sPriceTxt);
+var aCurrencySymbol = ["","\uc6d0",false];
+if (typeof CAFE24.SHOP_PRICE !== 'undefined' && isNaN(sPriceTxt.replace(/[,]/gi, '')) === false && bIsNumberFormat === true) {
+// bIsNumberFormat 사용하려면 Ui(':libUipackCurrency')->plugin('Currency') 화폐 라이브러리 추가 필요
+sPriceTxt = CAFE24.SHOP_PRICE.toShopPrice(sPriceTxt.replace(/[,]/gi, ''), true, CAFE24.SDE_SHOP_NUM);
+}
+try {
+var sPlusMinusSign = (sPriceTxt.toString()).substr(0, 1);
+if (sPlusMinusSign === '-' || sPlusMinusSign === '+') {
+sPriceTxt = (sPriceTxt.toString()).substr(1);
+return sPlusMinusSign + aCurrencySymbol[0] + sPriceTxt + aCurrencySymbol[1];
+} else {
+return aCurrencySymbol[0] + sPriceTxt + aCurrencySymbol[1];
+}
+} catch (e) {
+return aCurrencySymbol[0] + sPriceTxt + aCurrencySymbol[1];
+}
+}};CAFE24.CURRENCY_INFO = {getOriginReferenceCurrency : function() {return 'USD'},getCurrencyList : function(sCurrencyCode) { var aCurrencyList = {"JPY":{"currency_symbol":"&yen;","decimal_place":0,"round_method_type":"F"},"VND":{"currency_symbol":"&#8363;","decimal_place":0,"round_method_type":"F"},"PHP":{"currency_symbol":"&#8369;","decimal_place":2,"round_method_type":"R"},"USD":{"currency_symbol":"$","decimal_place":2,"round_method_type":"R"},"CNY":{"currency_symbol":"&yen;","decimal_place":2,"round_method_type":"R"},"TWD":{"currency_symbol":"NT$","decimal_place":0,"round_method_type":"F"},"EUR":{"currency_symbol":"\u20ac","decimal_place":2,"round_method_type":"R"},"BRL":{"currency_symbol":"R$","decimal_place":2,"round_method_type":"R"},"AUD":{"currency_symbol":"A$","decimal_place":2,"round_method_type":"R"},"BHD":{"currency_symbol":".&#1583;.&#1576;","decimal_place":3,"round_method_type":"R"},"BDT":{"currency_symbol":"&#2547;","decimal_place":2,"round_method_type":"R"},"GBP":{"currency_symbol":"&pound;","decimal_place":2,"round_method_type":"R"},"CAD":{"currency_symbol":"C$","decimal_place":2,"round_method_type":"R"},"CZK":{"currency_symbol":"K&#269;","decimal_place":2,"round_method_type":"R"},"DKK":{"currency_symbol":"kr","decimal_place":2,"round_method_type":"R"},"HKD":{"currency_symbol":"HK$","decimal_place":2,"round_method_type":"R"},"HUF":{"currency_symbol":"Ft","decimal_place":2,"round_method_type":"R"},"INR":{"currency_symbol":"&#8377;","decimal_place":2,"round_method_type":"R"},"IDR":{"currency_symbol":"Rp","decimal_place":0,"round_method_type":"F"},"ILS":{"currency_symbol":"&#8362;","decimal_place":2,"round_method_type":"R"},"JOD":{"currency_symbol":" &#1583;&#1610;&#1606;&#1575;&#1585;","decimal_place":3,"round_method_type":"R"},"KWD":{"currency_symbol":"&#1583;&#1610;&#1606;&#1575;&#1585;","decimal_place":3,"round_method_type":"R"},"MYR":{"currency_symbol":"RM","decimal_place":2,"round_method_type":"R"},"MXN":{"currency_symbol":"Mex$","decimal_place":2,"round_method_type":"R"},"NZD":{"currency_symbol":"NZ$","decimal_place":2,"round_method_type":"R"},"NOK":{"currency_symbol":"kr","decimal_place":2,"round_method_type":"R"},"PKR":{"currency_symbol":"&#8360;","decimal_place":2,"round_method_type":"R"},"PLN":{"currency_symbol":"z\u0142","decimal_place":2,"round_method_type":"R"},"RUB":{"currency_symbol":"\u0440\u0443\u0431","decimal_place":2,"round_method_type":"R"},"SAR":{"currency_symbol":"&#65020;","decimal_place":2,"round_method_type":"R"},"SGD":{"currency_symbol":"S$","decimal_place":2,"round_method_type":"R"},"ZAR":{"currency_symbol":"R","decimal_place":2,"round_method_type":"R"},"SEK":{"currency_symbol":"kr","decimal_place":2,"round_method_type":"R"},"CHF":{"currency_symbol":"Fr","decimal_place":2,"round_method_type":"R"},"THB":{"currency_symbol":"&#3647;","decimal_place":2,"round_method_type":"R"},"TRY":{"currency_symbol":"TL","decimal_place":2,"round_method_type":"R"},"AED":{"currency_symbol":"&#1601;&#1604;&#1587;","decimal_place":2,"round_method_type":"R"}}; return aCurrencyList[sCurrencyCode] },isUseReferenceCurrency : function() {return false }};CAFE24.COMMON_UTIL = {convertSslForString : function(sString) { return sString.replace(/http:/gi, '');},convertSslForHtml : function(sHtml) { return sHtml.replace(/((?:src|href)\s*=\s*['"])http:(\/\/(?:[a-z0-9\-_\.]+)\/)/ig, '$1$2');},getProtocol : function() { return 'https'; },moveSsl : function() { if (CAFE24.COMMON_UTIL.getProtocol() === 'http') { var oLocation = jQuery(window.location); var sUrl = 'https://' + oLocation.attr('host') + oLocation.attr('pathname') + oLocation.attr('search'); window.location.replace(sUrl); } },setEcCookie : function(sKey, sValue, iExpire) {var exdate = new Date();exdate.setDate(exdate.getDate() + iExpire);var setValue = escape(sValue) + "; domain=." + CAFE24.GLOBAL_INFO.getBaseDomain() + "; path=/;expires=" + exdate.toUTCString();document.cookie = sKey + "=" + setValue;}};CAFE24.SHOP_LIB_INFO = {getBankInfo : function() { 
+var oBankInfo = "";
+$.ajax({
+type: "GET",
+url: "/exec/front/Shop/Bankinfo",
+dataType: "json",
+async: false,
+success: function(oResponse) {
+oBankInfo = oResponse;
+}
+});
+return oBankInfo; }};            var EC_SDE_SHOP_NUM = CAFE24.SDE_SHOP_NUM;
+var SHOP = CAFE24.getDeprecatedNamespace('SHOP');
+var EC_COMMON_UTIL = CAFE24.getDeprecatedNamespace('EC_COMMON_UTIL');
+var EC_SHOP_LIB_INFO = CAFE24.getDeprecatedNamespace('EC_SHOP_LIB_INFO');
+var EC_CURRENCY_INFO = CAFE24.getDeprecatedNamespace('EC_CURRENCY_INFO');
+CAFE24.ROOT_DOMAIN = "cafe24.com";
+CAFE24.API_DOMAIN = "cafe24api.com";
+CAFE24.TRANSLATE_LOG_STATUS = "F";
+CAFE24.GLOBAL_INFO = (function() {
+var oData = {"base_domain":"damyang1000.cafe24.com","root_domain":"cafe24.com","api_domain":"cafe24api.com","is_global":false,"is_global_standard":false,"country_code":"KR","language_code":"ko_KR","admin_language_code":"ko_KR"};
+return {
+getBaseDomain: function() {
+return oData['base_domain'];
+},
+getRootDomain: function() {
+return oData['root_domain'];
+},
+getApiDomain: function() {
+return oData['api_domain'];
+},
+isGlobal: function() {
+return oData['is_global'];
+},
+isGlobalStandard: function() {
+return oData['is_global_standard'];
+},
+getCountryCode: function() {
+return oData['country_code'];
+},
+getLanguageCode: function() {
+return oData['language_code'];
+},
+getAdminLanguageCode: function() {
+return oData['admin_language_code'];
+}
+};
+})();
+var EC_ROOT_DOMAIN = CAFE24.ROOT_DOMAIN;
+var EC_API_DOMAIN = CAFE24.API_DOMAIN;
+var EC_TRANSLATE_LOG_STATUS = CAFE24.TRANSLATE_LOG_STATUS;
+var EC_GLOBAL_INFO = CAFE24.getDeprecatedNamespace('EC_GLOBAL_INFO');
+CAFE24.AVAILABLE_LANGUAGE = ["ko_KR","zh_CN","en_US","zh_TW","es_ES","pt_PT","vi_VN","ja_JP","en_PH"];
+CAFE24.AVAILABLE_LANGUAGE_CODES = {"ko_KR":"KOR","zh_CN":"CHN","en_US":"ENG","zh_TW":"TWN","es_ES":"ESP","pt_PT":"PRT","vi_VN":"VNM","ja_JP":"JPN","en_PH":"PHL"};
+var EC_AVAILABLE_LANGUAGE = CAFE24.AVAILABLE_LANGUAGE;
+var EC_AVAILABLE_LANGUAGE_CODES = CAFE24.AVAILABLE_LANGUAGE_CODES;
+CAFE24.GLOBAL_PRODUCT_LANGUAGE_CODES = {  
+sClearanceCategoryCode: '',
+sManualLink: '//support.cafe24.com/hc/ko/articles/7739013909529',
+sHsCodePopupLink: 'https://www.wcotradetools.org/en/harmonized-system',
+aCustomRegex: '"PHL" : "^[0-9]{8}[A-Z]?$"',
+sCountryCodeData: 'kor',
+sEnglishExampleURlForGlobal: '',
+aReverseAddressCountryCode: ["VNM","PHL"],
+aSizeGuideCountryAlign: '["US","UK","EU","KR","JP","CN"]',
+aIsSupportTran: ["ja_JP","zh_CN","zh_TW","en_US","vi_VN","en_PH","pt_PT","es_ES"]
+};
+var EC_GLOBAL_PRODUCT_LANGUAGE_CODES = CAFE24.getDeprecatedNamespace('EC_GLOBAL_PRODUCT_LANGUAGE_CODES');
+CAFE24.GLOBAL_ORDER_LANGUAGE_CODES = {
+aModifyOrderLanguage: {"KR":"ko_KR","JP":"ja_JP","CN":"zh_CN","TW":"zh_TW","VN":"vi_VN","PH":"en_PH"},
+aUseIdCardKeyCountry: ["CN","TW"],
+aLanguageWithCountryCode: {"zh_CN":["CN","CHN","HK","HNK"],"ja_JP":["JP","JPN"],"zh_TW":["TW","TWN"],"ko_KR":["KR","KOR"],"vi_VN":["VN","VNM"],"en_PH":["PH","PHL"]},
+aCheckDisplayRequiredIcon: ["ja_JP","zh_CN","zh_TW","en_US","vi_VN","en_PH"],
+aSetReceiverName: {"zh_CN":{"sCountry":"CN","bUseLastName":true},"zh_TW":{"sCountry":"TW","bUseLastName":false},"ja_JP":{"sCountry":"JP","bUseLastName":true}},
+aSetDeferPaymethodLanguage: {"ja_JP":"\uc77c\ubcf8","zh_CN":"\uc911\uad6d"},
+aUseDeferPaymethod: ["ja_JP","zh_CN"],
+aCheckShippingCompanyAndPaymethod: ["ja_JP","zh_CN"],
+aSetDeferPaymethodLanguageForShipping: {"ja_JP":"\u65e5\u672c","zh_CN":"\uc911\uad6d"},
+aCheckStoreByPaymethod: ["ja_JP","zh_CN"],
+aCheckIsEmailRequiredForJs: ["en_US","zh_CN","zh_TW","ja_JP","vi_VN","en_PH"],
+aSetIdCardKeyCountryLanguage: {"CN":"\uc911\uad6d\uc758","TW":"\ub300\ub9cc\uc758"},
+aReverseGlobalAddress: ["en_PH","vi_VN","PHL","VNM","VN","PH"],
+aNoCheckZipCode: ["KOR","JPN"],
+aNotPostCodeAPICountryList: ["en_US","es_ES","pt_PT","en_PH"],
+aEnableSearchExchangeAddr: ["KR","JP","CN","VN","TW","PH"],
+aDuplicatedBaseAddr: ["TW","JP"],
+aReverseAddressCountryCode: ["VN","PH"],
+aCheckZipCode: ["PHL","en_PH","PH"]
+};
+var EC_GLOBAL_ORDER_LANGUAGE_CODES = CAFE24.getDeprecatedNamespace('EC_GLOBAL_ORDER_LANGUAGE_CODES');
+CAFE24.GLOBAL_MEMBER_LANGUAGE_CODES = {  
+sAdminWebEditorLanguageCode: 'ko' ,
+oNotAvailDecimalPointLanguages: ["ko_KR","ja_JP","zh_TW","vi_VN"],
+oAddressCountryCode: {"KOR":"ko_KR","JPN":"ja_JP","CHN":"zh_CN","TWN":"zh_TW","VNM":"vi_VN","PHL":"en_PH"},
+};
+var EC_GLOBAL_MEMBER_LANGUAGE_CODES = CAFE24.getDeprecatedNamespace('EC_GLOBAL_MEMBER_LANGUAGE_CODES');
+CAFE24.GLOBAL_BOARD_LANGUAGE_CODES = {  
+bUseLegacyBoard: true
+};
+var EC_GLOBAL_BOARD_LANGUAGE_CODES = CAFE24.getDeprecatedNamespace('EC_GLOBAL_BOARD_LANGUAGE_CODES');
+CAFE24.GLOBAL_MALL_LANGUAGE_CODES = {
+oDesign: {
+oDesignAddReplaceInfo: {"group_id":"SKIN.ADD.ADMIN.DESIGNDETAIL","replacement":{"KR":"KOREAN","US":"ENGLISH","JP":"JAPANESE","CN":"SIMPLIFIED.CHINESE","TW":"TRADITIONAL.CHINESE","ES":"SPANISH","PT":"PORTUGUESE","PH":"ENGLISH"}},
+oDesignDetailLanguageCountryMap: {"KR":"ko_KR","JP":"ja_JP","CN":"zh_CN","TW":"zh_TW","US":"en_US","ES":"es_ES","PT":"pt_PT","PH":"en_PH"},
+oSmartDesignSwitchTipLink: {"edibot":{"img":"\/\/img.echosting.cafe24.com\/smartAdmin\/img\/design\/img_editor_dnd.png","link":"\/\/ecsupport.cafe24.com\/board\/free\/list.html?board_act=list&board_no=12&category_no=9&cate_no=9"},"smart":{"img":"\/\/img.echosting.cafe24.com\/smartAdmin\/img\/design\/ko_KR\/img_editor_smart.png","link":"\/\/sdsupport.cafe24.com"}},
+oSmartDesignDecoShopList: ["ko_KR","ja_JP","zh_CN","en_US","zh_TW","es_ES","pt_PT"],
+oSmartDesignDecoMultilingual: {"list":{"ko_KR":"KOREAN","en_US":"ENGLISH","ja_JP":"JAPANESE","zh_CN":"SIMPLIFIED.CHINESE","zh_TW":"TRADITIONAL.CHINESE","es_ES":"SPANISH","pt_PT":"PORTUGUESE","vi_VN":"VIETNAMESE"},"group_id":"EDITOR.LAYER.EDITING.DECO"},
+aSmartDesignModuleShopList: ["ko_KR","ja_JP","zh_CN","en_US","zh_TW","es_ES","pt_PT"]
+},
+oStore: {
+oMultiShopCurrencyInfo: {"en_US":{"currency":"USD"},"zh_CN":{"currency":"USD","sub_currency":"CNY"},"ja_JP":{"currency":"JPY"},"zh_TW":{"currency":"TWD"},"es_ES":{"currency":"EUR"},"pt_PT":{"currency":"EUR"},"ko_KR":{"currency":"KRW"},"vi_VN":{"currency":"VND"},"en_PH":{"currency":"PHP"}},
+oBrowserRedirectLanguage: {"ko":{"primary":"ko_KR","secondary":"en_US"},"en":{"detail":{"en-ph":{"primary":"en_PH","secondary":"en_US"},"en-us":{"primary":"en_US","secondary":"es_ES"},"default":{"primary":"en_US","secondary":"es_ES"}}},"ja":{"primary":"ja_JP","secondary":"en_US"},"zh":{"detail":{"zh-cn":{"primary":"zh_CN","secondary":"en_US"},"zh-tw":{"primary":"zh_TW","secondary":"zh_CN"},"default":{"primary":"en_US","secondary":"ko_KR"}}},"es":{"primary":"es_ES","secondary":"en_US"},"pt":{"primary":"pt_PT","secondary":"en_US"},"vi":{"primary":"vi_VN","secondary":"en_US"},"default":{"primary":"en_US","secondary":"ko_KR"}},
+aChangeableLanguages: ["en_US","ja_JP","ko_KR"],
+aNoZipCodeLanguage: ["ko_KR","ja_JP"]
+},
+oMobile: {
+sSmartWebAppFaqUrl: "https://support.cafe24.com/hc/ko/articles/8466586607641",
+sAmpFaqUrl: "https://ecsupport.cafe24.com/board/free/read.html?no=1864&board_no=5&category_no=13&cate_no=13&category_no=13&category_no=13",
+},
+oPromotion: {
+bQrCodeAvailable: true,
+bSnsMarketingAvailable: true
+},
+oShippingReverseAddressLanguage: ["vi_VN","en_PH"] ,
+oGlobalStandardSwitchHelpCodeLink: {"SH.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/SH.DS.html"},"PR.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/PR.DS.html"},"OR.SM.BO":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/OR.SM.BO.html"},"DE.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/DE.DS.html"},"MB.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/MB.DS.html"},"PM.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/PM.DS.html"}},
+getAdminMainLocaleLanguage: function(sSkinLocaleCode) {
+var oLocaleData = [];
+var locale = "";
+var shopLangName = "";
+if (sSkinLocaleCode == "US") {
+locale = "en_US";
+shopLangName = "ENGLISH";
+} else if (sSkinLocaleCode == "JP") {
+locale = "ja_JP";
+shopLangName = "JAPANESE";
+} else if (sSkinLocaleCode == "CN") {
+locale = "zh_CN";
+shopLangName = "SIMPLIFIED.CHINESE";
+} else if (sSkinLocaleCode == "TW") {
+locale = "zh_TW";
+shopLangName = "TRADITIONAL.CHINESE";
+} else if (sSkinLocaleCode == "ES") {
+locale = "es_ES";
+shopLangName = "SPANISH";
+} else if (sSkinLocaleCode == "PT") {
+locale = "pt_PT";
+shopLangName = "PORTUGUESE";
+} else if (sSkinLocaleCode == "VN") {
+locale = "vi_VN";
+shopLangName = "VIETNAMESE";
+} else if(sSkinLocaleCode == "PH") {
+locale = "en_PH";
+shopLangName = "ENGLISH.PH";
+}
+oLocaleData["locale"] = locale;
+oLocaleData["shopLangName"] = shopLangName;
+return oLocaleData;
+}
+};
+var EC_GLOBAL_MALL_LANGUAGE_CODES = CAFE24.getDeprecatedNamespace('EC_GLOBAL_MALL_LANGUAGE_CODES');
+CAFE24.GLOBAL_DATETIME_INFO = {
+oConstants: {"STANDARD_DATE_REGEX":"\/([12]\\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01]))\/","IN_ZONE":"inZone","OUT_ZONE":"outZone","IN_FORMAT":"inFormat","OUT_FORMAT":"outFormat","IN_DATE_FORMAT":"inDateFormat","IN_TIME_FORMAT":"inTimeFormat","OUT_DATE_FORMAT":"outDateFormat","OUT_TIME_FORMAT":"outTimeFormat","IN_FORMAT_DATE_ONLY":1,"IN_FORMAT_TIME_ONLY":2,"IN_FORMAT_ALL":3,"OUT_FORMAT_DATE_ONLY":1,"OUT_FORMAT_TIME_ONLY":2,"OUT_FORMAT_ALL":3,"DATE_ONLY":"YYYY-MM-DD","TIME_ONLY":"HH:mm:ss","FULL_TIME":"YYYY-MM-DD HH:mm:ss","ISO_8601":"YYYY-MM-DD[T]HH:mm:ssZ","YEAR_ONLY":"YYYY","MONTH_ONLY":"MM","DAY_ONLY":"DD","WEEK_ONLY":"e","TIME_H_I_ONLY":"HH:mm","TIME_HOUR_ONLY":"HH","TIME_MINUTE_ONLY":"mm","POSTGRE_FULL_TIME":"YYYY-MM-DD HH24:MI:SS","POSTGRE_TIME_ONLY":" HH24:MI:SS","MICRO_SECOND_ONLY":"u","SEOUL":"Asia\/Seoul","TOKYO":"Asia\/Tokyo","SHANGHAI":"Asia\/Shanghai","TAIPEI":"Asia\/Taipei","HANOI":"Asia\/Bangkok","LOS_ANGELES":"America\/Los_Angeles","LISBON":"Europe\/Lisbon","MADRID":"Europe\/Madrid","SINGAPORE":"Asia\/Singapore","UTC":"Etc\/UTC","MAX_DATETIME":"9999-12-31 23:59:59"},
+oOptions: {"inZone":"Asia\/Seoul","inFormat":"YYYY-MM-DD HH:mm:ss","inDateFormat":"YYYY-MM-DD","inTimeFormat":"HH:mm:ss","outZone":"Asia\/Seoul","outFormat":"YYYY-MM-DD HH:mm:ss","outDateFormat":"YYYY-MM-DD","outTimeFormat":"HH:mm:ss"},
+oPolicies: {"shop":{"outZone":"Asia\/Seoul","outFormat":"YYYY-MM-DD HH:mm:ss","outDateFormat":"YYYY-MM-DD","outTimeFormat":"HH:mm:ss"}},
+sOverrideTimezone: '',
+sMomentNamespace: 'EC_GLOBAL_MOMENT'
+};
+CAFE24.FRONT_JS_CONFIG_MANAGE = {"sSmartBannerScriptUrl":"https:\/\/app4you.cafe24.com\/SmartBanner\/tunnel\/scriptTags?vs=1563164396689206","sMallId":"damyang1000","sDefaultAppDomain":"https:\/\/app4you.cafe24.com","sWebLogOffFlag":"F"};
+var EC_FRONT_JS_CONFIG_MANAGE = CAFE24.getDeprecatedNamespace('EC_FRONT_JS_CONFIG_MANAGE');
+CAFE24.FRONT_JS_CONFIG_MEMBER = {"sAuthUrl":"https:\/\/ipin-ec.cafe24.com\/certify\/v1\/?action=auth"};
+var EC_FRONT_JS_CONFIG_MEMBER = CAFE24.getDeprecatedNamespace('EC_FRONT_JS_CONFIG_MEMBER');
+CAFE24.FRONT_JS_CONFIG_SHOP = {"search_period":[],"calendar_config":{"maxDate":"2027-06-24","locale":"ko"},"aProductPurchaseInfo_381":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_737":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_700":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_832":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_831":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_830":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_829":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_828":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_827":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_826":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_825":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_824":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_823":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_822":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_821":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_820":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_808":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_796":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_794":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_788":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_786":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_783":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_772":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_769":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_768":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_766":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_756":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_730":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_727":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_722":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_719":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_718":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_717":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_716":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_689":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_678":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_649":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_648":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"recent_count":4,"adult19BaseTinyImage":"damyang1000_adult.png","adult19Warning":"F","cdnUrl":""};
+var EC_FRONT_JS_CONFIG_SHOP = CAFE24.getDeprecatedNamespace('EC_FRONT_JS_CONFIG_SHOP');
+typeof window.CAFE24 === "undefined" && (window.CAFE24 = {});
+CAFE24.BOARD = {"config_1":{"board_no":1,"use_block":"F","use_report":"F"}};
+CAFE24.FRONTEND = {"FW_MANIFEST_CACHE_REVISION":2506181414,"IS_WEB_VIEW":"F"};
+CAFE24.ROUTE = {"is_mobile":false,"is_need_route":false,"language_code":"ZZ","path":{"origin":"\/product\/list.html","result":"\/product\/list.html","prefix":""},"shop_no":0,"skin_code":"default","support_language_list":{"ar":"ar_EG","ar-EG":"ar_EG","de":"de_DE","de-DE":"de_DE","en":"en_US","en-IN":"en_IN","en-PH":"en_PH","en-US":"en_US","es":"es_ES","es-ES":"es_ES","hi":"hi_IN","hi-IN":"hi_IN","id":"id_ID","id-ID":"id_ID","it":"it_IT","it-IT":"it_IT","ja":"ja_JP","ja-JP":"ja_JP","ko":"ko_KR","ko-KR":"ko_KR","ms":"ms_MY","ms-MY":"ms_MY","pt":"pt_PT","pt-PT":"pt_PT","ru":"ru_RU","ru-RU":"ru_RU","th":"th_TH","th-TH":"th_TH","tr":"tr_TR","tr-TR":"tr_TR","vi":"vi_VN","vi-VN":"vi_VN","zh":"zh_CN","zh-CN":"zh_CN","zh-HK":"zh_HK","zh-MO":"zh_MO","zh-SG":"zh_SG","zh-TW":"zh_TW"}};
+</script>
+<link rel="stylesheet" type="text/css" href="//img.echosting.cafe24.com/editors/froala/css/froala_style_ec.min.css?vs=2506181414" charset="utf-8"/>
+
+<link rel="stylesheet" type="text/css" href="/ind-script/optimizer.php?filename=nZKxDQIxDEX7KC1zGBAsABsgMYDjMxCdE0dOToLtOSqgOAnSPvm93xhumhg2W4NiejVMYFx1MmKgWuFimhuQpqTZz2AFv9wzuaoytajZBb13ilNrvaOCD7Y-tWEQ7lS1OImZXcCcF_clBjjHgjTC6bN3ROE8oMHO7_0aLoKtRBqXMlgKHBRt-K7M2IcX9kGUxl7ZuKi1_-z3lzwB&type=css&k=180ea7d06ac06d42f6c8c3e2f844b8c8624af294&t=1726130154"  /><link rel="stylesheet" type="text/css" href="/ind-script/optimizer_user.php?filename=tZQxbgQhDEX7nbQ5h2dvkSJVcgKPsRhrASMMUfb2iybTphqoEDJ6_-sLf9g1MjAtzbgYOIxPTP6-rivktgWhZa8xgDleHJv4BPaQdAcyg6iuBYZc-kkVIqeWkR7o-a2P32EcOojVpCViuEQO-NRWYUMTOmRIY9R0iendIjFrqQfwT2GsSaZbv_CtyVjuTK9VNVTJc-A7h0nk879NgqOXhJUnJY7bHPDWar24I_-z9XdaGmFS0P0VzSH3AZdR1XmqxNb30HbN37vkLMkP5pOmn44QTZlmWf_s7T-YbYyF9g9GNzzxs0O-mDgdtl8&type=css&k=a8937106f5b2485734da7b6319c96ef7c6f2e7fb&t=1668499173&user=T"  />
+<style type="text/css">
+
+</style>
+<title>가공식품 - 담양장터</title></head><body><div id="skipNavigation">
+    <p><a href="#category">전체상품목록 바로가기</a></p>
+    <p><a href="#contents">본문 바로가기</a></p>
+</div>
+    
+    
+<!---------------------------------------------------------------------------------------------------------------------------
+** 탑배너 **
+---------------------------------------------------------------------------------------------------------------------------->
+<!-- 최상단 숨김배너 -->
+
+<div class="top_banner">
+    <!-- 배너이미지 -->
+    <ul><li><a href="#"><img src="/web/upload/category/editor/2021/02/03/f064c259c64f70e8fb0cfb836170e11a.jpg" alt="" title="탑베너"/></a></li>
+    </ul><!--span class="top_checkBox">오늘하루 열지않기 <input id="topBanner_check" type="checkbox" style="vertical-align:-2px" /></span--><span class="top_closeBtn"><img src="/web/upload/goodymall/kr/layout/top_close.png" alt="" title="닫기"/></span>
+</div><!-- //최상단 숨김배너 -->
+
+    
+    
+<div id="wrap">
+    <!----------------------------------------------------------------------
+    ** 상단 메뉴 **
+    ----------------------------------------------------------------------->
+    <div id="header">
+    <div class="inner">        
+       <!-- * TOP SECTION * -->
+        <div class="top_section">
+            <div class="contents">
+                <ul class="left"><li class="t_bookmark"><a href="/link/bookmark.html" target="_blank" onclick="winPop(this.href); return false;" class="xans-element- xans-layout xans-layout-bookmark "><span>북마크</span>
+</a>
+</li>
+                    <li><a href="/link/shortcut.html" target="_blank" onclick="winPop(this.href); return false;" class="xans-element- xans-layout xans-layout-shortcut ">+ 바로가기
+</a>
+</li>
+                </ul><!-- ※멀티샵 생성 시, 아이콘위치 -->                
+                <!-- ※로그아웃 했을 때 상태창 -->
+                <ul class="xans-element- xans-layout xans-layout-statelogoff right off "><li><a href="/member/login.html">로그인</a></li>
+<li><a href="/member/join.html">회원가입</a></li>
+<!-- 통통베너_사용 시 주석해제▼ -->
+<!--div class="tong">
+                        <div id="tong" class="t_bounce">
+                            <a href="/member/join.html">+2,000P</a>
+                            <div class="tails"></div>
+                        </div>
+                    </div-->
+<li><a href="/myshop/index.html">마이페이지</a></li>
+</ul>
+<!-- ※로그인 했을 때 상태창 --></div>
+        </div> <!-- //end top_section -->
+    </div><!-- //end inner -->
+    
+   
+    <!-- * LOGO SECTION * -->
+    <div class="logo_section">
+        <!-- * 쇼핑정보 아이콘 * -->
+        <ul class="xans-element- xans-layout xans-layout-statelogoff shoppinginfo "><li class="xans-element- xans-layout xans-layout-orderbasketcount "><a href="/order/basket.html"><p class="h_basket"><span class="count">0</span></p>
+<b class="h_tit">장바구니</b></a>
+</li>
+            <li><a href="/myshop/index.html"><p class="h_mypage"></p><b class="h_tit">마이 페이지</b></a></li>
+        </ul><!-- 로고 --><div class="logo_show"><a href="/"><img src="/web/upload/category/editor/2021/02/03/11bba8d932971c25a6d030707da0130d.png" alt=""/></a></div>   
+
+        <!-- * 검색 영역 * -->
+        <form id="searchBarForm" name="" action="/product/search.html" method="get" target="_self" enctype="multipart/form-data" >
+<input id="banner_action" name="banner_action" value="" type="hidden"  /><div class="xans-element- xans-layout xans-layout-searchheader "><!--
+            $product_page=/product/detail.html
+            $category_page=/product/list.html
+            -->
+<fieldset>
+<legend>검색</legend>
+                <input id="keyword" name="keyword" fw-filter="" fw-label="검색어" fw-msg="" class="inputTypeText" placeholder="" onmousedown="SEARCH_BANNER.clickSearchForm(this)" value="" type="text"  /><input type="image" src="/web/upload/goodymall/kr/layout/search.png" alt="검색" onclick="SEARCH_BANNER.submitSearchBanner(this); return false;" style=" margin: -1px 0 0 9px; opacity:0.9;"/><ul class="autoDrop" id=""></ul>
+</fieldset>
+</div>
+</form>    </div> <!-- //end logo_section -->
+    
+   
+    
+    <!-- * CATEGORY SECTION * -->
+    <div class="top_fixed"><!-- 상단고정 -->
+        <div class="cate_section">
+            <div class="contents">
+                <!-- 전체카테고리 -->
+                <div class="AllCategory">
+                    <div class="btn-allcate">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <!-- 전체카테고리 클릭 시 나타나는 창 -->
+                <div id="allCate">
+    <div class="allArea">
+        <div class="all_cont"><!-- 해당 내용은 자동으로 불러와집니다 -->
+            <div class="allCate_con"></div>
+        </div>
+    </div>
+</div>
+
+                <!-- 아래 소스는 카테고리 관련소스 :: 삭제시 주의 바람 -->
+                <div class="leftCategory">
+                    <script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
+                    <script type="text/javascript">
+                        window.jQuery3_5_1 = jQuery.noConflict(true);
+                    </script>
+                    <div id="categoryMenu" class="xans-element- xans-layout xans-layout-category"><ul class="menu-dp1">
+<li class="xans-record-"><a href="/sub/brand01.html">담양소개</a></li>
+                            <li class="xans-record-"><a href="/product/list.html?cate_no=26">신선식품</a></li>
+<li class="xans-record-"><a href="/product/list.html?cate_no=28">가공식품</a></li>
+<li class="xans-record-"><a href="/product/list.html?cate_no=87">전통식품</a></li>
+<li class="xans-record-"><a href="/product/list.html?cate_no=99">인기상품</a></li>
+<li class="xans-record-"><a href="/product/list.html?cate_no=62">전체상품</a></li>
+                            <li class="bbs">
+                                <a href="/board/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/1/" class="title">고객센터</a>
+                                <div class="xans-element- xans-layout xans-layout-boardinfo"><ul class="bbs-dp1">
+<li class="xans-record-">
+<a href="/board/공지사항/1/">공지사항</a> </li>
+                                        <li class="xans-record-">
+<a href="/board/상품-사용후기/4/">상품 사용후기</a> </li>
+<li class="xans-record-">
+<a href="/board/상품-qa/6/">상품 Q&A</a> </li>
+<li class="xans-record-">
+<a href="/board/담양-소식/5/">담양 소식</a> </li>
+<li class="xans-record-">
+<a href="/board/이벤트/8/">이벤트</a> </li>
+                                    </ul>
+</div>
+                            </li>
+                        </ul>
+</div>
+                </div><!-- //end leftCategory _ 상단 카테고리 -->    
+            </div>
+        </div>
+    </div><!-- //상단고정 -->
+</div><hr class="layout"/><!-- * for all category * --><script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script><div id="container">
+        <div id="contents">
+            
+<div class="xans-element- xans-product xans-product-menupackage "><div class="xans-element- xans-product xans-product-headcategory path "><span>현재 위치</span>
+<ol>
+<li><a href="/">홈</a></li>
+            <li class=""><a href="/category/가공식품/28/">가공식품</a></li>
+            <li class="displaynone"><a href=""></a></li>
+            <li class="displaynone"><a href=""></a></li>
+            <li class="displaynone"><strong><a href=""></a></strong></li>
+        </ol>
+</div>
+<div class="xans-element- xans-product xans-product-headcategory title "><p class="banner"></p>
+<h2><span>가공식품</span></h2>
+<span class="likeButton displaynone"><button type="button"><strong></strong></button></span>
+</div>
+<ul class="menuCategory"><li style="display:;" class="xans-element- xans-product xans-product-displaycategory  xans-record-"><a href="/category/간식류/54/">간식류 <span class="count displaynone">()</span></a>
+</li>
+<li style="display:;" class="xans-element- xans-product xans-product-displaycategory  xans-record-"><a href="/category/반찬류/91/">반찬류 <span class="count displaynone">()</span></a>
+</li>
+<li style="display:;" class="xans-element- xans-product xans-product-displaycategory  xans-record-"><a href="/category/소스류/52/">소스류 <span class="count displaynone">()</span></a>
+</li>
+<li style="display:;" class="xans-element- xans-product xans-product-displaycategory  xans-record-"><a href="/category/차류음료/53/">차류/음료 <span class="count displaynone">()</span></a>
+</li>
+<li style="display:;" class="xans-element- xans-product xans-product-displaycategory  xans-record-"><a href="/category/건강식품/51/">건강식품 <span class="count displaynone">()</span></a>
+</li>
+<li style="display:;" class="xans-element- xans-product xans-product-displaycategory  xans-record-"><a href="/category/기타/55/">기타 <span class="count displaynone">()</span></a>
+</li>
+    </ul>
+</div>
+
+
+
+<div class="xans-element- xans-product xans-product-normalpackage "><div class="xans-element- xans-product xans-product-normalmenu "><!--
+            $compare_page = /product/compare.html
+        -->
+<div class="function" id="Product_ListMenu">
+            <p class="prdCount">총 <strong>126</strong>개 의 상품이 있습니다.</p>
+            <ul id="type" class="xans-element- xans-product xans-product-orderby"><li class="xans-record-"><a href="?cate_no=28&sort_method=5#Product_ListMenu" >신상품</a></li>
+<li class="xans-record-"><a href="?cate_no=28&sort_method=1#Product_ListMenu" >상품명</a></li>
+<li class="xans-record-"><a href="?cate_no=28&sort_method=3#Product_ListMenu" >낮은가격</a></li>
+<li class="xans-record-"><a href="?cate_no=28&sort_method=4#Product_ListMenu" >높은가격</a></li>
+<li class="xans-record-"><a href="?cate_no=28&sort_method=2#Product_ListMenu" >제조사</a></li>
+<li class="xans-record-"><a href="?cate_no=28&sort_method=7#Product_ListMenu" >사용후기</a></li>
+</ul>
+<span class="compare displaynone"><a href="#none" class="btnCompare" onclick="EC_ListAction.setProductCompare();">상품비교</a></span>
+        </div>
+<fieldset class="condition displaynone">
+<legend>조건별 검색</legend>
+            <p>
+                
+                <select class="xans-element- xans-product xans-product-firstselect FirstSelect"><option value="">-조건선택-</option>
+<option value=""  class=""></option>
+</select>
+<select class="xans-element- xans-product xans-product-secondselect SecondSelect"><option value="">-조건선택-</option>
+<option value=""  class=""></option>
+</select>
+<a href="#SelectSearch" class="btnSubmitFix">검색</a>
+            </p>
+        </fieldset>
+</div>
+<div class="xans-element- xans-product xans-product-listnormal ec-base-product"><!--
+            $count = 40
+                ※ 상품진열갯수를 설정하는 변수입니다. 설정하지 않을 경우, 최대 200개의 상품이 진열 됩니다.
+                ※ 진열된 상품이 많으면, 쇼핑몰에 부하가 발생할 수 있습니다.
+            $basket_result = /product/add_basket.html
+            $basket_option = /product/basket_option.html
+        -->
+<ul class="prdList grid4">
+<li id="anchorBoxId_381" class="xans-record-">
+    <div class="discount" data-custom="" data-price="20000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/시목원-3년-발효숙성-유기농-감식초-500ml/381/category/28/display/1/" name="anchorBoxName_381"><img src="//damyangmk.kr/web/product/medium/202108/80b4e8e1c69754fcf95abeea72476244.jpg" id="eListPrdImage381_1" alt="[시목원] 3년 발효숙성 유기농 감식초 500ml"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="381" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('381','28', '1', 'A0000', false, '1', 'P00000OR', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('381', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/시목원-3년-발효숙성-유기농-감식초-500ml/381/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[시목원] 3년 발효숙성 유기농 감식초 500ml</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">3,500원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">20,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">18,000원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_737" class="xans-record-">
+    <div class="discount" data-custom="" data-price="33000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/현과청-수제-곤약젤리-3종-세트-백향과-블루베리-딸기/737/category/28/display/1/" name="anchorBoxName_737"><img src="//damyangmk.kr/web/product/medium/202308/099ccc830d810dc0e32bbe9326356453.jpg" id="eListPrdImage737_1" alt="[현과청] 수제 곤약젤리 3종 세트 (백향과,  블루베리, 딸기)"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="737" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('737','28', '1', 'A0000', false, '1', 'P0000BCJ', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('737', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/현과청-수제-곤약젤리-3종-세트-백향과-블루베리-딸기/737/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[현과청] 수제 곤약젤리 3종 세트 (백향과,  블루베리, 딸기)</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">33,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">29,700원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_700" class="xans-record-">
+    <div class="discount" data-custom="" data-price="18900"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/담양올밀크-플레인-요거트-500ml-1000ml/700/category/28/display/1/" name="anchorBoxName_700"><img src="//damyangmk.kr/web/product/medium/202210/10216b71641c02c50c3067ebcff6d346.jpg" id="eListPrdImage700_1" alt="[담양올밀크] 플레인 요거트 500ml, 1000ml"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="700" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="CAPP_SHOP_NEW_PRODUCT_OPTIONSELECT.selectOptionCommon(700,  28, 'basket', '')" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('700', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/담양올밀크-플레인-요거트-500ml-1000ml/700/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[담양올밀크] 플레인 요거트 500ml, 1000ml</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">무료</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">18,900원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">17,010원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_832" class="xans-record-">
+    <div class="discount" data-custom="" data-price="15500"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/프로틴팩토리-리포레-동충하초-블랜딩차-오리지널만다린컴포트미시나몬애플/832/category/28/display/1/" name="anchorBoxName_832"><img src="//damyangmk.kr/web/product/medium/202503/40d60221048c6227e8741e8c815faeec.jpg" id="eListPrdImage832_1" alt="[프로틴팩토리] 리포레 동충하초 블랜딩차 오리지널/만다린/컴포트미/시나몬애플"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="832" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="CAPP_SHOP_NEW_PRODUCT_OPTIONSELECT.selectOptionCommon(832,  28, 'basket', '')" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('832', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/프로틴팩토리-리포레-동충하초-블랜딩차-오리지널만다린컴포트미시나몬애플/832/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[프로틴팩토리] 리포레 동충하초 블랜딩차 오리지널/만다린/컴포트미/시나몬애플</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">3,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">15,500원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">13,950원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_831" class="xans-record-">
+    <div class="discount" data-custom="" data-price="3500"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/프로틴팩토리-토이비트-반려동물-간식-고소애연어-70g-고소애황태-70g/831/category/28/display/1/" name="anchorBoxName_831"><img src="//damyangmk.kr/web/product/medium/202503/66cdc3b50db234f00ca0ab7382d85516.jpg" id="eListPrdImage831_1" alt="[프로틴팩토리] 토이비트 (반려동물 간식) 고소애&amp;amp;연어 70g / 고소애&amp;amp;황태 70g"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="831" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="CAPP_SHOP_NEW_PRODUCT_OPTIONSELECT.selectOptionCommon(831,  28, 'basket', '')" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('831', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/프로틴팩토리-토이비트-반려동물-간식-고소애연어-70g-고소애황태-70g/831/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[프로틴팩토리] 토이비트 (반려동물 간식) 고소애&연어 70g / 고소애&황태 70g</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">3,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;">3,500원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_830" class="xans-record-">
+    <div class="discount" data-custom="" data-price="20000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/참사랑-곱창김-담양먹거리/830/category/28/display/1/" name="anchorBoxName_830"><img src="//damyangmk.kr/web/product/medium/202503/b326feb1f5934046bc87190da7443e86.jpg" id="eListPrdImage830_1" alt="참사랑 곱창김  담양먹거리"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="830" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('830','28', '1', 'A0000', false, '1', 'P0000BFY', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('830', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/참사랑-곱창김-담양먹거리/830/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">참사랑 곱창김  담양먹거리</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">20,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">18,000원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_829" class="xans-record-">
+    <div class="discount" data-custom="" data-price="15000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/참사랑-생김-담양먹거리/829/category/28/display/1/" name="anchorBoxName_829"><img src="//damyangmk.kr/web/product/medium/202503/bd735c921499633540090f3863356179.jpg" id="eListPrdImage829_1" alt="참사랑 생김  담양먹거리"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="829" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('829','28', '1', 'A0000', false, '1', 'P0000BFX', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('829', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/참사랑-생김-담양먹거리/829/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">참사랑 생김  담양먹거리</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">15,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">13,500원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_828" class="xans-record-">
+    <div class="discount" data-custom="" data-price="4000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/참사랑-돌김자반-담양먹거리/828/category/28/display/1/" name="anchorBoxName_828"><img src="//damyangmk.kr/web/product/medium/202503/b3ba03e786bc9f97da2a7826e14fb017.png" id="eListPrdImage828_1" alt="참사랑 돌김자반  담양먹거리"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="828" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('828','28', '1', 'A0000', false, '1', 'P0000BFW', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('828', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/참사랑-돌김자반-담양먹거리/828/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">참사랑 돌김자반  담양먹거리</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_827" class="xans-record-">
+    <div class="discount" data-custom="" data-price="20000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/죽향-곱창도시락김-담양먹거리/827/category/28/display/1/" name="anchorBoxName_827"><img src="//damyangmk.kr/web/product/medium/202501/18a91a2a47a97b7382da860d56e6332c.jpg" id="eListPrdImage827_1" alt="죽향 곱창도시락김  담양먹거리"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="827" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('827','28', '1', 'A0000', false, '1', 'P0000BFV', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('827', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/죽향-곱창도시락김-담양먹거리/827/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">죽향 곱창도시락김  담양먹거리</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">20,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">18,000원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_826" class="xans-record-">
+    <div class="discount" data-custom="" data-price="21000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/죽향-곱창김-담양먹거리/826/category/28/display/1/" name="anchorBoxName_826"><img src="//damyangmk.kr/web/product/medium/202501/c8069cee58d5e49094a6549207439cd8.jpg" id="eListPrdImage826_1" alt="죽향 곱창김  담양먹거리"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="826" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('826','28', '1', 'A0000', false, '1', 'P0000BFU', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('826', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/죽향-곱창김-담양먹거리/826/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">죽향 곱창김  담양먹거리</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">21,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">18,900원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_825" class="xans-record-">
+    <div class="discount" data-custom="" data-price="16000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/죽향-재래김-담양먹거리/825/category/28/display/1/" name="anchorBoxName_825"><img src="//damyangmk.kr/web/product/medium/202501/3ce69cb5f2b09f5ef6c66d4da3b393e5.jpg" id="eListPrdImage825_1" alt="죽향 재래김  담양먹거리"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="825" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('825','28', '1', 'A0000', false, '1', 'P0000BFT', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('825', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/죽향-재래김-담양먹거리/825/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">죽향 재래김  담양먹거리</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">16,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">14,400원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_824" class="xans-record-">
+    <div class="discount" data-custom="" data-price="16000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/죽향-도시락김-담양먹거리/824/category/28/display/1/" name="anchorBoxName_824"><img src="//damyangmk.kr/web/product/medium/202501/c6e57ef4bb4d3ba3f77a9eb63bdc3f49.jpg" id="eListPrdImage824_1" alt="죽향 도시락김  담양먹거리"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="824" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('824','28', '1', 'A0000', false, '1', 'P0000BFS', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('824', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/죽향-도시락김-담양먹거리/824/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">죽향 도시락김  담양먹거리</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">16,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">14,400원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_823" class="xans-record-">
+    <div class="discount" data-custom="" data-price="75000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/해드림-자연식초-250ml/823/category/28/display/1/" name="anchorBoxName_823"><img src="//damyangmk.kr/web/product/medium/202501/5dd6e630d70680ebfc5bdb54e1e382e1.jpg" id="eListPrdImage823_1" alt="해드림 자연식초 250ml"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="823" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('823','28', '1', 'A0000', false, '1', 'P0000BFR', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('823', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/해드림-자연식초-250ml/823/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">해드림 자연식초 250ml</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">75,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">67,500원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_822" class="xans-record-">
+    <div class="discount" data-custom="" data-price="60000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/해드림-자연식초-200ml/822/category/28/display/1/" name="anchorBoxName_822"><img src="//damyangmk.kr/web/product/medium/202501/dfeea75a96af5710271deabb37384392.jpg" id="eListPrdImage822_1" alt="해드림 자연식초 200ml"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="822" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('822','28', '1', 'A0000', false, '1', 'P0000BFQ', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('822', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/해드림-자연식초-200ml/822/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">해드림 자연식초 200ml</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">60,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">54,000원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_821" class="xans-record-">
+    <div class="discount" data-custom="" data-price="30000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/해드림-자연식초-100ml/821/category/28/display/1/" name="anchorBoxName_821"><img src="//damyangmk.kr/web/product/medium/202501/4595a238fd10b67818c25fe46c5e5ef7.jpg" id="eListPrdImage821_1" alt="해드림 자연식초 100ml"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="821" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('821','28', '1', 'A0000', false, '1', 'P0000BFP', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('821', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/해드림-자연식초-100ml/821/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">해드림 자연식초 100ml</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">30,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">27,000원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_820" class="xans-record-">
+    <div class="discount" data-custom="" data-price="32000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/참사랑에프앤비-죽향-맛김-선물세트/820/category/28/display/1/" name="anchorBoxName_820"><img src="//damyangmk.kr/web/product/medium/202503/b56acba7b44ec5a8a7fa7ba002dd6fcf.jpg" id="eListPrdImage820_1" alt="[참사랑에프앤비] 죽향 맛김 선물세트"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="820" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('820','28', '1', 'A0000', false, '1', 'P0000BFO', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('820', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/참사랑에프앤비-죽향-맛김-선물세트/820/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[참사랑에프앤비] 죽향 맛김 선물세트</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">32,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">28,800원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_808" class="xans-record-">
+    <div class="discount" data-custom="" data-price="24000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/네자매-선물세트/808/category/28/display/1/" name="anchorBoxName_808"><img src="//damyangmk.kr/web/product/medium/202408/1b2556b1440868173f1b25f66101163f.jpg" id="eListPrdImage808_1" alt="네자매 선물세트"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="808" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="CAPP_SHOP_NEW_PRODUCT_OPTIONSELECT.selectOptionCommon(808,  28, 'basket', '')" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('808', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/네자매-선물세트/808/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">네자매 선물세트</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">3,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">24,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">21,600원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_796" class="xans-record-">
+    <div class="discount" data-custom="" data-price="66000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/사봉실꿀벌농원-자연-벌꿀-선물세트-2호-아카시아-때죽-각-1kg/796/category/28/display/1/" name="anchorBoxName_796"><img src="//damyangmk.kr/web/product/medium/202408/45d2be0c17fe7f7128cbdcf0a7749427.jpg" id="eListPrdImage796_1" alt="[사봉실꿀벌농원] 자연 벌꿀 선물세트 2호 (아카시아, 때죽) 각 1kg"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="796" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('796','28', '1', 'A0000', false, '1', 'P0000BEQ', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('796', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/사봉실꿀벌농원-자연-벌꿀-선물세트-2호-아카시아-때죽-각-1kg/796/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[사봉실꿀벌농원] 자연 벌꿀 선물세트 2호 (아카시아, 때죽) 각 1kg</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">무료</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">66,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">59,400원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_794" class="xans-record-">
+    <div class="discount" data-custom="" data-price="70000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/사봉실꿀벌농원-자연벌꿀-24kg-4종/794/category/28/display/1/" name="anchorBoxName_794"><img src="//damyangmk.kr/web/product/medium/202408/d542b1b37e19c48c264524ed07f43ab0.jpg" id="eListPrdImage794_1" alt="[사봉실꿀벌농원] 자연벌꿀 2.4kg 4종"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="794" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="CAPP_SHOP_NEW_PRODUCT_OPTIONSELECT.selectOptionCommon(794,  28, 'basket', '')" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('794', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/사봉실꿀벌농원-자연벌꿀-24kg-4종/794/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[사봉실꿀벌농원] 자연벌꿀 2.4kg 4종</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">무료</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">70,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">63,000원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_788" class="xans-record-">
+    <div class="discount" data-custom="" data-price="35000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/설호산업-죽로차/788/category/28/display/1/" name="anchorBoxName_788"><img src="//damyangmk.kr/web/product/medium/202404/6542fd0a14379ca6ea6770f74fb95af4.jpg" id="eListPrdImage788_1" alt="[설호산업] 죽로차"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="788" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('788','28', '1', 'A0000', false, '1', 'P0000BEI', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('788', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/설호산업-죽로차/788/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[설호산업] 죽로차</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">35,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">31,500원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_786" class="xans-record-">
+    <div class="discount" data-custom="" data-price="30000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/설호산업-꽃차-선물세트/786/category/28/display/1/" name="anchorBoxName_786"><img src="//damyangmk.kr/web/product/medium/202402/d474355b15e9df04a21ccf3c0f47938c.jpg" id="eListPrdImage786_1" alt="[설호산업] 꽃차 선물세트"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="786" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('786','28', '1', 'A0000', false, '1', 'P0000BEG', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('786', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/설호산업-꽃차-선물세트/786/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[설호산업] 꽃차 선물세트</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">30,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">27,000원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_783" class="xans-record-">
+    <div class="discount" data-custom="" data-price="15000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/오늘도달큼-담양딸기로-만든-딸기콤부차-1박스5g-x-30개입/783/category/28/display/1/" name="anchorBoxName_783"><img src="//damyangmk.kr/web/product/medium/202405/680c66ef4d2228d646cbff50f3cef4e6.jpg" id="eListPrdImage783_1" alt="오늘도달큼 담양딸기로 만든 딸기콤부차 1박스(5g x 30개입)"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="783" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('783','28', '1', 'A0000', false, '1', 'P0000BED', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('783', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/오늘도달큼-담양딸기로-만든-딸기콤부차-1박스5g-x-30개입/783/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">오늘도달큼 담양딸기로 만든 딸기콤부차 1박스(5g x 30개입)</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">3,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">15,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">13,500원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_772" class="xans-record-">
+    <div class="discount" data-custom="" data-price="33000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/유기농샵-유기농-브로컬리-양배추즙-110ml-x-30포-2박스총60포/772/category/28/display/1/" name="anchorBoxName_772"><img src="//damyangmk.kr/web/product/medium/202105/c773deb2fc65f8bdcdd3a67620ba0ad7.jpg" id="eListPrdImage772_1" alt="[유기농샵] 유기농 브로컬리 양배추즙 110ml x 30포 2박스(총60포)"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="772" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('772','28', '1', 'A0000', false, '1', 'P0000BDS', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('772', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/유기농샵-유기농-브로컬리-양배추즙-110ml-x-30포-2박스총60포/772/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[유기농샵] 유기농 브로컬리 양배추즙 110ml x 30포 2박스(총60포)</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">3,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">33,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">29,700원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_769" class="xans-record-">
+    <div class="discount" data-custom="" data-price="30000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/대숲이슬-고서-와인-세트-750ml2/769/category/28/display/1/" name="anchorBoxName_769"><img src="//damyangmk.kr/web/product/medium/202106/e80714a7425fb8cfc0365c376fa6d1bb.jpg" id="eListPrdImage769_1" alt="[대숲이슬] 고서 와인 세트 (750ml*2)"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="769" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span>  <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('769', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/대숲이슬-고서-와인-세트-750ml2/769/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[대숲이슬] 고서 와인 세트 (750ml*2)</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">5,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">30,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">27,000원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_768" class="xans-record-">
+    <div class="discount" data-custom="" data-price="10000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/담양죽로차-다가설-프리미엄차-7종/768/category/28/display/1/" name="anchorBoxName_768"><img src="//damyangmk.kr/web/product/medium/202401/93364ec15d2c9116666d5953ee1aecc9.jpg" id="eListPrdImage768_1" alt="[담양죽로차]  다가설 프리미엄차 7종"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="768" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="CAPP_SHOP_NEW_PRODUCT_OPTIONSELECT.selectOptionCommon(768,  28, 'basket', '')" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('768', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/담양죽로차-다가설-프리미엄차-7종/768/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[담양죽로차]  다가설 프리미엄차 7종</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">10,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">9,000원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_766" class="xans-record-">
+    <div class="discount" data-custom="" data-price="30000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/담양죽로차-다가설-프리미엄-선물세트/766/category/28/display/1/" name="anchorBoxName_766"><img src="//damyangmk.kr/web/product/medium/202401/4a746601f38248a42630ca8f4b18a677.jpg" id="eListPrdImage766_1" alt="[담양죽로차] 다가설 프리미엄 선물세트"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="766" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('766','28', '1', 'A0000', false, '1', 'P0000BDM', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('766', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/담양죽로차-다가설-프리미엄-선물세트/766/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[담양죽로차] 다가설 프리미엄 선물세트</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">30,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">27,000원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_756" class="xans-record-">
+    <div class="discount" data-custom="" data-price="56000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/시목원-유기농-감매화-선물세트-300ml3병/756/category/28/display/1/" name="anchorBoxName_756"><img src="//damyangmk.kr/web/product/medium/202312/69dc546cf40de91401398e3b2b63c4f5.jpg" id="eListPrdImage756_1" alt="[시목원] 유기농 감매화 선물세트 300ml/3병"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="756" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('756','28', '1', 'A0000', false, '1', 'P0000BDC', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('756', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/시목원-유기농-감매화-선물세트-300ml3병/756/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[시목원] 유기농 감매화 선물세트 300ml/3병</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">무료</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">56,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">50,400원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_730" class="xans-record-">
+    <div class="discount" data-custom="" data-price="50000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/산들바다장아찌-5종-세트-매실마늘죽순무우고추-370g/730/category/28/display/1/" name="anchorBoxName_730"><img src="//damyangmk.kr/web/product/medium/202105/b16708722b9f3fa86f59d15339ae88f9.png" id="eListPrdImage730_1" alt="[산들바다]장아찌 5종 세트 (매실,마늘,죽순,무우,고추) 370g"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="730" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('730','28', '1', 'A0000', false, '1', 'P0000BCC', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('730', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/산들바다장아찌-5종-세트-매실마늘죽순무우고추-370g/730/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[산들바다]장아찌 5종 세트 (매실,마늘,죽순,무우,고추) 370g</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">무료</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">50,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">45,000원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_727" class="xans-record-">
+    <div class="discount" data-custom="" data-price="59900"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/프로틴팩토리-면역력에-좋은-고소애단백질-메가프로틴/727/category/28/display/1/" name="anchorBoxName_727"><img src="//damyangmk.kr/web/product/medium/202308/6e35fb1ade63b09ee71ad99092953fb3.jpg" id="eListPrdImage727_1" alt="[프로틴팩토리] 면역력에 좋은 고소애단백질-메가프로틴"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="727" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('727','28', '1', 'A0000', false, '1', 'P0000BBZ', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('727', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/프로틴팩토리-면역력에-좋은-고소애단백질-메가프로틴/727/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[프로틴팩토리] 면역력에 좋은 고소애단백질-메가프로틴</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">무료</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">59,900원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">53,910원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_722" class="xans-record-">
+    <div class="discount" data-custom="" data-price="56000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/시목원-유기농-감식초-고급선물세트/722/category/28/display/1/" name="anchorBoxName_722"><img src="//damyangmk.kr/web/product/medium/202308/1963444a5a6ea9e4056efd1b94fb6198.jpg" id="eListPrdImage722_1" alt="[시목원] 유기농 감식초 고급선물세트"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="722" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('722','28', '1', 'A0000', false, '1', 'P0000BBU', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('722', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/시목원-유기농-감식초-고급선물세트/722/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[시목원] 유기농 감식초 고급선물세트</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">무료</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">56,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">50,400원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_719" class="xans-record-">
+    <div class="discount" data-custom="" data-price="29000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/명가혜-죽로죽신차티백세트/719/category/28/display/1/" name="anchorBoxName_719"><img src="//damyangmk.kr/web/product/medium/202308/b7d70a81de4ea56110b9a653df6db0c3.jpg" id="eListPrdImage719_1" alt="[명가혜] 죽로죽신차티백세트"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="719" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('719','28', '1', 'A0000', false, '1', 'P0000BBR', 'A', 'T', '30');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('719', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/명가혜-죽로죽신차티백세트/719/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[명가혜] 죽로죽신차티백세트</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">29,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">26,100원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_718" class="xans-record-">
+    <div class="discount" data-custom="" data-price="140000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/담양죽로차-다가설-녹차-40g-홍차-40g-선물세트/718/category/28/display/1/" name="anchorBoxName_718"><img src="//damyangmk.kr/web/product/medium/202308/e7680017dc966331e3e2bce372a245b6.jpg" id="eListPrdImage718_1" alt="[담양죽로차] 다가설 녹차 40g+ 홍차 40g  선물세트"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="718" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('718','28', '1', 'A0000', false, '1', 'P0000BBQ', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('718', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/담양죽로차-다가설-녹차-40g-홍차-40g-선물세트/718/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[담양죽로차] 다가설 녹차 40g+ 홍차 40g  선물세트</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">140,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">126,000원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_717" class="xans-record-">
+    <div class="discount" data-custom="" data-price="42800"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/꿈에그린-담향-담금주-선물세트-2호사랑주우정주애정주/717/category/28/display/1/" name="anchorBoxName_717"><img src="//damyangmk.kr/web/product/medium/202308/d7680b5edb9ab703f33f8fa6319d1e15.jpg" id="eListPrdImage717_1" alt="[꿈에그린] 담향 담금주 선물세트 2호(사랑주,우정주,애정주)"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="717" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('717','28', '1', 'A0000', false, '1', 'P0000BBP', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('717', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/꿈에그린-담향-담금주-선물세트-2호사랑주우정주애정주/717/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[꿈에그린] 담향 담금주 선물세트 2호(사랑주,우정주,애정주)</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">3,500원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">42,800원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">38,520원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_716" class="xans-record-">
+    <div class="discount" data-custom="" data-price="42800"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/꿈에그린-담향-담금주키트-1호세트담향주행복주사랑주/716/category/28/display/1/" name="anchorBoxName_716"><img src="//damyangmk.kr/web/product/medium/202308/f06d1799f817b5118168cf53b3e43e0d.jpg" id="eListPrdImage716_1" alt="[꿈에그린] 담향 담금주키트 1호세트(담향주,행복주,사랑주)"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="716" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('716','28', '1', 'A0000', false, '1', 'P0000BBO', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('716', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/꿈에그린-담향-담금주키트-1호세트담향주행복주사랑주/716/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[꿈에그린] 담향 담금주키트 1호세트(담향주,행복주,사랑주)</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">3,500원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">42,800원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">38,520원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_710" class="xans-record-">
+    <div class="discount" data-custom="" data-price="11500"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/현과청-백향과-워터젤리-100g-x-6개-총-600g/710/category/28/display/1/" name="anchorBoxName_710"><img src="//damyangmk.kr/web/product/medium/202306/da5550873f2ac2aff9475c61072fd3dd.jpg" id="eListPrdImage710_1" alt="[현과청] 백향과 워터젤리 100g x 6개 (총 600g)"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="710" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span>  <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('710', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/현과청-백향과-워터젤리-100g-x-6개-총-600g/710/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[현과청] 백향과 워터젤리 100g x 6개 (총 600g)</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">11,500원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">10,350원</span></li>
+</ul>
+<div class="promotion"><img src="/web/upload/icon_202101211356052200.jpg"  class="icon_img" alt="품절" />       </div>
+    </div>
+</li>
+<li id="anchorBoxId_689" class="xans-record-">
+    <div class="discount" data-custom="" data-price="13900"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/담양한과-우리콩참두부과자-50g-8봉-담양먹거리/689/category/28/display/1/" name="anchorBoxName_689"><img src="//damyangmk.kr/web/product/medium/202403/d5b9a36df11ad53eeaffe1f256542b1d.jpg" id="eListPrdImage689_1" alt="담양한과 우리콩참두부과자 50g * 8봉  담양먹거리"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="689" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('689','28', '1', 'A0000', false, '1', 'P0000BAN', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('689', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/담양한과-우리콩참두부과자-50g-8봉-담양먹거리/689/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">담양한과 우리콩참두부과자 50g * 8봉  담양먹거리</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">3,500원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">13,900원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">12,510원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_678" class="xans-record-">
+    <div class="discount" data-custom="" data-price="7590"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/담양장터2월특가-산들바다-사찰음식-송하-무우차-100g/678/category/28/display/1/" name="anchorBoxName_678"><img src="//damyangmk.kr/web/product/medium/202105/59251f7b5801613be815f1e136a5851f.png" id="eListPrdImage678_1" alt="[담양장터2월특가] 산들바다 사찰음식  송하 무우차 100g"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="678" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('678','28', '1', 'A0000', false, '1', 'P0000BAC', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('678', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/담양장터2월특가-산들바다-사찰음식-송하-무우차-100g/678/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[담양장터2월특가] 산들바다 사찰음식  송하 무우차 100g</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;">7,590원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_649" class="xans-record-">
+    <div class="discount" data-custom="" data-price="30000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/호정식품-호정가-꿀라면과자-48개입/649/category/28/display/1/" name="anchorBoxName_649"><img src="//damyangmk.kr/web/product/medium/202201/694d2189c755d6b37c873a68c4d93b1d.jpg" id="eListPrdImage649_1" alt="[호정식품] 호정가 꿀라면과자 (48개입)"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="649" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="category_add_basket('649','28', '1', 'A0000', false, '1', 'P00000YZ', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('649', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/호정식품-호정가-꿀라면과자-48개입/649/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[호정식품] 호정가 꿀라면과자 (48개입)</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">무료</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">30,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">27,000원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_648" class="xans-record-">
+    <div class="discount" data-custom="" data-price="16000"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/호정식품-호정가-꿀라면과자/648/category/28/display/1/" name="anchorBoxName_648"><img src="//damyangmk.kr/web/product/medium/202201/8afd758b12536d18cc28a39c283b84f3.jpg" id="eListPrdImage648_1" alt="[호정식품] 호정가 꿀라면과자"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="648" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span> <img src="/web/upload/icon_202101211355269600.png"  onClick="CAPP_SHOP_NEW_PRODUCT_OPTIONSELECT.selectOptionCommon(648,  28, 'basket', '')" alt="장바구니 담기" class="ec-admin-icon cart" /> <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('648', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/호정식품-호정가-꿀라면과자/648/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[호정식품] 호정가 꿀라면과자</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">무료</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">16,000원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">14,400원</span></li>
+</ul>
+<div class="promotion">       </div>
+    </div>
+</li>
+<li id="anchorBoxId_616" class="xans-record-">
+    <div class="discount" data-custom="" data-price="17900"></div>
+    <div class="thumbnail">
+        <div class="prdImg">
+            <a href="/product/담양특가-산들바다사찰음식-도라지청-1l/616/category/28/display/1/" name="anchorBoxName_616"><img src="//damyangmk.kr/web/product/medium/202105/1c228759d8fb77fbffbf0084e4c65dca.png" id="eListPrdImage616_1" alt="[담양특가] 산들바다사찰음식 도라지청 1L"/></a>
+        </div>
+        <div class="icon">
+            <span class="wish"><img src="/web/upload/icon_202101211355356500.png"  class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="616" categoryno="28" icon_status="off" login_status="F" individual-set="F" /></span>
+            <span class="likeButton displaynone"><strong></strong></span>
+            <span class="option"></span>  <img src="/web/upload/icon_202101211355202200.png"  onClick="zoom('616', '28', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />        </div>
+    </div>
+    <div class="description">
+        <strong class="name"><a href="/product/담양특가-산들바다사찰음식-도라지청-1l/616/category/28/display/1/" class=""><span class="title displaynone"><span style="font-size:15px;color:#555555;">상품명</span> :</span> <span style="font-size:15px;color:#555555;">[담양특가] 산들바다사찰음식 도라지청 1L</span></a></strong>
+        <ul class="xans-element- xans-product xans-product-listitem spec"><li class=" display배송비 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">배송비</span> :</strong> <span style="font-size:15px;color:#555555;">4,000원</span></li>
+<li class=" display판매가 xans-record-">
+<strong class="title "><span style="font-size:15px;color:#555555;">판매가</span> :</strong> <span style="font-size:15px;color:#555555;text-decoration:line-through;">17,900원</span><span id="span_product_tax_type_text" style="text-decoration:line-through;"> </span></li>
+<li class=" display회원할인가 xans-record-">
+<strong class="title "><span style="font-size:17px;color:#f53d3d;font-weight:bold;">회원할인가</span> :</strong> <span style="font-size:17px;color:#f53d3d;font-weight:bold;">16,110원</span></li>
+</ul>
+<div class="promotion"><img src="/web/upload/icon_202101211356052200.jpg"  class="icon_img" alt="품절" />       </div>
+    </div>
+</li>
+        </ul>
+<style>
+            .ec-base-product .prdList .thumbnail a img {border: 1px solid #efefef;}
+        </style>
+</div>
+</div>
+
+<div class="xans-element- xans-product xans-product-normalpaging ec-base-paginate"><a href="#none" class="first"><img src="//img.echosting.cafe24.com/skin/base/common/btn_page_first.gif" alt="첫 페이지"/></a>
+<a href="#none"><img src="//img.echosting.cafe24.com/skin/base/common/btn_page_prev.gif" alt="이전 페이지"/></a>
+<ol>
+<li class="xans-record-"><a href="?cate_no=28&page=1" class="this">1</a></li>
+        <li class="xans-record-"><a href="?cate_no=28&page=2" class="other">2</a></li>
+        <li class="xans-record-"><a href="?cate_no=28&page=3" class="other">3</a></li>
+        <li class="xans-record-"><a href="?cate_no=28&page=4" class="other">4</a></li>
+            </ol>
+<a href="?cate_no=28&page=2"><img src="//img.echosting.cafe24.com/skin/base/common/btn_page_next.gif" alt="다음 페이지"/></a>
+<a href="?cate_no=28&page=4" class="last"><img src="//img.echosting.cafe24.com/skin/base/common/btn_page_last.gif" alt="마지막 페이지"/></a>
+</div>
+         <!------------------------------------------------------------------------------------------------
+            ■ 우측 퀵베너 + 퀵메뉴 ■
+		 	::::: 네이버 톡톡 , 카카오 플친 링크는 하단 quickMenu.html에서 수정하실 수 있습니다  :::
+          ------------------------------------------------------------------------------------------------->
+            <div id="quick_menu">
+    <div id="fixed_menu01">
+        <div class="quRbanner"><a href="/member/join.html"><img src="/web/upload/category/editor/2021/02/03/3a8cdd6cf169d284e0bf40bd510ba323.jpg"/></a></div>
+        <div class="quCs -hover">            
+           <!-------------------------------------------------------------------------------------------------------
+
+            ::: sns 버튼 ▼ :::  <a href="#"> ← # 위치에 이동되길 원하는 링크를 삽입해주시기 바랍니다           
+
+           --------------------------------------------------------------------------------------------------------->
+            <!--<ul class="sns_icon">
+                <li>
+                    <!-- Talk Talk Banner Script start -->
+                    <!--<script type="text/javascript" src="//partner.talk.naver.com/banners/script"></script>
+                    <div class="talk_banner_div" data-id="38859" ></div>
+                </li>
+                <li><a href="//pf.kakao.com/_hxcTRK" target="blank" ><img src="/web/upload/goodymall/kr/layout/kakaoplus.png">카톡채널</a></li>
+            </ul>-->
+            
+            <ul id="goBtn"><li class="btn up"><i class="xi-arrow-up"></i>TOP</li>
+                <li class="btn down"><i class="xi-arrow-down"></i>DOWN</li>
+            </ul></div>
+        <div class="xans-element- xans-layout xans-layout-productrecent"><h2><a href="/product/recent_view_product.html">최근본상품</a></h2>
+<p class="player"><img src="/web/upload/goodymall/kr/layout/btn_recent_next.gif" alt="다음 제품" class="next"/></p>
+<ul>
+<li class="displaynone xans-record-"><a href="/product/detail.html##param##"><img src="about:blank" alt=""/></a></li>
+                <li class="displaynone xans-record-"><a href="/product/detail.html##param##"><img src="about:blank" alt=""/></a></li>
+            </ul>
+<p class="player"><img src="/web/upload/goodymall/kr/layout/btn_recent_prev.gif" alt="이전 제품" class="prev"/></p>
+</div>
+    </div>
+	<div id="top_mar01" style="display:none;"></div>
+</div>
+
+        </div><hr class="layout"/></div><hr class="layout"/></div><hr class="layout"/><div id="footer">
+    <!----------------------------------------------------------------------
+    ** 푸터 **
+    ----------------------------------------------------------------------->
+    <!----------------------------------------------------------------------
+
+
+::: 푸터인스타그램 [인스타그램 쇼핑위젯_채티스 소스 발급방법:::
+
+※※※※※ 해당 앱은 카페24에서 제공하는 기능으로, 업체에서 해당 앱을 업데이트 할 때마다 수시로 기능이 변경될 수 있습니다. ※※※※※
+
+1. 앱스토어에서 해당 앱을 다운받으신 후, 계정을 연결합니다. 
+2. feed에 나타날 게시글을 선택합니다.
+3. 기본설정 메뉴 - 디자인설정 - 설정페이지에서 설정을 조절합니다.	[ 해당 설정은 위젯 무료 기능 기준입니다. ]
+	→ 열 개수 : 8 , 행 개수 : 1  /  가로 길이 :70%  /  마진 값 : T 10px, B 40px  /  타이틀 크기 : 22px
+	( ▲ 이렇게 기본으로 설정하고 /gd_import/css/layout.css 파일에서 한번 더 css를 수정합니다. )
+
+4.  보통 메인 메인 상품 진열중, 마지막 진열의 바로 하단에 인스타그램이 붙습니다 ( = 무조건 홈페이지 최 하단에 붙지 않습니다. )
+	때문에 홈페이지 하단에 인스타그램의 위치를 지정하기 위해서는 ▽
+	****  기본 설정메뉴 우측 하단에 위치한 문의하기 버튼으로 채티스 네이버 톡톡에 문의 하셔서
+	소스를 발급받으신 뒤, '인스타그램 쇼핑 위젯 위치 수정' 의 위치를 사용자 설정으로 변경해주시기바랍니다.
+	( ※ 푸터 바로 위에 인스타그램 소스가 이미 삽입되어 있으니 앱스토어 내에 있는 '인스타그램 쇼핑위젯 위치'만
+	사용자 설정으로 바꾸시고 소스는 따로삽입하지 않으셔도 됩니다. )
+
+[ 채티스 측에 문의할 때 보내실 내용 ▼]
+안녕하세요 카페24 아이디 [ = 변경할 카페24 아이디 ]  <<  계정, 인스타그램 위치 직접 수정하고싶은데 소스 안내 부탁드립니다. 감사합니다
+	<ex> 안녕하세요  카페24 아이디 ecudemo159943 << 계정 , 인스타그램 위치 직접 수정하고싶은데 소스 안내 부탁드립니다. 감사합니다
+
++ 그 외 추가 기능은 채티스 메뉴얼 동영상 참고해주시기 바랍니다.
+
+※ 세부적으로 인스타그램의 위치를 지정하고 싶으실 경우, 기본설정메뉴 우측 하단에
+위치한 문의하기 버튼으로 채티스 네이버 톡톡에 문의 하셔서 소스를 발급받으시기 바랍니다.
+
+
+-----------------------------------------------------------------------> 
+
+<!-- ▼▼▼ 채티스 네이버 톡톡문의로 발급받은 인스타그램 소스 ▼▼▼-->
+<section id="ChatisInstashoppingWidget" style="width: 1260px !important;"></section><div class="xans-element- xans-layout xans-layout-footer m_footer"><div class="util">
+        <div class="util_inner">
+            <ul class="menu">
+<li><a href="/sub/brand01.html">담양장터 소개</a></li>
+                <li><a href="/member/agreement.html">이용약관</a></li>
+                <li><a href="/member/privacy.html">개인정보취급방침</a></li>
+                <li><a href="/shopinfo/guide.html">이용안내</a></li>
+            </ul>
+<!--<ul class="sns">
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="xi-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="xi-instagram"></i></a></li>
+                <li><a href="https://center-pf.kakao.com/login" target="_blank"><i class="xi-kakaotalk"></i></a></li>
+                <li><a href="https://blog.naver.com/" target="_blank"><i class="xi-blogger"></i></a></li>
+            </ul>-->
+</div>
+    </div>
+<div class="ft_con ">
+        <div class="ftInner">
+            <div class="fsec01 sec">
+                <p class="tit">고객센터</p>
+                <span class="first">061-383-3336</span>
+                <span>평일 09:00 - 18:00</span>
+                <span>점심 12:00 - 13:00</span>
+                <span>토요일 일요일 공휴일 휴무</span>
+            </div>
+            
+            <div class="fsec02 sec">
+                <p class="tit">계좌정보</p>
+                <!--<span>농협 351-1160-3375-53</span>
+                <span class="last">예금주 : 담양장터 주식회사</span>
+                <select onchange="if(this.value) window.open(this.value);" class="banksel">
+                    <option selected="" value="">인터넷뱅킹 바로가기</option>
+                    <option value="http://www.kbstar.com">:: 국민은행 ::</option>
+                    <option value="http://www.nonghyup.com">:: 농협 ::</option>
+                    <option value="http://www.epostbank.go.kr">:: 우체국 ::</option>
+                    <option value="http://www.shinhan.com">:: 신한은행 ::</option>
+                    <option value="http://www.wooribank.com">:: 우리은행 ::</option>
+                    <option value="http://www.hanabank.com">:: KEB하나은행 ::</option>
+                    <option value="http://www.citibank.co.kr">:: 시티은행 ::</option>
+                    <option value="http://www.ibk.co.kr">:: 기업은행 ::</option>
+                    <option value="http://www.scfirstbank.com">:: sc제일은행 ::</option>
+                </select>-->
+            </div>
+            
+            <div class="fsec03 sec">
+                <!-- 공지사항 메인 연동 -->
+                <div class="xans-element- xans-board xans-board-listpackage-1 xans-board-listpackage xans-board-1 board "><p class="xans-element- xans-board xans-board-title-1 xans-board-title xans-board-1 tit ">공지사항 
+<a href="/board/free/list.html?board_no=1" class="btnLink">더보기</a>
+</p>
+<div class="ec-base-table typeList gLine">
+        <table border="0" summary="">
+<caption>공지사항 목록</caption>
+            <colgroup>
+<col style="width:auto;"/>
+<col style="width:auto;"/>
+</colgroup><thead class="xans-element- xans-board xans-board-listheader-1 xans-board-listheader xans-board-1 blind "><tr>
+<th scope="col">제목</th>
+                    <th scope="col">작성일</th>
+                </tr></thead>
+</table>
+</div>
+</div>
+             
+            </div>
+        </div>
+    </div>
+<div class="ft_bottom ">
+        <div class="com_info">
+            <span><b>COMPANY : 담양장터몰 농업회사법인 주식회사 </b> <b>CEO : 박영수</b> <b>PHONE : 061-383-3336</b> <b>FAX : 061-381-0384</b></span> 
+            <span><b>BUSINESS LICENCE : [521-86-01719]</b> <b>E-COMMERCE PERMIT : 제2021-전남담양-0193호 <a href="#none" onclick="window.open('http://www.ftc.go.kr/bizCommPop.do?wrkr_no=5218601719', 'bizCommPop', 'width=750, height=950;');return false;">[사업자정보확인]</a></b></span>
+            <span>ADDRESS : 57365 전라남도 담양군 담양읍 면앙정로 730 </span>
+            <span>개인정보관리책임자 : <a href="mailto:3833336@naver.com">박영수(3833336@naver.com)</a></span> <!--<span>CONTACT : <strong><a href="mailto:3833336@naver.com">3833336@naver.com</a></strong></span>-->
+            <span class="copyright">COPYRIGHT (C) Goodymall. All rights reserved.</span>         
+            <br/><span><br/>
+            담양장터는 담양군이 지원하고 담양의 생산자들이 운영하는 쇼핑몰입니다.</span>            
+        </div>
+        <p class="esc">
+            <span class="title">구매안전서비스</span> 
+            <span>고객님은 안전거래를 위해 현금 등으로 결제시 저희 쇼핑몰이 가입한 PG에스크로 구매안전서비스를 이용하실 수 있습니다.</span>
+            <span class="escBtn"><img src="/web/upload/goodymall/kr/layout/ftIcon.png" style=" margin-top: -5px;"/></span>
+    
+                
+            
+            <!--에스크로이미지-->
+           
+            <script language="javascript" src="https://pgweb.tosspayments.com/WEB_SERVER/js/escrowValid.js"></script>
+            <a onclick="goValidEscrow('CF_damyang14a1');"><img src="/web/upload/goodymall/kr/layout/lg.jpg" width="660px;" height="94px;" border="0" style="cursor:hand; margin-top: 10px;"/></a>
+           
+            
+        </p>
+    </div>
+</div>
+
+</div>
+
+<!-- 결제를 위한 필수 영역 -->
+<div id="progressPaybar" style="display:none;">
+    <div id="progressPaybarBackground" class="layerProgress"></div>
+    <div id="progressPaybarView">
+        <div class="box">
+            <p class="graph">
+                <span><img src="//img.echosting.cafe24.com/skin/base_ko_KR/layout/txt_progress.gif" alt="현재 결제가 진행중입니다."/></span>
+                <span><img src="//img.echosting.cafe24.com/skin/base/layout/img_loading.gif" alt=""/></span>
+            </p>
+            <p class="txt">
+                본 결제 창은 결제완료 후 자동으로 닫히며,결제 진행 중에 본 결제 창을 닫으시면<br/>
+                주문이 되지 않으니 결제 완료 될 때 까지 닫지 마시기 바랍니다.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- // 결제를 위한 필수 영역 -->
+
+
+<span itemscope="" itemtype="https://schema.org/Organization">
+<link itemprop="url" href="https://damyangmk.kr">
+</span>
+<script type="text/javascript" src="/app/Eclog/js/cid.generate.js?vs=64bd861315c1ba3fd961d80e07ea764d&u=damyang1000.1"></script>
+<script>        (function (i, s, o, g) {
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            a.setAttribute('crossorigin', 'anonymous');
+            m.parentNode.insertBefore(a, m);
+            a.onload = function() {
+                if (typeof window.initCaWebAnalytics === 'function') {
+                    window.initCaWebAnalytics({"mid":"damyang1000","stype":"e","domain":"","shop_no":1,"lang":"ko_KR","mobile_flag":"F","send_endpoint":"https://ca-log.cafe24data.com","path_role":"PRODUCT_LIST"});
+                }
+            };
+        })(window, document, 'script', '//optimizer.poxo.com/ca2/analytics.js');</script>
+
+                <script>
+                try {
+                    // Account ID 적용
+                    if (!wcs_add) var wcs_add = {};
+                    wcs_add["wa"] = "s_3c9cdd7cd38";
+            
+                    // 네이버 페이 White list가 있을 경우
+                    wcs.checkoutWhitelist = ["damyang1000.cafe24.com", "www.damyang1000.cafe24.com", "m.damyang1000.cafe24.com", "damyangmk.co.kr", "www.damyangmk.co.kr", "m.damyangmk.co.kr", "damyangmk.kr", "www.damyangmk.kr", "m.damyangmk.kr"];
+                
+                    // 레퍼러 
+                    wcs.setReferer("");
+
+                    // 유입 추적 함수 호출
+                    wcs.inflow("damyangmk.kr");
+
+                    // 로그수집
+                    wcs_do();
+                } catch (e) {};
+                </script>
+            
+
+<!-- External Script Start -->
+
+<!-- kmp -->
+<!-- CMC3 script -->
+<div id="kmp_common_top_script" style="display:none;">
+<script type="text/javascript" charset="UTF-8" src="//t1.daumcdn.net/adfit/static/kp.js"></script>
+<script type="text/javascript">
+  kakaoPixel('2521556857592761003').pageView();
+  kakaoPixel.setServiceOrigin('20001');
+</script>
+
+</div>
+<!-- CMC3 script -->
+ 
+<!-- External Script End -->
+
+<script type="text/javascript" src="//t1.daumcdn.net/adfit/static/kp.js" charset="utf-8"></script>
+<script type="text/javascript" src="//t1.kakaocdn.net/kakao_js_sdk/v1/kakao.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/ind-script/i18n.php?lang=ko_KR&domain=front&v=2506181414" charset="utf-8"></script>
+
+<script src="/ind-script/optimizer.php?filename=zVlbU-M2FH4Hv_Z3eGm3nb6SsLTMQmEIW55l-TgR1q26ELy_vsdO2BLAsi2ZmQ5D4tj6Ph1J5_LJyjdKQH7ys8krQwRslalzA1Z5QyF_sDk7-V1mD_anPNTOM01onT_848E0-69fst-yTxOR8OTASMLt_kZGlaoZpLJ4w6OGkAHNKhkNlYoqWXFGXRTFSfYZ_6I6x6dOmVfzpo1aI_5gdUviwDFsILCVdDnQq-7inrnN3fcz4kgmmJzAw1mBKLjD62GU1YZJV42gV9S3Zp0rI5ZKOqM4BzOMu-Henmq9MKxcj7DHO8aHW1VGdTN1ZBVHhJJHTukjziQcFUTKMXbtKKgSQsmxrZ-IxGiU6NragBvfS4dzIDTHdXkfRLTOr1TBOOS3L_A7-wKz0oMTqvR4y26ZntZh5SVtJ7RtV3oMG9HrxGMZAkagq-bfdtHzkoKT7w1XpJwEEt6Rtt_rwoJ57FucHrBWvKkYH-16JVTEc9dOgRXEuEXA69pGq43SBx2edzRfSU1UXrefN-wJeChKAjTLzku-BZ2kB3oGhV9PRt1CBQYkhaU37XdzYxhNrhHFmnWg_0fFKjF_SosOZVOZgFgm16ksAhwp22owdbEsEEM3k8LBkapq3padQaM192uGue6RcIa2KvNs_I8bGV4Qm0zbzo4s7Vt6ZNC4ZPBxPWyAa_jwcWyILN_U1zk7wAzJcI0_jB-zqZttmriiBMtMrYbz838WTHH4JdLLkpj8c_Zr9imvsFBrRutIEn7ySfYaG4jUVRep7QOsYF0xe6acXhJQaayVaS6Zdf3ghSKmPEDj3axo707u8S_Y5peshnxh1BYHsCR0A_Esy4AyG49_noYonlt4ZLB1hNf7y6Xy0kVR4f_NTg5d63ZdV8CBplKF13YUxWkn1RJJVk7ROpWjc_2zmPr2asn3hFE0-yz2YCPn5CX-ncw3flauuYyb0WfRvRU2s926WJTFPs6Qna_mX56cIZ1V3e_u50rxUnk3N-07OjKd9EKQ9eykZ8zidq5huK2bkfoC6VYoFjnsMkRscAYNN0i8ILaG2Zfv3MvyjdRNp70XSf77gyyhprylkvPYtGCynIUoOne-Jvp7p6B6Xa9P_ey3grnFro51fyCPwtP9r-NKGUFcqiVz0fiYPfa-IuFe2xHG84VvpT3eFCoc3yF11mDy9QXEgT2lccCCByt9CGpAKxMpRXkrdET3qinwKopITPMHDFtAg9fDe4aNEyizHXMM7HDrpWm0U1-hmWQLsY2ku89onABRhN4yDcCvTQmGhhTsAMGuaKQz6HCVH8UxKPMGWFDLayVTxnKF7hgUFgP4M4wIy-L7v2d2E94CjCCg4S3NAAMqCUiA33bwGpqtCm04R7HcKdyoLZNG08VHvFuChIqlhsYlaRJs-MOQMt4hT71TWCQZ7WiwmG3jY8Nzx26U9jo-QD3uXwQYDPRHlrIwV027O9znizQPOaBKir3O1_5k7RlhM4PX7pnuSDELT7sNSR_eTu9cyErFOwEnTJCCQ4JFmriNURyOB14NjjDnsvdQqgesI6rUrsofo3JhchLQbjNK-k9lW9SX_anC4Yldp1LxsaWGaTcR3R475aet-tVAu8PRioSq-7skB2lI6-XIY1mDKhjO2RO2_Bc&type=js&k=4684a0b5a170641ad2a3b5881d78275a55e5ec14&t=1749514111" ></script><script src="/ind-script/optimizer_user.php?filename=rdDBjQMhDAXQAthr6vCkhWilFLAVMMYCJxgTDFlN98tG6SCcvk_vyx-SCgGhG0bNIHg5fInnbdugjj0zutQlgwVygYxjAbtzOcPNQDSMTFDbTOwgVAb6TlHb8XWzEyyT3-mMMmE38g3TJw3ZHzo67N4Y_-texydgDI6lautLtGmgimhZs-L728dgvLsn0-9SVkbubEnrT-JaucRlO3atF18KtWXi9dvtfo4w5Wn-AQ&type=js&k=094caf815bab2067bcbb2237b8aa5523a8659153&t=1611195272&user=T" ></script>
+<script type="text/javascript">
+var sIsChannelUi = 'F';
+var sChRef = '';
+var sUseShoppingpayPg = 'F';
+var sOwnMallLanding = 'F';
+var sShoppingPayCookie = '';
+var sYtshopping = 'F';
+if (sIsChannelUi === 'T') {
+sessionStorage.setItem('ch_ref', sChRef);
+}
+CAFE24.getChRefData = function() {
+if (sIsChannelUi === 'T') {
+return sessionStorage.getItem('ch_ref');
+}
+}
+// 자사몰랜딩/유튜브랜딩 공용
+CAFE24.checkChannelUI = function() {
+if ((sIsChannelUi === 'T' && sessionStorage.getItem('ch_ref') || (sUseShoppingpayPg === 'T' && sOwnMallLanding === 'T')) || sYtshopping === 'T') {
+return true;
+} else {
+return false;
+}
+}
+// 자사몰랜딩 UI확인
+CAFE24.isOwnMallLandingUI = function() {
+return sUseShoppingpayPg === 'T' && sOwnMallLanding === 'T';
+}
+CAFE24.attachShoppingpayParam = function(sUrl) {
+if (sUrl) {
+var sChRef = CAFE24.getChRefData();
+if (sChRef) {
+var sSeparator = (sUrl.includes('?')) ? '&' : '?';
+sUrl += sSeparator + 'ch_ref=' + sChRef;
+} else if (sUseShoppingpayPg === 'T' && sOwnMallLanding === 'T') {
+var sSeparator = (sUrl.includes('?')) ? '&' : '?';
+sUrl += sSeparator + 'co_servicetype=shoppingpay';
+}
+}
+return sUrl;
+}
+CAFE24.attachChRef = function(sUrl) {
+if (sUrl) {
+var sChRef = CAFE24.getChRefData();
+if (sChRef) {
+var sSeparator = (sUrl.includes('?')) ? '&' : '?';
+sUrl += sSeparator + 'ch_ref=' + sChRef;
+}
+}
+return sUrl;
+}
+var sIsCheckout = 'F';
+var sCheckoutToken = '';
+if (sIsCheckout === 'T') {
+sessionStorage.setItem('checkoutToken', sCheckoutToken);
+} else {
+sessionStorage.removeItem('checkoutToken');
+}
+CAFE24.getCheckoutToken = function() {
+if (sIsCheckout === 'T') {
+return sessionStorage.getItem('checkoutToken');
+}
+}
+CAFE24.attachCheckoutParam = function(sUrl) {
+if (sUrl) {
+var sCheckoutToken = CAFE24.getCheckoutToken();
+if (sCheckoutToken) {
+var sSeparator = (sUrl.includes('?')) ? '&' : '?';
+sUrl += sSeparator + 'checkoutToken=' + sCheckoutToken;
+}
+}
+return sUrl;
+}
+CAFE24.MOBILE_WEB = false; var mobileWeb = CAFE24.MOBILE_WEB;
+try {
+var isUseLoginKeepingSubmit = false;
+// isSeqNoKeyExpiretime
+function isSeqNoKeyExpiretime(iExpiretime)
+{
+var sDate = new Date();
+var iNow = Math.floor(sDate.getTime() / 1000);
+// 유효시간 확인
+if (iExpiretime > iNow) {
+return false;
+}
+return true;
+}
+function isUseLoginKeeping()
+{
+// 디바이스 확인
+if (EC_MOBILE_DEVICE === false) {
+return;
+}
+// 로그인 여부
+var isLogin = document.cookie.match(/(?:^| |;)iscache=F/) ? true : false
+if (isLogin) {
+return;
+}
+var sLoginKeepingInfo = localStorage.getItem('use_login_keeping_info');
+var iSeqnoExpiretime;
+var iSeqNoKey;
+if (sLoginKeepingInfo == null) {
+iSeqnoExpiretime = localStorage.getItem('seq_no_key_expiretime');
+iSeqNoKey = localStorage.getItem('seq_no_key');
+// 유효시간, key 값 확인
+if (iSeqnoExpiretime === null || iSeqNoKey === null) {
+return;
+}
+} else {
+var oLoginKeepingInfo = JSON.parse(sLoginKeepingInfo);
+iSeqNoKey = oLoginKeepingInfo.seq_no_key;
+iSeqnoExpiretime = oLoginKeepingInfo.seq_no_key_expiretime;
+if (isNaN(iSeqNoKey) === true || isNaN(iSeqnoExpiretime) === true) {
+return;
+}
+}
+if (isSeqNoKeyExpiretime(iSeqnoExpiretime) === false) {
+return;
+}
+useLoginKeepingSubmit();
+}
+function findGetParamValue(paramKey)
+{
+var result = null,
+tmp = [];
+location.search.substr(1).split('&').forEach(function (item) {
+tmp = item.split('=');
+if (tmp[0] === paramKey) result = decodeURIComponent(tmp[1]);
+});
+return result;
+}
+function useLoginKeepingSubmit()
+{
+var iSeqnoExpiretime;
+var iSeqNoKey;
+var sUseLoginKeepingIp;
+var sLoginKeepingInfo = localStorage.getItem('use_login_keeping_info');
+if (sLoginKeepingInfo == null) {
+iSeqnoExpiretime = localStorage.getItem('seq_no_key_expiretime');
+iSeqNoKey = localStorage.getItem('seq_no_key');
+} else {
+var oLoginKeepingInfo = JSON.parse(sLoginKeepingInfo);
+iSeqNoKey = oLoginKeepingInfo.seq_no_key;
+iSeqnoExpiretime = oLoginKeepingInfo.seq_no_key_expiretime;
+sUseLoginKeepingIp = oLoginKeepingInfo.use_login_keeping_ip;
+}
+var oForm = document.createElement('form');
+oForm.method = 'post';
+oForm.action = '/exec/front/member/LoginKeeping';
+document.body.appendChild(oForm);
+var oSeqNoObj = document.createElement('input');
+oSeqNoObj.name = 'seq_no_key';
+oSeqNoObj.type = 'hidden';
+oSeqNoObj.value = iSeqNoKey;
+oForm.appendChild(oSeqNoObj);
+oSeqNoObj = document.createElement('input');
+oSeqNoObj.name = 'seq_no_key_expiretime';
+oSeqNoObj.type = 'hidden';
+oSeqNoObj.value = iSeqnoExpiretime;
+oForm.appendChild(oSeqNoObj);
+var returnUrl = findGetParamValue('returnUrl');
+if (returnUrl == '' || returnUrl == null) {
+returnUrl = location.pathname + location.search;
+}
+oSeqNoObj = document.createElement('input');
+oSeqNoObj.name = 'returnUrl';
+oSeqNoObj.type = 'hidden';
+oSeqNoObj.value = returnUrl;
+oForm.appendChild(oSeqNoObj);
+if (sUseLoginKeepingIp != undefined) {
+oSeqNoObj = document.createElement('input');
+oSeqNoObj.name = 'use_login_keeping_ip';
+oSeqNoObj.type = 'hidden';
+oSeqNoObj.value = sUseLoginKeepingIp;
+oForm.appendChild(oSeqNoObj);
+}
+oForm.submit();
+isUseLoginKeepingSubmit = true;
+}
+isUseLoginKeeping();
+} catch(e) {
+}
+CAFE24.KAKAO_PIXEL_BRIDGE.init("2521556857592761003");
+var bUseElastic = false;
+var sSearchBannerUseFlag = 'F';
+if (typeof CAFE24.SHOP_FRONT_NEW_LIKE_COMMON !== "undefined") {CAFE24.SHOP_FRONT_NEW_LIKE_COMMON.init({"bIsUseLikeProduct":false,"bIsUseLikeCategory":false});}
+if (typeof CAFE24.SHOP_FRONT_REVIEW_TALK_REVIEW_COUNT !== "undefined") {CAFE24.SHOP_FRONT_REVIEW_TALK_REVIEW_COUNT.bIsReviewTalk = 'F';}
+var max_comp_number = 4;
+var sComparePageUrl = "/product/compare.html";
+CAFE24.SHOP_CURRENCY_INFO = {"1":{"aShopCurrencyInfo":{"currency_code":"KRW","currency_no":"410","currency_symbol":"\uffe6","currency_name":"South Korean won","currency_desc":"\uffe6 \uc6d0 (\ud55c\uad6d)","decimal_place":0,"round_method_type":"F"},"aShopSubCurrencyInfo":null,"aBaseCurrencyInfo":{"currency_code":"KRW","currency_no":"410","currency_symbol":"\uffe6","currency_name":"South Korean won","currency_desc":"\uffe6 \uc6d0 (\ud55c\uad6d)","decimal_place":0,"round_method_type":"F"},"fExchangeRate":1,"fExchangeSubRate":null,"aFrontCurrencyFormat":{"head":"","tail":"\uc6d0"},"aFrontSubCurrencyFormat":{"head":"","tail":""}}}; var SHOP_CURRENCY_INFO = CAFE24.SHOP_CURRENCY_INFO;
+if (typeof CAFE24.SHOP_FRONT_NEW_OPTION_COMMON !== "undefined") {CAFE24.SHOP_FRONT_NEW_OPTION_COMMON.initObject();}
+if (typeof CAFE24.SHOP_FRONT_NEW_OPTION_BIND !== "undefined") {CAFE24.SHOP_FRONT_NEW_OPTION_BIND.initChooseBox();}
+if (typeof CAFE24.SHOP_FRONT_NEW_OPTION_DATA !== "undefined") {CAFE24.SHOP_FRONT_NEW_OPTION_DATA.initData();}
+var basket_result = '/product/add_basket.html';
+var basket_option = '/product/basket_option.html';
+var bIsUseSpread = false;
+var sIsSecret = false;
+var iBoardNo = "1";
+var aLogData = {"log_server1":"eclog2-259.cafe24.com","log_server2":"elg-db-svcm-255.cafe24.com","mid":"damyang1000","stype":"e","domain":"","shop_no":1,"lang":"ko_KR","ver":2,"hash":"","ca":"cfa-js.cafe24.com\/cfa.js","etc":"","mobile_flag":"F"};
+var sMileageName = '적립금';
+var sMileageUnit = '[:PRICE:]원';
+var sDepositName = '예치금';
+var sDepositUnit = '원';
+CAFE24.APPSCRIPT_ASSIGN_DATA = CAFE24.APPSCRIPT_ASSIGN_DATA || [{'src':'https://calendar-app.cafe24.com/openapi/inject.js?vs=20250324102225.1&client_id=A8RQp67UIt9nBlqvThz2jC'}];
+CAFE24.APPSCRIPT_SDK_DATA = CAFE24.APPSCRIPT_SDK_DATA || ['store','supply','application','design','order','product','notification','category','collection','customer','promotion','community','mileage','personal','privacy','salesreport','shipping'];
+var EC_APPSCRIPT_ASSIGN_DATA = CAFE24.getDeprecatedNamespace('EC_APPSCRIPT_ASSIGN_DATA');
+var EC_APPSCRIPT_SDK_DATA = CAFE24.getDeprecatedNamespace('EC_APPSCRIPT_SDK_DATA');
+</script></body></html>

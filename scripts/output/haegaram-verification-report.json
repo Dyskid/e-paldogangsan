@@ -1,0 +1,79 @@
+{
+  "timestamp": "2025-06-23T06:47:13.639Z",
+  "mall": "해가람",
+  "verificationResults": {
+    "totalProducts": 74,
+    "validProducts": 74,
+    "issues": {
+      "missingTitle": [],
+      "missingPrice": [],
+      "missingImage": [],
+      "missingLink": [],
+      "invalidPrice": [],
+      "duplicateIds": []
+    },
+    "categoryBreakdown": {
+      "수산물": 74
+    },
+    "priceAnalysis": {
+      "min": 1000,
+      "max": 153500,
+      "average": 33234,
+      "priceRanges": {
+        "under10k": 9,
+        "10k-30k": 38,
+        "30k-50k": 13,
+        "50k-100k": 10,
+        "over100k": 4
+      }
+    },
+    "sampleProducts": [
+      {
+        "id": "haegaram_38",
+        "name": "[부안수협]뽕잎간고등어(10미)",
+        "price": 37100,
+        "category": "수산물",
+        "hasImage": true,
+        "hasLink": true
+      },
+      {
+        "id": "haegaram_37",
+        "name": "[군산시수협] 토막 먹갈치 2미",
+        "price": 25400,
+        "category": "수산물",
+        "hasImage": true,
+        "hasLink": true
+      },
+      {
+        "id": "haegaram_14",
+        "name": "[아리울수산] 사랑海 가자미 3팩",
+        "price": 23300,
+        "category": "수산물",
+        "hasImage": true,
+        "hasLink": true
+      },
+      {
+        "id": "haegaram_112",
+        "name": "[전이수산] 순창 메주 먹인 초벌장어 2kg (3~6미)",
+        "price": 102300,
+        "category": "수산물",
+        "hasImage": true,
+        "hasLink": true
+      },
+      {
+        "id": "haegaram_49",
+        "name": "[군산시수협] 반건조 국산 박대 1호 ~ 5호 세트(1박스 / 5미)",
+        "price": 32900,
+        "category": "수산물",
+        "hasImage": true,
+        "hasLink": true
+      }
+    ]
+  },
+  "summary": {
+    "totalProducts": 74,
+    "validProducts": 74,
+    "invalidProducts": 0,
+    "validationRate": "100.0%"
+  }
+}

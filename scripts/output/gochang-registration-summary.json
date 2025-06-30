@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-06-23T01:37:49.312Z",
+  "mall": "고창마켓",
+  "scrapedCount": 22,
+  "validPriceCount": 14,
+  "duplicatesSkipped": 0,
+  "newProductsRegistered": 14,
+  "totalProductsAfterRegistration": 1898,
+  "categories": {
+    "농산물": 7,
+    "가공식품": 7
+  },
+  "sampleProducts": [
+    {
+      "title": "[내고향푸드] 국내산 완두콩 1kg",
+      "price": "34,200원",
+      "category": "농산물",
+      "tags": [
+        "쌀",
+        "잡곡",
+        "견과류"
+      ]
+    },
+    {
+      "title": "[오늘출발_(유)생활발효] 가성비 소용량 토핑 발사믹 선물세트",
+      "price": "47,000원",
+      "category": "가공식품",
+      "tags": [
+        "건강식품",
+        "식초",
+        "발사믹"
+      ]
+    },
+    {
+      "title": "[오늘출발_대영원] 햇살아래 작두콩차",
+      "price": "98,000원",
+      "category": "농산물",
+      "tags": [
+        "쌀",
+        "잡곡",
+        "견과류"
+      ]
+    }
+  ]
+}

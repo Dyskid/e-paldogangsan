@@ -1,0 +1,28 @@
+{
+  "totalUrls": 32,
+  "successfulScrapes": 32,
+  "failedScrapes": 0,
+  "productsWithPrices": 32,
+  "categories": [
+    "농특산물"
+  ],
+  "scrapingErrors": [],
+  "timestamp": "2025-06-22T07:20:34.509Z",
+  "sampleProducts": [
+    {
+      "name": "[댐양소] 국산콩 수제두부 300gX3개",
+      "price": "11400원",
+      "url": "https://gwch-mall.com/goods/view?no=101418"
+    },
+    {
+      "name": "100% 통밀빵 _ 장발장 [NO충전물 플레인빵]1kg_2팩 (천연발효빵,운동건강빵,식단조절빵,무설탕빵,비건빵)",
+      "price": "32100원",
+      "url": "https://gwch-mall.com/goods/view?no=28181"
+    },
+    {
+      "name": "제이오븐 반반파이 (잣파이+호두파이)",
+      "price": "28900원",
+      "url": "https://gwch-mall.com/goods/view?no=44105"
+    }
+  ]
+}

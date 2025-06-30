@@ -1,0 +1,91 @@
+{
+  "mallId": "ycjang",
+  "mallName": "예천장터",
+  "baseUrl": "https://ycjang.cyso.co.kr",
+  "timestamp": "2025-06-24T12:44:05.986Z",
+  "totalProducts": 50,
+  "productsWithPrices": 50,
+  "productsWithImages": 50,
+  "categories": {
+    "[구룡영농조합법인]": 1,
+    "[풍국미곡처리장(주)]": 1,
+    "[코숭이농원]": 1,
+    "[금당꿀]": 1,
+    "백봉오골계": 1,
+    "[예천두레원]": 1,
+    "[예천산채]": 1,
+    "[두레농장]": 1,
+    "[금드림]": 1,
+    "블루베리": 1,
+    "예약판매": 1,
+    "[김실네]": 1,
+    "대한민국": 1,
+    "[농부창고]": 2,
+    "[연자방아친환경쌀]": 1,
+    "[현이네농산]": 1,
+    "[서당골농원]": 1,
+    "[꿀마실]": 1,
+    "[참들/어무이참기름]": 1,
+    "[청하벌꿀영농조합법인]": 1,
+    "[예천농협유통사업소]": 1,
+    "[회룡포장수진품]": 1,
+    "[예천회룡포참기름]": 1,
+    "[초산정]": 1,
+    "[지보참우마을]한우": 2,
+    "[지보참우마을]예천한우": 5,
+    "[지보참우마을]": 4,
+    "[소있소]": 4,
+    "예천한우특호": 1,
+    "[인들한우]": 4,
+    "예천한우": 3,
+    "[예천축산농협]": 1,
+    "[지보참우마을]잡뼈": 1
+  },
+  "sampleProducts": [
+    {
+      "id": "1560840030",
+      "name": "[구룡영농조합법인] 2024년 햅쌀 예천 구룡쌀(영호진미) 20kg 백미 햇쌀",
+      "price": "55,000원",
+      "image": "https://ycjang.cyso.co.kr/data/item/1560840030/thumb-0020kg_600x600.jpg",
+      "mallId": "ycjang",
+      "mallName": "예천장터",
+      "url": "https://ycjang.cyso.co.kr/shop/item.php?it_id=1560840030"
+    },
+    {
+      "id": "1610687193",
+      "name": "[풍국미곡처리장(주)] 2024년도산 햅쌀 당일도정 일품햅쌀 예천 우렁이쌀(일품) 20kg 백미",
+      "price": "56,500원",
+      "image": "https://ycjang.cyso.co.kr/data/item/1610687193/thumb-7Jqw66CB7J20_600x600.jpg",
+      "mallId": "ycjang",
+      "mallName": "예천장터",
+      "url": "https://ycjang.cyso.co.kr/shop/item.php?it_id=1610687193"
+    },
+    {
+      "id": "1637213227",
+      "name": "[코숭이농원] 친환경 잡곡 선물세트 3P 실속형, 고급형",
+      "price": "11,000원",
+      "image": "https://ycjang.cyso.co.kr/data/item/1637213227/thumb-IMG_4529_600x600.jpg",
+      "mallId": "ycjang",
+      "mallName": "예천장터",
+      "url": "https://ycjang.cyso.co.kr/shop/item.php?it_id=1637213227"
+    },
+    {
+      "id": "10665998209",
+      "name": "[금당꿀] 햇꿀!금당 아카시아꿀 2.4kg",
+      "price": "62,000원",
+      "image": "https://ycjang.cyso.co.kr/data/item/10665998209/thumb-IMG_0506m003_600x600.jpg",
+      "mallId": "ycjang",
+      "mallName": "예천장터",
+      "url": "https://ycjang.cyso.co.kr/shop/item.php?it_id=10665998209"
+    },
+    {
+      "id": "1558079313",
+      "name": "백봉오골계 자연방사 무항생제 유정란 40알",
+      "price": "35,200원",
+      "image": "https://ycjang.cyso.co.kr/data/item/ycgmall/1558079313/thumb-7I2464Sk7J28_600x600.jpg",
+      "mallId": "ycjang",
+      "mallName": "예천장터",
+      "url": "https://ycjang.cyso.co.kr/shop/item.php?it_id=1558079313"
+    }
+  ]
+}

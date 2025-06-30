@@ -1,0 +1,61 @@
+{
+  "timestamp": 1750749847038,
+  "mall": "사이소(경북몰)",
+  "mallId": "cyso",
+  "totalProducts": 48,
+  "validProducts": 48,
+  "issuesFound": 0,
+  "productsWithPrices": 48,
+  "productsWithImages": 48,
+  "categoryBreakdown": {
+    "쌀/잡곡": 10,
+    "과일류": 10,
+    "채소류": 8,
+    "축산물": 10,
+    "가공식품": 10
+  },
+  "issues": [],
+  "sampleProducts": [
+    {
+      "id": "cyso-1613836582",
+      "title": "2024년 국산 검정팥 재팥 거두 회색팥 검은팥1kg > 콩/팥 | 사이소",
+      "price": "23,800원",
+      "category": "쌀/잡곡",
+      "url": "https://www.cyso.co.kr/shop/item.php?it_id=1613836582"
+    },
+    {
+      "id": "cyso-1740462451",
+      "title": "금종쌀20KG > 백미 | 사이소",
+      "price": "65,000원",
+      "category": "쌀/잡곡",
+      "url": "https://www.cyso.co.kr/shop/item.php?it_id=1740462451"
+    },
+    {
+      "id": "cyso-1570789057",
+      "title": "[안동와룡농협] 친정나들이 3종2호세트 > 혼합곡 | 사이소",
+      "price": "19,000원",
+      "category": "쌀/잡곡",
+      "url": "https://www.cyso.co.kr/shop/item.php?it_id=1570789057"
+    },
+    {
+      "id": "cyso-1660538386",
+      "title": "★행복마을★ [함창담꽃새마을] 2024년 햅쌀 5kg > 백미 | 사이소",
+      "price": "25,000원",
+      "category": "쌀/잡곡",
+      "url": "https://www.cyso.co.kr/shop/item.php?it_id=1660538386"
+    },
+    {
+      "id": "cyso-1570784011",
+      "title": "[안동와룡농협] [할인]혼합잡곡 3종 7호 (찰보리쌀+혼합15곡+서리태) > 혼합곡 | 사이소",
+      "price": "34,700원",
+      "category": "쌀/잡곡",
+      "url": "https://www.cyso.co.kr/shop/item.php?it_id=1570784011"
+    }
+  ],
+  "summary": {
+    "registrationSuccess": true,
+    "completeness": "48/48 products valid",
+    "priceRate": "48/48 have prices",
+    "imageRate": "48/48 have images"
+  }
+}

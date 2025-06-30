@@ -1,0 +1,4580 @@
+<!-- ================= #HTML_HEADER :: START. 파일위치 : _modules/common/html_header.html ================= -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ #HTML_HEADER @@
+- 파일위치 : [스킨폴더]/_modules/common/html_header.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko"  xmlns:fb="http://ogp.me/ns/fb#"  xmlns:og="http://ogp.me/ns#">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/fb/website#">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="utf-8">
+
+<script nonce="IsryPUE6Rt8xXtTmjv1LBfU+YU05rCfEyYpcDU/e3s4=">window.Firstmall = window.Firstmall || {};
+window.Firstmall.Config = {"Environment":{"MobileMode":true,"SetMode":null,"Language":"KR","isAdmin":false,"isSellerAdmin":false,"isUser":false,"Currency":{"Basic":{"Id":"KRW","Symbol":"&#x20a9;","Position":"after"},"Skin":{"Id":"KRW","Symbol":"&#x20a9;","Position":"after"}},"serviceLimit":{"H_FR":false,"H_AD":true,"H_NFR":true},"OperationType":"light","Protocol":"https","CacheBreaker":"86c7eed94707dab7fe913c4dc7d9950e453a86fa"},"Security":{"PreventDrag":false,"PreventContextMenu":false,"MemberLogoutLimit":"60"},"Search":{"AutoComplete":true,"Suggest":false}};
+(function(){ var aliases = {"gl_operation_type":window.Firstmall.Config.Environment.OperationType,"gl_mobile_mode":window.Firstmall.Config.Environment.MobileMode,"gl_set_mode":window.Firstmall.Config.Environment.SetMode,"gl_language":window.Firstmall.Config.Environment.Language,"gl_basic_currency":window.Firstmall.Config.Environment.Currency.Basic.Id,"gl_skin_currency":window.Firstmall.Config.Environment.Currency.Skin.Id,"gl_basic_currency_symbol":window.Firstmall.Config.Environment.Currency.Basic.Symbol,"gl_basic_currency_symbol_position":window.Firstmall.Config.Environment.Currency.Basic.Position,"gl_protocol":window.Firstmall.Config.Environment.Protocol+"://","gl_broadcast":window.Firstmall.Config.Environment.Broadcast}; for(var attr in aliases) { window[attr] = aliases[attr]; }})();</script>
+<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />  -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+    <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "66cf55bd40754";
+if(window.wcs) {
+  wcs_do();
+}
+    </script>
+<script type="text/javascript" charset="UTF-8" src="//t1.daumcdn.net/kas/static/kp.js"></script>
+<script type="text/javascript">
+      kakaoPixel('6444802702518602026').pageView('태그값입력');
+</script>
+
+<!-- 네이버 애널리틱스 -->  
+ <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "7e83ef44f6f000";
+if(window.wcs) {
+  wcs_do();
+}
+</script>
+    
+    
+    
+<title> 영월몰</title>
+
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-26CHK4LHXP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-26CHK4LHXP');
+</script>   
+    
+    
+
+	<!-- SEO 설정이 있을경우 -->
+	<meta name="Robots" content="index,follow" />
+<meta name="title" content=" 영월몰" />
+<meta name="author" content="영월몰" />
+<meta name="description" content="영월군 에서 정직하게 키운 우수상품을 만나보세요!" />
+<meta name="keywords" content="청정영월,강원도,영월,포도,벌꿀,김삿갓축제,농산물,쌀,잡곡,어수리,자죽염,영월농산물" />
+
+<meta property="og:url" content="https://yeongwol-mall.com/" />
+<meta property="og:site_name" content="영월몰" />
+<meta property="og:title" content=" 영월몰" />
+	<meta property="og:description" content="영월군 에서 정직하게 키운 우수상품을 만나보세요!" />
+
+<meta property="og:type" content="website" />
+
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="/data/font/font.css" />
+
+<!-- 구글 웹폰트 -->
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700&amp;subset=korean" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_yeongwol_mall_gl/css/jqueryui/black-tie/jquery-ui-1.8.16.custom.css" />
+<link rel="stylesheet" type="text/css" href="/app/javascript/plugin/slick/slick.css"><!-- 반응형 슬라이드 -->
+<link rel="stylesheet" type="text/css" href="/data/design/goods_info_style.css"><!-- 상품디스플레이 CSS -->
+<link rel="stylesheet" type="text/css" href="/data/design/goods_info_user.css"><!-- ++++++++++++ 상품디스플레이 사용자/제작자 CSS ++++++++++++ -->
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_yeongwol_mall_gl/css/lib.css" />
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_yeongwol_mall_gl/css/common.css?v=20250622135021" />
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_yeongwol_mall_gl/css/board.css" />
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_yeongwol_mall_gl/css/buttons.css" />
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_yeongwol_mall_gl/css/mobile_pagination.css" />
+<link rel="stylesheet" type="text/css" href="/link/css?k=quickdesign&v=20250622135021" /><!-- Quick Design CSS -->
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_yeongwol_mall_gl/css/broadcast.css" /> 
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_yeongwol_mall_gl/css/user.css" /><!-- ++++++++++++ 스킨 사용자/제작자 CSS ++++++++++++ -->
+<link rel="stylesheet" href="/app/javascript/plugin/touchSlider/swiper.css" />
+<!-- /CSS -->
+<link rel="stylesheet" type="text/css" href="/app/javascript/plugin/jquery_swipe/jquery_swipe.css" />
+
+<!-- 파비콘 -->
+    <link rel="shortcut icon" href="https://yeongwol-mall.com//home/gwmart-sub2/data/icon/favicon/favicon1386117" />
+
+<!-- 자바스크립트 -->
+<script src="/app/javascript/jquery/jquery.min.js"></script>
+<script src="/app/javascript/jquery/jquery-ui.min.js"></script>
+<script src="/app/javascript/plugin/jquery.poshytip.min.js"></script>
+<script src="/app/javascript/plugin/jquery.activity-indicator-1.0.0.min.js"></script>
+<script src="/app/javascript/plugin/jquery.cookie.js"></script>
+<script src="/app/javascript/plugin/jquery.slides.min.js"></script>
+<script src="/app/javascript/plugin/jquery.placeholder.js"></script>
+<script src="/app/javascript/plugin/validate/jquery.validate.js"></script>
+<script src="/app/javascript/plugin/ezmark/js/jquery.ezmark.min.js"></script>
+<script src="/app/javascript/plugin/custom-select-box.js"></script>
+<script src="/app/javascript/plugin/custom-mobile-pagination.js"></script>
+<script src="/app/javascript/plugin/slick/slick.min.js"></script>
+<script src="/app/javascript/plugin/jquery_swipe/jquery.event.swipe.js"></script>
+<script src="/app/javascript/plugin/touchSlider/swiper.js"></script>
+
+
+<script>
+var REQURL = '/';
+var WINDOWWIDTH = window.innerWidth;
+</script>
+
+
+<style type="text/css">
+
+/* 레이아웃설정 폰트 적용 */
+#layout_body body,
+#layout_body table,
+#layout_body div,
+#layout_body input,
+#layout_body textarea,
+#layout_body select,
+#layout_body span
+{
+}
+
+/* 레이아웃설정 스크롤바색상 적용 */
+</style>
+
+<!--[ 네이버 공통유입 스크립트 ]-->
+<script type="text/javascript" src="https://wcs.naver.net/wcslog.js"></script><script type="text/javascript">
+	if(!wcs_add) var wcs_add = {};
+	wcs_add["wa"] = "s_4e5b257eef74";
+		wcs.checkoutWhitelist = ["yeongwol-mall.com"]; // 체크아웃 White list가 있을 경우
+			wcs.inflow('yeongwol-mall.com');
+			$(window).load(function() {
+		wcs_do(); // 로그 수집 함수 (페이지 로딩후 실행됩니다)
+	});
+</script>
+
+
+<!-- /자바스크립트 -->
+<script src="/app/javascript/js/dev-tools.js?v=86c7eed94707dab7fe91"></script><script src="/app/javascript/js/goods-display_mobile.js?v=86c7eed94707dab7fe91"></script><script src="/app/javascript/js/design.js?v=86c7eed94707dab7fe91"></script><script src="/app/javascript/js/common.js?v=86c7eed94707dab7fe91"></script><script src="/app/javascript/js/common-mobile.js?v=86c7eed94707dab7fe91"></script><script src="/app/javascript/js/front-layout.js?v=86c7eed94707dab7fe91"></script><script src="/app/javascript/js/base64.js?v=86c7eed94707dab7fe91"></script><script src="/app/javascript/js/skin-responsive.js?v=86c7eed94707dab7fe91"></script><script src="/data/js/language/L10n_KR.js?v=86c7eed94707dab7fe91"></script><script src="/data/skin/responsive_yeongwol_mall_gl/common/jquery.event.drag-1.5.min.js?v=86c7eed94707dab7fe91"></script><script src="/data/skin/responsive_yeongwol_mall_gl/common/jquery.touchSlider.js?v=86c7eed94707dab7fe91"></script><script src="/data/skin/responsive_yeongwol_mall_gl/common/responsive.js?v=86c7eed94707dab7fe91"></script><script src="/data/skin/responsive_yeongwol_mall_gl/common/script.js?v=86c7eed94707dab7fe91"></script><script src="/data/skin/responsive_yeongwol_mall_gl/common/search_ver2.js?v=86c7eed94707dab7fe91"></script><script src="/data/skin/responsive_yeongwol_mall_gl/common/user.js?v=86c7eed94707dab7fe91"></script><script src="/app/javascript/plugin/jquery.bxslider.js?v=86c7eed94707dab7fe91"></script>
+</head>
+
+<body>
+
+
+<!-- ######################## 21.6.21 gcs jdh #10691 쥐돌이 s -->
+<!-- ######################## 21.6.21 gcs jdh #10691 쥐돌이 e -->
+<!-- ================= #HTML_HEADER :: END. 파일위치 : _modules/common/html_header.html ================= -->
+
+<!--[ 디자인모드 호출 스크립트]-->
+
+<!--[ 모바일쇼핑몰 디자인모드시 화면 구성 ]-->
+
+<style>
+#layout_body {
+background-color:#ffffff;}
+#layer_pay {position:absolute;top:0px;width:100%;height:100%;background-color:#ffffff;text-align:center;z-index:999999;}
+#payprocessing {text-align:center;position:absolute;width:100%;top:150px;z-index:99999999px;}
+</style>
+
+<div id="wrap">
+	<!-- ================= 어사이드 :: START. 파일위치 : _modules/common/layout_side.html (비동기 로드) ================= -->
+	<div id="layout_side" class="layout_side"></div>
+	<!-- ================= 어사이드 :: END. 파일위치 : _modules/common/layout_side.html (비동기 로드) ================= -->
+	<a href="javascript:;" id="side_close" class="side_close">어사이드 닫기</a>
+
+	<div id="layout_wrap" class="layout_wrap">
+		<!-- ================= #LAYOUT_HEADER :: START. 파일위치 : layout_header/standard.html (default) ================= -->
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ #LAYOUT_HEADER @@
+- 파일위치 : [스킨폴더]/layout_header/standard.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+<!-- //띠배너 -->
+
+<div id="layout_header" class="layout_header">
+	<div class="logo_wrap">
+		<div class="resp_wrap">
+			<!-- logo -->
+			<h1 class="logo_area">
+				<a href='/main/index'><img src="/data/skin/responsive_yeongwol_mall_gl/images/design_resp/logo.png" alt="재단법인 강원특별자치도경제진흥원"></a>
+			</h1>
+
+			<!-- 햄버거 버튼 -->
+			<div class="resp_top_hamburger">
+				<a href="#category"><b>aside menu</b></a>
+			</div>
+
+			<!-- +++++++++++++++++++++++++ 검색 리뉴얼 +++++++++++++++++++++++++++++ -->
+			<div id="searchModule" class="resp_top_search">
+				<a href="javascript:void(0)" id="btnSearchV2" class="btn_search_open">검색</a>
+				<div id="searchVer2" class="search_ver2">
+					<div class="search_new">
+						<!-- ------- 검색 입력 ------- -->
+						<form name="topSearchForm" id="topSearchForm" action="/goods/search">
+						<div class="input_area">
+							<div class="cont">
+								<label class="search_box"><input type="text" name="search_text" id="searchVer2InputBox" class="search_ver2_input_box" placeholder="Search" autocomplete="off" /></label>
+								<button type="submit" class="search"></button>
+								<button type="button" class="close searchModuleClose"></button>
+							</div>
+						</div>
+						</form>
+						<!-- ------- 페이지별 기본 검색 ------- -->
+						<!-- ------- //검색 입력 ------- -->
+						<div class="contetns_area" style="display:none;">
+							<!-- ------- 최근 검색어, 최근본 상품 ------- -->
+							<div id="recentArea" class="recent_area">
+								<ul class="tab_btns">
+									<li class="on"><a href="#recent-searched-list">최근 검색어</a></li>
+									<li><a href="#recent-item-list">최근본 상품</a></li>
+								</ul>
+								<!-- 최근 검색어 -->
+								<div id="recent-searched-list" class="tab_contents">
+									<ul id="recentSearchedList" class="searching_list">
+										<li class="recent_search_item popular_search_item">
+											<a class="searched_item" href="javascript:void(0)">감자</a>
+										</li>
+										<li class="recent_search_item popular_search_item">
+											<a class="searched_item" href="javascript:void(0)">옥수수</a>
+										</li>
+										<li class="recent_search_item popular_search_item">
+											<a class="searched_item" href="javascript:void(0)">꿀</a>
+										</li>
+										<li class="recent_search_item popular_search_item">
+											<a class="searched_item" href="javascript:void(0)">토마토</a>
+										</li>
+										<li class="recent_search_item popular_search_item">
+											<a class="searched_item" href="javascript:void(0)">표고버섯</a>
+										</li>
+										<li class="no_data">최근검색어가 없습니다.</li>
+									</ul>
+									<div id="recentSearchedGuide" class="no_data" style="display:none;">최근 검색어 저장 기능이 꺼져있습니다.</div>
+									<ul class="tab_foot_menu">
+										<li class="menu_item">
+											<a href="javascript:void(0)" data-value="all" onclick="searchRecentRemove(this)">전체삭제</a>
+											<a class="btnRecentAuto off" href="javascript:void(0)">자동저장 끄기</a>
+											<a class="btnRecentAuto on" href="javascript:void(0)" style="display:none;">자동저장 <span class="importcolor">켜기</span></a>
+										</li>
+										<li class="search_close searchModuleClose"><a href="javascript:void(0)">닫기</a></li>
+									</ul>
+								</div>
+								<!-- //최근 검색어 -->
+								<!-- 최근본 상품 -->
+								<div id="recent-item-list" class="tab_contents" style="display:none;">
+									<ul class="recent_item_list">
+										<li class="no_data" style="display:none;">최근본 상품이 없습니다.</li>
+									</ul>
+									<ul class="tab_foot_menu">
+										<li class="swiper_guide">
+											<span class="to_left">&lt;</span>
+											<span class="to_right">&gt;</span>
+										</li>
+										<li class="search_close searchModuleClose"><a href="javascript:void(0)">닫기</a></li>
+									</ul>
+								</div>
+								<!-- //최근본 상품 -->
+							</div>
+							<!-- ------- //최근 검색어, 최근본 상품 ------- -->
+
+							<!-- ------- 검색어 자동완성 ------- -->
+							<div id="autoCompleteArea" class="autocomplete_area" style="display:none;">
+								<!-- 검색어 자동완성 - 검색어 -->
+								<div class="autocomplete_searching">
+									<ul id="autoCompleteList" class="searching_list">
+									</ul>
+									<div id="autoCompleteGuide" class="no_data" style="display:none;">자동완성 기능이 꺼져있습니다</div>
+									<ul class="tab_foot_menu">
+										<li class="menu_item">
+											<a class="btnAutoComplete off" href="javascript:void(0)">자동완성 끄기</a>
+											<a class="btnAutoComplete on" href="javascript:void(0)" style="display:none;">자동완성 <span class="importcolor">켜기</span></a>
+										</li>
+										<li class="search_close searchModuleClose"><a href="javascript:void(0)">닫기</a></li>
+									</ul>
+								</div>
+								<!-- //검색어 자동완성 - 검색어 -->
+
+								<!-- 검색어 자동완성 - 배너( 추천상품 ) -->
+								<div id="autoCompleteBanner" class="autocomplete_banner">
+									<h5 class="title">추천 상품</h5>
+									<ul id="autocompleteBannerList" class="banner_list">
+									</ul>
+								</div>
+								<!-- //검색어 자동완성 - 배너( 추천상품 ) -->
+							</div>
+							<!-- ------- //검색어 자동완성 ------- -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- +++++++++++++++++++++++++ //검색 리뉴얼 +++++++++++++++++++++++++++++ -->
+
+			<!-- 장바구니( 1023px 이하에서 노출됨 ) -->
+			<a href="/order/cart" class="resp_top_cart"><span class="cart_cnt2">0</span></a>
+
+			<ul class="util_wrap_menu2">
+				<li><a href="/member/login" designElement="text" textIndex="5"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9oZWFkZXIvc3RhbmRhcmQuaHRtbA==" >로그인</a></li>
+				<li>
+					<a href="/member/agreement" designElement="text" textIndex="6"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9oZWFkZXIvc3RhbmRhcmQuaHRtbA==" >회원가입</a>
+				</li>
+				<!-- <li class="respCartArea"><a href="/order/cart"><span designElement="text">장바구니</span></a></li> -->
+				<li><a href="/mypage" designElement="text" textIndex="7"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9oZWFkZXIvc3RhbmRhcmQuaHRtbA==" >마이페이지</a></li>
+                <li><a href="/mypage/order_catalog" designElement="text" textIndex="8"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9oZWFkZXIvc3RhbmRhcmQuaHRtbA==" >주문조회</a></li>
+				<li><a href="/service/cs" designElement="text" textIndex="9"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9oZWFkZXIvc3RhbmRhcmQuaHRtbA==" >고객센터</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- //로고 영역 -->
+
+
+	<!-- +++++++++++ 카테고리 메뉴( 카테고리 메뉴를 미노출 하실 분은 style="display:none;" 처리 하세요. ex) id="cateSwiper" class="nav_wrap" style="display:none;" ) +++++++++++ -->
+	<div id="cateSwiper" class="nav_wrap">
+		<div class="resp_wrap">
+			<div class="nav_category_area">
+				<div class="designCategoryNavigation">
+					<ul class="respCategoryList">
+						<li class="nav_category_all">
+							<!-- 전체 카테고리 버튼 class 네임 : 'categoryAllBtn', 전체 브랜드 : 'brandAllBtn', 전체 지역 : 'locationAllBtn' -->
+							<!-- 전체 카테고리 로딩 파일위치 : [스킨폴더]/_modules/category/all_navigation.html -->
+							<a class="hand categoryAllBtn" designElement="text" textIndex="10"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9oZWFkZXIvc3RhbmRhcmQuaHRtbA=="  title="전체 카테고리"><img src="/data/skin/responsive_yeongwol_mall_gl/images/design_resp/ico_category.png" class="icon" alt="aside menu"> 전체 카테고리</a>
+						</li>
+						<!-- 카테고리 네비게이션. 파일위치 : [스킨폴더]/_modules/category/category_gnb.html -->
+						<!-- 참고) 카테고리: showCategoryLightNavigation(), 브랜드: showBrandLightNavigation(), 지역: showLocationLightNavigation() -->
+						<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ 카테고리 네비게이션 @@
+- 파일위치 : [스킨폴더]/_modules/category/category_gnb.html
+- 현재 3뎁스까지 노출 가능
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink" href="/goods/catalog?code=0030"><em>축산물</em></a>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink" href="/goods/catalog?code=0017"><em>과일/견과</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00170009">과일류</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00170008">견과류</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00170005">즙/분말/잼류</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink" href="/goods/catalog?code=0021"><em>채소/나물</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00210001">절임배추</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00210002">감자</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00210004">옥수수</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00210005">토마토</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00210003">건나물/냉동나물</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink" href="/goods/catalog?code=0005"><em>장/소금/기름/양념</em></a>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink" href="/goods/catalog?code=0020"><em>가공식품</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00200004">차류</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00200003">간편식</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00200005">전통주</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00200006">떡/빵/간식류</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink" href="/goods/catalog?code=0019"><em>쌀/잡곡</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00190002">강냉이</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00190001">쌀/잡곡</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink" href="/goods/catalog?code=0022"><em>건강식품</em></a>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink" href="/goods/catalog?code=0008"><em>생활용품/뷰티</em></a>
+	</li>
+
+						<!-- //카테고리 네비게이션 -->
+
+						<!-- <li class="custom_nav_link blank">
+							<a href="/goods/brand?code=00010001" class="categoryDepthLink" designElement="text"><em>신상품</em></a>
+						</li>
+						<li class="custom_nav_link">
+							<a href="/goods/brand?code=0002" target="_blank" class="categoryDepthLink" designElement="text"><em>기획전</em></a>
+						</li>
+						<li class="custom_nav_link">
+							<a href="/service/company" class="categoryDepthLink" designElement="text"><em>영월몰 소개</em></a>
+						</li>
+						<li class="custom_nav_link">
+							<a href="/service/cs" class="categoryDepthLink" designElement="text"><em>고객센터</em></a>
+						</li> -->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- +++++++++++ //카테고리 메뉴 +++++++++++ -->
+
+	<!-- 카테고리 전체 네비게이션 팝업 START -->
+	<div id="categoryAll_wrap" class="categoryAll_wrap" style="display:none;">
+		<div class="categoryAllContainer"><!-- 로딩 파일위치 : [스킨폴더]/_modules/category/all_navigation.html --></div>
+	</div>
+	<!-- 카테고리 전체 네비게이션 팝업 END -->
+
+	<!-- 브랜드 전체 네비게이션 팝업 START -->
+	<div id="brandAll_wrap" class="brandAll_wrap" style="display:none;">
+		<div class="brandAllContainer"><!-- 로딩 파일위치 : [스킨폴더]/_modules/brand/all_navigation.html --></div>
+	</div>
+	<!-- 브랜드 전체 네비게이션 팝업 END -->
+
+	<!-- 지역 전체 네비게이션 팝업 START -->
+	<div id="locationAll_wrap" class="locationAll_wrap" style="display:none;">
+		<div class="locationAllContainer"><!-- 로딩 파일위치 : [스킨폴더]/_modules/location/all_navigation.html --></div>
+	</div>
+	<!-- 지역 전체 네비게이션 팝업 END -->
+
+    <!-- ------- 우측 사이드바 인클루드. 파일위치 : [스킨폴더]/_modules/common/scroll_right.html ------- -->
+<div id="rightQuickMenuWrap" class="rightQuickMenuWrap">
+	<div id="rightQuickMenu" class="rightQuickMenu">
+		<div class="rightQuickTitle"></div>
+		<div class="right_item_cart" onclick="self.location.href='/order/cart'">
+			<p class="rightTitleMenu">장바구니</p>
+			<div class="right_itemList">
+				<p class="rightBorderTop"></p>
+				<ul></ul>
+				<div id="right_page_div" class="right_quick_paging">
+					<a class="right_quick_btn_prev" href="#"></a>
+					<div class="right_page_box"><span class="right_quick_current_page bold"></span><span class="right_quick_separation">/</span><span class="right_quick_total_page"></span></div>
+					<a class="right_quick_btn_next" href="#"></a>
+				</div>
+				<p class="rightBoxBorder"></p>
+			</div>
+		</div>
+		<!-- //장바구니 -->
+
+		<div class="right_item_wish" onclick="self.location.href='/mypage/wish'">
+			<p class="rightTitleMenu">관심상품</p>
+			<div class="right_itemList">
+				<p class="rightBorderTop"></p>
+				<ul></ul>
+				<div id="right_page_div" class="right_quick_paging">
+					<a class="right_quick_btn_prev" href="#"></a>
+					<div class="right_page_box"><span class="right_quick_current_page bold"></span><span class="right_quick_separation">/</span><span class="right_quick_total_page"></span></div>
+					<a class="right_quick_btn_next" href="#"></a>
+				</div>
+				<p class="rightBoxBorder"></p>
+			</div>
+		</div>
+		<!-- //관심상품 -->
+
+		<div class="right_item_recent">
+			<p class="rightTitleMenu">최근본상품 <span id="right_recent_total">0</span></p>
+			<div class="right_itemList">
+				<p class="rightBorderTop"></p>
+				<ul></ul>
+				<div id="right_page_div" class="right_quick_paging">
+					<a class="right_quick_btn_prev" href="#"></a>
+					<div class="right_page_box"><span class="right_quick_current_page bold"></span><span class="right_quick_separation">/</span><span class="right_quick_total_page"></span></div>
+					<a class="right_quick_btn_next" href="#"></a>
+				</div>
+				<p class="rightBoxBorder"></p>
+			</div>
+		</div>
+		<!-- //최근본상품 -->
+
+		<div class="right_item_recomm hide">
+			<div class="rightTitleMenu"><div designElement='goodsRecommDisplay'>추천상품 <span id="right_recomm_total">0</span></div></div>
+			<div class="right_itemList">
+				<p class="rightBorderTop"></p>
+				<ul></ul>
+				<div id="right_page_div" class="right_quick_paging">
+					<a class="right_quick_btn_prev" href="#"></a>
+					<div class="right_page_box"><span class="right_quick_current_page bold"></span><span class="right_quick_separation">/</span><span class="right_quick_total_page"></span></div>
+					<a class="right_quick_btn_next" href="#"></a>
+				</div>
+				<p class="rightBoxBorder"></p>
+			</div>
+		</div>
+		<!-- //추천상품 -->
+
+		<div class="rightBookMark">
+			<a href="https://smartstore.naver.com/gwmart4989" target="_blank"><img src="/data/skin/responsive_yeongwol_mall_gl/images/design_resp/quick_02.gif" class="mt5" alt="강원마트 스토어팜"></a>
+			<a href="https://blog.naver.com/gwdfood" target="_blank"><img src="/data/skin/responsive_yeongwol_mall_gl/images/design_resp/quick_03.gif" class="mt5" alt="강원마트 블로그"></a>
+			<a href="https://www.instagram.com/yeongwol_mall/" target="_blank"><img src="/data/skin/responsive_yeongwol_mall_gl/images/design_resp/quick_04.gif" class="mt5" alt="영월몰 인스타그램"></a>
+			<!-- <a href="javascript:;"  onclick="bookmarksite('http://yeongwol-mall.com/main/index', ' 영월몰')" id="linkbookmark" rel="sidebar" class="btn_move" title="즐겨찾기에 추가">즐겨찾기</a> -->
+		</div>
+		<!-- //북마크 -->
+	</div>
+	<div id="rightQuickMenuBottom" class="rightQuickMenuBottom">
+		<a href="javascript:;" class="rightTop" onclick="$('body,html').animate({scrollTop:0},'slow')"><img src="/data/skin/responsive_yeongwol_mall_gl/images/design_resp/top_btn.png" alt="TOP" /></a>
+		<!-- <a href="javascript:;" class="rightBottom" onclick="$('body,html').animate({scrollTop:$(document).height()},'slow');"><img src="/data/skin/responsive_yeongwol_mall_gl/images/common/right_quick_bottom.png" alt="BOTTOM" /></a> -->
+	</div>
+	<!-- //TOP 버튼 -->
+
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$set_right_recent = 5;		/* 최근 본상품 설정 */
+		$set_right_recomm = 5;		/* 추천상품 설정 */
+		$set_right_cart = 5;		/* 장바구니 설정 */
+		$set_right_wish = 5;		/* 위시리스트 설정 */
+	});
+</script>
+</div>
+<!-- 상단영역 : 끝 -->
+
+<script type="text/javascript" src="/data/skin/responsive_yeongwol_mall_gl/common/search_ver2_ready.js"></script><!-- 반응형 관련 프론트 js : 검색, 자동검색어 최근본상품 -->
+<script type="text/javascript">
+	$(function() {
+		/* 회원정보 레이어(추가) */
+		$('#layout_header .top_myinfoWrap').on({
+			mouseenter : function(){
+				$(this).next('.top_myinfoSub').show();
+			},mouseleave : function(){
+				$(this).next('.top_myinfoSub').hide();
+			}
+		});
+
+		/* 스크롤시 상단 메뉴바 고정시키기(추가) */
+		$("#layout_header .nav_wrap").each(function(){
+			var obj = $(this);
+			if($(".designPopupBand").css('display')=="block"){
+                var top_loc = obj.offset().top + 80;
+			}else{
+                var top_loc = obj.offset().top;
+            }
+            $(document).scroll(function(){
+                if(top_loc < $(document).scrollTop()){
+                    obj.addClass("flyingMode");
+                    $("#boardlayout, #rightQuickMenuWrap").addClass("flyingMode");
+                }else{
+                    obj.removeClass('flyingMode');
+                    $("#boardlayout, #rightQuickMenuWrap").removeClass("flyingMode");
+                }
+            });
+		});
+	});
+
+    var resp_loc_top;
+    function flyingTitleBar() {
+        //var resp_loc_top = $("#layout_header .logo_wrap").offset().top;
+        var obj = $("#layout_header .logo_wrap");
+        var obj_H = $("#layout_header .logo_wrap").outerHeight();
+        $(document).scroll(function(){
+            //alert( resp_loc_top );
+            if ( ( $('.designPopupBand').is(':hidden') || $('.designPopupBand').length < 1 )  && window.innerWidth < 480 ) {
+                if ( $("#layout_header .util_wrap").is(':hidden') ) {
+                    resp_loc_top = 0;
+                } else {
+                    resp_loc_top = $("#layout_header .util_wrap").outerHeight(); // 띠배너 클로즈시 보정
+                }
+            }
+            if(resp_loc_top < $(document).scrollTop() && window.innerWidth < 480 ){
+                    obj.addClass("flying");
+                    if ( !$('#gonBox').length ) {
+                        $('#layout_header .logo_wrap').before('<div id="gonBox"></div>');
+                        $('#gonBox').css( 'height', obj_H + 'px' );
+                    }
+            } else {
+                obj.removeClass('flying');
+                if ( $('#gonBox').length ) {
+                    $('#gonBox').remove();
+                }
+            }
+        });
+    }
+
+    $(function(){
+        // 텍스트 수정기능을 통해 소스에 박혀있는 카테고리 삭제시 --> 항목 삭제
+        $('#cateSwiper .custom_nav_link').each(function(e) {
+            if ( $(this).find('a').text() == '' ) {
+                $(this).remove();
+            }
+        });
+
+        /* 카테고리 활성화 */
+        var url2, cateIndex;
+        $('#layout_header .designCategoryNavigation .respCategoryList>li').each(function() {
+            url2 = $(this).find('a').attr('href');
+            if ( REQURL == url2 ) {
+                cateIndex = $(this).index();
+            } else if ( REQURL != url2 && ( REQURL.substr( 0, REQURL.length-4 ) == url2 || REQURL.substr( 0, REQURL.length-8 ) == url2) ) {
+                // 1depth 카테고리 일치하는 요소가 없는 경우 2뎁스에서 검색
+                cateIndex = $(this).index();
+            }
+        });
+        $('#layout_header .designCategoryNavigation .respCategoryList>li').eq(cateIndex).addClass('on');
+        /* //카테고리 활성화 */
+
+        /* 카테고리 swiper 동작( 1024 미만인 경우 동작, 1024 이상인 경우 : 마우스 오버시 서브메뉴 노출 ) */
+        var slideshowSwiper = undefined;
+        if ( window.innerWidth < 1280 && $('#cateSwiper .designCategoryNavigation').length > 0 ) {
+            $('#cateSwiper .designCategoryNavigation ul.respCategoryList>li').addClass('swiper-slide');
+            slideshowSwiper = new Swiper('#cateSwiper .designCategoryNavigation', {
+                wrapperClass: 'respCategoryList',
+                slidesPerView: 'auto'
+            });
+            slideshowSwiper.slideTo( (cateIndex-1), 800, false );
+        } else {
+            $('#cateSwiper .designCategoryNavigation ul.respCategoryList>li').removeClass('swiper-slide');
+            $('#layout_header .respCategoryList .categoryDepth1').hover(
+                function() { $(this).find('.categorySub').show(); },
+                function() { $(this).find('.categorySub').hide(); }
+            );
+        }
+        $( window ).resize(function() {
+            if ( window.innerWidth != WINDOWWIDTH ) {
+                if ( window.innerWidth < 1280 && $('#cateSwiper .designCategoryNavigation').length > 0 && slideshowSwiper == undefined ) {
+                    $('#cateSwiper .designCategoryNavigation ul.respCategoryList>li').addClass('swiper-slide');
+                    $('#layout_header .respCategoryList .categoryDepth1').off('hover');
+                    slideshowSwiper = new Swiper('#cateSwiper .designCategoryNavigation', {
+                        wrapperClass: 'respCategoryList',
+                        slidesPerView: 'auto'
+                    });
+                    slideshowSwiper.slideTo( (cateIndex-1), 800, false );
+                } else if ( window.innerWidth > 1279 && slideshowSwiper != undefined ) {
+                    slideshowSwiper.slideTo( 0, 800, false );
+                    $('#cateSwiper .designCategoryNavigation ul.respCategoryList>li').removeClass('swiper-slide');
+                    slideshowSwiper.destroy();
+                    slideshowSwiper = undefined;
+                    $('#layout_header .respCategoryList .categoryDepth1').hover(
+                        function() { $(this).find('.categorySub').show(); },
+                        function() { $(this).find('.categorySub').hide(); }
+                    );
+                }
+            }
+        });
+        /* //카테고리 swiper 동작( 1024 미만인 경우 동작, 1024 이상인 경우 : 마우스 오버시 서브메뉴 노출 ) */
+
+        //================= 카테고리 전체 네비게이션 START ====================
+        $('.categoryAllBtn').click(function() {
+            $('#categoryAll_wrap .categoryAllContainer').load('/common/category_all_navigation', function() {
+                $('#categoryAll_wrap').show();
+                $('body').css( 'overflow', 'hidden' );
+            });
+        });
+        $('#categoryAll_wrap').on('click', '.categoryAllClose', function() {
+            $('#categoryAll_wrap').hide();
+            $('body').css( 'overflow', 'auto' );
+        });
+        //================= 카테고리 전체 네비게이션 END  ====================
+
+        //================= 브랜드 전체 네비게이션 START ====================
+        $('.brandAllBtn').click(function() {
+            $('#brandAll_wrap .brandAllContainer').load('/common/brand_all_navigation', function() {
+                $('#brandAll_wrap').show();
+                $('body').css( 'overflow', 'hidden' );
+            });
+        });
+        $('#brandAll_wrap').on('click', '.brandAllClose', function() {
+            $('#brandAll_wrap').hide();
+            $('body').css( 'overflow', 'auto' );
+        });
+        //================= 브랜드 전체 네비게이션 END  ====================
+
+        //================= 지역 전체 네비게이션 START ====================
+        $('.locationAllBtn').click(function() {
+            $('#locationAll_wrap .locationAllContainer').load('/common/location_all_navigation', function() {
+                $('#locationAll_wrap').show();
+                $('body').css( 'overflow', 'hidden' );
+            });
+        });
+        $('#locationAll_wrap').on('click', '.locationAllClose', function() {
+            $('#locationAll_wrap').hide();
+            $('body').css( 'overflow', 'auto' );
+        });
+        //================= 지역 전체 네비게이션 END  ====================
+
+        // GNB 검색 관련
+        $('#respTopSearch .search_open_btn').click(function() {
+            $('#respTopSearch .search_form').addClass('animating');
+            $('#respTopSearch .search_text').focus();
+        });
+        $('#respTopSearch .search_close_btn').click(function() {
+            $('#respTopSearch .search_form').removeClass('animating');
+        });
+
+        // 타이틀바 띄우기
+        flyingTitleBar();
+        $( window ).on('resize', function() {
+            if ( window.innerWidth != WINDOWWIDTH ) {
+                flyingTitleBar();
+            }
+        });
+
+        /* 카테고리 네비게이션 서브레이어 포지션 변화 */
+        var category1DepthNum = $('.respCategoryList .categoryDepth1').length;
+        var rightCategoryStandard = Math.floor( category1DepthNum / 2 );
+        $('.respCategoryList .categoryDepth1').each(function(e) {
+            if ( e > rightCategoryStandard ) {
+                //$('.respCategoryList .categoryDepth1').eq(e).addClass('right_area');
+            }
+        });
+        /* 카테고리 네비게이션 서브레이어 포지션 변화 */
+
+        $('.designPopupBand .designPopupClose').on('click', function() {
+            // 띠배너 닫기 클릭시
+        });
+    });
+</script>
+		<!-- ================= #LAYOUT_HEADER :: END. 파일위치 : layout_header/standard.html (default) ================= -->
+
+		<div id="layout_body" class="layout_body">
+		<!-- ================= 파트 페이지들 :: START. ================= -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ index @@
+- 파일위치 : [스킨폴더]/main/index.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+
+
+<!-- //띠배너/팝업 -->
+
+<style type="text/css">
+	#layout_body { max-width:100%; padding-left:0; padding-right:0; overflow-x:hidden; }
+	.layout_footer {margin-top:-60px;}
+</style>
+
+<!-- 슬라이드 배너 영역 (light_style_1_11) :: START -->
+<div class="sliderA wide_visual_slider main_slider">
+	<!-- 슬라이드 배너 데이터 영역 :: START -->	<div class="light_style_1_11 designBanner" designElement="banner" templatePath="main/index.html" bannerSeq="11"><div class="sslide"><a class="slink" href="/goods/brand?code=00010002" target="_self"><img class="simg" src="/data/skin/responsive_yeongwol_mall_gl/images/banner/11/images_1.png" /></a></div><div class="sslide"><a class="slink" href="/goods/search?osearchtext=꿀&page=1&searchMode=search&per=40&sorting=ranking&filter_display=lattice" target="_self"><img class="simg" src="/data/skin/responsive_yeongwol_mall_gl/images/banner/11/images_2.jpg" /></a></div><div class="sslide"><a class="slink" href="https://www.yeongwol-mall.com/mshop?page=1&searchMode=mshop&provider=144&per=40&sorting=ranking&filter_display=lattice" target="_self"><img class="simg" src="/data/skin/responsive_yeongwol_mall_gl/images/banner/11/images_3.png" /></a></div><div class="sslide"><a class="slink" href="" target="_self"><img class="simg" src="/data/skin/responsive_yeongwol_mall_gl/images/banner/11/images_4.jpg" /></a></div>	</div><!-- 슬라이드 배너 데이터 영역 :: END -->
+	<div class="event_banner">
+		<a href="/board/?id=notice" target="_self"><img src="/data/skin/responsive_yeongwol_mall_gl/images/design_resp/month_banner_1.png" alt="기업과 소비자가 행복해지는 쇼핑몰"></a>
+		<a href="https://gwsub7.firstmall.kr/goods/search?osearchtext=%ED%91%9C%EA%B3%A0%EB%B2%84%EC%84%AF&page=1&searchMode=search&per=40&sorting=ranking&filter_display=lattice" target="_self"><img src="/data/skin/responsive_yeongwol_mall_gl/images/design_resp/event_banner_1.png" alt="청정지역 영월 표고버섯"></a>
+	</div>
+</div>
+<script type="text/javascript">
+	$(function() {
+		$('.light_style_1_11').slick({ // $('.light_style_타입num_배너num')에서 '배너num'는 showDesignBanner(배너num)과 반드시 일치해야 합니다
+			dots: true, // 도트 페이징 사용( true 혹은 false )
+			autoplay: true, // 슬라이드 자동( true 혹은 false )
+			pauseOnHover: false, // Hover시 autoplay 정지안함( 정지: true, 정지안함: false )
+			speed: 1000, // 슬라이딩 모션 속도 ms( 밀리세컨드, ex. 600 == 0.6초 )
+			fade: true, // 페이드 모션 사용
+			autoplaySpeed: 8000 // autoplay 사용시 슬라이드간 시간 ms( 밀리세컨드, ex. 8000 == 8초 )ick 슬라이더의 자세한 옵션사항은 http://kenwheeler.github.io/slick/ 참고
+		});
+	});
+</script>
+<!-- 슬라이드 배너 영역 (light_style_1_11) :: END -->
+<!-- //메인 슬라이드 배너 -->
+
+<div class="resp_wrap">
+	<div class="main_section">
+		<div class="mtit">
+			<h2><img src="/data/skin/responsive_yeongwol_mall_gl/images/design_resp/popular_ico.png" class="mb10" alt=""><br />
+				실시간<br> <strong>인기상품</strong></h2>
+			<p>이 시각 인기상품<br> 실시간 순위!</p>
+			<a href="#a" class="more">more view</a>
+		</div>
+		<div class="section_product">
+			<div class="title_group1">
+				<h3 class="title1"><span designElement="text" textIndex="1"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL21haW4vaW5kZXguaHRtbA==" >실시간 인기상품</span></h3>
+			</div>
+			<div class="show_display_col3" data-effect="opacity">
+				<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ [반응형] 디스플레이 템플릿 - 스와이프형 @@
+- 파일위치 : [스킨폴더]/_modules/display/goods_display_sizeswipe.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<style>
+	.designDisplay_68578b8d773b1 .goods_list ol.gli_contents { text-align:center;}
+	.designDisplay_68578b8d773b1 .swiper-slide>li.gl_item { width:600px;  }
+</style>
+
+<div id='designDisplay_68578b8d773b1' class='designDisplay' designElement='display' templatePath='main/index.html' displaySeq='10001' perpage='' category='' displayStyle='sizeswipe'>
+          <div class="designDisplay_68578b8d773b1 display_slide_class displaySwipeTabContentsContainer" tabIdx="0">
+			  <div class="goods_display_slide_wrap">
+				  <div class="swiper-wrapper">
+					<!-- ------- 상품정보. 파일위치 : /data/design/ ------- -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ goods_info_style_5 @@
+- 파일 위치 : /data/design/goods_info_style_5.html
+- CSS 경로 : /data/design/goods_info_style.css
+- 상품정보 관련 CSS 수정 및 추가는 다음의 CSS파일에서 작업하시기 바랍니다.
+/data/design/goods_info_user.css
+※ /data 폴더는 /skin 폴더 상위 폴더입니다.
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('26929','',this,'goods_view')">
+				<img src="https://gwchild143.firstmall.kr/data/goods/1/2017/12/26929_tmp_5177e8a7abcd02c0bcb4431bd0a78a736240view.jpg" data-src="https://gwchild143.firstmall.kr/data/goods/1/2017/12/26929_tmp_5177e8a7abcd02c0bcb4431bd0a78a736240view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="냉동 곤드레 16kg 4kg*4개"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 26929)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=26929">냉동 곤드레 16kg 4kg*4개</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">75,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	<div class="infO_group">
+		
+		<!-- 상품후기 평가점수( 별점 ) -->
+		<div class="goodS_info displaY_review_score_a">
+			<span class="areA">
+				<span class="ev_active2"><b style="width:99.2%;"></b></span>
+			</span>
+		</div>
+
+		<!-- 상품후기 평가점수( 점수 ) -->
+		<div class="goodS_info displaY_review_score_b">
+			<span class="areA"><span class="nuM">5.0</span>점</span>
+		</div>
+
+		<!-- 상품후기 가장 좋은 평가정보( 사람수 ) -->
+	</div>
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('27675','',this,'goods_view')">
+				<img src="https://gwchild348.firstmall.kr/data/goods/1/2018/04/27675_tmp_4952dfc958cacc9932ebdea6ff1a52ed5700view.jpg" data-src="https://gwchild348.firstmall.kr/data/goods/1/2018/04/27675_tmp_4952dfc958cacc9932ebdea6ff1a52ed5700view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="[영월농협] 보리차 500g"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 27675)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=27675">[영월농협] 보리차 500g</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">5,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	<div class="infO_group">
+		
+		<!-- 상품후기 평가점수( 별점 ) -->
+		<div class="goodS_info displaY_review_score_a">
+			<span class="areA">
+				<span class="ev_active2"><b style="width:100%;"></b></span>
+			</span>
+		</div>
+
+		<!-- 상품후기 평가점수( 점수 ) -->
+		<div class="goodS_info displaY_review_score_b">
+			<span class="areA"><span class="nuM">5.0</span>점</span>
+		</div>
+
+		<!-- 상품후기 가장 좋은 평가정보( 사람수 ) -->
+	</div>
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('29590','',this,'goods_view')">
+				<img src="http://gwchild535.firstmall.kr/data/goods/1/2018/09/29590_2018091517212255.jpg" data-src="http://gwchild535.firstmall.kr/data/goods/1/2018/09/29590_2018091517212255.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="찰옥수수 뻥튀기 /강원도 찰강냉이 튀밥"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 29590)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=29590">찰옥수수 뻥튀기 /강원도 찰강냉이 튀밥</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">11,500</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	<div class="infO_group">
+		
+		<!-- 상품후기 평가점수( 별점 ) -->
+		<div class="goodS_info displaY_review_score_a">
+			<span class="areA">
+				<span class="ev_active2"><b style="width:95.2%;"></b></span>
+			</span>
+		</div>
+
+		<!-- 상품후기 평가점수( 점수 ) -->
+		<div class="goodS_info displaY_review_score_b">
+			<span class="areA"><span class="nuM">4.8</span>점</span>
+		</div>
+
+		<!-- 상품후기 가장 좋은 평가정보( 사람수 ) -->
+	</div>
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('5993','',this,'goods_view')">
+				<img src="https://gwchild64.firstmall.kr/data/goods/65/2013/04/5993_tmp_ac588c1ba1f9054454339dd30d37783e9169view.jpg" data-src="https://gwchild64.firstmall.kr/data/goods/65/2013/04/5993_tmp_ac588c1ba1f9054454339dd30d37783e9169view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="메좁쌀 500g"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 5993)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=5993">메좁쌀 500g</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">8,500</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	<div class="infO_group">
+		
+		<!-- 상품후기 평가점수( 별점 ) -->
+		<div class="goodS_info displaY_review_score_a">
+			<span class="areA">
+				<span class="ev_active2"><b style="width:82.9%;"></b></span>
+			</span>
+		</div>
+
+		<!-- 상품후기 평가점수( 점수 ) -->
+		<div class="goodS_info displaY_review_score_b">
+			<span class="areA"><span class="nuM">4.1</span>점</span>
+		</div>
+
+		<!-- 상품후기 가장 좋은 평가정보( 사람수 ) -->
+	</div>
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('28860','',this,'goods_view')">
+				<img src="http://gwchild509.firstmall.kr/data/goods/1/2018/07/28860_tmp_f597aa20241c036018ad956a267007c61868view.jpg" data-src="http://gwchild509.firstmall.kr/data/goods/1/2018/07/28860_tmp_f597aa20241c036018ad956a267007c61868view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="풀무리농장 유기농오이 50개"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 28860)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=28860">풀무리농장 유기농오이 50개</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">55,000</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">44,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	<div class="infO_group">
+		
+		<!-- 상품후기 평가점수( 별점 ) -->
+		<div class="goodS_info displaY_review_score_a">
+			<span class="areA">
+				<span class="ev_active2"><b style="width:95.7%;"></b></span>
+			</span>
+		</div>
+
+		<!-- 상품후기 평가점수( 점수 ) -->
+		<div class="goodS_info displaY_review_score_b">
+			<span class="areA"><span class="nuM">4.8</span>점</span>
+		</div>
+
+		<!-- 상품후기 가장 좋은 평가정보( 사람수 ) -->
+	</div>
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('22041','',this,'goods_view')">
+				<img src="https://gwchild64.firstmall.kr/data/goods/65/2015/09/22041_tmp_2cbf624a5836df1ac21806d23ad0c6378934view.png" data-src="https://gwchild64.firstmall.kr/data/goods/65/2015/09/22041_tmp_2cbf624a5836df1ac21806d23ad0c6378934view.png" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="2024햅쌀 해들목 동강맑은쌀20kg"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 22041)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=22041">2024햅쌀 해들목 동강맑은쌀20kg</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">72,000</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">65,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	<div class="infO_group">
+		
+		<!-- 상품후기 평가점수( 별점 ) -->
+		<div class="goodS_info displaY_review_score_a">
+			<span class="areA">
+				<span class="ev_active2"><b style="width:92%;"></b></span>
+			</span>
+		</div>
+
+		<!-- 상품후기 평가점수( 점수 ) -->
+		<div class="goodS_info displaY_review_score_b">
+			<span class="areA"><span class="nuM">4.6</span>점</span>
+		</div>
+
+		<!-- 상품후기 가장 좋은 평가정보( 사람수 ) -->
+	</div>
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('27674','',this,'goods_view')">
+				<img src="https://gwchild348.firstmall.kr/data/goods/1/2018/04/27674_tmp_e59b2bd84ce249b24d91ea381cde93ab7133view.jpg" data-src="https://gwchild348.firstmall.kr/data/goods/1/2018/04/27674_tmp_e59b2bd84ce249b24d91ea381cde93ab7133view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="[영월농협] 옥수수차 500g"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 27674)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=27674">[영월농협] 옥수수차 500g</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">6,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	<div class="infO_group">
+		
+		<!-- 상품후기 평가점수( 별점 ) -->
+		<div class="goodS_info displaY_review_score_a">
+			<span class="areA">
+				<span class="ev_active2"><b style="width:100%;"></b></span>
+			</span>
+		</div>
+
+		<!-- 상품후기 평가점수( 점수 ) -->
+		<div class="goodS_info displaY_review_score_b">
+			<span class="areA"><span class="nuM">5.0</span>점</span>
+		</div>
+
+		<!-- 상품후기 가장 좋은 평가정보( 사람수 ) -->
+	</div>
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('12648','',this,'goods_view')">
+				<img src="https://gwchild64.firstmall.kr/data/goods/65/2013/09/12648_tmp_251bcea8afa662c526e7371cc9f9d58d0726view.png" data-src="https://gwchild64.firstmall.kr/data/goods/65/2013/09/12648_tmp_251bcea8afa662c526e7371cc9f9d58d0726view.png" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="2024햅쌀 해들목 동강맑은쌀10kg"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 12648)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=12648">2024햅쌀 해들목 동강맑은쌀10kg</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">40,000</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">36,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	<div class="infO_group">
+		
+		<!-- 상품후기 평가점수( 별점 ) -->
+		<div class="goodS_info displaY_review_score_a">
+			<span class="areA">
+				<span class="ev_active2"><b style="width:98.9%;"></b></span>
+			</span>
+		</div>
+
+		<!-- 상품후기 평가점수( 점수 ) -->
+		<div class="goodS_info displaY_review_score_b">
+			<span class="areA"><span class="nuM">4.9</span>점</span>
+		</div>
+
+		<!-- 상품후기 가장 좋은 평가정보( 사람수 ) -->
+	</div>
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('26931','',this,'goods_view')">
+				<img src="https://gwchild143.firstmall.kr/data/goods/1/2017/12/26931_tmp_d21034a896cfae0ec5f72d247f805ed74182view.jpg" data-src="https://gwchild143.firstmall.kr/data/goods/1/2017/12/26931_tmp_d21034a896cfae0ec5f72d247f805ed74182view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="냉동 곤드레 8kg 4kg*2개"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 26931)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=26931">냉동 곤드레 8kg 4kg*2개</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">50,000</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">47,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	<div class="infO_group">
+		
+		<!-- 상품후기 평가점수( 별점 ) -->
+		<div class="goodS_info displaY_review_score_a">
+			<span class="areA">
+				<span class="ev_active2"><b style="width:96.4%;"></b></span>
+			</span>
+		</div>
+
+		<!-- 상품후기 평가점수( 점수 ) -->
+		<div class="goodS_info displaY_review_score_b">
+			<span class="areA"><span class="nuM">4.8</span>점</span>
+		</div>
+
+		<!-- 상품후기 가장 좋은 평가정보( 사람수 ) -->
+	</div>
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('31290','',this,'goods_view')">
+				<img src="https://gwchild143.firstmall.kr/data/goods/1/2019/02/31290_tmp_e683a1921439cb59a66e298cea99f3a25017view.jpg" data-src="https://gwchild143.firstmall.kr/data/goods/1/2019/02/31290_tmp_e683a1921439cb59a66e298cea99f3a25017view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="볶음콩가루500g"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 31290)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=31290">볶음콩가루500g</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">10,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	<div class="infO_group">
+		
+		<!-- 상품후기 평가점수( 별점 ) -->
+		<div class="goodS_info displaY_review_score_a">
+			<span class="areA">
+				<span class="ev_active2"><b style="width:100%;"></b></span>
+			</span>
+		</div>
+
+		<!-- 상품후기 평가점수( 점수 ) -->
+		<div class="goodS_info displaY_review_score_b">
+			<span class="areA"><span class="nuM">5.0</span>점</span>
+		</div>
+
+		<!-- 상품후기 가장 좋은 평가정보( 사람수 ) -->
+	</div>
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul>
+					<!-- ------- //상품정보. ------- -->
+				  </div>
+				  <!-- scrollbar -->
+				  <div class="display-scrollbar swiper-scrollbardesignDisplay_68578b8d773b1"></div>
+			  </div>
+			   <!-- left, right button -->
+			  <div class="swiper-button-next"></div>
+			  <div class="swiper-button-prev"></div>
+          </div>
+
+<script>
+	var t = new Date();
+	var uniquekey_dsp = 'designDisplay_68578b8d773b1'+t.getTime();
+	var display_swiper = [];
+
+	$(function(){
+		/* 상품디스플레이 스와이프형 탭 스크립트 */
+		$("#designDisplay_68578b8d773b1 .displaySwipeTabContainer").each(function(){
+			var tabContainerObj = $(this);
+			tabContainerObj.children('li').css('width',(100/tabContainerObj.children('li').length)+'%');
+			tabContainerObj.children('li').bind('mouseover click',function(){
+				tabContainerObj.children('li.current').removeClass('current');
+				$(this).addClass('current');
+				var tabIdx = tabContainerObj.children('li').index(this);
+				tabContainerObj.closest('.designDisplay, .designCategoryRecommendDisplay').find('.displayTabContentsContainer').hide().eq(tabIdx).show();
+			}).eq(0).trigger('mouseover');
+		});
+
+
+		$('.display_slide_class').each(function(){
+			if(!$(this).hasClass('set_slide_clear')){
+				display_swiper[uniquekey_dsp] = new Swiper($(this).find('.goods_display_slide_wrap'), {
+					//scrollbar: $(this).find('.display-scrollbar'),
+					slidesPerView: 'auto',
+					grabCursor: true,
+					nextButton: $(this).find('.swiper-button-next'),
+					prevButton: $(this).find('.swiper-button-prev')
+				});
+				$(this).addClass('set_slide_clear').bind('mousedown touchstart touchmove',function(){
+					$('.active_swipe_slide').removeClass('active_swipe_slide');
+					$(this).addClass('active_swipe_slide');
+				});
+			}
+		});
+		/*
+		 $(window).resize(function(){
+			setTimeout(function(){
+				if($('.swiper-scrollbar-drag').width() == 0) display_swiper[uniquekey_dsp].update(true);
+			},1000);
+		 });
+		 set_goods_display_decoration(".goodsDisplayImageWrap");
+		*/
+	});
+</script>
+</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //인기상품 -->
+
+<div class="main_section2" style="background:#F6EFE1 url('/data/skin/responsive_yeongwol_mall_gl/images/design_resp/winter_sale.jpg') no-repeat center bottom;">
+	<div class="resp_wrap">
+		<div class="title_group1">
+			<h3 class="title1"><span designElement="text" textIndex="2"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL21haW4vaW5kZXguaHRtbA==" >영월의 추천식품</span></h3>
+		</div>
+		<div class="show_display_col4" data-effect="opacity">
+			<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ [반응형] 디스플레이 템플릿 - 격자 반응형 @@
+- 파일위치 : [스킨폴더]/_modules/display/goods_display_responsible.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<style>
+	.designDisplay_68578b8d90b15 .goods_list li.gl_item{ width:600px; }
+</style>
+
+<div id='designDisplay_68578b8d90b15' class='designDisplay' designElement='display' templatePath='main/index.html' displaySeq='10002' page='' perpage='' category='' displayStyle='responsible'>
+
+	<div class="designDisplay_68578b8d90b15 display_responsible_class ">
+		<!-- ------- 상품정보. 파일위치 : /data/design/ ------- -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ goods_info_style_5 @@
+- 파일 위치 : /data/design/goods_info_style_5.html
+- CSS 경로 : /data/design/goods_info_style.css
+- 상품정보 관련 CSS 수정 및 추가는 다음의 CSS파일에서 작업하시기 바랍니다.
+/data/design/goods_info_user.css
+※ /data 폴더는 /skin 폴더 상위 폴더입니다.
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+	<style>
+		.designDisplay_68578b8d90b15.goods_list li.gl_item{ width:600px; }
+	</style>
+	<ul class="goods_list designDisplay_68578b8d90b15 goods_info_style_5">
+	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('26929','',this,'goods_view')">
+				<img src="https://gwchild143.firstmall.kr/data/goods/1/2017/12/26929_tmp_5177e8a7abcd02c0bcb4431bd0a78a736240view.jpg" data-src="https://gwchild143.firstmall.kr/data/goods/1/2017/12/26929_tmp_5177e8a7abcd02c0bcb4431bd0a78a736240view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="냉동 곤드레 16kg 4kg*4개"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 26929)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=26929">냉동 곤드레 16kg 4kg*4개</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">75,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	<div class="infO_group">
+		
+		<!-- 상품후기 평가점수( 별점 ) -->
+		<div class="goodS_info displaY_review_score_a">
+			<span class="areA">
+				<span class="ev_active2"><b style="width:99.2%;"></b></span>
+			</span>
+		</div>
+
+		<!-- 상품후기 평가점수( 점수 ) -->
+		<div class="goodS_info displaY_review_score_b">
+			<span class="areA"><span class="nuM">5.0</span>점</span>
+		</div>
+
+		<!-- 상품후기 가장 좋은 평가정보( 사람수 ) -->
+	</div>
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('102788','',this,'goods_view')">
+				<img src="https://gwchild684.firstmall.kr/data/goods/1/2024/08/1_temp_17237936667541view.jpg" data-src="https://gwchild684.firstmall.kr/data/goods/1/2024/08/1_temp_17237936667541view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="[기분조은]영월애빵 팥 & 초코 반반 세트"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 102788)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=102788">[기분조은]영월애빵 팥 & 초코 반반 세트</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">18,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	<div class="infO_group">
+		
+		<!-- 상품후기 평가점수( 별점 ) -->
+		<div class="goodS_info displaY_review_score_a">
+			<span class="areA">
+				<span class="ev_active2"><b style="width:100%;"></b></span>
+			</span>
+		</div>
+
+		<!-- 상품후기 평가점수( 점수 ) -->
+		<div class="goodS_info displaY_review_score_b">
+			<span class="areA"><span class="nuM">5.0</span>점</span>
+		</div>
+
+		<!-- 상품후기 가장 좋은 평가정보( 사람수 ) -->
+	</div>
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('102784','',this,'goods_view')">
+				<img src="https://gwchild684.firstmall.kr/data/goods/1/2024/08/3_temp_17237939844495view.png" data-src="https://gwchild684.firstmall.kr/data/goods/1/2024/08/3_temp_17237939844495view.png" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="[기분조은] 서리태오디쿠키 10개 세트"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 102784)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=102784">[기분조은] 서리태오디쿠키 10개 세트</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">25,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('107874','',this,'goods_view')">
+				<img src="https://gwchild335.firstmall.kr/data/goods/1/2025/01/100007_temp_17358688670648view.jpg" data-src="https://gwchild335.firstmall.kr/data/goods/1/2025/01/100007_temp_17358688670648view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="팔도락 춘천식 닭갈비 2kg (냉동)"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 107874)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=107874">팔도락 춘천식 닭갈비 2kg (냉동)</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">20,600</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">18,500</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('107875','',this,'goods_view')">
+				<img src="https://gwchild335.firstmall.kr/data/goods/1/2025/01/100008_temp_17358689470254view.jpg" data-src="https://gwchild335.firstmall.kr/data/goods/1/2025/01/100008_temp_17358689470254view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="팔도락 춘천식 닭갈비 2kg*4팩 (냉동)"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 107875)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=107875">팔도락 춘천식 닭갈비 2kg*4팩 (냉동)</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">79,200</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">72,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('108120','',this,'goods_view')">
+				<img src="https://gwchild348.firstmall.kr/data/goods/1/2024/12/_temp_17349292175355view.jpg" data-src="https://gwchild348.firstmall.kr/data/goods/1/2024/12/_temp_17349292175355view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="[영월농협] 콩콩쉐이크 프로틴 450g"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 108120)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=108120">[영월농협] 콩콩쉐이크 프로틴 450g</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">21,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('108121','',this,'goods_view')">
+				<img src="https://gwchild348.firstmall.kr/data/goods/1/2024/12/_temp_17349288367761view.png" data-src="https://gwchild348.firstmall.kr/data/goods/1/2024/12/_temp_17349288367761view.png" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="[영월농협] 쌀그래놀라 40g"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 108121)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=108121">[영월농협] 쌀그래놀라 40g</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">4,100</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('107765','',this,'goods_view')">
+				<img src="https://gwchild574.firstmall.kr/data/goods/1/2024/11/2_temp_17321676275845view.png" data-src="https://gwchild574.firstmall.kr/data/goods/1/2024/11/2_temp_17321676275845view.png" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="쑥콩떡"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 107765)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=107765">쑥콩떡</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">40,000</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">35,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('107767','',this,'goods_view')">
+				<img src="https://gwchild574.firstmall.kr/data/goods/1/2024/11/3_2024112114495588.png" data-src="https://gwchild574.firstmall.kr/data/goods/1/2024/11/3_2024112114495588.png" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="쫄깃한 백미 쑥개떡이야"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 107767)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=107767">쫄깃한 백미 쑥개떡이야</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">40,000</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">35,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('107766','',this,'goods_view')">
+				<img src="https://gwchild574.firstmall.kr/data/goods/1/2024/11/4_20241121145257152.png" data-src="https://gwchild574.firstmall.kr/data/goods/1/2024/11/4_20241121145257152.png" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="구수한 현미 쑥개떡이야"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 107766)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=107766">구수한 현미 쑥개떡이야</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">40,000</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">35,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('107873','',this,'goods_view')">
+				<img src="https://gwchild335.firstmall.kr/data/goods/1/2025/01/100009_temp_17358682762585view.jpg" data-src="https://gwchild335.firstmall.kr/data/goods/1/2025/01/100009_temp_17358682762585view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="팔도락 골라 담는 "4팩" (냉동)"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 107873)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=107873">팔도락 골라 담는 "4팩" (냉동)</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">27,100</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">24,600</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('107898','',this,'goods_view')">
+				<img src="https://gwchild335.firstmall.kr/data/goods/1/2025/01/100011_temp_17358687259310view.jpg" data-src="https://gwchild335.firstmall.kr/data/goods/1/2025/01/100011_temp_17358687259310view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="팔도락 골라 담는 "12팩" (냉동)"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 107898)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=107898">팔도락 골라 담는 "12팩" (냉동)</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">81,200</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">73,800</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('107653','',this,'goods_view')">
+				<img src="https://gwchild742.firstmall.kr/data/goods/1/2025/02/100034_temp_17390722694544view.jpg" data-src="https://gwchild742.firstmall.kr/data/goods/1/2025/02/100034_temp_17390722694544view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="후무스 샐러드 스프레드 드레싱 딥소스 병아리콩 올리브오일 큐민"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 107653)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=107653">후무스 샐러드 스프레드 드레싱 딥소스 병아리콩 올리브오일 큐민</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">11,000</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">9,800</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('107007','',this,'goods_view')">
+				<img src="https://gwchild332.firstmall.kr/data/goods/1/2024/09/41818_temp_17274039527176view.jpg" data-src="https://gwchild332.firstmall.kr/data/goods/1/2024/09/41818_temp_17274039527176view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="할매화첩 꽃차5종+트레이+집게"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 107007)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=107007">할매화첩 꽃차5종+트레이+집게</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">90,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('106768','',this,'goods_view')">
+				<img src="https://gwchild891.firstmall.kr/data/goods/1/2024/06/_temp_17194529809973view.jpg" data-src="https://gwchild891.firstmall.kr/data/goods/1/2024/06/_temp_17194529809973view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="[영월유팜] 국산 찰수수쌀 1kg 잡곡 찰수수"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 106768)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=106768">[영월유팜] 국산 찰수수쌀 1kg 잡곡 찰수수</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">15,000</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">10,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('103790','',this,'goods_view')">
+				<img src="https://gwchild976.firstmall.kr/data/goods/1/2023/07/7_temp_16899088048142view.jpg" data-src="https://gwchild976.firstmall.kr/data/goods/1/2023/07/7_temp_16899088048142view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="예밀와이너리 예밀와인 프리미엄 드라이 750ml"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 103790)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=103790">예밀와이너리 예밀와인 프리미엄 드라이 750ml</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">30,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('103791','',this,'goods_view')">
+				<img src="https://gwchild976.firstmall.kr/data/goods/1/2023/07/4_temp_16899092654961view.jpg" data-src="https://gwchild976.firstmall.kr/data/goods/1/2023/07/4_temp_16899092654961view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="예밀와이너리 예밀와인 화이트 375ml"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 103791)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=103791">예밀와이너리 예밀와인 화이트 375ml</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">25,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('103792','',this,'goods_view')">
+				<img src="https://gwchild976.firstmall.kr/data/goods/1/2023/07/6_temp_16899094047022view.jpg" data-src="https://gwchild976.firstmall.kr/data/goods/1/2023/07/6_temp_16899094047022view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="예밀와인 러블리 선물세트"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 103792)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=103792">예밀와인 러블리 선물세트</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">50,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('103793','',this,'goods_view')">
+				<img src="https://gwchild976.firstmall.kr/data/goods/1/2023/07/3_temp_16899091984995view.jpg" data-src="https://gwchild976.firstmall.kr/data/goods/1/2023/07/3_temp_16899091984995view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="예밀와이너리 예밀와인 로제 375ml"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 103793)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=103793">예밀와이너리 예밀와인 로제 375ml</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">25,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('103795','',this,'goods_view')">
+				<img src="https://gwchild976.firstmall.kr/data/goods/1/2023/07/2_temp_16899091227179view.jpg" data-src="https://gwchild976.firstmall.kr/data/goods/1/2023/07/2_temp_16899091227179view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="예밀와이너리 예밀와인 스위트 750ml"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 103795)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=103795">예밀와이너리 예밀와인 스위트 750ml</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">25,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+
+		<!-- ------- //상품정보. ------- -->
+	</div>
+
+
+</div>
+
+		</div>
+	</div>
+</div>
+<!-- //신선식품 -->
+
+<div class="resp_wrap">
+	<div class="main_section v2">
+		<div class="mtit">
+			<h2><img src="/data/skin/responsive_yeongwol_mall_gl/images/design_resp/mdpick_ico.png" class="mb10" alt=""><br />
+				MD<br> <strong>추천상품</strong></h2>
+			<p>지금 사면<br> 슈퍼 그뤠잇!</p>
+			<a href="#a" class="more">more view</a>
+		</div>
+		<div class="section_product">
+			<div class="title_group1">
+				<h3 class="title1"><span designElement="text" textIndex="3"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL21haW4vaW5kZXguaHRtbA==" >MD 추천상품</span></h3>
+			</div>
+			<div class="show_display_col3" data-effect="opacity">
+				<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ [반응형] 디스플레이 템플릿 - 스와이프형 @@
+- 파일위치 : [스킨폴더]/_modules/display/goods_display_sizeswipe.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<style>
+	.designDisplay_68578b8da55f1 .goods_list ol.gli_contents { text-align:center;}
+	.designDisplay_68578b8da55f1 .swiper-slide>li.gl_item { width:600px;  }
+</style>
+
+<div id='designDisplay_68578b8da55f1' class='designDisplay' designElement='display' templatePath='main/index.html' displaySeq='10003' perpage='' category='' displayStyle='sizeswipe'>
+          <div class="designDisplay_68578b8da55f1 display_slide_class displaySwipeTabContentsContainer" tabIdx="0">
+			  <div class="goods_display_slide_wrap">
+				  <div class="swiper-wrapper">
+					<!-- ------- 상품정보. 파일위치 : /data/design/ ------- -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ goods_info_style_5 @@
+- 파일 위치 : /data/design/goods_info_style_5.html
+- CSS 경로 : /data/design/goods_info_style.css
+- 상품정보 관련 CSS 수정 및 추가는 다음의 CSS파일에서 작업하시기 바랍니다.
+/data/design/goods_info_user.css
+※ /data 폴더는 /skin 폴더 상위 폴더입니다.
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('102788','',this,'goods_view')">
+				<img src="https://gwchild684.firstmall.kr/data/goods/1/2024/08/1_temp_17237936667541view.jpg" data-src="https://gwchild684.firstmall.kr/data/goods/1/2024/08/1_temp_17237936667541view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="[기분조은]영월애빵 팥 & 초코 반반 세트"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 102788)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=102788">[기분조은]영월애빵 팥 & 초코 반반 세트</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">18,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	<div class="infO_group">
+		
+		<!-- 상품후기 평가점수( 별점 ) -->
+		<div class="goodS_info displaY_review_score_a">
+			<span class="areA">
+				<span class="ev_active2"><b style="width:100%;"></b></span>
+			</span>
+		</div>
+
+		<!-- 상품후기 평가점수( 점수 ) -->
+		<div class="goodS_info displaY_review_score_b">
+			<span class="areA"><span class="nuM">5.0</span>점</span>
+		</div>
+
+		<!-- 상품후기 가장 좋은 평가정보( 사람수 ) -->
+	</div>
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('103792','',this,'goods_view')">
+				<img src="https://gwchild976.firstmall.kr/data/goods/1/2023/07/6_temp_16899094047022view.jpg" data-src="https://gwchild976.firstmall.kr/data/goods/1/2023/07/6_temp_16899094047022view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="예밀와인 러블리 선물세트"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 103792)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=103792">예밀와인 러블리 선물세트</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">50,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('103790','',this,'goods_view')">
+				<img src="https://gwchild976.firstmall.kr/data/goods/1/2023/07/7_temp_16899088048142view.jpg" data-src="https://gwchild976.firstmall.kr/data/goods/1/2023/07/7_temp_16899088048142view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="예밀와이너리 예밀와인 프리미엄 드라이 750ml"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 103790)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=103790">예밀와이너리 예밀와인 프리미엄 드라이 750ml</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">30,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('106865','',this,'goods_view')">
+				<img src="https://gwchild886.firstmall.kr/data/goods/1/2024/07/2_2024070921333417.png" data-src="https://gwchild886.firstmall.kr/data/goods/1/2024/07/2_2024070921333417.png" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="[산지직송] 영월 감자 5kg(특대,대,중) 2024년 햇 수미감자"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 106865)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+			<div class="respGoodsStatus">
+				<a href="/goods/view?no=106865" class="area">
+					<span class="status_style type2"><em>재고확보중</em></span>
+				</a>
+			</div>
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=106865">[산지직송] 영월 감자 5kg(특대,대,중) 2024년 햇 수미감자</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">21,000</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">19,500</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('106870','',this,'goods_view')">
+				<img src="https://gwchild886.firstmall.kr/data/goods/1/2024/07/_temp_17205270706637view.png" data-src="https://gwchild886.firstmall.kr/data/goods/1/2024/07/_temp_17205270706637view.png" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="[산지직송] 영월 감자10kg(특대,대,중,소) 2024년 햇 수미감자"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 106870)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+			<div class="respGoodsStatus">
+				<a href="/goods/view?no=106870" class="area">
+					<span class="status_style type2"><em>재고확보중</em></span>
+				</a>
+			</div>
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=106870">[산지직송] 영월 감자10kg(특대,대,중,소) 2024년 햇 수미감자</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">28,000</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">25,900</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('106860','',this,'goods_view')">
+				<img src="https://gwchild1052.firstmall.kr/data/goods/1/2024/07/_temp_17204903992183view.jpg" data-src="https://gwchild1052.firstmall.kr/data/goods/1/2024/07/_temp_17204903992183view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="영월 키토산 먹은 감자"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 106860)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+			<div class="respGoodsStatus">
+				<a href="/goods/view?no=106860" class="area">
+					<span class="status_style type2"><em>재고확보중</em></span>
+				</a>
+			</div>
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=106860">영월 키토산 먹은 감자</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">25,000</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">20,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('106867','',this,'goods_view')">
+				<img src="https://gwchild886.firstmall.kr/data/goods/1/2024/07/6_temp_17206763520720view.png" data-src="https://gwchild886.firstmall.kr/data/goods/1/2024/07/6_temp_17206763520720view.png" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="(올해마지막!)강원도 미흑찰옥수수  2024년산 영월 흑찰찰옥수수"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 106867)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+			<div class="respGoodsStatus">
+				<a href="/goods/view?no=106867" class="area">
+					<span class="status_style type2"><em>재고확보중</em></span>
+				</a>
+			</div>
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=106867">(올해마지막!)강원도 미흑찰옥수수  2024년산 영월 흑찰찰옥수수</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">38,000</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">34,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('106868','',this,'goods_view')">
+				<img src="https://gwchild886.firstmall.kr/data/goods/1/2024/07/5_temp_17212261404083view.png" data-src="https://gwchild886.firstmall.kr/data/goods/1/2024/07/5_temp_17212261404083view.png" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="(올해마지막)강원도 영월찰옥수수(미백)50개, 30개"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 106868)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+			<div class="respGoodsStatus">
+				<a href="/goods/view?no=106868" class="area">
+					<span class="status_style type2"><em>재고확보중</em></span>
+				</a>
+			</div>
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=106868">(올해마지막)강원도 영월찰옥수수(미백)50개, 30개</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">50,000</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">45,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	<div class="infO_group">
+		
+		<!-- 상품후기 평가점수( 별점 ) -->
+		<div class="goodS_info displaY_review_score_a">
+			<span class="areA">
+				<span class="ev_active2"><b style="width:86.7%;"></b></span>
+			</span>
+		</div>
+
+		<!-- 상품후기 평가점수( 점수 ) -->
+		<div class="goodS_info displaY_review_score_b">
+			<span class="areA"><span class="nuM">4.3</span>점</span>
+		</div>
+
+		<!-- 상품후기 가장 좋은 평가정보( 사람수 ) -->
+	</div>
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('106834','',this,'goods_view')">
+				<img src="https://gwchild742.firstmall.kr/data/goods/1/2024/11/100032_temp_17309605438017view.jpg" data-src="https://gwchild742.firstmall.kr/data/goods/1/2024/11/100032_temp_17309605438017view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="수제누가샌드위치초콜릿웨이퍼쿠키"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 106834)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+			<div class="respGoodsStatus">
+				<a href="/goods/view?no=106834" class="area">
+					<span class="status_style type3"><em>상품준비중</em></span>
+				</a>
+			</div>
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=106834">수제누가샌드위치초콜릿웨이퍼쿠키</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">5,200</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('106862','',this,'goods_view')">
+				<img src="https://gwchild1052.firstmall.kr/data/goods/1/2024/06/_temp_17179841137311view.jpg" data-src="https://gwchild1052.firstmall.kr/data/goods/1/2024/06/_temp_17179841137311view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="영월 찰토마토"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 106862)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=106862">영월 찰토마토</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">25,000</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">21,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('28760','',this,'goods_view')">
+				<img src="https://gwchild344.firstmall.kr/data/goods/1/2024/05/28760_temp_17165179319320view.jpg" data-src="https://gwchild344.firstmall.kr/data/goods/1/2024/05/28760_temp_17165179319320view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="유기농 토마토5kg,10kg"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 28760)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+			<div class="respGoodsStatus">
+				<a href="/goods/view?no=28760" class="area">
+					<span class="status_style type1"><em>SOLD OUT!</em></span>
+				</a>
+			</div>
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=28760">유기농 토마토5kg,10kg</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">25,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	<div class="infO_group">
+		
+		<!-- 상품후기 평가점수( 별점 ) -->
+		<div class="goodS_info displaY_review_score_a">
+			<span class="areA">
+				<span class="ev_active2"><b style="width:97.5%;"></b></span>
+			</span>
+		</div>
+
+		<!-- 상품후기 평가점수( 점수 ) -->
+		<div class="goodS_info displaY_review_score_b">
+			<span class="areA"><span class="nuM">4.9</span>점</span>
+		</div>
+
+		<!-- 상품후기 가장 좋은 평가정보( 사람수 ) -->
+	</div>
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('106551','',this,'goods_view')">
+				<img src="https://gwchild742.firstmall.kr/data/goods/1/2024/05/100026_temp_17145307652258view.jpg" data-src="https://gwchild742.firstmall.kr/data/goods/1/2024/05/100026_temp_17145307652258view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="제철그대로 봄돌나물비빔국수"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 106551)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+			<div class="respGoodsStatus">
+				<a href="/goods/view?no=106551" class="area">
+					<span class="status_style type3"><em>상품준비중</em></span>
+				</a>
+			</div>
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=106551">제철그대로 봄돌나물비빔국수</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">22,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('106550','',this,'goods_view')">
+				<img src="https://gwchild742.firstmall.kr/data/goods/1/2025/06/100025_temp_17497157564991view.jpg" data-src="https://gwchild742.firstmall.kr/data/goods/1/2025/06/100025_temp_17497157564991view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="영월고춧가루 비빔장"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 106550)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=106550">영월고춧가루 비빔장</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">15,600</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">14,500</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('106561','',this,'goods_view')">
+				<img src="https://gwchild742.firstmall.kr/data/goods/1/2024/07/100029_temp_17197875352241view.jpg" data-src="https://gwchild742.firstmall.kr/data/goods/1/2024/07/100029_temp_17197875352241view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="제철저염물김치"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 106561)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+			<div class="respGoodsStatus">
+				<a href="/goods/view?no=106561" class="area">
+					<span class="status_style type3"><em>상품준비중</em></span>
+				</a>
+			</div>
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=106561">제철저염물김치</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">15,500</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('28860','',this,'goods_view')">
+				<img src="http://gwchild509.firstmall.kr/data/goods/1/2018/07/28860_tmp_f597aa20241c036018ad956a267007c61868view.jpg" data-src="http://gwchild509.firstmall.kr/data/goods/1/2018/07/28860_tmp_f597aa20241c036018ad956a267007c61868view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="풀무리농장 유기농오이 50개"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 28860)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=28860">풀무리농장 유기농오이 50개</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">55,000</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">44,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	<div class="infO_group">
+		
+		<!-- 상품후기 평가점수( 별점 ) -->
+		<div class="goodS_info displaY_review_score_a">
+			<span class="areA">
+				<span class="ev_active2"><b style="width:95.7%;"></b></span>
+			</span>
+		</div>
+
+		<!-- 상품후기 평가점수( 점수 ) -->
+		<div class="goodS_info displaY_review_score_b">
+			<span class="areA"><span class="nuM">4.8</span>점</span>
+		</div>
+
+		<!-- 상품후기 가장 좋은 평가정보( 사람수 ) -->
+	</div>
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('28858','',this,'goods_view')">
+				<img src="http://gwchild509.firstmall.kr/data/goods/1/2018/07/28858_tmp_ad1e24ddeca54cb0598e0c56f8c013c75975view.png" data-src="http://gwchild509.firstmall.kr/data/goods/1/2018/07/28858_tmp_ad1e24ddeca54cb0598e0c56f8c013c75975view.png" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="풀무리농장 유기농오이30개"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 28858)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=28858">풀무리농장 유기농오이30개</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">50,000</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">34,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	<div class="infO_group">
+		
+		<!-- 상품후기 평가점수( 별점 ) -->
+		<div class="goodS_info displaY_review_score_a">
+			<span class="areA">
+				<span class="ev_active2"><b style="width:100%;"></b></span>
+			</span>
+		</div>
+
+		<!-- 상품후기 평가점수( 점수 ) -->
+		<div class="goodS_info displaY_review_score_b">
+			<span class="areA"><span class="nuM">5.0</span>점</span>
+		</div>
+
+		<!-- 상품후기 가장 좋은 평가정보( 사람수 ) -->
+	</div>
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('41700','',this,'goods_view')">
+				<img src="https://gwchild143.firstmall.kr/data/goods/1/2025/03/41700_temp_17413228989840view.gif" data-src="https://gwchild143.firstmall.kr/data/goods/1/2025/03/41700_temp_17413228989840view.gif" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="2025년 봄나물 영특한 산채꾸러미 세트 동강애"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 41700)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+			<div class="respGoodsStatus">
+				<a href="/goods/view?no=41700" class="area">
+					<span class="status_style type2"><em>재고확보중</em></span>
+				</a>
+			</div>
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=41700">2025년 봄나물 영특한 산채꾸러미 세트 동강애</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">33,000</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">30,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('106491','',this,'goods_view')">
+				<img src="https://gwchild742.firstmall.kr/data/goods/1/2025/04/100023_temp_17452006752504view.jpg" data-src="https://gwchild742.firstmall.kr/data/goods/1/2025/04/100023_temp_17452006752504view.jpg" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="제철그대로 노지 돌나물 돗나물"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 106491)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+			<div class="respGoodsStatus">
+				<a href="/goods/view?no=106491" class="area">
+					<span class="status_style type3"><em>상품준비중</em></span>
+				</a>
+			</div>
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=106491">제철그대로 노지 돌나물 돗나물</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">8,400</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">7,600</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('43037','',this,'goods_view')">
+				<img src="http://gwchild884.firstmall.kr/data/goods/1/2021/07/43037_tmp_f376b575846934fb11736286e732c0193182view.png" data-src="http://gwchild884.firstmall.kr/data/goods/1/2021/07/43037_tmp_f376b575846934fb11736286e732c0193182view.png" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="영월 도깨비산채 산마늘 2kg"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 43037)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+			<div class="respGoodsStatus">
+				<a href="/goods/view?no=43037" class="area">
+					<span class="status_style type1"><em>SOLD OUT!</em></span>
+				</a>
+			</div>
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=43037">영월 도깨비산채 산마늘 2kg</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">40,000</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">38,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	<div class="infO_group">
+		
+		<!-- 상품후기 평가점수( 별점 ) -->
+		<div class="goodS_info displaY_review_score_a">
+			<span class="areA">
+				<span class="ev_active2"><b style="width:100%;"></b></span>
+			</span>
+		</div>
+
+		<!-- 상품후기 평가점수( 점수 ) -->
+		<div class="goodS_info displaY_review_score_b">
+			<span class="areA"><span class="nuM">5.0</span>점</span>
+		</div>
+
+		<!-- 상품후기 가장 좋은 평가정보( 사람수 ) -->
+	</div>
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul><ul class="goods_list swiper-slide">	<li class="gl_item">
+	<div class="gl_inner_item_wrap">
+
+		<!--상품이미지-->
+		<div class="gli_image goodsDisplayImageWrap">
+			<a href="javascript:void(0);" class="respItemImageArea" onclick="display_goods_view('43038','',this,'goods_view')">
+				<img src="http://gwchild884.firstmall.kr/data/goods/1/2021/07/43038_2021071412010217.png" data-src="http://gwchild884.firstmall.kr/data/goods/1/2021/07/43038_2021071412010217.png" class="goodsDisplayImage lazyload" onerror="this.src='/data/skin/responsive_yeongwol_mall_gl/images/common/noimage.gif'" alt="영월 도깨비산채 산마늘 5kg"/>
+			</a>
+
+			<!-- 반응형 icon new -->
+
+			<!-- 반응형 zzim -->
+			<div class="respGoodsZzim">
+				<a class="zzimArea" href="javascript:void(0)" onclick="display_goods_zzim(this, 43038)">
+					<img src="/data/icon/goodsdisplay/zzim/icon_zzim.png" class="zzimImage normal " alt="찜하기" title="찜하기" />
+					<img src="/data/icon/goodsdisplay/zzim_on/icon_zzim_on.png" class="zzimImage active hide" alt="찜한 상품" title="찜한 상품" />
+				</a>
+			</div>
+
+			<!-- 미리보기/옵션보기/SNS보내기 -->
+
+			<!-- 상품 상태 표시 -->
+			<div class="respGoodsStatus">
+				<a href="/goods/view?no=43038" class="area">
+					<span class="status_style type1"><em>SOLD OUT!</em></span>
+				</a>
+			</div>
+		</div>
+
+<div class="resp_display_goods_info infO_style_5">
+<!-- +++++++++++++++++++++++++++++++++ NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+	<!-- 상품명-->
+	<div class="goodS_info displaY_goods_name">
+		<span class="areA"><a href="/goods/view?no=43038">영월 도깨비산채 산마늘 5kg</a></span>
+	</div>
+
+	<!-- 비회원 대체문구 -->
+	<div class="infO_group">
+		<!-- 정가 -->
+		<div class="goodS_info displaY_consumer_price">
+			<span class="areA">				
+				<span class="nuM">100,000</span>&#x20a9;
+			</span>
+		</div>
+
+		<!-- (할인혜택)판매가 -->
+		<div class="goodS_info displaY_sales_price">
+			<span class="areA">				
+				<span class="nuM">90,000</span>&#x20a9;
+			</span>
+		</div>
+	</div>
+
+	<div class="infO_group">
+		
+		<!-- 상품후기 평가점수( 별점 ) -->
+		<div class="goodS_info displaY_review_score_a">
+			<span class="areA">
+				<span class="ev_active2"><b style="width:100%;"></b></span>
+			</span>
+		</div>
+
+		<!-- 상품후기 평가점수( 점수 ) -->
+		<div class="goodS_info displaY_review_score_b">
+			<span class="areA"><span class="nuM">5.0</span>점</span>
+		</div>
+
+		<!-- 상품후기 가장 좋은 평가정보( 사람수 ) -->
+	</div>
+	
+	<!-- 리뷰 영역 -->
+<!-- +++++++++++++++++++++++++++++++++ //NEW 상품 정보 ++++++++++++++++++++++++++++++++ -->
+</div>
+
+	</div>
+  </li>
+</ul>
+					<!-- ------- //상품정보. ------- -->
+				  </div>
+				  <!-- scrollbar -->
+				  <div class="display-scrollbar swiper-scrollbardesignDisplay_68578b8da55f1"></div>
+			  </div>
+			   <!-- left, right button -->
+			  <div class="swiper-button-next"></div>
+			  <div class="swiper-button-prev"></div>
+          </div>
+
+<script>
+	var t = new Date();
+	var uniquekey_dsp = 'designDisplay_68578b8da55f1'+t.getTime();
+	var display_swiper = [];
+
+	$(function(){
+		/* 상품디스플레이 스와이프형 탭 스크립트 */
+		$("#designDisplay_68578b8da55f1 .displaySwipeTabContainer").each(function(){
+			var tabContainerObj = $(this);
+			tabContainerObj.children('li').css('width',(100/tabContainerObj.children('li').length)+'%');
+			tabContainerObj.children('li').bind('mouseover click',function(){
+				tabContainerObj.children('li.current').removeClass('current');
+				$(this).addClass('current');
+				var tabIdx = tabContainerObj.children('li').index(this);
+				tabContainerObj.closest('.designDisplay, .designCategoryRecommendDisplay').find('.displayTabContentsContainer').hide().eq(tabIdx).show();
+			}).eq(0).trigger('mouseover');
+		});
+
+
+		$('.display_slide_class').each(function(){
+			if(!$(this).hasClass('set_slide_clear')){
+				display_swiper[uniquekey_dsp] = new Swiper($(this).find('.goods_display_slide_wrap'), {
+					//scrollbar: $(this).find('.display-scrollbar'),
+					slidesPerView: 'auto',
+					grabCursor: true,
+					nextButton: $(this).find('.swiper-button-next'),
+					prevButton: $(this).find('.swiper-button-prev')
+				});
+				$(this).addClass('set_slide_clear').bind('mousedown touchstart touchmove',function(){
+					$('.active_swipe_slide').removeClass('active_swipe_slide');
+					$(this).addClass('active_swipe_slide');
+				});
+			}
+		});
+		/*
+		 $(window).resize(function(){
+			setTimeout(function(){
+				if($('.swiper-scrollbar-drag').width() == 0) display_swiper[uniquekey_dsp].update(true);
+			},1000);
+		 });
+		 set_goods_display_decoration(".goodsDisplayImageWrap");
+		*/
+	});
+</script>
+</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //추천상품 -->
+
+
+<script type="text/javascript">
+	$(function(){
+		/* 탭메뉴 swiper 동작( 1024 미만인 경우 동작, 1024 이상인 경우 : 마우스 오버시 서브메뉴 노출 ) */
+        var slideTabSwiper = undefined;
+        if ( window.innerWidth < 1280 && $('.slide-wrap').length > 0 ) {
+            $('.slide-wrap ul.displayTabContainer>li').addClass('swiper-slide');
+            slideTabSwiper = new Swiper('.slide-wrap', {
+                wrapperClass: 'displayTabContainer',
+                slidesPerView: 'auto'
+            });
+            //slideTabSwiper.slideTo( (cateIndex-1), 800, false );
+        } else {
+            $('.slide-wrap ul.displayTabContainer>li').removeClass('swiper-slide');
+            $('.slide-wrap ul.displayTabContainer>li').hover(
+                function() { $(this).find('.displayTabContentsContainerWrap').show(); },
+                function() { $(this).find('.displayTabContentsContainerWrap').hide(); }
+            );
+        }
+        $( window ).resize(function() {
+            if ( window.innerWidth != WINDOWWIDTH ) {
+                if ( window.innerWidth < 1280 && $('.slide-wrap').length > 0 && slideTabSwiper == undefined ) {
+                    $('.slide-wrap ul.displayTabContainer>li').addClass('swiper-slide');
+                    $('.slide-wrap ul.displayTabContainer>li').off('hover');
+                    slideTabSwiper = new Swiper('.slide-wrap', {
+                        wrapperClass: 'displayTabContainer',
+                        slidesPerView: 'auto'
+                    });
+                    //slideTabSwiper.slideTo( (cateIndex-1), 800, false );
+                } else if ( window.innerWidth > 1279 && slideTabSwiper != undefined ) {
+                    slideTabSwiper.slideTo( 0, 800, false );
+                    $('.slide-wrap ul.displayTabContainer>li').removeClass('swiper-slide');
+                    slideTabSwiper.destroy();
+                    slideTabSwiper = undefined;
+                    $('.slide-wrap ul.displayTabContainer>li').hover(
+                        function() { $(this).find('.displayTabContentsContainerWrap').show(); },
+                        function() { $(this).find('.displayTabContentsContainerWrap').hide(); }
+                    );
+                }
+            }
+        });
+        /* //탭메뉴 swiper 동작( 1024 미만인 경우 동작, 1024 이상인 경우 : 마우스 오버시 서브메뉴 노출 ) */
+	});
+</script>
+		<!-- ================= 파트 페이지들 :: END. ================= -->
+		</div>
+
+		<!-- ================= #LAYOUT_FOOTER :: START. 파일위치 : layout_footer/standard.html (default) ================= -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ #LAYOUT_FOOTER @@
+- 파일위치 : [스킨폴더]/layout_footer/standard.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<div id="layout_footer" class="layout_footer">
+	<div class="footer_a" >
+		<div class="resp_wrap">
+			<ul class="menu1">
+				<li class="foot_menu_d1">
+					<h4 class="title"><span designElement="text" textIndex="1"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==" >공지사항</span></h4>
+					<div class="box_contents">
+						<div class='designLastest68578b8dbadbf'><style type="text/css">
+/*.designLastest68578b8dbadbf .tit {font-size:12px; font-weight:bold;}
+.designLastest68578b8dbadbf .normal_bbslist .cat {font-size:12px;font-family:gothic,gulim;color:#888;letter-spacing:-1px;}
+.designLastest68578b8dbadbf .normal_bbslist .sbj {text-align:left;letter-spacing:0px;}
+.designLastest68578b8dbadbf .normal_bbslist .sbj a {font-size:12px;font-family:gothic,gulim;color:#222222;text-decoration:none;line-height:150%;}
+.designLastest68578b8dbadbf .normal_bbslist .sbj a:hover {text-decoration:underline;}
+.designLastest68578b8dbadbf .normal_bbslist .comment {font:normal 11px arial;color:#FC6138;}*/
+</style>
+
+<!-- 최근글 -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin-top:-60px;">
+	<tr>
+		<td>
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="bottom" align="left" height="25"><span class="tit"></span></td>
+					<!-- <td valign="bottom" align="right"><a href="/board/?id=notice">더보기</a></td> -->
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="35"></td>
+	</tr>
+	<tr>
+		<td height="0" bgcolor="545454"></td>
+	</tr>
+	<!-- 리스트데이터 : 시작 -->
+	<tr class="normal_bbslist">
+		<td height="30" class="sbj">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+						<td>
+							 <a href="/board/view?id=notice&seq=403"  board_seq="403"  board_id="notice" > <span class="cat">[이벤트]</span> 2025 영월몰 봄맞이 기획전 시작합니다! </a>
+							  <img src="/admin/skin/default/images/board/icon/icon_hot.gif" title="hot" >   
+						</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="0" bgcolor="e8e8e8"></td>
+	</tr>
+	<tr class="normal_bbslist">
+		<td height="30" class="sbj">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+						<td>
+							 <a href="/board/view?id=notice&seq=396"  board_seq="396"  board_id="notice" > <span class="cat">[이벤트]</span> 2025 영월몰 설맞이 기획전 시작합니다~... </a>
+							  <img src="/admin/skin/default/images/board/icon/icon_hot.gif" title="hot" >   
+						</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="0" bgcolor="e8e8e8"></td>
+	</tr>
+	<tr class="normal_bbslist">
+		<td height="30" class="sbj">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+						<td>
+							 <a href="/board/view?id=notice&seq=380"  board_seq="380"  board_id="notice" > <span class="cat">[이벤트]</span> [조기종료] 2024 영월몰 강원세일페스타... </a>
+							  <img src="/admin/skin/default/images/board/icon/icon_hot.gif" title="hot" >   
+						</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="0" bgcolor="e8e8e8"></td>
+	</tr>
+	<tr class="normal_bbslist">
+		<td height="30" class="sbj">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+						<td>
+							 <a href="/board/view?id=notice&seq=367"  board_seq="367"  board_id="notice" > <span class="cat">[이벤트]</span> [기간종료] 2024 영월몰 추석맞이 할인... </a>
+							  <img src="/admin/skin/default/images/board/icon/icon_hot.gif" title="hot" >   
+						</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="0" bgcolor="e8e8e8"></td>
+	</tr>
+	<tr class="normal_bbslist">
+		<td height="30" class="sbj">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+						<td>
+							 <a href="/board/view?id=notice&seq=361"  board_seq="361"  board_id="notice" > <span class="cat">[이벤트]</span> [기간종료] 2024 영월몰 여름맞이 이벤... </a>
+							  <img src="/admin/skin/default/images/board/icon/icon_hot.gif" title="hot" >   
+						</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="0" bgcolor="e8e8e8"></td>
+	</tr>
+	<!-- 리스트 : 끝 -->
+	<tr>
+		<td height="0" bgcolor="545454"></td>
+	</tr>
+</table></div>
+					</div>
+					<a href="/board/?id=notice" class="more">더보기 +</a>
+                    <!-- //공지사항 -->
+				</li>
+				<li class="foot_menu_d2">
+					<h4 class="title"><span designElement="text" textIndex="2"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==" >상품후기</span></h4>
+					<div class="box_contents">
+						<div class='designLastest68578b8dc630c'><style type="text/css">
+/*.designLastest68578b8dc630c .tit {font-size:12px; font-weight:bold;}
+.designLastest68578b8dc630c .normal_bbslist .cat {font-size:12px;font-family:gothic,gulim;color:#888;letter-spacing:-1px;}
+.designLastest68578b8dc630c .normal_bbslist .sbj {text-align:left;letter-spacing:0px;}
+.designLastest68578b8dc630c .normal_bbslist .sbj a {font-size:12px;font-family:gothic,gulim;color:#222222;text-decoration:none;line-height:150%;}
+.designLastest68578b8dc630c .normal_bbslist .sbj a:hover {text-decoration:underline;}
+.designLastest68578b8dc630c .normal_bbslist .comment {font:normal 11px arial;color:#FC6138;}*/
+</style>
+
+<!-- 최근글 -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin-top:-60px;">
+	<tr>
+		<td>
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="bottom" align="left" height="25"><span class="tit"></span></td>
+					<!-- <td valign="bottom" align="right"><a href="/board/?id=goods_review">더보기</a></td> -->
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="35"></td>
+	</tr>
+	<tr>
+		<td height="0" bgcolor="545454"></td>
+	</tr>
+	<!-- 리스트데이터 : 시작 -->
+	<tr class="normal_bbslist">
+		<td height="30" class="sbj">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+						<td>
+							 <a href="/board/view?id=goods_review&seq=1829"  board_seq="1829"  board_id="goods_review" > 건나물 삶는게 귀찮아서 냉동 곤드레 구입했... </a>
+							   
+						</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="0" bgcolor="e8e8e8"></td>
+	</tr>
+	<tr class="normal_bbslist">
+		<td height="30" class="sbj">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+						<td>
+							 <a href="/board/view?id=goods_review&seq=1828"  board_seq="1828"  board_id="goods_review" > 조리하기 편해서 정말 좋아요. 그런데 중량... </a>
+							   
+						</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="0" bgcolor="e8e8e8"></td>
+	</tr>
+	<tr class="normal_bbslist">
+		<td height="30" class="sbj">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+						<td>
+							 <a href="/board/view?id=goods_review&seq=1827"  board_seq="1827"  board_id="goods_review" > 배송도빠르고좋습니다 ㅎㅎ </a>
+							   
+						</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="0" bgcolor="e8e8e8"></td>
+	</tr>
+	<tr class="normal_bbslist">
+		<td height="30" class="sbj">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+						<td>
+							 <a href="/board/view?id=goods_review&seq=1826"  board_seq="1826"  board_id="goods_review" > 배송도 빠른편이고 맛도 아주 좋습니다 </a>
+							  <img src="/admin/skin/default/images/board/icon/icon_hot.gif" title="hot" >   
+						</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="0" bgcolor="e8e8e8"></td>
+	</tr>
+	<tr class="normal_bbslist">
+		<td height="30" class="sbj">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+						<td>
+							 <a href="/board/view?id=goods_review&seq=1825"  board_seq="1825"  board_id="goods_review" > 늘 주문하는 제품입니다 감사합니다 </a>
+							  <img src="/admin/skin/default/images/board/icon/icon_hot.gif" title="hot" >   
+						</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="0" bgcolor="e8e8e8"></td>
+	</tr>
+	<!-- 리스트 : 끝 -->
+	<tr>
+		<td height="0" bgcolor="545454"></td>
+	</tr>
+</table></div>
+					</div>
+					<a href="/board/?id=goods_review" class="more">더보기 +</a>
+                    <!-- //상품후기 -->
+				</li>
+				<li class="foot_menu_d3">
+					<h4 class="title"><span designElement="text" textIndex="3"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==" >고객센터</span></h4>
+					<ul class="list">
+						<li><h5 class="stitle">전화상담</h5></li>
+						<li>
+							<a href="tel:033-749-3320" class="compay_phone">033-749-3320</a>
+						</li>
+						<li class="bank">
+							<p designElement="text" textIndex="4"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==" >광고(마케팅)전화 일체 사절합니다. 제안서는 메일로 보내주세요.</p>
+							<p designElement="text" textIndex="5"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==" >상담시간 : 평일 10:00 ~ 17:00 (토, 일요일 및 공휴일은 휴무)</p>
+						</li>
+						<li><h5 class="stitle">은행정보</h5></li>
+					</ul>
+					<a href="/service/cs" class="more">더보기 +</a>
+                    <!-- //고객센터 -->
+				</li>
+			</ul>
+		</div>
+	</div>
+    <div class="footer_b">
+		<div class="resp_wrap">
+			<ul class="thumb clearbox">
+				<li><a href="http://www.provin.gangwon.kr/" target="_blank"><img src="/data/skin/responsive_yeongwol_mall_gl/images/design_resp/banner_1.png" title="강원도청" alt="강원도청"></a></li>
+				<li><a href="https://www.yw.go.kr/" target="_blank"><img src="/data/skin/responsive_yeongwol_mall_gl/images/design_resp/banner_2.png" alt="영월군 홈페이지"></a></li>
+				<li><a href="http://gwmart.com/" target="_blank"><img src="/data/skin/responsive_yeongwol_mall_gl/images/design_resp/banner_3.png" alt="강원마트"></a></li>
+				<li><a href="http://wonju-mall.co.kr/" target="_blank"><img src="/data/skin/responsive_yeongwol_mall_gl/images/design_resp/banner_4.png" alt="원주몰"></a></li>
+				<li><a href="http://hongcheon-mall.com/" target="_blank"><img src="/data/skin/responsive_yeongwol_mall_gl/images/design_resp/banner_5.png" alt="홍천몰"></a></li>
+				<li><a href="https://inje-mall.com/" target="_blank"><img src="/data/skin/responsive_yeongwol_mall_gl/images/design_resp/banner_6.png" alt="인제몰"></a></li>
+				<li><a href="http://www.ywdga.co.kr/" target="_blank"><img src="/data/skin/responsive_yeongwol_mall_gl/images/design_resp/banner_8.png" alt="영월군 농/특산물 판매"></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer_c">
+		<div class="resp_wrap">
+			<ul class="menu2 clearbox">
+				<li><a href="/" designElement="text" textIndex="7"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA=="  target="_self">홈</a></li>
+				<li><a href="/service/company" designElement="text" textIndex="8"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA=="  target="_self">영월몰 소개</a></li>
+				<li><a href="/service/agreement" designElement="text" textIndex="9"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==" >이용약관</a></li>
+				<li class="bold"><a href="/service/privacy" designElement="text" textIndex="10"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==" >개인정보처리방침</a></li>
+                <li><a href="/service/guide" designElement="text" textIndex="11"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==" >이용안내</a></li>
+                <li><a href="http://igcs.gwba.kr/company_index.php" target="_blank" designElement="text" textIndex="12"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==" ></a></li>
+			</ul>
+            <!-- //회사 링크 -->
+			<ul class="menu3 clearbox">
+				<li><span designElement="text" textIndex="13"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==" >회사명 :</span> <span class="pcolor">재단법인 강원특별자치도경제진흥원</span></li>
+				<li><span designElement="text" textIndex="14"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==" >대표자 :</span> <span class="pcolor">권오광 </span></li>
+				<li><span designElement="text" textIndex="15"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==" >주소 :</span> <span class="pcolor">강원도 원주시 호저로 47(우산동) </span></li>
+				<li><span designElement="text" textIndex="16"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==" >전화 :</span> <a href="tel:033-749-3320" class="pcolor">033-749-3320</a></li>
+				<li><span designElement="text" textIndex="17"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==" >팩스 :</span> <span class="pcolor">033-769-2611</span></li>
+				<li><span designElement="text" textIndex="18"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==" >사업자등록번호 :</span> <span class="pcolor">221-82-07135 <a href="javascript:;" onclick="window.open('https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2218207135','communicationViewPopup','width=750,height=700,scrollbars=yes')">[사업자정보확인 ]</a></span></li>
+				<li><span designElement="text" textIndex="19"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==" >통신판매업신고번호 :</span> <span class="pcolor">제2007-강원원주-0151호</span></li>
+				<li><span designElement="text" textIndex="20"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==" >개인정보보호책임자 :</span> <span class="pcolor">원성호 (<a class="pcolor" href="mailto:help@yeongwol-mall.com">help@yeongwol-mall.com</a>)</span></li>
+				<li><span designElement="text" textIndex="21"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==" >호스팅 제공자 :</span> <span class="pcolor">(주)가비아씨엔에스</span></li>
+			</ul>
+			<p class="copyrigh mt10" designElement="text" textIndex="22"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==" >COPYRIGHT (c) <span class="pcolor">재단법인 강원특별자치도경제진흥원</span> ALL RIGHTS RESERVED.</p>
+			<p class="copyright" designElement="text" textIndex="23"  textTemplatePath="cmVzcG9uc2l2ZV95ZW9uZ3dvbF9tYWxsX2dsL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==" >※영월몰은 통신판매중개자로서 통신판매 당사자가 아니며, 판매자가 등록한 상품정보 및 거래에 대해 영월몰은 책임를 지지 않습니다.</p>
+			<div class="logo"><img src="/data/skin/responsive_yeongwol_mall_gl/images/design_resp/foot_logo.png" alt="영월몰"></div>
+			<div class="escrow"><script type="text/javascript" src="https://pgweb.tosspayments.com/WEB_SERVER/js/escrowValid.js"></script><a style="cursor:pointer;" onclick="goValidEscrow('gw_yeongwol')"><img src="/data/icon/escrow_mark/lg.gif"  style="max-width:150px;" /></a></div>
+            <!-- //회사 정보 -->
+		</div>
+	</div>
+</div>
+
+<!-- 하단영역 : 끝 -->
+
+<!-- 플로팅 - BACK/TOP(대쉬보드) -->
+<div id="floating_over">
+	<a href="javascript:history.back();" class="ico_floating_back" title="뒤로 가기"></a>
+	<a href="javascript:history.forward();" class="ico_floating_foward" title="앞으로 가기"></a>
+	<a href="javascript:void(0);" onclick="$('html,body').animate({scrollTop:0},'slow');" class="ico_floating_top" title="위로 가기">TOP</a>
+
+	<!-- 최근 본 상품(LAYER) -->
+</div>
+<!-- //플로팅 - BACK/TOP(대쉬보드) -->
+
+<script type="text/javascript">
+	$(function(){
+		/* 하단 바로가기 링크(추가) */
+		$('.foot_menu_d4 > div > a').on({
+			mouseenter : function(){
+				var _curentAttr = $(this).find('.icon_img > img').attr('src');
+				_curentAttr = _curentAttr.replace('_off','_on');
+				$(this).find('.icon_img > img').attr('src',_curentAttr);
+			},mouseleave : function(){
+				var _curentAttr = $(this).find('.icon_img > img').attr('src');
+				_curentAttr = _curentAttr.replace('_on','_off');
+				$(this).find('.icon_img > img').attr('src',_curentAttr);
+			}
+		});
+
+        /* 반응형 슬라이드 배너 관련( 절대 삭제 금지 ) */
+            $('.slider_before_loading').removeClass('slider_before_loading');
+
+        // 상품 색상 코드값 디자인( new 상품정보 )
+        if ( $('.displaY_color_option').length > 0 ) {
+            $('.displaY_color_option .areA').filter(function() {
+                return ( $(this).css('background-color') == 'rgb(255, 255, 255)' );
+            }).addClass('border');
+        }
+
+        $( window ).on('resize', function() {
+            if ( window.innerWidth != WINDOWWIDTH ) {
+                setTimeout(function(){ WINDOWWIDTH = window.innerWidth; }, 10);
+            }
+        });
+    });
+
+    /*######################## 17.12.19 gcs yjy : 앱 처리(fb 로그아웃) s */
+    function logoutfb(){
+        FB.getLoginStatus(logoutfb_process);
+    }
+    function logoutfb_process(){
+        FB.api('/me', function(response) {
+
+            FB.logout(function(response) {
+
+            });
+
+            isLogin = false;
+            if (fbId != "")  initializeFbTokenValues();
+            if (fbUid != "") initializeFbUserValues();
+
+            return false;
+        });
+    }
+    /*######################## 17.12.19 gcs yjy : 앱 처리(fb 로그아웃) e */
+</script>
+		<!-- ================= #LAYOUT_FOOTER :: END. 파일위치 : layout_footer/standard.html (default) ================= -->
+
+		<iframe name="actionFrame" id="actionFrame" src="" frameborder="0" width="100%" height="0"></iframe>
+		<div id="openDialogLayer" style="display: none">
+			<div align="center" id="openDialogLayerMsg"></div>
+		</div>
+		<div id="ajaxLoadingLayer" style="display: none"></div>
+	</div>	
+</div>
+<div id="mobileZipcodeLayer" style="display: none"></div>
+<!-- 결제창을 레이어 형태로 구현-->
+<div id="layer_pay" class="hide"></div>
+<div id="payprocessing" class="pay_layer hide">
+	<div style="margin:auto;"><img src="/data/skin/responsive_yeongwol_mall_gl/images/design/img_paying.gif" /></div>
+	<div style="margin:auto;padding-top:20px;"><img src="/data/skin/responsive_yeongwol_mall_gl/images/design/progress_bar.gif" /></div>
+</div>
+<div id="layout_side_background" class="layout_side_background"></div>
+
+<!-- ================= #HTML_FOOTER :: START. 파일위치 : _modules/common/html_footer.html ================= -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ #HTML_FOOTER @@
+- 파일위치 : [스킨폴더]/_modules/common/html_footer.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div id="popupChangePassword" class="resp_layer_pop hide">
+	<h4 class="title">비밀번호 변경</h4>
+	<form id='passUpdateForm' method='post' action='/login_process/popup_change_pass' target='actionFrame'>
+	<input type='hidden' name='password_mode' value='update'>
+		<div class="y_scroll_auto2">
+			<div class="layer_pop_contents v5">
+				<h5 class="stitle">회원님의 소중한 개인정보 보호를 위해 비밀번호를 주기적으로 변경하시는 것이 좋습니다.</h5>
+				<p class="desc Pb8">※ 비밀번호는 6~20자, 영문 대소문자 또는 숫자 특수문자 중 2가지 이상 조합.</p>
+				<div class="resp_table_row input_form th_size3">
+					<ul class="tr">
+						<li class="th Pl5 Pr5">현재 비밀번호</li>
+						<li class="td">
+							<input type='password' name='old_password' value='' class='passwordField eng_only Wmax' />
+						</li>
+					</ul>
+					<ul class="tr">
+						<li class="th Pl5 Pr5">신규 비밀번호</li>
+						<li class="td">
+							<input type='password' name='new_password' value='' class='passwordField eng_only Wmax' />
+						</li>
+					</ul>
+					<ul class="tr">
+						<li class="th Pl5 Pr5">신규 비밀번호 <span class="Dib">확인</span></li>
+						<li class="td">
+							<input type='password' name='re_new_password' value='' class='passwordField eng_only Wmax' />
+						</li>
+					</ul>
+				</div>
+				<div class="C Pt20 Fs15">
+					<label><input type='checkbox' name='update_rate' value='Y' onclick='update_rate_checked();'> 개월 이후에 비밀번호를 변경하겠습니다.</label>
+				</div>
+			</div>
+		</div>
+		<div class="layer_bottom_btn_area2 v2">
+			<ul class="basic_btn_area2">
+				<li><button type="submit" class="btn_resp size_c color2">변경 완료</button></li>
+				<li><button type="button" class="btn_resp size_c color5" onclick="hideCenterLayer()">취소</button></li>
+			</ul>
+		</div>
+		<a href="javascript:void(0)" class="btn_pop_close" onclick="hideCenterLayer()"></a>
+	</form>
+</div>
+
+</body>
+</html>
+<!-- ================= #HTML_FOOTER :: END. 파일위치 : _modules/common/html_footer.html ================= --><script src='https://member.gwdmall.kr/sso/js?type=start&tokenHash='></script>

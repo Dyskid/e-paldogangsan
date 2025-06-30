@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-06-23T10:00:09.452Z",
+  "mall": "여수몰",
+  "url": "http://www.yeosumall.co.kr/",
+  "status": "Site unavailable - server capacity exceeded",
+  "issue": "The website is currently showing a server capacity exceeded message in Korean",
+  "mockProductsCreated": 2,
+  "recommendations": [
+    "Monitor site availability",
+    "Retry during off-peak hours",
+    "Implement actual scraper when site becomes accessible",
+    "Use mock data structure as template"
+  ],
+  "nextSteps": [
+    "Check site accessibility periodically",
+    "Update scraper with actual selectors when site is available",
+    "Register mock products if needed for testing"
+  ]
+}

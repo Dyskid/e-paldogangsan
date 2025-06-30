@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>세종로컬푸드 싱싱장터 - 상품조회</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="title" content="세종로컬푸드 싱싱장터" />
+    <meta name="author" content="RED" />
+    <meta name="naver-site-verification" content="6814c6aba906bac9c2d662f5ffd1f04f188b36e2" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="농산물 직거래를 통한 도시와 농촌의 행복한 만남 세종시민의 건강하고 안전한 먹거리를 책임지는 세종로컬푸드 싱싱장터입니다. 세종로컬푸드, 로컬푸드, 도담도담, 세종싱싱장터, 싱싱장터, 세종시싱싱장터" />
+    <meta name="theme-color" content="">
+    <meta name="viewport" content="width=device-width, user-scalable=1" />
+
+    <!--<link rel="manifest" href="/manifest.json">-->
+    <link rel="canonical" href="http://www.sjlocal.or.kr/sj/search_product">
+    <link type="text/css" rel="stylesheet" href="/common/lib/fontawesome-free/css/all.min.css">
+    <link type="text/css" rel="stylesheet" href="/common/lib/datatables/dataTables.bootstrap4.min.css" />
+    <link type="text/css" rel="stylesheet" href="/common/lib/bootstrap-4.3.1/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="/common/lib/bootstrap-4.3.1/theme/sb-admin/sb-admin-2.css" />
+    <link type="text/css" rel="stylesheet" href="/common/css/common.css?a=20241107_0000" />
+    <link type="text/css" rel="stylesheet" href="/common/css/content.css?a=20241107_0000>" />    <link type="text/css" rel="stylesheet" href="/application/views/layout/sjlocalfood/layout.css?a=20241107_0000" />
+    <link type="text/css" rel="stylesheet" href="/common/lib/owlCarousel/assets/owl.carousel.min.css" />
+    <link type="text/css" rel="stylesheet" href="/common/lib/owlCarousel/assets/owl.theme.default.css" />
+    <link type="text/css" rel="stylesheet" href="/common/lib/aos/aos.css" />
+    <link type="text/css" rel="stylesheet" href="/common/css/button.css" />
+    <link type="text/css" rel="stylesheet" href="/common/lib/jquery-ui-1.12.1/jquery-ui.min.css">
+    <!--<link rel="icon" href="data:;base64,iVBORw-KGgo=" />-->
+    <link rel="shortcut icon" href="/images/common/favicon.ico">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="세종로컬푸드 싱싱장터 - 상품조회">
+    <meta property="og:description" content="농산물 직거래를 통한 도시와 농촌의 행복한 만남 세종시민의 건강하고 안전한 먹거리를 책임지는 세종로컬푸드 싱싱장터입니다. 세종로컬푸드, 로컬푸드, 도담도담, 세종싱싱장터, 싱싱장터, 세종시싱싱장터">    <meta property="og:image" content="/images/common/og_img.png">    <meta property="og:url" content="http://www.sjlocal.or.kr">
+
+    <script src="/common/lib/jquery/3.4.1/jquery-3.4.1.min.js"></script>
+    <!--<script src="/common/lib/jquery/jquery-3.1.1.min.js"></script>-->
+    <script src="/common/lib/jquery/jquery-ui-1.12.1.min.js"></script>
+    <script src="/common/lib/jquery/jquery.cookie.js"></script>
+    <script src="/common/lib/owlCarousel/owl.carousel.js"></script>
+    <script src="/common/lib/bootstrap-4.3.1/bootstrap.bundle.js"></script>
+    <script src="/common/lib/ckeditor-4.17.1/ckeditor.js"></script>
+    <!--    <script src="/common/lib/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>-->
+    <script src="/common/js/common.js"></script>
+    <script src="/common/js/layout.js"></script>
+    <script src="/common/js/upload.js"></script>
+    <script src="/common/js/popup.js"></script>
+    <script src="/common/js/shop.js"></script>
+    <script src="/common/js/board.js"></script>
+    <script src="/common/lib/aos/aos.js"></script>
+    <script src="/common/lib/fontfaceonload/fontfaceonload.js"></script>
+    <script src="/application/views/layout/sjlocalfood/layout.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]> <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script> <![endif]-->
+
+    <link type="text/css" rel="stylesheet" href="/application/views/sj/_main.css?a=20241107_0000" /><script src="/application/views/sj/_main.js?a=20241107_0000"></script>
+</head>
+<body class="site-home">
+
+<div class="modal" id="basicModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title"></h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+            </div>
+
+            <!-- Modal footer
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+            -->
+
+        </div>
+    </div>
+</div>
+
+
+<div class="modal farmlandModal" id="farmlandModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title"></h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+            </div>
+
+            <!-- Modal footer
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+            -->
+
+        </div>
+    </div>
+</div>
+
+<div class="modal farmlandModal" id="photoModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title"></h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+            </div>
+
+            <!-- Modal footer
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+            -->
+
+        </div>
+    </div>
+</div>
+
+<div class="modal farmlandModal" id="planModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title"></h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+            </div>
+
+            <!-- Modal footer
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+            -->
+
+        </div>
+    </div>
+</div>
+
+<div id="top"></div>
+<div class="sub-layout">
+    <header>
+    <div id="logo">
+        <a href="/"></a>
+    </div>
+    <div id="tnb">
+        <div class="wrap">
+            <ul class="m1 clearfix">
+                                    <li class="m1 ">
+                        <a href="/menu/view/1" class="m1">
+                            싱싱장터                        </a>
+                        <ul class="m2">
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/8" class="m2">
+                                        회사소개                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/9" class="m2">
+                                        CI                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/10" class="m2">
+                                        연혁                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/12" class="m2">
+                                        윤리경영                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/13" class="m2">
+                                        조직도                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/14" class="m2">
+                                        부서별 연락처                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/15" class="m2">
+                                        오시는길                                    </a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                    <li class="m1 ">
+                        <a href="/menu/view/2" class="m1">
+                            사업분야                        </a>
+                        <ul class="m2">
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/16" class="m2">
+                                        로컬푸드 직매장                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/17" class="m2">
+                                        매장관리                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/18" class="m2">
+                                        생산관리                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/20" class="m2">
+                                        안전성검사                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/21" class="m2">
+                                        대외홍보                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/22" class="m2">
+                                        가공지원센터                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/23" class="m2">
+                                        미니키친                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/24" class="m2">
+                                        도란도란찻집                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/25" class="m2">
+                                        행사                                    </a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                    <li class="m1 ">
+                        <a href="/menu/view/111" class="m1">
+                            싱싱장터 농산물                        </a>
+                        <ul class="m2">
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/112" class="m2">
+                                        제철 농산물 소개                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/113" class="m2">
+                                        명절상품 소개                                    </a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                    <li class="m1 ">
+                        <a href="/menu/view/3" class="m1">
+                            견학신청                        </a>
+                        <ul class="m2">
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/27" class="m2">
+                                        싱싱장터 견학                                    </a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                    <li class="m1 ">
+                        <a href="/menu/view/4" class="m1">
+                            열린공간                        </a>
+                        <ul class="m2">
+                                                            <li class="m2 ">
+                                    <a href="/board/post/local_news" class="m2">
+                                        싱싱장터 소식                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/board/post/experience" class="m2">
+                                        체험마당                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/board/post/monitoring" class="m2">
+                                        모니터링                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/board/post/sj_news" class="m2">
+                                        세종시 소식                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/33" class="m2">
+                                        고객문의                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/board/post/library" class="m2">
+                                        자료실                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/34" class="m2">
+                                        도매시세조회                                    </a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                    <li class="m1 ">
+                        <a href="/menu/view/5" class="m1">
+                            알림소식                        </a>
+                        <ul class="m2">
+                                                            <li class="m2 ">
+                                    <a href="/board/post/notice" class="m2">
+                                        공지/공고                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/board/post/job" class="m2">
+                                        채용정보                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/board/post/press_release" class="m2">
+                                        보도자료                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/board/post/movie" class="m2">
+                                        홍보영상                                    </a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                    <li class="m1 ">
+                        <a href="/menu/view/6" class="m1">
+                            농가교육                        </a>
+                        <ul class="m2">
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/39" class="m2">
+                                        교육소개                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/40" class="m2">
+                                        출하안내                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/41" class="m2">
+                                        교육자료                                    </a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                    <li class="m1 ">
+                        <a href="/menu/view/7" class="m1">
+                            정보공개                        </a>
+                        <ul class="m2">
+                                                            <li class="m2 ">
+                                    <a href="/menu/view/100" class="m2">
+                                        경영공시                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/board/post/infomation_6" class="m2">
+                                        규정공개                                    </a>
+                                </li>
+                                                            <li class="m2 ">
+                                    <a href="/board/post/infomation_7" class="m2">
+                                        기타                                    </a>
+                                </li>
+                                                    </ul>
+                    </li>
+                            </ul>
+        </div>
+
+        <div id="site-map-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+        <div id="my">
+
+            <div class="rect">
+                <div class="nav-item dropdown no-arrow">
+                    <a class="nav-link dropdown-toggle my" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right shadow  " aria-labelledby="userDropdown">
+                                                    <a class="dropdown-item" href="/farm/login">
+                                <i class="fas fa-sign-in-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                농가 로그인
+                            </a>
+                        
+                    </div>
+                    <a href="#" class="search my"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="snb">
+        <div class="wrap">
+            <div class="rect">
+                <div class="ul m1 row">
+                                            <div class="li m1 col ">
+                            <div class="div m1">
+                                <a href="/menu/view/1" class="m1 fa">
+                                    <span>싱싱장터</span>
+                                </a>
+                                <ul class="m2">
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/8" class="m2">
+                                                <span>회사소개</span>
+                                            </a>
+
+                                                                                        <ul class="m3">
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/87">
+                                                        <span>세종로컬푸드</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/88">
+                                                        <span>왜 로컬푸드인가?</span>
+                                                    </a>
+                                                </li>
+                                                                                            </ul>
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/9" class="m2">
+                                                <span>CI</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/10" class="m2">
+                                                <span>연혁</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/12" class="m2">
+                                                <span>윤리경영</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/13" class="m2">
+                                                <span>조직도</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/14" class="m2">
+                                                <span>부서별 연락처</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/15" class="m2">
+                                                <span>오시는길</span>
+                                            </a>
+
+                                                                                        <ul class="m3">
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/79">
+                                                        <span>도담점</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/80">
+                                                        <span>아름점</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/81">
+                                                        <span>새롬점</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/82">
+                                                        <span>소담점</span>
+                                                    </a>
+                                                </li>
+                                                                                            </ul>
+                                            
+                                        </li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                                            <div class="li m1 col ">
+                            <div class="div m1">
+                                <a href="/menu/view/2" class="m1 fa">
+                                    <span>사업분야</span>
+                                </a>
+                                <ul class="m2">
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/16" class="m2">
+                                                <span>로컬푸드 직매장</span>
+                                            </a>
+
+                                                                                        <ul class="m3">
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/83">
+                                                        <span>도담점</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/84">
+                                                        <span>아름점</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/85">
+                                                        <span>새롬점</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/86">
+                                                        <span>소담점</span>
+                                                    </a>
+                                                </li>
+                                                                                            </ul>
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/17" class="m2">
+                                                <span>매장관리</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/18" class="m2">
+                                                <span>생산관리</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/20" class="m2">
+                                                <span>안전성검사</span>
+                                            </a>
+
+                                                                                        <ul class="m3">
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/89">
+                                                        <span>농산물 안전성관리</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/90">
+                                                        <span>궁금해요 농약 PLS</span>
+                                                    </a>
+                                                </li>
+                                                                                            </ul>
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/21" class="m2">
+                                                <span>대외홍보</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/22" class="m2">
+                                                <span>가공지원센터</span>
+                                            </a>
+
+                                                                                        <ul class="m3">
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/95">
+                                                        <span>가공지원센터 안내</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/96">
+                                                        <span>올바른 가공산업</span>
+                                                    </a>
+                                                </li>
+                                                                                            </ul>
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/23" class="m2">
+                                                <span>미니키친</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/24" class="m2">
+                                                <span>도란도란찻집</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/25" class="m2">
+                                                <span>행사</span>
+                                            </a>
+
+                                                                                        <ul class="m3">
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/51">
+                                                        <span>팸투어</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/52">
+                                                        <span>직거래장터</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/53">
+                                                        <span>플리마켓</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/54">
+                                                        <span>모니터링</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/55">
+                                                        <span>복숭아축제</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/56">
+                                                        <span>특판행사</span>
+                                                    </a>
+                                                </li>
+                                                                                            </ul>
+                                            
+                                        </li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                                            <div class="li m1 col ">
+                            <div class="div m1">
+                                <a href="/menu/view/111" class="m1 fa">
+                                    <span>싱싱장터 농산물</span>
+                                </a>
+                                <ul class="m2">
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/112" class="m2">
+                                                <span>제철 농산물 소개</span>
+                                            </a>
+
+                                                                                        <ul class="m3">
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/129">
+                                                        <span>1월</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/128">
+                                                        <span>2월</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/127">
+                                                        <span>3월</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/126">
+                                                        <span>4월</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/125">
+                                                        <span>5월</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/124">
+                                                        <span>6월</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/116">
+                                                        <span>7월</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/117">
+                                                        <span>8월</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/118">
+                                                        <span>9월</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/130">
+                                                        <span>10월</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/131">
+                                                        <span>11월</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/132">
+                                                        <span>12월</span>
+                                                    </a>
+                                                </li>
+                                                                                            </ul>
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/113" class="m2">
+                                                <span>명절상품 소개</span>
+                                            </a>
+
+                                                                                        <ul class="m3">
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/121">
+                                                        <span>설 명절</span>
+                                                    </a>
+                                                </li>
+                                                                                            </ul>
+                                            
+                                        </li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                                            <div class="li m1 col ">
+                            <div class="div m1">
+                                <a href="/menu/view/3" class="m1 fa">
+                                    <span>견학신청</span>
+                                </a>
+                                <ul class="m2">
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/27" class="m2">
+                                                <span>싱싱장터 견학</span>
+                                            </a>
+
+                                                                                        <ul class="m3">
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/ocre/program_register">
+                                                        <span>견학신청</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/ocre/my_program">
+                                                        <span>신청조회</span>
+                                                    </a>
+                                                </li>
+                                                                                            </ul>
+                                            
+                                        </li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                                            <div class="li m1 col ">
+                            <div class="div m1">
+                                <a href="/menu/view/4" class="m1 fa">
+                                    <span>열린공간</span>
+                                </a>
+                                <ul class="m2">
+                                                                            <li class="m2 ">
+                                            <a href="/board/post/local_news" class="m2">
+                                                <span>싱싱장터 소식</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/board/post/experience" class="m2">
+                                                <span>체험마당</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/board/post/monitoring" class="m2">
+                                                <span>모니터링</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/board/post/sj_news" class="m2">
+                                                <span>세종시 소식</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/33" class="m2">
+                                                <span>고객문의</span>
+                                            </a>
+
+                                                                                        <ul class="m3">
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/inquiry/faq">
+                                                        <span>자주 묻는 질문</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/inquiry/main">
+                                                        <span>문의하기</span>
+                                                    </a>
+                                                </li>
+                                                                                            </ul>
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/board/post/library" class="m2">
+                                                <span>자료실</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/34" class="m2">
+                                                <span>도매시세조회</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                                            <div class="li m1 col ">
+                            <div class="div m1">
+                                <a href="/menu/view/5" class="m1 fa">
+                                    <span>알림소식</span>
+                                </a>
+                                <ul class="m2">
+                                                                            <li class="m2 ">
+                                            <a href="/board/post/notice" class="m2">
+                                                <span>공지/공고</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/board/post/job" class="m2">
+                                                <span>채용정보</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/board/post/press_release" class="m2">
+                                                <span>보도자료</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/board/post/movie" class="m2">
+                                                <span>홍보영상</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                                            <div class="li m1 col ">
+                            <div class="div m1">
+                                <a href="/menu/view/6" class="m1 fa">
+                                    <span>농가교육</span>
+                                </a>
+                                <ul class="m2">
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/39" class="m2">
+                                                <span>교육소개</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/40" class="m2">
+                                                <span>출하안내</span>
+                                            </a>
+
+                                                                                        <ul class="m3">
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/menu/view/75">
+                                                        <span>신규출하안내</span>
+                                                    </a>
+                                                </li>
+                                                                                            </ul>
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/41" class="m2">
+                                                <span>교육자료</span>
+                                            </a>
+
+                                                                                        <ul class="m3">
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/board/post/education_1">
+                                                        <span>교육용 동영상</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/board/post/education_2">
+                                                        <span>농가 자료</span>
+                                                    </a>
+                                                </li>
+                                                                                            </ul>
+                                            
+                                        </li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                                            <div class="li m1 col ">
+                            <div class="div m1">
+                                <a href="/menu/view/7" class="m1 fa">
+                                    <span>정보공개</span>
+                                </a>
+                                <ul class="m2">
+                                                                            <li class="m2 ">
+                                            <a href="/menu/view/100" class="m2">
+                                                <span>경영공시</span>
+                                            </a>
+
+                                                                                        <ul class="m3">
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/board/post/infomation_9">
+                                                        <span>행정정보</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/board/post/infomation_3">
+                                                        <span>예.결산 현황</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/board/post/infomation_11">
+                                                        <span>인건비</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/board/post/infomation_1">
+                                                        <span>자본금 현황</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/board/post/infomation_8">
+                                                        <span>운영실적</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/board/post/infomation_4">
+                                                        <span>복리후생비</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/board/post/infomation_2">
+                                                        <span>수의계약</span>
+                                                    </a>
+                                                </li>
+                                                                                                <li class="m3 ">
+                                                    <a class="m3" href="/board/post/infomation_5">
+                                                        <span>업무추진비</span>
+                                                    </a>
+                                                </li>
+                                                                                            </ul>
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/board/post/infomation_6" class="m2">
+                                                <span>규정공개</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                            <li class="m2 ">
+                                            <a href="/board/post/infomation_7" class="m2">
+                                                <span>기타</span>
+                                            </a>
+
+                                            
+                                        </li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                                    </div>
+                <div class="mobile-menu">
+                                            <a class="dropdown-item" href="/farm/login">
+                            <i class="fas fa-sign-in-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                            농가 로그인
+                        </a>
+                                        <div class="dropdown-divider"></div>
+
+                                            <a class="dropdown-item" href="/member/login">
+                            <i class="fas fa-sign-in-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                            로그인
+                        </a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<div id="svb">
+    <div class="sub-visual" id="sub-visual-">
+
+        <div class="rect wrap">
+            <h1 class="fs-43 bold subVisualText_1">
+                <span >&nbsp;</span><span >상</span><span >품</span><span >조</span><span >회</span><span >&nbsp;</span>            </h1>
+            <div class="fs-18 mt-2 subVisualText_2"><span >&nbsp;</span><span >&nbsp;</span></div>
+        </div>
+
+    </div>
+
+    <div id="sub-location">
+        <div class="wrap clearfix">
+            <div class="home"></div>
+                            <div class="menu m1">
+                    <div class="name">
+                        상품조회                        <img src="/images/content/layout/sub_location_arr.png" alt="" />
+                    </div>
+                    <ul class="">
+                                                    <li>
+                                <a href="/menu/view/1" class="">
+                                    싱싱장터                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/menu/view/2" class="">
+                                    사업분야                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/menu/view/111" class="">
+                                    싱싱장터 농산물                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/menu/view/3" class="">
+                                    견학신청                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/menu/view/4" class="">
+                                    열린공간                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/menu/view/5" class="">
+                                    알림소식                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/menu/view/6" class="">
+                                    농가교육                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/menu/view/7" class="">
+                                    정보공개                                </a>
+                            </li>
+                                            </ul>
+                </div>
+            
+            <!--
+                -->
+
+        </div>
+    </div>
+
+    <h2 id="page_title">
+        상품조회    </h2>
+
+    </div>
+    <div class="container-section clearfix">
+        <div id="sj-search-product" class="pages">
+    <div class="wrap">
+
+        <h3 class="subject">
+            품목별 실시간 재고 조회<span class="fs-15 ml-2">(시범운영중)</span>
+            <span class="float-right fs-15">
+                * 생산자 자율 입고 특성상 현재고는 실재고와 차이가 있을 수 있습니다.
+            </span>
+        </h3>
+
+        <!-- 검색 -->
+        <form action="/sj/search_product" method="get" onsubmit="//return fnShowInventory(this);" accept-charset="utf-8">
+        <div class="search-form">
+            <div>
+                <div class="fs-22 bold mb-2">
+                    매장
+                </div>
+                <div>
+                    <select name="market" class="form-control" id="market-id">
+<option value="1">도담점</option>
+<option value="2">아름점</option>
+<option value="3">새롬점</option>
+<option value="4">도도리파크</option>
+<option value="5">소담점</option>
+</select>
+                </div>
+            </div>
+            <div>
+                <div class="fs-22 bold mb-2">
+                    상품그룹
+                </div>
+                <div>
+                    <input autocomplete="off" type="text" name="code_key_3" value=""  class="form-control" />
+                </div>
+            </div>
+            <div>
+                <div class="fs-22 bold mb-2">
+                    품명
+                </div>
+                <div>
+                    <input autocomplete="off" type="text" name="search" value=""  class="form-control" />
+                </div>
+            </div>
+            <div>
+                <div class="fs-22 bold mb-2">
+                    진열기간
+                </div>
+                <div>
+                    <select  class="form-control">
+<option value="1">1일</option>
+</select>
+                </div>
+            </div>
+            <div>
+                <div class="fs-22 bold mb-2">
+                    &nbsp;
+                </div>
+                <div>
+                    <input type="submit" value="재고 조회하기"  class="btn btn-primary btn-block" />
+                </div>
+            </div>
+        </div>
+        </form>        <!-- @검색 -->
+
+        <!-- 결과 -->
+        <!--<script src="/application/views/admin/apple/main.js"></script>-->
+        <div id="result-product" class="mt-5">
+            <div class="overflow-table">
+                <table  class="table table-hover"><thead  ><th class="" >분류</th><th class="" >매장</th><th class="" >상품그룹</th><th class="" >품명</th><th class="" >현재고</th></thead>                <tbody>
+                                </tbody>
+                </table>            </div>
+        </div>
+        <!-- @결과 -->
+
+    </div>
+</div>
+
+<!--
+<script>
+    </script>
+-->
+    </div>
+    <footer>
+
+    <!-- 링크 수정시 views/pages/menu/00034 도 같이 수정 -->
+    <div class="head">
+        <div class="wrap">
+            <ul class="leaverou">
+                <li>
+                    <div>농업인 관련기관</div>
+                    <div class="link_box">
+                        <div class="rect">
+                            <ul>
+                                <li>
+                                    <a href="http://www.at.or.kr/home/apko000000/index.action" target="_blank">
+                                        한국농수산물유통공사
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.baroinfo.com/" target="_blank">
+                                        바로정보
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.naqs.go.kr/main/main.do" target="_blank">
+                                        국립농산물품질관리원
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.mfds.go.kr/bogunMaskPanMae.jsp" target="_blank">
+                                        식품의약품안전처
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.enviagro.go.kr/" target="_blank">
+                                        친환경인증관리 정보시스템
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.gap.go.kr/" target="_blank">
+                                        GAP정보서비스
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.haccp.or.kr/" target="_blank">
+                                        한국식품안전관리인증원(HACCP)
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>농산물 도매시장</div>
+                    <div class="link_box">
+                        <div class="rect">
+                            <ul>
+                                <li>
+                                    <a href="https://www.daejeon.go.kr/ohj/index.do" target="_blank">
+                                        대전오정농수산물도매시장
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.daejeon.go.kr/noe/index.do" target="_blank">
+                                        대전노은농수산물도매시장
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.garak.co.kr/main/main.do" target="_blank">
+                                        서울가락농수산물도매시장
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://www.cheongju.go.kr/market/index.do" target="_blank">
+                                        청주농수산물도매시장
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.gamaco.co.kr/intro" target="_blank">
+                                        구리농수산물도매시장
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>지역기관</div>
+                    <div class="link_box">
+                        <div class="rect">
+                            <ul>
+                                <li>
+                                    <a href="https://www.sejong.go.kr/" target="_blank">
+                                        세종시청
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.sejong.go.kr/adtc.do" target="_blank">
+                                        세종시농업기술센터
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.sejong.go.kr/vri.do" target="_blank">
+                                        세종시 보건환경연구원
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="body">
+        <div class="wrap">
+            <div>
+                <a href="/menu/page/terms-and-conditions">개인정보처리방침</a>
+                <a href="/menu/page/privacy-policy">이용약관</a>
+                <a href="/menu/view/79">찾아오시는길</a><br class="mob" />
+                <a href="/menu/page/reporting-center">부정방지 통합신고센터</a>
+            </div>
+
+            <div>
+                <p>
+                    <b>농업회사법인 세종로컬푸드 주식회사</b>
+                </p>
+                <p>
+                    <span>도담점 : 30098 세종특별자치시 보듬 6로 16(도담동)</span><br class="mob" />
+                    <span>Tel : 044-866-4905</span><br class="mob" />
+                    <span>Fax : 044-866-4906</span><br class="mob" />
+                </p>
+                <p>
+                    <span>아름점 : 30100 세종특별자치시 보듬 3로 105(아름동)</span><br class="mob" />
+                    <span>Tel : 044-864-4905</span><br class="mob" />
+                    <span>Fax : 044-867-4906</span><br class="mob" />
+                </p>
+                <p>
+                    <span>새롬점 : 30127 세종특별자치시 새롬로 20(새롬동)</span><br class="mob" />
+                    <span>Tel : 044-860-8530</span><br class="mob" />
+                    <span>Fax : 044-863-4903</span><br class="mob" />
+                </p>
+                <p>
+                    <span>소담점 : 30148 세종특별자치시 소담동 554</span><br class="mob" />
+                    <span>Tel : 044-860-8540</span><br class="mob" />
+                </p>
+            </div>
+
+            <div class="copyright">
+                <p>© 2020 세종로컬푸드(주) ALL RIGHTS RESERVED.</p>
+            </div>
+            <div class="blogLink fs-12 ">
+                <a href="https://blog.naver.com/sjlocal2515" target="_blank">
+                    <img src="/images/content/layout/btn_blog.png" alt="blog">
+                    <div>바로가기</div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+</footer></div>
+
+<iframe class="hidden" width="0" height="0" name="_action_frame_" title="action_frame"  style="display:none;"></iframe>
+
+</body>
+</html>

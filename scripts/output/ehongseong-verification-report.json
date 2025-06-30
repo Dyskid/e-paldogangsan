@@ -1,0 +1,89 @@
+{
+  "timestamp": 1750598958665,
+  "mall": "e홍성장터",
+  "totalProducts": 93,
+  "validProducts": 93,
+  "issuesFound": 0,
+  "dataQuality": 100,
+  "categoryDistribution": {
+    "가공식품": 37,
+    "농산물": 38,
+    "축산물": 10,
+    "수산물": 5,
+    "선물세트": 3
+  },
+  "topTags": {
+    "홍성": 93,
+    "e홍성장터": 93,
+    "충남": 93,
+    "장류": 20,
+    "쌀": 15,
+    "건강식품": 15,
+    "음료": 12,
+    "유기농": 12,
+    "특산물": 8,
+    "수상제품": 7,
+    "전통": 6,
+    "수산물": 5,
+    "계란": 5,
+    "무항생제": 4,
+    "기름": 3
+  },
+  "issues": [],
+  "sampleProducts": [
+    {
+      "id": "ehongseong-10919757",
+      "title": "[농사꾼기름집] 농사꾼 국산 기름 단품 180ml(참기름/생들기름/들기름)",
+      "price": "14,000원",
+      "image": "https://ehongseong.com/shopimages/hskt/0020030000582.jpg?1691374694",
+      "category": "가공식품",
+      "subcategory": "오일/기름",
+      "tags": [
+        "기름",
+        "홍성",
+        "e홍성장터",
+        "충남"
+      ],
+      "region": "충청남도 홍성군",
+      "mall": "e홍성장터",
+      "inStock": true,
+      "url": "https://ehongseong.com/shop/shopdetail.html?branduid=10919757"
+    },
+    {
+      "id": "ehongseong-11235784",
+      "title": "[혁이네] 청양구기자 누룽지 120g/170g",
+      "price": "5,500원",
+      "image": "https://ehongseong.com/shopimages/hskt/0020030000932.jpg?1746600910",
+      "category": "가공식품",
+      "subcategory": "음료/차",
+      "tags": [
+        "음료",
+        "홍성",
+        "e홍성장터",
+        "충남"
+      ],
+      "region": "충청남도 홍성군",
+      "mall": "e홍성장터",
+      "inStock": true,
+      "url": "https://ehongseong.com/shop/shopdetail.html?branduid=11235784"
+    },
+    {
+      "id": "ehongseong-11235783",
+      "title": "[혁이네] 새싹보리 누룽지 120g/170g",
+      "price": "5,500원",
+      "image": "https://ehongseong.com/shopimages/hskt/0020030000922.jpg?1746600850",
+      "category": "가공식품",
+      "subcategory": "음료/차",
+      "tags": [
+        "음료",
+        "홍성",
+        "e홍성장터",
+        "충남"
+      ],
+      "region": "충청남도 홍성군",
+      "mall": "e홍성장터",
+      "inStock": true,
+      "url": "https://ehongseong.com/shop/shopdetail.html?branduid=11235783"
+    }
+  ]
+}

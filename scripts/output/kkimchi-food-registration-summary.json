@@ -1,0 +1,125 @@
+{
+  "timestamp": "2025-06-20T05:51:30.871Z",
+  "mall": {
+    "mallId": "kkimchi",
+    "mallName": "광주김치몰",
+    "mallUrl": "https://www.k-kimchi.kr",
+    "region": "광주광역시"
+  },
+  "scraping": {
+    "totalScraped": 120,
+    "uniqueProducts": 120,
+    "duplicatesRemoved": 0,
+    "skipped": 16,
+    "registered": 104
+  },
+  "products": {
+    "added": 104,
+    "totalInDatabase": 213,
+    "kkimchiProductsOnly": 104
+  },
+  "categories": {
+    "distribution": {
+      "가공식품": 104
+    }
+  },
+  "dataQuality": {
+    "withPrices": 104,
+    "withoutPrices": 0,
+    "withDiscounts": 99,
+    "withImages": 104,
+    "averagePrice": 17201
+  },
+  "sampleProducts": [
+    {
+      "id": "kkimchi-12",
+      "name": "총각김치",
+      "price": 27450,
+      "originalPrice": 30500,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true
+    },
+    {
+      "id": "kkimchi-13",
+      "name": "열무김치",
+      "price": 26010,
+      "originalPrice": 28900,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true
+    },
+    {
+      "id": "kkimchi-14",
+      "name": "깍두기",
+      "price": 22410,
+      "originalPrice": 24900,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true
+    },
+    {
+      "id": "kkimchi-150",
+      "name": "[국내산]100% 열무자박이김치 2kg",
+      "price": 14400,
+      "originalPrice": 16000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true
+    },
+    {
+      "id": "kkimchi-153",
+      "name": "[국내산]100% 부추김치 1kg",
+      "price": 9180,
+      "originalPrice": 10200,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true
+    },
+    {
+      "id": "kkimchi-162",
+      "name": "깍두기",
+      "price": 19530,
+      "originalPrice": 27900,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true
+    },
+    {
+      "id": "kkimchi-163",
+      "name": "열무김치",
+      "price": 22330,
+      "originalPrice": 31900,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true
+    },
+    {
+      "id": "kkimchi-166",
+      "name": "총각김치",
+      "price": 22890,
+      "originalPrice": 32700,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true
+    },
+    {
+      "id": "kkimchi-167",
+      "name": "배추김치",
+      "price": 27720,
+      "originalPrice": 39600,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true
+    },
+    {
+      "id": "kkimchi-175",
+      "name": "[국내산]100% 한입 석박지 1kg",
+      "price": 6860,
+      "originalPrice": 9800,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true
+    }
+  ]
+}

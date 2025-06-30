@@ -1,0 +1,137 @@
+{
+  "timestamp": "2025-06-19T11:12:22.667Z",
+  "mall": {
+    "id": "wemall",
+    "name": "우리몰",
+    "region": "대구광역시"
+  },
+  "totalProducts": 91,
+  "wemallProducts": 54,
+  "dataQuality": {
+    "withTitles": 54,
+    "withPrices": 54,
+    "withImages": 54,
+    "withUrls": 54,
+    "withCategories": 54,
+    "withValidPrices": 54,
+    "withDiscounts": 2,
+    "onlyFoodProducts": 54
+  },
+  "categoryDistribution": {
+    "농축수산물": 13,
+    "가공식품": 41
+  },
+  "priceAnalysis": {
+    "minPrice": 1500,
+    "maxPrice": 78000,
+    "avgPrice": 26796,
+    "priceRanges": {
+      "under10k": 18,
+      "10k-30k": 12,
+      "30k-50k": 18,
+      "over50k": 6
+    }
+  },
+  "individualProductCheck": {
+    "withSpecificQuantities": 38,
+    "withBrandNames": 53,
+    "withDetailedDescriptions": 4,
+    "potentialCategories": []
+  },
+  "sampleProducts": [
+    {
+      "id": "wemall-001",
+      "name": "[뚝배기식품] 재래식 된장 2.7kg",
+      "price": 44000,
+      "category": "농축수산물",
+      "hasImage": true,
+      "hasUrl": true,
+      "url": "https://smartstore.naver.com/ddukbaegifoods/products/3833475188"
+    },
+    {
+      "id": "wemall-10217243",
+      "name": "울릉허브 오식이 순한맛 매운맛 국내산 명이절임 200g 명이나물 산마늘 장아찌 절임",
+      "price": 6000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true,
+      "url": "https://smartstore.naver.com/uldo/products/6944802503"
+    },
+    {
+      "id": "wemall-10294700",
+      "name": "백설기카스테라",
+      "price": 2000,
+      "originalPrice": 1700,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true,
+      "url": "https://smartstore.naver.com/wooririce/products/4745118432"
+    },
+    {
+      "id": "wemall-10670068",
+      "name": "울릉허브 오식이 궁채 나물 장아찌 150g 줄기상추 절임",
+      "price": 9800,
+      "originalPrice": 4500,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true,
+      "url": "https://smartstore.naver.com/uldo/products/6834728869"
+    },
+    {
+      "id": "wemall-10978570",
+      "name": "[이삭누룽] 특허 받은 국내산 100% 현미 이삭 누룽지250g + 황미 오분도 쌀 200g",
+      "price": 18000,
+      "category": "농축수산물",
+      "hasImage": true,
+      "hasUrl": true,
+      "url": "https://smartstore.naver.com/food_s/products/9677123753"
+    },
+    {
+      "id": "wemall-1194237",
+      "name": "[뚝배기식품] 경산대추고추장 1kg",
+      "price": 25000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true,
+      "url": "https://smartstore.naver.com/ddukbaegifoods/products/6994020386"
+    },
+    {
+      "id": "wemall-13496637",
+      "name": "[뚝배기식품] 황금들녘된장 900g",
+      "price": 20000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true,
+      "url": "https://smartstore.naver.com/ddukbaegifoods/products/7019949771"
+    },
+    {
+      "id": "wemall-1374487",
+      "name": "[뚝배기식품] 고추장 500g",
+      "price": 13000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true,
+      "url": "https://smartstore.naver.com/ddukbaegifoods/products/3833490321"
+    },
+    {
+      "id": "wemall-14922008",
+      "name": "한달용 홍생식 (30포) 프리미엄 생식 내몸의 면연력과 피를 맑게 아침식사대용으로 회복",
+      "price": 72000,
+      "originalPrice": 68000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true,
+      "url": "https://smartstore.naver.com/goodrawfood/products/10835311007"
+    },
+    {
+      "id": "wemall-15301340",
+      "name": "[뚝배기식품] 황금들녘된장 2.7kg",
+      "price": 53000,
+      "category": "가공식품",
+      "hasImage": true,
+      "hasUrl": true,
+      "url": "https://smartstore.naver.com/ddukbaegifoods/products/7024726868"
+    }
+  ],
+  "issues": []
+}

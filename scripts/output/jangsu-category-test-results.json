@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-06-22T15:22:02.271Z",
+  "testUrl": "https://www.장수몰.com/board/shop/list.php?ca_id=101010",
+  "pageTitle": "사과 상품목록 | 장수몰",
+  "foundProducts": [],
+  "paginationInfo": [
+    {
+      "selector": "a[href*=\"page\"]",
+      "count": 4
+    }
+  ],
+  "productLinks": [],
+  "recommendations": [
+    "Pagination detected - need to handle multiple pages"
+  ]
+}

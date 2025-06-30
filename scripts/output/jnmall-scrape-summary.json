@@ -1,0 +1,31 @@
+{
+  "mallName": "남도장터",
+  "url": "https://www.jnmall.kr/",
+  "totalProducts": 60,
+  "categoryCounts": [
+    {
+      "category": "추천상품",
+      "count": 0
+    },
+    {
+      "category": "시군몰",
+      "count": 0
+    },
+    {
+      "category": "신상품",
+      "count": 22
+    },
+    {
+      "category": "로컬상품관",
+      "count": 30
+    }
+  ],
+  "priceRange": {
+    "min": 1500,
+    "max": 130000,
+    "average": 29488
+  },
+  "productsWithImages": 60,
+  "productsWithOriginalPrice": 56,
+  "scrapedAt": "2025-06-23T09:40:20.117Z"
+}

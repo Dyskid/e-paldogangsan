@@ -1,0 +1,38 @@
+{
+  "timestamp": 1750749802755,
+  "mall": "사이소(경북몰)",
+  "mallId": "cyso",
+  "totalScraped": 49,
+  "validProducts": 48,
+  "registered": 48,
+  "previousTotal": 3776,
+  "newTotal": 3824,
+  "backup": "./src/data/products-backup-1750749802755.json",
+  "categoryCounts": {
+    "쌀/잡곡": 10,
+    "과일류": 10,
+    "채소류": 8,
+    "축산물": 10,
+    "가공식품": 10
+  },
+  "sampleRegistered": [
+    {
+      "id": "cyso-1613836582",
+      "title": "2024년 국산 검정팥 재팥 거두 회색팥 검은팥1kg > 콩/팥 | 사이소",
+      "price": "23,800원",
+      "category": "쌀/잡곡"
+    },
+    {
+      "id": "cyso-1740462451",
+      "title": "금종쌀20KG > 백미 | 사이소",
+      "price": "65,000원",
+      "category": "쌀/잡곡"
+    },
+    {
+      "id": "cyso-1570789057",
+      "title": "[안동와룡농협] 친정나들이 3종2호세트 > 혼합곡 | 사이소",
+      "price": "19,000원",
+      "category": "쌀/잡곡"
+    }
+  ]
+}
