@@ -1,0 +1,56 @@
+{
+  "mall_id": "mall_7_대전사랑몰",
+  "mall_name": "대전사랑몰",
+  "url": "https://ontongdaejeon.ezwel.com/onnuri/main",
+  "platform": "ezwel",
+  "encoding": "UTF-8",
+  "requires_js": true,
+  "categories": [
+    {
+      "name": "농산물",
+      "url": "https://ontongdaejeon.ezwel.com/onnuri/goods/list?ctgCd=01",
+      "category_id": "01"
+    },
+    {
+      "name": "수산물",
+      "url": "https://ontongdaejeon.ezwel.com/onnuri/goods/list?ctgCd=02",
+      "category_id": "02"
+    },
+    {
+      "name": "축산물",
+      "url": "https://ontongdaejeon.ezwel.com/onnuri/goods/list?ctgCd=03",
+      "category_id": "03"
+    },
+    {
+      "name": "가공식품",
+      "url": "https://ontongdaejeon.ezwel.com/onnuri/goods/list?ctgCd=04",
+      "category_id": "04"
+    },
+    {
+      "name": "생활용품",
+      "url": "https://ontongdaejeon.ezwel.com/onnuri/goods/list?ctgCd=05",
+      "category_id": "05"
+    },
+    {
+      "name": "생활가전",
+      "url": "https://ontongdaejeon.ezwel.com/onnuri/goods/list?ctgCd=06",
+      "category_id": "06"
+    }
+  ],
+  "selectors": {
+    "product_container": ".goods_lnb",
+    "product_name": ".lnb_ul li a",
+    "product_price": "span.t_price02",
+    "product_image": "img.lazy",
+    "product_link": "a[href*='/goods/']"
+  },
+  "pagination": {
+    "type": "ajax",
+    "per_page": 20,
+    "url_pattern": "?ctgCd={category}&page={page}"
+  },
+  "product_url_pattern": "/onnuri/goods/detail?goodsNo={id}",
+  "ajax_endpoints": ["/onnuri/goods/getGoodsList"],
+  "special_notes": "EzWel platform with heavy AJAX usage. Lazy loading images. Requires JavaScript rendering.",
+  "scraper_type": "puppeteer"
+}

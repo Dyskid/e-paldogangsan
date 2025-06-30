@@ -1,8 +1,9 @@
 import { GenericHTMLScraper } from './generic-scraper';
+import { EnhancedGenericHTMLScraper } from './enhanced-generic-scraper';
 import { BaseScraper } from './base-scraper';
 
 interface ScraperDefinition {
-  type: 'generic' | 'custom';
+  type: 'generic' | 'enhanced-generic' | 'custom';
   config: any;
 }
 
@@ -268,7 +269,7 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
     }
   },
   'jindoarirangmall': {
-    type: 'generic',
+    type: 'enhanced-generic',
     config: {
       mallId: 'jindoarirangmall',
       mallName: '진도아리랑몰',
@@ -837,6 +838,8 @@ export function createScraper(mallId: string): BaseScraper | null {
   switch (definition.type) {
     case 'generic':
       return new GenericHTMLScraper(definition.config);
+    case 'enhanced-generic':
+      return new EnhancedGenericHTMLScraper(definition.config);
     // Add more scraper types as needed
     default:
       return null;

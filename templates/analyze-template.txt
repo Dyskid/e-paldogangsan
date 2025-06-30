@@ -1,0 +1,89 @@
+# Mall Structure Analysis Template
+
+Please analyze the following shopping mall website and provide detailed information about its structure:
+
+Mall Information:
+- ID: {{MALL_ID}}
+- Name: {{MALL_NAME}}
+- URL: {{MALL_URL}}
+- Region: {{MALL_REGION}}
+
+## Tasks to Complete:
+
+1. **Homepage Analysis**
+   - Visit the homepage and identify main product categories
+   - Note the overall site structure (is it a custom site, Cafe24, Godo Mall, etc.)
+   - Check if the site requires login or has access restrictions
+
+2. **Product Category Structure**
+   - List all main product categories and their URLs
+   - Note the URL pattern for categories (e.g., /category/123, /goods/list?cate=456)
+   - Check if categories have subcategories
+
+3. **Product Listing Pages**
+   - Analyze how products are displayed in category pages
+   - Identify CSS selectors for:
+     - Product container/item
+     - Product name
+     - Product price
+     - Product image
+     - Product link
+   - Check pagination:
+     - How many products per page?
+     - URL pattern for pagination (e.g., ?page=2, /p2)
+     - Is there infinite scroll or AJAX loading?
+
+4. **Product Detail Pages**
+   - Visit a few product pages and note the URL pattern
+   - Identify additional product information available:
+     - Description
+     - Multiple images
+     - Options/variants
+     - Stock status
+
+5. **Technical Analysis**
+   - Is the site static HTML or JavaScript-rendered?
+   - Are products loaded via AJAX calls?
+   - Any API endpoints discovered?
+   - Character encoding (UTF-8, EUC-KR, etc.)
+
+6. **Special Considerations**
+   - Any anti-scraping measures (rate limiting, CAPTCHAs)?
+   - Special headers or cookies required?
+   - Mobile vs desktop differences?
+
+## Output Format:
+
+```json
+{
+  "mall_id": "{{MALL_ID}}",
+  "mall_name": "{{MALL_NAME}}",
+  "platform": "cafe24|godo|custom|php",
+  "encoding": "UTF-8|EUC-KR",
+  "requires_js": true|false,
+  "categories": [
+    {
+      "name": "Category Name",
+      "url": "https://...",
+      "product_count": "estimated number"
+    }
+  ],
+  "selectors": {
+    "product_container": ".product-item",
+    "product_name": ".name",
+    "product_price": ".price",
+    "product_image": ".thumb img",
+    "product_link": "a"
+  },
+  "pagination": {
+    "type": "numbered|infinite|ajax",
+    "per_page": 20,
+    "url_pattern": "?page={page}"
+  },
+  "product_url_pattern": "/goods/view?no={id}",
+  "ajax_endpoints": [],
+  "special_notes": "Any important observations"
+}
+```
+
+Please provide comprehensive analysis to enable accurate scraper generation.

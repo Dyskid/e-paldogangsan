@@ -1,0 +1,99 @@
+# Scraper Generation Template
+
+Based on the analysis of the shopping mall, please create a scraper with the following requirements:
+
+Mall Information:
+- ID: {{MALL_ID}}
+- Name: {{MALL_NAME}}
+- URL: {{MALL_URL}}
+- Analysis Results: {{ANALYSIS_RESULTS}}
+
+## Scraper Requirements:
+
+1. **File Location**
+   - Create the scraper at: `scripts/scrapers/{{MALL_ID}}-scraper.ts`
+
+2. **Scraper Type**
+   - For static sites: Use axios + cheerio
+   - For JavaScript-rendered sites: Use puppeteer
+   - For AJAX-based sites: Direct API calls if possible
+
+3. **Features to Implement**
+   - Category traversal (scrape all categories)
+   - Pagination handling
+   - Product data extraction with all required fields
+   - Error handling and retry logic
+   - Progress logging
+   - Data validation
+
+4. **Required Product Fields**
+   ```typescript
+   interface Product {
+     id: string;           // Unique product ID
+     name: string;         // Product name
+     price: number;        // Price as number
+     originalPrice?: number; // Original price if on sale
+     imageUrl: string;     // Main product image
+     productUrl: string;   // Full URL to product page
+     category: string;     // Product category
+     description?: string; // Product description
+     mallId: string;       // Mall ID
+     mallName: string;     // Mall name
+     region: string;       // Region
+   }
+   ```
+
+5. **Code Structure**
+   ```typescript
+   import axios from 'axios';
+   import * as cheerio from 'cheerio';
+   // or import puppeteer from 'puppeteer';
+
+   interface ScrapedProduct {
+     // ... product interface
+   }
+
+   class {{MALL_ID}}Scraper {
+     private baseUrl = '{{MALL_URL}}';
+     private mallId = '{{MALL_ID}}';
+     private mallName = '{{MALL_NAME}}';
+     private region = '{{MALL_REGION}}';
+
+     async scrapeAllProducts(): Promise<ScrapedProduct[]> {
+       // Implementation
+     }
+
+     private async scrapeCategory(categoryUrl: string): Promise<ScrapedProduct[]> {
+       // Implementation
+     }
+
+     private extractProducts($: cheerio.CheerioAPI): ScrapedProduct[] {
+       // Implementation
+     }
+
+     private normalizePrice(priceText: string): number {
+       // Implementation
+     }
+   }
+
+   // Export for use
+   export default {{MALL_ID}}Scraper;
+   ```
+
+6. **Error Handling**
+   - Network errors: Retry up to 3 times with exponential backoff
+   - Parsing errors: Log and skip problematic products
+   - Empty results: Log warning but continue
+
+7. **Performance Considerations**
+   - Add delays between requests (1-2 seconds)
+   - Respect robots.txt
+   - Set appropriate User-Agent headers
+   - Handle rate limiting gracefully
+
+8. **Testing**
+   - Include a test function to scrape a single category
+   - Validate that all required fields are present
+   - Check for duplicate products
+
+Please generate a complete, working scraper implementation based on the analysis results.
