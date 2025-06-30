@@ -349,6 +349,7 @@ scripts/
   │   ├── esjang-scrape-summary.json
   │   ├── esjang-test.html
   │   ├── esjang-verification-report.json
+  │   ├── final-wemall-wonju-removal-summary.json
   │   ├── freshjb-api--api-categories.json
   │   ├── freshjb-api--api-category-list.json
   │   ├── freshjb-api--api-goods.json
@@ -1111,6 +1112,7 @@ scripts/
   ├── remove-danpoong-products.js
   ├── remove-failed-jeju-products.ts
   ├── remove-jejumall.ts
+  ├── remove-remaining-wemall-products.ts
   ├── remove-unknown-mall-products.ts
   ├── remove-wemall-wonju-products.ts
   ├── retry-failed-malls.ts
@@ -1477,6 +1479,7 @@ src/
   │   ├── products-backup-1750769094310.json
   │   ├── products-backup-1750769635860.json
   │   ├── products-backup-1750783806494.json
+  │   ├── products-backup-before-final-wemall-wonju-removal.json
   │   ├── products-backup-before-three-malls.json
   │   ├── products-backup-before-wemall-wonju-removal.json
   │   ├── products-sample.json
@@ -1557,7 +1560,7 @@ Total: **93 shopping malls** across 17 regions
 }
 ```
 
-Total: **3948 products** with real data for featured malls
+Total: **3897 products** with real data for featured malls
 
 ### 3. Regions Data (`regions.json`)
 ```typescript
@@ -1820,12 +1823,12 @@ npm run lint     # Run ESLint
 Last Updated: 2025-06-30
 Version: 1.0.0
 Git Branch: product-enrolling
-Last Commit: 255591f update: mark three malls as scraped in backup mall list
+Last Commit: 80d38aa feat: remove 197 products from 우리몰 and 원주몰
 
 ### Project Statistics
-- Total Files: 1423
+- Total Files: 1426
 - Total Directories: 40
 - Shopping Malls: 93
-- Products: 3948
+- Products: 3897
 - Regions: 17
 - Categories: 10
