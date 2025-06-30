@@ -130,8 +130,8 @@ async function scrapeSCLocalProducts() {
       }))
     };
     
-    fs.writeFileSync('./scripts/output/sclocal-products.json', JSON.stringify(uniqueProducts, null, 2));
-    fs.writeFileSync('./scripts/output/sclocal-scrape-summary.json', JSON.stringify(summary, null, 2));
+    fs.writeFileSync('./output/sclocal-products.json', JSON.stringify(uniqueProducts, null, 2));
+    fs.writeFileSync('./output/sclocal-scrape-summary.json', JSON.stringify(summary, null, 2));
     
     console.log('\n📊 Scraping Summary:');
     console.log(`Total products: ${uniqueProducts.length}`);

@@ -1,5 +1,5 @@
 {
-  "totalProducts": 323,
+  "totalProducts": 324,
   "mall": "순천로컬푸드 함께가게",
   "region": "전남",
   "baseUrl": "https://sclocal.kr",
@@ -8,7 +8,7 @@
     "축산물",
     "가공식품"
   ],
-  "scrapeDate": "2025-06-23T12:17:17.601Z",
+  "scrapeDate": "2025-06-30T08:37:11.395Z",
   "errors": [],
   "sampleProducts": [
     {

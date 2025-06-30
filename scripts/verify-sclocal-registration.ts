@@ -6,12 +6,12 @@ async function verifySCLocalRegistration() {
     
     // Read products database
     const products = JSON.parse(
-      fs.readFileSync('./src/data/products.json', 'utf-8')
+      fs.readFileSync('../src/data/products.json', 'utf-8')
     );
     
     // Read registration summary
     const registrationSummary = JSON.parse(
-      fs.readFileSync('./scripts/output/sclocal-registration-summary.json', 'utf-8')
+      fs.readFileSync('./output/sclocal-registration-summary.json', 'utf-8')
     );
     
     // Find SC Local products
@@ -101,7 +101,7 @@ async function verifySCLocalRegistration() {
     };
     
     // Save verification report
-    fs.writeFileSync('./scripts/output/sclocal-verification-report.json', JSON.stringify(report, null, 2));
+    fs.writeFileSync('./output/sclocal-verification-report.json', JSON.stringify(report, null, 2));
     
     console.log('\n📊 Verification Results:');
     console.log(`Total products: ${report.totalProducts}`);

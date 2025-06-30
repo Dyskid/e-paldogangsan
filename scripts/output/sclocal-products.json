@@ -95,8 +95,8 @@
   },
   {
     "id": "sclocal-L5293-F4976-K1199",
-    "title": "[상사정문순] 당일수확 상추 2kg/4kg (아삭이 청상추 / 적상추 선택)",
-    "price": "12,000원",
+    "title": "화/금 출고 [상사정문순] 당일수확 상추 2kg (아삭이 청상추 / 적상추 선택)",
+    "price": "15,000원",
     "image": "https://sclocal.kr/upfiles/product/2558772059.png",
     "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=L5293-F4976-K1199",
     "category": "농산물",
@@ -109,7 +109,7 @@
       "로컬푸드",
       "신선"
     ],
-    "inStock": true
+    "inStock": false
   },
   {
     "id": "sclocal-R8667-H5814-Z7393",
@@ -165,25 +165,6 @@
     "inStock": true
   },
   {
-    "id": "sclocal-P1921-D5913-L8162",
-    "title": "[도사동김태현] 당일수확 유기농 오이 유기농 취청오이 3개",
-    "price": "3,000원",
-    "image": "https://sclocal.kr/upfiles/product/2558772059.png",
-    "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=P1921-D5913-L8162",
-    "category": "농산물",
-    "mall": "순천로컬푸드 함께가게",
-    "region": "전남",
-    "tags": [
-      "농산물",
-      "전남",
-      "순천",
-      "로컬푸드",
-      "친환경",
-      "신선"
-    ],
-    "inStock": true
-  },
-  {
     "id": "sclocal-A0851-U3639-O0372",
     "title": "[순천농가] 당일수확 순천산 열무 1kg",
     "price": "3,000원",
@@ -220,7 +201,7 @@
   },
   {
     "id": "sclocal-C1613-N4740-P2672",
-    "title": "[덕천농장] 국내산 GAP인증 햇 플럼코트 2kg ( 대과 / 특과 / 로열과 )",
+    "title": "[덕천농장] 국내산 햇 플럼코트 하모니 2kg ( 대과 / 특과 / 로열과 )",
     "price": "34,000원",
     "image": "https://sclocal.kr/upfiles/product/2558772059.png",
     "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=C1613-N4740-P2672",
@@ -309,6 +290,23 @@
     "inStock": true
   },
   {
+    "id": "sclocal-T0963-U0344-W5824",
+    "title": "[해룡채형규] 25년 순천 햇 옥수수 찰옥수수 12개",
+    "price": "10,000원",
+    "image": "https://sclocal.kr/upfiles/product/2558772059.png",
+    "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=T0963-U0344-W5824",
+    "category": "농산물",
+    "mall": "순천로컬푸드 함께가게",
+    "region": "전남",
+    "tags": [
+      "농산물",
+      "전남",
+      "순천",
+      "로컬푸드"
+    ],
+    "inStock": true
+  },
+  {
     "id": "sclocal-L5081-M9462-J5357",
     "title": "[주암땜농장] 유기농쌀 백미 하이아미 4kg",
     "price": "22,000원",
@@ -327,11 +325,11 @@
     "inStock": true
   },
   {
-    "id": "sclocal-B0194-C8610-H2195",
-    "title": "[낙안김인수] 순천산 국내산 당일수확 취청 오이 5kg 10kg 1박스",
-    "price": "4323,00040,000원",
+    "id": "sclocal-U9290-X3084-I1307",
+    "title": "[낙안김만진] 순천 낙안배 고당도 신고 배 1봉 가정용",
+    "price": "9,000원",
     "image": "https://sclocal.kr/upfiles/product/2558772059.png",
-    "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=B0194-C8610-H2195",
+    "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=U9290-X3084-I1307",
     "category": "농산물",
     "mall": "순천로컬푸드 함께가게",
     "region": "전남",
@@ -339,17 +337,33 @@
       "농산물",
       "전남",
       "순천",
-      "로컬푸드",
-      "신선"
+      "로컬푸드"
     ],
     "inStock": true
   },
   {
-    "id": "sclocal-U9290-X3084-I1307",
-    "title": "[낙안김만진] 순천 낙안배 고당도 신고 배 1봉 가정용",
-    "price": "9,000원",
+    "id": "sclocal-D2023-K4001-Y4381",
+    "title": "미나리삼겹살 세트 (미나리500g+삼겹살1kg)(3-4인분)",
+    "price": "30,900원",
     "image": "https://sclocal.kr/upfiles/product/2558772059.png",
-    "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=U9290-X3084-I1307",
+    "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=D2023-K4001-Y4381",
+    "category": "농산물",
+    "mall": "순천로컬푸드 함께가게",
+    "region": "전남",
+    "tags": [
+      "농산물",
+      "전남",
+      "순천",
+      "로컬푸드"
+    ],
+    "inStock": true
+  },
+  {
+    "id": "sclocal-P8867-K4773-W0569",
+    "title": "쌈채소삼겹살 세트 (모듬쌈채소500g+삼겹살1kg)(3-4인분)",
+    "price": "31,400원",
+    "image": "https://sclocal.kr/upfiles/product/2558772059.png",
+    "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=P8867-K4773-W0569",
     "category": "농산물",
     "mall": "순천로컬푸드 함께가게",
     "region": "전남",
@@ -415,23 +429,6 @@
     "inStock": true
   },
   {
-    "id": "sclocal-C5818-D7600-D4915",
-    "title": "[낙안안영이] 25년 순천산 홍매실 햇매실 2kg 5kg 10kg",
-    "price": "15,000원",
-    "image": "https://sclocal.kr/upfiles/product/2558772059.png",
-    "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=C5818-D7600-D4915",
-    "category": "농산물",
-    "mall": "순천로컬푸드 함께가게",
-    "region": "전남",
-    "tags": [
-      "농산물",
-      "전남",
-      "순천",
-      "로컬푸드"
-    ],
-    "inStock": true
-  },
-  {
     "id": "sclocal-D5920-Y8413-F7628",
     "title": "[별량안영이] 당일수확 햇 미나리 순천미나리 500g 1kg 3kg 5kg",
     "price": "4,000원",
@@ -455,6 +452,57 @@
     "price": "12,000원",
     "image": "https://sclocal.kr/upfiles/product/2558772059.png",
     "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=A4705-B7002-I5892",
+    "category": "농산물",
+    "mall": "순천로컬푸드 함께가게",
+    "region": "전남",
+    "tags": [
+      "농산물",
+      "전남",
+      "순천",
+      "로컬푸드"
+    ],
+    "inStock": true
+  },
+  {
+    "id": "sclocal-A8737-K1329-K4292",
+    "title": "[순천로컬푸드] 한돈 삼겹살 꾸러미 세트",
+    "price": "29,900원",
+    "image": "https://sclocal.kr/upfiles/product/2558772059.png",
+    "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=A8737-K1329-K4292",
+    "category": "농산물",
+    "mall": "순천로컬푸드 함께가게",
+    "region": "전남",
+    "tags": [
+      "농산물",
+      "전남",
+      "순천",
+      "로컬푸드"
+    ],
+    "inStock": true
+  },
+  {
+    "id": "sclocal-E8371-Q9515-Z2581",
+    "title": "[순천로컬푸드] 한돈 목살 꾸러미 세트",
+    "price": "29,900원",
+    "image": "https://sclocal.kr/upfiles/product/2558772059.png",
+    "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=E8371-Q9515-Z2581",
+    "category": "농산물",
+    "mall": "순천로컬푸드 함께가게",
+    "region": "전남",
+    "tags": [
+      "농산물",
+      "전남",
+      "순천",
+      "로컬푸드"
+    ],
+    "inStock": true
+  },
+  {
+    "id": "sclocal-J9100-I7460-A7384",
+    "title": "[순천로컬푸드] 한우 꾸러미 세트",
+    "price": "59,000원",
+    "image": "https://sclocal.kr/upfiles/product/2558772059.png",
+    "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=J9100-I7460-A7384",
     "category": "농산물",
     "mall": "순천로컬푸드 함께가게",
     "region": "전남",
@@ -628,23 +676,6 @@
     "inStock": true
   },
   {
-    "id": "sclocal-V9745-K3821-E3885",
-    "title": "[덕천농장] 손질되어 쪼갠 씨없는 손질매실 3kg (황매실/청매실)",
-    "price": "40,000원",
-    "image": "https://sclocal.kr/upfiles/product/2558772059.png",
-    "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=V9745-K3821-E3885",
-    "category": "농산물",
-    "mall": "순천로컬푸드 함께가게",
-    "region": "전남",
-    "tags": [
-      "농산물",
-      "전남",
-      "순천",
-      "로컬푸드"
-    ],
-    "inStock": true
-  },
-  {
     "id": "sclocal-Z0347-T4808-M1767",
     "title": "[서면이동진] 국산 순천산 가지 2025 햇가지 3개",
     "price": "3,000원",
@@ -783,24 +814,6 @@
       "전남",
       "순천",
       "로컬푸드"
-    ],
-    "inStock": true
-  },
-  {
-    "id": "sclocal-J5907-K8710-P1939",
-    "title": "[해룡정욱조] 블랙푸드 무농약 블루베리 100g/200g",
-    "price": "5,500원",
-    "image": "https://sclocal.kr/upfiles/product/2558772059.png",
-    "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=J5907-K8710-P1939",
-    "category": "농산물",
-    "mall": "순천로컬푸드 함께가게",
-    "region": "전남",
-    "tags": [
-      "농산물",
-      "전남",
-      "순천",
-      "로컬푸드",
-      "친환경"
     ],
     "inStock": true
   },
@@ -944,23 +957,6 @@
     "inStock": true
   },
   {
-    "id": "sclocal-H0872-Y4325-V2545",
-    "title": "[별량송각순] 식물성 단백질 그린빈스 채두 200g",
-    "price": "2,000원",
-    "image": "https://sclocal.kr/upfiles/product/2558772059.png",
-    "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=H0872-Y4325-V2545",
-    "category": "농산물",
-    "mall": "순천로컬푸드 함께가게",
-    "region": "전남",
-    "tags": [
-      "농산물",
-      "전남",
-      "순천",
-      "로컬푸드"
-    ],
-    "inStock": true
-  },
-  {
     "id": "sclocal-W6968-E3127-K4989",
     "title": "[별량송각순] 생선/고기요리 필수 국내산 로즈마리 50g",
     "price": "1,500원",
@@ -974,6 +970,24 @@
       "전남",
       "순천",
       "로컬푸드"
+    ],
+    "inStock": true
+  },
+  {
+    "id": "sclocal-N7531-F1563-G4596",
+    "title": "[상사정문순] 당일수확 고추잎 200g",
+    "price": "2,500원",
+    "image": "https://sclocal.kr/upfiles/product/2558772059.png",
+    "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=N7531-F1563-G4596",
+    "category": "농산물",
+    "mall": "순천로컬푸드 함께가게",
+    "region": "전남",
+    "tags": [
+      "농산물",
+      "전남",
+      "순천",
+      "로컬푸드",
+      "신선"
     ],
     "inStock": true
   },
@@ -1219,24 +1233,6 @@
       "전남",
       "순천",
       "로컬푸드"
-    ],
-    "inStock": true
-  },
-  {
-    "id": "sclocal-W2206-L3780-A1290",
-    "title": "[상사서현화] 당일수확 쌈채소(모둠) 250g/500g",
-    "price": "3,000원",
-    "image": "https://sclocal.kr/upfiles/product/2558772059.png",
-    "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=W2206-L3780-A1290",
-    "category": "농산물",
-    "mall": "순천로컬푸드 함께가게",
-    "region": "전남",
-    "tags": [
-      "농산물",
-      "전남",
-      "순천",
-      "로컬푸드",
-      "신선"
     ],
     "inStock": true
   },
@@ -4802,7 +4798,7 @@
       "로컬푸드",
       "국산"
     ],
-    "inStock": true
+    "inStock": false
   },
   {
     "id": "sclocal-I3062-M7618-K3623",
@@ -5650,6 +5646,23 @@
     "price": "6,500원",
     "image": "https://sclocal.kr/upfiles/product/2406428004.jpg",
     "url": "https://sclocal.kr//?pn=product.view&cuid=464&pcode=A2434-H7644-F6480",
+    "category": "가공식품",
+    "mall": "순천로컬푸드 함께가게",
+    "region": "전남",
+    "tags": [
+      "농산물",
+      "전남",
+      "순천",
+      "로컬푸드"
+    ],
+    "inStock": true
+  },
+  {
+    "id": "sclocal-T8294-W2619-K5759",
+    "title": "[별량면용두마을] 산지직송 순천만 갯벌 별량 활 맛조개 1kg 2kg 3kg",
+    "price": "423,00024,000원",
+    "image": "https://sclocal.kr/upfiles/product/2558772059.png",
+    "url": "https://sclocal.kr//?pn=product.view&cuid=465&pcode=T8294-W2619-K5759",
     "category": "가공식품",
     "mall": "순천로컬푸드 함께가게",
     "region": "전남",

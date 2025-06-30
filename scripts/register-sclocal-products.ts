@@ -21,20 +21,20 @@ async function registerSCLocalProducts() {
     
     // Read scraped products
     const scrapedProducts: Product[] = JSON.parse(
-      fs.readFileSync('./scripts/output/sclocal-products.json', 'utf-8')
+      fs.readFileSync('./output/sclocal-products.json', 'utf-8')
     );
     
     console.log(`📦 Found ${scrapedProducts.length} products to register`);
     
     // Read existing products
     const existingProducts = JSON.parse(
-      fs.readFileSync('./src/data/products.json', 'utf-8')
+      fs.readFileSync('../src/data/products.json', 'utf-8')
     );
     
     // Create backup
     const timestamp = Date.now();
     fs.writeFileSync(
-      `./src/data/products-backup-${timestamp}.json`,
+      `../src/data/products-backup-${timestamp}.json`,
       JSON.stringify(existingProducts, null, 2)
     );
     console.log(`💾 Created backup: products-backup-${timestamp}.json`);
@@ -81,7 +81,7 @@ async function registerSCLocalProducts() {
     const updatedProducts = [...existingProducts, ...validProducts];
     
     // Write updated products
-    fs.writeFileSync('./src/data/products.json', JSON.stringify(updatedProducts, null, 2));
+    fs.writeFileSync('../src/data/products.json', JSON.stringify(updatedProducts, null, 2));
     
     // Generate summary
     const summary = {
@@ -101,7 +101,7 @@ async function registerSCLocalProducts() {
       }))
     };
     
-    fs.writeFileSync('./scripts/output/sclocal-registration-summary.json', JSON.stringify(summary, null, 2));
+    fs.writeFileSync('./output/sclocal-registration-summary.json', JSON.stringify(summary, null, 2));
     
     console.log('\n📊 Registration Summary:');
     console.log(`Total scraped: ${summary.totalScraped}`);

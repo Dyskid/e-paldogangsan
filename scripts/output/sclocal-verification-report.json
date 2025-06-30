@@ -1,15 +1,15 @@
 {
-  "verificationDate": "2025-06-23T12:18:46.560Z",
+  "verificationDate": "2025-06-30T08:39:30.131Z",
   "mall": "순천로컬푸드 함께가게",
   "region": "전남",
-  "totalProducts": 323,
-  "validProducts": 323,
+  "totalProducts": 324,
+  "validProducts": 324,
   "invalidProducts": 0,
   "issues": [],
   "categories": {
     "농산물": 78,
     "축산물": 213,
-    "가공식품": 32
+    "가공식품": 33
   },
   "priceRange": {
     "min": 1100,
@@ -52,8 +52,8 @@
       "valid": true
     },
     {
-      "title": "[상사정문순] 당일수확 상추 2kg/4kg (아삭이 청상추 / 적상추 선택)",
-      "price": "12,000원",
+      "title": "화/금 출고 [상사정문순] 당일수확 상추 2kg (아삭이 청상추 / 적상추 선택)",
+      "price": "15,000원",
       "category": "농산물",
       "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=L5293-F4976-K1199",
       "valid": true
@@ -80,15 +80,15 @@
       "valid": true
     },
     {
-      "title": "[도사동김태현] 당일수확 유기농 오이 유기농 취청오이 3개",
+      "title": "[순천농가] 당일수확 순천산 열무 1kg",
       "price": "3,000원",
       "category": "농산물",
-      "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=P1921-D5913-L8162",
+      "url": "https://sclocal.kr//?pn=product.view&cuid=436&pcode=A0851-U3639-O0372",
       "valid": true
     }
   ],
   "successRate": "100.00",
   "averagePrice": 1577500080550,
-  "productsWithStock": 317,
-  "outOfStockProducts": 6
+  "productsWithStock": 316,
+  "outOfStockProducts": 8
 }
