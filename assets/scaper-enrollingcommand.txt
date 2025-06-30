@@ -1,0 +1,14 @@
+Perform the following actions on the shopping mall:
+
+remove all products from the mall(overwrite)
+Analyze the shopping mall structure and identify product listing pages
+Create a scraper for the shopping mall to extract product data and locate it in /mnt/c/Users/johndoe/Desktop/e-paldogangsan/scripts/
+
+Extract all product URLs from the shopping mall
+Scrape product details including names, images, and prices, the name of the source shopping mall
+makesure all atributes are extracted
+
+Process and clean the scraped data
+Verify product registration and data accuracy. Do not consider categories as products; register each individual product separately
+
+Add the new scraping button for the shopping mall to https://e-paldogangsan.vercel.app/scrapermalls/

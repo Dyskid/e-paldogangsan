@@ -52,13 +52,14 @@
 ## 📁 Project Structure
 
 ```
-backup/
+assets/
   ├── categories.txt
   ├── claude command for phase1.txt
   ├── e-Paldogangsan Phase 1 MVP Specific.txt
-  ├── mergedmalls.txt
+  ├── malls-clean.txt
+  ├── malls.txt
   ├── Project Title e-Paldogangsan South.txt
-  ├── scrapercommand.txt
+  ├── scaper-enrollingcommand.txt
 public/
   ├── logos/
   │   ├── mall_10_착착착.png
@@ -1412,14 +1413,12 @@ src/
   │   ├── product/
   │   │   ├── [productId]/
   │   │   │   ├── page.tsx
-  │   │   ├── \[productId\]/
   │   ├── products/
   │   │   ├── page.tsx
   │   ├── region/
   │   │   ├── [regionName]/
   │   │   │   ├── page.tsx
   │   │   │   ├── RegionPageClient.tsx
-  │   │   ├── \[regionName\]/
   │   ├── scrapermalls/
   │   │   ├── page.tsx
   │   ├── search/
@@ -1484,7 +1483,6 @@ src/
   │   ├── products-backup-before-wemall-wonju-removal.json
   │   ├── products-sample.json
   │   ├── products.json
-  │   ├── products.json.backup
   │   ├── regions.json
   │   ├── tag-analysis.json
   │   ├── tag-mapping.json
@@ -1822,12 +1820,12 @@ npm run lint     # Run ESLint
 
 Last Updated: 2025-06-30
 Version: 1.0.0
-Git Branch: product-enrolling
-Last Commit: 80d38aa feat: remove 197 products from 우리몰 and 원주몰
+Git Branch: automate-enrolling
+Last Commit: e347549 fix: remove remaining 51 우리몰 products with nested data structure
 
 ### Project Statistics
 - Total Files: 1426
-- Total Directories: 40
+- Total Directories: 38
 - Shopping Malls: 93
 - Products: 3897
 - Regions: 17
