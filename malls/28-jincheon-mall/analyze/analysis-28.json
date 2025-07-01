@@ -1,0 +1,18 @@
+{
+  "id": 28,
+  "engname": "jincheon-mall",
+  "name": "진천몰",
+  "url": "https://jcmall.net/",
+  "scrapable": true,
+  "structure": {
+    "type": "cafe24",
+    "requiresJavaScript": false,
+    "notes": "Platform: cafe24. Products appear to be available in static HTML."
+  },
+  "issues": [],
+  "recommendations": [
+    "Use standard HTTP requests to fetch pages",
+    "Parse HTML to extract product information",
+    "Monitor for pagination patterns"
+  ]
+}

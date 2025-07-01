@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-07-01T09:46:02.228Z",
+  "results": [
+    {
+      "url": "https://smartstore.naver.com/dndnsang",
+      "status": 429,
+      "storeId": null,
+      "storeName": null
+    },
+    {
+      "url": "https://smartstore.naver.com/marketgyeonggi",
+      "status": 429,
+      "storeId": null,
+      "storeName": null
+    },
+    {
+      "url": "https://m.smartstore.naver.com/marketgyeonggi",
+      "status": 429,
+      "storeId": null,
+      "storeName": null
+    },
+    {
+      "url": "https://m.smartstore.naver.com/dndnsang",
+      "status": 429,
+      "storeId": null,
+      "storeName": null
+    }
+  ]
+}

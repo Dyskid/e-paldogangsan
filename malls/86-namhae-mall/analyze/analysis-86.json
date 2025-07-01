@@ -1,0 +1,26 @@
+{
+  "mallId": 86,
+  "mallName": "namhae-mall",
+  "url": "https://enamhae.co.kr/",
+  "categories": [],
+  "productStructure": {
+    "urlPattern": "https://enamhae.co.kr/shop/item.php?it_id={product_id}",
+    "categoryUrlPattern": "https://enamhae.co.kr/shop/list.php?ca_id={category_id}",
+    "paginationMethod": "page_parameter",
+    "dynamicLoading": false,
+    "productSelectors": {
+      "container": ".sct_li",
+      "name": ".sct_txt a",
+      "price": ".sct_cost",
+      "image": ".sct_img img",
+      "link": ".sct_txt a"
+    }
+  },
+  "sampleProducts": [],
+  "notes": [
+    "Site uses YeongCart (영카트) e-commerce platform",
+    "Product IDs are numeric timestamps",
+    "Categories use alphanumeric IDs (e.g., ca_id=10, ca_id=20)"
+  ],
+  "errors": []
+}

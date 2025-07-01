@@ -1,0 +1,187 @@
+{
+  "mallId": 10,
+  "mallName": "강원더몰",
+  "mallUrl": "https://gwdmall.kr/",
+  "categories": [
+    {
+      "name": "축산물",
+      "url": "https://gwdmall.kr/goods/catalog?code=0004",
+      "subcategories": [
+        {
+          "name": "양지/사태/국거리",
+          "url": "https://gwdmall.kr/goods/catalog?code=000400010001"
+        },
+        {
+          "name": "등심/안심/구이용",
+          "url": "https://gwdmall.kr/goods/catalog?code=000400010002"
+        },
+        {
+          "name": "갈비/찜",
+          "url": "https://gwdmall.kr/goods/catalog?code=000400010003"
+        },
+        {
+          "name": "사골/꼬리/우족",
+          "url": "https://gwdmall.kr/goods/catalog?code=000400010004"
+        },
+        {
+          "name": "육포",
+          "url": "https://gwdmall.kr/goods/catalog?code=000400010005"
+        },
+        {
+          "name": "불고기",
+          "url": "https://gwdmall.kr/goods/catalog?code=000400010006"
+        },
+        {
+          "name": "삼겹살/목심/구이용",
+          "url": "https://gwdmall.kr/goods/catalog?code=000400020001"
+        },
+        {
+          "name": "등심/안심/갈비",
+          "url": "https://gwdmall.kr/goods/catalog?code=000400020003"
+        },
+        {
+          "name": "돼지불고기",
+          "url": "https://gwdmall.kr/goods/catalog?code=000400020004"
+        },
+        {
+          "name": "닭갈비",
+          "url": "https://gwdmall.kr/goods/catalog?code=000400030008"
+        },
+        {
+          "name": "닭강정",
+          "url": "https://gwdmall.kr/goods/catalog?code=000400030009"
+        }
+      ]
+    },
+    {
+      "name": "쌀/잡곡",
+      "url": "https://gwdmall.kr/goods/catalog?code=0001",
+      "subcategories": []
+    },
+    {
+      "name": "수산물/건어물",
+      "url": "https://gwdmall.kr/goods/catalog?code=0020",
+      "subcategories": []
+    },
+    {
+      "name": "과일/견과",
+      "url": "https://gwdmall.kr/goods/catalog?code=0002",
+      "subcategories": []
+    },
+    {
+      "name": "채소류",
+      "url": "https://gwdmall.kr/goods/catalog?code=0019",
+      "subcategories": []
+    },
+    {
+      "name": "차류",
+      "url": "https://gwdmall.kr/goods/catalog?code=0022",
+      "subcategories": []
+    },
+    {
+      "name": "가공식품/떡류",
+      "url": "https://gwdmall.kr/goods/catalog?code=0025",
+      "subcategories": [
+        {
+          "name": "만두",
+          "url": "https://gwdmall.kr/goods/catalog?code=002500020001"
+        },
+        {
+          "name": "전병",
+          "url": "https://gwdmall.kr/goods/catalog?code=002500020006"
+        },
+        {
+          "name": "순대",
+          "url": "https://gwdmall.kr/goods/catalog?code=002500020005"
+        },
+        {
+          "name": "돈까스",
+          "url": "https://gwdmall.kr/goods/catalog?code=002500020003"
+        },
+        {
+          "name": "떡갈비",
+          "url": "https://gwdmall.kr/goods/catalog?code=002500020004"
+        },
+        {
+          "name": "감자떡",
+          "url": "https://gwdmall.kr/goods/catalog?code=002500020007"
+        },
+        {
+          "name": "찐빵",
+          "url": "https://gwdmall.kr/goods/catalog?code=002500020008"
+        },
+        {
+          "name": "간편조리식",
+          "url": "https://gwdmall.kr/goods/catalog?code=002500020009"
+        }
+      ]
+    },
+    {
+      "name": "반찬/김치/젓갈",
+      "url": "https://gwdmall.kr/goods/catalog?code=0024",
+      "subcategories": []
+    },
+    {
+      "name": "건강식품",
+      "url": "https://gwdmall.kr/goods/catalog?code=0005",
+      "subcategories": []
+    },
+    {
+      "name": "장/조청/식초",
+      "url": "https://gwdmall.kr/goods/catalog?code=0008",
+      "subcategories": []
+    }
+  ],
+  "productStructure": {
+    "listSelector": ".goods_list",
+    "itemSelector": ".gl_item",
+    "nameSelector": ".goodS_info a",
+    "priceSelector": ".displaY_sales_price .sale_price",
+    "imageSelector": ".goodsDisplayImage",
+    "linkSelector": ".respItemImageArea"
+  },
+  "pagination": {
+    "type": "page_parameter",
+    "pageParam": "page",
+    "itemsPerPage": 40
+  },
+  "javascriptRequired": true,
+  "dataLoadingMethod": "server_side_with_lazy_loading",
+  "sampleProducts": [
+    {
+      "id": "36716",
+      "name": "춘천 한입 닭갈비 1kg",
+      "price": "",
+      "imageUrl": "http://gwchild660.firstmall.kr/data/goods/1/2020/06/36716_tmp_000993712c7467a0de2eafce3e53891d2409view.jpg",
+      "productUrl": "https://gwdmall.kr/goods/view?no=36716"
+    },
+    {
+      "id": "32365",
+      "name": "마들 춘천 닭갈비 맛집 택배 1kg",
+      "price": "",
+      "imageUrl": "http://gwchild582.firstmall.kr/data/goods/1/2019/07/32365_tmp_33fadea774da444297251d721a3e85bc3284view.jpg",
+      "productUrl": "https://gwdmall.kr/goods/view?no=32365"
+    },
+    {
+      "id": "103960",
+      "name": "계절 닭갈비 2인세트",
+      "price": "",
+      "imageUrl": "https://gwchild488.firstmall.kr/data/goods/1/2023/08/32321_2023080617391996.jpg",
+      "productUrl": "https://gwdmall.kr/goods/view?no=103960"
+    },
+    {
+      "id": "103119",
+      "name": "철원맛집 삼성닭갈비 닭갈비 밀키트 1.15kg(2~3인분)",
+      "price": "",
+      "imageUrl": "https://gwchild897.firstmall.kr/data/goods/1/2023/03/1_temp_16799730801390view.jpg",
+      "productUrl": "https://gwdmall.kr/goods/view?no=103119"
+    },
+    {
+      "id": "106598",
+      "name": "[동해식품상사] 국산 손질 임연수 1kg,5~7마리(개별포장)",
+      "price": "",
+      "imageUrl": "https://gwchild440.firstmall.kr/data/goods/1/2024/05/_temp_17162662303347view.jpg",
+      "productUrl": "https://gwdmall.kr/goods/view?no=106598"
+    }
+  ]
+}

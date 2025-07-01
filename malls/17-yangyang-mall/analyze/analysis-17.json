@@ -1,0 +1,23 @@
+{
+  "mallId": 17,
+  "mallName": "yangyang-mall",
+  "websiteUrl": "https://yangyang-mall.com/",
+  "status": "accessible",
+  "productStructure": {
+    "categoryPattern": "/goods/catalog?code={categoryCode}",
+    "productListSelector": "ul.goods_list > li.gl_item",
+    "productItemSelector": ".gl_inner_item_wrap",
+    "productDetailPattern": "/goods/view?no={productId}",
+    "searchPattern": "/goods/search?keyword={searchKeyword}",
+    "paginationSelector": ".paging_navigation"
+  },
+  "dataLocation": {
+    "type": "html",
+    "endpoints": []
+  },
+  "platformInfo": {
+    "name": "FirstMall",
+    "version": "responsive_yangyang_mall_gl"
+  },
+  "analysisDate": "2025-07-01T11:51:36.840Z"
+}

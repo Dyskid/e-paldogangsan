@@ -1,0 +1,176 @@
+{
+  "storeInfo": {
+    "storeId": "marketgyeonggi",
+    "storeName": "경기마켓",
+    "storeUrl": "https://smartstore.naver.com/marketgyeonggi",
+    "description": "경기도 우수 농수산물 온라인 직거래 장터",
+    "businessInfo": {
+      "companyName": "경기도농수산진흥원",
+      "representativeName": "대표자명",
+      "businessNumber": "123-45-67890",
+      "address": "경기도 수원시"
+    }
+  },
+  "categories": [
+    {
+      "categoryId": "ALL",
+      "categoryName": "전체상품",
+      "displayOrder": 0,
+      "productCount": 150
+    },
+    {
+      "categoryId": "CAT001",
+      "categoryName": "농산물",
+      "displayOrder": 1,
+      "productCount": 60,
+      "subCategories": [
+        {
+          "categoryId": "CAT001-01",
+          "categoryName": "과일",
+          "displayOrder": 1,
+          "productCount": 25
+        },
+        {
+          "categoryId": "CAT001-02",
+          "categoryName": "채소",
+          "displayOrder": 2,
+          "productCount": 35
+        }
+      ]
+    },
+    {
+      "categoryId": "CAT002",
+      "categoryName": "축산물",
+      "displayOrder": 2,
+      "productCount": 30
+    },
+    {
+      "categoryId": "CAT003",
+      "categoryName": "수산물",
+      "displayOrder": 3,
+      "productCount": 25
+    },
+    {
+      "categoryId": "CAT004",
+      "categoryName": "가공식품",
+      "displayOrder": 4,
+      "productCount": 35
+    }
+  ],
+  "sampleProducts": [
+    {
+      "id": "PROD001",
+      "name": "경기도 이천쌀 20kg",
+      "salePrice": 65000,
+      "originalPrice": 70000,
+      "discountRate": 7,
+      "imageUrl": "https://shopping-phinf.pstatic.net/sample1.jpg",
+      "detailImageUrls": [
+        "https://shopping-phinf.pstatic.net/detail1.jpg",
+        "https://shopping-phinf.pstatic.net/detail2.jpg"
+      ],
+      "benefitBadge": {
+        "type": "FREE_DELIVERY",
+        "text": "무료배송"
+      },
+      "reviewCount": 342,
+      "reviewScore": 4.8,
+      "purchaseCount": 1250,
+      "recentPurchaseCount": 52,
+      "category": {
+        "id": "CAT001-02",
+        "name": "채소"
+      },
+      "tags": ["GAP인증", "경기도우수농산물", "이천쌀"],
+      "seller": {
+        "id": "marketgyeonggi",
+        "name": "경기마켓"
+      },
+      "shippingFee": {
+        "baseFee": 3000,
+        "freeCondition": 50000
+      },
+      "stock": {
+        "stockQuantity": 100,
+        "stockStatus": "AVAILABLE"
+      }
+    },
+    {
+      "id": "PROD002",
+      "name": "안성 배 선물세트 5kg",
+      "salePrice": 35000,
+      "originalPrice": 40000,
+      "discountRate": 12,
+      "imageUrl": "https://shopping-phinf.pstatic.net/sample2.jpg",
+      "benefitBadge": {
+        "type": "DISCOUNT",
+        "text": "12% 할인"
+      },
+      "reviewCount": 127,
+      "reviewScore": 4.7,
+      "purchaseCount": 450,
+      "recentPurchaseCount": 23,
+      "category": {
+        "id": "CAT001-01",
+        "name": "과일"
+      },
+      "tags": ["안성배", "명절선물", "당도선별"],
+      "seller": {
+        "id": "marketgyeonggi",
+        "name": "경기마켓"
+      },
+      "shippingFee": {
+        "baseFee": 3000,
+        "freeCondition": 30000
+      },
+      "stock": {
+        "stockQuantity": 50,
+        "stockStatus": "AVAILABLE"
+      }
+    },
+    {
+      "id": "PROD003",
+      "name": "경기도 한우 정육세트 1kg",
+      "salePrice": 89000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/sample3.jpg",
+      "benefitBadge": {
+        "type": "PREMIUM",
+        "text": "프리미엄"
+      },
+      "reviewCount": 89,
+      "reviewScore": 4.9,
+      "purchaseCount": 234,
+      "recentPurchaseCount": 15,
+      "category": {
+        "id": "CAT002",
+        "name": "축산물"
+      },
+      "tags": ["1등급한우", "경기도한우", "냉장배송"],
+      "seller": {
+        "id": "marketgyeonggi",
+        "name": "경기마켓"
+      },
+      "shippingFee": {
+        "baseFee": 0,
+        "freeCondition": 0
+      },
+      "stock": {
+        "stockQuantity": 20,
+        "stockStatus": "LOW_STOCK"
+      }
+    }
+  ],
+  "apiEndpoints": {
+    "productList": "/i/v2/stores/{storeId}/categories/{categoryId}/products",
+    "categoryList": "/i/v1/stores/{storeId}/categories",
+    "storeInfo": "/i/v1/stores/{storeId}",
+    "productDetail": "/i/v1/products/{productId}",
+    "reviews": "/i/v1/products/{productId}/reviews"
+  },
+  "notes": {
+    "dataCollection": "Due to rate limiting, this data structure represents the expected format based on Naver SmartStore API documentation",
+    "updates": "For production use, implement official Commerce API or establish data partnership",
+    "pagination": "Default 40 items per page, maximum 80 items",
+    "sorting": "Available sort options: POPULAR, RECENT, PRICE_ASC, PRICE_DESC"
+  }
+}

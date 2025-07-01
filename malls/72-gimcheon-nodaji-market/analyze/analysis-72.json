@@ -1,0 +1,9 @@
+{
+  "id": 72,
+  "engname": "gimcheon-nodaji-market",
+  "name": "김천노다지장터",
+  "url": "http://gcnodaji.com/",
+  "status": "error",
+  "error": "Site structure issues - uses frameset with missing content page (index1.html returns 404). SSL certificate issues also present.",
+  "lastChecked": "2025-07-01T13:03:58.196Z"
+}

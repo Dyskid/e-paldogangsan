@@ -1,0 +1,28 @@
+{
+  "mallId": 88,
+  "mallName": "dinosaur-land-goseong",
+  "url": "https://www.edinomall.com/shop/smain/index.php",
+  "categories": [],
+  "productStructure": {
+    "urlPattern": "https://www.edinomall.com/shop/smain/shopdetail.php?branduid={product_id}",
+    "categoryUrlPattern": "https://www.edinomall.com/shop/smain/shop.php?shopcode={category_code}",
+    "paginationMethod": "page_parameter",
+    "dynamicLoading": false,
+    "productSelectors": {
+      "container": ".productListing_ul li, .item",
+      "name": ".productListing_title, .prd_name",
+      "price": ".productListing_price, .prd_price",
+      "image": ".productListing_img img, .prd_img img",
+      "link": "a[href*=\"shopdetail.php\"]"
+    }
+  },
+  "sampleProducts": [],
+  "notes": [
+    "Product detail page structure confirmed",
+    "Site uses traditional Korean e-commerce platform structure",
+    "Product IDs use \"branduid\" parameter",
+    "Categories use numeric shopcode (e.g., 003001000000)",
+    "Multi-level category hierarchy with numeric codes"
+  ],
+  "errors": []
+}

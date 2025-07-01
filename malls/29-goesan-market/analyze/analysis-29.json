@@ -1,0 +1,27 @@
+{
+  "id": 29,
+  "engname": "goesan-market",
+  "name": "괴산장터",
+  "url": "https://www.gsjangter.go.kr/",
+  "structure": {
+    "categoryStructure": "Category menu found",
+    "urlPatterns": "Base URL: https://www.gsjangter.go.kr/",
+    "paginationMethod": "",
+    "dynamicLoading": false,
+    "productDataLocation": "Could not identify product list location"
+  },
+  "selectors": {
+    "productList": "",
+    "productItem": "",
+    "productName": "",
+    "productPrice": "",
+    "productImage": "",
+    "productLink": "",
+    "pagination": "",
+    "categories": ".menu"
+  },
+  "sampleData": [],
+  "analysisTimestamp": "2025-07-01T12:59:08.913Z",
+  "success": false,
+  "error": "Could not identify product structure"
+}

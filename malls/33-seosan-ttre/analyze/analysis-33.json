@@ -1,0 +1,34 @@
+{
+  "mallId": 33,
+  "mallName": "서산뜨레",
+  "url": "https://seosanttre.com/index.html",
+  "platform": "Custom (shopbrand)",
+  "requiresJavaScript": false,
+  "categories": [
+    {
+      "id": "001",
+      "name": "쌀/잡곡"
+    },
+    {
+      "id": "001",
+      "name": "일반쌀"
+    },
+    {
+      "id": "001",
+      "name": "잡곡/혼합곡"
+    },
+    {
+      "id": "002",
+      "name": "과일/채소"
+    },
+    {
+      "id": "002",
+      "name": "과일류"
+    }
+  ],
+  "urlPatterns": {
+    "category": "/shop/shopbrand.html?xcode={categoryId}",
+    "product": "/shop/shopdetail.html?branduid={productId}",
+    "search": "/shop/shopbrand.html?search={keyword}"
+  }
+}

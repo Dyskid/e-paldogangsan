@@ -1,0 +1,78 @@
+{
+  "id": 13,
+  "name": "강원고성몰",
+  "url": "https://gwgoseong-mall.com/",
+  "status": "active",
+  "categories": [
+    {
+      "name": "가공식품",
+      "url": "/goods/catalog?category=c0001"
+    },
+    {
+      "name": "건강식품",
+      "url": "/goods/catalog?category=c0002"
+    },
+    {
+      "name": "농산물",
+      "url": "/goods/catalog?category=c0003"
+    },
+    {
+      "name": "수산물",
+      "url": "/goods/catalog?category=c0004"
+    },
+    {
+      "name": "축산물",
+      "url": "/goods/catalog?category=c0005"
+    },
+    {
+      "name": "음료/커피",
+      "url": "/goods/catalog?category=c0006"
+    },
+    {
+      "name": "떡/빵",
+      "url": "/goods/catalog?category=c0007"
+    },
+    {
+      "name": "반찬/찌개",
+      "url": "/goods/catalog?category=c0008"
+    },
+    {
+      "name": "기타",
+      "url": "/goods/catalog?category=c0009"
+    }
+  ],
+  "productStructure": {
+    "listSelector": ".goods_list, .displayGoodsList",
+    "itemSelector": "li.goods_item, .goodsDisplayWrap",
+    "nameSelector": ".goods_name, .goodsDisplayTextWrap",
+    "priceSelector": ".goods_price, .goodsDisplayPriceWrap",
+    "imageSelector": ".goods_image img, .goodsDisplayImageWrap img",
+    "linkSelector": "a.goods_link, .goodsDisplayLink"
+  },
+  "paginationMethod": "URL Parameter",
+  "requiresJavaScript": true,
+  "urlPattern": {
+    "categoryFormat": "/goods/catalog?category={categoryId}",
+    "productFormat": "/goods/view?no={productId}",
+    "paginationParam": "page",
+    "sortingParam": "sorting",
+    "perPageParam": "per"
+  },
+  "searchFunctionality": {
+    "available": true,
+    "searchUrl": "/goods/search",
+    "searchParam": "search_text"
+  },
+  "additionalNotes": [
+    "Uses FirstMall e-commerce solution",
+    "Mobile responsive design",
+    "Categories are accessed via c0001-c0009 codes",
+    "Supports various sorting options (ranking, etc.)",
+    "Default items per page is 40",
+    "Has integration with Naver Smart Store and social media",
+    "Uses Kakao Pixel and Google Analytics for tracking",
+    "May require User-Agent header for proper access",
+    "Initial redirect may occur but site is accessible with proper headers"
+  ],
+  "analysisDate": "2025-07-01T09:26:29.994Z"
+}

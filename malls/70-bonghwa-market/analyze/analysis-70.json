@@ -1,0 +1,40 @@
+{
+  "mallId": 70,
+  "mallName": "bonghwa-market",
+  "url": "https://bmall.cyso.co.kr/",
+  "productStructure": {
+    "categoryLevels": 2,
+    "mainCategories": [
+      "송이버섯",
+      "고추",
+      "사과",
+      "잡곡",
+      "산나물",
+      "한방약재",
+      "농산물"
+    ],
+    "categoryUrlPattern": "/goods/goods_list.php?cateCd={categoryCode}"
+  },
+  "productData": {
+    "productUrlPattern": "/goods/goods_view.php?goodsNo={productId}",
+    "dataLocation": ".goods-view-form, .detail-area",
+    "imageUrlPattern": ".goods-image-main img, img[src*=\"/data/goods/\"]",
+    "priceLocation": ".goods-price-detail .price, .real-price",
+    "nameLocation": ".goods-header h3, .goods-name-detail"
+  },
+  "pagination": {
+    "type": "page-based",
+    "urlPattern": "&page={pageNumber}",
+    "maxProductsPerPage": 40
+  },
+  "dynamicLoading": {
+    "requiresJavaScript": false,
+    "loadingMethod": "server-side-rendering"
+  },
+  "scrapeableFeatures": {
+    "productList": true,
+    "productDetails": true,
+    "categoryNavigation": true,
+    "search": true
+  }
+}

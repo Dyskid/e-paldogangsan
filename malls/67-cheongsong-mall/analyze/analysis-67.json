@@ -1,0 +1,39 @@
+{
+  "mallId": 67,
+  "mallName": "cheongsong-mall",
+  "url": "https://csmall.cyso.co.kr/",
+  "productStructure": {
+    "categoryLevels": 2,
+    "mainCategories": [
+      "청송사과",
+      "청송고추",
+      "산나물",
+      "버섯류",
+      "농산물",
+      "가공식품"
+    ],
+    "categoryUrlPattern": "/goods/goods_list.php?cateCd={categoryCode}"
+  },
+  "productData": {
+    "productUrlPattern": "/goods/goods_view.php?goodsNo={productId}",
+    "dataLocation": ".goods-view-form, .detail-area",
+    "imageUrlPattern": ".goods-image img, img[src*=\"/data/goods/\"]",
+    "priceLocation": ".goods-price .price, .detail-price",
+    "nameLocation": ".goods-header h3, .goods-name"
+  },
+  "pagination": {
+    "type": "page-based",
+    "urlPattern": "&page={pageNumber}",
+    "maxProductsPerPage": 40
+  },
+  "dynamicLoading": {
+    "requiresJavaScript": false,
+    "loadingMethod": "server-side-rendering"
+  },
+  "scrapeableFeatures": {
+    "productList": true,
+    "productDetails": true,
+    "categoryNavigation": true,
+    "search": true
+  }
+}

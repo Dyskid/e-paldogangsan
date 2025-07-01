@@ -1,0 +1,205 @@
+{
+  "mallId": 7,
+  "mallName": "광명가치몰",
+  "baseUrl": "http://gmsocial.mangotree.co.kr/mall/",
+  "categories": [
+    {
+      "name": "생활/리빙",
+      "code": "0001",
+      "subcategories": [
+        {
+          "name": "생활용품",
+          "code": "00010001"
+        },
+        {
+          "name": "교육ㆍ완구",
+          "code": "00010002"
+        },
+        {
+          "name": "주방ㆍ욕실용품",
+          "code": "00010003"
+        },
+        {
+          "name": "침구류",
+          "code": "00010004"
+        },
+        {
+          "name": "의료기기ㆍ의약외품",
+          "code": "00010005"
+        },
+        {
+          "name": "출산ㆍ육아",
+          "code": "00010006"
+        },
+        {
+          "name": "반려동물",
+          "code": "00010007"
+        },
+        {
+          "name": "자동차용품",
+          "code": "00010008"
+        },
+        {
+          "name": "문화",
+          "code": "00010009"
+        }
+      ]
+    },
+    {
+      "name": "패션/뷰티",
+      "code": "0002",
+      "subcategories": [
+        {
+          "name": "패션의류",
+          "code": "00020001"
+        },
+        {
+          "name": "패션잡화",
+          "code": "00020002"
+        },
+        {
+          "name": "화장품ㆍ미용",
+          "code": "00020003"
+        },
+        {
+          "name": "마스크ㆍ팩",
+          "code": "00020004"
+        },
+        {
+          "name": "뷰티소품",
+          "code": "00020005"
+        }
+      ]
+    },
+    {
+      "name": "디지털/가전",
+      "code": "0003",
+      "subcategories": [
+        {
+          "name": "SW/e-컨텐츠",
+          "code": "00030001"
+        },
+        {
+          "name": "산업재료",
+          "code": "00030002"
+        },
+        {
+          "name": "생활가전",
+          "code": "00030003"
+        },
+        {
+          "name": "디지털기기",
+          "code": "00030004"
+        },
+        {
+          "name": "휴대폰용품",
+          "code": "00030005"
+        }
+      ]
+    },
+    {
+      "name": "가구/인테리어",
+      "code": "0004",
+      "subcategories": [
+        {
+          "name": "가구",
+          "code": "00040001"
+        },
+        {
+          "name": "인테리어 소품",
+          "code": "00040002"
+        },
+        {
+          "name": "침구ㆍ홈데코",
+          "code": "00040003"
+        },
+        {
+          "name": "커튼ㆍ블라인드",
+          "code": "00040004"
+        },
+        {
+          "name": "DIY자재ㆍ용품",
+          "code": "00040005"
+        }
+      ]
+    },
+    {
+      "name": "스포츠/레저",
+      "code": "0005",
+      "subcategories": [
+        {
+          "name": "등산ㆍ캠핑ㆍ낚시",
+          "code": "00050001"
+        },
+        {
+          "name": "골프용품",
+          "code": "00050002"
+        },
+        {
+          "name": "스포츠의류",
+          "code": "00050003"
+        },
+        {
+          "name": "스포츠ㆍ레저용품",
+          "code": "00050004"
+        }
+      ]
+    },
+    {
+      "name": "식품",
+      "code": "0006",
+      "subcategories": [
+        {
+          "name": "가공식품ㆍ과자ㆍ빙수",
+          "code": "00060001"
+        },
+        {
+          "name": "커피ㆍ음료",
+          "code": "00060002"
+        },
+        {
+          "name": "건강식품",
+          "code": "00060003"
+        },
+        {
+          "name": "농수산물",
+          "code": "00060004"
+        },
+        {
+          "name": "냉동ㆍ간편조리식품",
+          "code": "00060005"
+        },
+        {
+          "name": "반찬ㆍ김치",
+          "code": "00060006"
+        }
+      ]
+    }
+  ],
+  "totalProducts": 0,
+  "scrapingStrategy": {
+    "requiresJavaScript": false,
+    "dataLocation": "Server-rendered HTML",
+    "paginationMethod": "URL parameter (page)",
+    "productsPerPage": 12
+  },
+  "urlPatterns": {
+    "category": "/mall/goods/list.php?category_code={CATEGORY_CODE}",
+    "product": "/mall/goods/view.php?product_id={PRODUCT_ID}",
+    "pagination": "/mall/goods/list.php?category_code={CODE}&page={PAGE_NUMBER}",
+    "search": "/mall/goods/list.php?searchText={SEARCH_QUERY}"
+  },
+  "selectors": {
+    "productContainer": ".goods_item",
+    "productName": ".wr_subject",
+    "companyName": ".company_name",
+    "price": ".default_price strong",
+    "originalPrice": ".default_consumer_price",
+    "discountPercent": ".sales_percent",
+    "imageUrl": ".goods_img img",
+    "rating": ".product_review_count strong",
+    "reviewCount": ".product_grade_star",
+    "shippingInfo": ".product_naver_delivery",
+    "totalCount": ".item_total"
+  }
+}

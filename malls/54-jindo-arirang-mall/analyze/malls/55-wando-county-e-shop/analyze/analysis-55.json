@@ -1,0 +1,115 @@
+{
+  "mallId": "55-wando-county-e-shop",
+  "mallName": "완도군 이숍",
+  "baseUrl": "https://wandofood.go.kr",
+  "structure": {
+    "platform": "Cafe24",
+    "requiresJavaScript": true,
+    "hasPagination": true,
+    "paginationType": "page-number",
+    "productsPerPage": 12,
+    "categories": [
+      {
+        "name": "완도전복",
+        "url": "/category/완도전복/744/",
+        "id": "744"
+      },
+      {
+        "name": "해조류",
+        "url": "/category/해조류/745/",
+        "id": "745"
+      },
+      {
+        "name": "수산물",
+        "url": "/category/수산물/746/",
+        "id": "746"
+      },
+      {
+        "name": "농산물",
+        "url": "/category/농산물/747/",
+        "id": "747"
+      },
+      {
+        "name": "간편식품",
+        "url": "/category/간편식품/801/",
+        "id": "801"
+      },
+      {
+        "name": "소상공인 선물꾸러미",
+        "url": "/category/소상공인-선물꾸러미/806/",
+        "id": "806"
+      }
+    ]
+  },
+  "selectors": {
+    "categoryList": ".menuCategory li a",
+    "productList": ".xans-product-normalpackage .xans-product-listnormal",
+    "productItem": "li[id^=\"anchorBoxId_\"]",
+    "productName": ".name a span[style*=\"font-size:16px\"]",
+    "productPrice": ".product_price span[style*=\"font-size:18px\"]",
+    "productImage": ".prdImg img",
+    "productLink": ".name a",
+    "pagination": ".xans-product-normalpaging",
+    "nextPageButton": ".xans-product-normalpaging a[href*=\"page=\"] img[alt=\"다음 페이지\"]"
+  },
+  "urlPatterns": {
+    "category": "/category/{categoryName}/{categoryId}/",
+    "product": "/product/{productName}/{productId}/category/{categoryId}/display/1/",
+    "pagination": "?page={pageNumber}"
+  },
+  "sampleProducts": [
+    {
+      "id": "5630",
+      "name": "[청해거상] 완도 활전복 소 22-25미 1.5kg (33~38마리내외) / 산지직송 찜용 해물라면",
+      "price": "33,900원",
+      "image": "//cafe24.poxo.com/ec01/wandogun/1hv3cOi0rJ3F7p+8vjnN/PrCcGbQERB+k8Pfj1yngIzQamPV1MNPSBeax2Y3Tr30FSB4rg3y4+Bp+W6Kz2kGYA==/_/web/product/medium/202507/01e32f4b689ec9111ae2c27fba45e004.jpg",
+      "url": "/product/청해거상-완도-활전복-소-22-25미-15kg-3338마리내외-산지직송-찜용-해물라면/5630/category/744/display/1/",
+      "category": "완도전복"
+    },
+    {
+      "id": "5629",
+      "name": "[청해거상] 완도 활전복 중 15-16미 1.5kg (23~24마리내외) / 산지직송 구이용",
+      "price": "41,900원",
+      "image": "//cafe24.poxo.com/ec01/wandogun/1hv3cOi0rJ3F7p+8vjnN/PrCcGbQERB+k8Pfj1yngIzQamPV1MNPSBeax2Y3Tr30FSB4rg3y4+Bp+W6Kz2kGYA==/_/web/product/medium/202507/01e32f4b689ec9111ae2c27fba45e004.jpg",
+      "url": "/product/청해거상-완도-활전복-중-15-16미-15kg-2324마리내외-산지직송-구이용/5629/category/744/display/1/",
+      "category": "완도전복"
+    },
+    {
+      "id": "5628",
+      "name": "[청해거상] 완도 활전복 대 11-12미 1.5kg (17~18마리내외) / 선물용 산지직송",
+      "price": "46,500원",
+      "image": "//cafe24.poxo.com/ec01/wandogun/1hv3cOi0rJ3F7p+8vjnN/PrCcGbQERB+k8Pfj1yngIzQamPV1MNPSBeax2Y3Tr30FSB4rg3y4+Bp+W6Kz2kGYA==/_/web/product/medium/202507/01e32f4b689ec9111ae2c27fba45e004.jpg",
+      "url": "/product/청해거상-완도-활전복-대-11-12미-15kg-1718마리내외-선물용-산지직송/5628/category/744/display/1/",
+      "category": "완도전복"
+    },
+    {
+      "id": "5627",
+      "name": "[청해거상] 완도 활전복 왕특대 7-8미 1.5kg (11~12마리내외) / 선물용 고급특대전복 산지직송",
+      "price": "61,000원",
+      "image": "//cafe24.poxo.com/ec01/wandogun/1hv3cOi0rJ3F7p+8vjnN/PrCcGbQERB+k8Pfj1yngIzQamPV1MNPSBeax2Y3Tr30FSB4rg3y4+Bp+W6Kz2kGYA==/_/web/product/medium/202507/01e32f4b689ec9111ae2c27fba45e004.jpg",
+      "url": "/product/청해거상-완도-활전복-왕특대-7-8미-15kg-1112마리내외-선물용-고급특대전복-산지직송/5627/category/744/display/1/",
+      "category": "완도전복"
+    },
+    {
+      "id": "5626",
+      "name": "[청해거상] 산지직송 완도 활전복 500g+500g / 왕특대 대 소",
+      "price": "35,000원",
+      "image": "//cafe24.poxo.com/ec01/wandogun/1hv3cOi0rJ3F7p+8vjnN/PrCcGbQERB+k8Pfj1yngIzQamPV1MNPSBeax2Y3Tr30FSB4rg3y4+Bp+W6Kz2kGYA==/_/web/product/medium/202507/00b18b19bb0e74eb202009c9f7254795.jpg",
+      "url": "/product/청해거상-산지직송-완도-활전복-500g500g-왕특대-대-소/5626/category/744/display/1/",
+      "category": "완도전복"
+    }
+  ],
+  "analysisDate": "2025-07-01T14:00:37.557Z",
+  "notes": [
+    "Cafe24 e-commerce platform",
+    "Heavy JavaScript usage for dynamic content",
+    "Product IDs are numeric (e.g., 5630, 5629)",
+    "Category IDs are numeric (e.g., 744 for 완도전복)",
+    "Images use CDN with authentication tokens",
+    "Pagination uses query parameter ?page=N",
+    "Maximum 28 pages found in 완도전복 category",
+    "Products have options that require additional selection",
+    "Cart functionality uses JavaScript functions",
+    "Site includes like/wish list features"
+  ]
+}

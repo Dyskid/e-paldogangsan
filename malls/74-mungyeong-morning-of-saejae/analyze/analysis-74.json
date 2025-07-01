@@ -1,0 +1,202 @@
+{
+  "mall_id": "74",
+  "mall_name": "문경새재의아침",
+  "mall_url": "https://mgmall.cyso.co.kr",
+  "scraping_config": {
+    "product_url_patterns": [
+      "/shop/item.php?it_id={product_id}"
+    ],
+    "category_url_patterns": [
+      "/shop/list.php?ca_id={category_id}"
+    ],
+    "pagination_pattern": "/shop/list.php?ca_id={category_id}&page={page_number}",
+    "product_selector": ".sct_li",
+    "category_selector": ".gnb_al_li",
+    "price_selector": ".sct_cost",
+    "name_selector": ".sct_a",
+    "image_selector": ".sct_img img",
+    "description_selector": ".sct_basic",
+    "requires_javascript": false
+  },
+  "sample_data": {
+    "categories": [
+      {
+        "id": "mg10",
+        "name": "쌀/잡곡",
+        "url": "/shop/list.php?ca_id=mg10"
+      },
+      {
+        "id": "mg1010",
+        "name": "쌀",
+        "url": "/shop/list.php?ca_id=mg1010"
+      },
+      {
+        "id": "mg1020",
+        "name": "기타잡곡",
+        "url": "/shop/list.php?ca_id=mg1020"
+      },
+      {
+        "id": "mg20",
+        "name": "과일류",
+        "url": "/shop/list.php?ca_id=mg20"
+      },
+      {
+        "id": "mg2010",
+        "name": "과일",
+        "url": "/shop/list.php?ca_id=mg2010"
+      },
+      {
+        "id": "mg2030",
+        "name": "견과류",
+        "url": "/shop/list.php?ca_id=mg2030"
+      },
+      {
+        "id": "mg30",
+        "name": "채소류",
+        "url": "/shop/list.php?ca_id=mg30"
+      },
+      {
+        "id": "mg3010",
+        "name": "채소",
+        "url": "/shop/list.php?ca_id=mg3010"
+      },
+      {
+        "id": "mg3020",
+        "name": "버섯",
+        "url": "/shop/list.php?ca_id=mg3020"
+      },
+      {
+        "id": "mg40",
+        "name": "축산물",
+        "url": "/shop/list.php?ca_id=mg40"
+      },
+      {
+        "id": "mg4010",
+        "name": "한우",
+        "url": "/shop/list.php?ca_id=mg4010"
+      },
+      {
+        "id": "mg4020",
+        "name": "돈육",
+        "url": "/shop/list.php?ca_id=mg4020"
+      },
+      {
+        "id": "mg50",
+        "name": "수산물",
+        "url": "/shop/list.php?ca_id=mg50"
+      },
+      {
+        "id": "mg60",
+        "name": "꿀/홍삼",
+        "url": "/shop/list.php?ca_id=mg60"
+      },
+      {
+        "id": "mg70",
+        "name": "가공식품",
+        "url": "/shop/list.php?ca_id=mg70"
+      },
+      {
+        "id": "mg7010",
+        "name": "과일즙/야채즙",
+        "url": "/shop/list.php?ca_id=mg7010"
+      },
+      {
+        "id": "mg7020",
+        "name": "원액/청/음료",
+        "url": "/shop/list.php?ca_id=mg7020"
+      },
+      {
+        "id": "mg80",
+        "name": "김치/장류/참기름",
+        "url": "/shop/list.php?ca_id=mg80"
+      },
+      {
+        "id": "mg90",
+        "name": "한과/떡/빵류",
+        "url": "/shop/list.php?ca_id=mg90"
+      },
+      {
+        "id": "mga0",
+        "name": "전통주류/와인",
+        "url": "/shop/list.php?ca_id=mga0"
+      }
+    ],
+    "products": [
+      {
+        "id": "1669730860",
+        "name": "[희양뜰농장]2025년 생산 국산 100% 자연숙성 문경약돌벌꿀( 아카시아꿀 ) 선물박스",
+        "url": "/shop/item.php?it_id=1669730860",
+        "price": "69,000원",
+        "category_id": "mg60"
+      },
+      {
+        "id": "1621567861",
+        "name": "딸기요구르트 100ml",
+        "url": "/shop/item.php?it_id=1621567861",
+        "price": "1,860원",
+        "category_id": "mg7090"
+      },
+      {
+        "id": "1657185137",
+        "name": "[여물게] 문경 오미자 간장윙봉1kg+오미자 양념윙봉1kg",
+        "url": "/shop/item.php?it_id=1657185137",
+        "price": "26,000원",
+        "category_id": "mg4040"
+      },
+      {
+        "id": "1605758236",
+        "name": "문경약돌돼지육포",
+        "url": "/shop/item.php?it_id=1605758236",
+        "price": "4,000원",
+        "category_id": "mg4020"
+      },
+      {
+        "id": "1681453962",
+        "name": "[동문경농협 동로지점], 햇살열린문경오미자청, 1리터X2병",
+        "url": "/shop/item.php?it_id=1681453962",
+        "price": "39,900원",
+        "category_id": "mg7020"
+      },
+      {
+        "id": "1746683160",
+        "name": "[문경쑥돈] 한돈 꽃삼겹살 구이용+핑크솔트",
+        "url": "/shop/item.php?it_id=1746683160",
+        "price": "19,890원",
+        "category_id": "mg4020"
+      },
+      {
+        "id": "1708908400",
+        "name": "[문경새재뻥마을]문경오미자진액 1000ml",
+        "url": "/shop/item.php?it_id=1708908400",
+        "price": "28,000원",
+        "category_id": "mg7020"
+      },
+      {
+        "id": "1705569315",
+        "name": "[자연동침]시골 할머니 고향의 맛 약돌 동치미1.7kg",
+        "url": "/shop/item.php?it_id=1705569315",
+        "price": "17,500원",
+        "category_id": "mg8010"
+      },
+      {
+        "id": "1681111803",
+        "name": "[골드팜바이오] 버섯뿌린김애 도시락김 / 24봉 1box",
+        "url": "/shop/item.php?it_id=1681111803",
+        "price": "14,000원",
+        "category_id": "mg50"
+      }
+    ]
+  },
+  "data_location": {
+    "database_type": "MySQL/MariaDB",
+    "api_endpoints": null,
+    "static_files": null,
+    "requires_auth": false
+  },
+  "technical_details": {
+    "platform": "CYSO Platform",
+    "uses_ajax": false,
+    "pagination_type": "query_parameter",
+    "javascript_framework": null
+  }
+}

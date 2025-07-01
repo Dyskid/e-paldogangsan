@@ -1,0 +1,23 @@
+{
+  "id": 46,
+  "name": "여수몰",
+  "url": "http://www.yeosumall.co.kr/",
+  "categories": [],
+  "productStructure": {
+    "listSelector": "",
+    "itemSelector": "",
+    "nameSelector": "",
+    "priceSelector": "",
+    "imageSelector": "",
+    "linkSelector": ""
+  },
+  "pagination": {
+    "type": "none"
+  },
+  "requiresJavaScript": true,
+  "urlPatterns": {
+    "category": "/shop/goods_list.php?category={categoryId}",
+    "product": "/shop/goods_view.php?index_no={productId}",
+    "search": "/shop/search.php?q={keyword}"
+  }
+}

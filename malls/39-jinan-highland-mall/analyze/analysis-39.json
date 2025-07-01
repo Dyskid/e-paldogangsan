@@ -1,0 +1,13 @@
+{
+  "mallId": 39,
+  "mallName": "진안고원몰",
+  "url": "https://xn--299az5xoii3qb66f.com/",
+  "platform": "Cafe24",
+  "requiresJavaScript": false,
+  "categories": [],
+  "urlPatterns": {
+    "category": "/product/list.html?cate_no={categoryId}",
+    "product": "/product/detail.html?product_no={productId}",
+    "search": "/product/search.html?keyword={keyword}"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "mallId": 49,
+  "mallName": "naju-mall",
+  "url": "https://najumall.kr/",
+  "platform": "Cafe24",
+  "hasProducts": true,
+  "productCount": 5,
+  "sampleProducts": [
+    {
+      "name": "추천상품            \t신선함이 가득~ 가장 인기있는 상품입니다 !",
+      "price": "",
+      "image": "//cafe24.poxo.com/ec01/najumall90899/0jJurf5+JqL2mXn6P+LWO5mx5tTV7feuYfjjtuUTvTYiFHV9dCCm9yVvS3Ihw9xnN4Rierhg8w8R8GCFIf7fIA==/_/web/product/medium/202405/b4bbd8f2883175225bbf349969a5535a.jpg",
+      "link": "/product/특가상품-루루블루베리-친환경-블루베리-1kg-무농약-인증/1226/category/1/display/2/"
+    },
+    {
+      "name": "판매가 :",
+      "price": ""
+    },
+    {
+      "name": "판매가 :",
+      "price": ""
+    },
+    {
+      "name": "판매가 :",
+      "price": ""
+    },
+    {
+      "name": "판매가 :",
+      "price": ""
+    }
+  ],
+  "analysisDate": "2025-07-01T12:53:03.357Z"
+}

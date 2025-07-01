@@ -1,0 +1,47 @@
+{
+  "id": 9,
+  "name": "마켓경기",
+  "engName": "market-gyeonggi",
+  "url": "https://smartstore.naver.com/marketgyeonggi",
+  "region": "경기",
+  "status": "error",
+  "analysisDate": "2025-07-01T09:50:29.683Z",
+  "platform": "Naver Smart Store",
+  "categories": [
+    "전체상품 (ALL)",
+    "농산물",
+    "축산물",
+    "수산물",
+    "가공식품",
+    "건강식품",
+    "기타"
+  ],
+  "urlPatterns": {
+    "homepage": "https://smartstore.naver.com/marketgyeonggi",
+    "productList": "https://smartstore.naver.com/marketgyeonggi/category/{categoryId}",
+    "productDetail": "https://smartstore.naver.com/marketgyeonggi/products/{productId}",
+    "search": "https://smartstore.naver.com/marketgyeonggi/search?q={keyword}",
+    "apiEndpoints": {
+      "products": "/i/v2/stores/{storeId}/categories/{categoryId}/products",
+      "categories": "/i/v1/stores/{storeId}/categories",
+      "storeInfo": "/i/v1/stores/{storeId}"
+    }
+  },
+  "paginationMethod": "Page-based pagination (40 items per page by default)",
+  "requiresJavaScript": true,
+  "productDataLocation": "API Response JSON",
+  "productStructure": {
+    "itemsPerPage": 40,
+    "dataFormat": "JSON (via AJAX API calls)"
+  },
+  "rateLimit": {
+    "detected": true,
+    "details": "Aggressive rate limiting (HTTP 429) for bot traffic. Requires proper User-Agent headers and reasonable request intervals."
+  },
+  "errorDetails": {
+    "message": "Direct web scraping blocked due to aggressive rate limiting",
+    "httpStatus": 429,
+    "accessRestrictions": "Naver SmartStore has strong bot protection. Direct scraping returns error pages."
+  },
+  "recommendedApproach": "Use official Naver Commerce API (https://apicenter.commerce.naver.com) or partner directly with 경기도농수산진흥원 for data access"
+}

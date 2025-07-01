@@ -1,0 +1,151 @@
+{
+  "mallId": 36,
+  "mallName": "지평선몰(김제)",
+  "url": "https://jpsmall.com/",
+  "categories": [
+    {
+      "id": "10e0",
+      "name": "지평선 브랜드관",
+      "url": "https://jpsmall.com/board/shop/list.php?ca_id=10e0",
+      "subCategories": [
+        {
+          "id": "10e010",
+          "name": "지평선쌀",
+          "url": "https://jpsmall.com/board/shop/list.php?ca_id=10e010"
+        },
+        {
+          "id": "10e020",
+          "name": "지평선파프리카",
+          "url": "https://jpsmall.com/board/shop/list.php?ca_id=10e020"
+        }
+      ]
+    },
+    {
+      "id": "1010",
+      "name": "쌀/잡곡",
+      "url": "https://jpsmall.com/board/shop/list.php?ca_id=1010",
+      "subCategories": [
+        {
+          "id": "101010",
+          "name": "지평선쌀",
+          "url": "https://jpsmall.com/board/shop/list.php?ca_id=101010"
+        },
+        {
+          "id": "101020",
+          "name": "쌀",
+          "url": "https://jpsmall.com/board/shop/list.php?ca_id=101020"
+        },
+        {
+          "id": "101030",
+          "name": "보리/밀",
+          "url": "https://jpsmall.com/board/shop/list.php?ca_id=101030"
+        },
+        {
+          "id": "101040",
+          "name": "콩",
+          "url": "https://jpsmall.com/board/shop/list.php?ca_id=101040"
+        },
+        {
+          "id": "101050",
+          "name": "잡곡/혼합곡",
+          "url": "https://jpsmall.com/board/shop/list.php?ca_id=101050"
+        },
+        {
+          "id": "101060",
+          "name": "기타",
+          "url": "https://jpsmall.com/board/shop/list.php?ca_id=101060"
+        }
+      ]
+    },
+    {
+      "id": "1020",
+      "name": "과일/채소류",
+      "url": "https://jpsmall.com/board/shop/list.php?ca_id=1020",
+      "subCategories": [
+        {
+          "id": "102030",
+          "name": "건조제품",
+          "url": "https://jpsmall.com/board/shop/list.php?ca_id=102030"
+        },
+        {
+          "id": "102040",
+          "name": "파프리카",
+          "url": "https://jpsmall.com/board/shop/list.php?ca_id=102040"
+        }
+      ]
+    },
+    {
+      "id": "1040",
+      "name": "가공식품",
+      "url": "https://jpsmall.com/board/shop/list.php?ca_id=1040",
+      "subCategories": []
+    },
+    {
+      "id": "1050",
+      "name": "전통식품",
+      "url": "https://jpsmall.com/board/shop/list.php?ca_id=1050",
+      "subCategories": []
+    },
+    {
+      "id": "1070",
+      "name": "축산류",
+      "url": "https://jpsmall.com/board/shop/list.php?ca_id=1070",
+      "subCategories": []
+    },
+    {
+      "id": "10c0",
+      "name": "사회적경제기업관",
+      "url": "https://jpsmall.com/board/shop/list.php?ca_id=10c0",
+      "subCategories": []
+    }
+  ],
+  "totalProducts": 795,
+  "sampleProducts": [
+    {
+      "id": "1442383451",
+      "name": "Product 1442383451",
+      "price": "Price not extracted",
+      "imageUrl": "",
+      "productUrl": "https://jpsmall.com/board/shop/item.php?it_id=1442383451"
+    },
+    {
+      "id": "1241249870218263",
+      "name": "Product 1241249870218263",
+      "price": "Price not extracted",
+      "imageUrl": "",
+      "productUrl": "https://jpsmall.com/board/shop/item.php?it_id=1241249870218263"
+    },
+    {
+      "id": "1692251395",
+      "name": "Product 1692251395",
+      "price": "Price not extracted",
+      "imageUrl": "",
+      "productUrl": "https://jpsmall.com/board/shop/item.php?it_id=1692251395"
+    },
+    {
+      "id": "1245611873066",
+      "name": "Product 1245611873066",
+      "price": "Price not extracted",
+      "imageUrl": "",
+      "productUrl": "https://jpsmall.com/board/shop/item.php?it_id=1245611873066"
+    },
+    {
+      "id": "1712191450",
+      "name": "Product 1712191450",
+      "price": "Price not extracted",
+      "imageUrl": "",
+      "productUrl": "https://jpsmall.com/board/shop/item.php?it_id=1712191450"
+    }
+  ],
+  "scrapingStrategy": {
+    "method": "HTTP_REQUEST",
+    "requiresJavaScript": false,
+    "pagination": {
+      "type": "QUERY_PARAMETER",
+      "parameterName": "page"
+    },
+    "categoryUrlPattern": "https://jpsmall.com/board/shop/list.php?ca_id={categoryId}",
+    "productUrlPattern": "https://jpsmall.com/board/shop/item.php?it_id={productId}",
+    "searchUrlPattern": "https://jpsmall.com/board/shop/list.php?search_Value={keyword}"
+  }
+}

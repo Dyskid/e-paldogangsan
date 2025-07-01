@@ -1,0 +1,878 @@
+
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+<meta name="_csrf" content="b221989e-1942-4593-8e79-19113f3dff97"/>
+<meta name="_csrf_header" content="X-CSRF-TOKEN"/>
+
+<link rel="canonical" href="https://www.esjang.go.kr" />
+
+<meta property="op:title" content="SalesOn3"/>
+<meta property="op:url" content="https://www.esjang.go.kr"/>
+<meta property="op:type" content="website"/>
+<link rel="shortcut icon" href="/content/images/common/favicon.png" />
+<link rel="icon" href="/content/images/common/favicon.ico" />
+<link rel="apple-touch-icon" href="/content/images/common/favicon_ios.png" />
+
+
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+<title></title>
+
+
+
+
+<link rel="stylesheet" href="/content/css/base.css">
+<link rel="stylesheet" href="/content/css/magnify.css">
+<link rel="stylesheet" href="/content/css/common.css">
+<link rel="stylesheet" href="/content/css/layout.css">
+<link rel="stylesheet" href="/content/css/event.css">
+<link rel="stylesheet" href="/content/css/category.css">
+<link rel="stylesheet" href="/content/css/product.css?t=20220721">
+<link rel="stylesheet" href="/content/css/main.css?t=20211008">
+<link rel="stylesheet" href="/content/css/member.css">
+<link rel="stylesheet" href="/content/css/mypage.css">
+<link rel="stylesheet" href="/content/css/order.css">
+<link rel="stylesheet" href="/content/css/intro.css"> 
+<link rel="stylesheet" href="/content/css/popup.css">
+<link rel="stylesheet" href="/content/css/jquery-ui-datepicker.css">
+<link rel="stylesheet" href="/content/css/newstyle.css">
+<link rel="stylesheet" href="/content/css/slick.css?t=20211008">
+<link rel="stylesheet" href="/content/css/slick-theme.css">
+
+<script src="/content/js/jquery-1.12.4.js"></script>
+<script src="/content/js/jquery-ui.js"></script>
+<script src="/content/js/jquery.bxslider.js"></script>
+<script src="/content/js/jquery.sticky.js"></script>
+<script src="/content/js/common.js"></script>
+<script src="/content/js/jquery.dotdotdot.min.js"></script>
+<script src="/content/js/slick.min.js"></script>
+
+<script src="/content/js/lnb.js"></script>
+
+<script src="/content/mobile/js/browserDetect.js"></script>
+<script src="/content/js/jquery.magnify.js"></script>
+
+<script src="/content/modules/jquery/jquery.cookie.js"></script>
+
+<script src="/content/modules/spin.min.js"></script>
+<script src="/content/modules/op.common.js"></script>
+<script src="/content/modules/op.site.js"></script>
+
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+
+ 
+
+
+
+
+</head>
+<body>
+	<div id="wrap">
+		<!-- Header banner : s //-->
+		<div class="header__banner" id="header__banner">
+			<div class="header__banner-wrap">
+				<div class="header__banner-inner">
+					<div class="header__banner-list">
+						<p class="header__banner-item"><a href="#none"><img src="/content/images/common/top_banner01.jpg" alt="음성군 명품 농산물 공동브랜드 음성명작" /></a></p>
+						</div>
+					</div>
+			</div>
+		</div>
+		<!--// Header banner : e -->
+
+<header id="header"> 
+			<div class="header_top">
+	<div class="inner">
+	    <p class="header__slogan"><strong>음성군</strong>에서 위탁운영 하고 있는 쇼핑몰입니다.</p>
+
+		<!--  로그인시 class:on 삭제시 장바구니 개수 가려짐 -->
+		<ul class="util_menu on"> 
+			<li><a href="/users/login" title="로그인">로그인</a></li>
+				<li><a href="/users/join-us" title="회원가입">회원가입</a></li>
+			<li><a href="/notice/list" title="고객센터">고객센터</a></li>
+			<li class="favorite"><a href="#none" title="즐겨찾기 추가">즐겨찾기</a></li>
+		</ul>
+		
+		</div><!--// inner E-->
+</div><!-- // header_top E -->
+<div class="header_middle">
+				<style type="text/css">
+	#op-query-history, #op-auto-complete {
+		display: none;
+		position: absolute;
+		z-index: 999;
+	}
+	
+	#op-query-history > div, #op-auto-complete > div {
+		height: 30px;
+		width: 430px;
+		padding: 6px;
+		background-color: #23ade3;
+	}
+	
+	#op-query-history > div > ul, #op-auto-complete > div > ul {
+		background-color: white;
+		min-height: 110px;
+	}
+	
+	#op-query-history ul li, #op-auto-complete ul li {
+		min-height: 20px;
+		width: 430px;
+		background-color: white;
+		padding: 10px;
+		cursor: pointer;
+	}
+	
+	#op-query-history ul li:not(.noResult):hover, #op-auto-complete ul li:not(.noResult):hover {
+		background-color: #d6ea3b;
+	}
+	
+	li.noResult {
+		padding: 50px 0!important;
+		text-align: center;
+		background-color: white;
+	}
+</style>
+
+
+<div class="inner">
+	<h1 class="logo"><a href="/" title="[음성장터] 음성군 명품작물 쇼핑몰"><img src="/content/images/common/top_logo.png" alt="[음성장터] 음성군 명품작물 쇼핑몰"></a></h1>
+  	<div class="header_search"> 
+		<style type="text/css">
+	#op-query-history, #op-auto-complete {
+		display: none;
+		position: absolute;
+		width: 405px;
+		z-index: 999;
+	}
+	
+	#op-query-history > div, #op-auto-complete > div {
+		height: 30px;
+		width: 405px;
+		width: 100%;
+		padding: 6px;
+		background-color: #23ade3;
+		font-size:14px;
+	}
+	
+	#op-query-history > div > ul, #op-auto-complete > div > ul {
+		background-color: white;
+		min-height: 110px;
+	}
+	
+	#op-query-history ul li, #op-auto-complete ul li {
+		min-height: 20px;
+		width: 405px;
+		height: 30px;
+		background-color: white;
+		padding: 6px;
+		cursor: pointer;
+		font-size:14px;
+	}
+	
+	#op-query-history ul li:not(.noResult):hover, #op-auto-complete ul li:not(.noResult):hover {
+		background-color: #d6ea3b;
+	}
+	
+	#op-query-history ul li.on, #op-auto-complete ul li.on {
+		background-color: #d6ea3b;
+	}
+	
+	li.noResult {
+		padding: 50px 0!important;
+		text-align: center;
+		background-color: white;
+	}
+	
+	.hidden {
+		display: none!important;
+	}
+	
+	.show {
+		display: block!important;
+	}
+	
+	highlight {
+		color: #e22a2a;
+		font-weight: bold;
+	}
+	
+	li .del {
+		position: relative;
+		background: url(/content/images/common/icon_delete.png) no-repeat 0 0;
+	    width: 10px;
+    	height: 10px;
+    	background-size: 100%;
+    	float: right;
+		top: 5px;    	
+	}
+</style>
+
+<form id="searchForm" class="searchForm" action="/products/result" method="get">
+	<input type="hidden" name="where" value="ITEM_NAME">
+	<fieldset>
+	    <label for="heade_search" class="header_search-label">
+		    <input type="search" name="query" id="heade_search" class="search_box" title="검색어를 입력해 주세요." placeholder="" autoComplete="off"  maxlength="50"/>
+		    <button type="submit" class="btn_search" title="검색">검색</button>
+		</label>
+	</fieldset>
+	
+	<!-- 최근검색어, 검색어 자동완성 2017-05-12_seungil.lee -->
+	<div id="op-query-history" class="searchArea">
+		<div>최근검색어</div>
+		<ul></ul>
+	</div>
+	<div id="op-auto-complete" class="searchArea">
+		<div>추천검색어</div>
+		<ul></ul>
+	</div>
+	<!-- // 최근검색어, 검색어 자동완성 -->
+</form>
+			
+</div><!--//header_search E--> 
+	<!-- Icon Util : s //-->
+    <div class="ico__util">
+        <ul class="ico__util-wrap">
+            <li class="ico__util-item">
+                <a href="/cart" class="ico__util-link" title="장바구니">
+                    <p class="ico__util-ico">
+                        <img src="/content/images/common/ico_util01.png" alt="장바구니" />
+                        <span id="header_cart_quantity" class="cart">0</span><!-- 장바구니에 상품이 담겼을때 on 클래스 추가 -->
+                    </p>
+                    <p class="ico__util-txt">장바구니</p>
+                </a>
+            </li>
+            <li class="ico__util-item">
+                <a href="/mypage/order" class="ico__util-link" title="주문배송">
+                    <p class="ico__util-ico"><img src="/content/images/common/ico_util02.png" alt="주문배송" /></p>
+                    <p class="ico__util-txt">주문배송</p>
+                </a>
+            </li>
+            <li class="ico__util-item">
+                <a href="/users/modify" class="ico__util-link" title="마이장터">
+                    <p class="ico__util-ico"><img src="/content/images/common/ico_util03.png" alt="마이장터" /></p>
+                    <p class="ico__util-txt">마이장터</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--// Icon Util : e -->
+
+</div><!--// inner E-->
+</div><!-- // header_middle E -->
+
+			<div class="header__gnb">
+    <div class="header__gnb-wrap">
+        <div class="header__gnb-bg"><p></p></div>
+
+        <!-- gnb inner :s //-->
+        <div class="header__gnb-inner">
+
+            <div class="main_lnb">
+
+                <!--전체메뉴 보기 : s //-->
+                <div class="all_menu">
+                    <a href="/html/category/thumb_list.html" title="전체 카테고리" class="btn_menu"><span>Category</span></a><!-- 기존 메뉴 스타일에서 span 태그만 추가되었습니다. -->
+                    <div class="gnbs">
+                        </div>
+                </div>
+                <!--// Category Menu : e -->
+
+                <div class="lnb_team">
+                    </div>
+            </div>
+
+            <!-- header Center menu : s //-->
+            <div class="center__menu">
+                <ul class="center__menu-list">
+                    <li class="center__menu-item"><a href="/featured/list" class="center__menu-link" title="기획전">기획전</a></li>
+                    <li class="center__menu-item"><a href="/event/new" class="center__menu-link" title="신상품">신상품</a></li>
+                    <li class="center__menu-item"><a href="/event/best" class="center__menu-link" title="베스트 상품">베스트 상품</a></li>
+                    <li class="center__menu-item"><a href="/event/spot" class="center__menu-link" title="특가세일">특가세일</a></li>
+                </ul>
+            </div>
+            <!--// header Center menu : e -->
+
+            <!-- header other menu : s //-->
+            <div class="other__menu">
+                <ul class="other__menu-list">
+                    <li class="other__menu-item"><a href="#none" onclick="Common.popup('/store-inquiry/inquiry', 'store-inquiry', 680, 860); return false;" class="other__menu-link" title="입점신청"><span>입점신청</span></a></li>
+                    <li class="other__menu-item"><a href="/webzine/list" class="other__menu-link" title="농가라이프"><span>농가라이프</span></a></li>
+                </ul>
+            </div>
+            <!--// header Center menu : e -->
+        </div>
+        <!--// gnb inner : e -->
+    </div>
+</div>
+					</header>
+
+ 		<div id="container">
+ 			<style>
+
+.error_inner {width: 560px; min-height: 200px; margin-bottom: 100px;}
+.error_inner p {text-align: left;}
+.error_inner p:first-child {margin-top: 100px}
+.error_inner a {color: #ff6755; text-decoration: underline}
+</style>
+<div id="error404">
+	<div class="error_inner">
+		<p>페이지가 존재하지 않습니다.<!-- 페이지가 존재하지 않습니다. --></p>
+		<p style="padding-top: 20px;">	
+			죄송합니다만 지정하신 페이지는 찾을 수 없습니다.<!-- 죄송합니다만 지정하신 페이지는 찾을 수 없습니다. --><br />
+			이미 삭제되었거나 주소가 잘못되었을 가능성이 있습니다.<!-- 이미 삭제되었거나 주소가 잘못되었을 가능성이 있습니다. --><br /><br />
+			
+			브라우저의 새로고침 버튼을 눌러도 표시가 되지 않는 경우에는<br />
+			 로고를 클릭하여 첫화면으로 접속을 부탁드립니다.<br /><br />
+		</p>
+		<p><a href="/">첫화면으로</a> <!-- 톱페이지로 -->
+	</div>
+</div></div>	
+		
+		<footer id="footer">
+			<!-- footer Top : s //-->
+    <div class="footer_top">
+        <div class="inner">
+            <ul class="footer_menu">
+                <li><a href="/pages/about_us" title="음성장터 소개">음성장터 소개</a></li>
+                <li><a href="/pages/etc_clause" title="이용약관">이용약관</a></li>
+                <li><a href="/pages/etc_guide" title="이용안내">이용안내</a></li>
+                <li><a href="/pages/etc_guide2" title="입점안내">입점안내</a></li>
+                <li><a href="/pages/etc_protect" title="개인정보처리방침"><strong>개인정보처리방침</strong></a></li>
+                <li><a href="#popup" title="새창열림" onclick="openPopupBiz(); return false;">사업자정보확인</a></li>
+                <li><a href="/notice/list" title="고객센터">고객센터</a></li>
+                <li><a href="#none" onclick="Common.popup('/store-inquiry/inquiry', 'store-inquiry', 680, 860); return false;" title="입점신청">입점신청</a></li>
+            </ul>
+            <!--농협 에스크로 이체 인증마크 적용 시작-->
+            <script>
+                function onPopCertMar(key){
+                window.open('','self','height=700, width=650, status=yes, toolbar=no, menubar=no, location=no');
+                document.CERTMARK_FORM.certMarkURLKey.value = key;
+                document.CERTMARK_FORM.action='https://escrow.nonghyup.com/?certMarkURLKey=' + key;
+                document.CERTMARK_FORM.target='self';
+                document.CERTMARK_FORM.submit();
+                }
+            </script>
+
+            <FORM name='CERTMARK_FORM' METHOD='POST'>
+                <input type="hidden" name="certMarkURLKey">
+            </FORM>
+            <!--농협 에스크로 이체 인증마크 적용 종료-->
+            </div>
+    </div>
+    <!--// footer Top : e -->
+
+    <!-- footer Bottom : s //-->
+    <div class="footer_bottom">
+        <div class="inner">
+            <div class="cont">
+                <h2 class="footer__logo"><a href="#none" title="[음성장터] 음성군 명품작물 쇼핑몰">[음성장터] 음성군 명품작물 쇼핑몰</a></h2>
+                <div class="footer-item">
+                    <ul class="footer-list">
+                        <li></li>
+                        <li>대표자 : </li>
+                        <li>주소 : &nbsp;</li>
+                        <li>사업자등록번호 : </li>
+                        <li>통신판매업 신고번호 : </li>
+                        <li>개인정보관리 책임자 : </li>
+                        <li>이메일 : <a href="mailto:"></a></li>
+                        <li>대표전화 : </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <ul class="footer-infolist">
+                        <li>본 사이트는 지역경제 활성화를 위해 음성군청이 운영하고 있는 사이트 입니다.</li>
+                        <li>음성장터의 상품 이미지를 포함한 모든 컨텐츠의 저작권은 음성군에 있습니다.</li>
+                        <li>음성장터 시스템을 이용하지 않는 거래는 음성장터에서 책임지지 않습니다.</li>
+                    </ul>
+                    <p class="copyright">Copyright (c) 2020 음성장터. All Rights Reserved.</p>
+                </div>
+            </div> <!--//cont E-->
+        </div><!-- // inner E -->
+    </div>
+    <!--// footer Bottom : e -->
+
+
+ 
+
+
+
+
+</footer>
+		<div id="floating">
+			<div class="left_banner">
+	</div>
+
+<div id="quick-menu" class="quick_menu">
+    <h3 class="quick_menu-title">나의쇼핑정보</h3>
+
+    <!-- quick_menu_inner : s //-->
+    <div class="quick_menu_inner">
+        <ul class="quick_menu-list">
+            <li class="quick__menu-item">
+                <a href="/cart" class="quick__menu-link">
+                    <p class="ico">
+                        <span class="num" id="aside_cart_quantity">0</span>
+                    </p>
+                    <p class="quick__menu-txt">장바구니</p>
+                </a>
+            </li>
+            <li class="quick__menu-item">
+                <a href="/mypage/wishlist" class="quick__menu-link">
+                    <p class="ico">
+                        <span class="num" id="aside_wishlist_count">0</span>
+                    </p>
+                    <p class="quick__menu-txt">관심상품</p>
+                </a>
+            </li>
+            </ul>
+
+        <div class="quick_latest">
+            <p>오늘본상품</p>
+        </div>
+        <!-- 오늘 본 상품 : s //-->
+        <div class="recency-item op-today-items">
+        </div>
+        <!--// 오늘 본 상품 : e -->
+    </div>
+    <!--// quick_menu_inner : e-->
+
+    <!-- Quick sns : s //-->
+    <div class="quick__sns">
+        <div class="quick__sns-wrap">
+            <p class="quick__sns-item">
+                <a href="https://www.facebook.com/esjang.go.kr/" target="_blank" class="quick__sns-link" title="Facebook 새창열림">Facebook</a>
+                <a href="https://m.blog.naver.com/PostList.nhn?blogId=eumseonggun&categoryNo=18&listStyle=style1" target="_blank" class="quick__sns-link" title="Naver Blog 새창열림">Naver Blog</a>
+            </p>
+            <p class="quick__sns-item">
+                <a id="channel-chat-button" href="#kakao" onclick="void chatChannel();" title="톡상담 새창열림">
+                    <img src="/content/images/common/consult_small_yellow_pc.png" alt="톡상담" style="width:90%; margin-bottom:5px;" />
+                </a>
+            </p>
+        </div>
+    </div>
+    <!--// Quick sns : e -->
+    <p class="quick-top"><a href="#none" title="TOP">맨위로</a></p>
+
+</div>
+
+<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+<script>
+    // 사용할 앱의 JavaScript 키를 설정해 주세요.
+    Kakao.init('d2d06478ca651927de6c76c791ace37d');
+
+    // SDK 초기화 여부를 판단합니다.
+    console.log(Kakao.isInitialized());
+
+    function chatChannel() {
+        Kakao.Channel.chat({
+            channelPublicId: '_xmxffxiK',
+        })
+    }
+</script>
+
+
+ <script>
+ $(function() {
+	 Shop.getTodayItems();
+ });
+
+
+ </script>
+</div>
+	</div>
+	<div id="konayLayer" style="display:none; width:100%; height:100%; position:absolute; top:0; left:0;">
+    <iframe src="" name="konaFrame" id="konaFrame" style="width:100%; height:100%; position:absolute; top:0; left:0; border:0;"></iframe>
+</div>
+
+
+<script type="text/javascript">var OP_CONTEXT_PATH = '';</script>
+<script type="text/javascript">var OP_LANGUAGE = 'ko';</script>
+<script type="text/javascript">var OP_HTTP = "https://www.esjang.go.kr";</script>
+<script type="text/javascript">var OP_HTTPS = "https://www.esjang.go.kr";</script>
+<script type="text/javascript">var OP_USER_TIMEOUT = '';</script>
+<script type="text/javascript" src="/content/modules/jquery/jquery-ui-1.10.4.custom.js"></script>
+<script type="text/javascript" src="/content/modules/jquery/jquery.cookie.js"></script>
+
+<script type="text/javascript" src="/content/modules/op.validator.js?t=20220714"></script>
+<script type="text/javascript" src="/content/modules/op.file.js"></script>
+<script type="text/javascript" src="/content/modules/op.shop.js"></script>
+
+
+<script type="text/javascript">
+	// cookie function 반드시 스크립트 루트에 위치 2017-05-15_seungil.lee
+	var cookieList = function(cookieName) {
+		var cookie = $.cookie(cookieName);
+		var items = cookie ? cookie.split(/,/) : new Array();
+		
+		// 출력 추천검색어 개수
+		if (items.length == 8) {
+			items.splice(0,1);
+		}
+		
+		return {
+			"add" : function(val) {
+				if (items.indexOf(val) >= 0) {
+					items.splice(items.indexOf(val),1);
+				}
+				items.push(val);
+				$.cookie(cookieName, items, { path: "/" });
+			},
+			"del" : function(val) {
+				for (var i=0; i<items.length; i++) {
+					if (items[i] == val) {
+						items.splice(i,1);
+					}
+				}
+				$.cookie(cookieName, items, { path: "/" });
+			},
+			"clear" : function() {
+				items = "";
+				$.cookie(cookieName, "");
+			},
+			"items" : function() {
+				if (items.length > 0) {
+					return items.reverse();
+				}
+				else {
+					return items;
+				}
+			}
+		}
+	}
+	
+	// set placeholder, query onfocus 공백화, blurEvent()의 최하단에 초기화 기능 2017-05-16_seungil.lee  
+	var search = null;
+	var $query = $('#searchForm input[name="query"]');
+	function setPlaceholder() {
+		$.ajaxSetup({
+			"async" : "false"
+		});
+		$.post("/search","",function(response){
+			if (response.data != undefined && response.data.search != null) {
+				$query.attr('placeholder', response.data.search.searchContents);
+				search = response.data.search;
+			}
+		});
+
+		// query에 onfocus일때 placeholder 공백화
+		$query.on("focus", function(){
+			$(this).attr('placeholder', '');
+		});
+	}
+	
+
+	$(function(){
+		setPlaceholder();
+		
+		// 자동완성 스크립트
+		$query.on('keyup', function(e){
+			if (e.keyCode == 13) {
+				if ($('#searchForm .searchArea:visible ul li.on').size()>0) {
+					$query.val($('#searchForm .searchArea:visible ul li.on').text());
+				}
+			}
+			autoComplete(e.keyCode);
+		});
+		
+		// 커서 들어왔을 경우 검색어 자동완성 실행
+		$query.on('focusin', function(){
+			autoComplete();
+		});
+		
+		// query blur event
+		blurEvent();
+		
+		// 최근검색어 스크립트
+		cookieInit();
+		
+		// 최근검색어 삭제
+		cookieDelEvent();
+		
+		// validator
+		formValidator();
+	});
+	
+	// 검색어 입력 여부에 따른 영역 숨김처리 2017-05-12_seungil.lee
+	var nextIdx = 0;
+	function toggleQuery() {
+		if ($.trim($query.val()) != "") {
+			$("#op-auto-complete").show();
+			$("#op-query-history").hide();
+			
+			// 영역 반전시 on클래스 제거 및 nextIdx 초기화 
+			$('#searchForm ul li.on').removeClass("on");
+			nextIdx = 0;
+		}
+		else {
+			$("#op-auto-complete").hide();
+			$("#op-query-history").show();
+			
+			// 영역 반전시 on클래스 제거 및 nextIdx 초기화 
+			$('#searchForm ul li.on').removeClass("on");
+			nextIdx = 0;
+		}
+	}
+	
+	// 자동완성 json파일 검색 후 불러오기 2017-05-12_seungil.lee
+	function autoComplete(keyCode) {
+		// 위아래 방향키일 경우 자동완성 실행하지 않고 event 넘기기
+		if (keyCode == 38 || keyCode == 40) {
+			arrowEvent(keyCode);
+			return false;		
+		}
+		
+		var query = $.trim($query.val());
+		toggleQuery();
+		if (query != "") {
+			var param = {"query" : query};
+			Common.loading.display = false;
+			
+			// 미리 저장 된 json파일 불러오기 (DB access 없음) - /keyword/keyword-init 으로 즉각 반영 가능
+			$.post("/keyword/auto-complete", param, function(response){
+				var autocomplete = "";
+				if (response.length > 0) {
+					$("#op-auto-complete ul").html("");
+					$.each(response, function(i, data){
+						var keyword = data.keyword;
+						// 검색어와 정확히 일치하는 부분만 highlight시켜주기 (상단 css 참조)
+						keyword = keyword.replace(query, "<highlight>"+query+"</highlight>");
+						autocomplete += "<li>"+ keyword +"</li>";
+					});
+				}
+				else {
+					autocomplete += "<li class=\"noResult\">검색된 데이터가 없습니다.</li>";
+				}
+				$("#op-auto-complete ul").html(autocomplete);
+				liEvent();
+			});
+			Common.loading.display = true;
+		}
+	}
+	
+	function arrowEvent(keyCode) {
+		if (keyCode == 38 || keyCode == 40) {
+			if ($('#searchForm .searchArea:visible ul li.on').size()>0) {
+				// 40(↓), 38(↑) nextIdx 조정
+				if (keyCode == 40) {
+					nextIdx = $('#searchForm .searchArea:visible ul').find('li.on').index()+1;
+				}
+				else {
+					nextIdx = $('#searchForm .searchArea:visible ul').find('li.on').index()-1;
+				}
+				
+				// li가 마지막이고 다음 선택이면 첫번째, 처음이고 이전선택이면 마지막 li로 설정 
+				if ($('#searchForm .searchArea:visible ul li').size()==nextIdx) {
+					nextIdx = 0;
+				}
+				else if (nextIdx < 0) {
+					nextIdx = $('#searchForm .searchArea:visible ul li').size()-1;
+				}
+				// addClass 전에 on 클래스 모드 제거
+				$('#searchForm ul li.on').removeClass('on');
+				$('#searchForm .searchArea:visible ul li').eq(nextIdx).addClass('on');
+				$query.val($('#searchForm .searchArea:visible ul li.on').text());
+			}
+			else {
+				// on 클래스가 없을 경우 초기 지정
+				if (keyCode == 40) {
+					$('#searchForm .searchArea:visible ul li').eq(0).addClass('on');
+					$query.val($('#searchForm .searchArea:visible ul li.on').text());
+				}
+				else if (keyCode == 38) {
+					$('#searchForm .searchArea:visible ul li').eq($('#searchForm .searchArea:visible ul li').size()-1).addClass('on');
+					$query.val($('#searchForm .searchArea:visible ul li.on').text());
+				}
+			}
+		}
+	}
+	
+	// 검색어 click event 2017-05-12_seungil.lee
+	function liEvent() {
+		$('#searchForm ul li').unbind('click');
+		$('#searchForm ul li').on('click', function(){
+			// 결과없음 예외처리
+			if ($(this).hasClass("noResult")) {
+				return false;
+			}
+			
+			$query.val($(this).text());
+			
+			// 최근검색어 쿠키에 추가 2017-05-15_seungil.lee
+			if ($query.val() != "") {
+				var list = new cookieList("latest");
+				list.add($query.val());
+			}
+			
+			$('#searchForm').submit();
+		});
+		
+		$('#searchForm ul li').unbind('hover');
+		$('#searchForm ul li').hover(function(){
+			$('#searchForm ul li.on').removeClass("on");
+		});
+	}
+	
+	// 검색어 input에서 focus blur event 2017-05-12_seungil.lee
+	function blurEvent() {
+		$query.on('blur', function(e){
+			$(document).mouseup(function (e){			
+				var searchLayer = $('.header_search');
+				if (searchLayer.has(e.target).length === 0 && $(this).blur()) {
+					$("#op-query-history").hide();
+					$("#op-auto-complete").hide();
+					// 숨김시 li.on 에서 on class 제거
+					$('#searchForm ul li.on').removeClass("on");
+				}
+			});
+			
+			// query blur시에 공백화된 placeholder를 초기화
+			if (search != null && typeof search.searchContents != "undefined" && search.searchContents != "") {
+				$(this).attr('placeholder', search.searchContents);
+			}
+		});
+	}
+	
+	// searchForm submit시 검색어와 추천 검색어 확인 후 link로 연결 	
+	function formValidator() {
+		$("#searchForm").validator(function(){
+			if ($('#searchForm .searchArea:visible ul li.on').size()>0) {
+				$query.val($('#searchForm .searchArea:visible ul li.on').text());
+			}
+			
+			if ($query.val() == "" 
+				&& search != null && typeof search.searchContents != "undefined" && search.searchContents != "") {
+				var searchLink = "";
+				var targetBlank = false;
+				
+				// mobile check
+				if (Browser.isMobile()) {
+					searchLink = search.searchMobileLink;
+					// mobile 새창 체크
+					if (search.searchMobileLinkTargetFlag == "Y") {
+						targetBlank = true;
+					}
+				}
+				else {
+					searchLink = search.searchLink;
+					// front 새창 체크
+					if (search.searchLinkTargetFlag == "Y") {
+						targetBlank = true;
+					}
+				}
+				
+				// 팝업 혹은 링크 연결
+				if (targetBlank) {
+					Common.popup(searchLink, search.searchContents, 1400, 800, "auto", 0, 0);
+				}
+				else {
+					location.href=search.searchLink;
+				}
+				return false;
+			}
+			
+			// 최근검색어 쿠키에 추가 2017-05-15_seungil.lee
+			if ($query.val() != "") {
+				var list = new cookieList("latest");
+				list.add($query.val());
+			}
+		});
+	}
+	
+	// 최근검색어 초기화 2017-05-15_seungil.lee
+	function cookieInit() {
+		var list = new cookieList("latest");
+// 	 	list.clear();
+		var temp = list.items()+"";
+		var key = temp.split(",");
+		var keywordHtml = "";
+		for (var i=0; i<key.length; i++) {
+			if (key[i] != "") {
+				keywordHtml += "<li>"+key[i]+"<button class='del'></button></li>";
+			}
+			else if (key[i] == "" && key.length == 1){
+				$("#op-query-history").remove();
+			}
+		}
+		
+		if (keywordHtml != "") {
+			$("#op-query-history ul").html(keywordHtml);
+		}
+		liEvent();
+	}
+	
+	// 최근 검색어 삭제버튼 클릭 이벤트 2017-05-15_seungil.lee
+	function cookieDelEvent() {
+		var list = new cookieList("latest");
+		$("#op-query-history ul li").on("click", "button.del",function(event){
+			event.stopPropagation();
+			event.preventDefault();
+			
+			// 해당 검색어 삭제
+			list.del($(this).parent().text());
+			
+			var temp = list.items()+"";
+			var key = temp.split(",");
+			var keywordHtml = "";
+			
+			// 최근검색어 다시 불러오기
+			for (var i=0; i<key.length; i++) {
+				if (key[i] != "") {
+					keywordHtml += "<li>"+key[i]+"<button class='del'></button></li>";
+					$("#op-query-history ul").html(keywordHtml);
+				}
+				else if (key[i] == "" && key.length == 1){
+					$("#op-query-history").remove();
+				}
+			}
+		});
+	}
+
+</script><script>
+	$(function(){
+		Shop.writeVisitorLog();
+	});
+	function openPopupBiz(){
+		var url = "http://www.ftc.go.kr/bizCommPop.do?wrkr_no=3018128609";
+		window.open(url, "bizCommPop", "width=750, height=700;");
+	}
+</script><script>
+var main = '';
+var userId = '';
+var RequestContext = {
+	'currentUrl': 'L2Vycm9yLzQwNA==',
+	'prevPageUrl': ''	
+};
+
+var isMobileLayer = '';
+if (isMobileLayer == 'true') {
+	isMobileLayer = true;
+}
+$(function() {
+	Common.handleFrameworkMessage(
+		'',
+		'',
+		'',
+		''
+	);
+	
+	if (main == 'main') {
+		if ($.cookie('receiptPopup_'+userId) == 'null' 
+				|| $.cookie('receiptPopup_'+userId) == '' 
+				|| $.cookie('receiptPopup_'+userId) == undefined
+		) {
+			Main.receiptPopup('');
+		}
+	}
+	
+});
+</script></body>
+</html> 
+

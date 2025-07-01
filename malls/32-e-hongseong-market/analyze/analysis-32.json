@@ -1,0 +1,54 @@
+{
+  "mallId": 32,
+  "mallName": "e홍성장터",
+  "url": "https://ehongseong.com/",
+  "categories": [
+    {
+      "id": "007",
+      "name": "친환경",
+      "url": "https://ehongseong.com/shop/shopbrand.html?xcode=007&type=Y"
+    },
+    {
+      "id": "008",
+      "name": "농산물",
+      "url": "https://ehongseong.com/shop/shopbrand.html?xcode=008&type=Y"
+    },
+    {
+      "id": "009",
+      "name": "축산물",
+      "url": "https://ehongseong.com/shop/shopbrand.html?xcode=009&type=Y"
+    },
+    {
+      "id": "010",
+      "name": "수산물",
+      "url": "https://ehongseong.com/shop/shopbrand.html?xcode=010&type=Y"
+    },
+    {
+      "id": "015",
+      "name": "지역전통주",
+      "url": "https://ehongseong.com/shop/shopbrand.html?xcode=015&type=Y"
+    },
+    {
+      "id": "011",
+      "name": "가공·생활",
+      "url": "https://ehongseong.com/shop/shopbrand.html?xcode=011&type=Y"
+    },
+    {
+      "id": "013",
+      "name": "금액별 상품",
+      "url": "https://ehongseong.com/shop/shopbrand.html?xcode=013&type=Y"
+    }
+  ],
+  "totalProducts": 240,
+  "sampleProducts": [],
+  "scrapingStrategy": {
+    "method": "HTTP_REQUEST",
+    "requiresJavaScript": false,
+    "pagination": {
+      "type": "NO_PAGINATION"
+    },
+    "categoryUrlPattern": "https://ehongseong.com/shop/shopbrand.html?xcode={categoryId}&type=Y",
+    "productUrlPattern": "https://ehongseong.com/shop/shopdetail.html?branduid={productId}",
+    "searchUrlPattern": "https://ehongseong.com/shop/shopbrand.html?search={keyword}"
+  }
+}

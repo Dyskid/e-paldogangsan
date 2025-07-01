@@ -1,0 +1,24 @@
+{
+  "mallId": 2,
+  "mallName": "참달성 (달성군)",
+  "baseUrl": "https://smartstore.naver.com/chamdalseong",
+  "productCategories": [],
+  "urlPatterns": {
+    "categoryList": "/category/{categoryId}?cp={page}&st=POPULAR",
+    "productDetail": "/products/{productId}",
+    "pagination": "?cp={page}"
+  },
+  "paginationMethod": "page-number",
+  "requiresJavaScript": true,
+  "productDataStructure": {
+    "listSelector": "ul[class*=\"ProductList\"]",
+    "itemSelector": "li[class*=\"ProductItem\"]",
+    "nameSelector": "strong[class*=\"name\"]",
+    "priceSelector": "span[class*=\"price\"] > span[class*=\"number\"]",
+    "imageSelector": "img[class*=\"thumbnail\"]",
+    "linkSelector": "a[class*=\"ProductItem\"]"
+  },
+  "sampleProducts": [],
+  "analysisStatus": "failed",
+  "errorDetails": "The store page returns an error. The store might be closed or the URL might have changed."
+}

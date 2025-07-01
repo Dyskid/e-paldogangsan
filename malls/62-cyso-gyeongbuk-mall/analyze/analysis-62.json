@@ -1,0 +1,32 @@
+{
+  "mallId": 62,
+  "mallName": "cyso-gyeongbuk-mall",
+  "url": "https://www.cyso.co.kr/",
+  "productStructure": {
+    "categoryLevels": 2,
+    "mainCategories": [],
+    "categoryUrlPattern": "/goods/goods_list.php?cateCd={categoryCode}"
+  },
+  "productData": {
+    "productUrlPattern": "/goods/goods_view.php?goodsNo={productId}",
+    "dataLocation": ".goods-view, .product-detail",
+    "imageUrlPattern": "img.goods-image, img[src*=\"/data/goods/\"]",
+    "priceLocation": ".price, .goods-price, .detail-price",
+    "nameLocation": ".goods-name, .product-name, h3.title"
+  },
+  "pagination": {
+    "type": "page-based",
+    "urlPattern": "&page={pageNumber}",
+    "maxProductsPerPage": 40
+  },
+  "dynamicLoading": {
+    "requiresJavaScript": false,
+    "loadingMethod": "server-side-rendering"
+  },
+  "scrapeableFeatures": {
+    "productList": true,
+    "productDetails": true,
+    "categoryNavigation": true,
+    "search": true
+  }
+}

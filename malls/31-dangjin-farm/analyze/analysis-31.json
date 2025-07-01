@@ -1,0 +1,100 @@
+{
+  "mallId": 31,
+  "mallName": "당진팜",
+  "url": "https://dangjinfarm.com/",
+  "categories": [
+    {
+      "id": "50",
+      "name": "해나루상품",
+      "url": "https://dangjinfarm.com/product/list.html?cate_no=50"
+    },
+    {
+      "id": "44",
+      "name": "가공상품",
+      "url": "https://dangjinfarm.com/product/list.html?cate_no=44"
+    },
+    {
+      "id": "46",
+      "name": "쌀/잡곡",
+      "url": "https://dangjinfarm.com/product/list.html?cate_no=46"
+    },
+    {
+      "id": "48",
+      "name": "과일/채소",
+      "url": "https://dangjinfarm.com/product/list.html?cate_no=48"
+    },
+    {
+      "id": "49",
+      "name": "농가별 상품",
+      "url": "https://dangjinfarm.com/product/list.html?cate_no=49"
+    },
+    {
+      "id": "52",
+      "name": "베스트",
+      "url": "https://dangjinfarm.com/product/list.html?cate_no=52"
+    },
+    {
+      "id": "43",
+      "name": "축산/수산",
+      "url": "https://dangjinfarm.com/product/list.html?cate_no=43"
+    },
+    {
+      "id": "45",
+      "name": "반찬/장류/간식",
+      "url": "https://dangjinfarm.com/product/list.html?cate_no=45"
+    },
+    {
+      "id": "47",
+      "name": "건강식품/기타",
+      "url": "https://dangjinfarm.com/product/list.html?cate_no=47"
+    },
+    {
+      "id": "42",
+      "name": "전체상품",
+      "url": "https://dangjinfarm.com/product/list.html?cate_no=42"
+    },
+    {
+      "id": "50",
+      "name": "해나루상품",
+      "url": "https://dangjinfarm.com/product/list.html?cate_no=50"
+    },
+    {
+      "id": "51",
+      "name": "신상품",
+      "url": "https://dangjinfarm.com/product/list.html?cate_no=51"
+    },
+    {
+      "id": "42",
+      "name": "더보기 +",
+      "url": "https://dangjinfarm.com/product/list.html?cate_no=42"
+    },
+    {
+      "id": "51",
+      "name": "더보기 +",
+      "url": "https://dangjinfarm.com/product/list.html?cate_no=51"
+    },
+    {
+      "id": "52",
+      "name": "더보기 +",
+      "url": "https://dangjinfarm.com/product/list.html?cate_no=52"
+    },
+    {
+      "id": "42",
+      "name": "더보기 +",
+      "url": "https://dangjinfarm.com/product/list.html?cate_no=42"
+    }
+  ],
+  "totalProducts": 100,
+  "sampleProducts": [],
+  "scrapingStrategy": {
+    "method": "HTTP_REQUEST",
+    "requiresJavaScript": false,
+    "pagination": {
+      "type": "QUERY_PARAMETER",
+      "parameterName": "page"
+    },
+    "categoryUrlPattern": "https://dangjinfarm.com/product/list.html?cate_no={categoryId}",
+    "productUrlPattern": "https://dangjinfarm.com/product/detail.html?product_no={productId}",
+    "searchUrlPattern": "https://dangjinfarm.com/product/search.html?keyword={keyword}"
+  }
+}

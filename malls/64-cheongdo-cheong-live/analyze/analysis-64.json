@@ -1,0 +1,38 @@
+{
+  "mallId": 64,
+  "mallName": "cheongdo-cheong-live",
+  "url": "https://cdmall.cyso.co.kr",
+  "productStructure": {
+    "categoryLevels": 2,
+    "mainCategories": [
+      "청도반시",
+      "과일",
+      "채소",
+      "가공식품",
+      "특산품"
+    ],
+    "categoryUrlPattern": "/goods/goods_list.php?cateCd={categoryCode}"
+  },
+  "productData": {
+    "productUrlPattern": "/goods/goods_view.php?goodsNo={productId}",
+    "dataLocation": ".goods-view, .detail-box",
+    "imageUrlPattern": "img.goods-main-img, img[src*=\"/data/goods/\"]",
+    "priceLocation": ".goods-price strong, .price-box .price",
+    "nameLocation": ".goods-header h3, .goods-name, .title"
+  },
+  "pagination": {
+    "type": "page-based",
+    "urlPattern": "&page={pageNumber}",
+    "maxProductsPerPage": 40
+  },
+  "dynamicLoading": {
+    "requiresJavaScript": false,
+    "loadingMethod": "server-side-rendering"
+  },
+  "scrapeableFeatures": {
+    "productList": true,
+    "productDetails": true,
+    "categoryNavigation": true,
+    "search": true
+  }
+}

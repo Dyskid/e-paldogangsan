@@ -1,0 +1,28 @@
+{
+  "mallId": 89,
+  "mallName": "hamyang-mall",
+  "url": "https://2900.co.kr/",
+  "categories": [],
+  "productStructure": {
+    "urlPattern": "https://2900.co.kr/shop/item.php?it_id={product_id}",
+    "categoryUrlPattern": "https://2900.co.kr/shop/list.php?ca_id={category_id}",
+    "paginationMethod": "page_parameter",
+    "dynamicLoading": false,
+    "productSelectors": {
+      "container": ".sct_li",
+      "name": ".sct_txt a",
+      "price": ".sct_cost",
+      "image": ".sct_img img",
+      "link": ".sct_img a"
+    }
+  },
+  "sampleProducts": [],
+  "notes": [
+    "Product detail page structure confirmed",
+    "Site uses YeongCart (영카트) e-commerce platform",
+    "Product IDs are numeric timestamps",
+    "Categories use two-digit alphanumeric IDs (10, 20, 30, etc.)",
+    "Standard YeongCart HTML structure"
+  ],
+  "errors": []
+}

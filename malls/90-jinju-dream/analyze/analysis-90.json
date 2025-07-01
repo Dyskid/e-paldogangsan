@@ -1,0 +1,27 @@
+{
+  "mallId": 90,
+  "mallName": "jinju-dream",
+  "url": "https://jinjudream.com/",
+  "categories": [],
+  "productStructure": {
+    "urlPattern": "https://jinjudream.com/product/detail.html?product_no={product_id}",
+    "categoryUrlPattern": "https://jinjudream.com/product/list.html?cate_no={category_id}",
+    "paginationMethod": "page_parameter",
+    "dynamicLoading": false,
+    "productSelectors": {
+      "container": ".prdList li, .xans-product-listnormal li",
+      "name": ".name a, .description .name",
+      "price": ".price, .xans-product-listitem",
+      "image": ".thumbnail img, .prdImg img",
+      "link": ".thumbnail a, .prdImg a"
+    }
+  },
+  "sampleProducts": [],
+  "notes": [
+    "Site appears to use Cafe24 e-commerce platform",
+    "Product IDs use numeric product_no parameter",
+    "Categories use numeric cate_no parameter",
+    "Standard Cafe24 HTML structure with xans- prefixed classes"
+  ],
+  "errors": []
+}

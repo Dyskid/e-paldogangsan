@@ -1,0 +1,27 @@
+{
+  "id": 22,
+  "engname": "taebaek-mall",
+  "name": "태백몰",
+  "url": "https://taebaek-mall.com/",
+  "structure": {
+    "categoryStructure": "Category menu found",
+    "urlPatterns": "Base URL: https://taebaek-mall.com/",
+    "paginationMethod": "standard pagination",
+    "dynamicLoading": false,
+    "productDataLocation": "Products found on category pages"
+  },
+  "selectors": {
+    "productList": "[class*=\"item\"][class*=\"list\"]",
+    "productItem": "",
+    "productName": "",
+    "productPrice": "",
+    "productImage": "",
+    "productLink": "",
+    "pagination": "[class*=\"paging\"]",
+    "categories": "[class*=\"category\"]"
+  },
+  "sampleData": [],
+  "analysisTimestamp": "2025-07-01T12:58:18.730Z",
+  "success": false,
+  "error": "Could not identify product structure"
+}

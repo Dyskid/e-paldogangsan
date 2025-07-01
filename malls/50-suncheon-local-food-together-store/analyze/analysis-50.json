@@ -1,0 +1,29 @@
+{
+  "mallId": 50,
+  "mallName": "suncheon-local-food-together-store",
+  "url": "https://sclocal.kr/",
+  "platform": "unknown",
+  "hasProducts": true,
+  "productCount": 3,
+  "sampleProducts": [
+    {
+      "name": "[덕천농장] 국내산 햇 플럼코트 하모니 2kg ( 대과 / 특과 / 로열과 )",
+      "price": "34,000원",
+      "image": "https://sclocal.kr/upfiles/product/2558772059.png",
+      "link": "/?pn=product.view&cuid=461&pcode=C1613-N4740-P2672"
+    },
+    {
+      "name": "[별량면용두마을] 산지직송 순천만 갯벌 별량 활 맛조개 1kg 2kg 3kg",
+      "price": "4%\n                            \t\t\t\t\t\t\t23,000원\n                                                           24,000",
+      "image": "https://sclocal.kr/upfiles/product/2558772059.png",
+      "link": "/?pn=product.view&cuid=436&pcode=T8294-W2619-K5759"
+    },
+    {
+      "name": "[별량면용두마을] 산지직송 순천만 갯벌 별량 활 맛조개 1kg 2kg 3kg",
+      "price": "4%\n                            \t\t\t\t\t\t\t23,000원\n                                                           24,000",
+      "image": "https://sclocal.kr/upfiles/product/2558772059.png",
+      "link": "/?pn=product.view&cuid=436&pcode=T8294-W2619-K5759"
+    }
+  ],
+  "analysisDate": "2025-07-01T12:53:05.310Z"
+}

@@ -1,0 +1,23 @@
+{
+  "mallId": 16,
+  "mallName": "yanggu-mall",
+  "websiteUrl": "https://yanggu-mall.com/",
+  "status": "accessible",
+  "productStructure": {
+    "categoryPattern": "/goods/catalog?code={categoryCode}",
+    "productListSelector": "ul.goods_list > li.gl_item",
+    "productItemSelector": ".gl_inner_item_wrap",
+    "productDetailPattern": "/goods/view?no={productId}",
+    "searchPattern": "/goods/search?keyword={searchKeyword}",
+    "paginationSelector": ".paging_navigation"
+  },
+  "dataLocation": {
+    "type": "html",
+    "endpoints": []
+  },
+  "platformInfo": {
+    "name": "FirstMall",
+    "version": "responsive_food_mealkit_gl_1"
+  },
+  "analysisDate": "2025-07-01T11:45:22.186Z"
+}

@@ -1,0 +1,36 @@
+{
+  "mallId": 48,
+  "mallName": "boseong-mall",
+  "url": "https://boseongmall.co.kr/",
+  "platform": "Cafe24",
+  "hasProducts": true,
+  "productCount": 5,
+  "sampleProducts": [
+    {
+      "name": "[보성버섯농원] 송화버섯 알뜰형/실속형 1kg",
+      "price": "",
+      "link": "/product/보성버섯농원-송화버섯-알뜰형실속형-1kg/2586/"
+    },
+    {
+      "name": "[우리원] 강대인 생명의쌀 오색미 1kg",
+      "price": "",
+      "link": "/product/우리원-강대인-생명의쌀-오색미-1kg/1235/"
+    },
+    {
+      "name": "[보성농장] 수미감자 5kg (왕특, 대, 중)",
+      "price": "",
+      "link": "/product/보성농장-수미감자-5kg-왕특-대-중/2312/"
+    },
+    {
+      "name": "[고향농장] 보성회천 수미감자 10kg (특,대,중)",
+      "price": "",
+      "link": "/product/고향농장-보성회천-수미감자-10kg-특대중/1575/"
+    },
+    {
+      "name": "[보성농협] 보성녹돈 목살500g / 삼겹살500g",
+      "price": "",
+      "link": "/product/보성농협-보성녹돈-목살500g-삼겹살500g/1792/"
+    }
+  ],
+  "analysisDate": "2025-07-01T12:53:02.381Z"
+}

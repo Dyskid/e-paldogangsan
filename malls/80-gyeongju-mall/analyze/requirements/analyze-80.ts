@@ -1,0 +1,136 @@
+interface MallAnalysis {
+  mallId: string;
+  mallName: string;
+  website: string;
+  analysis: {
+    structureType: "CYSO_PLATFORM";
+    urlPatterns: {
+      product: string;
+      category: string;
+    };
+    sampleData: {
+      categories: Array<{
+        id: string;
+        name: string;
+        url: string;
+      }>;
+      products: Array<{
+        id: string;
+        name: string;
+        price: string;
+        url: string;
+      }>;
+    };
+    dataLocation: {
+      categoryList: string;
+      productList: string;
+      productInfo: {
+        name: string;
+        price: string;
+        image: string;
+      };
+    };
+    requiresJavaScript: boolean;
+  };
+}
+
+const analysis: MallAnalysis = {
+  mallId: "80",
+  mallName: "경주몰",
+  website: "https://gjmall.cyso.co.kr",
+  analysis: {
+    structureType: "CYSO_PLATFORM",
+    urlPatterns: {
+      product: "https://gjmall.cyso.co.kr/shop/item.php?it_id={productId}",
+      category: "https://gjmall.cyso.co.kr/shop/list.php?ca_id={categoryId}"
+    },
+    sampleData: {
+      categories: [
+        {
+          id: "gj10",
+          name: "농수산품",
+          url: "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj10"
+        },
+        {
+          id: "gj1060",
+          name: "농산물",
+          url: "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj1060"
+        },
+        {
+          id: "gj1010",
+          name: "곡류",
+          url: "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj1010"
+        },
+        {
+          id: "gj1020",
+          name: "채소",
+          url: "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj1020"
+        },
+        {
+          id: "gj1030",
+          name: "과일",
+          url: "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj1030"
+        },
+        {
+          id: "gj20",
+          name: "가공식품",
+          url: "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj20"
+        },
+        {
+          id: "gj2010",
+          name: "장류",
+          url: "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj2010"
+        },
+        {
+          id: "gj2020",
+          name: "김치/절임류",
+          url: "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj2020"
+        }
+      ],
+      products: [
+        {
+          id: "1746878496",
+          name: "[농부가 간다] 달달방토, 대추방울토마토 3kg",
+          price: "19,000원",
+          url: "https://gjmall.cyso.co.kr/shop/item.php?it_id=1746878496"
+        },
+        {
+          id: "1622788192",
+          name: "경주 농산물",
+          price: "0원",
+          url: "https://gjmall.cyso.co.kr/shop/item.php?it_id=1622788192"
+        },
+        {
+          id: "1616726526",
+          name: "경주 특산물",
+          price: "0원",
+          url: "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616726526"
+        },
+        {
+          id: "1616724567",
+          name: "경주 가공식품",
+          price: "0원",
+          url: "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616724567"
+        },
+        {
+          id: "1513318009",
+          name: "경주 쌀",
+          price: "0원",
+          url: "https://gjmall.cyso.co.kr/shop/item.php?it_id=1513318009"
+        }
+      ]
+    },
+    dataLocation: {
+      categoryList: ".all_menu_list, .gnb_al_ul",
+      productList: ".sct_10",
+      productInfo: {
+        name: ".it_name",
+        price: ".member_price",
+        image: ".img img"
+      }
+    },
+    requiresJavaScript: false
+  }
+};
+
+export default analysis;

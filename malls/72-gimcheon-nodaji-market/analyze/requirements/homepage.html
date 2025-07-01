@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>하늘빛사과농장</title>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<meta name="description" content="김천시 봉천리 위치, 사과 재배법, 생산과정, 영농일기 수록, 조생부사, 양광, 홍옥 판매.">
+<script language=JavaScript>
+
+  /*document.onmousedown = mouseRightButtonDisabled;
+  function mouseRightButtonDisabled() {
+    if ( (event.button==2) || (event.button==3) ) {
+	     alert("마우스 오른쪽 버튼은 사용하실 수 없습니다.");
+	     return false;
+    } 
+  }*/
+
+
+  function notice() {
+    var checknoWin = getCookie("Notice")
+
+    if (!checknoWin) {
+      window.open('popup.htm','','toolbar=no,menubar=no,location=no, width=400, height=602, left=0, top=0');
+    }
+  }
+  function notice2() {
+    var checknoWin = getCookie("Notice1")
+
+    if (!checknoWin) {
+      window.open('popup2.htm','','toolbar=no,menubar=no,location=no, width=350, height=229, left=360, top=0');
+    }
+  }
+
+  function getCookie(name) 
+  {
+    begin = document.cookie.indexOf(name + "=");  
+    if (begin != -1) {
+      begin += name.length + 1
+      end = document.cookie.indexOf(';',begin)
+      if (end == -1) {
+        end = document.cookie.length
+      }
+      return unescape(document.cookie.substring(begin,end))
+    }
+  }
+
+function window.onload() {
+  notice();
+}
+
+
+  function MM_openBrWindow(theURL,winName,features) { //v2.0
+    window.open(theURL,winName,features);
+  }
+  // 강제적으로 여기서 호출
+
+</script></head>
+
+
+<frameset rows="0,*" frameborder="NO" border="0" framespacing="0"> 
+  <frame src="0px.htm" frameborder="NO" name="1px" scrolling="NO" marginwidth="0" marginheight="0" noresize>
+  <frame src="index1.html" frameborder="NO" noresize scrolling="AUTO" marginwidth="0" marginheight="0" name="index">
+</frameset>
+<noframes><body bgcolor="#FFFFFF">
+</body></noframes>
+</html>
+

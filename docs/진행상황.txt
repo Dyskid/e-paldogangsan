@@ -1,0 +1,21 @@
+
+  1. 네이버 스마트스토어 (Rate limiting 429 에러)
+
+  - 마켓경기 (9번): https://smartstore.naver.com/marketgyeonggi
+  - 순창로컬푸드쇼핑몰 (43번): https://smartstore.naver.com/schfarm
+  - 해피굿팜 (47번): https://smartstore.naver.com/hgoodfarm
+
+
+use playwright if  extraction requires browser automation tools due to JavaScript dependencies
+
+fail naver: 2  43 47
+
+  2. SSL 인증서 문제
+
+  - 지평선몰(김제) (36번): https://jpsmall.com/ - SSL 인증서가 http://www.jpsmall.com용이라 jpsmall.com과 매치되지 않음
+  - 김천노다지장터 (72번): http://gcnodaji.com/ - http로 되어있지만 https 접근 시 SSL 문제
+  - 임실몰 (42번): https://www.imsilin.kr/home - SSL 인증서 체인 검증 실패
+
+
+logic
+html - ts analyzer - analysis json - scraper - productjson

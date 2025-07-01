@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "claude hi1",
+      "type": "shell",
+      "command": "claude hi1",
+      "problemMatcher": [],
+      "presentation": {
+        "group": "claudeGroup"
+      }
+    },
+    {
+      "label": "claude hi2",
+      "type": "shell",
+      "command": "claude hi2",
+      "problemMatcher": [],
+      "presentation": {
+        "group": "claudeGroup"
+      }
+    },
+    {
+      "label": "claude hi3",
+      "type": "shell",
+      "command": "claude hi3",
+      "problemMatcher": [],
+      "presentation": {
+        "group": "claudeGroup"
+      }
+    },
+    {
+      "label": "claude all",
+      "dependsOn": ["claude hi1", "claude hi2", "claude hi3"],
+      "problemMatcher": []
+    }
+  ]
+}

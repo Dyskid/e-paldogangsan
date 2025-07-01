@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="referrer" content="same-origin" />
+
+        <!-- 메타정보 -->
+        <template shopby-partials="@partials/common-meta.html" shopby-partials-js="@partials/common-meta.js"></template>
+
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="/shopby-skin-pc.css" />
+        <link rel="stylesheet" href="/custom-common.css" />
+        <link rel="stylesheet" href="/main.css" />
+
+        <!-- 스킨 스크립트 -->
+        <script shopby-wcs-log type="text/javascript" src="https://wcs.naver.net/wcslog.js"></script>
+        <script src="https://shopby-skin.cdn-nhncommerce.com/lib/lodash_4_17_21.min.js"></script>
+        <script src="/libs/error.js"></script>
+        <script src="/libs/naver-pay.js"></script>
+        <script src="https://shopby-skin.cdn-nhncommerce.com/1.6.16/shopby-skin.js" crossorigin="anonymous"></script>
+        <script src="/libs/api-initialize-pc.js"></script>
+        <script src="/libs/custom-common.js"></script>
+        <script src="https://shopby-skin.cdn-nhncommerce.com/shopby-external-script.js"></script>
+    </head>
+
+    <body shopby-skin-container>
+        <!-- 디자인팝업 -->
+        <template shopby-partials="@partials/design-popup.html" shopby-partials-js="@partials/design-popup.js"></template>
+        <!-- 상단 레이아웃 -->
+        <template class="shopby-header" shopby-partials="@partials/common-header.html" shopby-partials-js="@partials/common-header.js"></template>
+
+        <main>
+            <article class="main__row main__row--full">
+                <figure>
+                    <template
+                        shopby-partials="@partials/skin-banner.html"
+                        shopby-partials-js="@partials/skin-banner.js"
+                        shopby-banner-group-code="BNSLIDE"
+                    ></template>
+                </figure>
+            </article>
+
+            <section class="main">
+
+                <article class="quickmenu-wrap">
+                    <ul class="quickmenu">
+                        <li>
+                          <a href="/pages/product/product-list.html?categoryNo=686868">
+                              <img src="/assets/_dbook/img/bn_quick_01.png">
+                              <span>쌀/잡곡</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/pages/product/product-list.html?categoryNo=685570">
+                              <img src="/assets/_dbook/img/bn_quick_02.png">
+                              <span>과일</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/pages/product/product-list.html?categoryNo=685512">
+                              <img src="/assets/_dbook/img/bn_quick_03.png">
+                              <span>채소</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/pages/product/product-list.html?categoryNo=685550">
+                              <img src="/assets/_dbook/img/bn_quick_04.png">
+                              <span>축산물</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/pages/product/product-list.html?categoryNo=685524">
+                              <img src="/assets/_dbook/img/bn_quick_05.png">
+                              <span>수산물</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/pages/product/product-list.html?categoryNo=685514">
+                              <img src="/assets/_dbook/img/bn_quick_06.png">
+                              <span>가공식품</span>
+                          </a>
+                        </li>
+                    </ul>
+                </article>
+
+                <!-- 메인진열1 -->
+                <article class="main__row main-best-product">
+                    <div class="main__row-display">
+                        <template
+                            shopby-partials="@partials/display-product.html"
+                            shopby-partials-js="@partials/display-product.js"
+                            shopby-section-id="SCPC0001"
+                        ></template>
+                    </div>
+                </article>
+                  
+                <!-- 메인진열2 -->
+                <article class="main__row">
+                    <div class="main__row-display">
+                        <template
+                            shopby-partials="@partials/display-product.html"
+                            shopby-partials-js="@partials/display-product.js"
+                            shopby-section-id="SCPC0003"
+                        ></template>
+                    </div>
+                </article>
+                  
+                <board-reviews-list
+                        page-number="1"
+                        ordering="DESC"
+                        sort-criterion="BEST_REVIEW"
+                    >
+                    <script type="text/x-handlebars-template">
+                        <div class='main__row'>
+                            <div slot='totalCount'>
+                                <div class="product-section__title-wrap">
+                                    <h2 class="product-section__title">상품후기</h2>
+                                    <p class="product-section__description">고객님들의 리얼한 상품후기</p>
+                                </div>                     
+                                <ul class='board-reviews-list__list' slot='items'>
+                                    {{#each items}}
+                                        <li class='board-reviews-list__item'
+                                            shopby-product-no="{{productInfo.no}}"
+                                            shopby-review-no="{{reviewNo}}"
+                                            >
+                                              <a href="/pages/product/product-detail.html?productNo={{productInfo.no}}">
+                                                  <section class='board-reviews-item__product-info'>
+                                                      {{img productInfo.thumbnailImage}}          
+                                                  </section>
+                                              </a>
+                                              <div class='board-reviews-item__top' shopby-on:click="REVIEW_DETAIL">
+           
+                                                  <div class='board-reviews-item__content'>
+                                                      <span class='board-reviews-item__content-text'>{{{content}}}</span>
+                                                  </div>                                                         
+
+                                                  <div class='board-reviews-item__write-info'>
+                                                      <div class='board-reviews-item__write'>
+                                                          <span class='board-reviews-item__writer'>
+                                                              {{register.name}}
+                                                          </span>
+                                                      </div>
+                                                      <div class="rating-star rating-star--sm">
+                                                          <span class='review-rate rating-star__progress'>{{reviewRate}}</span>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                        </li>
+                                    {{/each}}
+                                </ul>
+                            </div>
+                        </div>
+                    </script>
+                </board-reviews-list>                          
+
+                <!--  시군몰 연계 메뉴 -->
+                <article class="related-wrap">
+                	<div class="pc-content-width dis-flex-jsb">
+                		<div class="related-left">
+                			<div class="product-section__title-wrap">
+                				<h2 class="product-section__title">시· 군몰 연계 메뉴</h2>
+                				<p class="product-section__description">전북 시 · 군몰을 바로 만나보세요!</p>
+                			</div>
+                			<div class="related-map">
+                				<button type="button" class="btn btn--default btn-mall-imsil selected">임실군</button>
+                                <button type="button" class="btn btn--default btn-mall-jangsu ">장수군</button>
+                                <button type="button" class="btn btn--default btn-mall-muju ">무주군</button>
+                                <button type="button" class="btn btn--default btn-mall-gochang ">고창군</button>
+                                <button type="button" class="btn btn--default btn-mall-jinan ">진안군</button>
+                                <button type="button" class="btn btn--default btn-mall-iksan ">익산시</button>
+                                <button type="button" class="btn btn--default btn-mall-gimje ">김제시</button>
+                                <button type="button" class="btn btn--default btn-mall-wanju ">완주군</button>
+                                <button type="button" class="btn btn--default btn-mall-sunchang ">순창군</button>
+                                <button type="button" class="btn btn--default btn-mall-jeongeup ">정읍시</button>
+                			</div>
+                		</div>
+                		<div class="related-mall releated-right">
+                            <!-- 임실군 쇼핑몰 -->
+                            <div>
+                    			<div class="related-title dis-flex-jsb">
+                    				<div class="related-info dis-flex">
+                    					<img src="/assets/_dbook/img/img_logo_01.png" alt="임실군 쇼핑몰로고">
+                    					<div>
+                    						<h3>전북특별자치도 임실군 - 임실군 쇼핑몰</h3>
+                    						<a href="https://www.imsilin.kr" target="_blank">https://www.imsilin.kr</a>
+                    					</div>
+                    				</div><a class="btn-goto" href="https://www.imsilin.kr" target="_blank">방문하기</a>
+                    			</div>
+                    			<div class="related-introduce">
+                    				<h4>· 특산품 소개</h4>
+                    				<ul class="related-food dis-flex">
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_01.png" alt="치즈">
+                    						<p>치즈</p>
+                    					</li>
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_02.png" alt="요구르트">
+                    						<p>요구르트</p>
+                    					</li>
+                    				</ul>
+                    			</div>
+                    			<div class="related-introduce">
+                    				<h4>· 쇼핑몰 소개</h4>
+                    				<p>천혜의 자연경관과 역사문화자원이 공존하며 매력이 넘치는 청정고을 임실에서 나고 자란 농특산물을 경험해보세요!</p>
+                    			</div>
+                            </div>
+                            <!-- 장수몰 -->
+                            <div class="hidden">
+                    			<div class="related-title dis-flex-jsb">
+                    				<div class="related-info dis-flex">
+                    					<img src="/assets/_dbook/img/img_logo_02.png" alt="장수몰로고">
+                    					<div>
+                    						<h3>전북특별자치도 장수군 - 장수몰</h3>
+                    						<a href="https://장수몰.com" target="_blank">https://장수몰.com</a>
+                    					</div>
+                    				</div><a class="btn-goto" href="https://장수몰.com" target="_blank">방문하기</a>
+                    			</div>
+                    			<div class="related-introduce">
+                    				<h4>· 특산품 소개</h4>
+                    				<ul class="related-food dis-flex">
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_03.png" alt="사과">
+                    						<p>사과</p>
+                    					</li>
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_04.png" alt="오미자">
+                    						<p>오미자</p>
+                    					</li>
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_05.png" alt="한우">
+                    						<p>한우</p>
+                    					</li>
+                    				</ul>
+                    			</div>
+                    			<div class="related-introduce">
+                    				<h4>· 쇼핑몰 소개</h4>
+                    				<p>평균 해발 400미터 고대지역이라 오염되지 않은 청정 환경과 품질 좋은 농산물이 가득한 쇼핑몰입니다!</p>
+                    			</div>
+                            </div>
+                            <!-- 무주반딧불사이버장터 -->
+                            <div class="hidden">
+                    			<div class="related-title dis-flex-jsb">
+                    				<div class="related-info dis-flex">
+                    					<img src="/assets/_dbook/img/img_logo_03.png" alt="무주반딧불사이버장터로고">
+                    					<div>
+                    						<h3>전북특별자치도 무주군 - 무주반딧불사이버장터</h3>
+                    						<a href="https://www.mj1614.com/" target="_blank">https://www.mj1614.com/</a>
+                    					</div>
+                    				</div><a class="btn-goto" href="https://www.mj1614.com/" target="_blank">방문하기</a>
+                    			</div>
+                    			<div class="related-introduce">
+                    				<h4>· 특산품 소개</h4>
+                    				<ul class="related-food dis-flex">
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_03.png" alt="사과">
+                    						<p>사과</p>
+                    					</li>
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_06.png" alt="천마">
+                    						<p>천마</p>
+                    					</li>
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_07.png" alt="머루">
+                    						<p>머루</p>
+                    					</li>
+                    				</ul>
+                    			</div>
+                    			<div class="related-introduce">
+                    				<h4>· 쇼핑몰 소개</h4>
+                    				<p>청정본능 무주에서 나고 자란 농특산물을 만나보세요!</p>
+                    			</div>
+                            </div>
+                            <!-- 고창마켓 -->
+                            <div class="hidden">
+                    			<div class="related-title dis-flex-jsb">
+                    				<div class="related-info dis-flex">
+                    					<img src="/assets/_dbook/img/img_logo_04.png" alt="고창마켓로고">
+                    					<div>
+                    						<h3>전북특별자치도 고창군 - 고창마켓</h3>
+                    						<a href="https://noblegochang.com/" target="_blank">https://noblegochang.com/</a>
+                    					</div>
+                    				</div><a class="btn-goto" href="https://noblegochang.com/" target="_blank">방문하기</a>
+                    			</div>
+                    			<div class="related-introduce">
+                    				<h4>· 특산품 소개</h4>
+                    				<ul class="related-food dis-flex">
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_08.png" alt="땅콩">
+                    						<p>땅콩</p>
+                    					</li>
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_09.png" alt="고구마">
+                    						<p>고구마</p>
+                    					</li>
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_10.png" alt="장어">
+                    						<p>장어</p>
+                    					</li>
+                    				</ul>
+                    			</div>
+                    			<div class="related-introduce">
+                    				<h4>· 쇼핑몰 소개</h4>
+                    				<p>고창의 황토땅과 서해바다가 키운 건강하고 바른 농,수,축,산물을 판매하는 고창마켓에 놀러오세요!</p>
+                    			</div>
+                            </div>
+                            <!-- 진안고원몰 -->
+                            <div class="hidden">
+                    			<div class="related-title dis-flex-jsb">
+                    				<div class="related-info dis-flex">
+                    					<img src="/assets/_dbook/img/img_logo_05.png" alt="진안고원몰로고">
+                    					<div>
+                    						<h3>전북특별자치도 진안군 - 진안고원몰</h3>
+                    						<a href="https://smartstore.naver.com/jinangowonmall" target="_blank">https://smartstore.naver.com/jinangowonmall</a>
+                    					</div>
+                    				</div><a class="btn-goto" href="https://smartstore.naver.com/jinangowonmall" target="_blank">방문하기</a>
+                    			</div>
+                    			<div class="related-introduce">
+                    				<h4>· 특산품 소개</h4>
+                    				<ul class="related-food dis-flex">
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_21.png" alt="홍삼">
+                    						<p>홍삼</p>
+                    					</li>
+                    				</ul>
+                    			</div>
+                    			<div class="related-introduce">
+                    				<h4>· 쇼핑몰 소개</h4>
+                    				<p>청정 자연 진안고원에서 나고 자란 건강한 우리지역 농특산물을 경험해보세요!</p>
+                    			</div>
+                            </div>
+                            <!-- 익산몰 -->
+                            <div class="hidden">
+                    			<div class="related-title dis-flex-jsb">
+                    				<div class="related-info dis-flex">
+                    					<img src="/assets/_dbook/img/img_logo_06.png" alt="익산몰로고">
+                    					<div>
+                    						<h3>전북특별자치도 익산시 - 익산몰</h3>
+                    						<a href="https://www.iksanmall.com/" target="_blank">https://www.iksanmall.com/</a>
+                    					</div>
+                    				</div><a class="btn-goto" href="https://www.iksanmall.com/" target="_blank">방문하기</a>
+                    			</div>
+                    			<div class="related-introduce">
+                    				<h4>· 특산품 소개</h4>
+                    				<ul class="related-food dis-flex">
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_09.png" alt="고구마">
+                    						<p>땅콩</p>
+                    					</li>
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_11.png" alt="상추">
+                    						<p>상추</p>
+                    					</li>
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_12.png" alt="양파">
+                    						<p>양파</p>
+                    					</li>
+                    				</ul>
+                    			</div>
+                    			<div class="related-introduce">
+                    				<h4>· 쇼핑몰 소개</h4>
+                    				<p>농민이 생산하고 익산시가 판매하는 신뢰할 수 있는 익산몰에서 구매하세요!</p>
+                    			</div>
+                            </div>
+                            <!-- 김제시 -->
+                            <div class="hidden">
+                    			<div class="related-title dis-flex-jsb">
+                    				<div class="related-info dis-flex">
+                    					<img src="/assets/_dbook/img/img_logo_07.png" alt="지평선몰로고">
+                    					<div>
+                    						<h3>전북특별자치도 김제시 - 지평선몰</h3>
+                    						<a href="https://www.jpsmall.com/" target="_blank">https://www.jpsmall.com/</a>
+                    					</div>
+                    				</div><a class="btn-goto" href="https://www.jpsmall.com/" target="_blank">방문하기</a>
+                    			</div>
+                    			<div class="related-introduce">
+                    				<h4>· 특산품 소개</h4>
+                    				<ul class="related-food dis-flex">
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_13.png" alt="지평선쌀">
+                    						<p>지평선쌀</p>
+                    					</li>
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_14.png" alt="누룽지">
+                    						<p>누룽지</p>
+                    					</li>
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_15.png" alt="한우">
+                    						<p>한우</p>
+                    					</li>
+                    				</ul>
+                    			</div>
+                    			<div class="related-introduce">
+                    				<h4>· 쇼핑몰 소개</h4>
+                    				<p>지평선쌀, 농특축산물 등 김제에서 재배하고 생산하는 제품을 판매하는 쇼핑몰입니다!</p>
+                    			</div>
+                            </div>
+                            <!-- 완주군 -->
+                            <div class="hidden">
+                    			<div class="related-title dis-flex-jsb">
+                    				<div class="related-info dis-flex">
+                    					<img src="/assets/_dbook/img/img_logo_08.png" alt="완주몰로고">
+                    					<div>
+                    						<h3>전북특별자치도 완주군 - 완주몰</h3>
+                    						<a href="https://wanjumall.com/" target="_blank">https://wanjumall.com/</a>
+                    					</div>
+                    				</div><a class="btn-goto" href="https://wanjumall.com/" target="_blank">방문하기</a>
+                    			</div>
+                    			<div class="related-introduce">
+                    				<h4>· 특산품 소개</h4>
+                    				<ul class="related-food dis-flex">
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_22.png" alt="생강">
+                    						<p>생강</p>
+                    					</li>
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_17.png" alt="곶감">
+                    						<p>곶감</p>
+                    					</li>
+                    				</ul>
+                    			</div>
+                    			<div class="related-introduce">
+                    				<h4>· 쇼핑몰 소개</h4>
+                    				<p>자연을 그대로 담아 안전하고 신뢰할 수 있는 완주 상품을 만나보세요!</p>
+                    			</div>
+                            </div>
+                            <!-- 순창군 -->
+                            <div class="hidden">
+                    			<div class="related-title dis-flex-jsb">
+                    				<div class="related-info dis-flex">
+                    					<img src="/assets/_dbook/img/img_logo_09.png" alt="행복순창몰로고">
+                    					<div>
+                    						<h3>전북특별자치도 순창군 - 행복순창몰</h3>
+                    						<a href="https://www.happyscmall.com/shop/" target="_blank">https://www.happyscmall.com/shop/</a>
+                    					</div>
+                    				</div><a class="btn-goto" href="https://www.happyscmall.com/shop/" target="_blank">방문하기</a>
+                    			</div>
+                    			<div class="related-introduce">
+                    				<h4>· 특산품 소개</h4>
+                    				<ul class="related-food dis-flex">
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_18.png" alt="고추장">
+                    						<p>고추장</p>
+                    					</li>
+                    				</ul>
+                    			</div>
+                    			<div class="related-introduce">
+                    				<h4>· 쇼핑몰 소개</h4>
+                    				<p>농가는 생산에 집중, 순창군은 운영에 집중하여 소비자에게 양질의 농산물을 제공합니다!</p>
+                    			</div>
+                            </div>
+                            <!-- 정읍시 -->
+                            <div class="hidden">
+                    			<div class="related-title dis-flex-jsb">
+                    				<div class="related-info dis-flex">
+                    					<img src="/assets/_dbook/img/img_logo_10.png" alt="단풍미인쇼핑몰로고">
+                    					<div>
+                    						<h3>전북특별자치도 정읍시 - 단풍미인쇼핑몰</h3>
+                    						<a href="https://www.danpoongmall.kr/" target="_blank">https://www.danpoongmall.kr/</a>
+                    					</div>
+                    				</div><a class="btn-goto" href="https://www.danpoongmall.kr/" target="_blank">방문하기</a>
+                    			</div>
+                    			<div class="related-introduce">
+                    				<h4>· 특산품 소개</h4>
+                    				<ul class="related-food dis-flex">
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_19.png" alt="수박">
+                    						<p>씨없는<br/>수박</p>
+                    					</li>
+                    					<li class="dis-flex-fdc">
+                    						<img src="/assets/_dbook/img/img_pro_20.png" alt="한우">
+                    						<p>한우</p>
+                    					</li>
+                    				</ul>
+                    			</div>
+                    			<div class="related-introduce">
+                    				<h4>· 쇼핑몰 소개</h4>
+                    				<p>정읍시의 우수 농산물을 홍보하고 판매하는 쇼핑몰입니다!</p>
+                    			</div>
+                            </div>
+                		</div>
+                	</div>
+                </article>
+
+                <!-- 인스타그램 피드 (감춤) -->
+                <article class="main__row main__row--banner-single" style="display:none;">
+                    <div class="skin-banner--main-center-single">
+                        <!-- 인스타그램 피드 -->
+                        <template shopby-partials="@partials/instagram.html"></template>
+                    </div>
+                </article>
+            </section>
+        </main>
+
+        <!-- 최근 본 상품(오프캔버스) -->
+        <template shopby-partials="@partials/recent-product.html"></template>
+        <!-- 퀵메뉴 (최상단 이동 + 최근 본 상품) -->
+        <template shopby-partials="@partials/quick-menu.html"></template>
+        <!-- 레이어 모달  (알럿, 컴펌 사용 시 필요)-->
+        <template shopby-partials="@partials/modal.html"></template>
+        <!-- 하단 레이아웃 -->
+        <template shopby-partials="@partials/common-footer.html" shopby-partials-js="@partials/common-footer.js"></template>
+
+        <script src="/libs/external-service-config.js"></script>
+        <script src="/index.js"></script>
+        <script src="/libs/intro.js"></script>
+        <script src="/libs/naver-marketing-config.js" shopby-use-page-script></script>
+    </body>
+</html>

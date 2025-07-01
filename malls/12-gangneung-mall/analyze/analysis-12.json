@@ -1,0 +1,38 @@
+{
+  "mallId": 12,
+  "mallEngName": "gangneung-mall",
+  "mallName": "강릉몰",
+  "url": "https://gangneung-mall.com/",
+  "status": "accessible",
+  "productCategories": [
+    "수산물",
+    "축산물",
+    "농산물",
+    "과일",
+    "가공식품/커피",
+    "절임식품",
+    "건강식품",
+    "소스/양념",
+    "생활용품"
+  ],
+  "urlPatterns": {
+    "homepage": "https://gangneung-mall.com/",
+    "category": "https://gangneung-mall.com/goods/catalog?category={categoryCode}",
+    "product": "https://gangneung-mall.com/goods/view?no={productId}",
+    "search": "https://gangneung-mall.com/goods/search?search_text={keyword}"
+  },
+  "pagination": {
+    "type": "page-based",
+    "pattern": "page={pageNumber}"
+  },
+  "requiresJavaScript": true,
+  "dataStructure": {
+    "productListSelector": ".goods_list li, .goods_list_style4",
+    "productItemSelector": "li.goods_list_style4",
+    "productNameSelector": ".goods_name_area .name",
+    "productPriceSelector": ".goods_price_area .sale_price .num",
+    "productImageSelector": ".item_img_area img",
+    "productLinkSelector": ".item_img_area a, .goods_name_area a"
+  },
+  "timestamp": "2025-07-01T09:48:29.712Z"
+}

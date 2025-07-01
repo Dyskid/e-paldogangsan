@@ -1,0 +1,1877 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="//www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head><script>(function(i, s, o, g, r) {
+    var a = s.createElement(o);
+    var m = s.getElementsByTagName(o)[0];
+    a.async = true;
+    a.src = g;
+    a.onload = function() {
+        if (i[r].init) {
+            i[r].init('https://js-error-tracer-api.cafe24.com', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJqaW5kb2FyaXJhbmdtYWxsLmNhZmUyNC5jb20iLCJhdWQiOiJqcy1lcnJvci10cmFjZXItYXBpLmNhZmUyNC5jb20iLCJtYWxsX2lkIjoiamluZG9hcmlyYW5nbWFsbCIsInNob3Bfbm8iOjEsInBhdGhfcm9sZSI6IlBST0RVQ1RfTElTVCIsImxhbmd1YWdlX2NvZGUiOiJrb19LUiIsImNvdW50cnlfY29kZSI6IktSIiwiaXNfeXRzIjpmYWxzZSwiaXNfY29udGFpbmVyIjpmYWxzZSwid29ya3NwYWNlIjoicHJvZHVjdGlvbiJ9.EO0W-zsFiV6PZcxh8aflSqEZCsBM9FA2UoheXueTaLk', {"errors":{"path":"\/api\/v1\/store","collectWindowErrors":true,"preventDuplicateReports":true,"storageKeyPrefix":"EC_JET.PRODUCT_LIST","samplingEnabled":true,"samplingRate":0.5},"vitals":{"path":"\/api\/v1\/vitals","samplingEnabled":true,"samplingRate":0.3},"resources":{"path":"\/api\/v1\/resources","samplingEnabled":true,"samplingRate":0.5,"durationThreshold":3000}});
+        }
+    };
+    m.parentNode.insertBefore(a, m);
+}(window, document, 'script', '//optimizer.poxo.com/jet/jet.js', 'EC_JET'));</script>
+<script type="text/javascript">window.CAFE24 = window.CAFE24 || {};CAFE24.ROUTE = {"is_mobile":false,"is_need_route":false,"language_code":"ZZ","path":{"origin":"\/product\/list.html","result":"\/product\/list.html","prefix":""},"shop_no":0,"skin_code":"default","support_language_list":{"ar":"ar_EG","ar-EG":"ar_EG","de":"de_DE","de-DE":"de_DE","en":"en_US","en-IN":"en_IN","en-PH":"en_PH","en-US":"en_US","es":"es_ES","es-ES":"es_ES","hi":"hi_IN","hi-IN":"hi_IN","id":"id_ID","id-ID":"id_ID","it":"it_IT","it-IT":"it_IT","ja":"ja_JP","ja-JP":"ja_JP","ko":"ko_KR","ko-KR":"ko_KR","ms":"ms_MY","ms-MY":"ms_MY","pt":"pt_PT","pt-PT":"pt_PT","ru":"ru_RU","ru-RU":"ru_RU","th":"th_TH","th-TH":"th_TH","tr":"tr_TR","tr-TR":"tr_TR","vi":"vi_VN","vi-VN":"vi_VN","zh":"zh_CN","zh-CN":"zh_CN","zh-HK":"zh_HK","zh-MO":"zh_MO","zh-SG":"zh_SG","zh-TW":"zh_TW"}};</script><script type="text/javascript">if (typeof EC_ROUTE === "undefined") {
+    /**
+     * 프론트용 라우트 플러그인
+     * @type {{bInit: boolean, init: EC_ROUTE.init}}
+     * CAFE24.ROUTE 참조
+     */
+    var EC_ROUTE = {
+        EC_DOMAIN_PATH_INFO: 'EC_DOMAIN_PATH_INFO',
+        bInit: false,
+        aFromList: [],
+        aToList: [],
+        aCleanFilter: null,
+        init: function () {
+            if (this.bInit || typeof CAFE24.ROUTE === 'undefined') {
+                return;
+            }
+            this.bInit = true;
+            this.aCleanFilter = [
+                /^shop[1-9][0-9]*$/,
+                /^(m|p)$/,
+                new RegExp('^(' + Object.keys(CAFE24.ROUTE.support_language_list).join('|')  + ')$'),
+                /^skin-(base|skin[1-9][0-9]*|mobile[0-9]*)$/,
+            ];
+        },
+        isNeedRoute: function ()
+        {
+            return CAFE24.ROUTE.is_need_route;
+        },
+        /**
+         *
+         * @param iShopNo
+         * @param bMobile
+         * @param sFrontLanguage
+         * @param sSkinCode
+         * @returns {*|string}
+         */
+        getUrlDomain: function (iShopNo, bMobile, sFrontLanguage, sSkinCode)
+        {
+            var oRouteConfig = {};
+            if (typeof iShopNo == 'undefined') {
+                oRouteConfig.shop_no = CAFE24.SDE_SHOP_NUM;
+            } else {
+                oRouteConfig.shop_no = iShopNo;
+            }
+            if (typeof bMobile == 'undefined') {
+                oRouteConfig.is_mobile = false;
+            } else {
+                oRouteConfig.is_mobile = bMobile;
+            }
+            if (typeof sFrontLanguage == 'undefined') {
+                oRouteConfig.language_code = '';
+            }else {
+                oRouteConfig.language_code = sFrontLanguage; // 내부에서 로직으로 동작할땐 언어_지역 형태의 로케일 형태를 따른다.
+            }
+            if (typeof sSkinCode == 'undefined') {
+                oRouteConfig.skin_code = '';
+            }else {
+                oRouteConfig.skin_code = sSkinCode;
+            }
+
+            var sDomain = '';
+            if (oRouteConfig.shop_no != CAFE24.SDE_SHOP_NUM) {
+                // 접근된 다른 멀티샵 도메인 정보는 primary domain 를 조회해야함으로 ajax 를 통해 정보를 얻는다.
+                sDomain = this._getUrlDomainMultishop(oRouteConfig);
+            } else {
+                // 샵이 동일할 경우에는 접근된 domain 에 path 정보만 정리하여 반환함.
+                sDomain = this._getUrlDomain(oRouteConfig);
+            }
+            return sDomain;
+        },
+        _getUrlDomainMultishop: function (oRouteConfig)
+        {
+            var sDomain = '';
+            EC$.ajax({
+                type: 'GET',
+                url: '/exec/front/Shop/Domain',
+                data: {
+                    '_shop_no' : oRouteConfig.shop_no,
+                    'is_mobile' : oRouteConfig.is_mobile,
+                    'language_code' : oRouteConfig.language_code,
+                    'skin_code' : oRouteConfig.skin_code,
+                },
+                async: false,
+                dataType: 'json',
+                cache: true,
+                success: function(oResult) {
+                    switch (oResult.code) {
+                        case '0000' :
+                            sDomain = oResult.data;
+                            break;
+                        default :
+                            break;
+                    }
+                    return false;
+                }
+            });
+            return sDomain;
+        },
+        _getUrlDomain: function (oRouteConfig)
+        {
+            oRouteConfig.domain = this._getCreateHost(oRouteConfig);
+            return location.protocol + '//' + oRouteConfig.domain + this._getCreateUri(oRouteConfig);
+        },
+        _getCreateHost : function (oRouteConfig)
+        {
+            var sHost = location.host;
+            var aHost = sHost.split('.');
+            if (this.isBaseDomain(sHost)) {
+                if (aHost.length > 3) {
+                    aHost[0] = '';
+                }
+            } else if (oRouteConfig.is_mobile) {
+                if (this.isMobileDomain()) {
+                    oRouteConfig.is_mobile = false;
+                }
+            }
+            return aHost.filter(Boolean).join('.');
+        },
+        _getCreateUri: function (oRouteInfo)
+        {
+            var aUrl = [];
+            if (this.isBaseDomain() && oRouteInfo.shop_no > 1) {
+                aUrl.push('shop' + oRouteInfo.shop_no);
+            }
+            if (oRouteInfo.is_mobile) {
+                aUrl.push('m');
+            }
+            if (oRouteInfo.language_code != 'ZZ' && oRouteInfo.language_code != '') {
+                var iIndex = Object.values(CAFE24.ROUTE.support_language_list).indexOf(oRouteInfo.language_code);
+                if (iIndex !== -1) {
+                    aUrl.push(Object.keys(CAFE24.ROUTE.support_language_list)[iIndex]);
+                }
+            }
+            if (this.isBaseDomain() && oRouteInfo.skin_code != 'default' && oRouteInfo.skin_code != '') {
+                aUrl.push('skin-' + oRouteInfo.skin_code);
+            }
+            var sUrl= '/';
+            if (aUrl.length > 0) {
+                sUrl= '/' + aUrl.join('/');
+                sUrl = this.rtrim(sUrl, '/');
+            }
+            return sUrl;
+        },
+        /**
+         * en, en-US => en_US
+         */
+        convertValidLanguageCode: function (sUrlLanguageCode)
+        {
+            if (typeof CAFE24.ROUTE.support_language_list[sUrlLanguageCode] != 'undefined') {
+                return CAFE24.ROUTE.support_language_list[sUrlLanguageCode];
+            }
+            return false;
+        },
+        isMobileDomain: function (sHost)
+        {
+            if (typeof sHost == 'undefined') {
+                sHost = location.host;
+            }
+            var aMatched = sHost.match(/^(m|mobile|skin\-mobile|skin\-mobile[0-9]+[\-]{2}shop[0-9]+|skin\-mobile[0-9]+|mobile[\-]{2}shop[0-9]+)\./i);
+            return aMatched != null;
+        },
+        isBaseDomain: function (sHost)
+        {
+            if (typeof sHost == 'undefined') {
+                sHost = location.host;
+            }
+            return sHost.indexOf(CAFE24.GLOBAL_INFO.getRootDomain()) !== -1;
+        },
+        removePrefixUrl: function (sUrl)
+        {
+            if (this.isNeedRoute()) {
+                sUrl = sUrl.replace(this.getPrefixUrl('/'), '/'); // 자동으로  prefix 붙은 영역을 제거해준다.
+            }
+            return sUrl;
+        },
+        getPrefixUrl: function (sUrl)
+        {
+            if (this.isNeedRoute() === false) {
+                return sUrl;
+            }
+            if (sUrl.indexOf('/') !== 0) {
+                return sUrl;
+            }
+            if (sUrl.match(/^\/{2,}/) !== null) {
+                return sUrl;
+            }
+
+            var iCachedPosition = this.aFromList.indexOf(sUrl);
+            if (iCachedPosition > -1) {
+                return this.aToList[iCachedPosition];
+            }
+
+            var bTailSlash = (sCleanUrl !== '/' && sUrl.substr(-1) === '/');
+            var sCleanUrl = this.getCleanUrl(sUrl);
+            var aPrefixPart = CAFE24.ROUTE.path.prefix.split('/');
+            var aUrlPart = sCleanUrl.split('/');
+            var bMatched = true;
+            var sReturnUrl = sCleanUrl;
+            if (aUrlPart.length < aPrefixPart.length) {
+                bMatched = false;
+            } else {
+                for (var i = 0; i < aPrefixPart.length ; i++) {
+                    if (aPrefixPart[i] != aUrlPart[i]) {
+                        bMatched = false;
+                        break;
+                    }
+                }
+            }
+            if (bMatched === false) {
+                if (sCleanUrl == '/') {
+                    sReturnUrl = CAFE24.ROUTE.path.prefix;
+                } else {
+                    sReturnUrl = CAFE24.ROUTE.path.prefix +  sCleanUrl;
+                }
+                sReturnUrl = bTailSlash ? sReturnUrl : this.rtrim(sReturnUrl, '/')
+                this.aFromList.push(sUrl);
+                this.aToList.push(sReturnUrl);
+            }
+            return sReturnUrl;
+        },
+        /**
+         * document.location.pathname 이 필요할 경우 사용한다.
+         * @returns {*}
+         */
+        getPathName: function()
+        {
+            if (typeof CAFE24.ROUTE.path.result == 'undefined') {
+                return document.location.pathname;
+            }
+            return CAFE24.ROUTE.path.result;
+        },
+        rtrim: function (str, chr)
+        {
+            var rgxtrim = (!chr) ? new RegExp('\\s+$') : new RegExp(chr+'+$');
+            return str.replace(rgxtrim, '');
+        },
+        getShopNo: function ()
+        {
+            return CAFE24.ROUTE.shop_no;
+        },
+        getSkinCode: function ()
+        {
+            return CAFE24.ROUTE.skin_code;
+        },
+        getLanguageCode: function ()
+        {
+            return CAFE24.ROUTE.language_code;
+        },
+        getMobile: function ()
+        {
+            return CAFE24.ROUTE.is_mobile;
+        },
+        getIsMobile: function ()
+        {
+            return CAFE24.ROUTE.is_mobile || CAFE24.ROUTE.skin_code.match(/^mobile[0-9]*$/);
+        },
+        getCleanUrl: function (sUrl)
+        {
+            if (sUrl === '/') {
+                return sUrl;
+            }
+
+            var aUrl = sUrl.split('/');
+            aUrl.shift();
+
+            if (aUrl.length < 1) {
+                return sUrl;
+            }
+
+            // 현재 4 depth 까지 미리보기 기능이 구현되어있음
+            var iPos = 0;
+            var bFind = false;
+            for (var i = 0; i < aUrl.length ; i++) {
+                bFind = false;
+                for (var iSub = iPos, iSubCount = this.aCleanFilter.length; iSub < iSubCount ; iSub++) {
+                    if (aUrl[i].match(this.aCleanFilter[iSub]) !== null) {
+                        bFind = true;
+                        iPos = iSub + 1;
+                        aUrl.splice(i, 1);
+                        i--; // aUrl 을 삭제해 주었으니 검색 조건을 -1 제거하여 초기화 한다. 다음 for i++ 로 증감 조회됨.
+                        break;
+                    }
+                }
+                if (bFind === false) {
+                    break;
+                }
+            }
+            return '/' + aUrl.join('/');
+        },
+        getIsEasyUrl : function ()
+        {
+            return !window.location.pathname.match(/^[\w\/\-\.]+(php|html|htm)$/i);
+        }
+    };
+    EC_ROUTE.init();
+}
+</script>
+<meta name="path_role" content="PRODUCT_LIST" />
+<meta name="author" content="진도아리랑몰(jindoarirangmall.com)" />
+<meta name="description" content="진도아리랑몰 우수 농산물 소개" />
+<meta name="keywords" content="진도,아리랑,아리랑몰,진도아리랑몰,특산물,농수산물,농산물,농산물선물세트,추석,설날,명절,추석선물,명절선물,가족선물,농산물선물,선물농산물" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><!-- PG크로스브라우징필수내용 --><meta http-equiv="Cache-Control" content="no-cache"/><meta http-equiv="Expires" content="0"/><meta http-equiv="Pragma" content="no-cache"/><!-- // PG크로스브라우징필수내용 --><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;family=Noto+Sans+KR:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet"/><!-- 해당 CSS는 쇼핑몰 전체 페이지에 영향을 줍니다. 삭제와 수정에 주의해주세요. --><!-- FONT --><link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&amp;display=swap&amp;subset=korean" rel="stylesheet" type="text/css"/><link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;display=swap" rel="stylesheet" type="text/css"/><!-- CSS --><!-- JS.cycle2 --><script src="/_dbook/js/lib/jquery.js"></script><script src="/_dbook/js/lib/jquery.cycle2.js"></script><script src="/_dbook/js/lib/jquery.cycle2.carousel.js"></script><script>$.fn.cycle.defaults.autoSelector = '.cycle-slideshow';</script><!-- JS -->
+<meta name="viewport" content="width=device-width">
+<meta name="naver-site-verification" content="90dad6e28c055c5ebb2f706352bd38403fa07d52" />
+<meta property="og:title" content="신선하고 품질 좋은 진도특산물을 진도아리랑몰에서 만나보세요.">
+<meta property="og:image" content="http://jindoarirangmall.com/_wg/img/logo.png">
+<meta name="twitter:image" content="http://jindoarirangmall.com/_wg/img/logo.png">
+<meta property="og:description" content="신선하고 품질 좋은 진도특산물을 진도아리랑몰에서 만나보세요." />
+<meta name="description" content="전복장,현미찹쌀,건표고버섯,구기자의효능,진도울금,신동진쌀10KG,신동진쌀20KG,다시마팩,자연산돌미역,김스낵,파래김,곱창돌김,산모미역,다시마" />
+<link rel="canonical" href="http://jindoarirangmall.com/" />
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "c5783b9f582208";
+if(window.wcs) {
+  wcs_do();
+}
+</script>
+<link rel="canonical" href="https://jindoarirangmall.com/category/농산물/24/?page=2" />
+<link rel="alternate" href="https://m.jindoarirangmall.com/category/농산물/24/?page=2" />
+<meta property="og:url" content="https://jindoarirangmall.com/category/농산물/24/?page=2" />
+<meta property="og:title" content="농산물 - 농산물" />
+<meta property="og:description" content="농산물" />
+<meta property="og:site_name" content="진도아리랑몰" />
+<meta property="og:type" content="product.group" />
+<meta property="og:image" content="https://jindoarirangmall.com/web/upload/share-image-1-a6d4885beba29e73dcc8f381c44fe581.jpg" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="농산물 - 농산물" />
+<meta name="twitter:description" content="농산물" />
+<meta name="twitter:image" content="https://jindoarirangmall.com/web/upload/share-image-1-a6d4885beba29e73dcc8f381c44fe581.jpg" />
+<meta name="naver-site-verification" content="90dad6e28c055c5ebb2f706352bd38403fa07d52" />
+<link rel="shortcut icon" href="/web/upload/favicon-e4f5a581275b46f6ffdeea39c2b03f80.ico" />
+<link rel="manifest" href="/web/upload/pwa/manifest-ad19e3180903d7b542b0e1af333577f7.json" crossorigin="anonymous" />
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">var CAFE24API = { instance : [], MALL_ID : 'jindoarirangmall', SHOP_NO : 1, init : function (appInfo) { if (typeof appInfo == 'object') { if (appInfo.hasOwnProperty('client_id')) { var appKey = appInfo.client_id; } } else { var appKey = appInfo; } if (appKey) { if (!this.instance[appKey]) { CAFE24API.clientId = appKey; if (appInfo.hasOwnProperty('version')) { CAFE24API.version = appInfo.version; } else { if (CAFE24API.hasOwnProperty('version')) { delete CAFE24API.version; } } var copyObject = CAFE24API.constructor(); for (var attr in CAFE24API) { if (CAFE24API.hasOwnProperty(attr)) { copyObject[attr] = CAFE24API[attr]; } } this.instance[appKey] = copyObject; } return this.instance[appKey]; } }, initializeXhr : function () { try { return new XMLHttpRequest(); } catch (error) { return new window.ActiveXObject('Microsoft.XMLHTTP'); } }, fullPath: function (url) { return 'https://jindoarirangmall.cafe24api.com' + url; }, getLoginProvider: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, {'login': CAPP_ASYNC_METHODS.AppCommon.getLoginProvider()}); }, getCustomerProvider: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, {'login': CAPP_ASYNC_METHODS.AppCommon.getCustomerProvider()}); }, getMemberID: function (callback) { if (!CAPP_ASYNC_METHODS.IS_LOGIN) { callback(null); } else { callback(CAPP_ASYNC_METHODS.AppCommon.getMemberID()); } }, getEncryptedMemberId: function (client_id, callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, CAPP_ASYNC_METHODS.AppCommon.getEncryptedMemberId(client_id)); }, getMemberInfo: function (callback) { callback({'id': CAPP_ASYNC_METHODS.AppCommon.getMemberInfo()}); }, getCustomerIDInfo: function (callback) { if (!CAFE24API.__scopeErr(callback, 'application')) { return; } callback(null, {'id': CAPP_ASYNC_METHODS.AppCommon.getCustomerIDInfo()}); }, getCustomerInfo: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, {'customer': CAPP_ASYNC_METHODS.AppCommon.getCustomerInfo()}); }, getMileageInfo: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, {'mileage': CAPP_ASYNC_METHODS.AppCommon.getMileageInfo()}); }, getPointInfo: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, {'point': CAPP_ASYNC_METHODS.AppCommon.getPointInfo()}); }, getDepositInfo: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, {'deposit': CAPP_ASYNC_METHODS.AppCommon.getDepositInfo()}); }, getCreditInfo: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'customer')) { return; } callback(null, {'credit': CAPP_ASYNC_METHODS.AppCommon.getCreditInfo()}); }, getCartList: function (callback) { if (!CAFE24API.__scopeErr(callback, 'personal')) { return; } CAPP_ASYNC_METHODS.AppCommon.getCartList().then(function(data){ callback(null, {'carts': data}); }); }, getCartInfo: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'personal')) { return; } callback(null, {'cart': CAPP_ASYNC_METHODS.AppCommon.getCartInfo()}); }, getCartItemList: function (callback) { if (!CAFE24API.__scopeErr(callback, 'order')) { return; } callback(null, {'items': CAPP_ASYNC_METHODS.AppCommon.getCartItemList()}); }, getCartCount: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'personal')) { return; } callback(null, CAPP_ASYNC_METHODS.AppCommon.getCartCount()); }, getCouponCount: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'promotion')) { return; } callback(null, CAPP_ASYNC_METHODS.AppCommon.getCouponCount()); }, getWishCount: function (callback) { if (!CAFE24API.__chkValidSessionScope(callback, 'personal')) { return; } callback(null, CAPP_ASYNC_METHODS.AppCommon.getWishCount()); }, getShopInfo: function (callback) { if (!CAFE24API.__scopeErr(callback, 'store')) { return; } callback(null, {'shop': CAPP_ASYNC_METHODS.AppCommon.getShopInfo()}); }, addCurrentProductToCart: function (mall_id, time, app_key, member_id, hmac, callback) { if (!CAFE24API.__scopeErr(callback, 'order')) { return; } CAPP_ASYNC_METHODS.AppCommon.addCurrentProductToCart(mall_id, time, app_key, member_id, hmac).then(function(data){ callback(null, {'cart': data}); }).catch(function (data) { if (data) { callback(new Error('422'), {'error': {code: data.code, message: data.message}}); } else { callback(new Error('422'), {'error': {code: 422, message: 'This sdk is not available on the current page'}}); } }); }, precreateOrder: function (mall_id, time, app_key, member_id, hmac, callback) { if (!CAFE24API.__scopeErr(callback, 'order')) { return; } CAPP_ASYNC_METHODS.AppCommon.precreateOrder(mall_id, time, app_key, member_id, hmac).then(function(data){ callback(null, {'order': data}); }).catch(function (data) { if (data) { callback(new Error('422'), {'error': {code: data.code, message: data.message}}); } else { callback(new Error('422'), {'error': {code: 422, message: 'This sdk is not available on the current page'}}); } }); }, getOrderItemList: function (start_date, end_date, order_status, page, count, order_id, callback) { if (!CAFE24API.__scopeErr(callback, 'order')) { return; } CAPP_ASYNC_METHODS.AppCommon.getOrderItemList(start_date, end_date, order_status, page, count, order_id).then(function(data){ callback(null, {'items': data}); }).catch(function (data) { if (data) { callback(new Error('422'), {'error': {code: data.code, message: data.message}}); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }); }, getOrderDetailInfo: function (shop_no, order_id, callback) { if (!CAFE24API.__scopeErr(callback, 'order')) { return; } CAPP_ASYNC_METHODS.AppCommon.getOrderDetailInfo(shop_no, order_id).then(function(data){ callback(null, {'orders': data}); }).catch(function (data) { if (data) { callback(new Error('422'), {'error': {code: data.code, message: data.message}}); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }); }, getClaimableItemList: function (order_id, customer_service_type, callback) { if (!CAFE24API.__scopeErr(callback, 'order')) { return; } CAPP_ASYNC_METHODS.AppCommon.getClaimableItemList(order_id, customer_service_type).then(function(data){ callback(null, {'items': data}); }).catch(function (data) { if (data) { callback(new Error('422'), {'error': {code: data.code, message: data.message}}); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }); }, emptyCart: function (basket_shipping_type, callback) { if (!CAFE24API.__scopeErr(callback, 'personal')) { return; } CAPP_ASYNC_METHODS.AppCommon.emptyCart(basket_shipping_type).then(function (data) { callback(null, {'result': data}); }).catch(function (data) { if (data) { callback(new Error('422'), {'error': {code: data.code, message: data.message}}); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }) ; }, deleteCartItems: function (basket_shipping_type, product_list, callback) { if (!CAFE24API.__scopeErr(callback, 'personal')) { return; } CAPP_ASYNC_METHODS.AppCommon.deleteCartItems(basket_shipping_type, product_list).then(function (data) { callback(null, {'result': data}); }).catch(function (data) { if (data) { callback(new Error('422'), {'error': {code: data.code, message: data.message}}); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }) ; }, addCart: function (basket_type, prepaid_shipping_fee, product_list, callback) { if (!CAFE24API.__scopeErr(callback, 'personal')) { return; } CAPP_ASYNC_METHODS.AppCommon.addCart(basket_type, prepaid_shipping_fee, product_list).then(function (data) { callback(null, data); }).catch(function (data) { if (data) { callback(new Error('422'), {'error': {code: data.code, message: data.message}}); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }) }, addBundleProductsCart: function (basket_type, prepaid_shipping_fee, product_list, callback) { if (!CAFE24API.__scopeErr(callback, 'personal')) { return; } CAPP_ASYNC_METHODS.AppCommon.addBundleProductsCart(basket_type, prepaid_shipping_fee, product_list).then(function (data) { callback(null, data); }).catch(function (data) { if (data) { callback(new Error('422'), {'error': {code: data.code, message: data.message}}); } else { callback(new Error(422), { 'error': { code: 422, message: 'This sdk is not available on the current page' } }); } }) }, get : function(url, callback) { return CAFE24API.complete('GET', url, this, null, callback); }, post : function(url, params, callback) { return CAFE24API.complete('POST', url, this, params, callback); }, put : function(url, params, callback) { return CAFE24API.complete('PUT', url, this, params, callback); }, delete : function(url, callback) { return CAFE24API.complete('DELETE', url, this, null, callback); }, complete : function(method, url, obj, params, callback) { var xhr = CAFE24API.sendXhr(method, url, obj, params, callback); xhr.onreadystatechange = function () { if (xhr.readyState === XMLHttpRequest.DONE) { if (xhr.status >= 200 && xhr.status <= 208) { callback(null, JSON.parse(xhr.responseText)); } else { callback(new Error(xhr.status), JSON.parse(xhr.responseText)); } } }; }, sendXhr : function (method, url, obj, params, callback) { if (method !== 'POST') { var url = obj.fullPath(url); } var xhr = obj.initializeXhr(); var queryVars = {}; if (obj.clientId) queryVars['cafe24_app_key'] = obj.clientId; if (obj.version) queryVars['cafe24_api_version'] = obj.version; if (params === null) { var seperator = url.indexOf('?') == -1 ? '?' : '&'; var queryString = []; for (var key in queryVars) { queryString.push(key + '=' + queryVars[key]); } if (queryString.length > 0) { url = url + seperator + queryString.join('&'); } } xhr.open(method, url, true); if (typeof params == 'object' && params !== null) { xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded; charset=utf-8'); for (var key in queryVars) { params[key] = queryVars[key]; } params = 'formData=' + JSON.stringify(params); } xhr.send(params || null); return xhr; }, __sessionErr: function (callback) { callback(new Error(403), {'error': {code: 403, message: 'Failed to get session. Only available when log in.'}}); }, __scopeErr: function (callback, scope) { if (typeof CAFE24.APPSCRIPT_SDK_DATA != "undefined" && jQuery.inArray(scope, CAFE24.APPSCRIPT_SDK_DATA ) > -1 ) { return true; } callback(new Error(403), {'error': {code: 403, message: 'You do not have the necessary authority(scope) to use the SDK.'}}); }, __chkValidSessionScope: function (callback, scope) { if (!CAPP_ASYNC_METHODS.IS_LOGIN) { CAFE24API.__sessionErr(callback); return false; } if (!CAFE24API.__scopeErr(callback, scope)) { return false; } return true; } }; </script>
+<script type="text/javascript">
+window.CAFE24 = window.CAFE24 || {};
+CAFE24.MANIFEST_CACHE_REVISION = '2506251415';
+CAFE24.getDeprecatedNamespace = function(sDeprecatedNamespace, sSupersededNamespace) {
+var sNamespace = sSupersededNamespace 
+? sSupersededNamespace 
+: sDeprecatedNamespace.replace(/^EC_/, '');
+return CAFE24[sNamespace];
+}
+CAFE24.FRONT_LANGUAGE_CODE = "ko_KR";
+CAFE24.MOBILE = false;
+CAFE24.MOBILE_DEVICE = false;
+CAFE24.MOBILE_USE = true;
+var EC_MOBILE = CAFE24.MOBILE;
+var EC_MOBILE_DEVICE = CAFE24.MOBILE_DEVICE;
+var EC_MOBILE_USE = CAFE24.MOBILE_USE;
+CAFE24.SKIN_CODE = "skin4";
+CAFE24.FRONT_EXTERNAL_SCRIPT_VARIABLE_DATA = {"common_member_id_crypt":""};
+var EC_FRONT_EXTERNAL_SCRIPT_VARIABLE_DATA = CAFE24.getDeprecatedNamespace('EC_FRONT_EXTERNAL_SCRIPT_VARIABLE_DATA');
+CAFE24.SDE_SHOP_NUM = 1;CAFE24.SHOP = {getLanguage : function() { return "ko_KR"; },getCurrency : function() { return "KRW"; },getFlagCode : function() { return "KR"; },getTimezone: function() { return "Asia/Seoul" },getDateFormat: function() { return "Y-m-d" },isMultiShop : function() { return false; },isDefaultShop : function() { return true; },isDefaultLanguageShop : function(sLanguageCode) { return SHOP.isDefaultShop() && SHOP.isLanguageShop(sLanguageCode); },isKR : function() { return true; },isUS : function() { return false; },isJP : function() { return false; },isCN : function() { return false; },isTW : function() { return false; },isES : function() { return false; },isPT : function() { return false; },isVN : function() { return false; },isPH : function() { return false; },getCountryAndLangMap : function() { return {
+"KR": "ko_KR",
+"US": "en_US",
+"JP": "ja_JP",
+"CN": "zh_CN",
+"TW": "zh_TW",
+"VN": "vi_VN",
+"PH": "en_PH"
+}},isLanguageShop : function(sLanguageCode) { return sLanguageCode === "ko_KR"; },getDefaultShopNo : function() { return 1; },getProductVer : function() { return 2; },isSDE : function() { return true; },isMode : function() {return false; },getModeName : function() {return false; },isMobileAdmin : function() {return false; },isNewProMode : function() {return true; },isExperienceMall : function() { return false; },isDcollection : function() {return false; },isYoutubeShops : function() {return false; },getYtShopsShopNo : function() {return 0; },isG2G : function() {return false; },getAdminID : function() {return ''},getMallID : function() {return 'jindoarirangmall'},getCurrencyFormat : function(sPriceTxt, bIsNumberFormat) { 
+sPriceTxt = String(sPriceTxt);
+var aCurrencySymbol = ["","\uc6d0",false];
+if (typeof CAFE24.SHOP_PRICE !== 'undefined' && isNaN(sPriceTxt.replace(/[,]/gi, '')) === false && bIsNumberFormat === true) {
+// bIsNumberFormat 사용하려면 Ui(':libUipackCurrency')->plugin('Currency') 화폐 라이브러리 추가 필요
+sPriceTxt = CAFE24.SHOP_PRICE.toShopPrice(sPriceTxt.replace(/[,]/gi, ''), true, CAFE24.SDE_SHOP_NUM);
+}
+try {
+var sPlusMinusSign = (sPriceTxt.toString()).substr(0, 1);
+if (sPlusMinusSign === '-' || sPlusMinusSign === '+') {
+sPriceTxt = (sPriceTxt.toString()).substr(1);
+return sPlusMinusSign + aCurrencySymbol[0] + sPriceTxt + aCurrencySymbol[1];
+} else {
+return aCurrencySymbol[0] + sPriceTxt + aCurrencySymbol[1];
+}
+} catch (e) {
+return aCurrencySymbol[0] + sPriceTxt + aCurrencySymbol[1];
+}
+}};CAFE24.CURRENCY_INFO = {getOriginReferenceCurrency : function() {return 'USD'},getCurrencyList : function(sCurrencyCode) { var aCurrencyList = {"JPY":{"currency_symbol":"&yen;","decimal_place":0,"round_method_type":"F"},"VND":{"currency_symbol":"&#8363;","decimal_place":0,"round_method_type":"F"},"PHP":{"currency_symbol":"&#8369;","decimal_place":2,"round_method_type":"R"},"USD":{"currency_symbol":"$","decimal_place":2,"round_method_type":"R"},"CNY":{"currency_symbol":"&yen;","decimal_place":2,"round_method_type":"R"},"TWD":{"currency_symbol":"NT$","decimal_place":0,"round_method_type":"F"},"EUR":{"currency_symbol":"\u20ac","decimal_place":2,"round_method_type":"R"},"BRL":{"currency_symbol":"R$","decimal_place":2,"round_method_type":"R"},"AUD":{"currency_symbol":"A$","decimal_place":2,"round_method_type":"R"},"BHD":{"currency_symbol":".&#1583;.&#1576;","decimal_place":3,"round_method_type":"R"},"BDT":{"currency_symbol":"&#2547;","decimal_place":2,"round_method_type":"R"},"GBP":{"currency_symbol":"&pound;","decimal_place":2,"round_method_type":"R"},"CAD":{"currency_symbol":"C$","decimal_place":2,"round_method_type":"R"},"CZK":{"currency_symbol":"K&#269;","decimal_place":2,"round_method_type":"R"},"DKK":{"currency_symbol":"kr","decimal_place":2,"round_method_type":"R"},"HKD":{"currency_symbol":"HK$","decimal_place":2,"round_method_type":"R"},"HUF":{"currency_symbol":"Ft","decimal_place":2,"round_method_type":"R"},"INR":{"currency_symbol":"&#8377;","decimal_place":2,"round_method_type":"R"},"IDR":{"currency_symbol":"Rp","decimal_place":0,"round_method_type":"F"},"ILS":{"currency_symbol":"&#8362;","decimal_place":2,"round_method_type":"R"},"JOD":{"currency_symbol":" &#1583;&#1610;&#1606;&#1575;&#1585;","decimal_place":3,"round_method_type":"R"},"KWD":{"currency_symbol":"&#1583;&#1610;&#1606;&#1575;&#1585;","decimal_place":3,"round_method_type":"R"},"MYR":{"currency_symbol":"RM","decimal_place":2,"round_method_type":"R"},"MXN":{"currency_symbol":"Mex$","decimal_place":2,"round_method_type":"R"},"NZD":{"currency_symbol":"NZ$","decimal_place":2,"round_method_type":"R"},"NOK":{"currency_symbol":"kr","decimal_place":2,"round_method_type":"R"},"PKR":{"currency_symbol":"&#8360;","decimal_place":2,"round_method_type":"R"},"PLN":{"currency_symbol":"z\u0142","decimal_place":2,"round_method_type":"R"},"RUB":{"currency_symbol":"\u0440\u0443\u0431","decimal_place":2,"round_method_type":"R"},"SAR":{"currency_symbol":"&#65020;","decimal_place":2,"round_method_type":"R"},"SGD":{"currency_symbol":"S$","decimal_place":2,"round_method_type":"R"},"ZAR":{"currency_symbol":"R","decimal_place":2,"round_method_type":"R"},"SEK":{"currency_symbol":"kr","decimal_place":2,"round_method_type":"R"},"CHF":{"currency_symbol":"Fr","decimal_place":2,"round_method_type":"R"},"THB":{"currency_symbol":"&#3647;","decimal_place":2,"round_method_type":"R"},"TRY":{"currency_symbol":"TL","decimal_place":2,"round_method_type":"R"},"AED":{"currency_symbol":"&#1601;&#1604;&#1587;","decimal_place":2,"round_method_type":"R"}}; return aCurrencyList[sCurrencyCode] },isUseReferenceCurrency : function() {return false }};CAFE24.COMMON_UTIL = {convertSslForString : function(sString) { return sString.replace(/http:/gi, '');},convertSslForHtml : function(sHtml) { return sHtml.replace(/((?:src|href)\s*=\s*['"])http:(\/\/(?:[a-z0-9\-_\.]+)\/)/ig, '$1$2');},getProtocol : function() { return 'https'; },moveSsl : function() { if (CAFE24.COMMON_UTIL.getProtocol() === 'http') { var oLocation = jQuery(window.location); var sUrl = 'https://' + oLocation.attr('host') + oLocation.attr('pathname') + oLocation.attr('search'); window.location.replace(sUrl); } },setEcCookie : function(sKey, sValue, iExpire) {var exdate = new Date();exdate.setDate(exdate.getDate() + iExpire);var setValue = escape(sValue) + "; domain=." + CAFE24.GLOBAL_INFO.getBaseDomain() + "; path=/;expires=" + exdate.toUTCString();document.cookie = sKey + "=" + setValue;}};CAFE24.SHOP_LIB_INFO = {getBankInfo : function() { 
+var oBankInfo = "";
+$.ajax({
+type: "GET",
+url: "/exec/front/Shop/Bankinfo",
+dataType: "json",
+async: false,
+success: function(oResponse) {
+oBankInfo = oResponse;
+}
+});
+return oBankInfo; }};            var EC_SDE_SHOP_NUM = CAFE24.SDE_SHOP_NUM;
+var SHOP = CAFE24.getDeprecatedNamespace('SHOP');
+var EC_COMMON_UTIL = CAFE24.getDeprecatedNamespace('EC_COMMON_UTIL');
+var EC_SHOP_LIB_INFO = CAFE24.getDeprecatedNamespace('EC_SHOP_LIB_INFO');
+var EC_CURRENCY_INFO = CAFE24.getDeprecatedNamespace('EC_CURRENCY_INFO');
+CAFE24.ROOT_DOMAIN = "cafe24.com";
+CAFE24.API_DOMAIN = "cafe24api.com";
+CAFE24.TRANSLATE_LOG_STATUS = "F";
+CAFE24.GLOBAL_INFO = (function() {
+var oData = {"base_domain":"jindoarirangmall.cafe24.com","root_domain":"cafe24.com","api_domain":"cafe24api.com","is_global":false,"is_global_standard":false,"country_code":"KR","language_code":"ko_KR","admin_language_code":"ko_KR"};
+return {
+getBaseDomain: function() {
+return oData['base_domain'];
+},
+getRootDomain: function() {
+return oData['root_domain'];
+},
+getApiDomain: function() {
+return oData['api_domain'];
+},
+isGlobal: function() {
+return oData['is_global'];
+},
+isGlobalStandard: function() {
+return oData['is_global_standard'];
+},
+getCountryCode: function() {
+return oData['country_code'];
+},
+getLanguageCode: function() {
+return oData['language_code'];
+},
+getAdminLanguageCode: function() {
+return oData['admin_language_code'];
+}
+};
+})();
+var EC_ROOT_DOMAIN = CAFE24.ROOT_DOMAIN;
+var EC_API_DOMAIN = CAFE24.API_DOMAIN;
+var EC_TRANSLATE_LOG_STATUS = CAFE24.TRANSLATE_LOG_STATUS;
+var EC_GLOBAL_INFO = CAFE24.getDeprecatedNamespace('EC_GLOBAL_INFO');
+CAFE24.AVAILABLE_LANGUAGE = ["ko_KR","zh_CN","en_US","zh_TW","es_ES","pt_PT","vi_VN","ja_JP","en_PH"];
+CAFE24.AVAILABLE_LANGUAGE_CODES = {"ko_KR":"KOR","zh_CN":"CHN","en_US":"ENG","zh_TW":"TWN","es_ES":"ESP","pt_PT":"PRT","vi_VN":"VNM","ja_JP":"JPN","en_PH":"PHL"};
+var EC_AVAILABLE_LANGUAGE = CAFE24.AVAILABLE_LANGUAGE;
+var EC_AVAILABLE_LANGUAGE_CODES = CAFE24.AVAILABLE_LANGUAGE_CODES;
+CAFE24.GLOBAL_PRODUCT_LANGUAGE_CODES = {  
+sClearanceCategoryCode: '',
+sManualLink: '//support.cafe24.com/hc/ko/articles/7739013909529',
+sHsCodePopupLink: 'https://www.wcotradetools.org/en/harmonized-system',
+aCustomRegex: '"PHL" : "^[0-9]{8}[A-Z]?$"',
+sCountryCodeData: 'kor',
+sEnglishExampleURlForGlobal: '',
+aReverseAddressCountryCode: ["VNM","PHL"],
+aSizeGuideCountryAlign: '["US","UK","EU","KR","JP","CN"]',
+aIsSupportTran: ["ja_JP","zh_CN","zh_TW","en_US","vi_VN","en_PH","pt_PT","es_ES"]
+};
+var EC_GLOBAL_PRODUCT_LANGUAGE_CODES = CAFE24.getDeprecatedNamespace('EC_GLOBAL_PRODUCT_LANGUAGE_CODES');
+CAFE24.GLOBAL_ORDER_LANGUAGE_CODES = {
+aModifyOrderLanguage: {"KR":"ko_KR","JP":"ja_JP","CN":"zh_CN","TW":"zh_TW","VN":"vi_VN","PH":"en_PH"},
+aUseIdCardKeyCountry: ["CN","TW"],
+aLanguageWithCountryCode: {"zh_CN":["CN","CHN","HK","HNK"],"ja_JP":["JP","JPN"],"zh_TW":["TW","TWN"],"ko_KR":["KR","KOR"],"vi_VN":["VN","VNM"],"en_PH":["PH","PHL"]},
+aCheckDisplayRequiredIcon: ["ja_JP","zh_CN","zh_TW","en_US","vi_VN","en_PH"],
+aSetReceiverName: {"zh_CN":{"sCountry":"CN","bUseLastName":true},"zh_TW":{"sCountry":"TW","bUseLastName":false},"ja_JP":{"sCountry":"JP","bUseLastName":true}},
+aSetDeferPaymethodLanguage: {"ja_JP":"\uc77c\ubcf8","zh_CN":"\uc911\uad6d"},
+aUseDeferPaymethod: ["ja_JP","zh_CN"],
+aCheckShippingCompanyAndPaymethod: ["ja_JP","zh_CN"],
+aSetDeferPaymethodLanguageForShipping: {"ja_JP":"\u65e5\u672c","zh_CN":"\uc911\uad6d"},
+aCheckStoreByPaymethod: ["ja_JP","zh_CN"],
+aCheckIsEmailRequiredForJs: ["en_US","zh_CN","zh_TW","ja_JP","vi_VN","en_PH"],
+aSetIdCardKeyCountryLanguage: {"CN":"\uc911\uad6d\uc758","TW":"\ub300\ub9cc\uc758"},
+aReverseGlobalAddress: ["en_PH","vi_VN","PHL","VNM","VN","PH"],
+aNoCheckZipCode: ["KOR","JPN"],
+aNotPostCodeAPICountryList: ["en_US","es_ES","pt_PT","en_PH"],
+aEnableSearchExchangeAddr: ["KR","JP","CN","VN","TW","PH"],
+aDuplicatedBaseAddr: ["TW","JP"],
+aReverseAddressCountryCode: ["VN","PH"],
+aCheckZipCode: ["PHL","en_PH","PH"]
+};
+var EC_GLOBAL_ORDER_LANGUAGE_CODES = CAFE24.getDeprecatedNamespace('EC_GLOBAL_ORDER_LANGUAGE_CODES');
+CAFE24.GLOBAL_MEMBER_LANGUAGE_CODES = {  
+sAdminWebEditorLanguageCode: 'ko' ,
+oNotAvailDecimalPointLanguages: ["ko_KR","ja_JP","zh_TW","vi_VN"],
+oAddressCountryCode: {"KOR":"ko_KR","JPN":"ja_JP","CHN":"zh_CN","TWN":"zh_TW","VNM":"vi_VN","PHL":"en_PH"},
+};
+var EC_GLOBAL_MEMBER_LANGUAGE_CODES = CAFE24.getDeprecatedNamespace('EC_GLOBAL_MEMBER_LANGUAGE_CODES');
+CAFE24.GLOBAL_BOARD_LANGUAGE_CODES = {  
+bUseLegacyBoard: true
+};
+var EC_GLOBAL_BOARD_LANGUAGE_CODES = CAFE24.getDeprecatedNamespace('EC_GLOBAL_BOARD_LANGUAGE_CODES');
+CAFE24.GLOBAL_MALL_LANGUAGE_CODES = {
+oDesign: {
+oDesignAddReplaceInfo: {"group_id":"SKIN.ADD.ADMIN.DESIGNDETAIL","replacement":{"KR":"KOREAN","US":"ENGLISH","JP":"JAPANESE","CN":"SIMPLIFIED.CHINESE","TW":"TRADITIONAL.CHINESE","ES":"SPANISH","PT":"PORTUGUESE","PH":"ENGLISH"}},
+oDesignDetailLanguageCountryMap: {"KR":"ko_KR","JP":"ja_JP","CN":"zh_CN","TW":"zh_TW","US":"en_US","ES":"es_ES","PT":"pt_PT","PH":"en_PH"},
+oSmartDesignSwitchTipLink: {"edibot":{"img":"\/\/img.echosting.cafe24.com\/smartAdmin\/img\/design\/img_editor_dnd.png","link":"\/\/ecsupport.cafe24.com\/board\/free\/list.html?board_act=list&board_no=12&category_no=9&cate_no=9"},"smart":{"img":"\/\/img.echosting.cafe24.com\/smartAdmin\/img\/design\/ko_KR\/img_editor_smart.png","link":"\/\/sdsupport.cafe24.com"}},
+oSmartDesignDecoShopList: ["ko_KR","ja_JP","zh_CN","en_US","zh_TW","es_ES","pt_PT"],
+oSmartDesignDecoMultilingual: {"list":{"ko_KR":"KOREAN","en_US":"ENGLISH","ja_JP":"JAPANESE","zh_CN":"SIMPLIFIED.CHINESE","zh_TW":"TRADITIONAL.CHINESE","es_ES":"SPANISH","pt_PT":"PORTUGUESE","vi_VN":"VIETNAMESE"},"group_id":"EDITOR.LAYER.EDITING.DECO"},
+aSmartDesignModuleShopList: ["ko_KR","ja_JP","zh_CN","en_US","zh_TW","es_ES","pt_PT"]
+},
+oStore: {
+oMultiShopCurrencyInfo: {"en_US":{"currency":"USD"},"zh_CN":{"currency":"USD","sub_currency":"CNY"},"ja_JP":{"currency":"JPY"},"zh_TW":{"currency":"TWD"},"es_ES":{"currency":"EUR"},"pt_PT":{"currency":"EUR"},"ko_KR":{"currency":"KRW"},"vi_VN":{"currency":"VND"},"en_PH":{"currency":"PHP"}},
+oBrowserRedirectLanguage: {"ko":{"primary":"ko_KR","secondary":"en_US"},"en":{"detail":{"en-ph":{"primary":"en_PH","secondary":"en_US"},"en-us":{"primary":"en_US","secondary":"es_ES"},"default":{"primary":"en_US","secondary":"es_ES"}}},"ja":{"primary":"ja_JP","secondary":"en_US"},"zh":{"detail":{"zh-cn":{"primary":"zh_CN","secondary":"en_US"},"zh-tw":{"primary":"zh_TW","secondary":"zh_CN"},"default":{"primary":"en_US","secondary":"ko_KR"}}},"es":{"primary":"es_ES","secondary":"en_US"},"pt":{"primary":"pt_PT","secondary":"en_US"},"vi":{"primary":"vi_VN","secondary":"en_US"},"default":{"primary":"en_US","secondary":"ko_KR"}},
+aChangeableLanguages: ["en_US","ja_JP","ko_KR"],
+aNoZipCodeLanguage: ["ko_KR","ja_JP"]
+},
+oMobile: {
+sSmartWebAppFaqUrl: "https://support.cafe24.com/hc/ko/articles/8466586607641",
+sAmpFaqUrl: "https://ecsupport.cafe24.com/board/free/read.html?no=1864&board_no=5&category_no=13&cate_no=13&category_no=13&category_no=13",
+},
+oPromotion: {
+bQrCodeAvailable: true,
+bSnsMarketingAvailable: true
+},
+oShippingReverseAddressLanguage: ["vi_VN","en_PH"] ,
+oGlobalStandardSwitchHelpCodeLink: {"SH.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/SH.DS.html"},"PR.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/PR.DS.html"},"OR.SM.BO":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/OR.SM.BO.html"},"DE.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/DE.DS.html"},"MB.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/MB.DS.html"},"PM.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/PM.DS.html"}},
+getAdminMainLocaleLanguage: function(sSkinLocaleCode) {
+var oLocaleData = [];
+var locale = "";
+var shopLangName = "";
+if (sSkinLocaleCode == "US") {
+locale = "en_US";
+shopLangName = "ENGLISH";
+} else if (sSkinLocaleCode == "JP") {
+locale = "ja_JP";
+shopLangName = "JAPANESE";
+} else if (sSkinLocaleCode == "CN") {
+locale = "zh_CN";
+shopLangName = "SIMPLIFIED.CHINESE";
+} else if (sSkinLocaleCode == "TW") {
+locale = "zh_TW";
+shopLangName = "TRADITIONAL.CHINESE";
+} else if (sSkinLocaleCode == "ES") {
+locale = "es_ES";
+shopLangName = "SPANISH";
+} else if (sSkinLocaleCode == "PT") {
+locale = "pt_PT";
+shopLangName = "PORTUGUESE";
+} else if (sSkinLocaleCode == "VN") {
+locale = "vi_VN";
+shopLangName = "VIETNAMESE";
+} else if(sSkinLocaleCode == "PH") {
+locale = "en_PH";
+shopLangName = "ENGLISH.PH";
+}
+oLocaleData["locale"] = locale;
+oLocaleData["shopLangName"] = shopLangName;
+return oLocaleData;
+}
+};
+var EC_GLOBAL_MALL_LANGUAGE_CODES = CAFE24.getDeprecatedNamespace('EC_GLOBAL_MALL_LANGUAGE_CODES');
+CAFE24.GLOBAL_DATETIME_INFO = {
+oConstants: {"STANDARD_DATE_REGEX":"\/([12]\\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01]))\/","IN_ZONE":"inZone","OUT_ZONE":"outZone","IN_FORMAT":"inFormat","OUT_FORMAT":"outFormat","IN_DATE_FORMAT":"inDateFormat","IN_TIME_FORMAT":"inTimeFormat","OUT_DATE_FORMAT":"outDateFormat","OUT_TIME_FORMAT":"outTimeFormat","IN_FORMAT_DATE_ONLY":1,"IN_FORMAT_TIME_ONLY":2,"IN_FORMAT_ALL":3,"OUT_FORMAT_DATE_ONLY":1,"OUT_FORMAT_TIME_ONLY":2,"OUT_FORMAT_ALL":3,"DATE_ONLY":"YYYY-MM-DD","TIME_ONLY":"HH:mm:ss","FULL_TIME":"YYYY-MM-DD HH:mm:ss","ISO_8601":"YYYY-MM-DD[T]HH:mm:ssZ","YEAR_ONLY":"YYYY","MONTH_ONLY":"MM","DAY_ONLY":"DD","WEEK_ONLY":"e","TIME_H_I_ONLY":"HH:mm","TIME_HOUR_ONLY":"HH","TIME_MINUTE_ONLY":"mm","POSTGRE_FULL_TIME":"YYYY-MM-DD HH24:MI:SS","POSTGRE_TIME_ONLY":" HH24:MI:SS","MICRO_SECOND_ONLY":"u","SEOUL":"Asia\/Seoul","TOKYO":"Asia\/Tokyo","SHANGHAI":"Asia\/Shanghai","TAIPEI":"Asia\/Taipei","HANOI":"Asia\/Bangkok","LOS_ANGELES":"America\/Los_Angeles","LISBON":"Europe\/Lisbon","MADRID":"Europe\/Madrid","SINGAPORE":"Asia\/Singapore","UTC":"Etc\/UTC","MAX_DATETIME":"9999-12-31 23:59:59"},
+oOptions: {"inZone":"Asia\/Seoul","inFormat":"YYYY-MM-DD HH:mm:ss","inDateFormat":"YYYY-MM-DD","inTimeFormat":"HH:mm:ss","outZone":"Asia\/Seoul","outFormat":"YYYY-MM-DD HH:mm:ss","outDateFormat":"YYYY-MM-DD","outTimeFormat":"HH:mm:ss"},
+oPolicies: {"shop":{"outZone":"Asia\/Seoul","outFormat":"YYYY-MM-DD HH:mm:ss","outDateFormat":"YYYY-MM-DD","outTimeFormat":"HH:mm:ss"}},
+sOverrideTimezone: '',
+sMomentNamespace: 'EC_GLOBAL_MOMENT'
+};
+CAFE24.FRONT_JS_CONFIG_MANAGE = {"sSmartBannerScriptUrl":"https:\/\/app4you.cafe24.com\/SmartBanner\/tunnel\/scriptTags?vs=1563164396689206","sMallId":"jindoarirangmall","sDefaultAppDomain":"https:\/\/app4you.cafe24.com","sWebLogOffFlag":"F"};
+var EC_FRONT_JS_CONFIG_MANAGE = CAFE24.getDeprecatedNamespace('EC_FRONT_JS_CONFIG_MANAGE');
+CAFE24.FRONT_JS_CONFIG_SHOP = {"search_period":[],"calendar_config":{"maxDate":"2027-07-01","locale":"ko"},"aProductPurchaseInfo_559":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_537":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_534":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_629":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_620":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_619":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_618":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_617":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_616":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_572":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_533":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_532":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_526":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_525":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_524":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_523":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_522":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_521":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_520":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"aProductPurchaseInfo_505":{"bIsSuccess":true,"sMessage":"","bReplaceLoginPage":false,"bIsDisplayPurchaseButton":true},"recent_count":3,"adult19BaseTinyImage":"jindoarirangmall_adult.png","adult19Warning":"F","cdnUrl":""};
+var EC_FRONT_JS_CONFIG_SHOP = CAFE24.getDeprecatedNamespace('EC_FRONT_JS_CONFIG_SHOP');
+CAFE24.FRONT_JS_CONFIG_MEMBER = {"sAuthUrl":"https:\/\/ipin-ec.cafe24.com\/certify\/v1\/?action=auth"};
+var EC_FRONT_JS_CONFIG_MEMBER = CAFE24.getDeprecatedNamespace('EC_FRONT_JS_CONFIG_MEMBER');
+typeof window.CAFE24 === "undefined" && (window.CAFE24 = {});
+CAFE24.FRONTEND = {"FW_MANIFEST_CACHE_REVISION":2506251415,"IS_WEB_VIEW":"F"};
+CAFE24.ROUTE = {"is_mobile":false,"is_need_route":false,"language_code":"ZZ","path":{"origin":"\/product\/list.html","result":"\/product\/list.html","prefix":""},"shop_no":0,"skin_code":"default","support_language_list":{"ar":"ar_EG","ar-EG":"ar_EG","de":"de_DE","de-DE":"de_DE","en":"en_US","en-IN":"en_IN","en-PH":"en_PH","en-US":"en_US","es":"es_ES","es-ES":"es_ES","hi":"hi_IN","hi-IN":"hi_IN","id":"id_ID","id-ID":"id_ID","it":"it_IT","it-IT":"it_IT","ja":"ja_JP","ja-JP":"ja_JP","ko":"ko_KR","ko-KR":"ko_KR","ms":"ms_MY","ms-MY":"ms_MY","pt":"pt_PT","pt-PT":"pt_PT","ru":"ru_RU","ru-RU":"ru_RU","th":"th_TH","th-TH":"th_TH","tr":"tr_TR","tr-TR":"tr_TR","vi":"vi_VN","vi-VN":"vi_VN","zh":"zh_CN","zh-CN":"zh_CN","zh-HK":"zh_HK","zh-MO":"zh_MO","zh-SG":"zh_SG","zh-TW":"zh_TW"}};
+</script>
+
+<link rel="stylesheet" type="text/css" href="/ind-script/optimizer.php?filename=nZBBDsIwDATvUa-8w4DgBUg8AMQDnNSlUR07chIJfk_VExyQql6t3dn1wqiJ4HA0yKZPwwRGRZsFglAKDKZSIWhKKt182MEaPQVXlFuNKs7ra6Ox1bo1lPFNts1a0TNttGp2HIWcR5G_-Rw9PGLGMMHtm3dBJunR4NSduz0MjDXHMP3DYM5wHzX_Qq5LqVnTt1DXfyHaYuHYz6VTXDb_AA&type=css&k=86542b5de9cf94a41e3d4dabaa452fbd09eb7101&t=1726130154"  /><link rel="stylesheet" type="text/css" href="/ind-script/optimizer_user.php?filename=tZZNboQhCIb3Y7c9h5seo7ueAJV80k_FCDad29fOTJruR1b-oM9LgKA-c0WP0U3BIf6TWmIYNKAdFUrxfYZC0WWtxUtCl1DoaF5Oam8-ivjKaRb0fawxqq_YZod4woEvy_zqN_MLiTYe6-7z-AJXnuoDCMWbVuRauRmA7xsGYIyXtcDLJEO4MhelbqiQsVjiH8VjqQAHNVC0zAIEQ3qYqial_yfA37bBKZbBX6fi83iXAvN5b2tXN1BQN0O34gw83NUI_yFvM8PULwOOrW_ZQ6rO1VUlc__I1Du1w0IkcvtaHOLW9xawcnehmcblfb31W30WSrgXGAeX4gYdWU2-O4IwYk6g8Iv_AQ&type=css&k=fccdf442f79c5e72f89abb3333fb888c01dd9437&t=1724916391&user=T"  />
+<style type="text/css">
+
+</style>
+<title>진도 아리랑몰 농수산물</title></head><body><div id="skipNavigation">
+    <p><a href="#category">전체상품목록 바로가기</a></p>
+    <p><a href="#contents">본문 바로가기</a></p>
+</div>
+
+<!-- 탑 배너 -->
+
+
+
+<!-- 상단 라인 배너 s -->
+<div class="top_banner"><a href="/member/join.html"><img src="/_dbook/img/top_bn.jpg" alt=""/></a><span><img src="/_dbook/img/btn_popup-close.gif" alt=""/></span></div>
+<!-- //상단 라인 배너 e -->
+
+<!-- 상단 -->
+<div id="header">
+	<div class="inner">
+		<div class="topArea">
+
+			<!-- 상단 로고 s -->
+			<h1 style="float:left; padding:21px 0 0 0;" class="xans-element- xans-layout xans-layout-logotop "><a href="/index.html"><img class="of_ct" src="/_dbook/img/logo.png" alt="진도아리랑몰"/></a>
+</h1>
+			<!-- //상단 로고 e -->
+
+			<!-- 상단 검색 s -->
+			<div style="position:absolute; top:35px; left:50%; transform: translate(-50%,0)">
+				<div style="float:left;">
+					<form id="searchBarForm" name="" action="/product/search.html" method="get" target="_self" enctype="multipart/form-data" >
+<input id="banner_action" name="banner_action" value="" type="hidden"  /><div class="xans-element- xans-layout xans-layout-searchheader "><!--
+							$product_page=/product/detail.html
+							$category_page=/product/list.html
+						-->
+<fieldset>
+<legend>검색</legend>
+							<input id="keyword" name="keyword" fw-filter="" fw-label="검색어" fw-msg="" class="inputTypeText" placeholder="" onmousedown="SEARCH_BANNER.clickSearchForm(this)" value="" type="text"  /><input type="image" src="/_dbook/img/top_search_btn.gif" alt="검색" onclick="SEARCH_BANNER.submitSearchBanner(this); return false;" style="margin-right:18px;"/>
+</fieldset>
+</div>
+</form>				</div>
+                <!--
+				<div class="gift-banner">
+					<a href="#"> · 회원혜택</a>
+					<a href="#" style="margin-left:14px;"> · 배송안내</a>
+				</div>
+                -->
+			</div>
+			<!-- //상단 검색 e -->
+
+			<!-- 상단 메뉴 s -->
+			<div class="toplink-wrap">
+				<div class="top-link">
+					 <ul><li class="xans-element- xans-layout xans-layout-statelogoff "><a href="/member/login.html">로그인</a>
+</li>
+						<li class="xans-element- xans-layout xans-layout-statelogoff "><a href="/member/join.html" class="join-link">회원가입</a>
+</li>
+												<li class="xans-element- xans-layout xans-layout-orderbasketcount "><a href="/order/basket.html">장바구니 <span class="count EC-Layout_Basket-count-display displaynone"><span class="EC-Layout-Basket-count">0</span></span></a>
+</li>
+
+						<li><a href="/myshop/index.html" class="mypage">마이페이지<!--<img src="/_dbook/img/top_icon_arr01.gif" alt=""/>//--></a></li>
+						<li><a href="/myshop/coupon/coupon.html">내쿠폰함<!--<img src="/_dbook/img/top_icon_arr02.gif" alt=""/>//--></a></li>
+					</ul></div>
+
+			</div>
+			<!-- //상단 메뉴 e -->
+		</div>
+
+		<!-- 멀티쇼핑몰 : 관리자 연동 -->							
+									
+									
+
+	</div>
+
+	<!-- 상단 카테고리 s -->
+	<div class="category-wrap">
+		<div class="inner">
+			<div>
+				<div class="all-cate"><img src="/_dbook/img/top_bg_allcate.gif" alt="전체카테고리"/></div>
+				<div>
+					<ul class="gnb-list"><li><a href="/product/list.html?cate_no=24">농산물</a></li>
+						<li><a href="/product/list.html?cate_no=25">수산물</a></li>
+						<li><a href="/product/list.html?cate_no=103">축산물</a></li>
+						<li><a href="/product/list.html?cate_no=119">전통주</a></li>
+						<li><a href="/product/list.html?cate_no=48">세트상품</a></li>						
+						<!--<li><a href="/skin-skin4/product/list.html?cate_no=104">정기구독</a></li>-->
+						<li><a href="/product/list.html?cate_no=116">친환경농산물</a></li>
+						<li><a href="#">기획전</a></li>
+					</ul><ul class="gnb-list etc"><li><a href="/board/%EC%9D%B4%EB%B2%A4%ED%8A%B8/2/"><img src="/_dbook/img/top_ico_01.png" alt=""/>이벤트</a></li>
+						<li><a href="/board/consult/list.html"><img src="/_dbook/img/top_ico_02.png" alt=""/>고객문의</a></li>
+						<li><a href="/board/%ED%8F%AC%ED%86%A0%ED%9B%84%EA%B8%B0/4/"><img src="/_dbook/img/top_ico_03.png" alt=""/>고객후기</a></li>
+					</ul></div>
+			</div>
+			<!-- 전체카테고리 부분입니다. 작업 전에 꼭 백업 받으시고 수정해주세요~ -->
+			<div class="allcate-wrap">
+				<div class="allcate-list">
+					<div class="xans-element- xans-layout xans-layout-category-2 xans-layout-category xans-layout-2 temp"><ul>
+<li class="first_24 xans-record-"><a href="/category/농산물/24/">농산물</a></li>
+							<li class="first_25 xans-record-"><a href="/category/수산물/25/">수산물</a></li>
+							<li class="first_103 xans-record-"><a href="/category/축산물/103/">축산물</a></li>
+<li class="first_119 xans-record-"><a href="/category/전통주/119/">전통주</a></li>
+<li class="first_48 xans-record-"><a href="/category/세트상품/48/">세트상품</a></li>
+<li class="first_135 xans-record-"><a href="/category/기타가공/135/">기타가공</a></li>
+<li class="first_116 xans-record-"><a href="/category/친환경농산물/116/">친환경농산물</a></li>
+						</ul>
+</div>
+				</div>
+			</div><!-- //allcate-wrap e -->
+			<!-- //전체카테고리 부분입니다. 작업 전에 꼭 백업 받으시고 수정해주세요~ -->
+		</div>
+	</div>
+	<!-- //상단 카테고리 e -->
+
+	<!-- 기획전 링크 -->
+    <!--
+	<div class="special-list">
+		<div class="inner">
+			<ul>
+				<li><a href="/product/list.html?cate_no=119">전통주</a></li>
+				<li><a href="/product/list.html?cate_no=120">인기상품</a></li>
+				<li><a href="/product/list.html?cate_no=105">할인상품</a></li>
+				<li><a href="/product/list.html?cate_no=105">건강도움식품</a></li>
+				<li><a href="/shopinfo/company.html">진도아리랑몰소개</a></li>
+			</ul>
+		</div>
+	</div>
+    -->
+	<!-- //기획전 링크 -->
+</div><hr class="layout"/><div id="wrap">
+    <div id="container">
+
+		<!-- 사이드바 -->
+		
+<div id="sidebar" style="display:none">
+	<!-- 관리자 연동 카테고리 s -->
+	<div id="category" class="xans-element- xans-layout xans-layout-category"><h2><span>CATEGORY</span></h2>
+<div class="position">
+			<ul>
+<li id="cateList_24" class="xans-record-"><a href="/category/농산물/24/">농산물</a></li>
+				<li id="cateList_25" class="xans-record-"><a href="/category/수산물/25/">수산물</a></li>
+				<li id="cateList_103" class="xans-record-"><a href="/category/축산물/103/">축산물</a></li>
+				<li id="cateList_119" class="xans-record-"><a href="/category/전통주/119/">전통주</a></li>
+				<li id="cateList_48" class="xans-record-"><a href="/category/세트상품/48/">세트상품</a></li>
+				<li id="cateList_135" class="xans-record-"><a href="/category/기타가공/135/">기타가공</a></li>
+				<li id="cateList_116" class="xans-record-"><a href="/category/친환경농산물/116/">친환경농산물</a></li>
+							</ul>
+<a href="#" style="position:relative; z-index:81;"><img src="/_dbook/img/category_more.gif" alt="" style="width:200px"/></a>
+		</div>
+</div>
+	<!-- //관리자 연동 카테고리 e -->
+</div>
+
+<script>
+	// 서브카테고리에서는 사이드 메뉴가 필요함.
+	const sidebar = document.getElementById("sidebar");
+	const pathPart = window.location.href;
+	
+	document.addEventListener("DOMContentLoaded", () => {
+		if (pathPart.includes('cate_no') === true) {
+			sidebar.style.display = "block";
+		}
+	});	
+</script>
+
+        <div id="contents">
+            
+
+<style>
+.path {display:none;}
+.ec-base-product .title { margin:0; border-bottom:3px solid #e82115; }
+.ec-base-product .title h2 { margin-top:20px; padding-bottom: 0; text-align:left; letter-spacing:-1px;}
+h2.main-h2 strong {color:#e82115; font-size:31px; font-family:"Myriad Pro","Malgun Gothic", Verdana, Dotum, AppleGothic, sans-serif;}
+.titleArea {margin:55px 0 0; padding-top:45px; border-top:1px solid #eaebec; text-align:left;}
+.titleArea h2 {margin:0; padding:0; font-weight:normal; color:#323232; font-size:28px; line-height:37px; }
+body #sidebar {display:block;}
+</style>
+<div id="productList">
+	<!-- 현재 위치 -->
+	<div class="xans-element- xans-product xans-product-headcategory path "><span>현재 위치</span>
+<ol>
+<li><a href="/">홈</a></li>
+			<li class=""><a href="/category/농산물/24/">농산물</a></li>
+			<li class="displaynone"><a href=""></a></li>
+			<li class="displaynone"><a href=""></a></li>
+			<li class="displaynone"><strong><a href=""></a></strong></li>
+		</ol>
+</div>
+
+	<div style="width:100%; min-height: 435px; display:inline-block;">
+		<div style="width:940px; float:right;">
+			<!-- 추천상품 -->
+			<div style="margin:0 0 0;" class="xans-element- xans-product xans-product-listrecommend ec-base-product ec-base-product02"><!--
+					$count = 3
+						※ 상품진열갯수를 설정하는 변수입니다. 설정하지 않을 경우, 최대 200개의 상품이 진열 됩니다.
+						※ 진열된 상품이 많으면, 쇼핑몰에 부하가 발생할 수 있습니다.
+					$basket_result = /product/add_basket.html
+					$basket_option = /product/basket_option.html
+				-->
+<div class="title">
+					<h2 class="main-h2"><strong>BEST PRODUCT</strong></h2>
+				</div>
+<ul class="prdList grid3">
+<li id="anchorBoxId_559" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_559 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/굿모닝-진도-울리오-콘플레이크-차-800g20g×40포/559/category/24/display/2/" name="anchorBoxName_559"><img src="//jindoarirangmall.com/web/product/medium/202304/ae0070170990344cf4580cabd485c31d.jpg" id="eListPrdImage559_2" alt="굿모닝 진도 울리오 콘플레이크 차, 800g 구성 건강한 차"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="category_add_basket('559','24', '2', 'A0000', false, '1', 'P00000VN', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                
+		<strong class="name"><a href="/product/굿모닝-진도-울리오-콘플레이크-차-800g20g×40포/559/category/24/display/2/" class=""><span class="title displaynone"><span style="font-size:15px;color:#000000;">상품명</span> :</span> <span style="font-size:15px;color:#000000;">굿모닝 진도 울리오 콘플레이크 차 800g(20g×40포)</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:17px;color:#ae0000;">판매가</span> :</strong> <span style="font-size:17px;color:#ae0000;">15,000원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">  <img src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif"  class="icon_img" alt="추천" />    </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_559"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="559" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_559">2</span></strong></button></div>
+			   <div class="option"></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('559', '24', '2','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_537" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_537 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/울금홍게-맛간장-900ml-선물용/537/category/24/display/2/" name="anchorBoxName_537"><img src="//jindoarirangmall.com/web/product/medium/202302/4358d397e4915eac4ba62c804fccaec0.jpg" id="eListPrdImage537_2" alt="울금홍게 맛간장 900ml, 선물용 맛간장"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="category_add_basket('537','24', '2', 'A0000', false, '1', 'P00000UR', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">               
+		<strong class="name"><a href="/product/울금홍게-맛간장-900ml-선물용/537/category/24/display/2/" class=""><span class="title displaynone"><span style="font-size:15px;color:#000000;">상품명</span> :</span> <span style="font-size:15px;color:#000000;">울금홍게 맛간장 900ml 선물용</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:17px;color:#ae0000;">판매가</span> :</strong> <span style="font-size:17px;color:#ae0000;">11,000원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">  <img src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif"  class="icon_img" alt="추천" />    </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_537"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="537" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_537">1</span></strong></button></div>
+			   <div class="option"></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('537', '24', '2','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_534" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_534 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/진도-건비트1kg/534/category/24/display/2/" name="anchorBoxName_534"><img src="//jindoarirangmall.com/web/product/medium/202301/cfd61da137e9ea2e8561cd9917fcdb40.jpg" id="eListPrdImage534_2" alt="진도의 신선한 건비트 1kg 단위 판매, 바삭하고 감칠맛 나는 건비트"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="category_add_basket('534','24', '2', 'A0000', false, '1', 'P00000UO', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">               
+		<strong class="name"><a href="/product/진도-건비트1kg/534/category/24/display/2/" class=""><span class="title displaynone"><span style="font-size:15px;color:#000000;">상품명</span> :</span> <span style="font-size:15px;color:#000000;">진도 건비트1kg</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:17px;color:#ae0000;">판매가</span> :</strong> <span style="font-size:17px;color:#ae0000;">30,000원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">  <img src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif"  class="icon_img" alt="추천" />    </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_534"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="534" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_534">1</span></strong></button></div>
+			   <div class="option"></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('534', '24', '2','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+				</ul>
+</div>
+		</div>
+	</div>
+
+	<!-- 관리자 연동 : 상단 꾸미기 이미지 -->
+	<div class="xans-element- xans-product xans-product-headcategory title "><p class="banner"></p>
+</div>
+
+	<!-- 상품 분류명 -->
+	<div class="xans-element- xans-product xans-product-headcategory titleArea "><h2><span>농산물</span></h2>
+<span class="likeButton likeCate likeCate_24"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likeCateIcon" category_no="24" icon_status="off" alt="좋아요 등록 전" /><strong><span class="likeCateCount likeCateCount_24">0</span></strong></button></span>
+</div>
+
+	<!-- 중분류 -->
+	<div class="xans-element- xans-product xans-product-menupackage "><ul class="menuCategory"><li style="display:;" class="xans-element- xans-product xans-product-displaycategory  xans-record-"><a href="/category/쌀곡류잡곡류/31/">쌀/곡류/잡곡류 <span class="count displaynone">()</span></a>
+</li>
+<li style="display:;" class="xans-element- xans-product xans-product-displaycategory  xans-record-"><a href="/category/울금차분말환/53/">울금/차/분말/환 <span class="count displaynone">()</span></a>
+</li>
+<li style="display:;" class="xans-element- xans-product xans-product-displaycategory  xans-record-"><a href="/category/구기자표고버섯/56/">구기자/표고버섯 <span class="count displaynone">()</span></a>
+</li>
+<li style="display:;" class="xans-element- xans-product xans-product-displaycategory  xans-record-"><a href="/category/야채류/81/">야채류 <span class="count displaynone">()</span></a>
+</li>
+<li style="display:;" class="xans-element- xans-product xans-product-displaycategory  xans-record-"><a href="/category/농산가공/98/">농산가공 <span class="count displaynone">()</span></a>
+</li>
+		</ul>
+</div>
+
+	<!-- 신상품 -->
+	
+	<!-- 일반상품 -->
+	<div class="xans-element- xans-product xans-product-normalpackage "><!-- 정렬기준 -->
+<div class="xans-element- xans-product xans-product-normalmenu "><!--
+				$compare_page = /product/compare.html
+			-->
+<div class="function" id="Product_ListMenu">
+				<p class="prdCount">총 <strong>133</strong>개</p>
+				<ul id="type" class="xans-element- xans-product xans-product-orderby"><li class="xans-record-"><a href="?cate_no=24&sort_method=5#Product_ListMenu" >신상품</a></li>
+<li class="xans-record-"><a href="?cate_no=24&sort_method=3#Product_ListMenu" >낮은가격</a></li>
+<li class="xans-record-"><a href="?cate_no=24&sort_method=4#Product_ListMenu" >높은가격</a></li>
+<li class="xans-record-"><a href="?cate_no=24&sort_method=6#Product_ListMenu" >인기상품</a></li>
+<li class="xans-record-"><a href="?cate_no=24&sort_method=8#Product_ListMenu" >조회수</a></li>
+<li class="xans-record-"><a href="?cate_no=24&sort_method=9#Product_ListMenu" >좋아요</a></li>
+</ul>
+<span class="compare displaynone"><a href="#none" class="btnCompare" onclick="EC_ListAction.setProductCompare();">상품비교</a></span>
+			</div>
+<fieldset class="condition displaynone">
+<legend>조건별 검색</legend>
+				<p>
+					
+					<select class="xans-element- xans-product xans-product-firstselect FirstSelect"><option value="">-조건선택-</option>
+<option value=""  class=""></option>
+</select>
+<select class="xans-element- xans-product xans-product-secondselect SecondSelect"><option value="">-조건선택-</option>
+<option value=""  class=""></option>
+</select>
+<a href="#SelectSearch" class="btnSubmitFix">검색</a>
+				</p>
+			</fieldset>
+</div>
+<!-- 상품진열 -->
+<div style="margin:0 0 20px; border-bottom:1px solid #eaeaea;" class="xans-element- xans-product xans-product-listnormal ec-base-product ec-base-product04"><!--
+				$count = 20
+					※ 상품진열갯수를 설정하는 변수입니다. 설정하지 않을 경우, 최대 200개의 상품이 진열 됩니다.
+					※ 진열된 상품이 많으면, 쇼핑몰에 부하가 발생할 수 있습니다.
+				$basket_result = /product/add_basket.html
+				$basket_option = /product/basket_option.html
+			-->
+<ul class="prdList grid5">
+<li id="anchorBoxId_629" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_629 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/보배섬-진도-수제강정30개입/629/category/24/display/1/" name="anchorBoxName_629"><img src="//jindoarirangmall.com/web/product/medium/202404/1f3524bf36c736ff85cefe2150971280.jpg" id="eListPrdImage629_1" alt="보배섬 진도의 수제강정, 현미 구기자 귀리 흑미강정"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="category_add_basket('629','24', '1', 'A0000', false, '1', 'P00000YF', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                   
+		<strong class="name"><a href="/product/보배섬-진도-수제강정30개입/629/category/24/display/1/" class=""><span class="title displaynone"><span style="font-size:14px;color:#555555;">상품명</span> :</span> <span style="font-size:14px;color:#555555;">보배섬 진도 수제강정(30개입)</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:16px;color:#ae0000;font-weight:bold;">판매가</span> :</strong> <span style="font-size:16px;color:#ae0000;font-weight:bold;">30,000원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">      </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_629"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="629" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_629">0</span></strong></button></div>
+			   <div class="option"></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('629', '24', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_620" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_620 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/진도그루브-늦가을-생들기름-200ml/620/category/24/display/1/" name="anchorBoxName_620"><img src="//jindoarirangmall.com/web/product/medium/202402/9277f43a52c3ae68fddef05f9df7cb1b.png" id="eListPrdImage620_1" alt="100% 국산 들깨 생들기름 200ml, 신선한 진도농부 생들기름"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="category_add_basket('620','24', '1', 'A0000', false, '1', 'P00000XW', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                   
+		<strong class="name"><a href="/product/진도그루브-늦가을-생들기름-200ml/620/category/24/display/1/" class=""><span class="title displaynone"><span style="font-size:14px;color:#555555;">상품명</span> :</span> <span style="font-size:14px;color:#555555;">진도그루브  늦가을 생들기름 200ml</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:16px;color:#ae0000;font-weight:bold;">판매가</span> :</strong> <span style="font-size:16px;color:#ae0000;font-weight:bold;">27,990원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">      </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_620"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="620" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_620">0</span></strong></button></div>
+			   <div class="option"></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('620', '24', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_619" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_619 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/진도그루브-제철기름-선물세트/619/category/24/display/1/" name="anchorBoxName_619"><img src="//jindoarirangmall.com/web/product/medium/202402/c6446b0cd62bcf7fe490d8f7aff8c7fc.png" id="eListPrdImage619_1" alt="100% 국산 참깨와 들깨로 만든 진도그루브 제철기름 선물세트, 원하는 가격대와 상황에 맞춰 제작 가능한 기름과 양념 세트"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="CAPP_SHOP_NEW_PRODUCT_OPTIONSELECT.selectOptionCommon(619,  24, 'basket', '')" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                   
+		<strong class="name"><a href="/product/진도그루브-제철기름-선물세트/619/category/24/display/1/" class=""><span class="title displaynone"><span style="font-size:14px;color:#555555;">상품명</span> :</span> <span style="font-size:14px;color:#555555;">진도그루브 제철기름 선물세트</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:16px;color:#ae0000;font-weight:bold;">판매가</span> :</strong> <span style="font-size:16px;color:#ae0000;font-weight:bold;">47,990원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">      </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_619"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="619" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_619">1</span></strong></button></div>
+			   <div class="option"><a onclick="optionPreview(this,'listnormal-0',619,'T')"" ><img src="/web/upload/icon_201908201814213100.png"  id="btn_preview_listnormal-0619" class="option_preview" alt="" /></a></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('619', '24', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_618" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_618 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/진도그루브-늦가을-들기름-200ml/618/category/24/display/1/" name="anchorBoxName_618"><img src="//jindoarirangmall.com/web/product/medium/202402/14bb85825f8c181b9aaf0be77f21b632.png" id="eListPrdImage618_1" alt="진도농부 늦가을 들기름 200ml 고소한 향기, 100% 국산 들깨로 만든 천연 들기름"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="category_add_basket('618','24', '1', 'A0000', false, '1', 'P00000XU', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                   
+		<strong class="name"><a href="/product/진도그루브-늦가을-들기름-200ml/618/category/24/display/1/" class=""><span class="title displaynone"><span style="font-size:14px;color:#555555;">상품명</span> :</span> <span style="font-size:14px;color:#555555;">진도그루브  늦가을 들기름 200ml</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:16px;color:#ae0000;font-weight:bold;">판매가</span> :</strong> <span style="font-size:16px;color:#ae0000;font-weight:bold;">24,990원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">      </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_618"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="618" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_618">0</span></strong></button></div>
+			   <div class="option"></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('618', '24', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_617" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_617 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/진도그루브-한여름-볶음참깨-100g/617/category/24/display/1/" name="anchorBoxName_617"><img src="//jindoarirangmall.com/web/product/medium/202402/39eb656c6bb00f80721a31cc26574d52.png" id="eListPrdImage617_1" alt="고소한 향이 오래가는 볶음참깨, 100% 국산 참깨로 만든 고소한 볶음참깨"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="category_add_basket('617','24', '1', 'A0000', false, '1', 'P00000XT', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                   
+		<strong class="name"><a href="/product/진도그루브-한여름-볶음참깨-100g/617/category/24/display/1/" class=""><span class="title displaynone"><span style="font-size:14px;color:#555555;">상품명</span> :</span> <span style="font-size:14px;color:#555555;">진도그루브 한여름 볶음참깨 100g</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:16px;color:#ae0000;font-weight:bold;">판매가</span> :</strong> <span style="font-size:16px;color:#ae0000;font-weight:bold;">14,990원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">      </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_617"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="617" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_617">0</span></strong></button></div>
+			   <div class="option"></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('617', '24', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_616" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_616 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/진도그루브-참기름200ml/616/category/24/display/1/" name="anchorBoxName_616"><img src="//jindoarirangmall.com/web/product/medium/202402/ed7fcff50e62f710c860f10cdb0e757f.png" id="eListPrdImage616_1" alt="진도농부 참기름 200ml, 국산 참깨로 만든 고소한 향의 참기름"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="category_add_basket('616','24', '1', 'A0000', false, '1', 'P00000XS', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                   
+		<strong class="name"><a href="/product/진도그루브-참기름200ml/616/category/24/display/1/" class=""><span class="title displaynone"><span style="font-size:14px;color:#555555;">상품명</span> :</span> <span style="font-size:14px;color:#555555;">진도그루브  참기름200ml</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:16px;color:#ae0000;font-weight:bold;">판매가</span> :</strong> <span style="font-size:16px;color:#ae0000;font-weight:bold;">32,990원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">      </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_616"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="616" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_616">0</span></strong></button></div>
+			   <div class="option"></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('616', '24', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_572" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_572 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/효진농원-백향과패션후르츠청/572/category/24/display/1/" name="anchorBoxName_572"><img src="//jindoarirangmall.com/web/product/medium/202306/1305ce52ad25cc02937a4727d623f5b2.jpg" id="eListPrdImage572_1" alt="효진농원 백향과패션후르츠청의 신선한 맛, 진도아리랑몰에서 만나는 향긋한 백향과패션후르츠청"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="CAPP_SHOP_NEW_PRODUCT_OPTIONSELECT.selectOptionCommon(572,  24, 'basket', '')" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                   
+		<strong class="name"><a href="/product/효진농원-백향과패션후르츠청/572/category/24/display/1/" class=""><span class="title displaynone"><span style="font-size:14px;color:#555555;">상품명</span> :</span> <span style="font-size:14px;color:#555555;">효진농원 백향과패션후르츠청</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:16px;color:#ae0000;font-weight:bold;">판매가</span> :</strong> <span style="font-size:16px;color:#ae0000;font-weight:bold;">30,000원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">      </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_572"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="572" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_572">2</span></strong></button></div>
+			   <div class="option"><a onclick="optionPreview(this,'listnormal-0',572,'T')"" ><img src="/web/upload/icon_201908201814213100.png"  id="btn_preview_listnormal-0572" class="option_preview" alt="" /></a></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('572', '24', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_559" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_559 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/굿모닝-진도-울리오-콘플레이크-차-800g20g×40포/559/category/24/display/1/" name="anchorBoxName_559"><img src="//jindoarirangmall.com/web/product/medium/202304/ae0070170990344cf4580cabd485c31d.jpg" id="eListPrdImage559_1" alt="굿모닝 진도 울리오 콘플레이크 차, 800g 구성 건강한 차"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="category_add_basket('559','24', '1', 'A0000', false, '1', 'P00000VN', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                   
+		<strong class="name"><a href="/product/굿모닝-진도-울리오-콘플레이크-차-800g20g×40포/559/category/24/display/1/" class=""><span class="title displaynone"><span style="font-size:14px;color:#555555;">상품명</span> :</span> <span style="font-size:14px;color:#555555;">굿모닝 진도 울리오 콘플레이크 차 800g(20g×40포)</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:16px;color:#ae0000;font-weight:bold;">판매가</span> :</strong> <span style="font-size:16px;color:#ae0000;font-weight:bold;">15,000원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">  <img src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif"  class="icon_img" alt="추천" />    </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_559"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="559" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_559">2</span></strong></button></div>
+			   <div class="option"></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('559', '24', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_537" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_537 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/울금홍게-맛간장-900ml-선물용/537/category/24/display/1/" name="anchorBoxName_537"><img src="//jindoarirangmall.com/web/product/medium/202302/4358d397e4915eac4ba62c804fccaec0.jpg" id="eListPrdImage537_1" alt="울금홍게 맛간장 900ml, 선물용 맛간장"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="category_add_basket('537','24', '1', 'A0000', false, '1', 'P00000UR', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                   
+		<strong class="name"><a href="/product/울금홍게-맛간장-900ml-선물용/537/category/24/display/1/" class=""><span class="title displaynone"><span style="font-size:14px;color:#555555;">상품명</span> :</span> <span style="font-size:14px;color:#555555;">울금홍게 맛간장 900ml 선물용</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:16px;color:#ae0000;font-weight:bold;">판매가</span> :</strong> <span style="font-size:16px;color:#ae0000;font-weight:bold;">11,000원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">  <img src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif"  class="icon_img" alt="추천" />    </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_537"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="537" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_537">1</span></strong></button></div>
+			   <div class="option"></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('537', '24', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_534" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_534 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/진도-건비트1kg/534/category/24/display/1/" name="anchorBoxName_534"><img src="//jindoarirangmall.com/web/product/medium/202301/cfd61da137e9ea2e8561cd9917fcdb40.jpg" id="eListPrdImage534_1" alt="진도의 신선한 건비트 1kg 단위 판매, 바삭하고 감칠맛 나는 건비트"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="category_add_basket('534','24', '1', 'A0000', false, '1', 'P00000UO', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                   
+		<strong class="name"><a href="/product/진도-건비트1kg/534/category/24/display/1/" class=""><span class="title displaynone"><span style="font-size:14px;color:#555555;">상품명</span> :</span> <span style="font-size:14px;color:#555555;">진도 건비트1kg</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:16px;color:#ae0000;font-weight:bold;">판매가</span> :</strong> <span style="font-size:16px;color:#ae0000;font-weight:bold;">30,000원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">  <img src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif"  class="icon_img" alt="추천" />    </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_534"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="534" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_534">1</span></strong></button></div>
+			   <div class="option"></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('534', '24', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_533" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_533 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/진도-비트분말1kg/533/category/24/display/1/" name="anchorBoxName_533"><img src="//jindoarirangmall.com/web/product/medium/202301/754166d3c93a576387b7c98569f34d0e.jpg" id="eListPrdImage533_1" alt="진도의 신선한 비트 분말 1kg 제품, 비트의 영양소를 간편하게 섭취하는 분말"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="category_add_basket('533','24', '1', 'A0000', false, '1', 'P00000UN', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                   
+		<strong class="name"><a href="/product/진도-비트분말1kg/533/category/24/display/1/" class=""><span class="title displaynone"><span style="font-size:14px;color:#555555;">상품명</span> :</span> <span style="font-size:14px;color:#555555;">진도 비트분말1kg</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:16px;color:#ae0000;font-weight:bold;">판매가</span> :</strong> <span style="font-size:16px;color:#ae0000;font-weight:bold;">35,000원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">  <img src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif"  class="icon_img" alt="추천" />    </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_533"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="533" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_533">0</span></strong></button></div>
+			   <div class="option"></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('533', '24', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_532" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_532 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/진도-비트차-60개입/532/category/24/display/1/" name="anchorBoxName_532"><img src="//jindoarirangmall.com/web/product/medium/202301/76e32f8eae4201d590cb3d612d24a73f.jpg" id="eListPrdImage532_1" alt="60개입 비트차, 진도산 비트로 만든 차"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="category_add_basket('532','24', '1', 'A0000', false, '1', 'P00000UM', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                   
+		<strong class="name"><a href="/product/진도-비트차-60개입/532/category/24/display/1/" class=""><span class="title displaynone"><span style="font-size:14px;color:#555555;">상품명</span> :</span> <span style="font-size:14px;color:#555555;">진도 비트차 60개입</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:16px;color:#ae0000;font-weight:bold;">판매가</span> :</strong> <span style="font-size:16px;color:#ae0000;font-weight:bold;">15,500원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">  <img src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif"  class="icon_img" alt="추천" />    </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_532"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="532" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_532">0</span></strong></button></div>
+			   <div class="option"></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('532', '24', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_526" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_526 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/산들바람-진도-혼합15곡-500g/526/category/24/display/1/" name="anchorBoxName_526"><img src="//jindoarirangmall.com/web/product/medium/202301/f16df35c1678271e3f00fbfd97282b85.jpg" id="eListPrdImage526_1" alt="진도 산들바람 혼합곡 500g, 15가지 곡물 혼합 건강식품"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="category_add_basket('526','24', '1', 'A0000', false, '1', 'P00000UG', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                   
+		<strong class="name"><a href="/product/산들바람-진도-혼합15곡-500g/526/category/24/display/1/" class=""><span class="title displaynone"><span style="font-size:14px;color:#555555;">상품명</span> :</span> <span style="font-size:14px;color:#555555;">산들바람 진도 혼합15곡 500g</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:16px;color:#ae0000;font-weight:bold;">판매가</span> :</strong> <span style="font-size:16px;color:#ae0000;font-weight:bold;">6,000원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">      </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_526"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="526" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_526">0</span></strong></button></div>
+			   <div class="option"></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('526', '24', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_525" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_525 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/진도-동주식품-전통된장/525/category/24/display/1/" name="anchorBoxName_525"><img src="//jindoarirangmall.com/web/product/medium/202301/1dddfc36e37a64bb310521c1d78fa953.jpg" id="eListPrdImage525_1" alt="진도 동주식품 전통된장, 깊고 풍부한 맛의 된장"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="CAPP_SHOP_NEW_PRODUCT_OPTIONSELECT.selectOptionCommon(525,  24, 'basket', '')" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                   
+		<strong class="name"><a href="/product/진도-동주식품-전통된장/525/category/24/display/1/" class=""><span class="title displaynone"><span style="font-size:14px;color:#555555;">상품명</span> :</span> <span style="font-size:14px;color:#555555;">진도 동주식품 전통된장</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:16px;color:#ae0000;font-weight:bold;">판매가</span> :</strong> <span style="font-size:16px;color:#ae0000;font-weight:bold;">10,000원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">  <img src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif"  class="icon_img" alt="추천" />    </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_525"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="525" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_525">4</span></strong></button></div>
+			   <div class="option"><a onclick="optionPreview(this,'listnormal-0',525,'T')"" ><img src="/web/upload/icon_201908201814213100.png"  id="btn_preview_listnormal-0525" class="option_preview" alt="" /></a></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('525', '24', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_524" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_524 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/진도-동주식품-전통간장-950ml/524/category/24/display/1/" name="anchorBoxName_524"><img src="//jindoarirangmall.com/web/product/medium/202301/57ed09555c4e227686c95b3fb2076386.jpg" id="eListPrdImage524_1" alt="깊은 풍미의 전통간장, 건강하게 즐길 수 있는 천연 간장"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="category_add_basket('524','24', '1', 'A0000', false, '1', 'P00000UE', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                   
+		<strong class="name"><a href="/product/진도-동주식품-전통간장-950ml/524/category/24/display/1/" class=""><span class="title displaynone"><span style="font-size:14px;color:#555555;">상품명</span> :</span> <span style="font-size:14px;color:#555555;">진도 동주식품 전통간장 950ml</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:16px;color:#ae0000;font-weight:bold;">판매가</span> :</strong> <span style="font-size:16px;color:#ae0000;font-weight:bold;">17,000원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">  <img src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif"  class="icon_img" alt="추천" />    </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_524"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="524" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_524">0</span></strong></button></div>
+			   <div class="option"></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('524', '24', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_523" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_523 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/진도-하나식품-구기자-액기스-1box30포/523/category/24/display/1/" name="anchorBoxName_523"><img src="//jindoarirangmall.com/web/product/medium/202302/518d87ace6ff51d471bd1f7d63838df5.jpg" id="eListPrdImage523_1" alt="면역력 강화에 좋은 구기자 액기스, 피로 회복에 탁월한 구기자 건강식품"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="category_add_basket('523','24', '1', 'A0000', false, '1', 'P00000UD', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                   
+		<strong class="name"><a href="/product/진도-하나식품-구기자-액기스-1box30포/523/category/24/display/1/" class=""><span class="title displaynone"><span style="font-size:14px;color:#555555;">상품명</span> :</span> <span style="font-size:14px;color:#555555;">진도 하나식품 구기자 액기스 1BOX(30포)</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:16px;color:#ae0000;font-weight:bold;">판매가</span> :</strong> <span style="font-size:16px;color:#ae0000;font-weight:bold;">72,000원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">  <img src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif"  class="icon_img" alt="추천" />    </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_523"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="523" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_523">1</span></strong></button></div>
+			   <div class="option"></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('523', '24', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_522" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_522 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/진도-동주식품-청국장-200g/522/category/24/display/1/" name="anchorBoxName_522"><img src="//jindoarirangmall.com/web/product/medium/202301/508940dff6a6119cd0ad2ed273136788.jpg" id="eListPrdImage522_1" alt="진도의 건강한 청국장, 집에서 즐기는 200g 청국장"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="category_add_basket('522','24', '1', 'A0000', false, '1', 'P00000UC', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                   
+		<strong class="name"><a href="/product/진도-동주식품-청국장-200g/522/category/24/display/1/" class=""><span class="title displaynone"><span style="font-size:14px;color:#555555;">상품명</span> :</span> <span style="font-size:14px;color:#555555;">진도 동주식품 청국장 200g</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:16px;color:#ae0000;font-weight:bold;">판매가</span> :</strong> <span style="font-size:16px;color:#ae0000;font-weight:bold;">4,000원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">  <img src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif"  class="icon_img" alt="추천" />    </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_522"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="522" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_522">0</span></strong></button></div>
+			   <div class="option"></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('522', '24', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_521" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_521 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/진도-구기자-홍국발효-분말-320g-40g×8병/521/category/24/display/1/" name="anchorBoxName_521"><img src="//jindoarirangmall.com/web/product/medium/202301/e15c2d9b22498b12232839c4247b68a2.jpg" id="eListPrdImage521_1" alt="손쉬운 섭취로 건강 챙기세요., 진도산 구기자와 홍국의 영양을 담았습니다."/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="category_add_basket('521','24', '1', 'A0000', false, '1', 'P00000UB', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                   
+		<strong class="name"><a href="/product/진도-구기자-홍국발효-분말-320g-40g×8병/521/category/24/display/1/" class=""><span class="title displaynone"><span style="font-size:14px;color:#555555;">상품명</span> :</span> <span style="font-size:14px;color:#555555;">진도 구기자 홍국발효 분말 320g (40g×8병)</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:16px;color:#ae0000;font-weight:bold;">판매가</span> :</strong> <span style="font-size:16px;color:#ae0000;font-weight:bold;">151,000원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">  <img src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif"  class="icon_img" alt="추천" />    </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_521"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="521" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_521">0</span></strong></button></div>
+			   <div class="option"></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('521', '24', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_520" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_520 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/성원영농오래뜰-유기농-귀리1kg/520/category/24/display/1/" name="anchorBoxName_520"><img src="//jindoarirangmall.com/web/product/medium/202301/33d0bb42c94600b3bc033e30dcaf22b0.jpg" id="eListPrdImage520_1" alt="유기농 귀리 1kg 포장, 오래뜰 건강식 곡물"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="category_add_basket('520','24', '1', 'A0000', false, '1', 'P00000UA', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                   
+		<strong class="name"><a href="/product/성원영농오래뜰-유기농-귀리1kg/520/category/24/display/1/" class=""><span class="title displaynone"><span style="font-size:14px;color:#555555;">상품명</span> :</span> <span style="font-size:14px;color:#555555;">[성원영농]오래뜰 유기농 귀리1kg</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:16px;color:#ae0000;font-weight:bold;">판매가</span> :</strong> <span style="font-size:16px;color:#ae0000;font-weight:bold;">7,900원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">      </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_520"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="520" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_520">1</span></strong></button></div>
+			   <div class="option"></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('520', '24', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+<li id="anchorBoxId_505" class="xans-record-">
+	<span class="chk"><input type="checkbox" class="ProductCompareClass xECPCNO_505 displaynone"/></span>
+	<div class="thumbnail">
+		<a href="/product/황금울금분말-500g/505/category/24/display/1/" name="anchorBoxName_505"><img src="//jindoarirangmall.com/web/product/medium/202212/b499782bbe4f83128087c4b9fb5e0aa1.jpg" id="eListPrdImage505_1" alt="면역력 증진과 피로 회복에 효과적인 황금울금분말, 고품질 천연 재료로 만든 황금울금분말 500g"/></a>
+		<div class="wish">
+			<span><img src="/web/upload/icon_202204201345312100.png"  onClick="category_add_basket('505','24', '1', 'A0000', false, '1', 'P00000TL', 'A', 'F', '0');" alt="장바구니 담기" class="ec-admin-icon cart" /></span><span></span>
+		</div>
+	</div>
+	<div class="description">                   
+		<strong class="name"><a href="/product/황금울금분말-500g/505/category/24/display/1/" class=""><span class="title displaynone"><span style="font-size:14px;color:#555555;">상품명</span> :</span> <span style="font-size:14px;color:#555555;">황금울금분말 500g</span></a></strong>
+		<ul class="xans-element- xans-product xans-product-listitem spec"><li class=" xans-record-">
+<strong class="title displaynone"><span style="font-size:16px;color:#ae0000;font-weight:bold;">판매가</span> :</strong> <span style="font-size:16px;color:#ae0000;font-weight:bold;">38,000원</span><span id="span_product_tax_type_text" style=""> </span></li>
+</ul>
+<div class="icon">
+			<div class="promotion">  <img src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_recommended.gif"  class="icon_img" alt="추천" />    </div>
+			<div class="button">
+			   <div class="likeButton likePrd likePrd_505"><button type="button"><img src="/web/upload/icon_202204201344467700.png"  class="likePrdIcon" product_no="505" category_no="24" icon_status="off" alt="좋아요 등록 전" /> <strong><span class="likePrdCount likePrdCount_505">0</span></strong></button></div>
+			   <div class="option"></div> <img src="/web/upload/icon_202204201345237100.png"  onClick="zoom('505', '24', '1','', '');" style="cursor:pointer" alt="상품 큰 이미지 보기" />		   </div>
+		</div>
+	</div>
+</li>
+			</ul>
+</div>
+</div>
+
+	<div class="xans-element- xans-product xans-product-normalpaging ec-base-paginate"><a href="?cate_no=24&page=1" class="first"><img src="//img.echosting.cafe24.com/skin/base/common/btn_page_first.gif" alt="첫 페이지"/></a>
+<a href="?cate_no=24&page=1"><img src="//img.echosting.cafe24.com/skin/base/common/btn_page_prev.gif" alt="이전 페이지"/></a>
+<ol>
+<li class="xans-record-"><a href="?cate_no=24&page=1" class="other">1</a></li>
+			<li class="xans-record-"><a href="?cate_no=24&page=2" class="this">2</a></li>
+			<li class="xans-record-"><a href="?cate_no=24&page=3" class="other">3</a></li>
+			<li class="xans-record-"><a href="?cate_no=24&page=4" class="other">4</a></li>
+			<li class="xans-record-"><a href="?cate_no=24&page=5" class="other">5</a></li>
+		</ol>
+<a href="?cate_no=24&page=3"><img src="//img.echosting.cafe24.com/skin/base/common/btn_page_next.gif" alt="다음 페이지"/></a>
+<a href="?cate_no=24&page=7" class="last"><img src="//img.echosting.cafe24.com/skin/base/common/btn_page_last.gif" alt="마지막 페이지"/></a>
+</div>
+</div>
+        </div><hr class="layout"/></div><hr class="layout"/><!-- 우측 스크롤 --><div id="quick" class="scroll-right">
+	<div>
+		<p><a href="/order/basket.html"><img src="/_dbook/img/rightwing_01.png" alt="장바구니"/></a></p>
+		<p><a href="/myshop/coupon/coupon.html"><img src="/_dbook/img/rightwing_02.png" alt="내쿠폰함"/></a></p>
+		<p><a href="/product/recent_view_product.html"><img src="/_dbook/img/rightwing_03.png" alt="최근본상품"/></a></p>
+	</div>
+	<div>
+		<div style="position:relative;" class="xans-element- xans-layout xans-layout-productrecent"><div>
+				<ul>
+<li class="displaynone xans-record-">
+						<a href="/product/detail.html##param##"><img src="about:blank" alt=""/></a>
+					</li>
+					<li class="displaynone xans-record-">
+						<a href="/product/detail.html##param##"><img src="about:blank" alt=""/></a>
+					</li>
+				</ul>
+</div>
+<p class="player">
+				<span><img src="/_dbook/img/right_scroll_up.gif" alt="이전 제품" class="prev"/><img src="/_dbook/img/right_scroll_down.gif" alt="다음 제품" class="next"/></span>
+			</p>
+</div>
+	</div>
+	<a href="/product/list.html?cate_no=119"><img src="/_dbook/img/quick_banner1.jpg" alt=""/></a>
+</div>
+
+</div><hr class="layout"/><!-- 하단 --><div id="footer">
+	<div class="bottom">
+		<div style="width:100%; background:#333949">
+			<div style="width:1200px; margin:0 auto;">
+			<div app4you-smart-banner="smart-banner-admin-PC00005" app4you-smart-banner-html="true" class="xans-element- xans-smart-banner-admin xans-smart-banner-admin-PC00005">
+  <a href="https://jindoarirangmall.com/product/list.html?cate_no=119" target="_self" onclick="APP4YOU_SMART_BANNER.incrementBanner('911875')" ontouchstart="APP4YOU_SMART_BANNER.incrementBanner('911875')" style="cursor:pointer"><img src="https://file.cafe24cos.com/banner-admin-live/upload/jindoarirangmall/7bc3ab79-2511-4fcf-fb80-d87f717b4b93.png" style="width:100%"/></a>
+</div>
+			</div>
+		</div>
+		<div class="inner">
+			<div class="footer_info">
+				<ul class="utilMenu"><li><a href="/shopinfo/company.html">회사소개</a></li>
+					<li><a href="/shopinfo/guide.html">이용안내</a></li>
+					<li><a href="/member/privacy.html"><strong>개인정보처리방침</strong></a></li>
+					<li><a href="/member/agreement.html">이용약관</a></li>
+					<li><a href="/front/php/b/board_list.php?board_no=1002&amp;is_pcver=T">광고/제휴 문의</a></li>
+				</ul><div class="logo"><a href="/"><img class="of_ct" src="/_dbook/img/logo.png" alt=""/></a></div>
+				<div class="xans-element- xans-layout xans-layout-footer policy "><p class="address">
+						<span class="none">법인명(상호) : 진도군청 </span> <span>대표자(성명) : 김희수</span><br/><span class="none">주소 : 58922 전라남도 진도군 진도읍 남동1길 40-18 진도명품관</span><br/><span class="none">사업자 등록번호 : 415-83-02746 </span> <span>통신판매업 신고 : 제2019-전남진도군-0013호 <a href="#none" onclick="window.open('http://www.ftc.go.kr/bizCommPop.do?wrkr_no=4158302746', 'bizCommPop', 'width=750, height=950;');return false;">[사업자정보확인]</a></span><br/><span class="none">전화 : 061-542-9631~2</span> <span>팩스 : 061-544-0902</span> <span>개인정보관리책임자 : <a href="mailto:jindoarirangmall@naver.com">김영욱(jindoarirangmall@naver.com)</a></span><br/></p>
+<p class="copyright">Copyright © <strong>진도아리랑몰</strong>. All rights reserved.</p>
+</div>
+			</div>
+
+			<div class="cs-center">
+				<h3 class="foot-h3">CS CENTER</h3>
+				<strong>061-542-9631~2</strong>
+				<span>평일 10:00-18:00, 점심 12:00-13:00<br/>주말, 공휴일 휴무</span>
+				<a href="/board/product/list.html?board_no=9"><img src="/_dbook/img/bottom_qna_btn.gif" alt="문의게시판바로가기"/></a>
+			</div>
+
+			<div class="bank_info">
+				<h3 class="foot-h3">BANK INFO</h3>
+				<ul><li><img src="/_dbook/img/bank_nonghyup.gif" alt=""/>301-0245-9554-71</li>
+				</ul><p>
+                    농협은행<br/><strong>예금주 : 진도군청</strong><br/>
+					입금시 예금주명을 꼭! 확인해주세요!
+				</p>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<!-- 결제를 위한 필수 영역 -->
+<div id="progressPaybar" style="display:none;">
+    <div id="progressPaybarBackground" class="layerProgress"></div>
+    <div id="progressPaybarView">
+        <div class="box">
+            <p class="graph">
+                <span><img src="//img.echosting.cafe24.com/skin/base_ko_KR/layout/txt_progress.gif" alt="현재 결제가 진행중입니다."/></span>
+                <span><img src="//img.echosting.cafe24.com/skin/base/layout/img_loading.gif" alt=""/></span>
+            </p>
+            <p class="txt">
+                본 결제 창은 결제완료 후 자동으로 닫히며,결제 진행 중에 본 결제 창을 닫으시면<br/>
+                주문이 되지 않으니 결제 완료 될 때 까지 닫지 마시기 바랍니다.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- // 결제를 위한 필수 영역 -->
+<span itemscope="" itemtype="https://schema.org/Organization">
+<link itemprop="url" href="https://jindoarirangmall.com">
+<a itemprop="sameAs" href="https://www.instagram.com/jindoarirangmall/"></a>
+</span>
+<script type="text/javascript" src="/app/Eclog/js/cid.generate.js?vs=a8bf770aa3e48d222a56e0be010b8408&u=jindoarirangmall.1"></script>
+<script>        (function (i, s, o, g) {
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            a.setAttribute('crossorigin', 'anonymous');
+            m.parentNode.insertBefore(a, m);
+            a.onload = function() {
+                if (typeof window.initCaWebAnalytics === 'function') {
+                    window.initCaWebAnalytics({"mid":"jindoarirangmall","stype":"e","domain":"","shop_no":1,"lang":"ko_KR","mobile_flag":"F","send_endpoint":"https://ca-log.cafe24data.com","path_role":"PRODUCT_LIST"});
+                }
+            };
+        })(window, document, 'script', '//optimizer.poxo.com/ca2/analytics.js');</script>
+
+                <script>
+                try {
+                    // Account ID 적용
+                    if (!wcs_add) var wcs_add = {};
+                    wcs_add["wa"] = "s_54b964e7b53b";
+            
+                    // 네이버 페이 White list가 있을 경우
+                    wcs.checkoutWhitelist = ["jindoarirangmall.cafe24.com", "www.jindoarirangmall.cafe24.com", "m.jindoarirangmall.cafe24.com", "jindoarirangmall.com", "www.jindoarirangmall.com", "m.jindoarirangmall.com"];
+                
+                    // 레퍼러 
+                    wcs.setReferer("");
+
+                    // 유입 추적 함수 호출
+                    wcs.inflow("jindoarirangmall.com");
+
+                    // 로그수집
+                    wcs_do();
+                } catch (e) {};
+                </script>
+            
+
+<!-- External Script Start -->
+
+<!-- fbe -->
+<!-- CMC3 script -->
+<div id="fbe_common_top_script" style="display:none;">
+  <script type="text/javascript">
+if (typeof facebookChannel === 'undefined') {
+  var facebookChannel = {
+    mall_id: CAFE24.SHOP.getMallID(),
+    shop_no: CAFE24.SDE_SHOP_NUM,
+    shop_id: CAFE24.SHOP.getMallID() + '.' + CAFE24.SDE_SHOP_NUM,
+    external_id: null,
+    event_id: null,
+
+    setInitActivated: function(is_activated) {
+      window.top.fbe_init_activated = !!is_activated;
+    },
+    getInitActivated: function() {
+      return !!window.top.fbe_init_activated;
+    },
+    setEventActivated: function(event_type, is_activated) {
+      if (typeof event_type === 'string' && event_type) {
+        let key = 'fbe_' + event_type + '_activated'
+        window.top[key] = !!is_activated;
+      }
+    },
+    getEventActivated: function(event_type) {
+      if (typeof event_type === 'string' && event_type) {
+        let key = 'fbe_' + event_type + '_activated'
+        return !!window.top[key];
+      }
+      return false;
+    },
+    getCookie: function(name) {
+      return (name = (document.cookie + ';').match(name + '=.*;')) && name[0].split(/=|;/)[1];
+    },
+    getExternalId: function() {
+      return facebookChannel.getCookie('fb_external_id');
+    },
+    getEventId: function() {
+      return facebookChannel.getCookie('fb_event_id');
+    },
+    getInt: function(value) {
+      let value_int = parseInt(value);
+      value_int = isNaN(value_int) ? 0 : value_int;
+      return value_int;
+    },
+    getFloat: function(value) {
+      let value_float = parseFloat(value);
+      value_float = isNaN(value_float) ? 0.00 : value_float.toFixed(2);
+      return value_float;
+    },
+    init: function() {
+      if (facebookChannel.getInitActivated()) {
+        return;
+      }
+      facebookChannel.setInitActivated(true);
+
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+
+      if ((typeof EC_GLOBAL_INFO !== 'undefined' && EC_GLOBAL_INFO.getCountryCode() === 'US') || (typeof SHOP !== 'undefined' && SHOP.getLanguage() === 'en_US')) {
+        fbq('dataProcessingOptions', ['LDU'], 0, 0);
+      }
+
+      if (typeof ECLOG !== 'undefined' && !!ECLOG.EXTERNAL_ID) {
+        ECLOG.EXTERNAL_ID.chk(facebookChannel.shop_id, function(error, external_id) {
+          if (error || !external_id) {
+            external_id = facebookChannel.getExternalId();
+            console.info('external_id is cookie value.', '(1)');
+          }
+          fbq('init', '174832124374237',{external_id: external_id}, {agent: 'plcafe24'});
+          fbq('trackSingle', '174832124374237', 'PageView');
+          facebookChannel.external_id = external_id;
+        });
+      } else {
+        let external_id = facebookChannel.getExternalId();
+        console.info('external_id is cookie value.', '(2)');
+
+        fbq('init', '174832124374237',{external_id: external_id}, {agent: 'plcafe24'});
+        fbq('trackSingle', '174832124374237', 'PageView');
+        facebookChannel.external_id = external_id;
+      }
+    },
+    pixelEvent: function(event_type, callback, is_cookie_event) {
+      if (facebookChannel.getEventActivated(event_type)) {
+        return;
+      }
+      facebookChannel.setEventActivated(event_type, true);
+      is_cookie_event = !!is_cookie_event;
+
+      let retry = 0;
+      let execute = function() {
+        if (!facebookChannel.external_id) {
+          if (retry < 10) {
+            retry++;
+            if (retry >= 5) {
+              console.warn('retry #' + retry, event_type);
+            }
+            setTimeout(execute, 1000);
+          } else {
+            console.warn('external_id is empty.');
+          }
+          return;
+        }
+
+        if (callback.length === 0) {
+          callback();
+        }
+        else if (!is_cookie_event && typeof ECLOG !== 'undefined' && !!ECLOG.EVENT_ID) {
+          ECLOG.EVENT_ID.chk(facebookChannel.shop_id, function(error, event_id) {
+            if (error || !event_id) {
+              event_id = facebookChannel.getEventId();
+              console.info('event_id is cookie value.', '(1)');
+            }
+            facebookChannel.event_id = event_id;
+            if (event_id) {
+              callback(event_id);
+            } else {
+              console.warn('event_id is empty.', '(1)');
+            }
+          });
+        }
+        else {
+          let event_id = facebookChannel.getEventId();
+          console.info('event_id is cookie value.', '(2)');
+          facebookChannel.event_id = event_id;
+          if (event_id) {
+            callback(event_id);
+          } else {
+            console.warn('event_id is empty.', '(2)');
+          }
+        }
+      };
+      execute();
+    },
+    messengerChatPlugin: function() {
+      let event_type = 'messenger';
+      let sdk_version = '';
+      let locale = '';
+      if (!sdk_version) {
+        console.warn('sdk_version is empty.');
+        return;
+      }
+      if (!locale) {
+        console.warn('locale is empty.');
+        return;
+      }
+      if (facebookChannel.getEventActivated(event_type)) {
+        return;
+      }
+      facebookChannel.setEventActivated(event_type, true);
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId : '216637735743129',
+          autoLogAppEvents : true,
+          xfbml : true,
+          version : sdk_version
+        });
+      };
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/' + locale + '/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    }
+  };
+
+  facebookChannel.init();
+}
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=174832124374237&ev=PageView&noscript=1"
+/></noscript>
+</div>
+<!-- CMC3 script -->
+
+<!-- gfa -->
+<script type="text/javascript">document.addEventListener("DOMContentLoaded", function() {
+                EC_PlusAppBridge.setBridgeFunction()
+                });</script><script type="text/javascript">var gfa_cate = "";var gfa_cate1 = "농산물";var gfa_cate2 = "";var gfa_cate3 = "";
+    if (gfa_cate1 != "") gfa_cate = gfa_cate1;
+    if (gfa_cate2 != "") gfa_cate = gfa_cate2;
+    if (gfa_cate3 != "") gfa_cate = gfa_cate3;
+    document.addEventListener("DOMContentLoaded", function() {
+    var oDataGfaList = {
+        type: "view_item_list",
+        raw_data: {
+            item_list_name: gfa_cate
+        }
+    };
+    EC_PlusAppBridge.sendBridgeData(oDataGfaList);
+    });</script>
+<!-- External Script End -->
+
+<script type="text/javascript" src="/ind-script/i18n.php?lang=ko_KR&domain=front&v=2506251415" charset="utf-8"></script>
+
+<script src="/ind-script/optimizer.php?filename=zVnbUuM4EH0Hv-53GPZW-0rCsEsNLCnCDM-K3E4a67a6EDxfv207zJANvsmhah_iJLbOUUvqy5GVbrSE9Pxnm-aWSdhqW6QWnA6WQ_rkUjz_QyVP7qe0q11Aw3iRPv0TwJa7r1-S35OzkUh48WAVE253I-FaFwhTWYIVUUNIgCe5ioYygczFoemp1_Y_AzdWrwm_tzwZ8-CRGkhqpXwK_Lb-8Yh-8_DtknmWSFQjeASuCAUP9Lsf5YxF5fMB9JqHyqwrbeVcK2-1EGD7cQsR3IUxM4vZeoA9waPob5VbXc_UidOCEFqdeG1OBCo4WTGlhtjVUHAtpVZDW78wReGkyDeNBT-8lxrnQRpB6_I-iBmT3uoVCkjv3-Ab-zpmpQUndRboltuiGddhHhSvJrRqlwXuE9nqxEMZOowgV02_NNHzlkKwb6XQLBsFksGzqt-7lQP73LY4LWCjRZmjGOx6GeQsCF9NgZPM-lmH11WNlhtt9jq8qmk-s4LptKiuC3wB0RUlHTTz2ku-dDpJC_QSVmE9GuWAWb4ZNcOe5Xl5mMnGl4LVGmvQ_6MwZZRllSO3c1OZgDlU66ksEjzLqpoxjseIsEZKUs9U8Qiu7Svf9xtRtfCQtjJYZe6QnhgMzSJ8XA8bEAY-fBwbprKDwnjMDii1IUXSh_FTGvRHmyahOaP6UOj-xPrDgjFpZU70KmM2_TX5LTlLc6qwBnkRSSLOz1SrsR35cFnnw-oBlZ66Cr1Sjqa6hxwsKA7zYKvvcmGRR5QEUhprbcsbdH40-G_YpjdYQDqzektDmjO-gXiWeYfIGo5_HVEUzz08I2w9E8Xu51wHFTcx9Fk0yubOVCu9BAF8KlX0Mu3C98lFTvBb_DshP3wgd0IVUdhXmbiVLqEtEy_oynyIM6RZkvTTi7estqr-X_9dapHp4I9NGxeePaTXkq2PTnqJjjYgJdJG5IjU10S3JOEioAkEjHTETsMtEc-YK-Doy3cVVHYgu6bTPspJ_vudbELqPKRSx7Fphio7CtHlgU6NJPraSIdW12sr-7sKmzrq6tS0B_IgPN_9O821lcxPteRYNCFmV7hfnC7io_oHybJO7RM1wI5rqim1Wmv3vreqVOmAjryLFHHrW7iOjnc90jbbMxTpLFSbA7opdfeU3jJFFWCPcAsrodf9Fm-8JOnp0SO4_tZzWxqvP0M5yhbmSsWbazROglx1vTLpgd9ZWhPepeF6CJp6Mp3BdAuAQRy9ft3DQmqWNs9TxnKLAjo1Rw_-Eox2GN__I7pNtwgeQMC7RX0PA4kMmAC_r-EFlLRDziayPGjaqswnjaaOj3i3BAU5Tg2NG1ZOsOFPy7J4h7wIXlP9RF7TUHrexsdGEB4X2gQTH6CBtjYSLAX6M05ZmNuyKoe7fDHNQ_aoJsVe7Wt_YXXgVR7Ba3dMD2x1FJ5qhzJ9eE0Fv1a5jncCwVCylYAJFhnmN1YLOO15XTbAnJvWE5YWsImoUk2VPyXlguPE-WLLUrNlCdeSxtwtvt7p120TztpPKCvUp9278_3Tq1q20WPHLRo_El0dwaQXlRw0wOuDwpx1iYN3SfaymDHzgUeUVgcPV_hCLf8F&type=js&k=f1b3ab19cfb4f5b2b49f70bf9f84c12d5aa01cb0&t=1749514111" ></script><script src="/ind-script/optimizer_user.php?filename=rZIxEgIxCEUPgK3noPEmniBLmA27JMSQ6Hh7XcfO0lT_N7z_B8BkmZEJhnNz3KREC01aKGsOqljHokKQelb0yBDZZS3ou5QLbo7Z4lDG2t5KHTOXQaHzau152vyMc_FfBWdl6s6hUfo7RsPTRscluNCR-TEzypPlbGXiGr5Nb0Noh7vw4282xMVsPyI-ZiJv2hf8IuE9MxHrQRlqE-L5p8pDu3iyek1Sq5R1Yu9uFZbjvV4&type=js&k=e1182a40b7b10eaa151aff57d09c650e6227ffc5&t=1679286502&user=T" ></script>
+<script type="text/javascript">
+var sIsChannelUi = 'F';
+var sChRef = '';
+var sUseShoppingpayPg = 'F';
+var sOwnMallLanding = 'F';
+var sShoppingPayCookie = '';
+var sYtshopping = 'F';
+if (sIsChannelUi === 'T') {
+sessionStorage.setItem('ch_ref', sChRef);
+}
+CAFE24.getChRefData = function() {
+if (sIsChannelUi === 'T') {
+return sessionStorage.getItem('ch_ref');
+}
+}
+// 자사몰랜딩/유튜브랜딩 공용
+CAFE24.checkChannelUI = function() {
+if ((sIsChannelUi === 'T' && sessionStorage.getItem('ch_ref') || (sUseShoppingpayPg === 'T' && sOwnMallLanding === 'T')) || sYtshopping === 'T') {
+return true;
+} else {
+return false;
+}
+}
+// 자사몰랜딩 UI확인
+CAFE24.isOwnMallLandingUI = function() {
+return sUseShoppingpayPg === 'T' && sOwnMallLanding === 'T';
+}
+CAFE24.attachShoppingpayParam = function(sUrl) {
+if (sUrl) {
+var sChRef = CAFE24.getChRefData();
+if (sChRef) {
+var sSeparator = (sUrl.includes('?')) ? '&' : '?';
+sUrl += sSeparator + 'ch_ref=' + sChRef;
+} else if (sUseShoppingpayPg === 'T' && sOwnMallLanding === 'T') {
+var sSeparator = (sUrl.includes('?')) ? '&' : '?';
+sUrl += sSeparator + 'co_servicetype=shoppingpay';
+}
+}
+return sUrl;
+}
+CAFE24.attachChRef = function(sUrl) {
+if (sUrl) {
+var sChRef = CAFE24.getChRefData();
+if (sChRef) {
+var sSeparator = (sUrl.includes('?')) ? '&' : '?';
+sUrl += sSeparator + 'ch_ref=' + sChRef;
+}
+}
+return sUrl;
+}
+var sIsCheckout = 'F';
+var sCheckoutToken = '';
+if (sIsCheckout === 'T') {
+sessionStorage.setItem('checkoutToken', sCheckoutToken);
+} else {
+sessionStorage.removeItem('checkoutToken');
+}
+CAFE24.getCheckoutToken = function() {
+if (sIsCheckout === 'T') {
+return sessionStorage.getItem('checkoutToken');
+}
+}
+CAFE24.attachCheckoutParam = function(sUrl) {
+if (sUrl) {
+var sCheckoutToken = CAFE24.getCheckoutToken();
+if (sCheckoutToken) {
+var sSeparator = (sUrl.includes('?')) ? '&' : '?';
+sUrl += sSeparator + 'checkoutToken=' + sCheckoutToken;
+}
+}
+return sUrl;
+}
+CAFE24.MOBILE_WEB = false; var mobileWeb = CAFE24.MOBILE_WEB;
+try {
+var isUseLoginKeepingSubmit = false;
+// isSeqNoKeyExpiretime
+function isSeqNoKeyExpiretime(iExpiretime)
+{
+var sDate = new Date();
+var iNow = Math.floor(sDate.getTime() / 1000);
+// 유효시간 확인
+if (iExpiretime > iNow) {
+return false;
+}
+return true;
+}
+function isUseLoginKeeping()
+{
+// 디바이스 확인
+if (EC_MOBILE_DEVICE === false) {
+return;
+}
+// 로그인 여부
+var isLogin = document.cookie.match(/(?:^| |;)iscache=F/) ? true : false
+if (isLogin) {
+return;
+}
+var sLoginKeepingInfo = localStorage.getItem('use_login_keeping_info');
+var iSeqnoExpiretime;
+var iSeqNoKey;
+if (sLoginKeepingInfo == null) {
+iSeqnoExpiretime = localStorage.getItem('seq_no_key_expiretime');
+iSeqNoKey = localStorage.getItem('seq_no_key');
+// 유효시간, key 값 확인
+if (iSeqnoExpiretime === null || iSeqNoKey === null) {
+return;
+}
+} else {
+var oLoginKeepingInfo = JSON.parse(sLoginKeepingInfo);
+iSeqNoKey = oLoginKeepingInfo.seq_no_key;
+iSeqnoExpiretime = oLoginKeepingInfo.seq_no_key_expiretime;
+if (isNaN(iSeqNoKey) === true || isNaN(iSeqnoExpiretime) === true) {
+return;
+}
+}
+if (isSeqNoKeyExpiretime(iSeqnoExpiretime) === false) {
+return;
+}
+useLoginKeepingSubmit();
+}
+function findGetParamValue(paramKey)
+{
+var result = null,
+tmp = [];
+location.search.substr(1).split('&').forEach(function (item) {
+tmp = item.split('=');
+if (tmp[0] === paramKey) result = decodeURIComponent(tmp[1]);
+});
+return result;
+}
+function useLoginKeepingSubmit()
+{
+var iSeqnoExpiretime;
+var iSeqNoKey;
+var sUseLoginKeepingIp;
+var sLoginKeepingInfo = localStorage.getItem('use_login_keeping_info');
+if (sLoginKeepingInfo == null) {
+iSeqnoExpiretime = localStorage.getItem('seq_no_key_expiretime');
+iSeqNoKey = localStorage.getItem('seq_no_key');
+} else {
+var oLoginKeepingInfo = JSON.parse(sLoginKeepingInfo);
+iSeqNoKey = oLoginKeepingInfo.seq_no_key;
+iSeqnoExpiretime = oLoginKeepingInfo.seq_no_key_expiretime;
+sUseLoginKeepingIp = oLoginKeepingInfo.use_login_keeping_ip;
+}
+var oForm = document.createElement('form');
+oForm.method = 'post';
+oForm.action = '/exec/front/member/LoginKeeping';
+document.body.appendChild(oForm);
+var oSeqNoObj = document.createElement('input');
+oSeqNoObj.name = 'seq_no_key';
+oSeqNoObj.type = 'hidden';
+oSeqNoObj.value = iSeqNoKey;
+oForm.appendChild(oSeqNoObj);
+oSeqNoObj = document.createElement('input');
+oSeqNoObj.name = 'seq_no_key_expiretime';
+oSeqNoObj.type = 'hidden';
+oSeqNoObj.value = iSeqnoExpiretime;
+oForm.appendChild(oSeqNoObj);
+var returnUrl = findGetParamValue('returnUrl');
+if (returnUrl == '' || returnUrl == null) {
+returnUrl = location.pathname + location.search;
+}
+oSeqNoObj = document.createElement('input');
+oSeqNoObj.name = 'returnUrl';
+oSeqNoObj.type = 'hidden';
+oSeqNoObj.value = returnUrl;
+oForm.appendChild(oSeqNoObj);
+if (sUseLoginKeepingIp != undefined) {
+oSeqNoObj = document.createElement('input');
+oSeqNoObj.name = 'use_login_keeping_ip';
+oSeqNoObj.type = 'hidden';
+oSeqNoObj.value = sUseLoginKeepingIp;
+oForm.appendChild(oSeqNoObj);
+}
+oForm.submit();
+isUseLoginKeepingSubmit = true;
+}
+isUseLoginKeeping();
+} catch(e) {
+}
+var bUseElastic = false;
+var sSearchBannerUseFlag = 'F';
+if (typeof CAFE24.SHOP_FRONT_NEW_LIKE_COMMON !== "undefined") {CAFE24.SHOP_FRONT_NEW_LIKE_COMMON.init({"bIsUseLikeProduct":true,"bIsUseLikeCategory":true});}
+if (typeof CAFE24.SHOP_FRONT_REVIEW_TALK_REVIEW_COUNT !== "undefined") {CAFE24.SHOP_FRONT_REVIEW_TALK_REVIEW_COUNT.bIsReviewTalk = 'F';}
+CAFE24.SHOP_CURRENCY_INFO = {"1":{"aShopCurrencyInfo":{"currency_code":"KRW","currency_no":"410","currency_symbol":"\uffe6","currency_name":"South Korean won","currency_desc":"\uffe6 \uc6d0 (\ud55c\uad6d)","decimal_place":0,"round_method_type":"F"},"aShopSubCurrencyInfo":null,"aBaseCurrencyInfo":{"currency_code":"KRW","currency_no":"410","currency_symbol":"\uffe6","currency_name":"South Korean won","currency_desc":"\uffe6 \uc6d0 (\ud55c\uad6d)","decimal_place":0,"round_method_type":"F"},"fExchangeRate":1,"fExchangeSubRate":null,"aFrontCurrencyFormat":{"head":"","tail":"\uc6d0"},"aFrontSubCurrencyFormat":{"head":"","tail":""}}}; var SHOP_CURRENCY_INFO = CAFE24.SHOP_CURRENCY_INFO;
+if (typeof CAFE24.SHOP_FRONT_NEW_OPTION_COMMON !== "undefined") {CAFE24.SHOP_FRONT_NEW_OPTION_COMMON.initObject();}
+if (typeof CAFE24.SHOP_FRONT_NEW_OPTION_BIND !== "undefined") {CAFE24.SHOP_FRONT_NEW_OPTION_BIND.initChooseBox();}
+if (typeof CAFE24.SHOP_FRONT_NEW_OPTION_DATA !== "undefined") {CAFE24.SHOP_FRONT_NEW_OPTION_DATA.initData();}
+var basket_result = '/product/add_basket.html';
+var basket_option = '/product/basket_option.html';
+CAFE24.FRONT_PRODUCT_SEARCH_DATA.bEmptyElasticData = true;
+CAFE24.FRONT_PRODUCT_SEARCH_DATA.bEmptyElasticData = true;
+var max_comp_number = 4;
+var sComparePageUrl = "/product/compare.html";
+var aLogData = {"log_server1":"eclog2-260.cafe24.com","log_server2":"elg-db-svcm-083.cafe24.com","mid":"jindoarirangmall","stype":"e","domain":"","shop_no":1,"lang":"ko_KR","ver":2,"hash":"","ca":"cfa-js.cafe24.com\/cfa.js","etc":"","mobile_flag":"F"};
+var sMileageName = '적립금';
+var sMileageUnit = '[:PRICE:]원';
+var sDepositName = '예치금';
+var sDepositUnit = '원';
+CAFE24.APPSCRIPT_ASSIGN_DATA = CAFE24.APPSCRIPT_ASSIGN_DATA || [{'src':'https://calendar-app.cafe24.com/openapi/inject.js?vs=20240816141947.1&client_id=A8RQp67UIt9nBlqvThz2jC'}];
+CAFE24.APPSCRIPT_SDK_DATA = CAFE24.APPSCRIPT_SDK_DATA || ['application','customer','design','notification','privacy','product','promotion','store','mileage','category','collection','order','supply','community'];
+var EC_APPSCRIPT_ASSIGN_DATA = CAFE24.getDeprecatedNamespace('EC_APPSCRIPT_ASSIGN_DATA');
+var EC_APPSCRIPT_SDK_DATA = CAFE24.getDeprecatedNamespace('EC_APPSCRIPT_SDK_DATA');
+</script></body></html>

@@ -1,0 +1,305 @@
+{
+  "mallId": 1,
+  "mallName": "우리몰",
+  "mallUrl": "https://wemall.kr",
+  "engName": "we-mall",
+  "structure": {
+    "categories": [
+      {
+        "id": "001",
+        "name": "식품/농산품",
+        "url": "https://wemall.kr/product/product.html?category=001",
+        "subcategories": [
+          {
+            "id": "001013",
+            "name": "쌀/농축산물",
+            "url": "https://wemall.kr/product/product.html?category=001013"
+          },
+          {
+            "id": "001021",
+            "name": "차/음료/과자/가공식품",
+            "url": "https://wemall.kr/product/product.html?category=001021"
+          },
+          {
+            "id": "001022",
+            "name": "건강식품/다이어트",
+            "url": "https://wemall.kr/product/product.html?category=001022"
+          }
+        ]
+      },
+      {
+        "id": "002",
+        "name": "생활용품",
+        "url": "https://wemall.kr/product/product.html?category=002",
+        "subcategories": [
+          {
+            "id": "002014",
+            "name": "가구/인테리어",
+            "url": "https://wemall.kr/product/product.html?category=002014"
+          },
+          {
+            "id": "002023",
+            "name": "침구/커튼/소품",
+            "url": "https://wemall.kr/product/product.html?category=002023"
+          },
+          {
+            "id": "002024",
+            "name": "주방/생활/수납용품",
+            "url": "https://wemall.kr/product/product.html?category=002024"
+          },
+          {
+            "id": "002025",
+            "name": "원예/선물",
+            "url": "https://wemall.kr/product/product.html?category=002025"
+          },
+          {
+            "id": "002049",
+            "name": "건강/미용",
+            "url": "https://wemall.kr/product/product.html?category=002049"
+          }
+        ]
+      },
+      {
+        "id": "003",
+        "name": "사무용품",
+        "url": "https://wemall.kr/product/product.html?category=003",
+        "subcategories": [
+          {
+            "id": "003015",
+            "name": "복사용지/토너류",
+            "url": "https://wemall.kr/product/product.html?category=003015"
+          },
+          {
+            "id": "003026",
+            "name": "문구/팬시",
+            "url": "https://wemall.kr/product/product.html?category=003026"
+          },
+          {
+            "id": "003045",
+            "name": "사무지류",
+            "url": "https://wemall.kr/product/product.html?category=003045"
+          },
+          {
+            "id": "003046",
+            "name": "일반사무",
+            "url": "https://wemall.kr/product/product.html?category=003046"
+          },
+          {
+            "id": "003047",
+            "name": "사무기기",
+            "url": "https://wemall.kr/product/product.html?category=003047"
+          },
+          {
+            "id": "003048",
+            "name": "하드웨어",
+            "url": "https://wemall.kr/product/product.html?category=003048"
+          },
+          {
+            "id": "003050",
+            "name": "청소/위생",
+            "url": "https://wemall.kr/product/product.html?category=003050"
+          }
+        ]
+      },
+      {
+        "id": "004",
+        "name": "디지털/가전",
+        "url": "https://wemall.kr/product/product.html?category=004",
+        "subcategories": [
+          {
+            "id": "004016",
+            "name": "생활가전",
+            "url": "https://wemall.kr/product/product.html?category=004016"
+          },
+          {
+            "id": "004027",
+            "name": "휴대폰/스마트용품",
+            "url": "https://wemall.kr/product/product.html?category=004027"
+          },
+          {
+            "id": "004028",
+            "name": "컴퓨터/주변기기",
+            "url": "https://wemall.kr/product/product.html?category=004028"
+          },
+          {
+            "id": "004029",
+            "name": "주방가전",
+            "url": "https://wemall.kr/product/product.html?category=004029"
+          }
+        ]
+      },
+      {
+        "id": "005",
+        "name": "공사/인쇄",
+        "url": "https://wemall.kr/product/product.html?category=005",
+        "subcategories": [
+          {
+            "id": "005017",
+            "name": "공사",
+            "url": "https://wemall.kr/product/product.html?category=005017"
+          },
+          {
+            "id": "005030",
+            "name": "광고/디자인",
+            "url": "https://wemall.kr/product/product.html?category=005030"
+          },
+          {
+            "id": "005031",
+            "name": "인쇄",
+            "url": "https://wemall.kr/product/product.html?category=005031"
+          },
+          {
+            "id": "005032",
+            "name": "산업/안전용품",
+            "url": "https://wemall.kr/product/product.html?category=005032"
+          }
+        ]
+      },
+      {
+        "id": "006",
+        "name": "청소용품",
+        "url": "https://wemall.kr/product/product.html?category=006",
+        "subcategories": [
+          {
+            "id": "006018",
+            "name": "소독/방역",
+            "url": "https://wemall.kr/product/product.html?category=006018"
+          },
+          {
+            "id": "006033",
+            "name": "마대",
+            "url": "https://wemall.kr/product/product.html?category=006033"
+          },
+          {
+            "id": "006034",
+            "name": "세제/제지/일용잡화",
+            "url": "https://wemall.kr/product/product.html?category=006034"
+          },
+          {
+            "id": "006035",
+            "name": "위생용품",
+            "url": "https://wemall.kr/product/product.html?category=006035"
+          }
+        ]
+      },
+      {
+        "id": "007",
+        "name": "스포츠/건강",
+        "url": "https://wemall.kr/product/product.html?category=007",
+        "subcategories": [
+          {
+            "id": "007019",
+            "name": "자전거/헬스/다이어트",
+            "url": "https://wemall.kr/product/product.html?category=007019"
+          },
+          {
+            "id": "007036",
+            "name": "등산/아우도어/캠핑",
+            "url": "https://wemall.kr/product/product.html?category=007036"
+          }
+        ]
+      },
+      {
+        "id": "008",
+        "name": "아동용품/취미",
+        "url": "https://wemall.kr/product/product.html?category=008",
+        "subcategories": [
+          {
+            "id": "008020",
+            "name": "유아/간식",
+            "url": "https://wemall.kr/product/product.html?category=008020"
+          },
+          {
+            "id": "008037",
+            "name": "장난감/유아교육/인형",
+            "url": "https://wemall.kr/product/product.html?category=008037"
+          },
+          {
+            "id": "008038",
+            "name": "취미/자동차/공구",
+            "url": "https://wemall.kr/product/product.html?category=008038"
+          }
+        ]
+      },
+      {
+        "id": "009",
+        "name": "기타",
+        "url": "https://wemall.kr/product/product.html?category=009",
+        "subcategories": []
+      },
+      {
+        "id": "010",
+        "name": "BEST상품",
+        "url": "https://wemall.kr/product/product.html?category=010",
+        "subcategories": []
+      },
+      {
+        "id": "011",
+        "name": "관공서구매상품",
+        "url": "https://wemall.kr/product/product.html?category=011",
+        "subcategories": []
+      },
+      {
+        "id": "012",
+        "name": "공동구매상품",
+        "url": "https://wemall.kr/product/product.html?category=012",
+        "subcategories": []
+      },
+      {
+        "id": "039",
+        "name": "장애인 기업 제품",
+        "url": "https://wemall.kr/product/product.html?category=039",
+        "subcategories": []
+      },
+      {
+        "id": "040",
+        "name": "장애인기업 시공업체",
+        "url": "https://wemall.kr/product/product.html?category=040",
+        "subcategories": []
+      },
+      {
+        "id": "041",
+        "name": "토너.복사용지.사무용품.제지류.청소용품",
+        "url": "https://wemall.kr/product/product.html?category=041",
+        "subcategories": []
+      },
+      {
+        "id": "068",
+        "name": "test",
+        "url": "https://wemall.kr/product/product.html?category=068",
+        "subcategories": []
+      }
+    ],
+    "productListing": {
+      "selector": ".shop .list > li",
+      "fields": {
+        "name": ".description h3 em",
+        "price": ".description .price strong",
+        "image": ".tumb img",
+        "link": ".btn a.view",
+        "seller": ".description .point span"
+      }
+    },
+    "pagination": {
+      "type": "offset",
+      "parameter": "start",
+      "itemsPerPage": 12,
+      "selector": ".pagination"
+    },
+    "requiresJavaScript": false,
+    "searchUrl": "/product/product.html",
+    "searchParameter": "keyword"
+  },
+  "analysisDate": "2025-07-01T06:55:52.822Z",
+  "status": "success",
+  "notes": [
+    "Pagination uses offset-based system with \"start\" parameter",
+    "Items per page appears to be 12 based on pagination links",
+    "Mall uses traditional server-side rendering without AJAX loading",
+    "Product URLs follow pattern: /product/product.html?category={id}&id={productId}&mode=view",
+    "Search functionality uses GET request with \"keyword\" parameter",
+    "Categories are hierarchical with main categories and subcategories",
+    "Special categories exist for government purchases (011) and group purchases (012)",
+    "Products for disabled-owned businesses have dedicated categories (039, 040)"
+  ]
+}

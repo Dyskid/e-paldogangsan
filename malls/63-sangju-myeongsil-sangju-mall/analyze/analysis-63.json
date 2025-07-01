@@ -1,0 +1,38 @@
+{
+  "mallId": 63,
+  "mallName": "sangju-myeongsil-sangju-mall",
+  "url": "https://sjmall.cyso.co.kr/",
+  "productStructure": {
+    "categoryLevels": 2,
+    "mainCategories": [
+      "농산물",
+      "축산물",
+      "수산물",
+      "가공식품",
+      "공예품"
+    ],
+    "categoryUrlPattern": "/goods/goods_list.php?cateCd={categoryCode}"
+  },
+  "productData": {
+    "productUrlPattern": "/goods/goods_view.php?goodsNo={productId}",
+    "dataLocation": ".goods-view-form, .detail-view",
+    "imageUrlPattern": "img.goods-image-main, img[src*=\"/data/goods/\"]",
+    "priceLocation": ".goods-price, .price strong, .detail-price",
+    "nameLocation": ".goods-header h3, .goods-name, .item_tit_detail"
+  },
+  "pagination": {
+    "type": "page-based",
+    "urlPattern": "&page={pageNumber}",
+    "maxProductsPerPage": 40
+  },
+  "dynamicLoading": {
+    "requiresJavaScript": false,
+    "loadingMethod": "server-side-rendering"
+  },
+  "scrapeableFeatures": {
+    "productList": true,
+    "productDetails": true,
+    "categoryNavigation": true,
+    "search": true
+  }
+}

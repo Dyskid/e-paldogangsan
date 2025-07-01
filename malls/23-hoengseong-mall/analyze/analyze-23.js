@@ -1,0 +1,33 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var fs = require("fs");
+var path = require("path");
+var analysis = {
+    "id": 23,
+    "engname": "hoengseong-mall",
+    "name": "횡성몰",
+    "url": "https://hoengseong-mall.com/",
+    "scrapable": true,
+    "structure": {
+        "type": "firstmall",
+        "catalogPattern": "/goods/catalog?code={categoryCode}",
+        "requiresJavaScript": false,
+        "notes": "Platform: firstmall. Products appear to be available in static HTML."
+    },
+    "categories": [
+        {
+            "name": "Category 00140001",
+            "code": "00140001"
+        }
+    ],
+    "issues": [],
+    "recommendations": [
+        "Use standard HTTP requests to fetch pages",
+        "Parse HTML to extract product information",
+        "Monitor for pagination patterns"
+    ]
+};
+// Write the analysis to JSON file
+var outputPath = path.join(__dirname, 'analysis-23.json');
+fs.writeFileSync(outputPath, JSON.stringify(analysis, null, 2));
+console.log("Analysis saved to ".concat(outputPath));

@@ -1,0 +1,71 @@
+{
+  "mallId": "54",
+  "mallName": "진도아리랑몰 (Jindo Arirang Mall)",
+  "url": "https://jindoarirangmall.com/",
+  "analyzedAt": "2025-07-01T13:49:16.087Z",
+  "structure": {
+    "hasCategoryPages": true,
+    "hasProductDetailPages": true,
+    "hasPagination": true,
+    "hasJavaScriptRendering": false,
+    "categoryUrlPattern": "/product/list.html?cate_no={categoryId}",
+    "productUrlPattern": "/product/{productName}/{productId}/category/{categoryId}/display/{displayId}/",
+    "paginationUrlPattern": "/product/list.html?cate_no={categoryId}&page={pageNumber}"
+  },
+  "categories": {
+    "main": [
+      {
+        "name": "농산물",
+        "url": "/product/list.html?cate_no=24",
+        "categoryId": "24"
+      },
+      {
+        "name": "수산물",
+        "url": "/product/list.html?cate_no=25",
+        "categoryId": "25"
+      },
+      {
+        "name": "축산물",
+        "url": "/product/list.html?cate_no=103",
+        "categoryId": "103"
+      },
+      {
+        "name": "전통주",
+        "url": "/product/list.html?cate_no=119",
+        "categoryId": "119"
+      },
+      {
+        "name": "세트상품",
+        "url": "/product/list.html?cate_no=48",
+        "categoryId": "48"
+      },
+      {
+        "name": "친환경농산물",
+        "url": "/product/list.html?cate_no=116",
+        "categoryId": "116"
+      }
+    ]
+  },
+  "products": {
+    "selectors": {
+      "container": ".xans-product-normalpackage .item",
+      "name": ".name a span",
+      "price": ".xans-product-listitem",
+      "image": ".thumbnail img",
+      "link": ".name a"
+    },
+    "dataLocation": "HTML DOM - Server-side rendered"
+  },
+  "pagination": {
+    "type": "page-based",
+    "itemsPerPage": 40,
+    "totalItemsLocation": ".ec-base-paginate",
+    "pageParameter": "page"
+  },
+  "technical": {
+    "platform": "Cafe24",
+    "requiresJavaScript": false,
+    "hasDynamicLoading": false,
+    "apiEndpoints": []
+  }
+}

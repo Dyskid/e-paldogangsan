@@ -1,0 +1,192 @@
+{
+  "mallName": "광주김치몰",
+  "mallUrl": "https://www.k-kimchi.kr",
+  "structure": {
+    "categories": [
+      {
+        "id": "001",
+        "name": "포기김치",
+        "url": "/index.php?cate=001"
+      },
+      {
+        "id": "003",
+        "name": "묵은지",
+        "url": "/index.php?cate=003"
+      },
+      {
+        "id": "004",
+        "name": "별미김치",
+        "url": "/index.php?cate=004",
+        "subcategories": [
+          {
+            "id": "004001",
+            "name": "깍두기",
+            "url": "/index.php?cate=004001"
+          },
+          {
+            "id": "004003",
+            "name": "갓김치",
+            "url": "/index.php?cate=004003"
+          },
+          {
+            "id": "004005",
+            "name": "백김치",
+            "url": "/index.php?cate=004005"
+          },
+          {
+            "id": "004007",
+            "name": "부추김치",
+            "url": "/index.php?cate=004007"
+          },
+          {
+            "id": "004008",
+            "name": "석박지",
+            "url": "/index.php?cate=004008"
+          },
+          {
+            "id": "004010",
+            "name": "오이소박이",
+            "url": "/index.php?cate=004010"
+          },
+          {
+            "id": "004011",
+            "name": "열무김치",
+            "url": "/index.php?cate=004011"
+          },
+          {
+            "id": "004012",
+            "name": "총각김치",
+            "url": "/index.php?cate=004012"
+          },
+          {
+            "id": "004013",
+            "name": "파김치",
+            "url": "/index.php?cate=004013"
+          }
+        ]
+      },
+      {
+        "id": "005",
+        "name": "30%할인전",
+        "url": "/index.php?cate=005"
+      },
+      {
+        "id": "006",
+        "name": "명인 명품김치",
+        "url": "/index.php?cate=006"
+      },
+      {
+        "id": "002",
+        "name": "반찬가게",
+        "url": "/index.php?cate=002"
+      },
+      {
+        "id": "015",
+        "name": "선물세트",
+        "url": "/index.php?cate=015"
+      }
+    ],
+    "urlPatterns": {
+      "homepage": "/index.php",
+      "category": "/index.php?cate={category_id}",
+      "product": "/?cate={category_id}&type=view&num={product_id}#module",
+      "search": "/index.php?cate=000003001&type=search&prodName={keyword}",
+      "cart": "/index.php?cate=000002004&type=cart#module"
+    },
+    "pagination": {
+      "supported": true,
+      "method": "query_parameter",
+      "parameterName": "page"
+    },
+    "requiresJavaScript": false,
+    "productSelectors": {
+      "container": ".product_cell",
+      "name": ".productName a",
+      "price": ".price strike",
+      "discountPrice": ".price span",
+      "discountRate": ".salePercentage",
+      "image": ".viewImage img",
+      "manufacturer": ".product_cell_tit a",
+      "description": ".productSubject",
+      "rating": ".star .fa-star",
+      "reviewCount": ".star span"
+    }
+  },
+  "sampleProducts": [
+    {
+      "id": "63",
+      "name": "파김치 1kg,2kg,3kg",
+      "url": "https://www.k-kimchi.kr/index.php?cate=004013&type=view&num=63#module",
+      "imageUrl": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038655990.4436940016038655990.jpg",
+      "originalPrice": "16,700",
+      "discountedPrice": "15,030",
+      "discountRate": "10",
+      "manufacturer": "(주)해담촌",
+      "description": "알싸한 중독성 해담촌 파김치",
+      "rating": 4.5,
+      "reviewCount": 19
+    },
+    {
+      "id": "58",
+      "name": "석박지 1kg",
+      "url": "https://www.k-kimchi.kr/index.php?cate=004008&type=view&num=58#module",
+      "imageUrl": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038651820.7009530016038651820.jpg",
+      "originalPrice": "8,000",
+      "discountedPrice": "7,200",
+      "discountRate": "10",
+      "manufacturer": "(주)해담촌",
+      "description": "시원함이 가득한 해담촌 석박지",
+      "rating": 4,
+      "reviewCount": 5
+    },
+    {
+      "id": "57",
+      "name": "깍두기 1kg",
+      "url": "https://www.k-kimchi.kr/index.php?cate=004001&type=view&num=57#module",
+      "imageUrl": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038650990.2823040016038650990.jpg",
+      "originalPrice": "9,300",
+      "discountedPrice": "8,370",
+      "discountRate": "10",
+      "manufacturer": "(주)해담촌",
+      "description": "",
+      "rating": 4,
+      "reviewCount": 17
+    },
+    {
+      "id": "37",
+      "name": "갓김치 1kg",
+      "url": "https://www.k-kimchi.kr/index.php?cate=004003&type=view&num=37#module",
+      "imageUrl": "https://www.k-kimchi.kr/user/default/data/2021/07/m-_16257070060.1646520016257070060.jpg",
+      "originalPrice": "16,300",
+      "discountedPrice": "14,670",
+      "discountRate": "10",
+      "manufacturer": "(주)채자연",
+      "description": "특유의 향으로 감칠맛이 돌고 진하며 신원한 맛",
+      "rating": 4.5,
+      "reviewCount": 4
+    },
+    {
+      "id": "55",
+      "name": "총각김치 1kg",
+      "url": "https://www.k-kimchi.kr/index.php?cate=004012&type=view&num=55#module",
+      "imageUrl": "https://www.k-kimchi.kr/user/default/data/2020/10/m-_16038649580.3658270016038649580.jpg",
+      "originalPrice": "13,300",
+      "discountedPrice": "11,970",
+      "discountRate": "10",
+      "manufacturer": "(주)해담촌",
+      "description": "한잎 크게 베어물어 오독오독 씹는맛",
+      "rating": 4.5,
+      "reviewCount": 12
+    }
+  ],
+  "analysisDate": "2025-07-01T07:03:29.123Z",
+  "status": "success",
+  "notes": [
+    "광주김치몰은 전통적인 서버 사이드 렌더링 방식을 사용합니다.",
+    "제품 목록은 HTML에 직접 포함되어 있어 JavaScript 없이도 크롤링 가능합니다.",
+    "할인율이 명확하게 표시되며, 제조사(브랜드) 정보도 각 제품에 포함됩니다.",
+    "별점은 Font Awesome 아이콘을 사용하여 표시되며, 채워진 별의 개수로 평점을 계산할 수 있습니다.",
+    "URL 구조가 일관되며, 카테고리 ID와 제품 번호를 통해 접근 가능합니다.",
+    "검색 기능은 GET 파라미터를 통해 구현되어 있습니다."
+  ]
+}

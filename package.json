@@ -10,6 +10,9 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@types/cheerio": "^0.22.35",
+    "@types/jsdom": "^21.1.7",
+    "@types/node-fetch": "^2.6.12",
     "@types/sharp": "^0.31.1",
     "axios": "^1.10.0",
     "chalk": "^5.3.0",
@@ -17,27 +20,31 @@
     "commander": "^12.0.0",
     "fuse.js": "^7.0.0",
     "iconv-lite": "^0.6.3",
-    "next": "14.2.3",
+    "jsdom": "^26.1.0",
+    "next": "15.3.4",
+    "node-fetch": "^3.3.2",
     "ora": "^8.0.1",
     "playwright": "^1.52.0",
     "puppeteer": "^24.11.1",
-    "puppeteer-core": "^24.10.2",
+    "puppeteer-core": "^24.11.1",
     "react": "^18",
     "react-dom": "^18",
     "sharp": "^0.34.2"
   },
   "devDependencies": {
     "@tailwindcss/line-clamp": "^0.4.4",
-    "@types/node": "^20",
+    "@types/node": "^20.19.2",
+    "@types/puppeteer": "^5.4.7",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.3",
+    "eslint-config-next": "15.3.4",
     "husky": "^8.0.0",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
+    "ts-node": "^10.9.2",
     "tsx": "^4.7.0",
-    "typescript": "^5"
+    "typescript": "^5.8.3"
   }
 }

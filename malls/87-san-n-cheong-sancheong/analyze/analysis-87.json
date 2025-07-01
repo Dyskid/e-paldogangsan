@@ -1,0 +1,26 @@
+{
+  "mallId": 87,
+  "mallName": "san-n-cheong-sancheong",
+  "url": "https://sanencheong.com/",
+  "categories": [],
+  "productStructure": {
+    "urlPattern": "https://sanencheong.com/goods/view?no={product_id}",
+    "categoryUrlPattern": "https://sanencheong.com/goods/catalog?code={category_code}",
+    "paginationMethod": "page_parameter",
+    "dynamicLoading": false,
+    "productSelectors": {
+      "container": ".goods_list_item",
+      "name": ".goods_name a",
+      "price": ".goods_price",
+      "image": ".goods_thumb img",
+      "link": ".goods_name a"
+    }
+  },
+  "sampleProducts": [],
+  "notes": [
+    "Product IDs are numeric",
+    "Categories use 4-digit codes (e.g., 0001, 0002)",
+    "Modern e-commerce platform with clean structure"
+  ],
+  "errors": []
+}

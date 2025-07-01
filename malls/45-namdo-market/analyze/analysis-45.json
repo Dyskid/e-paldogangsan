@@ -1,0 +1,23 @@
+{
+  "id": 45,
+  "name": "남도장터",
+  "url": "https://www.jnmall.kr/",
+  "categories": [],
+  "productStructure": {
+    "listSelector": "",
+    "itemSelector": "",
+    "nameSelector": "",
+    "priceSelector": "",
+    "imageSelector": "",
+    "linkSelector": ""
+  },
+  "pagination": {
+    "type": "none"
+  },
+  "requiresJavaScript": true,
+  "urlPatterns": {
+    "category": "/goods/goods_list.php?cateCd={categoryId}",
+    "product": "/goods/goods_view.php?goodsNo={productId}",
+    "search": "/goods/goods_search.php?keyword={keyword}"
+  }
+}

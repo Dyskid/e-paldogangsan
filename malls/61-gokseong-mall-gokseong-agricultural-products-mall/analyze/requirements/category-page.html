@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta name="robots" content="noindex" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>주문배송조회 > 마이쇼핑 > 곡성몰</title>
+<meta name="description" content="전라남도 곡성군의 농·특산물과 안전한 가공품을 만나보실수 있는 곡성몰입니다." />
+<meta name="keywords" content="전라남도 곡성군의 농·특산물과 안전한 가공품을 만나보실수 있는 곡성몰입니다." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://gokseongmall.com/kwa-sell_list" />
+<meta property="og:title" content="주문배송조회 &gt; 마이쇼핑 &gt; 곡성몰" />
+<meta property="og:description" content="전라남도 곡성군의 농·특산물과 안전한 가공품을 만나보실수 있는 곡성몰입니다." />
+<meta property="og:image" content="//gokseongmall.com/design/ko/upload_file/TCSYSTEM_site_info/d754ba0d188f388c9ed62bd75a9ce769_71667_1.png" />
+<link rel="canonical" href="//gokseongmall.com" />
+<link rel="shortcut icon" href="template/DESIGN_shop06/program/images/favicon_dev.png">
+<link href="/template/DESIGN_content/program/rcc-p.css?v=1751374080" rel="stylesheet" type="text/css">
+<link href="/template/DESIGN_content/program/theme/01/layout.css?v=175" rel="stylesheet" type="text/css">
+<link href="/template/DESIGN_content/program/theme/01/design.css?v=175" rel="stylesheet" type="text/css">
+<link href="/template/DESIGN_content/program/theme/01/layout.css?v=175" rel="stylesheet" type="text/css">
+<link href="/include/jquery/css/sitecook/jquery-ui.css?v=175" rel="stylesheet" type="text/css">
+<link href="/template/DESIGN_gnb/program/gnb.css?v=175" rel="stylesheet" type="text/css">
+<link href="/template/DESIGN_button/program/images/button.css?v=175" rel="stylesheet" type="text/css">
+<link href="/template/PLUGIN_shop_core/program/css/shop.css?v=175" rel="stylesheet" type="text/css">
+<link href="/template/DESIGN_shop06/program/images/gokseongmall.css?v=175" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/include/jquery/jquery.js?v=175"></script>
+<script type="text/javascript" src="/include/jquery/jquery-ui.js?v=175"></script>
+<script type="text/javascript" src="./template/PLUGIN_localization/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_shop_core/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_dup_chk_record/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_zero_pay/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_com_bos_np/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_auth_adult/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_com_bos_shop_multi_deliv/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_com_bos_shop_routine/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_popbill_katalk/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_com_bos_shop_gift/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_com_bos_ns/ko/trans_client.js"></script>
+<script type="text/javascript" src="./template/PLUGIN_com_rlcm_chak/ko/trans_client.js"></script>
+<script type="text/javascript" src="/include/jquery/jquery-abuilder.js?v=175"></script>
+<script type="text/javascript" src="/include/jquery/plugin/scrollmagic/ScrollMagic.min.js?v=175"></script>
+<script type="text/javascript" src="/include/jquery/plugin/scrollmagic/debug.addIndicators.min.js?v=175"></script>
+<script type="text/javascript" src="/template/BUILDER_core9/program/gnb.js?v=175"></script>
+<script type="text/javascript" src="/include/js/javascript.js?v=175"></script>
+
+
+
+<link href="template/DESIGN_gnb/program/theme/gokseongmall/style.css" rel="stylesheet" type="text/css" />
+<link href="/template/PLUGIN_shop_core/program/css/shopcategory_style.css" rel="stylesheet" type="text/css"><style>
+[class*="bdWrite"] img[src*="/tools/get_png/person_chk_img.php"] {width:110px !important; height: auto;}
+.AB-wide-gnb-sub{height:180px;}
+.AB-wide-gnb-sub .ABA-gnb-sub-1{height:160px !important;}
+html, body, h1, h2, h3, h4, h5, h6, th, td, input, select, textarea {line-height:1.3;font-size: 16px;color:rgb(0,0,0);}
+body, h1, h2, h3, h4, th, td a, input {color:#1c1c1c; font-family:'Noto Sans KR','sans-serif'; font-size:12px; color:#333; font-weight:100; }
+body.PC{min-width:1400px !important;}
+/*fixed gnb*/
+.fixedgnb{background:#fff; position:fixed !important; left:0; top:0; width:100%; z-index:10;}
+.fixedgnb.abline-div-padding,.abline-div-padding .fixedgnb {position:static !important;}
+
+.tyGoodsList .-fdThumb:hover .-fdThumbOver {opacity:1; transition: all 0.2s;}
+.tyGoodsList .-fdThumbOver {top:0; right:0; bottom:0; left:0; background:rgba(255,255,2550,0.7); z-index:1; opacity:0; transition: all 0.2s; text-align:center;}
+.tyGoodsList .-fdThumbOver a img {margin:0 5px;}
+.tyGoodsList .-fdThumbOver .-inner {height:40px; top:0; bottom:0; left:0; right:0; margin:auto auto; z-index:2;}
+.tyGoodsList .-fdThumbOver .-inner.abline-div-padding {margin-top:0;}
+.tyGoodsList .-fdThumb{overflow:hidden;}
+.tyGoodsList .-fdThumb:hover .-bdThumbZoom img.AB-img-full-w {transform: scale(1.1,1.1); transition: all 0.2s;}
+.tyGoodsList .-btnGoodsView {top:0; right:0; bottom:0; left:0; z-index:1; font-size:0; text-indent:-9999px; display:block;}
+
+.-bdThumbZoom:hover a{text-decoration:none;}
+
+.utilWrapNobar .toggle-div>a{margin-right:0;}
+
+#buyTop.fixeddiv { border-bottom:1px solid #aaa }
+#AB-goods-view-top span.-open { background-color:#777; border-color:#777; }
+.bdGoodsInfoR .-btnWrap ul li a span.btn-pattern-B08,
+.fixeddiv .-cover .-btnWrap ul li a span.btn-pattern-B08 { background-color:#58adcd; border-color:#58adcd; }
+
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 100;
+src: url('/webfont/NotoSansKR-Light.otf');
+}
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 300;
+src: url('/webfont/NotoSansKR-Regular.otf');
+}
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+src: url('/webfont/NotoSansKR-Medium.otf');
+}
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 600;
+src: url('/webfont/NotoSansKR-Bold.otf');
+}
+
+#ABA-read-top h3  { font-size: 24px; color:#333; text-align:center; font-weight:300; background-color:#fff; display:inline-block; padding:10px 30px;  margin: 0 auto;  }
+.yeo_goods_title { font-size: 55px; color:#333; text-align:center; font-weight:300; background-color:#fff; display:inline-block; padding:0 30px; margin: 0 auto;  }
+.yeo_titleline { background-color: #ebebeb;width: 100%;height: 1px; top:45px; left:0; z-index:-1; }
+.ABA-subcontent .yeo_titleline { top:25px;}
+
+.header_shop_menu li {display:inline-block; text-align:center;}
+.header_shop_submenu1 {margin: 0;}
+.header_shop_submenu1 a:focus {outline:none;}
+
+.AB-first a {color: #3C9B47 !important;}
+.AB-first a:hover {color: #89b92a !important;}
+
+
+
+.headerNobar a { color:#bdbdbd; font-size:14px; line-height:14px;  margin:0; }
+.headerNobar span { margin: 0 20px; }
+
+
+.AB-pa .abline-div-padding, .AB-pf .abline-div-padding, .AB-pa.abline-div-padding, .AB-pf.abline-div-padding, .abline-div-padding .AB-pa, .abline-div-padding .AB-pf { position:static !important;}
+
+
+#ABA-head-top .schHeaderShop {border-bottom: none;}
+#ABA-head-top .schHeaderShop .innerWrap .schValue {padding: 2px 75px 2px 20px;background-color: #ffffff;border: 3px solid #89b92a;border-radius:30px;width: 100%;height: 38px;box-sizing: border-box; position:relative;}
+#ABA-head-top .schHeaderShop input[type="text"], #ABA-head-top .schHeaderShop select {line-height:32px; border-radius:0px; border:none; height: 34px; outline:0; width:100%;}
+#ABA-head-top .bos-conv-banner-click {position:absolute; right:27px; top:50%; transform:translate(0, -50%);}
+
+
+.toggle-div-gnmallsitemap { display:none; }
+.leftMenuWrap:hover .toggle-div-gnmallsitemap { display:block;}
+
+
+.rollingBtn{position:absolute; top:19px; left:-100px;}
+.rollingBtn.abline-div-padding {left:150px;}
+.-btnTableScroll img{vertical-align:top; box-sizing:border-box; cursor:pointer;border:none; padding:0; }
+[class*="utilWrap0"] a:after, [class*="utilWrap0"] span:after {margin:0 18px;}
+.footer_info  { color:#8b8b8b; font-weight:300; }
+
+
+.footerNobar a { color:#555; font-size:14px; line-height:80px; letter-spacing:-0.5px; font-weight:300; }
+.footerNobar span { margin:0 20px; color:#555; }
+.footerNobar a { margin:0 }
+
+
+.footer_menu a { display:block; font-size: 12px; color:#a8a8a8; line-height:20px; font-weight:300; }
+</style></head>
+<body class="PC"><div class="AB-skip"><div><ul><li><a href="/kwa-sell_list#ABA-read-top">본문 바로가기</a></li><li><a href="/kwa-sell_list#ABA-gnb">메인메뉴 바로가기</a></li></ul></div></div><div class="ABA-wrap-box AB-cr" id="ABA-head-top"><div class="ABA-container-box" style="margin-bottom: 0px;">
+
+
+
+
+
+
+
+<!-- Meta Pixel Code -->
+
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=346332431874355&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<!-- nPay remove Start -->
+
+<!-- nPay remove Start -->
+
+<!-- 비회원 비밀번호 010을 제외한 8자리 자동 설정 Start -->
+
+<!-- 비회원 비밀번호 010을 제외한 8자리 자동 설정 End --><div class="ABA-wrap-box AB-cr" style="padding: 7px 0 5px;"><div class="ABA-layout-align"><div class="ABA-container-box-630"><div class="ABA-content-box headerNobar">
+
+</div></div><div class="ABA-container-box-630"><div class="ABA-content-box AB-cr headerNobar " style="font-size: 12px; letter-spacing: -1px; text-align: right;"><div class="toggle-div AB-pa" style="z-index:50;text-align: center;background-color: #ffffff;width: 85px;height: 80px;top: 27px;right: -20px;"><a href="kwa-372340" style="color: #333333;line-height: 2.2;background-color: #ffffff;border-top: 1px solid #dddddd;border-right: 1px solid #dddddd;border-bottom: 1px dashed #dddddd;border-left: 1px solid #dddddd;display: block;">공지사항</a><a href="kwa-personal_consult" style="color: #333333;line-height: 2.2;background-color: #ffffff;border-right: 1px solid #dddddd;border-bottom: 1px dashed #dddddd;border-left: 1px solid #dddddd;display: block;">1:1문의</a><a href="kwa-3154857" style="color: #333333;line-height: 2.2;background-color: #ffffff;border-right: 1px solid #dddddd;border-bottom: 1px dashed #dddddd;border-left: 1px solid #dddddd;display: block;">자주하는질문</a><a href="kwa-372358" style="color: #333333;line-height: 2.2;background-color: #ffffff;border-right: 1px solid #dddddd;border-bottom: 1px dashed #dddddd;border-left: 1px solid #dddddd;display: block;">입점안내</a></div><a href="kwa-login?prev_url=..%2Fkwa-sell_list">로그인<span>|</span></a><a href="kwa-agreement">회원가입<span>|</span></a><a href="#;" id='AB-show-hide-btn' toggle-hour='0' toggle-class='toggle-div' default-view='hide' a-show='blind,up,300' a-hide='blind,up,300'>고객센터</a>
+</div></div></div></div><div class="ABA-wrap-box AB-cr" style="padding: 45px 0 45px;"><div class="ABA-layout-align" style="display:flex; justify-content:center; align-items:center;"><div class="ABA-container-box-215" style="margin-right: 195px;"><div class="ABA-content-box"><h1><a href="/index.html"><img src="images/main_logo.png" width="230" height="117" alt="곡성몰" /></a></h1></div></div><div class="ABA-container-box-410" style="margin-top: 3px;margin-right: 110px;box-sizing: border-box;"><div class="ABA-content-box" style="margin-top: 15px;margin-bottom: 0;"><form id='TCBOARD_ABS_goods_LIST_indexIheaderDoTtphp18819' name='TCBOARD_ABS_goods_LIST_indexIheaderDoTtphp18819' method='post' action='kwa-ABS_goods_l' enctype='multipart/form-data' vi='' submit-func='return TCBOARD_ABS_goods_LIST_indexIheaderDoTtphp18819_submit(this, "");'>
+		<input type="hidden" name="board" value="ABS_goods" />
+		<input type="hidden" name="flag" value="gokseongmall.com" />
+		<input type="hidden" name="http_referer" value="" />
+		<input type="hidden" name="after_db_script" value="" />
+		<input type="hidden" name="after_db_msg" value="" />
+	<input type='hidden' name='Q_STRING' value='design_file=sell_list.php' /><input type='hidden' name='P_SELF' value='insiter.php' /><input type='hidden' name='VG_live_code' value='10d756c1f94ba992c1f1f49f1028dd55' /><input type='hidden' name='page_dfg' value='' /><input type='hidden' name='except_box_disabled' value='search_item' /><div class="schHeaderShop"><fieldset class='search'><legend>검색 폼</legend><div class="innerWrap"><div class="schValue"><input type="text" name="search_value" value="" class="AB-text"  placeholder="검색어를 입력해주세요." /><input type="image" src="images/search_icon.png"class="bos-conv-banner-click" data-banner-name="search" exec-func="return TCBOARD_ABS_goods_LIST_indexIheaderDoTtphp18819_submit(this, '')" width="28" height="28" alt="검색" /></div></div><input type="hidden" name="sch_method" value="and" /></fieldset></div></form>
+</div></div><div class="ABA-container-box-300" style="padding-top: 20px;"><div class="ABA-content-box AB-cr" style="text-align: right!important;margin-bottom: 0;"><ul class="header_shop_menu AB-fr" style="padding-right:7px;"><li class="header_shop_submenu1"><div><a href="kwa-shop_mypage"><img src="images/top_icon1.png" width="80" height="80" alt="마이쇼핑" title="마이쇼핑" data-rlv="Y" /></a></div></li><li class="header_shop_submenu1"><div class="AB-pr"><a href="kwa-ABS_sbag_l"><img src="images/top_icon2.png" width="80" height="80" alt="장바구니" title="장바구니" data-rlv="Y" /></a></div></li><li class="header_shop_submenu1"><div><a href="kwa-sell_list"><img src="images/top_icon3.png" width="80" height="80" alt="주문조회" title="주문조회" data-rlv="Y" /></a></div></li></ul></div></div></div></div><div class="ABA-wrap-box AB-cr GNB-color-03" id="ABA-gnb"><div class="ABA-layout-align"><div class="ABA-container-box-200" style="margin-right: 30px;"><div class="ABA-content-box leftMenuWrap" style="margin-bottom: 0;"><div class="toggle-div-gnmallsitemap AB-pr"><div class="AB-pa -innerBg" style="top: 60px;right: 0;left: -1px;z-index:1;">
+<ul class='category-wrap'>
+	<li id="1010"><a href="kwa-ABS_goods_l-1010" class='category-sub-1010'>30% 수퍼딜 ♡</a></li>
+	<li id="1002"><a href="kwa-ABS_goods_l-1002" class='category-sub-1002'>베스트</a></li>
+	<li id="1004"><a href="kwa-ABS_goods_l-1004" class='category-sub-1004'>베스트상품</a></li>
+	<li id="1003"><a href="kwa-ABS_goods_l-1003" class='category-sub-1003'>농산물</a>
+		<ul class='category-wrap'>
+			<li id="1003001"><a href="kwa-ABS_goods_l-1003001" class='category-sub-1003001'>쌀</a></li>
+			<li id="1003010"><a href="kwa-ABS_goods_l-1003010" class='category-sub-1003010'>잡곡/견과류</a></li>
+			<li id="1003004"><a href="kwa-ABS_goods_l-1003004" class='category-sub-1003004'>과일/채소</a></li>
+			<li id="1003002"><a href="kwa-ABS_goods_l-1003002" class='category-sub-1003002'>버섯/나물</a></li>
+			<li id="1003009"><a href="kwa-ABS_goods_l-1003009" class='category-sub-1003009'>기타</a></li>
+		</ul>
+	</li>
+	<li id="1006"><a href="kwa-ABS_goods_l-1006" class='category-sub-1006'>축수산물</a>
+		<ul class='category-wrap'>
+			<li id="1006001"><a href="kwa-ABS_goods_l-1006001" class='category-sub-1006001'>축산물</a></li>
+			<li id="1006002"><a href="kwa-ABS_goods_l-1006002" class='category-sub-1006002'>수산물</a></li>
+			<li id="1006003"><a href="kwa-ABS_goods_l-1006003" class='category-sub-1006003'>기타</a></li>
+		</ul>
+	</li>
+	<li id="1007"><a href="kwa-ABS_goods_l-1007" class='category-sub-1007'>가공식품</a>
+		<ul class='category-wrap'>
+			<li id="1007007"><a href="kwa-ABS_goods_l-1007007" class='category-sub-1007007'>김치/장아찌</a></li>
+			<li id="1007004"><a href="kwa-ABS_goods_l-1007004" class='category-sub-1007004'>베이커리/한과/떡</a></li>
+			<li id="1007003"><a href="kwa-ABS_goods_l-1007003" class='category-sub-1007003'>커피/차/주스</a></li>
+			<li id="1007011"><a href="kwa-ABS_goods_l-1007011" class='category-sub-1007011'>유제품</a></li>
+			<li id="1007010"><a href="kwa-ABS_goods_l-1007010" class='category-sub-1007010'>꿀/화분/조청</a></li>
+			<li id="1007006"><a href="kwa-ABS_goods_l-1007006" class='category-sub-1007006'>장류/소금/식초</a></li>
+			<li id="1007009"><a href="kwa-ABS_goods_l-1007009" class='category-sub-1007009'>주류</a></li>
+			<li id="1007012"><a href="kwa-ABS_goods_l-1007012" class='category-sub-1007012'>건강즙/농축액</a></li>
+			<li id="1007001"><a href="kwa-ABS_goods_l-1007001" class='category-sub-1007001'>밀키트/간편식</a></li>
+			<li id="1007002"><a href="kwa-ABS_goods_l-1007002" class='category-sub-1007002'>건강식품/분말</a></li>
+		</ul>
+	</li>
+	<li id="1009"><a href="kwa-ABS_goods_l-1009" class='category-sub-1009'>생활</a>
+		<ul class='category-wrap'>
+			<li id="1009001"><a href="kwa-ABS_goods_l-1009001" class='category-sub-1009001'>화장품</a></li>
+			<li id="1009003"><a href="kwa-ABS_goods_l-1009003" class='category-sub-1009003'>식물</a></li>
+			<li id="1009005"><a href="kwa-ABS_goods_l-1009005" class='category-sub-1009005'>공예품</a></li>
+			<li id="1009002"><a href="kwa-ABS_goods_l-1009002" class='category-sub-1009002'>서비스 상품</a></li>
+		</ul>
+	</li>
+	<li id="1012"><a href="kwa-ABS_goods_l-1012" class='category-sub-1012'>관광</a>
+		<ul class='category-wrap'>
+			<li id="1012001"><a href="kwa-ABS_goods_l-1012001" class='category-sub-1012001'>뚝방 마켓</a></li>
+			<li id="1012002"><a href="kwa-ABS_goods_l-1012002" class='category-sub-1012002'>곡성섬진강기차마을</a></li>
+		</ul>
+	</li>
+	<li id="1008"><a href="kwa-ABS_goods_l-1008" class='category-sub-1008'>여행</a>
+		<ul class='category-wrap'>
+			<li id="1008001"><a href="kwa-ABS_goods_l-1008001" class='category-sub-1008001'>체험</a></li>
+			<li id="1008002"><a href="kwa-ABS_goods_l-1008002" class='category-sub-1008002'>숙박</a></li>
+			<li id="1008004"><a href="kwa-ABS_goods_l-1008004" class='category-sub-1008004'>기타</a></li>
+		</ul>
+	</li>
+	<li id="1005"><a href="kwa-ABS_goods_l-1005" class='category-sub-1005'>TEST(관리자노출)</a></li>
+	<li id="1001"><a href="kwa-ABS_goods_l-1001" class='category-sub-1001'>경품 구매용</a></li>
+</ul>
+</div></div><a href="#;" class="-leftBtn" style="display:inline-block; vertical-align:top; width:100%; box-sizing:border-box; top:0; bottom:0;" id='AB-show-hide-btn-gnmallsitemap' toggle-hour='0' toggle-class='toggle-div-gnmallsitemap' default-view='hide' a-show='blind,up,300' a-hide='blind,up,300'>전체 카테고리</a></div></div><div class="ABA-container-box-1030"><div class="ABA-content-box" style="margin-bottom: 0;"><div class="ABA-gnb-wrap GNB-s GNB-v" style="width:100%;" effect-1="slide,up,300,100" effect-2="fade,up,300,100" effect-lnb="blind,up,300,100" effect-mobile="Y" sub-w-fit="2" sub-l-fit="0" wide-parent="wrap"><div class="ABA-bggnb-left"></div><div class="ABA-bggnb-center"><div style="position:relative"><ul class="ABA-gnb"><li id="AB-gnb-sc-1003" class="AB-first"><a href="kwa-ABS_goods_l-1003" style="width:14.285714285714%;display:inline-block;padding:0" class="GNB-a">농산물</a><div id="AB-gnb-sub-sc-1003" class="ABA-gnb-sub-1 AB-hidden"><ul class="ABA-gnb-sub-1-ul"><li id="AB-gnb-sub-sc-1003-1" class="AB-first"><a href="kwa-ABS_goods_l-1003001">쌀</a></li><li id="AB-gnb-sub-sc-1003-2"><a href="kwa-ABS_goods_l-1003010">잡곡/견과류</a></li><li id="AB-gnb-sub-sc-1003-3"><a href="kwa-ABS_goods_l-1003004">과일/채소</a></li><li id="AB-gnb-sub-sc-1003-4"><a href="kwa-ABS_goods_l-1003002">버섯/나물</a></li><li id="AB-gnb-sub-sc-1003-5" class="AB-last"><a href="kwa-ABS_goods_l-1003009">기타</a></li></ul></div></li><li id="AB-gnb-sc-1006"><a href="kwa-ABS_goods_l-1006" style="width:14.285714285714%;display:inline-block;padding:0" class="GNB-a">축수산물</a><div id="AB-gnb-sub-sc-1006" class="ABA-gnb-sub-1 AB-hidden"><ul class="ABA-gnb-sub-1-ul"><li id="AB-gnb-sub-sc-1006-1" class="AB-first"><a href="kwa-ABS_goods_l-1006001">축산물</a></li><li id="AB-gnb-sub-sc-1006-2" class="AB-last"><a href="kwa-ABS_goods_l-1006002">수산물</a></li></ul></div></li><li id="AB-gnb-sc-1007"><a href="kwa-ABS_goods_l-1007" style="width:14.285714285714%;display:inline-block;padding:0" class="GNB-a">가공식품</a><div id="AB-gnb-sub-sc-1007" class="ABA-gnb-sub-1 AB-hidden"><ul class="ABA-gnb-sub-1-ul"><li id="AB-gnb-sub-sc-1007-1" class="AB-first"><a href="kwa-ABS_goods_l-1007007">김치/장아찌</a></li><li id="AB-gnb-sub-sc-1007-2"><a href="kwa-ABS_goods_l-1007004">베이커리/한과/떡</a></li><li id="AB-gnb-sub-sc-1007-3"><a href="kwa-ABS_goods_l-1007003">커피/차/주스</a></li><li id="AB-gnb-sub-sc-1007-4"><a href="kwa-ABS_goods_l-1007011">유제품</a></li><li id="AB-gnb-sub-sc-1007-5"><a href="kwa-ABS_goods_l-1007010">꿀/화분/조청</a></li><li id="AB-gnb-sub-sc-1007-6"><a href="kwa-ABS_goods_l-1007006">장류/소금/식초</a></li><li id="AB-gnb-sub-sc-1007-7"><a href="kwa-ABS_goods_l-1007009">주류</a></li><li id="AB-gnb-sub-sc-1007-8"><a href="kwa-ABS_goods_l-1007012">건강즙/농축액</a></li><li id="AB-gnb-sub-sc-1007-9"><a href="kwa-ABS_goods_l-1007001">밀키트/간편식</a></li><li id="AB-gnb-sub-sc-1007-10" class="AB-last"><a href="kwa-ABS_goods_l-1007002">건강식품/분말</a></li></ul></div></li><li id="AB-gnb-sc-1009"><a href="kwa-ABS_goods_l-1009" style="width:14.285714285714%;display:inline-block;padding:0" class="GNB-a">생활</a><div id="AB-gnb-sub-sc-1009" class="ABA-gnb-sub-1 AB-hidden"><ul class="ABA-gnb-sub-1-ul"><li id="AB-gnb-sub-sc-1009-1" class="AB-first"><a href="kwa-ABS_goods_l-1009001">화장품</a></li><li id="AB-gnb-sub-sc-1009-2"><a href="kwa-ABS_goods_l-1009003">식물</a></li><li id="AB-gnb-sub-sc-1009-3"><a href="kwa-ABS_goods_l-1009005">공예품</a></li><li id="AB-gnb-sub-sc-1009-4" class="AB-last"><a href="kwa-ABS_goods_l-1009002">서비스 상품</a></li></ul></div></li><li id="AB-gnb-sc-1012"><a href="kwa-ABS_goods_l-1012" style="width:14.285714285714%;display:inline-block;padding:0" class="GNB-a">관광</a><div id="AB-gnb-sub-sc-1012" class="ABA-gnb-sub-1 AB-hidden"><ul class="ABA-gnb-sub-1-ul"><li id="AB-gnb-sub-sc-1012-1" class="AB-first"><a href="kwa-ABS_goods_l-1012001">뚝방 마켓</a></li><li id="AB-gnb-sub-sc-1012-2" class="AB-last"><a href="kwa-ABS_goods_l-1012002">곡성섬진강기차마을</a></li></ul></div></li><li id="AB-gnb-4570636"><a href="kwa-4570621" style="width:14.285714285714%;display:inline-block;padding:0" class="GNB-a">여행</a><div id="AB-gnb-sub-4570636" class="ABA-gnb-sub-1 AB-hidden"><ul class="ABA-gnb-sub-1-ul"><li id="AB-gnb-sub-4570636-1" class="AB-first"><a href="kwa-4570621">숙박</a></li><li id="AB-gnb-sub-4570636-2"><a href="kwa-4570649">체험</a></li><li id="AB-gnb-sub-4570636-3" class="AB-last"><a href="kwa-4571857">농촌체험휴양마을</a></li></ul></div></li><li id="AB-gnb-105294" class="AB-last"><a href="kwa-3365003" style="width:14.285714285714%;display:inline-block;padding:0" class="GNB-a">이벤트</a><div id="AB-gnb-sub-105294" class="ABA-gnb-sub-1 AB-hidden AB-none"><ul class="ABA-gnb-sub-1-ul"></ul></div></li></ul></div></div><div class="ABA-bggnb-right"></div></div></div></div></div></div></div></div><div class="ABA-wrap-box AB-cr ABA-layout-align"><div class="ABA-container-box-1260" style="background-image: url(/template/DESIGN_content/program/theme/01/bg_layout02_line.gif);background-repeat: repeat-y;background-position: left top;"><div class="ABA-wrap-box AB-cr ABA-layout-align" style="background-image: url(/template/DESIGN_content/program/theme/01/bg_layout02_line.gif);background-repeat: repeat-y;background-position: 200px top;"><div class="ABA-container-box-200" style="margin-right:30px;"><div class="ABA-content-box" style="margin-bottom: 0px;"><div class="pageMyMenu">
+	<div id='daum_addr_layer' style='z-index:9999;display:none;border:5px solid;position:fixed;width:520px;height:440px;left:50%;margin-left:-155px;top:50%;margin-top:-235px;overflow:hidden;-webkit-overflow-scrolling:touch;'><img src=//i1.daumcdn.net/localimg/localimages/07/postcode/320/close.png border=0 id='btnCloseLayer' style='cursor:pointer;position:absolute;right:-3px;top:-3px;z-index:10000;' onclick='closeDaumPostcode()' alt='닫기 버튼' /></div>
+	<script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+	
+	<div class="pageHead"><div><div><a href="kwa-shop_mypage"><img src="template/PLUGIN_shop_core/program/css/myshop_head.png" alt="마이쇼핑" data-rlv="Y" /></a></div></div><div></div><div></div></div><div class="pageBody"><table width=100% cellpadding=0 cellspacing=0 border=0><tr><td><img src=template/PLUGIN_shop_core/program/css/mymenu_blt.gif style="margin-top:-2px;" />&nbsp;<a href="kwa-sell_list">주문·배송</a></td><td width="50"><a href="kwa-sell_list">0건</a></td></tr><tr><td><img src=template/PLUGIN_shop_core/program/css/mymenu_blt.gif style="margin-top:-2px;" />&nbsp;<a href="kwa-cancel_list">취소·교환·반품</a></td><td><a href="kwa-cancel_list">0건</a></td></tr><tr><td><img src=template/PLUGIN_shop_core/program/css/mymenu_blt.gif style="margin-top:-2px;" />&nbsp;<a href="kwa-ABS_sbag_l">장바구니</a></td><td><a href="kwa-ABS_sbag_l">0건</a></td></tr></table></div></div></div></div><div class="ABA-container-box-1030 ABA-right-content" style="margin-bottom: 50px;padding-top: 20px;"><div class="ABA-content-box" id="ABA-read-top"><h3 class="AB-sj-h3 GNB-color-03" id="ABA-contents-title-selllistphp">주문배송조회</h3><div id="navi02"><ul class="map"><li id="AB-navi-home"><a href='./kwa-home'>HOME</a></li><li id='AB-navi-1' class="navi-child"><a href='./kwa-shop_mypage'>마이쇼핑</a><ul><li><a href="kwa-4570621" data-gnb="Y">여행</a></li><li><a href="kwa-3365003" data-gnb="Y">이벤트</a></li><li><a href="/kwa-372340" data-gnb="Y">고객센터</a></li><li><a href="kwa-ABS_goods_l-1003">농산물</a></li><li><a href="kwa-ABS_goods_l-1006">축수산물</a></li><li><a href="kwa-ABS_goods_l-1007">가공식품</a></li><li><a href="kwa-ABS_goods_l-1009">생활</a></li><li><a href="kwa-ABS_goods_l-1012">관광</a></li></ul></li><li id='AB-navi-last'><span>주문배송조회</span></li></ul></div></div><div id="AB_contents"><div><form id='TCSYSTEM_ETC_FORM_1968' name='TCSYSTEM_ETC_FORM_1968' method='post' action='./member/login_process.php?_tsss_=c8ee6b6t' enctype='multipart/form-data' vi='' submit-func='return TCSYSTEM_ETC_FORM_1968_submit(this, "");'>
+			<input type="hidden" name="flag" value="gokseongmall.com" />
+			<input type="hidden" name="proc_mode" value="login" />
+			<input type="hidden" name="Q_STRING" value="design_file=sell_list.php" />
+			<input type="hidden" name="after_db_script" value="%SELF%" />
+			<input type="hidden" name="after_db_msg" value="" />
+		<input type='hidden' name='P_SELF' value='insiter.php' /><input type='hidden' name='VG_live_code' value='a79b282329725609342d5c353d3cdf39' /><input type='hidden' name='page_dfg' value='' /><div class="ABA-content-box pageMember"><div class="pageHead"><h4>회원조회</h4><p>회원으로 구매하신 고객님께서는</p>
+<p>아이디와 비밀번호를 입력하여 로그인해주세요.</p></div><div class="pageBody"><label>아이디</label><div class="-inputWrap"><input type="text" name="user_id" value="" class="AB-text" placeholder="아이디" maxlength="50" tabindex="1" autocomplete="one-time-code" /></div><label>비밀번호</label><div class="-inputWrap"><input type="password" name="user_passwd" value="" class="AB-text" placeholder="비밀번호" maxlength="50" tabindex="1" autocomplete="one-time-code" /></div><div class="-btnWrap"><input type="submit" name="submit_OK" value="조회"  exec-func="return TCSYSTEM_ETC_FORM_1968_submit(this, '')" class="btn-tpl btn-round-01 btn-pattern-C06 btn-size-13 btn-b" /></div></div><div class="pageFoot"><div><a href="kwa-find_id_pw">아이디 | 비밀번호 찾기</a></div></div></div></form>
+</div><div><form id='TCSYSTEM_ETC_FORM_1979' name='TCSYSTEM_ETC_FORM_1979' method='post' action='' enctype='multipart/form-data' vi='' submit-func='return TCSYSTEM_ETC_FORM_1979_submit(this, "");'>
+			<input type="hidden" name="flag" value="gokseongmall.com" />
+			<input type="hidden" name="proc_mode" value="etc" />
+			<input type="hidden" name="Q_STRING" value="design_file=sell_list.php" />
+			<input type="hidden" name="after_db_script" value="" />
+			<input type="hidden" name="after_db_msg" value="" />
+		<input type='hidden' name='P_SELF' value='insiter.php' /><input type='hidden' name='VG_live_code' value='f7448cd53027977a6464badb4ccce94f' /><input type='hidden' name='page_dfg' value='' /><div class="ABA-content-box pageMember"><div class="pageHead"><h4>비회원조회</h4><p>비회원으로 구매하신 고객님께서는</p>
+<p>주문번호와 주문비밀번호를 입력하여 조회해주세요.</p></div><div class="pageBody"><label>주문번호</label><div class="-inputWrap"><input type="text" name="article_num" value="" class="AB-text" placeholder="주문번호" maxlength="50" /></div><label>주문비밀번호</label><div class="-inputWrap"><input type="password" name="passwd" value="" class="AB-text" placeholder="주문비밀번호" maxlength="50" autocomplete="one-time-code" /></div><div class="-btnWrap"><input type="submit" name="submit_OK" value="조회"  exec-func="return TCSYSTEM_ETC_FORM_1979_submit(this, '')" class="btn-tpl btn-round-01 btn-pattern-C06 btn-size-13 btn-b" /></div></div><div class="pageFoot"><div><a href="kwa-agreement">회원가입</a></div></div></div></form>
+</div></div></div></div></div></div><div class="ABA-wrap-box AB-cr" id="ABA-footer"><div class="ABA-container-box"><div class="ABA-wrap-box AB-cr" style="padding: 10px 0px;background-color: #fff;border-top: 1px solid #dddddd;"><div class="ABA-layout-align"><div class="ABA-container-box-250"><div class="ABA-content-box" style="margin-bottom: 0px;"><img src=images/곡성군청.png height="78" alt="footer_logo_gokseonggun" /></div></div><div class="ABA-container-box-900"><div class="ABA-content-box AB-fns-13" style="font-size: 14px;font-weight: 300;color: #555555;line-height: 1.6;margin-top: 10px;"><p style="line-height: 1;"><br>주소: (57536) 전라남도 곡성군 곡성읍 군청로 50&nbsp; 개인정보관리 책임자: 우희정(061-360-8305)<br><span style="font-size: 8pt;">﻿</span><br><span style="color: rgb(51, 51, 51);">※ 곡성군청 위탁으로 (주)리얼커머스에서 관리하는 쇼핑몰입니다.</span></p></div></div></div></div><div class="ABA-wrap-box AB-cr" style="background-color: #fff;border-top: 1px solid #dddddd;"><div class="ABA-layout-align"><div class="ABA-container-box-210"><div class="ABA-content-box" style="padding: 10px 0 5px 30px;"><img src=images/footer_logo01.png width="155" height="77" alt="footer_logo" /></div></div><div class="ABA-container-box-995"><div class="ABA-content-box footerNobar" style="margin-top: 5px;margin-left: 18px;"><a href="kwa-3154860">곡성몰소개<span>|</span></a><a href="kwa-no_email">이메일수집거부<span>|</span></a><a href="kwa-private_info">개인정보처리방침<span>|</span></a><a href="kwa-policy">이용약관<span>|</span></a><a href="kwa-3154857">자주하는질문<span>|</span></a><a href="/kwa-sell_list?pc=m">모바일버전</a></div></div></div></div><div class="ABA-wrap-box AB-cr" style="padding-top: 40px;padding-bottom: 15px;border-top: 1px solid #e5e5e5;border-bottom: 1px solid #e5e5e5;"><div class="ABA-layout-align"><div class="ABA-container-box-400" style="border-right: 1px solid #dddddd;"><div class="ABA-content-box" style="margin-bottom: 0;padding-right: 40px;height: 160px;"><div style="font-size: 9px;;color: #000; font-weight:700; padding-bottom: 5px;"><div>CUSTOMER CENTER<br></div><div  style="margin: 10px 0;border: 1px solid #000;width: 9px;"></div></div><div style=" font-size: 18px;color: #000;margin-bottom: 10px; font-weight:600; ">070-8832-3984</div><div style="font-size: 12px;color: #a8a8a8;line-height:20px; font-weight:300;">상담사도 누군가의 소중한 가족입니다<br><span style="color:#333;">평일</span> 오전 10:00~ 오후 6:00 / <span style="color:#333;">점심시간</span> 오후 12:00~ 오후 1:00<br>토 / 일 / <span style="color:#333;">공휴일 휴무</span></div></div></div><div class="ABA-container-box-200" style="padding: 0 25px;border-right: 1px solid #dddddd;box-sizing: border-box;"><div class="ABA-content-box mainTplWrap" style="height: 160px;"><div style="font-size: 9px;;color: #000; font-weight:700; padding-bottom: 5px;"><div>SHOPPING MENU</div><div  style="margin: 10px 0;border: 1px solid #000;width: 9px;"></div></div><div class="footer_menu"><a href="kwa-shop_mypage">마이페이지</a><a href="kwa-ABS_kbag_l">관심상품</a><a href="kwa-ABS_sbag_l">장바구니</a><a href="kwa-sell_list">주문조회</a></div></div></div><div class="ABA-container-box-300" style="padding: 0 25px;height: 190px;box-sizing: border-box;"><div class="ABA-content-box mainTplWrap" style="margin-bottom: 10px;"><div style="font-size: 9px;;color: #000; font-weight:700; padding-bottom: 5px;"><div>RETURN / EXCHANGE</div><div  style="margin: 10px 0;border: 1px solid #000;width: 9px;"></div></div><div style="font-size: 12px;color: #a8a8a8;line-height:20px; font-weight:300;">교환 및 반품시 고객센터를 통해 부탁드리며,<br>고객센터를 통하지 않을 시 교환/반품이 어렵습니다.</div><div><a href="kwa-personal_consult"><span  style="font-size:16px; color:#333;">1:1문의 및 교환반품 문의</span></a></div></div></div><div class="ABA-container-box-350"><div class="ABA-content-box"><a href="kwa-372358"><img src="images/footer_minibanner2.png" width="350" /></a></div></div></div></div><div class="ABA-wrap-box AB-cr" style="padding-top: 40px;"><div class="ABA-layout-align"><div class="ABA-container-box-900"><div class="ABA-content-box footer_info" style="font-size: 12px;color: #919191;line-height: 20px;margin-bottom: 20px; ;">곡성몰 | 개인정보 관리 책임자 박진우 | 개인정보관리담당자 박진우 | 이메일 gokseong_mall@naver.com<br>컨설팅/MD/CS/디자인/운영업체 (주)리얼커머스 | 상호명 곡성몰 | 대표 송채은,박진우 | 사업자등록번호 282-81-00300 <span style="font-size: 9pt;"><a href="https://www.ftc.go.kr/www/bizCommList.do?key=232" target="_blank" style="">[사업자정보확인]</a></span><br>통신판매업신고 2022-대전서구-1219 | 주소 대전광역시 서구 대덕대로 195번길 64(둔산동 1090) &nbsp;|&nbsp;대표전화번호 070-8832-3984 | 팩스번호 042-716-7023</div><div class="ABA-content-box footer_info" style="font-size: 12px;line-height: 20px; margin-bottom:20px; ">당사의 모든 제작물의 저작권은 입점한 개발 업체에 있으며, 무단복제나 도용은<br>저작권법(97조5항)에 의해 금지되어 있습니다. 이를 위반시 법적인 처벌을 받을 수 있습니다.<br><br><br>copyright ⓒ 2024 by gokseongmall. all rights reserved</div></div><div class="ABA-container-box-360" style="text-align: right;"><div class="ABA-content-box AB-cr" style=";"></div></div></div></div></div></div><div id='global_dialog' style='display:none;clear:both;'></div>
+		<script type="text/javascript">
+			<!--
+				
+				var page_file = '';
+				var server_request_uri = '/kwa-sell_list';
+				var server_query_string = 'design_file=sell_list.php';
+		
+				var system_level = 'P';
+	
+
+function verify_submit_order(form){
+ if (form.article_num.value == '') {
+  alert('주문번호를 입력하세요');
+  form.article_num.focus();
+  return false;
+ }
+ if (form.passwd.value == '') {
+  alert('비밀번호를 입력하세요');
+  form.passwd.focus();
+  return false;
+ }
+form.action = 'insiter.php?design_file=sell_list_detail.php&article_num=' + form.article_num.value;
+}
+
+	var _VM_ = 'p';
+	var _tsss_ = 'c8ee6b6t';
+	var user_level = '99';
+	var global_dialog_size = '800,600';
+	var price_sosu = '0';
+	var price_unit = '원';
+	var cybmn_unit = '원';
+	var pretty_url = 'kwa-';
+	var admin_theme = '20170301';
+	var mobile_device = 'N';
+	var price_unit_loc = 'R';
+	var price_chg_1won = 'F';
+	var _afo_ = {'cmt_reply':[], 'cmt_reply_btn':[], 'cmt_proc_num':'', 'cmt_reply_depth':''};		// 새로고침 후에도 ajax 로딩 영역을 유지하기 위한 변수
+	var post_to_get_qs = '';var alert_type = 'alert';
+	var submit_is_ing = 'N';
+$(function() {
+const abatl = localStorage.getItem('ABATL');	// 저장된 로그인정보 있는지 체크
+//alert('abatl : ' + abatl);
+if (abatl !== null) {
+	//alert('./template/PLUGIN_login_auto/program/login.ajax.php?_tsss_=c8ee6b6t');
+	var xhr = new XMLHttpRequest();
+	xhr.open('POST', './template/PLUGIN_login_auto/program/login.ajax.php?_tsss_=c8ee6b6t', true);
+	xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+	xhr.onreadystatechange = function (e) {
+		if (xhr.readyState !== XMLHttpRequest.DONE) return;
+		if (xhr.status === 200) {
+			const data = xhr.responseText;//console.log(data);
+			if (data.indexOf('ABATLOK') >= 0) {	// 로그인 성공시 새로고침 여부 파악 후 실행
+				var result = jQuery.parseJSON(data); localStorage.setItem('ABATL', result.ectstr);
+				if ('' != '') alert_core('');
+				if ('Y' === 'Y') document.location.reload();
+			} else {										// 로그인 실패시 저장된 값 제거
+				localStorage.removeItem('ABATL');
+				if ('' != '') alert_core('(result)');
+			}
+		} else {
+			if ('' != '') alert_core('(connect)');
+		}
+	};
+	xhr.send('abatl=' + encodeURIComponent(abatl));	// 자동로그인 요청
+	// 딜레이를 주 목적으로 하는 alert(모바일 브라우저에서 자동로그인 성공 후 reload() 전에 아래쪽 루틴에서 리다이렉션이 되는 경우를 방지하기 위함)
+	if ('' != '') alert_core('');
+}});
+$(function() { $('.AB-show-hide-btn').ab_toggle_1(); });
+$(window).load( function() {
+var ctop = 150;
+$(this).scroll(function() {
+if($(this).scrollTop() > ctop){
+$("#ABA-gnb").addClass("fixedgnb");
+}else{
+$("#ABA-gnb").removeClass("fixedgnb");
+}
+});
+});
+
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '346332431874355');
+fbq('track', 'PageView');
+
+nPayRemove = function() {
+if(jQuery('[name="goods_serial"]').val() == '710') {
+jQuery('#NaverPay').html('<span style="color:red; font-size:20px">네이버 nPay 사용 불가 상품</span>');
+}
+}
+jQuery(function(){
+nPayRemove();
+setTimeout("nPayRemove();", 100);
+setTimeout("nPayRemove();", 1000);
+setTimeout("nPayRemove();", 2000);
+setTimeout("nPayRemove();", 3000);
+setTimeout("nPayRemove();", 5000);
+setTimeout("nPayRemove();", 7000);
+setTimeout("nPayRemove();", 9000);
+})
+
+noUser = function() {
+if((jQuery('[name="Q_STRING"]').val()+'').indexOf('order') != -1 && jQuery('#passwd').length > 0 && jQuery('#passwd_re').length == 0) {
+jQuery('#passwd').attr('readonly', true);
+jQuery('#passwd').val(jQuery('#sell_buyer_mobile_2').val() + jQuery('#sell_buyer_mobile_3').val());
+}
+}
+
+jQuery(function() {
+jQuery('#sell_buyer_mobile_2, #sell_buyer_mobile_3').keyup(function() { noUser(); });
+setTimeout('noUser();', 3000);
+});
+$(function() { $('#AB-show-hide-btn').ab_toggle_1(); });
+		
+		var d_lay = document.getElementById('daum_addr_layer');
+		function closeDaumPostcode() { d_lay.style.display = 'none'; }
+		function showDaumPostcode(vars) {
+			var currentScroll = Math.max(document.body.scrollTop, document.documentElement.scrollTop);
+			new daum.Postcode({
+				oncomplete: function(data) {
+					
+					var sel_address = data.roadAddress;
+					var sel_eng_address = data.roadAddressEnglish;
+					var sel_bdName = data.buildingName;
+					
+					if (typeof(vars.addrjibun) === 'undefined') {
+						if (data.userSelectedType == 'J') sel_address = data.jibunAddress;
+						if (data.userSelectedType == 'J') sel_eng_address = data.jibunAddressEnglish;
+					}
+	
+					if (sel_bdName != '') sel_bdName = ' (' + sel_bdName + ') ';
+					
+					if (typeof(vars.sido) !== 'undefined') document.getElementById(vars.sido).value = data.sido;
+					if (typeof(vars.gugun) !== 'undefined') document.getElementById(vars.gugun).value = data.sigungu;
+					if (typeof(vars.dong) !== 'undefined') {
+						if (data.bname1 != '') document.getElementById(vars.dong).value = data.bname1;
+						else document.getElementById(vars.dong).value = data.bname;
+						$('input[id=' + vars.dong + ']').trigger('change');
+					}
+		
+					if (typeof(vars.zonecode) !== 'undefined') document.getElementById(vars.zonecode).value = data.zonecode;
+					if (typeof(vars.post) !== 'undefined') document.getElementById(vars.post).value = data.postcode;
+					if (typeof(vars.post_1) !== 'undefined') document.getElementById(vars.post_1).value = data.postcode1;
+					if (typeof(vars.post_2) !== 'undefined') document.getElementById(vars.post_2).value = data.postcode2;
+					if (typeof(vars.address) !== 'undefined') {
+						document.getElementById(vars.address).value = sel_address + sel_bdName;
+						$('input[id=' + vars.address + ']').trigger('change');
+					}
+					if (typeof(vars.addrjibun) !== 'undefined') {
+						if (data.jibunAddress == '') data.jibunAddress = data.autoJibunAddress;
+						document.getElementById(vars.addrjibun).value = data.jibunAddress != '' ? data.jibunAddress : data.autoJibunAddress;	// 지번주소
+					}
+					if (typeof(vars.addroad) !== 'undefined') document.getElementById(vars.addroad).value = data.roadAddress;		// 도로명주소
+					if (typeof(vars.addreng) !== 'undefined') document.getElementById(vars.addreng).value = sel_eng_address;
+					if (typeof(vars.focus) !== 'undefined') document.getElementById(vars.focus).focus();
+					if (data.userLanguageType == 'E') if (typeof(vars.address) !== 'undefined') document.getElementById(vars.address).value = sel_eng_address;
+					if (typeof(vars.bcode) !== 'undefined') document.getElementById(vars.bcode).value = data.bcode;		// 법정동/법정리 코드
+					
+	
+					d_lay.style.display = 'none';
+					document.body.scrollTop = currentScroll;
+					if (vars.callback !== undefined) vars.callback(vars, data);
+					
+				},
+				theme: {
+					//bgColor: '',					//바탕 배경색
+					//searchBgColor: '',			//검색창 배경색
+					//contentBgColor: '',			//본문 배경색(검색결과,결과없음,첫화면,검색서제스트)
+					//pageBgColor: '',				//페이지 배경색
+					//textColor: '',					//기본 글자색
+					//queryTextColor: '',			//검색창 글자색
+					//postcodeTextColor: '',		//우편번호 글자색
+					//emphTextColor: '',			//강조 글자색
+					//outlineColor: ''				//테두리
+				},
+				 width : '100%',height : '100%'	
+			}).embed(d_lay, {
+				q : ''
+			});
+			d_lay.style.display = 'block';
+		}
+		function showDaumPostcodePop(vars) {
+			new daum.Postcode({
+				oncomplete: function(data) {
+					
+					var sel_address = data.roadAddress;
+					var sel_eng_address = data.roadAddressEnglish;
+					var sel_bdName = data.buildingName;
+					
+					if (typeof(vars.addrjibun) === 'undefined') {
+						if (data.userSelectedType == 'J') sel_address = data.jibunAddress;
+						if (data.userSelectedType == 'J') sel_eng_address = data.jibunAddressEnglish;
+					}
+	
+					if (sel_bdName != '') sel_bdName = ' (' + sel_bdName + ') ';
+					
+					if (typeof(vars.sido) !== 'undefined') document.getElementById(vars.sido).value = data.sido;
+					if (typeof(vars.gugun) !== 'undefined') document.getElementById(vars.gugun).value = data.sigungu;
+					if (typeof(vars.dong) !== 'undefined') {
+						if (data.bname1 != '') document.getElementById(vars.dong).value = data.bname1;
+						else document.getElementById(vars.dong).value = data.bname;
+						$('input[id=' + vars.dong + ']').trigger('change');
+					}
+		
+					if (typeof(vars.zonecode) !== 'undefined') document.getElementById(vars.zonecode).value = data.zonecode;
+					if (typeof(vars.post) !== 'undefined') document.getElementById(vars.post).value = data.postcode;
+					if (typeof(vars.post_1) !== 'undefined') document.getElementById(vars.post_1).value = data.postcode1;
+					if (typeof(vars.post_2) !== 'undefined') document.getElementById(vars.post_2).value = data.postcode2;
+					if (typeof(vars.address) !== 'undefined') {
+						document.getElementById(vars.address).value = sel_address + sel_bdName;
+						$('input[id=' + vars.address + ']').trigger('change');
+					}
+					if (typeof(vars.addrjibun) !== 'undefined') {
+						if (data.jibunAddress == '') data.jibunAddress = data.autoJibunAddress;
+						document.getElementById(vars.addrjibun).value = data.jibunAddress != '' ? data.jibunAddress : data.autoJibunAddress;	// 지번주소
+					}
+					if (typeof(vars.addroad) !== 'undefined') document.getElementById(vars.addroad).value = data.roadAddress;		// 도로명주소
+					if (typeof(vars.addreng) !== 'undefined') document.getElementById(vars.addreng).value = sel_eng_address;
+					if (typeof(vars.focus) !== 'undefined') document.getElementById(vars.focus).focus();
+					if (data.userLanguageType == 'E') if (typeof(vars.address) !== 'undefined') document.getElementById(vars.address).value = sel_eng_address;
+					if (typeof(vars.bcode) !== 'undefined') document.getElementById(vars.bcode).value = data.bcode;		// 법정동/법정리 코드
+					
+	
+					if (vars.callback !== undefined) vars.callback(vars, data);
+					
+				},
+				theme: {
+					//bgColor: '',					//바탕 배경색
+					//searchBgColor: '',			//검색창 배경색
+					//contentBgColor: '',			//본문 배경색(검색결과,결과없음,첫화면,검색서제스트)
+					//pageBgColor: '',				//페이지 배경색
+					//textColor: '',					//기본 글자색
+					//queryTextColor: '',			//검색창 글자색
+					//postcodeTextColor: '',		//우편번호 글자색
+					//emphTextColor: '',			//강조 글자색
+					//outlineColor: ''				//테두리
+				} 
+			}).open();
+		}
+	
+
+						function SYSTEM_vote_article(obj, form, board, serial_num, target, q_str, r_url, chg_values, after_script, after_msg, frm_attr, alert_msg) {
+							if (after_msg === 'X') after_msg = '';
+							if (alert_msg == '') alert_msg = '계속 진행 하시려면 \'확인\'을 그렇지 않으면 \'취소\'를 클릭하세요';
+							if (alert_msg !== 'X') {
+								alert_core(alert_msg, {'type':'alert'}, function() {
+									submit_direct_ajax(obj, '', './board/article_vote.php?_tsss_=c8ee6b6t', board, serial_num, target, chg_values, q_str, after_script, after_msg, frm_attr, 'gokseongmall.com', 'insiter.php', r_url, 'N', 'sell_list.php');
+								}, function() {
+									return false;
+								});
+							} else {
+								submit_direct_ajax(obj, '', './board/article_vote.php?_tsss_=c8ee6b6t', board, serial_num, target, chg_values, q_str, after_script, after_msg, frm_attr, 'gokseongmall.com', 'insiter.php', r_url, 'N', 'sell_list.php');
+							}
+						}
+					
+					const vgsuid = localStorage.getItem('VG_save_user_id');
+					const vgsupw = localStorage.getItem('VG_save_user_passwd');
+					if (vgsuid !== null || vgsupw !== null) {
+						$.post('./member/get_ls_ipsvd.ajax.php?_tsss_=c8ee6b6t', {'vgsuid':vgsuid,'vgsupw':vgsupw}, function(data) {
+							const rst = jQuery.parseJSON(data); const frm = $('form[action*="login_process.php"]');
+							if (rst.vgsuid !== undefined) {
+								$('input[name="user_id"]', frm).val(rst.vgsuid);
+								$('input[name="save_user_id"]', frm).prop('checked', 'checked');
+							}
+							if (rst.vgsupw !== undefined) {
+								$('input[name="user_passwd"]', frm).val(rst.vgsupw);
+								$('input[name="save_user_passwd"]', frm).prop('checked', 'checked');
+							}
+						});
+					}
+					
+		function TCBOARD_ABS_goods_LIST_indexIheaderDoTtphp18819_submit(obj, button_type) {
+			errfld = '';
+			var obj_this = $(obj);
+			var form_jq = obj_this.parents('form');
+			var form = form_jq[0];
+			
+	
+			if (errfld != '' && form.getAttribute('pass-invalid-alert') !== 'Y') {
+				var essen_msg = "필수입력사항을 누락없이 형식에 맞게 작성해주세요.\n'컬러가 변경된 입력상자' 가 필수 입력항목 입니다.";
+				var data_essen_msg = form_jq.attr('data-essen-msg'); if (data_essen_msg !== undefined) essen_msg = data_essen_msg;
+				alert_core(essen_msg); $('#loading_img').css('display', 'none');
+				errfld = ''; return false;
+			}
+			
+			$('*', form_jq).prop('required', false); $(':input[value!=""]', form_jq).removeClass('AB-empty-value');
+			$('.AB-empty-value', form_jq).prop('required', true);	// 유효성 검사할 대상을 지정 (필수 입력상자 중 꼭 입력되어야 할 것들, ;etc_1+etc_2; 형태 반영)
+			
+			if (form.checkValidity()) {		// html5 폼 검사 통과 확인 (통과 안되는 상황은 브라우저가 처리)
+				if (submit_is_ing === 'N') {	// form change 되면 N으로 초기화 되도록 해서 safari 도 해결, 문제가 되면 뒤로가기 했을때 새로고침 되도록 하는 스크립트를 적당한 곳(폼이 있는 페이지등)에 넣기 (jquery_abuilder.js 맨 위쪽에 주석처리 해 둠)
+					
+if (form.method === 'get') disabled_except_obj(form, 'SCH_', ['design_file', 'search_item', 'search_value', 'search_operator', 'category_1', 'category_2', 'category_3', 'category_4', 'category_5', 'category_6', 'sch_method', 'article_num', 'mini_uid', 'submit_OK','tpa','tpa_indexIheaderDoTtphp18819','search_item','except_box_disabled']);
+					
+					$('.-rm-cma', form_jq).each(function(i) { $(this).val($(this).val().replace(/[^0-9\.\-]/g, '')) });
+					$('*[name$="[]_multi"]', form_jq).prop('disabled', true); //console.log($('*', form_jq));
+					if (form.target == '') submit_is_ing = 'Y';
+					
+			if (button_type === 'text') form.submit();
+			else return true;
+	
+				} else {
+					alert_core("진행중입니다. 잠시만 기다려주세요");
+					return false;
+				}
+			} else {
+				alert_core("필수입력사항을 누락없이 형식에 맞게 작성해주세요.\n'컬러가 변경된 입력상자' 가 필수 입력항목 입니다.");
+			}
+		}
+	
+
+		function TCSYSTEM_ETC_FORM_1968_submit(obj, button_type) {
+			errfld = '';
+			var obj_this = $(obj);
+			var form_jq = obj_this.parents('form');
+			var form = form_jq[0];
+			
+	
+				if (typeof(form.user_level) !== 'undefined') {
+					if (submit_radio_check(form, 'user_level') == 0) {
+						alert_core('회원 분류를 선택하세요');
+						if (button_type === 'text') return;
+						else return false;
+					}
+				}
+			
+				if (chk_obj_input(form, 'user_id', '아이디를 입력해주세요') === false) {
+					if (button_type === 'text') return;
+					else return false;
+				}
+			
+				if (chk_obj_input(form, 'user_passwd', '비밀번호를 입력해주세요') === false) {
+					if (button_type === 'text') return;
+					else return false;
+				}
+			
+			if (errfld != '' && form.getAttribute('pass-invalid-alert') !== 'Y') {
+				var essen_msg = "필수입력사항을 누락없이 형식에 맞게 작성해주세요.\n'컬러가 변경된 입력상자' 가 필수 입력항목 입니다.";
+				var data_essen_msg = form_jq.attr('data-essen-msg'); if (data_essen_msg !== undefined) essen_msg = data_essen_msg;
+				alert_core(essen_msg); $('#loading_img').css('display', 'none');
+				errfld = ''; return false;
+			}
+			
+			$('*', form_jq).prop('required', false); $(':input[value!=""]', form_jq).removeClass('AB-empty-value');
+			$('.AB-empty-value', form_jq).prop('required', true);	// 유효성 검사할 대상을 지정 (필수 입력상자 중 꼭 입력되어야 할 것들, ;etc_1+etc_2; 형태 반영)
+			
+			if (form.checkValidity()) {		// html5 폼 검사 통과 확인 (통과 안되는 상황은 브라우저가 처리)
+				if (submit_is_ing === 'N') {	// form change 되면 N으로 초기화 되도록 해서 safari 도 해결, 문제가 되면 뒤로가기 했을때 새로고침 되도록 하는 스크립트를 적당한 곳(폼이 있는 페이지등)에 넣기 (jquery_abuilder.js 맨 위쪽에 주석처리 해 둠)
+					
+					
+					$('.-rm-cma', form_jq).each(function(i) { $(this).val($(this).val().replace(/[^0-9\.\-]/g, '')) });
+					$('*[name$="[]_multi"]', form_jq).prop('disabled', true); //console.log($('*', form_jq));
+					if (form.target == '') submit_is_ing = 'Y';
+					
+			if (button_type === 'text') form.submit();
+			else return true;
+	
+				} else {
+					alert_core("진행중입니다. 잠시만 기다려주세요");
+					return false;
+				}
+			} else {
+				alert_core("필수입력사항을 누락없이 형식에 맞게 작성해주세요.\n'컬러가 변경된 입력상자' 가 필수 입력항목 입니다.");
+			}
+		}
+	
+
+		function TCSYSTEM_ETC_FORM_1979_submit(obj, button_type) {
+			errfld = '';
+			var obj_this = $(obj);
+			var form_jq = obj_this.parents('form');
+			var form = form_jq[0];
+			
+	
+			if (errfld != '' && form.getAttribute('pass-invalid-alert') !== 'Y') {
+				var essen_msg = "필수입력사항을 누락없이 형식에 맞게 작성해주세요.\n'컬러가 변경된 입력상자' 가 필수 입력항목 입니다.";
+				var data_essen_msg = form_jq.attr('data-essen-msg'); if (data_essen_msg !== undefined) essen_msg = data_essen_msg;
+				alert_core(essen_msg); $('#loading_img').css('display', 'none');
+				errfld = ''; return false;
+			}
+			
+			$('*', form_jq).prop('required', false); $(':input[value!=""]', form_jq).removeClass('AB-empty-value');
+			$('.AB-empty-value', form_jq).prop('required', true);	// 유효성 검사할 대상을 지정 (필수 입력상자 중 꼭 입력되어야 할 것들, ;etc_1+etc_2; 형태 반영)
+			
+			if (form.checkValidity()) {		// html5 폼 검사 통과 확인 (통과 안되는 상황은 브라우저가 처리)
+				if (submit_is_ing === 'N') {	// form change 되면 N으로 초기화 되도록 해서 safari 도 해결, 문제가 되면 뒤로가기 했을때 새로고침 되도록 하는 스크립트를 적당한 곳(폼이 있는 페이지등)에 넣기 (jquery_abuilder.js 맨 위쪽에 주석처리 해 둠)
+					if (verify_submit_order(form) === false) return false;
+					
+					$('.-rm-cma', form_jq).each(function(i) { $(this).val($(this).val().replace(/[^0-9\.\-]/g, '')) });
+					$('*[name$="[]_multi"]', form_jq).prop('disabled', true); //console.log($('*', form_jq));
+					if (form.target == '') submit_is_ing = 'Y';
+					
+			if (button_type === 'text') form.submit();
+			else return true;
+	
+				} else {
+					alert_core("진행중입니다. 잠시만 기다려주세요");
+					return false;
+				}
+			} else {
+				alert_core("필수입력사항을 누락없이 형식에 맞게 작성해주세요.\n'컬러가 변경된 입력상자' 가 필수 입력항목 입니다.");
+			}
+		}
+	
+			
+			//-->
+		</script>
+	</body>
+</html>

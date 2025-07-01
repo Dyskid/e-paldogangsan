@@ -1,0 +1,117 @@
+{
+  "mallId": "51",
+  "mallName": "신안 1004몰",
+  "baseUrl": "https://shinan1004mall.kr",
+  "structure": {
+    "platform": "Cafe24",
+    "hasJavaScriptRendering": true,
+    "hasPagination": true,
+    "hasInfiniteScroll": false
+  },
+  "categories": [
+    {
+      "id": "23",
+      "name": "농산물",
+      "url": "https://shinan1004mall.kr/product/list.html?cate_no=23"
+    },
+    {
+      "id": "24",
+      "name": "수산물",
+      "url": "https://shinan1004mall.kr/product/list.html?cate_no=24"
+    },
+    {
+      "id": "26",
+      "name": "가공식품",
+      "url": "https://shinan1004mall.kr/product/list.html?cate_no=26"
+    },
+    {
+      "id": "27",
+      "name": "천일염",
+      "url": "https://shinan1004mall.kr/product/list.html?cate_no=27"
+    },
+    {
+      "id": "249",
+      "name": "섬쌀",
+      "url": "https://shinan1004mall.kr/product/list.html?cate_no=249"
+    },
+    {
+      "id": "65",
+      "name": "왕새우",
+      "url": "https://shinan1004mall.kr/product/list.html?cate_no=65"
+    },
+    {
+      "id": "51",
+      "name": "새우젓",
+      "url": "https://shinan1004mall.kr/product/list.html?cate_no=51"
+    },
+    {
+      "id": "251",
+      "name": "베스트",
+      "url": "https://shinan1004mall.kr/product/list.html?cate_no=251"
+    },
+    {
+      "id": "265",
+      "name": "신안1004몰 4주년 기획관",
+      "url": "https://shinan1004mall.kr/product/list.html?cate_no=265"
+    }
+  ],
+  "urlPatterns": {
+    "category": "/product/list.html?cate_no={categoryId}",
+    "product": "/product/{productName}/{productId}/category/{categoryId}/display/1/",
+    "pagination": "/product/list.html?cate_no={categoryId}&page={pageNumber}"
+  },
+  "selectors": {
+    "productList": "ul.prdList",
+    "productItem": "li[id^=\"anchorBoxId_\"]",
+    "productName": ".name a",
+    "productPrice": ".xans-product-listitem",
+    "productImage": ".thumbnail img",
+    "productLink": ".name a",
+    "pagination": ".xans-product-normalpaging",
+    "categoryMenu": ".xans-layout-category"
+  },
+  "sampleProducts": [
+    {
+      "id": "392",
+      "name": "상품명 : (홍도식품) 오늘 구운 재래곱창김(조미)30g x 10봉 / 1박스",
+      "price": "판매가 : 22,000원 \n\n쿠폰 적용가 : 14,520원 (최종할인가)\n\n리뷰 : 52",
+      "imageUrl": "//shinan1004mall.kr/web/product/medium/202501/e3b138e849f47296d3127033cb89b4d1.jpg",
+      "detailUrl": "https://shinan1004mall.kr/product/홍도식품-오늘-구운-재래곱창김조미30g-x-10봉-1박스/392/category/24/display/1/"
+    },
+    {
+      "id": "2015",
+      "name": "상품명 : (바른씨푸드) 신안 급냉 왕새우(1kg)",
+      "price": "판매가 : 21,000원 \n\n쿠폰 적용가 : 13,860원 (최종할인가)\n\n리뷰 : 21",
+      "imageUrl": "//shinan1004mall.kr/web/product/medium/202107/e635d350f626341334258af30e1ba698.jpg",
+      "detailUrl": "https://shinan1004mall.kr/product/바른씨푸드-신안-급냉-왕새우1kg/2015/category/24/display/1/"
+    },
+    {
+      "id": "2030",
+      "name": "상품명 : (섬마을수산) 신안 활새우 1kg 30-40미",
+      "price": "판매가 : 28,100원 \n\n쿠폰 적용가 : 18,550원 (최종할인가)\n\n리뷰 : 11",
+      "imageUrl": "//shinan1004mall.kr/web/product/medium/202507/0730cc8b1c1835f90a100275dab459c5.jpg",
+      "detailUrl": "https://shinan1004mall.kr/product/섬마을수산-신안-활새우-1kg-30-40미/2030/category/24/display/1/"
+    },
+    {
+      "id": "1844",
+      "name": "상품명 : (신안바다영어조합법인) 신안 구운 곱창김 (5매*25봉)",
+      "price": "판매가 : 35,500원 \n\n쿠폰 적용가 : 23,430원 (최종할인가)\n\n리뷰 : 21",
+      "imageUrl": "//shinan1004mall.kr/web/product/medium/202501/96b2aba61b5ff406419290ef70874fe1.jpg",
+      "detailUrl": "https://shinan1004mall.kr/product/신안바다영어조합법인-신안-구운-곱창김-5매25봉/1844/category/24/display/1/"
+    },
+    {
+      "id": "583",
+      "name": "상품명 : (성수물산) 국내산 흑산도 산지직송 해풍에 말린 자연산 돌미역(산모미역) 220g내외 / 자연산 염장미역 1kg (2개 이상 부터 주문가능)",
+      "price": "판매가 : 16,700원 \n\n쿠폰 적용가 : 11,030원 (최종할인가)\n\n리뷰 : 12",
+      "imageUrl": "//shinan1004mall.kr/web/product/medium/202108/906887ee30e43bae108ba60d4babed97.jpg",
+      "detailUrl": "https://shinan1004mall.kr/product/성수물산-국내산-흑산도-산지직송-해풍에-말린-자연산-돌미역산모미역-220g내외-자연산-염장미역-1kg-2개-이상-부터-주문가능/583/category/24/display/1/"
+    }
+  ],
+  "analysis": {
+    "totalCategories": 9,
+    "accessible": true,
+    "requiresJavaScript": false,
+    "dataStructure": "HTML with Cafe24 e-commerce structure",
+    "recommendedScrapeMethod": "HTML parsing with CSS selectors"
+  }
+}

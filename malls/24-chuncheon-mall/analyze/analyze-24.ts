@@ -1,0 +1,50 @@
+import * as fs from 'fs';
+import * as path from 'path';
+
+const analysis = {
+  "id": 24,
+  "engname": "chuncheon-mall",
+  "name": "춘천몰",
+  "url": "https://gwch-mall.com/",
+  "scrapable": true,
+  "structure": {
+    "type": "firstmall",
+    "catalogPattern": "/goods/catalog?code={categoryCode}",
+    "requiresJavaScript": false,
+    "notes": "Platform: firstmall. Products appear to be available in static HTML."
+  },
+  "categories": [
+    {
+      "name": "Category 0023",
+      "code": "0023"
+    },
+    {
+      "name": "Category 0007",
+      "code": "0007"
+    },
+    {
+      "name": "Category 00070002",
+      "code": "00070002"
+    },
+    {
+      "name": "Category 0019",
+      "code": "0019"
+    },
+    {
+      "name": "Category 00190004",
+      "code": "00190004"
+    }
+  ],
+  "issues": [],
+  "recommendations": [
+    "Use standard HTTP requests to fetch pages",
+    "Parse HTML to extract product information",
+    "Monitor for pagination patterns"
+  ]
+};
+
+// Write the analysis to JSON file
+const outputPath = path.join(__dirname, 'analysis-24.json');
+fs.writeFileSync(outputPath, JSON.stringify(analysis, null, 2));
+
+console.log(`Analysis saved to ${outputPath}`);

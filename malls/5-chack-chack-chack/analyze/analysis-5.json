@@ -1,0 +1,188 @@
+{
+  "mallId": 5,
+  "mallName": "착착착",
+  "engName": "chack-chack-chack",
+  "url": "https://www.chack3.com/",
+  "encoding": "EUC-KR",
+  "structure": {
+    "baseUrl": "https://www.chack3.com",
+    "categoryListUrl": "/shop/shopbrand.html",
+    "productDetailUrl": "/shop/shopdetail.html",
+    "searchUrl": "/shop/shopbrand.html"
+  },
+  "categories": {
+    "regular": [
+      {
+        "name": "농산물",
+        "code": "001",
+        "type": "X"
+      },
+      {
+        "name": "수산물",
+        "code": "002",
+        "type": "X"
+      },
+      {
+        "name": "축산물",
+        "code": "003",
+        "type": "X"
+      },
+      {
+        "name": "가공식품",
+        "code": "004",
+        "type": "X"
+      },
+      {
+        "name": "반찬/김치",
+        "code": "005",
+        "type": "X"
+      },
+      {
+        "name": "떡/빵/과자",
+        "code": "006",
+        "type": "X"
+      },
+      {
+        "name": "음료/차류",
+        "code": "007",
+        "type": "X"
+      },
+      {
+        "name": "양념/소스",
+        "code": "008",
+        "type": "X"
+      },
+      {
+        "name": "선물세트",
+        "code": "009",
+        "type": "X"
+      },
+      {
+        "name": "공예/민예품",
+        "code": "012",
+        "type": "X"
+      },
+      {
+        "name": "관광/숙박/체험",
+        "code": "013",
+        "type": "X"
+      },
+      {
+        "name": "기타상품",
+        "code": "015",
+        "type": "X"
+      }
+    ],
+    "socialEconomy": [
+      {
+        "name": "경기도 일자리재단",
+        "code": "022",
+        "type": "P"
+      },
+      {
+        "name": "중증장애생산품",
+        "code": "023",
+        "type": "P"
+      },
+      {
+        "name": "사회적경제기업 제품",
+        "code": "025",
+        "type": "P"
+      },
+      {
+        "name": "친환경인증",
+        "code": "026",
+        "type": "P"
+      },
+      {
+        "name": "로컬인증",
+        "code": "027",
+        "type": "P"
+      },
+      {
+        "name": "착한소비",
+        "code": "028",
+        "type": "P"
+      }
+    ]
+  },
+  "pagination": {
+    "productsPerPage": 40,
+    "pageParameter": "page",
+    "urlPattern": "/shop/shopbrand.html?type={type}&xcode={xcode}&sort={sort}&page={page}"
+  },
+  "sorting": {
+    "parameter": "sort",
+    "options": [
+      {
+        "label": "인기상품",
+        "value": "sellcnt"
+      },
+      {
+        "label": "신상품",
+        "value": "order"
+      },
+      {
+        "label": "낮은가격",
+        "value": "price"
+      },
+      {
+        "label": "높은가격",
+        "value": "price2"
+      },
+      {
+        "label": "상품평",
+        "value": "review"
+      }
+    ]
+  },
+  "productStructure": {
+    "containerSelector": ".gallery_list",
+    "itemSelector": "li",
+    "fields": {
+      "id": {
+        "location": "a",
+        "attribute": "href",
+        "pattern": "branduid=([0-9]+)"
+      },
+      "name": {
+        "selector": ".name",
+        "attribute": "text"
+      },
+      "price": {
+        "originalSelector": ".price .consumer",
+        "currentSelector": ".price",
+        "attribute": "text"
+      },
+      "image": {
+        "selector": ".tb img",
+        "attribute": "src"
+      },
+      "category": {
+        "selector": ".name .brand_type",
+        "attribute": "text"
+      },
+      "url": {
+        "selector": "a",
+        "attribute": "href"
+      }
+    }
+  },
+  "requirements": {
+    "javascriptRendering": false,
+    "authenticationRequired": false,
+    "specialHeaders": [],
+    "encoding": "EUC-KR"
+  },
+  "notes": [
+    "Site uses EUC-KR encoding for Korean text",
+    "All content is server-side rendered (no AJAX loading)",
+    "Products are displayed 40 per page",
+    "Category navigation uses type parameter (X for regular, Y for special, P for social economy)",
+    "Product IDs are in the branduid parameter",
+    "Mobile version available at /m path",
+    "Images use lazy loading",
+    "Price format includes won (원) symbol and comma separators",
+    "Some products may have discount percentages shown"
+  ]
+}

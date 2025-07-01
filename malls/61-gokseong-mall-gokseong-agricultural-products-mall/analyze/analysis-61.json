@@ -1,0 +1,32 @@
+{
+  "mallId": 61,
+  "mallName": "gokseong-mall-gokseong-agricultural-products-mall",
+  "url": "https://gokseongmall.com/",
+  "productStructure": {
+    "categoryLevels": 2,
+    "mainCategories": [],
+    "categoryUrlPattern": "/category/{categoryId}"
+  },
+  "productData": {
+    "productUrlPattern": "/product/detail/{productId}",
+    "dataLocation": ".product-detail, .goods-detail",
+    "imageUrlPattern": "img[src*=\"product\"], img[src*=\"goods\"]",
+    "priceLocation": ".price, .product-price, [class*=\"price\"]",
+    "nameLocation": ".product-name, .goods-name, [class*=\"name\"]"
+  },
+  "pagination": {
+    "type": "page-based",
+    "urlPattern": "?page={pageNumber}",
+    "maxProductsPerPage": 20
+  },
+  "dynamicLoading": {
+    "requiresJavaScript": false,
+    "loadingMethod": "server-side-rendering"
+  },
+  "scrapeableFeatures": {
+    "productList": true,
+    "productDetails": true,
+    "categoryNavigation": true,
+    "search": true
+  }
+}

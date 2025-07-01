@@ -1,0 +1,54 @@
+{
+  "id": 84,
+  "name": "e경남몰",
+  "url": "https://egnmall.kr",
+  "categoryStructure": {
+    "pattern": "/kwa-ABS_goods_l-{categoryId}",
+    "example": "https://egnmall.kr/kwa-ABS_goods_l-1002",
+    "parameters": [
+      "categoryId"
+    ]
+  },
+  "productUrlPattern": {
+    "pattern": "/kwa-ABS_goods_v-{productId}-{categoryId}",
+    "example": "https://egnmall.kr/kwa-ABS_goods_v-8056-1009003",
+    "parameters": [
+      "productId",
+      "categoryId"
+    ]
+  },
+  "paginationMethod": {
+    "type": "page-parameter",
+    "implementation": "URL parameter based pagination",
+    "parameters": [
+      "page"
+    ]
+  },
+  "dynamicLoading": {
+    "required": false,
+    "method": "Server-side rendering",
+    "implementation": "Traditional page-based navigation"
+  },
+  "htmlStructure": {
+    "productGrid": ".goodsListGnmall",
+    "productItem": ".GoodsWrap-*",
+    "productData": {
+      "name": ".-fdGoodsName a",
+      "price": ".ABS-sell-price",
+      "image": ".-fdThumb img",
+      "link": ".-fdThumb a"
+    }
+  },
+  "platformInfo": {
+    "name": "ABS Platform",
+    "version": "Unknown",
+    "features": [
+      "Custom PHP-based platform",
+      "Server-side rendering",
+      "Traditional page navigation",
+      "Multi-level category hierarchy",
+      "Search functionality",
+      "Shopping cart system"
+    ]
+  }
+}

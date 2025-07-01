@@ -1,0 +1,1633 @@
+<!-- ================= #HTML_HEADER :: START. 파일위치 : _modules/common/html_header.html ================= -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ #HTML_HEADER @@
+- 파일위치 : [스킨폴더]/_modules/common/html_header.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko"  xmlns:fb="http://ogp.me/ns/fb#"  xmlns:og="http://ogp.me/ns#">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/fb/website#">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="utf-8">
+<script nonce="FM9naidgHqQUAhWvzCTcheTszAAd49o5Q96cwwO9urQ=">window.Firstmall = window.Firstmall || {};
+window.Firstmall.Config = {"Environment":{"MobileMode":true,"SetMode":null,"Language":"KR","isAdmin":false,"isSellerAdmin":false,"isUser":false,"Currency":{"Basic":{"Id":"KRW","Symbol":"원","Position":"after"},"Skin":{"Id":"KRW","Symbol":"원","Position":"after"}},"serviceLimit":{"H_FR":false,"H_AD":true,"H_NFR":true},"OperationType":"light","Protocol":"https","CacheBreaker":"f522e328f25043d5d14160cb8cf912f3e55b3c2a"},"Security":{"PreventDrag":true,"PreventContextMenu":true,"MemberLogoutLimit":false},"Search":{"AutoComplete":true,"Suggest":false}};
+(function(){ var aliases = {"gl_operation_type":window.Firstmall.Config.Environment.OperationType,"gl_mobile_mode":window.Firstmall.Config.Environment.MobileMode,"gl_set_mode":window.Firstmall.Config.Environment.SetMode,"gl_language":window.Firstmall.Config.Environment.Language,"gl_basic_currency":window.Firstmall.Config.Environment.Currency.Basic.Id,"gl_skin_currency":window.Firstmall.Config.Environment.Currency.Skin.Id,"gl_basic_currency_symbol":window.Firstmall.Config.Environment.Currency.Basic.Symbol,"gl_basic_currency_symbol_position":window.Firstmall.Config.Environment.Currency.Basic.Position,"gl_protocol":window.Firstmall.Config.Environment.Protocol+"://","gl_broadcast":window.Firstmall.Config.Environment.Broadcast}; for(var attr in aliases) { window[attr] = aliases[attr]; }})();</script>
+<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />  -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+   <meta name="facebook-domain-verification" content="w84wtss9urwr720zvchv3og39ob508" />
+   <meta name="facebook-domain-verification" content="f4enxpphhm7s6kv6tz4erqm3cyox21" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="naver-site-verification" content="106c6629071fd8a6057abca8f430907d71e69b95" />
+<title>농·축·임·수산물 - 산엔청쇼핑몰</title>
+
+	<!-- SEO 설정이 있을경우 -->
+	<meta name="Robots" content="index,follow" />
+<meta name="title" content="농·축·임·수산물 - 산엔청쇼핑몰" />
+<meta name="author" content="산엔청쇼핑몰" />
+<meta name="description" content="농·축·임·수산물" />
+<meta name="keywords" content="농·축·임·수산물" />
+
+<meta property="og:url" content="https://sanencheong.com/goods/catalog?code=0001" />
+<meta property="og:site_name" content="산엔청쇼핑몰" />
+<meta property="og:title" content="농·축·임·수산물 - 산엔청쇼핑몰" />
+	<meta property="og:description" content="농민들이 직접 키우고 농민들이 직접판매 하며,
+산청군에서 무료배송을 지원합니다." />
+
+<meta property="og:type" content="website" />
+
+<meta property="og:image" content="https://sanencheong.com/data/icon/favicon/snslogo.png?1751375048"  />
+<link rel="image_src" href="https://sanencheong.com/data/icon/favicon/snslogo.png?1751375048"/>
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="/data/font/font.css" />
+
+<!-- 구글 웹폰트 -->
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700&amp;subset=korean" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_ver1_default_gl/css/jqueryui/black-tie/jquery-ui-1.8.16.custom.css" />
+<link rel="stylesheet" type="text/css" href="/app/javascript/plugin/slick/slick.css"><!-- 반응형 슬라이드 -->
+<link rel="stylesheet" type="text/css" href="/data/design/goods_info_style.css?v=1.2"><!-- 상품디스플레이 CSS -->
+<link rel="stylesheet" type="text/css" href="/data/design/goods_info_user.css"><!-- ++++++++++++ 상품디스플레이 사용자/제작자 CSS ++++++++++++ -->
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_ver1_default_gl/css/lib.css" />
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_ver1_default_gl/css/common.css" />
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_ver1_default_gl/css/board.css" />
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_ver1_default_gl/css/buttons.css" />
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_ver1_default_gl/css/mobile_pagination.css" />
+<link rel="stylesheet" type="text/css" href="/link/css?k=quickdesign&v=20250701220408" /><!-- Quick Design CSS -->
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_ver1_default_gl/css/broadcast.css" /> 
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_ver1_default_gl/css/user.css" /><!-- ++++++++++++ 스킨 사용자/제작자 CSS ++++++++++++ -->
+<link rel="stylesheet" type="text/css" href="/data/skin/responsive_ver1_default_gl/css/font.css" />
+<link rel="stylesheet" href="/app/javascript/plugin/touchSlider/swiper.css" />
+<!-- /CSS -->
+<link rel="stylesheet" type="text/css" href="/app/javascript/plugin/jquery_swipe/jquery_swipe.css" />
+
+<!-- 파비콘 -->
+    <link rel="shortcut icon" href="https://sanencheong.com//data/icon/favicon/faviconFile.ico" />
+
+<!-- 자바스크립트 -->
+<script src="/app/javascript/jquery/jquery.min.js"></script>
+<script src="/app/javascript/jquery/jquery-ui.min.js"></script>
+<script src="/app/javascript/plugin/jquery.poshytip.min.js"></script>
+<script src="/app/javascript/plugin/jquery.activity-indicator-1.0.0.min.js"></script>
+<script src="/app/javascript/plugin/jquery.cookie.js"></script>
+<script src="/app/javascript/plugin/jquery.slides.min.js"></script>
+<script src="/app/javascript/plugin/jquery.placeholder.js"></script>
+<script src="/app/javascript/plugin/validate/jquery.validate.js"></script>
+<script src="/app/javascript/plugin/ezmark/js/jquery.ezmark.min.js"></script>
+<script src="/app/javascript/plugin/custom-select-box.js"></script>
+<script src="/app/javascript/plugin/custom-mobile-pagination.js"></script>
+<script src="/app/javascript/plugin/slick/slick.min.js"></script>
+<script src="/app/javascript/plugin/jquery_swipe/jquery.event.swipe.js"></script>
+<script src="/app/javascript/plugin/touchSlider/swiper.js"></script>
+
+
+<script>
+var REQURL = '/goods/catalog?code=0001';
+var WINDOWWIDTH = window.innerWidth;
+// sns 만14세 동의 체크 변수
+var kid_agree = "";
+</script>
+
+
+<style type="text/css">
+
+/* 레이아웃설정 폰트 적용 */
+#layout_body body,
+#layout_body table,
+#layout_body div,
+#layout_body input,
+#layout_body textarea,
+#layout_body select,
+#layout_body span
+{
+}
+
+/* 레이아웃설정 스크롤바색상 적용 */
+</style>
+
+<!--[ 네이버 공통유입 스크립트 ]-->
+<script type="text/javascript" src="https://wcs.naver.net/wcslog.js"></script><script type="text/javascript">
+	if(!wcs_add) var wcs_add = {};
+	wcs_add["wa"] = "s_1f0ec41af096";
+		wcs.checkoutWhitelist = ["www.sanencheong.com/"]; // 체크아웃 White list가 있을 경우
+			wcs.inflow('sanencheong.com');
+			$(window).load(function() {
+		wcs_do(); // 로그 수집 함수 (페이지 로딩후 실행됩니다)
+	});
+</script>
+
+
+<!-- /자바스크립트 -->
+<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'G-34GKT58DS4', 'auto');
+			ga_require_ec = false;
+			ga('send', 'pageview');
+			</script><script src="/app/javascript/js/dev-tools.js?v=f522e328f25043d5d141"></script><script src="/app/javascript/js/goods-display_mobile.js?v=f522e328f25043d5d141"></script><script src="/app/javascript/js/design.js?v=f522e328f25043d5d141"></script><script src="/app/javascript/js/common.js?v=f522e328f25043d5d141"></script><script src="/app/javascript/js/common-mobile.js?v=f522e328f25043d5d141"></script><script src="/app/javascript/js/front-layout.js?v=f522e328f25043d5d141"></script><script src="/app/javascript/js/base64.js?v=f522e328f25043d5d141"></script><script src="/app/javascript/js/skin-responsive.js?v=f522e328f25043d5d141"></script><script src="/data/js/language/L10n_KR.js?v=f522e328f25043d5d141"></script><script src="/data/skin/responsive_ver1_default_gl/common/jquery.event.drag-1.5.min.js?v=f522e328f25043d5d141"></script><script src="/data/skin/responsive_ver1_default_gl/common/jquery.touchSlider.js?v=f522e328f25043d5d141"></script><script src="/data/skin/responsive_ver1_default_gl/common/responsive.js?v=f522e328f25043d5d141"></script><script src="/data/skin/responsive_ver1_default_gl/common/script.js?v=f522e328f25043d5d141"></script><script src="/data/skin/responsive_ver1_default_gl/common/search_ver2.js?v=f522e328f25043d5d141"></script><script src="/data/skin/responsive_ver1_default_gl/common/user.js?v=f522e328f25043d5d141"></script><script src="/app/javascript/plugin/jquery.bxslider.js?v=f522e328f25043d5d141"></script>
+</head>
+
+<body>
+
+
+<!-- ================= #HTML_HEADER :: END. 파일위치 : _modules/common/html_header.html ================= -->
+
+<!--[ 디자인모드 호출 스크립트]-->
+
+<!--[ 모바일쇼핑몰 디자인모드시 화면 구성 ]-->
+
+<style>
+#layout_body {
+background-color:#ffffff;}
+#layer_pay {position:absolute;top:0px;width:100%;height:100%;background-color:#ffffff;text-align:center;z-index:999999;}
+#payprocessing {text-align:center;position:absolute;width:100%;top:150px;z-index:99999999px;}
+</style>
+
+<div id="wrap">
+	<!-- ================= 어사이드 :: START. 파일위치 : _modules/common/layout_side.html (비동기 로드) ================= -->
+	<div id="layout_side" class="layout_side"></div>
+	<!-- ================= 어사이드 :: END. 파일위치 : _modules/common/layout_side.html (비동기 로드) ================= -->
+	<a href="javascript:;" id="side_close" class="side_close">어사이드 닫기</a>
+
+	<div id="layout_wrap" class="layout_wrap">
+		<!-- ================= #LAYOUT_HEADER :: START. 파일위치 : layout_header/standard.html (default) ================= -->
+<!-- 슬라이드 배너 영역 (light_style_1_2) :: START -->
+
+
+<div class="custom_slider sliderA center">
+
+
+</div>
+
+
+<script type="text/javascript">
+
+
+$(function() {
+
+
+	$('.light_style_1_2').not('.slick-initialized').slick({ // $('.light_style_타입num_배너num')에서 '배너num'는 showDesignBanner(배너num)과 반드시 일치해야 합니다
+
+
+		dots: true, // 도트 페이징 사용( true 혹은 false )
+
+
+		autoplay: true, // 슬라이드 자동( true 혹은 false )
+
+
+		speed: 1000, // 슬라이딩 모션 속도 ms( 밀리세컨드, ex. 600 == 0.6초 )
+
+
+		fade: true, // 슬라이딩 fade 모션 사용( true 혹은 fasle )
+
+
+		autoplaySpeed: 3000 // autoplay 사용시 슬라이드간 시간 ms( 밀리세컨드, ex. 3000 == 3초 )
+
+
+		// 이 외 slick 슬라이더의 자세한 옵션사항은 http://kenwheeler.github.io/slick/ 참고
+
+
+	});
+
+
+});
+
+
+</script>
+
+
+<!-- 슬라이드 배너 영역 (light_style_1_2) :: END -->
+
+
+
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ #LAYOUT_HEADER @@
+- 파일위치 : [스킨폴더]/layout_header/standard.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<!-- 가온기술 접속통계 -->
+<script src="/gaontec/gt_page_detail.js"></script>
+<!-- Google tag (gtag.js) 24.10.10.-->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-34GKT58DS4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-34GKT58DS4');
+</script>
+
+<div id="layout_header" class="layout_header">
+	<div class="util_wrap">
+		<div class="resp_wrap">
+			<!-- language -->
+			<div class="language hide">
+				<a class="select_list" id="select_main" href="http://sanencheong.com">
+					<span class='language_country_img language_country_img_KR'></span>
+					Korea
+					<span class="sel_arrow"></span>
+				</a>
+				<ul class="optionSub" style="position:relative;display:none;">
+				</ul>
+			</div>
+
+			<!-- bookmark -->
+			<a class="bookmark" href="javascript:;"  onclick="bookmarksite('http://sanencheong.com/main/index', ' - 산엔청쇼핑몰')" title="북마크"><img src="/data/skin/responsive_ver1_default_gl/images/common/icon_bookmark.png" alt="bookmark" /> <span designElement="text" textIndex="1"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2hlYWRlci9zdGFuZGFyZC5odG1s" >BOOKMARK</span></a>
+
+			<ul class="util_wrap_menu2">
+                   
+                    <li>
+                            <a href='/mypage/coupon' target='_self'><img src="/data/skin/responsive_ver1_default_gl/images/my_cupon.png" title="쿠폰" alt="쿠폰" /></a>
+                    </li>
+				<li><a href="/member/login" designElement="text" textIndex="6"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2hlYWRlci9zdGFuZGFyZC5odG1s" >LOGIN</a></li>
+				<li>
+					<a href="/member/agreement" designElement="text" textIndex="7"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2hlYWRlci9zdGFuZGFyZC5odG1s"  target="_self">회원가입</a>
+					<div class="benefit">
+						<span class="arrow">▲</span>
+						+ 1,000
+					</div>
+				</li>
+				<li><a href="/mypage" designElement="text" textIndex="8"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2hlYWRlci9zdGFuZGFyZC5odG1s"  target="_self">나의 쇼핑</a></li>
+				<li><a href="/mypage/order_catalog" designElement="text" textIndex="9"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2hlYWRlci9zdGFuZGFyZC5odG1s"  target="_self">주문·배송</a></li>
+				<li class="respCartArea"><a href="/order/cart"><span designElement="text" textIndex="10"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2hlYWRlci9zdGFuZGFyZC5odG1s" >장바구니</span><span class="cart_cnt1">0</span></a></li>
+                <!--<li><a href="https://old.sanencheong.com/" designElement="text" target="_self" style="padding:0 10px; box-sizing:border-box; background:#88bc42; color:#fff;">구)주문조회</a></li>-->
+				<li><a href="/service/cs" designElement="text" textIndex="11"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2hlYWRlci9zdGFuZGFyZC5odG1s"  target="_self">고객센터</a></li>
+            <li><a href="/selleradmin/login/index" designElement="text" textIndex="12"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2hlYWRlci9zdGFuZGFyZC5odG1s"  style="padding:0 10px; box-sizing:border-box; background:#0063c0; color:#fff;">판매자 로그인</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="logo_wrap">
+		<div class="resp_wrap">
+            <!-- 배너 -->
+            <div class="gnb_bnr_slide_01">
+<div class="slider_gon">
+
+	<!-- 슬라이드 배너 데이터 영역 :: START -->	<div class="light_style_1_2 designBanner" designElement="banner" templatePath="goods/catalog.html" bannerSeq="2"><div class="sslide"><a class="slink" href="https://smartstore.naver.com/sanencheong1?NaPm=ct=mann0q6i|ci=checkout|tr=ds|trx=null|hk=645e78d832905b8c6c3319386a25d07e650c08bf" target="_self"><img class="simg" src="/data/skin/responsive_ver1_default_gl/images/banner/2/images_1.png" /></a></div><div class="sslide"><a class="slink" href="https://kakao.srookpay.com/sanencheong" target="_self"><img class="simg" src="/data/skin/responsive_ver1_default_gl/images/banner/2/images_2.png" /></a></div>	</div><!-- 슬라이드 배너 데이터 영역 :: END -->
+    
+                </div>
+
+
+</div>
+
+
+<script type="text/javascript">
+
+
+$(function() {
+
+
+	$('.light_style_1_2').not('.slick-initialized').slick({ // $('.light_style_타입num_배너num')에서 '배너num'는 showDesignBanner(배너num)과 반드시 일치해야 합니다
+
+
+		dots: true, // 도트 페이징 사용( true 혹은 false )
+
+
+		autoplay: true, // 슬라이드 자동( true 혹은 false )
+
+
+		speed: 1000, // 슬라이딩 모션 속도 ms( 밀리세컨드, ex. 600 == 0.6초 )
+
+
+		fade: true, // 슬라이딩 fade 모션 사용( true 혹은 fasle )
+
+
+		autoplaySpeed: 3000 // autoplay 사용시 슬라이드간 시간 ms( 밀리세컨드, ex. 3000 == 3초 )
+
+
+		// 이 외 slick 슬라이더의 자세한 옵션사항은 http://kenwheeler.github.io/slick/ 참고
+
+
+	});
+
+
+});
+
+
+</script>
+
+            <!--// 배너 -->
+			<!-- logo -->
+			<h1 class="logo_area">
+				<a href='/main/index' target='_self'><img src="/data/skin/responsive_ver1_default_gl/images/design/resp_logo_sample.png" title="산엔청" alt="산엔청"></a>
+			</h1>
+
+			<!-- 햄버거 버튼 -->
+			<div class="resp_top_hamburger">
+				<a href="#category"><b>aside menu</b></a>
+			</div>
+			<!--// 햄버거 버튼 -->
+
+			<!-- 검색어순위 -->			
+			<div class="searchRanking">
+				<iframe src="http://sanencheong22.webpot.co.kr/search_keyword.html" width="140" height="50" frameborder="0" scrolling="no"></iframe>				
+			</div>
+			<!--// 검색어순위 -->
+			
+			<!-- 사이드메뉴 -->
+			<div class="sidemenu">
+				<ul>
+					<li><a href="/mypage/wish" target='_self'><img src="/data/skin/responsive_ver1_default_gl/images/gaontec/topside_btn1.gif" title="위시리스트" alt="위시리스트" /></a></li>
+					<li><a href="/mypage/index" target='_self'><img src="/data/skin/responsive_ver1_default_gl/images/gaontec/topside_btn2.gif" title="MY쇼핑" alt="MY쇼핑" /></a></li>
+                    <li><a href="/" target='_self'><img src="/data/skin/responsive_ver1_default_gl/images/gaontec/topside_btn3.gif" title="홈" alt="홈" /></a></li>
+				</ul>
+			</div>
+			<!--// 사이드메뉴 -->
+
+			<!-- +++++++++++++++++++++++++ 검색 리뉴얼 +++++++++++++++++++++++++++++ -->
+			<div id="searchModule" class="resp_top_search">
+				<a href="javascript:void(0)" id="btnSearchV2" class="btn_search_open">검색</a>
+				<div id="searchVer2" class="search_ver2 on">
+					<div class="search_new">
+						<!-- ------- 검색 입력 ------- -->
+						<form name="topSearchForm" id="topSearchForm" action="/goods/search">
+						<div class="input_area">
+							<div class="cont">
+								<label class="search_box"><input type="text" name="search_text" id="searchVer2InputBox" class="search_ver2_input_box" placeholder="Search" autocomplete="off" /></label>
+								<button type="submit" class="search"></button>
+								<button type="button" class="close searchModuleClose"></button>
+							</div>
+						</div>
+						</form>
+						<!-- ------- 페이지별 기본 검색 ------- -->
+						<script type="text/javascript">
+							$("form#topSearchForm input[name='search_text']").attr('placeholder', '친환경상품관');
+							$("form#topSearchForm").submit(function(event){
+								if(!$("form#topSearchForm input[name='search_text']").val()){
+									var openNewWindow = window.open("about:blank");
+									openNewWindow.document.location.href="https://www.sanencheong.com/goods/catalog?page=1&searchMode=catalog&category=c0023&per=40&sorting=low_price&filter_display=lattice";
+									return false;
+								}
+							});
+						</script>
+						<!-- ------- //검색 입력 ------- -->
+						<div class="contetns_area" style="display:none;">
+						<!-- ------- 최근 검색어, 최근본 상품 ------- -->
+							<div id="recentArea" class="recent_area">
+								<ul class="tab_btns">
+									<li class="on"><a href="#recent-searched-list">최근 검색어</a></li>
+									<li><a href="#recent-item-list">최근본 상품</a></li>
+								</ul>
+								<!-- 최근 검색어 -->
+								<div id="recent-searched-list" class="tab_contents">
+									<ul id="recentSearchedList" class="searching_list">
+										<li class="recent_search_item popular_search_item">
+											<a class="searched_item" href="javascript:void(0)">블루베리</a>
+										</li>
+										<li class="recent_search_item popular_search_item">
+											<a class="searched_item" href="javascript:void(0)">꿀</a>
+										</li>
+										<li class="recent_search_item popular_search_item">
+											<a class="searched_item" href="javascript:void(0)">쌀</a>
+										</li>
+										<li class="recent_search_item popular_search_item">
+											<a class="searched_item" href="javascript:void(0)">참기름</a>
+										</li>
+										<li class="recent_search_item popular_search_item">
+											<a class="searched_item" href="javascript:void(0)">된장</a>
+										</li>
+										<li class="no_data">최근검색어가 없습니다.</li>
+									</ul>
+									<div id="recentSearchedGuide" class="no_data" style="display:none;">최근 검색어 저장 기능이 꺼져있습니다.</div>
+									<ul class="tab_foot_menu">
+										<li class="menu_item">
+											<a href="javascript:void(0)" data-value="all" onclick="searchRecentRemove(this)">전체삭제</a>
+											<a class="btnRecentAuto off" href="javascript:void(0)">자동저장 끄기</a>
+											<a class="btnRecentAuto on" href="javascript:void(0)" style="display:none;">자동저장 <span class="importcolor">켜기</span></a>
+										</li>
+										<li class="search_close searchModuleClose2"><a href="javascript:void(0)">닫기</a></li>
+									</ul>
+								</div>
+								<!-- //최근 검색어 -->
+								<!-- 최근본 상품 -->
+								<div id="recent-item-list" class="tab_contents" style="display:none;">
+									<ul class="recent_item_list">
+										<li class="no_data" style="display:none;">최근본 상품이 없습니다.</li>
+									</ul>
+									<ul class="tab_foot_menu">
+										<li class="swiper_guide">
+											<span class="to_left">&lt;</span>
+											<span class="to_right">&gt;</span>
+										</li>
+										<li class="search_close searchModuleClose2"><a href="javascript:void(0)">닫기</a></li>
+									</ul>
+								</div>
+								<!-- //최근본 상품 -->
+							</div>
+						<!-- ------- //최근 검색어, 최근본 상품 ------- -->
+
+						<!-- ------- 검색어 자동완성 ------- -->
+							<div id="autoCompleteArea" class="autocomplete_area" style="display:none;">
+
+								<!-- 검색어 자동완성 - 검색어 -->
+								<div class="autocomplete_searching">
+									<ul id="autoCompleteList" class="searching_list">
+									</ul>
+
+									<div id="autoCompleteGuide" class="no_data" style="display:none;">자동완성 기능이 꺼져있습니다</div>
+
+									<ul class="tab_foot_menu">
+										<li class="menu_item">
+											<a class="btnAutoComplete off" href="javascript:void(0)">자동완성 끄기</a>
+											<a class="btnAutoComplete on" href="javascript:void(0)" style="display:none;">자동완성 <span class="importcolor">켜기</span></a>
+										</li>
+										<li class="search_close searchModuleClose"><a href="javascript:void(0)">닫기</a></li>
+									</ul>
+								</div>
+								<!-- //검색어 자동완성 - 검색어 -->
+
+								<!-- 검색어 자동완성 - 배너( 추천상품 ) -->
+								<div id="autoCompleteBanner" class="autocomplete_banner">
+									<h5 class="title">추천 상품</h5>
+									<ul id="autocompleteBannerList" class="banner_list">
+									</ul>
+								</div>
+								<!-- //검색어 자동완성 - 배너( 추천상품 ) -->
+							</div>
+						<!-- ------- //검색어 자동완성 ------- -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- +++++++++++++++++++++++++ //검색 리뉴얼 +++++++++++++++++++++++++++++ -->
+
+			<!-- 장바구니( 1023px 이하에서 노출됨 ) -->
+			<a href="/order/cart" class="resp_top_cart"><span class="cart_cnt2">0</span></a>
+
+			
+		</div>
+	</div>
+	<!-- //로고 영역 -->
+
+
+	<!-- +++++++++++ 카테고리 메뉴( 카테고리 메뉴를 미노출 하실 분은 style="display:none;" 처리 하세요. ex) id="cateSwiper" class="nav_wrap" style="display:none;" ) +++++++++++ -->
+	<div id="cateSwiper" class="nav_wrap">
+		<div class="resp_wrap">
+			<div class="nav_category_area">
+				<div class="designCategoryNavigation">
+					<ul class="respCategoryList">
+						<li class="nav_category_all">
+							<!-- 전체 카테고리 버튼 class 네임 : 'categoryAllBtn', 전체 브랜드 : 'brandAllBtn', 전체 지역 : 'locationAllBtn' -->
+							<!-- 전체 카테고리 로딩 파일위치 : [스킨폴더]/_modules/category/all_navigation.html -->
+							<a class="hand categoryAllBtn" designElement="text" textIndex="13"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2hlYWRlci9zdGFuZGFyZC5odG1s"  title="전체 카테고리" target="_self">전체</a>
+						</li>
+						<!-- 카테고리 네비게이션. 파일위치 : [스킨폴더]/_modules/category/category_gnb.html -->
+						<!-- 참고) 브랜드: showBrandLightNavigation(), 지역: showLocationLightNavigation() -->
+						<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ 카테고리 네비게이션 @@
+- 파일위치 : [스킨폴더]/_modules/category/category_gnb.html
+- 현재 3뎁스까지 노출 가능
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink designElement" designelement="category" href="/goods/catalog?code=0009"><em>고향사랑 정기구독관</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00090017">구독꾸러미</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00090018">구독맛보기</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00090019">농·임·수산물</a>
+					</li>
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=000900200001">육류</a></li>
+							<li><a href="/goods/catalog?code=000900200002">꿀</a></li>
+							<li><a href="/goods/catalog?code=000900200003">유정란</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00090020">축산물</a>
+					</li>
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=000900210001">장/기름/장아찌</a></li>
+							<li><a href="/goods/catalog?code=000900210002">차류/즙류</a></li>
+							<li><a href="/goods/catalog?code=000900210003">간편식</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00090021">가공상품</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00090022">건강식품</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00090023">한방약초</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00090024">화장품·잡화</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00090025">고향사랑구독농가</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00090009">Club·산엔청</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink designElement" designelement="category" href="/goods/catalog?code=0023"><em>친환경상품관</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=002300020001">쌀/잡곡</a></li>
+							<li><a href="/goods/catalog?code=002300020002">축산물</a></li>
+							<li><a href="/goods/catalog?code=002300020003">임산물</a></li>
+							<li><a href="/goods/catalog?code=002300020004">곶감·감말랭이</a></li>
+							<li><a href="/goods/catalog?code=002300020005">버섯</a></li>
+							<li><a href="/goods/catalog?code=002300020006">과일</a></li>
+							<li><a href="/goods/catalog?code=002300020007">채소</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00230002">농·축·임·수산물</a>
+					</li>
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=002300030001">차/음료·즙류</a></li>
+							<li><a href="/goods/catalog?code=002300030002">밀키트/간편식</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00230003">가공식품</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink designElement" designelement="category" href="/goods/catalog?code=0001"><em>농·축·임·수산물</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=000100010001">쌀</a></li>
+							<li><a href="/goods/catalog?code=000100010002">잡곡</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00010001">쌀/잡곡</a>
+					</li>
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=000100020001">사과/배/감</a></li>
+							<li><a href="/goods/catalog?code=000100020002">바나나/샤인머스켓</a></li>
+							<li><a href="/goods/catalog?code=000100020003">베리</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00010002">과일</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00010003">채소</a>
+					</li>
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=000100070001">정육</a></li>
+							<li><a href="/goods/catalog?code=000100070003">유정란</a></li>
+							<li><a href="/goods/catalog?code=000100070004">꿀</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00010007">축산물</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00010004">임산물</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00010008">수산물</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00010005">곶감·감말랭이</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00010006">버섯</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink designElement" designelement="category" href="/goods/catalog?code=0008"><em>건강식품</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00080001">엑기스/즙</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00080002">분말/가루</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00080003">환/캡슐</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink designElement" designelement="category" href="/goods/catalog?code=0007"><em>화장품·잡화</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00070001">화장품</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00070002">잡화</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink designElement" designelement="category" href="/goods/catalog?code=0021"><em>가공상품</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=002100010001">장</a></li>
+							<li><a href="/goods/catalog?code=002100010002">오일</a></li>
+							<li><a href="/goods/catalog?code=002100010003">장아찌</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00210001">장/오일/장아찌</a>
+					</li>
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=002100050001">잼</a></li>
+							<li><a href="/goods/catalog?code=002100050002">조청·청류</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00210005">잼/조청·청류</a>
+					</li>
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=002100030001">떡</a></li>
+							<li><a href="/goods/catalog?code=002100030002">간식</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00210003">떡/간식</a>
+					</li>
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=002100020001">차</a></li>
+							<li><a href="/goods/catalog?code=002100020002">음료/즙류</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00210002">차/음료·즙류</a>
+					</li>
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=002100040001">밀키트</a></li>
+							<li><a href="/goods/catalog?code=002100040002">간편식</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00210004">밀키트/간편식</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00210006">면류</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink designElement" designelement="category" href="/goods/catalog?code=0020"><em>한방약초</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<ul class="categoryDepth3">
+							<li><a href="/goods/catalog?code=002000010001">도라지</a></li>
+							<li><a href="/goods/catalog?code=002000010002">홍화</a></li>
+							<li><a href="/goods/catalog?code=002000010003">하수오/백수오</a></li>
+							<li><a href="/goods/catalog?code=002000010004">울금</a></li>
+							<li><a href="/goods/catalog?code=002000010005">초석잠</a></li>
+							<li><a href="/goods/catalog?code=002000010006">와송</a></li>
+							<li><a href="/goods/catalog?code=002000010007">기타</a></li>
+						</ul>
+						<a href="/goods/catalog?code=00200001">한방약초</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li class="categoryDepth1">
+		<a class="categoryDepthLink designElement" designelement="category" href="/goods/catalog?code=0011"><em>진행이벤트</em></a>
+		<div class="categorySub">
+			<div class="categorySubWrap">
+				<ul class="categoryDepth2">
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00110001">반짝특가</a>
+					</li>
+					<li class="categorySubDepth">
+						<a href="/goods/catalog?code=00110002">상시할인</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</li>
+
+						<!-- //카테고리 네비게이션 -->
+						<!--<li class="custom_nav_link">
+							<a class="categoryDepthLink" designElement="text" href="/goods/best"><em>베스트</em></a>
+						</li>-->
+						<li class="custom_nav_link">
+							<a class="categoryDepthLink" designElement="text" textIndex="14"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2hlYWRlci9zdGFuZGFyZC5odG1s"  href="/promotion/event" target="_self"><em>특가이벤트</em></a>
+						</li>
+						<!--<li class="custom_nav_link">
+							<a class="categoryDepthLink" designElement="text" href="#;"><em>쇼핑라이브</em></a>
+						</li>-->
+						<li class="custom_nav_link">
+							<a class="categoryDepthLink" designElement="text" textIndex="15"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2hlYWRlci9zdGFuZGFyZC5odG1s"  href="/board/?id=goods_review" target="_self"><em>구매후기</em></a>
+						</li>
+						<li class="custom_nav_link">
+							<a class="categoryDepthLink" designElement="text" textIndex="16"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2hlYWRlci9zdGFuZGFyZC5odG1s"  href="/board/?id=notice"><em>공지사항</em></a>
+						</li>
+						<!--<li class="custom_nav_link">
+							<a class="categoryDepthLink" designElement="text" href="/board/?id=custom_bbs2"><em>STORY</em></a>
+						</li>-->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- +++++++++++ //카테고리 메뉴 +++++++++++ -->
+
+	<!-- 카테고리 전체 네비게이션 팝업 START -->
+	<div id="categoryAll_wrap" class="categoryAll_wrap" style="display:none;">
+		<div class="categoryAllContainer"><!-- 로딩 파일위치 : [스킨폴더]/_modules/category/all_navigation.html --></div>
+	</div>
+	<!-- 카테고리 전체 네비게이션 팝업 END -->
+
+	<!-- 브랜드 전체 네비게이션 팝업 START -->
+	<div id="brandAll_wrap" class="brandAll_wrap" style="display:none;">
+		<div class="brandAllContainer"><!-- 로딩 파일위치 : [스킨폴더]/_modules/brand/all_navigation.html --></div>
+	</div>
+	<!-- 브랜드 전체 네비게이션 팝업 END -->
+
+	<!-- 지역 전체 네비게이션 팝업 START -->
+	<div id="locationAll_wrap" class="locationAll_wrap" style="display:none;">
+		<div class="locationAllContainer"><!-- 로딩 파일위치 : [스킨폴더]/_modules/location/all_navigation.html --></div>
+	</div>
+	<!-- 지역 전체 네비게이션 팝업 END -->
+
+</div>
+<!-- 상단영역 : 끝 -->
+<script type="text/javascript" src="/data/skin/responsive_ver1_default_gl/common/search_ver2_ready.js"></script><!-- 반응형 관련 프론트 js : 검색, 자동검색어 최근본상품 -->
+<script type="text/javascript">
+var resp_loc_top;
+function flyingTitleBar() {
+	//var resp_loc_top = $("#layout_header .logo_wrap").offset().top;
+	var obj = $("#layout_header .logo_wrap");
+	var obj_H = $("#layout_header .logo_wrap").outerHeight();
+	$(document).scroll(function(){
+		//alert( resp_loc_top );
+		if ( ( $('.designPopupBand').is(':hidden') || $('.designPopupBand').length < 1 )  && window.innerWidth < 480 ) {
+			if ( $("#layout_header .util_wrap").is(':hidden') ) {
+				resp_loc_top = 0;
+			} else {
+				resp_loc_top = $("#layout_header .util_wrap").outerHeight(); // 띠배너 클로즈시 보정
+			}
+		}
+		if(resp_loc_top < $(document).scrollTop() && window.innerWidth < 480 ){
+				obj.addClass("flying");
+				if ( !$('#gonBox').length ) {
+					$('#layout_header .logo_wrap').before('<div id="gonBox"></div>');
+					$('#gonBox').css( 'height', obj_H + 'px' );
+				}
+		} else {
+			obj.removeClass('flying');
+			if ( $('#gonBox').length ) {
+				$('#gonBox').remove();
+			}
+		}
+	});
+}
+
+$(function(){
+	// 텍스트 수정기능을 통해 소스에 박혀있는 카테고리 삭제시 --> 항목 삭제
+	$('#cateSwiper .custom_nav_link').each(function(e) {
+		if ( $(this).find('a').text() == '' ) {
+			$(this).remove();
+		}
+	});
+
+	/* 카테고리 활성화 */
+	var url2, cateIndex;
+	$('#layout_header .designCategoryNavigation .respCategoryList>li').each(function() {
+		url2 = $(this).find('a').attr('href');
+		if ( REQURL == url2 ) {
+			cateIndex = $(this).index();
+		} else if ( REQURL != url2 && ( REQURL.substr( 0, REQURL.length-4 ) == url2 || REQURL.substr( 0, REQURL.length-8 ) == url2) ) {
+			// 1depth 카테고리 일치하는 요소가 없는 경우 2뎁스에서 검색
+			cateIndex = $(this).index();
+		}
+	});
+	$('#layout_header .designCategoryNavigation .respCategoryList>li').eq(cateIndex).addClass('on');
+	/* //카테고리 활성화 */
+
+	/* 카테고리 swiper 동작( 1024 미만인 경우 동작, 1024 이상인 경우 : 마우스 오버시 서브메뉴 노출 ) */
+	var slideshowSwiper = undefined;
+	if ( window.innerWidth < 1280 && $('#cateSwiper .designCategoryNavigation').length > 0 ) {
+		$('#cateSwiper .designCategoryNavigation ul.respCategoryList>li').addClass('swiper-slide');
+		slideshowSwiper = new Swiper('#cateSwiper .designCategoryNavigation', {
+			wrapperClass: 'respCategoryList',
+			slidesPerView: 'auto'
+		});
+		slideshowSwiper.slideTo( (cateIndex-1), 800, false );
+	} else {
+		$('#cateSwiper .designCategoryNavigation ul.respCategoryList>li').removeClass('swiper-slide');
+		$('#layout_header .respCategoryList .categoryDepth1').hover(
+			function() { $(this).find('.categorySub').show(); },
+			function() { $(this).find('.categorySub').hide(); }
+		);
+	}
+	$( window ).resize(function() {
+		if ( window.innerWidth != WINDOWWIDTH ) {
+			if ( window.innerWidth < 1280 && $('#cateSwiper .designCategoryNavigation').length > 0 && slideshowSwiper == undefined ) {
+				$('#cateSwiper .designCategoryNavigation ul.respCategoryList>li').addClass('swiper-slide');
+				$('#layout_header .respCategoryList .categoryDepth1').off('hover');
+				slideshowSwiper = new Swiper('#cateSwiper .designCategoryNavigation', {
+					wrapperClass: 'respCategoryList',
+					slidesPerView: 'auto'
+				});
+				slideshowSwiper.slideTo( (cateIndex-1), 800, false );
+			} else if ( window.innerWidth > 1279 && slideshowSwiper != undefined ) {
+				slideshowSwiper.slideTo( 0, 800, false );
+				$('#cateSwiper .designCategoryNavigation ul.respCategoryList>li').removeClass('swiper-slide');
+				slideshowSwiper.destroy();
+				slideshowSwiper = undefined;
+				$('#layout_header .respCategoryList .categoryDepth1').hover(
+					function() { $(this).find('.categorySub').show(); },
+					function() { $(this).find('.categorySub').hide(); }
+				);
+			}
+		}
+	});
+	/* //카테고리 swiper 동작( 1024 미만인 경우 동작, 1024 이상인 경우 : 마우스 오버시 서브메뉴 노출 ) */
+
+	//================= 카테고리 전체 네비게이션 START ====================
+	$('.categoryAllBtn').click(function() {
+		$('#categoryAll_wrap .categoryAllContainer').load('/common/category_all_navigation', function() {
+			$('#categoryAll_wrap').show();
+			$('body').css( 'overflow', 'hidden' );
+		});
+	});
+	$('#categoryAll_wrap').on('click', '.categoryAllClose', function() {
+		$('#categoryAll_wrap').hide();
+		$('body').css( 'overflow', 'auto' );
+	});
+	//================= 카테고리 전체 네비게이션 END  ====================
+
+	//================= 브랜드 전체 네비게이션 START ====================
+	$('.brandAllBtn').click(function() {
+		$('#brandAll_wrap .brandAllContainer').load('/common/brand_all_navigation', function() {
+			$('#brandAll_wrap').show();
+			$('body').css( 'overflow', 'hidden' );
+		});
+	});
+	$('#brandAll_wrap').on('click', '.brandAllClose', function() {
+		$('#brandAll_wrap').hide();
+		$('body').css( 'overflow', 'auto' );
+	});
+	//================= 브랜드 전체 네비게이션 END  ====================
+
+	//================= 지역 전체 네비게이션 START ====================
+	$('.locationAllBtn').click(function() {
+		$('#locationAll_wrap .locationAllContainer').load('/common/location_all_navigation', function() {
+			$('#locationAll_wrap').show();
+			$('body').css( 'overflow', 'hidden' );
+		});
+	});
+	$('#locationAll_wrap').on('click', '.locationAllClose', function() {
+		$('#locationAll_wrap').hide();
+		$('body').css( 'overflow', 'auto' );
+	});
+	//================= 지역 전체 네비게이션 END  ====================
+
+	// GNB 검색 관련
+	$('#respTopSearch .search_open_btn').click(function() {
+		$('#respTopSearch .search_form').addClass('animating');
+		$('#respTopSearch .search_text').focus();
+	});
+	$('#respTopSearch .search_close_btn').click(function() {
+		$('#respTopSearch .search_form').removeClass('animating');
+	});
+
+	// 타이틀바 띄우기
+	flyingTitleBar();
+	$( window ).on('resize', function() {
+		if ( window.innerWidth != WINDOWWIDTH ) {
+			flyingTitleBar();
+		}
+	});
+
+	/* 카테고리 네비게이션 서브레이어 포지션 변화 */
+	var category1DepthNum = $('.respCategoryList .categoryDepth1').length;
+	var rightCategoryStandard = Math.floor( category1DepthNum / 2 );
+	$('.respCategoryList .categoryDepth1').each(function(e) {
+		if ( e > rightCategoryStandard ) {
+			$('.respCategoryList .categoryDepth1').eq(e).addClass('right_area');
+		}
+	});
+	/* 카테고리 네비게이션 서브레이어 포지션 변화 */
+
+	$('.designPopupBand .designPopupClose').on('click', function() {
+		// 띠배너 닫기 클릭시
+	});
+
+
+
+	/* 검색옵션창 닫기 */
+	$('.searchModuleClose2 a').click(function() {
+		$('.contetns_area').css('display','none');
+	});
+
+
+	/* 검색열고닫기 */
+	$("#btnSearchV2").click(function(){
+		$("#searchVer2").slideToggle("fast");
+	});
+
+});
+</script>
+		<!-- ================= #LAYOUT_HEADER :: END. 파일위치 : layout_header/standard.html (default) ================= -->
+
+		<div id="layout_body" class="layout_body">
+		<!-- ================= 파트 페이지들 :: START. ================= -->
+
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ "카테고리" 리스트 페이지 @@
+- 파일위치 : [스킨폴더]/goods/catalog.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<div id="itemstmplayer" class="hide"></div>
+
+<div id="catalog_page">
+	<div class="search_nav"></div>
+
+	<!--[ 상단 꾸미기 HTML ]-->
+
+	<!-- ------- 검색필터, 추천상품, 상품정렬( 파일위치 : [스킨폴더]/goods/_search_form_light.html ) ------- -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ 검색필터, 추천상품, 상품정렬 @@
+- 파일위치 : [스킨폴더]/goods/_search_form_light.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+<form name="goodsSearchForm" id="goodsSearchForm" method="get">
+<input type="hidden" name="osearchtext" value="" />
+<input type="hidden" name="ship_grp_seq" value="" />
+<input type="hidden" name="event" value="" />
+<input type="hidden" name="gift" value="" />
+<input type="hidden" name="page" value="1" />
+<input type="hidden" name="searchMode" value="catalog" />
+<div id="filterResultCount">165</div>
+<div class="search_filter_wrap" data-ezmark="undo">
+	<!-- 필터 -->
+	<ul id="searchFilter" class="search_filter">
+		<li class="filter_section filter_category_section">
+			<div class="filter_menu_area on">
+				<a class="menuThebogi" href="#">카테고리</a>
+			</div>
+			<div class="filter_detail_area">
+				<div class="message">
+					카테고리가 없습니다.
+				</div>
+				<div class="category_all_nav">
+					<a href="javascript:void(0)" class="mobile_pre_cate" data-searchname="pre" onclick="setFilterCategory(this, false);">상위 카테고리</a>
+					<a href="javascript:void(0)" data-searchname="navi_category_0001" data-value="c0001" onclick="setFilterCategory(this, false);"><span class="name">농·축·임·수산물</span></a>
+					<span class="count_category">(1개 카테고리)</span>
+				</div>
+				<ul class="filter_detail_item li_align">
+				</ul>
+			</div>
+		</li>
+		
+		<li class="filter_section filter_detail_section">
+			<div class="filter_menu_area">
+				<a class="menuThebogi" href="#">상세</a>
+			</div>
+			<div class="filter_detail_area">
+				<ul class="filter_detail_item">
+					<li class="reresearch_area">
+						<label><span class="detail_stitle">재검색</span> <input class="input_sfilter" type="text" data-searchname="re_search" value="" /></label>
+						<button type="button" class="btn_sfilter" id="reSearchApply">적용</button>
+					</li>
+					<li class="price_area">
+						<label><span class="detail_stitle">가격</span> <input class="input_sfilter" type="text" data-searchname="min_price" placeholder="0" value="" /></label> ~
+						<label><input class="input_sfilter" type="text"  data-searchname="max_price" placeholder="6,527,000" value="" /></label>
+						<button type="button" class="btn_sfilter" id="priceApply">적용</button>
+					</li>
+				</ul>
+			</div>
+		</li>
+	</ul>
+
+	<!-- 필터된 항목 -->
+	<div id="searchFilterSelected" class="search_filter_selected">
+		<ul class="selected_item_area">
+		</ul>
+		<div class="selected_etc_area">
+			<a class="btn_all_cancel" href="#" title="전체해제" onclick="resetParams();"></a>
+		</div>
+	</div>
+
+	<!--[ 추천상품 출력(추천상품 디스플레이 편집 : 관리자 > 상품리스트 페이지 > 설정 > 페이지 추천상품 ) ]-->
+	<!-- 상품디스플레이 파일들 폴더 위치 : /data/design/ ( ※ /data 폴더는 /skin 폴더 상위 폴더입니다. ) -->
+	
+
+	<!-- 검색된 상품 정렬 -->
+	<ul id="filteredItemSorting" class="filtered_item_sorting">
+		<li class="item_total">
+			<a href="javascript:void(0)" id="btnFilterOpen" class="total"><span class="num">165</span>개</a>
+		</li>
+		<li class="item_display">
+			<label class="display display_lattice active"><input type="radio" name="filter_display" value="lattice" onclick="filterDisplay()" checked />격자 반응형</label>
+			<label class="display display_list"><input type="radio" name="filter_display" value="list" onclick="filterDisplay()" />리스트 반응형</label>
+		</li>
+		<li class="item_viewnum">
+			<select name="per">
+				<option value="20">&nbsp;20개씩 보기&nbsp;</option>
+				<option value="40" selected>&nbsp;40개씩 보기&nbsp;</option>
+				<option value="100">&nbsp;100개씩 보기&nbsp;</option>
+				<option value="200">&nbsp;200개씩 보기&nbsp;</option>
+			</select>
+		</li>
+		<li class="item_order">
+			<p id="mobileSortingSelected"></p>
+			<ul class="list">
+				<li>
+					<label><input type="radio" name="sorting" value="ranking" />랭킹순</label>
+				</li>
+				<li>
+					<label><input type="radio" name="sorting" value="regist" />신규등록순</label>
+				</li>
+				<li>
+					<label class="active"><input type="radio" name="sorting" value="low_price" checked />낮은가격순</label>
+				</li>
+				<li>
+					<label><input type="radio" name="sorting" value="high_price" />높은가격순</label>
+				</li>
+				<li>
+					<label><input type="radio" name="sorting" value="review" />상품평많은순</label>
+				</li>
+				<li>
+					<label><input type="radio" name="sorting" value="sale" />판매량순</label>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+</form>
+<script type="text/javascript">
+var brand_best_icon = "https://interface.firstmall.kr/firstmall_plus/sample_img/responsive_ver1_default_gl/brand/brand_main_20190215214621.gif";
+$(document).ready(function() {
+	filterDisplay();
+	
+	/**/
+	// 상품 색상 코드값 디자인 white --> border
+	if ( $('.displaY_color_option').length > 0 ) {
+		$('.displaY_color_option .areA').filter(function() {
+			return ( $(this).css('background-color') == 'rgb(255, 255, 255)' );
+		}).addClass('border');
+	}
+	var aParams = {'category':'','brand':'','location':'','delivery':'','color':'','provider':'','re_search':'','min_price'	:'','max_price':''};
+	/**/
+	aParams['category']	= load_seleted_filter('category', 'category', 'category_0001', 'c0001', '농·축·임·수산물', 'category', 'c0001');
+	/**/
+	/**/
+	/**/
+	/**/
+	/**/
+	/**/
+	/**/
+	/**/
+	/**/
+	/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+	/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+	/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+	/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+	/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+	/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+	/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+	/**/
+		/**/
+	$('#searchFilterSelected .selected_item_area').append(aParams['category']);
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+		/**/
+	/**/	
+	set_classification('0001', '');	
+	displaySearchFilter();
+	
+	goodsSearch('auto');
+});
+</script>
+
+	<!-- ------- //검색필터, 추천상품, 상품정렬 ------- -->
+
+	<!-- ------- 상품 영역( data-displaytype : "lattice", "list" ), 파일위치 : [스킨폴더]/goods/search_list_template.html ------- -->
+	<div id="searchedItemDisplay" class="searched_item_display" data-displaytype="lattice"></div>
+	<!-- ------- //상품 영역 ------- -->
+</div>
+
+<div id="wish_alert">
+	<div class="wa_on"></div>
+	<div class="wa_off"></div>
+	<div class="wa_msg"></div>
+</div>
+
+<script type="text/javascript">
+ var date = new Date();
+ var getDays = date.getDay();
+ var nowDayToSec = parseInt(date.getDay() * ( 60 * 60 * 24 ));
+ var nowHourToSec = parseInt(date.getHours() * ( 60 * 60 ));
+ var nowMinToSec = parseInt(date.getMinutes() * 60 );
+ var nowSec = parseInt( date.getSeconds() );
+ 
+ var x = 0;
+ if(getDays == 1){        // 월
+  x = 604805 - 518400 + 86400;
+ }else if(getDays == 2){  // 화
+  x = 604805 - 432000 + 86400;
+ }else if(getDays == 3){  // 수
+  x= 604805 - 345600 + 86400;
+ }else if(getDays == 4){  // 목
+  x= 604805 - 259200 + 86400;
+ }else if(getDays == 5){  // 금
+  x= 5;
+ }else if(getDays == 6){  // 토
+  x= 86405; 
+ }else {                  // 일
+  x= 172805;
+ }
+
+ var sumSec = 604804 - ( x + nowHourToSec + nowMinToSec + nowSec);
+ 
+ $('span').attr('sec', sumSec );
+  getDateCount($('#product > span'));
+ 
+
+ function getDateCount(obj){
+  var second = $('span').attr("sec");
+    $(obj).attr("timer", setInterval(function() {
+      setTimeSaleTimer($(obj), second);
+      second --;
+  }, 1000));
+ }
+
+function setTimeSaleTimer(obj, objSec) {
+var nowDate = new Date();
+
+  var days = parseInt( objSec / 86400 );
+  var hours = parseInt( objSec / 3600 ) % 24;
+  var minutes = parseInt( objSec / 60 ) % 60;
+  var seconds = objSec % 60;
+
+  $(obj).find('#day').html(days);
+  $(obj).find('#hour').html(hours);
+  $(obj).find('#min').html(minutes);
+  $(obj).find('#sec').html(seconds);
+ ( nowDate.getDay() == 5 ) ? $('#product').hide() : $('#product').show() ; 
+  if (days == 0 && hours == 0 && minutes == 0 && seconds == 0) {
+      clearInterval($(obj).attr("timer"));
+         $('#product > span').attr('sec','604800');
+      getDateCount($('#product > span'));
+  }
+  if (hours == 0) {
+       if (days > 0){
+          days --;
+          hours = 23;
+         }
+  }
+  if (minutes == 0) {
+        if (hours > 0){
+          hours --;
+          minutes = 59;
+         }
+  }
+  if (seconds == 0) {
+     if (minutes > 0){
+          minutes --;
+          seconds = 59;
+         }
+ }
+
+}
+    $(function() {
+	// 검색 페이지 -> 디폴트 검색박스 open
+	//$('#searchModule #searchVer2').show();
+
+	// 컬러 필터 - 255, 255, 255 --> border
+	colorFilter_white( '#searchFilterSelected .color_type' );
+});
+</script>
+		<!-- ================= 파트 페이지들 :: END. ================= -->
+		</div>
+
+		<!-- ================= #LAYOUT_FOOTER :: START. 파일위치 : layout_footer/standard.html (default) ================= -->
+<div id="layout_footer" class="layout_footer">
+    <a href="#" id="kakaochat" style="position:fixed; right:10px; bottom:200px; z-index:10; display:block; width:72px; height:72px; background:url(/data/skin/responsive_ver1_default_gl/images/gaontec/ico_kakao.png) no-repeat center/cover; border-radius:16px;" title="카카오톡 1:1 채팅 상담하기"></a>
+    <a href="https://story.kakao.com/ch/sanencheong" style="position:fixed; right:10px; bottom:282px; z-index:10; display:block; width:72px; height:72px; background:url(/data/skin/responsive_ver1_default_gl/images/gaontec/ico_story.jpg) no-repeat center/cover; border-radius:16px;" title="산청군직거래장터 카카오 스토리"></a>
+    <script src="/app/javascript/plugin/kakao/kakao.min.js"></script>
+    <script>
+          Kakao.init('536a5c4920cce2b0f46315b3ceee1026');
+          // 카카오톡 채널 채팅하기 함수
+          document.getElementById('kakaochat').addEventListener('click', function() {
+            Kakao.PlusFriend.chat({
+              plusFriendId: '_ExnSnj' // 채널 ID (@ 포함)
+            });
+         });
+        
+    </script>
+	<div class="footer_a" >
+		<div class="resp_wrap">
+			<ul class="menu1">
+				<li class="foot_menu_d1 cs">
+					<h4 class="title"><a href="/service/cs" designElement="text" textIndex="1"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s"  target="_self">고객센터(📞) SMS 수신불가</a></h4>
+					<ul class="list v4">
+						<li class="compay_phone">
+							<!--<a href="tel:080-970-8000"><img src="/data/skin/responsive_ver1_default_gl/images/common/icon_call_02.png" class="img_call" alt="" />080-970-8000</a>-->
+                            
+							<a href="tel:080-970-8000"><img src="/data/skin/responsive_ver1_default_gl/images/common/icon_call_02.png" class="img_call" alt="" /><span style="color:#88bc42;">080</span>-970-8000</a>
+						</li>
+						<li><span designElement="text" textIndex="2"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >평일 09:00~18:00(점심시간 12:00~13:00)<br>토요일·공휴일 휴무</span></li>
+						<li class="Pt2">mail : <a href="mailto:sanencheong1@naver.com">sanencheong1@naver.com</a></li>
+					</ul>
+				</li>
+				<li class="foot_menu_d2 guide">
+					<h4 class="title"><span designElement="text" textIndex="3"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >쇼핑 메뉴</span></h4>
+					<ul class="list v2 clearbox">
+						<li>
+							<a href="/mypage/index"><img src="/data/skin/responsive_ver1_default_gl/images/common/menu_guide_03.png" alt="" /></a>
+							<p class="desc" designElement="text" textIndex="4"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >마이페이지</p>
+						</li>
+						<li>
+							<a href="/order/cart"><img src="/data/skin/responsive_ver1_default_gl/images/common/menu_guide_04.png" alt="" /></a>
+							<p class="desc" designElement="text" textIndex="5"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >장바구니</p>
+						</li>
+						<li>
+							<a href="/service/cs"><img src="/data/skin/responsive_ver1_default_gl/images/common/menu_guide_01.png" alt="" /></a>
+							<p class="desc" designElement="text" textIndex="6"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >고객센터</p>
+						</li>
+						<li>
+							<a href="/promotion/event"><img src="/data/skin/responsive_ver1_default_gl/images/common/menu_guide_02.png" alt="" /></a>
+							<p class="desc" designElement="text" textIndex="7"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >이벤트</p>
+						</li>
+                        <li>
+							<a href="/board/?id=bulkorder"><img src="/data/skin/responsive_ver1_default_gl/images/common/menu_guide_05.png" alt="" /></a>
+							<p class="desc" designElement="text" textIndex="8"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >단체주문</p>
+						</li>
+					</ul>
+				</li>
+				<li class="foot_menu_d3 sns">
+					<h4 class="title"><span designElement="text" textIndex="9"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >SNS</span></h4>
+					<ul class="list v3 clearbox">
+						<li>
+							<a href="https://instagram.com/sanencheong_insta?igshid=YmMyMTA2M2Y=" target="_blank"><img src="/data/skin/responsive_ver1_default_gl/images/gaontec/sns_icon1.png" alt="" /></a>
+							<p class="desc" designElement="text" textIndex="10"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >인스타그램</p>
+						</li>
+						<li>
+							<a href="https://www.youtube.com/c/%EC%82%B0%EC%B2%AD%EB%86%8D%EB%B6%80%EB%93%A4" target="_blank"><img src="/data/skin/responsive_ver1_default_gl/images/gaontec/sns_icon2.png" alt="" /></a>
+							<p class="desc" designElement="text" textIndex="11"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >유튜브</p>
+						</li>
+                        <!--<li><p id="kakao-add-channel-button"></p></li>
+                        <script type="text/javascript">
+                            $(function(){
+                                Kakao.Channel.createAddChannelButton({
+                                  container: '#kakao-add-channel-button',
+                                  channelPublicId: '_ExnSnj' // 카카오톡 채널 홈 URL에 명시된 id로 설정합니다.
+                                });
+                            });
+                        </script>-->
+                        
+                    </ul>
+				</li>
+				<li class="foot_menu_d4 delivery">
+                    <h4 class="title"><span designElement="text" textIndex="12"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >공지사항</span></h4>
+					<!--  공지사항  최근글 start -->
+					<div class='designDisplay designLastestNew619ae5fd0e172' designElement='displaylastest' id="designLastestNew619ae5fd0e172" templatePath='bWFpbi9pbmRleC5odG1s' >
+						<!-- <div>
+						<table width="100%" border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td valign="bottom" align="left" height="25"><span class="tit"><p><br></p></span>000</td>
+								<td valign="bottom" align="right"><b><a href="/board/?id=notice"><img src="/data/skin/responsive_ver1_default_gl/images/design/cscenter_btn_more.gif" /></a></b></td>
+							</tr>
+						</table>
+						</div> -->						
+
+						<table width="100%" cellpadding="0" cellspacing="0" border="0">
+						<tr class="normal_bbslist">
+							<td  class="sbj">
+								<table width="100%" cellpadding="0" cellspacing="0" border="0">
+									<tr style="float:left;">
+										<td>
+											<table cellpadding="0" cellspacing="0" border="0">
+												<tr>
+													<td align=""style="font-size:15px">
+													 <a href="/board/view?id=notice&seq=7070"  board_seq="7070"  board_id="notice" > <span class="cat">[공지]</span> 6월 휴무 및 배송안내 </a>   <img src="/admin/skin/default/images/board/icon/icon_hot.gif" title="hot" >   
+													</td>
+												</tr>
+											</table>
+										</td>									
+									</tr>
+									<tr style="float:right;">
+										<td align="left" style="font-size:15px"><span >2025-05-29</span></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						
+<tr><td height="10"></td></tr>						<tr class="normal_bbslist">
+							<td  class="sbj">
+								<table width="100%" cellpadding="0" cellspacing="0" border="0">
+									<tr style="float:left;">
+										<td>
+											<table cellpadding="0" cellspacing="0" border="0">
+												<tr>
+													<td align=""style="font-size:15px">
+													 <a href="/board/view?id=notice&seq=7062"  board_seq="7062"  board_id="notice" > <span class="cat">[이벤트]</span> [친환경기획전] 최고금액 구매자 이벤트 안내 </a>   <img src="/admin/skin/default/images/board/icon/icon_hot.gif" title="hot" >   
+													</td>
+												</tr>
+											</table>
+										</td>									
+									</tr>
+									<tr style="float:right;">
+										<td align="left" style="font-size:15px"><span >2025-05-21</span></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						
+<tr><td height="10"></td></tr>						<tr class="normal_bbslist">
+							<td  class="sbj">
+								<table width="100%" cellpadding="0" cellspacing="0" border="0">
+									<tr style="float:left;">
+										<td>
+											<table cellpadding="0" cellspacing="0" border="0">
+												<tr>
+													<td align=""style="font-size:15px">
+													 <a href="/board/view?id=notice&seq=7028"  board_seq="7028"  board_id="notice" > <span class="cat">[공지]</span> 5월 연휴에 따른 배송안내 </a>   <img src="/admin/skin/default/images/board/icon/icon_hot.gif" title="hot" >   
+													</td>
+												</tr>
+											</table>
+										</td>									
+									</tr>
+									<tr style="float:right;">
+										<td align="left" style="font-size:15px"><span >2025-04-29</span></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						
+						<tr><td height="10"></td></tr>
+						</table>
+						<p class="more"><a href="/board/?id=notice"><img src="/data/skin/responsive_ver1_default_gl/images/design/cscenter_btn_more.gif" /></a></p>
+					</div>
+					<!--//  공지사항  최근글 end -->
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="footer_b">
+		<div class="resp_wrap">
+			<ul class="menu2">
+				<li><a href="/" designElement="text" textIndex="13"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >HOME</a></li>
+				<li><a href="https://www.sancheong.go.kr/www/index.do" designElement="text" textIndex="14"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s"  target="_blank">산청군</a></li>
+                <li><a href="/board/view?id=notice&seq=3749" designElement="text" textIndex="15"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s"  target="_self">입점안내</a></li>
+				<li><a href="/service/agreement" designElement="text" textIndex="16"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s"  target="_self">이용약관</a></li>
+				<li><a href="/service/privacy" designElement="text" textIndex="17"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s"  target="_self">개인정보처리방침</a></li>
+                <li><a href="/selleradmin/login/index" designElement="text" textIndex="18"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s"  target="_self" style="color:#0063c0;">판매자로그인</a></li>
+				<li><a href="https://old.sanencheong.com/seller/login.html" designElement="text" textIndex="19"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s"  target="_blank" title="새창이동" style="color:#88bc42;">구판매자로그인</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="footer_c">
+		<div class="resp_wrap">
+			<ul class="menu3">
+				<li><span designElement="text" textIndex="20"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >회사명 :</span> <span class="pcolor">산청군청</span></li>
+				<li><span designElement="text" textIndex="21"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >대표자 :</span> <span class="pcolor">이승화 </span></li>
+				<li><span designElement="text" textIndex="22"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >주소 :</span> <span class="pcolor">경상남도 산청군 산청읍 산엔청로 1 (산청군청) </span></li>
+				<li><span designElement="text" textIndex="23"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >고객센터(📞):</span> <a href="tel:080-970-8000" class="pcolor">080-970-8000</a></li>
+				<li><span designElement="text" textIndex="24"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >팩스 :</span> <span class="pcolor">055-970-7709</span></li>
+				<li><span designElement="text" textIndex="25"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >사업자등록번호 :</span> <span class="pcolor">613-83-01773 <a href="javascript:;" onclick="window.open('https://www.ftc.go.kr/bizCommPop.do?wrkr_no=6138301773','communicationViewPopup','width=750,height=700,scrollbars=yes')">[사업자정보확인]</a></span></li>
+				<li><span designElement="text" textIndex="26"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >통신판매업신고번호 :</span> <span class="pcolor">경남산청2016-71</span></li>
+				<li><span designElement="text" textIndex="27"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >개인정보보호책임자 :</span> <span class="pcolor">김혜경(<a class="pcolor" href="mailto:sanencheong1@naver.com">sanencheong1@naver.com</a>)</span></li>
+				<li>호스팅 제공자 : <span class="pcolor">(주)가비아씨엔에스</span></li>
+			</ul>
+			<p class="copyright" designElement="text" textIndex="28"  textTemplatePath="cmVzcG9uc2l2ZV92ZXIxX2RlZmF1bHRfZ2wvbGF5b3V0X2Zvb3Rlci9zdGFuZGFyZC5odG1s" >COPYRIGHT (c) <span class="pcolor">산청군청</span> ALL RIGHTS RESERVED.</p>
+			<div class="escrow"><script type="text/javascript" src="https://pgweb.tosspayments.com/WEB_SERVER/js/escrowValid.js"></script><a style="cursor:pointer;" onclick="goValidEscrow('gb_san7732')"><img src="/data/icon/escrow_mark/lg.gif"  style="max-width:60px;" /></a></div>
+		</div>
+	</div>
+</div>
+
+<!-- 하단영역 : 끝 -->
+
+<!-- 플로팅 - BACK/TOP(대쉬보드) -->
+<div id="floating_over">
+	<a href="javascript:history.back();" class="ico_floating_back" title="뒤로 가기"></a>
+	<a href="javascript:history.forward();" class="ico_floating_foward" title="앞으로 가기"></a>
+	<a href="#layout_header" class="ico_floating_top" title="위로 가기">TOP</a>
+
+	<!-- 최근 본 상품(LAYER) -->
+	<div id="recently_popup">
+		<div class="recently_popup">
+			<h1>최근 본 상품</h1>
+			<div class="recently_thumb">
+				<div id="recently_slide_bottom" style="width:285px; min-height:80px;">
+					<div class="thumb">
+						<h2> 최근 본 상품이 없습니다.</h2>
+					</div>
+				</div>
+				<div class="recently_page">
+					<a href="javascript:;" class="btn_page cover">선택</a>
+				</div>
+			</div>
+			<a href="javascript:;" class="btn_close">모두보기</a>
+		</div>
+		<div class="recently_bg"></div>
+	</div>
+</div>
+<!-- //플로팅 - BACK/TOP(대쉬보드) -->
+
+
+<script type="text/javascript">
+$(function() {
+	/* 반응형 슬라이드 배너 관련( 절대 삭제 금지 ) */
+		$('.slider_before_loading').removeClass('slider_before_loading');
+
+	// 상품 색상 코드값 디자인( new 상품정보 )
+	if ( $('.displaY_color_option').length > 0 ) {
+		$('.displaY_color_option .areA').filter(function() {
+			return ( $(this).css('background-color') == 'rgb(255, 255, 255)' );
+		}).addClass('border');
+	}
+
+	$( window ).on('resize', function() {
+		if ( window.innerWidth != WINDOWWIDTH ) {
+			setTimeout(function(){ WINDOWWIDTH = window.innerWidth; }, 10);
+		}
+	});
+});
+
+/*######################## 17.12.19 gcs yjy : 앱 처리(fb 로그아웃) s */
+function logoutfb(){
+	FB.getLoginStatus(logoutfb_process);
+}
+function logoutfb_process(){
+	FB.api('/me', function(response) {
+
+		FB.logout(function(response) {
+
+		});
+
+		isLogin = false;
+		if (fbId != "")  initializeFbTokenValues();
+		if (fbUid != "") initializeFbUserValues();
+
+		return false;
+	});
+}
+/*######################## 17.12.19 gcs yjy : 앱 처리(fb 로그아웃) e */
+</script>
+		<!-- ================= #LAYOUT_FOOTER :: END. 파일위치 : layout_footer/standard.html (default) ================= -->
+
+		<iframe name="actionFrame" id="actionFrame" src="" frameborder="0" width="100%" height="0"></iframe>
+		<div id="openDialogLayer" style="display: none">
+			<div align="center" id="openDialogLayerMsg"></div>
+		</div>
+		<div id="ajaxLoadingLayer" style="display: none"></div>
+	</div>	
+</div>
+<div id="mobileZipcodeLayer" style="display: none"></div>
+<!-- 결제창을 레이어 형태로 구현-->
+<div id="layer_pay" class="hide"></div>
+<div id="payprocessing" class="pay_layer hide">
+	<div style="margin:auto;"><img src="/data/skin/responsive_ver1_default_gl/images/design/img_paying.gif" /></div>
+	<div style="margin:auto;padding-top:20px;"><img src="/data/skin/responsive_ver1_default_gl/images/design/progress_bar.gif" /></div>
+</div>
+<div id="layout_side_background" class="layout_side_background"></div>
+
+<!-- ================= #HTML_FOOTER :: START. 파일위치 : _modules/common/html_footer.html ================= -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ #HTML_FOOTER @@
+- 파일위치 : [스킨폴더]/_modules/common/html_footer.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div id="popupChangePassword" class="resp_layer_pop hide">
+	<h4 class="title">비밀번호 변경</h4>
+	<form id='passUpdateForm' method='post' action='/login_process/popup_change_pass' target='actionFrame'>
+	<input type='hidden' name='password_mode' value='update'>
+		<div class="y_scroll_auto2">
+			<div class="layer_pop_contents v5">
+				<h5 class="stitle">회원님의 소중한 개인정보 보호를 위해 비밀번호를 주기적으로 변경하시는 것이 좋습니다.</h5>
+				<p class="desc Pb8">※ 비밀번호는 영문 대문자, 영문 소문자, 숫자, 특수문자 중 2가지 이상을 조합한 8~20자</p>
+				<div class="resp_table_row input_form th_size3">
+					<ul class="tr">
+						<li class="th Pl5 Pr5">현재 비밀번호</li>
+						<li class="td">
+							<input type='password' name='old_password' value='' class='passwordField eng_only Wmax' />
+						</li>
+					</ul>
+					<ul class="tr">
+						<li class="th Pl5 Pr5">신규 비밀번호</li>
+						<li class="td">
+							<input type='password' name='new_password' value='' class='passwordField eng_only Wmax class_check_password_validation' />
+						</li>
+					</ul>
+					<ul class="tr">
+						<li class="th Pl5 Pr5">신규 비밀번호 <span class="Dib">확인</span></li>
+						<li class="td">
+							<input type='password' name='re_new_password' value='' class='passwordField eng_only Wmax' />
+						</li>
+					</ul>
+				</div>
+				<div class="C Pt20 Fs15">
+					<label><input type='checkbox' name='update_rate' value='Y' onclick='update_rate_checked();'> 개월 이후에 비밀번호를 변경하겠습니다.</label>
+				</div>
+			</div>
+		</div>
+		<div class="layer_bottom_btn_area2 v2">
+			<ul class="basic_btn_area2">
+				<li><button type="submit" class="btn_resp size_c color2">변경 완료</button></li>
+				<li><button type="button" class="btn_resp size_c color5" onclick="hideCenterLayer()">취소</button></li>
+			</ul>
+		</div>
+		<a href="javascript:void(0)" class="btn_pop_close" onclick="hideCenterLayer()"></a>
+	</form>
+</div>
+<!--<div style="position:fixed; right:88px; bottom:200px; z-index:100000;"  id="kakao-talk-channel-chat-button"  data-channel-public-id="_ExnSnj"  data-title="consult"  data-size="large"  data-color="yellow"  data-shape="pc"  data-support-multiple-densities="true"></div>-->
+</body>
+</html>
+<!-- ================= #HTML_FOOTER :: END. 파일위치 : _modules/common/html_footer.html ================= --><script>var gl_searchFilterUse = '1';</script>

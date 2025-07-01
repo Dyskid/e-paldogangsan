@@ -1,0 +1,156 @@
+import * as fs from 'fs';
+import * as path from 'path';
+
+interface CategoryStructure {
+  mainCategories: {
+    name: string;
+    code: string;
+    subcategories?: {
+      name: string;
+      code: string;
+    }[];
+  }[];
+}
+
+interface URLPattern {
+  categoryList: string;
+  productDetail: string;
+  search: string;
+  pagination: string;
+}
+
+interface PaginationMethod {
+  type: 'query_parameter' | 'path_based' | 'ajax_load_more';
+  parameter?: string;
+  maxItemsPerPage?: number;
+}
+
+interface ProductDataLocation {
+  listSelector: string;
+  itemSelector: string;
+  nameSelector: string;
+  priceSelector: string;
+  imageSelector: string;
+  linkSelector: string;
+}
+
+interface AnalysisResult {
+  siteName: string;
+  siteUrl: string;
+  categoryStructure: CategoryStructure;
+  urlPatterns: URLPattern;
+  paginationMethod: PaginationMethod;
+  requiresJavaScriptRendering: boolean;
+  productDataLocation: ProductDataLocation;
+  additionalNotes: string[];
+}
+
+// Analyze the downloaded HTML files
+function analyzeJangheungMall(): AnalysisResult {
+  const analysis: AnalysisResult = {
+    siteName: "정남진 장흥몰",
+    siteUrl: "https://okjmall.com/",
+    categoryStructure: {
+      mainCategories: [
+        {
+          name: "농산물",
+          code: "015",
+          subcategories: [
+            { name: "쌀", code: "015001" },
+            { name: "장흥키위", code: "015006" },
+            { name: "잡곡", code: "015007" }
+          ]
+        },
+        {
+          name: "수산물",
+          code: "002",
+          subcategories: [
+            { name: "매생이", code: "002001" },
+            { name: "무산김", code: "002003" }
+          ]
+        },
+        {
+          name: "축산물",
+          code: "003",
+          subcategories: []
+        },
+        {
+          name: "건강식품",
+          code: "011",
+          subcategories: [
+            { name: "건강즙", code: "011001" },
+            { name: "건강분말 / 환", code: "011002" },
+            { name: "한방재료", code: "011003" },
+            { name: "꿀", code: "011004" }
+          ]
+        },
+        {
+          name: "차류",
+          code: "012",
+          subcategories: [
+            { name: "청태전/전통차", code: "012002" },
+            { name: "건강음료", code: "012001" }
+          ]
+        },
+        {
+          name: "버섯관",
+          code: "018",
+          subcategories: []
+        },
+        {
+          name: "선물세트",
+          code: "017",
+          subcategories: [
+            { name: "한우선물세트", code: "017002" },
+            { name: "육포세트", code: "017004" },
+            { name: "버섯선물세트", code: "017001" },
+            { name: "김 선물세트", code: "017003" }
+          ]
+        }
+      ]
+    },
+    urlPatterns: {
+      categoryList: "https://okjmall.com/goods/goods_list.php?cateCd={categoryCode}",
+      productDetail: "https://okjmall.com/goods/goods_view.php?goodsNo={productId}",
+      search: "https://okjmall.com/goods/goods_search.php?keyword={searchTerm}",
+      pagination: "https://okjmall.com/goods/goods_list.php?cateCd={categoryCode}&page={pageNumber}"
+    },
+    paginationMethod: {
+      type: "query_parameter",
+      parameter: "page",
+      maxItemsPerPage: 20
+    },
+    requiresJavaScriptRendering: false,
+    productDataLocation: {
+      listSelector: ".item_gallery_type ul",
+      itemSelector: ".item_gallery_type ul li",
+      nameSelector: ".item_name",
+      priceSelector: ".item_price",
+      imageSelector: ".item_photo_box img",
+      linkSelector: ".item_photo_box a"
+    },
+    additionalNotes: [
+      "사이트는 고도몰5 기반 쇼핑몰 플랫폼 사용",
+      "상품 이미지는 CDN을 통해 제공됨 (cdn-pro-web-251-115.cdn-nhncommerce.com)",
+      "카테고리 코드는 3자리 메인 카테고리와 6자리 서브카테고리로 구성",
+      "페이지네이션은 URL 파라미터 방식으로 구현",
+      "장흥 특산물 위주의 상품 구성 (표고버섯, 무산김, 한우, 매생이, 청태전 등)",
+      "회원가입 시 2,000원 적립금 제공 및 구매 시 3% 적립 정책",
+      "모바일 도메인도 별도로 운영 (m.okjmall.com)"
+    ]
+  };
+
+  return analysis;
+}
+
+// Generate the analysis JSON file
+function generateAnalysisFile(): void {
+  const analysis = analyzeJangheungMall();
+  const outputPath = path.join(__dirname, 'analysis-52.json');
+  
+  fs.writeFileSync(outputPath, JSON.stringify(analysis, null, 2), 'utf-8');
+  console.log(`Analysis file generated at: ${outputPath}`);
+}
+
+// Run the analysis
+generateAnalysisFile();

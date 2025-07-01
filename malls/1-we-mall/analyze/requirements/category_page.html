@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+		<meta name="format-detection" content="telephone=no">
+		<title>
+					    식품/농산품 전체보기 | 우리몰
+		    
+		</title>
+		<link rel="stylesheet" type="text/css" href="/css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="/js/jquery-ui.css"/>
+		<link rel="stylesheet" type="text/css" href="/css/layout.css?ver=20201231"/>
+		<link rel="stylesheet" type="text/css" href="/css/board.css"/>
+		<link rel="stylesheet" type="text/css" href="/css/shop.css"/>
+
+								    <!-- 아닐경우 -->
+		    <link rel="stylesheet" type="text/css" href="/css/content.css?ver=20201231"/>
+		
+		<script type="text/javascript" src="/js/jquery-1.12.2.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.bxslider.js"></script>
+		<script type="text/javascript" src="/js/jquery-ui.js"></script>
+		<script type="text/javascript" src="/js/base.js"></script>
+		<script type="text/javascript" src="/js/module.js"></script>
+		<script type="text/javascript" src="/js/shop_user.js"></script>
+		<script type="text/javascript" src="/js/custom.js"></script>
+		<script type="text/javascript" src="/js/ScrollToPlugin.min.js"></script>
+		<script type="text/javascript" src="/js/TweenMax.min.js"></script>
+
+
+		<link rel="shortcut icon" href="/images/favicon.ico"/>
+		<link rel="canonical" href="" />
+		<link rel="alternate" href="" />
+		<meta property="og:url" content="" />
+		<meta property="og:title" content="우리몰  " />
+		<meta name="description"  content="우리몰" />
+		<meta property="og:description" content="우리몰" />
+		<meta property="og:site_name" content="우리몰" />
+		<meta property="naver-site-verification" content="우리몰" />
+		<meta name="google-site-verification" content="우리몰" />
+		<meta property="og:type" content="website" />
+					<meta property="og:image" content="/images/ogimage.jpg">
+		
+		<!--[if lte IE 10]>
+			<script type="text/javascript">
+				 document.write('<div id="update">보고계신 사이트는 <b>익스플로러11에 최적화 된</b> 사이트 입니다. Windows Internet Explorer를 <b>업데이트</b>를 받으세요 <a href="http://windows.microsoft.com/ko-KR/internet-explorer/downloads/ie" target="_blank" title="새창">Internet Explorer 업데이트하기</a></div>');
+			</script>
+		<![endif]-->
+
+	</head>
+	<body>
+			<div id="wrap">
+
+<header id="header" class="web">
+	<div id="skip_to_container">	
+		<a href="#gnb">주메뉴바로가기</a>
+		<a id="goContent" href="#container">본문바로가기</a>
+	</div>
+	<div class="inr_top">
+		<h1><a href="/">우리몰</a></h1>
+		<div class="area_util">
+			<ul>
+				<!-- <li><a href="/contents/06_membership/sub01.html" data-util="logout"><span>1</span></a></li>
+				<li><a href="/contents/06_membership/sub02.html" data-util="mypage"><span>2</span></a></li> -->
+									<li><a href="/member/member.html" data-util="login"><span>LOGIN</span></a></li>
+					<li><a href="/member/member.html?mode=agree" data-util="join"><span>JOIN</span></a></li>
+								<li>
+					<a href="/product/product.html?mode=cart" data-util="basket">
+						<!-- 장바구니 물건개수 -->
+						<!-- 물건을 담는경우 i태그에 숫자표시후 노출 그전에는 i태그 노출금지 -->
+						<!-- //장바구니 물건개수 -->
+						<span>CART</span>
+																	</a>
+				</li>
+
+							</ul>
+		</div>
+		<div class="area_topmenu">
+			<li>대구시</li>
+			<li>경상북도</li>
+			<li>한국장애경제인협회 대구·경북지회</li>
+		</div>
+		<!-- 검색폼 -->
+		<div class="area_search">
+			<form name="search_name" id="search_name" action="/product/product.html" method="get">
+				<input type="text" name="keyword" id="keyword" value="" title="검색어입력" placeholder="원하시는 상품을 검색해보세요.">
+				<input type="submit" onclick="" title="검색" class="btn" value="검색">
+			</form>
+		</div>
+		<!-- //검색폼 -->
+	</div>
+
+	<div class="inr_bottom" id="gnb">
+		<!-- gnb -->
+		<nav>
+			<ul class="gnb">
+				<li><a href="/contents/01_company/sub01.html" class="about" tab-index="0">우리몰소개</a>
+					<!--
+					<ul>
+						<li><a href="/contents/01_company/sub01.html" class="about_sub01">2차메뉴</a></li>
+					</ul>
+					-->
+				</li>
+				<li><a href="/product/product.html?category=011" class="about" tab-index="1">관공서구매상품</a></li>
+				<li><a href="/contents/03_customer/board.html?board_id=board_customer" class="about" tab-index="2">고객문의</a></li>
+				<li><a href="/contents/04_import/sub01.html" class="about" tab-index="3">입점방법</a></li>
+				<li><a href="/product/product.html?category=012" class="about" tab-index="4">공동구매상품</a></li>
+			</ul>
+			<a href="#" class="btn_menu" tab-index="0"><span><i></i></span><em><i></i><i></i></em><u>전체카테고리</u></a>
+		</nav>
+		<!-- //gnb -->
+
+		<!-- all menu -->
+		<div class="area_menu_all">
+			<em class="title">제품카테고리</em>
+			<li class='gnb_cate'><a href='/product/product.html?category=001'  data-set-on='001'>식품/농산품</a><ul><li ><a href='/product/product.html?category=001013'  data-set-on='001013'>쌀/농축산물</a></li><li ><a href='/product/product.html?category=001021'  data-set-on='001021'>차/음료/과자/가공식품</a></li><li ><a href='/product/product.html?category=001022'  data-set-on='001022'>건강식품/다이어트</a></li></ul></li><li class='gnb_cate'><a href='/product/product.html?category=002'  data-set-on='002'>생활용품</a><ul><li ><a href='/product/product.html?category=002014'  data-set-on='002014'>가구/인테리어</a></li><li ><a href='/product/product.html?category=002023'  data-set-on='002023'>침구/커튼/소품</a></li><li ><a href='/product/product.html?category=002024'  data-set-on='002024'>주방/생활/수납용품</a></li><li ><a href='/product/product.html?category=002025'  data-set-on='002025'>원예/선물</a></li><li ><a href='/product/product.html?category=002049'  data-set-on='002049'>건강/미용</a></li></ul></li><li class='gnb_cate'><a href='/product/product.html?category=003'  data-set-on='003'>사무용품</a><ul><li ><a href='/product/product.html?category=003015'  data-set-on='003015'>복사용지/토너류</a></li><li ><a href='/product/product.html?category=003026'  data-set-on='003026'>문구/팬시</a></li><li ><a href='/product/product.html?category=003045'  data-set-on='003045'>사무지류</a></li><li ><a href='/product/product.html?category=003046'  data-set-on='003046'>일반사무</a></li><li ><a href='/product/product.html?category=003047'  data-set-on='003047'>사무기기</a></li><li ><a href='/product/product.html?category=003048'  data-set-on='003048'>하드웨어</a></li><li ><a href='/product/product.html?category=003050'  data-set-on='003050'>청소/위생</a></li></ul></li><li class='gnb_cate'><a href='/product/product.html?category=004'  data-set-on='004'>디지털/가전</a><ul><li ><a href='/product/product.html?category=004016'  data-set-on='004016'>생활가전</a></li><li ><a href='/product/product.html?category=004027'  data-set-on='004027'>휴대폰/스마트용품</a></li><li ><a href='/product/product.html?category=004028'  data-set-on='004028'>컴퓨터/주변기기</a></li><li ><a href='/product/product.html?category=004029'  data-set-on='004029'>주방가전</a></li></ul></li><li class='gnb_cate'><a href='/product/product.html?category=005'  data-set-on='005'>공사/인쇄</a><ul><li ><a href='/product/product.html?category=005017'  data-set-on='005017'>공사</a></li><li ><a href='/product/product.html?category=005030'  data-set-on='005030'>광고/디자인</a></li><li ><a href='/product/product.html?category=005031'  data-set-on='005031'>인쇄</a></li><li ><a href='/product/product.html?category=005032'  data-set-on='005032'>산업/안전용품</a></li></ul></li><li class='gnb_cate'><a href='/product/product.html?category=006'  data-set-on='006'>청소용품</a><ul><li ><a href='/product/product.html?category=006018'  data-set-on='006018'>소독/방역</a></li><li ><a href='/product/product.html?category=006033'  data-set-on='006033'>마대</a></li><li ><a href='/product/product.html?category=006034'  data-set-on='006034'>세제/제지/일용잡화</a></li><li ><a href='/product/product.html?category=006035'  data-set-on='006035'>위생용품</a></li></ul></li><li class='gnb_cate'><a href='/product/product.html?category=007'  data-set-on='007'>스포츠/건강</a><ul><li ><a href='/product/product.html?category=007019'  data-set-on='007019'>자전거/헬스/다이어트</a></li><li ><a href='/product/product.html?category=007036'  data-set-on='007036'>등산/아우도어/캠핑</a></li></ul></li><li class='gnb_cate'><a href='/product/product.html?category=008'  data-set-on='008'>아동용품/취미</a><ul><li ><a href='/product/product.html?category=008020'  data-set-on='008020'>유아/간식</a></li><li ><a href='/product/product.html?category=008037'  data-set-on='008037'>장난감/유아교육/인형</a></li><li ><a href='/product/product.html?category=008038'  data-set-on='008038'>취미/자동차/공구</a></li></ul></li><li class='gnb_cate'><a href='/product/product.html?category=009'  data-set-on='009'>기타</a></li><li class='gnb_cate'><a href='/product/product.html?category=010'  data-set-on='010'>BEST상품</a></li><li class='gnb_cate'><a href='/product/product.html?category=011'  data-set-on='011'>관공서구매상품</a></li><li class='gnb_cate'><a href='/product/product.html?category=012'  data-set-on='012'>공동구매상품</a></li><li class='gnb_cate'><a href='/product/product.html?category=039'  data-set-on='039'>장애인 기업 제품</a></li><li class='gnb_cate'><a href='/product/product.html?category=040'  data-set-on='040'>장애인기업 시공업체</a></li><li class='gnb_cate'><a href='/product/product.html?category=041'  data-set-on='041'>토너.복사용지.사무용품.제지류.청소용품</a></li><li class='gnb_cate'><a href='/product/product.html?category=068'  data-set-on='068'>test</a></li>			<!-- <ul class="gnb">
+
+				<li class="gnb_cate">
+					<a href="#">생활용품</a>
+					<ul>
+						<li class=""><a href="#">카테고리 2차메뉴</a></li>
+						<li class=""><a href="#">카테고리 2차메뉴</a></li>
+						<li class=""><a href="#">카테고리 2차메뉴</a></li>
+						<li class=""><a href="#">카테고리 2차메뉴</a></li>
+						<li class=""><a href="#">카테고리 2차메뉴</a></li>
+						<li class=""><a href="#">카테고리 2차메뉴</a></li>
+						<li class=""><a href="#">카테고리 2차메뉴</a></li>
+					</ul>
+				</li>
+			</ul> -->
+
+		</div>
+		<!-- //all menu -->
+	</div>
+</header>
+<script>
+
+	$(function(){
+
+		// 주메뉴, 본문 바로가기
+		var skip = $('#skip_to_container>a');
+		skip.on('focus', function() {
+			$(this).addClass('show')
+		})
+		skip.on('focusout', function() {
+			$(this).removeClass('show')
+		})
+	});
+</script>
+
+<section id="container">
+	<div id="content">
+		<!-- 게시판자리 -->
+		<div class="area_shopList">
+
+			<div class="inr_1400">
+			<!-- 본문 -->
+			<h2 data-sub-title></h2>
+			<p>우리몰 상품보기</p>
+			
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$(document).bind('keydown',function(e){
+		if ( e.keyCode == 123 /* F12 */) {
+			//e.preventDefault();
+			//alert("http ERROR : developer tools load error\r\ntarget: undefined;\r\nException in window.onload:Error:An error \r\nhas ocurredPHPplugin.30293");
+			//e.returnValue = false;
+		}
+	});
+
+});
+</script>
+<script type="text/javascript">
+$(function(){
+	var mid = "";
+	$("[data-title-visual]").text("쇼핑하기");
+
+	if("001" != ""){
+		$("[data-sub-title]").text($("[data-set-on="+"001"+"]").text());
+
+					$("[data-set-on="+"001"+"]").addClass("on");
+			} else {
+		$("[data-sub-title]").text("전체상품");
+	}
+});
+</script>
+
+<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script><script type="text/javascript" src="/js/product.js"></script><script type="text/javascript" src="/js/share.js"></script><script type='text/javascript'>$(function(){   $("[data-sub-title]").text($("[data-set-on='001']").eq(0).text()); });</script>			<!-- 내용 -->
+			<!-- 내용 -->
+			<div class="area_shopList">
+				<!-- 카테고리 노출 -->
+				<!-- location형식 -->
+				<ul data-category-location="list">
+					<li>전체상품</li>
+					<!-- 해당카테고리가 없으면 li부터 표시 안함 -->
+										<li>식품/농산품<a href="#" data-category-location="view">식품/농산품</a>
+						<ul>
+															<li><a href="/product/product.html?category=001">식품/농산품</a></li>
+															<li><a href="/product/product.html?category=002">생활용품</a></li>
+															<li><a href="/product/product.html?category=003">사무용품</a></li>
+															<li><a href="/product/product.html?category=004">디지털/가전</a></li>
+															<li><a href="/product/product.html?category=005">공사/인쇄</a></li>
+															<li><a href="/product/product.html?category=006">청소용품</a></li>
+															<li><a href="/product/product.html?category=007">스포츠/건강</a></li>
+															<li><a href="/product/product.html?category=008">아동용품/취미</a></li>
+															<li><a href="/product/product.html?category=009">기타</a></li>
+															<li><a href="/product/product.html?category=010">BEST상품</a></li>
+															<li><a href="/product/product.html?category=011">관공서구매상품</a></li>
+															<li><a href="/product/product.html?category=012">공동구매상품</a></li>
+															<li><a href="/product/product.html?category=039">장애인 기업 제품</a></li>
+															<li><a href="/product/product.html?category=040">장애인기업 시공업체</a></li>
+															<li><a href="/product/product.html?category=041">토너.복사용지.사무용품.제지류.청소용품</a></li>
+															<li><a href="/product/product.html?category=068">test</a></li>
+													</ul>
+					</li>
+									</ul>
+				<!-- //location형식 -->
+
+				<!-- 카테고리 -->
+				<!-- 1차 카테고리 접근이 되면 1차의 형제와 1차의 자식2차 / 자식3차 까지 노출
+					 2차 카테고리가 접근이 되면 2차의 형제와 2차의 자식3차까지 노출 -->
+									<div data-category-location="tab">
+						<!-- pc category -->
+													<ul class="web">
+								<li class='gnb_cate'><a href='/product/product.html?category=001'  data-set-on='001'>식품/농산품</a><ul><li ><a href='/product/product.html?category=001013'  data-set-on='001013'>쌀/농축산물</a></li><li ><a href='/product/product.html?category=001021'  data-set-on='001021'>차/음료/과자/가공식품</a></li><li ><a href='/product/product.html?category=001022'  data-set-on='001022'>건강식품/다이어트</a></li></ul></li><li class='gnb_cate'><a href='/product/product.html?category=002'  data-set-on='002'>생활용품</a><ul><li ><a href='/product/product.html?category=002014'  data-set-on='002014'>가구/인테리어</a></li><li ><a href='/product/product.html?category=002023'  data-set-on='002023'>침구/커튼/소품</a></li><li ><a href='/product/product.html?category=002024'  data-set-on='002024'>주방/생활/수납용품</a></li><li ><a href='/product/product.html?category=002025'  data-set-on='002025'>원예/선물</a></li><li ><a href='/product/product.html?category=002049'  data-set-on='002049'>건강/미용</a></li></ul></li><li class='gnb_cate'><a href='/product/product.html?category=003'  data-set-on='003'>사무용품</a><ul><li ><a href='/product/product.html?category=003015'  data-set-on='003015'>복사용지/토너류</a></li><li ><a href='/product/product.html?category=003026'  data-set-on='003026'>문구/팬시</a></li><li ><a href='/product/product.html?category=003045'  data-set-on='003045'>사무지류</a><ul><li ><a href='/product/product.html?category=003045051'  data-set-on='003045051'>카피용지</a></li><li ><a href='/product/product.html?category=003045052'  data-set-on='003045052'>점착메모지</a></li><li ><a href='/product/product.html?category=003045053'  data-set-on='003045053'>견출/라벨지</a></li></ul></li><li ><a href='/product/product.html?category=003046'  data-set-on='003046'>일반사무</a><ul><li ><a href='/product/product.html?category=003046054'  data-set-on='003046054'>칠판/보드용품</a></li><li ><a href='/product/product.html?category=003046058'  data-set-on='003046058'>접착용품</a></li><li ><a href='/product/product.html?category=003046055'  data-set-on='003046055'>수정용품</a></li><li ><a href='/product/product.html?category=003046056'  data-set-on='003046056'>데스크용품</a></li><li ><a href='/product/product.html?category=003046057'  data-set-on='003046057'>자/가위</a></li><li ><a href='/product/product.html?category=003046059'  data-set-on='003046059'>컷터/날</a></li><li ><a href='/product/product.html?category=003046061'  data-set-on='003046061'>스테플러/침</a></li><li ><a href='/product/product.html?category=003046062'  data-set-on='003046062'>펀치/날</a></li><li ><a href='/product/product.html?category=003046063'  data-set-on='003046063'>바인딩/용품</a></li><li ><a href='/product/product.html?category=003046064'  data-set-on='003046064'>자석류</a></li><li ><a href='/product/product.html?category=003046066'  data-set-on='003046066'>명찰/플레이트</a></li><li ><a href='/product/product.html?category=003046067'  data-set-on='003046067'>인주/스탬프</a></li></ul></li><li ><a href='/product/product.html?category=003047'  data-set-on='003047'>사무기기</a></li><li ><a href='/product/product.html?category=003048'  data-set-on='003048'>하드웨어</a></li><li ><a href='/product/product.html?category=003050'  data-set-on='003050'>청소/위생</a></li></ul></li><li class='gnb_cate'><a href='/product/product.html?category=004'  data-set-on='004'>디지털/가전</a><ul><li ><a href='/product/product.html?category=004016'  data-set-on='004016'>생활가전</a></li><li ><a href='/product/product.html?category=004027'  data-set-on='004027'>휴대폰/스마트용품</a></li><li ><a href='/product/product.html?category=004028'  data-set-on='004028'>컴퓨터/주변기기</a></li><li ><a href='/product/product.html?category=004029'  data-set-on='004029'>주방가전</a></li></ul></li><li class='gnb_cate'><a href='/product/product.html?category=005'  data-set-on='005'>공사/인쇄</a><ul><li ><a href='/product/product.html?category=005017'  data-set-on='005017'>공사</a></li><li ><a href='/product/product.html?category=005030'  data-set-on='005030'>광고/디자인</a></li><li ><a href='/product/product.html?category=005031'  data-set-on='005031'>인쇄</a></li><li ><a href='/product/product.html?category=005032'  data-set-on='005032'>산업/안전용품</a></li></ul></li><li class='gnb_cate'><a href='/product/product.html?category=006'  data-set-on='006'>청소용품</a><ul><li ><a href='/product/product.html?category=006018'  data-set-on='006018'>소독/방역</a></li><li ><a href='/product/product.html?category=006033'  data-set-on='006033'>마대</a></li><li ><a href='/product/product.html?category=006034'  data-set-on='006034'>세제/제지/일용잡화</a></li><li ><a href='/product/product.html?category=006035'  data-set-on='006035'>위생용품</a></li></ul></li><li class='gnb_cate'><a href='/product/product.html?category=007'  data-set-on='007'>스포츠/건강</a><ul><li ><a href='/product/product.html?category=007019'  data-set-on='007019'>자전거/헬스/다이어트</a></li><li ><a href='/product/product.html?category=007036'  data-set-on='007036'>등산/아우도어/캠핑</a></li></ul></li><li class='gnb_cate'><a href='/product/product.html?category=008'  data-set-on='008'>아동용품/취미</a><ul><li ><a href='/product/product.html?category=008020'  data-set-on='008020'>유아/간식</a></li><li ><a href='/product/product.html?category=008037'  data-set-on='008037'>장난감/유아교육/인형</a></li><li ><a href='/product/product.html?category=008038'  data-set-on='008038'>취미/자동차/공구</a></li></ul></li><li class='gnb_cate'><a href='/product/product.html?category=009'  data-set-on='009'>기타</a></li><li class='gnb_cate'><a href='/product/product.html?category=010'  data-set-on='010'>BEST상품</a></li>							</ul>
+												<!-- //pc category -->
+
+						<!-- mob category -->
+												<div class="mob">
+							<p class="title"><a href="javascript:;" onclick="javascript:history.go(-1);">이전카테고리</a>식품/농산품</p>
+															<ul class='depth_2'><li data-depth='2'><a class='all' href='/product/product.html?category=001' >전체보기</a></li> <script>$("[data-depth='1']").remove()</script><li class='nth_1'><a href='/product/product.html?category=001013'  data-set-on='001013'>쌀/농축산물</a></li> <li class='nth_2'><a href='/product/product.html?category=001021'  data-set-on='001021'>차/음료/과자/가공식품</a></li> <li class='nth_3'><a href='/product/product.html?category=001022'  data-set-on='001022'>건강식품/다이어트</a></li> </ul>
+													</div>
+												<!-- //mob category -->
+					</div>
+								<!-- //카테고리 -->
+
+				<!-- //카테고리 노출 -->
+				<!-- 상품기본목록 -->
+				<div class="default">
+					<!-- total, 정렬 -->
+					<div class="total">
+						<p>총 <i>54</i>개의 상품이 있습니다.</p>
+						<!-- sort검색시 a태그에 class on 추가 -->
+						<ul class="sort">
+							<li><a href="?category=001&sort_mode=new&keyword=" id="new">신상품</a></li>
+							<li><a href="?category=001&sort_mode=ptitle&keyword=" id="ptitle">상품명</a></li>
+							<li><a href="?category=001&sort_mode=lprice&keyword=" id="lprice">낮은가격</a></li>
+							<li><a href="?category=001&sort_mode=hprice&keyword=" id="hprice">높은가격</a></li>
+							<li><a href="?category=001&sort_mode=review&keyword=" id="review">사용후기</a></li>
+						</ul>
+						<script type="text/javascript">
+							$("#"+"").addClass("on");
+						</script>
+					</div>
+					<!-- //total, 정렬 -->
+
+					<!-- 목록 -->
+					<!-- 12개 노출 -->
+					<ul data-shop-list="default">
+						<!-- 반복 -->
+												<li>
+														<a href="javascript:void(0);" onclick="market_cnt('4300714');" class="market">
+															<!-- 이미지  -->
+								<span class="img">
+									<!-- 대표이미지 -->
+									<i><img src="/upload/product/79148_%ED%95%98%EB%88%85_%EB%B9%84%EA%B1%B4%ED%98%B8%EB%B0%80__%20%2831%29-1.jpg" onError="this.src='/images/board/no_image.gif';" alt=""/></i>
+									<!-- 2번째 추가이미지 첨부된 이미지가 없는 경우 i태그 전체 표기안되게 -->
+																	</span>
+								<!-- 상품명 -->
+								<em>[류한욱통호밀농장] 호밀비건 스콘12종 직접재배 백년가게 [경북 소상공인 희망마켓30%할인]</em>
+								<!-- 간략설명 -->
+								<i>농촌융복합 6차산업인증업체   직접 재배 가공 백년가게 하눅베이커리에서 국산호밀로 만든비건 스콘</i>
+								<!-- 판매가격 / 시중가격 -->
+								<!-- 시중가격이 없는경우 i태그부터 삭제 display:none 사용금지 태그자체를 지워야함 -->
+																											<span class="price"><i>3,500</i><i>2,500</i></span>
+										<!-- 시중가격이 있는경우 판매가격 기준으로 할인 퍼센트 노출 시중가격없는경우 숨김 -->
+																					<span class="percent"><i>DC</i>29%</span>
+																																			<!-- 블릿사용 둘다 사용안할경우 span 까지 전부 숨김 -->
+																<span data-shop-icon="icon">
+									<!-- best -->
+																		<!-- new -->
+									 <i data-shop-icon="new">NEW</i> 								</span>
+															</a>
+		
+														<!-- 관심상품/상세보기 -->
+							<div data-shop-list="util">
+								<a href="javascript:void(0)" onclick="wish_form_submit('4300714')" class="interest">관심상품</a>
+																	<a href="https://smartstore.naver.com/rho818/products/5217682345"  target="_blank" class="view">
+																새창으로 자세히보기</a>
+							</div>
+						</li>
+						<!-- //반복 -->
+												<li>
+														<a href="javascript:void(0);" onclick="market_cnt('001');" class="market">
+															<!-- 이미지  -->
+								<span class="img">
+									<!-- 대표이미지 -->
+									<i><img src="/upload/product/460_02.jpg" onError="this.src='/images/board/no_image.gif';" alt=""/></i>
+									<!-- 2번째 추가이미지 첨부된 이미지가 없는 경우 i태그 전체 표기안되게 -->
+																		<i><img src="/upload/product/%EC%9E%AC%EB%9E%98%EC%8B%9D%EB%90%9C%EC%9E%A5%202.7kg.jpg" alt=""/></i>
+																	</span>
+								<!-- 상품명 -->
+								<em>[뚝배기식품] 재래식 된장 2.7kg</em>
+								<!-- 간략설명 -->
+								<i></i>
+								<!-- 판매가격 / 시중가격 -->
+								<!-- 시중가격이 없는경우 i태그부터 삭제 display:none 사용금지 태그자체를 지워야함 -->
+																											<span class="price"><i>44,000</i></span>
+										<!-- 시중가격이 있는경우 판매가격 기준으로 할인 퍼센트 노출 시중가격없는경우 숨김 -->
+																																			<!-- 블릿사용 둘다 사용안할경우 span 까지 전부 숨김 -->
+																<span data-shop-icon="icon">
+									<!-- best -->
+									 <i data-shop-icon="best">BEST</i> 									<!-- new -->
+																	</span>
+															</a>
+		
+														<!-- 관심상품/상세보기 -->
+							<div data-shop-list="util">
+								<a href="javascript:void(0)" onclick="wish_form_submit('001')" class="interest">관심상품</a>
+																	<a href="https://smartstore.naver.com/ddukbaegifoods/products/3833475188"  target="_blank" class="view">
+																새창으로 자세히보기</a>
+							</div>
+						</li>
+						<!-- //반복 -->
+												<li>
+														<a href="javascript:void(0);" onclick="market_cnt('10670068');" class="market">
+															<!-- 이미지  -->
+								<span class="img">
+									<!-- 대표이미지 -->
+									<i><img src="/upload/product/%EA%B6%81%EC%B1%84150.jpg" onError="this.src='/images/board/no_image.gif';" alt=""/></i>
+									<!-- 2번째 추가이미지 첨부된 이미지가 없는 경우 i태그 전체 표기안되게 -->
+																	</span>
+								<!-- 상품명 -->
+								<em>울릉허브 오식이 궁채 나물 장아찌 150g 줄기상추 절임</em>
+								<!-- 간략설명 -->
+								<i>오독오독 식감의 궁채 장아찌</i>
+								<!-- 판매가격 / 시중가격 -->
+								<!-- 시중가격이 없는경우 i태그부터 삭제 display:none 사용금지 태그자체를 지워야함 -->
+																											<span class="price"><i>9,800</i><i>4,500</i></span>
+										<!-- 시중가격이 있는경우 판매가격 기준으로 할인 퍼센트 노출 시중가격없는경우 숨김 -->
+																					<span class="percent"><i>DC</i>55%</span>
+																																			<!-- 블릿사용 둘다 사용안할경우 span 까지 전부 숨김 -->
+																<span data-shop-icon="icon">
+									<!-- best -->
+																		<!-- new -->
+									 <i data-shop-icon="new">NEW</i> 								</span>
+															</a>
+		
+														<!-- 관심상품/상세보기 -->
+							<div data-shop-list="util">
+								<a href="javascript:void(0)" onclick="wish_form_submit('10670068')" class="interest">관심상품</a>
+																	<a href="https://smartstore.naver.com/uldo/products/6834728869"  target="_blank" class="view">
+																새창으로 자세히보기</a>
+							</div>
+						</li>
+						<!-- //반복 -->
+												<li>
+														<a href="javascript:void(0);" onclick="market_cnt('2575836');" class="market">
+															<!-- 이미지  -->
+								<span class="img">
+									<!-- 대표이미지 -->
+									<i><img src="/upload/product/600_3.jpg" onError="this.src='/images/board/no_image.gif';" alt=""/></i>
+									<!-- 2번째 추가이미지 첨부된 이미지가 없는 경우 i태그 전체 표기안되게 -->
+																		<i><img src="/upload/product/600.jpg" alt=""/></i>
+																	</span>
+								<!-- 상품명 -->
+								<em>[(주)수플러스]안녕자두야 의성자두 콜라겐 젤리스틱 20g*30포 </em>
+								<!-- 간략설명 -->
+								<i>6월~7월 고객감사 특별이벤트 3만 특별가</i>
+								<!-- 판매가격 / 시중가격 -->
+								<!-- 시중가격이 없는경우 i태그부터 삭제 display:none 사용금지 태그자체를 지워야함 -->
+																											<span class="price"><i>45,000</i><i>30,000</i></span>
+										<!-- 시중가격이 있는경우 판매가격 기준으로 할인 퍼센트 노출 시중가격없는경우 숨김 -->
+																					<span class="percent"><i>DC</i>34%</span>
+																																			<!-- 블릿사용 둘다 사용안할경우 span 까지 전부 숨김 -->
+																<span data-shop-icon="icon">
+									<!-- best -->
+																		<!-- new -->
+									 <i data-shop-icon="new">NEW</i> 								</span>
+															</a>
+		
+														<!-- 관심상품/상세보기 -->
+							<div data-shop-list="util">
+								<a href="javascript:void(0)" onclick="wish_form_submit('2575836')" class="interest">관심상품</a>
+																	<a href="https://smartstore.naver.com/suplus_/products/9046190312?nl-query=%EC%95%88%EB%85%95%EC%9E%90%EB%91%90%EC%95%BC+%EC%BD%9C%EB%9D%BC%EA%B2%90&amp;nl-ts-pid=ja4nusqVOswssFWcgOZssssstv4-106124&amp;NaPm=ct%3Dmc18t91s%7Cci%3Dc50daba8b4ce0c24ceff489eed8577e9ce84f998%7Ctr%3Dsls%7Csn%3D564486%7Chk%3D1cb53a64a19eb7e70116d025618107e50e30b5e5"  target="_blank" class="view">
+																새창으로 자세히보기</a>
+							</div>
+						</li>
+						<!-- //반복 -->
+												<li>
+														<a href="javascript:void(0);" onclick="market_cnt('18271827');" class="market">
+															<!-- 이미지  -->
+								<span class="img">
+									<!-- 대표이미지 -->
+									<i><img src="/upload/product/%ED%98%B8%EB%B0%80%EB%86%8D%EC%9E%A5_%EB%8C%80%ED%91%9C%EC%9D%B4%EB%AF%B8%EC%A7%8002%20500%20500.jpg" onError="this.src='/images/board/no_image.gif';" alt=""/></i>
+									<!-- 2번째 추가이미지 첨부된 이미지가 없는 경우 i태그 전체 표기안되게 -->
+																	</span>
+								<!-- 상품명 -->
+								<em>[류한욱통호밀농장] 하눅 영천작약꽃빵세트(6개입) </em>
+								<!-- 간략설명 -->
+								<i>작약의 주산지, 영천에서 전하는  하눅작약꽃빵!! 영천 대표먹거리 하눅 작약꽃빵을 만나보세요.</i>
+								<!-- 판매가격 / 시중가격 -->
+								<!-- 시중가격이 없는경우 i태그부터 삭제 display:none 사용금지 태그자체를 지워야함 -->
+																											<span class="price"><i>15,000</i><i>18,000</i></span>
+										<!-- 시중가격이 있는경우 판매가격 기준으로 할인 퍼센트 노출 시중가격없는경우 숨김 -->
+																					<span class="percent"><i>DC</i>-20%</span>
+																																			<!-- 블릿사용 둘다 사용안할경우 span 까지 전부 숨김 -->
+																<span data-shop-icon="icon">
+									<!-- best -->
+									 <i data-shop-icon="best">BEST</i> 									<!-- new -->
+																	</span>
+															</a>
+		
+														<!-- 관심상품/상세보기 -->
+							<div data-shop-list="util">
+								<a href="javascript:void(0)" onclick="wish_form_submit('18271827')" class="interest">관심상품</a>
+																	<a href="https://smartstore.naver.com/rho818/products/10525954796"  target="_blank" class="view">
+																새창으로 자세히보기</a>
+							</div>
+						</li>
+						<!-- //반복 -->
+												<li>
+														<a href="javascript:void(0);" onclick="market_cnt('4257526');" class="market">
+															<!-- 이미지  -->
+								<span class="img">
+									<!-- 대표이미지 -->
+									<i><img src="/upload/product/3%EC%A2%85%EC%84%B8%ED%8A%B8.jpg" onError="this.src='/images/board/no_image.gif';" alt=""/></i>
+									<!-- 2번째 추가이미지 첨부된 이미지가 없는 경우 i태그 전체 표기안되게 -->
+																		<i><img src="/upload/product/460_09.jpg" alt=""/></i>
+																	</span>
+								<!-- 상품명 -->
+								<em>[뚝배기식품] 우리고향장맛 3종 선물세트</em>
+								<!-- 간략설명 -->
+								<i></i>
+								<!-- 판매가격 / 시중가격 -->
+								<!-- 시중가격이 없는경우 i태그부터 삭제 display:none 사용금지 태그자체를 지워야함 -->
+																											<span class="price"><i>34,000</i></span>
+										<!-- 시중가격이 있는경우 판매가격 기준으로 할인 퍼센트 노출 시중가격없는경우 숨김 -->
+																																			<!-- 블릿사용 둘다 사용안할경우 span 까지 전부 숨김 -->
+																<span data-shop-icon="icon">
+									<!-- best -->
+																		<!-- new -->
+									 <i data-shop-icon="new">NEW</i> 								</span>
+															</a>
+		
+														<!-- 관심상품/상세보기 -->
+							<div data-shop-list="util">
+								<a href="javascript:void(0)" onclick="wish_form_submit('4257526')" class="interest">관심상품</a>
+																	<a href="https://smartstore.naver.com/ddukbaegifoods/products/7020274621"  target="_blank" class="view">
+																새창으로 자세히보기</a>
+							</div>
+						</li>
+						<!-- //반복 -->
+												<li>
+														<a href="javascript:void(0);" onclick="market_cnt('19426385');" class="market">
+															<!-- 이미지  -->
+								<span class="img">
+									<!-- 대표이미지 -->
+									<i><img src="/upload/product/460_06.jpg" onError="this.src='/images/board/no_image.gif';" alt=""/></i>
+									<!-- 2번째 추가이미지 첨부된 이미지가 없는 경우 i태그 전체 표기안되게 -->
+																	</span>
+								<!-- 상품명 -->
+								<em>[뚝배기식품] 고추장 1kg</em>
+								<!-- 간략설명 -->
+								<i></i>
+								<!-- 판매가격 / 시중가격 -->
+								<!-- 시중가격이 없는경우 i태그부터 삭제 display:none 사용금지 태그자체를 지워야함 -->
+																											<span class="price"><i>23,000</i></span>
+										<!-- 시중가격이 있는경우 판매가격 기준으로 할인 퍼센트 노출 시중가격없는경우 숨김 -->
+																																			<!-- 블릿사용 둘다 사용안할경우 span 까지 전부 숨김 -->
+																<span data-shop-icon="icon">
+									<!-- best -->
+																		<!-- new -->
+									 <i data-shop-icon="new">NEW</i> 								</span>
+															</a>
+		
+														<!-- 관심상품/상세보기 -->
+							<div data-shop-list="util">
+								<a href="javascript:void(0)" onclick="wish_form_submit('19426385')" class="interest">관심상품</a>
+																	<a href="https://smartstore.naver.com/ddukbaegifoods/products/7269927895"  target="_blank" class="view">
+																새창으로 자세히보기</a>
+							</div>
+						</li>
+						<!-- //반복 -->
+												<li>
+														<a href="javascript:void(0);" onclick="market_cnt('14922008');" class="market">
+															<!-- 이미지  -->
+								<span class="img">
+									<!-- 대표이미지 -->
+									<i><img src="/upload/product/Blue%20and%20White%20Circle%20Surfing%20Club%20Logo%20%285%29.png" onError="this.src='/images/board/no_image.gif';" alt=""/></i>
+									<!-- 2번째 추가이미지 첨부된 이미지가 없는 경우 i태그 전체 표기안되게 -->
+																	</span>
+								<!-- 상품명 -->
+								<em>한달용 홍생식 (30포) 프리미엄 생식 내몸의 면연력과 피를 맑게 아침식사대용으로 회복</em>
+								<!-- 간략설명 -->
+								<i></i>
+								<!-- 판매가격 / 시중가격 -->
+								<!-- 시중가격이 없는경우 i태그부터 삭제 display:none 사용금지 태그자체를 지워야함 -->
+																											<span class="price"><i>72,000</i><i>68,000</i></span>
+										<!-- 시중가격이 있는경우 판매가격 기준으로 할인 퍼센트 노출 시중가격없는경우 숨김 -->
+																					<span class="percent"><i>DC</i>6%</span>
+																																			<!-- 블릿사용 둘다 사용안할경우 span 까지 전부 숨김 -->
+																<span data-shop-icon="icon">
+									<!-- best -->
+																		<!-- new -->
+									 <i data-shop-icon="new">NEW</i> 								</span>
+															</a>
+		
+														<!-- 관심상품/상세보기 -->
+							<div data-shop-list="util">
+								<a href="javascript:void(0)" onclick="wish_form_submit('14922008')" class="interest">관심상품</a>
+																	<a href="https://smartstore.naver.com/goodrawfood/products/10835311007"  target="_blank" class="view">
+																새창으로 자세히보기</a>
+							</div>
+						</li>
+						<!-- //반복 -->
+												<li>
+														<a href="javascript:void(0);" onclick="market_cnt('17691588');" class="market">
+															<!-- 이미지  -->
+								<span class="img">
+									<!-- 대표이미지 -->
+									<i><img src="/upload/product/main02.png" onError="this.src='/images/board/no_image.gif';" alt=""/></i>
+									<!-- 2번째 추가이미지 첨부된 이미지가 없는 경우 i태그 전체 표기안되게 -->
+																	</span>
+								<!-- 상품명 -->
+								<em>[이삭누룽] 국내산 100% 현미 이삭 누룽지 황미 오분도 누룽지(10개)</em>
+								<!-- 간략설명 -->
+								<i></i>
+								<!-- 판매가격 / 시중가격 -->
+								<!-- 시중가격이 없는경우 i태그부터 삭제 display:none 사용금지 태그자체를 지워야함 -->
+																											<span class="price"><i>60,000</i></span>
+										<!-- 시중가격이 있는경우 판매가격 기준으로 할인 퍼센트 노출 시중가격없는경우 숨김 -->
+																																			<!-- 블릿사용 둘다 사용안할경우 span 까지 전부 숨김 -->
+																<span data-shop-icon="icon">
+									<!-- best -->
+									 <i data-shop-icon="best">BEST</i> 									<!-- new -->
+									 <i data-shop-icon="new">NEW</i> 								</span>
+															</a>
+		
+														<!-- 관심상품/상세보기 -->
+							<div data-shop-list="util">
+								<a href="javascript:void(0)" onclick="wish_form_submit('17691588')" class="interest">관심상품</a>
+																	<a href="https://smartstore.naver.com/food_s/products/9677104339"  target="_blank" class="view">
+																새창으로 자세히보기</a>
+							</div>
+						</li>
+						<!-- //반복 -->
+												<li>
+														<a href="javascript:void(0);" onclick="market_cnt('16371370');" class="market">
+															<!-- 이미지  -->
+								<span class="img">
+									<!-- 대표이미지 -->
+									<i><img src="/upload/product/460_05.jpg" onError="this.src='/images/board/no_image.gif';" alt=""/></i>
+									<!-- 2번째 추가이미지 첨부된 이미지가 없는 경우 i태그 전체 표기안되게 -->
+																	</span>
+								<!-- 상품명 -->
+								<em>[뚝배기식품] 재래식 간장 1.8L</em>
+								<!-- 간략설명 -->
+								<i></i>
+								<!-- 판매가격 / 시중가격 -->
+								<!-- 시중가격이 없는경우 i태그부터 삭제 display:none 사용금지 태그자체를 지워야함 -->
+																											<span class="price"><i>18,500</i></span>
+										<!-- 시중가격이 있는경우 판매가격 기준으로 할인 퍼센트 노출 시중가격없는경우 숨김 -->
+																																			<!-- 블릿사용 둘다 사용안할경우 span 까지 전부 숨김 -->
+																<span data-shop-icon="icon">
+									<!-- best -->
+																		<!-- new -->
+									 <i data-shop-icon="new">NEW</i> 								</span>
+															</a>
+		
+														<!-- 관심상품/상세보기 -->
+							<div data-shop-list="util">
+								<a href="javascript:void(0)" onclick="wish_form_submit('16371370')" class="interest">관심상품</a>
+																	<a href="https://smartstore.naver.com/ddukbaegifoods/products/7276362891"  target="_blank" class="view">
+																새창으로 자세히보기</a>
+							</div>
+						</li>
+						<!-- //반복 -->
+												<li>
+														<a href="javascript:void(0);" onclick="market_cnt('4261535');" class="market">
+															<!-- 이미지  -->
+								<span class="img">
+									<!-- 대표이미지 -->
+									<i><img src="/upload/product/%EB%AA%85%EC%9D%B4%EA%B9%80%EC%B9%98150.jpg" onError="this.src='/images/board/no_image.gif';" alt=""/></i>
+									<!-- 2번째 추가이미지 첨부된 이미지가 없는 경우 i태그 전체 표기안되게 -->
+																	</span>
+								<!-- 상품명 -->
+								<em>울릉허브 오식이 국산 명이김치 500g 명이나물 김치</em>
+								<!-- 간략설명 -->
+								<i>매콤달콤 아삭아삭 명이나물 김치절임</i>
+								<!-- 판매가격 / 시중가격 -->
+								<!-- 시중가격이 없는경우 i태그부터 삭제 display:none 사용금지 태그자체를 지워야함 -->
+																											<span class="price"><i>16,000</i><i>15,000</i></span>
+										<!-- 시중가격이 있는경우 판매가격 기준으로 할인 퍼센트 노출 시중가격없는경우 숨김 -->
+																					<span class="percent"><i>DC</i>7%</span>
+																																			<!-- 블릿사용 둘다 사용안할경우 span 까지 전부 숨김 -->
+															</a>
+		
+														<!-- 관심상품/상세보기 -->
+							<div data-shop-list="util">
+								<a href="javascript:void(0)" onclick="wish_form_submit('4261535')" class="interest">관심상품</a>
+																	<a href="https://smartstore.naver.com/uldo/products/6834747558"  target="_blank" class="view">
+																새창으로 자세히보기</a>
+							</div>
+						</li>
+						<!-- //반복 -->
+												<li>
+														<a href="javascript:void(0);" onclick="market_cnt('10217243');" class="market">
+															<!-- 이미지  -->
+								<span class="img">
+									<!-- 대표이미지 -->
+									<i><img src="/upload/product/%EB%AA%85%EC%9D%B4%EA%B5%AD%EB%82%B4%EC%82%B0200.jpg" onError="this.src='/images/board/no_image.gif';" alt=""/></i>
+									<!-- 2번째 추가이미지 첨부된 이미지가 없는 경우 i태그 전체 표기안되게 -->
+																	</span>
+								<!-- 상품명 -->
+								<em>울릉허브 오식이 순한맛 매운맛 국내산 명이절임 200g 명이나물 산마늘 장아찌 절임</em>
+								<!-- 간략설명 -->
+								<i>국내산 특허받은 매운맛 명이절임 출시</i>
+								<!-- 판매가격 / 시중가격 -->
+								<!-- 시중가격이 없는경우 i태그부터 삭제 display:none 사용금지 태그자체를 지워야함 -->
+																											<span class="price"><i>6,000</i></span>
+										<!-- 시중가격이 있는경우 판매가격 기준으로 할인 퍼센트 노출 시중가격없는경우 숨김 -->
+																																			<!-- 블릿사용 둘다 사용안할경우 span 까지 전부 숨김 -->
+																<span data-shop-icon="icon">
+									<!-- best -->
+									 <i data-shop-icon="best">BEST</i> 									<!-- new -->
+																	</span>
+															</a>
+		
+														<!-- 관심상품/상세보기 -->
+							<div data-shop-list="util">
+								<a href="javascript:void(0)" onclick="wish_form_submit('10217243')" class="interest">관심상품</a>
+																	<a href="https://smartstore.naver.com/uldo/products/6944802503"  target="_blank" class="view">
+																새창으로 자세히보기</a>
+							</div>
+						</li>
+						<!-- //반복 -->
+											</ul>
+				</div>
+				<!-- //상품기본목록 -->
+
+				<!-- 페이징 -->
+				<div class="pagination">
+					<a href='/product/product.html?category=001&sort_mode=&keyword=&amp;start=0' class='btn_first'><span>맨처음</span></a><span>1</span><a href='/product/product.html?category=001&sort_mode=&keyword=&amp;start=12'>2</a><a href='/product/product.html?category=001&sort_mode=&keyword=&amp;start=24'>3</a><a href='/product/product.html?category=001&sort_mode=&keyword=&amp;start=36'>4</a><a href='/product/product.html?category=001&sort_mode=&keyword=&amp;start=48'>5</a><a href='/product/product.html?category=001&sort_mode=&keyword=&amp;start=48' class='btn_last'><span>맨마지막</span></a>				</div>
+				<!-- //페이징 -->
+
+			</div>
+			<!-- //내용 -->
+
+
+<script>
+function market_cnt(product_id){
+
+	var product_id = product_id;
+
+	var market_open = window.open();
+
+	$.ajax({
+		type : "POST",
+		url : "/cnt_ajax.php",
+		dataType : 'json',
+		data : {
+			product_id : product_id
+		},
+		success : function(args){
+		//	location.href = args.market_url;
+			// window.open(args.market_url);
+			market_open.location=args.market_url;
+		}
+
+	});
+
+}
+</script>
+			<!-- //본문 -->
+			</div>
+		</div>
+	</div>
+</section>
+<script>
+$(function(){
+	var wrap_cateogry = "001";
+	$("[data-set-on='"+wrap_cateogry+"']").addClass("on");
+})
+</script>
+			<!-- footer -->
+			<footer id="footer">
+				<div class="inr">
+					<div class="inr_1400">
+						<a href="#wrap" class="btn_top">맨위로</a>
+					</div>
+					<div class="footer_top">
+						<div class="link">
+							<ul>
+								<li><a href="/member/member.html?mode=agreement"><span>이용약관</span></a></li>
+								<li><a href="/member/member.html?mode=private"><span>개인정보처리방침</span></a></li>
+								<li><a href="/member/member.html?mode=guide"><span>이용안내</span></a></li>
+								<li><a href="/contents/01_company/sub03.html"><span>참여장애인기업</span></a></li>
+							</ul>
+							<div class="mob_sns">
+								<ul>
+									<li><a href="https://blog.naver.com/wemall_" target="_blank">네이버블로그</a></li>
+									<li><a href="https://www.facebook.com/wemallkr" target="_blank">페이스북</a></li>
+									<li><a href="https://www.instagram.com/wemallkr/" target="_blank">인스타그램</a></li>
+									<!--<li><a href="#">카카오톡</a></li>-->
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="footer_bottom">
+						<ul class="info">
+							<li><span class="logo">우리몰</span></li>
+							<li><em>주소 : </em>대구광역시 수성구 달구벌대로 2950</li>
+							<li><em>대표자 :</em>이경선</li>
+							<li><em>대표전화 :</em><a href="tel:053-249-2220">053-249-2220</a></li>
+							<li><em>FAX :</em>053-289-4999</li>
+						</ul>
+						<ul class="info">
+							<li><em>E-mail :</em><a href="mailto:wemall88@naver.com">wemall88@naver.com</a></li>
+							<li><em>사업자등록번호 :</em>502-82-82649 <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=502-82-82649" target="_blank" class="button sm v2">사업자확인</a></li>
+							<li><em>통신판매업신고 :</em>제2014-대구수성구-0146호</li>
+						</ul>
+
+						<p class="copyright">COPYRIGHT (c) 2020 wemall Co,.LTd <i>ALL RIGHTS RESERVED. Designed by KOWEB.</i></p>
+					</div>
+				</div>
+			</footer>
+			<!-- //footer -->
+		</div>
+	</body>
+	
+	<!-- 230627_naver -->
+	<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+	<script type="text/javascript">
+	if(!wcs_add) var wcs_add = {};
+	wcs_add["wa"] = "47b39f4e0e053";
+	if(window.wcs) {
+	  wcs_do();
+	}
+	</script>
+</html>

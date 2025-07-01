@@ -1,0 +1,187 @@
+{
+  "mallId": 6,
+  "mallName": "오산함께장터",
+  "url": "http://www.osansemall.com/",
+  "status": "active",
+  "structure": {
+    "categoryPattern": "/goods/catalog?code={categoryCode}",
+    "productPattern": "/goods/view?no={productId}",
+    "paginationPattern": "/goods/{listType}?page={pageNumber}",
+    "requiresJavaScript": true,
+    "dataLocation": "Dynamic AJAX loading or JavaScript rendering required"
+  },
+  "categories": [
+    {
+      "code": "0006",
+      "name": "먹거리",
+      "url": "/goods/catalog?code=0006",
+      "productCount": 52
+    },
+    {
+      "code": "0001",
+      "name": "생활용품",
+      "url": "/goods/catalog?code=0001",
+      "productCount": 11
+    },
+    {
+      "code": "0002",
+      "name": "행사",
+      "url": "/goods/catalog?code=0002",
+      "productCount": 9
+    },
+    {
+      "code": "0007",
+      "name": "유형별 분류",
+      "url": "/goods/catalog?code=0007",
+      "productCount": 68
+    },
+    {
+      "code": "0011",
+      "name": "신제품",
+      "url": "/goods/catalog?code=0011",
+      "productCount": 4
+    },
+    {
+      "code": "00060001",
+      "name": "가공식품",
+      "url": "/goods/catalog?code=00060001"
+    },
+    {
+      "code": "00060004",
+      "name": "농수산물",
+      "url": "/goods/catalog?code=00060004"
+    },
+    {
+      "code": "00010001",
+      "name": "수공예",
+      "url": "/goods/catalog?code=00010001"
+    },
+    {
+      "code": "00010002",
+      "name": "교육",
+      "url": "/goods/catalog?code=00010002"
+    },
+    {
+      "code": "00010003",
+      "name": "기타",
+      "url": "/goods/catalog?code=00010003"
+    },
+    {
+      "code": "00010004",
+      "name": "캐릭터",
+      "url": "/goods/catalog?code=00010004"
+    },
+    {
+      "code": "00020001",
+      "name": "다과",
+      "url": "/goods/catalog?code=00020001"
+    },
+    {
+      "code": "00020002",
+      "name": "도시락",
+      "url": "/goods/catalog?code=00020002"
+    },
+    {
+      "code": "00020003",
+      "name": "문화기획",
+      "url": "/goods/catalog?code=00020003"
+    },
+    {
+      "code": "00070001",
+      "name": "사회적기업",
+      "url": "/goods/catalog?code=00070001"
+    },
+    {
+      "code": "00070002",
+      "name": "마을기업",
+      "url": "/goods/catalog?code=00070002"
+    },
+    {
+      "code": "00070003",
+      "name": "협동조합",
+      "url": "/goods/catalog?code=00070003"
+    }
+  ],
+  "sampleProducts": [
+    {
+      "id": "138",
+      "name": "Banner Product 1",
+      "url": "/goods/view?no=138"
+    },
+    {
+      "id": "86",
+      "name": "Banner Product 2",
+      "url": "/goods/view?no=86"
+    }
+  ],
+  "brands": [
+    {
+      "id": "0002",
+      "name": "잔다리마을공동체농업법인(주)"
+    },
+    {
+      "id": "0005",
+      "name": "오산양조(주)"
+    },
+    {
+      "id": "0011",
+      "name": "유시스커뮤니케이션"
+    },
+    {
+      "id": "0013",
+      "name": "오산로컬협동조합"
+    },
+    {
+      "id": "0003",
+      "name": "로뎀까페협동조합"
+    },
+    {
+      "id": "0006",
+      "name": "전통햇살협동조합"
+    },
+    {
+      "id": "0007",
+      "name": "경기수공예협동조합"
+    },
+    {
+      "id": "0016",
+      "name": "(주)나다코스메틱"
+    },
+    {
+      "id": "0014",
+      "name": "시락푸드"
+    },
+    {
+      "id": "0010",
+      "name": "핸즈프렌즈 협동조합"
+    },
+    {
+      "id": "0001",
+      "name": "더조은교육협동조합"
+    },
+    {
+      "id": "0008",
+      "name": "독산성 평생교육원 협동조합"
+    },
+    {
+      "id": "0009",
+      "name": "주식회사 봄봄뜨락"
+    },
+    {
+      "id": "0015",
+      "name": "㈜씨에스코리아"
+    }
+  ],
+  "notes": [
+    "The mall is ACTIVE with 92 products in the new arrivals section",
+    "Products are loaded dynamically via JavaScript/AJAX",
+    "The site uses Firstmall e-commerce platform",
+    "Special sections: NEW (신상품), BEST (베스트), BRANDS (브랜드)",
+    "Focus on social enterprises, village enterprises, and cooperatives in Osan",
+    "Search functionality at /goods/search endpoint",
+    "Product filtering by category, brand, price, and delivery options",
+    "Total of 14 brands/companies listed",
+    "Main categories: Food (52), Daily goods (11), Events (9), Type classification (68)",
+    "Products require JavaScript rendering or AJAX calls to be fully loaded"
+  ]
+}

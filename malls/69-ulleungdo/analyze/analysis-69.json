@@ -1,0 +1,40 @@
+{
+  "mallId": 69,
+  "mallName": "ulleungdo",
+  "url": "https://ulmall.cyso.co.kr",
+  "productStructure": {
+    "categoryLevels": 2,
+    "mainCategories": [
+      "오징어",
+      "호박엿",
+      "명이나물",
+      "부지갱이",
+      "해산물",
+      "산나물",
+      "울릉도특산품"
+    ],
+    "categoryUrlPattern": "/goods/goods_list.php?cateCd={categoryCode}"
+  },
+  "productData": {
+    "productUrlPattern": "/goods/goods_view.php?goodsNo={productId}",
+    "dataLocation": ".goods-view-area, .detail-box",
+    "imageUrlPattern": ".detail-img img, img[src*=\"/data/goods/\"]",
+    "priceLocation": ".goods-price .price, .real-price strong",
+    "nameLocation": ".goods-header .name, h3.goods-name"
+  },
+  "pagination": {
+    "type": "page-based",
+    "urlPattern": "&page={pageNumber}",
+    "maxProductsPerPage": 40
+  },
+  "dynamicLoading": {
+    "requiresJavaScript": false,
+    "loadingMethod": "server-side-rendering"
+  },
+  "scrapeableFeatures": {
+    "productList": true,
+    "productDetails": true,
+    "categoryNavigation": true,
+    "search": true
+  }
+}

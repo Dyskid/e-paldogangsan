@@ -1,0 +1,27 @@
+{
+  "id": 27,
+  "engname": "eumseong-market",
+  "name": "음성장터",
+  "url": "https://www.esjang.go.kr/",
+  "structure": {
+    "categoryStructure": "Category menu found",
+    "urlPatterns": "Base URL: https://www.esjang.go.kr/",
+    "paginationMethod": "standard pagination",
+    "dynamicLoading": false,
+    "productDataLocation": "[class*=\"product\"][class*=\"list\"]"
+  },
+  "selectors": {
+    "productList": "[class*=\"product\"][class*=\"list\"]",
+    "productItem": "",
+    "productName": "",
+    "productPrice": "",
+    "productImage": "",
+    "productLink": "",
+    "pagination": "[class*=\"paging\"]",
+    "categories": ".menu"
+  },
+  "sampleData": [],
+  "analysisTimestamp": "2025-07-01T12:58:46.201Z",
+  "success": false,
+  "error": "Could not identify product structure"
+}

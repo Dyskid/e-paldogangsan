@@ -1,0 +1,39 @@
+{
+  "mallId": 65,
+  "mallName": "yeongju-market-day",
+  "url": "https://yjmarket.cyso.co.kr/",
+  "productStructure": {
+    "categoryLevels": 2,
+    "mainCategories": [
+      "영주사과",
+      "인삼",
+      "한우",
+      "풍기인견",
+      "농산물",
+      "가공식품"
+    ],
+    "categoryUrlPattern": "/goods/goods_list.php?cateCd={categoryCode}"
+  },
+  "productData": {
+    "productUrlPattern": "/goods/goods_view.php?goodsNo={productId}",
+    "dataLocation": ".goods-view-area, .detail-cont",
+    "imageUrlPattern": ".detail-img img, img[src*=\"/data/goods/\"]",
+    "priceLocation": ".goods-price .price, .detail-price strong",
+    "nameLocation": ".goods-name, .item-tit h3"
+  },
+  "pagination": {
+    "type": "page-based",
+    "urlPattern": "&page={pageNumber}",
+    "maxProductsPerPage": 40
+  },
+  "dynamicLoading": {
+    "requiresJavaScript": false,
+    "loadingMethod": "server-side-rendering"
+  },
+  "scrapeableFeatures": {
+    "productList": true,
+    "productDetails": true,
+    "categoryNavigation": true,
+    "search": true
+  }
+}

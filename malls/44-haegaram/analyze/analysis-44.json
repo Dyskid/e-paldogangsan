@@ -1,0 +1,39 @@
+{
+  "mallId": 44,
+  "mallName": "haegaram",
+  "url": "https://haegaram.com",
+  "platform": "Cafe24",
+  "hasProducts": true,
+  "productCount": 5,
+  "sampleProducts": [
+    {
+      "name": "상품명 :",
+      "price": "",
+      "image": "//haegaram.com/web/upload/category/shop1_1_show_947725.png",
+      "link": "/product/어성호-꽃길만걷게-꽃게탕-밀키트/158/category/1/display/2/"
+    },
+    {
+      "name": "판매가 :",
+      "price": ""
+    },
+    {
+      "name": "상품명 : [어성호] 꽃길만걷게 꽃게탕 밀키트",
+      "price": "",
+      "image": "//haegaram.com/web/product/medium/202309/53ccd44176e41fe8d2bf529005eec480.jpg",
+      "link": "/product/어성호-꽃길만걷게-꽃게탕-밀키트/158/category/1/display/2/"
+    },
+    {
+      "name": "상품명 : [고창군수협] 풍천장어 초벌구이 1kg (2~3미) [손질 후 약 600g]",
+      "price": "",
+      "image": "//haegaram.com/web/product/medium/202112/b804d5402afcdb7afae3bd47e01e2695.jpg",
+      "link": "/product/고창군수협-풍천장어-초벌구이-1kg-23미-손질-후-약-600g/33/category/1/display/2/"
+    },
+    {
+      "name": "상품명 : [밥강도] 키조개 관자 중 사이즈 200g",
+      "price": "",
+      "image": "//haegaram.com/web/product/medium/202311/582185b50f80c41069e727e4ff6e3ff3.jpg",
+      "link": "/product/밥강도-키조개-관자-중-사이즈-200g/241/category/1/display/2/"
+    }
+  ],
+  "analysisDate": "2025-07-01T12:49:01.116Z"
+}

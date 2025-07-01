@@ -1,0 +1,39 @@
+{
+  "mallId": 68,
+  "mallName": "yeongyang-onsim-market",
+  "url": "https://onsim.cyso.co.kr/",
+  "productStructure": {
+    "categoryLevels": 2,
+    "mainCategories": [
+      "영양고추",
+      "산채류",
+      "약초",
+      "버섯",
+      "농산물",
+      "가공식품"
+    ],
+    "categoryUrlPattern": "/goods/goods_list.php?cateCd={categoryCode}"
+  },
+  "productData": {
+    "productUrlPattern": "/goods/goods_view.php?goodsNo={productId}",
+    "dataLocation": ".goods-view, .detail-content",
+    "imageUrlPattern": ".detail-image img, img[src*=\"/data/goods/\"]",
+    "priceLocation": ".goods-price strong, .price-real",
+    "nameLocation": ".goods-name, .item_tit_detail h3"
+  },
+  "pagination": {
+    "type": "page-based",
+    "urlPattern": "&page={pageNumber}",
+    "maxProductsPerPage": 40
+  },
+  "dynamicLoading": {
+    "requiresJavaScript": false,
+    "loadingMethod": "server-side-rendering"
+  },
+  "scrapeableFeatures": {
+    "productList": true,
+    "productDetails": true,
+    "categoryNavigation": true,
+    "search": true
+  }
+}

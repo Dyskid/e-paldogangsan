@@ -1,0 +1,22 @@
+{
+  "mallId": 42,
+  "mallName": "임실몰",
+  "website": "https://www.imsilin.kr/home",
+  "products": [],
+  "totalProducts": 0,
+  "categories": [],
+  "priceRange": {
+    "min": 0,
+    "max": 0,
+    "average": 0
+  },
+  "analysisDate": "2025-07-01T11:57:43.741Z",
+  "structureInfo": {
+    "platform": "KBShop (Angular SPA)",
+    "hasSearch": true,
+    "hasPagination": true,
+    "hasCategories": true,
+    "requiresJavaScript": true
+  },
+  "error": "Site requires JavaScript rendering. Cannot extract product data from static HTML. Would need Puppeteer or similar tool for full analysis."
+}

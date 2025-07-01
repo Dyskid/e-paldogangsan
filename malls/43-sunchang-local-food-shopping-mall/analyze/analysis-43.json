@@ -1,0 +1,22 @@
+{
+  "mallId": 43,
+  "mallName": "순창로컬푸드쇼핑몰",
+  "website": "https://smartstore.naver.com/schfarm",
+  "products": [],
+  "totalProducts": 0,
+  "categories": [],
+  "priceRange": {
+    "min": 0,
+    "max": 0,
+    "average": 0
+  },
+  "analysisDate": "2025-07-01T12:01:01.134Z",
+  "structureInfo": {
+    "platform": "Naver Smart Store",
+    "hasSearch": true,
+    "hasPagination": true,
+    "hasCategories": true,
+    "requiresJavaScript": true
+  },
+  "error": "Naver Smart Store blocks direct access. Returns error page for automated requests. Would need specialized tools or API access for data extraction."
+}
