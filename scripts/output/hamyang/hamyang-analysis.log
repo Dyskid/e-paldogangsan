@@ -1,0 +1,11 @@
+Starting analysis of 함양몰 structure...
+
+=== STRUCTURE ANALYSIS ===
+Mall: 함양몰
+Platform: Cafe24
+Detected patterns: 1
+Product selectors found: 3
+Category links found: 151
+Product links found: 137
+
+Results saved to: /mnt/c/Users/johndoe/Desktop/e-paldogangsan/scripts/output/hamyang/hamyang-structure-analysis.json

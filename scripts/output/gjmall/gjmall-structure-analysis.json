@@ -1,0 +1,1563 @@
+{
+  "mallName": "경주몰",
+  "baseUrl": "https://gjmall.cyso.co.kr",
+  "platform": "CYSO",
+  "detectedPatterns": [
+    "CYSO shop/item.php pattern detected"
+  ],
+  "productSelectors": [
+    "[class*=\"product\"]: 19 elements",
+    "[class*=\"item\"]: 89 elements"
+  ],
+  "categoryLinks": [
+    {
+      "text": "로그인",
+      "href": "https://gjmall.cyso.co.kr/bbs/login.php?url=%2F"
+    },
+    {
+      "text": "회원가입",
+      "href": "https://gjmall.cyso.co.kr/bbs/register.php"
+    },
+    {
+      "text": "마이페이지",
+      "href": "https://gjmall.cyso.co.kr/shop/mypage.php"
+    },
+    {
+      "text": "#이사금",
+      "href": "https://gjmall.cyso.co.kr/shop/search.php?q=이사금"
+    },
+    {
+      "text": "#멜론",
+      "href": "https://gjmall.cyso.co.kr/shop/search.php?q=멜론"
+    },
+    {
+      "text": "#쌀",
+      "href": "https://gjmall.cyso.co.kr/shop/search.php?q=쌀"
+    },
+    {
+      "text": "#버섯",
+      "href": "https://gjmall.cyso.co.kr/shop/search.php?q=버섯"
+    },
+    {
+      "text": "#배",
+      "href": "https://gjmall.cyso.co.kr/shop/search.php?q=배"
+    },
+    {
+      "text": "#젓갈",
+      "href": "https://gjmall.cyso.co.kr/shop/search.php?q=젓갈"
+    },
+    {
+      "text": "#와인",
+      "href": "https://gjmall.cyso.co.kr/shop/search.php?q=와인"
+    },
+    {
+      "text": "마이페이지",
+      "href": "https://gjmall.cyso.co.kr/shop/mypage.php"
+    },
+    {
+      "text": "최근본상품",
+      "href": "https://gjmall.cyso.co.kr/shop/last_viewitem.php"
+    },
+    {
+      "text": "장바구니",
+      "href": "https://gjmall.cyso.co.kr/shop/cart.php"
+    },
+    {
+      "text": "로그인\n\t\t\t\t\t\t\t\t\t\t\t\t+5000",
+      "href": "https://gjmall.cyso.co.kr/bbs/login.php"
+    },
+    {
+      "text": "9",
+      "href": "https://gjmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=9"
+    },
+    {
+      "text": "뻑뻑이",
+      "href": "https://gjmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EB%BB%91%EB%BB%91%EC%9D%B4"
+    },
+    {
+      "text": "쌀",
+      "href": "https://gjmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EC%8C%80"
+    },
+    {
+      "text": "뻑뻑이젓",
+      "href": "https://gjmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EB%BB%91%EB%BB%91%EC%9D%B4%EC%A0%93"
+    },
+    {
+      "text": "경주빵",
+      "href": "https://gjmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EA%B2%BD%EC%A3%BC%EB%B9%B5"
+    },
+    {
+      "text": "돌미역",
+      "href": "https://gjmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EB%8F%8C%EB%AF%B8%EC%97%AD"
+    },
+    {
+      "text": "체리",
+      "href": "https://gjmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EC%B2%B4%EB%A6%AC"
+    },
+    {
+      "text": "신상품",
+      "href": "/shop/listtype.php?type=13"
+    },
+    {
+      "text": "베스트",
+      "href": "/shop/listtype.php?type=11"
+    },
+    {
+      "text": "기획전",
+      "href": "/shop/eventlist.php"
+    },
+    {
+      "text": "입점업체",
+      "href": "/shop/marketList.php"
+    },
+    {
+      "text": "경주몰소개",
+      "href": "/bbs/content.php?co_id=company"
+    },
+    {
+      "text": "경주몰 소개",
+      "href": "/bbs/content.php?co_id=company"
+    },
+    {
+      "text": "경주 특산품 소개",
+      "href": "/bbs/content.php?co_id=product"
+    },
+    {
+      "text": "이용안내",
+      "href": "/bbs/content.php?co_id=useguide"
+    },
+    {
+      "text": "구매후기",
+      "href": "/shop/itemuselist.php"
+    },
+    {
+      "text": "고객센터",
+      "href": "/bbs/board.php?bo_table=gj_notice"
+    },
+    {
+      "text": "공지사항",
+      "href": "/bbs/board.php?bo_table=gj_notice"
+    },
+    {
+      "text": "FAQ",
+      "href": "/bbs/faq.php"
+    },
+    {
+      "text": "상품문의",
+      "href": "/shop/itemqalist.php"
+    },
+    {
+      "text": "1:1문의",
+      "href": "/bbs/qalist.php"
+    },
+    {
+      "text": "농수산품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj10"
+    },
+    {
+      "text": "천연당류",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj1060"
+    },
+    {
+      "text": "곡류",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj1010"
+    },
+    {
+      "text": "과일/채소",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj1020"
+    },
+    {
+      "text": "임산물",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj1030"
+    },
+    {
+      "text": "수산물",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj1040"
+    },
+    {
+      "text": "축산물",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj1050"
+    },
+    {
+      "text": "가공식품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj20"
+    },
+    {
+      "text": "가공안주류",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj20a0"
+    },
+    {
+      "text": "조미료/양념",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj20b0"
+    },
+    {
+      "text": "국/반찬",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj20c0"
+    },
+    {
+      "text": "잼류",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj20e0"
+    },
+    {
+      "text": "황남빵/찰보리빵/기타빵류",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj2010"
+    },
+    {
+      "text": "곡류가공품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj2020"
+    },
+    {
+      "text": "차",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj2030"
+    },
+    {
+      "text": "주류",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj2040"
+    },
+    {
+      "text": "발효식품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj2060"
+    },
+    {
+      "text": "건조식품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj2070"
+    },
+    {
+      "text": "천연당류",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj2080"
+    },
+    {
+      "text": "건강식품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj2090"
+    },
+    {
+      "text": "기념품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj30"
+    },
+    {
+      "text": "화장품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj3010"
+    },
+    {
+      "text": "주방용품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj3020"
+    },
+    {
+      "text": "기념품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj3030"
+    },
+    {
+      "text": "공예품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj40"
+    },
+    {
+      "text": "공예·토기",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj4010"
+    },
+    {
+      "text": "공예·예물",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj4020"
+    },
+    {
+      "text": "공예·가구",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj4030"
+    },
+    {
+      "text": "공예·악기",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj4040"
+    },
+    {
+      "text": "기타 공예품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj4050"
+    },
+    {
+      "text": "신상품",
+      "href": "/shop/listtype.php?type=13"
+    },
+    {
+      "text": "베스트",
+      "href": "/shop/listtype.php?type=11"
+    },
+    {
+      "text": "기획전",
+      "href": "/shop/eventlist.php"
+    },
+    {
+      "text": "입점업체",
+      "href": "/shop/marketList.php"
+    },
+    {
+      "text": "경주몰소개",
+      "href": "/bbs/content.php?co_id=company"
+    },
+    {
+      "text": "구매후기",
+      "href": "/shop/itemuselist.php"
+    },
+    {
+      "text": "고객센터",
+      "href": "/bbs/board.php?bo_table=gj_notice"
+    },
+    {
+      "text": "가공식품",
+      "href": "#tab2"
+    },
+    {
+      "text": "생활용품",
+      "href": "#tab3"
+    },
+    {
+      "text": "공예품",
+      "href": "#tab4"
+    },
+    {
+      "text": "50%할인\n\n\n\n[농부가 간다] 달달방토, 대추방울토마토 3kg\n\n38,000원\n 회원가19,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1746878496"
+    },
+    {
+      "text": "[해맑은수산]문무2호\n\n40,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1622788192"
+    },
+    {
+      "text": "[경주시농협쌀조합법인]2024년산 햅쌀 이사금 경주쌀 20kg\n\n59,000원\n\n\n무료배송",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616726526"
+    },
+    {
+      "text": "[경주시농협쌀조합법인]2024년산 햅쌀 이사금 경주쌀 10kg\n\n30,000원\n\n\n무료배송",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616724567"
+    },
+    {
+      "text": "10%할인\n\n\n\n[광명협동조합] 오밀리 건표고 선물세트 4호\n\n35,000원\n 회원가31,500원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1513318009"
+    },
+    {
+      "text": "ABC즙100ml 30포 마르페 오병이어\n\n29,000원\n\n\n무료배송",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1638901176"
+    },
+    {
+      "text": "[경주 신라명가] 경주빵 30개 세트(팥앙금-국산)\n\n36,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1626159269"
+    },
+    {
+      "text": "[미경전통식문화연구소]전통 된장\n\n12,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1619683227"
+    },
+    {
+      "text": "[장다미] 찰고추장 500g\n\n15,000원\n\n\n무료배송",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615267303"
+    },
+    {
+      "text": "[미경전통식문화연구소] 찰보리 고추장 500g / 1kg\n\n12,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615178708"
+    },
+    {
+      "text": "[큐신라] 냉장고자석 경상북도 이야기\n\n4,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1622638082"
+    },
+    {
+      "text": "[좋은날기획]감성경주 문화재 스티커\n\n1,500원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616461205"
+    },
+    {
+      "text": "[좋은날기획]경주화투 꽃패놀이\n\n10,800원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616459595"
+    },
+    {
+      "text": "[스킨토리] 아토참빛 수제비누 110g\n\n10,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615362745"
+    },
+    {
+      "text": "[좋은날기획]감성경주 경주꾸러미 A\n\n15,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1550032227"
+    },
+    {
+      "text": "[칠보공방] 비휴두마리 재물을 모으는 은볼 쌍비휴팔찌 공방에서 직접 만드는 순은공예\n\n179,900원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616651821"
+    },
+    {
+      "text": "[칠보공방] 연꽃 투각기법 비단벌레 천연소재 나비장식 실버팔찌 옆면 두드림기법 순은팔찌\n\n249,500원\n\n\n무료배송",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615948380"
+    },
+    {
+      "text": "[칠보공방] 실버팔찌 당초문양 담수진주 천연소재 한국 전통 은팔찌\n\n229,900원\n\n\n무료배송",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615947481"
+    },
+    {
+      "text": "[칠보공방] 나비장식 원석 토르말린 실버팔찌 건강에 좋다는 투어멀린 은볼 칠보\n\n149,500원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615946968"
+    },
+    {
+      "text": "[칠보공방] 양면으로 낄 수 있는 순은팔찌매화 비단벌레 옆면두드림 담수진주 천연소재\n\n249,500원\n\n\n무료배송",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615946398"
+    },
+    {
+      "text": "전체리뷰",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php"
+    },
+    {
+      "text": "대체로 만족  합니... 체리잼 처음 구...\n\t오*재 / 25-06-28",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1595554593"
+    },
+    {
+      "text": "먹어보면 반할꼬야~...달달방토~ \n크...\n\t이*숙 / 25-06-25",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1746878496"
+    },
+    {
+      "text": "찰기가 흐르는 맛있...늘 믿고 먹는 이사금입니다...\n\t장*임 / 25-06-23",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616726526"
+    },
+    {
+      "text": "방울토마토가 아주 ...방울토마토가 아주 싱싱하고...\n\t이*현 / 25-06-23",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1746878496"
+    },
+    {
+      "text": "신선하고 너무 맛있...꼭지 제거된 신선한 방토입...\n\t신*정 / 25-06-22",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1746878496"
+    },
+    {
+      "text": "대체로 만족  합니... 체리잼 처음 구...\n\t\t오*재 / 25-06-28",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1595554593"
+    },
+    {
+      "text": "먹어보면 반할꼬야~...달달방토~ \n크...\n\t\t이*숙 / 25-06-25",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1746878496"
+    },
+    {
+      "text": "찰기가 흐르는 맛있...늘 믿고 먹는 이사금입니다...\n\t\t장*임 / 25-06-23",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616726526"
+    },
+    {
+      "text": "방울토마토가 아주 ...방울토마토가 아주 싱싱하고...\n\t\t이*현 / 25-06-23",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1746878496"
+    },
+    {
+      "text": "[장다미] 생깻잎양념무침 400g\n\n13,900원\n\n\n무료배송",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1617586654"
+    },
+    {
+      "text": "[CHILL-BO]칠보 좌우 나비 보상화 연꽃무늬 순은팔찌 전통문양 은팔찌 동양문양 한국기념품\n\n249,500원\n\n\n무료배송",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1692762078"
+    },
+    {
+      "text": "[경주시농협쌀조합법인]2024년산 햅쌀 이사금 경주쌀 4kg + 4kg\n\n30,000원\n\n\n무료배송",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616726589"
+    },
+    {
+      "text": "[경주시농협쌀조합법인] 2024년산 친환경 무농약쌀 20kg (품종:삼광)\n\n74,000원\n\n\n무료배송",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1728633438"
+    },
+    {
+      "text": "[경주시농협쌀조합법인] 2024년산 친환경 무농약쌀 10kg (품종:삼광)\n\n38,000원\n\n\n무료배송",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1728633923"
+    },
+    {
+      "text": "[두리씨엔에스(주)]꼬순씨바삭군누룽지\n\n20,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1694498153"
+    },
+    {
+      "text": "[광명협동조합] 건버섯 7종 선물세트\n\n60,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1692021149"
+    },
+    {
+      "text": "[광명협동조합] 건버섯 6종 선물세트\n\n55,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1692021117"
+    },
+    {
+      "text": "4%할인\n\n\n\n[모이식품]3대 보약 유기농 금관 동충하초 절편 2g x 10ea\n\n15,000원\n 회원가14,500원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1656555919"
+    },
+    {
+      "text": "[경주 신라명가] 경주빵 30개 세트(팥앙금-국산)\n\n36,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1626159269"
+    },
+    {
+      "text": "[해맑은수산]문무2호\n\n40,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1622788192"
+    },
+    {
+      "text": "[미경전통식문화연구소]전통 된장\n\n12,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1619683227"
+    },
+    {
+      "text": "[경주시농협쌀조합법인]2024년산 햅쌀 이사금 경주쌀 20kg\n\n59,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616726526"
+    },
+    {
+      "text": "[경주시농협쌀조합법인]2024년산 햅쌀 이사금 경주쌀 10kg\n\n30,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616724567"
+    },
+    {
+      "text": "[경주 신라명가] 경주빵 20개 세트(팥앙금-국산)\n\n24,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615856306"
+    },
+    {
+      "text": "[경주 양동마을 다온한과] 조청바른유과 산자유과 (2장 묶음)\n\n품절",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615191550"
+    },
+    {
+      "text": "[네츄럴와인] 예인와인 남산애 레드와인 세트 상품\n\n품절",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1614934272"
+    },
+    {
+      "text": "[경주수제명품] 경주제과 찰보리빵\n\n18,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1614920379"
+    },
+    {
+      "text": "[손가원젓갈] 손가원해초멸치액젓 500ml\n\n품절",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1614647107"
+    },
+    {
+      "text": "[꽃내체리팜]경주꽃내체리쨈(280g*2개)\n\n28,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1595554593"
+    },
+    {
+      "text": "손가원젓갈1.8L선물세트\n\n46,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1570795452"
+    },
+    {
+      "text": "[경주시니어] 착한가게 서라벌찰보리빵20개입\n\n12,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1570786761"
+    },
+    {
+      "text": "[천연식품] [김명수젓갈] 김명수뻑뻑이액젓 1.8ℓ\n\n29,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1570781783"
+    },
+    {
+      "text": "[해맑은수산]문무 3호\n\n70,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1490001789"
+    },
+    {
+      "text": "[젠셀] 싸이퍼키 헤어샴푸 300ml\n\n35,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=0000003102"
+    },
+    {
+      "text": "[감산다향] 가을무우차 100g\n\n15,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=0000001102"
+    },
+    {
+      "text": "가공식품",
+      "href": "#cate2"
+    },
+    {
+      "text": "생활용품",
+      "href": "#cate3"
+    },
+    {
+      "text": "공예품",
+      "href": "#cate4"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[해맑은수산]\n[해맑은수산]문무 4호\n\n40,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1622789994"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1622789994"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[경주시농협쌀조합법인(RPC)]\n[경주시농협쌀조합법인]2024년산 햅쌀 이사금 경주쌀 10kg\n\n30,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616724567"
+    },
+    {
+      "text": "★★★★★ (113)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1616724567"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[경주시농협쌀조합법인(RPC)]\n[경주시농협쌀조합법인]2024년산 햅쌀 이사금 경주쌀 20kg\n\n59,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616726526"
+    },
+    {
+      "text": "★★★★★ (130)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1616726526"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[광명협동조합]\n[광명협동조합] 건버섯 6종 선물세트\n\n55,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1692021117"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1692021117"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[경주시농협쌀조합법인(RPC)]\n[경주시농협쌀조합법인] 2024년산 친환경 무농약쌀 10kg (품종:삼광)\n\n38,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1728633923"
+    },
+    {
+      "text": "★★★★★ (8)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1728633923"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[광명협동조합]\n[광명협동조합] 오밀리 건표고 선물세트 3호\n\n25,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1513317934"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1513317934"
+    },
+    {
+      "text": "50%할인\n\n\n 상품더보기\n\n\n\n\n\n[농부가간다]\n[농부가 간다] 달달방토, 대추방울토마토 3kg\n\n38,000원\n회원가19,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1746878496"
+    },
+    {
+      "text": "★★★★★ (13)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1746878496"
+    },
+    {
+      "text": "6%할인\n\n\n 상품더보기\n\n\n\n\n\n[광명협동조합]\n[광명협동조합] 건버섯 5종 선물세트\n\n52,000원\n회원가49,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1706158566"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1706158566"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[광명협동조합]\n[광명협동조합] 오밀리 건표고 3종 선물세트\n\n30,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1490000872"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1490000872"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[해맑은수산]\n[해맑은수산]문무 1호\n\n70,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1622787437"
+    },
+    {
+      "text": "★★★★★ (2)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1622787437"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[경주시농협쌀조합법인(RPC)]\n[경주시농협쌀조합법인]2024년산 햅쌀 이사금 경주쌀 4kg + 4kg\n\n30,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616726589"
+    },
+    {
+      "text": "★★★★★ (3)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1616726589"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[해맑은수산]\n[해맑은수산]문무5호\n\n20,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1622790160"
+    },
+    {
+      "text": "★★★★★ (2)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1622790160"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[남산끗티]\n[남산끗티] 케일  1kg\n\n14,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1614834918"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1614834918"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[해맑은수산]\n[해맑은수산]문무 3호\n\n70,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1490001789"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1490001789"
+    },
+    {
+      "text": "10%할인\n\n\n 상품더보기\n\n\n\n\n\n[광명협동조합]\n[광명협동조합] 오밀리 건표고 선물세트 4호\n\n35,000원\n회원가31,500원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1513318009"
+    },
+    {
+      "text": "★★★★★ (1)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1513318009"
+    },
+    {
+      "text": "25%할인\n\n\n 상품더보기\n\n\n\n\n\n[농업회사법인자이안트팜농장유한회사]\n[자이안트팜] 경주참꿀오디차 60g\n\n12,000원\n회원가9,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1659400410"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1659400410"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[아람식품]\n[아람식품] [해아람] 감포토박이 젓갈-액젓 1.8L(2.2Kg)\n\n27,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1570802569"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1570802569"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[왕산농원]\n[왕산농원] [유기농인증] 왕산 여주분말 750g (여주100%) (無첨가물)\n\n49,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1570795534"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1570795534"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[왕산농원]\n[왕산농원] [유기농인증] 왕산 여주환 2kg (여주100%) (無첨가물)\n\n122,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1570795497"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1570795497"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[(주)경주제과]\n[경주수제명품] 경주제과 경주빵, 찰보리빵 반반 세트\n\n22,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1591081566"
+    },
+    {
+      "text": "★★★★★ (44)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1591081566"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[왕산농원]\n[왕산농원] [유기농인증] 왕산 여주즙 30포 (80ml)\n\n28,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1570795488"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1570795488"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[(주)천년미인]\n[천년미인] 여왕의선택 90ml 24포\n\n48,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1593750550"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1593750550"
+    },
+    {
+      "text": "6%할인\n\n\n 상품더보기\n\n\n\n\n\n[장다미]\n[장다미] 콩잎양념무침 400g\n\n19,900원\n회원가18,900원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1620446387"
+    },
+    {
+      "text": "★★★★★ (2)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1620446387"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[농업회사법인 마르페 오병이어 ]\n오병이어 덖음비트차100g(지퍼파우치)\n\n9,900원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1629445920"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1629445920"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[왕산농원]\n[왕산농원] [유기농인증] 왕산 여주즙 60포 (80ml)\n\n50,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1570795490"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1570795490"
+    },
+    {
+      "text": "5%할인\n\n\n 상품더보기\n\n\n\n\n\n[농업회사법인 마르페 오병이어 ]\n가마솥덖음 비트차 넉넉하게 한티백 2g씩100티백(농업법인 오병이어)\n\n24,900원\n회원가23,900원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1676258557"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1676258557"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[(주)경주제과]\n[경주수제명품] 경주제과 경주빵\n\n10,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1575014633"
+    },
+    {
+      "text": "★★★★★ (9)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1575014633"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[두리씨엔에스(주)]\n[두리씨엔에스(주)]꼬순씨바삭군누룽지\n\n20,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1694498153"
+    },
+    {
+      "text": "★★★★★ (3)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1694498153"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[미경전통식문화연구소]\n[미경전통식문화연구소]전통 간장\n\n20,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1619682637"
+    },
+    {
+      "text": "★★★★★ (1)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1619682637"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[장다미]\n[장다미] 콩잎된장장아찌 400g\n\n15,900원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1620446823"
+    },
+    {
+      "text": "★★★★☆ (1)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1620446823"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[큐신라]\n[큐신라] 꼬마키링 한복 버선 책갈피\n\n10,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1624415674"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1624415674"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[큐신라]\n[큐신라] 김유신장군묘 12지신 타이스링\n\n10,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=0000003303"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=0000003303"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[젠셀]\n[젠셀] 싸이퍼키 천자환 130g\n\n150,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=0000003105"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=0000003105"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[큐신라]\n[큐신라] 신라문화재 귀걸이-천마A형/ 귀걸이-천마B형\n\n10,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1622638290"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1622638290"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[좋은날기획]\n[좋은날기획]경주화투 꽃패놀이와 경주여행\n\n12,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616459600"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1616459600"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[큐신라]\n[큐신라]  코튼 패턴 넥타이\n\n20,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1489998518"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1489998518"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[큐신라]\n[큐신라] 기마인물형토기 뱃지\n\n6,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1622548447"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1622548447"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[큐신라]\n[큐신라] 신라문화재 귀걸이-다보탑\n\n10,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1622638595"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1622638595"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[큐신라]\n[큐신라] 통가죽 허리띠 신라인의 미소/귀면/연화문\n\n30,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1623321005"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1623321005"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[큐신라]\n[큐신라] 경주사랑 손수건\n\n5,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1623477580"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1623477580"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[젠셀]\n[젠셀] 장발짱 헤어토닉 100ml\n\n178,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=0000003110"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=0000003110"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[젠셀]\n[젠셀] 싸이퍼키 잇스킨 100ml\n\n138,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=0000003104"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=0000003104"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[큐신라]\n[큐신라] 태극기 뱃지\n\n3,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1623069932"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1623069932"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[좋은날기획]\n[좋은날기획]감성경주 문화재 스마트톡\n\n6,500원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616459575"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1616459575"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[좋은날기획]\n[좋은날기획]경주캐릭터연필세트(3P)\n\n3,500원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616459590"
+    },
+    {
+      "text": "★★★★★ (1)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1616459590"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[칠보공방]\n[칠보공방]미니 비단벌레 담수진주 순은목걸이 핸드메이드 경주 공방제작\n\n89,900원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1640221692"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1640221692"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[칠보공방]\n[칠보공방]미니물고기 파이프 은팔찌 이음새 완벽 은땜 레이어드용 얇은 은볼팔찌\n\n59,900원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1644411898"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1644411898"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[칠보공방]\n[칠보공방] 공방에서 만든 개성있는 숫자반지 순은이라서 질이 다른 Silver999\n\n99,900원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1640046374"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1640046374"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[칠보공방]\n[칠보공방] 수제로 만든 블루 플라워 칠보 귀걸이 순은공예\n\n59,900원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1645164153"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1645164153"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[칠보공방]\n[CHILL-BO]칠보 좌우 나비 보상화 연꽃무늬 순은팔찌 전통문양 은팔찌 동양문양 한국기념품\n\n249,500원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1692762078"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1692762078"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[칠보공방]\n[칠보공방]오색 숭례문 단청 비취 칠보공예 은볼 초커 순은목걸이 갑상선\n\n149,900원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1661169241"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1661169241"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[칠보공방]\n[칠보공방] 담수진주가 매치된 은은한 연꽃 칠보팔찌\n\n249,500원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1716543653"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1716543653"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[칠보공방]\n[칠보공방] 양면팔찌 매화꽃 비단벌레 물고기 장식 순은팔찌 옆면 빗살 천연소재\n\n249,500원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615954047"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1615954047"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[칠보공방]\n[칠보공방]흑백 칠보 당초문양 양면으로 된 하트펜던트 순은목걸이 경주 공방제작\n\n179,900원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1642295196"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1642295196"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[칠보공방]\n[칠보공방]투웨이 보상화 그린 비단벌레 은볼 담수진주장식 순은팔찌 모두 천연소재 핸드메이드\n\n249,500원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1630301510"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1630301510"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[칠보공방]\n[칠보공방] 실버팔찌 원석 토르말린 투어멀린 물고기 은볼 칠보 ﻿건강\n\n149,500원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615941424"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1615941424"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[칠보공방]\n보상화 물고기 투웨이 빗살문양 한국전통 칠보공예 순은팔찌 모두 천연소재 핸드메이드\n\n249,500원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1632447288"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1632447288"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[칠보공방]\n[칠보공방] 오색 입체적인 보상화문양 칠보반지 공방에서 직접 만드는 순은공예\n\n89,900원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1629892160"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1629892160"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[칠보공방]\n[칠보공방]순은 칠보나비 브로치 펜던트 경주 칠보공방에서 직접 만드는 순은공예\n\n99,900원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1704368755"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1704368755"
+    },
+    {
+      "text": "상품더보기\n\n\n\n\n\n[칠보공방]\n[칠보공방] 라피스 청금석 투각기법 수공예 원석 은반지\n\n149,900원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1640643928"
+    },
+    {
+      "text": "☆☆☆☆☆ (0)",
+      "href": "https://gjmall.cyso.co.kr/shop/itemuselist.php?sfl=a.it_id=&stx=1640643928"
+    },
+    {
+      "text": "+ 더보기",
+      "href": "https://gjmall.cyso.co.kr/shop/marketList.php"
+    },
+    {
+      "text": "경주청운농장",
+      "href": "https://gjmall.cyso.co.kr/shop/marketView.php?id=wykim74GBC"
+    },
+    {
+      "text": "칠보공방",
+      "href": "https://gjmall.cyso.co.kr/shop/marketView.php?id=gjmall84"
+    },
+    {
+      "text": "진아에프앤씨",
+      "href": "https://gjmall.cyso.co.kr/shop/marketView.php?id=jina1214"
+    },
+    {
+      "text": "버섯농장틈수골",
+      "href": "https://gjmall.cyso.co.kr/shop/marketView.php?id=msc0007"
+    },
+    {
+      "text": "남산끗티",
+      "href": "https://gjmall.cyso.co.kr/shop/marketView.php?id=lh4441015"
+    },
+    {
+      "text": "농업회사법인자이안트팜농장유한회사",
+      "href": "https://gjmall.cyso.co.kr/shop/marketView.php?id=kakao_937b08c5"
+    },
+    {
+      "text": "토함산꿀벌세상",
+      "href": "https://gjmall.cyso.co.kr/shop/marketView.php?id=hong12309"
+    },
+    {
+      "text": "장다미",
+      "href": "https://gjmall.cyso.co.kr/shop/marketView.php?id=gmall124"
+    },
+    {
+      "text": "+ 더보기",
+      "href": "https://gjmall.cyso.co.kr/shop/listtype.php?type=13"
+    },
+    {
+      "text": "50%할인\n\n\n\n[농부가간다][농부가 간다] 달달방토, 대추방울토마토 3kg\n\n38,000원\n회원가 19,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1746878496"
+    },
+    {
+      "text": "[(주)경주제과][100% 국산쌀] 우리쌀 카스테라 2개입\n\n12,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615250219"
+    },
+    {
+      "text": "[칠보공방][칠보공방]오색 숭례문 단청 비취 칠보공예 은볼 초커 순은목걸이 갑상선\n\n149,900원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1661169241"
+    },
+    {
+      "text": "[두리씨엔에스(주)][두리씨엔에스(주)]꼬순씨바삭군누룽지\n\n20,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1694498153"
+    },
+    {
+      "text": "[감포전촌젓갈][감포전촌젓갈]새우젓 (500g, 1Kg, 2Kg, 5Kg)\n\n8,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1617691552"
+    },
+    {
+      "text": "[미경전통식문화연구소][미경전통식문화연구소] 찰보리 고추장 500g / 1kg\n\n12,000원",
+      "href": "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615178708"
+    },
+    {
+      "text": "1:1문의",
+      "href": "https://gjmall.cyso.co.kr/bbs/qalist.php"
+    },
+    {
+      "text": "자주하는질문",
+      "href": "https://gjmall.cyso.co.kr/bbs/faq.php"
+    },
+    {
+      "text": "공지사항",
+      "href": "https://gjmall.cyso.co.kr/bbs/board.php?bo_table=gj_notice"
+    },
+    {
+      "text": "2025년 경주몰 우수구매후기 이벤트…",
+      "href": "https://gjmall.cyso.co.kr/bbs/board.php?bo_table=gj_notice&wr_id=103"
+    },
+    {
+      "text": "6월 배송안내",
+      "href": "https://gjmall.cyso.co.kr/bbs/board.php?bo_table=gj_notice&wr_id=102"
+    },
+    {
+      "text": "2025년 경주몰 우수구매후기 이벤트…",
+      "href": "https://gjmall.cyso.co.kr/bbs/board.php?bo_table=gj_notice&wr_id=101"
+    },
+    {
+      "text": "5월 배송안내",
+      "href": "https://gjmall.cyso.co.kr/bbs/board.php?bo_table=gj_notice&wr_id=100"
+    },
+    {
+      "text": "2025년 경주몰 우수구매후기 이벤트…",
+      "href": "https://gjmall.cyso.co.kr/bbs/board.php?bo_table=gj_notice&wr_id=99"
+    },
+    {
+      "text": "주문배송",
+      "href": "https://gjmall.cyso.co.kr/shop/orderinquiry.php"
+    },
+    {
+      "text": "장바구니",
+      "href": "https://gjmall.cyso.co.kr/shop/cart.php"
+    },
+    {
+      "text": "찜한상품",
+      "href": "https://gjmall.cyso.co.kr/shop/wishlist.php"
+    },
+    {
+      "text": "마이페이지",
+      "href": "https://gjmall.cyso.co.kr/shop/mypage.php"
+    },
+    {
+      "text": "고객센터",
+      "href": "https://gjmall.cyso.co.kr/bbs/board.php?bo_table=gj_notice"
+    },
+    {
+      "text": "최근본상품",
+      "href": "https://gjmall.cyso.co.kr/shop/last_viewitem.php"
+    },
+    {
+      "text": "상품카테고리",
+      "href": "#cate_01"
+    },
+    {
+      "text": "농수산품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj10"
+    },
+    {
+      "text": "천연당류",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj1060"
+    },
+    {
+      "text": "곡류",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj1010"
+    },
+    {
+      "text": "설향찰",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj101060"
+    },
+    {
+      "text": "백미",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj101010"
+    },
+    {
+      "text": "현미",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj101020"
+    },
+    {
+      "text": "찹쌀",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj101030"
+    },
+    {
+      "text": "흑미",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj101040"
+    },
+    {
+      "text": "발아현미",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj101050"
+    },
+    {
+      "text": "과일/채소",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj1020"
+    },
+    {
+      "text": "채소",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj102050"
+    },
+    {
+      "text": "감/메론/배/귤",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj102010"
+    },
+    {
+      "text": "토마토/파프리카",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj102020"
+    },
+    {
+      "text": "곶감/감맹랭이",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj102030"
+    },
+    {
+      "text": "체리/블루베리/산딸기",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj102040"
+    },
+    {
+      "text": "임산물",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj1030"
+    },
+    {
+      "text": "산양산삼/버섯",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj103010"
+    },
+    {
+      "text": "고사리/미나리/시래기/곤달비",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj103020"
+    },
+    {
+      "text": "수산물",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj1040"
+    },
+    {
+      "text": "미역/미역귀/다시마",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj104010"
+    },
+    {
+      "text": "축산물",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj1050"
+    },
+    {
+      "text": "한우/한우세트",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj105010"
+    },
+    {
+      "text": "가공식품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj20"
+    },
+    {
+      "text": "가공안주류",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj20a0"
+    },
+    {
+      "text": "조미료/양념",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj20b0"
+    },
+    {
+      "text": "국/반찬",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj20c0"
+    },
+    {
+      "text": "잼류",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj20e0"
+    },
+    {
+      "text": "황남빵/찰보리빵/기타빵류",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj2010"
+    },
+    {
+      "text": "곡류가공품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj2020"
+    },
+    {
+      "text": "누룽지",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj202050"
+    },
+    {
+      "text": "쌀엿/약과/유과",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj202010"
+    },
+    {
+      "text": "떡/강정/쿠키/캔디",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj202020"
+    },
+    {
+      "text": "국수",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj202030"
+    },
+    {
+      "text": "조청/기름",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj202040"
+    },
+    {
+      "text": "차",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj2030"
+    },
+    {
+      "text": "주류",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj2040"
+    },
+    {
+      "text": "발효식품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj2060"
+    },
+    {
+      "text": "액젓/젓갈",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj206001"
+    },
+    {
+      "text": "된장/간장/고추장",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj206002"
+    },
+    {
+      "text": "김치",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj206003"
+    },
+    {
+      "text": "건조식품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj2070"
+    },
+    {
+      "text": "고춧가루/분말",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj207001"
+    },
+    {
+      "text": "건초/전초",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj207002"
+    },
+    {
+      "text": "건 과일/채소",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj207003"
+    },
+    {
+      "text": "천연당류",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj2080"
+    },
+    {
+      "text": "아카시아꿀/밤꿀/대추꿀",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj208001"
+    },
+    {
+      "text": "꿀 선물세트",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj208002"
+    },
+    {
+      "text": "건강식품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj2090"
+    },
+    {
+      "text": "엑기스/진액/건강즙",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj209001"
+    },
+    {
+      "text": "산양산삼/약용버섯",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj209002"
+    },
+    {
+      "text": "환/죽염",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj209003"
+    },
+    {
+      "text": "프로폴리스/효소",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj209004"
+    },
+    {
+      "text": "달임고/벌꿀",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj209005"
+    },
+    {
+      "text": "기념품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj30"
+    },
+    {
+      "text": "화장품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj3010"
+    },
+    {
+      "text": "헤어케어",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj301001"
+    },
+    {
+      "text": "천연/수제비누",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj301002"
+    },
+    {
+      "text": "메이크업/스킨",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj301003"
+    },
+    {
+      "text": "주방용품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj3020"
+    },
+    {
+      "text": "천연세제",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj302001"
+    },
+    {
+      "text": "식기",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj302002"
+    },
+    {
+      "text": "기념품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj3030"
+    },
+    {
+      "text": "공예품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj40"
+    },
+    {
+      "text": "공예·토기",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj4010"
+    },
+    {
+      "text": "공예·예물",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj4020"
+    },
+    {
+      "text": "공예·가구",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj4030"
+    },
+    {
+      "text": "공예·악기",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj4040"
+    },
+    {
+      "text": "기타 공예품",
+      "href": "https://gjmall.cyso.co.kr/shop/list.php?ca_id=gj4050"
+    },
+    {
+      "text": "장바구니 ( 0 )",
+      "href": "https://gjmall.cyso.co.kr/shop/cart.php"
+    },
+    {
+      "text": "이용약관",
+      "href": "https://gjmall.cyso.co.kr/bbs/content.php?co_id=gj_provision"
+    },
+    {
+      "text": "개인정보처리방침",
+      "href": "https://gjmall.cyso.co.kr/bbs/content.php?co_id=gj_privacy"
+    },
+    {
+      "text": "이메일수집거부",
+      "href": "https://gjmall.cyso.co.kr/bbs/content.php?co_id=gj_noemail"
+    },
+    {
+      "text": "입점안내",
+      "href": "https://gjmall.cyso.co.kr/bbs/content.php?co_id=gj_enter_info"
+    },
+    {
+      "text": "고객센터",
+      "href": "https://gjmall.cyso.co.kr/bbs/board.php?bo_table=gj_notice"
+    },
+    {
+      "text": "장바구니",
+      "href": "https://gjmall.cyso.co.kr/shop/cart.php"
+    }
+  ],
+  "productLinks": [
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1746878496",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1622788192",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616726526",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616724567",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1513318009",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1638901176",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1626159269",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1619683227",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615267303",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615178708",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1622638082",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616461205",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616459595",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615362745",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1550032227",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616651821",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615948380",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615947481",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615946968",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615946398",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1595554593",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1617586654",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1692762078",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616726589",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1728633438",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1728633923",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1694498153",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1692021149",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1692021117",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1656555919",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615856306",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615191550",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1614934272",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1614920379",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1614647107",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1570795452",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1570786761",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1570781783",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1490001789",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=0000003102",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=0000001102",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1622789994",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1513317934",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1706158566",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1490000872",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1622787437",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1622790160",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1614834918",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1659400410",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1570802569",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1570795534",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1570795497",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1591081566",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1570795488",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1593750550",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1620446387",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1629445920",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1570795490",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1676258557",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1575014633",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1619682637",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1620446823",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1624415674",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=0000003303",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=0000003105",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1622638290",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616459600",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1489998518",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1622548447",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1622638595",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1623321005",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1623477580",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=0000003110",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=0000003104",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1623069932",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616459575",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1616459590",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1640221692",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1644411898",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1640046374",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1645164153",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1661169241",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1716543653",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615954047",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1642295196",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1630301510",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615941424",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1632447288",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1629892160",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1704368755",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1640643928",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1615250219",
+    "https://gjmall.cyso.co.kr/shop/item.php?it_id=1617691552"
+  ],
+  "notes": [
+    "Page title: 경주몰",
+    "Description: 건강하게 수확하고 건강하게 나눕니다. 경주의 모든 것, 경주몰",
+    "Uses standard CYSO product URL pattern",
+    "Total links found: 468",
+    "Images found: 312",
+    "[class*=\"price\"]: 10 elements",
+    "Main content areas: 1",
+    "Item elements: 0",
+    "Shop elements: 8",
+    "경주시 특산물 전문몰",
+    "CYSO 플랫폼 기반",
+    "한우, 문화재 상품 등 특화"
+  ]
+}

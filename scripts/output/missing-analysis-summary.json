@@ -1,0 +1,203 @@
+{
+  "summary": {
+    "totalMalls": 93,
+    "totalAnalysisFiles": 76,
+    "missingAnalysisFiles": 28,
+    "percentageMissing": "30.1%"
+  },
+  "missingMalls": [
+    {
+      "name": "마켓경기",
+      "id": "mall_14_마켓경기",
+      "url": "https://smartstore.naver.com/marketgyeonggi",
+      "region": "경기",
+      "note": "Naver Smart Store"
+    },
+    {
+      "name": "음성장터",
+      "id": "mall_33_음성장터",
+      "url": "https://www.esjang.go.kr/",
+      "region": "충북"
+    },
+    {
+      "name": "지평선몰(김제)",
+      "id": "mall_42_지평선몰_김제_",
+      "url": "https://jpsmall.com/",
+      "region": "전북"
+    },
+    {
+      "name": "진안고원몰",
+      "id": "mall_45_진안고원몰",
+      "url": "https://xn--299az5xoii3qb66f.com/",
+      "region": "전북"
+    },
+    {
+      "name": "임실몰",
+      "id": "mall_48_임실몰",
+      "url": "https://www.imsilin.kr/home",
+      "region": "전북"
+    },
+    {
+      "name": "순창로컬푸드쇼핑몰",
+      "id": "mall_49_순창로컬푸드쇼핑몰",
+      "url": "https://smartstore.naver.com/schfarm",
+      "region": "전북",
+      "note": "Naver Smart Store"
+    },
+    {
+      "name": "해피굿팜",
+      "id": "mall_53_해피굿팜",
+      "url": "https://smartstore.naver.com/hgoodfarm",
+      "region": "전남",
+      "note": "Naver Smart Store"
+    },
+    {
+      "name": "해남미소",
+      "id": "mall_63_해남미소",
+      "url": "https://www.hnmiso.com/ACC_index.asp",
+      "region": "전남"
+    },
+    {
+      "name": "안동장터",
+      "id": "mall_72_안동장터",
+      "url": "https://andongjang.andong.go.kr/",
+      "region": "경북"
+    },
+    {
+      "name": "고령몰",
+      "id": "mall_77_고령몰",
+      "url": "https://grmall.cyso.co.kr/",
+      "region": "경북",
+      "note": "CYSO platform"
+    },
+    {
+      "name": "김천노다지장터",
+      "id": "mall_78_김천노다지장터",
+      "url": "http://gcnodaji.com/",
+      "region": "경북"
+    },
+    {
+      "name": "의성장날",
+      "id": "mall_82_의성장날",
+      "url": "https://esmall.cyso.co.kr/",
+      "region": "경북",
+      "note": "CYSO platform"
+    },
+    {
+      "name": "울진몰",
+      "id": "mall_83_울진몰",
+      "url": "https://ujmall.cyso.co.kr/",
+      "region": "경북",
+      "note": "CYSO platform"
+    },
+    {
+      "name": "영덕장터",
+      "id": "mall_84_영덕장터",
+      "url": "https://ydmall.cyso.co.kr/",
+      "region": "경북",
+      "note": "CYSO platform"
+    },
+    {
+      "name": "경산몰",
+      "id": "mall_85_경산몰",
+      "url": "https://gsmall.cyso.co.kr/",
+      "region": "경북",
+      "note": "CYSO platform"
+    },
+    {
+      "name": "경주몰",
+      "id": "mall_86_경주몰",
+      "url": "https://gjmall.cyso.co.kr/",
+      "region": "경북",
+      "note": "CYSO platform"
+    },
+    {
+      "name": "구미팜",
+      "id": "mall_87_구미팜",
+      "url": "https://gmmall.cyso.co.kr/",
+      "region": "경북",
+      "note": "CYSO platform"
+    },
+    {
+      "name": "별빛촌장터(영천)",
+      "id": "mall_88_별빛촌장터_영천_",
+      "url": "https://01000.cyso.co.kr/",
+      "region": "경북",
+      "note": "CYSO platform"
+    },
+    {
+      "name": "포항마켓",
+      "id": "mall_89_포항마켓",
+      "url": "https://pohangmarket.cyso.co.kr/",
+      "region": "경북",
+      "note": "CYSO platform"
+    },
+    {
+      "name": "e경남몰",
+      "id": "mall_90_e경남몰",
+      "url": "https://egnmall.kr",
+      "region": "경남"
+    },
+    {
+      "name": "토요애 (의령)",
+      "id": "mall_91_토요애_의령_",
+      "url": "https://toyoae.com/",
+      "region": "경남"
+    },
+    {
+      "name": "남해몰",
+      "id": "mall_92_남해몰",
+      "url": "https://enamhae.co.kr/",
+      "region": "경남"
+    },
+    {
+      "name": "산엔청 (산청)",
+      "id": "mall_93_산엔청_산청_",
+      "url": "https://sanencheong.com/",
+      "region": "경남"
+    },
+    {
+      "name": "공룡나라 (고성)",
+      "id": "mall_94_공룡나라_고성_",
+      "url": "https://www.edinomall.com/shop/smain/index.php",
+      "region": "경남"
+    },
+    {
+      "name": "함양몰",
+      "id": "mall_95_함양몰",
+      "url": "https://2900.co.kr/",
+      "region": "경남"
+    },
+    {
+      "name": "진주드림",
+      "id": "mall_96_진주드림",
+      "url": "https://jinjudream.com/",
+      "region": "경남"
+    },
+    {
+      "name": "함안몰",
+      "id": "mall_97_함안몰",
+      "url": "https://hamanmall.com",
+      "region": "경남"
+    },
+    {
+      "name": "김해온몰",
+      "id": "mall_98_김해온몰",
+      "url": "https://gimhaemall.kr",
+      "region": "경남"
+    }
+  ],
+  "byRegion": {
+    "경기": 1,
+    "충북": 1,
+    "전북": 4,
+    "전남": 2,
+    "경북": 11,
+    "경남": 9
+  },
+  "byPlatform": {
+    "CYSO": 9,
+    "Naver Smart Store": 3,
+    "Others": 16
+  }
+}

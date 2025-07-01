@@ -1,0 +1,374 @@
+{
+  "wemall": {
+    "analysisFiles": 1,
+    "outputFiles": 19
+  },
+  "chamds": {
+    "analysisFiles": 4,
+    "outputFiles": 18
+  },
+  "kkimchi": {
+    "analysisFiles": 1,
+    "outputFiles": 16
+  },
+  "ontongdaejeon": {
+    "analysisFiles": 2,
+    "outputFiles": 24
+  },
+  "chack3": {
+    "analysisFiles": 1,
+    "outputFiles": 7
+  },
+  "osansemall": {
+    "analysisFiles": 2,
+    "outputFiles": 9
+  },
+  "gmsocial": {
+    "analysisFiles": 2,
+    "outputFiles": 19
+  },
+  "yangju": {
+    "analysisFiles": 1,
+    "outputFiles": 9
+  },
+  "marketgyeonggi": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "gwdmall": {
+    "analysisFiles": 1,
+    "outputFiles": 11
+  },
+  "wonju": {
+    "analysisFiles": 1,
+    "outputFiles": 8
+  },
+  "gangneung": {
+    "analysisFiles": 1,
+    "outputFiles": 8
+  },
+  "goseong": {
+    "analysisFiles": 1,
+    "outputFiles": 8
+  },
+  "donghae": {
+    "analysisFiles": 1,
+    "outputFiles": 8
+  },
+  "samcheok": {
+    "analysisFiles": 1,
+    "outputFiles": 8
+  },
+  "yanggu": {
+    "analysisFiles": 1,
+    "outputFiles": 9
+  },
+  "yangyang": {
+    "analysisFiles": 3,
+    "outputFiles": 14
+  },
+  "yeongwol": {
+    "analysisFiles": 1,
+    "outputFiles": 12
+  },
+  "inje": {
+    "analysisFiles": 1,
+    "outputFiles": 10
+  },
+  "cheorwon": {
+    "analysisFiles": 1,
+    "outputFiles": 6
+  },
+  "jeongseon": {
+    "analysisFiles": 1,
+    "outputFiles": 6
+  },
+  "taebaek": {
+    "analysisFiles": 1,
+    "outputFiles": 6
+  },
+  "hoengseong": {
+    "analysisFiles": 1,
+    "outputFiles": 6
+  },
+  "chuncheon": {
+    "analysisFiles": 1,
+    "outputFiles": 6
+  },
+  "hongcheon": {
+    "analysisFiles": 1,
+    "outputFiles": 8
+  },
+  "gwpc": {
+    "analysisFiles": 1,
+    "outputFiles": 8
+  },
+  "esjang": {
+    "analysisFiles": 1,
+    "outputFiles": 10
+  },
+  "jcmall": {
+    "analysisFiles": 1,
+    "outputFiles": 7
+  },
+  "goesan": {
+    "analysisFiles": 1,
+    "outputFiles": 7
+  },
+  "nongsarang": {
+    "analysisFiles": 2,
+    "outputFiles": 11
+  },
+  "dangjinfarm": {
+    "analysisFiles": 1,
+    "outputFiles": 7
+  },
+  "ehongseong": {
+    "analysisFiles": 1,
+    "outputFiles": 7
+  },
+  "seosanttre": {
+    "analysisFiles": 1,
+    "outputFiles": 7
+  },
+  "buan": {
+    "analysisFiles": 1,
+    "outputFiles": 8
+  },
+  "danpoong": {
+    "analysisFiles": 1,
+    "outputFiles": 7
+  },
+  "jps": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "freshjb": {
+    "analysisFiles": 1,
+    "outputFiles": 30
+  },
+  "iksan": {
+    "analysisFiles": 1,
+    "outputFiles": 8
+  },
+  "jinan": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "jangsu": {
+    "analysisFiles": 1,
+    "outputFiles": 11
+  },
+  "gochang": {
+    "analysisFiles": 1,
+    "outputFiles": 9
+  },
+  "imsil": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "sunchang": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "haegaram": {
+    "analysisFiles": 1,
+    "outputFiles": 10
+  },
+  "jnmall": {
+    "analysisFiles": 2,
+    "outputFiles": 9
+  },
+  "yeosumall": {
+    "analysisFiles": 2,
+    "outputFiles": 11
+  },
+  "hgoodfarm": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "boseong": {
+    "analysisFiles": 1,
+    "outputFiles": 9
+  },
+  "najumall": {
+    "analysisFiles": 1,
+    "outputFiles": 9
+  },
+  "sclocal": {
+    "analysisFiles": 4,
+    "outputFiles": 15
+  },
+  "shinan1004": {
+    "analysisFiles": 1,
+    "outputFiles": 9
+  },
+  "okjmall": {
+    "analysisFiles": 1,
+    "outputFiles": 9
+  },
+  "yeongam": {
+    "analysisFiles": 1,
+    "outputFiles": 6
+  },
+  "jindoarirang": {
+    "analysisFiles": 1,
+    "outputFiles": 6
+  },
+  "wandofood": {
+    "analysisFiles": 1,
+    "outputFiles": 6
+  },
+  "hampyeong": {
+    "analysisFiles": 1,
+    "outputFiles": 7
+  },
+  "haenam": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "damyang": {
+    "analysisFiles": 1,
+    "outputFiles": 7
+  },
+  "greengj": {
+    "analysisFiles": 1,
+    "outputFiles": 6
+  },
+  "hwasunfarm": {
+    "analysisFiles": 1,
+    "outputFiles": 6
+  },
+  "gokseongmall": {
+    "analysisFiles": 1,
+    "outputFiles": 6
+  },
+  "cyso": {
+    "analysisFiles": 1,
+    "outputFiles": 6
+  },
+  "sjmall": {
+    "analysisFiles": 1,
+    "outputFiles": 6
+  },
+  "cdmall": {
+    "analysisFiles": 1,
+    "outputFiles": 8
+  },
+  "yjmarket": {
+    "analysisFiles": 1,
+    "outputFiles": 7
+  },
+  "andongjang": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "csmall": {
+    "analysisFiles": 1,
+    "outputFiles": 7
+  },
+  "onsim": {
+    "analysisFiles": 1,
+    "outputFiles": 8
+  },
+  "ulmall": {
+    "analysisFiles": 1,
+    "outputFiles": 6
+  },
+  "bmall": {
+    "analysisFiles": 1,
+    "outputFiles": 6
+  },
+  "grmall": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "gcnodaji": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "ycjang": {
+    "analysisFiles": 1,
+    "outputFiles": 6
+  },
+  "mgmall": {
+    "analysisFiles": 1,
+    "outputFiles": 6
+  },
+  "cgmall": {
+    "analysisFiles": 1,
+    "outputFiles": 6
+  },
+  "esmall": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "ujmall": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "ydmall": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "gsmall": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "gjmall": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "gmmall": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "01000": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "pohangmarket": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "egnmall": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "toyoae": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "enamhae": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "sanencheong": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "edinomall": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "hamyang": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "jinjudream": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "hamanmall": {
+    "analysisFiles": 0,
+    "outputFiles": 0
+  },
+  "gimhaemall": {
+    "analysisFiles": 1,
+    "outputFiles": 2
+  },
+  "ejeju": {
+    "analysisFiles": 4,
+    "outputFiles": 24
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "mallId": "toyoae",
+  "mallName": "토요애 (의령)",
+  "url": "https://toyoae.com/",
+  "region": "경남",
+  "status": "success",
+  "structure": {
+    "hasProducts": true,
+    "productInfo": {
+      "selector": "[class*=\"item\"]",
+      "count": 295,
+      "firstItem": "\n                <!-- //recom_icon_box -->\n                <div class=\"recom_tit_box\">\n                    <a href=\"../goods/goods_view.php?goodsNo=\">\n                    </a>\n                </div>\n "
+    },
+    "hasCategories": false,
+    "hasPagination": false,
+    "totalLinks": 178,
+    "scripts": 44,
+    "hasReactRoot": false,
+    "urlPatterns": {
+      "homepage": "https://toyoae.com/"
+    },
+    "pagination": {
+      "type": "none"
+    },
+    "requiresJavaScript": true,
+    "dataLocation": {}
+  }
+}

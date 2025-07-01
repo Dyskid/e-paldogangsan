@@ -1,0 +1,1569 @@
+{
+  "mallName": "의성장날",
+  "baseUrl": "https://esmall.cyso.co.kr",
+  "platform": "CYSO",
+  "detectedPatterns": [
+    "CYSO shop/item.php pattern detected"
+  ],
+  "productSelectors": [
+    "[class*=\"product\"]: 1 elements",
+    "[class*=\"item\"]: 89 elements"
+  ],
+  "categoryLinks": [
+    {
+      "text": "배송조회",
+      "href": "https://esmall.cyso.co.kr/shop/orderinquiry.php"
+    },
+    {
+      "text": "0장바구니",
+      "href": "https://esmall.cyso.co.kr/shop/cart.php"
+    },
+    {
+      "text": "자두",
+      "href": "https://esmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EC%9E%90%EB%91%90"
+    },
+    {
+      "text": "복숭아",
+      "href": "https://esmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EB%B3%B5%EC%88%AD%EC%95%84"
+    },
+    {
+      "text": "마늘",
+      "href": "https://esmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EB%A7%88%EB%8A%98"
+    },
+    {
+      "text": "사과",
+      "href": "https://esmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EC%82%AC%EA%B3%BC"
+    },
+    {
+      "text": "쌀",
+      "href": "https://esmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EC%8C%80"
+    },
+    {
+      "text": "박가정",
+      "href": "https://esmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EB%B0%95%EA%B0%80%EC%A0%95"
+    },
+    {
+      "text": "깐마늘",
+      "href": "https://esmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EA%B9%90%EB%A7%88%EB%8A%98"
+    },
+    {
+      "text": "베스트",
+      "href": "/shop/listtype.php?type=11"
+    },
+    {
+      "text": "이벤트관",
+      "href": "/shop/eventlist.php"
+    },
+    {
+      "text": "가격별보기",
+      "href": "/shop/recommend_price.php"
+    },
+    {
+      "text": "로컬푸드",
+      "href": "/shop/list.php?ca_id=esa0"
+    },
+    {
+      "text": "테마관",
+      "href": "/bbs/content.php?co_id=es_theme"
+    },
+    {
+      "text": "의성농산물소개",
+      "href": "/bbs/content.php?co_id=esinfo04"
+    },
+    {
+      "text": "고객센터",
+      "href": "/bbs/board.php?bo_table=es_notice"
+    },
+    {
+      "text": "공지사항",
+      "href": "/bbs/board.php?bo_table=es_notice"
+    },
+    {
+      "text": "FAQ",
+      "href": "/bbs/faq.php"
+    },
+    {
+      "text": "상품문의",
+      "href": "/shop/itemqalist.php"
+    },
+    {
+      "text": "대량구매문의",
+      "href": "/bbs/write.php?bo_table=es_wholesale"
+    },
+    {
+      "text": "1:1문의",
+      "href": "/bbs/qalist.php"
+    },
+    {
+      "text": "구매후기",
+      "href": "/shop/itemuselist.php"
+    },
+    {
+      "text": "쌀/잡곡  14",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es10"
+    },
+    {
+      "text": "쌀",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es1010"
+    },
+    {
+      "text": "잡곡",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es1020"
+    },
+    {
+      "text": "의성마늘  58",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es30"
+    },
+    {
+      "text": "마늘(논)",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es3020"
+    },
+    {
+      "text": "마늘(밭)",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es3030"
+    },
+    {
+      "text": "깐마늘",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es3040"
+    },
+    {
+      "text": "다진마늘",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es3070"
+    },
+    {
+      "text": "기타마늘",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es3010"
+    },
+    {
+      "text": "과일류  81",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es40"
+    },
+    {
+      "text": "사과",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es4010"
+    },
+    {
+      "text": "자두",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es4030"
+    },
+    {
+      "text": "복숭아",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es4040"
+    },
+    {
+      "text": "딸기",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es4050"
+    },
+    {
+      "text": "기타과일",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es4060"
+    },
+    {
+      "text": "김치/장류/양념류  37",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es20"
+    },
+    {
+      "text": "고추장",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es2010"
+    },
+    {
+      "text": "간장",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es2030"
+    },
+    {
+      "text": "참기름/들기름",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es2060"
+    },
+    {
+      "text": "된장/청국장/메주",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es2070"
+    },
+    {
+      "text": "김치",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es20a0"
+    },
+    {
+      "text": "채소류  23",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es50"
+    },
+    {
+      "text": "버섯",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es5020"
+    },
+    {
+      "text": "고추/고추가루",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es5050"
+    },
+    {
+      "text": "기타채소",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es5010"
+    },
+    {
+      "text": "축산물  42",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es70"
+    },
+    {
+      "text": "마늘소",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es7010"
+    },
+    {
+      "text": "계란",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es7020"
+    },
+    {
+      "text": "한과/떡/빵 류  11",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es80"
+    },
+    {
+      "text": "한과/과자",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es8010"
+    },
+    {
+      "text": "떡",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es8020"
+    },
+    {
+      "text": "빵",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es8030"
+    },
+    {
+      "text": "로컬푸드  1",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=esa0"
+    },
+    {
+      "text": "로컬푸드",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=esa010"
+    },
+    {
+      "text": "가공식품  99",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es90"
+    },
+    {
+      "text": "(흑)마늘 식품",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es9010"
+    },
+    {
+      "text": "꿀/쨈",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es9020"
+    },
+    {
+      "text": "진액/즙",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es9040"
+    },
+    {
+      "text": "즉석식품",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es9050"
+    },
+    {
+      "text": "기타식품",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es9030"
+    },
+    {
+      "text": "기타가공",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es9060"
+    },
+    {
+      "text": "베스트",
+      "href": "/shop/listtype.php?type=11"
+    },
+    {
+      "text": "이벤트관",
+      "href": "/shop/eventlist.php"
+    },
+    {
+      "text": "가격별보기",
+      "href": "/shop/recommend_price.php"
+    },
+    {
+      "text": "로컬푸드",
+      "href": "/shop/list.php?ca_id=esa0"
+    },
+    {
+      "text": "테마관",
+      "href": "/bbs/content.php?co_id=es_theme"
+    },
+    {
+      "text": "의성농산물소개",
+      "href": "/bbs/content.php?co_id=esinfo04"
+    },
+    {
+      "text": "고객센터",
+      "href": "/bbs/board.php?bo_table=es_notice"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1690724482"
+    },
+    {
+      "text": "[의성양봉]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=gustla1"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512907"
+    },
+    {
+      "text": "[향촌당]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=hyangchondang"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=511794"
+    },
+    {
+      "text": "[의성군농협쌀조합]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=dain861"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512743"
+    },
+    {
+      "text": "[수재]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=joonhwan01"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512679"
+    },
+    {
+      "text": "[웰빙바이오]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=cclo07"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=511919"
+    },
+    {
+      "text": "[다모]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=damo725"
+    },
+    {
+      "text": "35%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512732"
+    },
+    {
+      "text": "[달달쭈니농장 햇살어린 복숭아]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=swj0605"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=513012"
+    },
+    {
+      "text": "[비봉산 한우곰탕]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=bibongsan"
+    },
+    {
+      "text": "더보기",
+      "href": "https://esmall.cyso.co.kr/shop/listtype.php?type=11"
+    },
+    {
+      "text": "31%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1751250811"
+    },
+    {
+      "text": "[의성복숭아나라]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=dlqmsghkwjd"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1751125819"
+    },
+    {
+      "text": "[샘골도담]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=blueands"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1751125389"
+    },
+    {
+      "text": "[샘골도담]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=blueands"
+    },
+    {
+      "text": "14%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1751122661"
+    },
+    {
+      "text": "[의성복숭아나라]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=dlqmsghkwjd"
+    },
+    {
+      "text": "15%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1751005171"
+    },
+    {
+      "text": "[의성복숭아나라]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=dlqmsghkwjd"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1750823829"
+    },
+    {
+      "text": "[우제과일농장]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=kakao_8b3d0873"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1750823526"
+    },
+    {
+      "text": "[우제과일농장]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=kakao_8b3d0873"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1750822590"
+    },
+    {
+      "text": "[우제과일농장]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=kakao_8b3d0873"
+    },
+    {
+      "text": "더보기",
+      "href": "https://esmall.cyso.co.kr/shop/listtype.php?type=new"
+    },
+    {
+      "text": "의성장날 테마관\n   비옥한 토양과 맑은 물을 품고 자란참으로 좋은 의성 농산물과 특산품을 판매하고 있습니다.",
+      "href": "https://esmall.cyso.co.kr/bbs/content.php?co_id=es_theme"
+    },
+    {
+      "text": "과일류",
+      "href": "#cate2"
+    },
+    {
+      "text": "가공식품",
+      "href": "#cate4"
+    },
+    {
+      "text": "채소류",
+      "href": "#cate5"
+    },
+    {
+      "text": "김치/장류/양념류",
+      "href": "#cate6"
+    },
+    {
+      "text": "한과/떡/빵류",
+      "href": "#cate7"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512701"
+    },
+    {
+      "text": "[안계합동RPC]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=naver_878907f5"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512692"
+    },
+    {
+      "text": "[서의성농협 ]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=nh7050128"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512661"
+    },
+    {
+      "text": "[운강영농]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=bub540505"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512313"
+    },
+    {
+      "text": "[빅토리팜]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=dhkdekdms1"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=511794"
+    },
+    {
+      "text": "[의성군농협쌀조합]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=dain861"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1725002631"
+    },
+    {
+      "text": "[안계미곡처리장]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=paldosdk"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1703038042"
+    },
+    {
+      "text": "[안계합동미곡종합처리장]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=naver_878907f5"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1694674118"
+    },
+    {
+      "text": "[안계합동미곡종합처리장]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=naver_878907f5"
+    },
+    {
+      "text": "더보기",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es40"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512934"
+    },
+    {
+      "text": "[빅토리팜]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=dhkdekdms1"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512841"
+    },
+    {
+      "text": "[홉이든 농업회사법인(주)]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=hopeden"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512835"
+    },
+    {
+      "text": "[홉이든 농업회사법인(주)]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=hopeden"
+    },
+    {
+      "text": "35%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512732"
+    },
+    {
+      "text": "[달달쭈니농장 햇살어린 복숭아]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=swj0605"
+    },
+    {
+      "text": "31%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1751250811"
+    },
+    {
+      "text": "[의성복숭아나라]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=dlqmsghkwjd"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1751125819"
+    },
+    {
+      "text": "[샘골도담]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=blueands"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1751125389"
+    },
+    {
+      "text": "[샘골도담]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=blueands"
+    },
+    {
+      "text": "14%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1751122661"
+    },
+    {
+      "text": "[의성복숭아나라]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=dlqmsghkwjd"
+    },
+    {
+      "text": "더보기",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es30"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=513004"
+    },
+    {
+      "text": "[빅토리팜]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=dhkdekdms1"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512945"
+    },
+    {
+      "text": "[형제농원]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=solim7749"
+    },
+    {
+      "text": "22%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512916"
+    },
+    {
+      "text": "[빅토리팜]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=dhkdekdms1"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512892"
+    },
+    {
+      "text": "[빅토리팜]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=dhkdekdms1"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512820"
+    },
+    {
+      "text": "[빅토리팜]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=dhkdekdms1"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512802"
+    },
+    {
+      "text": "[빅토리팜]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=dhkdekdms1"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512793"
+    },
+    {
+      "text": "[의성농협유통사업소]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=nh705016"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512762"
+    },
+    {
+      "text": "[꼬불꼬불팜]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=ky756574"
+    },
+    {
+      "text": "더보기",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es60"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=513012"
+    },
+    {
+      "text": "[비봉산 한우곰탕]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=bibongsan"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512950"
+    },
+    {
+      "text": "[올케어]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=cclo07"
+    },
+    {
+      "text": "16%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512909"
+    },
+    {
+      "text": "[다옴농장]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=lss005"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512877"
+    },
+    {
+      "text": "[농업회사법인 (주)가람솔]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=garamsol"
+    },
+    {
+      "text": "7%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512849"
+    },
+    {
+      "text": "[의성흑마늘빵]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=usbang"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512847"
+    },
+    {
+      "text": "[신비안]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=sinvian"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512790"
+    },
+    {
+      "text": "[수재]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=joonhwan01"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512766"
+    },
+    {
+      "text": "[헛개랑자두랑]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=gjtro57"
+    },
+    {
+      "text": "더보기",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es50"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=513010"
+    },
+    {
+      "text": "[농업회사법인(주)빛고은]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=qlcrhdms"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=513008"
+    },
+    {
+      "text": "[농업회사법인(주)빛고은]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=qlcrhdms"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512817"
+    },
+    {
+      "text": "[빅토리팜]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=dhkdekdms1"
+    },
+    {
+      "text": "52%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512765"
+    },
+    {
+      "text": "[송화고 버섯]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=mbf4077"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512425"
+    },
+    {
+      "text": "[단밀가지아지매]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=danmil"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=511914"
+    },
+    {
+      "text": "[송이네농원]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=sslnn90"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=511863"
+    },
+    {
+      "text": "[단밀가지아지매]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=danmil"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=511862"
+    },
+    {
+      "text": "[단밀가지아지매]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=danmil"
+    },
+    {
+      "text": "더보기",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es20"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512907"
+    },
+    {
+      "text": "[향촌당]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=hyangchondang"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512768"
+    },
+    {
+      "text": "[향촌당]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=hyangchondang"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512748"
+    },
+    {
+      "text": "[향촌당]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=hyangchondang"
+    },
+    {
+      "text": "21%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512360"
+    },
+    {
+      "text": "[빅토리팜]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=dhkdekdms1"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=511919"
+    },
+    {
+      "text": "[다모]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=damo725"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=511805"
+    },
+    {
+      "text": "[장수식품]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=kho8617249"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=511803"
+    },
+    {
+      "text": "[장수식품]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=kho8617249"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=511712"
+    },
+    {
+      "text": "[청아띠]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=atti98"
+    },
+    {
+      "text": "더보기",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es80"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512738"
+    },
+    {
+      "text": "[다인댁의산골이야기]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=duddhr1238"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512614"
+    },
+    {
+      "text": "[다인댁의산골이야기]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=duddhr1238"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512506"
+    },
+    {
+      "text": "[다인댁의산골이야기]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=duddhr1238"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512505"
+    },
+    {
+      "text": "[다인댁의산골이야기]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=duddhr1238"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512472"
+    },
+    {
+      "text": "[다인댁의산골이야기]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=duddhr1238"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512471"
+    },
+    {
+      "text": "[다인댁의산골이야기]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=duddhr1238"
+    },
+    {
+      "text": "26%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512467"
+    },
+    {
+      "text": "[다인댁의산골이야기]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=duddhr1238"
+    },
+    {
+      "text": "26%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512463"
+    },
+    {
+      "text": "[다인댁의산골이야기]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=duddhr1238"
+    },
+    {
+      "text": "더보기",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es70"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512799"
+    },
+    {
+      "text": "[의성축산농협]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=kangminc"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512497"
+    },
+    {
+      "text": "[의성축산농협]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=kangminc"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512496"
+    },
+    {
+      "text": "[의성축산농협]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=kangminc"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512494"
+    },
+    {
+      "text": "[의성축산농협]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=kangminc"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512493"
+    },
+    {
+      "text": "[의성축산농협]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=kangminc"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512491"
+    },
+    {
+      "text": "[의성축산농협]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=kangminc"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512490"
+    },
+    {
+      "text": "[의성축산농협]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=kangminc"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512488"
+    },
+    {
+      "text": "[의성축산농협]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=kangminc"
+    },
+    {
+      "text": "친환경인증 농산물관",
+      "href": "#youth1"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=511696"
+    },
+    {
+      "text": "[토실이]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=darklove18"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=511699"
+    },
+    {
+      "text": "[토실이]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=darklove18"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=511694"
+    },
+    {
+      "text": "[토실이]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=darklove18"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512934"
+    },
+    {
+      "text": "[빅토리팜]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=dhkdekdms1"
+    },
+    {
+      "text": "더보기",
+      "href": "https://esmall.cyso.co.kr/shop/listtype.php?type=14"
+    },
+    {
+      "text": "26%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512467"
+    },
+    {
+      "text": "[다인댁의산골이야기]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=duddhr1238"
+    },
+    {
+      "text": "26%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512463"
+    },
+    {
+      "text": "[다인댁의산골이야기]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=duddhr1238"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=511630"
+    },
+    {
+      "text": "[농업회사 법인 (주)가람솔]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=garamsol"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1716711683"
+    },
+    {
+      "text": "[농업회사 법인 (주)가람솔]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=garamsol"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512614"
+    },
+    {
+      "text": "[다인댁의산골이야기]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=duddhr1238"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=511931"
+    },
+    {
+      "text": "[빅토리팜]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=dhkdekdms1"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1631069478"
+    },
+    {
+      "text": "[빅토리팜]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=dhkdekdms1"
+    },
+    {
+      "text": "6%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1570802149"
+    },
+    {
+      "text": "[농업회사법인 (주)빅토리팜]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=dhkdekdms1"
+    },
+    {
+      "text": "더보기",
+      "href": "https://esmall.cyso.co.kr/shop/listtype.php?type=15"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512708"
+    },
+    {
+      "text": "[우일농산영농조합법인]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=ckyu4013"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512634"
+    },
+    {
+      "text": "[BONA TREE]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=bonatree1998"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1701153151"
+    },
+    {
+      "text": "[주식회사 농뜨락농업회사법인]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=natural8823"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1705449380"
+    },
+    {
+      "text": "[보나트리]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=bonatree1998"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512631"
+    },
+    {
+      "text": "[BONA TREE]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=bonatree1998"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=1611034417"
+    },
+    {
+      "text": "[의성농산영농조합법인]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=esmn2006"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=511808"
+    },
+    {
+      "text": "[의성농산]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=esmn2006"
+    },
+    {
+      "text": "5%",
+      "href": "https://esmall.cyso.co.kr/shop/item.php?it_id=512633"
+    },
+    {
+      "text": "[BONA TREE]",
+      "href": "https://esmall.cyso.co.kr/shop/item_list.php?type=market&val=bonatree1998"
+    },
+    {
+      "text": "더보기",
+      "href": "https://esmall.cyso.co.kr/shop/listtype.php?type=13"
+    },
+    {
+      "text": "전체 업체리스트",
+      "href": "https://esmall.cyso.co.kr/shop/marketList.php"
+    },
+    {
+      "text": "의성복숭아나라",
+      "href": "https://esmall.cyso.co.kr/shop/marketView.php?id=dlqmsghkwjd"
+    },
+    {
+      "text": "의성조옥란한과",
+      "href": "https://esmall.cyso.co.kr/shop/marketView.php?id=chlgusxkr1"
+    },
+    {
+      "text": "읍내방앗간",
+      "href": "https://esmall.cyso.co.kr/shop/marketView.php?id=naver_835807e2"
+    },
+    {
+      "text": "청아띠농업회사법인(주)",
+      "href": "https://esmall.cyso.co.kr/shop/marketView.php?id=atti98"
+    },
+    {
+      "text": "황새마을식품영농조합법인",
+      "href": "https://esmall.cyso.co.kr/shop/marketView.php?id=naver_90d508d1"
+    },
+    {
+      "text": "의인이네",
+      "href": "https://esmall.cyso.co.kr/shop/marketView.php?id=lmr2110"
+    },
+    {
+      "text": "영진농원",
+      "href": "https://esmall.cyso.co.kr/shop/marketView.php?id=eded0811"
+    },
+    {
+      "text": "의성축산농협 미트센터",
+      "href": "https://esmall.cyso.co.kr/shop/marketView.php?id=kangminc"
+    },
+    {
+      "text": "1:1문의",
+      "href": "https://esmall.cyso.co.kr/bbs/qalist.php"
+    },
+    {
+      "text": "더보기",
+      "href": "https://esmall.cyso.co.kr/bbs/board.php?bo_table=es_notice"
+    },
+    {
+      "text": "의성장날 여름 제철상품 기획전",
+      "href": "https://esmall.cyso.co.kr/bbs/board.php?bo_table=es_notice&wr_id=173"
+    },
+    {
+      "text": "5월 구매후기 당첨자발표",
+      "href": "https://esmall.cyso.co.kr/bbs/board.php?bo_table=es_notice&wr_id=172"
+    },
+    {
+      "text": "6월 배송안내",
+      "href": "https://esmall.cyso.co.kr/bbs/board.php?bo_table=es_notice&wr_id=171"
+    },
+    {
+      "text": "4월 구매후기 당첨자발표",
+      "href": "https://esmall.cyso.co.kr/bbs/board.php?bo_table=es_notice&wr_id=170"
+    },
+    {
+      "text": "의성장날 가정의달 할인 이벤트",
+      "href": "https://esmall.cyso.co.kr/bbs/board.php?bo_table=es_notice&wr_id=169"
+    },
+    {
+      "text": "장바구니 (0)",
+      "href": "https://esmall.cyso.co.kr/shop/cart.php"
+    },
+    {
+      "text": "최근본상품 (0)",
+      "href": "https://esmall.cyso.co.kr/shop/last_viewitem.php"
+    },
+    {
+      "text": "상품문의",
+      "href": "https://esmall.cyso.co.kr/shop/itemqalist.php"
+    },
+    {
+      "text": "1:1 문의",
+      "href": "https://esmall.cyso.co.kr/bbs/qalist.php"
+    },
+    {
+      "text": "의성장날 소개",
+      "href": "https://esmall.cyso.co.kr/bbs/content.php?co_id=esinfo01"
+    },
+    {
+      "text": "이용약관",
+      "href": "https://esmall.cyso.co.kr/bbs/content.php?co_id=es_provision"
+    },
+    {
+      "text": "개인정보처리방침",
+      "href": "https://esmall.cyso.co.kr/bbs/content.php?co_id=es_privacy"
+    },
+    {
+      "text": "입점안내",
+      "href": "https://esmall.cyso.co.kr/bbs/content.php?co_id=es_manage"
+    },
+    {
+      "text": "로그인",
+      "href": "https://esmall.cyso.co.kr/bbs/login.php"
+    },
+    {
+      "text": "회원가입",
+      "href": "https://esmall.cyso.co.kr/bbs/register.php"
+    },
+    {
+      "text": "주문배송",
+      "href": "https://esmall.cyso.co.kr/shop/orderinquiry.php"
+    },
+    {
+      "text": "장바구니",
+      "href": "https://esmall.cyso.co.kr/shop/cart.php"
+    },
+    {
+      "text": "찜한상품",
+      "href": "https://esmall.cyso.co.kr/shop/wishlist.php"
+    },
+    {
+      "text": "마이페이지",
+      "href": "https://esmall.cyso.co.kr/shop/mypage.php"
+    },
+    {
+      "text": "고객센터",
+      "href": "https://esmall.cyso.co.kr/bbs/board.php?bo_table=es_notice"
+    },
+    {
+      "text": "최근본상품",
+      "href": "https://esmall.cyso.co.kr/shop/last_viewitem.php"
+    },
+    {
+      "text": "상품카테고리",
+      "href": "#cate_01"
+    },
+    {
+      "text": "쌀/잡곡",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es10"
+    },
+    {
+      "text": "쌀",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es1010"
+    },
+    {
+      "text": "잡곡",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es1020"
+    },
+    {
+      "text": "의성마늘",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es30"
+    },
+    {
+      "text": "마늘(논)",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es3020"
+    },
+    {
+      "text": "마늘(밭)",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es3030"
+    },
+    {
+      "text": "깐마늘",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es3040"
+    },
+    {
+      "text": "다진마늘",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es3070"
+    },
+    {
+      "text": "기타마늘",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es3010"
+    },
+    {
+      "text": "과일류",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es40"
+    },
+    {
+      "text": "사과",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es4010"
+    },
+    {
+      "text": "자두",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es4030"
+    },
+    {
+      "text": "복숭아",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es4040"
+    },
+    {
+      "text": "딸기",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es4050"
+    },
+    {
+      "text": "기타과일",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es4060"
+    },
+    {
+      "text": "김치/장류/양념류",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es20"
+    },
+    {
+      "text": "고추장",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es2010"
+    },
+    {
+      "text": "간장",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es2030"
+    },
+    {
+      "text": "참기름/들기름",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es2060"
+    },
+    {
+      "text": "된장/청국장/메주",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es2070"
+    },
+    {
+      "text": "김치",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es20a0"
+    },
+    {
+      "text": "채소류",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es50"
+    },
+    {
+      "text": "버섯",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es5020"
+    },
+    {
+      "text": "고추/고추가루",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es5050"
+    },
+    {
+      "text": "기타채소",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es5010"
+    },
+    {
+      "text": "축산물",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es70"
+    },
+    {
+      "text": "마늘소",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es7010"
+    },
+    {
+      "text": "계란",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es7020"
+    },
+    {
+      "text": "한과/떡/빵 류",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es80"
+    },
+    {
+      "text": "한과/과자",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es8010"
+    },
+    {
+      "text": "떡",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es8020"
+    },
+    {
+      "text": "빵",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es8030"
+    },
+    {
+      "text": "로컬푸드",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=esa0"
+    },
+    {
+      "text": "로컬푸드",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=esa010"
+    },
+    {
+      "text": "가공식품",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es90"
+    },
+    {
+      "text": "(흑)마늘 식품",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es9010"
+    },
+    {
+      "text": "꿀/쨈",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es9020"
+    },
+    {
+      "text": "진액/즙",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es9040"
+    },
+    {
+      "text": "즉석식품",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es9050"
+    },
+    {
+      "text": "기타식품",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es9030"
+    },
+    {
+      "text": "기타가공",
+      "href": "https://esmall.cyso.co.kr/shop/list.php?ca_id=es9060"
+    }
+  ],
+  "productLinks": [
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=1690724482",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512907",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=511794",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512743",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512679",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=511919",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512732",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=513012",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=1751250811",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=1751125819",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=1751125389",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=1751122661",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=1751005171",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=1750823829",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=1750823526",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=1750822590",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512701",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512692",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512661",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512313",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=1725002631",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=1703038042",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=1694674118",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512934",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512841",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512835",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=513004",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512945",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512916",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512892",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512820",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512802",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512793",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512762",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512950",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512909",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512877",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512849",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512847",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512790",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512766",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=513010",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=513008",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512817",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512765",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512425",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=511914",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=511863",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=511862",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512768",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512748",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512360",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=511805",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=511803",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=511712",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512738",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512614",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512506",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512505",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512472",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512471",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512467",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512463",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512799",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512497",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512496",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512494",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512493",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512491",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512490",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512488",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=511696",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=511699",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=511694",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=511630",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=1716711683",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=511931",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=1631069478",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=1570802149",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512708",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512634",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=1701153151",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=1705449380",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512631",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=1611034417",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=511808",
+    "https://esmall.cyso.co.kr/shop/item.php?it_id=512633"
+  ],
+  "notes": [
+    "Page title: 의성장날",
+    "Description: No description",
+    "Uses standard CYSO product URL pattern",
+    "Total links found: 533",
+    "Images found: 344",
+    "[class*=\"price\"]: 0 elements",
+    "Main content areas: 1",
+    "Item elements: 0",
+    "Shop elements: 74",
+    "의성군 특산물 전문몰",
+    "CYSO 플랫폼 기반",
+    "마늘, 농산물 특화"
+  ]
+}

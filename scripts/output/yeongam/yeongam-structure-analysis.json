@@ -1,0 +1,193 @@
+{
+  "platform": "Cafe24",
+  "detectedPatterns": [
+    "Cafe24 platform detected",
+    "prdList structure found"
+  ],
+  "productSelectors": [
+    ".xans-product-listmain .xans-record-",
+    ".prdList .item, .prdList li",
+    ".xans-record- (77 items)"
+  ],
+  "categoryLinks": [
+    {
+      "text": "전체상품목록 바로가기",
+      "href": "#category"
+    },
+    {
+      "text": "고객센터",
+      "href": "/board/product/list.html?board_no=6"
+    },
+    {
+      "text": "영암몰 리뷰 모음",
+      "href": "/board/product/list.html?board_no=4"
+    },
+    {
+      "text": "문의하기",
+      "href": "/board/product/list.html?board_no=6"
+    },
+    {
+      "text": "농산물",
+      "href": "/product/list.html?cate_no=25"
+    },
+    {
+      "text": "수산물",
+      "href": "/product/list.html?cate_no=26"
+    },
+    {
+      "text": "축산물",
+      "href": "/product/list.html?cate_no=27"
+    },
+    {
+      "text": "가공식품",
+      "href": "/product/list.html?cate_no=28"
+    },
+    {
+      "text": "지석 PICK 수요 찬스",
+      "href": "/product/list.html?cate_no=87"
+    },
+    {
+      "text": "반짝 금요일",
+      "href": "/product/list.html?cate_no=89"
+    },
+    {
+      "text": "구매후기",
+      "href": "/board/product/list.html?board_no=4"
+    },
+    {
+      "text": "농산물",
+      "href": "/product/list.html?cate_no=25"
+    },
+    {
+      "text": "수산물",
+      "href": "/product/list.html?cate_no=26"
+    },
+    {
+      "text": "축산물",
+      "href": "/product/list.html?cate_no=27"
+    },
+    {
+      "text": "가공식품",
+      "href": "/product/list.html?cate_no=28"
+    },
+    {
+      "text": "지석 PICK 수요 찬스",
+      "href": "/product/list.html?cate_no=87"
+    },
+    {
+      "text": "반짝 금요일",
+      "href": "/product/list.html?cate_no=89"
+    },
+    {
+      "text": "MD추천",
+      "href": "/product/list.html?cate_no=49"
+    },
+    {
+      "text": "상품명 : (대우미곡) 2024년 햅쌀 삼대쌀 새청무쌀 10kg 단일품종 상등급",
+      "href": "/product/대우미곡-2024년-햅쌀-삼대쌀-새청무쌀-10kg-단일품종-상등급/311/category/1/display/2/"
+    },
+    {
+      "text": "상품명 : (왕인배) 동인농장 맑은 도라지 배즙 120ml (100포) 한정수량 64박스",
+      "href": "/product/왕인배-동인농장-맑은-도라지-배즙-120ml-100포-한정수량-64박스/114/category/1/display/2/"
+    },
+    {
+      "text": "상품명 : (민물장어양식수협) 자포니카 민물장어 1kg(2-4미)(손질장어)",
+      "href": "/product/민물장어양식수협-자포니카-민물장어-1kg2-4미손질장어/249/category/1/display/2/"
+    },
+    {
+      "text": "상품명 : (신북농협) 미니밤호박 보우짱 하우스 2kg/3kg",
+      "href": "/product/신북농협-미니밤호박-보우짱-하우스-2kg3kg/479/category/1/display/2/"
+    },
+    {
+      "text": "상품명 : (영암어란) 영암어란 (65g~590g 중량선택)",
+      "href": "/product/영암어란-영암어란-65g590g-중량선택/485/category/1/display/2/"
+    },
+    {
+      "text": "상품명 : (산골정) 청국장200g*6 한정수량 100개",
+      "href": "/product/산골정-청국장200g6-한정수량-100개/478/category/1/display/2/"
+    },
+    {
+      "text": "상품명 : (신북농협) 달달한 제철 햇 메론 (3.5kg/4kg)",
+      "href": "/product/신북농협-달달한-제철-햇-메론-35kg4kg/40/category/1/display/2/"
+    },
+    {
+      "text": "상품명 : (영암축협하나로마트) 영암한우 사골곰탕 500ml",
+      "href": "/product/영암축협하나로마트-영암한우-사골곰탕-500ml/319/category/1/display/2/"
+    },
+    {
+      "text": "상품명 : (도갓집) 문득 무화과 약주 13도 500ml 도갓집 삼호주조 약주",
+      "href": "/product/도갓집-문득-무화과-약주-13도-500ml-도갓집-삼호주조-약주/492/category/1/display/3/"
+    },
+    {
+      "text": "상품명 : (도갓집) 문득 8도 500ml 삼호주조 탁주",
+      "href": "/product/도갓집-문득-8도-500ml-삼호주조-탁주/491/category/1/display/3/"
+    },
+    {
+      "text": "상품명 : (소담) 세척 꿀고구마 10kg(특상)",
+      "href": "/product/소담-세척-꿀고구마-10kg특상/490/category/1/display/3/"
+    },
+    {
+      "text": "상품명 : (나는멜론) 영암 멜론 8kg 수량선택",
+      "href": "/product/나는멜론-영암-멜론-8kg-수량선택/487/category/1/display/3/"
+    },
+    {
+      "text": "상품명 : (사회적 협동조합 영암지역네트워크) 달칩 초코샌드 선물세트 12g x 20개입",
+      "href": "/product/사회적-협동조합-영암지역네트워크-달칩-초코샌드-선물세트-12g-x-20개입/486/category/1/display/3/"
+    },
+    {
+      "text": "상품명 : (영암어란) 영암어란 (65g~590g 중량선택)",
+      "href": "/product/영암어란-영암어란-65g590g-중량선택/485/category/1/display/3/"
+    },
+    {
+      "text": "상품명 : (신북농협) 고구마+감자+밤호박 삼종세트 3kg",
+      "href": "/product/신북농협-고구마감자밤호박-삼종세트-3kg/484/category/1/display/3/"
+    },
+    {
+      "text": "상품명 : (기찬랜드) 1+이상 한우 정육 단품 400g (불고기/국거리/장조림)",
+      "href": "/product/기찬랜드-1이상-한우-정육-단품-400g-불고기국거리장조림/72/category/1/display/4/"
+    },
+    {
+      "text": "상품명 : (기찬랜드) 1++이상 구이용 단품 300g (등심/채끝)",
+      "href": "/product/기찬랜드-1이상-구이용-단품-300g-등심채끝/16/category/1/display/4/"
+    },
+    {
+      "text": "상품명 : (영암축협하나로마트) 영암한우 사골곰탕 500mlx5개입 선물세트",
+      "href": "/product/영암축협하나로마트-영암한우-사골곰탕-500mlx5개입-선물세트/340/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : (신북농협) 달달한 제철 햇 메론 (3.5kg/4kg)",
+      "href": "/product/신북농협-달달한-제철-햇-메론-35kg4kg/40/category/1/display/5/"
+    },
+    {
+      "text": "상품명 : (서영암농협) 2024년 햅쌀 유기농 학이머문쌀 10kg 상등급",
+      "href": "/product/서영암농협-2024년-햅쌀-유기농-학이머문쌀-10kg-상등급/296/category/1/display/5/"
+    },
+    {
+      "text": "더보기",
+      "href": "/board/product/list.html?board_no=4"
+    },
+    {
+      "text": "최근 본 상품",
+      "href": "/product/recent_view_product.html"
+    },
+    {
+      "text": "##name##",
+      "href": "/product/detail.html##param##"
+    },
+    {
+      "text": "##name##",
+      "href": "/product/detail.html##param##"
+    }
+  ],
+  "productLinks": [
+    "/product/recent_view_product.html",
+    "/product/detail.html##param##",
+    "/product/detail.html##param##"
+  ],
+  "notes": [
+    "Page title: 영암몰",
+    "Description: 전라남도 영암군의 안심 먹거리 농특산물 온라인쇼핑몰",
+    "Total links found: 147",
+    "Images found: 120"
+  ]
+}

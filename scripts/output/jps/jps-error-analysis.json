@@ -1,0 +1,12 @@
+{
+  "mallName": "지평선몰(김제)",
+  "url": "https://jpsmall.com",
+  "error": "Hostname/IP does not match certificate's altnames: Host: jpsmall.com. is not in the cert's altnames: DNS:www.jpsmall.com",
+  "analyzedAt": "2025-07-01T02:15:01.336Z",
+  "recommendations": [
+    "Check if the URL is correct and accessible",
+    "The site may require special headers or cookies",
+    "Consider using Puppeteer/Playwright for JavaScript-heavy sites",
+    "Check for anti-scraping measures like Cloudflare"
+  ]
+}

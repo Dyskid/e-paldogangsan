@@ -1,0 +1,376 @@
+{
+  "timestamp": "2025-06-22T15:21:09.954Z",
+  "mall": "장수몰",
+  "url": "https://www.장수몰.com/",
+  "platform": "Unknown",
+  "title": "장수몰",
+  "foundCategories": [
+    {
+      "name": "사과",
+      "url": "https://www.장수몰.com./board/shop/list.php?ca_id=1010&ca_id2=1010"
+    },
+    {
+      "name": "사과",
+      "url": "https://www.장수몰.com./board/shop/list.php?ca_id=101010"
+    },
+    {
+      "name": "사과가공품",
+      "url": "https://www.장수몰.com./board/shop/list.php?ca_id=101020"
+    },
+    {
+      "name": "한우",
+      "url": "https://www.장수몰.com./board/shop/list.php?ca_id=1020&ca_id2=1020"
+    },
+    {
+      "name": "한우",
+      "url": "https://www.장수몰.com./board/shop/list.php?ca_id=102010"
+    },
+    {
+      "name": "한우가공품",
+      "url": "https://www.장수몰.com./board/shop/list.php?ca_id=102020"
+    },
+    {
+      "name": "농산물",
+      "url": "https://www.장수몰.com./board/shop/list.php?ca_id=1030&ca_id2=1030"
+    },
+    {
+      "name": "쌀/잡곡",
+      "url": "https://www.장수몰.com./board/shop/list.php?ca_id=103010"
+    },
+    {
+      "name": "과일",
+      "url": "https://www.장수몰.com./board/shop/list.php?ca_id=103020"
+    },
+    {
+      "name": "채소/나물",
+      "url": "https://www.장수몰.com./board/shop/list.php?ca_id=103030"
+    },
+    {
+      "name": "김치/반찬",
+      "url": "https://www.장수몰.com./board/shop/list.php?ca_id=103050"
+    },
+    {
+      "name": "축산물",
+      "url": "https://www.장수몰.com./board/shop/list.php?ca_id=1040&ca_id2=1040"
+    },
+    {
+      "name": "한돈",
+      "url": "https://www.장수몰.com./board/shop/list.php?ca_id=104020"
+    },
+    {
+      "name": "꿀",
+      "url": "https://www.장수몰.com./board/shop/list.php?ca_id=104030"
+    },
+    {
+      "name": "계란",
+      "url": "https://www.장수몰.com./board/shop/list.php?ca_id=104040"
+    },
+    {
+      "name": "가공식품",
+      "url": "https://www.장수몰.com./board/shop/list.php?ca_id=1050&ca_id2=1050"
+    },
+    {
+      "name": "오미자가공품",
+      "url": "https://www.장수몰.com./board/shop/list.php?ca_id=105010"
+    },
+    {
+      "name": "토마토가공품",
+      "url": "https://www.장수몰.com./board/shop/list.php?ca_id=105020"
+    },
+    {
+      "name": "과채주스",
+      "url": "https://www.장수몰.com./board/shop/list.php?ca_id=105030"
+    },
+    {
+      "name": "전통식품",
+      "url": "https://www.장수몰.com./board/shop/list.php?ca_id=105040"
+    }
+  ],
+  "productLinks": [
+    {
+      "text": "품절",
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1750210211"
+    },
+    {
+      "text": "♣[신규입점] 해맑은 텃밭 햇감자 7kg (2025년산) - 무선별(박스무게 제외 실중량) /순차배송",
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1750210211"
+    },
+    {
+      "text": "★[예약판매] 유기농 햇감자 5kg / 10kg",
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1750040110"
+    },
+    {
+      "text": "자유방목 난각번호 1번  NONGMO 유정란20구 \"6시내고향 출연농가\"",
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1710895383"
+    },
+    {
+      "text": "우성 영양 김치3종",
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1438047908"
+    },
+    {
+      "text": "♣ 어울림 오미자 청 750ml *1병",
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1472547434"
+    },
+    {
+      "text": "행복한농부 꺼먹돼지 세트1.2kg",
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1705306824"
+    },
+    {
+      "text": "(한우특별시) 장수한우 선물세트 [총 2kg / 불고기500g*2팩 + 국거리500g*1팩 + 장조림500g*1팩]",
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1732604300"
+    },
+    {
+      "text": "♥ 블루베리 생과(중과) -  순차배송(성암골 농장)",
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1560916798"
+    },
+    {
+      "text": "★(예약판매)무농약 블루베리 - 6월25일 순차배송(안녕채소)",
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1749106686"
+    },
+    {
+      "text": "자연이 허락한 야생화꿀 허니스틱 10개입",
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1739864482"
+    },
+    {
+      "text": "오미자즙 120ml *12포 - 청정장수오미자영농조합",
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1607496405"
+    },
+    {
+      "text": "청정장수 토마토즙 110ml  * 30포 / 60포",
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1624673297"
+    },
+    {
+      "text": "도깨비 오미자 효소원액 720ml",
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=39"
+    },
+    {
+      "text": "★\n                                                                    ★\n                                                                    ★\n                                                                    ★\n                                                                    ★\n                                                            (1)",
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=39#review"
+    },
+    {
+      "text": "★ 2025년 국산 햇고사리 100g / 200g / 400g",
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=100"
+    },
+    {
+      "text": "★\n                                                                    ★\n                                                                    ★\n                                                                    ★\n                                                                    ★\n                                                            (5)",
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=100#review"
+    },
+    {
+      "text": "논개고을쌀 10kg / 20kg",
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1440148468"
+    },
+    {
+      "text": "★\n                                                                    ★\n                                                                    ★\n                                                                    ★\n                                                                    ★\n                                                            (5)",
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1440148468#review"
+    },
+    {
+      "text": "♣ 어울림 건오미자",
+      "url": "https://www.장수몰.com/board/shop/item.php?it_id=1440404939"
+    }
+  ],
+  "urlPatterns": {
+    "products": [
+      "https://ilovegohyang.go.kr/items/details-main.html?code=G2002008329&exportMode=false",
+      "/board/shop/item.php?it_id=1750210211",
+      "/board/shop/item.php?it_id=1750040110",
+      "/board/shop/item.php?it_id=1710895383",
+      "/board/shop/item.php?it_id=1438047908",
+      "/board/shop/item.php?it_id=1472547434",
+      "/board/shop/item.php?it_id=1705306824",
+      "/board/shop/item.php?it_id=1732604300",
+      "/board/shop/item.php?it_id=1560916798",
+      "/board/shop/item.php?it_id=1749106686",
+      "/board/shop/item.php?it_id=1739864482",
+      "/board/shop/item.php?it_id=1607496405",
+      "/board/shop/item.php?it_id=1624673297",
+      "/board/shop/item.php?it_id=39",
+      "/board/shop/item.php?it_id=39#review",
+      "/board/shop/item.php?it_id=100",
+      "/board/shop/item.php?it_id=100#review",
+      "/board/shop/item.php?it_id=1440148468",
+      "/board/shop/item.php?it_id=1440148468#review",
+      "/board/shop/item.php?it_id=1440404939",
+      "/board/shop/item.php?it_id=1451974329",
+      "/board/shop/item.php?it_id=1451974329#review",
+      "/board/shop/item.php?it_id=1709803529",
+      "/board/shop/item.php?it_id=1709803529#review",
+      "/board/shop/item.php?it_id=1736419911",
+      "/board/shop/item.php?it_id=1742340784",
+      "/board/shop/item.php?it_id=1705301751",
+      "/board/shop/item.php?it_id=1703822741",
+      "/board/shop/item.php?it_id=1745366844",
+      "/board/shop/item.php?it_id=1547531930",
+      "/board/shop/item.php?it_id=1745293663",
+      "/board/shop/item.php?it_id=1704679409",
+      "/board/shop/item.php?it_id=1704939251",
+      "/board/shop/item.php?it_id=1651022453",
+      "/board/shop/item.php?it_id=1595563931",
+      "/board/shop/item.php?it_id=1689739744",
+      "/board/shop/item.php?it_id=1603768059",
+      "/board/shop/item.php?it_id=1465541970",
+      "/board/shop/item.php?it_id=1713326945",
+      "/board/shop/item.php?it_id=1740699676",
+      "/board/shop/item.php?it_id=1738832407",
+      "/board/shop/item.php?it_id=1738833123",
+      "/board/shop/item.php?it_id=1724755828",
+      "/board/shop/item.php?it_id=1665548676",
+      "/board/shop/item.php?it_id=84",
+      "/board/shop/item.php?it_id=1570148102",
+      "/board/shop/item.php?it_id=1441351243",
+      "/board/shop/item.php?it_id=1724756961",
+      "/board/shop/item.php?it_id=1651051684",
+      "/board/shop/item.php?it_id=1742343290",
+      "/board/shop/item.php?it_id=1714637096",
+      "/board/shop/item.php?it_id=1742340967",
+      "/board/shop/item.php?it_id=1714101714",
+      "/board/shop/item.php?it_id=1714357004",
+      "/board/shop/item.php?it_id=1736749965",
+      "/board/shop/item.php?it_id=1714358212",
+      "/board/shop/item.php?it_id=1666764453",
+      "/board/shop/item.php?it_id=1487900584",
+      "/board/shop/item.php?it_id=1670906519",
+      "/board/shop/item.php?it_id=1547534278",
+      "/board/shop/item.php?it_id=1583296029",
+      "/board/shop/item.php?it_id=1703825922",
+      "/board/shop/item.php?it_id=1705284094",
+      "/board/shop/item.php?it_id=1731660569",
+      "/board/shop/item.php?it_id=1736398192",
+      "/board/shop/item.php?it_id=1670906051",
+      "/board/shop/item.php?it_id=1603196239",
+      "/board/shop/item.php?it_id=1736750052",
+      "/board/shop/item.php?it_id=1741314938"
+    ],
+    "categories": [
+      "/board/shop/event_list.php",
+      "/board/shop/list_group_purchase.php",
+      "/board/shop/list.php?ca_id=101010&ca_id2=1010",
+      "/board/shop/list.php?ca_id=101020&ca_id2=1010",
+      "/board/shop/list.php?ca_id=102010&ca_id2=1020",
+      "/board/shop/list.php?ca_id=102020&ca_id2=1020",
+      "/board/shop/list.php?ca_id=103010&ca_id2=1030",
+      "/board/shop/list.php?ca_id=103020&ca_id2=1030",
+      "/board/shop/list.php?ca_id=103030&ca_id2=1030",
+      "/board/shop/list.php?ca_id=103050&ca_id2=1030",
+      "/board/shop/list.php?ca_id=104020&ca_id2=1040",
+      "/board/shop/list.php?ca_id=104030&ca_id2=1040",
+      "/board/shop/list.php?ca_id=104040&ca_id2=1040",
+      "/board/shop/list.php?ca_id=105010&ca_id2=1050",
+      "/board/shop/list.php?ca_id=105020&ca_id2=1050",
+      "/board/shop/list.php?ca_id=105030&ca_id2=1050",
+      "/board/shop/list.php?ca_id=105040&ca_id2=1050",
+      "/board/shop/list.php?ca_id=105050&ca_id2=1050",
+      "/board/shop/list.php?ca_id=106010&ca_id2=1060",
+      "/board/shop/list.php?ca_id=106020&ca_id2=1060",
+      "/board/shop/list.php?ca_id=106030&ca_id2=1060",
+      "/board/shop/list.php?ca_id=107010&ca_id2=1070",
+      "/board/shop/list.php?ca_id=107020&ca_id2=1070",
+      "/board/shop/list.php?ca_id=107030&ca_id2=1070",
+      "/board/mshop/farm_list.php "
+    ],
+    "shops": [
+      "/board/shop/event_list.php",
+      "/board/shop/list_group_purchase.php",
+      "/board/shop/item.php?it_id=1750210211",
+      "/board/shop/item.php?it_id=1750040110",
+      "/board/shop/item.php?it_id=1710895383",
+      "/board/shop/item.php?it_id=1438047908",
+      "/board/shop/item.php?it_id=1472547434",
+      "/board/shop/item.php?it_id=1705306824",
+      "/board/shop/item.php?it_id=1732604300",
+      "/board/shop/item.php?it_id=1560916798",
+      "/board/shop/item.php?it_id=1749106686",
+      "/board/shop/item.php?it_id=1739864482",
+      "/board/shop/item.php?it_id=1607496405",
+      "/board/shop/item.php?it_id=1624673297",
+      "/board/shop/item.php?it_id=39",
+      "/board/shop/item.php?it_id=39#review",
+      "/board/shop/item.php?it_id=100",
+      "/board/shop/item.php?it_id=100#review",
+      "/board/shop/item.php?it_id=1440148468",
+      "/board/shop/item.php?it_id=1440148468#review",
+      "/board/shop/item.php?it_id=1440404939",
+      "/board/shop/item.php?it_id=1451974329",
+      "/board/shop/item.php?it_id=1451974329#review",
+      "/board/shop/item.php?it_id=1709803529",
+      "/board/shop/item.php?it_id=1709803529#review",
+      "/board/shop/item.php?it_id=1736419911",
+      "/board/shop/item.php?it_id=1742340784",
+      "/board/shop/item.php?it_id=1705301751",
+      "/board/shop/item.php?it_id=1703822741",
+      "/board/shop/item.php?it_id=1745366844",
+      "/board/shop/item.php?it_id=1547531930",
+      "/board/shop/item.php?it_id=1745293663",
+      "/board/shop/item.php?it_id=1704679409",
+      "/board/shop/item.php?it_id=1704939251",
+      "/board/shop/item.php?it_id=1651022453",
+      "/board/shop/item.php?it_id=1595563931",
+      "/board/shop/item.php?it_id=1689739744",
+      "/board/shop/item.php?it_id=1603768059",
+      "/board/shop/item.php?it_id=1465541970",
+      "/board/shop/item.php?it_id=1713326945",
+      "/board/shop/item.php?it_id=1740699676",
+      "/board/shop/item.php?it_id=1738832407",
+      "/board/shop/item.php?it_id=1738833123",
+      "/board/shop/item.php?it_id=1724755828",
+      "/board/shop/item.php?it_id=1665548676",
+      "/board/shop/item.php?it_id=84",
+      "/board/shop/item.php?it_id=1570148102",
+      "/board/shop/item.php?it_id=1441351243",
+      "/board/shop/item.php?it_id=1724756961",
+      "/board/shop/item.php?it_id=1651051684",
+      "/board/shop/item.php?it_id=1742343290",
+      "/board/shop/item.php?it_id=1714637096",
+      "/board/shop/item.php?it_id=1742340967",
+      "/board/shop/item.php?it_id=1714101714",
+      "/board/shop/item.php?it_id=1714357004",
+      "/board/shop/item.php?it_id=1736749965",
+      "/board/shop/item.php?it_id=1714358212",
+      "/board/shop/item.php?it_id=1666764453",
+      "/board/shop/item.php?it_id=1487900584",
+      "/board/shop/item.php?it_id=1670906519",
+      "/board/shop/item.php?it_id=1547534278",
+      "/board/shop/item.php?it_id=1583296029",
+      "/board/shop/item.php?it_id=1703825922",
+      "/board/shop/item.php?it_id=1705284094",
+      "/board/shop/item.php?it_id=1731660569",
+      "/board/shop/item.php?it_id=1736398192",
+      "/board/shop/item.php?it_id=1670906051",
+      "/board/shop/item.php?it_id=1603196239",
+      "/board/shop/item.php?it_id=1736750052",
+      "/board/shop/item.php?it_id=1741314938",
+      "/board/shop/cart.php",
+      "/board/shop/order_inquiry.php",
+      "/board/shop/list.php?ca_id=101010&ca_id2=1010",
+      "/board/shop/list.php?ca_id=101020&ca_id2=1010",
+      "/board/shop/list.php?ca_id=102010&ca_id2=1020",
+      "/board/shop/list.php?ca_id=102020&ca_id2=1020",
+      "/board/shop/list.php?ca_id=103010&ca_id2=1030",
+      "/board/shop/list.php?ca_id=103020&ca_id2=1030",
+      "/board/shop/list.php?ca_id=103030&ca_id2=1030",
+      "/board/shop/list.php?ca_id=103050&ca_id2=1030",
+      "/board/shop/list.php?ca_id=104020&ca_id2=1040",
+      "/board/shop/list.php?ca_id=104030&ca_id2=1040",
+      "/board/shop/list.php?ca_id=104040&ca_id2=1040",
+      "/board/shop/list.php?ca_id=105010&ca_id2=1050",
+      "/board/shop/list.php?ca_id=105020&ca_id2=1050",
+      "/board/shop/list.php?ca_id=105030&ca_id2=1050",
+      "/board/shop/list.php?ca_id=105040&ca_id2=1050",
+      "/board/shop/list.php?ca_id=105050&ca_id2=1050",
+      "/board/shop/list.php?ca_id=106010&ca_id2=1060",
+      "/board/shop/list.php?ca_id=106020&ca_id2=1060",
+      "/board/shop/list.php?ca_id=106030&ca_id2=1060",
+      "/board/shop/list.php?ca_id=107010&ca_id2=1070",
+      "/board/shop/list.php?ca_id=107020&ca_id2=1070",
+      "/board/shop/list.php?ca_id=107030&ca_id2=1070",
+      "/board/mshop/farm_list.php "
+    ]
+  },
+  "productGrids": [],
+  "imageCount": 75,
+  "recommendations": [
+    "Category links found - explore these for product listings",
+    "Direct product links found - can extract product details",
+    "Product URL patterns identified - use for systematic scraping",
+    "Product images found - visual content available"
+  ]
+}

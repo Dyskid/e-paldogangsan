@@ -1,0 +1,244 @@
+{
+  "mallName": "광명가치몰 (광명시사회적경제센터)",
+  "mallUrl": "https://gmsocial.or.kr/mall/",
+  "categoryStructure": [
+    {
+      "code": "0001",
+      "name": "생활/리빙",
+      "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=0001",
+      "subcategories": [
+        {
+          "code": "00010001",
+          "name": "생활용품",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00010001"
+        },
+        {
+          "code": "00010002",
+          "name": "교육ㆍ완구",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00010002"
+        },
+        {
+          "code": "00010003",
+          "name": "주방ㆍ욕실용품",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00010003"
+        },
+        {
+          "code": "00010004",
+          "name": "침구류",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00010004"
+        },
+        {
+          "code": "00010005",
+          "name": "의료기기ㆍ의약외품",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00010005"
+        },
+        {
+          "code": "00010006",
+          "name": "출산ㆍ육아",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00010006"
+        },
+        {
+          "code": "00010007",
+          "name": "반려동물",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00010007"
+        },
+        {
+          "code": "00010008",
+          "name": "자동차용품",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00010008"
+        },
+        {
+          "code": "00010009",
+          "name": "문화",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00010009"
+        }
+      ]
+    },
+    {
+      "code": "0002",
+      "name": "패션/뷰티",
+      "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=0002",
+      "subcategories": [
+        {
+          "code": "00020001",
+          "name": "패션의류",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00020001"
+        },
+        {
+          "code": "00020002",
+          "name": "패션잡화",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00020002"
+        },
+        {
+          "code": "00020003",
+          "name": "화장품ㆍ미용",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00020003"
+        },
+        {
+          "code": "00020004",
+          "name": "마스크ㆍ팩",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00020004"
+        },
+        {
+          "code": "00020005",
+          "name": "뷰티소품",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00020005"
+        }
+      ]
+    },
+    {
+      "code": "0003",
+      "name": "디지털/가전",
+      "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=0003",
+      "subcategories": [
+        {
+          "code": "00030001",
+          "name": "SW/e-컨텐츠",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00030001"
+        },
+        {
+          "code": "00030002",
+          "name": "산업재료",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00030002"
+        },
+        {
+          "code": "00030003",
+          "name": "생활가전",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00030003"
+        },
+        {
+          "code": "00030004",
+          "name": "디지털기기",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00030004"
+        },
+        {
+          "code": "00030005",
+          "name": "휴대폰용품",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00030005"
+        }
+      ]
+    },
+    {
+      "code": "0004",
+      "name": "가구/인테리어",
+      "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=0004",
+      "subcategories": [
+        {
+          "code": "00040001",
+          "name": "가구",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00040001"
+        },
+        {
+          "code": "00040002",
+          "name": "인테리어 소품",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00040002"
+        },
+        {
+          "code": "00040003",
+          "name": "침구ㆍ홈데코",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00040003"
+        },
+        {
+          "code": "00040004",
+          "name": "커튼ㆍ블라인드",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00040004"
+        },
+        {
+          "code": "00040005",
+          "name": "DIY자재ㆍ용품",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00040005"
+        }
+      ]
+    },
+    {
+      "code": "0005",
+      "name": "스포츠/레저",
+      "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=0005",
+      "subcategories": [
+        {
+          "code": "00050001",
+          "name": "등산ㆍ캠핑ㆍ낚시",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00050001"
+        },
+        {
+          "code": "00050002",
+          "name": "골프용품",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00050002"
+        },
+        {
+          "code": "00050003",
+          "name": "스포츠의류",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00050003"
+        },
+        {
+          "code": "00050004",
+          "name": "스포츠ㆍ레저용품",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00050004"
+        }
+      ]
+    },
+    {
+      "code": "0006",
+      "name": "식품",
+      "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=0006",
+      "subcategories": [
+        {
+          "code": "00060001",
+          "name": "가공식품ㆍ과자ㆍ빙수",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00060001"
+        },
+        {
+          "code": "00060002",
+          "name": "커피ㆍ음료",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00060002"
+        },
+        {
+          "code": "00060003",
+          "name": "건강식품",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00060003"
+        },
+        {
+          "code": "00060004",
+          "name": "농수산물",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00060004"
+        },
+        {
+          "code": "00060005",
+          "name": "냉동ㆍ간편조리식품",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00060005"
+        },
+        {
+          "code": "00060006",
+          "name": "반찬ㆍ김치",
+          "url": "https://gmsocial.or.kr/mall/goods/list.php?category_code=00060006"
+        }
+      ]
+    }
+  ],
+  "productUrlPattern": "https://gmsocial.or.kr/mall/goods/view.php?product_id={productId}",
+  "categoryUrlPattern": "https://gmsocial.or.kr/mall/goods/list.php?category_code={categoryCode}",
+  "paginationPattern": "https://gmsocial.or.kr/mall/goods/list.php?category_code={categoryCode}&page={pageNumber}",
+  "totalCategories": 40,
+  "sampleProducts": [],
+  "technicalNotes": [
+    "Mall uses PHP-based system with standard query parameters",
+    "Product images hosted on shop-phinf.pstatic.net (Naver Smart Store CDN)",
+    "Categories use hierarchical numeric codes (e.g., 0001 for main, 00010001 for subcategory)",
+    "Pagination uses standard page parameter",
+    "No apparent AJAX loading - server-side rendering",
+    "Food category code is 0006",
+    "Product IDs are sequential numbers"
+  ],
+  "scrapingStrategy": {
+    "method": "Sequential category traversal with pagination",
+    "steps": [
+      "1. Iterate through all main categories (0001-0006)",
+      "2. For each category, iterate through all subcategories",
+      "3. For each category/subcategory, paginate through all pages",
+      "4. Extract product IDs from listing pages",
+      "5. Fetch individual product pages for detailed information",
+      "6. Parse product details including title, price, image, vendor"
+    ],
+    "estimatedProductCount": "Based on food category having 12 products, estimate 100-500 total products"
+  }
+}

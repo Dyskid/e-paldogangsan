@@ -1,0 +1,95 @@
+{
+  "homepage": {
+    "title": "양구몰",
+    "hasProductListing": true,
+    "categoryLinks": [
+      "https://yanggu-mall.com/tel:033-749-3320",
+      "https://yanggu-mall.com/board/?id=notice",
+      "https://yanggu-mall.com/board/?id=faq",
+      "https://yanggu-mall.com/board/?id=goods_qna",
+      "https://yanggu-mall.com/board/?id=goods_review",
+      "https://www.instagram.com/yanggu_mall/",
+      "https://www.facebook.com/yang9mall",
+      "https://yanggu-mall.com/goods/catalog?code=0001",
+      "https://yanggu-mall.com/goods/catalog?code=00010007",
+      "https://yanggu-mall.com/goods/catalog?code=00010002",
+      "https://yanggu-mall.com/goods/catalog?code=00010003",
+      "https://yanggu-mall.com/goods/catalog?code=00010006",
+      "https://yanggu-mall.com/goods/catalog?code=0003",
+      "https://yanggu-mall.com/goods/catalog?code=0002",
+      "https://yanggu-mall.com/goods/catalog?code=0021",
+      "https://yanggu-mall.com/goods/catalog?code=00210001",
+      "https://yanggu-mall.com/goods/catalog?code=00210002",
+      "https://yanggu-mall.com/goods/catalog?code=0017",
+      "https://yanggu-mall.com/goods/catalog?code=00170001",
+      "https://yanggu-mall.com/goods/catalog?code=00170002"
+    ],
+    "productLinks": [
+      "https://yanggu-mall.com/goods/brand?code=0002",
+      "https://yanggu-mall.com/goods/catalog?code=0001",
+      "https://yanggu-mall.com/goods/catalog?code=00010007",
+      "https://yanggu-mall.com/goods/catalog?code=00010002",
+      "https://yanggu-mall.com/goods/catalog?code=00010003",
+      "https://yanggu-mall.com/goods/catalog?code=00010006",
+      "https://yanggu-mall.com/goods/catalog?code=0003",
+      "https://yanggu-mall.com/goods/catalog?code=0002",
+      "https://yanggu-mall.com/goods/catalog?code=0021",
+      "https://yanggu-mall.com/goods/catalog?code=00210001",
+      "https://yanggu-mall.com/goods/brand?code=0002",
+      "https://yanggu-mall.com/goods/catalog?code=0001",
+      "https://yanggu-mall.com/goods/catalog?code=00010007",
+      "https://yanggu-mall.com/goods/catalog?code=00010002",
+      "https://yanggu-mall.com/goods/catalog?code=00010003",
+      "https://yanggu-mall.com/goods/brand?code=0002",
+      "https://yanggu-mall.com/goods/catalog?code=0001",
+      "https://yanggu-mall.com/goods/catalog?code=00010007",
+      "https://yanggu-mall.com/goods/catalog?code=00010002",
+      "https://yanggu-mall.com/goods/catalog?code=00010003",
+      "https://yanggu-mall.com/goods/brand?code=0002",
+      "https://yanggu-mall.com/goods/catalog?code=0001",
+      "https://yanggu-mall.com/goods/catalog?code=00010007",
+      "https://yanggu-mall.com/goods/catalog?code=00010002",
+      "https://yanggu-mall.com/goods/catalog?code=00010003",
+      "https://yanggu-mall.com/goods/brand?code=0002",
+      "https://yanggu-mall.com/goods/catalog?code=0001",
+      "https://yanggu-mall.com/goods/catalog?code=00010007",
+      "https://yanggu-mall.com/goods/catalog?code=00010002",
+      "https://yanggu-mall.com/goods/catalog?code=00010003"
+    ]
+  },
+  "categories": [
+    {
+      "name": "tel:033-749-3320",
+      "url": "https://yanggu-mall.com/tel:033-749-3320",
+      "productCount": 0
+    },
+    {
+      "name": "?id=notice",
+      "url": "https://yanggu-mall.com/board/?id=notice",
+      "productCount": 23
+    },
+    {
+      "name": "?id=faq",
+      "url": "https://yanggu-mall.com/board/?id=faq",
+      "productCount": 23
+    },
+    {
+      "name": "?id=goods_qna",
+      "url": "https://yanggu-mall.com/board/?id=goods_qna",
+      "productCount": 34
+    },
+    {
+      "name": "?id=goods_review",
+      "url": "https://yanggu-mall.com/board/?id=goods_review",
+      "productCount": 46
+    }
+  ],
+  "productUrlPattern": "Unknown pattern",
+  "findings": [
+    "홈페이지에서 20개 카테고리 링크 발견",
+    "총 10개 상품 URL 수집",
+    "상품 URL 패턴: Unknown pattern",
+    "분석된 카테고리: 5개",
+    "평균 카테고리당 상품: 25개"
+  ]
+}

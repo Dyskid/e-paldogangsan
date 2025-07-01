@@ -1,0 +1,11 @@
+Starting analysis of 의성장날 structure...
+
+=== STRUCTURE ANALYSIS ===
+Mall: 의성장날
+Platform: CYSO
+Detected patterns: 1
+Product selectors found: 2
+Category links found: 363
+Product links found: 87
+
+Results saved to: /mnt/c/Users/johndoe/Desktop/e-paldogangsan/scripts/output/esmall/esmall-structure-analysis.json

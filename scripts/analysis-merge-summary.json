@@ -1,0 +1,572 @@
+{
+  "timestamp": "2025-07-01T02:02:59.074Z",
+  "totalMalls": 94,
+  "mergedCount": 4,
+  "errorCount": 0,
+  "results": [
+    {
+      "mall": "01000",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "andongjang",
+      "status": "merged",
+      "hasAnalysis": true,
+      "hasStructure": true
+    },
+    {
+      "mall": "bmall",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "boseong",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "buan",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "cdmall",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "cgmall",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "chack3",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "chamds",
+      "status": "merged",
+      "hasAnalysis": true,
+      "hasStructure": true
+    },
+    {
+      "mall": "cheorwon",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "chuncheon",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "csmall",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "cyso",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "damyang",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "dangjinfarm",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "danpoong",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "donghae",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "edinomall",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "egnmall",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "ehongseong",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "ejeju",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "enamhae",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "esjang",
+      "status": "not_merged",
+      "hasAnalysis": false,
+      "hasStructure": false
+    },
+    {
+      "mall": "esmall",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "freshjb",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "gangneung",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "gcnodaji",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "gimhaemall",
+      "status": "not_merged",
+      "hasAnalysis": false,
+      "hasStructure": false
+    },
+    {
+      "mall": "gjmall",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "gmmall",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "gmsocial",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "gochang",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "goesan",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "gokseongmall",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "goseong",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "greengj",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "grmall",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "gsmall",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "gwdmall",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "gwpc",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "haegaram",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "haenam",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "hamanmall",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "hampyeong",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "hamyang",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "hgoodfarm",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "hnmiso",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "hoengseong",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "hongcheon",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "hwasunfarm",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "iksan",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "imsil",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "inje",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "jangsu",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "jcmall",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "jeongseon",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "jinan",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "jindoarirang",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "jinjudream",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "jnmall",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "jps",
+      "status": "not_merged",
+      "hasAnalysis": false,
+      "hasStructure": false
+    },
+    {
+      "mall": "kkimchi",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "marketgyeonggi",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "mgmall",
+      "status": "merged",
+      "hasAnalysis": true,
+      "hasStructure": true
+    },
+    {
+      "mall": "najumall",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "nongsarang",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "okjmall",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "onsim",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "ontongdaejeon",
+      "status": "merged",
+      "hasAnalysis": true,
+      "hasStructure": true
+    },
+    {
+      "mall": "osansemall",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "pohangmarket",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "samcheok",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "sanencheong",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "sclocal",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "seosanttre",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "shinan1004",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "sjmall",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "sunchang",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "taebaek",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "toyoae",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "ujmall",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "ulmall",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "wandofood",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "wemall",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "wonju",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "yanggu",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "yangju",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "yangyang",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "ycjang",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "ydmall",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "yeongam",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "yeongwol",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    },
+    {
+      "mall": "yeosumall",
+      "status": "renamed",
+      "hasAnalysis": false,
+      "hasStructure": true
+    },
+    {
+      "mall": "yjmarket",
+      "status": "not_merged",
+      "hasAnalysis": true,
+      "hasStructure": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "mallId": "grmall",
+  "mallName": "고령몰",
+  "url": "https://grmall.cyso.co.kr/",
+  "region": "경북",
+  "status": "success",
+  "structure": {
+    "hasCategories": true,
+    "urlPatterns": {
+      "homepage": "https://grmall.cyso.co.kr/"
+    },
+    "pagination": {
+      "type": "page-numbers"
+    },
+    "requiresJavaScript": false,
+    "dataLocation": {
+      "productListSelector": ".item-list"
+    }
+  }
+}

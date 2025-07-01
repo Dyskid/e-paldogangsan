@@ -1,0 +1,755 @@
+{
+  "url": "https://ontongdaejeon.ezwel.com/onnuri/main",
+  "title": "▒▒ 대전사랑몰 ▒▒",
+  "productSelectors": [
+    "[class*=\"goods\"]"
+  ],
+  "categoryLinks": [
+    "KT: https://biz.kt.com/html/product/bz_product_com.html?pc=3CDDF0",
+    "고객지원센터: https://ontongdaejeon.ezwel.com/onnuri/customerCenter/mainList",
+    "온누리 톡톡: https://ontongdaejeon.ezwel.com/onnuri/onnuriCommunity/onnuriCommunityList",
+    "메인 바로가기: https://ontongdaejeon.ezwel.com/cuser/main.ez",
+    "로그인: https://ontongdaejeon.ezwel.com/cuser/login/loginForm.ez",
+    "상담센터: https://ontongdaejeon.ezwel.com/cs/csMain.ez",
+    "대전사랑몰이란: https://ontongdaejeon.ezwel.com/cuser/event/mgrEventPageCenter.ez?eventCd=V0F9P2K6EK351991NYWYUDN3",
+    "모바일 지역몰: https://ontongdaejeon.ezwel.com/cuser/event/mgrEventPageCenter.ez?eventCd=2W03PYGHDB3491WIC0FAIQ26",
+    "가맹점 입점신청: https://ontongdaejeon.ezwel.com/cuser/event/mgrEventPageCenter.ez?eventCd=8ZF7XCSKU63534PU5D9AQ84K",
+    "개인정보관리: https://ontongdaejeon.ezwel.com/cuser/mypage/myInfoView.ez",
+    "주문내역조회: https://ontongdaejeon.ezwel.com/cuser/mypage/myOrderList.ez",
+    "적립금: https://ontongdaejeon.ezwel.com/cuser/mileage/reserveIntegreteHistoryForm.ez",
+    "쿠폰함: https://ontongdaejeon.ezwel.com/asp/aspLeftIframeLink.ez?url=//ecoupon.ezwel.com/coupon",
+    "대전스토어: https://ontongdaejeon.ezwel.com/asp/asp_main.ez?cspCd=mk-sijang",
+    "e쿠폰: https://ontongdaejeon.ezwel.com/ecoupon/ecMainIframeLink.ez",
+    "컬쳐IN대전: https://ontongdaejeon.ezwel.com/cuser/event/mgrEventPageCenter.ez?eventCd=O4M52PNPHB3637UKLBJ2VLAO",
+    "숙박: https://ontongdaejeon.ezwel.com/asp/asp_main.ez?cspCd=ez-checkin",
+    "개인정보처리방침: https://ontongdaejeon.ezwel.com/cuser/bokjiInfo/policy/userAgreement01.ez?clientType=E",
+    "이용약관이용약관: https://ontongdaejeon.ezwel.com/cuser/bokjiInfo/policy/userAgreement02.ez?clientType=E",
+    "서비스업체소개이지웰: https://ontongdaejeon.ezwel.com//www.ezwel.com",
+    "인증범위\n\t\t                                복지몰 서비스 운영(온라인복지몰,웰트리,온누리전통시장,이지웰pay,지역몰,B2B몰)\n\t\t                                \n\t\t                                유효기간 2022.12.21 ~ 2025.12.20: https://ontongdaejeon.ezwel.com//img.ezwelfare.net/welfare_upload/popup/img/2020/05/200522_cadmisms_popup.jpg"
+  ],
+  "totalProducts": 0,
+  "sampleProducts": [
+    {
+      "selector": "[class*=\"goods\"]",
+      "html": "\n\t<div class=\"inner\">\n\t\t<div class=\"tit_box\">\n             <h3>대전사랑몰 로컬상품관 OPEN</h3>\n             <p>대전 지역 소상공인 우수한 상품을 만나보세요!</p>\n        </div>\n\t\t<div class=\"goodsList\">\n\t\t\t\n\n\n\n\n\n\n\n\t\n\t\n\n\t\t\t\n\t\t\n\t\t\t<ul class=\"goods_4ea\">  \n\t\t\t\t \n\t        \t<li>  \n\t\t\t\t\t<div class=\"goods_over\"> \n\t\t\t\t\t\t<a href=\"javascri...",
+      "text": "대전사랑몰 로컬상품관 OPEN\n             대전 지역 소상공인 우수한 상품을 만나보세요!\n        \n\t\t\n\t\t\t\n\n\n\n\n\n\n\n\t\n\t\n\n\t\t\t\n\t\t\n\t\t\t  \n\t\t\t",
+      "links": [
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;"
+      ],
+      "images": [
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/5/17/13/1747457256878_df52f1db457e45bbaac9489d88c43e3b.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2023/2/8/14/1675835169729_2610e5a4f7474243824b0542c4be6bd9.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2020/9/9/17/1599639424042_eb4b40cc4e194261b715ac9d6aa9b66e.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2023/6/14/14/1686720710340_d5c60a673edb48debbf3f3023512c295.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2023/11/9/08/1699484743259_4da417ab547c4949b7ba9c82faedd73b.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/6/4/09/1717461888007_4d48415deecd4c5cad87b415669c799f.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/1/19/08/1705619387534_e53f20ffc1e2424fad780b152f0f1be1.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/2/5/17/1707120666006_72ed7554fef34f8e9f5e6addc03f42c0.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/4/17/16/1713337351713_a96ea71047924dbb8cac7d2a8c0049ef.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/4/10/1743730914254_f482753563c24880a755c7e4e2eb43d7.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/2/11/1743561145352_e3cd0bf5c0194f48805591109af7f540.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/15/21/1744720546742_ac0000609b1544219df714d9b213996f.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/7/17/16/1721199777106_654ea1a5df394bdda216972fd58c03d6.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/16/13/1744776502854_f1c1c8879e4e44a2be08b6eef8ee933f.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/16/13/1744778801807_4472dd01be0c4a4182499617c64f87e2.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/17/14/1744866830734_227be9acb75f424cbebf1c50c9b0d91b.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/18/13/1744950958005_1b5463d357ed4038a9078bea2cb1e2ab.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/1/24/18/1706087188905_83d79402fa9d41f6a57848a076431a5c.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/22/13/1745295269109_ae50d1e383b7420b99d1e519537e8201.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2021/6/30/11/1625021636935_d05df855ad2e4f32a4c26fceb854b9eb.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2022/3/4/15/1646374554447_f8ce0127c50648ea81d4a096dc7c63ff.png/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png"
+      ]
+    },
+    {
+      "selector": "[class*=\"goods\"]",
+      "html": "\n\t\t\t\n\n\n\n\n\n\n\n\t\n\t\n\n\t\t\t\n\t\t\n\t\t\t<ul class=\"goods_4ea\">  \n\t\t\t\t \n\t        \t<li>  \n\t\t\t\t\t<div class=\"goods_over\"> \n\t\t\t\t\t\t<a href=\"javascript:;\" class=\"sendTargetSectionLog\" style=\"cursor: pointer;\" data-ezpage=\"MAIN\" data-ezcategory=\"상품\" data-ezdetail=\"100416837\" onclick=\"fn_goGoodsDetail('100416837' ,'10010...",
+      "text": "대전 서구 \n\t\t\t                            [로컬상품관] 울 엄마가 좋아하는 옛날 옥수수빵 140g*10개 \n\t\t\t                      ",
+      "links": [
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;"
+      ],
+      "images": [
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/5/17/13/1747457256878_df52f1db457e45bbaac9489d88c43e3b.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2023/2/8/14/1675835169729_2610e5a4f7474243824b0542c4be6bd9.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2020/9/9/17/1599639424042_eb4b40cc4e194261b715ac9d6aa9b66e.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2023/6/14/14/1686720710340_d5c60a673edb48debbf3f3023512c295.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2023/11/9/08/1699484743259_4da417ab547c4949b7ba9c82faedd73b.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/6/4/09/1717461888007_4d48415deecd4c5cad87b415669c799f.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/1/19/08/1705619387534_e53f20ffc1e2424fad780b152f0f1be1.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/2/5/17/1707120666006_72ed7554fef34f8e9f5e6addc03f42c0.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/4/17/16/1713337351713_a96ea71047924dbb8cac7d2a8c0049ef.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/4/10/1743730914254_f482753563c24880a755c7e4e2eb43d7.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/2/11/1743561145352_e3cd0bf5c0194f48805591109af7f540.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/15/21/1744720546742_ac0000609b1544219df714d9b213996f.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/7/17/16/1721199777106_654ea1a5df394bdda216972fd58c03d6.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/16/13/1744776502854_f1c1c8879e4e44a2be08b6eef8ee933f.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/16/13/1744778801807_4472dd01be0c4a4182499617c64f87e2.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/17/14/1744866830734_227be9acb75f424cbebf1c50c9b0d91b.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/18/13/1744950958005_1b5463d357ed4038a9078bea2cb1e2ab.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2024/1/24/18/1706087188905_83d79402fa9d41f6a57848a076431a5c.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/4/22/13/1745295269109_ae50d1e383b7420b99d1e519537e8201.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2021/6/30/11/1625021636935_d05df855ad2e4f32a4c26fceb854b9eb.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2022/3/4/15/1646374554447_f8ce0127c50648ea81d4a096dc7c63ff.png/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png"
+      ]
+    },
+    {
+      "selector": "[class*=\"goods\"]",
+      "html": "  \n\t\t\t\t \n\t        \t<li>  \n\t\t\t\t\t<div class=\"goods_over\"> \n\t\t\t\t\t\t<a href=\"javascript:;\" class=\"sendTargetSectionLog\" style=\"cursor: pointer;\" data-ezpage=\"MAIN\" data-ezcategory=\"상품\" data-ezdetail=\"100416837\" onclick=\"fn_goGoodsDetail('100416837' ,'100101716', '1001');\"> \n\t                        <figu...",
+      "text": "대전 서구 \n\t\t\t                            [로컬상품관] 울 엄마가 좋아하는 옛날 옥수수빵 140g*10개 \n\t\t\t                      ",
+      "links": [
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;",
+        "javascript:;"
+      ],
+      "images": [
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2025/5/17/13/1747457256878_df52f1db457e45bbaac9489d88c43e3b.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2023/2/8/14/1675835169729_2610e5a4f7474243824b0542c4be6bd9.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2020/9/9/17/1599639424042_eb4b40cc4e194261b715ac9d6aa9b66e.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png",
+        "https://img.ezwelfare.net/welfare_market/upload/goods/images/2023/6/14/14/1686720710340_d5c60a673edb48debbf3f3023512c295.jpg/gio/resize/260x260!/quality/80/",
+        "https://img.ezwelfare.net/welfare_market/upload/comm/images/2025/4/29/10/1745890642376_18aba92a64194dd1805578cce813970a.png"
+      ]
+    }
+  ],
+  "structure": {
+    "timestamp": "2025-06-20T15:10:58.830Z",
+    "baseUrl": "https://ontongdaejeon.ezwel.com",
+    "pages": [],
+    "productStructure": {
+      "containers": 52,
+      "selectors": [],
+      "priceElements": [
+        {
+          "selector": "dd.price_area",
+          "text": "36,000원",
+          "html": "<p class=\"price\"><span>36,000</span>원</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "36,000원",
+          "html": "<span>36,000</span>원"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "24,000원 ~",
+          "html": "<p class=\"price\"><span>24,000</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "24,000원 ~",
+          "html": "<span>24,000</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "10,930원 ~",
+          "html": "<p class=\"price\"><span>10,930</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "10,930원 ~",
+          "html": "<span>10,930</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "18,600원",
+          "html": "<p class=\"price\"><span>18,600</span>원</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "18,600원",
+          "html": "<span>18,600</span>원"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "15,900원 ~",
+          "html": "<p class=\"price\"><span>15,900</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "15,900원 ~",
+          "html": "<span>15,900</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "33,250원 ~",
+          "html": "<p class=\"price\"><span>33,250</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "33,250원 ~",
+          "html": "<span>33,250</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "70,000원 ~",
+          "html": "<p class=\"price\"><span>70,000</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "70,000원 ~",
+          "html": "<span>70,000</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "16,400원 ~",
+          "html": "<p class=\"price\"><span>16,400</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "16,400원 ~",
+          "html": "<span>16,400</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "28,200원 ~",
+          "html": "<p class=\"price\"><span>28,200</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "28,200원 ~",
+          "html": "<span>28,200</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "10,000원 ~",
+          "html": "<p class=\"price\"><span>10,000</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "10,000원 ~",
+          "html": "<span>10,000</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "105,000원 ~",
+          "html": "<p class=\"price\"><span>105,000</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "105,000원 ~",
+          "html": "<span>105,000</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "15,000원",
+          "html": "<p class=\"price\"><span>15,000</span>원</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "15,000원",
+          "html": "<span>15,000</span>원"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "9,900원 ~",
+          "html": "<p class=\"price\"><span>9,900</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "9,900원 ~",
+          "html": "<span>9,900</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "32,500원 ~",
+          "html": "<p class=\"price\"><span>32,500</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "32,500원 ~",
+          "html": "<span>32,500</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "11,900원",
+          "html": "<p class=\"price\"><span>11,900</span>원</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "11,900원",
+          "html": "<span>11,900</span>원"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "348,400원 ~",
+          "html": "<p class=\"price\"><span>348,400</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "348,400원 ~",
+          "html": "<span>348,400</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "99,000원",
+          "html": "<p class=\"price\"><span>99,000</span>원</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "99,000원",
+          "html": "<span>99,000</span>원"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "30,000원 ~",
+          "html": "<p class=\"price\"><span>30,000</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "30,000원 ~",
+          "html": "<span>30,000</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "90,000원 ~",
+          "html": "<p class=\"price\"><span>90,000</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "90,000원 ~",
+          "html": "<span>90,000</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "42,800원",
+          "html": "<p class=\"price\"><span>42,800</span>원</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "42,800원",
+          "html": "<span>42,800</span>원"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "59,000원",
+          "html": "<p class=\"price\"><span>59,000</span>원</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "59,000원",
+          "html": "<span>59,000</span>원"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "160,000원 ~",
+          "html": "<p class=\"price\"><span>160,000</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "160,000원 ~",
+          "html": "<span>160,000</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "35,000원 ~",
+          "html": "<p class=\"price\"><span>35,000</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "35,000원 ~",
+          "html": "<span>35,000</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "35,000원",
+          "html": "<p class=\"price\"><span>35,000</span>원</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "35,000원",
+          "html": "<span>35,000</span>원"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "5,000원 ~",
+          "html": "<p class=\"price\"><span>5,000</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "5,000원 ~",
+          "html": "<span>5,000</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "19,000원 ~",
+          "html": "<p class=\"price\"><span>19,000</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "19,000원 ~",
+          "html": "<span>19,000</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "59,000원",
+          "html": "<p class=\"price\"><span>59,000</span>원</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "59,000원",
+          "html": "<span>59,000</span>원"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "63,000원 ~",
+          "html": "<p class=\"price\"><span>63,000</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "63,000원 ~",
+          "html": "<span>63,000</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "19,000원 ~",
+          "html": "<p class=\"price\"><span>19,000</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "19,000원 ~",
+          "html": "<span>19,000</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "24,000원 ~",
+          "html": "<p class=\"price\"><span>24,000</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "24,000원 ~",
+          "html": "<span>24,000</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "13,000원 ~",
+          "html": "<p class=\"price\"><span>13,000</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "13,000원 ~",
+          "html": "<span>13,000</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "11,000원 ~",
+          "html": "<p class=\"price\"><span>11,000</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "11,000원 ~",
+          "html": "<span>11,000</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "10,000원 ~",
+          "html": "<p class=\"price\"><span>10,000</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "10,000원 ~",
+          "html": "<span>10,000</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "15,500원 ~",
+          "html": "<p class=\"price\"><span>15,500</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "15,500원 ~",
+          "html": "<span>15,500</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "33,000원 ~",
+          "html": "<p class=\"price\"><span>33,000</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "33,000원 ~",
+          "html": "<span>33,000</span>원 ~"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "18,700원",
+          "html": "<p class=\"price\"><span>18,700</span>원</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "18,700원",
+          "html": "<span>18,700</span>원"
+        },
+        {
+          "selector": "dd.price_area",
+          "text": "38,800원 ~",
+          "html": "<p class=\"price\"><span>38,800</span>원 ~</p>"
+        },
+        {
+          "selector": "p.price",
+          "text": "38,800원 ~",
+          "html": "<span>38,800</span>원 ~"
+        }
+      ],
+      "linkPatterns": [
+        "fn_goGoodsDetail('100416837' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100280131' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100280148' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100300440' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100316997' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100327122' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100328968' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100331586' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100344826' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100407584' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100409914' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100412649' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100412698' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100412731' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100412741' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100413016' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100413169' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100413590' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100413602' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100116484' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100193706' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100264804' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100280161' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100280162' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100280163' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100338610' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100293112' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100298524' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100313095' ,'100101716', '1001');",
+        "fn_goGoodsDetail('100161994' ,'100101101', '1001');",
+        "fn_goGoodsDetail('100245660' ,'100101095', '1001');",
+        "fn_goGoodsDetail('100289749' ,'100101098', '1001');",
+        "fn_goGoodsDetail('100163527' ,'100101098', '1001');",
+        "fn_goGoodsDetail('100163448' ,'100101098', '1001');",
+        "fn_goGoodsDetail('100191661' ,'100100920', '1001');",
+        "fn_goGoodsDetail('100205686' ,'100101094', '1001');",
+        "fn_goGoodsDetail('100332356' ,'100101102', '1001');"
+      ]
+    },
+    "pricePatterns": [],
+    "findings": [
+      {
+        "type": "script",
+        "content": "\n\nfunction goSignUp(){\n\talert(\"대전사랑카드 사용이 가능한 온라인 지역몰입니다.\\n대전사랑카드 결제를 원하실 경우, 전용 앱을 통해 잔액 조회 및 충전 후 이용해주세요.\");\n\tlocation.href = \"https://ontongdaejeon.ezwel.com/cuser/login/localpayAgreeAction.ez\";\n}\nj$(function(){\n    j$(\".top_slide_banner\").cycle({\n        fx: \"fade\",\n        timeout: 0,\n        prev:   \".btnPrev_topBar\",\n        next:   \".btnNext_topBar\"\n    });\n});\n..."
+      },
+      {
+        "type": "script",
+        "content": "\n(function(){if('1001'=='1001'&&'1001'=='1001'){(function(b,s,t,c,k){b[k]=s;b[s]=b[s]||function(){(b[s].q=b[s].q||[]).push(arguments)}; var f=t.getElementsByTagName(c)[0],j=t.createElement(c);j.async=true;j.src='//img.ezwelfare.net/welfare_new/js/ezwel.v.0.4.js?v='+getToday();f.parentNode.insertBefore(j,f);})(window,'_ezwel',document,'script','EZWELObj');_ezwel('init','');}})();\n\n$(document).ready(function (){\n\t//clientDiv = 고객사 구분(1001:복지관, 1002:지자체, 1003:B2C, 1004:지자체고객사) \n\tif($(\".search_tit s..."
+      },
+      {
+        "type": "script",
+        "content": "\n// 상품 상세(상품코드, 전시카테고리코드, 본인인증구분)\nfunction fn_goGoodsDetail(goodsCd, ctgCd, userAuditDiv) {\n\t\n\t// b2b용 접근권한제어 \n\tif('1001' != '1001'){\n\t\t// common.js\n\t\tvar chk = true;\n\t\t\n\t\tchkAccessYn(ctgCd,function(data){\n\t\t\t\n\t\t\tif(data.resultCode != '1001'){\n\t\t\t\talert(data.resultMsg);\n\t\t\t\tchk = false;\n\t\t\t}else{\n\t\t\t\tchk = true;\n\t\t\t}\n\t    });\n\t\t\n\t\tif(!chk){\n\t\t\treturn false;\n\t\t}\n\t}\n\t\n\t// common.js를 이 쪽으로 리다이렉트 했음 ( 이전 작업자가 상품상세 펑션을 두개 만들어놨는데 한쪽에만 유효성 검사하게 해놨음 그래서 전부 이쪽 바라보도록 수정 )\n\t// userAuditDiv : 상품 인증유형 ( 본인인증..."
+      },
+      {
+        "type": "ajax_pattern",
+        "content": "\nvar mPlaceholderLinkParamList = [];\n\n$(document).ready(function() {\n\t\n\tif ('false' == 'true') {\n\t\t$('body').contextmenu(function(e){ return false; });\n\t \t//s: 240509 현대카드 통합판촉몰 전체 카테고리 \n\t    $('.wrap.hd_card .menu_open').click(function(){\n\t        if($('.wrap.hd_card .allmenu').css(\"display\") == \"b..."
+      },
+      {
+        "type": "ajax_pattern",
+        "content": "\n$(document).ready(function() {\n\tvar _clientCd = 'ontongdaejeon';\n\tvar _filterGrp = function(){\n\t\tvar _filter = function(iconNm, iconSrc, cFn){\n\t\t\tif(cFn()){\n\t\t\t\t$(\"span.hash_tag:contains('\"+ iconNm +\"'), p.freedeli:contains('\"+ iconNm +\"')\").remove();\n\t\t\t\t$(\"span img.lazy\").each(function(){if($(thi..."
+      },
+      {
+        "type": "ajax_pattern",
+        "content": "\n(function(){if('1001'=='1001'&&'1001'=='1001'){(function(b,s,t,c,k){b[k]=s;b[s]=b[s]||function(){(b[s].q=b[s].q||[]).push(arguments)}; var f=t.getElementsByTagName(c)[0],j=t.createElement(c);j.async=true;j.src='//img.ezwelfare.net/welfare_new/js/ezwel.v.0.4.js?v='+getToday();f.parentNode.insertBefo..."
+      },
+      {
+        "type": "ajax_pattern",
+        "content": "\nvar mOptPhaseDiv = 0;\t\t//필수 옵션 개수\nvar mOptionalCount = 0;\nvar mGoodsCd;\nvar mCtgCd;\n\n/*\n * 장바구니 옵션 팝업 오픈\n */\nfunction fn_openBasket($obj, optPhaseDiv){\t\n\t//초기화\n\t$(\"#reqieredDiv\").html(\"\"); \n\t$(\"#optionalDiv\").html(\"\");  \n\t$(\"#selectedOptionDiv\").html(\"\");\n\t$(\"#basketTotalPrice\").text(0);  \n\t\n\tmGood..."
+      },
+      {
+        "type": "ajax_pattern",
+        "content": "\n    $(document).ready(function(){\n        $(\".lv_view_tab li\").click(function(){\n            $(\".lv_view_tab li\").removeClass(\"on\");\n            $(this).addClass(\"on\");\n            $(\".lv_view_tab li\").find(\"a\").removeClass(\"clr01\");\n            $(this).find(\"a\").addClass(\"clr01\");\n\n            var..."
+      },
+      {
+        "type": "ajax_pattern",
+        "content": "\n\n//개인정보처리방침\nfunction fn_openPrivacyPolicy() {\n\t//온누리 B2C면\n\tif($(\"#clientCd\").val() == \"onnuri_b2c\" || $(\"#clientCd\").val() == \"undefined\" || $(\"#clientCd\").val() == \"\") {\n\t\t//location.href = \"/onnuri/customerCenter/privacyPolicy?applyYear=2019\";\n\t\tlocation.href = \"/onnuri/customerCenter/privacyPoli..."
+      },
+      {
+        "type": "ajax_pattern",
+        "content": "\n// 상품 상세(상품코드, 전시카테고리코드, 본인인증구분)\nfunction fn_goGoodsDetail(goodsCd, ctgCd, userAuditDiv) {\n\t\n\t// b2b용 접근권한제어 \n\tif('1001' != '1001'){\n\t\t// common.js\n\t\tvar chk = true;\n\t\t\n\t\tchkAccessYn(ctgCd,function(data){\n\t\t\t\n\t\t\tif(data.resultCode != '1001'){\n\t\t\t\talert(data.resultMsg);\n\t\t\t\tchk = false;\n\t\t\t}else{\n\t\t..."
+      }
+    ]
+  },
+  "merged": true,
+  "mergedAt": "2025-07-01T02:02:59.015Z"
+}

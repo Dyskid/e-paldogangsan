@@ -1,0 +1,20 @@
+{
+  "pageUrl": "https://www.sjlocal.or.kr/sj/search_product",
+  "productsFound": false,
+  "productData": [],
+  "totalProductElements": 0,
+  "possibleEndpoints": [],
+  "forms": [
+    {
+      "action": "/sj/search_product",
+      "method": "get"
+    }
+  ],
+  "hasPagination": true,
+  "pageStructure": {
+    "hasTable": true,
+    "hasGrid": true,
+    "hasList": true,
+    "hasCards": false
+  }
+}

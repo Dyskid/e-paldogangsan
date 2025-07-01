@@ -1,0 +1,87 @@
+{
+  "mallId": "andongjang",
+  "mallName": "안동장터",
+  "url": "https://andongjang.andong.go.kr/",
+  "region": "경북",
+  "status": "error",
+  "error": "unable to verify the first certificate",
+  "structure": {
+    "name": "안동장터",
+    "url": "https://andongjang.cyso.co.kr/",
+    "region": "경북",
+    "platform": "youngcart5",
+    "categories": {
+      "structure": "/shop/list.php?ca_id={categoryId}",
+      "mainCategories": [
+        {
+          "name": "쌀/잡곡",
+          "id": "ad40",
+          "url": "/shop/list.php?ca_id=ad40",
+          "subcategories": [
+            {
+              "name": "쌀(백미)",
+              "id": "ad4010"
+            },
+            {
+              "name": "현미/보리쌀/찹쌀",
+              "id": "ad4020"
+            },
+            {
+              "name": "혼합곡",
+              "id": "ad4030"
+            },
+            {
+              "name": "조/수수/기장/흑미",
+              "id": "ad4040"
+            },
+            {
+              "name": "콩/백태/팥/서리태/녹두",
+              "id": "ad4050"
+            },
+            {
+              "name": "참깨/들깨",
+              "id": "ad4060"
+            },
+            {
+              "name": "잡곡 패키지 상품",
+              "id": "ad4070"
+            }
+          ]
+        }
+      ],
+      "urlPattern": "/shop/list.php?ca_id={categoryId}"
+    },
+    "products": {
+      "htmlStructure": "ul-li based",
+      "containerSelector": ".sct_li",
+      "dataLocation": "inside .sct wrapper",
+      "selectors": {
+        "wrapper": ".sct",
+        "item": ".sct_li",
+        "image": ".sct_img img",
+        "title": ".sct_name a",
+        "price": ".sct_price",
+        "link": ".sct_name a",
+        "icon": ".sct_icon"
+      }
+    },
+    "pagination": {
+      "type": "standard",
+      "selector": ".pg_wrap",
+      "urlPattern": "&page={pageNumber}",
+      "hasNext": true,
+      "hasPrev": false
+    },
+    "dynamicLoading": {
+      "required": false,
+      "type": "static"
+    },
+    "notes": {
+      "특이사항": "영카트5 기반 쇼핑몰",
+      "제품URL패턴": "/shop/item.php?it_id={productId}",
+      "카테고리코드": "ad로 시작하는 계층구조"
+    }
+  },
+  "merged": true,
+  "mergedAt": "2025-07-01T02:02:56.274Z"
+}

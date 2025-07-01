@@ -1,0 +1,653 @@
+[
+  {
+    "id": "we-mall",
+    "name": "우리몰",
+    "engname": "We Mall",
+    "url": "https://wemall.kr",
+    "region": "대구"
+  },
+  {
+    "id": "cham-dalseong-dalseong-county",
+    "name": "참달성 (달성군)",
+    "engname": "Cham Dalseong (Dalseong County)",
+    "url": "https://chamds.com",
+    "region": "대구"
+  },
+  {
+    "id": "gwangju-kimchi-mall",
+    "name": "광주김치몰",
+    "engname": "Gwangju Kimchi Mall",
+    "url": "https://www.k-kimchi.kr/index.php",
+    "region": "광주"
+  },
+  {
+    "id": "daejeon-love-mall",
+    "name": "대전사랑몰",
+    "engname": "Daejeon Love Mall",
+    "url": "https://ontongdaejeon.ezwel.com/onnuri/main",
+    "region": "대전"
+  },
+  {
+    "id": "chack-chack-chack",
+    "name": "착착착",
+    "engname": "Chack Chack Chack",
+    "url": "https://www.chack3.com/",
+    "region": "경기"
+  },
+  {
+    "id": "osan-together-market",
+    "name": "오산함께장터",
+    "engname": "Osan Together Market",
+    "url": "http://www.osansemall.com/",
+    "region": "경기"
+  },
+  {
+    "id": "gwangmyeong-value-mall",
+    "name": "광명가치몰",
+    "engname": "Gwangmyeong Value Mall",
+    "url": "http://gmsocial.mangotree.co.kr/mall/",
+    "region": "경기"
+  },
+  {
+    "id": "yangju-farmers-market",
+    "name": "양주농부마켓",
+    "engname": "Yangju Farmers Market",
+    "url": "https://market.yangju.go.kr/",
+    "region": "경기"
+  },
+  {
+    "id": "market-gyeonggi",
+    "name": "마켓경기",
+    "engname": "Market Gyeonggi",
+    "url": "https://smartstore.naver.com/marketgyeonggi",
+    "region": "경기"
+  },
+  {
+    "id": "gangwon-the-mall",
+    "name": "강원더몰",
+    "engname": "Gangwon The Mall",
+    "url": "https://gwdmall.kr/",
+    "region": "강원"
+  },
+  {
+    "id": "wonju-mall",
+    "name": "원주몰",
+    "engname": "Wonju Mall",
+    "url": "https://wonju-mall.co.kr/",
+    "region": "강원"
+  },
+  {
+    "id": "gangneung-mall",
+    "name": "강릉몰",
+    "engname": "Gangneung Mall",
+    "url": "https://gangneung-mall.com/",
+    "region": "강원"
+  },
+  {
+    "id": "goseong-mall",
+    "name": "고성몰",
+    "engname": "Goseong Mall",
+    "url": "https://gwgoseong-mall.com/",
+    "region": "강원"
+  },
+  {
+    "id": "donghae-mall",
+    "name": "동해몰",
+    "engname": "Donghae Mall",
+    "url": "https://donghae-mall.com/",
+    "region": "강원"
+  },
+  {
+    "id": "samcheok-mall",
+    "name": "삼척몰",
+    "engname": "Samcheok Mall",
+    "url": "https://samcheok-mall.com/",
+    "region": "강원"
+  },
+  {
+    "id": "yanggu-mall",
+    "name": "양구몰",
+    "engname": "Yanggu Mall",
+    "url": "https://yanggu-mall.com/",
+    "region": "강원"
+  },
+  {
+    "id": "yangyang-mall",
+    "name": "양양몰",
+    "engname": "Yangyang Mall",
+    "url": "https://yangyang-mall.com/",
+    "region": "강원"
+  },
+  {
+    "id": "yeongwol-mall",
+    "name": "영월몰",
+    "engname": "Yeongwol Mall",
+    "url": "https://yeongwol-mall.com/",
+    "region": "강원"
+  },
+  {
+    "id": "inje-mall",
+    "name": "인제몰",
+    "engname": "Inje Mall",
+    "url": "https://inje-mall.com/",
+    "region": "강원"
+  },
+  {
+    "id": "cheorwon-mall",
+    "name": "철원몰",
+    "engname": "Cheorwon Mall",
+    "url": "https://cheorwon-mall.com/",
+    "region": "강원"
+  },
+  {
+    "id": "jeongseon-mall",
+    "name": "정선몰",
+    "engname": "Jeongseon Mall",
+    "url": "https://jeongseon-mall.com/",
+    "region": "강원"
+  },
+  {
+    "id": "taebaek-mall",
+    "name": "태백몰",
+    "engname": "Taebaek Mall",
+    "url": "https://taebaek-mall.com/",
+    "region": "강원"
+  },
+  {
+    "id": "hoengseong-mall",
+    "name": "횡성몰",
+    "engname": "Hoengseong Mall",
+    "url": "https://hoengseong-mall.com/",
+    "region": "강원"
+  },
+  {
+    "id": "chuncheon-mall",
+    "name": "춘천몰",
+    "engname": "Chuncheon Mall",
+    "url": "https://gwch-mall.com/",
+    "region": "강원"
+  },
+  {
+    "id": "hongcheon-mall",
+    "name": "홍천몰",
+    "engname": "Hongcheon Mall",
+    "url": "https://hongcheon-mall.com/",
+    "region": "강원"
+  },
+  {
+    "id": "pyeongchang-mall",
+    "name": "평창몰",
+    "engname": "Pyeongchang Mall",
+    "url": "https://gwpc-mall.com/",
+    "region": "강원"
+  },
+  {
+    "id": "eumseong-market",
+    "name": "음성장터",
+    "engname": "Eumseong Market",
+    "url": "https://www.esjang.go.kr/",
+    "region": "충북"
+  },
+  {
+    "id": "jincheon-mall",
+    "name": "진천몰",
+    "engname": "Jincheon Mall",
+    "url": "https://jcmall.net/",
+    "region": "충북"
+  },
+  {
+    "id": "goesan-market",
+    "name": "괴산장터",
+    "engname": "Goesan Market",
+    "url": "https://www.gsjangter.go.kr/",
+    "region": "충북"
+  },
+  {
+    "id": "farm-love",
+    "name": "농사랑",
+    "engname": "Farm Love",
+    "url": "https://nongsarang.co.kr/",
+    "region": "충남"
+  },
+  {
+    "id": "dangjin-farm",
+    "name": "당진팜",
+    "engname": "Dangjin Farm",
+    "url": "https://dangjinfarm.com/",
+    "region": "충남"
+  },
+  {
+    "id": "e-hongseong-market",
+    "name": "e홍성장터",
+    "engname": "e-Hongseong Market",
+    "url": "https://ehongseong.com/",
+    "region": "충남"
+  },
+  {
+    "id": "seosan-ttre",
+    "name": "서산뜨레",
+    "engname": "Seosan Ttre",
+    "url": "https://seosanttre.com/index.html",
+    "region": "충남"
+  },
+  {
+    "id": "buan-grandmas-garden",
+    "name": "부안 텃밭할매",
+    "engname": "Buan Grandma's Garden",
+    "url": "https://www.xn--9z2bv5bx25anyd.kr/",
+    "region": "전북"
+  },
+  {
+    "id": "maple-beauty-jeongeup",
+    "name": "단풍미인 (정읍)",
+    "engname": "Maple Beauty (Jeongeup)",
+    "url": "https://www.danpoongmall.kr/",
+    "region": "전북"
+  },
+  {
+    "id": "horizon-mall-gimje",
+    "name": "지평선몰(김제)",
+    "engname": "Horizon Mall (Gimje)",
+    "url": "https://jpsmall.com/",
+    "region": "전북"
+  },
+  {
+    "id": "jeonbuk-fresh-market",
+    "name": "전북생생장터",
+    "engname": "Jeonbuk Fresh Market",
+    "url": "https://freshjb.com/",
+    "region": "전북"
+  },
+  {
+    "id": "iksan-mall",
+    "name": "익산몰",
+    "engname": "Iksan Mall",
+    "url": "https://iksanmall.com/",
+    "region": "전북"
+  },
+  {
+    "id": "jinan-highland-mall",
+    "name": "진안고원몰",
+    "engname": "Jinan Highland Mall",
+    "url": "https://xn--299az5xoii3qb66f.com/",
+    "region": "전북"
+  },
+  {
+    "id": "jangsu-mall",
+    "name": "장수몰",
+    "engname": "Jangsu Mall",
+    "url": "https://www.xn--352bl9k1ze.com/",
+    "region": "전북"
+  },
+  {
+    "id": "gochang-market",
+    "name": "고창마켓",
+    "engname": "Gochang Market",
+    "url": "https://noblegochang.com/",
+    "region": "전북"
+  },
+  {
+    "id": "imsil-mall",
+    "name": "임실몰",
+    "engname": "Imsil Mall",
+    "url": "https://www.imsilin.kr/home",
+    "region": "전북"
+  },
+  {
+    "id": "sunchang-local-food-shopping-mall",
+    "name": "순창로컬푸드쇼핑몰",
+    "engname": "Sunchang Local Food Shopping Mall",
+    "url": "https://smartstore.naver.com/schfarm",
+    "region": "전북"
+  },
+  {
+    "id": "haegaram",
+    "name": "해가람",
+    "engname": "Haegaram",
+    "url": "https://haegaram.com",
+    "region": "전북"
+  },
+  {
+    "id": "namdo-market",
+    "name": "남도장터",
+    "engname": "Namdo Market",
+    "url": "https://www.jnmall.kr/",
+    "region": "전남"
+  },
+  {
+    "id": "yeosu-mall",
+    "name": "여수몰",
+    "engname": "Yeosu Mall",
+    "url": "http://www.yeosumall.co.kr/",
+    "region": "전남"
+  },
+  {
+    "id": "happy-good-farm",
+    "name": "해피굿팜",
+    "engname": "Happy Good Farm",
+    "url": "https://smartstore.naver.com/hgoodfarm",
+    "region": "전남"
+  },
+  {
+    "id": "boseong-mall",
+    "name": "보성몰",
+    "engname": "Boseong Mall",
+    "url": "https://boseongmall.co.kr/",
+    "region": "전남"
+  },
+  {
+    "id": "naju-mall",
+    "name": "나주몰",
+    "engname": "Naju Mall",
+    "url": "https://najumall.kr/",
+    "region": "전남"
+  },
+  {
+    "id": "suncheon-local-food-together-store",
+    "name": "순천로컬푸드함께가게",
+    "engname": "Suncheon Local Food Together Store",
+    "url": "https://sclocal.kr/",
+    "region": "전남"
+  },
+  {
+    "id": "shinan-1004-mall",
+    "name": "신안1004몰",
+    "engname": "Shinan 1004 Mall",
+    "url": "https://shinan1004mall.kr/",
+    "region": "전남"
+  },
+  {
+    "id": "jangheung-mall-mountain-sea-jangheung-mall",
+    "name": "장흥몰 (산들해랑장흥몰)",
+    "engname": "Jangheung Mall (Mountain Sea Jangheung Mall)",
+    "url": "https://okjmall.com/",
+    "region": "전남"
+  },
+  {
+    "id": "gichandeul-yeongam-mall",
+    "name": "기찬들영암몰",
+    "engname": "Gichandeul Yeongam Mall",
+    "url": "https://yeongammall.co.kr/",
+    "region": "전남"
+  },
+  {
+    "id": "jindo-arirang-mall",
+    "name": "진도아리랑몰",
+    "engname": "Jindo Arirang Mall",
+    "url": "https://jindoarirangmall.com/",
+    "region": "전남"
+  },
+  {
+    "id": "wando-county-e-shop",
+    "name": "완도군이숍",
+    "engname": "Wando County e-Shop",
+    "url": "https://wandofood.go.kr/",
+    "region": "전남"
+  },
+  {
+    "id": "hampyeong-cheonji-mall",
+    "name": "함평천지몰",
+    "engname": "Hampyeong Cheonji Mall",
+    "url": "https://xn--352bl9yz7b63kj6b.kr/",
+    "region": "전남"
+  },
+  {
+    "id": "haenam-smile",
+    "name": "해남미소",
+    "engname": "Haenam Smile",
+    "url": "https://www.hnmiso.com/kwa-home",
+    "region": "전남"
+  },
+  {
+    "id": "damyang-market",
+    "name": "담양장터",
+    "engname": "Damyang Market",
+    "url": "https://damyangmk.kr/",
+    "region": "전남"
+  },
+  {
+    "id": "green-trust-gangjin",
+    "name": "초록믿음(강진)",
+    "engname": "Green Trust (Gangjin)",
+    "url": "https://greengj.com/",
+    "region": "전남"
+  },
+  {
+    "id": "hwasun-farm",
+    "name": "화순팜",
+    "engname": "Hwasun Farm",
+    "url": "https://www.hwasunfarm.com/",
+    "region": "전남"
+  },
+  {
+    "id": "gokseong-mall-gokseong-agricultural-products-mall",
+    "name": "곡성몰 (곡성군농특산물중개몰)",
+    "engname": "Gokseong Mall (Gokseong Agricultural Products Mall)",
+    "url": "https://gokseongmall.com/",
+    "region": "전남"
+  },
+  {
+    "id": "cyso-gyeongbuk-mall",
+    "name": "사이소(경북몰)",
+    "engname": "Cyso (Gyeongbuk Mall)",
+    "url": "https://www.cyso.co.kr/",
+    "region": "경북"
+  },
+  {
+    "id": "sangju-myeongsil-sangju-mall",
+    "name": "상주 명실상주몰",
+    "engname": "Sangju Myeongsil Sangju Mall",
+    "url": "https://sjmall.cyso.co.kr/",
+    "region": "경북"
+  },
+  {
+    "id": "cheongdo-cheong-live",
+    "name": "청도 청리브",
+    "engname": "Cheongdo Cheong Live",
+    "url": "https://cdmall.cyso.co.kr",
+    "region": "경북"
+  },
+  {
+    "id": "yeongju-market-day",
+    "name": "영주장날",
+    "engname": "Yeongju Market Day",
+    "url": "https://yjmarket.cyso.co.kr/",
+    "region": "경북"
+  },
+  {
+    "id": "andong-market",
+    "name": "안동장터",
+    "engname": "Andong Market",
+    "url": "https://andongjang.andong.go.kr/",
+    "region": "경북"
+  },
+  {
+    "id": "cheongsong-mall",
+    "name": "청송몰",
+    "engname": "Cheongsong Mall",
+    "url": "https://csmall.cyso.co.kr/",
+    "region": "경북"
+  },
+  {
+    "id": "yeongyang-onsim-market",
+    "name": "영양온심마켓",
+    "engname": "Yeongyang Onsim Market",
+    "url": "https://onsim.cyso.co.kr/",
+    "region": "경북"
+  },
+  {
+    "id": "ulleungdo",
+    "name": "울릉도",
+    "engname": "Ulleungdo",
+    "url": "https://ulmall.cyso.co.kr",
+    "region": "경북"
+  },
+  {
+    "id": "bonghwa-market",
+    "name": "봉화장터",
+    "engname": "Bonghwa Market",
+    "url": "https://bmall.cyso.co.kr/",
+    "region": "경북"
+  },
+  {
+    "id": "goryeong-mall",
+    "name": "고령몰",
+    "engname": "Goryeong Mall",
+    "url": "https://grmall.cyso.co.kr/",
+    "region": "경북"
+  },
+  {
+    "id": "gimcheon-nodaji-market",
+    "name": "김천노다지장터",
+    "engname": "Gimcheon Nodaji Market",
+    "url": "http://gcnodaji.com/",
+    "region": "경북"
+  },
+  {
+    "id": "yecheon-market",
+    "name": "예천장터",
+    "engname": "Yecheon Market",
+    "url": "https://ycjang.cyso.co.kr/",
+    "region": "경북"
+  },
+  {
+    "id": "mungyeong-morning-of-saejae",
+    "name": "문경 새제의아침",
+    "engname": "Mungyeong Morning of Saejae",
+    "url": "https://mgmall.cyso.co.kr/",
+    "region": "경북"
+  },
+  {
+    "id": "chilgok-mall",
+    "name": "칠곡몰",
+    "engname": "Chilgok Mall",
+    "url": "https://cgmall.cyso.co.kr/",
+    "region": "경북"
+  },
+  {
+    "id": "uiseong-market-day",
+    "name": "의성장날",
+    "engname": "Uiseong Market Day",
+    "url": "https://esmall.cyso.co.kr/",
+    "region": "경북"
+  },
+  {
+    "id": "uljin-mall",
+    "name": "울진몰",
+    "engname": "Uljin Mall",
+    "url": "https://ujmall.cyso.co.kr/",
+    "region": "경북"
+  },
+  {
+    "id": "yeongdeok-market",
+    "name": "영덕장터",
+    "engname": "Yeongdeok Market",
+    "url": "https://ydmall.cyso.co.kr/",
+    "region": "경북"
+  },
+  {
+    "id": "gyeongsan-mall",
+    "name": "경산몰",
+    "engname": "Gyeongsan Mall",
+    "url": "https://gsmall.cyso.co.kr/",
+    "region": "경북"
+  },
+  {
+    "id": "gyeongju-mall",
+    "name": "경주몰",
+    "engname": "Gyeongju Mall",
+    "url": "https://gjmall.cyso.co.kr/",
+    "region": "경북"
+  },
+  {
+    "id": "gumi-farm",
+    "name": "구미팜",
+    "engname": "Gumi Farm",
+    "url": "https://gmmall.cyso.co.kr/",
+    "region": "경북"
+  },
+  {
+    "id": "starlight-village-market-yeongcheon",
+    "name": "별빛촌장터(영천)",
+    "engname": "Starlight Village Market (Yeongcheon)",
+    "url": "https://01000.cyso.co.kr/",
+    "region": "경북"
+  },
+  {
+    "id": "pohang-market",
+    "name": "포항마켓",
+    "engname": "Pohang Market",
+    "url": "https://pohangmarket.cyso.co.kr/",
+    "region": "경북"
+  },
+  {
+    "id": "e-gyeongnam-mall",
+    "name": "e경남몰",
+    "engname": "e-Gyeongnam Mall",
+    "url": "https://egnmall.kr",
+    "region": "경남"
+  },
+  {
+    "id": "toyoae-uiryeong",
+    "name": "토요애 (의령)",
+    "engname": "Toyoae (Uiryeong)",
+    "url": "https://toyoae.com/",
+    "region": "경남"
+  },
+  {
+    "id": "namhae-mall",
+    "name": "남해몰",
+    "engname": "Namhae Mall",
+    "url": "https://enamhae.co.kr/",
+    "region": "경남"
+  },
+  {
+    "id": "san-n-cheong-sancheong",
+    "name": "산엔청 (산청)",
+    "engname": "San N Cheong (Sancheong)",
+    "url": "https://sanencheong.com/",
+    "region": "경남"
+  },
+  {
+    "id": "dinosaur-land-goseong",
+    "name": "공룡나라 (고성)",
+    "engname": "Dinosaur Land (Goseong)",
+    "url": "https://www.edinomall.com/shop/smain/index.php",
+    "region": "경남"
+  },
+  {
+    "id": "hamyang-mall",
+    "name": "함양몰",
+    "engname": "Hamyang Mall",
+    "url": "https://2900.co.kr/",
+    "region": "경남"
+  },
+  {
+    "id": "jinju-dream",
+    "name": "진주드림",
+    "engname": "Jinju Dream",
+    "url": "https://jinjudream.com/",
+    "region": "경남"
+  },
+  {
+    "id": "haman-mall",
+    "name": "함안몰",
+    "engname": "Haman Mall",
+    "url": "https://hamanmall.com",
+    "region": "경남"
+  },
+  {
+    "id": "gimhae-on-mall",
+    "name": "김해온몰",
+    "engname": "Gimhae On Mall",
+    "url": "https://gimhaemall.kr",
+    "region": "경남"
+  },
+  {
+    "id": "e-jeju-mall",
+    "name": "이제주몰",
+    "engname": "e-Jeju Mall",
+    "url": "https://mall.ejeju.net/main/index.do",
+    "region": "제주"
+  }
+]

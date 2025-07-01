@@ -1,0 +1,8 @@
+{
+  "mallId": "imsil",
+  "mallName": "임실몰",
+  "url": "https://www.imsilin.kr/home",
+  "region": "전북",
+  "status": "error",
+  "error": "unable to verify the first certificate"
+}

@@ -1,0 +1,28 @@
+{
+  "mallId": "edinomall",
+  "mallName": "공룡나라 (고성)",
+  "url": "https://www.edinomall.com/shop/smain/index.php",
+  "region": "경남",
+  "status": "success",
+  "structure": {
+    "hasProducts": true,
+    "productInfo": {
+      "selector": "[class*=\"product\"]",
+      "count": 113,
+      "firstItem": "\n\t\t<ul class=\"p_img\">\n\t\t\t<a href=\"/shop/sgoods/goods_view.php?goodsno=2466&amp;category=\"><img src=\"../data/goods/1740035446000_i.jpg\" width=\"300\" class=\"\" alt=\"[�����纣���������չ���] 2025�� �� ���纣�� "
+    },
+    "hasCategories": false,
+    "hasPagination": false,
+    "totalLinks": 382,
+    "scripts": 64,
+    "hasReactRoot": false,
+    "urlPatterns": {
+      "homepage": "https://www.edinomall.com/shop/smain/index.php"
+    },
+    "pagination": {
+      "type": "none"
+    },
+    "requiresJavaScript": true,
+    "dataLocation": {}
+  }
+}

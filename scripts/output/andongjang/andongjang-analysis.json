@@ -1,0 +1,8 @@
+{
+  "mallId": "andongjang",
+  "mallName": "안동장터",
+  "url": "https://andongjang.andong.go.kr/",
+  "region": "경북",
+  "status": "error",
+  "error": "unable to verify the first certificate"
+}

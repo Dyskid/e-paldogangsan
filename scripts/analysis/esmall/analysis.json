@@ -1,0 +1,20 @@
+{
+  "mallId": "esmall",
+  "mallName": "의성장날",
+  "url": "https://esmall.cyso.co.kr/",
+  "region": "경북",
+  "status": "success",
+  "structure": {
+    "hasCategories": true,
+    "urlPatterns": {
+      "homepage": "https://esmall.cyso.co.kr/"
+    },
+    "pagination": {
+      "type": "page-numbers"
+    },
+    "requiresJavaScript": false,
+    "dataLocation": {
+      "productListSelector": ".item-list"
+    }
+  }
+}

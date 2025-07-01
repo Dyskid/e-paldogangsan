@@ -1,0 +1,20 @@
+{
+  "mallId": "gjmall",
+  "mallName": "경주몰",
+  "url": "https://gjmall.cyso.co.kr/",
+  "region": "경북",
+  "status": "success",
+  "structure": {
+    "hasCategories": true,
+    "urlPatterns": {
+      "homepage": "https://gjmall.cyso.co.kr/"
+    },
+    "pagination": {
+      "type": "page-numbers"
+    },
+    "requiresJavaScript": false,
+    "dataLocation": {
+      "productListSelector": ".item-list"
+    }
+  }
+}

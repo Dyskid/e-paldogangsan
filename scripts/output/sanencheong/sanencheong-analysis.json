@@ -1,0 +1,28 @@
+{
+  "mallId": "sanencheong",
+  "mallName": "산엔청 (산청)",
+  "url": "https://sanencheong.com/",
+  "region": "경남",
+  "status": "success",
+  "structure": {
+    "hasProducts": true,
+    "productInfo": {
+      "selector": "[class*=\"item\"]",
+      "count": 171,
+      "firstItem": "\n\t\t\t\t\t\t\t\t\t\t\t<a class=\"searched_item\" href=\"javascript:void(0)\">블루베리</a>\n\t\t\t\t\t\t\t\t\t\t"
+    },
+    "hasCategories": true,
+    "hasPagination": true,
+    "totalLinks": 575,
+    "scripts": 61,
+    "hasReactRoot": false,
+    "urlPatterns": {
+      "homepage": "https://sanencheong.com/"
+    },
+    "pagination": {
+      "type": "page-numbers"
+    },
+    "requiresJavaScript": true,
+    "dataLocation": {}
+  }
+}

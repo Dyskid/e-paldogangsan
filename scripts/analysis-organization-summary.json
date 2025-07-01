@@ -1,0 +1,620 @@
+{
+  "timestamp": "2025-07-01T02:01:29.608Z",
+  "totalMalls": 94,
+  "filesProcessed": 102,
+  "errors": 0,
+  "results": [
+    {
+      "mall": "01000",
+      "source": "01000-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "andongjang",
+      "source": "andongjang-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "andongjang",
+      "source": "andongjang-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "bmall",
+      "source": "bmall-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "boseong",
+      "source": "boseong-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "buan",
+      "source": "buan-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "cdmall",
+      "source": "cdmall-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "cgmall",
+      "source": "cgmall-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "chack3",
+      "source": "chack3-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "chamds",
+      "source": "chamds-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "chamds",
+      "source": "chamds-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "chamds",
+      "source": "chamds-detailed-analysis.json",
+      "target": "detailed-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "cheorwon",
+      "source": "cheorwon-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "chuncheon",
+      "source": "chuncheon-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "csmall",
+      "source": "csmall-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "cyso",
+      "source": "cyso-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "damyang",
+      "source": "damyang-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "dangjinfarm",
+      "source": "dangjinfarm-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "danpoong",
+      "source": "danpoong-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "donghae",
+      "source": "donghae-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "edinomall",
+      "source": "edinomall-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "egnmall",
+      "source": "egnmall-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "ehongseong",
+      "source": "ehongseong-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "ejeju",
+      "source": "jeju-mall-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "enamhae",
+      "source": "enamhae-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "esmall",
+      "source": "esmall-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "freshjb",
+      "source": "freshjb-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "gangneung",
+      "source": "gangneung-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "gcnodaji",
+      "source": "gcnodaji-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "gjmall",
+      "source": "gjmall-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "gmmall",
+      "source": "gmmall-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "gmsocial",
+      "source": "gmsocial-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "gochang",
+      "source": "gochang-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "gochang",
+      "source": "gochang-categories-analysis.json",
+      "target": "categories-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "goesan",
+      "source": "goesan-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "gokseongmall",
+      "source": "gokseongmall-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "goseong",
+      "source": "goseong-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "greengj",
+      "source": "greengj-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "grmall",
+      "source": "grmall-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "gsmall",
+      "source": "gsmall-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "gwdmall",
+      "source": "gwdmall-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "gwpc",
+      "source": "gwpc-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "haegaram",
+      "source": "haegaram-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "haenam",
+      "source": "haenam-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "hamanmall",
+      "source": "hamanmall-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "hampyeong",
+      "source": "hampyeong-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "hamyang",
+      "source": "hamyang-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "hgoodfarm",
+      "source": "hgoodfarm-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "hnmiso",
+      "source": "hnmiso-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "hoengseong",
+      "source": "hoengseong-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "hongcheon",
+      "source": "hongcheon-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "hwasunfarm",
+      "source": "hwasunfarm-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "iksan",
+      "source": "iksan-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "imsil",
+      "source": "imsil-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "inje",
+      "source": "inje-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "jangsu",
+      "source": "jangsu-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "jcmall",
+      "source": "jcmall-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "jeongseon",
+      "source": "jeongseon-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "jinan",
+      "source": "jinan-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "jindoarirang",
+      "source": "jindoarirang-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "jinjudream",
+      "source": "jinjudream-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "jnmall",
+      "source": "jnmall-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "kkimchi",
+      "source": "kkimchi-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "marketgyeonggi",
+      "source": "marketgyeonggi-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "mgmall",
+      "source": "mgmall-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "mgmall",
+      "source": "mgmall-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "najumall",
+      "source": "najumall-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "nongsarang",
+      "source": "nongsarang-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "nongsarang",
+      "source": "nongsarang-detailed-analysis.json",
+      "target": "detailed-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "okjmall",
+      "source": "okjmall-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "onsim",
+      "source": "onsim-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "ontongdaejeon",
+      "source": "ontongdaejeon-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "ontongdaejeon",
+      "source": "ontongdaejeon-price-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "osansemall",
+      "source": "osansemall-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "osansemall",
+      "source": "osansemall-main-analysis.json",
+      "target": "main-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "pohangmarket",
+      "source": "pohangmarket-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "samcheok",
+      "source": "samcheok-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "sanencheong",
+      "source": "sanencheong-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "sclocal",
+      "source": "sclocal-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "sclocal",
+      "source": "sjlocal-product-analysis.json",
+      "target": "product-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "sclocal",
+      "source": "sjlocal-simple-analysis.json",
+      "target": "simple-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "seosanttre",
+      "source": "seosanttre-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "shinan1004",
+      "source": "shinan1004-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "sjmall",
+      "source": "sjmall-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "sunchang",
+      "source": "sunchang-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "taebaek",
+      "source": "taebaek-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "toyoae",
+      "source": "toyoae-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "ujmall",
+      "source": "ujmall-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "ulmall",
+      "source": "ulmall-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "wandofood",
+      "source": "wandofood-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "wemall",
+      "source": "wemall-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "wonju",
+      "source": "wonju-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "yanggu",
+      "source": "yanggu-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "yangju",
+      "source": "yangju-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "yangyang",
+      "source": "yangyang-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "yangyang",
+      "source": "yangyang-comprehensive-analysis.json",
+      "target": "comprehensive-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "ycjang",
+      "source": "ycjang-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "ydmall",
+      "source": "ydmall-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "yeongam",
+      "source": "yeongam-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "yeongwol",
+      "source": "yeongwol-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "yeosumall",
+      "source": "yeosumall-structure-analysis.json",
+      "target": "structure-analysis.json",
+      "status": "success"
+    },
+    {
+      "mall": "yjmarket",
+      "source": "yjmarket-analysis.json",
+      "target": "analysis.json",
+      "status": "success"
+    }
+  ]
+}

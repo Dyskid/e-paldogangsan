@@ -1,0 +1,28 @@
+{
+  "mallId": "jinjudream",
+  "mallName": "진주드림",
+  "url": "https://jinjudream.com/",
+  "region": "경남",
+  "status": "success",
+  "structure": {
+    "hasProducts": true,
+    "productInfo": {
+      "selector": "[class*=\"product\"]",
+      "count": 1,
+      "firstItem": "\n                <a href=\"#;\"><i>☎</i><span><b>상품 및 발송 문의</b>는 <b>입점사</b>로 문의</span></a>\n            "
+    },
+    "hasCategories": true,
+    "hasPagination": true,
+    "totalLinks": 242,
+    "scripts": 48,
+    "hasReactRoot": false,
+    "urlPatterns": {
+      "homepage": "https://jinjudream.com/"
+    },
+    "pagination": {
+      "type": "page-numbers"
+    },
+    "requiresJavaScript": true,
+    "dataLocation": {}
+  }
+}

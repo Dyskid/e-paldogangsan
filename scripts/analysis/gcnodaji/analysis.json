@@ -1,0 +1,24 @@
+{
+  "mallId": "gcnodaji",
+  "mallName": "김천노다지장터",
+  "url": "http://gcnodaji.com/",
+  "region": "경북",
+  "status": "success",
+  "structure": {
+    "hasProducts": false,
+    "productInfo": null,
+    "hasCategories": false,
+    "hasPagination": false,
+    "totalLinks": 0,
+    "scripts": 1,
+    "hasReactRoot": false,
+    "urlPatterns": {
+      "homepage": "http://gcnodaji.com/"
+    },
+    "pagination": {
+      "type": "none"
+    },
+    "requiresJavaScript": false,
+    "dataLocation": {}
+  }
+}

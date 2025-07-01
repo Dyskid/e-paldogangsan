@@ -1,0 +1,28 @@
+{
+  "url": "https://cheorwon-mall.com/",
+  "timestamp": "2025-06-22T05:24:34.615Z",
+  "pageTitle": "철원몰",
+  "productLinksFound": 90,
+  "sampleProductLinks": [
+    "https://cheorwon-mall.com/goods/catalog?code=0002",
+    "https://cheorwon-mall.com/goods/catalog?code=00020001",
+    "https://cheorwon-mall.com/goods/catalog?code=00020004",
+    "https://cheorwon-mall.com/goods/catalog?code=00020002",
+    "https://cheorwon-mall.com/goods/catalog?code=00020003",
+    "https://cheorwon-mall.com/goods/catalog?code=0001",
+    "https://cheorwon-mall.com/goods/catalog?code=00010001",
+    "https://cheorwon-mall.com/goods/catalog?code=00010002",
+    "https://cheorwon-mall.com/goods/catalog?code=00010003",
+    "https://cheorwon-mall.com/goods/catalog?code=00010004"
+  ],
+  "navigationLinks": [
+    "aside menu: #category",
+    "최근 검색어: #recent-searched-list",
+    "최근본 상품: #recent-item-list"
+  ],
+  "recommendations": {
+    "primaryStrategy": "direct_product_links",
+    "productLinkPatterns": "Found product links",
+    "nextSteps": "Proceed with scraping individual product pages"
+  }
+}

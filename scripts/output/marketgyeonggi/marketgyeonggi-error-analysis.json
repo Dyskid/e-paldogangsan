@@ -1,0 +1,12 @@
+{
+  "mallName": "마켓경기",
+  "url": "https://smartstore.naver.com/marketgyeonggi",
+  "error": "Cannot read properties of undefined (reading 'data')",
+  "analyzedAt": "2025-07-01T02:14:22.167Z",
+  "recommendations": [
+    "This is a Naver SmartStore which may require special handling",
+    "Consider using Puppeteer/Playwright for JavaScript rendering",
+    "Check if the store URL is correct and active",
+    "Some SmartStores restrict access or require authentication"
+  ]
+}

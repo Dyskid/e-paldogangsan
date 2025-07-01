@@ -1,0 +1,20 @@
+{
+  "mallId": "ujmall",
+  "mallName": "울진몰",
+  "url": "https://ujmall.cyso.co.kr/",
+  "region": "경북",
+  "status": "success",
+  "structure": {
+    "hasCategories": true,
+    "urlPatterns": {
+      "homepage": "https://ujmall.cyso.co.kr/"
+    },
+    "pagination": {
+      "type": "page-numbers"
+    },
+    "requiresJavaScript": false,
+    "dataLocation": {
+      "productListSelector": ".item-list"
+    }
+  }
+}

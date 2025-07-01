@@ -1,0 +1,499 @@
+Starting analysis of 김천노다지장터 structure...
+Error analyzing 김천노다지장터 structure: AxiosError: Hostname/IP does not match certificate's altnames: Host: gcnodaji.com. is not in the cert's altnames: DNS:www.gcnodaji.com, DNS:dcugym.cu.ac.kr, DNS:dcuharmonica.cu.ac.kr, DNS:edu.cu.ac.kr, DNS:edu.gca.or.kr, DNS:intranet.gca.or.kr, DNS:irb.dcmc.co.kr, DNS:modules2.onsoft.kr, DNS:modules2s.onsoft.kr, DNS:modules3s.onsoft.kr, DNS:shop-mng.axiz.kr, DNS:shop-mngs.axiz.kr, DNS:spgr.cu.ac.kr, DNS:startup.cu.ac.kr, DNS:www.applekd.com, DNS:www.baenara.kr, DNS:www.boddari.kr, DNS:www.choifarm.kr, DNS:www.dawnfarm.kr, DNS:www.domane.kr, DNS:www.dylnp.com, DNS:www.gonine.kr, DNS:www.gookhoney.kr, DNS:www.hbpodo.net, DNS:www.hmelon.kr, DNS:www.kajogpodo.kr, DNS:www.khwasong.kr, DNS:www.mchon.kr, DNS:www.niccakorea.com, DNS:www.pddk.kr, DNS:www.podorgo.com, DNS:www.pyogo.or.kr, DNS:www.sanpapa.kr, DNS:www.vipsky.co.kr, DNS:www.xn--950b43dh5volb.kr, DNS:www.xn--bb0bnbx4dh90cstbd1m5uf.kr, DNS:www.xn--o39a513d.kr, DNS:www.yesfarm.kr, DNS:www.yjdd.co.kr
+    at Function.AxiosError.from (/mnt/c/Users/johndoe/Desktop/e-paldogangsan/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (/mnt/c/Users/johndoe/Desktop/e-paldogangsan/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:530:35)
+    at RedirectableRequest.emit (node:domain:489:12)
+    at ClientRequest.eventHandlers.<computed> (/mnt/c/Users/johndoe/Desktop/e-paldogangsan/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:518:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at Axios.request (/mnt/c/Users/johndoe/Desktop/e-paldogangsan/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async analyzeGcnodajiStructure (/mnt/c/Users/johndoe/Desktop/e-paldogangsan/scripts/analysis/gcnodaji/analyze-gcnodaji-structure.ts:18:22) {
+  cert: {
+    subject: [Object: null prototype] { CN: 'www.gcnodaji.com' },
+    issuer: [Object: null prototype] {
+      C: 'GB',
+      ST: 'Greater Manchester',
+      L: 'Salford',
+      O: 'Sectigo Limited',
+      CN: 'Sectigo RSA Domain Validation Secure Server CA'
+    },
+    subjectaltname: 'DNS:www.gcnodaji.com, DNS:dcugym.cu.ac.kr, DNS:dcuharmonica.cu.ac.kr, DNS:edu.cu.ac.kr, DNS:edu.gca.or.kr, DNS:intranet.gca.or.kr, DNS:irb.dcmc.co.kr, DNS:modules2.onsoft.kr, DNS:modules2s.onsoft.kr, DNS:modules3s.onsoft.kr, DNS:shop-mng.axiz.kr, DNS:shop-mngs.axiz.kr, DNS:spgr.cu.ac.kr, DNS:startup.cu.ac.kr, DNS:www.applekd.com, DNS:www.baenara.kr, DNS:www.boddari.kr, DNS:www.choifarm.kr, DNS:www.dawnfarm.kr, DNS:www.domane.kr, DNS:www.dylnp.com, DNS:www.gonine.kr, DNS:www.gookhoney.kr, DNS:www.hbpodo.net, DNS:www.hmelon.kr, DNS:www.kajogpodo.kr, DNS:www.khwasong.kr, DNS:www.mchon.kr, DNS:www.niccakorea.com, DNS:www.pddk.kr, DNS:www.podorgo.com, DNS:www.pyogo.or.kr, DNS:www.sanpapa.kr, DNS:www.vipsky.co.kr, DNS:www.xn--950b43dh5volb.kr, DNS:www.xn--bb0bnbx4dh90cstbd1m5uf.kr, DNS:www.xn--o39a513d.kr, DNS:www.yesfarm.kr, DNS:www.yjdd.co.kr',
+    infoAccess: [Object: null prototype] {
+      'CA Issuers - URI': [Array],
+      'OCSP - URI': [Array]
+    },
+    ca: false,
+    modulus: 'B5B2749CF7400727B07BDE80EE04797C142ABF3D7D92126FA8E622EEDEF4A0A11A0C512BCE2E32602613AB2E857B9BC4B68B1C9B79E5EFD2DB6150EE7EEA100004000D34668F19C4710EC7B09156A29703DA8AEC31E92564D7BC33B2C1011956BA21BDBAC9D94653759292B6D82BD4DFB528A2D87563D5DB52235AA7B9E4477F311C7BDB288033816B34E738EC619CFA2FE2702B96B918790478B0FD242EBA4841322AB07675919166E81B28AE074187E51317172BDA28D53F45F8A0A65411362806FAE89EDB49E25C1A41470BE7F82F43DBF0EDC84A59A19CD1F1DDBE565B4C813A68A7847436BDD64C042FF4062BC23E021C76DED909A47DB15C780980940D',
+    bits: 2048,
+    exponent: '0x10001',
+    pubkey: <Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 b5 b2 74 9c f7 40 07 27 b0 7b de 80 ee 04 79 7c 14 ... 244 more bytes>,
+    valid_from: 'Mar 31 00:00:00 2025 GMT',
+    valid_to: 'Apr  2 23:59:59 2026 GMT',
+    fingerprint: '11:49:72:C7:92:38:19:D9:54:D4:FD:A6:1B:E3:E1:C0:0D:10:B5:10',
+    fingerprint256: '3E:66:CE:6A:FC:05:96:C4:E7:03:92:95:E2:9A:F3:08:88:7F:66:0F:92:26:49:BC:29:A5:65:5B:8A:63:25:86',
+    fingerprint512: '11:67:AB:C7:B9:52:7E:01:A0:63:C0:4F:C3:0C:01:A0:EA:F1:4A:68:AB:BF:93:F6:21:C7:D9:61:A4:17:02:A9:6B:33:35:55:9A:89:40:45:51:E5:9F:77:B4:A4:CB:B0:D6:3D:17:7E:BD:8C:8C:3C:EA:06:B2:8F:B3:13:D9:3F',
+    ext_key_usage: [ '1.3.6.1.5.5.7.3.1', '1.3.6.1.5.5.7.3.2' ],
+    serialNumber: '20D986B891D031515680C4B162335DA1',
+    raw: <Buffer 30 82 08 d5 30 82 07 bd a0 03 02 01 02 02 10 20 d9 86 b8 91 d0 31 51 56 80 c4 b1 62 33 5d a1 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 81 8f 31 ... 2215 more bytes>,
+    issuerCertificate: {
+      subject: [Object: null prototype],
+      issuer: [Object: null prototype],
+      infoAccess: [Object: null prototype],
+      ca: true,
+      modulus: 'D67333D6D73C20D000D21745B8D63E07A23FC741EE3230C9B06CFDF49FCB12980F2D3F8D4D010C820F177F622EE9B84879FB16834EADD7322593B707BFB9503FA94CC3402AE939FFD981CA1F163241DA8026B9237A87201EE3FF209A3C95446F8775069040B4329316091008233ED2DD870F6F5D51146A0A69C54F017269CFD3934C6D04A0A31B827EB19AB9EDC59EC537789F9A0834FB562E58C4090E06645BBC37DCF19F2868A856B092A35C9FBB8898081B241DAB3085AEAFB02E9E7A9DC1C0421CE202F0EAE04AD2EF900EB4C14016F06F85424A64F7A430A0FEBF2EA3275A8E8B58B8ADC319178463ED6F56FD83CB6034C474BEE69DDBE1E4E5CA0C5F15',
+      bits: 2048,
+      exponent: '0x10001',
+      pubkey: <Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 d6 73 33 d6 d7 3c 20 d0 00 d2 17 45 b8 d6 3e 07 a2 ... 244 more bytes>,
+      valid_from: 'Nov  2 00:00:00 2018 GMT',
+      valid_to: 'Dec 31 23:59:59 2030 GMT',
+      fingerprint: '33:E4:E8:08:07:20:4C:2B:61:82:A3:A1:4B:59:1A:CD:25:B5:F0:DB',
+      fingerprint256: '7F:A4:FF:68:EC:04:A9:9D:75:28:D5:08:5F:94:90:7F:4D:1D:D1:C5:38:1B:AC:DC:83:2E:D5:C9:60:21:46:76',
+      fingerprint512: '98:3B:97:4E:45:9A:46:EB:7A:3C:88:50:EC:90:CC:16:D3:B6:D4:A1:50:5A:5B:CD:D7:10:C2:36:BA:F5:AA:DC:58:42:4B:19:2E:34:A1:47:73:2E:9D:43:6C:9F:C0:4D:89:6D:8A:77:00:FF:34:92:52:A5:75:14:F5:88:C6:A1',
+      ext_key_usage: [Array],
+      serialNumber: '7D5B5126B476BA11DB74160BBC530DA7',
+      raw: <Buffer 30 82 06 13 30 82 03 fb a0 03 02 01 02 02 10 7d 5b 51 26 b4 76 ba 11 db 74 16 0b bc 53 0d a7 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0c 05 00 30 81 88 31 ... 1509 more bytes>,
+      issuerCertificate: [Object]
+    }
+  },
+  host: 'gcnodaji.com',
+  reason: "Host: gcnodaji.com. is not in the cert's altnames: DNS:www.gcnodaji.com, DNS:dcugym.cu.ac.kr, DNS:dcuharmonica.cu.ac.kr, DNS:edu.cu.ac.kr, DNS:edu.gca.or.kr, DNS:intranet.gca.or.kr, DNS:irb.dcmc.co.kr, DNS:modules2.onsoft.kr, DNS:modules2s.onsoft.kr, DNS:modules3s.onsoft.kr, DNS:shop-mng.axiz.kr, DNS:shop-mngs.axiz.kr, DNS:spgr.cu.ac.kr, DNS:startup.cu.ac.kr, DNS:www.applekd.com, DNS:www.baenara.kr, DNS:www.boddari.kr, DNS:www.choifarm.kr, DNS:www.dawnfarm.kr, DNS:www.domane.kr, DNS:www.dylnp.com, DNS:www.gonine.kr, DNS:www.gookhoney.kr, DNS:www.hbpodo.net, DNS:www.hmelon.kr, DNS:www.kajogpodo.kr, DNS:www.khwasong.kr, DNS:www.mchon.kr, DNS:www.niccakorea.com, DNS:www.pddk.kr, DNS:www.podorgo.com, DNS:www.pyogo.or.kr, DNS:www.sanpapa.kr, DNS:www.vipsky.co.kr, DNS:www.xn--950b43dh5volb.kr, DNS:www.xn--bb0bnbx4dh90cstbd1m5uf.kr, DNS:www.xn--o39a513d.kr, DNS:www.yesfarm.kr, DNS:www.yjdd.co.kr",
+  code: 'ERR_TLS_CERT_ALTNAME_INVALID',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 30000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function [FormData]], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'get',
+    url: 'http://gcnodaji.com',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 65536,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: Infinity,
+      protocol: 'https:',
+      path: '/',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'gcnodaji.com',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/',
+      href: 'https://gcnodaji.com/',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      _header: 'GET / HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: gcnodaji.com\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'gcnodaji.com',
+      protocol: 'https:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'https://gcnodaji.com/',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: Hostname/IP does not match certificate's altnames: Host: gcnodaji.com. is not in the cert's altnames: DNS:www.gcnodaji.com, DNS:dcugym.cu.ac.kr, DNS:dcuharmonica.cu.ac.kr, DNS:edu.cu.ac.kr, DNS:edu.gca.or.kr, DNS:intranet.gca.or.kr, DNS:irb.dcmc.co.kr, DNS:modules2.onsoft.kr, DNS:modules2s.onsoft.kr, DNS:modules3s.onsoft.kr, DNS:shop-mng.axiz.kr, DNS:shop-mngs.axiz.kr, DNS:spgr.cu.ac.kr, DNS:startup.cu.ac.kr, DNS:www.applekd.com, DNS:www.baenara.kr, DNS:www.boddari.kr, DNS:www.choifarm.kr, DNS:www.dawnfarm.kr, DNS:www.domane.kr, DNS:www.dylnp.com, DNS:www.gonine.kr, DNS:www.gookhoney.kr, DNS:www.hbpodo.net, DNS:www.hmelon.kr, DNS:www.kajogpodo.kr, DNS:www.khwasong.kr, DNS:www.mchon.kr, DNS:www.niccakorea.com, DNS:www.pddk.kr, DNS:www.podorgo.com, DNS:www.pyogo.or.kr, DNS:www.sanpapa.kr, DNS:www.vipsky.co.kr, DNS:www.xn--950b43dh5volb.kr, DNS:www.xn--bb0bnbx4dh90cstbd1m5uf.kr, DNS:www.xn--o39a513d.kr, DNS:www.yesfarm.kr, DNS:www.yjdd.co.kr
+      at Object.checkServerIdentity (node:tls:386:12)
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1689:27)
+      at TLSSocket.emit (node:events:518:28)
+      at TLSSocket.emit (node:domain:489:12)
+      at TLSSocket._finishInit (node:_tls_wrap:1078:8)
+      at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:864:12) {
+    code: 'ERR_TLS_CERT_ALTNAME_INVALID',
+    reason: "Host: gcnodaji.com. is not in the cert's altnames: DNS:www.gcnodaji.com, DNS:dcugym.cu.ac.kr, DNS:dcuharmonica.cu.ac.kr, DNS:edu.cu.ac.kr, DNS:edu.gca.or.kr, DNS:intranet.gca.or.kr, DNS:irb.dcmc.co.kr, DNS:modules2.onsoft.kr, DNS:modules2s.onsoft.kr, DNS:modules3s.onsoft.kr, DNS:shop-mng.axiz.kr, DNS:shop-mngs.axiz.kr, DNS:spgr.cu.ac.kr, DNS:startup.cu.ac.kr, DNS:www.applekd.com, DNS:www.baenara.kr, DNS:www.boddari.kr, DNS:www.choifarm.kr, DNS:www.dawnfarm.kr, DNS:www.domane.kr, DNS:www.dylnp.com, DNS:www.gonine.kr, DNS:www.gookhoney.kr, DNS:www.hbpodo.net, DNS:www.hmelon.kr, DNS:www.kajogpodo.kr, DNS:www.khwasong.kr, DNS:www.mchon.kr, DNS:www.niccakorea.com, DNS:www.pddk.kr, DNS:www.podorgo.com, DNS:www.pyogo.or.kr, DNS:www.sanpapa.kr, DNS:www.vipsky.co.kr, DNS:www.xn--950b43dh5volb.kr, DNS:www.xn--bb0bnbx4dh90cstbd1m5uf.kr, DNS:www.xn--o39a513d.kr, DNS:www.yesfarm.kr, DNS:www.yjdd.co.kr",
+    host: 'gcnodaji.com',
+    cert: {
+      subject: [Object: null prototype],
+      issuer: [Object: null prototype],
+      subjectaltname: 'DNS:www.gcnodaji.com, DNS:dcugym.cu.ac.kr, DNS:dcuharmonica.cu.ac.kr, DNS:edu.cu.ac.kr, DNS:edu.gca.or.kr, DNS:intranet.gca.or.kr, DNS:irb.dcmc.co.kr, DNS:modules2.onsoft.kr, DNS:modules2s.onsoft.kr, DNS:modules3s.onsoft.kr, DNS:shop-mng.axiz.kr, DNS:shop-mngs.axiz.kr, DNS:spgr.cu.ac.kr, DNS:startup.cu.ac.kr, DNS:www.applekd.com, DNS:www.baenara.kr, DNS:www.boddari.kr, DNS:www.choifarm.kr, DNS:www.dawnfarm.kr, DNS:www.domane.kr, DNS:www.dylnp.com, DNS:www.gonine.kr, DNS:www.gookhoney.kr, DNS:www.hbpodo.net, DNS:www.hmelon.kr, DNS:www.kajogpodo.kr, DNS:www.khwasong.kr, DNS:www.mchon.kr, DNS:www.niccakorea.com, DNS:www.pddk.kr, DNS:www.podorgo.com, DNS:www.pyogo.or.kr, DNS:www.sanpapa.kr, DNS:www.vipsky.co.kr, DNS:www.xn--950b43dh5volb.kr, DNS:www.xn--bb0bnbx4dh90cstbd1m5uf.kr, DNS:www.xn--o39a513d.kr, DNS:www.yesfarm.kr, DNS:www.yjdd.co.kr',
+      infoAccess: [Object: null prototype],
+      ca: false,
+      modulus: 'B5B2749CF7400727B07BDE80EE04797C142ABF3D7D92126FA8E622EEDEF4A0A11A0C512BCE2E32602613AB2E857B9BC4B68B1C9B79E5EFD2DB6150EE7EEA100004000D34668F19C4710EC7B09156A29703DA8AEC31E92564D7BC33B2C1011956BA21BDBAC9D94653759292B6D82BD4DFB528A2D87563D5DB52235AA7B9E4477F311C7BDB288033816B34E738EC619CFA2FE2702B96B918790478B0FD242EBA4841322AB07675919166E81B28AE074187E51317172BDA28D53F45F8A0A65411362806FAE89EDB49E25C1A41470BE7F82F43DBF0EDC84A59A19CD1F1DDBE565B4C813A68A7847436BDD64C042FF4062BC23E021C76DED909A47DB15C780980940D',
+      bits: 2048,
+      exponent: '0x10001',
+      pubkey: <Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 b5 b2 74 9c f7 40 07 27 b0 7b de 80 ee 04 79 7c 14 ... 244 more bytes>,
+      valid_from: 'Mar 31 00:00:00 2025 GMT',
+      valid_to: 'Apr  2 23:59:59 2026 GMT',
+      fingerprint: '11:49:72:C7:92:38:19:D9:54:D4:FD:A6:1B:E3:E1:C0:0D:10:B5:10',
+      fingerprint256: '3E:66:CE:6A:FC:05:96:C4:E7:03:92:95:E2:9A:F3:08:88:7F:66:0F:92:26:49:BC:29:A5:65:5B:8A:63:25:86',
+      fingerprint512: '11:67:AB:C7:B9:52:7E:01:A0:63:C0:4F:C3:0C:01:A0:EA:F1:4A:68:AB:BF:93:F6:21:C7:D9:61:A4:17:02:A9:6B:33:35:55:9A:89:40:45:51:E5:9F:77:B4:A4:CB:B0:D6:3D:17:7E:BD:8C:8C:3C:EA:06:B2:8F:B3:13:D9:3F',
+      ext_key_usage: [Array],
+      serialNumber: '20D986B891D031515680C4B162335DA1',
+      raw: <Buffer 30 82 08 d5 30 82 07 bd a0 03 02 01 02 02 10 20 d9 86 b8 91 d0 31 51 56 80 c4 b1 62 33 5d a1 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 81 8f 31 ... 2215 more bytes>,
+      issuerCertificate: [Object]
+    }
+  }
+}
+AxiosError: Hostname/IP does not match certificate's altnames: Host: gcnodaji.com. is not in the cert's altnames: DNS:www.gcnodaji.com, DNS:dcugym.cu.ac.kr, DNS:dcuharmonica.cu.ac.kr, DNS:edu.cu.ac.kr, DNS:edu.gca.or.kr, DNS:intranet.gca.or.kr, DNS:irb.dcmc.co.kr, DNS:modules2.onsoft.kr, DNS:modules2s.onsoft.kr, DNS:modules3s.onsoft.kr, DNS:shop-mng.axiz.kr, DNS:shop-mngs.axiz.kr, DNS:spgr.cu.ac.kr, DNS:startup.cu.ac.kr, DNS:www.applekd.com, DNS:www.baenara.kr, DNS:www.boddari.kr, DNS:www.choifarm.kr, DNS:www.dawnfarm.kr, DNS:www.domane.kr, DNS:www.dylnp.com, DNS:www.gonine.kr, DNS:www.gookhoney.kr, DNS:www.hbpodo.net, DNS:www.hmelon.kr, DNS:www.kajogpodo.kr, DNS:www.khwasong.kr, DNS:www.mchon.kr, DNS:www.niccakorea.com, DNS:www.pddk.kr, DNS:www.podorgo.com, DNS:www.pyogo.or.kr, DNS:www.sanpapa.kr, DNS:www.vipsky.co.kr, DNS:www.xn--950b43dh5volb.kr, DNS:www.xn--bb0bnbx4dh90cstbd1m5uf.kr, DNS:www.xn--o39a513d.kr, DNS:www.yesfarm.kr, DNS:www.yjdd.co.kr
+    at Function.AxiosError.from (/mnt/c/Users/johndoe/Desktop/e-paldogangsan/node_modules/axios/lib/core/AxiosError.js:92:14)
+    at RedirectableRequest.handleRequestError (/mnt/c/Users/johndoe/Desktop/e-paldogangsan/node_modules/axios/lib/adapters/http.js:620:25)
+    at RedirectableRequest.emit (node:events:530:35)
+    at RedirectableRequest.emit (node:domain:489:12)
+    at ClientRequest.eventHandlers.<computed> (/mnt/c/Users/johndoe/Desktop/e-paldogangsan/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:518:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at Axios.request (/mnt/c/Users/johndoe/Desktop/e-paldogangsan/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async analyzeGcnodajiStructure (/mnt/c/Users/johndoe/Desktop/e-paldogangsan/scripts/analysis/gcnodaji/analyze-gcnodaji-structure.ts:18:22) {
+  cert: {
+    subject: [Object: null prototype] { CN: 'www.gcnodaji.com' },
+    issuer: [Object: null prototype] {
+      C: 'GB',
+      ST: 'Greater Manchester',
+      L: 'Salford',
+      O: 'Sectigo Limited',
+      CN: 'Sectigo RSA Domain Validation Secure Server CA'
+    },
+    subjectaltname: 'DNS:www.gcnodaji.com, DNS:dcugym.cu.ac.kr, DNS:dcuharmonica.cu.ac.kr, DNS:edu.cu.ac.kr, DNS:edu.gca.or.kr, DNS:intranet.gca.or.kr, DNS:irb.dcmc.co.kr, DNS:modules2.onsoft.kr, DNS:modules2s.onsoft.kr, DNS:modules3s.onsoft.kr, DNS:shop-mng.axiz.kr, DNS:shop-mngs.axiz.kr, DNS:spgr.cu.ac.kr, DNS:startup.cu.ac.kr, DNS:www.applekd.com, DNS:www.baenara.kr, DNS:www.boddari.kr, DNS:www.choifarm.kr, DNS:www.dawnfarm.kr, DNS:www.domane.kr, DNS:www.dylnp.com, DNS:www.gonine.kr, DNS:www.gookhoney.kr, DNS:www.hbpodo.net, DNS:www.hmelon.kr, DNS:www.kajogpodo.kr, DNS:www.khwasong.kr, DNS:www.mchon.kr, DNS:www.niccakorea.com, DNS:www.pddk.kr, DNS:www.podorgo.com, DNS:www.pyogo.or.kr, DNS:www.sanpapa.kr, DNS:www.vipsky.co.kr, DNS:www.xn--950b43dh5volb.kr, DNS:www.xn--bb0bnbx4dh90cstbd1m5uf.kr, DNS:www.xn--o39a513d.kr, DNS:www.yesfarm.kr, DNS:www.yjdd.co.kr',
+    infoAccess: [Object: null prototype] {
+      'CA Issuers - URI': [Array],
+      'OCSP - URI': [Array]
+    },
+    ca: false,
+    modulus: 'B5B2749CF7400727B07BDE80EE04797C142ABF3D7D92126FA8E622EEDEF4A0A11A0C512BCE2E32602613AB2E857B9BC4B68B1C9B79E5EFD2DB6150EE7EEA100004000D34668F19C4710EC7B09156A29703DA8AEC31E92564D7BC33B2C1011956BA21BDBAC9D94653759292B6D82BD4DFB528A2D87563D5DB52235AA7B9E4477F311C7BDB288033816B34E738EC619CFA2FE2702B96B918790478B0FD242EBA4841322AB07675919166E81B28AE074187E51317172BDA28D53F45F8A0A65411362806FAE89EDB49E25C1A41470BE7F82F43DBF0EDC84A59A19CD1F1DDBE565B4C813A68A7847436BDD64C042FF4062BC23E021C76DED909A47DB15C780980940D',
+    bits: 2048,
+    exponent: '0x10001',
+    pubkey: <Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 b5 b2 74 9c f7 40 07 27 b0 7b de 80 ee 04 79 7c 14 ... 244 more bytes>,
+    valid_from: 'Mar 31 00:00:00 2025 GMT',
+    valid_to: 'Apr  2 23:59:59 2026 GMT',
+    fingerprint: '11:49:72:C7:92:38:19:D9:54:D4:FD:A6:1B:E3:E1:C0:0D:10:B5:10',
+    fingerprint256: '3E:66:CE:6A:FC:05:96:C4:E7:03:92:95:E2:9A:F3:08:88:7F:66:0F:92:26:49:BC:29:A5:65:5B:8A:63:25:86',
+    fingerprint512: '11:67:AB:C7:B9:52:7E:01:A0:63:C0:4F:C3:0C:01:A0:EA:F1:4A:68:AB:BF:93:F6:21:C7:D9:61:A4:17:02:A9:6B:33:35:55:9A:89:40:45:51:E5:9F:77:B4:A4:CB:B0:D6:3D:17:7E:BD:8C:8C:3C:EA:06:B2:8F:B3:13:D9:3F',
+    ext_key_usage: [ '1.3.6.1.5.5.7.3.1', '1.3.6.1.5.5.7.3.2' ],
+    serialNumber: '20D986B891D031515680C4B162335DA1',
+    raw: <Buffer 30 82 08 d5 30 82 07 bd a0 03 02 01 02 02 10 20 d9 86 b8 91 d0 31 51 56 80 c4 b1 62 33 5d a1 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 81 8f 31 ... 2215 more bytes>,
+    issuerCertificate: {
+      subject: [Object: null prototype],
+      issuer: [Object: null prototype],
+      infoAccess: [Object: null prototype],
+      ca: true,
+      modulus: 'D67333D6D73C20D000D21745B8D63E07A23FC741EE3230C9B06CFDF49FCB12980F2D3F8D4D010C820F177F622EE9B84879FB16834EADD7322593B707BFB9503FA94CC3402AE939FFD981CA1F163241DA8026B9237A87201EE3FF209A3C95446F8775069040B4329316091008233ED2DD870F6F5D51146A0A69C54F017269CFD3934C6D04A0A31B827EB19AB9EDC59EC537789F9A0834FB562E58C4090E06645BBC37DCF19F2868A856B092A35C9FBB8898081B241DAB3085AEAFB02E9E7A9DC1C0421CE202F0EAE04AD2EF900EB4C14016F06F85424A64F7A430A0FEBF2EA3275A8E8B58B8ADC319178463ED6F56FD83CB6034C474BEE69DDBE1E4E5CA0C5F15',
+      bits: 2048,
+      exponent: '0x10001',
+      pubkey: <Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 d6 73 33 d6 d7 3c 20 d0 00 d2 17 45 b8 d6 3e 07 a2 ... 244 more bytes>,
+      valid_from: 'Nov  2 00:00:00 2018 GMT',
+      valid_to: 'Dec 31 23:59:59 2030 GMT',
+      fingerprint: '33:E4:E8:08:07:20:4C:2B:61:82:A3:A1:4B:59:1A:CD:25:B5:F0:DB',
+      fingerprint256: '7F:A4:FF:68:EC:04:A9:9D:75:28:D5:08:5F:94:90:7F:4D:1D:D1:C5:38:1B:AC:DC:83:2E:D5:C9:60:21:46:76',
+      fingerprint512: '98:3B:97:4E:45:9A:46:EB:7A:3C:88:50:EC:90:CC:16:D3:B6:D4:A1:50:5A:5B:CD:D7:10:C2:36:BA:F5:AA:DC:58:42:4B:19:2E:34:A1:47:73:2E:9D:43:6C:9F:C0:4D:89:6D:8A:77:00:FF:34:92:52:A5:75:14:F5:88:C6:A1',
+      ext_key_usage: [Array],
+      serialNumber: '7D5B5126B476BA11DB74160BBC530DA7',
+      raw: <Buffer 30 82 06 13 30 82 03 fb a0 03 02 01 02 02 10 7d 5b 51 26 b4 76 ba 11 db 74 16 0b bc 53 0d a7 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0c 05 00 30 81 88 31 ... 1509 more bytes>,
+      issuerCertificate: [Object]
+    }
+  },
+  host: 'gcnodaji.com',
+  reason: "Host: gcnodaji.com. is not in the cert's altnames: DNS:www.gcnodaji.com, DNS:dcugym.cu.ac.kr, DNS:dcuharmonica.cu.ac.kr, DNS:edu.cu.ac.kr, DNS:edu.gca.or.kr, DNS:intranet.gca.or.kr, DNS:irb.dcmc.co.kr, DNS:modules2.onsoft.kr, DNS:modules2s.onsoft.kr, DNS:modules3s.onsoft.kr, DNS:shop-mng.axiz.kr, DNS:shop-mngs.axiz.kr, DNS:spgr.cu.ac.kr, DNS:startup.cu.ac.kr, DNS:www.applekd.com, DNS:www.baenara.kr, DNS:www.boddari.kr, DNS:www.choifarm.kr, DNS:www.dawnfarm.kr, DNS:www.domane.kr, DNS:www.dylnp.com, DNS:www.gonine.kr, DNS:www.gookhoney.kr, DNS:www.hbpodo.net, DNS:www.hmelon.kr, DNS:www.kajogpodo.kr, DNS:www.khwasong.kr, DNS:www.mchon.kr, DNS:www.niccakorea.com, DNS:www.pddk.kr, DNS:www.podorgo.com, DNS:www.pyogo.or.kr, DNS:www.sanpapa.kr, DNS:www.vipsky.co.kr, DNS:www.xn--950b43dh5volb.kr, DNS:www.xn--bb0bnbx4dh90cstbd1m5uf.kr, DNS:www.xn--o39a513d.kr, DNS:www.yesfarm.kr, DNS:www.yjdd.co.kr",
+  code: 'ERR_TLS_CERT_ALTNAME_INVALID',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 30000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function [FormData]], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'get',
+    url: 'http://gcnodaji.com',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 65536,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: Infinity,
+      protocol: 'https:',
+      path: '/',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'gcnodaji.com',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/',
+      href: 'https://gcnodaji.com/',
+      query: undefined,
+      search: '',
+      hash: ''
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 1,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      _header: 'GET / HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: gcnodaji.com\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'gcnodaji.com',
+      protocol: 'https:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'https://gcnodaji.com/',
+    _timeout: null,
+    _isRedirect: true,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: Hostname/IP does not match certificate's altnames: Host: gcnodaji.com. is not in the cert's altnames: DNS:www.gcnodaji.com, DNS:dcugym.cu.ac.kr, DNS:dcuharmonica.cu.ac.kr, DNS:edu.cu.ac.kr, DNS:edu.gca.or.kr, DNS:intranet.gca.or.kr, DNS:irb.dcmc.co.kr, DNS:modules2.onsoft.kr, DNS:modules2s.onsoft.kr, DNS:modules3s.onsoft.kr, DNS:shop-mng.axiz.kr, DNS:shop-mngs.axiz.kr, DNS:spgr.cu.ac.kr, DNS:startup.cu.ac.kr, DNS:www.applekd.com, DNS:www.baenara.kr, DNS:www.boddari.kr, DNS:www.choifarm.kr, DNS:www.dawnfarm.kr, DNS:www.domane.kr, DNS:www.dylnp.com, DNS:www.gonine.kr, DNS:www.gookhoney.kr, DNS:www.hbpodo.net, DNS:www.hmelon.kr, DNS:www.kajogpodo.kr, DNS:www.khwasong.kr, DNS:www.mchon.kr, DNS:www.niccakorea.com, DNS:www.pddk.kr, DNS:www.podorgo.com, DNS:www.pyogo.or.kr, DNS:www.sanpapa.kr, DNS:www.vipsky.co.kr, DNS:www.xn--950b43dh5volb.kr, DNS:www.xn--bb0bnbx4dh90cstbd1m5uf.kr, DNS:www.xn--o39a513d.kr, DNS:www.yesfarm.kr, DNS:www.yjdd.co.kr
+      at Object.checkServerIdentity (node:tls:386:12)
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1689:27)
+      at TLSSocket.emit (node:events:518:28)
+      at TLSSocket.emit (node:domain:489:12)
+      at TLSSocket._finishInit (node:_tls_wrap:1078:8)
+      at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:864:12) {
+    code: 'ERR_TLS_CERT_ALTNAME_INVALID',
+    reason: "Host: gcnodaji.com. is not in the cert's altnames: DNS:www.gcnodaji.com, DNS:dcugym.cu.ac.kr, DNS:dcuharmonica.cu.ac.kr, DNS:edu.cu.ac.kr, DNS:edu.gca.or.kr, DNS:intranet.gca.or.kr, DNS:irb.dcmc.co.kr, DNS:modules2.onsoft.kr, DNS:modules2s.onsoft.kr, DNS:modules3s.onsoft.kr, DNS:shop-mng.axiz.kr, DNS:shop-mngs.axiz.kr, DNS:spgr.cu.ac.kr, DNS:startup.cu.ac.kr, DNS:www.applekd.com, DNS:www.baenara.kr, DNS:www.boddari.kr, DNS:www.choifarm.kr, DNS:www.dawnfarm.kr, DNS:www.domane.kr, DNS:www.dylnp.com, DNS:www.gonine.kr, DNS:www.gookhoney.kr, DNS:www.hbpodo.net, DNS:www.hmelon.kr, DNS:www.kajogpodo.kr, DNS:www.khwasong.kr, DNS:www.mchon.kr, DNS:www.niccakorea.com, DNS:www.pddk.kr, DNS:www.podorgo.com, DNS:www.pyogo.or.kr, DNS:www.sanpapa.kr, DNS:www.vipsky.co.kr, DNS:www.xn--950b43dh5volb.kr, DNS:www.xn--bb0bnbx4dh90cstbd1m5uf.kr, DNS:www.xn--o39a513d.kr, DNS:www.yesfarm.kr, DNS:www.yjdd.co.kr",
+    host: 'gcnodaji.com',
+    cert: {
+      subject: [Object: null prototype],
+      issuer: [Object: null prototype],
+      subjectaltname: 'DNS:www.gcnodaji.com, DNS:dcugym.cu.ac.kr, DNS:dcuharmonica.cu.ac.kr, DNS:edu.cu.ac.kr, DNS:edu.gca.or.kr, DNS:intranet.gca.or.kr, DNS:irb.dcmc.co.kr, DNS:modules2.onsoft.kr, DNS:modules2s.onsoft.kr, DNS:modules3s.onsoft.kr, DNS:shop-mng.axiz.kr, DNS:shop-mngs.axiz.kr, DNS:spgr.cu.ac.kr, DNS:startup.cu.ac.kr, DNS:www.applekd.com, DNS:www.baenara.kr, DNS:www.boddari.kr, DNS:www.choifarm.kr, DNS:www.dawnfarm.kr, DNS:www.domane.kr, DNS:www.dylnp.com, DNS:www.gonine.kr, DNS:www.gookhoney.kr, DNS:www.hbpodo.net, DNS:www.hmelon.kr, DNS:www.kajogpodo.kr, DNS:www.khwasong.kr, DNS:www.mchon.kr, DNS:www.niccakorea.com, DNS:www.pddk.kr, DNS:www.podorgo.com, DNS:www.pyogo.or.kr, DNS:www.sanpapa.kr, DNS:www.vipsky.co.kr, DNS:www.xn--950b43dh5volb.kr, DNS:www.xn--bb0bnbx4dh90cstbd1m5uf.kr, DNS:www.xn--o39a513d.kr, DNS:www.yesfarm.kr, DNS:www.yjdd.co.kr',
+      infoAccess: [Object: null prototype],
+      ca: false,
+      modulus: 'B5B2749CF7400727B07BDE80EE04797C142ABF3D7D92126FA8E622EEDEF4A0A11A0C512BCE2E32602613AB2E857B9BC4B68B1C9B79E5EFD2DB6150EE7EEA100004000D34668F19C4710EC7B09156A29703DA8AEC31E92564D7BC33B2C1011956BA21BDBAC9D94653759292B6D82BD4DFB528A2D87563D5DB52235AA7B9E4477F311C7BDB288033816B34E738EC619CFA2FE2702B96B918790478B0FD242EBA4841322AB07675919166E81B28AE074187E51317172BDA28D53F45F8A0A65411362806FAE89EDB49E25C1A41470BE7F82F43DBF0EDC84A59A19CD1F1DDBE565B4C813A68A7847436BDD64C042FF4062BC23E021C76DED909A47DB15C780980940D',
+      bits: 2048,
+      exponent: '0x10001',
+      pubkey: <Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 b5 b2 74 9c f7 40 07 27 b0 7b de 80 ee 04 79 7c 14 ... 244 more bytes>,
+      valid_from: 'Mar 31 00:00:00 2025 GMT',
+      valid_to: 'Apr  2 23:59:59 2026 GMT',
+      fingerprint: '11:49:72:C7:92:38:19:D9:54:D4:FD:A6:1B:E3:E1:C0:0D:10:B5:10',
+      fingerprint256: '3E:66:CE:6A:FC:05:96:C4:E7:03:92:95:E2:9A:F3:08:88:7F:66:0F:92:26:49:BC:29:A5:65:5B:8A:63:25:86',
+      fingerprint512: '11:67:AB:C7:B9:52:7E:01:A0:63:C0:4F:C3:0C:01:A0:EA:F1:4A:68:AB:BF:93:F6:21:C7:D9:61:A4:17:02:A9:6B:33:35:55:9A:89:40:45:51:E5:9F:77:B4:A4:CB:B0:D6:3D:17:7E:BD:8C:8C:3C:EA:06:B2:8F:B3:13:D9:3F',
+      ext_key_usage: [Array],
+      serialNumber: '20D986B891D031515680C4B162335DA1',
+      raw: <Buffer 30 82 08 d5 30 82 07 bd a0 03 02 01 02 02 10 20 d9 86 b8 91 d0 31 51 56 80 c4 b1 62 33 5d a1 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 81 8f 31 ... 2215 more bytes>,
+      issuerCertificate: [Object]
+    }
+  }
+}

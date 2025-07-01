@@ -1,0 +1,472 @@
+{
+  "mallName": "토요애",
+  "baseUrl": "https://toyoae.com",
+  "platform": "Godo",
+  "detectedPatterns": [
+    "Godo platform detected"
+  ],
+  "productSelectors": [
+    "[class*=\"goods\"]: 30 elements",
+    "[class*=\"item\"]: 295 elements"
+  ],
+  "categoryLinks": [
+    {
+      "text": "브랜드별 상품보기",
+      "href": "https://toyoae.com/../goods/brand.php"
+    },
+    {
+      "text": "의령군 소식",
+      "href": "https://toyoae.com/../board/list.php?bdId=board3"
+    },
+    {
+      "text": "구매후기",
+      "href": "https://toyoae.com/../board/list.php?bdId=goodsreview"
+    },
+    {
+      "text": "주문조회",
+      "href": "https://toyoae.com/../mypage/order_list.php"
+    },
+    {
+      "text": "주간특가",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=019"
+    },
+    {
+      "text": "제철상품관",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=027"
+    },
+    {
+      "text": "토요애 브랜드관",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=021"
+    },
+    {
+      "text": "토요애 쌀",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=021001"
+    },
+    {
+      "text": "토요애 농산물",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=021002"
+    },
+    {
+      "text": "의령 망개떡",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=021003"
+    },
+    {
+      "text": "쌀/잡곡",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=001"
+    },
+    {
+      "text": "토요애 브랜드 쌀",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=001024"
+    },
+    {
+      "text": "친환경 브랜드 쌀",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=001025"
+    },
+    {
+      "text": "일반쌀",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=001026"
+    },
+    {
+      "text": "현미/찹쌀/잡곡",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=001027"
+    },
+    {
+      "text": "채소/과일/버섯",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=002"
+    },
+    {
+      "text": "과일류",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=002026"
+    },
+    {
+      "text": "채소류",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=002027"
+    },
+    {
+      "text": "버섯류",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=002001"
+    },
+    {
+      "text": "축산물/유제품",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=012"
+    },
+    {
+      "text": "한우/한돈",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=012003"
+    },
+    {
+      "text": "유정란/메추리알",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=012006"
+    },
+    {
+      "text": "유제품",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=012004"
+    },
+    {
+      "text": "벌꿀",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=012002"
+    },
+    {
+      "text": "가공식품/장류",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=005"
+    },
+    {
+      "text": "국수류/즉석식품",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=005004"
+    },
+    {
+      "text": "떡류",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=005007"
+    },
+    {
+      "text": "스낵류",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=005009"
+    },
+    {
+      "text": "분말/환/가루",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=005002"
+    },
+    {
+      "text": "장류/장아찌/자반",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=005018"
+    },
+    {
+      "text": "기타 가공식품",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=005005"
+    },
+    {
+      "text": "건강식품/차류",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=013"
+    },
+    {
+      "text": "차류",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=013001"
+    },
+    {
+      "text": "추출액(엑기스)",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=013002"
+    },
+    {
+      "text": "조청/꿀",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=013003"
+    },
+    {
+      "text": "주류",
+      "href": "https://toyoae.com/../goods/goods_list.php?cateCd=029"
+    },
+    {
+      "text": "+ 더보기",
+      "href": "https://toyoae.com/../goods/goods_main.php?sno=1"
+    },
+    {
+      "text": "농업회사법인주식회사 우영",
+      "href": "https://toyoae.com/../../goods/goods_list.php?brandCd=078"
+    },
+    {
+      "text": "[농업회사법인주식회사 우영] 자연의 건강을 담은 발효초 비트초 블루베리초 국화초 450g",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000633&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En"
+    },
+    {
+      "text": "[농업회사법인주식회사 우영] 자연의 건강을 담은 홍생강청 450g",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000635&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En"
+    },
+    {
+      "text": "[농업회사법인주식회사 우영] 자연의 건강을 담은 흑도라지조청 300g",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000636&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En"
+    },
+    {
+      "text": "덕실대봉농원",
+      "href": "https://toyoae.com/../../goods/goods_list.php?brandCd=031"
+    },
+    {
+      "text": "[덕실대봉농원] 곶감말랭이 500g*2개",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1215331&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En"
+    },
+    {
+      "text": "럭키머쉬룸",
+      "href": "https://toyoae.com/../../goods/goods_list.php?brandCd=077"
+    },
+    {
+      "text": "[럭키머쉬룸] 건표고 슬라이스 150g 2봉",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1260747&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En"
+    },
+    {
+      "text": "연호전통식품",
+      "href": "https://toyoae.com/../../goods/goods_list.php?brandCd=020"
+    },
+    {
+      "text": "[연호전통식품] 한우사골곰탕600g(고기포함) x 4개입 세트",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1260466&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En"
+    },
+    {
+      "text": "[덕실대봉농원] 시골아재 블루베리 1kg- 16mm",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000519&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En"
+    },
+    {
+      "text": "[덕실대봉농원] 시골아재 블루베리 1kg- 14mm",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000592&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En"
+    },
+    {
+      "text": "의령황금메밀",
+      "href": "https://toyoae.com/../../goods/goods_list.php?brandCd=051"
+    },
+    {
+      "text": "[황금메밀] 황금미소세트\n\t\t\t\t\t\t\t\n                            온가족이 입맛대로 골라먹는 메밀국수밀키트",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000439&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En"
+    },
+    {
+      "text": "뿔당골",
+      "href": "https://toyoae.com/../../goods/goods_list.php?brandCd=005"
+    },
+    {
+      "text": "[뿔당골] 재래 한식된장 1kg\n\t\t\t\t\t\t\t\n                            간장을 빼지않아 달고 영양많은 뿔당골 국산 된장",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1215340&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En"
+    },
+    {
+      "text": "계원버섯농원",
+      "href": "https://toyoae.com/../../goods/goods_list.php?brandCd=073"
+    },
+    {
+      "text": "[계원버섯농원] [4kg세트] 새송이 (특2kg) + 느타리 (특상중혼합2kg)",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000568&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En"
+    },
+    {
+      "text": "의령쌀빵 더 부농",
+      "href": "https://toyoae.com/../../goods/goods_list.php?brandCd=071"
+    },
+    {
+      "text": "[더 부농] 의령쌀빵 오리지널 1BOX(8개입)",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000533&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En"
+    },
+    {
+      "text": "너른떡 영농조합법인",
+      "href": "https://toyoae.com/../../goods/goods_list.php?brandCd=060"
+    },
+    {
+      "text": "[너른떡 영농조합법인] 한지락 고소한 저온압착 참기름400ml(국내산)\n\t\t\t\t\t\t\t\n                            저온압착공법",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000274&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En"
+    },
+    {
+      "text": "브라운파머스",
+      "href": "https://toyoae.com/../../goods/goods_list.php?brandCd=044"
+    },
+    {
+      "text": "[브라운파머스] 현미로 만든 고소애 누룽지(30봉)\n\t\t\t\t\t\t\t\n                            고담백 고소애가 들어간 고소한 누룽지 건강간식!",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1258058&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En"
+    },
+    {
+      "text": "감성영농조합법인",
+      "href": "https://toyoae.com/../../goods/goods_list.php?brandCd=028"
+    },
+    {
+      "text": "[감성영농조합법인] 생 여주 5kg, 10kg",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000422&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En"
+    },
+    {
+      "text": "[뿔당골] 찌개용 청국장 1kg (100g*10통)\n\t\t\t\t\t\t\t\n                            고집스런 전통의 맛 국산 저염 청국장찌개용",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1198541&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En"
+    },
+    {
+      "text": "[덕실대봉농원] 시골아재 블루베리 1kg- 18mm",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000520&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En"
+    },
+    {
+      "text": "+ 더보기",
+      "href": "https://toyoae.com/../goods/goods_main.php?sno=2"
+    },
+    {
+      "text": "[연호전통식품] 장작불 한우곰탕 380g*3개+한우사태 50g*3개",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000642&mtn=2%5E%7C%5E%EC%9D%B4%EB%B2%88%EC%A3%BC+%ED%8A%B9%EA%B0%80+%ED%86%A0%EC%9A%94%EC%95%A0%EB%94%9C_PC%5E%7C%5En"
+    },
+    {
+      "text": "다올농원",
+      "href": "https://toyoae.com/../../goods/goods_list.php?brandCd=032"
+    },
+    {
+      "text": "[다올농원] 참죽(가죽), 하수오다섯가지곡물스낵 400g 세트",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1261094&mtn=2%5E%7C%5E%EC%9D%B4%EB%B2%88%EC%A3%BC+%ED%8A%B9%EA%B0%80+%ED%86%A0%EC%9A%94%EC%95%A0%EB%94%9C_PC%5E%7C%5En"
+    },
+    {
+      "text": "[감성영농조합법인] 동곡이 만든 여주향기 130ml*60포",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=167&mtn=2%5E%7C%5E%EC%9D%B4%EB%B2%88%EC%A3%BC+%ED%8A%B9%EA%B0%80+%ED%86%A0%EC%9A%94%EC%95%A0%EB%94%9C_PC%5E%7C%5En"
+    },
+    {
+      "text": "의령망개떡김가네",
+      "href": "https://toyoae.com/../../goods/goods_list.php?brandCd=047"
+    },
+    {
+      "text": "[의령망개떡 김가네]의령 김가네 팥망개떡 (40개)",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000461&mtn=3%5E%7C%5E%EC%98%A4%EC%A7%81+%ED%86%A0%EC%9A%94%EC%95%A0%EC%97%90%EC%84%9C%EB%A7%8C%21_PC%5E%7C%5En"
+    },
+    {
+      "text": "아침마당영농조합법인",
+      "href": "https://toyoae.com/../../goods/goods_list.php?brandCd=039"
+    },
+    {
+      "text": "[아침마당영농조합법인] 야베스 요거 드세요 세트상품(150ml * 18개)",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1253623&mtn=7%5E%7C%5Emd%EC%B6%94%EC%B2%9C_PC%5E%7C%5En"
+    },
+    {
+      "text": "[너른떡 영농조합법인] 한지락 고소한 저온압착 참기름400ml(국내산)\n\t\t\t\t\t\t\t\n                            저온압착공법",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000274&mtn=7%5E%7C%5Emd%EC%B6%94%EC%B2%9C_PC%5E%7C%5En"
+    },
+    {
+      "text": "[아침마당영농조합법인] 야베스 요거 드세요 세트상품(1000ml * 3개 + 150ml * 2개)",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000448&mtn=7%5E%7C%5Emd%EC%B6%94%EC%B2%9C_PC%5E%7C%5En"
+    },
+    {
+      "text": "[더 부농] 의령쌀빵 오리지널 1BOX(8개입)",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000533&mtn=7%5E%7C%5Emd%EC%B6%94%EC%B2%9C_PC%5E%7C%5En"
+    },
+    {
+      "text": "[뿔당골] 찌개용 청국장 1kg (100g*10통)\n\t\t\t\t\t\t\t\n                            고집스런 전통의 맛 국산 저염 청국장찌개용",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1198541&mtn=7%5E%7C%5Emd%EC%B6%94%EC%B2%9C_PC%5E%7C%5En"
+    },
+    {
+      "text": "[너른떡 영농조합법인] 한지락 고소한 저온압착 들기름250ml(국내산)\n\t\t\t\t\t\t\t\n                            저온압착공법",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000277&mtn=7%5E%7C%5Emd%EC%B6%94%EC%B2%9C_PC%5E%7C%5En"
+    },
+    {
+      "text": "의령농업협동조합",
+      "href": "https://toyoae.com/../../goods/goods_list.php?brandCd=013"
+    },
+    {
+      "text": "[의령농업협동조합] 자굴산골짝쌀 10kg\n\t\t\t\t\t\t\t\n                            24년산",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1260122&mtn=7%5E%7C%5Emd%EC%B6%94%EC%B2%9C_PC%5E%7C%5En"
+    },
+    {
+      "text": "[의령농업협동조합] 자굴산골짝쌀 20kg\n\t\t\t\t\t\t\t\n                            24년산",
+      "href": "https://toyoae.com/../goods/goods_view.php?goodsNo=1260121&mtn=7%5E%7C%5Emd%EC%B6%94%EC%B2%9C_PC%5E%7C%5En"
+    },
+    {
+      "text": "상품 등록 문의",
+      "href": "https://toyoae.com/board/list.php?bdId=board1"
+    },
+    {
+      "text": "의령군 업체 로그인",
+      "href": "http://gdadmin.toyoae1.godomall.com"
+    },
+    {
+      "text": "NOTICE\n\t\t\t\t\t\t\t\t공지사항",
+      "href": "https://toyoae.com/../board/list.php?bdId=notice"
+    },
+    {
+      "text": "질문과 답변",
+      "href": "https://toyoae.com/../board/list.php?bdId=board1"
+    },
+    {
+      "text": "토요애 보도자료",
+      "href": "https://toyoae.com/../board/list.php?bdId=board2"
+    },
+    {
+      "text": "행복 레시피",
+      "href": "https://toyoae.com/../board/list.php?bdId=recipe"
+    },
+    {
+      "text": "입금자를 찾습니다",
+      "href": "https://toyoae.com/../board/list.php?bdId=depositor"
+    },
+    {
+      "text": "청정의령 특산물",
+      "href": "https://toyoae.com/../board/list.php?bdId=image2"
+    }
+  ],
+  "productLinks": [
+    "https://toyoae.com/../goods/brand.php",
+    "https://toyoae.com/../board/list.php?bdId=goodsreview",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=019",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=027",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=021",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=021001",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=021002",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=021003",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=001",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=001024",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=001025",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=001026",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=001027",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=002",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=002026",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=002027",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=002001",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=012",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=012003",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=012006",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=012004",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=012002",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=005",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=005004",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=005007",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=005009",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=005002",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=005018",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=005005",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=013",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=013001",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=013002",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=013003",
+    "https://toyoae.com/../goods/goods_list.php?cateCd=029",
+    "https://toyoae.com/../goods/goods_main.php?sno=1",
+    "https://toyoae.com/../../goods/goods_list.php?brandCd=078",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000633&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000635&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000636&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En",
+    "https://toyoae.com/../../goods/goods_list.php?brandCd=031",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1215331&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En",
+    "https://toyoae.com/../../goods/goods_list.php?brandCd=077",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1260747&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En",
+    "https://toyoae.com/../../goods/goods_list.php?brandCd=020",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1260466&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000519&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000592&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En",
+    "https://toyoae.com/../../goods/goods_list.php?brandCd=051",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000439&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En",
+    "https://toyoae.com/../../goods/goods_list.php?brandCd=005",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1215340&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En",
+    "https://toyoae.com/../../goods/goods_list.php?brandCd=073",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000568&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En",
+    "https://toyoae.com/../../goods/goods_list.php?brandCd=071",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000533&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En",
+    "https://toyoae.com/../../goods/goods_list.php?brandCd=060",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000274&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En",
+    "https://toyoae.com/../../goods/goods_list.php?brandCd=044",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1258058&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En",
+    "https://toyoae.com/../../goods/goods_list.php?brandCd=028",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000422&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1198541&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000520&mtn=1%5E%7C%5E%EC%9D%B4+%EC%83%81%ED%92%88+%EC%96%B4%EB%95%8C%EC%9A%94%3F_PC%5E%7C%5En",
+    "https://toyoae.com/../goods/goods_main.php?sno=2",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000642&mtn=2%5E%7C%5E%EC%9D%B4%EB%B2%88%EC%A3%BC+%ED%8A%B9%EA%B0%80+%ED%86%A0%EC%9A%94%EC%95%A0%EB%94%9C_PC%5E%7C%5En",
+    "https://toyoae.com/../../goods/goods_list.php?brandCd=032",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1261094&mtn=2%5E%7C%5E%EC%9D%B4%EB%B2%88%EC%A3%BC+%ED%8A%B9%EA%B0%80+%ED%86%A0%EC%9A%94%EC%95%A0%EB%94%9C_PC%5E%7C%5En",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=167&mtn=2%5E%7C%5E%EC%9D%B4%EB%B2%88%EC%A3%BC+%ED%8A%B9%EA%B0%80+%ED%86%A0%EC%9A%94%EC%95%A0%EB%94%9C_PC%5E%7C%5En",
+    "https://toyoae.com/../../goods/goods_list.php?brandCd=047",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000461&mtn=3%5E%7C%5E%EC%98%A4%EC%A7%81+%ED%86%A0%EC%9A%94%EC%95%A0%EC%97%90%EC%84%9C%EB%A7%8C%21_PC%5E%7C%5En",
+    "https://toyoae.com/../../goods/goods_list.php?brandCd=039",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1253623&mtn=7%5E%7C%5Emd%EC%B6%94%EC%B2%9C_PC%5E%7C%5En",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000274&mtn=7%5E%7C%5Emd%EC%B6%94%EC%B2%9C_PC%5E%7C%5En",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000448&mtn=7%5E%7C%5Emd%EC%B6%94%EC%B2%9C_PC%5E%7C%5En",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000533&mtn=7%5E%7C%5Emd%EC%B6%94%EC%B2%9C_PC%5E%7C%5En",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1198541&mtn=7%5E%7C%5Emd%EC%B6%94%EC%B2%9C_PC%5E%7C%5En",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1000000277&mtn=7%5E%7C%5Emd%EC%B6%94%EC%B2%9C_PC%5E%7C%5En",
+    "https://toyoae.com/../../goods/goods_list.php?brandCd=013",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1260122&mtn=7%5E%7C%5Emd%EC%B6%94%EC%B2%9C_PC%5E%7C%5En",
+    "https://toyoae.com/../goods/goods_view.php?goodsNo=1260121&mtn=7%5E%7C%5Emd%EC%B6%94%EC%B2%9C_PC%5E%7C%5En",
+    "https://toyoae.com/../board/view.php?bdId=notice&sno=54",
+    "https://toyoae.com/../board/view.php?bdId=notice&sno=53",
+    "https://toyoae.com/../board/view.php?bdId=notice&sno=52",
+    "https://toyoae.com/../board/view.php?bdId=notice&sno=51"
+  ],
+  "notes": [
+    "Page title: 청정의령군 농특산물 토요애",
+    "Description: 가족을 더 사랑하는 건강한 방법! 청정의령 농특산물 직거래 장터, 의령군 대표 쇼핑몰 토요애입니다.",
+    "Total links found: 178",
+    "Images found: 57",
+    "[class*=\"price\"]: 29 elements",
+    "Main content areas: 0",
+    "Item elements: 0",
+    "토산품 전문 온라인몰",
+    "지역 특산물 판매",
+    "친환경 농산물 중심"
+  ]
+}

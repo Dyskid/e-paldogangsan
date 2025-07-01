@@ -1,0 +1,11 @@
+Starting analysis of 울진몰 structure...
+
+=== STRUCTURE ANALYSIS ===
+Mall: 울진몰
+Platform: CYSO
+Detected patterns: 1
+Product selectors found: 2
+Category links found: 385
+Product links found: 77
+
+Results saved to: /mnt/c/Users/johndoe/Desktop/e-paldogangsan/scripts/output/ujmall/ujmall-structure-analysis.json

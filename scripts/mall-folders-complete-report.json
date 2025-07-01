@@ -1,0 +1,560 @@
+{
+  "wemall": {
+    "mallKey": "mall_3_우리몰",
+    "analysisFiles": 1,
+    "outputFiles": 19,
+    "totalFiles": 20
+  },
+  "chamds": {
+    "mallKey": "mall_4_참달성_달성군_",
+    "analysisFiles": 4,
+    "outputFiles": 18,
+    "totalFiles": 22
+  },
+  "kkimchi": {
+    "mallKey": "mall_6_광주김치몰",
+    "analysisFiles": 1,
+    "outputFiles": 16,
+    "totalFiles": 17
+  },
+  "ontongdaejeon": {
+    "mallKey": "mall_7_대전사랑몰",
+    "analysisFiles": 2,
+    "outputFiles": 29,
+    "totalFiles": 31
+  },
+  "chack3": {
+    "mallKey": "mall_10_착착착",
+    "analysisFiles": 1,
+    "outputFiles": 7,
+    "totalFiles": 8
+  },
+  "osansemall": {
+    "mallKey": "mall_11_오산함께장터",
+    "analysisFiles": 2,
+    "outputFiles": 9,
+    "totalFiles": 11
+  },
+  "gmsocial": {
+    "mallKey": "mall_12_광명가치몰",
+    "analysisFiles": 2,
+    "outputFiles": 19,
+    "totalFiles": 21
+  },
+  "yangju": {
+    "mallKey": "mall_13_양주농부마켓",
+    "analysisFiles": 1,
+    "outputFiles": 9,
+    "totalFiles": 10
+  },
+  "marketgyeonggi": {
+    "mallKey": "mall_14_마켓경기",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "gwdmall": {
+    "mallKey": "mall_15_강원더몰",
+    "analysisFiles": 1,
+    "outputFiles": 11,
+    "totalFiles": 12
+  },
+  "wonju": {
+    "mallKey": "mall_16_원주몰",
+    "analysisFiles": 1,
+    "outputFiles": 8,
+    "totalFiles": 9
+  },
+  "gangneung": {
+    "mallKey": "mall_17_강릉몰",
+    "analysisFiles": 1,
+    "outputFiles": 8,
+    "totalFiles": 9
+  },
+  "goseong": {
+    "mallKey": "mall_18_고성몰",
+    "analysisFiles": 1,
+    "outputFiles": 8,
+    "totalFiles": 9
+  },
+  "donghae": {
+    "mallKey": "mall_19_동해몰",
+    "analysisFiles": 1,
+    "outputFiles": 8,
+    "totalFiles": 9
+  },
+  "samcheok": {
+    "mallKey": "mall_20_삼척몰",
+    "analysisFiles": 1,
+    "outputFiles": 8,
+    "totalFiles": 9
+  },
+  "yanggu": {
+    "mallKey": "mall_21_양구몰",
+    "analysisFiles": 1,
+    "outputFiles": 9,
+    "totalFiles": 10
+  },
+  "yangyang": {
+    "mallKey": "mall_22_양양몰",
+    "analysisFiles": 3,
+    "outputFiles": 14,
+    "totalFiles": 17
+  },
+  "yeongwol": {
+    "mallKey": "mall_23_영월몰",
+    "analysisFiles": 1,
+    "outputFiles": 12,
+    "totalFiles": 13
+  },
+  "inje": {
+    "mallKey": "mall_24_인제몰",
+    "analysisFiles": 1,
+    "outputFiles": 10,
+    "totalFiles": 11
+  },
+  "cheorwon": {
+    "mallKey": "mall_25_철원몰",
+    "analysisFiles": 1,
+    "outputFiles": 6,
+    "totalFiles": 7
+  },
+  "jeongseon": {
+    "mallKey": "mall_26_정선몰",
+    "analysisFiles": 1,
+    "outputFiles": 6,
+    "totalFiles": 7
+  },
+  "taebaek": {
+    "mallKey": "mall_27_태백몰",
+    "analysisFiles": 1,
+    "outputFiles": 6,
+    "totalFiles": 7
+  },
+  "hoengseong": {
+    "mallKey": "mall_28_횡성몰",
+    "analysisFiles": 1,
+    "outputFiles": 6,
+    "totalFiles": 7
+  },
+  "chuncheon": {
+    "mallKey": "mall_29_춘천몰",
+    "analysisFiles": 1,
+    "outputFiles": 6,
+    "totalFiles": 7
+  },
+  "hongcheon": {
+    "mallKey": "mall_30_홍천몰",
+    "analysisFiles": 1,
+    "outputFiles": 8,
+    "totalFiles": 9
+  },
+  "gwpc": {
+    "mallKey": "mall_31_평창몰",
+    "analysisFiles": 1,
+    "outputFiles": 8,
+    "totalFiles": 9
+  },
+  "esjang": {
+    "mallKey": "mall_33_음성장터",
+    "analysisFiles": 1,
+    "outputFiles": 10,
+    "totalFiles": 11
+  },
+  "jcmall": {
+    "mallKey": "mall_34_진천몰",
+    "analysisFiles": 1,
+    "outputFiles": 7,
+    "totalFiles": 8
+  },
+  "goesan": {
+    "mallKey": "mall_35_괴산장터",
+    "analysisFiles": 1,
+    "outputFiles": 7,
+    "totalFiles": 8
+  },
+  "nongsarang": {
+    "mallKey": "mall_36_농사랑",
+    "analysisFiles": 2,
+    "outputFiles": 11,
+    "totalFiles": 13
+  },
+  "dangjinfarm": {
+    "mallKey": "mall_37_당진팜",
+    "analysisFiles": 1,
+    "outputFiles": 8,
+    "totalFiles": 9
+  },
+  "ehongseong": {
+    "mallKey": "mall_38_e홍성장터",
+    "analysisFiles": 1,
+    "outputFiles": 7,
+    "totalFiles": 8
+  },
+  "seosanttre": {
+    "mallKey": "mall_39_서산뜨레",
+    "analysisFiles": 1,
+    "outputFiles": 7,
+    "totalFiles": 8
+  },
+  "buan": {
+    "mallKey": "mall_40_부안_텃밭할매",
+    "analysisFiles": 1,
+    "outputFiles": 8,
+    "totalFiles": 9
+  },
+  "danpoong": {
+    "mallKey": "mall_41_단풍미인_정읍_",
+    "analysisFiles": 1,
+    "outputFiles": 8,
+    "totalFiles": 9
+  },
+  "jps": {
+    "mallKey": "mall_42_지평선몰_김제_",
+    "analysisFiles": 0,
+    "outputFiles": 1,
+    "totalFiles": 1
+  },
+  "freshjb": {
+    "mallKey": "mall_43_전북생생장터",
+    "analysisFiles": 1,
+    "outputFiles": 30,
+    "totalFiles": 31
+  },
+  "iksan": {
+    "mallKey": "mall_44_익산몰",
+    "analysisFiles": 1,
+    "outputFiles": 8,
+    "totalFiles": 9
+  },
+  "jinan": {
+    "mallKey": "mall_45_진안고원몰",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "jangsu": {
+    "mallKey": "mall_46_장수몰",
+    "analysisFiles": 1,
+    "outputFiles": 11,
+    "totalFiles": 12
+  },
+  "gochang": {
+    "mallKey": "mall_47_고창마켓",
+    "analysisFiles": 1,
+    "outputFiles": 9,
+    "totalFiles": 10
+  },
+  "imsil": {
+    "mallKey": "mall_48_임실몰",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "sunchang": {
+    "mallKey": "mall_49_순창로컬푸드쇼핑몰",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "haegaram": {
+    "mallKey": "mall_50_해가람",
+    "analysisFiles": 1,
+    "outputFiles": 10,
+    "totalFiles": 11
+  },
+  "jnmall": {
+    "mallKey": "mall_51_남도장터",
+    "analysisFiles": 2,
+    "outputFiles": 9,
+    "totalFiles": 11
+  },
+  "yeosumall": {
+    "mallKey": "mall_52_여수몰",
+    "analysisFiles": 2,
+    "outputFiles": 11,
+    "totalFiles": 13
+  },
+  "hgoodfarm": {
+    "mallKey": "mall_53_해피굿팜",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "boseong": {
+    "mallKey": "mall_54_보성몰",
+    "analysisFiles": 1,
+    "outputFiles": 9,
+    "totalFiles": 10
+  },
+  "najumall": {
+    "mallKey": "mall_55_나주몰",
+    "analysisFiles": 1,
+    "outputFiles": 9,
+    "totalFiles": 10
+  },
+  "sclocal": {
+    "mallKey": "mall_56_순천로컬푸드함께가게",
+    "analysisFiles": 4,
+    "outputFiles": 15,
+    "totalFiles": 19
+  },
+  "shinan1004": {
+    "mallKey": "mall_57_신안1004몰",
+    "analysisFiles": 1,
+    "outputFiles": 9,
+    "totalFiles": 10
+  },
+  "okjmall": {
+    "mallKey": "mall_58_장흥몰_산들해랑장흥몰_",
+    "analysisFiles": 1,
+    "outputFiles": 9,
+    "totalFiles": 10
+  },
+  "yeongam": {
+    "mallKey": "mall_59_기찬들영암몰",
+    "analysisFiles": 1,
+    "outputFiles": 6,
+    "totalFiles": 7
+  },
+  "jindoarirang": {
+    "mallKey": "mall_60_진도아리랑몰",
+    "analysisFiles": 1,
+    "outputFiles": 6,
+    "totalFiles": 7
+  },
+  "wandofood": {
+    "mallKey": "mall_61_완도군이숍",
+    "analysisFiles": 1,
+    "outputFiles": 6,
+    "totalFiles": 7
+  },
+  "hampyeong": {
+    "mallKey": "mall_62_함평천지몰",
+    "analysisFiles": 1,
+    "outputFiles": 8,
+    "totalFiles": 9
+  },
+  "haenam": {
+    "mallKey": "mall_63_해남미소",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "damyang": {
+    "mallKey": "mall_64_담양장터",
+    "analysisFiles": 1,
+    "outputFiles": 7,
+    "totalFiles": 8
+  },
+  "greengj": {
+    "mallKey": "mall_65_초록믿음_강진_",
+    "analysisFiles": 1,
+    "outputFiles": 6,
+    "totalFiles": 7
+  },
+  "hwasunfarm": {
+    "mallKey": "mall_66_화순팜",
+    "analysisFiles": 1,
+    "outputFiles": 6,
+    "totalFiles": 7
+  },
+  "gokseongmall": {
+    "mallKey": "mall_67_곡성몰_곡성군농특산물중개몰_",
+    "analysisFiles": 1,
+    "outputFiles": 6,
+    "totalFiles": 7
+  },
+  "cyso": {
+    "mallKey": "mall_68_사이소_경북몰_",
+    "analysisFiles": 1,
+    "outputFiles": 6,
+    "totalFiles": 7
+  },
+  "sjmall": {
+    "mallKey": "mall_69_상주_명실상주몰",
+    "analysisFiles": 1,
+    "outputFiles": 6,
+    "totalFiles": 7
+  },
+  "cdmall": {
+    "mallKey": "mall_70_청도_청리브",
+    "analysisFiles": 1,
+    "outputFiles": 8,
+    "totalFiles": 9
+  },
+  "yjmarket": {
+    "mallKey": "mall_71_영주장날",
+    "analysisFiles": 1,
+    "outputFiles": 7,
+    "totalFiles": 8
+  },
+  "andongjang": {
+    "mallKey": "mall_72_안동장터",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "csmall": {
+    "mallKey": "mall_73_청송몰",
+    "analysisFiles": 1,
+    "outputFiles": 7,
+    "totalFiles": 8
+  },
+  "onsim": {
+    "mallKey": "mall_74_영양온심마켓",
+    "analysisFiles": 1,
+    "outputFiles": 8,
+    "totalFiles": 9
+  },
+  "ulmall": {
+    "mallKey": "mall_75_울릉도",
+    "analysisFiles": 1,
+    "outputFiles": 6,
+    "totalFiles": 7
+  },
+  "bmall": {
+    "mallKey": "mall_76_봉화장터",
+    "analysisFiles": 1,
+    "outputFiles": 6,
+    "totalFiles": 7
+  },
+  "grmall": {
+    "mallKey": "mall_77_고령몰",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "gcnodaji": {
+    "mallKey": "mall_78_김천노다지장터",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "ycjang": {
+    "mallKey": "mall_79_예천장터",
+    "analysisFiles": 1,
+    "outputFiles": 6,
+    "totalFiles": 7
+  },
+  "mgmall": {
+    "mallKey": "mall_80_문경_새제의아침",
+    "analysisFiles": 1,
+    "outputFiles": 6,
+    "totalFiles": 7
+  },
+  "cgmall": {
+    "mallKey": "mall_81_칠곡몰",
+    "analysisFiles": 1,
+    "outputFiles": 6,
+    "totalFiles": 7
+  },
+  "esmall": {
+    "mallKey": "mall_82_의성장날",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "ujmall": {
+    "mallKey": "mall_83_울진몰",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "ydmall": {
+    "mallKey": "mall_84_영덕장터",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "gsmall": {
+    "mallKey": "mall_85_경산몰",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "gjmall": {
+    "mallKey": "mall_86_경주몰",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "gmmall": {
+    "mallKey": "mall_87_구미팜",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "01000": {
+    "mallKey": "mall_88_별빛촌장터_영천_",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "pohangmarket": {
+    "mallKey": "mall_89_포항마켓",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "egnmall": {
+    "mallKey": "mall_90_e경남몰",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "toyoae": {
+    "mallKey": "mall_91_토요애_의령_",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "enamhae": {
+    "mallKey": "mall_92_남해몰",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "sanencheong": {
+    "mallKey": "mall_93_산엔청_산청_",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "edinomall": {
+    "mallKey": "mall_94_공룡나라_고성_",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "hamyang": {
+    "mallKey": "mall_95_함양몰",
+    "analysisFiles": 0,
+    "outputFiles": 1,
+    "totalFiles": 1
+  },
+  "jinjudream": {
+    "mallKey": "mall_96_진주드림",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "hamanmall": {
+    "mallKey": "mall_97_함안몰",
+    "analysisFiles": 0,
+    "outputFiles": 0,
+    "totalFiles": 0
+  },
+  "gimhaemall": {
+    "mallKey": "mall_98_김해온몰",
+    "analysisFiles": 1,
+    "outputFiles": 2,
+    "totalFiles": 3
+  },
+  "ejeju": {
+    "mallKey": "mall_100_이제주몰",
+    "analysisFiles": 4,
+    "outputFiles": 40,
+    "totalFiles": 44
+  }
+}

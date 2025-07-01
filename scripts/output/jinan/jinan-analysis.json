@@ -1,0 +1,28 @@
+{
+  "mallId": "jinan",
+  "mallName": "진안고원몰",
+  "url": "https://xn--299az5xoii3qb66f.com/",
+  "region": "전북",
+  "status": "success",
+  "structure": {
+    "hasProducts": true,
+    "productInfo": {
+      "selector": "[class*=\"product\"]",
+      "count": 148,
+      "firstItem": "<ez-prop data-version=\"1.0.0\" type=\"layout\"><ez-var data-prop=\"layout\" data-namespace=\"ez.module.product-list.layout\" data-type=\"array\"><ez-item data-id=\"grid3\" data-name=\"일반3단형(PC 3열/MOBILE 1열)\"></ez"
+    },
+    "hasCategories": true,
+    "hasPagination": true,
+    "totalLinks": 204,
+    "scripts": 12,
+    "hasReactRoot": false,
+    "urlPatterns": {
+      "homepage": "https://xn--299az5xoii3qb66f.com/"
+    },
+    "pagination": {
+      "type": "page-numbers"
+    },
+    "requiresJavaScript": true,
+    "dataLocation": {}
+  }
+}

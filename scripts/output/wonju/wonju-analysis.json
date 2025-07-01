@@ -1,0 +1,49 @@
+{
+  "mallName": "원주몰",
+  "mallUrl": "https://wonju-mall.co.kr/",
+  "categoryStructure": [
+    {
+      "code": "search?osearchtext=다래&page=1&searchMode=search&per=40&sorting=ranking&filter_display=lattice",
+      "name": "다래",
+      "url": "https://wonju-mall.co.kr/goods/search?osearchtext=다래&page=1&searchMode=search&per=40&sorting=ranking&filter_display=lattice"
+    },
+    {
+      "code": "search?osearchtext=감자떡&page=1&searchMode=search&per=40&sorting=ranking&filter_display=lattice",
+      "name": "감자떡",
+      "url": "https://wonju-mall.co.kr/goods/search?osearchtext=감자떡&page=1&searchMode=search&per=40&sorting=ranking&filter_display=lattice"
+    },
+    {
+      "code": "search?osearchtext=부꾸미&page=1&searchMode=search&per=40&sorting=ranking&filter_display=lattice",
+      "name": "부꾸미",
+      "url": "https://wonju-mall.co.kr/goods/search?osearchtext=부꾸미&page=1&searchMode=search&per=40&sorting=ranking&filter_display=lattice"
+    },
+    {
+      "code": "search?osearchtext=옹심이&page=1&searchMode=search&per=40&sorting=ranking&filter_display=lattice",
+      "name": "옹심이",
+      "url": "https://wonju-mall.co.kr/goods/search?osearchtext=옹심이&page=1&searchMode=search&per=40&sorting=ranking&filter_display=lattice"
+    }
+  ],
+  "productUrlPattern": "",
+  "categoryUrlPattern": "",
+  "paginationPattern": "?page={pageNumber}",
+  "totalCategories": 4,
+  "sampleProducts": [],
+  "technicalNotes": [
+    "Site may use infinite scroll for pagination",
+    "Character encoding: utf-8"
+  ],
+  "scrapingStrategy": {
+    "method": "Homepage and category traversal",
+    "steps": [
+      "1. Start from homepage to get product listings",
+      "2. Extract product URLs from homepage",
+      "3. For each category found, fetch the listing page",
+      "4. Handle pagination if multiple pages exist",
+      "5. For each product URL, fetch product details",
+      "6. Extract title, price, image, and other details",
+      "7. Clean and normalize the data",
+      "8. Save products with valid prices"
+    ],
+    "estimatedProductCount": "Unknown - requires exploration"
+  }
+}

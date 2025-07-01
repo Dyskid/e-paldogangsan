@@ -1,0 +1,25 @@
+{
+  "mallId": "hgoodfarm",
+  "mallName": "해피굿팜",
+  "url": "https://smartstore.naver.com/hgoodfarm",
+  "region": "전남",
+  "status": "success",
+  "structure": {
+    "hasCategories": true,
+    "categoryStructure": "Naver Smart Store Standard",
+    "urlPatterns": {
+      "homepage": "https://smartstore.naver.com/hgoodfarm",
+      "categoryPattern": "category/:id",
+      "productPattern": "products/:id"
+    },
+    "pagination": {
+      "type": "infinite-scroll"
+    },
+    "requiresJavaScript": true,
+    "dataLocation": {
+      "productListSelector": "Naver Smart Store Dynamic",
+      "productItemSelector": "[class*=\"product\"]"
+    },
+    "note": "Naver Smart Store requires special handling with their API"
+  }
+}

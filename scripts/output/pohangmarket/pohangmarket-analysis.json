@@ -1,0 +1,20 @@
+{
+  "mallId": "pohangmarket",
+  "mallName": "포항마켓",
+  "url": "https://pohangmarket.cyso.co.kr/",
+  "region": "경북",
+  "status": "success",
+  "structure": {
+    "hasCategories": true,
+    "urlPatterns": {
+      "homepage": "https://pohangmarket.cyso.co.kr/"
+    },
+    "pagination": {
+      "type": "page-numbers"
+    },
+    "requiresJavaScript": false,
+    "dataLocation": {
+      "productListSelector": ".item-list"
+    }
+  }
+}

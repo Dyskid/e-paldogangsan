@@ -1,0 +1,24 @@
+{
+  "url": "https://chamds.com",
+  "title": "참달성",
+  "productSelectors": [],
+  "categoryLinks": [],
+  "totalProducts": 0,
+  "sampleProducts": [],
+  "structure": {
+    "timestamp": "2025-06-20T15:20:11.823Z",
+    "baseUrl": "https://chamds.com",
+    "pages": [],
+    "productStructure": {
+      "containers": 0,
+      "selectors": [],
+      "priceElements": [],
+      "linkPatterns": [],
+      "imagePatterns": []
+    },
+    "pricePatterns": [],
+    "findings": []
+  },
+  "merged": true,
+  "mergedAt": "2025-07-01T02:02:56.300Z"
+}

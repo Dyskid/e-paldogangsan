@@ -1,0 +1,1647 @@
+{
+  "mallName": "울진몰",
+  "baseUrl": "https://ujmall.cyso.co.kr",
+  "platform": "CYSO",
+  "detectedPatterns": [
+    "CYSO shop/item.php pattern detected"
+  ],
+  "productSelectors": [
+    "[class*=\"product\"]: 2 elements",
+    "[class*=\"item\"]: 89 elements"
+  ],
+  "categoryLinks": [
+    {
+      "text": "마이페이지",
+      "href": "https://ujmall.cyso.co.kr/shop/mypage.php"
+    },
+    {
+      "text": "두부",
+      "href": "https://ujmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EB%91%90%EB%B6%80"
+    },
+    {
+      "text": "소금",
+      "href": "https://ujmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EC%86%8C%EA%B8%88"
+    },
+    {
+      "text": "고사리",
+      "href": "https://ujmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EA%B3%A0%EC%82%AC%EB%A6%AC"
+    },
+    {
+      "text": "매화",
+      "href": "https://ujmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EB%A7%A4%ED%99%94"
+    },
+    {
+      "text": "미역",
+      "href": "https://ujmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EB%AF%B8%EC%97%AD"
+    },
+    {
+      "text": "오징어",
+      "href": "https://ujmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EC%98%A4%EC%A7%95%EC%96%B4"
+    },
+    {
+      "text": "매매떡",
+      "href": "https://ujmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EB%A7%A4%EB%A7%A4%EB%96%A1"
+    },
+    {
+      "text": "장바구니\n\t\t\t\t\t\t\t0",
+      "href": "https://ujmall.cyso.co.kr/shop/cart.php"
+    },
+    {
+      "text": "로그인\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t+5000",
+      "href": "https://ujmall.cyso.co.kr/bbs/login.php"
+    },
+    {
+      "text": "전체상품",
+      "href": "/shop/list_all.php"
+    },
+    {
+      "text": "베스트",
+      "href": "/shop/listtype.php?type=best"
+    },
+    {
+      "text": "신규상품",
+      "href": "/shop/listtype.php?type=new"
+    },
+    {
+      "text": "기획전",
+      "href": "/shop/eventlist.php"
+    },
+    {
+      "text": "고객센터",
+      "href": "/bbs/board.php?bo_table=uj_notice"
+    },
+    {
+      "text": "공지사항",
+      "href": "/bbs/board.php?bo_table=uj_notice"
+    },
+    {
+      "text": "1:1문의",
+      "href": "/bbs/qalist.php"
+    },
+    {
+      "text": "FAQ",
+      "href": "https://ujmall.cyso.co.kr/bbs/faq.php"
+    },
+    {
+      "text": "상품문의",
+      "href": "https://ujmall.cyso.co.kr/shop/itemqalist.php"
+    },
+    {
+      "text": "구매후기",
+      "href": "https://ujmall.cyso.co.kr/shop/itemuselist.php"
+    },
+    {
+      "text": "울진몰소개",
+      "href": "/bbs/content.php?co_id=uj_info"
+    },
+    {
+      "text": "울진몰소개",
+      "href": "/bbs/content.php?co_id=uj_info"
+    },
+    {
+      "text": "대표 농특산물",
+      "href": "/bbs/content.php?co_id=uj_info02"
+    },
+    {
+      "text": "이용안내",
+      "href": "/bbs/content.php?co_id=uj_info04"
+    },
+    {
+      "text": "입점신청",
+      "href": "/bbs/content.php?co_id=uj_manage"
+    },
+    {
+      "text": "쌀/잡곡",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj10"
+    },
+    {
+      "text": "쌀",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj1010"
+    },
+    {
+      "text": "기타잡곡",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj1020"
+    },
+    {
+      "text": "과일류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj20"
+    },
+    {
+      "text": "과일",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj2010"
+    },
+    {
+      "text": "과채류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj2020"
+    },
+    {
+      "text": "견과류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj2030"
+    },
+    {
+      "text": "기타과일",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj2040"
+    },
+    {
+      "text": "채소류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj30"
+    },
+    {
+      "text": "채소",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj3010"
+    },
+    {
+      "text": "버섯",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj3020"
+    },
+    {
+      "text": "건나물/건채소",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj3030"
+    },
+    {
+      "text": "기타채소",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj3040"
+    },
+    {
+      "text": "축산물",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj40"
+    },
+    {
+      "text": "한우",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj4010"
+    },
+    {
+      "text": "돈육",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj4020"
+    },
+    {
+      "text": "계란",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj4030"
+    },
+    {
+      "text": "닭고기",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj4040"
+    },
+    {
+      "text": "기타축산물",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj4050"
+    },
+    {
+      "text": "수산물",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj50"
+    },
+    {
+      "text": "수산물",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj5010"
+    },
+    {
+      "text": "전복/홍합/골뱅이",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj5020"
+    },
+    {
+      "text": "건어물",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj5030"
+    },
+    {
+      "text": "액젓/젓갈",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj5040"
+    },
+    {
+      "text": "기타수산물",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj5050"
+    },
+    {
+      "text": "꿀/홍삼",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj60"
+    },
+    {
+      "text": "꿀",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj6010"
+    },
+    {
+      "text": "홍삼/인삼",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj6020"
+    },
+    {
+      "text": "분말/환/기타",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj6030"
+    },
+    {
+      "text": "가공식품",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj70"
+    },
+    {
+      "text": "과일즙/야채즙",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj7010"
+    },
+    {
+      "text": "원액/청/음료",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj7020"
+    },
+    {
+      "text": "과일말랭이/칩",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj7030"
+    },
+    {
+      "text": "면류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj7040"
+    },
+    {
+      "text": "잼류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj7050"
+    },
+    {
+      "text": "죽류/즉석요리(HMR)",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj7060"
+    },
+    {
+      "text": "가루식품류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj7070"
+    },
+    {
+      "text": "발효식초/감식초",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj7080"
+    },
+    {
+      "text": "낫또/요구르트",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj7090"
+    },
+    {
+      "text": "차류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj70a0"
+    },
+    {
+      "text": "기타식품",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj70b0"
+    },
+    {
+      "text": "김치/장류/참기름",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj80"
+    },
+    {
+      "text": "김치",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj8010"
+    },
+    {
+      "text": "장류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj8020"
+    },
+    {
+      "text": "양념류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj8030"
+    },
+    {
+      "text": "한과/떡/빵류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj90"
+    },
+    {
+      "text": "한과",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj9010"
+    },
+    {
+      "text": "떡",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj9020"
+    },
+    {
+      "text": "전통과자/엿",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj9030"
+    },
+    {
+      "text": "특산물",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=ujb0"
+    },
+    {
+      "text": "공예품",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=ujb010"
+    },
+    {
+      "text": "화장품/비누",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=ujb020"
+    },
+    {
+      "text": "의류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=ujb030"
+    },
+    {
+      "text": "침구류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=ujb040"
+    },
+    {
+      "text": "기타",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=ujb050"
+    },
+    {
+      "text": "기타",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=ujf0"
+    },
+    {
+      "text": "전체상품",
+      "href": "/shop/list_all.php"
+    },
+    {
+      "text": "베스트",
+      "href": "/shop/listtype.php?type=best"
+    },
+    {
+      "text": "신규상품",
+      "href": "/shop/listtype.php?type=new"
+    },
+    {
+      "text": "기획전",
+      "href": "/shop/eventlist.php"
+    },
+    {
+      "text": "고객센터",
+      "href": "/bbs/board.php?bo_table=uj_notice"
+    },
+    {
+      "text": "울진몰소개",
+      "href": "/bbs/content.php?co_id=uj_info"
+    },
+    {
+      "text": "입점신청",
+      "href": "/bbs/content.php?co_id=uj_manage"
+    },
+    {
+      "text": "울진몰 HOT ITEM",
+      "href": "https://ujmall.cyso.co.kr/shop/listtype.php?type=best"
+    },
+    {
+      "text": "울진몰 HOT ITEM",
+      "href": "https://ujmall.cyso.co.kr/shop/listtype.php?type=best"
+    },
+    {
+      "text": "베스트 상품",
+      "href": "https://ujmall.cyso.co.kr/shop/listtype.php?type=best"
+    },
+    {
+      "text": "나곡어촌계",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=naver_90390854"
+    },
+    {
+      "text": "울진 고포돌미역(200g)",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1632715437"
+    },
+    {
+      "text": "산골에꿈 영농조합법인",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=sangool1986"
+    },
+    {
+      "text": "[산골에꿈 영농조합법인] 솔잎분말 100g",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1721882607"
+    },
+    {
+      "text": "23%할인",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1706089081"
+    },
+    {
+      "text": "주)울진토염",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=naver_9f67097a"
+    },
+    {
+      "text": "[울진토염] 조희조소금/260g",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1706089081"
+    },
+    {
+      "text": "강원자건어물",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=feel796"
+    },
+    {
+      "text": "(울진오징어) 마른오징어 10마리 570g ( 100% 국내산 -선동 )",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1575014566"
+    },
+    {
+      "text": "이정푸드",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=ejungseafood"
+    },
+    {
+      "text": "[이정푸드] 반건조물가자미 (선물용/ 제수용) 선물세트",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1614777924"
+    },
+    {
+      "text": "18%할인",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1713923013"
+    },
+    {
+      "text": "천용",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=naver_88f80896"
+    },
+    {
+      "text": "(천용 대게좋아) HACCP해품게살어묵핫바(붉은대게+오징어) 100g 10개 총1kg",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1713923013"
+    },
+    {
+      "text": "하늘마음농장",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=pfire78"
+    },
+    {
+      "text": "[하늘마음농장] 야생 개복숭아 발효액·청 1000ml, 1000ml*2",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1648218689"
+    },
+    {
+      "text": "(주)울진바다소리",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=rain1144"
+    },
+    {
+      "text": "울진바다소리 생물냉동(급냉) 손질가자미 1팩 2미(400g 이상)",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1570801188"
+    },
+    {
+      "text": "푸르미작업장",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=naver_85680808"
+    },
+    {
+      "text": "[푸르미작업장], 표고밥알세트, 65g 2개입",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1672818399"
+    },
+    {
+      "text": "후포리 대광수산",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=mind2046"
+    },
+    {
+      "text": "[후포리 대광수산] 붉은대게순살간장게장 200g",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1702366650"
+    },
+    {
+      "text": "+ 더보기",
+      "href": "/shop/listtype.php?type=best"
+    },
+    {
+      "text": "가공식품",
+      "href": "#cate2"
+    },
+    {
+      "text": "채소류",
+      "href": "#cate4"
+    },
+    {
+      "text": "과일류",
+      "href": "#cate1"
+    },
+    {
+      "text": "김치/장류/참기름",
+      "href": "#cate7"
+    },
+    {
+      "text": "한과/떡/빵류",
+      "href": "#cate8"
+    },
+    {
+      "text": "특산물",
+      "href": "#cate9"
+    },
+    {
+      "text": "전영자",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=kwon7777"
+    },
+    {
+      "text": "[함께하는 근남면 사람들] 근남마을 천연꿀 야생화꿀 2.4kg",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1626420441"
+    },
+    {
+      "text": "나마실허니",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=naver_8e890857"
+    },
+    {
+      "text": "[나마실허니] 아까시꿀2400",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1700435950"
+    },
+    {
+      "text": "이정푸드(왕피천 벌꿀)",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=ejungseafood"
+    },
+    {
+      "text": "[이정푸드] 울진 금강송 아카시아튜브꿀 1kg",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1731413361"
+    },
+    {
+      "text": "나마실허니",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=naver_8e890857"
+    },
+    {
+      "text": "[나마실허니] 튜브300선물세트",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1700437747"
+    },
+    {
+      "text": "12%할인",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1674571719"
+    },
+    {
+      "text": "이정푸드(왕피천 벌꿀)",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=ejungseafood"
+    },
+    {
+      "text": "[이정푸드] 왕피천 스틱꿀 종합선물세트(12g, 60포)",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1674571719"
+    },
+    {
+      "text": "다약정",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=bjy1215"
+    },
+    {
+      "text": "진하게하루한번 와송먹은 홍삼진액 80ml 30포",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1629172777"
+    },
+    {
+      "text": "최복술,정만교",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=kwon7777"
+    },
+    {
+      "text": "[함께하는 근남면 사람들] 근남마을 천연꿀 밤꿀 2.4kg",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1626235268"
+    },
+    {
+      "text": "전영자,최복술",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=kwon7777"
+    },
+    {
+      "text": "[함께하는 근남면 사람들] 금강송 밤꿀 15개, 야생화꿀 스틱벌꿀 15개  10g * 30개",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1637220098"
+    },
+    {
+      "text": "산골에꿈 영농조합법인",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=sangool1986"
+    },
+    {
+      "text": "[산골에꿈 영농조합법인] 솔잎분말 100g",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1721882607"
+    },
+    {
+      "text": "최복술, 정만교",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=kwon7777"
+    },
+    {
+      "text": "[함께하는 근남면 사람들]근남마을 밤꿀 2.4kg/야생화꿀 2.4kg (선택)",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1591604969"
+    },
+    {
+      "text": "영농조합법인 매야전통식품",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=tusbasa80"
+    },
+    {
+      "text": "매화전통 쌀조청 2.4kg",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1570800119"
+    },
+    {
+      "text": "다약정",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=bjy1215"
+    },
+    {
+      "text": "[다약정] 유기농와송과대추로 영양가득담은  와송 즙110ml  28 포",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1570802668"
+    },
+    {
+      "text": "영농조합법인매야전통식품",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=tusbasa80"
+    },
+    {
+      "text": "매화명품  도라지조청700g",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1627005352"
+    },
+    {
+      "text": "산골에꿈 영농조합법인",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=sangool1986"
+    },
+    {
+      "text": "[산골에꿈 영농조합법인] 솔잎농축액 산골솔잎 700ml",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1741933753"
+    },
+    {
+      "text": "함께하는 근남면 사람들",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=kwon7777"
+    },
+    {
+      "text": "[함께하는근남면 사람들] 유기농믓차(무우차), 30티백 2봉지",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1700913619"
+    },
+    {
+      "text": "푸르미작업장",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=naver_85680808"
+    },
+    {
+      "text": "[푸르미작업장], 표고밥알세트, 65g 2개입",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1672818399"
+    },
+    {
+      "text": "농부의바다",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=naver_930b0930"
+    },
+    {
+      "text": "[농부의바다]*울진대게*특허받은 울진대게소금 2종세트(180g*2개)",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1736365837"
+    },
+    {
+      "text": "하늘마음농장",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=pfire78"
+    },
+    {
+      "text": "[하늘마음농장] 국내산 100% 유기농 야콘즙 50포",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1648219301"
+    },
+    {
+      "text": "다약정",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=bjy1215"
+    },
+    {
+      "text": "[다약정]고온이아닌 저온으로 영양소 파괴없이 특허기술로 만든 저온 와송조청260g *3병",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1570802664"
+    },
+    {
+      "text": "대게김",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=daegegim1"
+    },
+    {
+      "text": "[대게김] 우리진육수 45g(10병) 선물세트",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1741136933"
+    },
+    {
+      "text": "최부열 농부",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=kwon7777"
+    },
+    {
+      "text": "[함께하는 근남면 사람들]24년 현미쌀 1kg",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1606041387"
+    },
+    {
+      "text": "함께하는 근남면 사람들",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=kwon7777"
+    },
+    {
+      "text": "[함께하는 근남면 사람들]근남마을 25년 햇보리쌀 3kg",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1591521552"
+    },
+    {
+      "text": "최성택, 최옥순,이경화,최부열,이경화",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=kwon7777"
+    },
+    {
+      "text": "[함께하는 근남면 사람들] 금방도정한 삼광쌀 10kg, 삼광쌀 20kg",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1600515475"
+    },
+    {
+      "text": "이경화",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=kwon7777"
+    },
+    {
+      "text": "[함께하는 근남면 사람들] 25년 겉보리쌀 1kg",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1624505825"
+    },
+    {
+      "text": "양삼옥, 최성택",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=kwon7777"
+    },
+    {
+      "text": "[함께하는 근남면 사람들] 누룽지향 가득 햇 향미찹쌀 1kg",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1601886605"
+    },
+    {
+      "text": "하산농산(유형준)",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=qordka4490"
+    },
+    {
+      "text": "[백암마을]하산농산 노루마루 노루궁뎅이버섯 환 200g",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1655113684"
+    },
+    {
+      "text": "29%할인",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1723553918"
+    },
+    {
+      "text": "김창기머쉬룸팜",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=naver_a3ff09b1"
+    },
+    {
+      "text": "[김창기머쉬룸팜] 건표고버섯 깍뚝 100g",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1723553918"
+    },
+    {
+      "text": "농업회사법인 대성주식회사",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=ksk6855"
+    },
+    {
+      "text": "농업회사법인 대성(주) 답운농장 큰며느리 유기농고춧가루 500g",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1683982522"
+    },
+    {
+      "text": "양지마을농원(남기문)",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=qordka4490"
+    },
+    {
+      "text": "[백암마을]건고추6kg10근",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1724316459"
+    },
+    {
+      "text": "백순일, 유상순",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=kwon7777"
+    },
+    {
+      "text": "[함께하는 근남면 사람들] 경북농부 고춧가루 300g",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1685448839"
+    },
+    {
+      "text": "배선희",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=kwon7777"
+    },
+    {
+      "text": "[함께하는 근남면 사람들] 찰옥수수 -생옥수수 22개 [예약 발송]",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1626416012"
+    },
+    {
+      "text": "유상순, 김덕순, 최정택",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=kwon7777"
+    },
+    {
+      "text": "[함께하는 근남면 사람들] 햇 감자5kg [사이즈 - 대 중랜덤 ]",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1624509191"
+    },
+    {
+      "text": "양지마을농원(남기문)",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=qordka4490"
+    },
+    {
+      "text": "[백암마을]건고추3kg5근",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1724318270"
+    },
+    {
+      "text": "함께하는 근남면 사람들",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=kwon7777"
+    },
+    {
+      "text": "[함께하는 근남면 사람들] 25년 6월 방금밭에서 캔 햇 양파3kg, 감자4kg , 마늘700g[마늘모양20개랜덤]  소형 사이즈 꾸러미 [계란 사이즈 이상]",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1623970516"
+    },
+    {
+      "text": "6%할인",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1723551684"
+    },
+    {
+      "text": "김창기머쉬룸팜",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=naver_a3ff09b1"
+    },
+    {
+      "text": "[김창기머쉬룸팜] 표고버섯 선물세트 (건표고 슬라이스 80g, 표고버섯 가루 80g, 건표고 깍뚝 100g)",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1723551684"
+    },
+    {
+      "text": "백암산농원(김인순)",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=qordka4490"
+    },
+    {
+      "text": "[백암마을] 백암산 냉동 산딸기 700g*2팩 (1.4kg)",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1659580806"
+    },
+    {
+      "text": "천년애농원",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=dasaso"
+    },
+    {
+      "text": "[천년애농원] 울진 H2복숭아 2.5kg",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1718867381"
+    },
+    {
+      "text": "금산농원",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=naver_85ff081e"
+    },
+    {
+      "text": "[금산농원]은행알2kg",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1731898492"
+    },
+    {
+      "text": "영신곳간",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=ysgg"
+    },
+    {
+      "text": "[영신곳간] 해밀 純 생들기름 180ml",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1570796338"
+    },
+    {
+      "text": "영신곳간",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=ysgg"
+    },
+    {
+      "text": "[영신곳간] 해밀 純 참기름 180ml*2병",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1570797849"
+    },
+    {
+      "text": "방주명가영농조합법인",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=bangju1986"
+    },
+    {
+      "text": "방주명가 된장 재래식 국산콩 시골 전통 한식 집된장 900g",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1727401711"
+    },
+    {
+      "text": "영신곳간",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=ysgg"
+    },
+    {
+      "text": "[영신곳간] 해밀 純 참기름 180ml + 생들기름 180ml",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1570797848"
+    },
+    {
+      "text": "영신곳간",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=ysgg"
+    },
+    {
+      "text": "[영신곳간] 해밀 純 참기름 250ml + 생들기름 250ml",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1570798513"
+    },
+    {
+      "text": "영신곳간",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=ysgg"
+    },
+    {
+      "text": "[영신곳간] 해밀 純 참기름 300ml+생들기름 300ml",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1570796964"
+    },
+    {
+      "text": "영신곳간",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=ysgg"
+    },
+    {
+      "text": "[영신곳간] 해밀 純 참기름 300ml + 생들기름 300ml + 볶은참깨 150g(선물세트)",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1570796333"
+    },
+    {
+      "text": "방주명가영농조합법인",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=bangju1986"
+    },
+    {
+      "text": "[방주명가]금강송숲 방주품간장 조선간장 한식 국간장 900ml",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1648435652"
+    },
+    {
+      "text": "영신곳간",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=ysgg"
+    },
+    {
+      "text": "[영신곳간] 해밀 純 참기름 250ml",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1694478853"
+    },
+    {
+      "text": "25%할인",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1700911761"
+    },
+    {
+      "text": "답운농장 권나영",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=kwon7777"
+    },
+    {
+      "text": "[함께하는 근남면 사람들] 24년 유기농건고추100% 고추씨 1kg",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1700911761"
+    },
+    {
+      "text": "매매떡",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=kyttss"
+    },
+    {
+      "text": "[매매떡] 흰찹쌀떡 1box 27개",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1723679612"
+    },
+    {
+      "text": "주식회사 금강송푸른솔",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=purunsol0405"
+    },
+    {
+      "text": "[금강송푸른솔]울진 지역명물 지역빵 금강솔빵 1박스(14개입)",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1727953632"
+    },
+    {
+      "text": "농업회사법인 대성주식회사",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=ksk6855"
+    },
+    {
+      "text": "답운농장 큰며느리가 만든 스넥누룽지 5종세트",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1604492861"
+    },
+    {
+      "text": "매매떡",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=kyttss"
+    },
+    {
+      "text": "[매매떡] 콩가래떡  30개",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1723680707"
+    },
+    {
+      "text": "금강송푸른솔",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=purunsol0405"
+    },
+    {
+      "text": "[금강송푸른솔] 단호박크림치즈빵 1박스(6개입)",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1668954452"
+    },
+    {
+      "text": "금강송푸른솔",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=purunsol0405"
+    },
+    {
+      "text": "[금강송푸른솔] 울진군 금강송면 건강간식 금강송쿠키 1박스(4개입)",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1664588935"
+    },
+    {
+      "text": "매매떡",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=kyttss"
+    },
+    {
+      "text": "[매매떡] 쑥찹쌀떡 1box 27개",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1723680348"
+    },
+    {
+      "text": "후포리 대광수산",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=mind2046"
+    },
+    {
+      "text": "[후포리 대광수산] 붉은대게순살(혼합살) 700g",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1702379906"
+    },
+    {
+      "text": "(주)풍요로운바다",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=kky4554"
+    },
+    {
+      "text": "[풍요로운바다]동해안 자연산 자숙 순살(손질) 골뱅이  250gx4팩",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1734150655"
+    },
+    {
+      "text": "주신수산식품(주)",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=jusinfoods"
+    },
+    {
+      "text": "[주신수산식품] 붉은대게장 미니 70g-6개세트",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1629851999"
+    },
+    {
+      "text": "대건수산",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=DGchoi"
+    },
+    {
+      "text": "낙지젓갈",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1620716416"
+    },
+    {
+      "text": "해정상회",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=haejungsf"
+    },
+    {
+      "text": "[해정씨푸드]울진 후포항 자숙 골뱅이살 1kg",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1731649250"
+    },
+    {
+      "text": "후포리 대광수산",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=mind2046"
+    },
+    {
+      "text": "[후포리 대광수산] 금조붉은대게 금조 간장게장 100% 국내산 900g",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1740480581"
+    },
+    {
+      "text": "대게김",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=daegegim1"
+    },
+    {
+      "text": "[대게김] 대게김 도시락김 4g 32봉",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1681891599"
+    },
+    {
+      "text": "우진로컬센터영어조합법인",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=woojin8080"
+    },
+    {
+      "text": "[우진로컬센터] 손질자숙문어슬라이스 150g 1팩",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1605852330"
+    },
+    {
+      "text": "2%할인",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1583736912"
+    },
+    {
+      "text": "대게김",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=daegegim1"
+    },
+    {
+      "text": "[대게김] 대게김 4g(도시락김) 16봉",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1583736912"
+    },
+    {
+      "text": "3%할인",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1583735545"
+    },
+    {
+      "text": "대게김",
+      "href": "https://ujmall.cyso.co.kr/shop/item_list.php?type=market&val=daegegim1"
+    },
+    {
+      "text": "[대게김] 대게김 4g(도시락김) 48봉",
+      "href": "https://ujmall.cyso.co.kr/shop/item.php?it_id=1583735545"
+    },
+    {
+      "text": "고객후기 더보기",
+      "href": "https://ujmall.cyso.co.kr/shop/itemuselist.php"
+    },
+    {
+      "text": "[함께하는 근남면 사람들] 25년 겉보리쌀 1kg",
+      "href": "\n\t  https://ujmall.cyso.co.kr/shop/item.php?it_id=1624505825"
+    },
+    {
+      "text": "[함께하는 근남면 사람들] 홍감자 대중 사이즈 랜덤 4키로",
+      "href": "\n\t  https://ujmall.cyso.co.kr/shop/item.php?it_id=1625586930"
+    },
+    {
+      "text": "[풍요로운바다]동해안 자연산 자숙 순살(손질) 골뱅이 250gx2팩",
+      "href": "\n\t  https://ujmall.cyso.co.kr/shop/item.php?it_id=1734148975"
+    },
+    {
+      "text": "[청해식품]토종국산콩두부 380gX6, 순두부 480gX2",
+      "href": "\n\t  https://ujmall.cyso.co.kr/shop/item.php?it_id=1734784848"
+    },
+    {
+      "text": "주문배송",
+      "href": "https://ujmall.cyso.co.kr/shop/orderinquiry.php"
+    },
+    {
+      "text": "장바구니",
+      "href": "https://ujmall.cyso.co.kr/shop/cart.php"
+    },
+    {
+      "text": "찜한상품",
+      "href": "https://ujmall.cyso.co.kr/shop/wishlist.php"
+    },
+    {
+      "text": "마이페이지",
+      "href": "https://ujmall.cyso.co.kr/shop/mypage.php"
+    },
+    {
+      "text": "고객센터",
+      "href": "https://ujmall.cyso.co.kr/bbs/board.php?bo_table=uj_notice"
+    },
+    {
+      "text": "최근본상품",
+      "href": "https://ujmall.cyso.co.kr/shop/last_viewitem.php"
+    },
+    {
+      "text": "상품카테고리",
+      "href": "#cate_01"
+    },
+    {
+      "text": "쌀/잡곡",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj10"
+    },
+    {
+      "text": "쌀",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj1010"
+    },
+    {
+      "text": "백미",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj101010"
+    },
+    {
+      "text": "현미",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj101020"
+    },
+    {
+      "text": "흑미",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj101030"
+    },
+    {
+      "text": "찹쌀",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj101040"
+    },
+    {
+      "text": "기타잡곡",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj1020"
+    },
+    {
+      "text": "혼합곡",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj102010"
+    },
+    {
+      "text": "콩/팥",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj102020"
+    },
+    {
+      "text": "보리",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj102030"
+    },
+    {
+      "text": "과일류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj20"
+    },
+    {
+      "text": "과일",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj2010"
+    },
+    {
+      "text": "사과/배/복숭아",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj201010"
+    },
+    {
+      "text": "포도/자두/살구",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj201020"
+    },
+    {
+      "text": "곶감/반건시/감말랭이",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj201030"
+    },
+    {
+      "text": "감/단감/아이스홍시",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj201040"
+    },
+    {
+      "text": "블루베리/오디",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj201050"
+    },
+    {
+      "text": "대추/매실/오미자",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj201060"
+    },
+    {
+      "text": "과채류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj2020"
+    },
+    {
+      "text": "토마토",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj202010"
+    },
+    {
+      "text": "참외",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj202020"
+    },
+    {
+      "text": "딸기",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj202030"
+    },
+    {
+      "text": "수박",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj202040"
+    },
+    {
+      "text": "견과류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj2030"
+    },
+    {
+      "text": "기타과일",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj2040"
+    },
+    {
+      "text": "채소류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj30"
+    },
+    {
+      "text": "채소",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj3010"
+    },
+    {
+      "text": "마늘/양파/고추/생강",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj301010"
+    },
+    {
+      "text": "고구마/감자",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj301020"
+    },
+    {
+      "text": "마/천마",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj301030"
+    },
+    {
+      "text": "야콘/연근/우엉",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj301040"
+    },
+    {
+      "text": "고춧가루/파프리카",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj301050"
+    },
+    {
+      "text": "옥수수/호박",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj301060"
+    },
+    {
+      "text": "배추/무",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj301070"
+    },
+    {
+      "text": "버섯",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj3020"
+    },
+    {
+      "text": "건나물/건채소",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj3030"
+    },
+    {
+      "text": "건나물/건채소",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj303010"
+    },
+    {
+      "text": "산마늘/명이",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj303020"
+    },
+    {
+      "text": "기타채소",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj3040"
+    },
+    {
+      "text": "쌈채소",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj304010"
+    },
+    {
+      "text": "축산물",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj40"
+    },
+    {
+      "text": "한우",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj4010"
+    },
+    {
+      "text": "돈육",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj4020"
+    },
+    {
+      "text": "계란",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj4030"
+    },
+    {
+      "text": "닭고기",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj4040"
+    },
+    {
+      "text": "기타축산물",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj4050"
+    },
+    {
+      "text": "수산물",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj50"
+    },
+    {
+      "text": "수산물",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj5010"
+    },
+    {
+      "text": "간고등어/문어/오징어",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj501010"
+    },
+    {
+      "text": "돌장어/도루묵",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj501020"
+    },
+    {
+      "text": "가자미/활어회",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj501030"
+    },
+    {
+      "text": "대게/홍게/과메기/게장",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj501040"
+    },
+    {
+      "text": "전복/홍합/골뱅이",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj5020"
+    },
+    {
+      "text": "건어물",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj5030"
+    },
+    {
+      "text": "김/미역/다시마",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj503010"
+    },
+    {
+      "text": "멸치/건오징어/쥐포/어포",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj503020"
+    },
+    {
+      "text": "액젓/젓갈",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj5040"
+    },
+    {
+      "text": "기타수산물",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj5050"
+    },
+    {
+      "text": "꿀/홍삼",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj60"
+    },
+    {
+      "text": "꿀",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj6010"
+    },
+    {
+      "text": "꿀",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj601010"
+    },
+    {
+      "text": "프로폴리스/로얄제리",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj601020"
+    },
+    {
+      "text": "화분",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj601030"
+    },
+    {
+      "text": "홍삼/인삼",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj6020"
+    },
+    {
+      "text": "인삼/수삼",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj602010"
+    },
+    {
+      "text": "홍삼/홍삼가공",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj602020"
+    },
+    {
+      "text": "분말/환/기타",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj6030"
+    },
+    {
+      "text": "가공식품",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj70"
+    },
+    {
+      "text": "과일즙/야채즙",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj7010"
+    },
+    {
+      "text": "원액/청/음료",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj7020"
+    },
+    {
+      "text": "과일말랭이/칩",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj7030"
+    },
+    {
+      "text": "면류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj7040"
+    },
+    {
+      "text": "잼류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj7050"
+    },
+    {
+      "text": "죽류/즉석요리(HMR)",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj7060"
+    },
+    {
+      "text": "가루식품류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj7070"
+    },
+    {
+      "text": "발효식초/감식초",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj7080"
+    },
+    {
+      "text": "낫또/요구르트",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj7090"
+    },
+    {
+      "text": "차류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj70a0"
+    },
+    {
+      "text": "기타식품",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj70b0"
+    },
+    {
+      "text": "김치/장류/참기름",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj80"
+    },
+    {
+      "text": "김치",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj8010"
+    },
+    {
+      "text": "장류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj8020"
+    },
+    {
+      "text": "된장/청국장",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj802010"
+    },
+    {
+      "text": "고추장",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj802020"
+    },
+    {
+      "text": "고춧가루",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj802030"
+    },
+    {
+      "text": "양념류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj8030"
+    },
+    {
+      "text": "참기름/들기름",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj803010"
+    },
+    {
+      "text": "간장류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj803020"
+    },
+    {
+      "text": "한과/떡/빵류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj90"
+    },
+    {
+      "text": "한과",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj9010"
+    },
+    {
+      "text": "떡",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj9020"
+    },
+    {
+      "text": "전통과자/엿",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=uj9030"
+    },
+    {
+      "text": "특산물",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=ujb0"
+    },
+    {
+      "text": "공예품",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=ujb010"
+    },
+    {
+      "text": "화장품/비누",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=ujb020"
+    },
+    {
+      "text": "의류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=ujb030"
+    },
+    {
+      "text": "침구류",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=ujb040"
+    },
+    {
+      "text": "기타",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=ujb050"
+    },
+    {
+      "text": "기타",
+      "href": "https://ujmall.cyso.co.kr/shop/list.php?ca_id=ujf0"
+    },
+    {
+      "text": "장바구니 ( 0 )",
+      "href": "https://ujmall.cyso.co.kr/shop/cart.php"
+    },
+    {
+      "text": "고객센터",
+      "href": "https://ujmall.cyso.co.kr/bbs/faq.php"
+    },
+    {
+      "text": "대표농특산물",
+      "href": "https://ujmall.cyso.co.kr/bbs/content.php?co_id=uj_info02"
+    },
+    {
+      "text": "1:1 문의",
+      "href": "https://ujmall.cyso.co.kr/bbs/qalist.php"
+    },
+    {
+      "text": "입점안내",
+      "href": "https://ujmall.cyso.co.kr/bbs/content.php?co_id=uj_manage"
+    },
+    {
+      "text": "공지사항",
+      "href": "https://ujmall.cyso.co.kr/bbs/board.php?bo_table=uj_notice"
+    },
+    {
+      "text": "냅다 쿠폰 이벤트",
+      "href": "https://ujmall.cyso.co.kr/bbs/board.php?bo_table=uj_notice&wr_id=169"
+    },
+    {
+      "text": "6월 배송 안내",
+      "href": "https://ujmall.cyso.co.kr/bbs/board.php?bo_table=uj_notice&wr_id=168"
+    },
+    {
+      "text": "2025 가정의달 할인이벤트",
+      "href": "https://ujmall.cyso.co.kr/bbs/board.php?bo_table=uj_notice&wr_id=167"
+    },
+    {
+      "text": "5월 배송 안내",
+      "href": "https://ujmall.cyso.co.kr/bbs/board.php?bo_table=uj_notice&wr_id=166"
+    },
+    {
+      "text": "울진몰 무료배송 쿠폰 이벤트",
+      "href": "https://ujmall.cyso.co.kr/bbs/board.php?bo_table=uj_notice&wr_id=165"
+    },
+    {
+      "text": "울진몰소개",
+      "href": "https://ujmall.cyso.co.kr/bbs/content.php?co_id=uj_info"
+    },
+    {
+      "text": "고객 이용약관",
+      "href": "https://ujmall.cyso.co.kr/bbs/content.php?co_id=uj_provision"
+    },
+    {
+      "text": "입점업체 이용약관",
+      "href": "https://ujmall.cyso.co.kr/bbs/content.php?co_id=uj_market"
+    },
+    {
+      "text": "개인정보처리방침",
+      "href": "https://ujmall.cyso.co.kr/bbs/content.php?co_id=uj_privacy"
+    },
+    {
+      "text": "이메일무단수집거부",
+      "href": "https://ujmall.cyso.co.kr/bbs/content.php?co_id=uj_EmailColec"
+    },
+    {
+      "text": "입점안내",
+      "href": "https://ujmall.cyso.co.kr/bbs/content.php?co_id=uj_manage"
+    },
+    {
+      "text": "입점업체",
+      "href": "https://ujmall.cyso.co.kr/shop/marketList.php"
+    }
+  ],
+  "productLinks": [
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1632715437",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1721882607",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1706089081",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1575014566",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1614777924",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1713923013",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1648218689",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1570801188",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1672818399",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1702366650",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1626420441",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1700435950",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1731413361",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1700437747",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1674571719",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1629172777",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1626235268",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1637220098",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1591604969",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1570800119",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1570802668",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1627005352",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1741933753",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1700913619",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1736365837",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1648219301",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1570802664",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1741136933",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1606041387",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1591521552",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1600515475",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1624505825",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1601886605",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1655113684",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1723553918",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1683982522",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1724316459",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1685448839",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1626416012",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1624509191",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1724318270",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1623970516",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1723551684",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1659580806",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1718867381",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1731898492",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1570796338",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1570797849",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1727401711",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1570797848",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1570798513",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1570796964",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1570796333",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1648435652",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1694478853",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1700911761",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1723679612",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1727953632",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1604492861",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1723680707",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1668954452",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1664588935",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1723680348",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1702379906",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1734150655",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1629851999",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1620716416",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1731649250",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1740480581",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1681891599",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1605852330",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1583736912",
+    "https://ujmall.cyso.co.kr/shop/item.php?it_id=1583735545",
+    "\n\t  https://ujmall.cyso.co.kr/shop/item.php?it_id=1624505825",
+    "\n\t  https://ujmall.cyso.co.kr/shop/item.php?it_id=1625586930",
+    "\n\t  https://ujmall.cyso.co.kr/shop/item.php?it_id=1734148975",
+    "\n\t  https://ujmall.cyso.co.kr/shop/item.php?it_id=1734784848"
+  ],
+  "notes": [
+    "Page title: 울진몰",
+    "Description: No description",
+    "Uses standard CYSO product URL pattern",
+    "Total links found: 812",
+    "Images found: 424",
+    "[class*=\"price\"]: 8 elements",
+    "Main content areas: 1",
+    "Item elements: 0",
+    "Shop elements: 7",
+    "울진군 특산물 전문몰",
+    "CYSO 플랫폼 기반",
+    "대게, 해산물, 농산물 특화"
+  ]
+}

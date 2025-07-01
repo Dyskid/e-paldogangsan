@@ -1,6 +1,6 @@
 [
   {
-    "id": "mall_3_우리몰",
+    "id": "우리몰",
     "name": "우리몰",
     "url": "https://wemall.kr",
     "region": "대구",
@@ -15,7 +15,7 @@
     "logo": "/logos/mall_3_우리몰.png"
   },
   {
-    "id": "mall_4_참달성_달성군_",
+    "id": "참달성_달성군",
     "name": "참달성 (달성군)",
     "url": "https://chamds.com",
     "region": "대구",
@@ -30,7 +30,7 @@
     "logo": "/logos/mall_4_참달성_달성군_.png"
   },
   {
-    "id": "mall_6_광주김치몰",
+    "id": "광주김치몰",
     "name": "광주김치몰",
     "url": "https://www.k-kimchi.kr/index.php",
     "region": "광주",
@@ -45,7 +45,7 @@
     "logo": "/logos/mall_6_광주김치몰.png"
   },
   {
-    "id": "mall_7_대전사랑몰",
+    "id": "대전사랑몰",
     "name": "대전사랑몰",
     "url": "https://ontongdaejeon.ezwel.com/onnuri/main",
     "region": "대전",
@@ -60,7 +60,7 @@
     "logo": "/logos/mall_7_대전사랑몰.png"
   },
   {
-    "id": "mall_10_착착착",
+    "id": "착착착",
     "name": "착착착",
     "url": "https://www.chack3.com/",
     "region": "경기",
@@ -74,7 +74,7 @@
     "logo": "/logos/mall_10_착착착.png"
   },
   {
-    "id": "mall_11_오산함께장터",
+    "id": "오산함께장터",
     "name": "오산함께장터",
     "url": "http://www.osansemall.com/",
     "region": "경기",
@@ -89,7 +89,7 @@
     "logo": "/logos/mall_11_오산함께장터.png"
   },
   {
-    "id": "mall_12_광명가치몰",
+    "id": "광명가치몰",
     "name": "광명가치몰",
     "url": "http://gmsocial.mangotree.co.kr/mall/",
     "region": "경기",
@@ -104,7 +104,7 @@
     "logo": "/logos/mall_12_광명가치몰.png"
   },
   {
-    "id": "mall_13_양주농부마켓",
+    "id": "양주농부마켓",
     "name": "양주농부마켓",
     "url": "https://market.yangju.go.kr/",
     "region": "경기",
@@ -120,7 +120,7 @@
     "logo": "/logos/mall_13_양주농부마켓.png"
   },
   {
-    "id": "mall_14_마켓경기",
+    "id": "마켓경기",
     "name": "마켓경기",
     "url": "https://smartstore.naver.com/marketgyeonggi",
     "region": "경기",
@@ -137,7 +137,7 @@
     "_reason": "Compatibility issues - temporarily disabled"
   },
   {
-    "id": "mall_15_강원더몰",
+    "id": "강원더몰",
     "name": "강원더몰",
     "url": "https://gwdmall.kr/",
     "region": "강원",
@@ -152,7 +152,7 @@
     "logo": "/logos/mall_15_강원더몰.png"
   },
   {
-    "id": "mall_16_원주몰",
+    "id": "원주몰",
     "name": "원주몰",
     "url": "https://wonju-mall.co.kr/",
     "region": "강원",
@@ -167,7 +167,7 @@
     "logo": "/logos/mall_16_원주몰.png"
   },
   {
-    "id": "mall_17_강릉몰",
+    "id": "강릉몰",
     "name": "강릉몰",
     "url": "https://gangneung-mall.com/",
     "region": "강원",
@@ -182,7 +182,7 @@
     "logo": "/logos/mall_17_강릉몰.png"
   },
   {
-    "id": "mall_18_고성몰",
+    "id": "고성몰",
     "name": "고성몰",
     "url": "https://gwgoseong-mall.com/",
     "region": "강원",
@@ -197,7 +197,7 @@
     "logo": "/logos/mall_18_고성몰.png"
   },
   {
-    "id": "mall_19_동해몰",
+    "id": "동해몰",
     "name": "동해몰",
     "url": "https://donghae-mall.com/",
     "region": "강원",
@@ -212,7 +212,7 @@
     "logo": "/logos/mall_19_동해몰.png"
   },
   {
-    "id": "mall_20_삼척몰",
+    "id": "삼척몰",
     "name": "삼척몰",
     "url": "https://samcheok-mall.com/",
     "region": "강원",
@@ -227,7 +227,7 @@
     "logo": "/logos/mall_20_삼척몰.png"
   },
   {
-    "id": "mall_21_양구몰",
+    "id": "양구몰",
     "name": "양구몰",
     "url": "https://yanggu-mall.com/",
     "region": "강원",
@@ -242,7 +242,7 @@
     "logo": "/logos/mall_21_양구몰.png"
   },
   {
-    "id": "mall_22_양양몰",
+    "id": "양양몰",
     "name": "양양몰",
     "url": "https://yangyang-mall.com/",
     "region": "강원",
@@ -257,7 +257,7 @@
     "logo": "/logos/mall_22_양양몰.png"
   },
   {
-    "id": "mall_23_영월몰",
+    "id": "영월몰",
     "name": "영월몰",
     "url": "https://yeongwol-mall.com/",
     "region": "강원",
@@ -272,7 +272,7 @@
     "logo": "/logos/mall_23_영월몰.png"
   },
   {
-    "id": "mall_24_인제몰",
+    "id": "인제몰",
     "name": "인제몰",
     "url": "https://inje-mall.com/",
     "region": "강원",
@@ -287,7 +287,7 @@
     "logo": "/logos/mall_24_인제몰.png"
   },
   {
-    "id": "mall_25_철원몰",
+    "id": "철원몰",
     "name": "철원몰",
     "url": "https://cheorwon-mall.com/",
     "region": "강원",
@@ -302,7 +302,7 @@
     "logo": "/logos/mall_25_철원몰.png"
   },
   {
-    "id": "mall_26_정선몰",
+    "id": "정선몰",
     "name": "정선몰",
     "url": "https://jeongseon-mall.com/",
     "region": "강원",
@@ -317,7 +317,7 @@
     "logo": "/logos/mall_26_정선몰.png"
   },
   {
-    "id": "mall_27_태백몰",
+    "id": "태백몰",
     "name": "태백몰",
     "url": "https://taebaek-mall.com/",
     "region": "강원",
@@ -332,7 +332,7 @@
     "logo": "/logos/mall_27_태백몰.png"
   },
   {
-    "id": "mall_28_횡성몰",
+    "id": "횡성몰",
     "name": "횡성몰",
     "url": "https://hoengseong-mall.com/",
     "region": "강원",
@@ -347,7 +347,7 @@
     "logo": "/logos/mall_28_횡성몰.png"
   },
   {
-    "id": "mall_29_춘천몰",
+    "id": "춘천몰",
     "name": "춘천몰",
     "url": "https://gwch-mall.com/",
     "region": "강원",
@@ -362,7 +362,7 @@
     "logo": "/logos/mall_29_춘천몰.png"
   },
   {
-    "id": "mall_30_홍천몰",
+    "id": "홍천몰",
     "name": "홍천몰",
     "url": "https://hongcheon-mall.com/",
     "region": "강원",
@@ -377,7 +377,7 @@
     "logo": "/logos/mall_30_홍천몰.png"
   },
   {
-    "id": "mall_31_평창몰",
+    "id": "평창몰",
     "name": "평창몰",
     "url": "https://gwpc-mall.com/",
     "region": "강원",
@@ -392,7 +392,7 @@
     "logo": "/logos/mall_31_평창몰.png"
   },
   {
-    "id": "mall_33_음성장터",
+    "id": "음성장터",
     "name": "음성장터",
     "url": "https://www.esjang.go.kr/",
     "region": "충북",
@@ -407,7 +407,7 @@
     "logo": "/logos/mall_33_음성장터.png"
   },
   {
-    "id": "mall_34_진천몰",
+    "id": "진천몰",
     "name": "진천몰",
     "url": "https://jcmall.net/",
     "region": "충북",
@@ -422,7 +422,7 @@
     "logo": "/logos/mall_34_진천몰.png"
   },
   {
-    "id": "mall_35_괴산장터",
+    "id": "괴산장터",
     "name": "괴산장터",
     "url": "https://www.gsjangter.go.kr/",
     "region": "충북",
@@ -437,7 +437,7 @@
     "logo": "/logos/mall_35_괴산장터.png"
   },
   {
-    "id": "mall_36_농사랑",
+    "id": "농사랑",
     "name": "농사랑",
     "url": "https://nongsarang.co.kr/",
     "region": "충남",
@@ -452,7 +452,7 @@
     "logo": "/logos/mall_36_농사랑.png"
   },
   {
-    "id": "mall_37_당진팜",
+    "id": "당진팜",
     "name": "당진팜",
     "url": "https://dangjinfarm.com/",
     "region": "충남",
@@ -467,7 +467,7 @@
     "logo": "/logos/mall_37_당진팜.png"
   },
   {
-    "id": "mall_38_e홍성장터",
+    "id": "e홍성장터",
     "name": "e홍성장터",
     "url": "https://ehongseong.com/",
     "region": "충남",
@@ -482,7 +482,7 @@
     "logo": "/logos/mall_38_e홍성장터.png"
   },
   {
-    "id": "mall_39_서산뜨레",
+    "id": "서산뜨레",
     "name": "서산뜨레",
     "url": "https://seosanttre.com/index.html",
     "region": "충남",
@@ -496,7 +496,7 @@
     "logo": "/logos/mall_39_서산뜨레.png"
   },
   {
-    "id": "mall_40_부안_텃밭할매",
+    "id": "부안_텃밭할매",
     "name": "부안 텃밭할매",
     "url": "https://www.xn--9z2bv5bx25anyd.kr/",
     "region": "전북",
@@ -510,7 +510,7 @@
     "logo": "/logos/mall_40_부안_텃밭할매.png"
   },
   {
-    "id": "mall_41_단풍미인_정읍_",
+    "id": "단풍미인_정읍",
     "name": "단풍미인 (정읍)",
     "url": "https://www.danpoongmall.kr/",
     "region": "전북",
@@ -525,7 +525,7 @@
     "logo": "/logos/mall_41_단풍미인_정읍_.png"
   },
   {
-    "id": "mall_42_지평선몰_김제_",
+    "id": "지평선몰_김제",
     "name": "지평선몰(김제)",
     "url": "https://jpsmall.com/",
     "region": "전북",
@@ -543,7 +543,7 @@
     "_reason": "Compatibility issues - temporarily disabled"
   },
   {
-    "id": "mall_43_전북생생장터",
+    "id": "전북생생장터",
     "name": "전북생생장터",
     "url": "https://freshjb.com/",
     "region": "전북",
@@ -558,7 +558,7 @@
     "logo": "/logos/mall_43_전북생생장터.png"
   },
   {
-    "id": "mall_44_익산몰",
+    "id": "익산몰",
     "name": "익산몰",
     "url": "https://iksanmall.com/",
     "region": "전북",
@@ -573,9 +573,9 @@
     "logo": "/logos/mall_44_익산몰.png"
   },
   {
-    "id": "mall_45_진안고원몰",
+    "id": "진안고원몰",
     "name": "진안고원몰",
-    "url": "https://jinangowonmall.com/",
+    "url": "https://xn--299az5xoii3qb66f.com/",
     "region": "전북",
     "tags": [
       "종합몰",
@@ -590,9 +590,9 @@
     "_reason": "Compatibility issues - temporarily disabled"
   },
   {
-    "id": "mall_46_장수몰",
+    "id": "장수몰",
     "name": "장수몰",
-    "url": "https://www.장수몰.com/",
+    "url": "https://www.xn--352bl9k1ze.com/",
     "region": "전북",
     "tags": [
       "종합몰",
@@ -605,7 +605,7 @@
     "logo": "/logos/mall_46_장수몰.png"
   },
   {
-    "id": "mall_47_고창마켓",
+    "id": "고창마켓",
     "name": "고창마켓",
     "url": "https://noblegochang.com/",
     "region": "전북",
@@ -620,7 +620,7 @@
     "logo": "/logos/mall_47_고창마켓.png"
   },
   {
-    "id": "mall_48_임실몰",
+    "id": "임실몰",
     "name": "임실몰",
     "url": "https://www.imsilin.kr/home",
     "region": "전북",
@@ -637,7 +637,7 @@
     "_reason": "Compatibility issues - temporarily disabled"
   },
   {
-    "id": "mall_49_순창로컬푸드쇼핑몰",
+    "id": "순창로컬푸드쇼핑몰",
     "name": "순창로컬푸드쇼핑몰",
     "url": "https://smartstore.naver.com/schfarm",
     "region": "전북",
@@ -655,7 +655,7 @@
     "_reason": "Compatibility issues - temporarily disabled"
   },
   {
-    "id": "mall_50_해가람",
+    "id": "해가람",
     "name": "해가람",
     "url": "https://haegaram.com",
     "region": "전북",
@@ -672,7 +672,7 @@
     "scraperId": "haegaram"
   },
   {
-    "id": "mall_51_남도장터",
+    "id": "남도장터",
     "name": "남도장터",
     "url": "https://www.jnmall.kr/",
     "region": "전남",
@@ -689,7 +689,7 @@
     "scraperId": "jnmall"
   },
   {
-    "id": "mall_52_여수몰",
+    "id": "여수몰",
     "name": "여수몰",
     "url": "http://www.yeosumall.co.kr/",
     "region": "전남",
@@ -705,7 +705,7 @@
     "scraperId": "yeosumall"
   },
   {
-    "id": "mall_53_해피굿팜",
+    "id": "해피굿팜",
     "name": "해피굿팜",
     "url": "https://smartstore.naver.com/hgoodfarm",
     "region": "전남",
@@ -722,7 +722,7 @@
     "_reason": "Compatibility issues - temporarily disabled"
   },
   {
-    "id": "mall_54_보성몰",
+    "id": "보성몰",
     "name": "보성몰",
     "url": "https://boseongmall.co.kr/",
     "region": "전남",
@@ -738,7 +738,7 @@
     "scraperId": "boseongmall"
   },
   {
-    "id": "mall_55_나주몰",
+    "id": "나주몰",
     "name": "나주몰",
     "url": "https://najumall.kr/",
     "region": "전남",
@@ -754,7 +754,7 @@
     "scraperId": "najumall"
   },
   {
-    "id": "mall_56_순천로컬푸드함께가게",
+    "id": "순천로컬푸드함께가게",
     "name": "순천로컬푸드함께가게",
     "url": "https://sclocal.kr/",
     "region": "전남",
@@ -770,7 +770,7 @@
     "scraperId": "sclocal"
   },
   {
-    "id": "mall_57_신안1004몰",
+    "id": "신안1004몰",
     "name": "신안1004몰",
     "url": "https://shinan1004mall.kr/",
     "region": "전남",
@@ -786,7 +786,7 @@
     "scraperId": "shinan1004"
   },
   {
-    "id": "mall_58_장흥몰_산들해랑장흥몰_",
+    "id": "장흥몰_산들해랑장흥몰",
     "name": "장흥몰 (산들해랑장흥몰)",
     "url": "https://okjmall.com/",
     "region": "전남",
@@ -803,7 +803,7 @@
     "scraperId": "okjmall"
   },
   {
-    "id": "mall_59_기찬들영암몰",
+    "id": "기찬들영암몰",
     "name": "기찬들영암몰",
     "url": "https://yeongammall.co.kr/",
     "region": "전남",
@@ -819,7 +819,7 @@
     "scraperId": "yeongammall"
   },
   {
-    "id": "mall_60_진도아리랑몰",
+    "id": "진도아리랑몰",
     "name": "진도아리랑몰",
     "url": "https://jindoarirangmall.com/",
     "region": "전남",
@@ -835,7 +835,7 @@
     "scraperId": "jindoarirangmall"
   },
   {
-    "id": "mall_61_완도군이숍",
+    "id": "완도군이숍",
     "name": "완도군이숍",
     "url": "https://wandofood.go.kr/",
     "region": "전남",
@@ -850,9 +850,9 @@
     "scraperId": "wandofood"
   },
   {
-    "id": "mall_62_함평천지몰",
+    "id": "함평천지몰",
     "name": "함평천지몰",
-    "url": "https://함평천지몰.kr/",
+    "url": "https://xn--352bl9yz7b63kj6b.kr/",
     "region": "전남",
     "tags": [
       "종합몰",
@@ -866,9 +866,9 @@
     "scraperId": "hampyeongm"
   },
   {
-    "id": "mall_63_해남미소",
+    "id": "해남미소",
     "name": "해남미소",
-    "url": "https://www.hnmiso.com/ACC_index.asp",
+    "url": "https://www.hnmiso.com/kwa-home",
     "region": "전남",
     "tags": [
       "전남"
@@ -882,7 +882,7 @@
     "_reason": "Compatibility issues - temporarily disabled"
   },
   {
-    "id": "mall_64_담양장터",
+    "id": "담양장터",
     "name": "담양장터",
     "url": "https://damyangmk.kr/",
     "region": "전남",
@@ -898,7 +898,7 @@
     "scraperId": "damyangmk"
   },
   {
-    "id": "mall_65_초록믿음_강진_",
+    "id": "초록믿음_강진",
     "name": "초록믿음(강진)",
     "url": "https://greengj.com/",
     "region": "전남",
@@ -914,7 +914,7 @@
     "scraperId": "greengj"
   },
   {
-    "id": "mall_66_화순팜",
+    "id": "화순팜",
     "name": "화순팜",
     "url": "https://www.hwasunfarm.com/",
     "region": "전남",
@@ -930,7 +930,7 @@
     "scraperId": "hwasunfarm"
   },
   {
-    "id": "mall_67_곡성몰_곡성군농특산물중개몰_",
+    "id": "곡성몰_곡성군농특산물중개몰",
     "name": "곡성몰 (곡성군농특산물중개몰)",
     "url": "https://gokseongmall.com/",
     "region": "전남",
@@ -949,7 +949,7 @@
     "scraperId": "gokseongmall"
   },
   {
-    "id": "mall_68_사이소_경북몰_",
+    "id": "사이소_경북몰",
     "name": "사이소(경북몰)",
     "url": "https://www.cyso.co.kr/",
     "region": "경북",
@@ -966,7 +966,7 @@
     "scraperId": "cyso"
   },
   {
-    "id": "mall_69_상주_명실상주몰",
+    "id": "상주_명실상주몰",
     "name": "상주 명실상주몰",
     "url": "https://sjmall.cyso.co.kr/",
     "region": "경북",
@@ -982,7 +982,7 @@
     "scraperId": "sjmall"
   },
   {
-    "id": "mall_70_청도_청리브",
+    "id": "청도_청리브",
     "name": "청도 청리브",
     "url": "https://cdmall.cyso.co.kr",
     "region": "경북",
@@ -997,7 +997,7 @@
     "scraperId": "cdmall"
   },
   {
-    "id": "mall_71_영주장날",
+    "id": "영주장날",
     "name": "영주장날",
     "url": "https://yjmarket.cyso.co.kr/",
     "region": "경북",
@@ -1012,7 +1012,7 @@
     "scraperId": "yjmarket"
   },
   {
-    "id": "mall_72_안동장터",
+    "id": "안동장터",
     "name": "안동장터",
     "url": "https://andongjang.andong.go.kr/",
     "region": "경북",
@@ -1029,7 +1029,7 @@
     "_reason": "Compatibility issues - temporarily disabled"
   },
   {
-    "id": "mall_73_청송몰",
+    "id": "청송몰",
     "name": "청송몰",
     "url": "https://csmall.cyso.co.kr/",
     "region": "경북",
@@ -1045,7 +1045,7 @@
     "scraperId": "csmall"
   },
   {
-    "id": "mall_74_영양온심마켓",
+    "id": "영양온심마켓",
     "name": "영양온심마켓",
     "url": "https://onsim.cyso.co.kr/",
     "region": "경북",
@@ -1061,7 +1061,7 @@
     "scraperId": "onsim"
   },
   {
-    "id": "mall_75_울릉도",
+    "id": "울릉도",
     "name": "울릉도",
     "url": "https://ulmall.cyso.co.kr",
     "region": "경북",
@@ -1076,7 +1076,7 @@
     "scraperId": "ulmall"
   },
   {
-    "id": "mall_76_봉화장터",
+    "id": "봉화장터",
     "name": "봉화장터",
     "url": "https://bmall.cyso.co.kr/",
     "region": "경북",
@@ -1092,7 +1092,7 @@
     "scraperId": "bmall"
   },
   {
-    "id": "mall_77_고령몰",
+    "id": "고령몰",
     "name": "고령몰",
     "url": "https://grmall.cyso.co.kr/",
     "region": "경북",
@@ -1107,7 +1107,7 @@
     "logo": "/logos/mall_77_고령몰.png"
   },
   {
-    "id": "mall_78_김천노다지장터",
+    "id": "김천노다지장터",
     "name": "김천노다지장터",
     "url": "http://gcnodaji.com/",
     "region": "경북",
@@ -1124,7 +1124,7 @@
     "_reason": "Compatibility issues - temporarily disabled"
   },
   {
-    "id": "mall_79_예천장터",
+    "id": "예천장터",
     "name": "예천장터",
     "url": "https://ycjang.cyso.co.kr/",
     "region": "경북",
@@ -1139,7 +1139,7 @@
     "logo": "/logos/mall_79_예천장터.png"
   },
   {
-    "id": "mall_80_문경_새제의아침",
+    "id": "문경_새제의아침",
     "name": "문경 새제의아침",
     "url": "https://mgmall.cyso.co.kr/",
     "region": "경북",
@@ -1153,7 +1153,7 @@
     "logo": "/logos/mall_80_문경_새제의아침.png"
   },
   {
-    "id": "mall_81_칠곡몰",
+    "id": "칠곡몰",
     "name": "칠곡몰",
     "url": "https://cgmall.cyso.co.kr/",
     "region": "경북",
@@ -1168,7 +1168,7 @@
     "logo": "/logos/mall_81_칠곡몰.png"
   },
   {
-    "id": "mall_82_의성장날",
+    "id": "의성장날",
     "name": "의성장날",
     "url": "https://esmall.cyso.co.kr/",
     "region": "경북",
@@ -1182,7 +1182,7 @@
     "logo": "/logos/mall_82_의성장날.png"
   },
   {
-    "id": "mall_83_울진몰",
+    "id": "울진몰",
     "name": "울진몰",
     "url": "https://ujmall.cyso.co.kr/",
     "region": "경북",
@@ -1197,7 +1197,7 @@
     "logo": "/logos/mall_83_울진몰.png"
   },
   {
-    "id": "mall_84_영덕장터",
+    "id": "영덕장터",
     "name": "영덕장터",
     "url": "https://ydmall.cyso.co.kr/",
     "region": "경북",
@@ -1212,7 +1212,7 @@
     "logo": "/logos/mall_84_영덕장터.png"
   },
   {
-    "id": "mall_85_경산몰",
+    "id": "경산몰",
     "name": "경산몰",
     "url": "https://gsmall.cyso.co.kr/",
     "region": "경북",
@@ -1227,7 +1227,7 @@
     "logo": "/logos/mall_85_경산몰.png"
   },
   {
-    "id": "mall_86_경주몰",
+    "id": "경주몰",
     "name": "경주몰",
     "url": "https://gjmall.cyso.co.kr/",
     "region": "경북",
@@ -1242,7 +1242,7 @@
     "logo": "/logos/mall_86_경주몰.png"
   },
   {
-    "id": "mall_87_구미팜",
+    "id": "구미팜",
     "name": "구미팜",
     "url": "https://gmmall.cyso.co.kr/",
     "region": "경북",
@@ -1257,7 +1257,7 @@
     "logo": "/logos/mall_87_구미팜.png"
   },
   {
-    "id": "mall_88_별빛촌장터_영천_",
+    "id": "별빛촌장터_영천",
     "name": "별빛촌장터(영천)",
     "url": "https://01000.cyso.co.kr/",
     "region": "경북",
@@ -1273,7 +1273,7 @@
     "logo": "/logos/mall_88_별빛촌장터_영천_.png"
   },
   {
-    "id": "mall_89_포항마켓",
+    "id": "포항마켓",
     "name": "포항마켓",
     "url": "https://pohangmarket.cyso.co.kr/",
     "region": "경북",
@@ -1288,7 +1288,7 @@
     "logo": "/logos/mall_89_포항마켓.png"
   },
   {
-    "id": "mall_90_e경남몰",
+    "id": "e경남몰",
     "name": "e경남몰",
     "url": "https://egnmall.kr",
     "region": "경남",
@@ -1303,7 +1303,7 @@
     "logo": "/logos/mall_90_e경남몰.png"
   },
   {
-    "id": "mall_91_토요애_의령_",
+    "id": "토요애_의령",
     "name": "토요애 (의령)",
     "url": "https://toyoae.com/",
     "region": "경남",
@@ -1318,7 +1318,7 @@
     "logo": "/logos/mall_91_토요애_의령_.png"
   },
   {
-    "id": "mall_92_남해몰",
+    "id": "남해몰",
     "name": "남해몰",
     "url": "https://enamhae.co.kr/",
     "region": "경남",
@@ -1333,7 +1333,7 @@
     "logo": "/logos/mall_92_남해몰.png"
   },
   {
-    "id": "mall_93_산엔청_산청_",
+    "id": "산엔청_산청",
     "name": "산엔청 (산청)",
     "url": "https://sanencheong.com/",
     "region": "경남",
@@ -1348,7 +1348,7 @@
     "logo": "/logos/mall_93_산엔청_산청_.png"
   },
   {
-    "id": "mall_94_공룡나라_고성_",
+    "id": "공룡나라_고성",
     "name": "공룡나라 (고성)",
     "url": "https://www.edinomall.com/shop/smain/index.php",
     "region": "경남",
@@ -1363,7 +1363,7 @@
     "logo": "/logos/mall_94_공룡나라_고성_.png"
   },
   {
-    "id": "mall_95_함양몰",
+    "id": "함양몰",
     "name": "함양몰",
     "url": "https://2900.co.kr/",
     "region": "경남",
@@ -1378,7 +1378,7 @@
     "logo": "/logos/mall_95_함양몰.png"
   },
   {
-    "id": "mall_96_진주드림",
+    "id": "진주드림",
     "name": "진주드림",
     "url": "https://jinjudream.com/",
     "region": "경남",
@@ -1392,7 +1392,7 @@
     "logo": "/logos/mall_96_진주드림.png"
   },
   {
-    "id": "mall_97_함안몰",
+    "id": "함안몰",
     "name": "함안몰",
     "url": "https://hamanmall.com",
     "region": "경남",
@@ -1407,7 +1407,7 @@
     "logo": "/logos/mall_97_함안몰.png"
   },
   {
-    "id": "mall_98_김해온몰",
+    "id": "김해온몰",
     "name": "김해온몰",
     "url": "https://gimhaemall.kr",
     "region": "경남",
@@ -1422,7 +1422,7 @@
     "logo": "/logos/mall_98_김해온몰.png"
   },
   {
-    "id": "mall_100_이제주몰",
+    "id": "이제주몰",
     "name": "이제주몰",
     "url": "https://mall.ejeju.net/main/index.do",
     "region": "제주",

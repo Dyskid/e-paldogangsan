@@ -1,0 +1,1095 @@
+{
+  "mallName": "고령몰",
+  "baseUrl": "https://grmall.cyso.co.kr",
+  "platform": "CYSO",
+  "detectedPatterns": [
+    "CYSO shop/item.php pattern detected"
+  ],
+  "productSelectors": [
+    "[class*=\"product\"]: 4 elements",
+    "[class*=\"item\"]: 92 elements"
+  ],
+  "categoryLinks": [
+    {
+      "text": "로그인",
+      "href": "https://grmall.cyso.co.kr/bbs/login.php"
+    },
+    {
+      "text": "회원가입",
+      "href": "https://grmall.cyso.co.kr/bbs/register.php"
+    },
+    {
+      "text": "주문배송조회",
+      "href": "https://grmall.cyso.co.kr/shop/orderinquiry.php"
+    },
+    {
+      "text": "고객센터",
+      "href": "https://grmall.cyso.co.kr/bbs/board.php?bo_table=gr_notice"
+    },
+    {
+      "text": "0",
+      "href": "https://grmall.cyso.co.kr/shop/wishlist.php"
+    },
+    {
+      "text": "0",
+      "href": "https://grmall.cyso.co.kr/shop/cart.php"
+    },
+    {
+      "text": "감자",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?q=%EA%B0%90%EC%9E%90"
+    },
+    {
+      "text": "개진감자",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?q=%EA%B0%9C%EC%A7%84%EA%B0%90%EC%9E%90"
+    },
+    {
+      "text": "메론",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?q=%EB%A9%94%EB%A1%A0"
+    },
+    {
+      "text": "우곡수박",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?q=%EC%9A%B0%EA%B3%A1%EC%88%98%EB%B0%95"
+    },
+    {
+      "text": "수박",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?q=%EC%88%98%EB%B0%95"
+    },
+    {
+      "text": "고령옥미",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?q=%EA%B3%A0%EB%A0%B9%EC%98%A5%EB%AF%B8"
+    },
+    {
+      "text": "블루베리",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?q=%EB%B8%94%EB%A3%A8%EB%B2%A0%EB%A6%AC"
+    },
+    {
+      "text": "딸기잼",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?q=%EB%94%B8%EA%B8%B0%EC%9E%BC"
+    },
+    {
+      "text": "딸기",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?q=%EB%94%B8%EA%B8%B0"
+    },
+    {
+      "text": "쌀",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?q=%EC%8C%80"
+    },
+    {
+      "text": "감자",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?q=%EA%B0%90%EC%9E%90"
+    },
+    {
+      "text": "개진감자",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?q=%EA%B0%9C%EC%A7%84%EA%B0%90%EC%9E%90"
+    },
+    {
+      "text": "메론",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?q=%EB%A9%94%EB%A1%A0"
+    },
+    {
+      "text": "우곡수박",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?q=%EC%9A%B0%EA%B3%A1%EC%88%98%EB%B0%95"
+    },
+    {
+      "text": "수박",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?q=%EC%88%98%EB%B0%95"
+    },
+    {
+      "text": "고령옥미",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?q=%EA%B3%A0%EB%A0%B9%EC%98%A5%EB%AF%B8"
+    },
+    {
+      "text": "블루베리",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?q=%EB%B8%94%EB%A3%A8%EB%B2%A0%EB%A6%AC"
+    },
+    {
+      "text": "딸기잼",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?q=%EB%94%B8%EA%B8%B0%EC%9E%BC"
+    },
+    {
+      "text": "딸기",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?q=%EB%94%B8%EA%B8%B0"
+    },
+    {
+      "text": "쌀",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?q=%EC%8C%80"
+    },
+    {
+      "text": "0",
+      "href": "https://grmall.cyso.co.kr/shop/cart.php"
+    },
+    {
+      "text": "감자",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EA%B0%90%EC%9E%90"
+    },
+    {
+      "text": "개진감자",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EA%B0%9C%EC%A7%84%EA%B0%90%EC%9E%90"
+    },
+    {
+      "text": "메론",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EB%A9%94%EB%A1%A0"
+    },
+    {
+      "text": "블루베리",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EB%B8%94%EB%A3%A8%EB%B2%A0%EB%A6%AC"
+    },
+    {
+      "text": "우곡수박",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EC%9A%B0%EA%B3%A1%EC%88%98%EB%B0%95"
+    },
+    {
+      "text": "수박",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EC%88%98%EB%B0%95"
+    },
+    {
+      "text": "고령옥미",
+      "href": "https://grmall.cyso.co.kr/shop/search.php?sfl=wr_subject&sop=and&q=%EA%B3%A0%EB%A0%B9%EC%98%A5%EB%AF%B8"
+    },
+    {
+      "text": "쌀/잡곡 7",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr30"
+    },
+    {
+      "text": "과채/과일류 38",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr10"
+    },
+    {
+      "text": "전통장류 65",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr20"
+    },
+    {
+      "text": "가공식품 82",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr40"
+    },
+    {
+      "text": "축산물 20",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr50"
+    },
+    {
+      "text": "베스트상품",
+      "href": "/shop/listtype.php?type=11"
+    },
+    {
+      "text": "신상품",
+      "href": "/shop/listtype.php?type=13"
+    },
+    {
+      "text": "추천상품",
+      "href": "/shop/listtype.php?type=12"
+    },
+    {
+      "text": "구매후기",
+      "href": "/shop/itemuselist.php"
+    },
+    {
+      "text": "고령몰소개",
+      "href": "/bbs/content.php?co_id=gr_info"
+    },
+    {
+      "text": "고령몰 소개",
+      "href": "/bbs/content.php?co_id=gr_info"
+    },
+    {
+      "text": "햇살그린 브랜드 소개",
+      "href": "/bbs/content.php?co_id=gr_info02"
+    },
+    {
+      "text": "좋은 농산물 고르기",
+      "href": "/bbs/content.php?co_id=gr_info03"
+    },
+    {
+      "text": "친환경 농산물",
+      "href": "/bbs/content.php?co_id=gr_info04"
+    },
+    {
+      "text": "이용안내",
+      "href": "/bbs/content.php?co_id=gr_info05"
+    },
+    {
+      "text": "고객센터",
+      "href": "/bbs/board.php?bo_table=gr_notice"
+    },
+    {
+      "text": "공지사항",
+      "href": "/bbs/board.php?bo_table=gr_notice"
+    },
+    {
+      "text": "FAQ",
+      "href": "/bbs/faq.php"
+    },
+    {
+      "text": "상품문의",
+      "href": "/shop/itemqalist.php"
+    },
+    {
+      "text": "1:1문의",
+      "href": "/bbs/qalist.php"
+    },
+    {
+      "text": "구매후기",
+      "href": "/shop/itemuselist.php"
+    },
+    {
+      "text": "쌀/잡곡",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr30"
+    },
+    {
+      "text": "고령옥미",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr3010"
+    },
+    {
+      "text": "현미",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr3030"
+    },
+    {
+      "text": "찹쌀",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr3060"
+    },
+    {
+      "text": "기타",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr3070"
+    },
+    {
+      "text": "과채/과일류",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr10"
+    },
+    {
+      "text": "딸기",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr1010"
+    },
+    {
+      "text": "멜론",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr1020"
+    },
+    {
+      "text": "블루베리",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr1030"
+    },
+    {
+      "text": "참외",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr1040"
+    },
+    {
+      "text": "수박",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr1050"
+    },
+    {
+      "text": "한라봉",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr1090"
+    },
+    {
+      "text": "체리자두",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr10a0"
+    },
+    {
+      "text": "샤인머스캣",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr10f0"
+    },
+    {
+      "text": "감자/고구마",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr10b0"
+    },
+    {
+      "text": "양파/마늘",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr10c0"
+    },
+    {
+      "text": "기타과채류",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr10e0"
+    },
+    {
+      "text": "전통장류",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr20"
+    },
+    {
+      "text": "장류",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr2010"
+    },
+    {
+      "text": "간장",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr2020"
+    },
+    {
+      "text": "메주",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr2030"
+    },
+    {
+      "text": "고추장",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr2040"
+    },
+    {
+      "text": "청국장",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr2050"
+    },
+    {
+      "text": "된장",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr2060"
+    },
+    {
+      "text": "가공식품",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr40"
+    },
+    {
+      "text": "잼류",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr4010"
+    },
+    {
+      "text": "떡류",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr4090"
+    },
+    {
+      "text": "꿀",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr40a0"
+    },
+    {
+      "text": "약초류",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr40b0"
+    },
+    {
+      "text": "누룽지류",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr40d0"
+    },
+    {
+      "text": "미숫가루",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr40e0"
+    },
+    {
+      "text": "기타양념류",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr40f0"
+    },
+    {
+      "text": "국산밀가루",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr40h0"
+    },
+    {
+      "text": "기타 가공식품",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr40i0"
+    },
+    {
+      "text": "축산물",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr50"
+    },
+    {
+      "text": "한돈",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr5010"
+    },
+    {
+      "text": "한우",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr5020"
+    },
+    {
+      "text": "선물세트",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr5050"
+    },
+    {
+      "text": "기타",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr5060"
+    },
+    {
+      "text": "베스트상품",
+      "href": "/shop/listtype.php?type=11"
+    },
+    {
+      "text": "신상품",
+      "href": "/shop/listtype.php?type=13"
+    },
+    {
+      "text": "추천상품",
+      "href": "/shop/listtype.php?type=12"
+    },
+    {
+      "text": "구매후기",
+      "href": "/shop/itemuselist.php"
+    },
+    {
+      "text": "고령몰소개",
+      "href": "/bbs/content.php?co_id=gr_info"
+    },
+    {
+      "text": "고객센터",
+      "href": "/bbs/board.php?bo_table=gr_notice"
+    },
+    {
+      "text": "더보기",
+      "href": "https://grmall.cyso.co.kr/shop/listtype.php?type=12"
+    },
+    {
+      "text": "[생생팜]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=mondrag"
+    },
+    {
+      "text": "[생생팜]찰흑미 900g*4개",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1729593010"
+    },
+    {
+      "text": "[생생팜]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=mondrag"
+    },
+    {
+      "text": "[생생팜] 쌀벽돌 선물세트",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698765894"
+    },
+    {
+      "text": "[짱이야마을]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=seini2522"
+    },
+    {
+      "text": "[짱이야마을]직접 농사지은 전통방식 수작업 보리등겨장 흑보리 딩겨장 시금장 500g",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698720696"
+    },
+    {
+      "text": "[생비원]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=noly4578"
+    },
+    {
+      "text": "[생비원]고추장(유리병) 1kg",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698796680"
+    },
+    {
+      "text": "[안림딸기농원]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=mondrag"
+    },
+    {
+      "text": "[하우스베리]딸기생쨈 580g",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698722956"
+    },
+    {
+      "text": "[다산어성초]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=dasanfarm"
+    },
+    {
+      "text": "다산어성초 유기농 자색아스파라거스",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1587958004"
+    },
+    {
+      "text": "[김원배]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=mondrag"
+    },
+    {
+      "text": "[생생팜]개진감자(노지)10kg,20kg_두백(설봉)",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1717150912"
+    },
+    {
+      "text": "[거인식품]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=geoinf1471"
+    },
+    {
+      "text": "한돈 냉장 돼지 삼겹살(수육용) 500g",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698759909"
+    },
+    {
+      "text": "상품 더 보기 +",
+      "href": "https://grmall.cyso.co.kr/shop/listtype.php?type=13"
+    },
+    {
+      "text": "[김원배]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=mondrag"
+    },
+    {
+      "text": "[생생팜]개진감자(노지)10kg,20kg_두백(설봉)",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1717150912"
+    },
+    {
+      "text": "[개진감자영농조합법인]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=mondrag"
+    },
+    {
+      "text": "[개진감자영농조합]개진감자 10kg, 20kg_두백(설봉)",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698804622"
+    },
+    {
+      "text": "전체상품",
+      "href": "#category1"
+    },
+    {
+      "text": "쌀ㆍ잡곡류",
+      "href": "#category4"
+    },
+    {
+      "text": "과채ㆍ과일류",
+      "href": "#category2"
+    },
+    {
+      "text": "전통장류",
+      "href": "#category3"
+    },
+    {
+      "text": "가공식품",
+      "href": "#category5"
+    },
+    {
+      "text": "축산물",
+      "href": "#category6"
+    },
+    {
+      "text": "[생생팜]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=mondrag"
+    },
+    {
+      "text": "[생생팜]찰흑미 900g*4개",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1729593010"
+    },
+    {
+      "text": "[생비원]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=noly4578"
+    },
+    {
+      "text": "[생비원]고추장(유리병) 1kg",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698737680"
+    },
+    {
+      "text": "[수정영농조합법인]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=crystalagri"
+    },
+    {
+      "text": "[수정영농조합법인]잇츠보리 액상 간편 보리차 12스틱 국내산 오르조 무첨가 원액 진액 제로칼로리",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1713148236"
+    },
+    {
+      "text": "[하니베 누룽지]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=naver_826407f4"
+    },
+    {
+      "text": "[하니베 누룽지]오분도 현미 누룽지",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698765570"
+    },
+    {
+      "text": "[짱이야마을]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=seini2522"
+    },
+    {
+      "text": "[짱이야마을]직접 농사지은 전통방식 수작업 보리등겨장 흑보리 딩겨장 시금장 1kg",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698720621"
+    },
+    {
+      "text": "[개진감자영농조합법인]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=mondrag"
+    },
+    {
+      "text": "[개진감자영농조합]개진감자 10kg, 20kg_두백(설봉)",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698804622"
+    },
+    {
+      "text": "[고령RPC(다사농협)]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=mondrag"
+    },
+    {
+      "text": "[고령RPC]4년 연속 경북쌀우수브랜드 선정!! 고령옥미20kg, 삼광쌀20kg(2024년)",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698831147"
+    },
+    {
+      "text": "[안림딸기농원]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=mondrag"
+    },
+    {
+      "text": "[하우스베리]딸기생쨈 580g",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698722956"
+    },
+    {
+      "text": "[개진감자영농조합법인]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=mondrag"
+    },
+    {
+      "text": "[개진감자영농조합]개진감자 10kg, 20kg_두백(설봉)",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698804622"
+    },
+    {
+      "text": "[생비원]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=noly4578"
+    },
+    {
+      "text": "[생비원]고추장 500g(유리병)",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698800815"
+    },
+    {
+      "text": "[고령메주]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=grmeju"
+    },
+    {
+      "text": "[고령메주]청국장 분말가루 500g",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698756609"
+    },
+    {
+      "text": "[생비원]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=noly4578"
+    },
+    {
+      "text": "[생비원]표고간장 3년숙성(420ml)",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698737463"
+    },
+    {
+      "text": "[짱이야마을]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=seini2522"
+    },
+    {
+      "text": "[짱이야마을]직접 농사지은 보리쌀로 만든 쌈장 보리쌈장 1kg",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698720402"
+    },
+    {
+      "text": "[짱이야마을]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=seini2522"
+    },
+    {
+      "text": "[짱이야마을]직접 농사지은 전통방식 수작업 보리등겨장 흑보리 딩겨장 시금장 1kg",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698720621"
+    },
+    {
+      "text": "[생비원]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=noly4578"
+    },
+    {
+      "text": "[생비원]조선간장 (3년 숙성) 420ml",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698802075"
+    },
+    {
+      "text": "[대가야우륵식품]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=gaya55"
+    },
+    {
+      "text": "[대가야우륵식품] [가야금] 분말청국장 400g",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1570784630"
+    },
+    {
+      "text": "[생비원]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=noly4578"
+    },
+    {
+      "text": "[생비원]고추장(유리병) 1kg",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698737680"
+    },
+    {
+      "text": "[생생팜]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=mondrag"
+    },
+    {
+      "text": "[생생팜]찰흑미 900g*4개",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1729593010"
+    },
+    {
+      "text": "[고령RPC(다사농협)]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=mondrag"
+    },
+    {
+      "text": "[고령RPC]4년 연속 경북쌀우수브랜드 선정!! 고령옥미10kg, 삼광쌀10kg(2024년)",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698831635"
+    },
+    {
+      "text": "[고령RPC(다사농협)]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=mondrag"
+    },
+    {
+      "text": "[고령RPC]4년 연속 경북쌀우수브랜드 선정!! 고령옥미20kg, 삼광쌀20kg(2024년)",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698831147"
+    },
+    {
+      "text": "[하니베 누룽지]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=naver_826407f4"
+    },
+    {
+      "text": "[하니베 누룽지]오분도 현미 누룽지 3팩묶음",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698730733"
+    },
+    {
+      "text": "[안림딸기농원]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=mondrag"
+    },
+    {
+      "text": "[하우스베리]딸기생쨈 580g",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698722956"
+    },
+    {
+      "text": "[수정영농조합법인]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=crystalagri"
+    },
+    {
+      "text": "[수정영농조합법인]잇츠보리 액상 간편 보리차 12스틱 국내산 오르조 무첨가 원액 진액 제로칼로리",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1713148236"
+    },
+    {
+      "text": "[하니베 누룽지]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=naver_826407f4"
+    },
+    {
+      "text": "[하니베 누룽지]오분도 현미 누룽지",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698765570"
+    },
+    {
+      "text": "[생생팜]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=mondrag"
+    },
+    {
+      "text": "[참농꾼]유기농딸기잼 550g",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698722850"
+    },
+    {
+      "text": "[알알이식품(고령군 개진면)]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=alalif"
+    },
+    {
+      "text": "[알알이식품]열한가지미숫가루 800g*2통(국산재료 사용)",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698850394"
+    },
+    {
+      "text": "[밀엔협동조합]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=milenn"
+    },
+    {
+      "text": "[밀엔협동조합]키작은밀가루1kg",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1698740592"
+    },
+    {
+      "text": "[대가야]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=pil0816"
+    },
+    {
+      "text": "[대가야]맛시루 찹쌀떡 60g x 15개",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1570801952"
+    },
+    {
+      "text": "[거인식품]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=geoinf1471"
+    },
+    {
+      "text": "한돈 한마리 분 미니족(앞다리 2개, 뒷다리 2개)",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1570800879"
+    },
+    {
+      "text": "[대림축산]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=naver_8b77084f"
+    },
+    {
+      "text": "[대림축산] 국내산 한우 소곱창모듬세트 1kg",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1706074368"
+    },
+    {
+      "text": "[대림축산]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=naver_8b77084f"
+    },
+    {
+      "text": "[대림축산] 한우 대창 전골 순살 곱도리탕 닭볶음탕 밀키트 , 1kg",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1706160613"
+    },
+    {
+      "text": "[농업회사법인주식회사거인식품]",
+      "href": "https://grmall.cyso.co.kr/shop/item_list.php?type=market&val=geoinf1471"
+    },
+    {
+      "text": "한돈 냉장 돼지 앞다리살(구이용) 500g",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1570800686"
+    },
+    {
+      "text": "더보기",
+      "href": "https://grmall.cyso.co.kr/bbs/board.php?bo_table=gr_notice"
+    },
+    {
+      "text": "2025년 우곡수박 발송 마감\n\t\t5월 8일부터 시작한 우곡수박 발송을 오늘로 마감했습니다.\n우곡수박을 사랑해 주신 고객분들에게 다시 한번 감사의 인사를 드립니다. \n \n봄수박의 대명사, '…",
+      "href": "https://grmall.cyso.co.kr/bbs/board.php?bo_table=gr_notice&wr_id=79"
+    },
+    {
+      "text": "파파야 멜론 배송 지연 관련...\n\t\t이번주 성산 파파야멜론 배송이 지연되고 있는 점, 사과드립니다. 갑자기 산지 생산량이 급격히 줄어서, 발송이 늦어지고 있습니다. 이번주 주문하신 분은 내일 18일…",
+      "href": "https://grmall.cyso.co.kr/bbs/board.php?bo_table=gr_notice&wr_id=78"
+    },
+    {
+      "text": "2024년 햅쌀, 고령옥미 10월 16일(…\n\t\t고령옥미 햅쌀을 많이 기다리셨던 고객분들에게 드디어 햅쌀 소식을 전해 드릴 수 있게 됐습니다.\n10월 16일(수)부터 발송하는 고령옥미는 이제 막 추수를 끝내고 도정한 햅쌀로 보…",
+      "href": "https://grmall.cyso.co.kr/bbs/board.php?bo_table=gr_notice&wr_id=77"
+    },
+    {
+      "text": "더보기",
+      "href": "https://grmall.cyso.co.kr/shop/itemuselist.php"
+    },
+    {
+      "text": "[파머레시피] GAP 고령 햇양파 3kg, 5kg, 8kg, 10kg\n\t\t\n\t\t 양파 알이 고르고\n맛나네요\n잘먹고 있어요~~\n\t\t\n\t\t\n\t\t김** ㅣ 25-06-30",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1709003767"
+    },
+    {
+      "text": "[고령RPC] [현미]고령옥미4kg, 10kg, 20kg(2024년)\n\t\t\n\t\t 지난번 여기 현미 먹어보고 맛있어서 재구매합니다\n\t\t\n\t\t\n\t\t김** ㅣ 25-06-30",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1729059636"
+    },
+    {
+      "text": "경북 고령 맛있는 전통 재래식 집된장 2kg\n\t\t\n\t\t 좋아요, 맛있어요. 잘먹고있습니다. 재구매 의사있음.\n\t\t\n\t\t\n\t\t이** ㅣ 25-06-30",
+      "href": "https://grmall.cyso.co.kr/shop/item.php?it_id=1587707882"
+    },
+    {
+      "text": "주문/배송조회",
+      "href": "https://grmall.cyso.co.kr/shop/orderinquiry.php"
+    },
+    {
+      "text": "1:1문의",
+      "href": "https://grmall.cyso.co.kr/bbs/qalist.php"
+    },
+    {
+      "text": "입점안내",
+      "href": "http://grmall.cyso.co.kr/bbs/content.php?co_id=gr_info06"
+    },
+    {
+      "text": "로그인",
+      "href": "https://grmall.cyso.co.kr/bbs/login.php"
+    },
+    {
+      "text": "주문배송",
+      "href": "https://grmall.cyso.co.kr/shop/orderinquiry.php"
+    },
+    {
+      "text": "장바구니",
+      "href": "https://grmall.cyso.co.kr/shop/cart.php"
+    },
+    {
+      "text": "찜한상품",
+      "href": "https://grmall.cyso.co.kr/shop/wishlist.php"
+    },
+    {
+      "text": "마이페이지",
+      "href": "https://grmall.cyso.co.kr/shop/mypage.php"
+    },
+    {
+      "text": "고객센터",
+      "href": "https://grmall.cyso.co.kr/bbs/board.php?bo_table=gr_notice"
+    },
+    {
+      "text": "최근본상품",
+      "href": "https://grmall.cyso.co.kr/shop/last_viewitem.php"
+    },
+    {
+      "text": "상품카테고리",
+      "href": "#cate_01"
+    },
+    {
+      "text": "쌀/잡곡",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr30"
+    },
+    {
+      "text": "고령옥미",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr3010"
+    },
+    {
+      "text": "현미",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr3030"
+    },
+    {
+      "text": "찹쌀",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr3060"
+    },
+    {
+      "text": "기타",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr3070"
+    },
+    {
+      "text": "과채/과일류",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr10"
+    },
+    {
+      "text": "딸기",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr1010"
+    },
+    {
+      "text": "멜론",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr1020"
+    },
+    {
+      "text": "블루베리",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr1030"
+    },
+    {
+      "text": "참외",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr1040"
+    },
+    {
+      "text": "수박",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr1050"
+    },
+    {
+      "text": "한라봉",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr1090"
+    },
+    {
+      "text": "체리자두",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr10a0"
+    },
+    {
+      "text": "샤인머스캣",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr10f0"
+    },
+    {
+      "text": "감자/고구마",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr10b0"
+    },
+    {
+      "text": "양파/마늘",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr10c0"
+    },
+    {
+      "text": "기타과채류",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr10e0"
+    },
+    {
+      "text": "전통장류",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr20"
+    },
+    {
+      "text": "장류",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr2010"
+    },
+    {
+      "text": "간장",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr2020"
+    },
+    {
+      "text": "메주",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr2030"
+    },
+    {
+      "text": "고추장",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr2040"
+    },
+    {
+      "text": "청국장",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr2050"
+    },
+    {
+      "text": "된장",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr2060"
+    },
+    {
+      "text": "가공식품",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr40"
+    },
+    {
+      "text": "잼류",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr4010"
+    },
+    {
+      "text": "떡류",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr4090"
+    },
+    {
+      "text": "꿀",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr40a0"
+    },
+    {
+      "text": "약초류",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr40b0"
+    },
+    {
+      "text": "누룽지류",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr40d0"
+    },
+    {
+      "text": "미숫가루",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr40e0"
+    },
+    {
+      "text": "기타양념류",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr40f0"
+    },
+    {
+      "text": "국산밀가루",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr40h0"
+    },
+    {
+      "text": "기타 가공식품",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr40i0"
+    },
+    {
+      "text": "축산물",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr50"
+    },
+    {
+      "text": "한돈",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr5010"
+    },
+    {
+      "text": "한우",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr5020"
+    },
+    {
+      "text": "선물세트",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr5050"
+    },
+    {
+      "text": "기타",
+      "href": "https://grmall.cyso.co.kr/shop/list.php?ca_id=gr5060"
+    },
+    {
+      "text": "주문/배송조회",
+      "href": "https://grmall.cyso.co.kr/shop/orderinquiry.php"
+    },
+    {
+      "text": "0장바구니",
+      "href": "https://grmall.cyso.co.kr/shop/cart.php"
+    },
+    {
+      "text": "구매후기",
+      "href": "https://grmall.cyso.co.kr/shop/itemuselist.php"
+    },
+    {
+      "text": "고령몰 소개",
+      "href": "https://grmall.cyso.co.kr/bbs/content.php?co_id=gr_info"
+    },
+    {
+      "text": "이용약관",
+      "href": "https://grmall.cyso.co.kr/bbs/content.php?co_id=gr_provision"
+    },
+    {
+      "text": "개인정보처리방침",
+      "href": "https://grmall.cyso.co.kr/bbs/content.php?co_id=gr_privacy"
+    },
+    {
+      "text": "입점안내",
+      "href": "https://grmall.cyso.co.kr/bbs/content.php?co_id=gr_info06"
+    },
+    {
+      "text": "입점업체",
+      "href": "https://grmall.cyso.co.kr/shop/marketList.php"
+    }
+  ],
+  "productLinks": [
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1729593010",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1698765894",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1698720696",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1698796680",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1698722956",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1587958004",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1717150912",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1698759909",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1698804622",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1698737680",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1713148236",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1698765570",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1698720621",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1698831147",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1698800815",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1698756609",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1698737463",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1698720402",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1698802075",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1570784630",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1698831635",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1698730733",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1698722850",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1698850394",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1698740592",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1570801952",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1570800879",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1706074368",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1706160613",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1570800686",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1709003767",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1729059636",
+    "https://grmall.cyso.co.kr/shop/item.php?it_id=1587707882"
+  ],
+  "notes": [
+    "Page title: 고령몰",
+    "Description: 고령몰은 고령군에서 생산되는 농특산품을 직거래하는 쇼핑몰입니다. ",
+    "Uses standard CYSO product URL pattern",
+    "Total links found: 512",
+    "Images found: 333",
+    "[class*=\"price\"]: 12 elements",
+    "Main content areas: 2",
+    "Item elements: 0",
+    "Shop elements: 20",
+    "고령 지역 특산물 전문몰",
+    "CYSO 플랫폼 기반",
+    "딸기, 참외 등 농산물 특화"
+  ]
+}

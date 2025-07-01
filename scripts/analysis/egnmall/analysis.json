@@ -1,0 +1,28 @@
+{
+  "mallId": "egnmall",
+  "mallName": "e경남몰",
+  "url": "https://egnmall.kr",
+  "region": "경남",
+  "status": "success",
+  "structure": {
+    "hasProducts": true,
+    "productInfo": {
+      "selector": "[class*=\"item\"]",
+      "count": 1,
+      "firstItem": "<div class=\"AB-pa -innerBg\" style=\"border-top: 0;width: 220px;top: 56px;right: 0;left: -1px;z-index:1;\">\n<ul class=\"category-wrap\">\n\t<li id=\"1040\"><a href=\"kwa-ABS_goods_l-1040\" class=\"category-sub-10"
+    },
+    "hasCategories": true,
+    "hasPagination": true,
+    "totalLinks": 408,
+    "scripts": 25,
+    "hasReactRoot": false,
+    "urlPatterns": {
+      "homepage": "https://egnmall.kr"
+    },
+    "pagination": {
+      "type": "page-numbers"
+    },
+    "requiresJavaScript": true,
+    "dataLocation": {}
+  }
+}

@@ -1,0 +1,11 @@
+Starting analysis of 경주몰 structure...
+
+=== STRUCTURE ANALYSIS ===
+Mall: 경주몰
+Platform: CYSO
+Detected patterns: 1
+Product selectors found: 2
+Category links found: 360
+Product links found: 93
+
+Results saved to: /mnt/c/Users/johndoe/Desktop/e-paldogangsan/scripts/output/gjmall/gjmall-structure-analysis.json

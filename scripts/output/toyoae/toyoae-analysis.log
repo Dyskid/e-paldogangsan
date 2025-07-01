@@ -1,0 +1,11 @@
+Starting analysis of 토요애 structure...
+
+=== STRUCTURE ANALYSIS ===
+Mall: 토요애
+Platform: Godo
+Detected patterns: 1
+Product selectors found: 2
+Category links found: 90
+Product links found: 84
+
+Results saved to: /mnt/c/Users/johndoe/Desktop/e-paldogangsan/scripts/output/toyoae/toyoae-structure-analysis.json

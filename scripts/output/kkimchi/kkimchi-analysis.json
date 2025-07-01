@@ -1,0 +1,48 @@
+{
+  "url": "https://www.k-kimchi.kr/index.php",
+  "title": "광주김치몰, 전라도 광주김치의 맛과 멋",
+  "productSelectors": [
+    "[class*=\"product\"]"
+  ],
+  "categoryLinks": [
+    "광주김치소개: https://www.k-kimchi.kr/index.php?cate=008001",
+    "전통식품인증: https://www.k-kimchi.kr/index.php?cate=009&menu=11",
+    "전통식품 인증기업: https://www.k-kimchi.kr/index.php?cate=010&menu=11",
+    "김치공방협동조합: https://www.k-kimchi.kr/index.php?cate=011",
+    "고객센터: https://www.k-kimchi.kr/index.php?cate=007"
+  ],
+  "totalProducts": 0,
+  "sampleProducts": [
+    {
+      "selector": "[class*=\"product\"]",
+      "html": "<a href=\"/?cate=005001&amp;type=view&amp;num=228#module\" title=\"\" target=\"\">배추김치 1.5kg</a>...",
+      "text": "배추김치 1.5kg",
+      "links": [
+        "/?cate=005001&type=view&num=228#module"
+      ],
+      "images": []
+    },
+    {
+      "selector": "[class*=\"product\"]",
+      "html": "익을수록 시원한 맛이 일품...",
+      "text": "익을수록 시원한 맛이 일품",
+      "links": [],
+      "images": []
+    },
+    {
+      "selector": "[class*=\"product\"]",
+      "html": "<a href=\"/?cate=005001&amp;type=view&amp;num=195#module\" title=\"\" target=\"\">포기김치 2kg / 3kg</a>...",
+      "text": "포기김치 2kg / 3kg",
+      "links": [
+        "/?cate=005001&type=view&num=195#module"
+      ],
+      "images": []
+    }
+  ],
+  "structure": {
+    "hasProductGrid": true,
+    "hasCategories": true,
+    "paginationPresent": false,
+    "ajaxLoading": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "mallId": "hamyang",
+  "mallName": "함양몰",
+  "url": "https://2900.co.kr/",
+  "region": "경남",
+  "status": "success",
+  "structure": {
+    "hasProducts": true,
+    "productInfo": {
+      "selector": ".item",
+      "count": 205,
+      "firstItem": "\n                <div class=\"thumbnail\">\n                    <!-- 꾸미기아이콘 -->\n                    <div class=\"dc_rate ico01 -mov\">\n<span class=\"sale\"></span><div class=\"per\"></div>\n</div>\n<!-- 할인률 -->\n"
+    },
+    "hasCategories": true,
+    "hasPagination": true,
+    "totalLinks": 556,
+    "scripts": 12,
+    "hasReactRoot": false,
+    "urlPatterns": {
+      "homepage": "https://2900.co.kr/"
+    },
+    "pagination": {
+      "type": "page-numbers"
+    },
+    "requiresJavaScript": true,
+    "dataLocation": {}
+  }
+}

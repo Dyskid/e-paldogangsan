@@ -1,0 +1,1115 @@
+{
+  "summary": {
+    "totalMalls": 93,
+    "totalHtmlFiles": 22,
+    "totalJsonFiles": 19,
+    "totalOtherFiles": 0,
+    "totalOutputFiles": 41
+  },
+  "mallDetails": [
+    {
+      "mall": "gwangju-kimchi-mall",
+      "analyzeFile": "analyze-gwangju-kimchi-mall.ts",
+      "totalOutputs": 3,
+      "htmlCount": 1,
+      "jsonCount": 2,
+      "otherCount": 0,
+      "htmlFiles": [
+        "kkimchi-homepage.html"
+      ],
+      "jsonFiles": [
+        "kkimchi-analysis.json",
+        "kkimchi-analysis-error.json"
+      ],
+      "otherFiles": []
+    },
+    {
+      "mall": "we-mall",
+      "analyzeFile": "analyze-we-mall.ts",
+      "totalOutputs": 3,
+      "htmlCount": 1,
+      "jsonCount": 2,
+      "otherCount": 0,
+      "htmlFiles": [
+        "wemall-homepage.html"
+      ],
+      "jsonFiles": [
+        "wemall-analysis.json",
+        "wemall-analysis-error.json"
+      ],
+      "otherFiles": []
+    },
+    {
+      "mall": "boseong-mall",
+      "analyzeFile": "analyze-boseong-mall.ts",
+      "totalOutputs": 2,
+      "htmlCount": 1,
+      "jsonCount": 1,
+      "otherCount": 0,
+      "htmlFiles": [
+        "boseong-homepage.html"
+      ],
+      "jsonFiles": [
+        "boseong-structure-analysis.json"
+      ],
+      "otherFiles": []
+    },
+    {
+      "mall": "buan-grandmas-garden",
+      "analyzeFile": "analyze-buan-grandmas-garden.ts",
+      "totalOutputs": 2,
+      "htmlCount": 1,
+      "jsonCount": 1,
+      "otherCount": 0,
+      "htmlFiles": [
+        "buan-homepage.html"
+      ],
+      "jsonFiles": [
+        "buan-structure-analysis.json"
+      ],
+      "otherFiles": []
+    },
+    {
+      "mall": "damyang-market",
+      "analyzeFile": "analyze-damyang-market.ts",
+      "totalOutputs": 2,
+      "htmlCount": 1,
+      "jsonCount": 1,
+      "otherCount": 0,
+      "htmlFiles": [
+        "damyang-homepage.html"
+      ],
+      "jsonFiles": [
+        "damyang-structure-analysis.json"
+      ],
+      "otherFiles": []
+    },
+    {
+      "mall": "gichandeul-yeongam-mall",
+      "analyzeFile": "analyze-gichandeul-yeongam-mall.ts",
+      "totalOutputs": 2,
+      "htmlCount": 1,
+      "jsonCount": 1,
+      "otherCount": 0,
+      "htmlFiles": [
+        "yeongam-homepage.html"
+      ],
+      "jsonFiles": [
+        "yeongam-structure-analysis.json"
+      ],
+      "otherFiles": []
+    },
+    {
+      "mall": "green-trust-gangjin",
+      "analyzeFile": "analyze-green-trust-gangjin.ts",
+      "totalOutputs": 2,
+      "htmlCount": 1,
+      "jsonCount": 1,
+      "otherCount": 0,
+      "htmlFiles": [
+        "greengj-homepage.html"
+      ],
+      "jsonFiles": [
+        "greengj-structure-analysis.json"
+      ],
+      "otherFiles": []
+    },
+    {
+      "mall": "hampyeong-cheonji-mall",
+      "analyzeFile": "analyze-hampyeong-cheonji-mall.ts",
+      "totalOutputs": 2,
+      "htmlCount": 1,
+      "jsonCount": 1,
+      "otherCount": 0,
+      "htmlFiles": [
+        "hampyeong-homepage.html"
+      ],
+      "jsonFiles": [
+        "hampyeong-structure-analysis.json"
+      ],
+      "otherFiles": []
+    },
+    {
+      "mall": "hwasun-farm",
+      "analyzeFile": "analyze-hwasun-farm.ts",
+      "totalOutputs": 2,
+      "htmlCount": 1,
+      "jsonCount": 1,
+      "otherCount": 0,
+      "htmlFiles": [
+        "hwasunfarm-homepage.html"
+      ],
+      "jsonFiles": [
+        "hwasunfarm-structure-analysis.json"
+      ],
+      "otherFiles": []
+    },
+    {
+      "mall": "iksan-mall",
+      "analyzeFile": "analyze-iksan-mall.ts",
+      "totalOutputs": 2,
+      "htmlCount": 1,
+      "jsonCount": 1,
+      "otherCount": 0,
+      "htmlFiles": [
+        "iksan-homepage.html"
+      ],
+      "jsonFiles": [
+        "iksan-structure-analysis.json"
+      ],
+      "otherFiles": []
+    },
+    {
+      "mall": "jangsu-mall",
+      "analyzeFile": "analyze-jangsu-mall.ts",
+      "totalOutputs": 2,
+      "htmlCount": 1,
+      "jsonCount": 1,
+      "otherCount": 0,
+      "htmlFiles": [
+        "jangsu-homepage.html"
+      ],
+      "jsonFiles": [
+        "jangsu-structure-analysis.json"
+      ],
+      "otherFiles": []
+    },
+    {
+      "mall": "jeonbuk-fresh-market",
+      "analyzeFile": "analyze-jeonbuk-fresh-market.ts",
+      "totalOutputs": 2,
+      "htmlCount": 1,
+      "jsonCount": 1,
+      "otherCount": 0,
+      "htmlFiles": [
+        "freshjb-homepage.html"
+      ],
+      "jsonFiles": [
+        "freshjb-structure-analysis.json"
+      ],
+      "otherFiles": []
+    },
+    {
+      "mall": "jindo-arirang-mall",
+      "analyzeFile": "analyze-jindo-arirang-mall.ts",
+      "totalOutputs": 2,
+      "htmlCount": 1,
+      "jsonCount": 1,
+      "otherCount": 0,
+      "htmlFiles": [
+        "jindoarirang-homepage.html"
+      ],
+      "jsonFiles": [
+        "jindoarirang-structure-analysis.json"
+      ],
+      "otherFiles": []
+    },
+    {
+      "mall": "maple-beauty-jeongeup",
+      "analyzeFile": "analyze-maple-beauty-jeongeup.ts",
+      "totalOutputs": 2,
+      "htmlCount": 1,
+      "jsonCount": 1,
+      "otherCount": 0,
+      "htmlFiles": [
+        "danpoong-homepage.html"
+      ],
+      "jsonFiles": [
+        "danpoong-structure-analysis.json"
+      ],
+      "otherFiles": []
+    },
+    {
+      "mall": "naju-mall",
+      "analyzeFile": "analyze-naju-mall.ts",
+      "totalOutputs": 2,
+      "htmlCount": 1,
+      "jsonCount": 1,
+      "otherCount": 0,
+      "htmlFiles": [
+        "najumall-homepage.html"
+      ],
+      "jsonFiles": [
+        "najumall-structure-analysis.json"
+      ],
+      "otherFiles": []
+    },
+    {
+      "mall": "seosan-ttre",
+      "analyzeFile": "analyze-seosan-ttre.ts",
+      "totalOutputs": 2,
+      "htmlCount": 1,
+      "jsonCount": 1,
+      "otherCount": 0,
+      "htmlFiles": [
+        "seosanttre-homepage.html"
+      ],
+      "jsonFiles": [
+        "seosanttre-structure-analysis.json"
+      ],
+      "otherFiles": []
+    },
+    {
+      "mall": "wando-county-e-shop",
+      "analyzeFile": "analyze-wando-county-e-shop.ts",
+      "totalOutputs": 2,
+      "htmlCount": 1,
+      "jsonCount": 1,
+      "otherCount": 0,
+      "htmlFiles": [
+        "wandofood-homepage.html"
+      ],
+      "jsonFiles": [
+        "wandofood-structure-analysis.json"
+      ],
+      "otherFiles": []
+    },
+    {
+      "mall": "cyso-gyeongbuk-mall",
+      "analyzeFile": "analyze-cyso-gyeongbuk-mall.ts",
+      "totalOutputs": 1,
+      "htmlCount": 1,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [
+        "cyso-homepage.html"
+      ],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "goesan-market",
+      "analyzeFile": "analyze-goesan-market.ts",
+      "totalOutputs": 1,
+      "htmlCount": 1,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [
+        "goesan-homepage.html"
+      ],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "gokseong-mall-gokseong-agricultural-products-mall",
+      "analyzeFile": "analyze-gokseong-mall-gokseong-agricultural-products-mall.ts",
+      "totalOutputs": 1,
+      "htmlCount": 1,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [
+        "gokseongmall-homepage.html"
+      ],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "jincheon-mall",
+      "analyzeFile": "analyze-jincheon-mall.ts",
+      "totalOutputs": 1,
+      "htmlCount": 1,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [
+        "jcmall-homepage.html"
+      ],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "sangju-myeongsil-sangju-mall",
+      "analyzeFile": "analyze-sangju-myeongsil-sangju-mall.ts",
+      "totalOutputs": 1,
+      "htmlCount": 1,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [
+        "sjmall-homepage.html"
+      ],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "andong-market",
+      "analyzeFile": "analyze-andong-market.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "bonghwa-market",
+      "analyzeFile": "analyze-bonghwa-market.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "chack-chack-chack",
+      "analyzeFile": "analyze-chack-chack-chack.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "cham-dalseong-dalseong-county",
+      "analyzeFile": "analyze-cham-dalseong-dalseong-county.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "cheongdo-cheong-live",
+      "analyzeFile": "analyze-cheongdo-cheong-live.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "cheongsong-mall",
+      "analyzeFile": "analyze-cheongsong-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "cheorwon-mall",
+      "analyzeFile": "analyze-cheorwon-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "chilgok-mall",
+      "analyzeFile": "analyze-chilgok-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "chuncheon-mall",
+      "analyzeFile": "analyze-chuncheon-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "daejeon-love-mall",
+      "analyzeFile": "analyze-daejeon-love-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "dangjin-farm",
+      "analyzeFile": "analyze-dangjin-farm.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "dinosaur-land-goseong",
+      "analyzeFile": "analyze-dinosaur-land-goseong.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "donghae-mall",
+      "analyzeFile": "analyze-donghae-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "e-gyeongnam-mall",
+      "analyzeFile": "analyze-e-gyeongnam-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "e-hongseong-market",
+      "analyzeFile": "analyze-e-hongseong-market.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "e-jeju-mall",
+      "analyzeFile": "analyze-e-jeju-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "eumseong-market",
+      "analyzeFile": "analyze-eumseong-market.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "farm-love",
+      "analyzeFile": "analyze-farm-love.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "gangneung-mall",
+      "analyzeFile": "analyze-gangneung-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "gangwon-the-mall",
+      "analyzeFile": "analyze-gangwon-the-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "gimcheon-nodaji-market",
+      "analyzeFile": "analyze-gimcheon-nodaji-market.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "gimhae-on-mall",
+      "analyzeFile": "analyze-gimhae-on-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "gochang-market",
+      "analyzeFile": "analyze-gochang-market.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "goryeong-mall",
+      "analyzeFile": "analyze-goryeong-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "goseong-mall",
+      "analyzeFile": "analyze-goseong-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "gumi-farm",
+      "analyzeFile": "analyze-gumi-farm.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "gwangmyeong-value-mall",
+      "analyzeFile": "analyze-gwangmyeong-value-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "gyeongju-mall",
+      "analyzeFile": "analyze-gyeongju-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "gyeongsan-mall",
+      "analyzeFile": "analyze-gyeongsan-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "haegaram",
+      "analyzeFile": "analyze-haegaram.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "haenam-smile",
+      "analyzeFile": "analyze-haenam-smile.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "haman-mall",
+      "analyzeFile": "analyze-haman-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "hamyang-mall",
+      "analyzeFile": "analyze-hamyang-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "happy-good-farm",
+      "analyzeFile": "analyze-happy-good-farm.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "hoengseong-mall",
+      "analyzeFile": "analyze-hoengseong-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "hongcheon-mall",
+      "analyzeFile": "analyze-hongcheon-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "horizon-mall-gimje",
+      "analyzeFile": "analyze-horizon-mall-gimje.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "imsil-mall",
+      "analyzeFile": "analyze-imsil-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "inje-mall",
+      "analyzeFile": "analyze-inje-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "jangheung-mall-mountain-sea-jangheung-mall",
+      "analyzeFile": "analyze-jangheung-mall-mountain-sea-jangheung-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "jeongseon-mall",
+      "analyzeFile": "analyze-jeongseon-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "jinan-highland-mall",
+      "analyzeFile": "analyze-jinan-highland-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "jinju-dream",
+      "analyzeFile": "analyze-jinju-dream.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "market-gyeonggi",
+      "analyzeFile": "analyze-market-gyeonggi.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "mungyeong-morning-of-saejae",
+      "analyzeFile": "analyze-mungyeong-morning-of-saejae.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "namdo-market",
+      "analyzeFile": "analyze-namdo-market.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "namhae-mall",
+      "analyzeFile": "analyze-namhae-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "osan-together-market",
+      "analyzeFile": "analyze-osan-together-market.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "pohang-market",
+      "analyzeFile": "analyze-pohang-market.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "pyeongchang-mall",
+      "analyzeFile": "analyze-pyeongchang-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "samcheok-mall",
+      "analyzeFile": "analyze-samcheok-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "san-n-cheong-sancheong",
+      "analyzeFile": "analyze-san-n-cheong-sancheong.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "shinan-1004-mall",
+      "analyzeFile": "analyze-shinan-1004-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "starlight-village-market-yeongcheon",
+      "analyzeFile": "analyze-starlight-village-market-yeongcheon.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "sunchang-local-food-shopping-mall",
+      "analyzeFile": "analyze-sunchang-local-food-shopping-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "suncheon-local-food-together-store",
+      "analyzeFile": "analyze-suncheon-local-food-together-store.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "taebaek-mall",
+      "analyzeFile": "analyze-taebaek-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "toyoae-uiryeong",
+      "analyzeFile": "analyze-toyoae-uiryeong.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "uiseong-market-day",
+      "analyzeFile": "analyze-uiseong-market-day.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "uljin-mall",
+      "analyzeFile": "analyze-uljin-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "ulleungdo",
+      "analyzeFile": "analyze-ulleungdo.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "wonju-mall",
+      "analyzeFile": "analyze-wonju-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "yanggu-mall",
+      "analyzeFile": "analyze-yanggu-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "yangju-farmers-market",
+      "analyzeFile": "analyze-yangju-farmers-market.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "yangyang-mall",
+      "analyzeFile": "analyze-yangyang-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "yecheon-market",
+      "analyzeFile": "analyze-yecheon-market.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "yeongdeok-market",
+      "analyzeFile": "analyze-yeongdeok-market.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "yeongju-market-day",
+      "analyzeFile": "analyze-yeongju-market-day.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "yeongwol-mall",
+      "analyzeFile": "analyze-yeongwol-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "yeongyang-onsim-market",
+      "analyzeFile": "analyze-yeongyang-onsim-market.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    },
+    {
+      "mall": "yeosu-mall",
+      "analyzeFile": "analyze-yeosu-mall.ts",
+      "totalOutputs": 0,
+      "htmlCount": 0,
+      "jsonCount": 0,
+      "otherCount": 0,
+      "htmlFiles": [],
+      "jsonFiles": [],
+      "otherFiles": []
+    }
+  ],
+  "timestamp": "2025-07-01T05:15:36.334Z"
+}

@@ -1,0 +1,25 @@
+{
+  "mallId": "sunchang",
+  "mallName": "순창로컬푸드쇼핑몰",
+  "url": "https://smartstore.naver.com/schfarm",
+  "region": "전북",
+  "status": "success",
+  "structure": {
+    "hasCategories": true,
+    "categoryStructure": "Naver Smart Store Standard",
+    "urlPatterns": {
+      "homepage": "https://smartstore.naver.com/schfarm",
+      "categoryPattern": "category/:id",
+      "productPattern": "products/:id"
+    },
+    "pagination": {
+      "type": "infinite-scroll"
+    },
+    "requiresJavaScript": true,
+    "dataLocation": {
+      "productListSelector": "Naver Smart Store Dynamic",
+      "productItemSelector": "[class*=\"product\"]"
+    },
+    "note": "Naver Smart Store requires special handling with their API"
+  }
+}

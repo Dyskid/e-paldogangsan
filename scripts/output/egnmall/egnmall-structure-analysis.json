@@ -1,0 +1,1187 @@
+{
+  "mallName": "e경남몰",
+  "baseUrl": "https://egnmall.kr",
+  "platform": "Unknown",
+  "detectedPatterns": [],
+  "productSelectors": [
+    "[class*=\"goods\"]: 36 elements",
+    "[class*=\"item\"]: 1 elements"
+  ],
+  "categoryLinks": [
+    {
+      "text": "배송조회",
+      "href": "https://egnmall.kr/kwa-sell_list"
+    },
+    {
+      "text": "[2025]6월_상반기결산",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1040"
+    },
+    {
+      "text": "[2025]항노화 기획전",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1038"
+    },
+    {
+      "text": "새해 건강다짐 기획전",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1028"
+    },
+    {
+      "text": "[농산물]",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1002"
+    },
+    {
+      "text": "백미/현미",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1002001"
+    },
+    {
+      "text": "찹쌀/잡곡/곡류",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1002002"
+    },
+    {
+      "text": "김치",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1002007"
+    },
+    {
+      "text": "과일/건과",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1002004"
+    },
+    {
+      "text": "채소/농작물",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1002003"
+    },
+    {
+      "text": "농산 가공식품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1002006"
+    },
+    {
+      "text": "기타 농산품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1002005"
+    },
+    {
+      "text": "[수산물]",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1003"
+    },
+    {
+      "text": "생선류",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1003001"
+    },
+    {
+      "text": "해산물/조개류",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1003002"
+    },
+    {
+      "text": "건어물/갑각류",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1003003"
+    },
+    {
+      "text": "해조류/연체류",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1003004"
+    },
+    {
+      "text": "수산물 세트",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1003005"
+    },
+    {
+      "text": "수산 가공식품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1003006"
+    },
+    {
+      "text": "[축산물]",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1004"
+    },
+    {
+      "text": "소고기(한우)",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1004001"
+    },
+    {
+      "text": "돼지고기(한돈)",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1004002"
+    },
+    {
+      "text": "닭/오리",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1004003"
+    },
+    {
+      "text": "계란",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1004004"
+    },
+    {
+      "text": "꿀/프로폴리스/벌화분",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1004005"
+    },
+    {
+      "text": "축산 가공식품(양념/탕류)",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1004006"
+    },
+    {
+      "text": "[임산물]",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1012"
+    },
+    {
+      "text": "버섯",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1012001"
+    },
+    {
+      "text": "산나물",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1012002"
+    },
+    {
+      "text": "약초/약용",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1012006"
+    },
+    {
+      "text": "임산 가공식품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1012003"
+    },
+    {
+      "text": "[가공식품]",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1005"
+    },
+    {
+      "text": "건강식품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1005001"
+    },
+    {
+      "text": "양념/액젓/장류",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1005002"
+    },
+    {
+      "text": "국수",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1005007"
+    },
+    {
+      "text": "차류/즙류/음료/커피",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1005003"
+    },
+    {
+      "text": "유제품/잼/꿀",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1005004"
+    },
+    {
+      "text": "한과/떡/빵/간식류",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1005005"
+    },
+    {
+      "text": "기타 가공식품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1005006"
+    },
+    {
+      "text": "[공산품]",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1006"
+    },
+    {
+      "text": "생활용품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1006002"
+    },
+    {
+      "text": "화장품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1006003"
+    },
+    {
+      "text": "공예품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1006001"
+    },
+    {
+      "text": "가전제품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1006008"
+    },
+    {
+      "text": "체험키트",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1006004"
+    },
+    {
+      "text": "의류/식기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1006005"
+    },
+    {
+      "text": "기타/악기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1006006"
+    },
+    {
+      "text": "[반려동물용품]",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1021"
+    },
+    {
+      "text": "[주류상품]",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1011"
+    },
+    {
+      "text": "[화훼]",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1036"
+    },
+    {
+      "text": "정기구독",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010"
+    },
+    {
+      "text": "꾸러미",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010007"
+    },
+    {
+      "text": "농산물",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010001"
+    },
+    {
+      "text": "수산물",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010002"
+    },
+    {
+      "text": "축산물",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010003"
+    },
+    {
+      "text": "가공식품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010004"
+    },
+    {
+      "text": "공산품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010005"
+    },
+    {
+      "text": "화훼",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010006"
+    },
+    {
+      "text": "쌀",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010001001"
+    },
+    {
+      "text": "과일",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010001002"
+    },
+    {
+      "text": "김치",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010001004"
+    },
+    {
+      "text": "채소",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010001003"
+    },
+    {
+      "text": "소고기(한우)",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010003001"
+    },
+    {
+      "text": "계란/닭/오리",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010003003"
+    },
+    {
+      "text": "꿀/프로폴리스/벌화분",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010003005"
+    },
+    {
+      "text": "축산 가공육/가공식품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010003004"
+    },
+    {
+      "text": "양념/액젓/장류",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010004001"
+    },
+    {
+      "text": "차류/즙류/음료",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010004002"
+    },
+    {
+      "text": "유제품/잼",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010004003"
+    },
+    {
+      "text": "떡/빵류",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010004004"
+    },
+    {
+      "text": "주류상품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010004005"
+    },
+    {
+      "text": "기타 가공식품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1010004006"
+    },
+    {
+      "text": "시군관",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1007"
+    },
+    {
+      "text": "거제",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1007001"
+    },
+    {
+      "text": "거창",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1007002"
+    },
+    {
+      "text": "고성",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1007003"
+    },
+    {
+      "text": "김해",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1007004"
+    },
+    {
+      "text": "남해",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1007005"
+    },
+    {
+      "text": "밀양",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1007006"
+    },
+    {
+      "text": "사천",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1007007"
+    },
+    {
+      "text": "산청",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1007008"
+    },
+    {
+      "text": "양산",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1007009"
+    },
+    {
+      "text": "의령",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1007010"
+    },
+    {
+      "text": "진주",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1007011"
+    },
+    {
+      "text": "창녕",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1007012"
+    },
+    {
+      "text": "창원",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1007013"
+    },
+    {
+      "text": "통영",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1007014"
+    },
+    {
+      "text": "하동",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1007015"
+    },
+    {
+      "text": "함안",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1007016"
+    },
+    {
+      "text": "함양",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1007017"
+    },
+    {
+      "text": "합천",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1007018"
+    },
+    {
+      "text": "특별관",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1009"
+    },
+    {
+      "text": "6차산업기획관",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1009011"
+    },
+    {
+      "text": "경남 청년관",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1009012"
+    },
+    {
+      "text": "가야뜰관",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1009001"
+    },
+    {
+      "text": "경상남도추천상품(QC)",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1009003"
+    },
+    {
+      "text": "전통시장관",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1009002"
+    },
+    {
+      "text": "사회적경제기업관",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1009004"
+    },
+    {
+      "text": "안심농",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1009005"
+    },
+    {
+      "text": "청경해",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1009006"
+    },
+    {
+      "text": "이로로",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1009007"
+    },
+    {
+      "text": "경남관광기념품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1009008"
+    },
+    {
+      "text": "가야뜰 쌀/축산",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1009001001"
+    },
+    {
+      "text": "가야뜰 농산/가공",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1009001002"
+    },
+    {
+      "text": "개인결제",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1027"
+    },
+    {
+      "text": "쿠폰미적용",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1026"
+    },
+    {
+      "text": "회원별단가",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1008002"
+    },
+    {
+      "text": "회원별단가 하위분류1",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1008002001"
+    },
+    {
+      "text": "농산물",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1013001"
+    },
+    {
+      "text": "쌀/잡곡",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1013001001"
+    },
+    {
+      "text": "과일/야채/채소",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1013001003"
+    },
+    {
+      "text": "농산 가공식품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1013001002"
+    },
+    {
+      "text": "수산물",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1013002"
+    },
+    {
+      "text": "축산물",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1013003"
+    },
+    {
+      "text": "가공식품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1013004"
+    },
+    {
+      "text": "기획전",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1001"
+    },
+    {
+      "text": "Welcome to the e경남몰",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1001011"
+    },
+    {
+      "text": "특가기획전",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1001020"
+    },
+    {
+      "text": "농특산물 오픈마켓",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1001047"
+    },
+    {
+      "text": "수산물 연말상생",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1001043"
+    },
+    {
+      "text": "경남 우수브랜드 쌀 대상",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1001045"
+    },
+    {
+      "text": "농산물",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1001011001"
+    },
+    {
+      "text": "수산물",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1001011002"
+    },
+    {
+      "text": "축산물",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1001011003"
+    },
+    {
+      "text": "가공식품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1001011004"
+    },
+    {
+      "text": "공산품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1001011005"
+    },
+    {
+      "text": "반려동물용품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1001011006"
+    },
+    {
+      "text": "김장채소 모아보기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1001047001"
+    },
+    {
+      "text": "쌀/잡곡",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1001047002"
+    },
+    {
+      "text": "과일/건과",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1001047003"
+    },
+    {
+      "text": "채소",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1001047004"
+    },
+    {
+      "text": "농산 가공식품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1001047005"
+    },
+    {
+      "text": "기타 농산품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1001047006"
+    },
+    {
+      "text": "버섯",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1001047007"
+    },
+    {
+      "text": "3만원 미만",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1025001"
+    },
+    {
+      "text": "3~5만원 미만",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1025002"
+    },
+    {
+      "text": "5~10만원 미만",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1025003"
+    },
+    {
+      "text": "10만원 이상",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1025004"
+    },
+    {
+      "text": "선물세트",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1030"
+    },
+    {
+      "text": "못난이상품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1031"
+    },
+    {
+      "text": "국가인증농식품",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1032"
+    },
+    {
+      "text": "[제철상품]",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1033"
+    },
+    {
+      "text": "봄 제철상품 기획전",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1034"
+    },
+    {
+      "text": "급습특가",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1035"
+    },
+    {
+      "text": "[2025]5월_가정愛달 할인 기획전",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1039"
+    },
+    {
+      "text": "[2025]뜨거운 여름, 보양으로 활력가득! 기획전",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1041"
+    },
+    {
+      "text": "[2025]수목반짝할인_7월",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1042"
+    },
+    {
+      "text": "[2025]수목반짝할인_8월",
+      "href": "https://egnmall.kr/kwa-ABS_goods_l-1043"
+    },
+    {
+      "text": "[율림에프앤비] 알토리맛밤 50g×10입/선물세트",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-6678-1005005"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-6678-1005005?goods_serial=6678"
+    },
+    {
+      "text": "28",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1005005?goods_serial=6678"
+    },
+    {
+      "text": "[산엔청] 블루베리 먹는 자연방사 유정란(계란) 40구_참샘골농장",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-12292-1004004"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-12292-1004004?goods_serial=12292"
+    },
+    {
+      "text": "11",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1004004?goods_serial=12292"
+    },
+    {
+      "text": "[밀양팜] 국내산 무태 민물장어 1kg_삼정수산",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-18127-1003001"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-18127-1003001?goods_serial=18127"
+    },
+    {
+      "text": "5",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1003001?goods_serial=18127"
+    },
+    {
+      "text": "[김해시농협조합] 가야뜰 2024년산 가야뜰(백미) 10kg / 20kg / 영호진미",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-5197-1009001001"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-5197-1009001001?goods_serial=5197"
+    },
+    {
+      "text": "20",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1009001001?goods_serial=5197"
+    },
+    {
+      "text": "[구산농장]2025년 햇차 지리산 하동녹차(선물용 특우전) 80g(40gX2개)",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-796-1005003"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-796-1005003?goods_serial=796"
+    },
+    {
+      "text": "3",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1005003?goods_serial=796"
+    },
+    {
+      "text": "[공돈축산]논개한우(HACCP 1+등급이상) 육회 (소스증정) 300g",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-6309-1004001"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-6309-1004001?goods_serial=6309"
+    },
+    {
+      "text": "27",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1004001?goods_serial=6309"
+    },
+    {
+      "text": "[동성호] 동성수산 냉동 홍합살 1kg",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-1671-1003002"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1671-1003002?goods_serial=1671"
+    },
+    {
+      "text": "41",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1003002?goods_serial=1671"
+    },
+    {
+      "text": "[밀양팜] 친환경 유럽 채소 샐러드 상추 모듬 1kg 쌈채소 (로메인/버터헤드/카이피라/적로메..",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-18364-1002003"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-18364-1002003?goods_serial=18364"
+    },
+    {
+      "text": "39",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1002003?goods_serial=18364"
+    },
+    {
+      "text": "상품 더보기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_group_list?group_code=GN01"
+    },
+    {
+      "text": "[미더덕영어조합법인] 창원 진동바다 냉동 미더덕 1kg/5kg",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-18523-1003002"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-18523-1003002?goods_serial=18523"
+    },
+    {
+      "text": "1",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1003002?goods_serial=18523"
+    },
+    {
+      "text": "[정성드리] 하동재첩국(320gX3팩)+매생이굴국(350gX3팩) 세트",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-1001-1003006"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1001-1003006?goods_serial=1001"
+    },
+    {
+      "text": "6",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1003006?goods_serial=1001"
+    },
+    {
+      "text": "[섬진강자연재첩수산] 간편한 국내산 재첩국 500g * 6팩/10팩/22팩/42팩",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-6294-1003006"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-6294-1003006?goods_serial=6294"
+    },
+    {
+      "text": "24",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1003006?goods_serial=6294"
+    },
+    {
+      "text": "[삼천포전통건어물] 권형망 일반 대멸 (다시멸치) 육수용 1.5kg",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-1328-1003003"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1328-1003003?goods_serial=1328"
+    },
+    {
+      "text": "23",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1003003?goods_serial=1328"
+    },
+    {
+      "text": "[명성건어물] 통영 햇 지리멸치 500g + 다시육수팩 250g 선물세트",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-3718-1003003"
+    },
+    {
+      "text": "[건어명가] 대멸(다시) 상품 멸치 1kg/1.5kg",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-17984-1003003"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-17984-1003003?goods_serial=17984"
+    },
+    {
+      "text": "1",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1003003?goods_serial=17984"
+    },
+    {
+      "text": "[건어명가] 소멸(고바) 상품/특품 멸치 750g/1kg/1.5kg",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-17982-1003003"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-17982-1003003?goods_serial=17982"
+    },
+    {
+      "text": "1",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1003003?goods_serial=17982"
+    },
+    {
+      "text": "[송명수산] (멸치선물세트)한려바다 은빛2호",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-3493-1003003"
+    },
+    {
+      "text": "[명성건어물] 다시멸치 프리미엄 2종 선물세트",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-18977-1003005"
+    },
+    {
+      "text": "[대복수산] 통영 국내산 (생물)봄 맞은 참 미더덕 500g/1kg",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-13850-1003002"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-13850-1003002?goods_serial=13850"
+    },
+    {
+      "text": "4",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1003002?goods_serial=13850"
+    },
+    {
+      "text": "[통영해풍] 남해안 산지직송 삼배체굴 1kg",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-16914-1003002"
+    },
+    {
+      "text": "[명성건어물] 고소하고 쫄깃한 황태채 230g",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-19222-1003003"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-19222-1003003?goods_serial=19222"
+    },
+    {
+      "text": "1",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1003003?goods_serial=19222"
+    },
+    {
+      "text": "[나락농산] 고소한 햅쌀 누룽지(150g) x 3봉/5봉/10봉",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-18223-1002006"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-18223-1002006?goods_serial=18223"
+    },
+    {
+      "text": "3",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1002006?goods_serial=18223"
+    },
+    {
+      "text": "[명성건어물] 국내산 쥐포 250g",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-1796-1003003"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1796-1003003?goods_serial=1796"
+    },
+    {
+      "text": "27",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1003003?goods_serial=1796"
+    },
+    {
+      "text": "[통영해풍] 육수까지 담은 남해안 자숙홍합 1kg",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-18647-1003002"
+    },
+    {
+      "text": "[한산도건어물] 한산도 건어물 국내산 자멸 500g",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-1810-1003003"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1810-1003003?goods_serial=1810"
+    },
+    {
+      "text": "1",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1003003?goods_serial=1810"
+    },
+    {
+      "text": "상품 더보기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_group_list?group_code=ev26"
+    },
+    {
+      "text": "[삼천포전통건어물] 페스츄리 오징어 200g",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-9015-1003003"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-9015-1003003?goods_serial=9015"
+    },
+    {
+      "text": "21",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1003003?goods_serial=9015"
+    },
+    {
+      "text": "★경남특가★[자연과발효] 가야뜰 3년숙성 복숭아 파인애플 석류 감식초 750ml 각 1병 (총 3..",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-8353-1001020"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-8353-1001020?goods_serial=8353"
+    },
+    {
+      "text": "3",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1001020?goods_serial=8353"
+    },
+    {
+      "text": "[자연과발효] 가야뜰 3년숙성 복숭아/파인애플/석류 감식초 선물세트 (180ml 3병)",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-14284-1009011"
+    },
+    {
+      "text": "[대영식품] 완도다시마 400g",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-9088-1003004"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-9088-1003004?goods_serial=9088"
+    },
+    {
+      "text": "8",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1003004?goods_serial=9088"
+    },
+    {
+      "text": "[밀양팜] 꾸지뽕 볶은 가지 700g*2팩_꾸지뽕영농",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-18657-1012006"
+    },
+    {
+      "text": "[산엔청] 마늘쫑 장아찌 350g _송림산장",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-8877-1002006"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-8877-1002006?goods_serial=8877"
+    },
+    {
+      "text": "1",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1002006?goods_serial=8877"
+    },
+    {
+      "text": "[경남관광재단] 보물섬 흑마늘진 12ml 30포",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-8123-1026"
+    },
+    {
+      "text": "후기",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-8123-1026?goods_serial=8123"
+    },
+    {
+      "text": "2",
+      "href": "https://egnmall.kr/kwa-ABS_goods_vf_after-1026?goods_serial=8123"
+    },
+    {
+      "text": "[창녕도리원] 장아찌 2종세트/매실(500g)+명이(500g)",
+      "href": "https://egnmall.kr/kwa-ABS_goods_v-14352-1009011"
+    },
+    {
+      "text": "e경남몰 정기구독 할인 종료 안내",
+      "href": "https://egnmall.kr/kwa-372341-66"
+    },
+    {
+      "text": "마이페이지",
+      "href": "https://egnmall.kr/kwa-shop_mypage"
+    },
+    {
+      "text": "e경남몰 소개",
+      "href": "https://egnmall.kr/#;"
+    }
+  ],
+  "productLinks": [
+    "https://egnmall.kr/kwa-ABS_goods_l-1040",
+    "https://egnmall.kr/kwa-ABS_goods_l-1038",
+    "https://egnmall.kr/kwa-ABS_goods_l-1028",
+    "https://egnmall.kr/kwa-ABS_goods_l-1002",
+    "https://egnmall.kr/kwa-ABS_goods_l-1002001",
+    "https://egnmall.kr/kwa-ABS_goods_l-1002002",
+    "https://egnmall.kr/kwa-ABS_goods_l-1002007",
+    "https://egnmall.kr/kwa-ABS_goods_l-1002004",
+    "https://egnmall.kr/kwa-ABS_goods_l-1002003",
+    "https://egnmall.kr/kwa-ABS_goods_l-1002006",
+    "https://egnmall.kr/kwa-ABS_goods_l-1002005",
+    "https://egnmall.kr/kwa-ABS_goods_l-1003",
+    "https://egnmall.kr/kwa-ABS_goods_l-1003001",
+    "https://egnmall.kr/kwa-ABS_goods_l-1003002",
+    "https://egnmall.kr/kwa-ABS_goods_l-1003003",
+    "https://egnmall.kr/kwa-ABS_goods_l-1003004",
+    "https://egnmall.kr/kwa-ABS_goods_l-1003005",
+    "https://egnmall.kr/kwa-ABS_goods_l-1003006",
+    "https://egnmall.kr/kwa-ABS_goods_l-1004",
+    "https://egnmall.kr/kwa-ABS_goods_l-1004001",
+    "https://egnmall.kr/kwa-ABS_goods_l-1004002",
+    "https://egnmall.kr/kwa-ABS_goods_l-1004003",
+    "https://egnmall.kr/kwa-ABS_goods_l-1004004",
+    "https://egnmall.kr/kwa-ABS_goods_l-1004005",
+    "https://egnmall.kr/kwa-ABS_goods_l-1004006",
+    "https://egnmall.kr/kwa-ABS_goods_l-1012",
+    "https://egnmall.kr/kwa-ABS_goods_l-1012001",
+    "https://egnmall.kr/kwa-ABS_goods_l-1012002",
+    "https://egnmall.kr/kwa-ABS_goods_l-1012006",
+    "https://egnmall.kr/kwa-ABS_goods_l-1012003",
+    "https://egnmall.kr/kwa-ABS_goods_l-1005",
+    "https://egnmall.kr/kwa-ABS_goods_l-1005001",
+    "https://egnmall.kr/kwa-ABS_goods_l-1005002",
+    "https://egnmall.kr/kwa-ABS_goods_l-1005007",
+    "https://egnmall.kr/kwa-ABS_goods_l-1005003",
+    "https://egnmall.kr/kwa-ABS_goods_l-1005004",
+    "https://egnmall.kr/kwa-ABS_goods_l-1005005",
+    "https://egnmall.kr/kwa-ABS_goods_l-1005006",
+    "https://egnmall.kr/kwa-ABS_goods_l-1006",
+    "https://egnmall.kr/kwa-ABS_goods_l-1006002",
+    "https://egnmall.kr/kwa-ABS_goods_l-1006003",
+    "https://egnmall.kr/kwa-ABS_goods_l-1006001",
+    "https://egnmall.kr/kwa-ABS_goods_l-1006008",
+    "https://egnmall.kr/kwa-ABS_goods_l-1006004",
+    "https://egnmall.kr/kwa-ABS_goods_l-1006005",
+    "https://egnmall.kr/kwa-ABS_goods_l-1006006",
+    "https://egnmall.kr/kwa-ABS_goods_l-1021",
+    "https://egnmall.kr/kwa-ABS_goods_l-1011",
+    "https://egnmall.kr/kwa-ABS_goods_l-1036",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010007",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010001",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010002",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010003",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010004",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010005",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010006",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010001001",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010001002",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010001004",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010001003",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010003001",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010003003",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010003005",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010003004",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010004001",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010004002",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010004003",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010004004",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010004005",
+    "https://egnmall.kr/kwa-ABS_goods_l-1010004006",
+    "https://egnmall.kr/kwa-ABS_goods_l-1007",
+    "https://egnmall.kr/kwa-ABS_goods_l-1007001",
+    "https://egnmall.kr/kwa-ABS_goods_l-1007002",
+    "https://egnmall.kr/kwa-ABS_goods_l-1007003",
+    "https://egnmall.kr/kwa-ABS_goods_l-1007004",
+    "https://egnmall.kr/kwa-ABS_goods_l-1007005",
+    "https://egnmall.kr/kwa-ABS_goods_l-1007006",
+    "https://egnmall.kr/kwa-ABS_goods_l-1007007",
+    "https://egnmall.kr/kwa-ABS_goods_l-1007008",
+    "https://egnmall.kr/kwa-ABS_goods_l-1007009",
+    "https://egnmall.kr/kwa-ABS_goods_l-1007010",
+    "https://egnmall.kr/kwa-ABS_goods_l-1007011",
+    "https://egnmall.kr/kwa-ABS_goods_l-1007012",
+    "https://egnmall.kr/kwa-ABS_goods_l-1007013",
+    "https://egnmall.kr/kwa-ABS_goods_l-1007014",
+    "https://egnmall.kr/kwa-ABS_goods_l-1007015",
+    "https://egnmall.kr/kwa-ABS_goods_l-1007016",
+    "https://egnmall.kr/kwa-ABS_goods_l-1007017",
+    "https://egnmall.kr/kwa-ABS_goods_l-1007018",
+    "https://egnmall.kr/kwa-ABS_goods_l-1009",
+    "https://egnmall.kr/kwa-ABS_goods_l-1009011",
+    "https://egnmall.kr/kwa-ABS_goods_l-1009012",
+    "https://egnmall.kr/kwa-ABS_goods_l-1009001",
+    "https://egnmall.kr/kwa-ABS_goods_l-1009003",
+    "https://egnmall.kr/kwa-ABS_goods_l-1009002",
+    "https://egnmall.kr/kwa-ABS_goods_l-1009004",
+    "https://egnmall.kr/kwa-ABS_goods_l-1009005",
+    "https://egnmall.kr/kwa-ABS_goods_l-1009006",
+    "https://egnmall.kr/kwa-ABS_goods_l-1009007",
+    "https://egnmall.kr/kwa-ABS_goods_l-1009008",
+    "https://egnmall.kr/kwa-ABS_goods_l-1009001001",
+    "https://egnmall.kr/kwa-ABS_goods_l-1009001002",
+    "https://egnmall.kr/kwa-ABS_goods_l-1027",
+    "https://egnmall.kr/kwa-ABS_goods_l-1026",
+    "https://egnmall.kr/kwa-ABS_goods_l-1008002",
+    "https://egnmall.kr/kwa-ABS_goods_l-1008002001",
+    "https://egnmall.kr/kwa-ABS_goods_l-1013001",
+    "https://egnmall.kr/kwa-ABS_goods_l-1013001001",
+    "https://egnmall.kr/kwa-ABS_goods_l-1013001003",
+    "https://egnmall.kr/kwa-ABS_goods_l-1013001002",
+    "https://egnmall.kr/kwa-ABS_goods_l-1013002",
+    "https://egnmall.kr/kwa-ABS_goods_l-1013003",
+    "https://egnmall.kr/kwa-ABS_goods_l-1013004",
+    "https://egnmall.kr/kwa-ABS_goods_l-1001",
+    "https://egnmall.kr/kwa-ABS_goods_l-1001011",
+    "https://egnmall.kr/kwa-ABS_goods_l-1001020",
+    "https://egnmall.kr/kwa-ABS_goods_l-1001047",
+    "https://egnmall.kr/kwa-ABS_goods_l-1001043",
+    "https://egnmall.kr/kwa-ABS_goods_l-1001045",
+    "https://egnmall.kr/kwa-ABS_goods_l-1001011001",
+    "https://egnmall.kr/kwa-ABS_goods_l-1001011002",
+    "https://egnmall.kr/kwa-ABS_goods_l-1001011003",
+    "https://egnmall.kr/kwa-ABS_goods_l-1001011004",
+    "https://egnmall.kr/kwa-ABS_goods_l-1001011005",
+    "https://egnmall.kr/kwa-ABS_goods_l-1001011006",
+    "https://egnmall.kr/kwa-ABS_goods_l-1001047001",
+    "https://egnmall.kr/kwa-ABS_goods_l-1001047002",
+    "https://egnmall.kr/kwa-ABS_goods_l-1001047003",
+    "https://egnmall.kr/kwa-ABS_goods_l-1001047004",
+    "https://egnmall.kr/kwa-ABS_goods_l-1001047005",
+    "https://egnmall.kr/kwa-ABS_goods_l-1001047006",
+    "https://egnmall.kr/kwa-ABS_goods_l-1001047007",
+    "https://egnmall.kr/kwa-ABS_goods_l-1025001",
+    "https://egnmall.kr/kwa-ABS_goods_l-1025002",
+    "https://egnmall.kr/kwa-ABS_goods_l-1025003",
+    "https://egnmall.kr/kwa-ABS_goods_l-1025004",
+    "https://egnmall.kr/kwa-ABS_goods_l-1030",
+    "https://egnmall.kr/kwa-ABS_goods_l-1031",
+    "https://egnmall.kr/kwa-ABS_goods_l-1032",
+    "https://egnmall.kr/kwa-ABS_goods_l-1033",
+    "https://egnmall.kr/kwa-ABS_goods_l-1034",
+    "https://egnmall.kr/kwa-ABS_goods_l-1035",
+    "https://egnmall.kr/kwa-ABS_goods_l-1039",
+    "https://egnmall.kr/kwa-ABS_goods_l-1041",
+    "https://egnmall.kr/kwa-ABS_goods_l-1042",
+    "https://egnmall.kr/kwa-ABS_goods_l-1043",
+    "https://egnmall.kr/kwa-ABS_goods_v-6678-1005005",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-6678-1005005?goods_serial=6678",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1005005?goods_serial=6678",
+    "https://egnmall.kr/kwa-ABS_goods_v-12292-1004004",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-12292-1004004?goods_serial=12292",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1004004?goods_serial=12292",
+    "https://egnmall.kr/kwa-ABS_goods_v-18127-1003001",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-18127-1003001?goods_serial=18127",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1003001?goods_serial=18127",
+    "https://egnmall.kr/kwa-ABS_goods_v-5197-1009001001",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-5197-1009001001?goods_serial=5197",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1009001001?goods_serial=5197",
+    "https://egnmall.kr/kwa-ABS_goods_v-796-1005003",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-796-1005003?goods_serial=796",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1005003?goods_serial=796",
+    "https://egnmall.kr/kwa-ABS_goods_v-6309-1004001",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-6309-1004001?goods_serial=6309",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1004001?goods_serial=6309",
+    "https://egnmall.kr/kwa-ABS_goods_v-1671-1003002",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1671-1003002?goods_serial=1671",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1003002?goods_serial=1671",
+    "https://egnmall.kr/kwa-ABS_goods_v-18364-1002003",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-18364-1002003?goods_serial=18364",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1002003?goods_serial=18364",
+    "https://egnmall.kr/kwa-ABS_goods_group_list?group_code=GN01",
+    "https://egnmall.kr/kwa-ABS_goods_v-18523-1003002",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-18523-1003002?goods_serial=18523",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1003002?goods_serial=18523",
+    "https://egnmall.kr/kwa-ABS_goods_v-1001-1003006",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1001-1003006?goods_serial=1001",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1003006?goods_serial=1001",
+    "https://egnmall.kr/kwa-ABS_goods_v-6294-1003006",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-6294-1003006?goods_serial=6294",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1003006?goods_serial=6294",
+    "https://egnmall.kr/kwa-ABS_goods_v-1328-1003003",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1328-1003003?goods_serial=1328",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1003003?goods_serial=1328",
+    "https://egnmall.kr/kwa-ABS_goods_v-3718-1003003",
+    "https://egnmall.kr/kwa-ABS_goods_v-17984-1003003",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-17984-1003003?goods_serial=17984",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1003003?goods_serial=17984",
+    "https://egnmall.kr/kwa-ABS_goods_v-17982-1003003",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-17982-1003003?goods_serial=17982",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1003003?goods_serial=17982",
+    "https://egnmall.kr/kwa-ABS_goods_v-3493-1003003",
+    "https://egnmall.kr/kwa-ABS_goods_v-18977-1003005",
+    "https://egnmall.kr/kwa-ABS_goods_v-13850-1003002",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-13850-1003002?goods_serial=13850",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1003002?goods_serial=13850",
+    "https://egnmall.kr/kwa-ABS_goods_v-16914-1003002",
+    "https://egnmall.kr/kwa-ABS_goods_v-19222-1003003",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-19222-1003003?goods_serial=19222",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1003003?goods_serial=19222",
+    "https://egnmall.kr/kwa-ABS_goods_v-18223-1002006",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-18223-1002006?goods_serial=18223",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1002006?goods_serial=18223",
+    "https://egnmall.kr/kwa-ABS_goods_v-1796-1003003",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1796-1003003?goods_serial=1796",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1003003?goods_serial=1796",
+    "https://egnmall.kr/kwa-ABS_goods_v-18647-1003002",
+    "https://egnmall.kr/kwa-ABS_goods_v-1810-1003003",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1810-1003003?goods_serial=1810",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1003003?goods_serial=1810",
+    "https://egnmall.kr/kwa-ABS_goods_group_list?group_code=ev26",
+    "https://egnmall.kr/kwa-ABS_goods_v-9015-1003003",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-9015-1003003?goods_serial=9015",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1003003?goods_serial=9015",
+    "https://egnmall.kr/kwa-ABS_goods_v-8353-1001020",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-8353-1001020?goods_serial=8353",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1001020?goods_serial=8353",
+    "https://egnmall.kr/kwa-ABS_goods_v-14284-1009011",
+    "https://egnmall.kr/kwa-ABS_goods_v-9088-1003004",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-9088-1003004?goods_serial=9088",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1003004?goods_serial=9088",
+    "https://egnmall.kr/kwa-ABS_goods_v-18657-1012006",
+    "https://egnmall.kr/kwa-ABS_goods_v-8877-1002006",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-8877-1002006?goods_serial=8877",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1002006?goods_serial=8877",
+    "https://egnmall.kr/kwa-ABS_goods_v-8123-1026",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-8123-1026?goods_serial=8123",
+    "https://egnmall.kr/kwa-ABS_goods_vf_after-1026?goods_serial=8123",
+    "https://egnmall.kr/kwa-ABS_goods_v-14352-1009011"
+  ],
+  "notes": [
+    "Page title: e경남몰",
+    "Description: 경상남도 대표 농수축산물 종합 쇼핑몰",
+    "Total links found: 411",
+    "Images found: 181",
+    "[class*=\"price\"]: 93 elements",
+    "Main content areas: 0",
+    "Item elements: 0",
+    "경상남도 통합 온라인몰",
+    "경남 전 지역 특산물 판매",
+    "농수산물 및 가공품 종합몰"
+  ]
+}

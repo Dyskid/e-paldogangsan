@@ -1,0 +1,11 @@
+Starting analysis of e경남몰 structure...
+
+=== STRUCTURE ANALYSIS ===
+Mall: e경남몰
+Platform: Unknown
+Detected patterns: 0
+Product selectors found: 2
+Category links found: 233
+Product links found: 229
+
+Results saved to: /mnt/c/Users/johndoe/Desktop/e-paldogangsan/scripts/output/egnmall/egnmall-structure-analysis.json

@@ -1,0 +1,770 @@
+{
+  "mallName": "함양몰",
+  "baseUrl": "https://2900.co.kr",
+  "platform": "Cafe24",
+  "detectedPatterns": [
+    "Cafe24 platform detected"
+  ],
+  "productSelectors": [
+    ".item: 205 elements",
+    "[class*=\"product\"]: 310 elements",
+    "[class*=\"item\"]: 444 elements"
+  ],
+  "categoryLinks": [
+    {
+      "text": "전체상품목록 바로가기",
+      "href": "https://2900.co.kr/#category"
+    },
+    {
+      "text": "마이샵",
+      "href": "https://2900.co.kr/myshop/index.html"
+    },
+    {
+      "text": "주문조회",
+      "href": "https://2900.co.kr/myshop/order/list.html"
+    },
+    {
+      "text": "적립금",
+      "href": "https://2900.co.kr/myshop/mileage/historyList.html"
+    },
+    {
+      "text": "쿠폰관리",
+      "href": "https://2900.co.kr/myshop/coupon/coupon.html"
+    },
+    {
+      "text": "내게시물",
+      "href": "https://2900.co.kr/myshop/board_list.html"
+    },
+    {
+      "text": "공지사항",
+      "href": "https://2900.co.kr/board/product/list.html?board_no=1"
+    },
+    {
+      "text": "상품Q&A",
+      "href": "https://2900.co.kr/board/product/list.html?board_no=6"
+    },
+    {
+      "text": "상품후기",
+      "href": "https://2900.co.kr/board/product/list.html?board_no=4"
+    },
+    {
+      "text": "상세분류도",
+      "href": "https://2900.co.kr/#none"
+    },
+    {
+      "text": "농ㆍ축산물",
+      "href": "https://2900.co.kr/product/list.html?cate_no=24"
+    },
+    {
+      "text": "가공상품",
+      "href": "https://2900.co.kr/product/list.html?cate_no=25"
+    },
+    {
+      "text": "임산상품",
+      "href": "https://2900.co.kr/product/list.html?cate_no=26"
+    },
+    {
+      "text": "건강상품",
+      "href": "https://2900.co.kr/product/list.html?cate_no=27"
+    },
+    {
+      "text": "산양삼 가공상품",
+      "href": "https://2900.co.kr/product/list.html?cate_no=28"
+    },
+    {
+      "text": "계절상품",
+      "href": "https://2900.co.kr/product/list.html?cate_no=67"
+    },
+    {
+      "text": "주류",
+      "href": "https://2900.co.kr/product/list.html?cate_no=75"
+    },
+    {
+      "text": "공지사항",
+      "href": "https://2900.co.kr/board/free/list.html?board_no=1"
+    },
+    {
+      "text": "브랜드",
+      "href": "https://2900.co.kr/board/free/list.html?board_no=3001"
+    },
+    {
+      "text": "이벤트",
+      "href": "https://2900.co.kr/board/gallery/list.html?board_no=8"
+    },
+    {
+      "text": "상품명 : [무배/2박스 5% 할인] 양파 10kg(대,중)",
+      "href": "https://2900.co.kr/product/detail.html?product_no=527&cate_no=1&display_group=15"
+    },
+    {
+      "text": "상품명 : [예약상품/무료배송] 함양양파 18kg(특대)",
+      "href": "https://2900.co.kr/product/detail.html?product_no=526&cate_no=1&display_group=15"
+    },
+    {
+      "text": "상품명 : 함양산양삼주(수) 500ml",
+      "href": "https://2900.co.kr/product/detail.html?product_no=522&cate_no=1&display_group=15"
+    },
+    {
+      "text": "상품명 : 꿀 2.4kg 아카시아꽃꿀/야생화꽃꿀/밤꿀",
+      "href": "https://2900.co.kr/product/detail.html?product_no=237&cate_no=1&display_group=15"
+    },
+    {
+      "text": "상품명 : 흑돼지 삼겹살(구이용)1kg",
+      "href": "https://2900.co.kr/product/detail.html?product_no=256&cate_no=1&display_group=15"
+    },
+    {
+      "text": "상품명 : 훈이네 벌꿀 2.4kg(아카시아꿀/야생화꿀/밤꿀)",
+      "href": "https://2900.co.kr/product/detail.html?product_no=515&cate_no=1&display_group=15"
+    },
+    {
+      "text": "상품명 : 산양산삼 9년근 5뿌리",
+      "href": "https://2900.co.kr/product/detail.html?product_no=360&cate_no=1&display_group=15"
+    },
+    {
+      "text": "상품명 : (무배)선물용 함양양파5kg/10kg",
+      "href": "https://2900.co.kr/product/detail.html?product_no=421&cate_no=1&display_group=15"
+    },
+    {
+      "text": "상품명 : 행복한닭알 40개",
+      "href": "https://2900.co.kr/product/detail.html?product_no=368&cate_no=1&display_group=15"
+    },
+    {
+      "text": "상품명 : (2024년산) 지리산황토쌀20kg",
+      "href": "https://2900.co.kr/product/detail.html?product_no=363&cate_no=1&display_group=15"
+    },
+    {
+      "text": "상품명 : 산양삼데일리",
+      "href": "https://2900.co.kr/product/detail.html?product_no=305&cate_no=1&display_group=15"
+    },
+    {
+      "text": "상품명 : 생강원액(생강차)",
+      "href": "https://2900.co.kr/product/detail.html?product_no=426&cate_no=1&display_group=15"
+    },
+    {
+      "text": "상품명 : 용추골고추장(500g/900g/2kg/3kg)",
+      "href": "https://2900.co.kr/product/detail.html?product_no=94&cate_no=1&display_group=15"
+    },
+    {
+      "text": "상품명 : 김부각&고추부각선물세트(40g*6개)",
+      "href": "https://2900.co.kr/product/detail.html?product_no=251&cate_no=1&display_group=15"
+    },
+    {
+      "text": "상품명 : 청 선물세트",
+      "href": "https://2900.co.kr/product/detail.html?product_no=271&cate_no=1&display_group=15"
+    },
+    {
+      "text": "상품명 : 인산9회자죽염(분말20g/60g/240g/500g/1kg)",
+      "href": "https://2900.co.kr/product/detail.html?product_no=92&cate_no=1&display_group=15"
+    },
+    {
+      "text": "상품명 : 산양산삼 6~7년근 5뿌리+1뿌리",
+      "href": "https://2900.co.kr/product/detail.html?product_no=240&cate_no=1&display_group=15"
+    },
+    {
+      "text": "상품명 : 함양산양삼농축액 프리미엄 라이트 (60포)",
+      "href": "https://2900.co.kr/product/detail.html?product_no=489&cate_no=1&display_group=15"
+    },
+    {
+      "text": "상품명 : 부각 5종 set/6종 set",
+      "href": "https://2900.co.kr/product/detail.html?product_no=298&cate_no=1&display_group=15"
+    },
+    {
+      "text": "상품명 : 우리가 소갈비찜 1.2kg",
+      "href": "https://2900.co.kr/product/detail.html?product_no=396&cate_no=1&display_group=15"
+    },
+    {
+      "text": "함양 산양삼 입점",
+      "href": "https://2900.co.kr/product/detail.html?product_no=23"
+    },
+    {
+      "text": "상품명 : 함양와송주 375ml                \n                \n                \n판매가 : 7,000원 \n\n브랜드 : 함양천령산약초영농조합법인",
+      "href": "https://2900.co.kr/product/함양와송주-375ml/524/category/1/display/11/"
+    },
+    {
+      "text": "상품명 : 함양산양삼주(수) 500mlX2병                \n                \n                \n판매가 : 40,000원 \n\n브랜드 : 함양천령산약초영농조합법인",
+      "href": "https://2900.co.kr/product/함양산양삼주수-500mlx2병/523/category/1/display/11/"
+    },
+    {
+      "text": "상품명 : 자색고구마냉면,찰보리냉면2kg(10인분)                \n                \n                \n판매가 : 8,000원 \n\n브랜드 : 우리가",
+      "href": "https://2900.co.kr/product/자색고구마냉면찰보리냉면2kg10인분/68/category/1/display/11/"
+    },
+    {
+      "text": "상품명 : 수피아꿀 선물세트 2종                \n                \n                \n판매가 : 38,000원 \n\n브랜드 : 산삼골꿀벌",
+      "href": "https://2900.co.kr/product/수피아꿀-선물세트-2종/463/category/1/display/11/"
+    },
+    {
+      "text": "상품명 : 발효 구기자 70ml*30포                \n                \n                \n판매가 : 298,000원 \n\n브랜드 : 함양농협",
+      "href": "https://2900.co.kr/product/발효-구기자-70ml30포/178/category/1/display/11/"
+    },
+    {
+      "text": "상품명 : 함양산양삼 골드스틱 (30포)                \n                \n                \n판매가 : 198,000원 \n\n브랜드 : KN바이오",
+      "href": "https://2900.co.kr/product/함양산양삼-골드스틱-30포/488/category/1/display/11/"
+    },
+    {
+      "text": "상품명 : 산양삼데일리                \n                \n                \n판매가 : 280,000원 \n\n브랜드 : 함양농협",
+      "href": "https://2900.co.kr/product/산양삼데일리/305/category/1/display/11/"
+    },
+    {
+      "text": "상품명 : 씨뺀 사과즙(50포)                \n                \n                \n판매가 : 30,000원 \n\n브랜드 : 에덴영농조합법인",
+      "href": "https://2900.co.kr/product/씨뺀-사과즙50포/276/category/1/display/11/"
+    },
+    {
+      "text": "상품명 : 참당당 비피플러스                \n                \n                \n판매가 : 70,000원 \n\n브랜드 : 심마니 영농조합",
+      "href": "https://2900.co.kr/product/참당당-비피플러스/462/category/1/display/11/"
+    },
+    {
+      "text": "상품명 : 부각110g/130g(김,새송이,황태껍질,고추,연근)                \n                \n                \n판매가 : 11,000원 \n\n브랜드 : 진&진푸드",
+      "href": "https://2900.co.kr/product/부각110g130g김새송이황태껍질고추연근/299/category/1/display/11/"
+    },
+    {
+      "text": "상품명 : (예약상품/무배)대극천 복숭아 2kg(20과내)                \n                \n                \n판매가 : 30,000원",
+      "href": "https://2900.co.kr/product/예약상품무배대극천-복숭아-2kg20과내/358/category/1/display/10/"
+    },
+    {
+      "text": "상품명 : [강들애] 블루베리 1kg(중/대)                \n                \n                \n판매가 : 25,000원",
+      "href": "https://2900.co.kr/product/강들애-블루베리-1kg중대/528/category/1/display/10/"
+    },
+    {
+      "text": "상품명 : [예약상품/무료배송] 함양양파 18kg(특대)                \n                \n                \n판매가 : 30,000원",
+      "href": "https://2900.co.kr/product/예약상품무료배송-함양양파-18kg특대/526/category/1/display/10/"
+    },
+    {
+      "text": "상품명 : [무배] 토마토 5kg(상)                \n                \n                \n판매가 : 25,000원",
+      "href": "https://2900.co.kr/product/무배-토마토-5kg상/348/category/1/display/10/"
+    },
+    {
+      "text": "상품명 : 흑돼지 선물세트III                \n                \n                \n판매가 : 120,000원",
+      "href": "https://2900.co.kr/product/흑돼지-선물세트iii/263/category/1/display/10/"
+    },
+    {
+      "text": "상품명 : [예약상품/무료배송]함양양파 특대 10kg                \n                \n                \n판매가 : 18,000원",
+      "href": "https://2900.co.kr/product/예약상품무료배송함양양파-특대-10kg/350/category/1/display/10/"
+    },
+    {
+      "text": "상품명 : 김영조의 산삼 효소벌꿀 720g 1병                \n                \n                \n판매가 : 130,000원",
+      "href": "https://2900.co.kr/product/김영조의-산삼-효소벌꿀-720g-1병/253/category/1/display/10/"
+    },
+    {
+      "text": "상품명 : (2024년산)함양쌀20kg                \n                \n                \n판매가 : 62,000원",
+      "href": "https://2900.co.kr/product/2024년산함양쌀20kg/364/category/1/display/10/"
+    },
+    {
+      "text": "상품명 : 꿀 1.2kg 아카시아꿀/야생화꿀/밤꿀                \n                \n                \n판매가 : 32,000원",
+      "href": "https://2900.co.kr/product/꿀-12kg-아카시아꿀야생화꿀밤꿀/519/category/1/display/10/"
+    },
+    {
+      "text": "상품명 : 꿀 스틱형(13g*30개/13g*100개)                \n                \n                \n판매가 : 15,000원",
+      "href": "https://2900.co.kr/product/꿀-스틱형13g30개13g100개/518/category/1/display/10/"
+    },
+    {
+      "text": "상품명 : 산양산삼 6~7년근 5뿌리+1뿌리                \n                \n                \n판매가 : 100,000원 \n\n브랜드 : 지리산소망농원",
+      "href": "https://2900.co.kr/product/산양산삼-67년근-5뿌리1뿌리/240/category/1/display/12/"
+    },
+    {
+      "text": "상품명 : (자연숙성꿀)아카시아/야생화/밤꿀 2.4kg                \n                \n                \n판매가 : 70,000원 \n\n브랜드 : 1번지양봉원",
+      "href": "https://2900.co.kr/product/자연숙성꿀아카시아야생화밤꿀-24kg/252/category/1/display/12/"
+    },
+    {
+      "text": "상품명 : 산양산삼9~11년근 3뿌리                \n                \n                \n소비자가 : 300,000원\n\n판매가 : 210,000원 \n\n브랜드 : 한국심마니산삼",
+      "href": "https://2900.co.kr/product/산양산삼911년근-3뿌리/417/category/1/display/12/"
+    },
+    {
+      "text": "상품명 : 김영조의 효소벌꿀(산약초) 720g 1병                \n                \n                \n판매가 : 130,000원 \n\n브랜드 : 1번지양봉원",
+      "href": "https://2900.co.kr/product/김영조의-효소벌꿀산약초-720g-1병/208/category/1/display/12/"
+    },
+    {
+      "text": "상품명 : 김영조의 효소벌꿀(오미자)720g 1병                \n                \n                \n판매가 : 130,000원 \n\n브랜드 : 1번지양봉원",
+      "href": "https://2900.co.kr/product/김영조의-효소벌꿀오미자720g-1병/215/category/1/display/12/"
+    },
+    {
+      "text": "상품명 : 석이버섯(손질된 제품) 50g / 100g                \n                \n                \n판매가 : 20,000원 \n\n브랜드 : 지리산 두리봉농원",
+      "href": "https://2900.co.kr/product/석이버섯손질된-제품-50g-100g/487/category/1/display/12/"
+    },
+    {
+      "text": "상품명 : 김영조의 산삼 효소벌꿀 720g 1병                \n                \n                \n판매가 : 130,000원 \n\n브랜드 : 1번지양봉원",
+      "href": "https://2900.co.kr/product/김영조의-산삼-효소벌꿀-720g-1병/253/category/1/display/12/"
+    },
+    {
+      "text": "상품명 : 꿀 500g 튜브형 아카시아꿀/야생화꿀                \n                \n                \n판매가 : 15,000원 \n\n브랜드 : 화림농원",
+      "href": "https://2900.co.kr/product/꿀-500g-튜브형-아카시아꿀야생화꿀/235/category/1/display/12/"
+    },
+    {
+      "text": "상품명 : 함양감말랭이(800g/400g)                \n                \n                \n소비자가 : 20,000원\n\n판매가 : 18,000원 \n\n브랜드 : 지리산해올림푸드",
+      "href": "https://2900.co.kr/product/함양감말랭이800g400g/310/category/1/display/12/"
+    },
+    {
+      "text": "상품명 : 천령상황 선물세트 80g*2개(5개 이상+1)                \n                \n                \n판매가 : 55,000원 \n\n브랜드 : 천령상황",
+      "href": "https://2900.co.kr/product/천령상황-선물세트-80g2개5개-이상1/520/category/1/display/12/"
+    },
+    {
+      "text": "상품명 : (자연숙성꿀)아카시아/야생화/밤꿀 2.4kg                \n                \n                \n판매가 : 70,000원 \n\n브랜드 : 1번지양봉원",
+      "href": "https://2900.co.kr/product/자연숙성꿀아카시아야생화밤꿀-24kg/252/category/1/display/13/"
+    },
+    {
+      "text": "상품명 : 김영조의 효소벌꿀(오미자)720g 1병                \n                \n                \n판매가 : 130,000원 \n\n브랜드 : 1번지양봉원",
+      "href": "https://2900.co.kr/product/김영조의-효소벌꿀오미자720g-1병/215/category/1/display/13/"
+    },
+    {
+      "text": "상품명 : 삼계탕 재료 90g                \n                \n                \n판매가 : 5,100원 \n\n브랜드 : 함양농협",
+      "href": "https://2900.co.kr/product/삼계탕-재료-90g/126/category/1/display/13/"
+    },
+    {
+      "text": "상품명 : 천령상황버섯 100g(5개 이상+1)                \n                \n                \n판매가 : 30,000원 \n\n브랜드 : 천령상황",
+      "href": "https://2900.co.kr/product/천령상황버섯-100g5개-이상1/517/category/1/display/13/"
+    },
+    {
+      "text": "상품명 : 함양산양삼농축액 프리미엄 라이트 (60포)                \n                \n                \n판매가 : 280,000원 \n\n브랜드 : KN바이오",
+      "href": "https://2900.co.kr/product/함양산양삼농축액-프리미엄-라이트-60포/489/category/1/display/13/"
+    },
+    {
+      "text": "상품명 : 참당당 비피플러스                \n                \n                \n판매가 : 70,000원 \n\n브랜드 : 심마니 영농조합",
+      "href": "https://2900.co.kr/product/참당당-비피플러스/462/category/1/display/13/"
+    },
+    {
+      "text": "상품명 : 꿀 2.4kg 아카시아꽃꿀/야생화꽃꿀/밤꿀                \n                \n                \n판매가 : 60,000원 \n\n브랜드 : 화림농원",
+      "href": "https://2900.co.kr/product/꿀-24kg-아카시아꽃꿀야생화꽃꿀밤꿀/237/category/1/display/13/"
+    },
+    {
+      "text": "상품명 : 복분자청 700ml                \n                \n                \n판매가 : 30,000원 \n\n브랜드 : 운림농원",
+      "href": "https://2900.co.kr/product/복분자청-700ml/442/category/1/display/13/"
+    },
+    {
+      "text": "상품명 : 머위즙(30포/60포)                \n                \n                \n판매가 : 33,000원 \n\n브랜드 : 지리산청정머위농원",
+      "href": "https://2900.co.kr/product/머위즙30포60포/414/category/1/display/13/"
+    },
+    {
+      "text": "상품명 : (무배)함양여주양파즙(100ml*50포)                \n                \n                \n판매가 : 30,000원 \n\n브랜드 : 딸기엄마양파아빠",
+      "href": "https://2900.co.kr/product/무배함양여주양파즙100ml50포/247/category/1/display/13/"
+    },
+    {
+      "text": "상품명 : 함양산양삼주(수) 500ml                \n                \n                \n판매가 : 20,000원 \n\n브랜드 : 함양천령산약초영농조합법인",
+      "href": "https://2900.co.kr/product/함양산양삼주수-500ml/522/category/1/display/14/"
+    },
+    {
+      "text": "상품명 : 함양산양삼농축액 프리미엄 라이트 (60포)                \n                \n                \n판매가 : 280,000원 \n\n브랜드 : KN바이오",
+      "href": "https://2900.co.kr/product/함양산양삼농축액-프리미엄-라이트-60포/489/category/1/display/14/"
+    },
+    {
+      "text": "상품명 : 함양산양삼 골드스틱 (30포)                \n                \n                \n판매가 : 198,000원 \n\n브랜드 : KN바이오",
+      "href": "https://2900.co.kr/product/함양산양삼-골드스틱-30포/488/category/1/display/14/"
+    },
+    {
+      "text": "상품명 : 산양삼오미자즙(30포/50포/100포)                \n                \n                \n판매가 : 55,000원 \n\n브랜드 : 큰밭농원",
+      "href": "https://2900.co.kr/product/산양삼오미자즙30포50포100포/139/category/1/display/14/"
+    },
+    {
+      "text": "상품명 : 산삼 매실375ml                \n                \n                \n판매가 : 40,500원 \n\n브랜드 : 인산죽염",
+      "href": "https://2900.co.kr/product/산삼-매실375ml/39/category/1/display/14/"
+    },
+    {
+      "text": "상품명 : 산양산삼 속으로                \n                \n                \n판매가 : 50,000원 \n\n브랜드 : 함양산양삼 농업회사법인",
+      "href": "https://2900.co.kr/product/산양산삼-속으로/41/category/1/display/14/"
+    },
+    {
+      "text": "상품명 : 산삼죽염 사리장250ml                \n                \n                \n판매가 : 207,900원 \n\n브랜드 : 인산죽염",
+      "href": "https://2900.co.kr/product/산삼죽염-사리장250ml/42/category/1/display/14/"
+    },
+    {
+      "text": "상품명 : 산양산삼 한뿌리 그대로                \n                \n                \n판매가 : 140,000원 \n\n브랜드 : 함양산양삼 농업회사법인",
+      "href": "https://2900.co.kr/product/산양산삼-한뿌리-그대로/44/category/1/display/14/"
+    },
+    {
+      "text": "상품명 : 연삼정 허니 시나몬                \n                \n                \n판매가 : 120,000원 \n\n브랜드 : 화신영농조합법인",
+      "href": "https://2900.co.kr/product/연삼정-허니-시나몬/50/category/1/display/14/"
+    },
+    {
+      "text": "상품명 : 산양산삼머금고                \n                \n                \n판매가 : 140,000원 \n\n브랜드 : 함양산양삼 농업회사법인",
+      "href": "https://2900.co.kr/product/산양산삼머금고/136/category/1/display/14/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/예약상품무배대극천-복숭아-2kg20과내/358/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/강들애-블루베리-1kg중대/528/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/무배2박스-5-할인-양파-10kg대중/527/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/무배-토마토-5kg상/348/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/산양산삼-9년근-5뿌리/360/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/자색고구마냉면찰보리냉면2kg10인분/68/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/흑돼지-삼겹살구이용1kg/256/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/발효-구기자-70ml30포/178/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/함양산양삼-골드스틱-30포/488/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/무배사과즙-120ml10포/516/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/무배오미자-액상차250ml500ml700ml/326/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/행복한닭알-40개/368/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/천령상황-선물세트-80g2개5개-이상1/520/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/산양산삼1012년근-3뿌리-1213년-3뿌리/418/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/용추골-생청국장200gx5개/95/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/함양감말랭이800g400g/310/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/산양산삼-67년근-5뿌리1뿌리/240/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/천령상황버섯-100g5개-이상1/517/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/훈이네-벌꿀-24kg아카시아꿀야생화꿀밤꿀/515/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/깻잎된장-장아찌400g/471/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/지리산산양삼-5년근8뿌리/444/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/무료배송-건가지-100g100g/512/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/햇살바른김-전장김30g3봉30g18봉/476/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/함양산양삼농축액-프리미엄-라이트-60포/489/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/건취나물-100g/505/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/죽염-아메리카노-100개입/501/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/산마늘명이나물-장아찌-400g5/443/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/씨실-밤부솔트-톤업-선크림-50ml/498/category/1/display/2/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/무배-토마토-5kg상/348/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/강들애-블루베리-1kg중대/528/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/김부각고추부각선물세트40g6개/251/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/함양오미자주-375ml/525/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/훈이네-허니스틱-3종세트아카시아꿀야생화꿀밤꿀/514/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/산양산삼-한뿌리-그대로/44/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/특판-며느리-갈비찜-세트-12kg-1호2호3호/485/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/산양산삼-67년근-5뿌리1뿌리/240/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/함양산양삼주수-500ml/522/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/생강원액생강차/426/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/2024년산-지리산황토쌀10kg/297/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/산양산삼-9년근-3뿌리/359/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/석이버섯손질된-제품-50g-100g/487/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/건피마자나물-100g/508/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/솔잎양파즙빨간양파즙칡액즙100ml50팩/241/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/흑돼지-삼겹살구이용1kg/256/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/꿀24kg잡화아카시아밤/401/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/햇살바른-다시팩18g8개입/478/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/건취나물-100g/505/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/산마늘명이나물-장아찌-400g5/443/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/흑돼지-선물세트ii/262/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/꿀-선물세트8종/400/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/삶은-무청시래기-400g/504/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/산양산삼910년근1뿌리/374/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/함양산양삼농축액-프리미엄-라이트-60포/489/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/무배abc주스-100mlx30포/434/category/1/display/3/"
+    },
+    {
+      "text": "이전\n                    다음",
+      "href": "https://2900.co.kr/product/청-선물세트/271/category/1/display/3/"
+    },
+    {
+      "text": "회사소개",
+      "href": "https://2900.co.kr/shopinfo/company.html"
+    },
+    {
+      "text": "쇼핑몰 이용안내",
+      "href": "https://2900.co.kr/shopinfo/guide.html"
+    },
+    {
+      "text": "2900mall@naver.com",
+      "href": "https://2900.co.kr/mailto:2900mall@naver.com"
+    },
+    {
+      "text": "관심상품",
+      "href": "https://2900.co.kr/myshop/wish_list.html"
+    },
+    {
+      "text": "최근본상품",
+      "href": "https://2900.co.kr/product/recent_view_product.html"
+    }
+  ],
+  "productLinks": [
+    "https://2900.co.kr/board/product/list.html?board_no=1",
+    "https://2900.co.kr/board/product/list.html?board_no=6",
+    "https://2900.co.kr/board/product/list.html?board_no=4",
+    "https://2900.co.kr/product/list.html?cate_no=24",
+    "https://2900.co.kr/product/list.html?cate_no=25",
+    "https://2900.co.kr/product/list.html?cate_no=26",
+    "https://2900.co.kr/product/list.html?cate_no=27",
+    "https://2900.co.kr/product/list.html?cate_no=28",
+    "https://2900.co.kr/product/list.html?cate_no=67",
+    "https://2900.co.kr/product/list.html?cate_no=75",
+    "https://2900.co.kr/product/detail.html?product_no=527&cate_no=1&display_group=15",
+    "https://2900.co.kr/product/detail.html?product_no=526&cate_no=1&display_group=15",
+    "https://2900.co.kr/product/detail.html?product_no=522&cate_no=1&display_group=15",
+    "https://2900.co.kr/product/detail.html?product_no=237&cate_no=1&display_group=15",
+    "https://2900.co.kr/product/detail.html?product_no=256&cate_no=1&display_group=15",
+    "https://2900.co.kr/product/detail.html?product_no=515&cate_no=1&display_group=15",
+    "https://2900.co.kr/product/detail.html?product_no=360&cate_no=1&display_group=15",
+    "https://2900.co.kr/product/detail.html?product_no=421&cate_no=1&display_group=15",
+    "https://2900.co.kr/product/detail.html?product_no=368&cate_no=1&display_group=15",
+    "https://2900.co.kr/product/detail.html?product_no=363&cate_no=1&display_group=15",
+    "https://2900.co.kr/product/detail.html?product_no=305&cate_no=1&display_group=15",
+    "https://2900.co.kr/product/detail.html?product_no=426&cate_no=1&display_group=15",
+    "https://2900.co.kr/product/detail.html?product_no=94&cate_no=1&display_group=15",
+    "https://2900.co.kr/product/detail.html?product_no=251&cate_no=1&display_group=15",
+    "https://2900.co.kr/product/detail.html?product_no=271&cate_no=1&display_group=15",
+    "https://2900.co.kr/product/detail.html?product_no=92&cate_no=1&display_group=15",
+    "https://2900.co.kr/product/detail.html?product_no=240&cate_no=1&display_group=15",
+    "https://2900.co.kr/product/detail.html?product_no=489&cate_no=1&display_group=15",
+    "https://2900.co.kr/product/detail.html?product_no=298&cate_no=1&display_group=15",
+    "https://2900.co.kr/product/detail.html?product_no=396&cate_no=1&display_group=15",
+    "https://2900.co.kr/product/detail.html?product_no=23",
+    "https://2900.co.kr/product/함양와송주-375ml/524/category/1/display/11/",
+    "https://2900.co.kr/product/함양산양삼주수-500mlx2병/523/category/1/display/11/",
+    "https://2900.co.kr/product/자색고구마냉면찰보리냉면2kg10인분/68/category/1/display/11/",
+    "https://2900.co.kr/product/수피아꿀-선물세트-2종/463/category/1/display/11/",
+    "https://2900.co.kr/product/발효-구기자-70ml30포/178/category/1/display/11/",
+    "https://2900.co.kr/product/함양산양삼-골드스틱-30포/488/category/1/display/11/",
+    "https://2900.co.kr/product/산양삼데일리/305/category/1/display/11/",
+    "https://2900.co.kr/product/씨뺀-사과즙50포/276/category/1/display/11/",
+    "https://2900.co.kr/product/참당당-비피플러스/462/category/1/display/11/",
+    "https://2900.co.kr/product/부각110g130g김새송이황태껍질고추연근/299/category/1/display/11/",
+    "https://2900.co.kr/product/예약상품무배대극천-복숭아-2kg20과내/358/category/1/display/10/",
+    "https://2900.co.kr/product/강들애-블루베리-1kg중대/528/category/1/display/10/",
+    "https://2900.co.kr/product/예약상품무료배송-함양양파-18kg특대/526/category/1/display/10/",
+    "https://2900.co.kr/product/무배-토마토-5kg상/348/category/1/display/10/",
+    "https://2900.co.kr/product/흑돼지-선물세트iii/263/category/1/display/10/",
+    "https://2900.co.kr/product/예약상품무료배송함양양파-특대-10kg/350/category/1/display/10/",
+    "https://2900.co.kr/product/김영조의-산삼-효소벌꿀-720g-1병/253/category/1/display/10/",
+    "https://2900.co.kr/product/2024년산함양쌀20kg/364/category/1/display/10/",
+    "https://2900.co.kr/product/꿀-12kg-아카시아꿀야생화꿀밤꿀/519/category/1/display/10/",
+    "https://2900.co.kr/product/꿀-스틱형13g30개13g100개/518/category/1/display/10/",
+    "https://2900.co.kr/product/산양산삼-67년근-5뿌리1뿌리/240/category/1/display/12/",
+    "https://2900.co.kr/product/자연숙성꿀아카시아야생화밤꿀-24kg/252/category/1/display/12/",
+    "https://2900.co.kr/product/산양산삼911년근-3뿌리/417/category/1/display/12/",
+    "https://2900.co.kr/product/김영조의-효소벌꿀산약초-720g-1병/208/category/1/display/12/",
+    "https://2900.co.kr/product/김영조의-효소벌꿀오미자720g-1병/215/category/1/display/12/",
+    "https://2900.co.kr/product/석이버섯손질된-제품-50g-100g/487/category/1/display/12/",
+    "https://2900.co.kr/product/김영조의-산삼-효소벌꿀-720g-1병/253/category/1/display/12/",
+    "https://2900.co.kr/product/꿀-500g-튜브형-아카시아꿀야생화꿀/235/category/1/display/12/",
+    "https://2900.co.kr/product/함양감말랭이800g400g/310/category/1/display/12/",
+    "https://2900.co.kr/product/천령상황-선물세트-80g2개5개-이상1/520/category/1/display/12/",
+    "https://2900.co.kr/product/자연숙성꿀아카시아야생화밤꿀-24kg/252/category/1/display/13/",
+    "https://2900.co.kr/product/김영조의-효소벌꿀오미자720g-1병/215/category/1/display/13/",
+    "https://2900.co.kr/product/삼계탕-재료-90g/126/category/1/display/13/",
+    "https://2900.co.kr/product/천령상황버섯-100g5개-이상1/517/category/1/display/13/",
+    "https://2900.co.kr/product/함양산양삼농축액-프리미엄-라이트-60포/489/category/1/display/13/",
+    "https://2900.co.kr/product/참당당-비피플러스/462/category/1/display/13/",
+    "https://2900.co.kr/product/꿀-24kg-아카시아꽃꿀야생화꽃꿀밤꿀/237/category/1/display/13/",
+    "https://2900.co.kr/product/복분자청-700ml/442/category/1/display/13/",
+    "https://2900.co.kr/product/머위즙30포60포/414/category/1/display/13/",
+    "https://2900.co.kr/product/무배함양여주양파즙100ml50포/247/category/1/display/13/",
+    "https://2900.co.kr/product/함양산양삼주수-500ml/522/category/1/display/14/",
+    "https://2900.co.kr/product/함양산양삼농축액-프리미엄-라이트-60포/489/category/1/display/14/",
+    "https://2900.co.kr/product/함양산양삼-골드스틱-30포/488/category/1/display/14/",
+    "https://2900.co.kr/product/산양삼오미자즙30포50포100포/139/category/1/display/14/",
+    "https://2900.co.kr/product/산삼-매실375ml/39/category/1/display/14/",
+    "https://2900.co.kr/product/산양산삼-속으로/41/category/1/display/14/",
+    "https://2900.co.kr/product/산삼죽염-사리장250ml/42/category/1/display/14/",
+    "https://2900.co.kr/product/산양산삼-한뿌리-그대로/44/category/1/display/14/",
+    "https://2900.co.kr/product/연삼정-허니-시나몬/50/category/1/display/14/",
+    "https://2900.co.kr/product/산양산삼머금고/136/category/1/display/14/",
+    "https://2900.co.kr/product/예약상품무배대극천-복숭아-2kg20과내/358/category/1/display/2/",
+    "https://2900.co.kr/product/강들애-블루베리-1kg중대/528/category/1/display/2/",
+    "https://2900.co.kr/product/무배2박스-5-할인-양파-10kg대중/527/category/1/display/2/",
+    "https://2900.co.kr/product/무배-토마토-5kg상/348/category/1/display/2/",
+    "https://2900.co.kr/product/산양산삼-9년근-5뿌리/360/category/1/display/2/",
+    "https://2900.co.kr/product/자색고구마냉면찰보리냉면2kg10인분/68/category/1/display/2/",
+    "https://2900.co.kr/product/흑돼지-삼겹살구이용1kg/256/category/1/display/2/",
+    "https://2900.co.kr/product/발효-구기자-70ml30포/178/category/1/display/2/",
+    "https://2900.co.kr/product/함양산양삼-골드스틱-30포/488/category/1/display/2/",
+    "https://2900.co.kr/product/무배사과즙-120ml10포/516/category/1/display/2/",
+    "https://2900.co.kr/product/무배오미자-액상차250ml500ml700ml/326/category/1/display/2/",
+    "https://2900.co.kr/product/행복한닭알-40개/368/category/1/display/2/",
+    "https://2900.co.kr/product/천령상황-선물세트-80g2개5개-이상1/520/category/1/display/2/",
+    "https://2900.co.kr/product/산양산삼1012년근-3뿌리-1213년-3뿌리/418/category/1/display/2/",
+    "https://2900.co.kr/product/용추골-생청국장200gx5개/95/category/1/display/2/",
+    "https://2900.co.kr/product/함양감말랭이800g400g/310/category/1/display/2/",
+    "https://2900.co.kr/product/산양산삼-67년근-5뿌리1뿌리/240/category/1/display/2/",
+    "https://2900.co.kr/product/천령상황버섯-100g5개-이상1/517/category/1/display/2/",
+    "https://2900.co.kr/product/훈이네-벌꿀-24kg아카시아꿀야생화꿀밤꿀/515/category/1/display/2/",
+    "https://2900.co.kr/product/깻잎된장-장아찌400g/471/category/1/display/2/",
+    "https://2900.co.kr/product/지리산산양삼-5년근8뿌리/444/category/1/display/2/",
+    "https://2900.co.kr/product/무료배송-건가지-100g100g/512/category/1/display/2/",
+    "https://2900.co.kr/product/햇살바른김-전장김30g3봉30g18봉/476/category/1/display/2/",
+    "https://2900.co.kr/product/함양산양삼농축액-프리미엄-라이트-60포/489/category/1/display/2/",
+    "https://2900.co.kr/product/건취나물-100g/505/category/1/display/2/",
+    "https://2900.co.kr/product/죽염-아메리카노-100개입/501/category/1/display/2/",
+    "https://2900.co.kr/product/산마늘명이나물-장아찌-400g5/443/category/1/display/2/",
+    "https://2900.co.kr/product/씨실-밤부솔트-톤업-선크림-50ml/498/category/1/display/2/",
+    "https://2900.co.kr/product/무배-토마토-5kg상/348/category/1/display/3/",
+    "https://2900.co.kr/product/강들애-블루베리-1kg중대/528/category/1/display/3/",
+    "https://2900.co.kr/product/김부각고추부각선물세트40g6개/251/category/1/display/3/",
+    "https://2900.co.kr/product/함양오미자주-375ml/525/category/1/display/3/",
+    "https://2900.co.kr/product/훈이네-허니스틱-3종세트아카시아꿀야생화꿀밤꿀/514/category/1/display/3/",
+    "https://2900.co.kr/product/산양산삼-한뿌리-그대로/44/category/1/display/3/",
+    "https://2900.co.kr/product/특판-며느리-갈비찜-세트-12kg-1호2호3호/485/category/1/display/3/",
+    "https://2900.co.kr/product/산양산삼-67년근-5뿌리1뿌리/240/category/1/display/3/",
+    "https://2900.co.kr/product/함양산양삼주수-500ml/522/category/1/display/3/",
+    "https://2900.co.kr/product/생강원액생강차/426/category/1/display/3/",
+    "https://2900.co.kr/product/2024년산-지리산황토쌀10kg/297/category/1/display/3/",
+    "https://2900.co.kr/product/산양산삼-9년근-3뿌리/359/category/1/display/3/",
+    "https://2900.co.kr/product/석이버섯손질된-제품-50g-100g/487/category/1/display/3/",
+    "https://2900.co.kr/product/건피마자나물-100g/508/category/1/display/3/",
+    "https://2900.co.kr/product/솔잎양파즙빨간양파즙칡액즙100ml50팩/241/category/1/display/3/",
+    "https://2900.co.kr/product/흑돼지-삼겹살구이용1kg/256/category/1/display/3/",
+    "https://2900.co.kr/product/꿀24kg잡화아카시아밤/401/category/1/display/3/",
+    "https://2900.co.kr/product/햇살바른-다시팩18g8개입/478/category/1/display/3/",
+    "https://2900.co.kr/product/건취나물-100g/505/category/1/display/3/",
+    "https://2900.co.kr/product/산마늘명이나물-장아찌-400g5/443/category/1/display/3/",
+    "https://2900.co.kr/product/흑돼지-선물세트ii/262/category/1/display/3/",
+    "https://2900.co.kr/product/꿀-선물세트8종/400/category/1/display/3/",
+    "https://2900.co.kr/product/삶은-무청시래기-400g/504/category/1/display/3/",
+    "https://2900.co.kr/product/산양산삼910년근1뿌리/374/category/1/display/3/",
+    "https://2900.co.kr/product/함양산양삼농축액-프리미엄-라이트-60포/489/category/1/display/3/",
+    "https://2900.co.kr/product/무배abc주스-100mlx30포/434/category/1/display/3/",
+    "https://2900.co.kr/product/청-선물세트/271/category/1/display/3/",
+    "https://2900.co.kr/product/recent_view_product.html"
+  ],
+  "notes": [
+    "Page title: 함양군 쇼핑몰",
+    "Description: No description",
+    "Total links found: 573",
+    "Images found: 1166",
+    "[class*=\"price\"]: 0 elements",
+    "Main content areas: 0",
+    "Item elements: 205",
+    "함양군 특산물 전문몰",
+    "곶감, 양파, 사과 등 특화",
+    "지리산 권역 농산물 판매"
+  ]
+}

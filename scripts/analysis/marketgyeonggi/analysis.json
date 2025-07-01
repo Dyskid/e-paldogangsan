@@ -1,0 +1,25 @@
+{
+  "mallId": "marketgyeonggi",
+  "mallName": "마켓경기",
+  "url": "https://smartstore.naver.com/marketgyeonggi",
+  "region": "경기",
+  "status": "success",
+  "structure": {
+    "hasCategories": true,
+    "categoryStructure": "Naver Smart Store Standard",
+    "urlPatterns": {
+      "homepage": "https://smartstore.naver.com/marketgyeonggi",
+      "categoryPattern": "category/:id",
+      "productPattern": "products/:id"
+    },
+    "pagination": {
+      "type": "infinite-scroll"
+    },
+    "requiresJavaScript": true,
+    "dataLocation": {
+      "productListSelector": "Naver Smart Store Dynamic",
+      "productItemSelector": "[class*=\"product\"]"
+    },
+    "note": "Naver Smart Store requires special handling with their API"
+  }
+}

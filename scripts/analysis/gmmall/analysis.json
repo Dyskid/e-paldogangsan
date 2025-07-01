@@ -1,0 +1,20 @@
+{
+  "mallId": "gmmall",
+  "mallName": "구미팜",
+  "url": "https://gmmall.cyso.co.kr/",
+  "region": "경북",
+  "status": "success",
+  "structure": {
+    "hasCategories": false,
+    "urlPatterns": {
+      "homepage": "https://gmmall.cyso.co.kr/"
+    },
+    "pagination": {
+      "type": "page-numbers"
+    },
+    "requiresJavaScript": false,
+    "dataLocation": {
+      "productListSelector": ".item-list"
+    }
+  }
+}

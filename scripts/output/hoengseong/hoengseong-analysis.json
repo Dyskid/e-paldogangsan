@@ -1,0 +1,28 @@
+{
+  "url": "https://hoengseong-mall.com/",
+  "timestamp": "2025-06-22T06:51:32.175Z",
+  "pageTitle": "횡성몰",
+  "productLinksFound": 55,
+  "sampleProductLinks": [
+    "https://hoengseong-mall.com/goods/brand?code=0007",
+    "https://hoengseong-mall.com/goods/best",
+    "https://hoengseong-mall.com/goods/brand?code=0008",
+    "https://hoengseong-mall.com/goods/catalog?code=00140001",
+    "https://hoengseong-mall.com/goods/search?osearchtext=쌀",
+    "https://hoengseong-mall.com/goods/search?osearchtext=안흥찐빵",
+    "https://hoengseong-mall.com/goods/view?no=106501",
+    "https://hoengseong-mall.com/goods/view?no=106875",
+    "https://hoengseong-mall.com/goods/view?no=105833",
+    "https://hoengseong-mall.com/goods/view?no=43633"
+  ],
+  "navigationLinks": [
+    "aside menu: #category",
+    "최근 검색어: #recent-searched-list",
+    "최근본 상품: #recent-item-list"
+  ],
+  "recommendations": {
+    "primaryStrategy": "direct_product_links",
+    "productLinkPatterns": "Found product links",
+    "nextSteps": "Proceed with scraping individual product pages"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "baseUrl": "https://cdmall.cyso.co.kr",
+  "mallName": "청도몰 (청리브)",
+  "platform": "CYSO (Same as 사이소/상주몰)",
+  "timestamp": "2025-06-24T08:53:46.532Z",
+  "categories": [
+    "쌀/잡곡",
+    "쌀",
+    "기타잡곡",
+    "과일류",
+    "과일",
+    "과채류",
+    "견과류",
+    "기타과일",
+    "채소류",
+    "채소",
+    "버섯",
+    "건나물/건채소",
+    "기타채소",
+    "축산물",
+    "한우",
+    "돈육",
+    "계란",
+    "닭고기",
+    "기타축산물",
+    "수산물",
+    "전복/홍합/골뱅이",
+    "건어물",
+    "액젓/젓갈",
+    "기타수산물",
+    "꿀/홍삼",
+    "꿀",
+    "홍삼/인삼",
+    "분말/환/기타",
+    "가공식품",
+    "과일즙/야채즙",
+    "원액/청/음료",
+    "과일말랭이/칩",
+    "면류",
+    "잼류",
+    "죽류/즉석요리(HMR)",
+    "가루식품류",
+    "발효식초/감식초",
+    "낫또/요구르트",
+    "차류",
+    "기타식품",
+    "김치/장류/참기름",
+    "김치",
+    "장류",
+    "양념류",
+    "한과/떡/빵류",
+    "한과",
+    "떡",
+    "전통과자/엿",
+    "전통주류/와인",
+    "전통주",
+    "특산물",
+    "공예품",
+    "화장품/비누",
+    "의류",
+    "침구류",
+    "기타",
+    "친환경인증",
+    "농촌체험상품",
+    "식용곤충제품",
+    "청도 감말랭이",
+    "청도 반건시"
+  ],
+  "productUrlPattern": "shop/item.php?it_id=",
+  "sampleProductUrls": [
+    "https://cdmall.cyso.co.kr/shop/item.php?it_id=1597310035",
+    "https://cdmall.cyso.co.kr/shop/item.php?it_id=1581056635",
+    "https://cdmall.cyso.co.kr/shop/item.php?it_id=1638422833",
+    "https://cdmall.cyso.co.kr/shop/item.php?it_id=1602735277",
+    "https://cdmall.cyso.co.kr/shop/item.php?it_id=1646021497"
+  ],
+  "totalProductsOnHomepage": 12,
+  "hasSearch": true,
+  "searchUrl": "https://cdmall.cyso.co.kr/shop/search.php",
+  "listPages": [
+    "https://cdmall.cyso.co.kr/bbs/qalist.php",
+    "https://cdmall.cyso.co.kr/shop/itemuselist.php",
+    "https://cdmall.cyso.co.kr/shop/search.php?q=청도",
+    "https://cdmall.cyso.co.kr/shop/search.php?q=감",
+    "https://cdmall.cyso.co.kr/shop/search.php?q=한재미나리"
+  ],
+  "productPageStructure": {
+    "hasTitle": true,
+    "hasPrice": true,
+    "hasImage": true,
+    "titleSelectors": [
+      {
+        "selector": "[class*=\"title\"]",
+        "sample": "내용보기"
+      },
+      {
+        "selector": "title",
+        "sample": "청리브 - 청도군 농특산물 쇼핑몰"
+      }
+    ],
+    "priceSelectors": [
+      {
+        "selector": ".site_grid",
+        "sample": "var labbit_product_id = '1597310035';\n\t\tvar labbit"
+      },
+      {
+        "selector": ".2017_renewal_itemform",
+        "sample": "[생생초] 사과초모식초  생초 사과 대용량 1,000ml(조절마개 푸어러 포함) 요약정보 "
+      },
+      {
+        "selector": ".sit_info",
+        "sample": "제조사\n                농업회사법인 (주)생생초\n            \n   "
+      },
+      {
+        "selector": ".sit_ov_tbl",
+        "sample": "제조사\n                농업회사법인 (주)생생초\n            \n   "
+      },
+      {
+        "selector": ".sit_opt_list",
+        "sample": "[생생초] 사과초모식초  생초 사과 대용량 1,000ml(조절마개 푸어러 포함)\n     "
+      },
+      {
+        "selector": ".opt_count",
+        "sample": "수량\n                       감소\n                     "
+      },
+      {
+        "selector": ".sit_opt_prc",
+        "sample": "+0원"
+      }
+    ],
+    "imageSelectors": []
+  }
+}

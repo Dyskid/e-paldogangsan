@@ -1,0 +1,8 @@
+{
+  "mallId": "haenam",
+  "mallName": "해남미소",
+  "url": "https://www.hnmiso.com/ACC_index.asp",
+  "region": "전남",
+  "status": "error",
+  "error": "Request failed with status code 404"
+}

@@ -1,0 +1,488 @@
+[
+  {
+    "folder": "01000",
+    "targetId": "별빛촌장터_영천",
+    "status": "renamed"
+  },
+  {
+    "folder": "andongjang",
+    "targetId": "안동장터",
+    "status": "renamed"
+  },
+  {
+    "folder": "bmall",
+    "targetId": "봉화장터",
+    "status": "renamed"
+  },
+  {
+    "folder": "boseong",
+    "targetId": "보성몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "buan",
+    "targetId": "부안_텃밭할매",
+    "status": "renamed"
+  },
+  {
+    "folder": "cdmall",
+    "targetId": "청도_청리브",
+    "status": "renamed"
+  },
+  {
+    "folder": "cgmall",
+    "targetId": "칠곡몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "chack3",
+    "targetId": "착착착",
+    "status": "renamed"
+  },
+  {
+    "folder": "chamds",
+    "targetId": "참달성_달성군",
+    "status": "renamed"
+  },
+  {
+    "folder": "cheorwon",
+    "targetId": "철원몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "chuncheon",
+    "targetId": "춘천몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "csmall",
+    "targetId": "청송몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "cyso",
+    "targetId": "사이소_경북몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "damyang",
+    "targetId": "담양장터",
+    "status": "renamed"
+  },
+  {
+    "folder": "dangjinfarm",
+    "targetId": "당진팜",
+    "status": "renamed"
+  },
+  {
+    "folder": "danpoong",
+    "targetId": "단풍미인_정읍",
+    "status": "renamed"
+  },
+  {
+    "folder": "donghae",
+    "targetId": "동해몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "edinomall",
+    "targetId": "공룡나라_고성",
+    "status": "renamed"
+  },
+  {
+    "folder": "egnmall",
+    "targetId": "e경남몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "ehongseong",
+    "targetId": "e홍성장터",
+    "status": "renamed"
+  },
+  {
+    "folder": "ejeju",
+    "targetId": "이제주몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "enamhae",
+    "targetId": "남해몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "esjang",
+    "targetId": "음성장터",
+    "status": "renamed"
+  },
+  {
+    "folder": "esmall",
+    "targetId": "의성장날",
+    "status": "renamed"
+  },
+  {
+    "folder": "freshjb",
+    "targetId": "전북생생장터",
+    "status": "renamed"
+  },
+  {
+    "folder": "gangneung",
+    "targetId": "강릉몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "gcnodaji",
+    "targetId": "김천노다지장터",
+    "status": "renamed"
+  },
+  {
+    "folder": "gimhaemall",
+    "targetId": "김해온몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "gjmall",
+    "targetId": "경주몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "gmmall",
+    "targetId": "구미팜",
+    "status": "renamed"
+  },
+  {
+    "folder": "gmsocial",
+    "targetId": "광명가치몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "gochang",
+    "targetId": "고창마켓",
+    "status": "renamed"
+  },
+  {
+    "folder": "goesan",
+    "targetId": "괴산장터",
+    "status": "renamed"
+  },
+  {
+    "folder": "gokseongmall",
+    "targetId": "곡성몰_곡성군농특산물중개몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "goseong",
+    "targetId": "고성몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "greengj",
+    "targetId": "초록믿음_강진",
+    "status": "renamed"
+  },
+  {
+    "folder": "grmall",
+    "targetId": "고령몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "gsmall",
+    "targetId": "경산몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "gwdmall",
+    "targetId": "강원더몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "gwpc",
+    "targetId": "평창몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "haegaram",
+    "targetId": "해가람",
+    "status": "renamed"
+  },
+  {
+    "folder": "haenam",
+    "targetId": "해남미소",
+    "status": "renamed"
+  },
+  {
+    "folder": "hamanmall",
+    "targetId": "함안몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "hampyeong",
+    "targetId": "함평천지몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "hamyang",
+    "targetId": "함양몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "hgoodfarm",
+    "targetId": "해피굿팜",
+    "status": "renamed"
+  },
+  {
+    "folder": "hnmiso",
+    "targetId": "해남미소",
+    "status": "already_exists",
+    "message": "Target folder already exists"
+  },
+  {
+    "folder": "hoengseong",
+    "targetId": "횡성몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "hongcheon",
+    "targetId": "홍천몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "hwasunfarm",
+    "targetId": "화순팜",
+    "status": "renamed"
+  },
+  {
+    "folder": "iksan",
+    "targetId": "익산몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "imsil",
+    "targetId": "임실몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "inje",
+    "targetId": "인제몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "jangsu",
+    "targetId": "장수몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "jcmall",
+    "targetId": "진천몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "jeongseon",
+    "targetId": "정선몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "jinan",
+    "targetId": "진안고원몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "jindoarirang",
+    "targetId": "진도아리랑몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "jinjudream",
+    "targetId": "진주드림",
+    "status": "renamed"
+  },
+  {
+    "folder": "jnmall",
+    "targetId": "남도장터",
+    "status": "renamed"
+  },
+  {
+    "folder": "jps",
+    "targetId": "지평선몰_김제",
+    "status": "renamed"
+  },
+  {
+    "folder": "kkimchi",
+    "targetId": "광주김치몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "marketgyeonggi",
+    "targetId": "마켓경기",
+    "status": "renamed"
+  },
+  {
+    "folder": "mgmall",
+    "targetId": "문경_새제의아침",
+    "status": "renamed"
+  },
+  {
+    "folder": "najumall",
+    "targetId": "나주몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "nongsarang",
+    "targetId": "농사랑",
+    "status": "renamed"
+  },
+  {
+    "folder": "okjmall",
+    "targetId": "장흥몰_산들해랑장흥몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "onsim",
+    "targetId": "영양온심마켓",
+    "status": "renamed"
+  },
+  {
+    "folder": "ontongdaejeon",
+    "targetId": "대전사랑몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "osansemall",
+    "targetId": "오산함께장터",
+    "status": "renamed"
+  },
+  {
+    "folder": "pohangmarket",
+    "targetId": "포항마켓",
+    "status": "renamed"
+  },
+  {
+    "folder": "samcheok",
+    "targetId": "삼척몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "sanencheong",
+    "targetId": "산엔청_산청",
+    "status": "renamed"
+  },
+  {
+    "folder": "sclocal",
+    "targetId": "순천로컬푸드함께가게",
+    "status": "renamed"
+  },
+  {
+    "folder": "seosanttre",
+    "targetId": "서산뜨레",
+    "status": "renamed"
+  },
+  {
+    "folder": "shinan1004",
+    "targetId": "신안1004몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "sjmall",
+    "targetId": "상주_명실상주몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "sunchang",
+    "targetId": "순창로컬푸드쇼핑몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "taebaek",
+    "targetId": "태백몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "toyoae",
+    "targetId": "토요애_의령",
+    "status": "renamed"
+  },
+  {
+    "folder": "ujmall",
+    "targetId": "울진몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "ulmall",
+    "targetId": "울릉도",
+    "status": "renamed"
+  },
+  {
+    "folder": "wandofood",
+    "targetId": "완도군이숍",
+    "status": "renamed"
+  },
+  {
+    "folder": "wemall",
+    "targetId": "우리몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "wonju",
+    "targetId": "원주몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "yanggu",
+    "targetId": "양구몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "yangju",
+    "targetId": "양주농부마켓",
+    "status": "renamed"
+  },
+  {
+    "folder": "yangyang",
+    "targetId": "양양몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "ycjang",
+    "targetId": "예천장터",
+    "status": "renamed"
+  },
+  {
+    "folder": "ydmall",
+    "targetId": "영덕장터",
+    "status": "renamed"
+  },
+  {
+    "folder": "yeongam",
+    "status": "not_found"
+  },
+  {
+    "folder": "yeongwol",
+    "targetId": "영월몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "yeosumall",
+    "targetId": "여수몰",
+    "status": "renamed"
+  },
+  {
+    "folder": "yjmarket",
+    "targetId": "영주장날",
+    "status": "renamed"
+  },
+  {
+    "folder": "세종로컬푸드",
+    "status": "not_found"
+  },
+  {
+    "folder": "울산몰",
+    "status": "not_found"
+  },
+  {
+    "folder": "인천e몰",
+    "status": "not_found"
+  },
+  {
+    "folder": "제천로컬푸드",
+    "status": "not_found"
+  }
+]

@@ -1,0 +1,93 @@
+우리몰|https://wemall.kr|대구
+참달성 (달성군)|https://chamds.com|대구
+광주김치몰|https://www.k-kimchi.kr/index.php|광주
+대전사랑몰|https://ontongdaejeon.ezwel.com/onnuri/main|대전
+착착착|https://www.chack3.com/|경기
+오산함께장터|http://www.osansemall.com/|경기
+광명가치몰|http://gmsocial.mangotree.co.kr/mall/|경기
+양주농부마켓|https://market.yangju.go.kr/|경기
+마켓경기|https://smartstore.naver.com/marketgyeonggi|경기
+강원더몰|https://gwdmall.kr/|강원
+원주몰|https://wonju-mall.co.kr/|강원
+강릉몰|https://gangneung-mall.com/|강원
+고성몰|https://gwgoseong-mall.com/|강원
+동해몰|https://donghae-mall.com/|강원
+삼척몰|https://samcheok-mall.com/|강원
+양구몰|https://yanggu-mall.com/|강원
+양양몰|https://yangyang-mall.com/|강원
+영월몰|https://yeongwol-mall.com/|강원
+인제몰|https://inje-mall.com/|강원
+철원몰|https://cheorwon-mall.com/|강원
+정선몰|https://jeongseon-mall.com/|강원
+태백몰|https://taebaek-mall.com/|강원
+횡성몰|https://hoengseong-mall.com/|강원
+춘천몰|https://gwch-mall.com/|강원
+홍천몰|https://hongcheon-mall.com/|강원
+평창몰|https://gwpc-mall.com/|강원
+음성장터|https://www.esjang.go.kr/|충북
+진천몰|https://jcmall.net/|충북
+괴산장터|https://www.gsjangter.go.kr/|충북
+농사랑|https://nongsarang.co.kr/|충남
+당진팜|https://dangjinfarm.com/|충남
+e홍성장터|https://ehongseong.com/|충남
+서산뜨레|https://seosanttre.com/index.html|충남
+부안 텃밭할매|https://www.xn--9z2bv5bx25anyd.kr/|전북
+단풍미인 (정읍)|https://www.danpoongmall.kr/|전북
+지평선몰(김제)|https://jpsmall.com/|전북
+전북생생장터|https://freshjb.com/|전북
+익산몰|https://iksanmall.com/|전북
+진안고원몰|https://xn--299az5xoii3qb66f.com/|전북
+장수몰|https://www.xn--352bl9k1ze.com/|전북
+고창마켓|https://noblegochang.com/|전북
+임실몰|https://www.imsilin.kr/home|전북
+순창로컬푸드쇼핑몰|https://smartstore.naver.com/schfarm|전북
+해가람|https://haegaram.com|전북
+남도장터|https://www.jnmall.kr/|전남
+여수몰|http://www.yeosumall.co.kr/|전남
+해피굿팜|https://smartstore.naver.com/hgoodfarm|전남
+보성몰|https://boseongmall.co.kr/|전남
+나주몰|https://najumall.kr/|전남
+순천로컬푸드함께가게|https://sclocal.kr/|전남
+신안1004몰|https://shinan1004mall.kr/|전남
+장흥몰 (산들해랑장흥몰)|https://okjmall.com/|전남
+기찬들영암몰|https://yeongammall.co.kr/|전남
+진도아리랑몰|https://jindoarirangmall.com/|전남
+완도군이숍|https://wandofood.go.kr/|전남
+함평천지몰|https://xn--352bl9yz7b63kj6b.kr/|전남
+해남미소|https://www.hnmiso.com/kwa-home|전남
+담양장터|https://damyangmk.kr/|전남
+초록믿음(강진)|https://greengj.com/|전남
+화순팜|https://www.hwasunfarm.com/|전남
+곡성몰 (곡성군농특산물중개몰)|https://gokseongmall.com/|전남
+사이소(경북몰)|https://www.cyso.co.kr/|경북
+상주 명실상주몰|https://sjmall.cyso.co.kr/|경북
+청도 청리브|https://cdmall.cyso.co.kr|경북
+영주장날|https://yjmarket.cyso.co.kr/|경북
+안동장터|https://andongjang.andong.go.kr/|경북
+청송몰|https://csmall.cyso.co.kr/|경북
+영양온심마켓|https://onsim.cyso.co.kr/|경북
+울릉도|https://ulmall.cyso.co.kr|경북
+봉화장터|https://bmall.cyso.co.kr/|경북
+고령몰|https://grmall.cyso.co.kr/|경북
+김천노다지장터|http://gcnodaji.com/|경북
+예천장터|https://ycjang.cyso.co.kr/|경북
+문경 새제의아침|https://mgmall.cyso.co.kr/|경북
+칠곡몰|https://cgmall.cyso.co.kr/|경북
+의성장날|https://esmall.cyso.co.kr/|경북
+울진몰|https://ujmall.cyso.co.kr/|경북
+영덕장터|https://ydmall.cyso.co.kr/|경북
+경산몰|https://gsmall.cyso.co.kr/|경북
+경주몰|https://gjmall.cyso.co.kr/|경북
+구미팜|https://gmmall.cyso.co.kr/|경북
+별빛촌장터(영천)|https://01000.cyso.co.kr/|경북
+포항마켓|https://pohangmarket.cyso.co.kr/|경북
+e경남몰|https://egnmall.kr|경남
+토요애 (의령)|https://toyoae.com/|경남
+남해몰|https://enamhae.co.kr/|경남
+산엔청 (산청)|https://sanencheong.com/|경남
+공룡나라 (고성)|https://www.edinomall.com/shop/smain/index.php|경남
+함양몰|https://2900.co.kr/|경남
+진주드림|https://jinjudream.com/|경남
+함안몰|https://hamanmall.com|경남
+김해온몰|https://gimhaemall.kr|경남
+이제주몰|https://mall.ejeju.net/main/index.do|제주

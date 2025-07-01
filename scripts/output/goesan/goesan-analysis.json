@@ -1,0 +1,770 @@
+{
+  "baseUrl": "https://www.gsjangter.go.kr",
+  "timestamp": "2025-06-22T11:26:42.549Z",
+  "pages": {
+    "homepage": {
+      "title": "괴산군청공식몰 괴산장터",
+      "description": "괴산장터에 오신것을 환영합니다. 괴산의 다양한 농산물과 가공품 등을 구매해보세요.",
+      "status": "success"
+    }
+  },
+  "productUrls": [
+    "https://www.gsjangter.go.kr/products/view/G2000484012",
+    "https://www.gsjangter.go.kr/products/view/G2000483563",
+    "https://www.gsjangter.go.kr/products/view/G2000483530",
+    "https://www.gsjangter.go.kr/products/view/G2000483309",
+    "https://www.gsjangter.go.kr/products/view/G2000483308",
+    "https://www.gsjangter.go.kr/products/view/G2000483307",
+    "https://www.gsjangter.go.kr/products/view/G2000483249",
+    "https://www.gsjangter.go.kr/products/view/G2000483206",
+    "https://www.gsjangter.go.kr/products/view/G2000483051",
+    "https://www.gsjangter.go.kr/products/view/G2000482849",
+    "https://www.gsjangter.go.kr/products/view/G2000482225",
+    "https://www.gsjangter.go.kr/javascript:itemSort('RAND', '')",
+    "https://www.gsjangter.go.kr/javascript:itemSort('ORDER_COUNT', 'ASC')",
+    "https://www.gsjangter.go.kr/javascript:itemSort('NEW', 'ASC')",
+    "https://www.gsjangter.go.kr/javascript:itemSort('HITS', 'DESC')",
+    "https://www.gsjangter.go.kr/javascript:itemSort('SALE_PRICE', 'DESC')",
+    "https://www.gsjangter.go.kr/javascript:itemSort('SALE_PRICE', 'ASC')",
+    "https://www.gsjangter.go.kr/products/view/G2000484060",
+    "https://www.gsjangter.go.kr/products/view/G2000484128",
+    "https://www.gsjangter.go.kr/products/view/G2000484007",
+    "https://www.gsjangter.go.kr/products/view/G2000483886",
+    "https://www.gsjangter.go.kr/products/view/G2000484003",
+    "https://www.gsjangter.go.kr/products/view/G2000484009",
+    "https://www.gsjangter.go.kr/products/view/G2000483873",
+    "https://www.gsjangter.go.kr/products/view/G2000483878",
+    "https://www.gsjangter.go.kr/products/view/G2000482059",
+    "https://www.gsjangter.go.kr/products/view/G2000483168",
+    "https://www.gsjangter.go.kr/products/view/G2000483448",
+    "https://www.gsjangter.go.kr/products/view/G2000482229",
+    "https://www.gsjangter.go.kr/products/view/G2000482162",
+    "https://www.gsjangter.go.kr/products/view/G2000483375",
+    "https://www.gsjangter.go.kr/products/view/G2000483861",
+    "https://www.gsjangter.go.kr/products/view/G2000482164",
+    "https://www.gsjangter.go.kr/products/view/G2000482060",
+    "https://www.gsjangter.go.kr/products/view/G2000484131",
+    "https://www.gsjangter.go.kr/products/view/G2000482544",
+    "https://www.gsjangter.go.kr/products/view/G2000484129",
+    "https://www.gsjangter.go.kr/products/view/G2000482389",
+    "https://www.gsjangter.go.kr/products/view/G2000483621",
+    "https://www.gsjangter.go.kr/products/view/G2000484120",
+    "https://www.gsjangter.go.kr/products/view/G2000483659",
+    "https://www.gsjangter.go.kr/products/view/G2000483702",
+    "https://www.gsjangter.go.kr/products/view/G2000483603",
+    "https://www.gsjangter.go.kr/products/view/G2000483692",
+    "https://www.gsjangter.go.kr/products/view/G2000483569",
+    "https://www.gsjangter.go.kr/products/view/G2000483927",
+    "https://www.gsjangter.go.kr/products/view/G2000483484",
+    "https://www.gsjangter.go.kr/products/view/G2000483667",
+    "https://www.gsjangter.go.kr/products/view/G2000483924",
+    "https://www.gsjangter.go.kr/products/view/G2000483450",
+    "https://www.gsjangter.go.kr/products/view/G2000483487",
+    "https://www.gsjangter.go.kr/products/view/G2000484013",
+    "https://www.gsjangter.go.kr/products/view/G2000482961",
+    "https://www.gsjangter.go.kr/products/view/G2000483940",
+    "https://www.gsjangter.go.kr/products/view/G2000484127",
+    "https://www.gsjangter.go.kr/products/view/G2000484126",
+    "https://www.gsjangter.go.kr/products/view/G2000484123",
+    "https://www.gsjangter.go.kr/products/view/G2000484125",
+    "https://www.gsjangter.go.kr/products/view/G2000484122",
+    "https://www.gsjangter.go.kr/products/view/G2000484118",
+    "https://www.gsjangter.go.kr/products/view/G2000484119",
+    "https://www.gsjangter.go.kr/products/view/G2000484092",
+    "https://www.gsjangter.go.kr/products/view/G2000484095",
+    "https://www.gsjangter.go.kr/products/view/G2000484133",
+    "https://www.gsjangter.go.kr/products/view/G2000483231",
+    "https://www.gsjangter.go.kr/products/view/G2000482395",
+    "https://www.gsjangter.go.kr/products/view/G2000483435",
+    "https://www.gsjangter.go.kr/products/view/G2000483197",
+    "https://www.gsjangter.go.kr/products/view/G2000483359",
+    "https://www.gsjangter.go.kr/products/view/G2000482829",
+    "https://www.gsjangter.go.kr/products/view/G2000482069",
+    "https://www.gsjangter.go.kr/products/view/G2000482963",
+    "https://www.gsjangter.go.kr/products/view/G2000482054",
+    "https://www.gsjangter.go.kr/products/view/G2000483046",
+    "https://www.gsjangter.go.kr/products/view/G2000482447",
+    "https://www.gsjangter.go.kr/products/view/G2000482195",
+    "https://www.gsjangter.go.kr/products/view/G2000482925",
+    "https://www.gsjangter.go.kr/products/view/G2000483628",
+    "https://www.gsjangter.go.kr/products/view/G2000483287",
+    "https://www.gsjangter.go.kr/products/view/G2000482752",
+    "https://www.gsjangter.go.kr/products/view/G2000483288",
+    "https://www.gsjangter.go.kr/products/view/G2000483624",
+    "https://www.gsjangter.go.kr/products/view/G2000482385",
+    "https://www.gsjangter.go.kr/products/view/G2000482755",
+    "https://www.gsjangter.go.kr/products/view/G2000483811",
+    "https://www.gsjangter.go.kr/products/view/G2000483399",
+    "https://www.gsjangter.go.kr/products/view/G2000484008",
+    "https://www.gsjangter.go.kr/products/view/G2000484132",
+    "https://www.gsjangter.go.kr/products/view/G2000483891",
+    "https://www.gsjangter.go.kr/products/view/G2000482236"
+  ],
+  "categories": [
+    {
+      "name": "시즌상품",
+      "url": "https://www.gsjangter.go.kr/categories/index/season"
+    },
+    {
+      "name": "[여름]대학찰옥수수",
+      "url": "https://www.gsjangter.go.kr/categories/index/season-02"
+    },
+    {
+      "name": "[삶은]대학찰옥수수",
+      "url": "https://www.gsjangter.go.kr/categories/index/ice"
+    },
+    {
+      "name": "[생물]대학찰옥수수",
+      "url": "https://www.gsjangter.go.kr/categories/index/corn-1"
+    },
+    {
+      "name": "[여름]괴산 감자",
+      "url": "https://www.gsjangter.go.kr/categories/index/season-potato"
+    },
+    {
+      "name": "[가을]청결건고추",
+      "url": "https://www.gsjangter.go.kr/categories/index/pepper2023"
+    },
+    {
+      "name": "꼭지제거건고추",
+      "url": "https://www.gsjangter.go.kr/categories/index/pepper_2020_1"
+    },
+    {
+      "name": "꼭지그대로건고추",
+      "url": "https://www.gsjangter.go.kr/categories/index/pepper_2020_2"
+    },
+    {
+      "name": "[겨울]절임배추",
+      "url": "https://www.gsjangter.go.kr/categories/index/season-01"
+    },
+    {
+      "name": "절임배추예약",
+      "url": "https://www.gsjangter.go.kr/categories/index/season-01-01"
+    },
+    {
+      "name": "김장부재료",
+      "url": "https://www.gsjangter.go.kr/categories/index/season-01-03"
+    },
+    {
+      "name": "기타시즌상품",
+      "url": "https://www.gsjangter.go.kr/categories/index/season-04"
+    },
+    {
+      "name": "25년 햇감자",
+      "url": "https://www.gsjangter.go.kr/categories/index/potato-01"
+    },
+    {
+      "name": "전통장 | 메주",
+      "url": "https://www.gsjangter.go.kr/categories/index/sauce"
+    },
+    {
+      "name": "메주",
+      "url": "https://www.gsjangter.go.kr/categories/index/sauce-03"
+    },
+    {
+      "name": "된장",
+      "url": "https://www.gsjangter.go.kr/categories/index/sauce-01"
+    },
+    {
+      "name": "고추장",
+      "url": "https://www.gsjangter.go.kr/categories/index/sauce-04"
+    },
+    {
+      "name": "청국장",
+      "url": "https://www.gsjangter.go.kr/categories/index/sauce-02"
+    },
+    {
+      "name": "간장",
+      "url": "https://www.gsjangter.go.kr/categories/index/sauce-05"
+    },
+    {
+      "name": "세트",
+      "url": "https://www.gsjangter.go.kr/categories/index/sauce-06"
+    },
+    {
+      "name": "친환경식품",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic"
+    },
+    {
+      "name": "채소",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-01"
+    },
+    {
+      "name": "버섯",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-01001"
+    },
+    {
+      "name": "옥수수",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-01002"
+    },
+    {
+      "name": "건고추",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-01003"
+    },
+    {
+      "name": "절임배추",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-01004"
+    },
+    {
+      "name": "기타",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-01005"
+    },
+    {
+      "name": "과일",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-02"
+    },
+    {
+      "name": "곡물",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-03"
+    },
+    {
+      "name": "쌀|잡곡",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-03001"
+    },
+    {
+      "name": "곡물가루",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-03002"
+    },
+    {
+      "name": "기타",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-03003"
+    },
+    {
+      "name": "전통장",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-04"
+    },
+    {
+      "name": "가공",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-05"
+    },
+    {
+      "name": "고춧가루",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-05001"
+    },
+    {
+      "name": "냉동옥수수",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-05002"
+    },
+    {
+      "name": "간식",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-05003"
+    },
+    {
+      "name": "건조&가루",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-05004"
+    },
+    {
+      "name": "건강",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-06"
+    },
+    {
+      "name": "기타",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-07"
+    },
+    {
+      "name": "과일 | 채소",
+      "url": "https://www.gsjangter.go.kr/categories/index/vegetable"
+    },
+    {
+      "name": "감자",
+      "url": "https://www.gsjangter.go.kr/categories/index/vegetable-01"
+    },
+    {
+      "name": "엽경채류",
+      "url": "https://www.gsjangter.go.kr/categories/index/vegetable-08"
+    },
+    {
+      "name": "버섯",
+      "url": "https://www.gsjangter.go.kr/categories/index/vegetable-04"
+    },
+    {
+      "name": "복숭아",
+      "url": "https://www.gsjangter.go.kr/categories/index/vegetable-05"
+    },
+    {
+      "name": "사과",
+      "url": "https://www.gsjangter.go.kr/categories/index/fruit-01"
+    },
+    {
+      "name": "배",
+      "url": "https://www.gsjangter.go.kr/categories/index/fruit-04"
+    },
+    {
+      "name": "곶감",
+      "url": "https://www.gsjangter.go.kr/categories/index/fruit-03"
+    },
+    {
+      "name": "고구마",
+      "url": "https://www.gsjangter.go.kr/categories/index/vegetable-00"
+    },
+    {
+      "name": "블루베리 | 꾸지뽕 | 오디",
+      "url": "https://www.gsjangter.go.kr/categories/index/fruit-02"
+    },
+    {
+      "name": "고추 | 열매채소",
+      "url": "https://www.gsjangter.go.kr/categories/index/vegetable-02"
+    },
+    {
+      "name": "호두 | 밤 | 대추",
+      "url": "https://www.gsjangter.go.kr/categories/index/vegetable-07"
+    },
+    {
+      "name": "나물 | 건나물",
+      "url": "https://www.gsjangter.go.kr/categories/index/vegetable-03"
+    },
+    {
+      "name": "초당 | 흑찰옥수수",
+      "url": "https://www.gsjangter.go.kr/categories/index/sweet_corn"
+    },
+    {
+      "name": "기타",
+      "url": "https://www.gsjangter.go.kr/categories/index/vegetable-06"
+    },
+    {
+      "name": "곡물",
+      "url": "https://www.gsjangter.go.kr/categories/index/grains"
+    },
+    {
+      "name": "백미 | 현미",
+      "url": "https://www.gsjangter.go.kr/categories/index/grains-01"
+    },
+    {
+      "name": "흑미 | 찹쌀 | 귀리",
+      "url": "https://www.gsjangter.go.kr/categories/index/grains-06"
+    },
+    {
+      "name": "콩류",
+      "url": "https://www.gsjangter.go.kr/categories/index/grains-02"
+    },
+    {
+      "name": "보리 | 기장 | 기타",
+      "url": "https://www.gsjangter.go.kr/categories/index/grains-07"
+    },
+    {
+      "name": "참깨/들깨",
+      "url": "https://www.gsjangter.go.kr/categories/index/grains-03"
+    },
+    {
+      "name": "가루 | 선식",
+      "url": "https://www.gsjangter.go.kr/categories/index/grains-04"
+    },
+    {
+      "name": "세트 | 기타",
+      "url": "https://www.gsjangter.go.kr/categories/index/grains-05"
+    },
+    {
+      "name": "축수산 | 밀키트",
+      "url": "https://www.gsjangter.go.kr/categories/index/meat"
+    },
+    {
+      "name": "다슬기(올갱이)",
+      "url": "https://www.gsjangter.go.kr/categories/index/meat-02"
+    },
+    {
+      "name": "맛집 | 밀키트",
+      "url": "https://www.gsjangter.go.kr/categories/index/meat-06"
+    },
+    {
+      "name": "소 | 돼지 | 닭고기",
+      "url": "https://www.gsjangter.go.kr/categories/index/meat-01"
+    },
+    {
+      "name": "가공-닭가슴살",
+      "url": "https://www.gsjangter.go.kr/categories/index/meat-04"
+    },
+    {
+      "name": "가공-육포",
+      "url": "https://www.gsjangter.go.kr/categories/index/meat-05"
+    },
+    {
+      "name": "세트 | 기타",
+      "url": "https://www.gsjangter.go.kr/categories/index/meat-03"
+    },
+    {
+      "name": "가공식품",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed"
+    },
+    {
+      "name": "삶은옥수수",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-10"
+    },
+    {
+      "name": "고춧가루",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-02"
+    },
+    {
+      "name": "김치",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-09"
+    },
+    {
+      "name": "기름",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-01"
+    },
+    {
+      "name": "김 | 자반",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-07"
+    },
+    {
+      "name": "쥬스 | 청 | 잼",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-03"
+    },
+    {
+      "name": "쥬스(과일즙 | 기타음료)",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-03001"
+    },
+    {
+      "name": "청",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-03002"
+    },
+    {
+      "name": "잼",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-03003"
+    },
+    {
+      "name": "간식 | 과자",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-06"
+    },
+    {
+      "name": "전통주",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-05"
+    },
+    {
+      "name": "세트 | 기타",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-08"
+    },
+    {
+      "name": "건강식품",
+      "url": "https://www.gsjangter.go.kr/categories/index/healthy"
+    },
+    {
+      "name": "꿀 | 청",
+      "url": "https://www.gsjangter.go.kr/categories/index/healthy-01"
+    },
+    {
+      "name": "건강즙 | 발효초",
+      "url": "https://www.gsjangter.go.kr/categories/index/healthy-02"
+    },
+    {
+      "name": "건강즙",
+      "url": "https://www.gsjangter.go.kr/categories/index/healthy-02001"
+    },
+    {
+      "name": "발효초",
+      "url": "https://www.gsjangter.go.kr/categories/index/healthy-02002"
+    },
+    {
+      "name": "건조 | 분말 | 차",
+      "url": "https://www.gsjangter.go.kr/categories/index/healthy-05"
+    },
+    {
+      "name": "인삼 | 홍삼 | 도라지",
+      "url": "https://www.gsjangter.go.kr/categories/index/healthy-03"
+    },
+    {
+      "name": "녹용",
+      "url": "https://www.gsjangter.go.kr/categories/index/healthy-06"
+    },
+    {
+      "name": "기타",
+      "url": "https://www.gsjangter.go.kr/categories/index/healthy-04"
+    },
+    {
+      "name": "냉동대학찰옥수수",
+      "url": "https://www.gsjangter.go.kr/categories/index/fruit-ice"
+    },
+    {
+      "name": "시즌상품",
+      "url": "https://www.gsjangter.go.kr/categories/index/season"
+    },
+    {
+      "name": "[여름]대학찰옥수수",
+      "url": "https://www.gsjangter.go.kr/categories/index/season-02"
+    },
+    {
+      "name": "[여름]괴산 감자",
+      "url": "https://www.gsjangter.go.kr/categories/index/season-potato"
+    },
+    {
+      "name": "[가을]청결건고추",
+      "url": "https://www.gsjangter.go.kr/categories/index/pepper2023"
+    },
+    {
+      "name": "[겨울]절임배추",
+      "url": "https://www.gsjangter.go.kr/categories/index/season-01"
+    },
+    {
+      "name": "기타시즌상품",
+      "url": "https://www.gsjangter.go.kr/categories/index/season-04"
+    },
+    {
+      "name": "25년 햇감자",
+      "url": "https://www.gsjangter.go.kr/categories/index/potato-01"
+    },
+    {
+      "name": "전통장 | 메주",
+      "url": "https://www.gsjangter.go.kr/categories/index/sauce"
+    },
+    {
+      "name": "메주",
+      "url": "https://www.gsjangter.go.kr/categories/index/sauce-03"
+    },
+    {
+      "name": "된장",
+      "url": "https://www.gsjangter.go.kr/categories/index/sauce-01"
+    },
+    {
+      "name": "고추장",
+      "url": "https://www.gsjangter.go.kr/categories/index/sauce-04"
+    },
+    {
+      "name": "청국장",
+      "url": "https://www.gsjangter.go.kr/categories/index/sauce-02"
+    },
+    {
+      "name": "간장",
+      "url": "https://www.gsjangter.go.kr/categories/index/sauce-05"
+    },
+    {
+      "name": "세트",
+      "url": "https://www.gsjangter.go.kr/categories/index/sauce-06"
+    },
+    {
+      "name": "친환경식품",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic"
+    },
+    {
+      "name": "채소",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-01"
+    },
+    {
+      "name": "과일",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-02"
+    },
+    {
+      "name": "곡물",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-03"
+    },
+    {
+      "name": "전통장",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-04"
+    },
+    {
+      "name": "가공",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-05"
+    },
+    {
+      "name": "건강",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-06"
+    },
+    {
+      "name": "기타",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic-07"
+    },
+    {
+      "name": "과일 | 채소",
+      "url": "https://www.gsjangter.go.kr/categories/index/vegetable"
+    },
+    {
+      "name": "감자",
+      "url": "https://www.gsjangter.go.kr/categories/index/vegetable-01"
+    },
+    {
+      "name": "엽경채류",
+      "url": "https://www.gsjangter.go.kr/categories/index/vegetable-08"
+    },
+    {
+      "name": "버섯",
+      "url": "https://www.gsjangter.go.kr/categories/index/vegetable-04"
+    },
+    {
+      "name": "복숭아",
+      "url": "https://www.gsjangter.go.kr/categories/index/vegetable-05"
+    },
+    {
+      "name": "사과",
+      "url": "https://www.gsjangter.go.kr/categories/index/fruit-01"
+    },
+    {
+      "name": "배",
+      "url": "https://www.gsjangter.go.kr/categories/index/fruit-04"
+    },
+    {
+      "name": "곶감",
+      "url": "https://www.gsjangter.go.kr/categories/index/fruit-03"
+    },
+    {
+      "name": "고구마",
+      "url": "https://www.gsjangter.go.kr/categories/index/vegetable-00"
+    },
+    {
+      "name": "블루베리 | 꾸지뽕 | 오디",
+      "url": "https://www.gsjangter.go.kr/categories/index/fruit-02"
+    },
+    {
+      "name": "고추 | 열매채소",
+      "url": "https://www.gsjangter.go.kr/categories/index/vegetable-02"
+    },
+    {
+      "name": "호두 | 밤 | 대추",
+      "url": "https://www.gsjangter.go.kr/categories/index/vegetable-07"
+    },
+    {
+      "name": "나물 | 건나물",
+      "url": "https://www.gsjangter.go.kr/categories/index/vegetable-03"
+    },
+    {
+      "name": "초당 | 흑찰옥수수",
+      "url": "https://www.gsjangter.go.kr/categories/index/sweet_corn"
+    },
+    {
+      "name": "기타",
+      "url": "https://www.gsjangter.go.kr/categories/index/vegetable-06"
+    },
+    {
+      "name": "곡물",
+      "url": "https://www.gsjangter.go.kr/categories/index/grains"
+    },
+    {
+      "name": "백미 | 현미",
+      "url": "https://www.gsjangter.go.kr/categories/index/grains-01"
+    },
+    {
+      "name": "흑미 | 찹쌀 | 귀리",
+      "url": "https://www.gsjangter.go.kr/categories/index/grains-06"
+    },
+    {
+      "name": "콩류",
+      "url": "https://www.gsjangter.go.kr/categories/index/grains-02"
+    },
+    {
+      "name": "보리 | 기장 | 기타",
+      "url": "https://www.gsjangter.go.kr/categories/index/grains-07"
+    },
+    {
+      "name": "참깨/들깨",
+      "url": "https://www.gsjangter.go.kr/categories/index/grains-03"
+    },
+    {
+      "name": "가루 | 선식",
+      "url": "https://www.gsjangter.go.kr/categories/index/grains-04"
+    },
+    {
+      "name": "세트 | 기타",
+      "url": "https://www.gsjangter.go.kr/categories/index/grains-05"
+    },
+    {
+      "name": "축수산 | 밀키트",
+      "url": "https://www.gsjangter.go.kr/categories/index/meat"
+    },
+    {
+      "name": "다슬기(올갱이)",
+      "url": "https://www.gsjangter.go.kr/categories/index/meat-02"
+    },
+    {
+      "name": "맛집 | 밀키트",
+      "url": "https://www.gsjangter.go.kr/categories/index/meat-06"
+    },
+    {
+      "name": "소 | 돼지 | 닭고기",
+      "url": "https://www.gsjangter.go.kr/categories/index/meat-01"
+    },
+    {
+      "name": "가공-닭가슴살",
+      "url": "https://www.gsjangter.go.kr/categories/index/meat-04"
+    },
+    {
+      "name": "가공-육포",
+      "url": "https://www.gsjangter.go.kr/categories/index/meat-05"
+    },
+    {
+      "name": "세트 | 기타",
+      "url": "https://www.gsjangter.go.kr/categories/index/meat-03"
+    },
+    {
+      "name": "가공식품",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed"
+    },
+    {
+      "name": "삶은옥수수",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-10"
+    },
+    {
+      "name": "고춧가루",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-02"
+    },
+    {
+      "name": "김치",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-09"
+    },
+    {
+      "name": "기름",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-01"
+    },
+    {
+      "name": "김 | 자반",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-07"
+    },
+    {
+      "name": "쥬스 | 청 | 잼",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-03"
+    },
+    {
+      "name": "간식 | 과자",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-06"
+    },
+    {
+      "name": "전통주",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-05"
+    },
+    {
+      "name": "세트 | 기타",
+      "url": "https://www.gsjangter.go.kr/categories/index/processed-08"
+    },
+    {
+      "name": "건강식품",
+      "url": "https://www.gsjangter.go.kr/categories/index/healthy"
+    },
+    {
+      "name": "꿀 | 청",
+      "url": "https://www.gsjangter.go.kr/categories/index/healthy-01"
+    },
+    {
+      "name": "건강즙 | 발효초",
+      "url": "https://www.gsjangter.go.kr/categories/index/healthy-02"
+    },
+    {
+      "name": "건조 | 분말 | 차",
+      "url": "https://www.gsjangter.go.kr/categories/index/healthy-05"
+    },
+    {
+      "name": "인삼 | 홍삼 | 도라지",
+      "url": "https://www.gsjangter.go.kr/categories/index/healthy-03"
+    },
+    {
+      "name": "녹용",
+      "url": "https://www.gsjangter.go.kr/categories/index/healthy-06"
+    },
+    {
+      "name": "기타",
+      "url": "https://www.gsjangter.go.kr/categories/index/healthy-04"
+    },
+    {
+      "name": "냉동대학찰옥수수",
+      "url": "https://www.gsjangter.go.kr/categories/index/fruit-ice"
+    },
+    {
+      "name": "더보기",
+      "url": "https://www.gsjangter.go.kr/categories/index/organic"
+    }
+  ],
+  "structure": {
+    "hasProducts": true,
+    "hasCategories": true,
+    "mainElements": {
+      "navigation": true,
+      "productGrid": 0,
+      "searchBox": true
+    }
+  }
+}

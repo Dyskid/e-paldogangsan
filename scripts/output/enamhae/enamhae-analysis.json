@@ -1,0 +1,28 @@
+{
+  "mallId": "enamhae",
+  "mallName": "남해몰",
+  "url": "https://enamhae.co.kr/",
+  "region": "경남",
+  "status": "success",
+  "structure": {
+    "hasProducts": true,
+    "productInfo": {
+      "selector": "[class*=\"product\"]",
+      "count": 198,
+      "firstItem": "\n\t\t\t\t<div class=\"w2aDesign-rec-product\">\n\t\t\t\t\t<div class=\"title\">\n\t\t\t\t\t\t<h2>🎉����Ʈ ��ǰ</h2>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"best_btn_wrap\">\n\t\t\t\t\t\t<button type=\"button\" id=\"best_btn\">��깰</button>\n\t\t\t\t\t\t<"
+    },
+    "hasCategories": true,
+    "hasPagination": false,
+    "totalLinks": 122,
+    "scripts": 103,
+    "hasReactRoot": false,
+    "urlPatterns": {
+      "homepage": "https://enamhae.co.kr/"
+    },
+    "pagination": {
+      "type": "none"
+    },
+    "requiresJavaScript": true,
+    "dataLocation": {}
+  }
+}

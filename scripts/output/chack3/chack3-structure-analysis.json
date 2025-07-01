@@ -1,0 +1,33 @@
+{
+  "mallName": "착3몰",
+  "baseUrl": "https://www.chack3.com",
+  "categories": [
+    {
+      "name": "��������",
+      "url": "https://www.chack3.com/shop/faq.html"
+    },
+    {
+      "name": "��ٱ���",
+      "url": "https://www.chack3.com/shop/basket.html"
+    }
+  ],
+  "productElementsFound": 3,
+  "productSelector": "[class*=\"product\"]",
+  "sampleProductUrls": [
+    "https://www.chack3.com/shop/shopdetail.html?branduid=12230790&xcode=001&mcode=004&scode=&cur_code=&search=&GfDT=Z213UQ%3D%3D",
+    "https://www.chack3.com/shop/shopdetail.html?branduid=316584",
+    "https://www.chack3.com/shop/shopdetail.html?branduid=316862",
+    "https://www.chack3.com/shop/shopdetail.html?branduid=316584&search=&xcode=001&mcode=004&scode=&special=2&GfDT=bm90W1w%3D",
+    "https://www.chack3.com/shop/shopdetail.html?branduid=316584&search=&xcode=001&mcode=004&scode=&special=2&GfDT=bm90W1w%3D",
+    "https://www.chack3.com/shop/shopdetail.html?branduid=12230790&search=&xcode=001&mcode=004&scode=&special=2&GfDT=bGd3UA%3D%3D",
+    "https://www.chack3.com/shop/shopdetail.html?branduid=12230790&search=&xcode=001&mcode=004&scode=&special=2&GfDT=bGd3UA%3D%3D",
+    "https://www.chack3.com/shop/shopdetail.html?branduid=316862&search=&xcode=001&mcode=004&scode=&special=2&GfDT=bmx%2BW14%3D",
+    "https://www.chack3.com/shop/shopdetail.html?branduid=316862&search=&xcode=001&mcode=004&scode=&special=2&GfDT=bmx%2BW14%3D",
+    "https://www.chack3.com/shop/shopdetail.html?branduid=12232184&search=&xcode=001&mcode=002&scode=&special=1&GfDT=bG93UQ%3D%3D"
+  ],
+  "priceElementsFound": 49,
+  "hasPagination": false,
+  "pageTitle": "������",
+  "metaDescription": "��ġ�Һ� ���� ���Ѽ����� ����, ��⵵ ��ȸ����ġ����ǰ ���� ������ ���θ��Դϴ�.",
+  "isEcommerce": true
+}

@@ -1,0 +1,28 @@
+{
+  "mallId": "hamanmall",
+  "mallName": "함안몰",
+  "url": "https://hamanmall.com",
+  "region": "경남",
+  "status": "success",
+  "structure": {
+    "hasProducts": true,
+    "productInfo": {
+      "selector": "[class*=\"item\"]",
+      "count": 113,
+      "firstItem": "\n\t\t\t\t\t\t\t\t\t\t\t<a class=\"searched_item\" href=\"javascript:void(0)\"></a>\n\t\t\t\t\t\t\t\t\t\t"
+    },
+    "hasCategories": true,
+    "hasPagination": true,
+    "totalLinks": 227,
+    "scripts": 55,
+    "hasReactRoot": false,
+    "urlPatterns": {
+      "homepage": "https://hamanmall.com"
+    },
+    "pagination": {
+      "type": "page-numbers"
+    },
+    "requiresJavaScript": true,
+    "dataLocation": {}
+  }
+}

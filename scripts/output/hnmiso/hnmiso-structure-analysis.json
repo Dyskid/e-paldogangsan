@@ -1,0 +1,65 @@
+{
+  "name": "해남미소",
+  "url": "https://www.hnmiso.com/kwa-home",
+  "region": "전남",
+  "platform": "custom-board",
+  "categories": {
+    "structure": "kwa-ABS_goods_l-{categoryId}",
+    "mainCategories": [
+      {
+        "name": "농산물",
+        "id": "1001",
+        "url": "kwa-ABS_goods_l-1001"
+      },
+      {
+        "name": "수산물",
+        "id": "1003",
+        "url": "kwa-ABS_goods_l-1003"
+      },
+      {
+        "name": "과일",
+        "id": "1004",
+        "url": "kwa-ABS_goods_l-1004"
+      },
+      {
+        "name": "채소",
+        "id": "1005",
+        "url": "kwa-ABS_goods_l-1005"
+      },
+      {
+        "name": "가공식품",
+        "id": "1006",
+        "url": "kwa-ABS_goods_l-1006"
+      }
+    ],
+    "urlPattern": "kwa-ABS_goods_l-{categoryId}"
+  },
+  "products": {
+    "htmlStructure": "table-based",
+    "containerSelector": ".GoodsWrap-{productId}-{boardId}",
+    "dataLocation": "inside HTML table structure",
+    "selectors": {
+      "image": "img (inside .fdThumb)",
+      "title": ".goods_name",
+      "price": ".ABS-sell-price",
+      "link": "a[href*='kwa-ABS_goods_v']",
+      "seller": ".goods_seller_company"
+    }
+  },
+  "pagination": {
+    "type": "standard",
+    "selector": ".LF_page_link",
+    "urlPattern": "?PB_1410486717={pageNumber}",
+    "hasNext": true,
+    "hasPrev": false
+  },
+  "dynamicLoading": {
+    "required": false,
+    "type": "static"
+  },
+  "notes": {
+    "특이사항": "고유한 게시판 시스템 사용 (TCBOARD_ABS_goods)",
+    "제품URL패턴": "kwa-ABS_goods_v-{productId}-{categoryId}",
+    "이미지경로": "./thumb/ 형태의 상대경로 사용"
+  }
+}
