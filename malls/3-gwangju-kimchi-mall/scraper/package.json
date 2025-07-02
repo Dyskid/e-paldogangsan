@@ -1,0 +1,29 @@
+{
+  "name": "gwangju-kimchi-mall-scraper",
+  "version": "1.0.0",
+  "description": "Web scraper for 광주김치몰 (Gwangju Kimchi Mall)",
+  "main": "scraper.ts",
+  "scripts": {
+    "start": "tsx scraper.ts",
+    "build": "tsc",
+    "dev": "tsx watch scraper.ts"
+  },
+  "keywords": [
+    "scraper",
+    "gwangju-kimchi-mall",
+    "gwangju",
+    "kimchi",
+    "shopping-mall"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}

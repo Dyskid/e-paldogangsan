@@ -1,0 +1,73 @@
+{
+  "mallId": 52,
+  "mallName": "장흥몰",
+  "url": "https://okjmall.com/",
+  "categories": [
+    {
+      "name": "로그인",
+      "url": "https://okjmall.com/member/login.php",
+      "id": "cat1"
+    },
+    {
+      "name": "회원가입",
+      "url": "https://okjmall.com/member/join_method.php",
+      "id": "cat2"
+    },
+    {
+      "name": "상품문의",
+      "url": "https://okjmall.com/board/list.php?bdId=goodsqa",
+      "id": "cat3"
+    },
+    {
+      "name": "상품후기",
+      "url": "https://okjmall.com/board/list.php?bdId=goodsreview",
+      "id": "cat4"
+    },
+    {
+      "name": "에버가닉 함초소금 250g",
+      "url": "https://okjmall.com/goods/goods_view.php?goodsNo=1000000155",
+      "id": "cat6"
+    },
+    {
+      "name": "농산물",
+      "url": "https://okjmall.com/goods/goods_list.php?cateCd=015",
+      "id": "cat7"
+    },
+    {
+      "name": "쌀",
+      "url": "https://okjmall.com/goods/goods_list.php?cateCd=015001",
+      "id": "cat8"
+    },
+    {
+      "name": "백미",
+      "url": "https://okjmall.com/goods/goods_list.php?cateCd=015001001",
+      "id": "cat9"
+    },
+    {
+      "name": "현미",
+      "url": "https://okjmall.com/goods/goods_list.php?cateCd=015001003",
+      "id": "cat10"
+    },
+    {
+      "name": "잡곡/혼합곡",
+      "url": "https://okjmall.com/goods/goods_list.php?cateCd=015001002",
+      "id": "cat11"
+    }
+  ],
+  "urlPatterns": {
+    "categoryPattern": "/category/{categoryId}",
+    "productPattern": "/product/{productId}"
+  },
+  "pagination": {
+    "type": "none"
+  },
+  "requiresJavaScript": false,
+  "productStructure": {
+    "containerSelector": "",
+    "itemSelector": "",
+    "nameSelector": "",
+    "priceSelector": "",
+    "imageSelector": "",
+    "linkSelector": ""
+  }
+}

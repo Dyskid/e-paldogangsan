@@ -1,0 +1,19 @@
+{
+  "mallId": 89,
+  "mallName": "hamyang-mall",
+  "baseUrl": "https://2900.co.kr/",
+  "scrapeConfig": {
+    "maxCategories": 20,
+    "maxPagesPerCategory": 5,
+    "maxProductsPerPage": 50,
+    "rateLimitMs": 1000
+  },
+  "selectors": {
+    "category": ".nav a",
+    "productContainer": ".product-item",
+    "productName": ".name",
+    "productPrice": ".price",
+    "productImage": "img",
+    "productLink": "a"
+  }
+}

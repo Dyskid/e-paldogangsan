@@ -1,0 +1,27 @@
+{
+  "mallId": 3,
+  "mallName": "광주김치몰",
+  "mallUrl": "https://www.k-kimchi.kr",
+  "engName": "gwangju-kimchi-mall",
+  "itemsPerPage": 20,
+  "maxRetries": 3,
+  "retryDelay": 2000,
+  "requestDelay": 1000,
+  "timeout": 30000,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+  "outputDir": "./output",
+  "categoriesLimit": null,
+  "productsPerCategoryLimit": null,
+  "productSelectors": {
+    "container": ".product_cell",
+    "name": ".productName a",
+    "price": ".price strike",
+    "discountPrice": ".price span",
+    "discountRate": ".salePercentage",
+    "image": ".viewImage img",
+    "manufacturer": ".product_cell_tit a",
+    "description": ".productSubject",
+    "rating": ".star .fa-star",
+    "reviewCount": ".star span"
+  }
+}

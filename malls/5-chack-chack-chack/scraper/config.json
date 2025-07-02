@@ -1,0 +1,29 @@
+{
+  "mallId": 5,
+  "mallName": "착착착",
+  "mallUrl": "https://www.chack3.com/",
+  "engName": "chack-chack-chack",
+  "encoding": "EUC-KR",
+  "itemsPerPage": 40,
+  "maxRetries": 3,
+  "retryDelay": 2000,
+  "requestDelay": 1000,
+  "timeout": 30000,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+  "outputDir": "./output",
+  "requiresJavaScript": false,
+  "selectors": {
+    "productContainer": ".gallery_list",
+    "productItem": "li",
+    "productName": ".name",
+    "productPrice": ".price",
+    "productOriginalPrice": ".price .consumer",
+    "productImage": ".tb img",
+    "productLink": "a",
+    "productCategory": ".name .brand_type"
+  },
+  "urlPatterns": {
+    "categoryList": "/shop/shopbrand.html?type={type}&xcode={xcode}&sort={sort}&page={page}",
+    "productDetail": "/shop/shopdetail.html?branduid={productId}"
+  }
+}

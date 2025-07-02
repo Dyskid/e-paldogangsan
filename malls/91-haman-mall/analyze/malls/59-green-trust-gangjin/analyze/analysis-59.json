@@ -1,0 +1,73 @@
+{
+  "mallId": 59,
+  "mallName": "초록믿음",
+  "url": "https://greengj.com/",
+  "categories": [
+    {
+      "name": "회원가입",
+      "url": "https://greengj.com/member/agreement.html",
+      "id": "cat1"
+    },
+    {
+      "name": "로그인",
+      "url": "https://greengj.com/member/login.html",
+      "id": "cat2"
+    },
+    {
+      "name": "주문조회",
+      "url": "https://greengj.com/myshop/order/list.html",
+      "id": "cat3"
+    },
+    {
+      "name": "최근본상품",
+      "url": "https://greengj.com/product/recent_view_product.html",
+      "id": "cat4"
+    },
+    {
+      "name": "전체상품",
+      "url": "https://greengj.com/category/%EC%A0%84%EC%B2%B4%EC%83%81%ED%92%88/24/",
+      "id": "cat5"
+    },
+    {
+      "name": "발효식품",
+      "url": "https://greengj.com/category/%EB%B0%9C%ED%9A%A8%EC%8B%9D%ED%92%88/25/",
+      "id": "cat6"
+    },
+    {
+      "name": "곡류",
+      "url": "https://greengj.com/category/%EA%B3%A1%EB%A5%98/41/",
+      "id": "cat7"
+    },
+    {
+      "name": "건강식품",
+      "url": "https://greengj.com/category/%EA%B1%B4%EA%B0%95%EC%8B%9D%ED%92%88/31/",
+      "id": "cat8"
+    },
+    {
+      "name": "버섯류",
+      "url": "https://greengj.com/category/%EB%B2%84%EC%84%AF%EB%A5%98/39/",
+      "id": "cat9"
+    },
+    {
+      "name": "가공식품",
+      "url": "https://greengj.com/category/%EA%B0%80%EA%B3%B5%EC%8B%9D%ED%92%88/28/",
+      "id": "cat10"
+    }
+  ],
+  "urlPatterns": {
+    "categoryPattern": "/category/{categoryId}",
+    "productPattern": "/product/{productId}"
+  },
+  "pagination": {
+    "type": "none"
+  },
+  "requiresJavaScript": false,
+  "productStructure": {
+    "containerSelector": "li.xans-record-",
+    "itemSelector": "li.xans-record-",
+    "nameSelector": "",
+    "priceSelector": "",
+    "imageSelector": "",
+    "linkSelector": "a"
+  }
+}

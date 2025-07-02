@@ -1,0 +1,23 @@
+{
+  "mallId": 91,
+  "mallName": "함안몰",
+  "url": "https://hamanmall.com",
+  "categories": [],
+  "urlPatterns": {
+    "categoryPattern": "",
+    "productPattern": "/product/{productId}"
+  },
+  "pagination": {
+    "type": "none"
+  },
+  "requiresJavaScript": false,
+  "productStructure": {
+    "containerSelector": "",
+    "itemSelector": "",
+    "nameSelector": "",
+    "priceSelector": "",
+    "imageSelector": "",
+    "linkSelector": ""
+  },
+  "additionalNotes": "Unable to find category structure. Manual inspection required."
+}

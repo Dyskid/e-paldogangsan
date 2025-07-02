@@ -1,0 +1,27 @@
+{
+  "mallId": 4,
+  "mallName": "대전사랑몰",
+  "mallUrl": "https://ontongdaejeon.ezwel.com/onnuri/main",
+  "engName": "daejeon-love-mall",
+  "itemsPerPage": 100,
+  "maxRetries": 3,
+  "retryDelay": 2000,
+  "requestDelay": 2000,
+  "timeout": 60000,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+  "outputDir": "./output",
+  "requiresJavaScript": true,
+  "dynamicLoading": {
+    "method": "AJAX",
+    "waitForSelector": ".goodsList#goodsListItem"
+  },
+  "selectors": {
+    "productContainer": ".goodsList#goodsListItem",
+    "productItem": ".card_list ul li",
+    "productName": ".ellipsis_2",
+    "productPrice": ".price span",
+    "productImage": "img.lazy",
+    "productLink": "a",
+    "sellerName": ".market_name"
+  }
+}

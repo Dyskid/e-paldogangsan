@@ -1,182 +1,130 @@
 "use strict";
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    var desc = Object.getOwnPropertyDescriptor(m, k);
-    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
-      desc = { enumerable: true, get: function() { return m[k]; } };
-    }
-    Object.defineProperty(o, k2, desc);
-}) : (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-}));
-var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
-    Object.defineProperty(o, "default", { enumerable: true, value: v });
-}) : function(o, v) {
-    o["default"] = v;
-});
-var __importStar = (this && this.__importStar) || (function () {
-    var ownKeys = function(o) {
-        ownKeys = Object.getOwnPropertyNames || function (o) {
-            var ar = [];
-            for (var k in o) if (Object.prototype.hasOwnProperty.call(o, k)) ar[ar.length] = k;
-            return ar;
-        };
-        return ownKeys(o);
-    };
-    return function (mod) {
-        if (mod && mod.__esModule) return mod;
-        var result = {};
-        if (mod != null) for (var k = ownKeys(mod), i = 0; i < k.length; i++) if (k[i] !== "default") __createBinding(result, mod, k[i]);
-        __setModuleDefault(result, mod);
-        return result;
-    };
-})();
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const fs = __importStar(require("fs"));
-const path = __importStar(require("path"));
-const node_fetch_1 = __importDefault(require("node-fetch"));
-const jsdom_1 = require("jsdom");
-async function analyzeMall() {
-    const mallId = 66;
-    const mallName = 'andong-market';
-    const url = 'https://andongjang.andong.go.kr/';
-    const requirementsDir = path.join(__dirname, 'requirements');
-    try {
-        console.log(`Analyzing mall ${mallId}: ${mallName}`);
-        console.log(`URL: ${url}`);
-        // Fetch homepage
-        const response = await (0, node_fetch_1.default)(url);
-        const html = await response.text();
-        fs.writeFileSync(path.join(requirementsDir, 'homepage.html'), html);
-        const dom = new jsdom_1.JSDOM(html);
-        const document = dom.window.document;
-        // Analyze category structure - Government site specific selectors
-        const categories = [];
-        const categoryLinks = document.querySelectorAll('.menu a, .category a, nav a[href*="category"], .lnb-menu a');
-        categoryLinks.forEach((link) => {
-            var _a;
-            const text = (_a = link.textContent) === null || _a === void 0 ? void 0 : _a.trim();
-            if (text && text.length > 0 && !text.includes('로그인') && !text.includes('회원가입')) {
-                categories.push(text);
-            }
-        });
-        // Try to find product or shop pages
-        const shopLinks = document.querySelectorAll('a[href*="shop"], a[href*="product"], a[href*="goods"]');
-        if (shopLinks.length > 0) {
-            const shopUrl = shopLinks[0].href;
-            try {
-                const shopResponse = await (0, node_fetch_1.default)(new URL(shopUrl, url).toString());
-                const shopHtml = await shopResponse.text();
-                fs.writeFileSync(path.join(requirementsDir, 'shop-page.html'), shopHtml);
-            }
-            catch (error) {
-                console.log('Could not fetch shop page:', error);
-            }
-        }
-        // Create analysis result
-        const analysis = {
-            mallId,
-            mallName,
-            url,
-            productStructure: {
-                categoryLevels: 2,
-                mainCategories: categories.length > 0 ? categories.slice(0, 10) : ['안동간고등어', '안동찜닭', '안동한우', '헛제사밥', '전통주', '농산물'],
-                categoryUrlPattern: '/shop/category/{categoryId}'
+var fs = require("fs");
+var path = require("path");
+// Main analysis function
+function analyzeMall() {
+    var analysis = {
+        id: 66,
+        engname: "andong-market",
+        name: "안동장터",
+        url: "https://andongjang.andong.go.kr/",
+        redirectUrl: "https://andongjang.cyso.co.kr/",
+        productCategories: {
+            mainCategories: [
+                {
+                    id: "ad40",
+                    name: "쌀/잡곡",
+                    url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad40",
+                    subcategories: [
+                        { id: "ad4010", name: "쌀(백미)", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad4010" },
+                        { id: "ad4020", name: "현미/보리쌀/찹쌀", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad4020" },
+                        { id: "ad4030", name: "혼합곡", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad4030" },
+                        { id: "ad4040", name: "조/수수/기장/흑미", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad4040" },
+                        { id: "ad4050", name: "콩/백태/팥/서리태/녹두", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad4050" },
+                        { id: "ad4060", name: "참깨/들깨", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad4060" },
+                        { id: "ad4070", name: "잡곡 패키지 상품", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad4070" },
+                        { id: "ad4090", name: "잡곡 선물세트", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad4090" },
+                        { id: "ad40h0", name: "삼씨", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad40h0" }
+                    ]
+                },
+                {
+                    id: "ad50",
+                    name: "과 일",
+                    url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad50",
+                    subcategories: [
+                        { id: "ad5010", name: "안동사과", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad5010" },
+                        { id: "ad5020", name: "토마토/ 배/ 수박", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad5020" },
+                        { id: "ad5030", name: "복숭아/자두/체리/프룬", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad5030" },
+                        { id: "ad5040", name: "딸기/메론/매실/애플망고", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad5040" },
+                        { id: "ad5050", name: "블루베리/머루", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad5050" },
+                        { id: "ad5060", name: "안동곶감", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad5060" },
+                        { id: "ad5070", name: "대추", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad5070" },
+                        { id: "ad5090", name: "오미자", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad5090" },
+                        { id: "ad5080", name: "꾸지뽕", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad5080" }
+                    ]
+                },
+                {
+                    id: "ad60",
+                    name: "과채류",
+                    url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad60",
+                    subcategories: [
+                        { id: "ad6010", name: "안동생마/우엉", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad6010" },
+                        { id: "ad6030", name: "고구마/감자/땅콩", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad6030" },
+                        { id: "ad6040", name: "산마늘/두메부추/새싹채소", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad6040" },
+                        { id: "ad6050", name: "곰취/어수리", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad6050" },
+                        { id: "ad6060", name: "호박/여주", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad6060" },
+                        { id: "ad6070", name: "생강", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad6070" },
+                        { id: "ad6080", name: "건채소", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad6080" },
+                        { id: "ad6090", name: "호두", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad6090" },
+                        { id: "ad60b0", name: "건우슬", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad60b0" },
+                        { id: "ad60h0", name: "고사리", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad60h0" },
+                        { id: "ad60c0", name: "야콘", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad60c0" }
+                    ]
+                },
+                {
+                    id: "ad70",
+                    name: "버섯류",
+                    url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad70",
+                    subcategories: [
+                        { id: "ad7010", name: "상황버섯", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad7010" },
+                        { id: "ad7030", name: "노루궁뎅이", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad7030" },
+                        { id: "ad7040", name: "동충하초", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad7040" },
+                        { id: "ad7050", name: "영지버섯", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad7050" },
+                        { id: "ad7080", name: "송이버섯", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad7080" },
+                        { id: "ad7090", name: "초가 송이버섯", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad7090" },
+                        { id: "ad70b0", name: "표고버섯", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad70b0" },
+                        { id: "ad70h0", name: "꽃송이버섯", url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad70h0" }
+                    ]
+                },
+                {
+                    id: "ad80",
+                    name: "김치/염장류",
+                    url: "https://andongjang.cyso.co.kr/shop/list.php?ca_id=ad80"
+                }
+            ]
+        },
+        urlPatterns: {
+            categoryListPage: "https://andongjang.cyso.co.kr/shop/list.php?ca_id={categoryId}",
+            productDetailPage: "https://andongjang.cyso.co.kr/shop/item.php?it_id={productId}",
+            ajaxListPage: "https://andongjang.cyso.co.kr/shop/ajax.list.php?ca_id={categoryId}&sort=&sortodr=&area=&mk_id=&use_sns=1&page={pageNumber}"
+        },
+        paginationMethod: "ajax_load_more",
+        dynamicLoadingRequired: false,
+        productDataLocation: {
+            listPage: {
+                containerSelector: "ul.sct.sct_40#sct_wrap",
+                itemSelector: "li.sct_li",
+                dataFields: {
+                    productId: "data-it_id attribute on .new_sct_cart",
+                    productName: ".sct_txt a text content",
+                    productUrl: ".sct_img > a href attribute",
+                    price: ".sct_cost text content",
+                    imageUrl: ".sct_img img src attribute"
+                }
             },
-            productData: {
-                productUrlPattern: '/shop/product/view/{productId}',
-                dataLocation: '.product-detail, .goods-detail',
-                imageUrlPattern: 'img[src*="product"], img[src*="upload"]',
-                priceLocation: '.price, .product-price',
-                nameLocation: '.product-name, .goods-name, h2.title'
-            },
-            pagination: {
-                type: 'page-based',
-                urlPattern: '?page={pageNumber}',
-                maxProductsPerPage: 20
-            },
-            dynamicLoading: {
-                requiresJavaScript: false,
-                loadingMethod: 'server-side-rendering'
-            },
-            scrapeableFeatures: {
-                productList: true,
-                productDetails: true,
-                categoryNavigation: true,
-                search: true
+            detailPage: {
+                priceSelector: "#sit_tot_price",
+                descriptionSelector: "#sit_inf_content",
+                imagesSelector: "#sit_pvi_big img"
             }
-        };
-        // Save analysis result
-        const outputPath = path.join(__dirname, `analysis-${mallId}.json`);
-        fs.writeFileSync(outputPath, JSON.stringify(analysis, null, 2));
-        console.log(`Analysis completed and saved to ${outputPath}`);
-        // Create report
-        const report = `# Analysis Report for Mall ${mallId}: ${mallName}
-
-## Status: Success
-
-## Summary
-Successfully analyzed the shopping mall structure for ${mallName} (Andong City Official Mall).
-
-### Key Findings:
-- URL: ${url}
-- Categories found: ${categories.length}
-- Main categories: ${categories.slice(0, 5).join(', ') || 'Using default categories (안동 specialties)'}
-- Platform: Government official site (andong.go.kr domain)
-- Dynamic loading required: ${analysis.dynamicLoading.requiresJavaScript ? 'Yes' : 'No'}
-- Pagination type: ${analysis.pagination.type}
-
-### Scraping Capabilities:
-- Product List: ${analysis.scrapeableFeatures.productList ? '✓' : '✗'}
-- Product Details: ${analysis.scrapeableFeatures.productDetails ? '✓' : '✗'}
-- Category Navigation: ${analysis.scrapeableFeatures.categoryNavigation ? '✓' : '✗'}
-- Search: ${analysis.scrapeableFeatures.search ? '✓' : '✗'}
-
-### Technical Details:
-- Product URL Pattern: ${analysis.productData.productUrlPattern}
-- Category URL Pattern: ${analysis.productStructure.categoryUrlPattern}
-- Price Location: ${analysis.productData.priceLocation}
-- Image Pattern: ${analysis.productData.imageUrlPattern}
-
-### Platform Notes:
-This is an official government site for Andong city, known for its salted mackerel, jjimdak (braised chicken), and traditional culture.
-The structure may differ from commercial shopping mall platforms.
-
-## Files Generated:
-1. analysis-${mallId}.json - Complete analysis data
-2. requirements/homepage.html - Homepage HTML
-3. requirements/shop-page.html - Shop page HTML (if available)
-4. report-${mallId}.md - This report
-`;
-        fs.writeFileSync(path.join(__dirname, `report-${mallId}.md`), report);
-        console.log('Report generated successfully');
-    }
-    catch (error) {
-        console.error('Error analyzing mall:', error);
-        // Create error report
-        const errorReport = `# Analysis Report for Mall ${mallId}: ${mallName}
-
-## Status: Failed
-
-## Error Details:
-${error instanceof Error ? error.message : String(error)}
-
-## Reason:
-The analysis failed due to an error while fetching or parsing the mall website. This could be due to:
-1. Network connectivity issues
-2. The website being temporarily unavailable
-3. Changes in the website structure
-4. Access restrictions or rate limiting
-
-## Recommendation:
-Please check the website URL and try again later. If the issue persists, manual analysis may be required.
-`;
-        fs.writeFileSync(path.join(__dirname, `report-${mallId}.md`), errorReport);
-    }
+        },
+        specialFeatures: [
+            "Uses CYSO platform (common for Korean government malls)",
+            "AJAX-based 'load more' pagination instead of traditional page numbers",
+            "SSL certificate issues require -k flag for curl",
+            "Redirects from original government domain to cyso.co.kr subdomain",
+            "Product IDs are numeric (e.g., 1433833703)",
+            "Category IDs follow pattern: ad{number}{subcategory}"
+        ],
+        analysisDate: new Date().toISOString(),
+        status: "success",
+        notes: "Mall successfully analyzed. Uses standard CYSO platform structure common among Korean government shopping malls."
+    };
+    // Write the analysis result to JSON file
+    var outputPath = path.join(__dirname, 'analysis-66.json');
+    fs.writeFileSync(outputPath, JSON.stringify(analysis, null, 2));
+    console.log("Analysis completed and saved to: ".concat(outputPath));
 }
 // Run the analysis
-analyzeMall().catch(console.error);
+analyzeMall();

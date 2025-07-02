@@ -13,11 +13,11 @@
   - Dynamic loading status (whether JavaScript rendering is required)
   - Product data location (HTML structure)
 
-  3. Scraper Generation Phase (Generate Scraper)
+2
 
   Create scrapers tailored to each mall based on analysis results:
   - Static sites: use axios + cheerio
-  - Dynamic sites: use puppeteer
+  - Dynamic sites: use playwright or puppeteer
   - Category traversal logic
   - Pagination handling
   - Error handling

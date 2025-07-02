@@ -10,6 +10,15 @@ use playwright if  extraction requires browser automation tools due to JavaScrip
 
 fail naver: 2  43 47
 
+
+ 1. 함안몰 (ID: 91) - Unable to find category structure. No categories or products found. Requires manual     
+   inspection.
+  2. 김해온몰 (ID: 92) - Partial Success. No categories found, requires manual inspection.
+  3. 영암몰 (ID: 53) - Partial Success. No categories found, requires manual inspection.
+  4. 해남몰 (ID: 57) - Partial Success. No categories found, requires manual inspection.
+  5. 화순몰 (ID: 60) - Partial Success. No categories found, requires manual inspection.
+
+
   2. SSL 인증서 문제
 
   - 지평선몰(김제) (36번): https://jpsmall.com/ - SSL 인증서가 http://www.jpsmall.com용이라 jpsmall.com과 매치되지 않음
@@ -17,5 +26,3 @@ fail naver: 2  43 47
   - 임실몰 (42번): https://www.imsilin.kr/home - SSL 인증서 체인 검증 실패
 
 
-logic
-html - ts analyzer - analysis json - scraper - productjson

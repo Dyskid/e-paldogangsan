@@ -1,0 +1,19 @@
+{
+  "mallId": 65,
+  "mallName": "yeongju-market-day",
+  "baseUrl": "https://yjmarket.cyso.co.kr/",
+  "scrapeConfig": {
+    "maxCategories": 20,
+    "maxPagesPerCategory": 5,
+    "maxProductsPerPage": 50,
+    "rateLimitMs": 1000
+  },
+  "selectors": {
+    "category": ".nav a",
+    "productContainer": ".product-item",
+    "productName": ".goods-name, .item-tit h3",
+    "productPrice": ".goods-price .price, .detail-price strong",
+    "productImage": "img",
+    "productLink": "a"
+  }
+}

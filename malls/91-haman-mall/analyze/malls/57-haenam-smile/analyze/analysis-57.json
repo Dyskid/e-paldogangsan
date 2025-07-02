@@ -1,0 +1,23 @@
+{
+  "mallId": 57,
+  "mallName": "해남미소",
+  "url": "https://www.hnmiso.com/kwa-home",
+  "categories": [],
+  "urlPatterns": {
+    "categoryPattern": "",
+    "productPattern": "/product/{productId}"
+  },
+  "pagination": {
+    "type": "none"
+  },
+  "requiresJavaScript": false,
+  "productStructure": {
+    "containerSelector": "",
+    "itemSelector": "",
+    "nameSelector": "",
+    "priceSelector": "",
+    "imageSelector": "",
+    "linkSelector": ""
+  },
+  "additionalNotes": "Unable to find category structure. Manual inspection required."
+}

@@ -41,4 +41,4 @@ The report must clearly state whether the process was successful or not, and exp
 If any of the above files already exist, overwrite them without any prompt.
 
 4. Result Notification
-After completion, let me know for which id(s) the process was unsuccessful.
+After completion, print to the terminal the ID(s) for which the process was unsuccessful.

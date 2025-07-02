@@ -1,0 +1,19 @@
+{
+  "mallId": 93,
+  "mallName": "e-jeju-mall",
+  "baseUrl": "https://mall.ejeju.net/main/index.do",
+  "scrapeConfig": {
+    "maxCategories": 20,
+    "maxPagesPerCategory": 5,
+    "maxProductsPerPage": 50,
+    "rateLimitMs": 1000
+  },
+  "selectors": {
+    "category": ".category a",
+    "productContainer": ".product",
+    "productName": ".name",
+    "productPrice": ".price",
+    "productImage": "img",
+    "productLink": "a"
+  }
+}

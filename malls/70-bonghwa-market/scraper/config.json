@@ -1,0 +1,19 @@
+{
+  "mallId": 70,
+  "mallName": "bonghwa-market",
+  "baseUrl": "https://bmall.cyso.co.kr/",
+  "scrapeConfig": {
+    "maxCategories": 20,
+    "maxPagesPerCategory": 5,
+    "maxProductsPerPage": 50,
+    "rateLimitMs": 1000
+  },
+  "selectors": {
+    "category": ".nav a",
+    "productContainer": ".product-item",
+    "productName": ".goods-header h3, .goods-name-detail",
+    "productPrice": ".goods-price-detail .price, .real-price",
+    "productImage": "img",
+    "productLink": "a"
+  }
+}

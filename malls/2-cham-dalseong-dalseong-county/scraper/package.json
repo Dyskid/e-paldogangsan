@@ -1,0 +1,27 @@
+{
+  "name": "cham-dalseong-scraper",
+  "version": "1.0.0",
+  "description": "Web scraper for 참달성 (달성군) Naver Smart Store",
+  "main": "scraper.ts",
+  "scripts": {
+    "start": "tsx scraper.ts",
+    "build": "tsc",
+    "dev": "tsx watch scraper.ts"
+  },
+  "keywords": [
+    "scraper",
+    "cham-dalseong",
+    "dalseong-county",
+    "naver-smartstore"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^21.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}

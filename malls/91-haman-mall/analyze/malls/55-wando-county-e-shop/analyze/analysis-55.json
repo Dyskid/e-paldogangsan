@@ -1,0 +1,75 @@
+{
+  "mallId": 55,
+  "mallName": "완도군이숍",
+  "url": "https://wandofood.go.kr/",
+  "categories": [
+    {
+      "name": "완도전복",
+      "url": "https://wandofood.go.kr/category/%EC%99%84%EB%8F%84%EC%A0%84%EB%B3%B5/744/",
+      "id": "cat1"
+    },
+    {
+      "name": "해조류",
+      "url": "https://wandofood.go.kr/category/%ED%95%B4%EC%A1%B0%EB%A5%98/745/",
+      "id": "cat2"
+    },
+    {
+      "name": "수산물",
+      "url": "https://wandofood.go.kr/category/%EC%88%98%EC%82%B0%EB%AC%BC/746/",
+      "id": "cat3"
+    },
+    {
+      "name": "농산물",
+      "url": "https://wandofood.go.kr/category/%EB%86%8D%EC%82%B0%EB%AC%BC/747/",
+      "id": "cat4"
+    },
+    {
+      "name": "간편식품",
+      "url": "https://wandofood.go.kr/category/%EA%B0%84%ED%8E%B8%EC%8B%9D%ED%92%88/801/",
+      "id": "cat5"
+    },
+    {
+      "name": "소상공인 선물꾸러미",
+      "url": "https://wandofood.go.kr/category/%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8-%EC%84%A0%EB%AC%BC%EA%BE%B8%EB%9F%AC%EB%AF%B8/806/",
+      "id": "cat6"
+    },
+    {
+      "name": "알뜰장보기",
+      "url": "https://wandofood.go.kr/product/project.html?cate_no=743",
+      "id": "cat14"
+    },
+    {
+      "name": "도착보장",
+      "url": "https://wandofood.go.kr/product/project.html?cate_no=742",
+      "id": "cat15"
+    },
+    {
+      "name": "간편식품",
+      "url": "https://wandofood.go.kr/product/list.html?cate_no=801",
+      "id": "cat16"
+    },
+    {
+      "name": "소상공인 선물꾸러미",
+      "url": "https://wandofood.go.kr/product/list.html?cate_no=806",
+      "id": "cat17"
+    }
+  ],
+  "urlPatterns": {
+    "categoryPattern": "/category/{categoryId}",
+    "productPattern": "/product/{productId}",
+    "paginationPattern": "?page={pageNumber}"
+  },
+  "pagination": {
+    "type": "page",
+    "pageParam": "page"
+  },
+  "requiresJavaScript": false,
+  "productStructure": {
+    "containerSelector": "li.xans-record-",
+    "itemSelector": "li.xans-record-",
+    "nameSelector": "",
+    "priceSelector": "",
+    "imageSelector": "",
+    "linkSelector": "a"
+  }
+}

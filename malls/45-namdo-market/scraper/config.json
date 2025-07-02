@@ -1,0 +1,10 @@
+{
+  "mallId": 45,
+  "mallName": "남도장터",
+  "baseUrl": "https://www.jnmall.kr/",
+  "requiresJavaScript": true,
+  "scrapeInterval": 86400000,
+  "retryAttempts": 3,
+  "requestDelay": 2000,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+}

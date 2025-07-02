@@ -1,0 +1,10 @@
+{
+  "mallId": 36,
+  "mallName": "지평선몰(김제)",
+  "baseUrl": "https://jpsmall.com/",
+  "requiresJavaScript": false,
+  "scrapeInterval": 86400000,
+  "retryAttempts": 3,
+  "requestDelay": 2000,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+}

@@ -1,0 +1,19 @@
+{
+  "mallId": 88,
+  "mallName": "dinosaur-land-goseong",
+  "baseUrl": "https://www.edinomall.com/shop/smain/index.php",
+  "scrapeConfig": {
+    "maxCategories": 20,
+    "maxPagesPerCategory": 5,
+    "maxProductsPerPage": 50,
+    "rateLimitMs": 1000
+  },
+  "selectors": {
+    "category": ".nav a",
+    "productContainer": ".product-item",
+    "productName": ".name",
+    "productPrice": ".price",
+    "productImage": "img",
+    "productLink": "a"
+  }
+}

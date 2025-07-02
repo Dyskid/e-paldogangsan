@@ -1,0 +1,25 @@
+{
+  "mallId": 2,
+  "mallName": "참달성 (달성군)",
+  "baseUrl": "https://smartstore.naver.com/chamdalseong",
+  "engName": "cham-dalseong-dalseong-county",
+  "status": "failed",
+  "selectors": {
+    "productList": "ul[class*=\"ProductList\"]",
+    "productItem": "li[class*=\"ProductItem\"]",
+    "productName": "strong[class*=\"name\"]",
+    "productPrice": "span[class*=\"price\"] > span[class*=\"number\"]",
+    "productImage": "img[class*=\"thumbnail\"]",
+    "productLink": "a[class*=\"ProductItem\"]"
+  },
+  "pagination": {
+    "type": "page-number",
+    "parameter": "cp",
+    "maxPages": 10
+  },
+  "timeout": {
+    "page": 30000,
+    "navigation": 60000
+  },
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+}

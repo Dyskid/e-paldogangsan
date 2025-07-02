@@ -1,0 +1,19 @@
+{
+  "mallId": 68,
+  "mallName": "yeongyang-onsim-market",
+  "baseUrl": "https://onsim.cyso.co.kr/",
+  "scrapeConfig": {
+    "maxCategories": 20,
+    "maxPagesPerCategory": 5,
+    "maxProductsPerPage": 50,
+    "rateLimitMs": 1000
+  },
+  "selectors": {
+    "category": ".nav a",
+    "productContainer": ".product-item",
+    "productName": ".goods-name, .item_tit_detail h3",
+    "productPrice": ".goods-price strong, .price-real",
+    "productImage": "img",
+    "productLink": "a"
+  }
+}

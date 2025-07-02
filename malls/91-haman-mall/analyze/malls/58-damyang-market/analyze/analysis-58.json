@@ -1,0 +1,43 @@
+{
+  "mallId": 58,
+  "mallName": "담양장터",
+  "url": "https://damyangmk.kr/",
+  "categories": [
+    {
+      "name": "담양장터 소개",
+      "url": "https://damyangmk.kr/sub/brand01.html",
+      "id": "cat0"
+    },
+    {
+      "name": "이용약관",
+      "url": "https://damyangmk.kr/member/agreement.html",
+      "id": "cat1"
+    },
+    {
+      "name": "개인정보취급방침",
+      "url": "https://damyangmk.kr/member/privacy.html",
+      "id": "cat2"
+    },
+    {
+      "name": "이용안내",
+      "url": "https://damyangmk.kr/shopinfo/guide.html",
+      "id": "cat3"
+    }
+  ],
+  "urlPatterns": {
+    "categoryPattern": "/category/{categoryId}",
+    "productPattern": "/product/{productId}"
+  },
+  "pagination": {
+    "type": "none"
+  },
+  "requiresJavaScript": false,
+  "productStructure": {
+    "containerSelector": "li.xans-record-",
+    "itemSelector": "li.xans-record-",
+    "nameSelector": "",
+    "priceSelector": "",
+    "imageSelector": "",
+    "linkSelector": "a"
+  }
+}

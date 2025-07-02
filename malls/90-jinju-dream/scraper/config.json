@@ -1,0 +1,19 @@
+{
+  "mallId": 90,
+  "mallName": "jinju-dream",
+  "baseUrl": "https://jinjudream.com/",
+  "scrapeConfig": {
+    "maxCategories": 20,
+    "maxPagesPerCategory": 5,
+    "maxProductsPerPage": 50,
+    "rateLimitMs": 1000
+  },
+  "selectors": {
+    "category": ".nav a",
+    "productContainer": ".product-item",
+    "productName": ".name",
+    "productPrice": ".price",
+    "productImage": "img",
+    "productLink": "a"
+  }
+}

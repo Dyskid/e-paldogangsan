@@ -1,0 +1,28 @@
+{
+  "name": "we-mall-scraper",
+  "version": "1.0.0",
+  "description": "Web scraper for 우리몰 (We Mall)",
+  "main": "scraper-1.ts",
+  "scripts": {
+    "start": "tsx scraper-1.ts",
+    "build": "tsc",
+    "dev": "tsx watch scraper-1.ts"
+  },
+  "keywords": [
+    "scraper",
+    "we-mall",
+    "daegu",
+    "shopping-mall"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}

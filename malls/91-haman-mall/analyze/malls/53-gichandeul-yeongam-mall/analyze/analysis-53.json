@@ -1,0 +1,23 @@
+{
+  "mallId": 53,
+  "mallName": "기찬들영암몰",
+  "url": "https://yeongammall.co.kr/",
+  "categories": [],
+  "urlPatterns": {
+    "categoryPattern": "",
+    "productPattern": "/product/{productId}"
+  },
+  "pagination": {
+    "type": "none"
+  },
+  "requiresJavaScript": false,
+  "productStructure": {
+    "containerSelector": "",
+    "itemSelector": "",
+    "nameSelector": "",
+    "priceSelector": "",
+    "imageSelector": "",
+    "linkSelector": ""
+  },
+  "additionalNotes": "Unable to find category structure. Manual inspection required."
+}

@@ -1,0 +1,380 @@
+{
+  "mall_id": "79",
+  "mall_name": "경산몰",
+  "mall_url": "https://gsmall.cyso.co.kr",
+  "analysis_date": "2025-07-01",
+  "product_url_patterns": [
+    {
+      "pattern": "/shop/item.php?it_id={product_id}",
+      "example": "https://gsmall.cyso.co.kr/shop/item.php?it_id=1728614449",
+      "param_name": "it_id"
+    }
+  ],
+  "category_url_patterns": [
+    {
+      "pattern": "/shop/list.php?ca_id={category_id}",
+      "example": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs10",
+      "param_name": "ca_id"
+    }
+  ],
+  "sample_categories": [
+    {
+      "id": "gs10",
+      "name": "쌀/잡곡",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs10"
+    },
+    {
+      "id": "gs1010",
+      "name": "쌀",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs1010",
+      "parent_id": "gs10"
+    },
+    {
+      "id": "gs1020",
+      "name": "기타잡곡",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs1020",
+      "parent_id": "gs10"
+    },
+    {
+      "id": "gs20",
+      "name": "과일류",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs20"
+    },
+    {
+      "id": "gs2010",
+      "name": "과일",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs2010",
+      "parent_id": "gs20"
+    },
+    {
+      "id": "gs2020",
+      "name": "과채류",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs2020",
+      "parent_id": "gs20"
+    },
+    {
+      "id": "gs2030",
+      "name": "견과류",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs2030",
+      "parent_id": "gs20"
+    },
+    {
+      "id": "gs2040",
+      "name": "기타과일",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs2040",
+      "parent_id": "gs20"
+    },
+    {
+      "id": "gs30",
+      "name": "채소류",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs30"
+    },
+    {
+      "id": "gs3010",
+      "name": "채소",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs3010",
+      "parent_id": "gs30"
+    },
+    {
+      "id": "gs3020",
+      "name": "버섯",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs3020",
+      "parent_id": "gs30"
+    },
+    {
+      "id": "gs3030",
+      "name": "건나물/건채소",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs3030",
+      "parent_id": "gs30"
+    },
+    {
+      "id": "gs3040",
+      "name": "기타채소",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs3040",
+      "parent_id": "gs30"
+    },
+    {
+      "id": "gs40",
+      "name": "축산물",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs40"
+    },
+    {
+      "id": "gs4010",
+      "name": "한우",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs4010",
+      "parent_id": "gs40"
+    },
+    {
+      "id": "gs4020",
+      "name": "돈육",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs4020",
+      "parent_id": "gs40"
+    },
+    {
+      "id": "gs4030",
+      "name": "계란",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs4030",
+      "parent_id": "gs40"
+    },
+    {
+      "id": "gs60",
+      "name": "꿀/홍삼",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs60"
+    },
+    {
+      "id": "gs6010",
+      "name": "꿀",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs6010",
+      "parent_id": "gs60"
+    },
+    {
+      "id": "gs6020",
+      "name": "홍삼/인삼",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs6020",
+      "parent_id": "gs60"
+    },
+    {
+      "id": "gs6030",
+      "name": "분말/환/기타",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs6030",
+      "parent_id": "gs60"
+    },
+    {
+      "id": "gs70",
+      "name": "가공식품",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs70"
+    },
+    {
+      "id": "gs7010",
+      "name": "과일즙/야채즙",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs7010",
+      "parent_id": "gs70"
+    },
+    {
+      "id": "gs7020",
+      "name": "원액/청/음료",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs7020",
+      "parent_id": "gs70"
+    },
+    {
+      "id": "gs7030",
+      "name": "과일말랭이/칩",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs7030",
+      "parent_id": "gs70"
+    },
+    {
+      "id": "gs7040",
+      "name": "면류",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs7040",
+      "parent_id": "gs70"
+    },
+    {
+      "id": "gs7050",
+      "name": "잼류",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs7050",
+      "parent_id": "gs70"
+    },
+    {
+      "id": "gs7060",
+      "name": "죽류/즉석요리(HMR)",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs7060",
+      "parent_id": "gs70"
+    },
+    {
+      "id": "gs7070",
+      "name": "가루식품류",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs7070",
+      "parent_id": "gs70"
+    },
+    {
+      "id": "gs7080",
+      "name": "발효식초/감식초",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs7080",
+      "parent_id": "gs70"
+    },
+    {
+      "id": "gs7090",
+      "name": "낫또/요구르트",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs7090",
+      "parent_id": "gs70"
+    },
+    {
+      "id": "gs70a0",
+      "name": "차류",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs70a0",
+      "parent_id": "gs70"
+    },
+    {
+      "id": "gs70b0",
+      "name": "기타식품",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs70b0",
+      "parent_id": "gs70"
+    },
+    {
+      "id": "gs80",
+      "name": "김치/장류/참기름",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs80"
+    },
+    {
+      "id": "gs8010",
+      "name": "김치",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs8010",
+      "parent_id": "gs80"
+    },
+    {
+      "id": "gs8020",
+      "name": "장류",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs8020",
+      "parent_id": "gs80"
+    },
+    {
+      "id": "gs8030",
+      "name": "양념류",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs8030",
+      "parent_id": "gs80"
+    },
+    {
+      "id": "gs90",
+      "name": "한과/떡/빵류",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs90"
+    },
+    {
+      "id": "gs9010",
+      "name": "한과",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs9010",
+      "parent_id": "gs90"
+    },
+    {
+      "id": "gs9020",
+      "name": "떡",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs9020",
+      "parent_id": "gs90"
+    },
+    {
+      "id": "gs9030",
+      "name": "전통과자/엿",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gs9030",
+      "parent_id": "gs90"
+    },
+    {
+      "id": "gsa0",
+      "name": "전통주류/와인",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gsa0"
+    },
+    {
+      "id": "gsa010",
+      "name": "전통주",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gsa010",
+      "parent_id": "gsa0"
+    },
+    {
+      "id": "gsb0",
+      "name": "특산물",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gsb0"
+    },
+    {
+      "id": "gsb010",
+      "name": "공예품",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gsb010",
+      "parent_id": "gsb0"
+    },
+    {
+      "id": "gsb020",
+      "name": "화장품/비누",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gsb020",
+      "parent_id": "gsb0"
+    },
+    {
+      "id": "gsb040",
+      "name": "침구류",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gsb040",
+      "parent_id": "gsb0"
+    },
+    {
+      "id": "gsb050",
+      "name": "기타",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gsb050",
+      "parent_id": "gsb0"
+    },
+    {
+      "id": "gsb060",
+      "name": "화훼",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gsb060",
+      "parent_id": "gsb0"
+    },
+    {
+      "id": "gsc0",
+      "name": "친환경인증",
+      "url": "https://gsmall.cyso.co.kr/shop/list.php?ca_id=gsc0"
+    }
+  ],
+  "sample_products": [
+    {
+      "id": "1728614449",
+      "name": "[경산축산농협]한우 안심300g (1+등급)",
+      "url": "https://gsmall.cyso.co.kr/shop/item.php?it_id=1728614449",
+      "price": 39900,
+      "category_id": "gs4010"
+    },
+    {
+      "id": "1728100769",
+      "name": "[아싸고기], 오븐에 구운 아싸우리막창 찐名品 400g(소스100g포함)",
+      "url": "https://gsmall.cyso.co.kr/shop/item.php?it_id=1728100769",
+      "price": 16000,
+      "category_id": "gs4020"
+    },
+    {
+      "id": "1701152627",
+      "name": "[농업회사법인 (주)피밀리] 흑돼지 쫄깃 막구이 500g",
+      "url": "https://gsmall.cyso.co.kr/shop/item.php?it_id=1701152627",
+      "price": 12000,
+      "category_id": "gs4020"
+    },
+    {
+      "id": "1602028681",
+      "name": "[뚝배기식품] 경산대추고추장 500g",
+      "url": "https://gsmall.cyso.co.kr/shop/item.php?it_id=1602028681",
+      "price": 15000,
+      "category_id": "gs8020"
+    },
+    {
+      "id": "1601951132",
+      "name": "[뚝배기식품] 경산대추고추장 1kg",
+      "url": "https://gsmall.cyso.co.kr/shop/item.php?it_id=1601951132",
+      "price": 27000,
+      "category_id": "gs8020"
+    },
+    {
+      "id": "1601950794",
+      "name": "[뚝배기식품] 경산대추된장 450g",
+      "url": "https://gsmall.cyso.co.kr/shop/item.php?it_id=1601950794",
+      "price": 11000,
+      "category_id": "gs8020"
+    },
+    {
+      "id": "1601945887",
+      "name": "[뚝배기식품] 경산대추된장 900g",
+      "url": "https://gsmall.cyso.co.kr/shop/item.php?it_id=1601945887",
+      "price": 19000,
+      "category_id": "gs8020"
+    },
+    {
+      "id": "1570802590",
+      "name": "뚝배기식품 - 3종선물세트",
+      "url": "https://gsmall.cyso.co.kr/shop/item.php?it_id=1570802590",
+      "price": 0,
+      "category_id": "gs8020"
+    }
+  ],
+  "data_location": {
+    "product_list_container": ".sct.sct_40",
+    "product_item_selector": ".sct_li",
+    "product_name_selector": ".sct_txt a",
+    "product_price_selector": ".sct_cost",
+    "product_image_selector": ".sct_img img",
+    "product_link_selector": ".sct_img > a, .sct_txt > a"
+  },
+  "platform": "CYSO",
+  "requires_javascript": false,
+  "notes": "경산시 공식쇼핑몰. CYSO 플랫폼 기반으로 제품 ID는 it_id 파라미터, 카테고리는 ca_id 파라미터 사용. 카테고리 ID는 'gs'로 시작하며 계층 구조를 가짐."
+}

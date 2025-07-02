@@ -1,0 +1,23 @@
+{
+  "name": "gwangmyeong-value-mall-scraper",
+  "version": "1.0.0",
+  "description": "Scraper for Gwangmyeong Value Mall (광명가치몰)",
+  "main": "scraper.ts",
+  "scripts": {
+    "scrape": "tsx scraper.ts",
+    "build": "tsc",
+    "scrape:compiled": "node dist/scraper.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

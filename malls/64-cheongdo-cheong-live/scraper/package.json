@@ -1,0 +1,21 @@
+{
+  "name": "scraper-mall-64",
+  "version": "1.0.0",
+  "description": "Scraper for cheongdo-cheong-live",
+  "main": "scraper.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/scraper.js",
+    "dev": "ts-node scraper.ts"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "typescript": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/cheerio": "^0.22.35",
+    "ts-node": "^10.9.0"
+  }
+}

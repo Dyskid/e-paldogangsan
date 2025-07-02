@@ -1,0 +1,10 @@
+{
+  "mallId": 39,
+  "mallName": "진안고원몰",
+  "baseUrl": "https://xn--299az5xoii3qb66f.com/",
+  "requiresJavaScript": false,
+  "scrapeInterval": 86400000,
+  "retryAttempts": 3,
+  "requestDelay": 2000,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+}

@@ -1,36 +1,27 @@
-# Analysis Report for 함안몰 (ID: 91)
+# 함안몰 (ID: 91) Analysis Report
 
-## Status: Partially Successful
+## Status: Partial Success
 
-### Summary
-The analysis of 함안몰 (hamanmall.com) was partially successful. The site structure was identified, but complete product extraction would require JavaScript execution capabilities.
+## Summary
+- **URL**: https://hamanmall.com
+- **Categories Found**: 0
+- **Requires JavaScript**: No
+- **Pagination Type**: none
 
-### Key Findings
+## Details
 
-1. **Platform**: The site is built on FirstMall e-commerce platform
-2. **Dynamic Content**: Products are loaded dynamically via JavaScript/AJAX
-3. **URL Structure**:
-   - Categories: `/goods/catalog?code=XXXX`
-   - Product details: `/goods/view?no=XXXX`
+### Categories
+No categories found
 
-### Categories Found
-- 농축산물 (Agricultural products)
-- 가공식품 (Processed foods)
-- 공예품 (Crafts)
-- 건강식품 (Health foods)
+### URL Patterns
+- Category: Not determined
+- Product: /product/{productId}
 
-### Technical Challenges
-1. **JavaScript Requirement**: The site heavily relies on JavaScript for content rendering
-2. **AJAX Loading**: Product listings are loaded dynamically after initial page load
-3. **No Static Product Data**: Product information is not available in the initial HTML response
 
-### Recommendations
-To fully scrape this site, you would need:
-1. A headless browser (like Puppeteer or Playwright) to execute JavaScript
-2. Wait for AJAX requests to complete before extracting data
-3. Monitor network requests to identify the actual API endpoints for product data
+### Product Structure
+- Container: Not found
+- Name Selector: Not found
+- Price Selector: Not found
 
-### Files Created
-- HTML samples saved in `requirements/` directory
-- Analysis TypeScript file: `analyze-91.ts`
-- Analysis result would be in: `analysis-91.json` (after running the TypeScript file)
+### Notes
+Unable to find category structure. Manual inspection required.

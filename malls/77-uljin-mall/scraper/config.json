@@ -1,0 +1,19 @@
+{
+  "mallId": undefined,
+  "mallName": "uljin-mall",
+  "baseUrl": "https://ujmall.cyso.co.kr/",
+  "scrapeConfig": {
+    "maxCategories": 20,
+    "maxPagesPerCategory": 5,
+    "maxProductsPerPage": 50,
+    "rateLimitMs": 1000
+  },
+  "selectors": {
+    "category": ".category a",
+    "productContainer": ".product-item",
+    "productName": ".name",
+    "productPrice": ".price",
+    "productImage": "img",
+    "productLink": "a"
+  }
+}

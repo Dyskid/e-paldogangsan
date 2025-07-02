@@ -1,0 +1,478 @@
+{
+  "summary": {
+    "totalMalls": 93,
+    "reportsAnalyzed": 86,
+    "successful": 82,
+    "failed": 1,
+    "unknown": 3,
+    "missing": 7
+  },
+  "successful": [
+    {
+      "id": 1,
+      "name": "1-we-mall",
+      "hasJson": true
+    },
+    {
+      "id": 2,
+      "name": "2-cham-dalseong-dalseong-county",
+      "hasJson": true
+    },
+    {
+      "id": 3,
+      "name": "3-gwangju-kimchi-mall",
+      "hasJson": true
+    },
+    {
+      "id": 4,
+      "name": "4-daejeon-love-mall",
+      "hasJson": true
+    },
+    {
+      "id": 5,
+      "name": "5-chack-chack-chack",
+      "hasJson": true
+    },
+    {
+      "id": 6,
+      "name": "6-osan-together-market",
+      "hasJson": true
+    },
+    {
+      "id": 7,
+      "name": "7-gwangmyeong-value-mall",
+      "hasJson": true
+    },
+    {
+      "id": 8,
+      "name": "8-yangju-farmers-market",
+      "hasJson": true
+    },
+    {
+      "id": 9,
+      "name": "9-market-gyeonggi",
+      "hasJson": true
+    },
+    {
+      "id": 10,
+      "name": "10-gangwon-the-mall",
+      "hasJson": true
+    },
+    {
+      "id": 11,
+      "name": "11-wonju-mall",
+      "hasJson": true
+    },
+    {
+      "id": 12,
+      "name": "12-gangneung-mall",
+      "hasJson": true
+    },
+    {
+      "id": 13,
+      "name": "13-goseong-mall",
+      "hasJson": true
+    },
+    {
+      "id": 14,
+      "name": "14-donghae-mall",
+      "hasJson": true
+    },
+    {
+      "id": 15,
+      "name": "15-samcheok-mall",
+      "hasJson": true
+    },
+    {
+      "id": 16,
+      "name": "16-yanggu-mall",
+      "hasJson": true
+    },
+    {
+      "id": 17,
+      "name": "17-yangyang-mall",
+      "hasJson": true
+    },
+    {
+      "id": 18,
+      "name": "18-yeongwol-mall",
+      "hasJson": true
+    },
+    {
+      "id": 19,
+      "name": "19-inje-mall",
+      "hasJson": true
+    },
+    {
+      "id": 20,
+      "name": "20-cheorwon-mall",
+      "hasJson": true
+    },
+    {
+      "id": 21,
+      "name": "21-jeongseon-mall",
+      "hasJson": true
+    },
+    {
+      "id": 22,
+      "name": "22-taebaek-mall",
+      "hasJson": true
+    },
+    {
+      "id": 23,
+      "name": "23-hoengseong-mall",
+      "hasJson": true
+    },
+    {
+      "id": 24,
+      "name": "24-chuncheon-mall",
+      "hasJson": true
+    },
+    {
+      "id": 25,
+      "name": "25-hongcheon-mall",
+      "hasJson": true
+    },
+    {
+      "id": 26,
+      "name": "26-pyeongchang-mall",
+      "hasJson": true
+    },
+    {
+      "id": 27,
+      "name": "27-eumseong-market",
+      "hasJson": true
+    },
+    {
+      "id": 28,
+      "name": "28-jincheon-mall",
+      "hasJson": true
+    },
+    {
+      "id": 29,
+      "name": "29-goesan-market",
+      "hasJson": true
+    },
+    {
+      "id": 30,
+      "name": "30-farm-love",
+      "hasJson": true
+    },
+    {
+      "id": 31,
+      "name": "31-dangjin-farm",
+      "hasJson": true
+    },
+    {
+      "id": 32,
+      "name": "32-e-hongseong-market",
+      "hasJson": true
+    },
+    {
+      "id": 33,
+      "name": "33-seosan-ttre",
+      "hasJson": true
+    },
+    {
+      "id": 34,
+      "name": "34-buan-grandmas-garden",
+      "hasJson": true
+    },
+    {
+      "id": 35,
+      "name": "35-maple-beauty-jeongeup",
+      "hasJson": true
+    },
+    {
+      "id": 36,
+      "name": "36-horizon-mall-gimje",
+      "hasJson": true
+    },
+    {
+      "id": 37,
+      "name": "37-jeonbuk-fresh-market",
+      "hasJson": true
+    },
+    {
+      "id": 38,
+      "name": "38-iksan-mall",
+      "hasJson": true
+    },
+    {
+      "id": 39,
+      "name": "39-jinan-highland-mall",
+      "hasJson": true
+    },
+    {
+      "id": 40,
+      "name": "40-jangsu-mall",
+      "hasJson": true
+    },
+    {
+      "id": 41,
+      "name": "41-gochang-market",
+      "hasJson": true
+    },
+    {
+      "id": 42,
+      "name": "42-imsil-mall",
+      "hasJson": true
+    },
+    {
+      "id": 43,
+      "name": "43-sunchang-local-food-shopping-mall",
+      "hasJson": true
+    },
+    {
+      "id": 44,
+      "name": "44-haegaram",
+      "hasJson": true
+    },
+    {
+      "id": 45,
+      "name": "45-namdo-market",
+      "hasJson": true
+    },
+    {
+      "id": 46,
+      "name": "46-yeosu-mall",
+      "hasJson": true
+    },
+    {
+      "id": 47,
+      "name": "47-happy-good-farm",
+      "hasJson": true
+    },
+    {
+      "id": 48,
+      "name": "48-boseong-mall",
+      "hasJson": true
+    },
+    {
+      "id": 49,
+      "name": "49-naju-mall",
+      "hasJson": true
+    },
+    {
+      "id": 50,
+      "name": "50-suncheon-local-food-together-store",
+      "hasJson": true
+    },
+    {
+      "id": 51,
+      "name": "51-shinan-1004-mall",
+      "hasJson": true
+    },
+    {
+      "id": 54,
+      "name": "54-jindo-arirang-mall",
+      "hasJson": true
+    },
+    {
+      "id": 56,
+      "name": "56-hampyeong-cheonji-mall",
+      "hasJson": true
+    },
+    {
+      "id": 61,
+      "name": "61-gokseong-mall-gokseong-agricultural-products-mall",
+      "hasJson": true
+    },
+    {
+      "id": 62,
+      "name": "62-cyso-gyeongbuk-mall",
+      "hasJson": true
+    },
+    {
+      "id": 63,
+      "name": "63-sangju-myeongsil-sangju-mall",
+      "hasJson": true
+    },
+    {
+      "id": 64,
+      "name": "64-cheongdo-cheong-live",
+      "hasJson": true
+    },
+    {
+      "id": 65,
+      "name": "65-yeongju-market-day",
+      "hasJson": true
+    },
+    {
+      "id": 67,
+      "name": "67-cheongsong-mall",
+      "hasJson": true
+    },
+    {
+      "id": 68,
+      "name": "68-yeongyang-onsim-market",
+      "hasJson": true
+    },
+    {
+      "id": 69,
+      "name": "69-ulleungdo",
+      "hasJson": true
+    },
+    {
+      "id": 70,
+      "name": "70-bonghwa-market",
+      "hasJson": true
+    },
+    {
+      "id": 71,
+      "name": "71-goryeong-mall",
+      "hasJson": true
+    },
+    {
+      "id": 72,
+      "name": "72-gimcheon-nodaji-market",
+      "hasJson": true
+    },
+    {
+      "id": 73,
+      "name": "73-yecheon-market",
+      "hasJson": true
+    },
+    {
+      "id": 74,
+      "name": "74-mungyeong-morning-of-saejae",
+      "hasJson": true
+    },
+    {
+      "id": 75,
+      "name": "75-chilgok-mall",
+      "hasJson": true
+    },
+    {
+      "id": 76,
+      "name": "76-uiseong-market-day",
+      "hasJson": false
+    },
+    {
+      "id": 77,
+      "name": "77-uljin-mall",
+      "hasJson": true
+    },
+    {
+      "id": 78,
+      "name": "78-yeongdeok-market",
+      "hasJson": false
+    },
+    {
+      "id": 79,
+      "name": "79-gyeongsan-mall",
+      "hasJson": false
+    },
+    {
+      "id": 80,
+      "name": "80-gyeongju-mall",
+      "hasJson": false
+    },
+    {
+      "id": 81,
+      "name": "81-gumi-farm",
+      "hasJson": true
+    },
+    {
+      "id": 82,
+      "name": "82-starlight-village-market-yeongcheon",
+      "hasJson": true
+    },
+    {
+      "id": 83,
+      "name": "83-pohang-market",
+      "hasJson": true
+    },
+    {
+      "id": 84,
+      "name": "84-e-gyeongnam-mall",
+      "hasJson": true
+    },
+    {
+      "id": 85,
+      "name": "85-toyoae-uiryeong",
+      "hasJson": true
+    },
+    {
+      "id": 86,
+      "name": "86-namhae-mall",
+      "hasJson": true
+    },
+    {
+      "id": 87,
+      "name": "87-san-n-cheong-sancheong",
+      "hasJson": true
+    },
+    {
+      "id": 88,
+      "name": "88-dinosaur-land-goseong",
+      "hasJson": true
+    },
+    {
+      "id": 89,
+      "name": "89-hamyang-mall",
+      "hasJson": true
+    },
+    {
+      "id": 90,
+      "name": "90-jinju-dream",
+      "hasJson": true
+    }
+  ],
+  "failed": [
+    {
+      "id": 66,
+      "name": "66-andong-market",
+      "errors": [
+        "unable to verify the first certificate"
+      ],
+      "issues": [
+        "SSL/Certificate issues"
+      ]
+    }
+  ],
+  "unknown": [
+    {
+      "id": 91,
+      "name": "91-haman-mall"
+    },
+    {
+      "id": 92,
+      "name": "92-gimhae-on-mall"
+    },
+    {
+      "id": 93,
+      "name": "93-e-jeju-mall"
+    }
+  ],
+  "missing": [
+    {
+      "mallId": 52,
+      "mallName": "52-jangheung-mall-mountain-sea-jangheung-mall"
+    },
+    {
+      "mallId": 53,
+      "mallName": "53-gichandeul-yeongam-mall"
+    },
+    {
+      "mallId": 55,
+      "mallName": "55-wando-county-e-shop"
+    },
+    {
+      "mallId": 57,
+      "mallName": "57-haenam-smile"
+    },
+    {
+      "mallId": 58,
+      "mallName": "58-damyang-market"
+    },
+    {
+      "mallId": 59,
+      "mallName": "59-green-trust-gangjin"
+    },
+    {
+      "mallId": 60,
+      "mallName": "60-hwasun-farm"
+    }
+  ]
+}

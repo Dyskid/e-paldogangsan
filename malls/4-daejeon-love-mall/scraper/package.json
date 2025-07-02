@@ -1,0 +1,28 @@
+{
+  "name": "daejeon-love-mall-scraper",
+  "version": "1.0.0",
+  "description": "Web scraper for 대전사랑몰 (Daejeon Love Mall)",
+  "main": "scraper.ts",
+  "scripts": {
+    "start": "tsx scraper.ts",
+    "build": "tsc",
+    "dev": "tsx watch scraper.ts"
+  },
+  "keywords": [
+    "scraper",
+    "daejeon-love-mall",
+    "daejeon",
+    "shopping-mall",
+    "ezwel"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^21.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}

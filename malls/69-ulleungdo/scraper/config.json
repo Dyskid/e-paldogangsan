@@ -1,0 +1,19 @@
+{
+  "mallId": 69,
+  "mallName": "ulleungdo",
+  "baseUrl": "https://ulmall.cyso.co.kr",
+  "scrapeConfig": {
+    "maxCategories": 20,
+    "maxPagesPerCategory": 5,
+    "maxProductsPerPage": 50,
+    "rateLimitMs": 1000
+  },
+  "selectors": {
+    "category": ".nav a",
+    "productContainer": ".product-item",
+    "productName": ".goods-header .name, h3.goods-name",
+    "productPrice": ".goods-price .price, .real-price strong",
+    "productImage": "img",
+    "productLink": "a"
+  }
+}

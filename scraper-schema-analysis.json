@@ -1,0 +1,1004 @@
+[
+  {
+    "mallId": 1,
+    "mallName": "1-we-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/1-we-mall/analyze/report-1.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 2,
+    "mallName": "2-cham-dalseong-dalseong-county",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/2-cham-dalseong-dalseong-county/analyze/report-2.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 3,
+    "mallName": "3-gwangju-kimchi-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/3-gwangju-kimchi-mall/analyze/report-3.md",
+    "hasSchema": false,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 4,
+    "mallName": "4-daejeon-love-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/4-daejeon-love-mall/analyze/report-4.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 5,
+    "mallName": "5-chack-chack-chack",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/5-chack-chack-chack/analyze/report-5.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "Network connectivity issues",
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 6,
+    "mallName": "6-osan-together-market",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/6-osan-together-market/analyze/report-6.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 7,
+    "mallName": "7-gwangmyeong-value-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/7-gwangmyeong-value-mall/analyze/report-7.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "Network connectivity issues",
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 8,
+    "mallName": "8-yangju-farmers-market",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/8-yangju-farmers-market/analyze/report-8.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 9,
+    "mallName": "9-market-gyeonggi",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/9-market-gyeonggi/analyze/report-9.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 10,
+    "mallName": "10-gangwon-the-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/10-gangwon-the-mall/analyze/report-10.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 11,
+    "mallName": "11-wonju-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/11-wonju-mall/analyze/report-11.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 12,
+    "mallName": "12-gangneung-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/12-gangneung-mall/analyze/report-12.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 13,
+    "mallName": "13-goseong-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/13-goseong-mall/analyze/report-13.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "Redirect issues detected",
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 14,
+    "mallName": "14-donghae-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/14-donghae-mall/analyze/report-14.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 15,
+    "mallName": "15-samcheok-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/15-samcheok-mall/analyze/report-15.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 16,
+    "mallName": "16-yanggu-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/16-yanggu-mall/analyze/report-16.md",
+    "hasSchema": false,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 17,
+    "mallName": "17-yangyang-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/17-yangyang-mall/analyze/report-17.md",
+    "hasSchema": false,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 18,
+    "mallName": "18-yeongwol-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/18-yeongwol-mall/analyze/report-18.md",
+    "hasSchema": false,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 19,
+    "mallName": "19-inje-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/19-inje-mall/analyze/report-19.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 20,
+    "mallName": "20-cheorwon-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/20-cheorwon-mall/analyze/report-20.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 21,
+    "mallName": "21-jeongseon-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/21-jeongseon-mall/analyze/report-21.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "Network connectivity issues",
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 22,
+    "mallName": "22-taebaek-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/22-taebaek-mall/analyze/report-22.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "Network connectivity issues",
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 23,
+    "mallName": "23-hoengseong-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/23-hoengseong-mall/analyze/report-23.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 24,
+    "mallName": "24-chuncheon-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/24-chuncheon-mall/analyze/report-24.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 25,
+    "mallName": "25-hongcheon-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/25-hongcheon-mall/analyze/report-25.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 26,
+    "mallName": "26-pyeongchang-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/26-pyeongchang-mall/analyze/report-26.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 27,
+    "mallName": "27-eumseong-market",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/27-eumseong-market/analyze/report-27.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 28,
+    "mallName": "28-jincheon-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/28-jincheon-mall/analyze/report-28.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 29,
+    "mallName": "29-goesan-market",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/29-goesan-market/analyze/report-29.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "Network connectivity issues",
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 30,
+    "mallName": "30-farm-love",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/30-farm-love/analyze/report-30.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 31,
+    "mallName": "31-dangjin-farm",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/31-dangjin-farm/analyze/report-31.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 32,
+    "mallName": "32-e-hongseong-market",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/32-e-hongseong-market/analyze/report-32.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 33,
+    "mallName": "33-seosan-ttre",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/33-seosan-ttre/analyze/report-33.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 34,
+    "mallName": "34-buan-grandmas-garden",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/34-buan-grandmas-garden/analyze/report-34.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 35,
+    "mallName": "35-maple-beauty-jeongeup",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/35-maple-beauty-jeongeup/analyze/report-35.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 36,
+    "mallName": "36-horizon-mall-gimje",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/36-horizon-mall-gimje/analyze/report-36.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "SSL/Certificate issues",
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 37,
+    "mallName": "37-jeonbuk-fresh-market",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/37-jeonbuk-fresh-market/analyze/report-37.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 38,
+    "mallName": "38-iksan-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/38-iksan-mall/analyze/report-38.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 39,
+    "mallName": "39-jinan-highland-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/39-jinan-highland-mall/analyze/report-39.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 40,
+    "mallName": "40-jangsu-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/40-jangsu-mall/analyze/report-40.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 41,
+    "mallName": "41-gochang-market",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/41-gochang-market/analyze/report-41.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 42,
+    "mallName": "42-imsil-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/42-imsil-mall/analyze/report-42.md",
+    "hasSchema": false,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "SSL/Certificate issues"
+    ]
+  },
+  {
+    "mallId": 43,
+    "mallName": "43-sunchang-local-food-shopping-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/43-sunchang-local-food-shopping-mall/analyze/report-43.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 44,
+    "mallName": "44-haegaram",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/44-haegaram/analyze/report-44.md",
+    "hasSchema": false,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 45,
+    "mallName": "45-namdo-market",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/45-namdo-market/analyze/report-45.md",
+    "hasSchema": false,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 46,
+    "mallName": "46-yeosu-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/46-yeosu-mall/analyze/report-46.md",
+    "hasSchema": false,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 47,
+    "mallName": "47-happy-good-farm",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/47-happy-good-farm/analyze/report-47.md",
+    "hasSchema": false,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 48,
+    "mallName": "48-boseong-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/48-boseong-mall/analyze/report-48.md",
+    "hasSchema": false,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 49,
+    "mallName": "49-naju-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/49-naju-mall/analyze/report-49.md",
+    "hasSchema": false,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 50,
+    "mallName": "50-suncheon-local-food-together-store",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/50-suncheon-local-food-together-store/analyze/report-50.md",
+    "hasSchema": false,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 51,
+    "mallName": "51-shinan-1004-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/51-shinan-1004-mall/analyze/report-51.md",
+    "hasSchema": false,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 54,
+    "mallName": "54-jindo-arirang-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/54-jindo-arirang-mall/analyze/report-54.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 56,
+    "mallName": "56-hampyeong-cheonji-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/56-hampyeong-cheonji-mall/analyze/report-56.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "Redirect issues detected",
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 61,
+    "mallName": "61-gokseong-mall-gokseong-agricultural-products-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/61-gokseong-mall-gokseong-agricultural-products-mall/analyze/report-61.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 62,
+    "mallName": "62-cyso-gyeongbuk-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/62-cyso-gyeongbuk-mall/analyze/report-62.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 63,
+    "mallName": "63-sangju-myeongsil-sangju-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/63-sangju-myeongsil-sangju-mall/analyze/report-63.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 64,
+    "mallName": "64-cheongdo-cheong-live",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/64-cheongdo-cheong-live/analyze/report-64.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 65,
+    "mallName": "65-yeongju-market-day",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/65-yeongju-market-day/analyze/report-65.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 66,
+    "mallName": "66-andong-market",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/66-andong-market/analyze/report-66.md",
+    "hasSchema": false,
+    "schemaStatus": "failed",
+    "missingFields": [],
+    "errors": [
+      "unable to verify the first certificate"
+    ],
+    "notes": [
+      "SSL/Certificate issues"
+    ]
+  },
+  {
+    "mallId": 67,
+    "mallName": "67-cheongsong-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/67-cheongsong-mall/analyze/report-67.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 68,
+    "mallName": "68-yeongyang-onsim-market",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/68-yeongyang-onsim-market/analyze/report-68.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 69,
+    "mallName": "69-ulleungdo",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/69-ulleungdo/analyze/report-69.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 70,
+    "mallName": "70-bonghwa-market",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/70-bonghwa-market/analyze/report-70.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": []
+  },
+  {
+    "mallId": 71,
+    "mallName": "71-goryeong-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/71-goryeong-mall/analyze/report-71.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 72,
+    "mallName": "72-gimcheon-nodaji-market",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/72-gimcheon-nodaji-market/analyze/report-72.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "SSL/Certificate issues"
+    ]
+  },
+  {
+    "mallId": 73,
+    "mallName": "73-yecheon-market",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/73-yecheon-market/analyze/report-73.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 74,
+    "mallName": "74-mungyeong-morning-of-saejae",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/74-mungyeong-morning-of-saejae/analyze/report-74.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 75,
+    "mallName": "75-chilgok-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/75-chilgok-mall/analyze/report-75.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "Network connectivity issues",
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 76,
+    "mallName": "76-uiseong-market-day",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/76-uiseong-market-day/analyze/report-76.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 77,
+    "mallName": "77-uljin-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/77-uljin-mall/analyze/report-77.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 78,
+    "mallName": "78-yeongdeok-market",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/78-yeongdeok-market/analyze/requirements/report-78.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 79,
+    "mallName": "79-gyeongsan-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/79-gyeongsan-mall/analyze/requirements/report-79.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 80,
+    "mallName": "80-gyeongju-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/80-gyeongju-mall/analyze/requirements/report-80.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 81,
+    "mallName": "81-gumi-farm",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/81-gumi-farm/analyze/report-81.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 82,
+    "mallName": "82-starlight-village-market-yeongcheon",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/82-starlight-village-market-yeongcheon/analyze/report-82.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 83,
+    "mallName": "83-pohang-market",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/83-pohang-market/analyze/report-83.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 84,
+    "mallName": "84-e-gyeongnam-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/84-e-gyeongnam-mall/analyze/report-84.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 85,
+    "mallName": "85-toyoae-uiryeong",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/85-toyoae-uiryeong/analyze/report-85.md",
+    "hasSchema": true,
+    "schemaStatus": "success",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 86,
+    "mallName": "86-namhae-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/86-namhae-mall/analyze/report-86.md",
+    "hasSchema": false,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 87,
+    "mallName": "87-san-n-cheong-sancheong",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/87-san-n-cheong-sancheong/analyze/report-87.md",
+    "hasSchema": false,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 88,
+    "mallName": "88-dinosaur-land-goseong",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/88-dinosaur-land-goseong/analyze/report-88.md",
+    "hasSchema": false,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 89,
+    "mallName": "89-hamyang-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/89-hamyang-mall/analyze/report-89.md",
+    "hasSchema": false,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 90,
+    "mallName": "90-jinju-dream",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/90-jinju-dream/analyze/report-90.md",
+    "hasSchema": false,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 91,
+    "mallName": "91-haman-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/91-haman-mall/analyze/report-91.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "Network connectivity issues",
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 92,
+    "mallName": "92-gimhae-on-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/92-gimhae-on-mall/analyze/report-92.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  },
+  {
+    "mallId": 93,
+    "mallName": "93-e-jeju-mall",
+    "reportPath": "/mnt/c/Users/johndoe/Desktop/e-paldogangsan/malls/93-e-jeju-mall/analyze/report-93.md",
+    "hasSchema": true,
+    "schemaStatus": "unknown",
+    "missingFields": [],
+    "errors": [],
+    "notes": [
+      "JavaScript rendering required"
+    ]
+  }
+]

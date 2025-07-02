@@ -1,0 +1,75 @@
+{
+  "mallId": 93,
+  "mallName": "이제주몰",
+  "url": "https://mall.ejeju.net/main/index.do",
+  "categories": [
+    {
+      "name": "제주 농산품",
+      "url": "https://mall.ejeju.net/goods/main.do?cate=1",
+      "id": "1"
+    },
+    {
+      "name": "제주 수산품",
+      "url": "https://mall.ejeju.net/goods/main.do?cate=2",
+      "id": "2"
+    },
+    {
+      "name": "제주 축산품",
+      "url": "https://mall.ejeju.net/goods/main.do?cate=1671",
+      "id": "1671"
+    },
+    {
+      "name": "제주 가공식품",
+      "url": "https://mall.ejeju.net/goods/main.do?cate=4",
+      "id": "4"
+    },
+    {
+      "name": "제주 화장품",
+      "url": "https://mall.ejeju.net/goods/main.do?cate=6",
+      "id": "6"
+    },
+    {
+      "name": "제주 공예품",
+      "url": "https://mall.ejeju.net/goods/main.do?cate=31069",
+      "id": "31069"
+    },
+    {
+      "name": "제주 생활용품",
+      "url": "https://mall.ejeju.net/goods/main.do?cate=1854",
+      "id": "1854"
+    },
+    {
+      "name": "개인결제창",
+      "url": "https://mall.ejeju.net/goods/main.do?cate=1625",
+      "id": "1625"
+    },
+    {
+      "name": "반려동물용품",
+      "url": "https://mall.ejeju.net/goods/main.do?cate=31115",
+      "id": "31115"
+    },
+    {
+      "name": "제주-경기 상생관",
+      "url": "https://mall.ejeju.net/goods/main.do?cate=31154",
+      "id": "31154"
+    }
+  ],
+  "urlPatterns": {
+    "categoryPattern": "/shop/list.php?cate={categoryId}",
+    "productPattern": "/product/{productId}",
+    "paginationPattern": "?page={pageNumber}"
+  },
+  "pagination": {
+    "type": "page",
+    "pageParam": "page"
+  },
+  "requiresJavaScript": false,
+  "productStructure": {
+    "containerSelector": ".product",
+    "itemSelector": ".product",
+    "nameSelector": "",
+    "priceSelector": "",
+    "imageSelector": "",
+    "linkSelector": "a"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "scraper-35",
+  "version": "1.0.0",
+  "description": "Web scraper for mall 35",
+  "main": "scraper-35.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node scraper-35.ts",
+    "scrape": "npm run start"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}

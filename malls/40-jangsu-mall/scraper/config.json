@@ -1,0 +1,10 @@
+{
+  "mallId": 40,
+  "mallName": "장수몰",
+  "baseUrl": "https://www.xn--352bl9k1ze.com/",
+  "requiresJavaScript": false,
+  "scrapeInterval": 86400000,
+  "retryAttempts": 3,
+  "requestDelay": 2000,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+}
