@@ -109,11 +109,29 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
     const handleClick = (event: Event) => {
       const mouseEvent = event as MouseEvent;
       const target = mouseEvent.target as Element;
-      if (target && target.tagName === 'path' && target.hasAttribute('name')) {
-        const locationName = target.getAttribute('name');
+      
+      console.log('Click event:', {
+        tagName: target?.tagName,
+        attributes: target ? Array.from(target.attributes).map(attr => `${attr.name}="${attr.value}"`) : [],
+        className: target?.className,
+        id: target?.id
+      });
+      
+      if (target && target.tagName === 'path') {
+        // Try different attributes that might contain the region name
+        const locationName = target.getAttribute('name') || 
+                           target.getAttribute('data-name') || 
+                           target.getAttribute('id') ||
+                           target.getAttribute('data-region');
+                           
+        console.log('Location name found:', locationName);
+        
         if (locationName) {
           const regionId = reverseMapping[locationName];
+          console.log('Region ID mapping:', locationName, '->', regionId);
+          
           if (regionId && onClick) {
+            console.log('Calling onClick with:', regionId);
             onClick(regionId);
           }
         }
@@ -133,6 +151,19 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
       if (svgElement) {
         svgElement.addEventListener('click', handleClick);
         svgElement.addEventListener('mouseleave', handleMouseOut);
+        
+        // Log the SVG structure for debugging
+        const paths = svgElement.querySelectorAll('path');
+        console.log('Found paths:', paths.length);
+        paths.forEach((path, index) => {
+          if (index < 3) { // Log first 3 paths only
+            console.log(`Path ${index}:`, {
+              className: path.className,
+              id: path.id,
+              attributes: Array.from(path.attributes).map(attr => `${attr.name}="${attr.value.substring(0, 50)}..."`),
+            });
+          }
+        });
       }
     }, 100);
 
