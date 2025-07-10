@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useMemo, useRef } from 'react';
+import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react';
 import { SimpleSouthKoreaMapChart } from 'react-simple-south-korea-map-chart';
 import 'react-simple-south-korea-map-chart/dist/map.css';
 
@@ -31,6 +31,8 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
 }) => {
   const [hoveredRegion, setHoveredRegion] = useState<string | null>(null);
   const pathColorsRef = useRef<{ [key: string]: string }>({});
+  const currentHoveredPathRef = useRef<SVGPathElement | null>(null);
+  const svgContainerRef = useRef<Element | null>(null);
 
   // Convert region codes to the format expected by the package
   const regionMapping: { [key: string]: string } = {
@@ -99,12 +101,12 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
   }));
 
   // Get original color for a region
-  const getOriginalColor = (regionId: string) => {
+  const getOriginalColor = useCallback((regionId: string) => {
     if (typeof fillColor === 'function') {
       return fillColor(regionId);
     }
     return fillColor || '#dbeafe';
-  };
+  }, [fillColor]);
 
   // Color function based on count
   const setColorByCount = (count: number) => {
@@ -119,26 +121,51 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
   // Custom tooltip component (disabled to avoid conflicts)
   const CustomTooltip = () => null;
 
+  // Clear hover state - memoized to prevent recreation
+  const clearHoverState = useCallback(() => {
+    if (currentHoveredPathRef.current) {
+      const path = currentHoveredPathRef.current;
+      const svgId = path.getAttribute('id');
+      
+      if (svgId && svgIdMapping[svgId]) {
+        const regionId = svgIdMapping[svgId];
+        
+        // Only restore color if not selected
+        if (regionId !== selectedRegion) {
+          const originalColor = pathColorsRef.current[svgId] || getOriginalColor(regionId);
+          path.setAttribute('fill', originalColor);
+        }
+      }
+      
+      currentHoveredPathRef.current = null;
+      setHoveredRegion(null);
+      
+      if (onMouseLeave) {
+        onMouseLeave();
+      }
+    }
+  }, [selectedRegion, onMouseLeave, getOriginalColor]);
+
   // Initialize colors and set up event handlers
   useEffect(() => {
     const initializeAndSetupEvents = () => {
       const svgElement = document.querySelector('.svg-map');
       if (!svgElement) return;
 
+      svgContainerRef.current = svgElement;
+
       // Store initial colors
       const paths = svgElement.querySelectorAll('path');
       paths.forEach(path => {
         const id = path.getAttribute('id');
-        if (id) {
+        if (id && svgIdMapping[id]) {
           const regionId = svgIdMapping[id];
-          if (regionId) {
-            const originalColor = getOriginalColor(regionId);
-            pathColorsRef.current[id] = originalColor;
-            path.setAttribute('fill', originalColor);
-            
-            // Set cursor style
-            path.style.cursor = 'pointer';
-          }
+          const originalColor = getOriginalColor(regionId);
+          pathColorsRef.current[id] = originalColor;
+          path.setAttribute('fill', originalColor);
+          
+          // Set cursor style
+          path.style.cursor = 'pointer';
         }
       });
     };
@@ -151,7 +178,7 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
   // Handle all mouse and click events
   useEffect(() => {
     const handleClick = (event: Event) => {
-      const target = event.target as HTMLElement;
+      const target = event.target as SVGPathElement;
       if (target.tagName === 'path') {
         const svgId = target.getAttribute('id');
         if (svgId && svgIdMapping[svgId]) {
@@ -164,13 +191,19 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
     };
 
     const handleMouseEnter = (event: Event) => {
-      const target = event.target as HTMLElement;
+      const target = event.target as SVGPathElement;
       if (target.tagName === 'path') {
         const svgId = target.getAttribute('id');
         if (svgId && svgIdMapping[svgId]) {
           const regionId = svgIdMapping[svgId];
           
-          // Update hover state
+          // Clear previous hover state if any
+          if (currentHoveredPathRef.current && currentHoveredPathRef.current !== target) {
+            clearHoverState();
+          }
+          
+          // Set new hover state
+          currentHoveredPathRef.current = target;
           setHoveredRegion(regionId);
           
           // Apply hover color if not selected
@@ -187,27 +220,40 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
     };
 
     const handleMouseLeave = (event: Event) => {
-      const target = event.target as HTMLElement;
-      if (target.tagName === 'path') {
-        const svgId = target.getAttribute('id');
-        if (svgId && svgIdMapping[svgId]) {
-          const regionId = svgIdMapping[svgId];
-          
-          // Clear hover state
-          setHoveredRegion(null);
-          
-          // Restore color based on selection state
-          if (regionId === selectedRegion) {
-            target.setAttribute('fill', selectedColor);
-          } else {
-            const originalColor = pathColorsRef.current[svgId] || getOriginalColor(regionId);
-            target.setAttribute('fill', originalColor);
-          }
-          
-          // Call callback
-          if (onMouseLeave) {
-            onMouseLeave();
-          }
+      const target = event.target as SVGPathElement;
+      if (target.tagName === 'path' && target === currentHoveredPathRef.current) {
+        clearHoverState();
+      }
+    };
+
+    // Global mouse move handler to catch missed leave events
+    const handleGlobalMouseMove = (event: MouseEvent) => {
+      if (!svgContainerRef.current || !currentHoveredPathRef.current) return;
+
+      const svgRect = svgContainerRef.current.getBoundingClientRect();
+      const isInsideSvg = 
+        event.clientX >= svgRect.left &&
+        event.clientX <= svgRect.right &&
+        event.clientY >= svgRect.top &&
+        event.clientY <= svgRect.bottom;
+
+      // If mouse is outside SVG bounds, clear hover
+      if (!isInsideSvg) {
+        clearHoverState();
+        return;
+      }
+
+      // Check if mouse is still over the current hovered element
+      const elementAtPoint = document.elementFromPoint(event.clientX, event.clientY);
+      if (elementAtPoint !== currentHoveredPathRef.current && 
+          currentHoveredPathRef.current) {
+        // Mouse has moved to a different element
+        const isOverAnotherPath = elementAtPoint?.tagName === 'path' && 
+                                 elementAtPoint.parentElement === currentHoveredPathRef.current.parentElement;
+        
+        if (!isOverAnotherPath) {
+          // Not over any path, clear hover
+          clearHoverState();
         }
       }
     };
@@ -226,21 +272,31 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
       svgElement.addEventListener('click', handleClick);
       svgElement.addEventListener('mouseenter', handleMouseEnter, true);
       svgElement.addEventListener('mouseleave', handleMouseLeave, true);
+
+      // Add global mouse move listener
+      window.addEventListener('mousemove', handleGlobalMouseMove);
     };
 
     const timeoutId = setTimeout(attachEvents, 300);
 
     return () => {
       clearTimeout(timeoutId);
+      
+      // Clean up all event listeners
       const svgElement = document.querySelector('.svg-map');
       if (svgElement) {
         svgElement.removeEventListener('click', handleClick);
         svgElement.removeEventListener('mouseenter', handleMouseEnter, true);
         svgElement.removeEventListener('mouseleave', handleMouseLeave, true);
       }
+      
+      window.removeEventListener('mousemove', handleGlobalMouseMove);
+      
+      // Clear any remaining hover state
+      clearHoverState();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [onClick, onMouseEnter, onMouseLeave, selectedRegion, hoverColor, selectedColor]);
+  }, [onClick, onMouseEnter, selectedRegion, hoverColor, clearHoverState]);
 
   // Update colors when selection changes
   useEffect(() => {
@@ -256,7 +312,7 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
           
           if (regionId === selectedRegion) {
             path.setAttribute('fill', selectedColor);
-          } else if (regionId !== hoveredRegion) {
+          } else if (path !== currentHoveredPathRef.current) {
             const originalColor = pathColorsRef.current[svgId] || getOriginalColor(regionId);
             path.setAttribute('fill', originalColor);
           }
