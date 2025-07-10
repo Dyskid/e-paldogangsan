@@ -7,8 +7,11 @@ import MallCard from './MallCard';
 import AllMallsDisplay from './AllMallsDisplay';
 
 const KoreaMap = dynamic(
-  () => import('react-simple-south-korea-map-chart'),
-  { ssr: false }
+  () => import('react-simple-south-korea-map-chart').then(mod => mod.default || mod),
+  { 
+    ssr: false,
+    loading: () => <div className="w-full h-96 bg-gray-100 animate-pulse rounded-lg" />
+  }
 );
 
 interface InteractiveMapProps {
