@@ -25,15 +25,37 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({ regions, malls }) => {
 
   const regionDataMap = new Map(regions.map(r => [r.id, r]));
 
+  // Create a mapping from English IDs to Korean names used in mall data
+  const regionIdToKoreanMap: { [key: string]: string } = {
+    'seoul': '서울',
+    'busan': '부산',
+    'daegu': '대구',
+    'incheon': '인천',
+    'gwangju': '광주',
+    'daejeon': '대전',
+    'ulsan': '울산',
+    'sejong': '세종',
+    'gyeonggi': '경기',
+    'gangwon': '강원',
+    'chungbuk': '충북',
+    'chungnam': '충남',
+    'jeonbuk': '전북',
+    'jeonnam': '전남',
+    'gyeongbuk': '경북',
+    'gyeongnam': '경남',
+    'jeju': '제주'
+  };
+
   const selectedRegion = selectedRegionId ? regionDataMap.get(selectedRegionId) || null : null;
   const hoveredRegion = hoveredRegionId ? regionDataMap.get(hoveredRegionId) || null : null;
 
   const filteredMalls = selectedRegionId
-    ? malls.filter(mall => mall.region === selectedRegionId)
+    ? malls.filter(mall => mall.region === regionIdToKoreanMap[selectedRegionId])
     : [];
 
   const getMallCount = (regionId: string) => {
-    return malls.filter(mall => mall.region === regionId).length;
+    const koreanRegionName = regionIdToKoreanMap[regionId];
+    return malls.filter(mall => mall.region === koreanRegionName).length;
   };
 
   const getRegionColor = (regionId: string) => {
