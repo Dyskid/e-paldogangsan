@@ -94,10 +94,31 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
     return mapping;
   }, []);
 
-  // Prepare data for the chart
+  // Create unique identifiers for each region (10000 + index)
+  const regionUniqueIds: { [key: string]: number } = {
+    'seoul': 10001,
+    'busan': 10002,
+    'daegu': 10003,
+    'incheon': 10004,
+    'gwangju': 10005,
+    'daejeon': 10006,
+    'ulsan': 10007,
+    'sejong': 10008,
+    'gyeonggi': 10009,
+    'gangwon': 10010,
+    'chungbuk': 10011,
+    'chungnam': 10012,
+    'jeonbuk': 10013,
+    'jeonnam': 10014,
+    'gyeongbuk': 10015,
+    'gyeongnam': 10016,
+    'jeju': 10017
+  };
+
+  // Prepare data for the chart with unique counts
   const data = Object.keys(regionMapping).map(regionId => ({
     locale: regionMapping[regionId],
-    count: getMallCount(regionId)
+    count: regionUniqueIds[regionId] // Use unique ID instead of mall count
   }));
 
   // Get original color for a region
@@ -108,28 +129,36 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
     return fillColor || '#dbeafe';
   }, [fillColor]);
 
-  // Create a mapping of count to color that SimpleSouthKoreaMapChart expects
-  const countToColorMap = useMemo(() => {
-    const map: { [count: number]: string } = {};
-    
-    data.forEach(d => {
-      const regionId = reverseMapping[d.locale];
-      const count = d.count;
-      
-      // Only set if not already set (to handle multiple regions with same count)
-      if (!(count in map)) {
-        map[count] = getOriginalColor(regionId);
-      }
+  // Create reverse mapping from unique ID to region ID
+  const uniqueIdToRegion = useMemo(() => {
+    const mapping: { [key: number]: string } = {};
+    Object.entries(regionUniqueIds).forEach(([regionId, uniqueId]) => {
+      mapping[uniqueId] = regionId;
     });
-    
-    return map;
-  }, [data, reverseMapping, getOriginalColor]);
+    return mapping;
+  }, []);
 
-  // Color function based on count
+  // Color function based on unique count
   const setColorByCount = (count: number) => {
-    // This function is called by SimpleSouthKoreaMapChart
-    // We should return base colors here, and override with our own logic
-    return countToColorMap[count] || '#dbeafe';
+    // Find which region this count belongs to
+    const regionId = uniqueIdToRegion[count];
+    
+    if (!regionId) {
+      return '#dbeafe'; // Default color
+    }
+    
+    // Check if this region is selected
+    if (regionId === selectedRegion) {
+      return selectedColor;
+    }
+    
+    // Check if this region is hovered
+    if (regionId === hoveredRegion) {
+      return hoverColor;
+    }
+    
+    // Return original color for this specific region
+    return getOriginalColor(regionId);
   };
 
   // Custom tooltip component (disabled to avoid conflicts)
@@ -245,8 +274,21 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
 
     const handleMouseLeave = (event: Event) => {
       const target = event.target as SVGPathElement;
-      if (target.tagName === 'path' && target === currentHoveredPathRef.current) {
-        clearHoverState();
+      if (target.tagName === 'path') {
+        const svgId = target.getAttribute('id');
+        if (svgId && svgIdMapping[svgId]) {
+          const regionId = svgIdMapping[svgId];
+          
+          // Only clear if this was the hovered region
+          if (regionId === hoveredRegion) {
+            setHoveredRegion(null);
+            currentHoveredPathRef.current = null;
+            
+            if (onMouseLeave) {
+              onMouseLeave();
+            }
+          }
+        }
       }
     };
 
@@ -322,41 +364,6 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [onClick, onMouseEnter, selectedRegion, hoverColor, clearHoverState]);
 
-  // Force update colors after chart re-renders
-  useEffect(() => {
-    const forceUpdateInterval = setInterval(() => {
-      if (currentHoveredPathRef.current && hoveredRegion) {
-        const path = currentHoveredPathRef.current;
-        const svgId = path.getAttribute('id');
-        
-        if (svgId) {
-          const regionId = svgIdMapping[svgId];
-          if (regionId === hoveredRegion && regionId !== selectedRegion) {
-            path.setAttribute('fill', hoverColor);
-          }
-        }
-      }
-      
-      // Update selected region color
-      if (selectedRegion) {
-        const svgElement = document.querySelector('.svg-map');
-        if (svgElement) {
-          // Apply color only to the correct path
-          Object.entries(svgIdMapping).forEach(([svgId, regionId]) => {
-            if (regionId === selectedRegion) {
-              const path = svgElement.querySelector(`#${svgId}`);
-              if (path) {
-                path.setAttribute('fill', selectedColor);
-              }
-            }
-          });
-        }
-      }
-    }, 100);
-
-    return () => clearInterval(forceUpdateInterval);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedRegion, hoveredRegion, selectedColor, hoverColor]);
 
   return (
     <div className="korea-map-wrapper w-full">
