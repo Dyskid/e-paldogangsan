@@ -150,7 +150,7 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
 
   // Handle all mouse and click events
   useEffect(() => {
-    const handleClick = (event: MouseEvent) => {
+    const handleClick = (event: Event) => {
       const target = event.target as HTMLElement;
       if (target.tagName === 'path') {
         const svgId = target.getAttribute('id');
@@ -163,7 +163,7 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
       }
     };
 
-    const handleMouseEnter = (event: MouseEvent) => {
+    const handleMouseEnter = (event: Event) => {
       const target = event.target as HTMLElement;
       if (target.tagName === 'path') {
         const svgId = target.getAttribute('id');
@@ -186,7 +186,7 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
       }
     };
 
-    const handleMouseLeave = (event: MouseEvent) => {
+    const handleMouseLeave = (event: Event) => {
       const target = event.target as HTMLElement;
       if (target.tagName === 'path') {
         const svgId = target.getAttribute('id');
