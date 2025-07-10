@@ -131,7 +131,7 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({ regions, malls }) => {
             </div>
           </div>
         ) : (
-          <AllMallsDisplay malls={malls} />
+          <AllMallsDisplay malls={malls} regions={regions} />
         )}
       </div>
     </div>
