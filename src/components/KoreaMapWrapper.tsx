@@ -24,6 +24,8 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
   onMouseEnter,
   onMouseLeave,
   fillColor,
+  hoverColor,
+  selectedColor,
   selectedRegion,
   getMallCount,
 }) => {
@@ -177,7 +179,8 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
             
             // Apply hover color directly to the path
             if (regionId !== selectedRegion) {
-              target.setAttribute('fill', hoverColor || '#fbbf24');
+              const color = hoverColor || '#fbbf24';
+              target.setAttribute('fill', color);
             }
             
             setHoveredRegion(regionId);
@@ -239,7 +242,8 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
         svgElement.removeEventListener('mouseout', handleMouseOut);
       }
     };
-  }, [onClick, onMouseEnter, onMouseLeave, reverseMapping, svgIdMapping, selectedRegion, hoverColor, originalColors]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [onClick, onMouseEnter, onMouseLeave, reverseMapping, svgIdMapping, selectedRegion, originalColors]);
 
   // Update selected region color
   useEffect(() => {
@@ -252,7 +256,8 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
         const path = svgElement.querySelector(`#${svgId}`) as HTMLElement;
         if (path && originalColors[svgId]) {
           if (regionId === selectedRegion) {
-            path.setAttribute('fill', selectedColor || '#f59e0b');
+            const color = selectedColor || '#f59e0b';
+            path.setAttribute('fill', color);
           } else {
             path.setAttribute('fill', originalColors[svgId]);
           }
@@ -262,7 +267,8 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
 
     const timeoutId = setTimeout(updateSelectedRegionColor, 150);
     return () => clearTimeout(timeoutId);
-  }, [selectedRegion, selectedColor, originalColors, svgIdMapping]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedRegion, originalColors, svgIdMapping]);
 
   return (
     <div className="korea-map-wrapper w-full">
