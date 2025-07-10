@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useMemo, useCallback } from 'react';
 import dynamic from 'next/dynamic';
 import { Region, Mall } from '@/types';
 import MallCard from './MallCard';
@@ -49,14 +49,15 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({ regions, malls }) => {
   const selectedRegion = selectedRegionId ? regionDataMap.get(selectedRegionId) || null : null;
   const hoveredRegion = hoveredRegionId ? regionDataMap.get(hoveredRegionId) || null : null;
 
-  const filteredMalls = selectedRegionId
-    ? malls.filter(mall => mall.region === regionIdToKoreanMap[selectedRegionId])
-    : [];
+  const filteredMalls = useMemo(() => {
+    if (!selectedRegionId) return [];
+    return malls.filter(mall => mall.region === regionIdToKoreanMap[selectedRegionId]);
+  }, [selectedRegionId, malls]);
 
-  const getMallCount = (regionId: string) => {
+  const getMallCount = useCallback((regionId: string) => {
     const koreanRegionName = regionIdToKoreanMap[regionId];
     return malls.filter(mall => mall.region === koreanRegionName).length;
-  };
+  }, [malls]);
 
   const getRegionColor = (regionId: string) => {
     const mallCount = getMallCount(regionId);
@@ -67,17 +68,17 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({ regions, malls }) => {
     return '#3b82f6';
   };
 
-  const handleClick = (regionCode: string) => {
-    setSelectedRegionId(regionCode === selectedRegionId ? null : regionCode);
-  };
+  const handleClick = useCallback((regionCode: string) => {
+    setSelectedRegionId(prev => prev === regionCode ? null : regionCode);
+  }, []);
 
-  const handleMouseEnter = (regionCode: string) => {
+  const handleMouseEnter = useCallback((regionCode: string) => {
     setHoveredRegionId(regionCode);
-  };
+  }, []);
 
-  const handleMouseLeave = () => {
+  const handleMouseLeave = useCallback(() => {
     setHoveredRegionId(null);
-  };
+  }, []);
 
   return (
     <div className="grid md:grid-cols-2 gap-8 max-w-7xl mx-auto">

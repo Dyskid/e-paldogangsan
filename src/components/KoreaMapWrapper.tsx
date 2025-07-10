@@ -33,6 +33,7 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
   const pathColorsRef = useRef<{ [key: string]: string }>({});
   const currentHoveredPathRef = useRef<SVGPathElement | null>(null);
   const svgContainerRef = useRef<Element | null>(null);
+  const animationFrameRef = useRef<number | null>(null);
 
   // Convert region codes to the format expected by the package
   const regionMapping: { [key: string]: string } = {
@@ -199,29 +200,27 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
 
       svgContainerRef.current = svgElement;
 
-      // Store initial colors and wait for SVG to be fully rendered
-      setTimeout(() => {
-        const paths = svgElement.querySelectorAll('path');
-        
-        paths.forEach(path => {
-          const id = path.getAttribute('id');
-          if (id && svgIdMapping[id]) {
-            const regionId = svgIdMapping[id];
-            const currentFill = path.getAttribute('fill') || '';
-            
-            // Store the actual rendered color
-            if (!pathColorsRef.current[id]) {
-              pathColorsRef.current[id] = currentFill || getOriginalColor(regionId);
-            }
-            
-            // Set cursor style
-            path.style.cursor = 'pointer';
+      // Store initial colors immediately
+      const paths = svgElement.querySelectorAll('path');
+      
+      paths.forEach(path => {
+        const id = path.getAttribute('id');
+        if (id && svgIdMapping[id]) {
+          const regionId = svgIdMapping[id];
+          const currentFill = path.getAttribute('fill') || '';
+          
+          // Store the actual rendered color
+          if (!pathColorsRef.current[id]) {
+            pathColorsRef.current[id] = currentFill || getOriginalColor(regionId);
           }
-        });
-      }, 100);
+          
+          // Set cursor style
+          path.style.cursor = 'pointer';
+        }
+      });
     };
 
-    const timeoutId = setTimeout(initializeAndSetupEvents, 200);
+    const timeoutId = setTimeout(initializeAndSetupEvents, 50);
     return () => clearTimeout(timeoutId);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [fillColor]);
@@ -294,34 +293,42 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
 
     // Global mouse move handler to catch missed leave events
     const handleGlobalMouseMove = (event: MouseEvent) => {
-      if (!svgContainerRef.current || !currentHoveredPathRef.current) return;
-
-      const svgRect = svgContainerRef.current.getBoundingClientRect();
-      const isInsideSvg = 
-        event.clientX >= svgRect.left &&
-        event.clientX <= svgRect.right &&
-        event.clientY >= svgRect.top &&
-        event.clientY <= svgRect.bottom;
-
-      // If mouse is outside SVG bounds, clear hover
-      if (!isInsideSvg) {
-        clearHoverState();
-        return;
+      // Cancel any pending animation frame
+      if (animationFrameRef.current) {
+        cancelAnimationFrame(animationFrameRef.current);
       }
 
-      // Check if mouse is still over the current hovered element
-      const elementAtPoint = document.elementFromPoint(event.clientX, event.clientY);
-      if (elementAtPoint !== currentHoveredPathRef.current && 
-          currentHoveredPathRef.current) {
-        // Mouse has moved to a different element
-        const isOverAnotherPath = elementAtPoint?.tagName === 'path' && 
-                                 elementAtPoint.parentElement === currentHoveredPathRef.current.parentElement;
-        
-        if (!isOverAnotherPath) {
-          // Not over any path, clear hover
+      // Schedule the check for the next animation frame
+      animationFrameRef.current = requestAnimationFrame(() => {
+        if (!svgContainerRef.current || !currentHoveredPathRef.current) return;
+
+        const svgRect = svgContainerRef.current.getBoundingClientRect();
+        const isInsideSvg = 
+          event.clientX >= svgRect.left &&
+          event.clientX <= svgRect.right &&
+          event.clientY >= svgRect.top &&
+          event.clientY <= svgRect.bottom;
+
+        // If mouse is outside SVG bounds, clear hover
+        if (!isInsideSvg) {
           clearHoverState();
+          return;
         }
-      }
+
+        // Check if mouse is still over the current hovered element
+        const elementAtPoint = document.elementFromPoint(event.clientX, event.clientY);
+        if (elementAtPoint !== currentHoveredPathRef.current && 
+            currentHoveredPathRef.current) {
+          // Mouse has moved to a different element
+          const isOverAnotherPath = elementAtPoint?.tagName === 'path' && 
+                                   elementAtPoint.parentElement === currentHoveredPathRef.current.parentElement;
+          
+          if (!isOverAnotherPath) {
+            // Not over any path, clear hover
+            clearHoverState();
+          }
+        }
+      });
     };
 
     // Attach event listeners
@@ -343,7 +350,7 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
       window.addEventListener('mousemove', handleGlobalMouseMove);
     };
 
-    const timeoutId = setTimeout(attachEvents, 300);
+    const timeoutId = setTimeout(attachEvents, 50);
 
     return () => {
       clearTimeout(timeoutId);
@@ -357,6 +364,11 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
       }
       
       window.removeEventListener('mousemove', handleGlobalMouseMove);
+      
+      // Cancel any pending animation frame
+      if (animationFrameRef.current) {
+        cancelAnimationFrame(animationFrameRef.current);
+      }
       
       // Clear any remaining hover state
       clearHoverState();
@@ -373,7 +385,10 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
           height: auto;
         }
         .korea-map-wrapper .svg-map path {
-          transition: fill 0.2s ease;
+          transition: fill 0.1s ease;
+        }
+        .korea-map-wrapper .svg-map path:active {
+          transition: none;
         }
       `}</style>
       <SimpleSouthKoreaMapChart
