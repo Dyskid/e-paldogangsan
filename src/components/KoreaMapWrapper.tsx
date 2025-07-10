@@ -137,7 +137,7 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
             path.setAttribute('fill', originalColor);
             
             // Set cursor style
-            (path as HTMLElement).style.cursor = 'pointer';
+            path.style.cursor = 'pointer';
           }
         }
       });
@@ -145,6 +145,7 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
 
     const timeoutId = setTimeout(initializeAndSetupEvents, 200);
     return () => clearTimeout(timeoutId);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [fillColor]);
 
   // Handle all mouse and click events
@@ -238,6 +239,7 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
         svgElement.removeEventListener('mouseleave', handleMouseLeave, true);
       }
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [onClick, onMouseEnter, onMouseLeave, selectedRegion, hoverColor, selectedColor]);
 
   // Update colors when selection changes
@@ -264,6 +266,7 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
 
     const timeoutId = setTimeout(updateColors, 100);
     return () => clearTimeout(timeoutId);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedRegion, selectedColor]);
 
   return (
