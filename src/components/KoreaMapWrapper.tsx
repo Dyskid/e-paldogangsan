@@ -50,6 +50,36 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
     'jeju': '제주특별자치도'
   };
 
+  // SVG ID to our region ID mapping
+  const svgIdMapping: { [key: string]: string } = {
+    'seoul': 'seoul',
+    'busan': 'busan',
+    'daegu': 'daegu',
+    'incheon': 'incheon',
+    'gwangju': 'gwangju',
+    'daejeon': 'daejeon',
+    'ulsan': 'ulsan',
+    'sejong': 'sejong',
+    'gyeonggi-do': 'gyeonggi',
+    'gyeonggi': 'gyeonggi',
+    'gangwon': 'gangwon',
+    'gangwon-do': 'gangwon',
+    'north-chungcheong': 'chungbuk',
+    'chungbuk': 'chungbuk',
+    'south-chungcheong': 'chungnam',
+    'chungnam': 'chungnam',
+    'north-jeolla': 'jeonbuk',
+    'jeonbuk': 'jeonbuk',
+    'south-jeolla': 'jeonnam',
+    'jeonnam': 'jeonnam',
+    'north-gyeongsang': 'gyeongbuk',
+    'gyeongbuk': 'gyeongbuk',
+    'south-gyeongsang': 'gyeongnam',
+    'gyeongnam': 'gyeongnam',
+    'jeju': 'jeju',
+    'jeju-do': 'jeju'
+  };
+
   // Reverse mapping for converting back
   const reverseMapping = useMemo(() => {
     const mapping: { [key: string]: string } = {};
@@ -110,28 +140,15 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
       const mouseEvent = event as MouseEvent;
       const target = mouseEvent.target as Element;
       
-      console.log('Click event:', {
-        tagName: target?.tagName,
-        attributes: target ? Array.from(target.attributes).map(attr => `${attr.name}="${attr.value}"`) : [],
-        className: target?.className,
-        id: target?.id
-      });
-      
       if (target && target.tagName === 'path') {
-        // Try different attributes that might contain the region name
-        const locationName = target.getAttribute('name') || 
-                           target.getAttribute('data-name') || 
-                           target.getAttribute('id') ||
-                           target.getAttribute('data-region');
-                           
-        console.log('Location name found:', locationName);
+        // Get the SVG path ID
+        const svgId = target.getAttribute('id');
         
-        if (locationName) {
-          const regionId = reverseMapping[locationName];
-          console.log('Region ID mapping:', locationName, '->', regionId);
+        if (svgId) {
+          // Use the SVG ID mapping to get our region ID
+          const regionId = svgIdMapping[svgId];
           
           if (regionId && onClick) {
-            console.log('Calling onClick with:', regionId);
             onClick(regionId);
           }
         }
@@ -151,19 +168,6 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
       if (svgElement) {
         svgElement.addEventListener('click', handleClick);
         svgElement.addEventListener('mouseleave', handleMouseOut);
-        
-        // Log the SVG structure for debugging
-        const paths = svgElement.querySelectorAll('path');
-        console.log('Found paths:', paths.length);
-        paths.forEach((path, index) => {
-          if (index < 3) { // Log first 3 paths only
-            console.log(`Path ${index}:`, {
-              className: path.className,
-              id: path.id,
-              attributes: Array.from(path.attributes).map(attr => `${attr.name}="${attr.value.substring(0, 50)}..."`),
-            });
-          }
-        });
       }
     }, 100);
 
@@ -175,7 +179,7 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
         svgElement.removeEventListener('mouseleave', handleMouseOut);
       }
     };
-  }, [onClick, onMouseLeave, reverseMapping]);
+  }, [onClick, onMouseLeave, reverseMapping, svgIdMapping]);
 
   return (
     <div className="korea-map-wrapper w-full">
