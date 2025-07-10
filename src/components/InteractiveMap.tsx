@@ -134,23 +134,23 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({ regions, malls }) => {
         </div>
       </div>
 
-      <div className="bg-white rounded-lg shadow-md p-4 md:p-6 max-h-[600px] overflow-y-auto">
+      <div className="bg-white rounded-lg shadow-md p-4 md:p-6 h-full overflow-auto max-h-[600px]">
         {selectedRegion ? (
           <div>
-            <div className="mb-4">
-              <h2 className="text-2xl font-bold text-gray-900">{selectedRegion.name_ko}</h2>
-              <p className="text-gray-600 mt-1">{selectedRegion.description_ko}</p>
+            <div className="mb-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-2">{selectedRegion.name_ko}</h2>
+              <p className="text-gray-600">{selectedRegion.description_ko}</p>
               <p className="text-sm text-gray-500 mt-2">
                 총 {filteredMalls.length}개 쇼핑몰
               </p>
             </div>
-            <div className="space-y-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
               {filteredMalls.length > 0 ? (
                 filteredMalls.map(mall => (
                   <MallCard key={mall.id} mall={mall} />
                 ))
               ) : (
-                <p className="text-gray-500 text-center py-8">
+                <p className="text-gray-500 text-center py-8 col-span-full">
                   이 지역에는 등록된 쇼핑몰이 없습니다.
                 </p>
               )}
