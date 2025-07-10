@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { SimpleSouthKoreaMapChart } from 'react-simple-south-korea-map-chart';
 import 'react-simple-south-korea-map-chart/dist/map.css';
 
@@ -51,10 +51,13 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
   };
 
   // Reverse mapping for converting back
-  const reverseMapping: { [key: string]: string } = {};
-  Object.entries(regionMapping).forEach(([eng, kor]) => {
-    reverseMapping[kor] = eng;
-  });
+  const reverseMapping = useMemo(() => {
+    const mapping: { [key: string]: string } = {};
+    Object.entries(regionMapping).forEach(([eng, kor]) => {
+      mapping[kor] = eng;
+    });
+    return mapping;
+  }, []);
 
   // Prepare data for the chart
   const data = Object.keys(regionMapping).map(regionId => ({
@@ -103,8 +106,9 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
 
   // Add click handler via DOM manipulation
   useEffect(() => {
-    const handleClick = (event: MouseEvent) => {
-      const target = event.target as Element;
+    const handleClick = (event: Event) => {
+      const mouseEvent = event as MouseEvent;
+      const target = mouseEvent.target as Element;
       if (target && target.tagName === 'path' && target.hasAttribute('name')) {
         const locationName = target.getAttribute('name');
         if (locationName) {
@@ -140,7 +144,7 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
         svgElement.removeEventListener('mouseleave', handleMouseOut);
       }
     };
-  }, [onClick, onMouseLeave]);
+  }, [onClick, onMouseLeave, reverseMapping]);
 
   return (
     <div className="korea-map-wrapper w-full">
