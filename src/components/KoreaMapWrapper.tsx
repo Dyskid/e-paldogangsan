@@ -113,6 +113,18 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
     const region = data.find(d => d.count === count);
     if (region) {
       const regionId = reverseMapping[region.locale];
+      
+      // Check if this region is selected
+      if (regionId === selectedRegion) {
+        return selectedColor;
+      }
+      
+      // Check if this region is hovered
+      if (regionId === hoveredRegion) {
+        return hoverColor;
+      }
+      
+      // Return original color
       return getOriginalColor(regionId);
     }
     return '#dbeafe';
@@ -127,13 +139,15 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
       const path = currentHoveredPathRef.current;
       const svgId = path.getAttribute('id');
       
-      if (svgId && svgIdMapping[svgId]) {
+      if (svgId) {
         const regionId = svgIdMapping[svgId];
         
         // Only restore color if not selected
-        if (regionId !== selectedRegion) {
-          const originalColor = pathColorsRef.current[svgId] || getOriginalColor(regionId);
-          path.setAttribute('fill', originalColor);
+        if (regionId && regionId !== selectedRegion) {
+          const originalColor = pathColorsRef.current[svgId];
+          if (originalColor) {
+            path.setAttribute('fill', originalColor);
+          }
         }
       }
       
@@ -144,7 +158,7 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
         onMouseLeave();
       }
     }
-  }, [selectedRegion, onMouseLeave, getOriginalColor]);
+  }, [selectedRegion, onMouseLeave]);
 
   // Initialize colors and set up event handlers
   useEffect(() => {
@@ -154,20 +168,25 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
 
       svgContainerRef.current = svgElement;
 
-      // Store initial colors
-      const paths = svgElement.querySelectorAll('path');
-      paths.forEach(path => {
-        const id = path.getAttribute('id');
-        if (id && svgIdMapping[id]) {
-          const regionId = svgIdMapping[id];
-          const originalColor = getOriginalColor(regionId);
-          pathColorsRef.current[id] = originalColor;
-          path.setAttribute('fill', originalColor);
-          
-          // Set cursor style
-          path.style.cursor = 'pointer';
-        }
-      });
+      // Store initial colors and wait for SVG to be fully rendered
+      setTimeout(() => {
+        const paths = svgElement.querySelectorAll('path');
+        paths.forEach(path => {
+          const id = path.getAttribute('id');
+          if (id && svgIdMapping[id]) {
+            const regionId = svgIdMapping[id];
+            const currentFill = path.getAttribute('fill') || '';
+            
+            // Store the actual rendered color
+            if (!pathColorsRef.current[id]) {
+              pathColorsRef.current[id] = currentFill || getOriginalColor(regionId);
+            }
+            
+            // Set cursor style
+            path.style.cursor = 'pointer';
+          }
+        });
+      }, 100);
     };
 
     const timeoutId = setTimeout(initializeAndSetupEvents, 200);
@@ -298,32 +317,40 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [onClick, onMouseEnter, selectedRegion, hoverColor, clearHoverState]);
 
-  // Update colors when selection changes
+  // Force update colors after chart re-renders
   useEffect(() => {
-    const updateColors = () => {
-      const svgElement = document.querySelector('.svg-map');
-      if (!svgElement) return;
-
-      const paths = svgElement.querySelectorAll('path');
-      paths.forEach(path => {
+    const forceUpdateInterval = setInterval(() => {
+      if (currentHoveredPathRef.current && hoveredRegion) {
+        const path = currentHoveredPathRef.current;
         const svgId = path.getAttribute('id');
-        if (svgId && svgIdMapping[svgId]) {
+        
+        if (svgId) {
           const regionId = svgIdMapping[svgId];
-          
-          if (regionId === selectedRegion) {
-            path.setAttribute('fill', selectedColor);
-          } else if (path !== currentHoveredPathRef.current) {
-            const originalColor = pathColorsRef.current[svgId] || getOriginalColor(regionId);
-            path.setAttribute('fill', originalColor);
+          if (regionId === hoveredRegion && regionId !== selectedRegion) {
+            path.setAttribute('fill', hoverColor);
           }
         }
-      });
-    };
+      }
+      
+      // Update selected region color
+      if (selectedRegion) {
+        const svgElement = document.querySelector('.svg-map');
+        if (svgElement) {
+          Object.entries(svgIdMapping).forEach(([svgId, regionId]) => {
+            if (regionId === selectedRegion) {
+              const path = svgElement.querySelector(`#${svgId}`);
+              if (path) {
+                path.setAttribute('fill', selectedColor);
+              }
+            }
+          });
+        }
+      }
+    }, 100);
 
-    const timeoutId = setTimeout(updateColors, 100);
-    return () => clearTimeout(timeoutId);
+    return () => clearInterval(forceUpdateInterval);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedRegion, selectedColor]);
+  }, [selectedRegion, hoveredRegion, selectedColor, hoverColor]);
 
   return (
     <div className="korea-map-wrapper w-full">
