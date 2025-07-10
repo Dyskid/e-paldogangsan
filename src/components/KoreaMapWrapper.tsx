@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { SimpleSouthKoreaMapChart } from 'react-simple-south-korea-map-chart';
 import 'react-simple-south-korea-map-chart/dist/map.css';
 
@@ -24,12 +24,13 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
   onMouseEnter,
   onMouseLeave,
   fillColor,
-  hoverColor,
-  selectedColor,
+  hoverColor = '#fbbf24',
+  selectedColor = '#f59e0b',
   selectedRegion,
   getMallCount,
 }) => {
   const [hoveredRegion, setHoveredRegion] = useState<string | null>(null);
+  const pathColorsRef = useRef<{ [key: string]: string }>({});
 
   // Convert region codes to the format expected by the package
   const regionMapping: { [key: string]: string } = {
@@ -97,178 +98,173 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
     count: getMallCount(regionId)
   }));
 
-  // Store original colors for restoration
-  const [originalColors, setOriginalColors] = useState<{ [key: string]: string }>({});
+  // Get original color for a region
+  const getOriginalColor = (regionId: string) => {
+    if (typeof fillColor === 'function') {
+      return fillColor(regionId);
+    }
+    return fillColor || '#dbeafe';
+  };
 
   // Color function based on count
   const setColorByCount = (count: number) => {
-    // Find which region has this count
     const region = data.find(d => d.count === count);
     if (region) {
       const regionId = reverseMapping[region.locale];
-      if (regionId === selectedRegion) {
-        return '#f59e0b'; // Selected color
-      }
-      if (regionId === hoveredRegion) {
-        return '#fbbf24'; // Hover color
-      }
-      if (typeof fillColor === 'function') {
-        return fillColor(regionId);
-      }
+      return getOriginalColor(regionId);
     }
-    return typeof fillColor === 'string' ? fillColor : '#dbeafe';
+    return '#dbeafe';
   };
 
-  // Custom tooltip component
-  const CustomTooltip = ({ tooltipStyle, children }: any) => {
-    // We'll use this to trigger hover events
-    React.useEffect(() => {
-      if (children) {
-        const locale = children.split(':')[0].trim();
-        const regionId = reverseMapping[locale];
-        if (regionId && regionId !== hoveredRegion) {
-          setHoveredRegion(regionId);
-          if (onMouseEnter) {
-            onMouseEnter(regionId);
+  // Custom tooltip component (disabled to avoid conflicts)
+  const CustomTooltip = () => null;
+
+  // Initialize colors and set up event handlers
+  useEffect(() => {
+    const initializeAndSetupEvents = () => {
+      const svgElement = document.querySelector('.svg-map');
+      if (!svgElement) return;
+
+      // Store initial colors
+      const paths = svgElement.querySelectorAll('path');
+      paths.forEach(path => {
+        const id = path.getAttribute('id');
+        if (id) {
+          const regionId = svgIdMapping[id];
+          if (regionId) {
+            const originalColor = getOriginalColor(regionId);
+            pathColorsRef.current[id] = originalColor;
+            path.setAttribute('fill', originalColor);
+            
+            // Set cursor style
+            (path as HTMLElement).style.cursor = 'pointer';
           }
         }
-      }
-    }, [children]);
+      });
+    };
 
-    // Return null to hide the default tooltip
-    return null;
-  };
+    const timeoutId = setTimeout(initializeAndSetupEvents, 200);
+    return () => clearTimeout(timeoutId);
+  }, [fillColor]);
 
-  // Add click and hover handlers via DOM manipulation
+  // Handle all mouse and click events
   useEffect(() => {
-    const handleClick = (event: Event) => {
-      const mouseEvent = event as MouseEvent;
-      const target = mouseEvent.target as Element;
-      
-      if (target && target.tagName === 'path') {
-        // Get the SVG path ID
+    const handleClick = (event: MouseEvent) => {
+      const target = event.target as HTMLElement;
+      if (target.tagName === 'path') {
         const svgId = target.getAttribute('id');
-        
-        if (svgId) {
-          // Use the SVG ID mapping to get our region ID
+        if (svgId && svgIdMapping[svgId]) {
           const regionId = svgIdMapping[svgId];
-          
-          if (regionId && onClick) {
+          if (onClick) {
             onClick(regionId);
           }
         }
       }
     };
 
-    const handleMouseOver = (event: Event) => {
-      const mouseEvent = event as MouseEvent;
-      const target = mouseEvent.target as HTMLElement;
-      
-      if (target && target.tagName === 'path') {
+    const handleMouseEnter = (event: MouseEvent) => {
+      const target = event.target as HTMLElement;
+      if (target.tagName === 'path') {
         const svgId = target.getAttribute('id');
-        
-        if (svgId) {
+        if (svgId && svgIdMapping[svgId]) {
           const regionId = svgIdMapping[svgId];
           
-          if (regionId) {
-            // Store original color if not already stored
-            if (!originalColors[svgId]) {
-              const currentFill = target.getAttribute('fill') || '';
-              setOriginalColors(prev => ({ ...prev, [svgId]: currentFill }));
-            }
-            
-            // Apply hover color directly to the path
-            if (regionId !== selectedRegion) {
-              const color = hoverColor || '#fbbf24';
-              target.setAttribute('fill', color);
-            }
-            
-            setHoveredRegion(regionId);
-            if (onMouseEnter) {
-              onMouseEnter(regionId);
-            }
-          }
-        }
-      }
-    };
-
-    const handleMouseOut = (event: Event) => {
-      const mouseEvent = event as MouseEvent;
-      const target = mouseEvent.target as HTMLElement;
-      
-      // Only clear hover if we're leaving a path element
-      if (target && target.tagName === 'path') {
-        const svgId = target.getAttribute('id');
-        
-        if (svgId && originalColors[svgId]) {
-          const regionId = svgIdMapping[svgId];
+          // Update hover state
+          setHoveredRegion(regionId);
           
-          // Restore original color unless it's selected
+          // Apply hover color if not selected
           if (regionId !== selectedRegion) {
-            target.setAttribute('fill', originalColors[svgId]);
+            target.setAttribute('fill', hoverColor);
           }
-        }
-        
-        setHoveredRegion(null);
-        if (onMouseLeave) {
-          onMouseLeave();
+          
+          // Call callback
+          if (onMouseEnter) {
+            onMouseEnter(regionId);
+          }
         }
       }
     };
 
-    // Add event listeners after a short delay to ensure SVG is rendered
-    const timeoutId = setTimeout(() => {
-      const svgElement = document.querySelector('.svg-map');
-      if (svgElement) {
-        svgElement.addEventListener('click', handleClick);
-        svgElement.addEventListener('mouseover', handleMouseOver);
-        svgElement.addEventListener('mouseout', handleMouseOut);
-        
-        // Apply hover styles to paths
-        const paths = svgElement.querySelectorAll('path');
-        paths.forEach(path => {
-          path.style.cursor = 'pointer';
-          path.style.transition = 'all 0.2s ease';
-        });
+    const handleMouseLeave = (event: MouseEvent) => {
+      const target = event.target as HTMLElement;
+      if (target.tagName === 'path') {
+        const svgId = target.getAttribute('id');
+        if (svgId && svgIdMapping[svgId]) {
+          const regionId = svgIdMapping[svgId];
+          
+          // Clear hover state
+          setHoveredRegion(null);
+          
+          // Restore color based on selection state
+          if (regionId === selectedRegion) {
+            target.setAttribute('fill', selectedColor);
+          } else {
+            const originalColor = pathColorsRef.current[svgId] || getOriginalColor(regionId);
+            target.setAttribute('fill', originalColor);
+          }
+          
+          // Call callback
+          if (onMouseLeave) {
+            onMouseLeave();
+          }
+        }
       }
-    }, 100);
+    };
+
+    // Attach event listeners
+    const attachEvents = () => {
+      const svgElement = document.querySelector('.svg-map');
+      if (!svgElement) return;
+
+      // Remove any existing listeners first
+      svgElement.removeEventListener('click', handleClick);
+      svgElement.removeEventListener('mouseenter', handleMouseEnter, true);
+      svgElement.removeEventListener('mouseleave', handleMouseLeave, true);
+
+      // Add new listeners with capture phase for better event handling
+      svgElement.addEventListener('click', handleClick);
+      svgElement.addEventListener('mouseenter', handleMouseEnter, true);
+      svgElement.addEventListener('mouseleave', handleMouseLeave, true);
+    };
+
+    const timeoutId = setTimeout(attachEvents, 300);
 
     return () => {
       clearTimeout(timeoutId);
       const svgElement = document.querySelector('.svg-map');
       if (svgElement) {
         svgElement.removeEventListener('click', handleClick);
-        svgElement.removeEventListener('mouseover', handleMouseOver);
-        svgElement.removeEventListener('mouseout', handleMouseOut);
+        svgElement.removeEventListener('mouseenter', handleMouseEnter, true);
+        svgElement.removeEventListener('mouseleave', handleMouseLeave, true);
       }
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [onClick, onMouseEnter, onMouseLeave, reverseMapping, svgIdMapping, selectedRegion, originalColors]);
+  }, [onClick, onMouseEnter, onMouseLeave, selectedRegion, hoverColor, selectedColor]);
 
-  // Update selected region color
+  // Update colors when selection changes
   useEffect(() => {
-    const updateSelectedRegionColor = () => {
+    const updateColors = () => {
       const svgElement = document.querySelector('.svg-map');
       if (!svgElement) return;
 
-      // Reset all paths to their original colors
-      Object.entries(svgIdMapping).forEach(([svgId, regionId]) => {
-        const path = svgElement.querySelector(`#${svgId}`) as HTMLElement;
-        if (path && originalColors[svgId]) {
+      const paths = svgElement.querySelectorAll('path');
+      paths.forEach(path => {
+        const svgId = path.getAttribute('id');
+        if (svgId && svgIdMapping[svgId]) {
+          const regionId = svgIdMapping[svgId];
+          
           if (regionId === selectedRegion) {
-            const color = selectedColor || '#f59e0b';
-            path.setAttribute('fill', color);
-          } else {
-            path.setAttribute('fill', originalColors[svgId]);
+            path.setAttribute('fill', selectedColor);
+          } else if (regionId !== hoveredRegion) {
+            const originalColor = pathColorsRef.current[svgId] || getOriginalColor(regionId);
+            path.setAttribute('fill', originalColor);
           }
         }
       });
     };
 
-    const timeoutId = setTimeout(updateSelectedRegionColor, 150);
+    const timeoutId = setTimeout(updateColors, 100);
     return () => clearTimeout(timeoutId);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedRegion, originalColors, svgIdMapping]);
+  }, [selectedRegion, selectedColor]);
 
   return (
     <div className="korea-map-wrapper w-full">
@@ -277,12 +273,8 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
           width: 100%;
           height: auto;
         }
-        .korea-map-wrapper .svg-map__location {
-          cursor: pointer;
-          transition: all 0.2s ease;
-        }
-        .korea-map-wrapper .svg-map__location:hover {
-          opacity: 0.8;
+        .korea-map-wrapper .svg-map path {
+          transition: fill 0.2s ease;
         }
       `}</style>
       <SimpleSouthKoreaMapChart
