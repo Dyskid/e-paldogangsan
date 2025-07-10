@@ -7,7 +7,7 @@ import MallCard from './MallCard';
 import AllMallsDisplay from './AllMallsDisplay';
 
 const KoreaMap = dynamic(
-  () => import('react-simple-south-korea-map-chart').then(mod => mod.default || mod),
+  () => import('./KoreaMapWrapper'),
   { 
     ssr: false,
     loading: () => <div className="w-full h-96 bg-gray-100 animate-pulse rounded-lg" />
@@ -71,6 +71,7 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({ regions, malls }) => {
             hoverColor="#fbbf24"
             selectedColor="#f59e0b"
             selectedRegion={selectedRegionId}
+            getMallCount={getMallCount}
           />
           
           {hoveredRegion && (
