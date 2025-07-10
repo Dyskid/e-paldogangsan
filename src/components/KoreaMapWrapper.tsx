@@ -108,26 +108,28 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
     return fillColor || '#dbeafe';
   }, [fillColor]);
 
+  // Create a mapping of count to color that SimpleSouthKoreaMapChart expects
+  const countToColorMap = useMemo(() => {
+    const map: { [count: number]: string } = {};
+    
+    data.forEach(d => {
+      const regionId = reverseMapping[d.locale];
+      const count = d.count;
+      
+      // Only set if not already set (to handle multiple regions with same count)
+      if (!(count in map)) {
+        map[count] = getOriginalColor(regionId);
+      }
+    });
+    
+    return map;
+  }, [data, reverseMapping, getOriginalColor]);
+
   // Color function based on count
   const setColorByCount = (count: number) => {
-    const region = data.find(d => d.count === count);
-    if (region) {
-      const regionId = reverseMapping[region.locale];
-      
-      // Check if this region is selected
-      if (regionId === selectedRegion) {
-        return selectedColor;
-      }
-      
-      // Check if this region is hovered
-      if (regionId === hoveredRegion) {
-        return hoverColor;
-      }
-      
-      // Return original color
-      return getOriginalColor(regionId);
-    }
-    return '#dbeafe';
+    // This function is called by SimpleSouthKoreaMapChart
+    // We should return base colors here, and override with our own logic
+    return countToColorMap[count] || '#dbeafe';
   };
 
   // Custom tooltip component (disabled to avoid conflicts)
@@ -171,6 +173,7 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
       // Store initial colors and wait for SVG to be fully rendered
       setTimeout(() => {
         const paths = svgElement.querySelectorAll('path');
+        
         paths.forEach(path => {
           const id = path.getAttribute('id');
           if (id && svgIdMapping[id]) {
@@ -200,8 +203,10 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
       const target = event.target as SVGPathElement;
       if (target.tagName === 'path') {
         const svgId = target.getAttribute('id');
+        
         if (svgId && svgIdMapping[svgId]) {
           const regionId = svgIdMapping[svgId];
+          
           if (onClick) {
             onClick(regionId);
           }
@@ -336,6 +341,7 @@ const KoreaMapWrapper: React.FC<KoreaMapWrapperProps> = ({
       if (selectedRegion) {
         const svgElement = document.querySelector('.svg-map');
         if (svgElement) {
+          // Apply color only to the correct path
           Object.entries(svgIdMapping).forEach(([svgId, regionId]) => {
             if (regionId === selectedRegion) {
               const path = svgElement.querySelector(`#${svgId}`);
