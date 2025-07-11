@@ -1,0 +1,232 @@
+{
+  "mall": {
+    "id": 53,
+    "name": "기찬들영암몰",
+    "url": "https://yeongammall.co.kr",
+    "region": "전남"
+  },
+  "scrapedAt": "2025-07-11T01:18:17.846Z",
+  "totalProducts": 22,
+  "products": [
+    {
+      "name": "(신안정) 2024년햅쌀 유기농 하이아미 백미 4kg",
+      "price": 23600,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250325/8c73df98420bbdc22d4f0c9ec29a72ec.jpg",
+      "url": "https://yeongammall.co.kr/product/%EC%8B%A0%EC%95%88%EC%A0%95-2024%EB%85%84%ED%96%85%EC%8C%80-%EC%9C%A0%EA%B8%B0%EB%86%8D-%ED%95%98%EC%9D%B4%EC%95%84%EB%AF%B8-%EB%B0%B1%EB%AF%B8-4kg/33/category/1/display/2/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.839Z",
+      "region": "전남"
+    },
+    {
+      "name": "(순달) 전남 영암의 황토 고구마로 만든 말랭이구마 60g x 10개",
+      "price": 25000,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250613/7fef43050d73a3f55b7af1c84024142f.jpg",
+      "url": "https://yeongammall.co.kr/product/%EC%88%9C%EB%8B%AC-%EC%A0%84%EB%82%A8-%EC%98%81%EC%95%94%EC%9D%98-%ED%99%A9%ED%86%A0-%EA%B3%A0%EA%B5%AC%EB%A7%88%EB%A1%9C-%EB%A7%8C%EB%93%A0-%EB%A7%90%EB%9E%AD%EC%9D%B4%EA%B5%AC%EB%A7%88-60g-x-10%EA%B0%9C/195/category/1/display/2/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.840Z",
+      "region": "전남"
+    },
+    {
+      "name": "(신북농협) 탱글탱글 대추방울토마토 로얄과 2/3/5kg 선택",
+      "price": 15900,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250325/098181afe84c05bb382e9d34b0be9fb3.jpg",
+      "url": "https://yeongammall.co.kr/product/%EC%8B%A0%EB%B6%81%EB%86%8D%ED%98%91-%ED%83%B1%EA%B8%80%ED%83%B1%EA%B8%80-%EB%8C%80%EC%B6%94%EB%B0%A9%EC%9A%B8%ED%86%A0%EB%A7%88%ED%86%A0-%EB%A1%9C%EC%96%84%EA%B3%BC-235kg-%EC%84%A0%ED%83%9D/200/category/1/display/2/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.840Z",
+      "region": "전남"
+    },
+    {
+      "name": "(영암축협하나로마트) 영암한우 사골곰탕 500ml",
+      "price": 2900,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250325/4a91bdba5b0cbe0cd98d66b987bfe64f.jpg",
+      "url": "https://yeongammall.co.kr/product/%EC%98%81%EC%95%94%EC%B6%95%ED%98%91%ED%95%98%EB%82%98%EB%A1%9C%EB%A7%88%ED%8A%B8-%EC%98%81%EC%95%94%ED%95%9C%EC%9A%B0-%EC%82%AC%EA%B3%A8%EA%B3%B0%ED%83%95-500ml/319/category/1/display/2/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.841Z",
+      "region": "전남"
+    },
+    {
+      "name": "(지원목장)직접짠 원유 수제 요구르트 5종",
+      "price": 2500,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250325/ba486939b6431ca1a707b5f274e205fe.jpg",
+      "url": "https://yeongammall.co.kr/product/%EC%A7%80%EC%9B%90%EB%AA%A9%EC%9E%A5%EC%A7%81%EC%A0%91%EC%A7%A0-%EC%9B%90%EC%9C%A0-%EC%88%98%EC%A0%9C-%EC%9A%94%EA%B5%AC%EB%A5%B4%ED%8A%B8-5%EC%A2%85/79/category/1/display/2/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.841Z",
+      "region": "전남"
+    },
+    {
+      "name": "(코즈영농) 수제 무화과 요구르트 500ml*5ea",
+      "price": 30000,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250325/ecbd9b49de7003dfa6a83a7954a4506f.jpg",
+      "url": "https://yeongammall.co.kr/product/%EC%BD%94%EC%A6%88%EC%98%81%EB%86%8D-%EC%88%98%EC%A0%9C-%EB%AC%B4%ED%99%94%EA%B3%BC-%EC%9A%94%EA%B5%AC%EB%A5%B4%ED%8A%B8-500ml5ea/90/category/1/display/2/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.841Z",
+      "region": "전남"
+    },
+    {
+      "name": "(신북농협) 영암 제철 황토 노지 단호박 5kg",
+      "price": 12900,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250707/a1b810161796445cff99916def39be79.jpg",
+      "url": "https://yeongammall.co.kr/product/%EC%8B%A0%EB%B6%81%EB%86%8D%ED%98%91-%EC%98%81%EC%95%94-%EC%A0%9C%EC%B2%A0-%ED%99%A9%ED%86%A0-%EB%85%B8%EC%A7%80-%EB%8B%A8%ED%98%B8%EB%B0%95-5kg/522/category/1/display/2/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.841Z",
+      "region": "전남"
+    },
+    {
+      "name": "(기찬명품장어) 자포니카 기찬 명품장어 1kg (손질장어/초벌장어)",
+      "price": 43000,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250325/91ec9caab7a69a4fe500fbaa969dd508.jpg",
+      "url": "https://yeongammall.co.kr/product/%EA%B8%B0%EC%B0%AC%EB%AA%85%ED%92%88%EC%9E%A5%EC%96%B4-%EC%9E%90%ED%8F%AC%EB%8B%88%EC%B9%B4-%EA%B8%B0%EC%B0%AC-%EB%AA%85%ED%92%88%EC%9E%A5%EC%96%B4-1kg-%EC%86%90%EC%A7%88%EC%9E%A5%EC%96%B4%EC%B4%88%EB%B2%8C%EC%9E%A5%EC%96%B4/55/category/1/display/2/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.841Z",
+      "region": "전남"
+    },
+    {
+      "name": "(삼호명품관) 영암한우 1+살치살 300g",
+      "price": 66000,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250709/24c254bcf425d396df6aeae29d953b5c.jpg",
+      "url": "https://yeongammall.co.kr/product/%EC%82%BC%ED%98%B8%EB%AA%85%ED%92%88%EA%B4%80-%EC%98%81%EC%95%94%ED%95%9C%EC%9A%B0-1%EC%82%B4%EC%B9%98%EC%82%B4-300g/537/category/1/display/3/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.842Z",
+      "region": "전남"
+    },
+    {
+      "name": "(삼호명품관) 영암한우 1++ 채끝등심 300g",
+      "price": 51000,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250709/24c254bcf425d396df6aeae29d953b5c.jpg",
+      "url": "https://yeongammall.co.kr/product/%EC%82%BC%ED%98%B8%EB%AA%85%ED%92%88%EA%B4%80-%EC%98%81%EC%95%94%ED%95%9C%EC%9A%B0-1-%EC%B1%84%EB%81%9D%EB%93%B1%EC%8B%AC-300g/536/category/1/display/3/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.842Z",
+      "region": "전남"
+    },
+    {
+      "name": "(삼호명품관) 영암한우 1+ 꽃등심 300g",
+      "price": 49800,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250709/24c254bcf425d396df6aeae29d953b5c.jpg",
+      "url": "https://yeongammall.co.kr/product/%EC%82%BC%ED%98%B8%EB%AA%85%ED%92%88%EA%B4%80-%EC%98%81%EC%95%94%ED%95%9C%EC%9A%B0-1-%EA%BD%83%EB%93%B1%EC%8B%AC-300g/535/category/1/display/3/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.842Z",
+      "region": "전남"
+    },
+    {
+      "name": "(왕인식품) 석박지 3kg",
+      "price": 19500,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250708/8f7de3e7468dadc8d21cf3cb972ee7c4.jpg",
+      "url": "https://yeongammall.co.kr/product/%EC%99%95%EC%9D%B8%EC%8B%9D%ED%92%88-%EC%84%9D%EB%B0%95%EC%A7%80-3kg/534/category/1/display/3/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.842Z",
+      "region": "전남"
+    },
+    {
+      "name": "(왕인식품) 묵은지 3kg",
+      "price": 23400,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250708/b2e5c35ed5a05c53fe7b968a3afc870e.jpg",
+      "url": "https://yeongammall.co.kr/product/%EC%99%95%EC%9D%B8%EC%8B%9D%ED%92%88-%EB%AC%B5%EC%9D%80%EC%A7%80-3kg/533/category/1/display/3/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.842Z",
+      "region": "전남"
+    },
+    {
+      "name": "(왕인식품) 깍두기 3kg",
+      "price": 19500,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250708/fa829ccc664d3450303d67aacd0100c1.jpg",
+      "url": "https://yeongammall.co.kr/product/%EC%99%95%EC%9D%B8%EC%8B%9D%ED%92%88-%EA%B9%8D%EB%91%90%EA%B8%B0-3kg/532/category/1/display/3/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.842Z",
+      "region": "전남"
+    },
+    {
+      "name": "(왕인식품) 갓김치 3kg",
+      "price": 22500,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250708/77c1c3f3c14dfe3ae7961f7ca1451b0f.jpg",
+      "url": "https://yeongammall.co.kr/product/%EC%99%95%EC%9D%B8%EC%8B%9D%ED%92%88-%EA%B0%93%EA%B9%80%EC%B9%98-3kg/531/category/1/display/3/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.842Z",
+      "region": "전남"
+    },
+    {
+      "name": "(야미야미팜 농업회사법인) 정성들여 키운 영암 곡물 3종",
+      "price": 14800,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250708/b74ebd15c8044c530e82435ef9ca9088.jpg",
+      "url": "https://yeongammall.co.kr/product/%EC%95%BC%EB%AF%B8%EC%95%BC%EB%AF%B8%ED%8C%9C-%EB%86%8D%EC%97%85%ED%9A%8C%EC%82%AC%EB%B2%95%EC%9D%B8-%EC%A0%95%EC%84%B1%EB%93%A4%EC%97%AC-%ED%82%A4%EC%9A%B4-%EC%98%81%EC%95%94-%EA%B3%A1%EB%AC%BC-3%EC%A2%85/530/category/1/display/3/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.843Z",
+      "region": "전남"
+    },
+    {
+      "name": "(기찬랜드) 1+이상 한우 정육 단품 400g (불고기/국거리/장조림)",
+      "price": 17100,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250325/e76d7655566039d0bb34e3662c2b00aa.jpg",
+      "url": "https://yeongammall.co.kr/product/%EA%B8%B0%EC%B0%AC%EB%9E%9C%EB%93%9C-1%EC%9D%B4%EC%83%81-%ED%95%9C%EC%9A%B0-%EC%A0%95%EC%9C%A1-%EB%8B%A8%ED%92%88-400g-%EB%B6%88%EA%B3%A0%EA%B8%B0%EA%B5%AD%EA%B1%B0%EB%A6%AC%EC%9E%A5%EC%A1%B0%EB%A6%BC/72/category/1/display/4/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.843Z",
+      "region": "전남"
+    },
+    {
+      "name": "(기찬랜드) 1++이상 한우 구이선물세트 기찬2호 (등심+살치+채끝 각 400g)",
+      "price": 276600,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250325/248931135e3b2e502f67102f94750e89.jpg",
+      "url": "https://yeongammall.co.kr/product/%EA%B8%B0%EC%B0%AC%EB%9E%9C%EB%93%9C-1%EC%9D%B4%EC%83%81-%ED%95%9C%EC%9A%B0-%EA%B5%AC%EC%9D%B4%EC%84%A0%EB%AC%BC%EC%84%B8%ED%8A%B8-%EA%B8%B0%EC%B0%AC2%ED%98%B8-%EB%93%B1%EC%8B%AC%EC%82%B4%EC%B9%98%EC%B1%84%EB%81%9D-%EA%B0%81-400g/209/category/1/display/4/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.843Z",
+      "region": "전남"
+    },
+    {
+      "name": "(기찬랜드) 1++이상 구이용 단품 300g (등심/채끝)",
+      "price": 53200,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250226/63b34a99eded9c36c32cf0dae991e043.jpg",
+      "url": "https://yeongammall.co.kr/product/%EA%B8%B0%EC%B0%AC%EB%9E%9C%EB%93%9C-1%EC%9D%B4%EC%83%81-%EA%B5%AC%EC%9D%B4%EC%9A%A9-%EB%8B%A8%ED%92%88-300g-%EB%93%B1%EC%8B%AC%EC%B1%84%EB%81%9D/16/category/1/display/4/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.843Z",
+      "region": "전남"
+    },
+    {
+      "name": "(킴스팜) 대봉반건시 곶감세트 10구x1팩/2팩/3팩",
+      "price": 30000,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250325/68f9d6f8c5d1071de2cf512b8694576d.png",
+      "url": "https://yeongammall.co.kr/product/%ED%82%B4%EC%8A%A4%ED%8C%9C-%EB%8C%80%EB%B4%89%EB%B0%98%EA%B1%B4%EC%8B%9C-%EA%B3%B6%EA%B0%90%EC%84%B8%ED%8A%B8-10%EA%B5%ACx1%ED%8C%A92%ED%8C%A93%ED%8C%A9/308/category/1/display/5/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.843Z",
+      "region": "전남"
+    },
+    {
+      "name": "(영암열매농원) 국내산 영암군 무화과로 만든 무화과잼 200g",
+      "price": 7000,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250325/7696c689e1d4482ae113d4a19b4f889b.jpg",
+      "url": "https://yeongammall.co.kr/product/%EC%98%81%EC%95%94%EC%97%B4%EB%A7%A4%EB%86%8D%EC%9B%90-%EA%B5%AD%EB%82%B4%EC%82%B0-%EC%98%81%EC%95%94%EA%B5%B0-%EB%AC%B4%ED%99%94%EA%B3%BC%EB%A1%9C-%EB%A7%8C%EB%93%A0-%EB%AC%B4%ED%99%94%EA%B3%BC%EC%9E%BC-200g/183/category/1/display/5/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.843Z",
+      "region": "전남"
+    },
+    {
+      "name": "(대우미곡) 2024년 햅쌀 당일도정 맑은공기쌀 4kg",
+      "price": 17800,
+      "image": "https://ecimg.cafe24img.com/pg1712b31832005007/yeongammall/web/product/medium/20250403/7752d3fb7587eea414d5790951e4baa7.png",
+      "url": "https://yeongammall.co.kr/product/%EB%8C%80%EC%9A%B0%EB%AF%B8%EA%B3%A1-2024%EB%85%84-%ED%96%85%EC%8C%80-%EB%8B%B9%EC%9D%BC%EB%8F%84%EC%A0%95-%EB%A7%91%EC%9D%80%EA%B3%B5%EA%B8%B0%EC%8C%80-4kg/449/category/1/display/5/",
+      "mall": "기찬들영암몰",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:18:17.843Z",
+      "region": "전남"
+    }
+  ]
+}

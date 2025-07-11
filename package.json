@@ -9,7 +9,12 @@
     "lint": "next lint",
     "update-overview": "tsx scripts/update-overview.ts",
     "update-overview:watch": "tsx scripts/update-overview.ts --watch",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "scrape:simple": "node scripts/scrapers/simple-batch-scraper.js",
+    "scrape:test-cyso": "node scripts/scrapers/test-cyso-scraper.js",
+    "scrape:specific": "node scripts/scrapers/specific-mall-scraper.js",
+    "scrape:missing": "node scripts/scrape-missing-malls.js",
+    "scrape:missing-ts": "tsx scripts/scrape-missing-malls-comprehensive.ts"
   },
   "dependencies": {
     "@types/cheerio": "^0.22.35",
@@ -20,7 +25,7 @@
     "iconv-lite": "^0.6.3",
     "next": "14.2.3",
     "playwright": "^1.52.0",
-    "puppeteer": "^24.10.0",
+    "puppeteer": "^24.12.1",
     "puppeteer-core": "^24.10.2",
     "react": "^18",
     "react-dom": "^18",

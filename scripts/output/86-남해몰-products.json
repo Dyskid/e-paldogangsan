@@ -1,0 +1,1816 @@
+{
+  "mall": {
+    "id": 86,
+    "name": "남해몰",
+    "region": "경남",
+    "urls": [
+      "https://enamhae.co.kr",
+      "https://www.enamhae.co.kr",
+      "https://namhaemall.co.kr",
+      "https://namhaemall.com"
+    ]
+  },
+  "products": [
+    {
+      "id": "86_1752196249978m2iaf1l6g",
+      "name": "������ �����",
+      "price": "가격문의",
+      "imageUrl": "https://enamhae.co.kr/design/namhae1234/top_myhome.jpg",
+      "productUrl": "https://ilovegohyang.go.kr/goods/searchGoods.html?type=L&locgov=48840",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_1752196249980clvcu6hnv",
+      "name": "�α���",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/member.html?type=login",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_1752196249980xcvpska0v",
+      "name": "ȸ������",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/idinfo.html",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_1752196249980amvz2sxyy",
+      "name": "����������",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/member.html?type=mynewmain",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_1752196249980hc8znnbk7",
+      "name": "��ٱ���",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/basket.html",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_17521962499810ms6ccl0i",
+      "name": "�ֹ���ȸ",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/confirm_login.html?type=myorder",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_035",
+      "name": "����Ʈ ��ǰ",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopbrand.html?type=Y&xcode=035",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_005",
+      "name": "��깰",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopbrand.html?type=X&xcode=005",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_041",
+      "name": "��깰",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopbrand.html?type=Y&xcode=041",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_042",
+      "name": "���깰",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopbrand.html?type=Y&xcode=042",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_043",
+      "name": "����ǰ",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopbrand.html?type=Y&xcode=043",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_043",
+      "name": "�渶��",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopbrand.html?type=N&xcode=043&mcode=001",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_043",
+      "name": "����",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopbrand.html?type=N&xcode=043&mcode=002",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_043",
+      "name": "�����ǰ",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopbrand.html?type=N&xcode=043&mcode=003",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_043",
+      "name": "����/���",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopbrand.html?type=N&xcode=043&mcode=004",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_043",
+      "name": "�����",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopbrand.html?type=N&xcode=043&mcode=005",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_043",
+      "name": "���־ྦ",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopbrand.html?type=N&xcode=043&mcode=006",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_043",
+      "name": "��Ÿ",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopbrand.html?type=N&xcode=043&mcode=007",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_043",
+      "name": "������",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopbrand.html?type=N&xcode=043&mcode=010",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_004",
+      "name": "�Ż�ǰ",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopbrand.html?type=O&xcode=004",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_081",
+      "name": "�ٷ��̼�Ʈ",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopbrand.html?type=P&xcode=081",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_036",
+      "name": "û�� â���� ����ǰ",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopbrand.html?type=P&xcode=036",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_1752196249984dyyutpjw2",
+      "name": "���������� ��",
+      "price": "가격문의",
+      "imageUrl": "https://enamhae.co.kr/design/namhae1234/250627_main_PC.jpg",
+      "productUrl": "https://enamhae.co.kr/shop/down_coupon.html?couponnum=R1ZJQkVQSzc=",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_005",
+      "name": "�̴ϴ�ȣ��",
+      "price": "가격문의",
+      "imageUrl": "https://enamhae.co.kr/design/namhae1234/250625_main.jpg",
+      "productUrl": "https://enamhae.co.kr/shop/shopbrand.html?xcode=005&type=M&mcode=007",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_005",
+      "name": "2025�޸���",
+      "price": "가격문의",
+      "imageUrl": "https://enamhae.co.kr/design/namhae1234/2505224_main.jpg",
+      "productUrl": "https://enamhae.co.kr/shop/shopbrand.html?xcode=005&type=M&mcode=002",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3520663",
+      "name": "��������",
+      "price": "가격문의",
+      "imageUrl": "https://enamhae.co.kr/design/namhae1234/240613_main.jpg",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3520663",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523623",
+      "name": "���ھ簻",
+      "price": "가격문의",
+      "imageUrl": "https://enamhae.co.kr/design/namhae1234/250609_main_PC.jpg",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3523623",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523562",
+      "name": "���ػ����",
+      "price": "가격문의",
+      "imageUrl": "https://enamhae.co.kr/design/namhae1234/240313_main.jpg",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3523562",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_010",
+      "name": "��ǰ���� ����",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopbrand.html?xcode=010&type=P",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523691",
+      "name": "[���ػ����] �̴ϴ�ȣ�� 5kg,10kg",
+      "price": "27000원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3523691&search=&xcode=005&mcode=007&scode=&special=6&GfDT=aWt3UQ%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522830",
+      "name": "[�ٿ���] ���� �̴ϴ�ȣ�� ��ȣ�� �ı��ı� ���̾�Ʈ�� �������� 2kg 3kg 5kg 10kg",
+      "price": "11900원",
+      "imageUrl": "https://enamhae.co.kr/images/common/prod_icons/24",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3522830&search=&xcode=005&mcode=007&scode=&special=6&GfDT=bm14W10%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3521192",
+      "name": "[���ر���������] �̴ϴ�ȣ�� 3kg,5kg,10kg",
+      "price": "12000원",
+      "imageUrl": "https://enamhae.co.kr/images/common/prod_icons/5",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3521192&search=&xcode=005&mcode=007&scode=&special=6&GfDT=bml%2FW14%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522827",
+      "name": "[�����������] �̴ϴ�ȣ�� 3kg, 5kg",
+      "price": "20000원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3522827&search=&xcode=005&mcode=007&scode=&special=6&GfDT=a2h3Ug%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522875",
+      "name": "[���ذǰ�����] �� ���� Ȳ�� �縶�� 5kg, 10kg",
+      "price": "50000원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28142?1715935918",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3522875&search=&xcode=005&mcode=002&scode=&special=6&GfDT=bmt4W1g%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522804",
+      "name": "[�ٿ���] 25�� ���� ���� �޸��� �븶�� 2kg 3kg 5kg 10kg",
+      "price": "23900원",
+      "imageUrl": "https://enamhae.co.kr/images/common/prod_icons/26",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3522804&search=&xcode=005&mcode=002&scode=&special=6&GfDT=a2d3VA%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522805",
+      "name": "[���帲] 25��� �񸶴� �� (1kg,5kg,10kg)",
+      "price": "12500원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28142?1715935918",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3522805&search=&xcode=005&mcode=002&scode=&special=6&GfDT=bmt%2FW1o%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3521212",
+      "name": "[���帲] 25��� �񸶴� �� (1kg,5kg,10kg)",
+      "price": "13500원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28142?1715935918",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3521212&search=&xcode=005&mcode=002&scode=&special=6&GfDT=aW13Vg%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523626",
+      "name": "[���׸����������չ���] ���ü��5kg, 10kg",
+      "price": "35000원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/1",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3523626&search=&xcode=008&mcode=007&scode=&special=5&GfDT=Z2x3UQ%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_266",
+      "name": "[���׸����������չ���] ������3kg, 5kg",
+      "price": "20000원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/1",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=266&search=&xcode=004&mcode=000&scode=&special=5&GfDT=bml9W10%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_253",
+      "name": "[�������س���] ���ػ� �̽��� ������ 1kg",
+      "price": "10900원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=253&search=&xcode=008&mcode=004&scode=&special=5&GfDT=a293Uw%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3521443",
+      "name": "[�������س���] ������ �س� ��ϰ� ���� ����! ��������/ȫ�ջ�/�����/�ް�����/�ջ���",
+      "price": "10000원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3521443&search=&xcode=001&mcode=001&scode=&special=5&GfDT=b2V%2B",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_205",
+      "name": "[�������س���] �سడ ���� �ø� �ڿ����ػ� 1kg / 500g",
+      "price": "7500원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=205&search=&xcode=008&mcode=007&scode=&special=5&GfDT=aWt3VQ%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522899",
+      "name": "[�������س���] ����ġ 500g",
+      "price": "12900원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3522899&search=&xcode=008&mcode=008&scode=&special=5&GfDT=bWV4",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522308",
+      "name": "[�������س���] �����ع�����Ʈ",
+      "price": "28000원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3522308&search=&xcode=008&mcode=007&scode=&special=5&GfDT=bmt9W1o%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_243",
+      "name": "[���ر��������������] CAS �����ĵ� ������",
+      "price": "10000원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=243&search=&xcode=008&mcode=004&scode=&special=5&GfDT=bm5%2FW1s%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523618",
+      "name": "[���ظ��õ���]���� 300g +��� 300g + ���� ����!",
+      "price": "24000원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28138",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3523618&search=&xcode=004&mcode=000&scode=&special=7&GfDT=bm50W1w%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_62",
+      "name": "[����������] 1����̻� ���Ÿ� 400g*2",
+      "price": "36600원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=62&search=&xcode=007&mcode=001&scode=&special=7&GfDT=bG93UA%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_54",
+      "name": "[����������] 1+��� ���400g*2 + ä��400g*2",
+      "price": "190000원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=54&search=&xcode=007&mcode=001&scode=&special=7&GfDT=bm90W14%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_64",
+      "name": "[����������] 1+��� �Ƚ�400g*2",
+      "price": "109000원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=64&search=&xcode=007&mcode=001&scode=&special=7&GfDT=bmp9W18%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_59",
+      "name": "[����������] 1+��� ���400g+ä��400g",
+      "price": "97000원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=59&search=&xcode=007&mcode=001&scode=&special=7&GfDT=bmx8W1g%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_61",
+      "name": "[����������] 1����̻� �Ұ���400g*2",
+      "price": "36600원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=61&search=&xcode=007&mcode=001&scode=&special=7&GfDT=bmx8W1k%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_66",
+      "name": "[����������] 1+��� ���400g*2",
+      "price": "88000원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=66&search=&xcode=007&mcode=001&scode=&special=7&GfDT=am13Vw%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_51",
+      "name": "[����������] 1����̻� �Ұ���400g*2 + ���Ÿ�400g*2",
+      "price": "70200원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=51&search=&xcode=007&mcode=001&scode=&special=7&GfDT=a253Vg%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_301",
+      "name": "[(��)ä����] ������Ŭ 700g",
+      "price": "11000원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28123?1680847738",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=301&search=&xcode=009&mcode=005&scode=&special=8&GfDT=a2t3UQ%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523625",
+      "name": "Ű��ME������ƽ",
+      "price": "30000원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3523625&search=&xcode=009&mcode=007&scode=&special=8&GfDT=a213UA%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523624",
+      "name": "������ ����C�ݶ�� ������ƽ",
+      "price": "30000원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3523624&search=&xcode=009&mcode=007&scode=&special=8&GfDT=bmx5W14%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523623",
+      "name": "������ ���ھ簻",
+      "price": "12000원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3523623&search=&xcode=009&mcode=007&scode=&special=8&GfDT=bmh8W18%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3520663",
+      "name": "[�ٷ�����] ���� ������ ���Ƹ��� ����û (600g*1)",
+      "price": "11900원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28122?1680847738",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3520663&search=&xcode=009&mcode=002&scode=&special=8&GfDT=ZmV5",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522220",
+      "name": "[���ش�] �������� �Һ������� 8���� (320g)",
+      "price": "16000원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28124?1680847738",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3522220&search=&xcode=004&mcode=000&scode=&special=8&GfDT=aGx3VA%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523558",
+      "name": "[��������] ������ ��ŰƮ",
+      "price": "73000원",
+      "imageUrl": "https://enamhae.co.kr/images/common/prod_icons/26",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3523558&search=&xcode=008&mcode=003&scode=&special=8&GfDT=bmx6W1o%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523292",
+      "name": "[�ش���ġ��]�����䱸��Ʈ (1L)",
+      "price": "9500원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28122?1680847738",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3523292&search=&xcode=009&mcode=007&scode=&special=8&GfDT=a2p3Vg%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522521",
+      "name": "[��������]����������2ȣ ������Ʈ ���ذ�ȫ�� ���ظ�ġ",
+      "price": "20000원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3522521&search=&xcode=008&mcode=005&scode=&special=10&GfDT=bW53UQ%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523177",
+      "name": "[�ٷ���] ���ؼ�����ΰ� 4�� + �����ڽ�",
+      "price": "38000원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28124?1680847738",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3523177&search=&xcode=009&mcode=007&scode=&special=10&GfDT=bm90W10%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522263",
+      "name": "[�ٷ���] �������Ʈ",
+      "price": "30900원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28124?1680847738",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3522263&search=&xcode=009&mcode=007&scode=&special=10&GfDT=Z2V%2F",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522244",
+      "name": "[�ٷ���] ���ҳ��� ��Ʈ",
+      "price": "36800원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28124?1680847738",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3522244&search=&xcode=009&mcode=007&scode=&special=10&GfDT=aWZ3Ug%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523691",
+      "name": "[���ػ����] �̴ϴ�ȣ�� 5kg,10kg",
+      "price": "27000원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3523691&search=&xcode=005&mcode=007&scode=&special=3&GfDT=Zml3UQ%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522827",
+      "name": "[�����������] �̴ϴ�ȣ�� 3kg, 5kg",
+      "price": "20000원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3522827&search=&xcode=005&mcode=007&scode=&special=3&GfDT=bmx7W10%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522830",
+      "name": "[�ٿ���] ���� �̴ϴ�ȣ�� ��ȣ�� �ı��ı� ���̾�Ʈ�� �������� 2kg 3kg 5kg 10kg",
+      "price": "11900원",
+      "imageUrl": "https://enamhae.co.kr/images/common/prod_icons/24",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3522830&search=&xcode=005&mcode=007&scode=&special=3&GfDT=bm57W14%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_301",
+      "name": "[(��)ä����] ������Ŭ 700g",
+      "price": "11000원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28123?1680847738",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=301&search=&xcode=009&mcode=005&scode=&special=3&GfDT=bml6W18%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3521192",
+      "name": "[���ر���������] �̴ϴ�ȣ�� 3kg,5kg,10kg",
+      "price": "12000원",
+      "imageUrl": "https://enamhae.co.kr/images/common/prod_icons/5",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3521192&search=&xcode=005&mcode=007&scode=&special=3&GfDT=bWp3VQ%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522804",
+      "name": "[�ٿ���] 25�� ���� ���� �޸��� �븶�� 2kg 3kg 5kg 10kg",
+      "price": "23900원",
+      "imageUrl": "https://enamhae.co.kr/images/common/prod_icons/26",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3522804&search=&xcode=005&mcode=002&scode=&special=3&GfDT=bWd3VA%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522875",
+      "name": "[���ذǰ�����] �� ���� Ȳ�� �縶�� 5kg, 10kg",
+      "price": "50000원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28142?1715935918",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3522875&search=&xcode=005&mcode=002&scode=&special=3&GfDT=aWl3Vw%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3521214",
+      "name": "[���ذǰ�����]��ȲȲ�� �縶�� 2025��� Ư1��ǰ 5kg,10kg",
+      "price": "90000원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28142?1715935918",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3521214&search=&xcode=005&mcode=002&scode=&special=3&GfDT=Zmt3Vg%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523626",
+      "name": "[���׸����������չ���] ���ü��5kg, 10kg",
+      "price": "35000원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/1",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3523626&search=&xcode=008&mcode=007&scode=&special=3&GfDT=bG93WQ%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_266",
+      "name": "[���׸����������չ���] ������3kg, 5kg",
+      "price": "20000원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/1",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=266&search=&xcode=004&mcode=000&scode=&special=3&GfDT=bW93WA%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523618",
+      "name": "[���ظ��õ���]���� 300g +��� 300g + ���� ����!",
+      "price": "24000원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28138",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3523618&search=&xcode=004&mcode=000&scode=&special=3&GfDT=amZ3UFw%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522866",
+      "name": "[���ر���������] ���� ����(Ư,�븶��)-2025���",
+      "price": "13500원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28142?1715935918",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3522866&search=&xcode=005&mcode=002&scode=&special=3&GfDT=Zmp3UF0%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523691",
+      "name": "[���ػ����] �̴ϴ�ȣ�� 5kg,10kg",
+      "price": "27000원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3523691&search=&xcode=005&mcode=007&scode=&special=1&GfDT=Zm93UQ%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522827",
+      "name": "[�����������] �̴ϴ�ȣ�� 3kg, 5kg",
+      "price": "20000원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3522827&search=&xcode=005&mcode=007&scode=&special=1&GfDT=amV8",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522830",
+      "name": "[�ٿ���] ���� �̴ϴ�ȣ�� ��ȣ�� �ı��ı� ���̾�Ʈ�� �������� 2kg 3kg 5kg 10kg",
+      "price": "11900원",
+      "imageUrl": "https://enamhae.co.kr/images/common/prod_icons/24",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3522830&search=&xcode=005&mcode=007&scode=&special=1&GfDT=bml1W14%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3521192",
+      "name": "[���ر���������] �̴ϴ�ȣ�� 3kg,5kg,10kg",
+      "price": "12000원",
+      "imageUrl": "https://enamhae.co.kr/images/common/prod_icons/5",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3521192&search=&xcode=005&mcode=007&scode=&special=1&GfDT=bmx3Ug%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_301",
+      "name": "[(��)ä����] ������Ŭ 700g",
+      "price": "11000원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28123?1680847738",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=301&search=&xcode=009&mcode=005&scode=&special=1&GfDT=bmV5",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522875",
+      "name": "[���ذǰ�����] �� ���� Ȳ�� �縶�� 5kg, 10kg",
+      "price": "50000원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28142?1715935918",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3522875&search=&xcode=005&mcode=002&scode=&special=1&GfDT=bWZ3VA%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3521214",
+      "name": "[���ذǰ�����]��ȲȲ�� �縶�� 2025��� Ư1��ǰ 5kg,10kg",
+      "price": "90000원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28142?1715935918",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3521214&search=&xcode=005&mcode=002&scode=&special=1&GfDT=bWV7",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522866",
+      "name": "[���ر���������] ���� ����(Ư,�븶��)-2025���",
+      "price": "13500원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28142?1715935918",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3522866&search=&xcode=005&mcode=002&scode=&special=1&GfDT=bm9%2BW1s%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523624",
+      "name": "������ ����C�ݶ�� ������ƽ",
+      "price": "30000원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3523624&search=&xcode=009&mcode=007&scode=&special=1&GfDT=bG53WQ%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523623",
+      "name": "������ ���ھ簻",
+      "price": "12000원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3523623&search=&xcode=009&mcode=007&scode=&special=1&GfDT=bmt0W1U%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523618",
+      "name": "[���ظ��õ���]���� 300g +��� 300g + ���� ����!",
+      "price": "24000원",
+      "imageUrl": "https://enamhae.co.kr/shopimages/namhae1234/prod_icons/28138",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3523618&search=&xcode=004&mcode=000&scode=&special=1&GfDT=aWZ3UFw%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523625",
+      "name": "Ű��ME������ƽ",
+      "price": "30000원",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/shopdetail.html?branduid=3523625&search=&xcode=009&mcode=007&scode=&special=1&GfDT=bm1%2BW11F",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_1",
+      "name": "���ظ�",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/page.html?id=1",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_2",
+      "name": "������ü",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://enamhae.co.kr/shop/page.html?id=2",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_1752196252204h2j5l3yf6",
+      "name": "�α���",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/member.html?type=login",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_1752196252204m01v461gb",
+      "name": "ȸ������",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/idinfo.html",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_17521962522040m6m7av94",
+      "name": "����������",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/member.html?type=mynewmain",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_17521962522047uadysod6",
+      "name": "��ٱ���",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/basket.html",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_17521962522042q4andmjg",
+      "name": "�ֹ���ȸ",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/confirm_login.html?type=myorder",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_035",
+      "name": "����Ʈ ��ǰ",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopbrand.html?type=Y&xcode=035",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_005",
+      "name": "��깰",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopbrand.html?type=X&xcode=005",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_041",
+      "name": "��깰",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopbrand.html?type=Y&xcode=041",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_042",
+      "name": "���깰",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopbrand.html?type=Y&xcode=042",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_043",
+      "name": "����ǰ",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopbrand.html?type=Y&xcode=043",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_043",
+      "name": "�渶��",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopbrand.html?type=N&xcode=043&mcode=001",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_043",
+      "name": "����",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopbrand.html?type=N&xcode=043&mcode=002",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_043",
+      "name": "�����ǰ",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopbrand.html?type=N&xcode=043&mcode=003",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_043",
+      "name": "����/���",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopbrand.html?type=N&xcode=043&mcode=004",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_043",
+      "name": "�����",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopbrand.html?type=N&xcode=043&mcode=005",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_043",
+      "name": "���־ྦ",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopbrand.html?type=N&xcode=043&mcode=006",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_043",
+      "name": "��Ÿ",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopbrand.html?type=N&xcode=043&mcode=007",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_043",
+      "name": "������",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopbrand.html?type=N&xcode=043&mcode=010",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_004",
+      "name": "�Ż�ǰ",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopbrand.html?type=O&xcode=004",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_081",
+      "name": "�ٷ��̼�Ʈ",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopbrand.html?type=P&xcode=081",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_036",
+      "name": "û�� â���� ����ǰ",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopbrand.html?type=P&xcode=036",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_005",
+      "name": "�̴ϴ�ȣ��",
+      "price": "가격문의",
+      "imageUrl": "https://www.enamhae.co.kr/design/namhae1234/250625_main.jpg",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopbrand.html?xcode=005&type=M&mcode=007",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_005",
+      "name": "2025�޸���",
+      "price": "가격문의",
+      "imageUrl": "https://www.enamhae.co.kr/design/namhae1234/2505224_main.jpg",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopbrand.html?xcode=005&type=M&mcode=002",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3520663",
+      "name": "��������",
+      "price": "가격문의",
+      "imageUrl": "https://www.enamhae.co.kr/design/namhae1234/240613_main.jpg",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3520663",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523623",
+      "name": "���ھ簻",
+      "price": "가격문의",
+      "imageUrl": "https://www.enamhae.co.kr/design/namhae1234/250609_main_PC.jpg",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3523623",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523562",
+      "name": "���ػ����",
+      "price": "가격문의",
+      "imageUrl": "https://www.enamhae.co.kr/design/namhae1234/240313_main.jpg",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3523562",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_010",
+      "name": "��ǰ���� ����",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopbrand.html?xcode=010&type=P",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523691",
+      "name": "[���ػ����] �̴ϴ�ȣ�� 5kg,10kg",
+      "price": "27000원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3523691&search=&xcode=005&mcode=007&scode=&special=6&GfDT=aWt3UQ%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522830",
+      "name": "[�ٿ���] ���� �̴ϴ�ȣ�� ��ȣ�� �ı��ı� ���̾�Ʈ�� �������� 2kg 3kg 5kg 10kg",
+      "price": "11900원",
+      "imageUrl": "https://www.enamhae.co.kr/images/common/prod_icons/24",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3522830&search=&xcode=005&mcode=007&scode=&special=6&GfDT=bm14W10%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3521192",
+      "name": "[���ر���������] �̴ϴ�ȣ�� 3kg,5kg,10kg",
+      "price": "12000원",
+      "imageUrl": "https://www.enamhae.co.kr/images/common/prod_icons/5",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3521192&search=&xcode=005&mcode=007&scode=&special=6&GfDT=bml%2FW14%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522827",
+      "name": "[�����������] �̴ϴ�ȣ�� 3kg, 5kg",
+      "price": "20000원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3522827&search=&xcode=005&mcode=007&scode=&special=6&GfDT=a2h3Ug%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522875",
+      "name": "[���ذǰ�����] �� ���� Ȳ�� �縶�� 5kg, 10kg",
+      "price": "50000원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28142?1715935918",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3522875&search=&xcode=005&mcode=002&scode=&special=6&GfDT=bmt4W1g%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522804",
+      "name": "[�ٿ���] 25�� ���� ���� �޸��� �븶�� 2kg 3kg 5kg 10kg",
+      "price": "23900원",
+      "imageUrl": "https://www.enamhae.co.kr/images/common/prod_icons/26",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3522804&search=&xcode=005&mcode=002&scode=&special=6&GfDT=a2d3VA%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522805",
+      "name": "[���帲] 25��� �񸶴� �� (1kg,5kg,10kg)",
+      "price": "12500원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28142?1715935918",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3522805&search=&xcode=005&mcode=002&scode=&special=6&GfDT=bmt%2FW1o%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3521212",
+      "name": "[���帲] 25��� �񸶴� �� (1kg,5kg,10kg)",
+      "price": "13500원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28142?1715935918",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3521212&search=&xcode=005&mcode=002&scode=&special=6&GfDT=aW13Vg%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523626",
+      "name": "[���׸����������չ���] ���ü��5kg, 10kg",
+      "price": "35000원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/1",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3523626&search=&xcode=008&mcode=007&scode=&special=5&GfDT=Z2x3UQ%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_266",
+      "name": "[���׸����������չ���] ������3kg, 5kg",
+      "price": "20000원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/1",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=266&search=&xcode=004&mcode=000&scode=&special=5&GfDT=bml9W10%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_253",
+      "name": "[�������س���] ���ػ� �̽��� ������ 1kg",
+      "price": "10900원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=253&search=&xcode=008&mcode=004&scode=&special=5&GfDT=a293Uw%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3521443",
+      "name": "[�������س���] ������ �س� ��ϰ� ���� ����! ��������/ȫ�ջ�/�����/�ް�����/�ջ���",
+      "price": "10000원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3521443&search=&xcode=001&mcode=001&scode=&special=5&GfDT=b2V%2B",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_205",
+      "name": "[�������س���] �سడ ���� �ø� �ڿ����ػ� 1kg / 500g",
+      "price": "7500원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=205&search=&xcode=008&mcode=007&scode=&special=5&GfDT=aWt3VQ%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522899",
+      "name": "[�������س���] ����ġ 500g",
+      "price": "12900원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3522899&search=&xcode=008&mcode=008&scode=&special=5&GfDT=bWV4",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522308",
+      "name": "[�������س���] �����ع�����Ʈ",
+      "price": "28000원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3522308&search=&xcode=008&mcode=007&scode=&special=5&GfDT=bmt9W1o%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_243",
+      "name": "[���ر��������������] CAS �����ĵ� ������",
+      "price": "10000원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=243&search=&xcode=008&mcode=004&scode=&special=5&GfDT=bm5%2FW1s%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523618",
+      "name": "[���ظ��õ���]���� 300g +��� 300g + ���� ����!",
+      "price": "24000원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28138",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3523618&search=&xcode=004&mcode=000&scode=&special=7&GfDT=bm50W1w%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_62",
+      "name": "[����������] 1����̻� ���Ÿ� 400g*2",
+      "price": "36600원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=62&search=&xcode=007&mcode=001&scode=&special=7&GfDT=bG93UA%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_54",
+      "name": "[����������] 1+��� ���400g*2 + ä��400g*2",
+      "price": "190000원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=54&search=&xcode=007&mcode=001&scode=&special=7&GfDT=bm90W14%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_64",
+      "name": "[����������] 1+��� �Ƚ�400g*2",
+      "price": "109000원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=64&search=&xcode=007&mcode=001&scode=&special=7&GfDT=bmp9W18%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_59",
+      "name": "[����������] 1+��� ���400g+ä��400g",
+      "price": "97000원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=59&search=&xcode=007&mcode=001&scode=&special=7&GfDT=bmx8W1g%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_61",
+      "name": "[����������] 1����̻� �Ұ���400g*2",
+      "price": "36600원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=61&search=&xcode=007&mcode=001&scode=&special=7&GfDT=bmx8W1k%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_66",
+      "name": "[����������] 1+��� ���400g*2",
+      "price": "88000원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=66&search=&xcode=007&mcode=001&scode=&special=7&GfDT=am13Vw%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_51",
+      "name": "[����������] 1����̻� �Ұ���400g*2 + ���Ÿ�400g*2",
+      "price": "70200원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=51&search=&xcode=007&mcode=001&scode=&special=7&GfDT=a253Vg%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_301",
+      "name": "[(��)ä����] ������Ŭ 700g",
+      "price": "11000원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28123?1680847738",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=301&search=&xcode=009&mcode=005&scode=&special=8&GfDT=a2t3UQ%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523625",
+      "name": "Ű��ME������ƽ",
+      "price": "30000원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3523625&search=&xcode=009&mcode=007&scode=&special=8&GfDT=a213UA%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523624",
+      "name": "������ ����C�ݶ�� ������ƽ",
+      "price": "30000원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3523624&search=&xcode=009&mcode=007&scode=&special=8&GfDT=bmx5W14%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523623",
+      "name": "������ ���ھ簻",
+      "price": "12000원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3523623&search=&xcode=009&mcode=007&scode=&special=8&GfDT=bmh8W18%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3520663",
+      "name": "[�ٷ�����] ���� ������ ���Ƹ��� ����û (600g*1)",
+      "price": "11900원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28122?1680847738",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3520663&search=&xcode=009&mcode=002&scode=&special=8&GfDT=ZmV5",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522220",
+      "name": "[���ش�] �������� �Һ������� 8���� (320g)",
+      "price": "16000원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28124?1680847738",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3522220&search=&xcode=004&mcode=000&scode=&special=8&GfDT=aGx3VA%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523558",
+      "name": "[��������] ������ ��ŰƮ",
+      "price": "73000원",
+      "imageUrl": "https://www.enamhae.co.kr/images/common/prod_icons/26",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3523558&search=&xcode=008&mcode=003&scode=&special=8&GfDT=bmx6W1o%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523292",
+      "name": "[�ش���ġ��]�����䱸��Ʈ (1L)",
+      "price": "9500원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28122?1680847738",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3523292&search=&xcode=009&mcode=007&scode=&special=8&GfDT=a2p3Vg%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522521",
+      "name": "[��������]����������2ȣ ������Ʈ ���ذ�ȫ�� ���ظ�ġ",
+      "price": "20000원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3522521&search=&xcode=008&mcode=005&scode=&special=10&GfDT=bW53UQ%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523177",
+      "name": "[�ٷ���] ���ؼ�����ΰ� 4�� + �����ڽ�",
+      "price": "38000원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28124?1680847738",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3523177&search=&xcode=009&mcode=007&scode=&special=10&GfDT=bm90W10%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522263",
+      "name": "[�ٷ���] �������Ʈ",
+      "price": "30900원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28124?1680847738",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3522263&search=&xcode=009&mcode=007&scode=&special=10&GfDT=Z2V%2F",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522244",
+      "name": "[�ٷ���] ���ҳ��� ��Ʈ",
+      "price": "36800원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28124?1680847738",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3522244&search=&xcode=009&mcode=007&scode=&special=10&GfDT=aWZ3Ug%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523691",
+      "name": "[���ػ����] �̴ϴ�ȣ�� 5kg,10kg",
+      "price": "27000원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3523691&search=&xcode=005&mcode=007&scode=&special=3&GfDT=Zml3UQ%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522827",
+      "name": "[�����������] �̴ϴ�ȣ�� 3kg, 5kg",
+      "price": "20000원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3522827&search=&xcode=005&mcode=007&scode=&special=3&GfDT=bmx7W10%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522830",
+      "name": "[�ٿ���] ���� �̴ϴ�ȣ�� ��ȣ�� �ı��ı� ���̾�Ʈ�� �������� 2kg 3kg 5kg 10kg",
+      "price": "11900원",
+      "imageUrl": "https://www.enamhae.co.kr/images/common/prod_icons/24",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3522830&search=&xcode=005&mcode=007&scode=&special=3&GfDT=bm57W14%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_301",
+      "name": "[(��)ä����] ������Ŭ 700g",
+      "price": "11000원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28123?1680847738",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=301&search=&xcode=009&mcode=005&scode=&special=3&GfDT=bml6W18%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3521192",
+      "name": "[���ر���������] �̴ϴ�ȣ�� 3kg,5kg,10kg",
+      "price": "12000원",
+      "imageUrl": "https://www.enamhae.co.kr/images/common/prod_icons/5",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3521192&search=&xcode=005&mcode=007&scode=&special=3&GfDT=bWp3VQ%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522804",
+      "name": "[�ٿ���] 25�� ���� ���� �޸��� �븶�� 2kg 3kg 5kg 10kg",
+      "price": "23900원",
+      "imageUrl": "https://www.enamhae.co.kr/images/common/prod_icons/26",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3522804&search=&xcode=005&mcode=002&scode=&special=3&GfDT=bWd3VA%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522875",
+      "name": "[���ذǰ�����] �� ���� Ȳ�� �縶�� 5kg, 10kg",
+      "price": "50000원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28142?1715935918",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3522875&search=&xcode=005&mcode=002&scode=&special=3&GfDT=aWl3Vw%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3521214",
+      "name": "[���ذǰ�����]��ȲȲ�� �縶�� 2025��� Ư1��ǰ 5kg,10kg",
+      "price": "90000원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28142?1715935918",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3521214&search=&xcode=005&mcode=002&scode=&special=3&GfDT=Zmt3Vg%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523626",
+      "name": "[���׸����������չ���] ���ü��5kg, 10kg",
+      "price": "35000원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/1",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3523626&search=&xcode=008&mcode=007&scode=&special=3&GfDT=bG93WQ%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_266",
+      "name": "[���׸����������չ���] ������3kg, 5kg",
+      "price": "20000원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/1",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=266&search=&xcode=004&mcode=000&scode=&special=3&GfDT=bW93WA%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523618",
+      "name": "[���ظ��õ���]���� 300g +��� 300g + ���� ����!",
+      "price": "24000원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28138",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3523618&search=&xcode=004&mcode=000&scode=&special=3&GfDT=amZ3UFw%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522866",
+      "name": "[���ر���������] ���� ����(Ư,�븶��)-2025���",
+      "price": "13500원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28142?1715935918",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3522866&search=&xcode=005&mcode=002&scode=&special=3&GfDT=Zmp3UF0%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523691",
+      "name": "[���ػ����] �̴ϴ�ȣ�� 5kg,10kg",
+      "price": "27000원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3523691&search=&xcode=005&mcode=007&scode=&special=1&GfDT=Zm93UQ%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522827",
+      "name": "[�����������] �̴ϴ�ȣ�� 3kg, 5kg",
+      "price": "20000원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3522827&search=&xcode=005&mcode=007&scode=&special=1&GfDT=amV8",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522830",
+      "name": "[�ٿ���] ���� �̴ϴ�ȣ�� ��ȣ�� �ı��ı� ���̾�Ʈ�� �������� 2kg 3kg 5kg 10kg",
+      "price": "11900원",
+      "imageUrl": "https://www.enamhae.co.kr/images/common/prod_icons/24",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3522830&search=&xcode=005&mcode=007&scode=&special=1&GfDT=bml1W14%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3521192",
+      "name": "[���ر���������] �̴ϴ�ȣ�� 3kg,5kg,10kg",
+      "price": "12000원",
+      "imageUrl": "https://www.enamhae.co.kr/images/common/prod_icons/5",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3521192&search=&xcode=005&mcode=007&scode=&special=1&GfDT=bmx3Ug%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_301",
+      "name": "[(��)ä����] ������Ŭ 700g",
+      "price": "11000원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28123?1680847738",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=301&search=&xcode=009&mcode=005&scode=&special=1&GfDT=bmV5",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522875",
+      "name": "[���ذǰ�����] �� ���� Ȳ�� �縶�� 5kg, 10kg",
+      "price": "50000원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28142?1715935918",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3522875&search=&xcode=005&mcode=002&scode=&special=1&GfDT=bWZ3VA%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3521214",
+      "name": "[���ذǰ�����]��ȲȲ�� �縶�� 2025��� Ư1��ǰ 5kg,10kg",
+      "price": "90000원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28142?1715935918",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3521214&search=&xcode=005&mcode=002&scode=&special=1&GfDT=bWV7",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3522866",
+      "name": "[���ر���������] ���� ����(Ư,�븶��)-2025���",
+      "price": "13500원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28142?1715935918",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3522866&search=&xcode=005&mcode=002&scode=&special=1&GfDT=bm9%2BW1s%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523624",
+      "name": "������ ����C�ݶ�� ������ƽ",
+      "price": "30000원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3523624&search=&xcode=009&mcode=007&scode=&special=1&GfDT=bG53WQ%3D%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523623",
+      "name": "������ ���ھ簻",
+      "price": "12000원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3523623&search=&xcode=009&mcode=007&scode=&special=1&GfDT=bmt0W1U%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523618",
+      "name": "[���ظ��õ���]���� 300g +��� 300g + ���� ����!",
+      "price": "24000원",
+      "imageUrl": "https://www.enamhae.co.kr/shopimages/namhae1234/prod_icons/28138",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3523618&search=&xcode=004&mcode=000&scode=&special=1&GfDT=aWZ3UFw%3D",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_3523625",
+      "name": "Ű��ME������ƽ",
+      "price": "30000원",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/shopdetail.html?branduid=3523625&search=&xcode=009&mcode=007&scode=&special=1&GfDT=bm1%2BW11F",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_1",
+      "name": "���ظ�",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/page.html?id=1",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    },
+    {
+      "id": "86_2",
+      "name": "������ü",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.enamhae.co.kr/shop/page.html?id=2",
+      "mallId": 86,
+      "mallName": "남해몰",
+      "region": "경남"
+    }
+  ],
+  "scrapedAt": "2025-07-11T01:11:31.575Z"
+}

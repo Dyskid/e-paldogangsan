@@ -1,0 +1,18 @@
+{
+  "mall": {
+    "id": 36,
+    "name": "지평선몰(김제)",
+    "engname": "horizon-mall-gimje",
+    "url": "https://jpsmall.com/",
+    "region": "전북"
+  },
+  "scrapedAt": "2025-07-10T15:31:27.520Z",
+  "totalProducts": 0,
+  "products": [],
+  "errors": [
+    {
+      "error": "Hostname/IP does not match certificate's altnames: Host: jpsmall.com. is not in the cert's altnames: DNS:www.jpsmall.com",
+      "timestamp": "2025-07-10T15:31:27.518Z"
+    }
+  ]
+}

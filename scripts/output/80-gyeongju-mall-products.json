@@ -1,0 +1,19 @@
+[
+  {
+    "id": "gyeongju-mall-1",
+    "title": "경주 특산품 소개",
+    "description": "",
+    "price": "가격 정보 없음",
+    "originalPrice": "가격 정보 없음",
+    "discountPercent": "",
+    "imageUrl": "",
+    "externalUrl": "https://gjmall.cyso.co.kr/bbs/content.php?co_id=product",
+    "category": "",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "gyeongju-mall",
+    "mallName": "경주몰",
+    "region": "",
+    "tags": []
+  }
+]

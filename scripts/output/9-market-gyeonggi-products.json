@@ -1,0 +1,13 @@
+{
+  "mall": {
+    "id": 9,
+    "name": "마켓경기",
+    "engname": "market-gyeonggi",
+    "url": "https://smartstore.naver.com/marketgyeonggi",
+    "region": "경기"
+  },
+  "scrapedAt": "2025-07-10T15:30:17.169Z",
+  "totalProducts": 0,
+  "products": [],
+  "errors": []
+}

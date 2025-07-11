@@ -1,0 +1,212 @@
+{
+  "mall": {
+    "id": 89,
+    "name": "함양몰",
+    "url": "https://2900.co.kr/",
+    "region": "경남"
+  },
+  "scrapedAt": "2025-07-11T01:15:41.420Z",
+  "totalProducts": 20,
+  "products": [
+    {
+      "name": "상품명 : 산양삼 앰플",
+      "price": 0,
+      "image": "https://2900.co.kr/web/upload/icon_201903201646431100.png",
+      "url": "https://2900.co.kr/product/detail.html?product_no=539&cate_no=1&display_group=15",
+      "mall": "함양몰",
+      "region": "경남",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:15:41.416Z"
+    },
+    {
+      "name": "상품명 : 산양산삼 9년근 5뿌리",
+      "price": 0,
+      "image": "https://2900.co.kr/web/upload/icon_201903201646431100.png",
+      "url": "https://2900.co.kr/product/detail.html?product_no=360&cate_no=1&display_group=15",
+      "mall": "함양몰",
+      "region": "경남",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:15:41.417Z"
+    },
+    {
+      "name": "상품명 : 꿀 2.4kg 아카시아꽃꿀/야생화꽃꿀/밤꿀",
+      "price": 0,
+      "image": "https://2900.co.kr/web/upload/icon_201903201646431100.png",
+      "url": "https://2900.co.kr/product/detail.html?product_no=237&cate_no=1&display_group=15",
+      "mall": "함양몰",
+      "region": "경남",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:15:41.417Z"
+    },
+    {
+      "name": "상품명 : [무배/2박스 5% 할인] 양파 10kg(대,중)",
+      "price": 0,
+      "image": "https://2900.co.kr/web/upload/icon_201903201646431100.png",
+      "url": "https://2900.co.kr/product/detail.html?product_no=527&cate_no=1&display_group=15",
+      "mall": "함양몰",
+      "region": "경남",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:15:41.417Z"
+    },
+    {
+      "name": "상품명 : [예약상품/무료배송] 함양양파 18kg(특대)",
+      "price": 0,
+      "image": "https://2900.co.kr/web/upload/icon_201903201646431100.png",
+      "url": "https://2900.co.kr/product/detail.html?product_no=526&cate_no=1&display_group=15",
+      "mall": "함양몰",
+      "region": "경남",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:15:41.417Z"
+    },
+    {
+      "name": "상품명 : 함양산양삼주(수) 500ml",
+      "price": 0,
+      "image": "https://2900.co.kr/web/upload/icon_201903201646431100.png",
+      "url": "https://2900.co.kr/product/detail.html?product_no=522&cate_no=1&display_group=15",
+      "mall": "함양몰",
+      "region": "경남",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:15:41.417Z"
+    },
+    {
+      "name": "상품명 : 행복한닭알 40개",
+      "price": 0,
+      "image": "https://2900.co.kr/web/upload/icon_201903201646431100.png",
+      "url": "https://2900.co.kr/product/detail.html?product_no=368&cate_no=1&display_group=15",
+      "mall": "함양몰",
+      "region": "경남",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:15:41.417Z"
+    },
+    {
+      "name": "상품명 : 흑돼지 삼겹살(구이용)1kg",
+      "price": 0,
+      "image": "https://2900.co.kr/web/upload/icon_201903201646431100.png",
+      "url": "https://2900.co.kr/product/detail.html?product_no=256&cate_no=1&display_group=15",
+      "mall": "함양몰",
+      "region": "경남",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:15:41.417Z"
+    },
+    {
+      "name": "상품명 : 훈이네 벌꿀 2.4kg(아카시아꿀/야생화꿀/밤꿀)",
+      "price": 0,
+      "image": "https://2900.co.kr/web/upload/icon_201903201646431100.png",
+      "url": "https://2900.co.kr/product/detail.html?product_no=515&cate_no=1&display_group=15",
+      "mall": "함양몰",
+      "region": "경남",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:15:41.417Z"
+    },
+    {
+      "name": "상품명 : (무배)선물용 함양양파5kg/10kg",
+      "price": 0,
+      "image": "https://2900.co.kr/web/upload/icon_201903201646431100.png",
+      "url": "https://2900.co.kr/product/detail.html?product_no=421&cate_no=1&display_group=15",
+      "mall": "함양몰",
+      "region": "경남",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:15:41.417Z"
+    },
+    {
+      "name": "상품명 : (2024년산) 지리산황토쌀20kg",
+      "price": 0,
+      "image": "https://2900.co.kr/web/upload/icon_201903201646431100.png",
+      "url": "https://2900.co.kr/product/detail.html?product_no=363&cate_no=1&display_group=15",
+      "mall": "함양몰",
+      "region": "경남",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:15:41.418Z"
+    },
+    {
+      "name": "상품명 : 산양삼데일리",
+      "price": 0,
+      "image": "https://2900.co.kr/web/upload/icon_201903201646431100.png",
+      "url": "https://2900.co.kr/product/detail.html?product_no=305&cate_no=1&display_group=15",
+      "mall": "함양몰",
+      "region": "경남",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:15:41.418Z"
+    },
+    {
+      "name": "상품명 : 생강원액(생강차)",
+      "price": 0,
+      "image": "https://2900.co.kr/web/upload/icon_201903201646431100.png",
+      "url": "https://2900.co.kr/product/detail.html?product_no=426&cate_no=1&display_group=15",
+      "mall": "함양몰",
+      "region": "경남",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:15:41.418Z"
+    },
+    {
+      "name": "상품명 : 용추골고추장(500g/900g/2kg/3kg)",
+      "price": 0,
+      "image": "https://2900.co.kr/web/upload/icon_201903201646431100.png",
+      "url": "https://2900.co.kr/product/detail.html?product_no=94&cate_no=1&display_group=15",
+      "mall": "함양몰",
+      "region": "경남",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:15:41.418Z"
+    },
+    {
+      "name": "상품명 : 김부각&고추부각선물세트(40g*6개)",
+      "price": 0,
+      "image": "https://2900.co.kr/web/upload/icon_201903201646431100.png",
+      "url": "https://2900.co.kr/product/detail.html?product_no=251&cate_no=1&display_group=15",
+      "mall": "함양몰",
+      "region": "경남",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:15:41.418Z"
+    },
+    {
+      "name": "상품명 : 청 선물세트",
+      "price": 0,
+      "image": "https://2900.co.kr/web/upload/icon_201903201646431100.png",
+      "url": "https://2900.co.kr/product/detail.html?product_no=271&cate_no=1&display_group=15",
+      "mall": "함양몰",
+      "region": "경남",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:15:41.418Z"
+    },
+    {
+      "name": "상품명 : 인산9회자죽염(분말20g/60g/240g/500g/1kg)",
+      "price": 0,
+      "image": "https://2900.co.kr/web/upload/icon_201903201646431100.png",
+      "url": "https://2900.co.kr/product/detail.html?product_no=92&cate_no=1&display_group=15",
+      "mall": "함양몰",
+      "region": "경남",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:15:41.418Z"
+    },
+    {
+      "name": "상품명 : 산양산삼 6~7년근 5뿌리+1뿌리",
+      "price": 0,
+      "image": "https://2900.co.kr/web/upload/icon_201903201646431100.png",
+      "url": "https://2900.co.kr/product/detail.html?product_no=240&cate_no=1&display_group=15",
+      "mall": "함양몰",
+      "region": "경남",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:15:41.418Z"
+    },
+    {
+      "name": "상품명 : 함양산양삼농축액 프리미엄 라이트 (60포)",
+      "price": 0,
+      "image": "https://2900.co.kr/web/upload/icon_201903201646431100.png",
+      "url": "https://2900.co.kr/product/detail.html?product_no=489&cate_no=1&display_group=15",
+      "mall": "함양몰",
+      "region": "경남",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:15:41.418Z"
+    },
+    {
+      "name": "상품명 : 부각 5종 set/6종 set",
+      "price": 0,
+      "image": "https://2900.co.kr/web/upload/icon_201903201646431100.png",
+      "url": "https://2900.co.kr/product/detail.html?product_no=298&cate_no=1&display_group=15",
+      "mall": "함양몰",
+      "region": "경남",
+      "category": "기타",
+      "scrapedAt": "2025-07-11T01:15:41.419Z"
+    }
+  ]
+}

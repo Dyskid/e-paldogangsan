@@ -1,0 +1,981 @@
+{
+  "generatedAt": "2025-07-11T01:22:15.343Z",
+  "summary": {
+    "totalMalls": 93,
+    "scrapedMalls": 85,
+    "missingMalls": 13,
+    "successPercentage": "91.40%",
+    "totalProducts": 4469,
+    "averageProductsPerMall": 53
+  },
+  "regionalBreakdown": [
+    {
+      "region": "강원",
+      "totalMalls": 17,
+      "scrapedMalls": 17,
+      "missingMalls": 0,
+      "successPercentage": "100.00%",
+      "totalProducts": 647,
+      "averageProductsPerMall": 38
+    },
+    {
+      "region": "경기",
+      "totalMalls": 5,
+      "scrapedMalls": 5,
+      "missingMalls": 0,
+      "successPercentage": "100.00%",
+      "totalProducts": 185,
+      "averageProductsPerMall": 37
+    },
+    {
+      "region": "경남",
+      "totalMalls": 9,
+      "scrapedMalls": 2,
+      "missingMalls": 7,
+      "successPercentage": "22.22%",
+      "totalProducts": 70,
+      "averageProductsPerMall": 35
+    },
+    {
+      "region": "경북",
+      "totalMalls": 22,
+      "scrapedMalls": 21,
+      "missingMalls": 1,
+      "successPercentage": "95.45%",
+      "totalProducts": 364,
+      "averageProductsPerMall": 17
+    },
+    {
+      "region": "광주",
+      "totalMalls": 1,
+      "scrapedMalls": 1,
+      "missingMalls": 0,
+      "successPercentage": "100.00%",
+      "totalProducts": 34,
+      "averageProductsPerMall": 34
+    },
+    {
+      "region": "대구",
+      "totalMalls": 2,
+      "scrapedMalls": 2,
+      "missingMalls": 0,
+      "successPercentage": "100.00%",
+      "totalProducts": 157,
+      "averageProductsPerMall": 79
+    },
+    {
+      "region": "대전",
+      "totalMalls": 1,
+      "scrapedMalls": 1,
+      "missingMalls": 0,
+      "successPercentage": "100.00%",
+      "totalProducts": 3,
+      "averageProductsPerMall": 3
+    },
+    {
+      "region": "전남",
+      "totalMalls": 17,
+      "scrapedMalls": 14,
+      "missingMalls": 3,
+      "successPercentage": "82.35%",
+      "totalProducts": 1181,
+      "averageProductsPerMall": 84
+    },
+    {
+      "region": "전북",
+      "totalMalls": 11,
+      "scrapedMalls": 11,
+      "missingMalls": 0,
+      "successPercentage": "100.00%",
+      "totalProducts": 792,
+      "averageProductsPerMall": 72
+    },
+    {
+      "region": "제주",
+      "totalMalls": 1,
+      "scrapedMalls": 0,
+      "missingMalls": 1,
+      "successPercentage": "0.00%",
+      "totalProducts": 0,
+      "averageProductsPerMall": 0
+    },
+    {
+      "region": "충남",
+      "totalMalls": 4,
+      "scrapedMalls": 3,
+      "missingMalls": 1,
+      "successPercentage": "75.00%",
+      "totalProducts": 78,
+      "averageProductsPerMall": 26
+    },
+    {
+      "region": "충북",
+      "totalMalls": 3,
+      "scrapedMalls": 3,
+      "missingMalls": 0,
+      "successPercentage": "100.00%",
+      "totalProducts": 266,
+      "averageProductsPerMall": 89
+    }
+  ],
+  "scrapedMalls": [
+    {
+      "id": "1",
+      "name": "Unknown",
+      "region": "Unknown",
+      "district": "",
+      "productCount": 154,
+      "url": "Unknown",
+      "filename": "1-we-mall-products.json"
+    },
+    {
+      "id": "2",
+      "name": "Unknown",
+      "region": "Unknown",
+      "district": "",
+      "productCount": 22,
+      "url": "Unknown",
+      "filename": "2-cham-dalseong-dalseong-county-products.json"
+    },
+    {
+      "id": "32",
+      "name": "Unknown",
+      "region": "Unknown",
+      "district": "",
+      "productCount": 93,
+      "url": "Unknown",
+      "filename": "32-e-hongseong-market-products.json"
+    },
+    {
+      "id": "5",
+      "name": "Unknown",
+      "region": "Unknown",
+      "district": "",
+      "productCount": 160,
+      "url": "Unknown",
+      "filename": "5-chack-chack-chack-products.json"
+    },
+    {
+      "id": "8",
+      "name": "Unknown",
+      "region": "Unknown",
+      "district": "",
+      "productCount": 0,
+      "url": "Unknown",
+      "filename": "8-yangju-farmers-market-products.json"
+    },
+    {
+      "id": "17",
+      "name": "강릉몰",
+      "region": "강원",
+      "district": "",
+      "productCount": 41,
+      "url": "https://gangneung-mall.com/",
+      "filename": "17-yangyang-mall-products.json"
+    },
+    {
+      "id": "15",
+      "name": "강원더몰",
+      "region": "강원",
+      "district": "",
+      "productCount": 28,
+      "url": "https://gwdmall.kr/",
+      "filename": "15-samcheok-mall-products.json"
+    },
+    {
+      "id": "18",
+      "name": "고성몰",
+      "region": "강원",
+      "district": "",
+      "productCount": 44,
+      "url": "https://gwgoseong-mall.com/",
+      "filename": "18-yeongwol-mall-products.json"
+    },
+    {
+      "id": "19",
+      "name": "동해몰",
+      "region": "강원",
+      "district": "",
+      "productCount": 37,
+      "url": "https://donghae-mall.com/",
+      "filename": "19-inje-mall-products.json"
+    },
+    {
+      "id": "20",
+      "name": "삼척몰",
+      "region": "강원",
+      "district": "",
+      "productCount": 37,
+      "url": "https://samcheok-mall.com/",
+      "filename": "20-cheorwon-mall-products.json"
+    },
+    {
+      "id": "21",
+      "name": "양구몰",
+      "region": "강원",
+      "district": "",
+      "productCount": 37,
+      "url": "https://yanggu-mall.com/",
+      "filename": "21-jeongseon-mall-products.json"
+    },
+    {
+      "id": "22",
+      "name": "양양몰",
+      "region": "강원",
+      "district": "",
+      "productCount": 35,
+      "url": "https://yangyang-mall.com/",
+      "filename": "22-taebaek-mall-products.json"
+    },
+    {
+      "id": "23",
+      "name": "영월몰",
+      "region": "강원",
+      "district": "",
+      "productCount": 46,
+      "url": "https://yeongwol-mall.com/",
+      "filename": "23-hoengseong-mall-products.json"
+    },
+    {
+      "id": "16",
+      "name": "원주몰",
+      "region": "강원",
+      "district": "",
+      "productCount": 19,
+      "url": "https://wonju-mall.co.kr/",
+      "filename": "16-yanggu-mall-products.json"
+    },
+    {
+      "id": "24",
+      "name": "인제몰",
+      "region": "강원",
+      "district": "",
+      "productCount": 32,
+      "url": "https://inje-mall.com/",
+      "filename": "24-chuncheon-mall-products.json"
+    },
+    {
+      "id": "26",
+      "name": "정선몰",
+      "region": "강원",
+      "district": "",
+      "productCount": 19,
+      "url": "https://jeongseon-mall.com/",
+      "filename": "26-pyeongchang-mall-products.json"
+    },
+    {
+      "id": "25",
+      "name": "철원몰",
+      "region": "강원",
+      "district": "",
+      "productCount": 28,
+      "url": "https://cheorwon-mall.com/",
+      "filename": "25-hongcheon-mall-products.json"
+    },
+    {
+      "id": "29",
+      "name": "춘천몰",
+      "region": "강원",
+      "district": "",
+      "productCount": 48,
+      "url": "https://gwch-mall.com/",
+      "filename": "29-goesan-market-products.json"
+    },
+    {
+      "id": "27",
+      "name": "태백몰",
+      "region": "강원",
+      "district": "",
+      "productCount": 20,
+      "url": "https://taebaek-mall.com/",
+      "filename": "27-eumseong-market-products.json"
+    },
+    {
+      "id": "31",
+      "name": "평창몰",
+      "region": "강원",
+      "district": "",
+      "productCount": 39,
+      "url": "https://gwpc-mall.com/",
+      "filename": "31-dangjin-farm-products.json"
+    },
+    {
+      "id": "30",
+      "name": "홍천몰",
+      "region": "강원",
+      "district": "",
+      "productCount": 47,
+      "url": "https://hongcheon-mall.com/",
+      "filename": "30-farm-love-products.json"
+    },
+    {
+      "id": "28",
+      "name": "횡성몰",
+      "region": "강원",
+      "district": "",
+      "productCount": 90,
+      "url": "https://hoengseong-mall.com/",
+      "filename": "28-jincheon-mall-products.json"
+    },
+    {
+      "id": "12",
+      "name": "광명가치몰",
+      "region": "경기",
+      "district": "",
+      "productCount": 25,
+      "url": "http://gmsocial.mangotree.co.kr/mall/",
+      "filename": "12-gangneung-mall-products.json"
+    },
+    {
+      "id": "14",
+      "name": "마켓경기",
+      "region": "경기",
+      "district": "",
+      "productCount": 23,
+      "url": "https://smartstore.naver.com/marketgyeonggi",
+      "filename": "14-donghae-mall-products.json"
+    },
+    {
+      "id": "13",
+      "name": "양주농부마켓",
+      "region": "경기",
+      "district": "",
+      "productCount": 27,
+      "url": "https://market.yangju.go.kr/",
+      "filename": "13-goseong-mall-products.json"
+    },
+    {
+      "id": "11",
+      "name": "오산함께장터",
+      "region": "경기",
+      "district": "",
+      "productCount": 60,
+      "url": "http://www.osansemall.com/",
+      "filename": "11-wonju-mall-products.json"
+    },
+    {
+      "id": "10",
+      "name": "착착착",
+      "region": "경기",
+      "district": "",
+      "productCount": 50,
+      "url": "https://www.chack3.com/",
+      "filename": "10-gangwon-the-mall-working-products.json"
+    },
+    {
+      "id": "90",
+      "name": "e경남몰",
+      "region": "경남",
+      "district": "",
+      "productCount": 20,
+      "url": "https://egnmall.kr",
+      "filename": "90-jinju-dream-products.json"
+    },
+    {
+      "id": "93",
+      "name": "산엔청 (산청)",
+      "region": "경남",
+      "district": "산청",
+      "productCount": 50,
+      "url": "https://sanencheong.com/",
+      "filename": "93-e-jeju-mall-mall-real-products.json"
+    },
+    {
+      "id": "85",
+      "name": "경산몰",
+      "region": "경북",
+      "district": "",
+      "productCount": 21,
+      "url": "https://gsmall.cyso.co.kr/",
+      "filename": "85-toyoae-uiryeong-products.json"
+    },
+    {
+      "id": "86",
+      "name": "경주몰",
+      "region": "경북",
+      "district": "",
+      "productCount": 1,
+      "url": "https://gjmall.cyso.co.kr/",
+      "filename": "86-namhae-mall-products.json"
+    },
+    {
+      "id": "77",
+      "name": "고령몰",
+      "region": "경북",
+      "district": "",
+      "productCount": 10,
+      "url": "https://grmall.cyso.co.kr/",
+      "filename": "77-uljin-mall-products.json"
+    },
+    {
+      "id": "87",
+      "name": "구미팜",
+      "region": "경북",
+      "district": "",
+      "productCount": 13,
+      "url": "https://gmmall.cyso.co.kr/",
+      "filename": "87-san-n-cheong-sancheong-products.json"
+    },
+    {
+      "id": "78",
+      "name": "김천노다지장터",
+      "region": "경북",
+      "district": "",
+      "productCount": 9,
+      "url": "http://gcnodaji.com/",
+      "filename": "78-yeongdeok-market-products.json"
+    },
+    {
+      "id": "80",
+      "name": "문경 새제의아침",
+      "region": "경북",
+      "district": "",
+      "productCount": 1,
+      "url": "https://mgmall.cyso.co.kr/",
+      "filename": "80-gyeongju-mall-products.json"
+    },
+    {
+      "id": "88",
+      "name": "별빛촌장터(영천)",
+      "region": "경북",
+      "district": "영천",
+      "productCount": 14,
+      "url": "https://01000.cyso.co.kr/",
+      "filename": "88-dinosaur-land-goseong-products.json"
+    },
+    {
+      "id": "76",
+      "name": "봉화장터",
+      "region": "경북",
+      "district": "",
+      "productCount": 8,
+      "url": "https://bmall.cyso.co.kr/",
+      "filename": "76-uiseong-market-day-products.json"
+    },
+    {
+      "id": "68",
+      "name": "사이소(경북몰)",
+      "region": "경북",
+      "district": "경북몰",
+      "productCount": 48,
+      "url": "https://www.cyso.co.kr/",
+      "filename": "68-yeongyang-onsim-market-products.json"
+    },
+    {
+      "id": "69",
+      "name": "상주 명실상주몰",
+      "region": "경북",
+      "district": "",
+      "productCount": 13,
+      "url": "https://sjmall.cyso.co.kr/",
+      "filename": "69-ulleungdo-products.json"
+    },
+    {
+      "id": "72",
+      "name": "안동장터",
+      "region": "경북",
+      "district": "",
+      "productCount": 0,
+      "url": "https://andongjang.andong.go.kr/",
+      "filename": "72-gimcheon-nodaji-market-products.json"
+    },
+    {
+      "id": "84",
+      "name": "영덕장터",
+      "region": "경북",
+      "district": "",
+      "productCount": 25,
+      "url": "https://ydmall.cyso.co.kr/",
+      "filename": "84-e-gyeongnam-mall-products.json"
+    },
+    {
+      "id": "74",
+      "name": "영양온심마켓",
+      "region": "경북",
+      "district": "",
+      "productCount": 31,
+      "url": "https://onsim.cyso.co.kr/",
+      "filename": "74-mungyeong-morning-of-saejae-products.json"
+    },
+    {
+      "id": "79",
+      "name": "예천장터",
+      "region": "경북",
+      "district": "",
+      "productCount": 11,
+      "url": "https://ycjang.cyso.co.kr/",
+      "filename": "79-gyeongsan-mall-products.json"
+    },
+    {
+      "id": "75",
+      "name": "울릉도",
+      "region": "경북",
+      "district": "",
+      "productCount": 30,
+      "url": "https://ulmall.cyso.co.kr",
+      "filename": "75-chilgok-mall-products.json"
+    },
+    {
+      "id": "83",
+      "name": "울진몰",
+      "region": "경북",
+      "district": "",
+      "productCount": 14,
+      "url": "https://ujmall.cyso.co.kr/",
+      "filename": "83-pohang-market-products.json"
+    },
+    {
+      "id": "82",
+      "name": "의성장날",
+      "region": "경북",
+      "district": "",
+      "productCount": 13,
+      "url": "https://esmall.cyso.co.kr/",
+      "filename": "82-starlight-village-market-yeongcheon-products.json"
+    },
+    {
+      "id": "70",
+      "name": "청도 청리브",
+      "region": "경북",
+      "district": "",
+      "productCount": 25,
+      "url": "https://cdmall.cyso.co.kr",
+      "filename": "70-bonghwa-market-products.json"
+    },
+    {
+      "id": "73",
+      "name": "청송몰",
+      "region": "경북",
+      "district": "",
+      "productCount": 50,
+      "url": "https://csmall.cyso.co.kr/",
+      "filename": "73-yecheon-market-products.json"
+    },
+    {
+      "id": "81",
+      "name": "칠곡몰",
+      "region": "경북",
+      "district": "",
+      "productCount": 10,
+      "url": "https://cgmall.cyso.co.kr/",
+      "filename": "81-gumi-farm-products.json"
+    },
+    {
+      "id": "89",
+      "name": "포항마켓",
+      "region": "경북",
+      "district": "",
+      "productCount": 17,
+      "url": "https://pohangmarket.cyso.co.kr/",
+      "filename": "89-hamyang-mall-products.json"
+    },
+    {
+      "id": "6",
+      "name": "광주김치몰",
+      "region": "광주",
+      "district": "",
+      "productCount": 34,
+      "url": "https://www.k-kimchi.kr/index.php",
+      "filename": "6-osan-together-market-products.json"
+    },
+    {
+      "id": "3",
+      "name": "우리몰",
+      "region": "대구",
+      "district": "",
+      "productCount": 120,
+      "url": "https://wemall.kr",
+      "filename": "3-gwangju-kimchi-mall-products.json"
+    },
+    {
+      "id": "4",
+      "name": "참달성 (달성군)",
+      "region": "대구",
+      "district": "달성군",
+      "productCount": 37,
+      "url": "https://chamds.com",
+      "filename": "4-daejeon-love-mall-products.json"
+    },
+    {
+      "id": "7",
+      "name": "대전사랑몰",
+      "region": "대전",
+      "district": "",
+      "productCount": 3,
+      "url": "https://ontongdaejeon.ezwel.com/onnuri/main",
+      "filename": "7-gwangmyeong-value-mall-scraped-products.json"
+    },
+    {
+      "id": "67",
+      "name": "곡성몰 (곡성군농특산물중개몰)",
+      "region": "전남",
+      "district": "곡성군농특산물중개몰",
+      "productCount": 40,
+      "url": "https://gokseongmall.com/",
+      "filename": "67-cheongsong-mall-products.json"
+    },
+    {
+      "id": "55",
+      "name": "나주몰",
+      "region": "전남",
+      "district": "",
+      "productCount": 131,
+      "url": "https://najumall.kr/",
+      "filename": "55-wando-county-e-shop-products.json"
+    },
+    {
+      "id": "51",
+      "name": "남도장터",
+      "region": "전남",
+      "district": "",
+      "productCount": 50,
+      "url": "https://www.jnmall.kr/",
+      "filename": "51-shinan-1004-mall-products.json"
+    },
+    {
+      "id": "64",
+      "name": "담양장터",
+      "region": "전남",
+      "district": "",
+      "productCount": 50,
+      "url": "https://damyangmk.kr/",
+      "filename": "64-cheongdo-cheong-live-products.json"
+    },
+    {
+      "id": "54",
+      "name": "보성몰",
+      "region": "전남",
+      "district": "",
+      "productCount": 185,
+      "url": "https://boseongmall.co.kr/",
+      "filename": "54-jindo-arirang-mall-products.json"
+    },
+    {
+      "id": "57",
+      "name": "신안1004몰",
+      "region": "전남",
+      "district": "",
+      "productCount": 14,
+      "url": "https://shinan1004mall.kr/",
+      "filename": "57-haenam-smile-products.json"
+    },
+    {
+      "id": "52",
+      "name": "여수몰",
+      "region": "전남",
+      "district": "",
+      "productCount": 35,
+      "url": "http://www.yeosumall.co.kr/",
+      "filename": "52-jangheung-mall-mountain-sea-jangheung-mall-products.json"
+    },
+    {
+      "id": "61",
+      "name": "완도군이숍",
+      "region": "전남",
+      "district": "",
+      "productCount": 50,
+      "url": "https://wandofood.go.kr/",
+      "filename": "61-gokseong-mall-gokseong-agricultural-products-mall-products.json"
+    },
+    {
+      "id": "60",
+      "name": "진도아리랑몰",
+      "region": "전남",
+      "district": "",
+      "productCount": 65,
+      "url": "https://jindoarirangmall.com/",
+      "filename": "60-hwasun-farm-products.json"
+    },
+    {
+      "id": "65",
+      "name": "초록믿음(강진)",
+      "region": "전남",
+      "district": "강진",
+      "productCount": 50,
+      "url": "https://greengj.com/",
+      "filename": "65-yeongju-market-day-products.json"
+    },
+    {
+      "id": "62",
+      "name": "함평천지몰",
+      "region": "전남",
+      "district": "",
+      "productCount": 49,
+      "url": "https://함평천지몰.kr/",
+      "filename": "62-cyso-gyeongbuk-mall-products.json"
+    },
+    {
+      "id": "63",
+      "name": "해남미소",
+      "region": "전남",
+      "district": "",
+      "productCount": 385,
+      "url": "https://www.hnmiso.com/ACC_index.asp",
+      "filename": "63-sangju-myeongsil-sangju-mall-products.json"
+    },
+    {
+      "id": "53",
+      "name": "해피굿팜",
+      "region": "전남",
+      "district": "",
+      "productCount": 61,
+      "url": "https://smartstore.naver.com/hgoodfarm",
+      "filename": "53-gichandeul-yeongam-mall-products.json"
+    },
+    {
+      "id": "66",
+      "name": "화순팜",
+      "region": "전남",
+      "district": "",
+      "productCount": 16,
+      "url": "https://www.hwasunfarm.com/",
+      "filename": "66-andong-market-products.json"
+    },
+    {
+      "id": "47",
+      "name": "고창마켓",
+      "region": "전북",
+      "district": "",
+      "productCount": 11,
+      "url": "https://noblegochang.com/",
+      "filename": "47-happy-good-farm-products.json"
+    },
+    {
+      "id": "41",
+      "name": "단풍미인 (정읍)",
+      "region": "전북",
+      "district": "정읍",
+      "productCount": 22,
+      "url": "https://www.danpoongmall.kr/",
+      "filename": "41-gochang-market-products.json"
+    },
+    {
+      "id": "40",
+      "name": "부안 텃밭할매",
+      "region": "전북",
+      "district": "",
+      "productCount": 32,
+      "url": "https://www.xn--9z2bv5bx25anyd.kr/",
+      "filename": "40-jangsu-mall-products.json"
+    },
+    {
+      "id": "49",
+      "name": "순창로컬푸드쇼핑몰",
+      "region": "전북",
+      "district": "",
+      "productCount": 198,
+      "url": "https://smartstore.naver.com/schfarm",
+      "filename": "49-naju-mall-products.json"
+    },
+    {
+      "id": "44",
+      "name": "익산몰",
+      "region": "전북",
+      "district": "",
+      "productCount": 74,
+      "url": "https://iksanmall.com/",
+      "filename": "44-haegaram-products.json"
+    },
+    {
+      "id": "48",
+      "name": "임실몰",
+      "region": "전북",
+      "district": "",
+      "productCount": 55,
+      "url": "https://www.imsilin.kr/home",
+      "filename": "48-boseong-mall-products.json"
+    },
+    {
+      "id": "46",
+      "name": "장수몰",
+      "region": "전북",
+      "district": "",
+      "productCount": 5,
+      "url": "https://www.장수몰.com/",
+      "filename": "46-yeosu-mall-products.json"
+    },
+    {
+      "id": "43",
+      "name": "전북생생장터",
+      "region": "전북",
+      "district": "",
+      "productCount": 11,
+      "url": "https://freshjb.com/",
+      "filename": "43-sunchang-local-food-shopping-mall-products.json"
+    },
+    {
+      "id": "42",
+      "name": "지평선몰(김제)",
+      "region": "전북",
+      "district": "김제",
+      "productCount": 0,
+      "url": "https://jpsmall.com/",
+      "filename": "42-imsil-mall-products.json"
+    },
+    {
+      "id": "45",
+      "name": "진안고원몰",
+      "region": "전북",
+      "district": "",
+      "productCount": 60,
+      "url": "https://jinangowonmall.com/",
+      "filename": "45-namdo-market-products.json"
+    },
+    {
+      "id": "50",
+      "name": "해가람",
+      "region": "전북",
+      "district": "",
+      "productCount": 324,
+      "url": "https://haegaram.com",
+      "filename": "50-suncheon-local-food-together-store-products.json"
+    },
+    {
+      "id": "38",
+      "name": "e홍성장터",
+      "region": "충남",
+      "district": "",
+      "productCount": 59,
+      "url": "https://ehongseong.com/",
+      "filename": "38-iksan-mall-products.json"
+    },
+    {
+      "id": "37",
+      "name": "당진팜",
+      "region": "충남",
+      "district": "",
+      "productCount": 3,
+      "url": "https://dangjinfarm.com/",
+      "filename": "37-jeonbuk-fresh-market-products.json"
+    },
+    {
+      "id": "39",
+      "name": "서산뜨레",
+      "region": "충남",
+      "district": "",
+      "productCount": 16,
+      "url": "https://seosanttre.com/index.html",
+      "filename": "39-jinan-highland-mall-products.json"
+    },
+    {
+      "id": "35",
+      "name": "괴산장터",
+      "region": "충북",
+      "district": "",
+      "productCount": 108,
+      "url": "https://www.gsjangter.go.kr/",
+      "filename": "35-maple-beauty-jeongeup-products.json"
+    },
+    {
+      "id": "33",
+      "name": "음성장터",
+      "region": "충북",
+      "district": "",
+      "productCount": 96,
+      "url": "https://www.esjang.go.kr/",
+      "filename": "33-seosan-ttre-products.json"
+    },
+    {
+      "id": "34",
+      "name": "진천몰",
+      "region": "충북",
+      "district": "",
+      "productCount": 62,
+      "url": "https://jcmall.net/",
+      "filename": "34-buan-grandmas-garden-products.json"
+    }
+  ],
+  "missingMalls": [
+    {
+      "id": "94",
+      "name": "공룡나라 (고성)",
+      "region": "경남",
+      "url": "https://www.edinomall.com/shop/smain/index.php",
+      "district": "고성"
+    },
+    {
+      "id": "98",
+      "name": "김해온몰",
+      "region": "경남",
+      "url": "https://gimhaemall.kr",
+      "district": ""
+    },
+    {
+      "id": "92",
+      "name": "남해몰",
+      "region": "경남",
+      "url": "https://enamhae.co.kr/",
+      "district": ""
+    },
+    {
+      "id": "96",
+      "name": "진주드림",
+      "region": "경남",
+      "url": "https://jinjudream.com/",
+      "district": ""
+    },
+    {
+      "id": "91",
+      "name": "토요애 (의령)",
+      "region": "경남",
+      "url": "https://toyoae.com/",
+      "district": "의령"
+    },
+    {
+      "id": "97",
+      "name": "함안몰",
+      "region": "경남",
+      "url": "https://hamanmall.com",
+      "district": ""
+    },
+    {
+      "id": "95",
+      "name": "함양몰",
+      "region": "경남",
+      "url": "https://2900.co.kr/",
+      "district": ""
+    },
+    {
+      "id": "71",
+      "name": "영주장날",
+      "region": "경북",
+      "url": "https://yjmarket.cyso.co.kr/",
+      "district": ""
+    },
+    {
+      "id": "59",
+      "name": "기찬들영암몰",
+      "region": "전남",
+      "url": "https://yeongammall.co.kr/",
+      "district": ""
+    },
+    {
+      "id": "56",
+      "name": "순천로컬푸드함께가게",
+      "region": "전남",
+      "url": "https://sclocal.kr/",
+      "district": ""
+    },
+    {
+      "id": "58",
+      "name": "장흥몰 (산들해랑장흥몰)",
+      "region": "전남",
+      "url": "https://okjmall.com/",
+      "district": "산들해랑장흥몰"
+    },
+    {
+      "id": "100",
+      "name": "이제주몰",
+      "region": "제주",
+      "url": "https://mall.ejeju.net/main/index.do",
+      "district": ""
+    },
+    {
+      "id": "36",
+      "name": "농사랑",
+      "region": "충남",
+      "url": "https://nongsarang.co.kr/",
+      "district": ""
+    }
+  ]
+}

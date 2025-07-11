@@ -1,0 +1,776 @@
+{
+  "mall": {
+    "id": 90,
+    "name": "진주드림",
+    "region": "경남",
+    "urls": [
+      "https://jinjudream.com",
+      "https://www.jinjudream.com",
+      "https://jinjudream.co.kr",
+      "https://jinjumall.com"
+    ]
+  },
+  "products": [
+    {
+      "id": "90_0009",
+      "name": "전체 카테고리",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/catalog?code=0009",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_17521962917063s65dmqdq",
+      "name": "신상품",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/new_arrivals",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_1752196291707gtewec81x",
+      "name": "베스트",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/best",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_0001",
+      "name": "농산물",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/catalog?code=0001",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00010001",
+      "name": "곡류/콩류",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/catalog?code=00010001",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00010002",
+      "name": "과일류",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/catalog?code=00010002",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00010003",
+      "name": "채소/과채류",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/catalog?code=00010003",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_0002",
+      "name": "축산물/임산물",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/catalog?code=0002",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00020004",
+      "name": "돼지고기",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/catalog?code=00020004",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00020005",
+      "name": "소고기",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/catalog?code=00020005",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_0003",
+      "name": "가공품",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/catalog?code=0003",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00030001",
+      "name": "건강식품",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/catalog?code=00030001",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00030002",
+      "name": "액젓/잼/장류",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/catalog?code=00030002",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00030003",
+      "name": "차/음료류",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/catalog?code=00030003",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00030004",
+      "name": "빵/떡류",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/catalog?code=00030004",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00030005",
+      "name": "화장품류",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/catalog?code=00030005",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00030009",
+      "name": "패션/잡화",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/catalog?code=00030009",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00100001",
+      "name": "서양란",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/catalog?code=00100001",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00100002",
+      "name": "화훼용품",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/catalog?code=00100002",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_0011",
+      "name": "선물하기",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/catalog?code=0011",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_390",
+      "name": "[금포영농조합법인]알부자집계란 특란",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/view?no=390",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_437",
+      "name": "[공돈축산] 논개한우(HACCP 1+) 부위별(등심/안심/채끝/차돌박이/불고기/국거리) 300g",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/view?no=437",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_556",
+      "name": "[우리기정떡]소화가 잘되는 건강한 발효떡",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/view?no=556",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_429",
+      "name": "[참진주로컬푸드] 구움떡 3종세트(12봉/24봉)",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/view?no=429",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_529",
+      "name": "[미광방앗간] 국산 참기름 들기름 300ml 2구 선물세트",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/view?no=529",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_543",
+      "name": "[임마누엘농장] 황금꾸지뽕 먹인 난각번호1번 유정란 계란 달걀",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/view?no=543",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_56",
+      "name": "[인섹트라온]나에게 좋은 상황 80ml 30포",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/view?no=56",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_394",
+      "name": "[운주도가] 윤탁 1000ml (월요일배송, 2병단위 판매)",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/view?no=394",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_368",
+      "name": "[아타토커피] 콜드브루 커피 6종(750㎖)",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/view?no=368",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_302",
+      "name": "[옥수농원] 유럽샐러드채소(1㎏, 2㎏)",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/view?no=302",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_466",
+      "name": "[농업회사법인 오색] 샤인머스켓(그린) 2kg",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/view?no=466",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_610",
+      "name": "[아름드리 농장] 국내산 청양 고추다짐장, 자연그대로의 깔끔한 매운맛",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/view?no=610",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_425",
+      "name": "[햇살조은농장] 초당옥수수",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/view?no=425",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_607",
+      "name": "[단디농장] 국산 토마토잼 선물세트(250g*3개입)",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/view?no=607",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_606",
+      "name": "[정아네유정란] 난각번호 1번 유정란, 자연 친화적 계란",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/view?no=606",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_106",
+      "name": "[진주대호영농조합법인] 2024년 진주논개 무농약 백미, GAP 백미(10㎏)",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/view?no=106",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_546",
+      "name": "[공돈축산] 논개한돈 삼겹살, 목살 선물세트",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/view?no=546",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_105",
+      "name": "[진주대호영농조합법인] 2024년 진주논개 GAP 백미(5㎏,10㎏)",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://jinjudream.com/goods/view?no=105",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_0009",
+      "name": "전체 카테고리",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/catalog?code=0009",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_17521962938597ap1z3suz",
+      "name": "신상품",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/new_arrivals",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_1752196293859enw2mfhu6",
+      "name": "베스트",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/best",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_0001",
+      "name": "농산물",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/catalog?code=0001",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00010001",
+      "name": "곡류/콩류",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/catalog?code=00010001",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00010002",
+      "name": "과일류",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/catalog?code=00010002",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00010003",
+      "name": "채소/과채류",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/catalog?code=00010003",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_0002",
+      "name": "축산물/임산물",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/catalog?code=0002",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00020004",
+      "name": "돼지고기",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/catalog?code=00020004",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00020005",
+      "name": "소고기",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/catalog?code=00020005",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_0003",
+      "name": "가공품",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/catalog?code=0003",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00030001",
+      "name": "건강식품",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/catalog?code=00030001",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00030002",
+      "name": "액젓/잼/장류",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/catalog?code=00030002",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00030003",
+      "name": "차/음료류",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/catalog?code=00030003",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00030004",
+      "name": "빵/떡류",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/catalog?code=00030004",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00030005",
+      "name": "화장품류",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/catalog?code=00030005",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00030009",
+      "name": "패션/잡화",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/catalog?code=00030009",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00100001",
+      "name": "서양란",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/catalog?code=00100001",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_00100002",
+      "name": "화훼용품",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/catalog?code=00100002",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_0011",
+      "name": "선물하기",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/catalog?code=0011",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_390",
+      "name": "[금포영농조합법인]알부자집계란 특란",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/view?no=390",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_437",
+      "name": "[공돈축산] 논개한우(HACCP 1+) 부위별(등심/안심/채끝/차돌박이/불고기/국거리) 300g",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/view?no=437",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_556",
+      "name": "[우리기정떡]소화가 잘되는 건강한 발효떡",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/view?no=556",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_429",
+      "name": "[참진주로컬푸드] 구움떡 3종세트(12봉/24봉)",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/view?no=429",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_529",
+      "name": "[미광방앗간] 국산 참기름 들기름 300ml 2구 선물세트",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/view?no=529",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_543",
+      "name": "[임마누엘농장] 황금꾸지뽕 먹인 난각번호1번 유정란 계란 달걀",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/view?no=543",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_56",
+      "name": "[인섹트라온]나에게 좋은 상황 80ml 30포",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/view?no=56",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_394",
+      "name": "[운주도가] 윤탁 1000ml (월요일배송, 2병단위 판매)",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/view?no=394",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_368",
+      "name": "[아타토커피] 콜드브루 커피 6종(750㎖)",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/view?no=368",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_302",
+      "name": "[옥수농원] 유럽샐러드채소(1㎏, 2㎏)",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/view?no=302",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_466",
+      "name": "[농업회사법인 오색] 샤인머스켓(그린) 2kg",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/view?no=466",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_610",
+      "name": "[아름드리 농장] 국내산 청양 고추다짐장, 자연그대로의 깔끔한 매운맛",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/view?no=610",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_425",
+      "name": "[햇살조은농장] 초당옥수수",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/view?no=425",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_607",
+      "name": "[단디농장] 국산 토마토잼 선물세트(250g*3개입)",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/view?no=607",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_606",
+      "name": "[정아네유정란] 난각번호 1번 유정란, 자연 친화적 계란",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/view?no=606",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_106",
+      "name": "[진주대호영농조합법인] 2024년 진주논개 무농약 백미, GAP 백미(10㎏)",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/view?no=106",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_546",
+      "name": "[공돈축산] 논개한돈 삼겹살, 목살 선물세트",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/view?no=546",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    },
+    {
+      "id": "90_105",
+      "name": "[진주대호영농조합법인] 2024년 진주논개 GAP 백미(5㎏,10㎏)",
+      "price": "가격문의",
+      "imageUrl": "",
+      "productUrl": "https://www.jinjudream.com/goods/view?no=105",
+      "mallId": 90,
+      "mallName": "진주드림",
+      "region": "경남"
+    }
+  ],
+  "scrapedAt": "2025-07-11T01:12:13.256Z"
+}

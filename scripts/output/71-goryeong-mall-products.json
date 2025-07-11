@@ -1,0 +1,18 @@
+{
+  "mall": {
+    "id": 71,
+    "name": "고령몰",
+    "engname": "goryeong-mall",
+    "url": "https://grmall.cyso.co.kr/",
+    "region": "경북"
+  },
+  "scrapedAt": "2025-07-10T15:30:21.364Z",
+  "totalProducts": 0,
+  "products": [],
+  "errors": [
+    {
+      "error": "Request failed with status code 404",
+      "timestamp": "2025-07-10T15:30:21.363Z"
+    }
+  ]
+}

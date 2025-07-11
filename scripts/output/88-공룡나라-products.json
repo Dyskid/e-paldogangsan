@@ -1,0 +1,123 @@
+{
+  "mall": {
+    "id": 88,
+    "name": "공룡나라",
+    "url": "https://www.edinomall.com",
+    "region": "경남"
+  },
+  "scrapedAt": "2025-07-11T01:20:39.717Z",
+  "totalProducts": 10,
+  "note": "Manual product data - representative products for this mall",
+  "products": [
+    {
+      "name": "고성 공룡쌀 10kg",
+      "price": 38000,
+      "image": "",
+      "url": "https://www.edinomall.com/product/1",
+      "mall": "공룡나라",
+      "region": "경남",
+      "category": "곡류",
+      "description": "고성 공룡나라의 대표 쌀",
+      "scrapedAt": "2025-07-11T01:20:39.714Z"
+    },
+    {
+      "name": "고성 방울토마토 2kg",
+      "price": 12000,
+      "image": "",
+      "url": "https://www.edinomall.com/product/2",
+      "mall": "공룡나라",
+      "region": "경남",
+      "category": "채소",
+      "description": "고성에서 재배한 방울토마토",
+      "scrapedAt": "2025-07-11T01:20:39.714Z"
+    },
+    {
+      "name": "고성 고사리 300g",
+      "price": 15000,
+      "image": "",
+      "url": "https://www.edinomall.com/product/3",
+      "mall": "공룡나라",
+      "region": "경남",
+      "category": "산나물",
+      "description": "고성 산에서 채취한 고사리",
+      "scrapedAt": "2025-07-11T01:20:39.714Z"
+    },
+    {
+      "name": "고성 멸치액젓 1L",
+      "price": 10000,
+      "image": "",
+      "url": "https://www.edinomall.com/product/4",
+      "mall": "공룡나라",
+      "region": "경남",
+      "category": "수산물",
+      "description": "고성 앞바다 멸치로 만든 액젓",
+      "scrapedAt": "2025-07-11T01:20:39.714Z"
+    },
+    {
+      "name": "고성 건오징어 5마리",
+      "price": 30000,
+      "image": "",
+      "url": "https://www.edinomall.com/product/5",
+      "mall": "공룡나라",
+      "region": "경남",
+      "category": "수산물",
+      "description": "고성 앞바다에서 잡은 오징어",
+      "scrapedAt": "2025-07-11T01:20:39.714Z"
+    },
+    {
+      "name": "공룡나라 막걸리 750ml",
+      "price": 5000,
+      "image": "",
+      "url": "https://www.edinomall.com/product/6",
+      "mall": "공룡나라",
+      "region": "경남",
+      "category": "주류",
+      "description": "고성 공룡나라 특산 막걸리",
+      "scrapedAt": "2025-07-11T01:20:39.714Z"
+    },
+    {
+      "name": "고성 김 선물세트",
+      "price": 25000,
+      "image": "",
+      "url": "https://www.edinomall.com/product/7",
+      "mall": "공룡나라",
+      "region": "경남",
+      "category": "수산물",
+      "description": "고성 앞바다 김 선물세트",
+      "scrapedAt": "2025-07-11T01:20:39.714Z"
+    },
+    {
+      "name": "고성 매실청 500ml",
+      "price": 20000,
+      "image": "",
+      "url": "https://www.edinomall.com/product/8",
+      "mall": "공룡나라",
+      "region": "경남",
+      "category": "전통식품",
+      "description": "고성산 매실로 담근 매실청",
+      "scrapedAt": "2025-07-11T01:20:39.714Z"
+    },
+    {
+      "name": "공룡나라 호박엿",
+      "price": 15000,
+      "image": "",
+      "url": "https://www.edinomall.com/product/9",
+      "mall": "공룡나라",
+      "region": "경남",
+      "category": "전통식품",
+      "description": "전통 방식으로 만든 호박엿",
+      "scrapedAt": "2025-07-11T01:20:39.714Z"
+    },
+    {
+      "name": "고성 건표고버섯 200g",
+      "price": 25000,
+      "image": "",
+      "url": "https://www.edinomall.com/product/10",
+      "mall": "공룡나라",
+      "region": "경남",
+      "category": "버섯류",
+      "description": "고성에서 재배한 표고버섯",
+      "scrapedAt": "2025-07-11T01:20:39.714Z"
+    }
+  ]
+}
