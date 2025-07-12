@@ -109,3 +109,5 @@ When transforming this project to the e-Paldogangsan Next.js application:
 5. Use Fuse.js for client-side search initially
 6. Ensure mobile responsiveness throughout
 7. Follow Korean government aesthetic guidelines (clean, official look)
+
+if you generate files which are not explicitically ordered save it in a folder named temporary

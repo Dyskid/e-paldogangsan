@@ -332,4 +332,25 @@ async function main() {
   }
 }
 
-main().catch(console.error);
+// Export for use in other modules
+async function scrapeSpecificMall(mallName) {
+  const malls = await loadMalls();
+  const targetMall = malls.find(m => 
+    m.name.toLowerCase().includes(mallName.toLowerCase()) ||
+    m.url.includes(mallName.toLowerCase())
+  );
+  
+  if (!targetMall) {
+    throw new Error(`Mall "${mallName}" not found`);
+  }
+  
+  const results = await scrapeMall(targetMall);
+  return results.products || [];
+}
+
+// Run as standalone script if called directly
+if (require.main === module) {
+  main().catch(console.error);
+}
+
+module.exports = { scrapeSpecificMall, scrapeMall };

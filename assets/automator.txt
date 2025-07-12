@@ -1,9 +1,0 @@
-automator=$(cat ./assets/scraper-enrollingcommand.txt)
-
-while IFS= read -r shop; do
-  claude -p "Mall info: $shop
-
-$automator" \
-    --output-format stream-json --verbose > "result_$(echo "$shop" | tr -cd '[:alnum:]').json" &
-done < ./assets/malls-clean.txt
-wait

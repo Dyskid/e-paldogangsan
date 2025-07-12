@@ -1,0 +1,111 @@
+{
+  "description": "Registry of all available scrapers with unique IDs",
+  "lastUpdated": "2025-01-12",
+  "scrapers": {
+    "S001": {
+      "name": "generic-axios",
+      "description": "Generic HTTP scraper using axios and cheerio",
+      "type": "generic",
+      "file": null,
+      "builtin": true
+    },
+    "S002": {
+      "name": "cyso-platform",
+      "description": "CYSO e-commerce platform scraper",
+      "type": "platform",
+      "file": "scrapers/cyso-platform-scraper.js",
+      "builtin": false
+    },
+    "S003": {
+      "name": "cyso-enhanced",
+      "description": "Enhanced CYSO platform scraper with better product detection",
+      "type": "platform",
+      "file": null,
+      "builtin": true
+    },
+    "S004": {
+      "name": "naver-smartstore",
+      "description": "Naver Smart Store scraper",
+      "type": "platform",
+      "file": "scrapers/naver-smartstore-scraper.js",
+      "builtin": false
+    },
+    "S005": {
+      "name": "cafe24",
+      "description": "Cafe24 e-commerce platform scraper",
+      "type": "platform",
+      "file": null,
+      "builtin": true
+    },
+    "S006": {
+      "name": "regional-mall",
+      "description": "Generic regional mall scraper pattern",
+      "type": "regional",
+      "file": null,
+      "builtin": true
+    },
+    "S007": {
+      "name": "government",
+      "description": "Government site scraper",
+      "type": "government",
+      "file": null,
+      "builtin": true
+    },
+    "S008": {
+      "name": "ezwel",
+      "description": "Ezwel platform scraper",
+      "type": "platform",
+      "file": null,
+      "builtin": true
+    },
+    "S009": {
+      "name": "mangotree",
+      "description": "Mangotree platform scraper",
+      "type": "platform",
+      "file": null,
+      "builtin": true
+    },
+    "S010": {
+      "name": "wordpress",
+      "description": "WordPress/WooCommerce scraper",
+      "type": "cms",
+      "file": null,
+      "builtin": true
+    },
+    "S011": {
+      "name": "gimcheon-custom",
+      "description": "Custom scraper for Gimcheon Nodaji Market",
+      "type": "custom",
+      "file": null,
+      "builtin": true
+    },
+    "S012": {
+      "name": "gokseong-custom",
+      "description": "Custom puppeteer scraper for Gokseong Mall",
+      "type": "custom",
+      "file": null,
+      "builtin": true
+    },
+    "S013": {
+      "name": "andong-custom",
+      "description": "Custom scraper with SSL bypass for Andong Market",
+      "type": "custom",
+      "file": null,
+      "builtin": true
+    },
+    "S014": {
+      "name": "puppeteer",
+      "description": "Generic puppeteer-based scraper for dynamic content",
+      "type": "dynamic",
+      "file": null,
+      "builtin": true
+    },
+    "S015": {
+      "name": "custom-platform",
+      "description": "Custom platform scraper using specific-mall-scraper",
+      "type": "custom",
+      "file": "scrapers/custom-platform-scraper.js",
+      "builtin": false
+    }
+  }
+}

@@ -8,33 +8,6 @@ interface ScraperDefinition {
 
 // Mall-specific scraper configurations
 export const scraperRegistry: Record<string, ScraperDefinition> = {
-  // Updated configurations for merged malls
-  'mall_1_온서울마켓': {
-    type: 'generic',
-    config: {
-      mallId: 'mall_1_온서울마켓',
-      mallName: '온서울마켓',
-      baseUrl: 'https://on.seoul.go.kr',
-      productSelector: '.product-item',
-      nameSelector: '.product-name',
-      priceSelector: '.product-price',
-      imageSelector: '.product-image img',
-      linkSelector: 'a'
-    }
-  },
-  'mall_2_부산브랜드몰': {
-    type: 'generic',
-    config: {
-      mallId: 'mall_2_부산브랜드몰',
-      mallName: '부산브랜드몰',
-      baseUrl: 'https://busanbrand.kr',
-      productSelector: '.item-box',
-      nameSelector: '.item-title',
-      priceSelector: '.item-price',
-      imageSelector: '.item-img img',
-      linkSelector: 'a.item-link'
-    }
-  },
   // Generic configurations for other major malls
   'mall_15_강원더몰': {
     type: 'generic',
@@ -75,12 +48,12 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       linkSelector: 'a'
     }
   },
-  'mall_99_제주몰': {
+  'mall_100_이제주몰': {
     type: 'generic',
     config: {
-      mallId: 'mall_99_제주몰',
-      mallName: '제주몰',
-      baseUrl: 'https://www.jejumall.kr',
+      mallId: 'mall_100_이제주몰',
+      mallName: '이제주몰',
+      baseUrl: 'https://mall.ejeju.net',
       productSelector: '.product-item',
       nameSelector: '.product-name',
       priceSelector: '.product-price',
@@ -88,10 +61,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       linkSelector: 'a'
     }
   },
-  'chuncheon-mall': {
+  'mall_29_춘천몰': {
     type: 'generic',
     config: {
-      mallId: 'chuncheon-mall',
+      mallId: 'mall_29_춘천몰',
       mallName: '춘천몰',
       baseUrl: 'https://gwch-mall.com',
       productSelector: 'a[href*="/goods/view"]',
@@ -101,10 +74,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       linkSelector: 'a[href*="/goods/view"]'
     }
   },
-  'hongcheon-mall': {
+  'mall_30_홍천몰': {
     type: 'generic',
     config: {
-      mallId: 'hongcheon-mall',
+      mallId: 'mall_30_홍천몰',
       mallName: '홍천몰',
       baseUrl: 'https://hongcheon-mall.com',
       productSelector: 'a[href*="/goods/view"]',
@@ -114,10 +87,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       linkSelector: 'a[href*="/goods/view"]'
     }
   },
-  'gwpc-mall': {
+  'mall_31_평창몰': {
     type: 'generic',
     config: {
-      mallId: 'gwpc-mall',
+      mallId: 'mall_31_평창몰',
       mallName: '평창몰',
       baseUrl: 'https://gwpc-mall.com',
       productSelector: 'a[href*="/goods/view"]',
@@ -127,10 +100,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       linkSelector: 'a[href*="/goods/view"]'
     }
   },
-  'haegaram': {
+  'mall_50_해가람': {
     type: 'generic',
     config: {
-      mallId: 'haegaram',
+      mallId: 'mall_50_해가람',
       mallName: '해가람',
       baseUrl: 'https://haegaram.com',
       productSelector: '.xans-product-normalpackage .prdList .item',
@@ -140,10 +113,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       linkSelector: 'a.prdImg'
     }
   },
-  'jnmall': {
+  'mall_51_남도장터': {
     type: 'generic',
     config: {
-      mallId: 'jnmall',
+      mallId: 'mall_51_남도장터',
       mallName: '남도장터',
       baseUrl: 'https://www.jnmall.kr',
       productSelector: '.prd_list .item',
@@ -153,10 +126,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       linkSelector: 'a'
     }
   },
-  'yeosumall': {
+  'mall_52_여수몰': {
     type: 'generic',
     config: {
-      mallId: 'yeosumall',
+      mallId: 'mall_52_여수몰',
       mallName: '여수몰',
       baseUrl: 'http://www.yeosumall.co.kr',
       productSelector: '.goods_list .item, .product_list .item',
@@ -167,10 +140,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Site frequently shows server capacity errors - may need alternative access methods'
     }
   },
-  'boseongmall': {
+  'mall_54_보성몰': {
     type: 'generic',
     config: {
-      mallId: 'boseongmall',
+      mallId: 'mall_54_보성몰',
       mallName: '보성몰',
       baseUrl: 'https://boseongmall.co.kr',
       productSelector: 'ul.prdList li.xans-record-',
@@ -184,11 +157,11 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Cafe24-based platform - uses img alt for product titles and li.product_price for prices'
     }
   },
-  'sclocal': {
+  'mall_56_순천로컬푸드함께가게': {
     type: 'generic',
     config: {
-      mallId: 'sclocal',
-      mallName: '순천로컬푸드 함께가게',
+      mallId: 'mall_56_순천로컬푸드함께가게',
+      mallName: '순천로컬푸드함께가게',
       baseUrl: 'https://sclocal.kr',
       productSelector: '.item_list .item_box',
       nameSelector: '.item_name',
@@ -200,10 +173,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Custom platform with category-based product listings. URL format: ?pn=product.list&cuid=XXX'
     }
   },
-  'najumall': {
+  'mall_55_나주몰': {
     type: 'generic',
     config: {
-      mallId: 'najumall',
+      mallId: 'mall_55_나주몰',
       mallName: '나주몰',
       baseUrl: 'https://najumall.kr',
       productSelector: '.xans-product-listmain .xans-record-',
@@ -217,10 +190,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Cafe24-based platform with 9 categories. Famous for Naju pears (나주배)'
     }
   },
-  'shinan1004': {
+  'mall_57_신안1004몰': {
     type: 'generic',
     config: {
-      mallId: 'shinan1004',
+      mallId: 'mall_57_신안1004몰',
       mallName: '신안1004몰',
       baseUrl: 'https://shinan1004mall.kr',
       productSelector: '.xans-product-listmain .xans-record-, .prdList .xans-record-',
@@ -234,11 +207,11 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Cafe24-based platform. Famous for Shinan sea salt and seafood products. Requires price correction for truncated values.'
     }
   },
-  'okjmall': {
+  'mall_58_장흥몰_산들해랑장흥몰_': {
     type: 'generic',
     config: {
-      mallId: 'okjmall',
-      mallName: '장흥몰',
+      mallId: 'mall_58_장흥몰_산들해랑장흥몰_',
+      mallName: '장흥몰 (산들해랑장흥몰)',
       baseUrl: 'https://okjmall.com',
       productSelector: '.item_gallery_type .item_cont, .item_list_type .item_cont',
       nameSelector: '.item_name',
@@ -250,11 +223,11 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Godo Mall platform. Famous for Jangheung Korean beef, shiitake mushrooms, and black tea.'
     }
   },
-  'yeongammall': {
+  'mall_59_기찬들영암몰': {
     type: 'generic',
     config: {
-      mallId: 'yeongammall',
-      mallName: '영암몰',
+      mallId: 'mall_59_기찬들영암몰',
+      mallName: '기찬들영암몰',
       baseUrl: 'https://yeongammall.co.kr',
       productSelector: '.xans-record-',
       nameSelector: 'img',
@@ -267,10 +240,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Cafe24 platform. Famous for Yeongam Korean beef (기찬랜드), melons, and freshwater eel.'
     }
   },
-  'jindoarirangmall': {
+  'mall_60_진도아리랑몰': {
     type: 'generic',
     config: {
-      mallId: 'jindoarirangmall',
+      mallId: 'mall_60_진도아리랑몰',
       mallName: '진도아리랑몰',
       baseUrl: 'https://jindoarirangmall.com',
       productSelector: '.xans-record-',
@@ -284,10 +257,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Cafe24 platform. Famous for Jindo turmeric (울금), goji berries (구기자), abalone, laver (곱창김), and traditional hongju wine.'
     }
   },
-  'wandofood': {
+  'mall_61_완도군이숍': {
     type: 'generic',
     config: {
-      mallId: 'wandofood',
+      mallId: 'mall_61_완도군이숍',
       mallName: '완도군이숍',
       baseUrl: 'https://wandofood.go.kr',
       productSelector: '.xans-record-',
@@ -301,10 +274,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Cafe24 platform. Famous for Wando abalone (완도전복), seaweed products, and premium laver. Also produces hwangchil and moringa.'
     }
   },
-  'hampyeongm': {
+  'mall_62_함평천지몰': {
     type: 'generic',
     config: {
-      mallId: 'hampyeongm',
+      mallId: 'mall_62_함평천지몰',
       mallName: '함평천지몰',
       baseUrl: 'https://hampyeongm.com',
       productSelector: '.prd-item',
@@ -326,10 +299,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Cafe24 platform with .prd-item product structure. Product info in .description element.'
     }
   },
-  'damyangmk': {
+  'mall_64_담양장터': {
     type: 'generic',
     config: {
-      mallId: 'damyangmk',
+      mallId: 'mall_64_담양장터',
       mallName: '담양장터',
       baseUrl: 'https://damyangmk.kr',
       productSelector: 'li[id^="anchorBoxId"]',
@@ -347,10 +320,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Cafe24 platform with li[id^="anchorBoxId"] product structure. Price in .description element.'
     }
   },
-  'greengj': {
+  'mall_65_초록믿음_강진_': {
     type: 'generic',
     config: {
-      mallId: 'greengj',
+      mallId: 'mall_65_초록믿음_강진_',
       mallName: '초록믿음(강진)',
       baseUrl: 'https://greengj.com',
       productSelector: 'li[id^="anchorBoxId"]',
@@ -368,10 +341,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Cafe24 platform with li[id^="anchorBoxId"] product structure. Specializes in organic and fermented foods.'
     }
   },
-  'hwasunfarm': {
+  'mall_66_화순팜': {
     type: 'generic',
     config: {
-      mallId: 'hwasunfarm',
+      mallId: 'mall_66_화순팜',
       mallName: '화순팜',
       baseUrl: 'https://www.hwasunfarm.com',
       productSelector: 'a[href*="kwa-ABS_goods_v-"]',
@@ -398,11 +371,11 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Custom platform with kwa-ABS_goods_v-{id}-{category} URL pattern. Comprehensive agricultural products.'
     }
   },
-  'gokseongmall': {
+  'mall_67_곡성몰_곡성군농특산물중개몰_': {
     type: 'generic',
     config: {
-      mallId: 'gokseongmall',
-      mallName: '곡성몰',
+      mallId: 'mall_67_곡성몰_곡성군농특산물중개몰_',
+      mallName: '곡성몰 (곡성군농특산물중개몰)',
       baseUrl: 'https://gokseongmall.com',
       productSelector: 'a[href*="kwa-ABS_goods_v-"]',
       nameSelector: 'h1, title, .goods_name, [class*="title"], [class*="name"]',
@@ -429,10 +402,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Custom platform with kwa-ABS_goods_v-{id}-{category} URL pattern. Specializes in Gokseong regional products.'
     }
   },
-  'cyso': {
+  'mall_68_사이소_경북몰_': {
     type: 'generic',
     config: {
-      mallId: 'cyso',
+      mallId: 'mall_68_사이소_경북몰_',
       mallName: '사이소(경북몰)',
       baseUrl: 'https://www.cyso.co.kr',
       productSelector: 'a[href*="shop/item.php?it_id="]',
@@ -461,11 +434,11 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Traditional PHP e-commerce platform with shop/item.php?it_id= URL pattern. Gyeongbuk regional specialties.'
     }
   },
-  'sjmall': {
+  'mall_69_상주_명실상주몰': {
     type: 'generic',
     config: {
-      mallId: 'sjmall',
-      mallName: '상주몰',
+      mallId: 'mall_69_상주_명실상주몰',
+      mallName: '상주 명실상주몰',
       baseUrl: 'https://sjmall.cyso.co.kr',
       productSelector: 'a[href*="shop/item.php?it_id="]',
       nameSelector: 'h1, title, .it_name, [class*="title"], [class*="name"]',
@@ -493,11 +466,11 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Traditional PHP e-commerce platform with shop/item.php?it_id= URL pattern. Sangju regional specialties including famous Sangju dried persimmons.'
     }
   },
-  'cdmall': {
+  'mall_70_청도_청리브': {
     type: 'generic',
     config: {
-      mallId: 'cdmall',
-      mallName: '청도몰',
+      mallId: 'mall_70_청도_청리브',
+      mallName: '청도 청리브',
       baseUrl: 'https://cdmall.cyso.co.kr',
       productSelector: 'a[href*="shop/item.php?it_id="]',
       nameSelector: '#sit_title, h2#sit_title, #sit_desc, p#sit_desc',
@@ -525,10 +498,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Traditional PHP e-commerce platform with shop/item.php?it_id= URL pattern. Cheongdo regional specialties including famous dried persimmons and semi-dried persimmons.'
     }
   },
-  'yjmarket': {
+  'mall_71_영주장날': {
     type: 'generic',
     config: {
-      mallId: 'yjmarket',
+      mallId: 'mall_71_영주장날',
       mallName: '영주장날',
       baseUrl: 'https://yjmarket.cyso.co.kr',
       productSelector: 'a[href*="shop/item.php?it_id="]',
@@ -557,10 +530,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Traditional PHP e-commerce platform with shop/item.php?it_id= URL pattern. Yeongju regional specialties including famous apples, ginseng, Korean beef, and local products.'
     }
   },
-  'csmall': {
+  'mall_73_청송몰': {
     type: 'generic',
     config: {
-      mallId: 'csmall',
+      mallId: 'mall_73_청송몰',
       mallName: '청송몰',
       baseUrl: 'https://csmall.cyso.co.kr',
       productSelector: 'a[href*="shop/item.php?it_id="]',
@@ -589,10 +562,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Traditional PHP e-commerce platform with shop/item.php?it_id= URL pattern. Specializes in Cheongsung apples and regional specialties including apple juice, traditional confections, and local products.'
     }
   },
-  'onsim': {
+  'mall_74_영양온심마켓': {
     type: 'generic',
     config: {
-      mallId: 'onsim',
+      mallId: 'mall_74_영양온심마켓',
       mallName: '영양온심마켓',
       baseUrl: 'https://onsim.cyso.co.kr',
       productSelector: 'a[href*="shop/item.php?it_id="]',
@@ -628,11 +601,11 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Traditional PHP e-commerce platform with shop/item.php?it_id= URL pattern. Specializes in Yeongyang red peppers, gochugaru (red pepper powder), mushrooms, and traditional health foods. Price extraction uses JavaScript variables for reliability.'
     }
   },
-  'ulmall': {
+  'mall_75_울릉도': {
     type: 'generic',
     config: {
-      mallId: 'ulmall',
-      mallName: '울릉도몰',
+      mallId: 'mall_75_울릉도',
+      mallName: '울릉도',
       baseUrl: 'https://ulmall.cyso.co.kr',
       productSelector: 'a[href*="shop/item.php?it_id="]',
       nameSelector: '#sit_title, h2#sit_title, #sit_desc, p#sit_desc',
@@ -667,10 +640,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Traditional PHP e-commerce platform with shop/item.php?it_id= URL pattern. Specializes in Ulleungdo island products including wild vegetables (명이나물, 부지갱이), seafood (오징어, 전복), and unique island specialties. Price extraction uses JavaScript variables for reliability.'
     }
   },
-  'bmall': {
+  'mall_76_봉화장터': {
     type: 'generic',
     config: {
-      mallId: 'bmall',
+      mallId: 'mall_76_봉화장터',
       mallName: '봉화장터',
       baseUrl: 'https://bmall.cyso.co.kr',
       productSelector: 'a[href*="shop/item.php?it_id="]',
@@ -706,10 +679,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Traditional PHP e-commerce platform with shop/item.php?it_id= URL pattern. Specializes in Bonghwa regional products including premium Korean beef, traditional fermented foods, mountain herbs, premium oils, and health foods. Price extraction uses JavaScript variables for reliability.'
     }
   },
-  'ycjang': {
+  'mall_79_예천장터': {
     type: 'generic',
     config: {
-      mallId: 'ycjang',
+      mallId: 'mall_79_예천장터',
       mallName: '예천장터',
       baseUrl: 'https://ycjang.cyso.co.kr',
       productSelector: 'a[href*="shop/item.php?it_id="]',
@@ -745,11 +718,11 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Traditional PHP e-commerce platform with shop/item.php?it_id= URL pattern. Specializes in Yecheon regional products including premium rice (구룡쌀), sesame oil, perilla oil, Korean beef, and local agricultural products. Price extraction uses JavaScript variables for reliability.'
     }
   },
-  'mgmall': {
+  'mall_80_문경_새제의아침': {
     type: 'generic',
     config: {
-      mallId: 'mgmall',
-      mallName: '문경몰',
+      mallId: 'mall_80_문경_새제의아침',
+      mallName: '문경 새제의아침',
       baseUrl: 'https://mgmall.cyso.co.kr',
       productSelector: 'a[href*="shop/item.php?it_id="]',
       nameSelector: '#sit_title, h2#sit_title, #sit_desc, p#sit_desc',
@@ -784,10 +757,10 @@ export const scraperRegistry: Record<string, ScraperDefinition> = {
       note: 'Traditional PHP e-commerce platform with shop/item.php?it_id= URL pattern. Specializes in Mungyeong regional products including schisandra (오미자) products, medicinal stone honey (약돌벌꿀), pine mushrooms (송화고), premium oils, Korean pork, and local agricultural products. Price extraction uses JavaScript variables for reliability.'
     }
   },
-  'cgmall': {
+  'mall_81_칠곡몰': {
     type: 'generic',
     config: {
-      mallId: 'cgmall',
+      mallId: 'mall_81_칠곡몰',
       mallName: '칠곡몰',
       baseUrl: 'https://cgmall.cyso.co.kr',
       productSelector: 'a[href*="shop/item.php?it_id="]',

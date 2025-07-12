@@ -1,5 +1,5 @@
 import { Mall, Region, Category } from '@/types';
-import mallsData from '@/data/malls.json';
+import mallsData from '@/data/malls/malls.json';
 import regionsData from '@/data/regions.json';
 import categoriesData from '@/data/categories.json';
 
