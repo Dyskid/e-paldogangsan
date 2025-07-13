@@ -80,9 +80,9 @@ def execute_command(id_value):
 Work Process:
 
 1. Verify existing mappings:
-   - Check if a scraper is already mapped to this mall inscripts\data\scraper-mappings.json
+   - Check if a scraper is already mapped to this mall in scripts/data/scraper-registry.json
    - Verify that the mapped scraper actually exists in scripts/scrapers directory
-   - Verify the mapped scraper is really adequate
+   - If the scraper doesn't exist, remove it from scripts/data/scraper-registry.json
 
 2. Handle unmapped malls:
    - If no mapping exists in scripts/data/scraper-mappings.json:

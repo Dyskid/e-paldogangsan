@@ -11,9 +11,9 @@
     "id": 2,
     "engname": "cham-dalseong-dalseong-county",
     "name": "참달성 (달성군)",
-    "url": "https://smartstore.naver.com/chamdalseong",
+    "url": "https://chamds.com",
     "region": "대구",
-    "status": "error"
+    "status": "scraped"
   },
   {
     "id": 3,

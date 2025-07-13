@@ -1,0 +1,746 @@
+[
+  {
+    "mallId": 1,
+    "mallName": "우리몰",
+    "url": "https://wemall.kr",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 2,
+    "mallName": "참달성 (달성군)",
+    "url": "https://chamds.com",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 3,
+    "mallName": "광주김치몰",
+    "url": "https://www.k-kimchi.kr/index.php",
+    "bestScraperId": "S016",
+    "scraperType": "gwangju-kimchi-custom",
+    "notes": "Custom scraper specifically for this mall"
+  },
+  {
+    "mallId": 4,
+    "mallName": "대전사랑몰",
+    "url": "https://ontongdaejeon.ezwel.com/onnuri/main",
+    "bestScraperId": "S008",
+    "scraperType": "ezwel",
+    "notes": "Ezwel platform"
+  },
+  {
+    "mallId": 5,
+    "mallName": "착착착",
+    "url": "https://www.chack3.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 6,
+    "mallName": "오산함께장터",
+    "url": "http://www.osansemall.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 7,
+    "mallName": "광명가치몰",
+    "url": "http://gmsocial.mangotree.co.kr/mall/",
+    "bestScraperId": "S009",
+    "scraperType": "mangotree",
+    "notes": "Mangotree platform"
+  },
+  {
+    "mallId": 8,
+    "mallName": "양주농부마켓",
+    "url": "https://market.yangju.go.kr/",
+    "bestScraperId": "S017",
+    "scraperType": "yangju-farmers-market",
+    "notes": "Custom scraper specifically for this mall"
+  },
+  {
+    "mallId": 9,
+    "mallName": "마켓경기",
+    "url": "https://smartstore.naver.com/marketgyeonggi",
+    "bestScraperId": "S004",
+    "scraperType": "naver-smartstore",
+    "notes": "Naver Smart Store"
+  },
+  {
+    "mallId": 10,
+    "mallName": "강원더몰",
+    "url": "https://gwdmall.kr/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 11,
+    "mallName": "원주몰",
+    "url": "https://wonju-mall.co.kr/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 12,
+    "mallName": "강릉몰",
+    "url": "https://gangneung-mall.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 13,
+    "mallName": "고성몰",
+    "url": "https://gwgoseong-mall.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 14,
+    "mallName": "동해몰",
+    "url": "https://donghae-mall.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 15,
+    "mallName": "삼척몰",
+    "url": "https://samcheok-mall.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 16,
+    "mallName": "양구몰",
+    "url": "https://yanggu-mall.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 17,
+    "mallName": "양양몰",
+    "url": "https://yangyang-mall.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 18,
+    "mallName": "영월몰",
+    "url": "https://yeongwol-mall.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 19,
+    "mallName": "인제몰",
+    "url": "https://inje-mall.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 20,
+    "mallName": "철원몰",
+    "url": "https://cheorwon-mall.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 21,
+    "mallName": "정선몰",
+    "url": "https://jeongseon-mall.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 22,
+    "mallName": "태백몰",
+    "url": "https://taebaek-mall.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 23,
+    "mallName": "횡성몰",
+    "url": "https://hoengseong-mall.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 24,
+    "mallName": "춘천몰",
+    "url": "https://gwch-mall.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 25,
+    "mallName": "홍천몰",
+    "url": "https://hongcheon-mall.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 26,
+    "mallName": "평창몰",
+    "url": "https://gwpc-mall.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 27,
+    "mallName": "음성장터",
+    "url": "https://www.esjang.go.kr/",
+    "bestScraperId": "S007",
+    "scraperType": "government",
+    "notes": "Government site (.go.kr)"
+  },
+  {
+    "mallId": 28,
+    "mallName": "진천몰",
+    "url": "https://jcmall.net/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 29,
+    "mallName": "괴산장터",
+    "url": "https://www.gsjangter.go.kr/",
+    "bestScraperId": "S007",
+    "scraperType": "government",
+    "notes": "Government site (.go.kr)"
+  },
+  {
+    "mallId": 30,
+    "mallName": "농사랑",
+    "url": "https://nongsarang.co.kr/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 31,
+    "mallName": "당진팜",
+    "url": "https://dangjinfarm.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 32,
+    "mallName": "e홍성장터",
+    "url": "https://ehongseong.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 33,
+    "mallName": "서산뜨레",
+    "url": "https://seosanttre.com/index.html",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 34,
+    "mallName": "부안 텃밭할매",
+    "url": "https://www.xn--9z2bv5bx25anyd.kr/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website (punycode domain)"
+  },
+  {
+    "mallId": 35,
+    "mallName": "단풍미인 (정읍)",
+    "url": "https://www.danpoongmall.kr/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 36,
+    "mallName": "지평선몰(김제)",
+    "url": "https://jpsmall.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 37,
+    "mallName": "전북생생장터",
+    "url": "https://freshjb.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 38,
+    "mallName": "익산몰",
+    "url": "https://iksanmall.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 39,
+    "mallName": "진안고원몰",
+    "url": "https://xn--299az5xoii3qb66f.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website (punycode domain)"
+  },
+  {
+    "mallId": 40,
+    "mallName": "장수몰",
+    "url": "https://www.xn--352bl9k1ze.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website (punycode domain)"
+  },
+  {
+    "mallId": 41,
+    "mallName": "고창마켓",
+    "url": "https://noblegochang.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 42,
+    "mallName": "임실몰",
+    "url": "https://www.imsilin.kr/home",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 43,
+    "mallName": "순창로컬푸드쇼핑몰",
+    "url": "https://smartstore.naver.com/schfarm",
+    "bestScraperId": "S004",
+    "scraperType": "naver-smartstore",
+    "notes": "Naver Smart Store"
+  },
+  {
+    "mallId": 44,
+    "mallName": "해가람",
+    "url": "https://haegaram.com",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 45,
+    "mallName": "남도장터",
+    "url": "https://www.jnmall.kr/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 46,
+    "mallName": "여수몰",
+    "url": "http://www.yeosumall.co.kr/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 47,
+    "mallName": "해피굿팜",
+    "url": "https://smartstore.naver.com/hgoodfarm",
+    "bestScraperId": "S004",
+    "scraperType": "naver-smartstore",
+    "notes": "Naver Smart Store"
+  },
+  {
+    "mallId": 48,
+    "mallName": "보성몰",
+    "url": "https://boseongmall.co.kr/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 49,
+    "mallName": "나주몰",
+    "url": "https://najumall.kr/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 50,
+    "mallName": "순천로컬푸드함께가게",
+    "url": "https://sclocal.kr/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 51,
+    "mallName": "신안1004몰",
+    "url": "https://shinan1004mall.kr/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 52,
+    "mallName": "장흥몰 (산들해랑장흥몰)",
+    "url": "https://okjmall.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 53,
+    "mallName": "기찬들영암몰",
+    "url": "https://yeongammall.co.kr/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 54,
+    "mallName": "진도아리랑몰",
+    "url": "https://jindoarirangmall.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 55,
+    "mallName": "완도군이숍",
+    "url": "https://wandofood.go.kr/",
+    "bestScraperId": "S007",
+    "scraperType": "government",
+    "notes": "Government site (.go.kr)"
+  },
+  {
+    "mallId": 56,
+    "mallName": "함평천지몰",
+    "url": "https://xn--352bl9yz7b63kj6b.kr/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website (punycode domain)"
+  },
+  {
+    "mallId": 57,
+    "mallName": "해남미소",
+    "url": "https://www.hnmiso.com/kwa-home",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 58,
+    "mallName": "담양장터",
+    "url": "https://damyangmk.kr/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 59,
+    "mallName": "초록믿음(강진)",
+    "url": "https://greengj.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 60,
+    "mallName": "화순팜",
+    "url": "https://www.hwasunfarm.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 61,
+    "mallName": "곡성몰 (곡성군농특산물중개몰)",
+    "url": "https://gokseongmall.com/",
+    "bestScraperId": "S012",
+    "scraperType": "gokseong-custom",
+    "notes": "Custom scraper specifically for this mall"
+  },
+  {
+    "mallId": 62,
+    "mallName": "사이소(경북몰)",
+    "url": "https://www.cyso.co.kr/",
+    "bestScraperId": "S003",
+    "scraperType": "cyso-enhanced",
+    "notes": "CYSO platform - main site"
+  },
+  {
+    "mallId": 63,
+    "mallName": "상주 명실상주몰",
+    "url": "https://sjmall.cyso.co.kr/",
+    "bestScraperId": "S003",
+    "scraperType": "cyso-enhanced",
+    "notes": "CYSO platform"
+  },
+  {
+    "mallId": 64,
+    "mallName": "청도 청리브",
+    "url": "https://cdmall.cyso.co.kr",
+    "bestScraperId": "S003",
+    "scraperType": "cyso-enhanced",
+    "notes": "CYSO platform"
+  },
+  {
+    "mallId": 65,
+    "mallName": "영주장날",
+    "url": "https://yjmarket.cyso.co.kr/",
+    "bestScraperId": "S003",
+    "scraperType": "cyso-enhanced",
+    "notes": "CYSO platform"
+  },
+  {
+    "mallId": 66,
+    "mallName": "안동장터",
+    "url": "https://andongjang.andong.go.kr/",
+    "bestScraperId": "S013",
+    "scraperType": "andong-custom",
+    "notes": "Custom scraper specifically for this mall"
+  },
+  {
+    "mallId": 67,
+    "mallName": "청송몰",
+    "url": "https://csmall.cyso.co.kr/",
+    "bestScraperId": "S003",
+    "scraperType": "cyso-enhanced",
+    "notes": "CYSO platform"
+  },
+  {
+    "mallId": 68,
+    "mallName": "영양온심마켓",
+    "url": "https://onsim.cyso.co.kr/",
+    "bestScraperId": "S003",
+    "scraperType": "cyso-enhanced",
+    "notes": "CYSO platform"
+  },
+  {
+    "mallId": 69,
+    "mallName": "울릉도",
+    "url": "https://ulmall.cyso.co.kr",
+    "bestScraperId": "S003",
+    "scraperType": "cyso-enhanced",
+    "notes": "CYSO platform"
+  },
+  {
+    "mallId": 70,
+    "mallName": "봉화장터",
+    "url": "https://bmall.cyso.co.kr/",
+    "bestScraperId": "S003",
+    "scraperType": "cyso-enhanced",
+    "notes": "CYSO platform"
+  },
+  {
+    "mallId": 71,
+    "mallName": "고령몰",
+    "url": "https://grmall.cyso.co.kr/",
+    "bestScraperId": "S003",
+    "scraperType": "cyso-enhanced",
+    "notes": "CYSO platform"
+  },
+  {
+    "mallId": 72,
+    "mallName": "김천노다지장터",
+    "url": "http://gcnodaji.com/",
+    "bestScraperId": "S011",
+    "scraperType": "gimcheon-custom",
+    "notes": "Custom scraper specifically for this mall"
+  },
+  {
+    "mallId": 73,
+    "mallName": "예천장터",
+    "url": "https://ycjang.cyso.co.kr/",
+    "bestScraperId": "S003",
+    "scraperType": "cyso-enhanced",
+    "notes": "CYSO platform"
+  },
+  {
+    "mallId": 74,
+    "mallName": "문경 새제의아침",
+    "url": "https://mgmall.cyso.co.kr/",
+    "bestScraperId": "S003",
+    "scraperType": "cyso-enhanced",
+    "notes": "CYSO platform"
+  },
+  {
+    "mallId": 75,
+    "mallName": "칠곡몰",
+    "url": "https://cgmall.cyso.co.kr/",
+    "bestScraperId": "S003",
+    "scraperType": "cyso-enhanced",
+    "notes": "CYSO platform"
+  },
+  {
+    "mallId": 76,
+    "mallName": "의성장날",
+    "url": "https://esmall.cyso.co.kr/",
+    "bestScraperId": "S003",
+    "scraperType": "cyso-enhanced",
+    "notes": "CYSO platform"
+  },
+  {
+    "mallId": 77,
+    "mallName": "울진몰",
+    "url": "https://ujmall.cyso.co.kr/",
+    "bestScraperId": "S003",
+    "scraperType": "cyso-enhanced",
+    "notes": "CYSO platform"
+  },
+  {
+    "mallId": 78,
+    "mallName": "영덕장터",
+    "url": "https://ydmall.cyso.co.kr/",
+    "bestScraperId": "S003",
+    "scraperType": "cyso-enhanced",
+    "notes": "CYSO platform"
+  },
+  {
+    "mallId": 79,
+    "mallName": "경산몰",
+    "url": "https://gsmall.cyso.co.kr/",
+    "bestScraperId": "S003",
+    "scraperType": "cyso-enhanced",
+    "notes": "CYSO platform"
+  },
+  {
+    "mallId": 80,
+    "mallName": "경주몰",
+    "url": "https://gjmall.cyso.co.kr/",
+    "bestScraperId": "S003",
+    "scraperType": "cyso-enhanced",
+    "notes": "CYSO platform"
+  },
+  {
+    "mallId": 81,
+    "mallName": "구미팜",
+    "url": "https://gmmall.cyso.co.kr/",
+    "bestScraperId": "S003",
+    "scraperType": "cyso-enhanced",
+    "notes": "CYSO platform"
+  },
+  {
+    "mallId": 82,
+    "mallName": "별빛촌장터(영천)",
+    "url": "https://01000.cyso.co.kr/",
+    "bestScraperId": "S003",
+    "scraperType": "cyso-enhanced",
+    "notes": "CYSO platform"
+  },
+  {
+    "mallId": 83,
+    "mallName": "포항마켓",
+    "url": "https://pohangmarket.cyso.co.kr/",
+    "bestScraperId": "S003",
+    "scraperType": "cyso-enhanced",
+    "notes": "CYSO platform"
+  },
+  {
+    "mallId": 84,
+    "mallName": "e경남몰",
+    "url": "https://egnmall.kr",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 85,
+    "mallName": "토요애 (의령)",
+    "url": "https://toyoae.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 86,
+    "mallName": "남해몰",
+    "url": "https://enamhae.co.kr/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 87,
+    "mallName": "산엔청 (산청)",
+    "url": "https://sanencheong.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 88,
+    "mallName": "공룡나라 (고성)",
+    "url": "https://www.edinomall.com/shop/smain/index.php",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 89,
+    "mallName": "함양몰",
+    "url": "https://2900.co.kr/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 90,
+    "mallName": "진주드림",
+    "url": "https://jinjudream.com/",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 91,
+    "mallName": "함안몰",
+    "url": "https://hamanmall.com",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 92,
+    "mallName": "김해온몰",
+    "url": "https://gimhaemall.kr",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  },
+  {
+    "mallId": 93,
+    "mallName": "이제주몰",
+    "url": "https://mall.ejeju.net/main/index.do",
+    "bestScraperId": "S001",
+    "scraperType": "generic-axios",
+    "notes": "Standard website"
+  }
+]

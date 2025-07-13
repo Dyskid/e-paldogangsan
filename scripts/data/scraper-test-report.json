@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-07-13T01:25:53.417Z",
+  "totalScrapers": 16,
+  "workingScrapers": 0,
+  "scrapers": [
+    {
+      "id": "S001",
+      "name": "generic-axios",
+      "file": "generic-axios-scraper.js",
+      "exists": true,
+      "hasScrapeFn": false,
+      "status": "✗ Missing scrape function"
+    },
+    {
+      "id": "S002",
+      "name": "cyso-platform",
+      "file": "cyso-platform-scraper.js",
+      "exists": true,
+      "hasScrapeFn": false,
+      "status": "✗ Missing scrape function"
+    },
+    {
+      "id": "S003",
+      "name": "cyso-enhanced",
+      "file": "cyso-enhanced-scraper.js",
+      "exists": true,
+      "hasScrapeFn": false,
+      "status": "✗ Missing scrape function"
+    },
+    {
+      "id": "S004",
+      "name": "naver-smartstore",
+      "file": "naver-smartstore-scraper.js",
+      "exists": true,
+      "hasScrapeFn": false,
+      "status": "✗ Missing scrape function"
+    },
+    {
+      "id": "S005",
+      "name": "cafe24",
+      "file": "cafe24-scraper.js",
+      "exists": true,
+      "hasScrapeFn": false,
+      "status": "✗ Missing scrape function"
+    },
+    {
+      "id": "S006",
+      "name": "regional-mall",
+      "file": "regional-mall-scraper.js",
+      "exists": true,
+      "hasScrapeFn": false,
+      "status": "✗ Missing scrape function"
+    },
+    {
+      "id": "S007",
+      "name": "government",
+      "file": "government-scraper.js",
+      "exists": true,
+      "hasScrapeFn": false,
+      "status": "✗ Missing scrape function"
+    },
+    {
+      "id": "S008",
+      "name": "ezwel",
+      "file": "ezwel-scraper.js",
+      "exists": true,
+      "hasScrapeFn": false,
+      "status": "✗ Missing scrape function"
+    },
+    {
+      "id": "S009",
+      "name": "mangotree",
+      "file": "mangotree-scraper.js",
+      "exists": true,
+      "hasScrapeFn": false,
+      "status": "✗ Missing scrape function"
+    },
+    {
+      "id": "S011",
+      "name": "gimcheon-custom",
+      "file": "gimcheon-custom-scraper.js",
+      "exists": true,
+      "hasScrapeFn": false,
+      "status": "✗ Missing scrape function"
+    },
+    {
+      "id": "S012",
+      "name": "gokseong-custom",
+      "file": "gokseong-custom-scraper.js",
+      "exists": true,
+      "hasScrapeFn": false,
+      "status": "✗ Missing scrape function"
+    },
+    {
+      "id": "S013",
+      "name": "andong-custom",
+      "file": "andong-custom-scraper.js",
+      "exists": true,
+      "hasScrapeFn": false,
+      "status": "✗ Missing scrape function"
+    },
+    {
+      "id": "S014",
+      "name": "puppeteer",
+      "file": "puppeteer-scraper.js",
+      "exists": true,
+      "hasScrapeFn": false,
+      "status": "✗ Missing scrape function"
+    },
+    {
+      "id": "S015",
+      "name": "custom-platform",
+      "file": "custom-platform-s015-scraper.js",
+      "exists": true,
+      "hasScrapeFn": false,
+      "status": "✗ Missing scrape function"
+    },
+    {
+      "id": "S016",
+      "name": "gwangju-kimchi",
+      "file": "gwangju-kimchi-custom-scraper.js",
+      "exists": true,
+      "hasScrapeFn": false,
+      "status": "✗ Missing scrape function"
+    },
+    {
+      "id": "S017",
+      "name": "yangju-farmers-market",
+      "file": "yangju-farmers-market-scraper.js",
+      "exists": true,
+      "hasScrapeFn": false,
+      "status": "✗ Missing scrape function"
+    }
+  ]
+}

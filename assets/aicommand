@@ -1,0 +1,3 @@
+ src\data\malls\malls.json 를 보고 모든 몰이  scripts\data\scraper-mappings.json 에 존재하게하고 우선 scripts\data\scraper-registry.json 에 있는        │
+│   scraper를 활용해서 mapping 시켜보다가 적당한 scraper가없으면 claude를 사용해서 새로만들어서 scripts\scrapers 에 저장하고                               │
+│   scripts\data\scraper-registry.json에 등록한다음 scripts\data\scraper-mappings.json 에서 매핑시켜    
