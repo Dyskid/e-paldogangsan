@@ -1,14 +1,8 @@
-
 {
   "mcpServers": {
-    "filesystem": {
-      "command": "docker",
-      "args": [
-        "run", "-i", "--rm",
-        "--mount", "type=bind,src=/mnt/c/Users/johndoe/Desktop/devskido/projects/e-paldogangsan,dst=/projects/e-paldogangsan",
-        "mcp/filesystem",
-        "/projects/e-paldogangsan"
-      ]
+    "fetch": {
+      "transport": "http",
+      "url": "http://mcp-fetch-container:3000"
     },
     "context7": {
       "command": "npx",
@@ -19,12 +13,13 @@
     },
     "taskmaster-ai": {
       "command": "npx",
-      "args": ["-y", "--package=task-master-ai", "task-master-ai"],
-      "env": {
-
-      },
+      "args": [
+        "-y",
+        "--package=task-master-ai",
+        "task-master-ai"
+      ],
+      "env": {},
       "type": "stdio"
     }
-    
   }
 }

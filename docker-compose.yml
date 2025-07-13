@@ -1,0 +1,22 @@
+services:
+  claude-container:
+    image: aio
+    networks:
+      - mcp-network
+    stdin_open: true      # docker run -i 와 동일
+    tty: true             # docker run -t 와 동일
+    user: "${USER_ID}:${GROUP_ID}" 
+    volumes:
+      - ./:/app                     # 현재 폴더를 /app에 바인드 마운트
+
+  mcp-fetch-container:
+    image: mcp/fetch
+    ports:
+      - "3000:3000"
+    networks:
+      - mcp-network
+    stdin_open: true
+
+networks:
+  mcp-network:
+    driver: bridge
