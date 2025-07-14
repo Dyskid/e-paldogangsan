@@ -1,14 +1,12 @@
 {
   "mcpServers": {
-    "fetch": {
-      "transport": "http",
-      "url": "http://mcp-fetch-container:3000"
-    },
-    "context7": {
-      "command": "npx",
+    "puppeteer": {
+      "command": "docker",
       "args": [
-        "-y",
-        "@upstash/context7-mcp@latest"
+        "run",
+        "-i",
+        "--rm",
+        "puppeteer"
       ]
     },
     "taskmaster-ai": {

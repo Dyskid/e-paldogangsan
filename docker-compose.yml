@@ -1,6 +1,6 @@
 services:
   claude-container:
-    image: aio
+    image: aio-dood
     networks:
       - mcp-network
     stdin_open: true      # docker run -i 와 동일
@@ -8,14 +8,21 @@ services:
     user: "${USER_ID}:${GROUP_ID}" 
     volumes:
       - ./:/app                     # 현재 폴더를 /app에 바인드 마운트
+      - /var/run/docker.sock:/var/run/docker.sock #docker out of docker하기위해
+    entrypoint: ["/bin/sh", "-c", "groupadd -f -g 989 docker 2>/dev/null || true; exec /bin/sh"] 
+    group_add:
+      - "989"
 
-  mcp-fetch-container:
-    image: mcp/fetch
+
+  mcp-puppeteer:
+    image: puppeteer
+    #entrypoint: /bin/sh  # ENTRYPOINT override
+    #command: -c "apt-get update && apt-get install -y socat && socat TCP-LISTEN:3000,reuseaddr,fork EXEC:'node dist/index.js'"
+    stdin_open: true
     ports:
       - "3000:3000"
     networks:
       - mcp-network
-    stdin_open: true
 
 networks:
   mcp-network:
