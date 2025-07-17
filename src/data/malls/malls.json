@@ -13,7 +13,7 @@
     "name": "참달성 (달성군)",
     "url": "https://chamds.com",
     "region": "대구",
-    "status": "scraped"
+    "status": "unscraped"
   },
   {
     "id": 3,
@@ -325,7 +325,7 @@
     "name": "고창마켓",
     "url": "https://noblegochang.com/",
     "region": "전북",
-    "status": "scraped"
+    "status": "unscraped"
   },
   {
     "id": 42,
@@ -333,7 +333,7 @@
     "name": "임실몰",
     "url": "https://www.imsilin.kr/home",
     "region": "전북",
-    "status": "error"
+    "status": "unscraped"
   },
   {
     "id": 43,
@@ -341,7 +341,7 @@
     "name": "순창로컬푸드쇼핑몰",
     "url": "https://smartstore.naver.com/schfarm",
     "region": "전북",
-    "status": "error"
+    "status": "unscraped"
   },
   {
     "id": 44,
@@ -349,7 +349,7 @@
     "name": "해가람",
     "url": "https://haegaram.com",
     "region": "전북",
-    "status": "scraped"
+    "status": "unscraped"
   },
   {
     "id": 45,
@@ -357,7 +357,7 @@
     "name": "남도장터",
     "url": "https://www.jnmall.kr/",
     "region": "전남",
-    "status": "scraped"
+    "status": "unscraped"
   },
   {
     "id": 46,
@@ -365,7 +365,7 @@
     "name": "여수몰",
     "url": "http://www.yeosumall.co.kr/",
     "region": "전남",
-    "status": "mock"
+    "status": "unscraped"
   },
   {
     "id": 47,
@@ -373,7 +373,7 @@
     "name": "해피굿팜",
     "url": "https://smartstore.naver.com/hgoodfarm",
     "region": "전남",
-    "status": "error"
+    "status": "unscraped"
   },
   {
     "id": 48,
@@ -381,7 +381,7 @@
     "name": "보성몰",
     "url": "https://boseongmall.co.kr/",
     "region": "전남",
-    "status": "scraped"
+    "status": "unscraped"
   },
   {
     "id": 49,
@@ -389,7 +389,7 @@
     "name": "나주몰",
     "url": "https://najumall.kr/",
     "region": "전남",
-    "status": "scraped"
+    "status": "unscraped"
   },
   {
     "id": 50,
@@ -397,7 +397,7 @@
     "name": "순천로컬푸드함께가게",
     "url": "https://sclocal.kr/",
     "region": "전남",
-    "status": "scraped"
+    "status": "unscraped"
   },
   {
     "id": 51,

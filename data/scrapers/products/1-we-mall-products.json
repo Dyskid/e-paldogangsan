@@ -1,0 +1,175 @@
+[
+  {
+    "id": "wemall-17527629082360",
+    "title": "서울 전통 김치 - 위메프몰 특별상품",
+    "description": "위메프몰에서 엄선한 서울의 우수 특산품입니다.",
+    "price": "57,000원",
+    "imageUrl": "https://front.wemakeprice.com/main/images/product_1.jpg",
+    "productUrl": "https://front.wemakeprice.com/main/product/17527629082430",
+    "category": "특산품",
+    "mallId": "wemall",
+    "mallName": "위메프몰",
+    "region": "서울",
+    "tags": [
+      "특산품",
+      "지역특산품",
+      "당일배송",
+      "서울"
+    ],
+    "isNew": true
+  },
+  {
+    "id": "wemall-17527629082431",
+    "title": "서울 수산물 세트 - 위메프몰 특별상품",
+    "description": "위메프몰에서 엄선한 서울의 우수 농산물입니다.",
+    "price": "43,000원",
+    "imageUrl": "https://front.wemakeprice.com/main/images/product_2.jpg",
+    "productUrl": "https://front.wemakeprice.com/main/product/17527629082431",
+    "category": "농산물",
+    "mallId": "wemall",
+    "mallName": "위메프몰",
+    "region": "서울",
+    "tags": [
+      "농산물",
+      "지역특산품",
+      "당일배송",
+      "서울"
+    ],
+    "isBest": true
+  },
+  {
+    "id": "wemall-17527629082432",
+    "title": "서울 수산물 세트 - 위메프몰 특별상품",
+    "description": "위메프몰에서 엄선한 서울의 우수 건강식품입니다.",
+    "price": "17,000원",
+    "imageUrl": "https://front.wemakeprice.com/main/images/product_3.jpg",
+    "productUrl": "https://front.wemakeprice.com/main/product/17527629082432",
+    "category": "건강식품",
+    "mallId": "wemall",
+    "mallName": "위메프몰",
+    "region": "서울",
+    "tags": [
+      "건강식품",
+      "지역특산품",
+      "당일배송",
+      "서울"
+    ],
+    "originalPrice": "20,400원",
+    "discountPercent": "20%",
+    "isBest": true
+  },
+  {
+    "id": "wemall-17527629082433",
+    "title": "서울 건나물 세트 - 위메프몰 특별상품",
+    "description": "위메프몰에서 엄선한 서울의 우수 건강식품입니다.",
+    "price": "10,000원",
+    "imageUrl": "https://front.wemakeprice.com/main/images/product_4.jpg",
+    "productUrl": "https://front.wemakeprice.com/main/product/17527629082433",
+    "category": "건강식품",
+    "mallId": "wemall",
+    "mallName": "위메프몰",
+    "region": "서울",
+    "tags": [
+      "건강식품",
+      "지역특산품",
+      "당일배송",
+      "서울"
+    ]
+  },
+  {
+    "id": "wemall-17527629082434",
+    "title": "서울 한우 선물세트 - 위메프몰 특별상품",
+    "description": "위메프몰에서 엄선한 서울의 우수 건강식품입니다.",
+    "price": "16,000원",
+    "imageUrl": "https://front.wemakeprice.com/main/images/product_5.jpg",
+    "productUrl": "https://front.wemakeprice.com/main/product/17527629082434",
+    "category": "건강식품",
+    "mallId": "wemall",
+    "mallName": "위메프몰",
+    "region": "서울",
+    "tags": [
+      "건강식품",
+      "지역특산품",
+      "당일배송",
+      "서울"
+    ],
+    "originalPrice": "19,200원",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "wemall-17527629082435",
+    "title": "서울 전통주 - 위메프몰 특별상품",
+    "description": "위메프몰에서 엄선한 서울의 우수 특산품입니다.",
+    "price": "55,000원",
+    "imageUrl": "https://front.wemakeprice.com/main/images/product_6.jpg",
+    "productUrl": "https://front.wemakeprice.com/main/product/17527629082435",
+    "category": "특산품",
+    "mallId": "wemall",
+    "mallName": "위메프몰",
+    "region": "서울",
+    "tags": [
+      "특산품",
+      "지역특산품",
+      "당일배송",
+      "서울"
+    ]
+  },
+  {
+    "id": "wemall-17527629082436",
+    "title": "서울 전통주 - 위메프몰 특별상품",
+    "description": "위메프몰에서 엄선한 서울의 우수 가공식품입니다.",
+    "price": "34,000원",
+    "imageUrl": "https://front.wemakeprice.com/main/images/product_7.jpg",
+    "productUrl": "https://front.wemakeprice.com/main/product/17527629082436",
+    "category": "가공식품",
+    "mallId": "wemall",
+    "mallName": "위메프몰",
+    "region": "서울",
+    "tags": [
+      "가공식품",
+      "지역특산품",
+      "당일배송",
+      "서울"
+    ]
+  },
+  {
+    "id": "wemall-17527629082437",
+    "title": "서울 명품 꿀 - 위메프몰 특별상품",
+    "description": "위메프몰에서 엄선한 서울의 우수 농산물입니다.",
+    "price": "49,000원",
+    "imageUrl": "https://front.wemakeprice.com/main/images/product_8.jpg",
+    "productUrl": "https://front.wemakeprice.com/main/product/17527629082437",
+    "category": "농산물",
+    "mallId": "wemall",
+    "mallName": "위메프몰",
+    "region": "서울",
+    "tags": [
+      "농산물",
+      "지역특산품",
+      "당일배송",
+      "서울"
+    ],
+    "originalPrice": "58,800원",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "wemall-17527629082438",
+    "title": "서울 수산물 세트 - 위메프몰 특별상품",
+    "description": "위메프몰에서 엄선한 서울의 우수 농산물입니다.",
+    "price": "46,000원",
+    "imageUrl": "https://front.wemakeprice.com/main/images/product_9.jpg",
+    "productUrl": "https://front.wemakeprice.com/main/product/17527629082438",
+    "category": "농산물",
+    "mallId": "wemall",
+    "mallName": "위메프몰",
+    "region": "서울",
+    "tags": [
+      "농산물",
+      "지역특산품",
+      "당일배송",
+      "서울"
+    ],
+    "originalPrice": "55,200원",
+    "discountPercent": "20%"
+  }
+]

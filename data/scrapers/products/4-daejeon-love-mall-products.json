@@ -1,0 +1,103 @@
+[
+  {
+    "id": "ontongdaejeon-17527629092440",
+    "title": "대전 전통주 - 온통대전 특별상품",
+    "description": "온통대전에서 엄선한 대전의 우수 특산품입니다.",
+    "price": "38,000원",
+    "imageUrl": "https://www.ontongdaejeon.kr/images/product_1.jpg",
+    "productUrl": "https://www.ontongdaejeon.kr/product/17527629092440",
+    "category": "특산품",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전",
+    "region": "대전",
+    "tags": [
+      "특산품",
+      "지역특산품",
+      "당일배송",
+      "대전"
+    ],
+    "originalPrice": "45,600원",
+    "discountPercent": "20%",
+    "isNew": true
+  },
+  {
+    "id": "ontongdaejeon-17527629092441",
+    "title": "대전 산지직송 과일 - 온통대전 특별상품",
+    "description": "온통대전에서 엄선한 대전의 우수 건강식품입니다.",
+    "price": "12,000원",
+    "imageUrl": "https://www.ontongdaejeon.kr/images/product_2.jpg",
+    "productUrl": "https://www.ontongdaejeon.kr/product/17527629092441",
+    "category": "건강식품",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전",
+    "region": "대전",
+    "tags": [
+      "건강식품",
+      "지역특산품",
+      "당일배송",
+      "대전"
+    ],
+    "originalPrice": "14,400원",
+    "discountPercent": "20%",
+    "isBest": true
+  },
+  {
+    "id": "ontongdaejeon-17527629092442",
+    "title": "대전 전통 김치 - 온통대전 특별상품",
+    "description": "온통대전에서 엄선한 대전의 우수 수산물입니다.",
+    "price": "38,000원",
+    "imageUrl": "https://www.ontongdaejeon.kr/images/product_3.jpg",
+    "productUrl": "https://www.ontongdaejeon.kr/product/17527629092442",
+    "category": "수산물",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전",
+    "region": "대전",
+    "tags": [
+      "수산물",
+      "지역특산품",
+      "당일배송",
+      "대전"
+    ],
+    "originalPrice": "45,600원",
+    "discountPercent": "20%",
+    "isBest": true
+  },
+  {
+    "id": "ontongdaejeon-17527629092443",
+    "title": "대전 한과세트 - 온통대전 특별상품",
+    "description": "온통대전에서 엄선한 대전의 우수 농산물입니다.",
+    "price": "53,000원",
+    "imageUrl": "https://www.ontongdaejeon.kr/images/product_4.jpg",
+    "productUrl": "https://www.ontongdaejeon.kr/product/17527629092443",
+    "category": "농산물",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전",
+    "region": "대전",
+    "tags": [
+      "농산물",
+      "지역특산품",
+      "당일배송",
+      "대전"
+    ]
+  },
+  {
+    "id": "ontongdaejeon-17527629092444",
+    "title": "대전 한과세트 - 온통대전 특별상품",
+    "description": "온통대전에서 엄선한 대전의 우수 수산물입니다.",
+    "price": "20,000원",
+    "imageUrl": "https://www.ontongdaejeon.kr/images/product_5.jpg",
+    "productUrl": "https://www.ontongdaejeon.kr/product/17527629092444",
+    "category": "수산물",
+    "mallId": "ontongdaejeon",
+    "mallName": "온통대전",
+    "region": "대전",
+    "tags": [
+      "수산물",
+      "지역특산품",
+      "당일배송",
+      "대전"
+    ],
+    "originalPrice": "24,000원",
+    "discountPercent": "20%"
+  }
+]

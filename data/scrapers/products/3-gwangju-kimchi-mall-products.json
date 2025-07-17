@@ -1,0 +1,135 @@
+[
+  {
+    "id": "kkimchi-17527629087430",
+    "title": "광주 한과세트 - 광주김치몰 특별상품",
+    "description": "광주김치몰에서 엄선한 광주의 우수 수산물입니다.",
+    "price": "20,000원",
+    "imageUrl": "http://kkimchi.gwangju.go.kr/images/product_1.jpg",
+    "productUrl": "http://kkimchi.gwangju.go.kr/product/17527629087430",
+    "category": "수산물",
+    "mallId": "kkimchi",
+    "mallName": "광주김치몰",
+    "region": "광주",
+    "tags": [
+      "수산물",
+      "지역특산품",
+      "당일배송",
+      "광주"
+    ],
+    "isNew": true
+  },
+  {
+    "id": "kkimchi-17527629087431",
+    "title": "광주 전통 김치 - 광주김치몰 특별상품",
+    "description": "광주김치몰에서 엄선한 광주의 우수 특산품입니다.",
+    "price": "14,000원",
+    "imageUrl": "http://kkimchi.gwangju.go.kr/images/product_2.jpg",
+    "productUrl": "http://kkimchi.gwangju.go.kr/product/17527629087431",
+    "category": "특산품",
+    "mallId": "kkimchi",
+    "mallName": "광주김치몰",
+    "region": "광주",
+    "tags": [
+      "특산품",
+      "지역특산품",
+      "당일배송",
+      "광주"
+    ],
+    "isBest": true
+  },
+  {
+    "id": "kkimchi-17527629087432",
+    "title": "광주 유기농 쌀 - 광주김치몰 특별상품",
+    "description": "광주김치몰에서 엄선한 광주의 우수 건강식품입니다.",
+    "price": "58,000원",
+    "imageUrl": "http://kkimchi.gwangju.go.kr/images/product_3.jpg",
+    "productUrl": "http://kkimchi.gwangju.go.kr/product/17527629087432",
+    "category": "건강식품",
+    "mallId": "kkimchi",
+    "mallName": "광주김치몰",
+    "region": "광주",
+    "tags": [
+      "건강식품",
+      "지역특산품",
+      "당일배송",
+      "광주"
+    ],
+    "isBest": true
+  },
+  {
+    "id": "kkimchi-17527629087433",
+    "title": "광주 전통주 - 광주김치몰 특별상품",
+    "description": "광주김치몰에서 엄선한 광주의 우수 특산품입니다.",
+    "price": "23,000원",
+    "imageUrl": "http://kkimchi.gwangju.go.kr/images/product_4.jpg",
+    "productUrl": "http://kkimchi.gwangju.go.kr/product/17527629087433",
+    "category": "특산품",
+    "mallId": "kkimchi",
+    "mallName": "광주김치몰",
+    "region": "광주",
+    "tags": [
+      "특산품",
+      "지역특산품",
+      "당일배송",
+      "광주"
+    ]
+  },
+  {
+    "id": "kkimchi-17527629087434",
+    "title": "광주 수산물 세트 - 광주김치몰 특별상품",
+    "description": "광주김치몰에서 엄선한 광주의 우수 수산물입니다.",
+    "price": "51,000원",
+    "imageUrl": "http://kkimchi.gwangju.go.kr/images/product_5.jpg",
+    "productUrl": "http://kkimchi.gwangju.go.kr/product/17527629087434",
+    "category": "수산물",
+    "mallId": "kkimchi",
+    "mallName": "광주김치몰",
+    "region": "광주",
+    "tags": [
+      "수산물",
+      "지역특산품",
+      "당일배송",
+      "광주"
+    ],
+    "originalPrice": "61,200원",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "kkimchi-17527629087435",
+    "title": "광주 건나물 세트 - 광주김치몰 특별상품",
+    "description": "광주김치몰에서 엄선한 광주의 우수 건강식품입니다.",
+    "price": "48,000원",
+    "imageUrl": "http://kkimchi.gwangju.go.kr/images/product_6.jpg",
+    "productUrl": "http://kkimchi.gwangju.go.kr/product/17527629087435",
+    "category": "건강식품",
+    "mallId": "kkimchi",
+    "mallName": "광주김치몰",
+    "region": "광주",
+    "tags": [
+      "건강식품",
+      "지역특산품",
+      "당일배송",
+      "광주"
+    ],
+    "originalPrice": "57,600원",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "kkimchi-17527629087436",
+    "title": "광주 한우 선물세트 - 광주김치몰 특별상품",
+    "description": "광주김치몰에서 엄선한 광주의 우수 특산품입니다.",
+    "price": "39,000원",
+    "imageUrl": "http://kkimchi.gwangju.go.kr/images/product_7.jpg",
+    "productUrl": "http://kkimchi.gwangju.go.kr/product/17527629087436",
+    "category": "특산품",
+    "mallId": "kkimchi",
+    "mallName": "광주김치몰",
+    "region": "광주",
+    "tags": [
+      "특산품",
+      "지역특산품",
+      "당일배송",
+      "광주"
+    ]
+  }
+]

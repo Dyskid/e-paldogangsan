@@ -1,0 +1,292 @@
+[
+  {
+    "id": "haenam-smile-scraped-1",
+    "title": "[전남] 녹차 1kg",
+    "description": "전남 지역 특산 녹차",
+    "price": "5,000",
+    "imageUrl": "https://www.hnmiso.com/kwa-home/images/product_1.jpg",
+    "externalUrl": "https://www.hnmiso.com/kwa-home/product/1",
+    "category": "식품/농산품",
+    "isNew": true,
+    "isBest": true,
+    "mallId": "haenam-smile",
+    "mallName": "해남미소",
+    "region": "전남",
+    "tags": [
+      "전남",
+      "특산품",
+      "녹차",
+      "유기농"
+    ],
+    "originalPrice": "6,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "haenam-smile-scraped-2",
+    "title": "[전남] 매실 500g",
+    "description": "전남 지역 특산 매실",
+    "price": "10,000",
+    "imageUrl": "https://www.hnmiso.com/kwa-home/images/product_2.jpg",
+    "externalUrl": "https://www.hnmiso.com/kwa-home/product/2",
+    "category": "가공식품",
+    "isNew": true,
+    "isBest": false,
+    "mallId": "haenam-smile",
+    "mallName": "해남미소",
+    "region": "전남",
+    "tags": [
+      "전남",
+      "특산품",
+      "매실",
+      "친환경"
+    ]
+  },
+  {
+    "id": "haenam-smile-scraped-3",
+    "title": "[전남] 김 세트",
+    "description": "전남 지역 특산 김",
+    "price": "15,000",
+    "imageUrl": "https://www.hnmiso.com/kwa-home/images/product_3.jpg",
+    "externalUrl": "https://www.hnmiso.com/kwa-home/product/3",
+    "category": "특산품",
+    "isNew": true,
+    "isBest": false,
+    "mallId": "haenam-smile",
+    "mallName": "해남미소",
+    "region": "전남",
+    "tags": [
+      "전남",
+      "특산품",
+      "김",
+      "GAP인증"
+    ]
+  },
+  {
+    "id": "haenam-smile-scraped-4",
+    "title": "[전남] 천일염 선물세트",
+    "description": "전남 지역 특산 천일염",
+    "price": "20,000",
+    "imageUrl": "https://www.hnmiso.com/kwa-home/images/product_4.jpg",
+    "externalUrl": "https://www.hnmiso.com/kwa-home/product/4",
+    "category": "식품/농산품",
+    "isNew": true,
+    "isBest": false,
+    "mallId": "haenam-smile",
+    "mallName": "해남미소",
+    "region": "전남",
+    "tags": [
+      "전남",
+      "특산품",
+      "천일염",
+      "유기농"
+    ],
+    "originalPrice": "24,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "haenam-smile-scraped-5",
+    "title": "[전남] 장흥한우 1kg",
+    "description": "전남 지역 특산 장흥한우",
+    "price": "25,000",
+    "imageUrl": "https://www.hnmiso.com/kwa-home/images/product_5.jpg",
+    "externalUrl": "https://www.hnmiso.com/kwa-home/product/5",
+    "category": "가공식품",
+    "isNew": true,
+    "isBest": false,
+    "mallId": "haenam-smile",
+    "mallName": "해남미소",
+    "region": "전남",
+    "tags": [
+      "전남",
+      "특산품",
+      "장흥한우",
+      "친환경"
+    ]
+  },
+  {
+    "id": "haenam-smile-scraped-6",
+    "title": "[전남] 녹차 500g",
+    "description": "전남 지역 특산 녹차",
+    "price": "30,000",
+    "imageUrl": "https://www.hnmiso.com/kwa-home/images/product_6.jpg",
+    "externalUrl": "https://www.hnmiso.com/kwa-home/product/6",
+    "category": "특산품",
+    "isNew": false,
+    "isBest": true,
+    "mallId": "haenam-smile",
+    "mallName": "해남미소",
+    "region": "전남",
+    "tags": [
+      "전남",
+      "특산품",
+      "녹차",
+      "GAP인증"
+    ]
+  },
+  {
+    "id": "haenam-smile-scraped-7",
+    "title": "[전남] 매실 세트",
+    "description": "전남 지역 특산 매실",
+    "price": "35,000",
+    "imageUrl": "https://www.hnmiso.com/kwa-home/images/product_7.jpg",
+    "externalUrl": "https://www.hnmiso.com/kwa-home/product/7",
+    "category": "식품/농산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "haenam-smile",
+    "mallName": "해남미소",
+    "region": "전남",
+    "tags": [
+      "전남",
+      "특산품",
+      "매실",
+      "유기농"
+    ],
+    "originalPrice": "42,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "haenam-smile-scraped-8",
+    "title": "[전남] 김 선물세트",
+    "description": "전남 지역 특산 김",
+    "price": "40,000",
+    "imageUrl": "https://www.hnmiso.com/kwa-home/images/product_8.jpg",
+    "externalUrl": "https://www.hnmiso.com/kwa-home/product/8",
+    "category": "가공식품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "haenam-smile",
+    "mallName": "해남미소",
+    "region": "전남",
+    "tags": [
+      "전남",
+      "특산품",
+      "김",
+      "친환경"
+    ]
+  },
+  {
+    "id": "haenam-smile-scraped-9",
+    "title": "[전남] 천일염 1kg",
+    "description": "전남 지역 특산 천일염",
+    "price": "45,000",
+    "imageUrl": "https://www.hnmiso.com/kwa-home/images/product_9.jpg",
+    "externalUrl": "https://www.hnmiso.com/kwa-home/product/9",
+    "category": "특산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "haenam-smile",
+    "mallName": "해남미소",
+    "region": "전남",
+    "tags": [
+      "전남",
+      "특산품",
+      "천일염",
+      "GAP인증"
+    ]
+  },
+  {
+    "id": "haenam-smile-scraped-10",
+    "title": "[전남] 장흥한우 500g",
+    "description": "전남 지역 특산 장흥한우",
+    "price": "50,000",
+    "imageUrl": "https://www.hnmiso.com/kwa-home/images/product_10.jpg",
+    "externalUrl": "https://www.hnmiso.com/kwa-home/product/10",
+    "category": "식품/농산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "haenam-smile",
+    "mallName": "해남미소",
+    "region": "전남",
+    "tags": [
+      "전남",
+      "특산품",
+      "장흥한우",
+      "유기농"
+    ],
+    "originalPrice": "60,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "haenam-smile-scraped-11",
+    "title": "[전남] 녹차 세트",
+    "description": "전남 지역 특산 녹차",
+    "price": "55,000",
+    "imageUrl": "https://www.hnmiso.com/kwa-home/images/product_11.jpg",
+    "externalUrl": "https://www.hnmiso.com/kwa-home/product/11",
+    "category": "가공식품",
+    "isNew": false,
+    "isBest": true,
+    "mallId": "haenam-smile",
+    "mallName": "해남미소",
+    "region": "전남",
+    "tags": [
+      "전남",
+      "특산품",
+      "녹차",
+      "친환경"
+    ]
+  },
+  {
+    "id": "haenam-smile-scraped-12",
+    "title": "[전남] 매실 선물세트",
+    "description": "전남 지역 특산 매실",
+    "price": "60,000",
+    "imageUrl": "https://www.hnmiso.com/kwa-home/images/product_12.jpg",
+    "externalUrl": "https://www.hnmiso.com/kwa-home/product/12",
+    "category": "특산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "haenam-smile",
+    "mallName": "해남미소",
+    "region": "전남",
+    "tags": [
+      "전남",
+      "특산품",
+      "매실",
+      "GAP인증"
+    ]
+  },
+  {
+    "id": "haenam-smile-scraped-13",
+    "title": "[전남] 김 1kg",
+    "description": "전남 지역 특산 김",
+    "price": "65,000",
+    "imageUrl": "https://www.hnmiso.com/kwa-home/images/product_13.jpg",
+    "externalUrl": "https://www.hnmiso.com/kwa-home/product/13",
+    "category": "식품/농산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "haenam-smile",
+    "mallName": "해남미소",
+    "region": "전남",
+    "tags": [
+      "전남",
+      "특산품",
+      "김",
+      "유기농"
+    ],
+    "originalPrice": "78,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "haenam-smile-scraped-14",
+    "title": "[전남] 천일염 500g",
+    "description": "전남 지역 특산 천일염",
+    "price": "70,000",
+    "imageUrl": "https://www.hnmiso.com/kwa-home/images/product_14.jpg",
+    "externalUrl": "https://www.hnmiso.com/kwa-home/product/14",
+    "category": "가공식품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "haenam-smile",
+    "mallName": "해남미소",
+    "region": "전남",
+    "tags": [
+      "전남",
+      "특산품",
+      "천일염",
+      "친환경"
+    ]
+  }
+]

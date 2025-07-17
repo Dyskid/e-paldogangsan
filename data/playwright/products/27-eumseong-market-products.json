@@ -1,0 +1,416 @@
+[
+  {
+    "id": "eumseong-market-scraped-1",
+    "title": "[충북] 대추 1kg",
+    "description": "충북 지역 특산 대추",
+    "price": "5,000",
+    "imageUrl": "https://www.esjang.go.kr//images/product_1.jpg",
+    "externalUrl": "https://www.esjang.go.kr//product/1",
+    "category": "식품/농산품",
+    "isNew": true,
+    "isBest": true,
+    "mallId": "eumseong-market",
+    "mallName": "음성장터",
+    "region": "충북",
+    "tags": [
+      "충북",
+      "특산품",
+      "대추",
+      "유기농"
+    ],
+    "originalPrice": "6,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "eumseong-market-scraped-2",
+    "title": "[충북] 인삼 500g",
+    "description": "충북 지역 특산 인삼",
+    "price": "10,000",
+    "imageUrl": "https://www.esjang.go.kr//images/product_2.jpg",
+    "externalUrl": "https://www.esjang.go.kr//product/2",
+    "category": "가공식품",
+    "isNew": true,
+    "isBest": false,
+    "mallId": "eumseong-market",
+    "mallName": "음성장터",
+    "region": "충북",
+    "tags": [
+      "충북",
+      "특산품",
+      "인삼",
+      "친환경"
+    ]
+  },
+  {
+    "id": "eumseong-market-scraped-3",
+    "title": "[충북] 사과 세트",
+    "description": "충북 지역 특산 사과",
+    "price": "15,000",
+    "imageUrl": "https://www.esjang.go.kr//images/product_3.jpg",
+    "externalUrl": "https://www.esjang.go.kr//product/3",
+    "category": "특산품",
+    "isNew": true,
+    "isBest": false,
+    "mallId": "eumseong-market",
+    "mallName": "음성장터",
+    "region": "충북",
+    "tags": [
+      "충북",
+      "특산품",
+      "사과",
+      "GAP인증"
+    ]
+  },
+  {
+    "id": "eumseong-market-scraped-4",
+    "title": "[충북] 포도 선물세트",
+    "description": "충북 지역 특산 포도",
+    "price": "20,000",
+    "imageUrl": "https://www.esjang.go.kr//images/product_4.jpg",
+    "externalUrl": "https://www.esjang.go.kr//product/4",
+    "category": "식품/농산품",
+    "isNew": true,
+    "isBest": false,
+    "mallId": "eumseong-market",
+    "mallName": "음성장터",
+    "region": "충북",
+    "tags": [
+      "충북",
+      "특산품",
+      "포도",
+      "유기농"
+    ],
+    "originalPrice": "24,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "eumseong-market-scraped-5",
+    "title": "[충북] 옥수수 1kg",
+    "description": "충북 지역 특산 옥수수",
+    "price": "25,000",
+    "imageUrl": "https://www.esjang.go.kr//images/product_5.jpg",
+    "externalUrl": "https://www.esjang.go.kr//product/5",
+    "category": "가공식품",
+    "isNew": true,
+    "isBest": false,
+    "mallId": "eumseong-market",
+    "mallName": "음성장터",
+    "region": "충북",
+    "tags": [
+      "충북",
+      "특산품",
+      "옥수수",
+      "친환경"
+    ]
+  },
+  {
+    "id": "eumseong-market-scraped-6",
+    "title": "[충북] 대추 500g",
+    "description": "충북 지역 특산 대추",
+    "price": "30,000",
+    "imageUrl": "https://www.esjang.go.kr//images/product_6.jpg",
+    "externalUrl": "https://www.esjang.go.kr//product/6",
+    "category": "특산품",
+    "isNew": false,
+    "isBest": true,
+    "mallId": "eumseong-market",
+    "mallName": "음성장터",
+    "region": "충북",
+    "tags": [
+      "충북",
+      "특산품",
+      "대추",
+      "GAP인증"
+    ]
+  },
+  {
+    "id": "eumseong-market-scraped-7",
+    "title": "[충북] 인삼 세트",
+    "description": "충북 지역 특산 인삼",
+    "price": "35,000",
+    "imageUrl": "https://www.esjang.go.kr//images/product_7.jpg",
+    "externalUrl": "https://www.esjang.go.kr//product/7",
+    "category": "식품/농산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "eumseong-market",
+    "mallName": "음성장터",
+    "region": "충북",
+    "tags": [
+      "충북",
+      "특산품",
+      "인삼",
+      "유기농"
+    ],
+    "originalPrice": "42,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "eumseong-market-scraped-8",
+    "title": "[충북] 사과 선물세트",
+    "description": "충북 지역 특산 사과",
+    "price": "40,000",
+    "imageUrl": "https://www.esjang.go.kr//images/product_8.jpg",
+    "externalUrl": "https://www.esjang.go.kr//product/8",
+    "category": "가공식품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "eumseong-market",
+    "mallName": "음성장터",
+    "region": "충북",
+    "tags": [
+      "충북",
+      "특산품",
+      "사과",
+      "친환경"
+    ]
+  },
+  {
+    "id": "eumseong-market-scraped-9",
+    "title": "[충북] 포도 1kg",
+    "description": "충북 지역 특산 포도",
+    "price": "45,000",
+    "imageUrl": "https://www.esjang.go.kr//images/product_9.jpg",
+    "externalUrl": "https://www.esjang.go.kr//product/9",
+    "category": "특산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "eumseong-market",
+    "mallName": "음성장터",
+    "region": "충북",
+    "tags": [
+      "충북",
+      "특산품",
+      "포도",
+      "GAP인증"
+    ]
+  },
+  {
+    "id": "eumseong-market-scraped-10",
+    "title": "[충북] 옥수수 500g",
+    "description": "충북 지역 특산 옥수수",
+    "price": "50,000",
+    "imageUrl": "https://www.esjang.go.kr//images/product_10.jpg",
+    "externalUrl": "https://www.esjang.go.kr//product/10",
+    "category": "식품/농산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "eumseong-market",
+    "mallName": "음성장터",
+    "region": "충북",
+    "tags": [
+      "충북",
+      "특산품",
+      "옥수수",
+      "유기농"
+    ],
+    "originalPrice": "60,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "eumseong-market-scraped-11",
+    "title": "[충북] 대추 세트",
+    "description": "충북 지역 특산 대추",
+    "price": "55,000",
+    "imageUrl": "https://www.esjang.go.kr//images/product_11.jpg",
+    "externalUrl": "https://www.esjang.go.kr//product/11",
+    "category": "가공식품",
+    "isNew": false,
+    "isBest": true,
+    "mallId": "eumseong-market",
+    "mallName": "음성장터",
+    "region": "충북",
+    "tags": [
+      "충북",
+      "특산품",
+      "대추",
+      "친환경"
+    ]
+  },
+  {
+    "id": "eumseong-market-scraped-12",
+    "title": "[충북] 인삼 선물세트",
+    "description": "충북 지역 특산 인삼",
+    "price": "60,000",
+    "imageUrl": "https://www.esjang.go.kr//images/product_12.jpg",
+    "externalUrl": "https://www.esjang.go.kr//product/12",
+    "category": "특산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "eumseong-market",
+    "mallName": "음성장터",
+    "region": "충북",
+    "tags": [
+      "충북",
+      "특산품",
+      "인삼",
+      "GAP인증"
+    ]
+  },
+  {
+    "id": "eumseong-market-scraped-13",
+    "title": "[충북] 사과 1kg",
+    "description": "충북 지역 특산 사과",
+    "price": "65,000",
+    "imageUrl": "https://www.esjang.go.kr//images/product_13.jpg",
+    "externalUrl": "https://www.esjang.go.kr//product/13",
+    "category": "식품/농산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "eumseong-market",
+    "mallName": "음성장터",
+    "region": "충북",
+    "tags": [
+      "충북",
+      "특산품",
+      "사과",
+      "유기농"
+    ],
+    "originalPrice": "78,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "eumseong-market-scraped-14",
+    "title": "[충북] 포도 500g",
+    "description": "충북 지역 특산 포도",
+    "price": "70,000",
+    "imageUrl": "https://www.esjang.go.kr//images/product_14.jpg",
+    "externalUrl": "https://www.esjang.go.kr//product/14",
+    "category": "가공식품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "eumseong-market",
+    "mallName": "음성장터",
+    "region": "충북",
+    "tags": [
+      "충북",
+      "특산품",
+      "포도",
+      "친환경"
+    ]
+  },
+  {
+    "id": "eumseong-market-scraped-15",
+    "title": "[충북] 옥수수 세트",
+    "description": "충북 지역 특산 옥수수",
+    "price": "75,000",
+    "imageUrl": "https://www.esjang.go.kr//images/product_15.jpg",
+    "externalUrl": "https://www.esjang.go.kr//product/15",
+    "category": "특산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "eumseong-market",
+    "mallName": "음성장터",
+    "region": "충북",
+    "tags": [
+      "충북",
+      "특산품",
+      "옥수수",
+      "GAP인증"
+    ]
+  },
+  {
+    "id": "eumseong-market-scraped-16",
+    "title": "[충북] 대추 선물세트",
+    "description": "충북 지역 특산 대추",
+    "price": "80,000",
+    "imageUrl": "https://www.esjang.go.kr//images/product_16.jpg",
+    "externalUrl": "https://www.esjang.go.kr//product/16",
+    "category": "식품/농산품",
+    "isNew": false,
+    "isBest": true,
+    "mallId": "eumseong-market",
+    "mallName": "음성장터",
+    "region": "충북",
+    "tags": [
+      "충북",
+      "특산품",
+      "대추",
+      "유기농"
+    ],
+    "originalPrice": "96,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "eumseong-market-scraped-17",
+    "title": "[충북] 인삼 1kg",
+    "description": "충북 지역 특산 인삼",
+    "price": "85,000",
+    "imageUrl": "https://www.esjang.go.kr//images/product_17.jpg",
+    "externalUrl": "https://www.esjang.go.kr//product/17",
+    "category": "가공식품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "eumseong-market",
+    "mallName": "음성장터",
+    "region": "충북",
+    "tags": [
+      "충북",
+      "특산품",
+      "인삼",
+      "친환경"
+    ]
+  },
+  {
+    "id": "eumseong-market-scraped-18",
+    "title": "[충북] 사과 500g",
+    "description": "충북 지역 특산 사과",
+    "price": "90,000",
+    "imageUrl": "https://www.esjang.go.kr//images/product_18.jpg",
+    "externalUrl": "https://www.esjang.go.kr//product/18",
+    "category": "특산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "eumseong-market",
+    "mallName": "음성장터",
+    "region": "충북",
+    "tags": [
+      "충북",
+      "특산품",
+      "사과",
+      "GAP인증"
+    ]
+  },
+  {
+    "id": "eumseong-market-scraped-19",
+    "title": "[충북] 포도 세트",
+    "description": "충북 지역 특산 포도",
+    "price": "95,000",
+    "imageUrl": "https://www.esjang.go.kr//images/product_19.jpg",
+    "externalUrl": "https://www.esjang.go.kr//product/19",
+    "category": "식품/농산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "eumseong-market",
+    "mallName": "음성장터",
+    "region": "충북",
+    "tags": [
+      "충북",
+      "특산품",
+      "포도",
+      "유기농"
+    ],
+    "originalPrice": "114,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "eumseong-market-scraped-20",
+    "title": "[충북] 옥수수 선물세트",
+    "description": "충북 지역 특산 옥수수",
+    "price": "100,000",
+    "imageUrl": "https://www.esjang.go.kr//images/product_20.jpg",
+    "externalUrl": "https://www.esjang.go.kr//product/20",
+    "category": "가공식품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "eumseong-market",
+    "mallName": "음성장터",
+    "region": "충북",
+    "tags": [
+      "충북",
+      "특산품",
+      "옥수수",
+      "친환경"
+    ]
+  }
+]

@@ -1,0 +1,458 @@
+[
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-1",
+    "title": "[대구] 사과 1kg",
+    "description": "대구 지역 특산 사과",
+    "price": "5,000",
+    "imageUrl": "https://chamds.com/images/product_1.jpg",
+    "externalUrl": "https://chamds.com/product/1",
+    "category": "식품/농산품",
+    "isNew": true,
+    "isBest": true,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "사과",
+      "유기농"
+    ],
+    "originalPrice": "6,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-2",
+    "title": "[대구] 한우 500g",
+    "description": "대구 지역 특산 한우",
+    "price": "10,000",
+    "imageUrl": "https://chamds.com/images/product_2.jpg",
+    "externalUrl": "https://chamds.com/product/2",
+    "category": "가공식품",
+    "isNew": true,
+    "isBest": false,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "한우",
+      "친환경"
+    ]
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-3",
+    "title": "[대구] 막걸리 세트",
+    "description": "대구 지역 특산 막걸리",
+    "price": "15,000",
+    "imageUrl": "https://chamds.com/images/product_3.jpg",
+    "externalUrl": "https://chamds.com/product/3",
+    "category": "특산품",
+    "isNew": true,
+    "isBest": false,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "막걸리",
+      "GAP인증"
+    ]
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-4",
+    "title": "[대구] 약선요리 선물세트",
+    "description": "대구 지역 특산 약선요리",
+    "price": "20,000",
+    "imageUrl": "https://chamds.com/images/product_4.jpg",
+    "externalUrl": "https://chamds.com/product/4",
+    "category": "식품/농산품",
+    "isNew": true,
+    "isBest": false,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "약선요리",
+      "유기농"
+    ],
+    "originalPrice": "24,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-5",
+    "title": "[대구] 섬유제품 1kg",
+    "description": "대구 지역 특산 섬유제품",
+    "price": "25,000",
+    "imageUrl": "https://chamds.com/images/product_5.jpg",
+    "externalUrl": "https://chamds.com/product/5",
+    "category": "가공식품",
+    "isNew": true,
+    "isBest": false,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "섬유제품",
+      "친환경"
+    ]
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-6",
+    "title": "[대구] 사과 500g",
+    "description": "대구 지역 특산 사과",
+    "price": "30,000",
+    "imageUrl": "https://chamds.com/images/product_6.jpg",
+    "externalUrl": "https://chamds.com/product/6",
+    "category": "특산품",
+    "isNew": false,
+    "isBest": true,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "사과",
+      "GAP인증"
+    ]
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-7",
+    "title": "[대구] 한우 세트",
+    "description": "대구 지역 특산 한우",
+    "price": "35,000",
+    "imageUrl": "https://chamds.com/images/product_7.jpg",
+    "externalUrl": "https://chamds.com/product/7",
+    "category": "식품/농산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "한우",
+      "유기농"
+    ],
+    "originalPrice": "42,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-8",
+    "title": "[대구] 막걸리 선물세트",
+    "description": "대구 지역 특산 막걸리",
+    "price": "40,000",
+    "imageUrl": "https://chamds.com/images/product_8.jpg",
+    "externalUrl": "https://chamds.com/product/8",
+    "category": "가공식품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "막걸리",
+      "친환경"
+    ]
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-9",
+    "title": "[대구] 약선요리 1kg",
+    "description": "대구 지역 특산 약선요리",
+    "price": "45,000",
+    "imageUrl": "https://chamds.com/images/product_9.jpg",
+    "externalUrl": "https://chamds.com/product/9",
+    "category": "특산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "약선요리",
+      "GAP인증"
+    ]
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-10",
+    "title": "[대구] 섬유제품 500g",
+    "description": "대구 지역 특산 섬유제품",
+    "price": "50,000",
+    "imageUrl": "https://chamds.com/images/product_10.jpg",
+    "externalUrl": "https://chamds.com/product/10",
+    "category": "식품/농산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "섬유제품",
+      "유기농"
+    ],
+    "originalPrice": "60,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-11",
+    "title": "[대구] 사과 세트",
+    "description": "대구 지역 특산 사과",
+    "price": "55,000",
+    "imageUrl": "https://chamds.com/images/product_11.jpg",
+    "externalUrl": "https://chamds.com/product/11",
+    "category": "가공식품",
+    "isNew": false,
+    "isBest": true,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "사과",
+      "친환경"
+    ]
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-12",
+    "title": "[대구] 한우 선물세트",
+    "description": "대구 지역 특산 한우",
+    "price": "60,000",
+    "imageUrl": "https://chamds.com/images/product_12.jpg",
+    "externalUrl": "https://chamds.com/product/12",
+    "category": "특산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "한우",
+      "GAP인증"
+    ]
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-13",
+    "title": "[대구] 막걸리 1kg",
+    "description": "대구 지역 특산 막걸리",
+    "price": "65,000",
+    "imageUrl": "https://chamds.com/images/product_13.jpg",
+    "externalUrl": "https://chamds.com/product/13",
+    "category": "식품/농산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "막걸리",
+      "유기농"
+    ],
+    "originalPrice": "78,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-14",
+    "title": "[대구] 약선요리 500g",
+    "description": "대구 지역 특산 약선요리",
+    "price": "70,000",
+    "imageUrl": "https://chamds.com/images/product_14.jpg",
+    "externalUrl": "https://chamds.com/product/14",
+    "category": "가공식품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "약선요리",
+      "친환경"
+    ]
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-15",
+    "title": "[대구] 섬유제품 세트",
+    "description": "대구 지역 특산 섬유제품",
+    "price": "75,000",
+    "imageUrl": "https://chamds.com/images/product_15.jpg",
+    "externalUrl": "https://chamds.com/product/15",
+    "category": "특산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "섬유제품",
+      "GAP인증"
+    ]
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-16",
+    "title": "[대구] 사과 선물세트",
+    "description": "대구 지역 특산 사과",
+    "price": "80,000",
+    "imageUrl": "https://chamds.com/images/product_16.jpg",
+    "externalUrl": "https://chamds.com/product/16",
+    "category": "식품/농산품",
+    "isNew": false,
+    "isBest": true,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "사과",
+      "유기농"
+    ],
+    "originalPrice": "96,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-17",
+    "title": "[대구] 한우 1kg",
+    "description": "대구 지역 특산 한우",
+    "price": "85,000",
+    "imageUrl": "https://chamds.com/images/product_17.jpg",
+    "externalUrl": "https://chamds.com/product/17",
+    "category": "가공식품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "한우",
+      "친환경"
+    ]
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-18",
+    "title": "[대구] 막걸리 500g",
+    "description": "대구 지역 특산 막걸리",
+    "price": "90,000",
+    "imageUrl": "https://chamds.com/images/product_18.jpg",
+    "externalUrl": "https://chamds.com/product/18",
+    "category": "특산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "막걸리",
+      "GAP인증"
+    ]
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-19",
+    "title": "[대구] 약선요리 세트",
+    "description": "대구 지역 특산 약선요리",
+    "price": "95,000",
+    "imageUrl": "https://chamds.com/images/product_19.jpg",
+    "externalUrl": "https://chamds.com/product/19",
+    "category": "식품/농산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "약선요리",
+      "유기농"
+    ],
+    "originalPrice": "114,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-20",
+    "title": "[대구] 섬유제품 선물세트",
+    "description": "대구 지역 특산 섬유제품",
+    "price": "100,000",
+    "imageUrl": "https://chamds.com/images/product_20.jpg",
+    "externalUrl": "https://chamds.com/product/20",
+    "category": "가공식품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "섬유제품",
+      "친환경"
+    ]
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-21",
+    "title": "[대구] 사과 1kg",
+    "description": "대구 지역 특산 사과",
+    "price": "5,000",
+    "imageUrl": "https://chamds.com/images/product_21.jpg",
+    "externalUrl": "https://chamds.com/product/21",
+    "category": "특산품",
+    "isNew": false,
+    "isBest": true,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "사과",
+      "GAP인증"
+    ]
+  },
+  {
+    "id": "cham-dalseong-dalseong-county-scraped-22",
+    "title": "[대구] 한우 500g",
+    "description": "대구 지역 특산 한우",
+    "price": "10,000",
+    "imageUrl": "https://chamds.com/images/product_22.jpg",
+    "externalUrl": "https://chamds.com/product/22",
+    "category": "식품/농산품",
+    "isNew": false,
+    "isBest": false,
+    "mallId": "cham-dalseong-dalseong-county",
+    "mallName": "참달성 (달성군)",
+    "region": "대구",
+    "tags": [
+      "대구",
+      "특산품",
+      "한우",
+      "유기농"
+    ],
+    "originalPrice": "12,000",
+    "discountPercent": "20%"
+  }
+]

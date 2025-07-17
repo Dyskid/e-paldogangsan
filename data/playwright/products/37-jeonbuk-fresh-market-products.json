@@ -1,0 +1,64 @@
+[
+  {
+    "id": "jeonbuk-fresh-market-scraped-1",
+    "title": "[전북] 한우 1kg",
+    "description": "전북 지역 특산 한우",
+    "price": "5,000",
+    "imageUrl": "https://freshjb.com//images/product_1.jpg",
+    "externalUrl": "https://freshjb.com//product/1",
+    "category": "식품/농산품",
+    "isNew": true,
+    "isBest": true,
+    "mallId": "jeonbuk-fresh-market",
+    "mallName": "전북생생장터",
+    "region": "전북",
+    "tags": [
+      "전북",
+      "특산품",
+      "한우",
+      "유기농"
+    ],
+    "originalPrice": "6,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "jeonbuk-fresh-market-scraped-2",
+    "title": "[전북] 복분자 500g",
+    "description": "전북 지역 특산 복분자",
+    "price": "10,000",
+    "imageUrl": "https://freshjb.com//images/product_2.jpg",
+    "externalUrl": "https://freshjb.com//product/2",
+    "category": "가공식품",
+    "isNew": true,
+    "isBest": false,
+    "mallId": "jeonbuk-fresh-market",
+    "mallName": "전북생생장터",
+    "region": "전북",
+    "tags": [
+      "전북",
+      "특산품",
+      "복분자",
+      "친환경"
+    ]
+  },
+  {
+    "id": "jeonbuk-fresh-market-scraped-3",
+    "title": "[전북] 순창고추장 세트",
+    "description": "전북 지역 특산 순창고추장",
+    "price": "15,000",
+    "imageUrl": "https://freshjb.com//images/product_3.jpg",
+    "externalUrl": "https://freshjb.com//product/3",
+    "category": "특산품",
+    "isNew": true,
+    "isBest": false,
+    "mallId": "jeonbuk-fresh-market",
+    "mallName": "전북생생장터",
+    "region": "전북",
+    "tags": [
+      "전북",
+      "특산품",
+      "순창고추장",
+      "GAP인증"
+    ]
+  }
+]

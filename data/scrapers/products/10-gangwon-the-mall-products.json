@@ -1,0 +1,171 @@
+[
+  {
+    "id": "gangwonthe-17527629097450",
+    "title": "강원 전통 김치 - 강원더몰 특별상품",
+    "description": "강원더몰에서 엄선한 강원의 우수 가공식품입니다.",
+    "price": "46,000원",
+    "imageUrl": "http://www.gangwonthe.com/images/product_1.jpg",
+    "productUrl": "http://www.gangwonthe.com/product/17527629097450",
+    "category": "가공식품",
+    "mallId": "gangwonthe",
+    "mallName": "강원더몰",
+    "region": "강원",
+    "tags": [
+      "가공식품",
+      "지역특산품",
+      "당일배송",
+      "강원"
+    ],
+    "isNew": true
+  },
+  {
+    "id": "gangwonthe-17527629097451",
+    "title": "강원 수제 청 - 강원더몰 특별상품",
+    "description": "강원더몰에서 엄선한 강원의 우수 건강식품입니다.",
+    "price": "40,000원",
+    "imageUrl": "http://www.gangwonthe.com/images/product_2.jpg",
+    "productUrl": "http://www.gangwonthe.com/product/17527629097451",
+    "category": "건강식품",
+    "mallId": "gangwonthe",
+    "mallName": "강원더몰",
+    "region": "강원",
+    "tags": [
+      "건강식품",
+      "지역특산품",
+      "당일배송",
+      "강원"
+    ],
+    "isBest": true
+  },
+  {
+    "id": "gangwonthe-17527629097452",
+    "title": "강원 한과세트 - 강원더몰 특별상품",
+    "description": "강원더몰에서 엄선한 강원의 우수 수산물입니다.",
+    "price": "11,000원",
+    "imageUrl": "http://www.gangwonthe.com/images/product_3.jpg",
+    "productUrl": "http://www.gangwonthe.com/product/17527629097452",
+    "category": "수산물",
+    "mallId": "gangwonthe",
+    "mallName": "강원더몰",
+    "region": "강원",
+    "tags": [
+      "수산물",
+      "지역특산품",
+      "당일배송",
+      "강원"
+    ],
+    "isBest": true
+  },
+  {
+    "id": "gangwonthe-17527629097453",
+    "title": "강원 명품 꿀 - 강원더몰 특별상품",
+    "description": "강원더몰에서 엄선한 강원의 우수 수산물입니다.",
+    "price": "24,000원",
+    "imageUrl": "http://www.gangwonthe.com/images/product_4.jpg",
+    "productUrl": "http://www.gangwonthe.com/product/17527629097453",
+    "category": "수산물",
+    "mallId": "gangwonthe",
+    "mallName": "강원더몰",
+    "region": "강원",
+    "tags": [
+      "수산물",
+      "지역특산품",
+      "당일배송",
+      "강원"
+    ]
+  },
+  {
+    "id": "gangwonthe-17527629097454",
+    "title": "강원 산지직송 과일 - 강원더몰 특별상품",
+    "description": "강원더몰에서 엄선한 강원의 우수 농산물입니다.",
+    "price": "51,000원",
+    "imageUrl": "http://www.gangwonthe.com/images/product_5.jpg",
+    "productUrl": "http://www.gangwonthe.com/product/17527629097454",
+    "category": "농산물",
+    "mallId": "gangwonthe",
+    "mallName": "강원더몰",
+    "region": "강원",
+    "tags": [
+      "농산물",
+      "지역특산품",
+      "당일배송",
+      "강원"
+    ]
+  },
+  {
+    "id": "gangwonthe-17527629097455",
+    "title": "강원 전통주 - 강원더몰 특별상품",
+    "description": "강원더몰에서 엄선한 강원의 우수 특산품입니다.",
+    "price": "34,000원",
+    "imageUrl": "http://www.gangwonthe.com/images/product_6.jpg",
+    "productUrl": "http://www.gangwonthe.com/product/17527629097455",
+    "category": "특산품",
+    "mallId": "gangwonthe",
+    "mallName": "강원더몰",
+    "region": "강원",
+    "tags": [
+      "특산품",
+      "지역특산품",
+      "당일배송",
+      "강원"
+    ]
+  },
+  {
+    "id": "gangwonthe-17527629097456",
+    "title": "강원 전통 김치 - 강원더몰 특별상품",
+    "description": "강원더몰에서 엄선한 강원의 우수 축산물입니다.",
+    "price": "25,000원",
+    "imageUrl": "http://www.gangwonthe.com/images/product_7.jpg",
+    "productUrl": "http://www.gangwonthe.com/product/17527629097456",
+    "category": "축산물",
+    "mallId": "gangwonthe",
+    "mallName": "강원더몰",
+    "region": "강원",
+    "tags": [
+      "축산물",
+      "지역특산품",
+      "당일배송",
+      "강원"
+    ],
+    "originalPrice": "30,000원",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "gangwonthe-17527629097457",
+    "title": "강원 한우 선물세트 - 강원더몰 특별상품",
+    "description": "강원더몰에서 엄선한 강원의 우수 수산물입니다.",
+    "price": "10,000원",
+    "imageUrl": "http://www.gangwonthe.com/images/product_8.jpg",
+    "productUrl": "http://www.gangwonthe.com/product/17527629097457",
+    "category": "수산물",
+    "mallId": "gangwonthe",
+    "mallName": "강원더몰",
+    "region": "강원",
+    "tags": [
+      "수산물",
+      "지역특산품",
+      "당일배송",
+      "강원"
+    ],
+    "originalPrice": "12,000원",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "gangwonthe-17527629097458",
+    "title": "강원 건나물 세트 - 강원더몰 특별상품",
+    "description": "강원더몰에서 엄선한 강원의 우수 축산물입니다.",
+    "price": "17,000원",
+    "imageUrl": "http://www.gangwonthe.com/images/product_9.jpg",
+    "productUrl": "http://www.gangwonthe.com/product/17527629097458",
+    "category": "축산물",
+    "mallId": "gangwonthe",
+    "mallName": "강원더몰",
+    "region": "강원",
+    "tags": [
+      "축산물",
+      "지역특산품",
+      "당일배송",
+      "강원"
+    ]
+  }
+]

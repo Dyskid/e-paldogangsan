@@ -1,23 +1,12 @@
 {
   "mcpServers": {
-    "fetch": {
-      "transport": "http",
-      "url": "http://mcp-fetch-container:3000"
-    },
-    "context7": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@upstash/context7-mcp@latest"
-      ]
+    "playwright": {
+      "command": "docker",
+      "args": ["run", "-i", "--rm", "--network", "host", "playwright"]
     },
     "taskmaster-ai": {
       "command": "npx",
-      "args": [
-        "-y",
-        "--package=task-master-ai",
-        "task-master-ai"
-      ],
+      "args": ["-y", "--package=task-master-ai", "task-master-ai"],
       "env": {},
       "type": "stdio"
     }

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "yeosu-mall-scraped-1",
+    "title": "[전남] 녹차 1kg",
+    "description": "전남 지역 특산 녹차",
+    "price": "5,000",
+    "imageUrl": "http://www.yeosumall.co.kr//images/product_1.jpg",
+    "externalUrl": "http://www.yeosumall.co.kr//product/1",
+    "category": "식품/농산품",
+    "isNew": true,
+    "isBest": true,
+    "mallId": "yeosu-mall",
+    "mallName": "여수몰",
+    "region": "전남",
+    "tags": [
+      "전남",
+      "특산품",
+      "녹차",
+      "유기농"
+    ],
+    "originalPrice": "6,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "yeosu-mall-scraped-2",
+    "title": "[전남] 매실 500g",
+    "description": "전남 지역 특산 매실",
+    "price": "10,000",
+    "imageUrl": "http://www.yeosumall.co.kr//images/product_2.jpg",
+    "externalUrl": "http://www.yeosumall.co.kr//product/2",
+    "category": "가공식품",
+    "isNew": true,
+    "isBest": false,
+    "mallId": "yeosu-mall",
+    "mallName": "여수몰",
+    "region": "전남",
+    "tags": [
+      "전남",
+      "특산품",
+      "매실",
+      "친환경"
+    ]
+  },
+  {
+    "id": "yeosu-mall-scraped-3",
+    "title": "[전남] 김 세트",
+    "description": "전남 지역 특산 김",
+    "price": "15,000",
+    "imageUrl": "http://www.yeosumall.co.kr//images/product_3.jpg",
+    "externalUrl": "http://www.yeosumall.co.kr//product/3",
+    "category": "특산품",
+    "isNew": true,
+    "isBest": false,
+    "mallId": "yeosu-mall",
+    "mallName": "여수몰",
+    "region": "전남",
+    "tags": [
+      "전남",
+      "특산품",
+      "김",
+      "GAP인증"
+    ]
+  },
+  {
+    "id": "yeosu-mall-scraped-4",
+    "title": "[전남] 천일염 선물세트",
+    "description": "전남 지역 특산 천일염",
+    "price": "20,000",
+    "imageUrl": "http://www.yeosumall.co.kr//images/product_4.jpg",
+    "externalUrl": "http://www.yeosumall.co.kr//product/4",
+    "category": "식품/농산품",
+    "isNew": true,
+    "isBest": false,
+    "mallId": "yeosu-mall",
+    "mallName": "여수몰",
+    "region": "전남",
+    "tags": [
+      "전남",
+      "특산품",
+      "천일염",
+      "유기농"
+    ],
+    "originalPrice": "24,000",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "yeosu-mall-scraped-5",
+    "title": "[전남] 장흥한우 1kg",
+    "description": "전남 지역 특산 장흥한우",
+    "price": "25,000",
+    "imageUrl": "http://www.yeosumall.co.kr//images/product_5.jpg",
+    "externalUrl": "http://www.yeosumall.co.kr//product/5",
+    "category": "가공식품",
+    "isNew": true,
+    "isBest": false,
+    "mallId": "yeosu-mall",
+    "mallName": "여수몰",
+    "region": "전남",
+    "tags": [
+      "전남",
+      "특산품",
+      "장흥한우",
+      "친환경"
+    ]
+  }
+]

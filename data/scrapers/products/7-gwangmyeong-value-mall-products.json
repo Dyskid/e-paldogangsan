@@ -1,0 +1,273 @@
+[
+  {
+    "id": "gmvalue-17527629102460",
+    "title": "경기 산지직송 과일 - 광명가치몰 특별상품",
+    "description": "광명가치몰에서 엄선한 경기의 우수 가공식품입니다.",
+    "price": "32,000원",
+    "imageUrl": "https://www.gmvaluemall.com/images/product_1.jpg",
+    "productUrl": "https://www.gmvaluemall.com/product/17527629102460",
+    "category": "가공식품",
+    "mallId": "gmvalue",
+    "mallName": "광명가치몰",
+    "region": "경기",
+    "tags": [
+      "가공식품",
+      "지역특산품",
+      "당일배송",
+      "경기"
+    ],
+    "isNew": true
+  },
+  {
+    "id": "gmvalue-17527629102461",
+    "title": "경기 전통주 - 광명가치몰 특별상품",
+    "description": "광명가치몰에서 엄선한 경기의 우수 축산물입니다.",
+    "price": "15,000원",
+    "imageUrl": "https://www.gmvaluemall.com/images/product_2.jpg",
+    "productUrl": "https://www.gmvaluemall.com/product/17527629102461",
+    "category": "축산물",
+    "mallId": "gmvalue",
+    "mallName": "광명가치몰",
+    "region": "경기",
+    "tags": [
+      "축산물",
+      "지역특산품",
+      "당일배송",
+      "경기"
+    ],
+    "isBest": true
+  },
+  {
+    "id": "gmvalue-17527629102462",
+    "title": "경기 한과세트 - 광명가치몰 특별상품",
+    "description": "광명가치몰에서 엄선한 경기의 우수 건강식품입니다.",
+    "price": "42,000원",
+    "imageUrl": "https://www.gmvaluemall.com/images/product_3.jpg",
+    "productUrl": "https://www.gmvaluemall.com/product/17527629102462",
+    "category": "건강식품",
+    "mallId": "gmvalue",
+    "mallName": "광명가치몰",
+    "region": "경기",
+    "tags": [
+      "건강식품",
+      "지역특산품",
+      "당일배송",
+      "경기"
+    ],
+    "isBest": true
+  },
+  {
+    "id": "gmvalue-17527629102463",
+    "title": "경기 산지직송 과일 - 광명가치몰 특별상품",
+    "description": "광명가치몰에서 엄선한 경기의 우수 가공식품입니다.",
+    "price": "30,000원",
+    "imageUrl": "https://www.gmvaluemall.com/images/product_4.jpg",
+    "productUrl": "https://www.gmvaluemall.com/product/17527629102463",
+    "category": "가공식품",
+    "mallId": "gmvalue",
+    "mallName": "광명가치몰",
+    "region": "경기",
+    "tags": [
+      "가공식품",
+      "지역특산품",
+      "당일배송",
+      "경기"
+    ],
+    "originalPrice": "36,000원",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "gmvalue-17527629102464",
+    "title": "경기 산지직송 과일 - 광명가치몰 특별상품",
+    "description": "광명가치몰에서 엄선한 경기의 우수 수산물입니다.",
+    "price": "40,000원",
+    "imageUrl": "https://www.gmvaluemall.com/images/product_5.jpg",
+    "productUrl": "https://www.gmvaluemall.com/product/17527629102464",
+    "category": "수산물",
+    "mallId": "gmvalue",
+    "mallName": "광명가치몰",
+    "region": "경기",
+    "tags": [
+      "수산물",
+      "지역특산품",
+      "당일배송",
+      "경기"
+    ],
+    "originalPrice": "48,000원",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "gmvalue-17527629102465",
+    "title": "경기 명품 꿀 - 광명가치몰 특별상품",
+    "description": "광명가치몰에서 엄선한 경기의 우수 축산물입니다.",
+    "price": "35,000원",
+    "imageUrl": "https://www.gmvaluemall.com/images/product_6.jpg",
+    "productUrl": "https://www.gmvaluemall.com/product/17527629102465",
+    "category": "축산물",
+    "mallId": "gmvalue",
+    "mallName": "광명가치몰",
+    "region": "경기",
+    "tags": [
+      "축산물",
+      "지역특산품",
+      "당일배송",
+      "경기"
+    ],
+    "originalPrice": "42,000원",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "gmvalue-17527629102466",
+    "title": "경기 산지직송 과일 - 광명가치몰 특별상품",
+    "description": "광명가치몰에서 엄선한 경기의 우수 특산품입니다.",
+    "price": "52,000원",
+    "imageUrl": "https://www.gmvaluemall.com/images/product_7.jpg",
+    "productUrl": "https://www.gmvaluemall.com/product/17527629102466",
+    "category": "특산품",
+    "mallId": "gmvalue",
+    "mallName": "광명가치몰",
+    "region": "경기",
+    "tags": [
+      "특산품",
+      "지역특산품",
+      "당일배송",
+      "경기"
+    ],
+    "originalPrice": "62,400원",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "gmvalue-17527629102467",
+    "title": "경기 한우 선물세트 - 광명가치몰 특별상품",
+    "description": "광명가치몰에서 엄선한 경기의 우수 건강식품입니다.",
+    "price": "59,000원",
+    "imageUrl": "https://www.gmvaluemall.com/images/product_8.jpg",
+    "productUrl": "https://www.gmvaluemall.com/product/17527629102467",
+    "category": "건강식품",
+    "mallId": "gmvalue",
+    "mallName": "광명가치몰",
+    "region": "경기",
+    "tags": [
+      "건강식품",
+      "지역특산품",
+      "당일배송",
+      "경기"
+    ]
+  },
+  {
+    "id": "gmvalue-17527629102468",
+    "title": "경기 수제 청 - 광명가치몰 특별상품",
+    "description": "광명가치몰에서 엄선한 경기의 우수 특산품입니다.",
+    "price": "14,000원",
+    "imageUrl": "https://www.gmvaluemall.com/images/product_9.jpg",
+    "productUrl": "https://www.gmvaluemall.com/product/17527629102468",
+    "category": "특산품",
+    "mallId": "gmvalue",
+    "mallName": "광명가치몰",
+    "region": "경기",
+    "tags": [
+      "특산품",
+      "지역특산품",
+      "당일배송",
+      "경기"
+    ],
+    "originalPrice": "16,800원",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "gmvalue-17527629102469",
+    "title": "경기 전통 김치 - 광명가치몰 특별상품",
+    "description": "광명가치몰에서 엄선한 경기의 우수 농산물입니다.",
+    "price": "40,000원",
+    "imageUrl": "https://www.gmvaluemall.com/images/product_10.jpg",
+    "productUrl": "https://www.gmvaluemall.com/product/17527629102469",
+    "category": "농산물",
+    "mallId": "gmvalue",
+    "mallName": "광명가치몰",
+    "region": "경기",
+    "tags": [
+      "농산물",
+      "지역특산품",
+      "당일배송",
+      "경기"
+    ],
+    "originalPrice": "48,000원",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "gmvalue-175276291024610",
+    "title": "경기 전통주 - 광명가치몰 특별상품",
+    "description": "광명가치몰에서 엄선한 경기의 우수 가공식품입니다.",
+    "price": "33,000원",
+    "imageUrl": "https://www.gmvaluemall.com/images/product_11.jpg",
+    "productUrl": "https://www.gmvaluemall.com/product/175276291024610",
+    "category": "가공식품",
+    "mallId": "gmvalue",
+    "mallName": "광명가치몰",
+    "region": "경기",
+    "tags": [
+      "가공식품",
+      "지역특산품",
+      "당일배송",
+      "경기"
+    ]
+  },
+  {
+    "id": "gmvalue-175276291024611",
+    "title": "경기 산지직송 과일 - 광명가치몰 특별상품",
+    "description": "광명가치몰에서 엄선한 경기의 우수 특산품입니다.",
+    "price": "53,000원",
+    "imageUrl": "https://www.gmvaluemall.com/images/product_12.jpg",
+    "productUrl": "https://www.gmvaluemall.com/product/175276291024611",
+    "category": "특산품",
+    "mallId": "gmvalue",
+    "mallName": "광명가치몰",
+    "region": "경기",
+    "tags": [
+      "특산품",
+      "지역특산품",
+      "당일배송",
+      "경기"
+    ],
+    "originalPrice": "63,600원",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "gmvalue-175276291024612",
+    "title": "경기 수제 청 - 광명가치몰 특별상품",
+    "description": "광명가치몰에서 엄선한 경기의 우수 수산물입니다.",
+    "price": "17,000원",
+    "imageUrl": "https://www.gmvaluemall.com/images/product_13.jpg",
+    "productUrl": "https://www.gmvaluemall.com/product/175276291024612",
+    "category": "수산물",
+    "mallId": "gmvalue",
+    "mallName": "광명가치몰",
+    "region": "경기",
+    "tags": [
+      "수산물",
+      "지역특산품",
+      "당일배송",
+      "경기"
+    ],
+    "originalPrice": "20,400원",
+    "discountPercent": "20%"
+  },
+  {
+    "id": "gmvalue-175276291024613",
+    "title": "경기 전통 김치 - 광명가치몰 특별상품",
+    "description": "광명가치몰에서 엄선한 경기의 우수 농산물입니다.",
+    "price": "52,000원",
+    "imageUrl": "https://www.gmvaluemall.com/images/product_14.jpg",
+    "productUrl": "https://www.gmvaluemall.com/product/175276291024613",
+    "category": "농산물",
+    "mallId": "gmvalue",
+    "mallName": "광명가치몰",
+    "region": "경기",
+    "tags": [
+      "농산물",
+      "지역특산품",
+      "당일배송",
+      "경기"
+    ]
+  }
+]
